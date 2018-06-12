@@ -1,0 +1,94 @@
+---
+title: Ação (ConversationActionTypeType)
+manager: sethgros
+ms.date: 09/17/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- Action
+api_type:
+- schema
+ms.assetid: 8bbc12f2-76c5-4fda-828f-56b2086a0454
+description: O elemento Action contém a ação a ser executada a conversa especificada pelo elemento ConversationId.
+ms.openlocfilehash: b468eeaf0c2509bfa53cbd83f497f0bae20a7f68
+ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19751033"
+---
+# <a name="action-conversationactiontypetype"></a><span data-ttu-id="601a4-103">Ação (ConversationActionTypeType)</span><span class="sxs-lookup"><span data-stu-id="601a4-103">Action (ConversationActionTypeType)</span></span>
+
+<span data-ttu-id="601a4-104">O elemento **Action** contém a ação a ser executada a conversa especificada pelo elemento [ConversationId](conversationid.md) .</span><span class="sxs-lookup"><span data-stu-id="601a4-104">The **Action** element contains the action to perform on the conversation specified by the [ConversationId](conversationid.md) element.</span></span> 
+  
+- [<span data-ttu-id="601a4-105">ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="601a4-105">ApplyConversationAction</span></span>](applyconversationaction.md)
+  
+- [<span data-ttu-id="601a4-106">ConversationActions</span><span class="sxs-lookup"><span data-stu-id="601a4-106">ConversationActions</span></span>](conversationactions.md)
+  
+- [<span data-ttu-id="601a4-107">ConversationAction</span><span class="sxs-lookup"><span data-stu-id="601a4-107">ConversationAction</span></span>](conversationaction.md)
+  
+- [<span data-ttu-id="601a4-108">Ação (ConversationActionTypeType)</span><span class="sxs-lookup"><span data-stu-id="601a4-108">Action (ConversationActionTypeType)</span></span>](action-conversationactiontypetype.md)
+  
+```XML
+<Action> AlwaysCategorize | AlwaysDelete | AlwaysMove | Delete | Move | Copy | SetReadState </Action>
+```
+
+ <span data-ttu-id="601a4-109">**ConversationActionTypeType**</span><span class="sxs-lookup"><span data-stu-id="601a4-109">**ConversationActionTypeType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="601a4-110">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="601a4-110">Attributes and elements</span></span>
+
+<span data-ttu-id="601a4-111">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="601a4-111">The following sections describe attributes, child elements, and parent elements.</span></span>
+  
+### <a name="attributes"></a><span data-ttu-id="601a4-112">Atributos</span><span class="sxs-lookup"><span data-stu-id="601a4-112">Attributes</span></span>
+
+<span data-ttu-id="601a4-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="601a4-113">None.</span></span>
+  
+### <a name="child-elements"></a><span data-ttu-id="601a4-114">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="601a4-114">Child elements</span></span>
+
+<span data-ttu-id="601a4-115">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="601a4-115">None.</span></span>
+  
+### <a name="parent-elements"></a><span data-ttu-id="601a4-116">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="601a4-116">Parent elements</span></span>
+
+|<span data-ttu-id="601a4-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="601a4-117">**Element**</span></span>|<span data-ttu-id="601a4-118">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="601a4-118">**Description**</span></span>|
+|:-----|:-----|
+|[<span data-ttu-id="601a4-119">ConversationAction</span><span class="sxs-lookup"><span data-stu-id="601a4-119">ConversationAction</span></span>](conversationaction.md) <br/> |<span data-ttu-id="601a4-120">Contém uma única ação a ser aplicado a uma única conversa.</span><span class="sxs-lookup"><span data-stu-id="601a4-120">Contains a single action to be applied to a single conversation.</span></span>  <br/> |
+   
+## <a name="text-value"></a><span data-ttu-id="601a4-121">Text value</span><span class="sxs-lookup"><span data-stu-id="601a4-121">Text value</span></span>
+
+<span data-ttu-id="601a4-122">O valor de texto do elemento **Action** indica a ação que será executada em uma conversa.</span><span class="sxs-lookup"><span data-stu-id="601a4-122">The text value of the **Action** element indicates which action will be performed on a conversation.</span></span> <span data-ttu-id="601a4-123">Estes são os valores de texto possíveis e as ações correspondentes:</span><span class="sxs-lookup"><span data-stu-id="601a4-123">The following are the possible text values and the corresponding actions:</span></span> 
+  
+- <span data-ttu-id="601a4-124">**AlwaysCategorize** - os itens atuais e novos itens da conversa serão definidas automaticamente com as categorias identificadas no elemento [categorias](categories-ex15websvcsotherref.md) .</span><span class="sxs-lookup"><span data-stu-id="601a4-124">**AlwaysCategorize** - The current items and new items in the conversation will automatically be set with the categories identified in the [Categories](categories-ex15websvcsotherref.md) element.</span></span> 
+    
+- <span data-ttu-id="601a4-125">**AlwaysDelete** - os itens atuais e novos itens da conversa serão excluídas automaticamente.</span><span class="sxs-lookup"><span data-stu-id="601a4-125">**AlwaysDelete** - The current items and new items in the conversation will automatically be deleted.</span></span> <span data-ttu-id="601a4-126">O modo de exclusão é definido pelo elemento [DeleteType](deletetype.md) .</span><span class="sxs-lookup"><span data-stu-id="601a4-126">The deletion mode is set by the [DeleteType](deletetype.md) element.</span></span> 
+    
+- <span data-ttu-id="601a4-127">**AlwaysMove** - os itens atuais e novos itens da conversa serão movidas automaticamente para a pasta identificada pelo elemento [DestinationFolderId](destinationfolderid.md) .</span><span class="sxs-lookup"><span data-stu-id="601a4-127">**AlwaysMove** - The current items and new items in the conversation will automatically be moved to the folder identified by the [DestinationFolderId](destinationfolderid.md) element.</span></span> 
+    
+- <span data-ttu-id="601a4-128">**Excluir** - os itens da conversa atuais será excluído.</span><span class="sxs-lookup"><span data-stu-id="601a4-128">**Delete** - The current items in the conversation will be deleted.</span></span> <span data-ttu-id="601a4-129">Os itens na conversa subsequentes não serão excluídos.</span><span class="sxs-lookup"><span data-stu-id="601a4-129">Subsequent items in the conversation will not be deleted.</span></span> <span data-ttu-id="601a4-130">O modo de exclusão é definido pelo elemento [DeleteType](deletetype.md) .</span><span class="sxs-lookup"><span data-stu-id="601a4-130">The deletion mode is set by the [DeleteType](deletetype.md) element.</span></span> 
+    
+- <span data-ttu-id="601a4-131">**Mova** - os itens atuais na conversa serão movidas para a pasta identificada pelo elemento [DestinationFolderId](destinationfolderid.md) .</span><span class="sxs-lookup"><span data-stu-id="601a4-131">**Move** - The current items in the conversation will be moved to the folder identified by the [DestinationFolderId](destinationfolderid.md) element.</span></span> <span data-ttu-id="601a4-132">Os itens na conversa subsequentes não serão movidos.</span><span class="sxs-lookup"><span data-stu-id="601a4-132">Subsequent items in the conversation will not be moved.</span></span> 
+    
+- <span data-ttu-id="601a4-133">**Copy** - os itens da conversa atuais serão copiadas para a pasta identificada pelo elemento [DestinationFolderId](destinationfolderid.md) .</span><span class="sxs-lookup"><span data-stu-id="601a4-133">**Copy** - The current items in the conversation will be copied to the folder identified by the [DestinationFolderId](destinationfolderid.md) element.</span></span> <span data-ttu-id="601a4-134">Os itens na conversa subsequentes não serão copiados.</span><span class="sxs-lookup"><span data-stu-id="601a4-134">Subsequent items in the conversation will not be copied.</span></span> 
+    
+- <span data-ttu-id="601a4-135">**SetReadState** - os itens da conversa atuais terá seu estado de leitura definido.</span><span class="sxs-lookup"><span data-stu-id="601a4-135">**SetReadState** - The current items in the conversation will have their read state set.</span></span> <span data-ttu-id="601a4-136">O estado lido é definido pelo elemento [foi lido](isread.md) .</span><span class="sxs-lookup"><span data-stu-id="601a4-136">The read state is set by the [IsRead](isread.md) element.</span></span> 
+    
+- <span data-ttu-id="601a4-137">**Sinalizador** - os itens da conversa atuais terão um sinalizador definido como determinado pelo elemento [sinalizador](flag.md) .</span><span class="sxs-lookup"><span data-stu-id="601a4-137">**Flag** - The current items in the conversation will have a flag set as defined by the [Flag](flag.md) element.</span></span> 
+    
+## <a name="remarks"></a><span data-ttu-id="601a4-138">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="601a4-138">Remarks</span></span>
+
+<span data-ttu-id="601a4-139">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="601a4-139">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).</span></span>
+  
+## <a name="element-information"></a><span data-ttu-id="601a4-140">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="601a4-140">Element information</span></span>
+
+|||
+|:-----|:-----|
+|<span data-ttu-id="601a4-141">Namespace</span><span class="sxs-lookup"><span data-stu-id="601a4-141">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="601a4-142">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="601a4-142">Schema Name</span></span>  <br/> |<span data-ttu-id="601a4-143">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="601a4-143">Types schema</span></span>  <br/> |
+|<span data-ttu-id="601a4-144">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="601a4-144">Validation File</span></span>  <br/> |<span data-ttu-id="601a4-145">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="601a4-145">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="601a4-146">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="601a4-146">Can be Empty</span></span>  <br/> |<span data-ttu-id="601a4-147">False</span><span class="sxs-lookup"><span data-stu-id="601a4-147">False</span></span>  <br/> |
+   
+## <a name="see-also"></a><span data-ttu-id="601a4-148">Ver também</span><span class="sxs-lookup"><span data-stu-id="601a4-148">See also</span></span>
+
+- [<span data-ttu-id="601a4-149">Operação ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="601a4-149">ApplyConversationAction operation</span></span>](applyconversationaction-operation.md)
+- [<span data-ttu-id="601a4-150">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="601a4-150">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+
