@@ -16,67 +16,67 @@ ms.openlocfilehash: a7afb0aeb650284739d559164f06590fc5266c57
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19751714"
 ---
-# <a name="daysofweek-dayofweektype"></a><span data-ttu-id="2806a-103">DaysOfWeek (DayOfWeekType)</span><span class="sxs-lookup"><span data-stu-id="2806a-103">DaysOfWeek (DayOfWeekType)</span></span>
+# <a name="daysofweek-dayofweektype"></a><span data-ttu-id="58ff4-103">DaysOfWeek (DayOfWeekType)</span><span class="sxs-lookup"><span data-stu-id="58ff4-103">DaysOfWeek (DayOfWeekType)</span></span>
 
-<span data-ttu-id="2806a-104">O elemento **DaysOfWeek** descreve os dias da semana que são usados em padrões de recorrência do item.</span><span class="sxs-lookup"><span data-stu-id="2806a-104">The **DaysOfWeek** element describes days of the week that are used in item recurrence patterns.</span></span> 
+<span data-ttu-id="58ff4-104">O elemento **DaysOfWeek** descreve os dias da semana que são usados em padrões de recorrência do item.</span><span class="sxs-lookup"><span data-stu-id="58ff4-104">The **DaysOfWeek** element describes days of the week that are used in item recurrence patterns.</span></span> 
   
 ```xml
 <DaysOfWeek/>
 ```
 
-<span data-ttu-id="2806a-105">**DayOfWeekType**</span><span class="sxs-lookup"><span data-stu-id="2806a-105">**DayOfWeekType**</span></span>
+<span data-ttu-id="58ff4-105">**DayOfWeekType**</span><span class="sxs-lookup"><span data-stu-id="58ff4-105">**DayOfWeekType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="2806a-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="2806a-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="58ff4-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="58ff4-106">Attributes and elements</span></span>
 
-<span data-ttu-id="2806a-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="2806a-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="58ff4-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="58ff4-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="2806a-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="2806a-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="58ff4-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="58ff4-108">Attributes</span></span>
 
-<span data-ttu-id="2806a-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="2806a-109">None.</span></span>
+<span data-ttu-id="58ff4-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="58ff4-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="2806a-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="2806a-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="58ff4-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="58ff4-110">Child elements</span></span>
 
-<span data-ttu-id="2806a-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="2806a-111">None.</span></span>
+<span data-ttu-id="58ff4-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="58ff4-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="2806a-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="2806a-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="58ff4-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="58ff4-112">Parent elements</span></span>
 
-|<span data-ttu-id="2806a-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="2806a-113">**Element**</span></span>|<span data-ttu-id="2806a-114">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="2806a-114">**Description**</span></span>|
+|<span data-ttu-id="58ff4-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="58ff4-113">**Element**</span></span>|<span data-ttu-id="58ff4-114">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="58ff4-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="2806a-115">RelativeYearlyRecurrence</span><span class="sxs-lookup"><span data-stu-id="2806a-115">RelativeYearlyRecurrence</span></span>](relativeyearlyrecurrence.md) <br/> |<span data-ttu-id="2806a-116">Descreve um padrão de recorrência anual relativa.</span><span class="sxs-lookup"><span data-stu-id="2806a-116">Describes a relative yearly recurrence pattern.</span></span>  <br/> |
-|[<span data-ttu-id="2806a-117">RelativeMonthlyRecurrence</span><span class="sxs-lookup"><span data-stu-id="2806a-117">RelativeMonthlyRecurrence</span></span>](relativemonthlyrecurrence.md) <br/> |<span data-ttu-id="2806a-118">Descreve um padrão de recorrência mensal relativa.</span><span class="sxs-lookup"><span data-stu-id="2806a-118">Describes a relative monthly recurrence pattern.</span></span>  <br/> |
+|[<span data-ttu-id="58ff4-115">RelativeYearlyRecurrence</span><span class="sxs-lookup"><span data-stu-id="58ff4-115">RelativeYearlyRecurrence</span></span>](relativeyearlyrecurrence.md) <br/> |<span data-ttu-id="58ff4-116">Descreve um padrão de recorrência anual relativa.</span><span class="sxs-lookup"><span data-stu-id="58ff4-116">Describes a relative yearly recurrence pattern.</span></span>  <br/> |
+|[<span data-ttu-id="58ff4-117">RelativeMonthlyRecurrence</span><span class="sxs-lookup"><span data-stu-id="58ff4-117">RelativeMonthlyRecurrence</span></span>](relativemonthlyrecurrence.md) <br/> |<span data-ttu-id="58ff4-118">Descreve um padrão de recorrência mensal relativa.</span><span class="sxs-lookup"><span data-stu-id="58ff4-118">Describes a relative monthly recurrence pattern.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="2806a-119">Text value</span><span class="sxs-lookup"><span data-stu-id="2806a-119">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="58ff4-119">Text value</span><span class="sxs-lookup"><span data-stu-id="58ff4-119">Text value</span></span>
 
-<span data-ttu-id="2806a-120">É necessário um valor de texto.</span><span class="sxs-lookup"><span data-stu-id="2806a-120">A text value is required.</span></span> <span data-ttu-id="2806a-121">Veja a seguir os valores possíveis:</span><span class="sxs-lookup"><span data-stu-id="2806a-121">The following are the possible values:</span></span>
+<span data-ttu-id="58ff4-120">É necessário um valor de texto.</span><span class="sxs-lookup"><span data-stu-id="58ff4-120">A text value is required.</span></span> <span data-ttu-id="58ff4-121">Veja a seguir os valores possíveis:</span><span class="sxs-lookup"><span data-stu-id="58ff4-121">The following are the possible values:</span></span>
   
-- <span data-ttu-id="2806a-122">Domingo</span><span class="sxs-lookup"><span data-stu-id="2806a-122">Sunday</span></span>    
-- <span data-ttu-id="2806a-123">Segunda-feira</span><span class="sxs-lookup"><span data-stu-id="2806a-123">Monday</span></span>    
-- <span data-ttu-id="2806a-124">Terça-feira</span><span class="sxs-lookup"><span data-stu-id="2806a-124">Tuesday</span></span>   
-- <span data-ttu-id="2806a-125">Quarta-feira</span><span class="sxs-lookup"><span data-stu-id="2806a-125">Wednesday</span></span>    
-- <span data-ttu-id="2806a-126">Quinta-feira</span><span class="sxs-lookup"><span data-stu-id="2806a-126">Thursday</span></span>    
-- <span data-ttu-id="2806a-127">Sexta-feira</span><span class="sxs-lookup"><span data-stu-id="2806a-127">Friday</span></span>    
-- <span data-ttu-id="2806a-128">Sábado</span><span class="sxs-lookup"><span data-stu-id="2806a-128">Saturday</span></span>    
-- <span data-ttu-id="2806a-129">Dia (não utilizado no TimeChangePatternTypes)</span><span class="sxs-lookup"><span data-stu-id="2806a-129">Day (not used in the TimeChangePatternTypes)</span></span>    
-- <span data-ttu-id="2806a-130">Weekday (não utilizado no TimeChangePatternTypes)</span><span class="sxs-lookup"><span data-stu-id="2806a-130">Weekday (not used in the TimeChangePatternTypes)</span></span>    
-- <span data-ttu-id="2806a-131">WeekendDay (não utilizado no TimeChangePatternTypes)</span><span class="sxs-lookup"><span data-stu-id="2806a-131">WeekendDay (not used in the TimeChangePatternTypes)</span></span>
+- <span data-ttu-id="58ff4-122">Domingo</span><span class="sxs-lookup"><span data-stu-id="58ff4-122">Sunday</span></span>    
+- <span data-ttu-id="58ff4-123">Segunda-feira</span><span class="sxs-lookup"><span data-stu-id="58ff4-123">Monday</span></span>    
+- <span data-ttu-id="58ff4-124">Terça-feira</span><span class="sxs-lookup"><span data-stu-id="58ff4-124">Tuesday</span></span>   
+- <span data-ttu-id="58ff4-125">Quarta-feira</span><span class="sxs-lookup"><span data-stu-id="58ff4-125">Wednesday</span></span>    
+- <span data-ttu-id="58ff4-126">Quinta-feira</span><span class="sxs-lookup"><span data-stu-id="58ff4-126">Thursday</span></span>    
+- <span data-ttu-id="58ff4-127">Sexta-feira</span><span class="sxs-lookup"><span data-stu-id="58ff4-127">Friday</span></span>    
+- <span data-ttu-id="58ff4-128">Sábado</span><span class="sxs-lookup"><span data-stu-id="58ff4-128">Saturday</span></span>    
+- <span data-ttu-id="58ff4-129">Dia (não utilizado no TimeChangePatternTypes)</span><span class="sxs-lookup"><span data-stu-id="58ff4-129">Day (not used in the TimeChangePatternTypes)</span></span>    
+- <span data-ttu-id="58ff4-130">Weekday (não utilizado no TimeChangePatternTypes)</span><span class="sxs-lookup"><span data-stu-id="58ff4-130">Weekday (not used in the TimeChangePatternTypes)</span></span>    
+- <span data-ttu-id="58ff4-131">WeekendDay (não utilizado no TimeChangePatternTypes)</span><span class="sxs-lookup"><span data-stu-id="58ff4-131">WeekendDay (not used in the TimeChangePatternTypes)</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="2806a-132">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="2806a-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="58ff4-132">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="58ff4-132">Remarks</span></span>
 
-<span data-ttu-id="2806a-133">O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="2806a-133">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="58ff4-133">O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="58ff4-133">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="2806a-134">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="2806a-134">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="58ff4-134">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="58ff4-134">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="2806a-135">Namespace</span><span class="sxs-lookup"><span data-stu-id="2806a-135">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="2806a-136">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="2806a-136">Schema Name</span></span>  <br/> |<span data-ttu-id="2806a-137">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="2806a-137">Types schema</span></span>  <br/> |
-|<span data-ttu-id="2806a-138">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="2806a-138">Validation File</span></span>  <br/> |<span data-ttu-id="2806a-139">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="2806a-139">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="2806a-140">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="2806a-140">Can be Empty</span></span>  <br/> |<span data-ttu-id="2806a-141">False</span><span class="sxs-lookup"><span data-stu-id="2806a-141">False</span></span>  <br/> |
+|<span data-ttu-id="58ff4-135">Namespace</span><span class="sxs-lookup"><span data-stu-id="58ff4-135">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="58ff4-136">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="58ff4-136">Schema Name</span></span>  <br/> |<span data-ttu-id="58ff4-137">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="58ff4-137">Types schema</span></span>  <br/> |
+|<span data-ttu-id="58ff4-138">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="58ff4-138">Validation File</span></span>  <br/> |<span data-ttu-id="58ff4-139">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="58ff4-139">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="58ff4-140">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="58ff4-140">Can be Empty</span></span>  <br/> |<span data-ttu-id="58ff4-141">False</span><span class="sxs-lookup"><span data-stu-id="58ff4-141">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="2806a-142">Ver também</span><span class="sxs-lookup"><span data-stu-id="2806a-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="58ff4-142">Ver também</span><span class="sxs-lookup"><span data-stu-id="58ff4-142">See also</span></span>
 
-- [<span data-ttu-id="2806a-143">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="2806a-143">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="58ff4-143">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="58ff4-143">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -16,12 +16,12 @@ ms.openlocfilehash: ac99e0ca219fc1f1e117f9288d895e27a1df4700
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19751726"
 ---
-# <a name="delegateuserresponsemessagetype"></a><span data-ttu-id="17b1a-103">DelegateUserResponseMessageType</span><span class="sxs-lookup"><span data-stu-id="17b1a-103">DelegateUserResponseMessageType</span></span>
+# <a name="delegateuserresponsemessagetype"></a><span data-ttu-id="ec862-103">DelegateUserResponseMessageType</span><span class="sxs-lookup"><span data-stu-id="ec862-103">DelegateUserResponseMessageType</span></span>
 
-<span data-ttu-id="17b1a-104">O elemento **DelegateUserResponseMessageType** contém a mensagem de resposta para um usuário único representante.</span><span class="sxs-lookup"><span data-stu-id="17b1a-104">The **DelegateUserResponseMessageType** element contains the response message for a single delegate user.</span></span> 
+<span data-ttu-id="ec862-104">O elemento **DelegateUserResponseMessageType** contém a mensagem de resposta para um usuário único representante.</span><span class="sxs-lookup"><span data-stu-id="ec862-104">The **DelegateUserResponseMessageType** element contains the response message for a single delegate user.</span></span> 
   
 ```xml
 <DelegateUserResponseMessageType>
@@ -33,50 +33,50 @@ ms.locfileid: "19751726"
 </DelegateUserResponseMessageType>
 ```
 
-<span data-ttu-id="17b1a-105">**DelegateUserResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="17b1a-105">**DelegateUserResponseMessageType**</span></span>
+<span data-ttu-id="ec862-105">**DelegateUserResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="ec862-105">**DelegateUserResponseMessageType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="17b1a-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="17b1a-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ec862-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="ec862-106">Attributes and elements</span></span>
 
-<span data-ttu-id="17b1a-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="17b1a-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ec862-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="ec862-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="17b1a-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="17b1a-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ec862-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="ec862-108">Attributes</span></span>
 
-<span data-ttu-id="17b1a-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="17b1a-109">None.</span></span>
+<span data-ttu-id="ec862-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="ec862-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="17b1a-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="17b1a-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ec862-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="ec862-110">Child elements</span></span>
 
-|<span data-ttu-id="17b1a-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="17b1a-111">**Element**</span></span>|<span data-ttu-id="17b1a-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="17b1a-112">**Description**</span></span>|
+|<span data-ttu-id="ec862-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="ec862-111">**Element**</span></span>|<span data-ttu-id="ec862-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="ec862-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="17b1a-113">MessageText</span><span class="sxs-lookup"><span data-stu-id="17b1a-113">MessageText</span></span>](messagetext.md) <br/> |<span data-ttu-id="17b1a-114">Fornece uma descrição de texto do status da resposta.</span><span class="sxs-lookup"><span data-stu-id="17b1a-114">Provides a text description of the status of the response.</span></span>  <br/> |
-|[<span data-ttu-id="17b1a-115">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="17b1a-115">ResponseCode</span></span>](responsecode.md) <br/> |<span data-ttu-id="17b1a-116">Fornece um código de erro que identifica o erro específico que enfrentaram a solicitação.</span><span class="sxs-lookup"><span data-stu-id="17b1a-116">Provides an error code that identifies the specific error that the request encountered.</span></span>  <br/> |
-|[<span data-ttu-id="17b1a-117">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="17b1a-117">DescriptiveLinkKey</span></span>](descriptivelinkkey.md) <br/> |<span data-ttu-id="17b1a-118">No momento não utilizados e está reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="17b1a-118">Currently unused and is reserved for future use.</span></span> <span data-ttu-id="17b1a-119">Ele contém um valor de 0.</span><span class="sxs-lookup"><span data-stu-id="17b1a-119">It contains a value of 0.</span></span>  <br/> |
-|[<span data-ttu-id="17b1a-120">MessageXml</span><span class="sxs-lookup"><span data-stu-id="17b1a-120">MessageXml</span></span>](messagexml.md) <br/> |<span data-ttu-id="17b1a-121">Fornece informações de resposta de erro adicionais.</span><span class="sxs-lookup"><span data-stu-id="17b1a-121">Provides additional error response information.</span></span>  <br/> |
-|[<span data-ttu-id="17b1a-122">DelegateUser</span><span class="sxs-lookup"><span data-stu-id="17b1a-122">DelegateUser</span></span>](delegateuser.md) <br/> |<span data-ttu-id="17b1a-123">Identifica um único representante que é retornado em uma resposta de gerenciamento do representante.</span><span class="sxs-lookup"><span data-stu-id="17b1a-123">Identifies a single delegate that is returned in a delegate management response.</span></span>  <br/> |
+|[<span data-ttu-id="ec862-113">MessageText</span><span class="sxs-lookup"><span data-stu-id="ec862-113">MessageText</span></span>](messagetext.md) <br/> |<span data-ttu-id="ec862-114">Fornece uma descrição de texto do status da resposta.</span><span class="sxs-lookup"><span data-stu-id="ec862-114">Provides a text description of the status of the response.</span></span>  <br/> |
+|[<span data-ttu-id="ec862-115">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="ec862-115">ResponseCode</span></span>](responsecode.md) <br/> |<span data-ttu-id="ec862-116">Fornece um código de erro que identifica o erro específico que enfrentaram a solicitação.</span><span class="sxs-lookup"><span data-stu-id="ec862-116">Provides an error code that identifies the specific error that the request encountered.</span></span>  <br/> |
+|[<span data-ttu-id="ec862-117">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="ec862-117">DescriptiveLinkKey</span></span>](descriptivelinkkey.md) <br/> |<span data-ttu-id="ec862-118">No momento não utilizados e está reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="ec862-118">Currently unused and is reserved for future use.</span></span> <span data-ttu-id="ec862-119">Ele contém um valor de 0.</span><span class="sxs-lookup"><span data-stu-id="ec862-119">It contains a value of 0.</span></span>  <br/> |
+|[<span data-ttu-id="ec862-120">MessageXml</span><span class="sxs-lookup"><span data-stu-id="ec862-120">MessageXml</span></span>](messagexml.md) <br/> |<span data-ttu-id="ec862-121">Fornece informações de resposta de erro adicionais.</span><span class="sxs-lookup"><span data-stu-id="ec862-121">Provides additional error response information.</span></span>  <br/> |
+|[<span data-ttu-id="ec862-122">DelegateUser</span><span class="sxs-lookup"><span data-stu-id="ec862-122">DelegateUser</span></span>](delegateuser.md) <br/> |<span data-ttu-id="ec862-123">Identifica um único representante que é retornado em uma resposta de gerenciamento do representante.</span><span class="sxs-lookup"><span data-stu-id="ec862-123">Identifies a single delegate that is returned in a delegate management response.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="17b1a-124">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="17b1a-124">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ec862-124">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="ec862-124">Parent elements</span></span>
 
-|<span data-ttu-id="17b1a-125">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="17b1a-125">**Element**</span></span>|<span data-ttu-id="17b1a-126">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="17b1a-126">**Description**</span></span>|
+|<span data-ttu-id="ec862-125">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="ec862-125">**Element**</span></span>|<span data-ttu-id="ec862-126">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="ec862-126">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="17b1a-127">ResponseMessages (ArrayOfDelegateUserResponseMessageType)</span><span class="sxs-lookup"><span data-stu-id="17b1a-127">ResponseMessages (ArrayOfDelegateUserResponseMessageType)</span></span>](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |<span data-ttu-id="17b1a-128">Contém as mensagens de resposta para uma solicitação de gerenciamento do representante de serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="17b1a-128">Contains the response messages for an Exchange Web Services delegate management request.</span></span>  <br/> |
+|[<span data-ttu-id="ec862-127">ResponseMessages (ArrayOfDelegateUserResponseMessageType)</span><span class="sxs-lookup"><span data-stu-id="ec862-127">ResponseMessages (ArrayOfDelegateUserResponseMessageType)</span></span>](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |<span data-ttu-id="ec862-128">Contém as mensagens de resposta para uma solicitação de gerenciamento do representante de serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="ec862-128">Contains the response messages for an Exchange Web Services delegate management request.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="17b1a-129">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="17b1a-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ec862-129">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="ec862-129">Remarks</span></span>
 
-<span data-ttu-id="17b1a-130">O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server com a função de servidor acesso para cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="17b1a-130">The schema that describes this element is located in the EWS virtual directory of the computer that is running Exchange Server with the Client Access server role installed.</span></span>
+<span data-ttu-id="ec862-130">O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server com a função de servidor acesso para cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="ec862-130">The schema that describes this element is located in the EWS virtual directory of the computer that is running Exchange Server with the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="17b1a-131">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="17b1a-131">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ec862-131">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="ec862-131">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="17b1a-132">Namespace</span><span class="sxs-lookup"><span data-stu-id="17b1a-132">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="17b1a-133">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="17b1a-133">Schema Name</span></span>  <br/> |<span data-ttu-id="17b1a-134">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="17b1a-134">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="17b1a-135">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="17b1a-135">Validation File</span></span>  <br/> |<span data-ttu-id="17b1a-136">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="17b1a-136">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="17b1a-137">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="17b1a-137">Can be Empty</span></span>  <br/> |<span data-ttu-id="17b1a-138">False</span><span class="sxs-lookup"><span data-stu-id="17b1a-138">False</span></span>  <br/> |
+|<span data-ttu-id="ec862-132">Namespace</span><span class="sxs-lookup"><span data-stu-id="ec862-132">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="ec862-133">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="ec862-133">Schema Name</span></span>  <br/> |<span data-ttu-id="ec862-134">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="ec862-134">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="ec862-135">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="ec862-135">Validation File</span></span>  <br/> |<span data-ttu-id="ec862-136">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="ec862-136">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="ec862-137">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="ec862-137">Can be Empty</span></span>  <br/> |<span data-ttu-id="ec862-138">False</span><span class="sxs-lookup"><span data-stu-id="ec862-138">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="17b1a-139">Ver também</span><span class="sxs-lookup"><span data-stu-id="17b1a-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ec862-139">Ver também</span><span class="sxs-lookup"><span data-stu-id="ec862-139">See also</span></span>
 
-- [<span data-ttu-id="17b1a-140">Operação AddDelegate</span><span class="sxs-lookup"><span data-stu-id="17b1a-140">AddDelegate operation</span></span>](adddelegate-operation.md)  
-- [<span data-ttu-id="17b1a-141">Operação GetDelegate</span><span class="sxs-lookup"><span data-stu-id="17b1a-141">GetDelegate operation</span></span>](getdelegate-operation.md) 
-- [<span data-ttu-id="17b1a-142">Operação UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="17b1a-142">UpdateDelegate operation</span></span>](updatedelegate-operation.md)  
-- [<span data-ttu-id="17b1a-143">Operação RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="17b1a-143">RemoveDelegate operation</span></span>](removedelegate-operation.md)
-- [<span data-ttu-id="17b1a-144">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="17b1a-144">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="ec862-140">Operação AddDelegate</span><span class="sxs-lookup"><span data-stu-id="ec862-140">AddDelegate operation</span></span>](adddelegate-operation.md)  
+- [<span data-ttu-id="ec862-141">Operação GetDelegate</span><span class="sxs-lookup"><span data-stu-id="ec862-141">GetDelegate operation</span></span>](getdelegate-operation.md) 
+- [<span data-ttu-id="ec862-142">Operação UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="ec862-142">UpdateDelegate operation</span></span>](updatedelegate-operation.md)  
+- [<span data-ttu-id="ec862-143">Operação RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="ec862-143">RemoveDelegate operation</span></span>](removedelegate-operation.md)
+- [<span data-ttu-id="ec862-144">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="ec862-144">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
