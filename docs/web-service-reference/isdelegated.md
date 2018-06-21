@@ -16,7 +16,7 @@ ms.openlocfilehash: a6f42a57b2d0fdb760e4c36d3211ba57289a3c7c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19824005"
 ---
 # <a name="isdelegated"></a>IsDelegated
@@ -53,7 +53,7 @@ Nenhum.
 
 Um valor de texto de **true** indica que a reunião foi manipulada por uma conta que tenha acesso de representante. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

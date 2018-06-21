@@ -12,7 +12,7 @@ ms.openlocfilehash: 2637c175fe94be4303476363cd59a1f895b9c959
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19751534"
 ---
 # <a name="conversationshape"></a>ConversationShape
@@ -43,7 +43,7 @@ Nenhum.
 
 [FindConversation](findconversation.md)
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

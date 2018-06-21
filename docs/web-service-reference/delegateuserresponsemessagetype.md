@@ -16,7 +16,7 @@ ms.openlocfilehash: ac99e0ca219fc1f1e117f9288d895e27a1df4700
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19751726"
 ---
 # <a name="delegateuserresponsemessagetype"></a>DelegateUserResponseMessageType
@@ -59,7 +59,7 @@ Nenhum.
 |:-----|:-----|
 |[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Contém as mensagens de resposta para uma solicitação de gerenciamento do representante de serviços Web do Exchange.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server com a função de servidor acesso para cliente instalada.
   

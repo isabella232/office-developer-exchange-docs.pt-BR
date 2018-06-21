@@ -16,7 +16,7 @@ ms.openlocfilehash: d33bf22af4ddf6b2f6d8d8d434168264acfaea7c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19824881"
 ---
 # <a name="primarysmtpaddress"></a>PrimarySmtpAddress
@@ -52,7 +52,7 @@ Nenhum.
 
 É necessário um valor de texto que representa um endereço SMTP.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Serviços Web do Exchange requer que as caixas de correio ser identificado pelo endereço SMTP principal da caixa de correio. Proxy ou endereços alternativos não são aceitas.
   

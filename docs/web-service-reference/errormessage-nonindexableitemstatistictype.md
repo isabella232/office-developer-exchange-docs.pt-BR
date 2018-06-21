@@ -12,7 +12,7 @@ ms.openlocfilehash: a33082f6a442e1720c667f1b28ed52c39fa03797
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19752096"
 ---
 # <a name="errormessage-nonindexableitemstatistictype"></a>ErrorMessage (NonIndexableItemStatisticType)
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **ErrorMessage** é uma mensagem de erro que descreve por que não é um item indexável. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

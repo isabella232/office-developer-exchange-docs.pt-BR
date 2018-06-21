@@ -12,7 +12,7 @@ ms.openlocfilehash: 8a03e102223e5542d6a672c4f47305cef84b850b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19751350"
 ---
 # <a name="businessphonenumbers2"></a>BusinessPhoneNumbers2
@@ -48,7 +48,7 @@ Nenhum.
 |:-----|:-----|
 |[Pessoa](persona.md) <br/> |Especifica um conjunto de dados de pessoa retornados por uma solicitação **GetPersona** .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

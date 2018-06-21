@@ -16,7 +16,7 @@ ms.openlocfilehash: 5cad36c6fcff782195fdb285e2d3c4f3c5ec0f1e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19751725"
 ---
 # <a name="delete-foldersync"></a>Excluir (FolderSync)
@@ -57,7 +57,7 @@ Nenhum.
 |:-----|:-----|
 |[Alterações (hierarquia)](changes-hierarchy.md) <br/> |Contém uma matriz sequenciada dos tipos de alteração que representam o tipo das diferenças entre as pastas no cliente e as pastas no computador que está executando o Microsoft Exchange Server 2007.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do Exchange 2007 computador que possui a função de servidor acesso para cliente instalada.
   
