@@ -16,7 +16,7 @@ ms.openlocfilehash: 0e93be7b14cb1ca6a2a9821b016f7bdc0e8d7772
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823673"
 ---
 # <a name="getstreamingevents-operation"></a>Operação GetStreamingEvents
@@ -153,7 +153,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação **GetStreamin
 </soap:Envelope>
 ```
 
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Ao processar uma solicitação de **GetStreamingEvents** , o servidor de acesso para cliente executa as seguintes etapas: 
   
