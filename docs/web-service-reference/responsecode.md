@@ -16,7 +16,7 @@ ms.openlocfilehash: 7baeb0ab87ffb43ba9d6b4016477888aa4ed613e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825294"
 ---
 # <a name="responsecode"></a>ResponseCode
@@ -586,7 +586,7 @@ Se este elemento for usado, será necessário um valor de texto. A tabela a segu
 |ErrorInvalidLicense  <br/> |O usuário não tem uma licença válida.  <br/> |
 |ErrorMessagePerFolderCountReceiveQuotaExceeded  <br/> |Receber a mensagem por pasta da cota foi excedida.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento não é necessário e não está incluído em todas as respostas. 
   

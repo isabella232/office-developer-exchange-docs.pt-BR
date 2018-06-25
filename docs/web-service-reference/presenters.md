@@ -12,7 +12,7 @@ ms.openlocfilehash: f62b458759e0d8199c98827602d6c3fe16aebeea
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824875"
 ---
 # <a name="presenters"></a>Apresentadores
@@ -52,7 +52,7 @@ O valor de texto do elemento de **apresentadores** é o tipo de usuários que po
 |Interno  <br/> |Somente os participantes internos podem ser apresentadores.  <br/> |
 |Todos  <br/> |Qualquer participante pode ser um apresentador.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

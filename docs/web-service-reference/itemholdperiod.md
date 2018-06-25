@@ -12,7 +12,7 @@ ms.openlocfilehash: 212d765aa3f0493dd4f3051de483fa08a6fa8ac7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824144"
 ---
 # <a name="itemholdperiod"></a>ItemHoldPeriod
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto pode ser "Unlimited" ou o valor de cadeia de caracteres de qualquer valor [Timespan](http://msdn.microsoft.com/en-us/library/1ecy8h51%28v=vs.110%29.aspx) . 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   

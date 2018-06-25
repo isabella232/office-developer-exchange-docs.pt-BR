@@ -12,7 +12,7 @@ ms.openlocfilehash: 890bcb10a084aade2b9762628f3e91851fe9e04b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823812"
 ---
 # <a name="holdid"></a>HoldId
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **HoldId** é o identificador exclusivo de uma isenção de caixa de correio. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -13,7 +13,7 @@ ms.openlocfilehash: 0dc5b679af98b52f15ef3b40181c2d97f102f373
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823946"
 ---
 # <a name="internal-pox"></a>Interno (POX)
@@ -61,7 +61,7 @@ Nenhum.
 |:-----|:-----|
 |[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O **interno** é um elemento filho opcionais do elemento de **protocolo** . 
   

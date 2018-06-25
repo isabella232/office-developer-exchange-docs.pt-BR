@@ -16,7 +16,7 @@ ms.openlocfilehash: d29f2dfec8f2c23fe0ac8c84d2bb9029fce613d2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825032"
 ---
 # <a name="referenceitemid"></a>ReferenceItemId
@@ -58,7 +58,7 @@ Nenhum.
 |[SuppressReadReceipt](suppressreadreceipt.md) <br/> |Usada para responder às solicitações de confirmação de leitura.  <br/> |
 |[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |Representa um provisório responde a uma solicitação de reunião.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório Virtual do IIS que hospeda o Exchange Web Services do computador que está executando o Microsoft Exchange Server que tem a função de servidor acesso para cliente instalada.
   

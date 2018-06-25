@@ -12,7 +12,7 @@ ms.openlocfilehash: 046bb302d6f7052c6f1757ce393583b305311e2f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823805"
 ---
 # <a name="hasendtimechanged"></a>HasEndTimeChanged
@@ -46,7 +46,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **HasEndTimeChanged** indica que a hora de término de uma reunião foi alterado. Um valor **false** indica que a hora de término de uma reunião não tiver sido alterado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

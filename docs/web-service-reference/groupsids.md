@@ -16,7 +16,7 @@ ms.openlocfilehash: c24c8ea3c3b7d37f41986997ed924c951b4a48ef
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823790"
 ---
 # <a name="groupsids"></a>GroupSids
@@ -50,7 +50,7 @@ Nenhum.
 |:-----|:-----|
 |[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Usado no cabeçalho simples (SOAP Object Access Protocol) para serialização de token de autenticação de servidor-para-servidor. Serialização de token não é suportada.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: c075e63674bc08773925a2a540a1c2434423926d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823808"
 ---
 # <a name="highlightterms"></a>HighlightTerms
@@ -42,7 +42,7 @@ Termo
 
 [FindConversationResponse](findconversationresponse.md) | [FindItemResponseMessage](finditemresponsemessage.md)
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

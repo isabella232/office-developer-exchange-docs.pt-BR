@@ -16,7 +16,7 @@ ms.openlocfilehash: 27a6bca9ae71bc93de6c22cb87c8d582025144e9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824019"
 ---
 # <a name="isfoldervisible"></a>IsFolderVisible
@@ -51,7 +51,7 @@ Nenhum.
 
 Um valor de texto de **true** indica que o usuário pode exibir a pasta. Um valor **false** indica que o usuário não pode exibir a pasta. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

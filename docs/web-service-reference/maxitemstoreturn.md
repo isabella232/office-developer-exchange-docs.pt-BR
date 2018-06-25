@@ -12,7 +12,7 @@ ms.openlocfilehash: 7d7ac1734ad2d266ca427c34619e7f3bc11824e8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824385"
 ---
 # <a name="maxitemstoreturn"></a>MaxItemsToReturn
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **MaxItemsToReturn** é o número máximo de itens de conversa para retornar em uma resposta. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

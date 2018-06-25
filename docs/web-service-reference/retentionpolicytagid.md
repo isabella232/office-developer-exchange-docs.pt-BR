@@ -12,7 +12,7 @@ ms.openlocfilehash: 4b40e36ed3ce2403ace7038d0f78ff6934e6de0b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825227"
 ---
 # <a name="retentionpolicytagid"></a>RetentionPolicyTagId
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **RetentionPolicyTagId** é o identificador de marca de política aplicado aos itens em uma conversa. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

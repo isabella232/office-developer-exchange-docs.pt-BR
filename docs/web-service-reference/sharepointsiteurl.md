@@ -12,7 +12,7 @@ ms.openlocfilehash: 34f9a04ef8b0f46bb14ec467b0fdd7db8882430e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825473"
 ---
 # <a name="sharepointsiteurl"></a>SharePointSiteUrl
@@ -45,7 +45,7 @@ Nenhum.
 
 O valor de texto do elemento **SharePointSiteURL** é a URL do site do SharePoint que está vinculada com a caixa de correio do site. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

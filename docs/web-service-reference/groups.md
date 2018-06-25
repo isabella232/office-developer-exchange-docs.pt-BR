@@ -16,7 +16,7 @@ ms.openlocfilehash: 406a1974899e89243f52ba7a56afcc172c4f3df6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823786"
 ---
 # <a name="groups"></a>Grupos
@@ -50,7 +50,7 @@ Nenhum.
 |:-----|:-----|
 |[RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md) <br/> |Contém os resultados de uma pesquisa de uma pasta raiz única durante uma operação de [operação FindItem](finditem-operation.md) .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma instância de [GroupedItems](groupeditems.md) ocorrerá para cada grupo distinto dentro do resultado. 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 9777660b1a54bfb5afb6e569ba1009a1654bdef3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824635"
 ---
 # <a name="numberofmembers"></a>NumberOfMembers
@@ -64,7 +64,7 @@ Nenhum.
 |:-----|:-----|
 |[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contém informações de conflito agregadas sobre o número de usuários disponíveis, o número de usuários que possuem conflitos e o número de usuários que não têm informações de disponibilidade em uma lista de distribuição para um horário de reunião sugeridas.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor máximo do elemento **NumberOfMembers** é 100. 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: d85fef0d67633733f6aa1943d70413ea70a528d6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824642"
 ---
 # <a name="offset"></a>Deslocamento
@@ -51,7 +51,7 @@ Nenhum.
 
 O valor de texto representa o deslocamento do tempo Universal Coordenado (UTC).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

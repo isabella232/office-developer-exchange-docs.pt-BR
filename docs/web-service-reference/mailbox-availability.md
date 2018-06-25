@@ -16,7 +16,7 @@ ms.openlocfilehash: 2e901ae0df56542f56f247184254294735018468
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824254"
 ---
 # <a name="mailbox-availability"></a>Caixa de correio (disponibilidade)
@@ -56,7 +56,7 @@ Nenhum.
 |[GetUserOofSettingsRequest](getuseroofsettingsrequest.md) <br/> |Usado para fazer configurações de fora do escritório (OOF) e mensagens de um usuário de caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserOofSettingsRequest` <br/> |
 |[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |Usada para definir configurações de ausência temporária e mensagens de um usuário de caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/SetUserOofSettingsRequest` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O endereço de email é usado para identificar a pasta de calendário que contém as configurações de ausência temporária. 
   

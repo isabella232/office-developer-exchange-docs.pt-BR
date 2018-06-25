@@ -16,7 +16,7 @@ ms.openlocfilehash: 6b5702696db29910ae476a370bf362fe6a036ae7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825213"
 ---
 # <a name="restriction"></a>Restrição
@@ -64,7 +64,7 @@ Nenhum.
 |[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.  <br/> |
 |[SearchParameters](searchparameters.md) <br/> |Representa os parâmetros que definem a uma pasta de pesquisa.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

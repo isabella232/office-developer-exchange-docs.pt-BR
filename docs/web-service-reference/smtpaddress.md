@@ -16,7 +16,7 @@ ms.openlocfilehash: 39588f0892cdcec819a1972547155730be5785f4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825511"
 ---
 # <a name="smtpaddress"></a>SmtpAddress
@@ -54,7 +54,7 @@ Nenhum.
 
 É necessário um valor de texto que representa um endereço SMTP.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório Virtual do IIS que hospeda o Exchange Web Services do computador que está executando o Microsoft Exchange Server que tem a função de servidor acesso para cliente instalada.
   

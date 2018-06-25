@@ -16,7 +16,7 @@ ms.openlocfilehash: 402f8978c0ec6b377dfa020f23595c8954509a07
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825589"
 ---
 # <a name="statusfrequency"></a>StatusFrequency
@@ -56,7 +56,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto que representa um número inteiro. Os valores possíveis para esse elemento são de 1 a 1440, inclusive. Esse elemento é opcional. O valor padrão é 30 minutos.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor de **StatusFrequency** é usado pelo servidor para repetir uma notificação de push quando ele não recebe uma resposta a uma notificação de push ou ping de status do cliente. Se o servidor não recebe uma resposta, ele repete enviando a notificação várias vezes, antes de parar enviar a notificação. No EWS, o intervalo de repetição padrão é 30 segundos e tentativas subsequentes são sempre double a hora do último intervalo de repetição. Número de repetições não é exato, pois eles podem ser atrasados devido aos outros carregamentos no servidor. A tabela a seguir mostra como os intervalos de repetição ocorrerem nos 30 minutos alocados pelo valor **StatusFrequency** padrão (supondo que o servidor não o encontrou qualquer atrasos). 
   

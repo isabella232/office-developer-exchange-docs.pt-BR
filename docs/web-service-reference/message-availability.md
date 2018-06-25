@@ -16,7 +16,7 @@ ms.openlocfilehash: 9facd04767fdcc0fd9dfd84fc6badb1a7633d2b5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824452"
 ---
 # <a name="message-availability"></a>Mensagem (disponibilidade)
@@ -56,7 +56,7 @@ Um valor de texto é obrigatório para definir a mensagem de ausência temporár
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir de uma solicitação de [operação SetUserOofSettings](setuseroofsettings-operation.md) define o [OofState](oofstate.md) como **habilitada**, define a duração de ausência temporária para 10 dias e define as mensagens de ausência temporária internas e externas.
   

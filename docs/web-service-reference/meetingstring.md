@@ -12,7 +12,7 @@ ms.openlocfilehash: b16dae2d47a1bc51f62fdb18e2bcc0de1942a177
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824442"
 ---
 # <a name="meetingstring"></a>MeetingString
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto para o elemento **MeetingString** é o nome da reunião. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

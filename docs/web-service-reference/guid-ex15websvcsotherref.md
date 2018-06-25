@@ -12,7 +12,7 @@ ms.openlocfilehash: 35307a706523fc5c2916767c7508dec07deb8d09
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823799"
 ---
 # <a name="guid"></a>Guid
@@ -46,7 +46,7 @@ Nenhum.
 
 O valor de texto do elemento **Guid** é um valor GUID que identifica exclusivamente uma caixa de correio. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

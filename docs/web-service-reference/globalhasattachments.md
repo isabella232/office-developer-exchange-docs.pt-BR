@@ -16,7 +16,7 @@ ms.openlocfilehash: 85443c45f611a2f4bff392ffecb26029564d7558
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823715"
 ---
 # <a name="globalhasattachments"></a>GlobalHasAttachments
@@ -58,7 +58,7 @@ Nenhum.
 
 O valor do elemento **GlobalHasAttachments** indica se o item de pelo menos uma conversa em uma caixa de correio tem um anexo. É necessário um valor de texto que representa um valor booleano. Um valor **true** significa que a conversa tem pelo menos um anexo visível. Um valor **false** significa que a conversa sem anexos ou somente tem oculto anexos. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   

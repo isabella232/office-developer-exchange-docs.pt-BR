@@ -12,7 +12,7 @@ ms.openlocfilehash: e780fac23aeec1d80e547a47b322073fecdc2a0b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824082"
 ---
 # <a name="ispartiallyindexed"></a>IsPartiallyIndexed
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **IsPartiallyIndexed** indica que o item de caixa de correio é indexado parcialmente. Um valor **false** indica que o item de caixa de correio não está indexado parcialmente. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

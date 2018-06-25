@@ -16,7 +16,7 @@ ms.openlocfilehash: 45336e296c39161704ce6e0d51fba1d2c61797b1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825102"
 ---
 # <a name="removeoutlookruleblob"></a>RemoveOutlookRuleBlob
@@ -54,7 +54,7 @@ Nenhum.
 
 Um valor de texto de **true** indica que o blob de regra do Outlook deve ser removido. Um valor de texto de **false** indica que o blob de regra do Outlook não deve ser removido. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Defina esse elemento como **true** para permitir uma atualização de regra de caixa de entrada. 
   

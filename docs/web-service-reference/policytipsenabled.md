@@ -12,7 +12,7 @@ ms.openlocfilehash: 683131a5cefd6757faf582324f312b01fd9ddb33
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824838"
 ---
 # <a name="policytipsenabled"></a>PolicyTipsEnabled
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **PolicyTipsEnabled** indica que as dicas de política estão habilitadas para uma caixa de correio. Um valor **false** indica que as dicas de política não estão habilitadas para uma caixa de correio. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

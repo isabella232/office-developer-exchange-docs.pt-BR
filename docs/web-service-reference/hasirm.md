@@ -12,7 +12,7 @@ ms.openlocfilehash: c129370d7920da7cf1f9f32eed2f075e6c21cf8b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823803"
 ---
 # <a name="hasirm"></a>HasIrm
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **HasIrm** é **true** se pelo menos uma mensagem na conversa e a pasta atual tiver IRM. Caso contrário, o valor é **false**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   

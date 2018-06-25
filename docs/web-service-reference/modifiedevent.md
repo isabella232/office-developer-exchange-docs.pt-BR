@@ -16,7 +16,7 @@ ms.openlocfilehash: fb464fb0a270d8ca7d33d40e5425e260970b2f1e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824482"
 ---
 # <a name="modifiedevent"></a>ModifiedEvent
@@ -59,7 +59,7 @@ Nenhum.
 |:-----|:-----|
 |[Notificação](notification-ex15websvcsotherref.md) <br/> |Contém informações sobre a inscrição e os eventos que ocorreram desde a última notificação.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Dois eventos modificados são gerados para cada modificação de um item em uma pasta. Um evento é relevante para o item que foi alterado. O evento outro é relevante para a pasta pai do item. Esta é a mesma pasta que a assinatura foi criada contra. O evento que está associado à pasta é usado para se comunicar uma alteração possível para a propriedade [UnreadCount](unreadcount.md) na pasta. 
   

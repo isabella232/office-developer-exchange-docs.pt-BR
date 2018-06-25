@@ -12,7 +12,7 @@ ms.openlocfilehash: 6d3bc83c05a82d6e448041167676f41c2620dcd4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825232"
 ---
 # <a name="returnnewitemids"></a>ReturnNewItemIds
@@ -47,7 +47,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **ReturnNewItemIds** indica se os identificadores de item novo são retornados na resposta. Um valor **false** indica se os identificadores de item novo não são retornados na resposta. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   

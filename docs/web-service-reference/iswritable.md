@@ -12,7 +12,7 @@ ms.openlocfilehash: 03f258d01ecfc12dfa4e09ac88f4a75340d2acf3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824158"
 ---
 # <a name="iswritable"></a>IsWritable
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de **true** para o elemento **IsWritable** text indica que o contato ou um objeto do Active Directory está disponível para acesso de gravação. Um valor **false** indica que o contato ou um objeto do Active Directory não está disponível para acesso de gravação. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

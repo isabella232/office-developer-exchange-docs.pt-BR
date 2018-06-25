@@ -16,7 +16,7 @@ ms.openlocfilehash: 1919c335197c83999875a17397e9c9d4405d1e3f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825407"
 ---
 # <a name="setfolderfield"></a>SetFolderField
@@ -58,7 +58,7 @@ Nenhum.
 |:-----|:-----|
 |[Atualizações (pasta)](updates-folder.md) <br/> |Contém um conjunto de elementos que define append, definir e excluir as alterações nas propriedades da pasta.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se a propriedade existir, o valor da propriedade é definido como o valor especificado. Se a propriedade não existir, a propriedade é criada com o valor especificado.
   

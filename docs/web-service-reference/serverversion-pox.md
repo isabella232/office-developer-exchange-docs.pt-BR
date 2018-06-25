@@ -13,7 +13,7 @@ ms.openlocfilehash: ef0562e166094d75d0dd92f5f48bb558e11a2cad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825391"
 ---
 # <a name="serverversion-pox"></a>ServerVersion (POX)
@@ -52,11 +52,11 @@ Nenhum.
 
 O valor de texto representa o número de versão do Exchange server.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor de **ServerVersion** só será válido se o elemento de [Tipo POX ()](type-pox.md) é igual a EXCH ou EXPR. O valor de **ServerVersion** é um número hexadecimal que contém o MajorVersion, MinorVersion e MajorBuildNumber do servidor. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 As seguir coverts exemplo um **ServerVersion** valor que é retornado em uma resposta de descoberta automática para obter e exibir os MajorVersion, MinorVersion e MajorBuildNumber. Este exemplo permite que você insira um valor hexadecimal para o valor de **ServerVersion** . Se nenhum valor **ServerVersion** for inserido, o valor padrão **ServerVersion** 738180DA é usado. 
   

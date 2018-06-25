@@ -16,7 +16,7 @@ ms.openlocfilehash: e39a5d3255268b418fa956959da5ae0ea062d831
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824967"
 ---
 # <a name="receivecopiesofmeetingmessages"></a>ReceiveCopiesOfMeetingMessages
@@ -50,7 +50,7 @@ Nenhum.
 
 Um valor de texto de **true** indica que um delegado receba uma cópia das mensagens de reunião. Um valor de texto de **false** indica que um representante não recebe uma cópia das mensagens de reunião. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Quando **ReceiveCopiesOfMeetingMessages** é definida como **false**, o representante ainda pode enviar mensagens em nome de entidade de segurança, mas não receberão todas as mensagens relacionadas a reuniões.
   

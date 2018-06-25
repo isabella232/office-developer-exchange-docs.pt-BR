@@ -12,7 +12,7 @@ ms.openlocfilehash: 803a004f3eda1066be073b076fbdaa76699e3e7b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824392"
 ---
 # <a name="maximumbodysize"></a>MaximumBodySize
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **MaximumBodySize** indica o tamanho máximo da propriedade [corpo](body.md) retornado na resposta. Isso é medido em quilobytes. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

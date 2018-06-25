@@ -16,7 +16,7 @@ ms.openlocfilehash: 81cf1e7d8338275540f264de7cbf194005e7770c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823983"
 ---
 # <a name="isalldayevent"></a>IsAllDayEvent
@@ -51,7 +51,7 @@ Nenhum.
 
 Um valor de texto que representa um valor booleano é necessário se este elemento é incluído. Um valor **true** indica que o item representa um evento de dia inteiro. Um valor **false** indica que o item abrange menos que o horário de trabalho do usuário. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um evento de dia inteiro abrange a duração de horário de trabalho que está definida para uma caixa de correio.
   

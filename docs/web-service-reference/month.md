@@ -16,7 +16,7 @@ ms.openlocfilehash: 73d052ef16bc51cd574eb8b04e21546f97347258
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824476"
 ---
 # <a name="month"></a>Mês
@@ -51,7 +51,7 @@ Nenhum.
 
 É necessário um valor de texto. O valor representa a posição ordinal do mês pela ocorrência e deve ser um número entre 1 e 12. Este é um tipo de dados de inteiro curto.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um elemento de [StandardTime](standardtime.md) que contém um elemento [DayOrder](dayorder.md) que tem um valor de 5, um elemento de **mês** que possui um valor de 10 e um elemento de [DayOfWeek (TimeZone)](dayofweek-timezone.md) que tem um valor de domingo significa que a transição da hora padrão para Horário de verão ocorre no domingo do mês décimo quinto. 
   

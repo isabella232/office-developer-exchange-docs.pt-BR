@@ -16,7 +16,7 @@ ms.openlocfilehash: df60294e7d83b1459e5cca7d75c2b6b4bb9d931d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824281"
 ---
 # <a name="mailboxdata"></a>MailboxData
@@ -61,14 +61,14 @@ Nenhum.
 |:-----|:-----|
 |[MailboxDataArray](mailboxdataarray.md) <br/> |Contém uma lista de caixas de correio para consultar informações sobre a disponibilidade.  <br/> Este é o XPath a este elemento:  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray[i]` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um aplicativo cliente poderá defini-la para muitos elementos **MailboxData** . 
   
 > [!NOTE]
 > O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server 2007 que possui a função de servidor acesso para cliente instalada. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 ```xml
 <MailboxDataArray>

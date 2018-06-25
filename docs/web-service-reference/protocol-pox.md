@@ -13,7 +13,7 @@ ms.openlocfilehash: e58ae82ea5ec9d39db0f9219f6019df7da24a343
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824926"
 ---
 # <a name="protocol-pox"></a>Protocolo (POX)
@@ -147,7 +147,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |:-----|:-----|
 |[Conta (POX)](account-pox.md) <br/> |Especifica as configurações da conta do usuário.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento de **protocolo** está presente em uma resposta que possui um valor de [Ação POX ()](action-pox.md) é igual a **configurações**.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 8867b7da7c75cfd9d41f708c0481627d5186cc14
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825622"
 ---
 # <a name="subscriptionid-getevents"></a>SubscriptionId (GetEvents)
@@ -53,7 +53,7 @@ Nenhum.
 
 É necessário um valor de texto. O valor de texto é um GUID.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O GUID que representa o identificador de inscrição é gerado pelo servidor de acesso para cliente quando a assinatura é criada.
   

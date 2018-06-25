@@ -16,7 +16,7 @@ ms.openlocfilehash: 726c31ffba06c1c437711b88444ec5eba45b520d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825546"
 ---
 # <a name="standardtime"></a>StandardTime
@@ -63,11 +63,11 @@ Nenhum.
 |:-----|:-----|
 |[Fuso horário (disponibilidade)](timezone-availability.md) <br/> | Contém os elementos que identificam as informações de fuso horário. Esse elemento também contém informações sobre a transição entre o período padrão e o horário de verão. <br/><br/>A seguir estão as expressões XPath para esse elemento: <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/> <br/> `/GetUserAvailabilityRequest/TimeZone` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento **StandardTime** representa um tempo de deslocamento é representado por um elemento [Bias (UTC)](bias-utc.md) . Quando o elemento filho [Bias](bias.md) for igual a 0, o tempo padrão é igual ao deslocamento bias de UTC representado pelo elemento [Bias (UTC)](bias-utc.md) . 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra uma região em que o horário de verão é observado. A transição de horário de verão para a hora padrão é observada às 2h no quinto domingo do mês décimo.
   

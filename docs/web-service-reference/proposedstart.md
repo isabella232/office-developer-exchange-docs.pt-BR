@@ -12,7 +12,7 @@ ms.openlocfilehash: e98ff895b50140262a68f09c5914ef5db20bd08d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824909"
 ---
 # <a name="proposedstart"></a>ProposedStart
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **ProposedStart** é o horário de início proposta enviado por um participante para o organizador da reunião. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

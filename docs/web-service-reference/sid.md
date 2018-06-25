@@ -16,7 +16,7 @@ ms.openlocfilehash: efcea42c12ec1d26ea31fdb8de337c37a2338a96
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825492"
 ---
 # <a name="sid"></a>SID
@@ -51,7 +51,7 @@ Nenhum.
 
 O valor de texto é uma representação de cadeia de caracteres de um SID.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server com a função de servidor acesso para cliente instalada.
   

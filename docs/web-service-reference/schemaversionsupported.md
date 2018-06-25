@@ -12,7 +12,7 @@ ms.openlocfilehash: 0b27a6f16f310ffe10ab819fc1046d4b0b6ecaa2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825272"
 ---
 # <a name="schemaversionsupported"></a>SchemaVersionSupported
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **SchemaVersionSupported** contém a versão do esquema manifesto suportado pelo cliente. Esse valor indica qual app manifestos devem ser retornados ao cliente na resposta. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   

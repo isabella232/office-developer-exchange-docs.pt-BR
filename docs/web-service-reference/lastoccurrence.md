@@ -16,7 +16,7 @@ ms.openlocfilehash: 2c8fdfc0005e86c9dda84a48ae1d3692b5134ca8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824209"
 ---
 # <a name="lastoccurrence"></a>LastOccurrence
@@ -57,7 +57,7 @@ Nenhum.
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no armazenamento do Exchange.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento é válido se [CalendarItemType](calendaritemtype.md) tem o valor de RecurringMaster. 
   

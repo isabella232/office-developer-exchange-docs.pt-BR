@@ -12,7 +12,7 @@ ms.openlocfilehash: 8cd0aeb3018a6a45a3b7172d83ac0899a012b353
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824238"
 ---
 # <a name="legacydn"></a>LegacyDN
@@ -45,7 +45,7 @@ Nenhum.
 
 O valor de texto do elemento de **LegacyDN** é o nome diferenciado herdado da caixa de correio de destino. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

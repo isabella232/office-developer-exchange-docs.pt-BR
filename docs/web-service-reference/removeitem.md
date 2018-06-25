@@ -16,7 +16,7 @@ ms.openlocfilehash: 6897363eba602e6a135ad255822197f9296dd44a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825108"
 ---
 # <a name="removeitem"></a>RemoveItem
@@ -53,7 +53,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |[Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Contém uma matriz de itens para criar a pasta que é identificada pelo elemento [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) .  <br/> |
 |[ResponseObjects](responseobjects.md) <br/> |Contém uma coleção de todos os objetos de resposta que estão associados um item no armazenamento do Exchange.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
  **RemoveItem** é válida apenas para um [MeetingCancellation](meetingcancellation.md). Caso contrário, será gerado um erro.
   

@@ -13,7 +13,7 @@ ms.openlocfilehash: f7ec1dea29a7d3ad6d470ef7812390d179fe1d2a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824243"
 ---
 # <a name="legacydn-pox"></a>LegacyDN (POX)
@@ -47,7 +47,7 @@ Nenhum.
 
 O valor de texto representa o endereço de email legados de um usuário.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) é um elemento alternativo para uma solicitação de descoberta automática. Ele é usado quando não existe uma caixa de correio em um computador que está executando o Microsoft Exchange Server 2007. 
   

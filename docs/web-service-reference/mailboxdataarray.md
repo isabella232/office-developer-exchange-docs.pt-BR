@@ -16,7 +16,7 @@ ms.openlocfilehash: b76e71ee9127dc2221e0065a27d3c781f8b5786a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824283"
 ---
 # <a name="mailboxdataarray"></a>MailboxDataArray
@@ -57,7 +57,7 @@ Nenhum.
 |:-----|:-----|
 |[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contém os argumentos usados para obter informações de disponibilidade do usuário. Este é um elemento raiz.  <br/> Este é o XPath a este elemento:  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft® Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: f72f64d8316d5507cae99d146c1eaceea1713074
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824336"
 ---
 # <a name="managedbyorganization"></a>ManagedByOrganization
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **ManagedByOrganization** identifica a organização que gerencia a pesquisa de descoberta. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

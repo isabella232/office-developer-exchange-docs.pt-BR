@@ -16,7 +16,7 @@ ms.openlocfilehash: 8e0d09aec079280816cd9dfe2c1a55c88bb959a7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825286"
 ---
 # <a name="searchexpression"></a>SearchExpression
@@ -49,7 +49,7 @@ Nenhum.
 |[E](and.md) <br/> |Representa uma expressão de pesquisa que lhe permite realizar uma operação de booleano **e** entre dois ou mais expressões de pesquisa. O resultado da operação **e** será **true** se todas as expressões de pesquisa contidas no elemento **e** forem **verdadeiras**.  <br/> |
 |[Ou](or.md) <br/> |Representa uma expressão de pesquisa que executa uma operação **OR** lógica a expressão de pesquisa que ele contém. **Ou** retornará **true** se qualquer um dos seus filhos retornam **true**. **Ou** deve ter dois ou mais filhos.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Qualquer elemento de filtro que faz parte do grupo de substituição SearchExpression pode aparecer no lugar do elemento SearchExpression.
   

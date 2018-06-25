@@ -16,7 +16,7 @@ ms.openlocfilehash: bf266c77106f25b90ffd174e25fb0c3972ab91cb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824961"
 ---
 # <a name="readitems-permissiontype"></a>ReadItems (PermissionType)
@@ -57,7 +57,7 @@ A tabela a seguir lista os valores possíveis para o elemento **ReadItems** .
 |None  <br/> |Indica que o usuário não tem permissão para ler itens na pasta.  <br/> |
 |FullDetails  <br/> |Indica que o usuário tem permissão para ler todos os itens na pasta.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

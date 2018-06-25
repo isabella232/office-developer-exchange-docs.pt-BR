@@ -13,7 +13,7 @@ ms.openlocfilehash: f3abcff04cd4121b8dcc7ceff7658ad389e6d0b0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824529"
 ---
 # <a name="networkrequirements-pox"></a>NetworkRequirements (POX)
@@ -62,7 +62,7 @@ Nenhum.
 |:-----|:-----|
 |[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se o cliente de email não corresponder os requisitos de rede, ele deve tentar outros tipos de protocolo. Os provedores podem fornecer um conjunto de servidores com marcas de [Protocolo (POX)](protocol-pox.md) que não exigem autenticação, mas são necessários para a rede do provedor. Os provedores podem listar outro conjunto de servidores que exigem autenticação, mas não precisam estar em uma rede específica. 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 1ea79be394124431aa1279ee94d5e5c6331d377b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824435"
 ---
 # <a name="meetingtime"></a>MeetingTime
@@ -64,7 +64,7 @@ Nenhum.
 
 É necessário um valor de texto que representa um valor de **data/hora** . 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O [MeetingTime](meetingtime.md) é um elemento filho obrigatório do elemento [sugestão](suggestion.md) . 
   

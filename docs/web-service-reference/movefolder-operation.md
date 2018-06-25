@@ -16,14 +16,14 @@ ms.openlocfilehash: 5da6929f11ce9ba74db190db6d799f25974d2192
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824490"
 ---
 # <a name="movefolder-operation"></a>Operação MoveFolder
 
 A operação MoveFolder move pastas de uma pasta especificada e os coloca em outra pasta.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A operação MoveFolder é semelhante à operação CopyFolder. Você não pode mover pastas diferenciadas. Você pode mover várias pastas de uma vez para a pasta de destino.
   

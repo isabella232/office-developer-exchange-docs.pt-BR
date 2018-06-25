@@ -12,7 +12,7 @@ ms.openlocfilehash: e8d78bfcfc0e57df9230db86e080d1ee29878094
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823727"
 ---
 # <a name="globaliconindex"></a>GlobalIconIndex
@@ -84,7 +84,7 @@ A tabela a seguir contém os valores de texto possíveis para o elemento **Globa
 |TaskOwned  <br/> |Especifica a tarefa pertencente ícone.  <br/> |
 |TaskDelegated  <br/> |Especifica o ícone delegada da tarefa.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

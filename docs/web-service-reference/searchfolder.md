@@ -16,7 +16,7 @@ ms.openlocfilehash: d842c54dab7950c68e26804b676834c2d95debad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825302"
 ---
 # <a name="searchfolder"></a>SearchFolder
@@ -76,7 +76,7 @@ Nenhum.
 |[Atualização (FolderSync)](update-foldersync.md) <br/> |Identifica uma única pasta ao atualizar no repositório de cliente local.  <br/> |
 |[Pastas](folders-ex15websvcsotherref.md) <br/> |Contém uma matriz de pastas usados nas operações da pasta.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
  **SearchFolder** é usado para as pastas de pesquisa comum e MicrosoftOfficeOutlook e Outlook Web Access visível pastas de pesquisa. Para uma pasta de pesquisa fiquem visíveis para o Outlook e Outlook Web Access, a pasta deve ser criada na pasta diferenciada SearchFolders. 
   

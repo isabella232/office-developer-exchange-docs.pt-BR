@@ -12,7 +12,7 @@ ms.openlocfilehash: 9f3f509942c673c916cc646cd9519240aef6ea06
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824531"
 ---
 # <a name="newremindertime"></a>NewReminderTime
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **NewReminderTime** é um novo horário para o lembrete. O elemento **NewReminderTime** é usado quando o elemento [ActionType](actiontype-reminderactiontype.md) é definir como **Snooze**, a fim de atraso do lembrete. O valor de **NewReminderTime** deve ser maior que o [ReminderTime](remindertime.md) retornado pela [operação de GetReminders](getreminders-operation.md).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 3d4af2a7df14e68a2c829b1e8d0a18493fb06f55
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823860"
 ---
 # <a name="imaddress-string"></a>ImAddress (String)
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **ImAddress** é o endereço de mensagens instantâneo principal de uma pessoa. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

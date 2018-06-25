@@ -16,7 +16,7 @@ ms.openlocfilehash: 4dd23b45dcc397e29e67fc08b29dd773e50f0db1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824688"
 ---
 # <a name="parentfolderids"></a>ParentFolderIds
@@ -54,11 +54,11 @@ Nenhum.
 |[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.  <br/> |
 |[ResolveNames](resolvenames.md) <br/> |Define uma solicitação para resolver nomes de ambíguos.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento **ParentFolderIds** deve usar o [FolderId](folderid.md) ou o elemento [DistinguishedFolderId](distinguishedfolderid.md) . Um número ilimitado de pastas pode ser definido para a pesquisa. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

@@ -12,7 +12,7 @@ ms.openlocfilehash: 88cc01e42f01f09933fd060080139a69bec104cc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824242"
 ---
 # <a name="location-remindermessagedatatype"></a>Local (ReminderMessageDataType)
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **local** é o local do item de calendário. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

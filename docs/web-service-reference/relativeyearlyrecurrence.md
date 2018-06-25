@@ -16,7 +16,7 @@ ms.openlocfilehash: ce8d2b134ce1fa34cbce8bd2fa921cab18d908a4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825057"
 ---
 # <a name="relativeyearlyrecurrence"></a>RelativeYearlyRecurrence
@@ -57,7 +57,7 @@ Nenhum.
 |[Standard](standard.md) <br/> |Representa a data e hora de quando o tempo é alterado de horário de verão para a hora padrão.  <br/> |
 |[Horário de verão](daylight.md) <br/> |Representa a data e hora de quando o tempo é alterado do período padrão para o horário de verão.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

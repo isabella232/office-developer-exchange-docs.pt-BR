@@ -16,7 +16,7 @@ ms.openlocfilehash: 0bc61d6dc32cd0db80599348f1d04c62774954d7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824827"
 ---
 # <a name="playonphonedialstring-exchange-web-services"></a>PlayOnPhoneDialString (serviços Web do Exchange)
@@ -50,7 +50,7 @@ Nenhum.
 
 O valor de texto para esse elemento é a cadeia de caracteres de discagem de tocar no telefone.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento é obrigatório.
   

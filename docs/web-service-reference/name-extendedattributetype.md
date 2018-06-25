@@ -12,7 +12,7 @@ ms.openlocfilehash: 8b39524dc2f76008af0afdda94b94d66e78a21b4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824500"
 ---
 # <a name="name-extendedattributetype"></a>Nome (ExtendedAttributeType)

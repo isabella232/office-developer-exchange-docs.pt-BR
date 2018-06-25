@@ -16,7 +16,7 @@ ms.openlocfilehash: 542b9fae0c36b0236bd806e8a9117753968e812c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824449"
 ---
 # <a name="mergedfreebusy"></a>MergedFreeBusy
@@ -68,7 +68,7 @@ Um valor de texto for fornecido pelo servidor se o valor para o elemento [FreeBu
     
 O valor de texto é um fluxo de informações de livre/ocupado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Fluxo de dados fornecidos por esse elemento é definido pelos elementos [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) e [TimeWindow](timewindow.md) . O elemento de [TimeWindow](timewindow.md) define o intervalo de tempo consultado para disponibilidade. O elemento de [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) define como o tempo do elemento [TimeWindow](timewindow.md) é dividido em intervalos retornados no elemento **MergedFreeBusy** . Cada número no stream **MergedFreeBusy** representa um único intervalo definido pelo elemento [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) . A tabela a seguir lista os valores possíveis para um intervalo individual. 
   

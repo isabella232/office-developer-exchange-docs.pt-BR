@@ -16,7 +16,7 @@ ms.openlocfilehash: c11f5ba5b8c0672bba0b9ae2a76211ac7d5d94ad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824059"
 ---
 # <a name="isnotequalto"></a>IsNotEqualTo
@@ -57,7 +57,7 @@ Nenhum.
 |[E](and.md) <br/> |Representa uma expressão de pesquisa que permite realizar uma operação Boolean e entre dois ou mais expressões de pesquisa. O resultado da operação e será **true** se todas as expressões de pesquisa contidas And forem **verdadeiras**.  <br/> |
 |[Ou](or.md) <br/> |Representa uma expressão de pesquisa que realiza um OR lógico a expressão de pesquisa que ele contém. [Ou](or.md) retornará **true** se qualquer um dos seus filhos retornam **true**. **Ou** deve ter dois ou mais filhos.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para executar comparações de sequência, considere o uso do elemento [contém](contains.md) , como ele fornece opções para os parâmetros correspondentes como caso e espaços em branco. Use o elemento [não](not.md) em conjunto com o elemento [contém](contains.md) para negar o resultado. 
   

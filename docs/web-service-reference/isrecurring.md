@@ -16,7 +16,7 @@ ms.openlocfilehash: dfb0c28fe225792c7128409a8cf010627c624fe0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824104"
 ---
 # <a name="isrecurring"></a>IsRecurring
@@ -52,7 +52,7 @@ Nenhum.
 
 É necessário um valor de texto que representa um valor booleano.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A tabela a seguir mostra como a propriedade **IsRecurring** é definida para tipos de item de calendário diferente para organizadores e participantes e para solicitações de reunião e atualizações. 
   

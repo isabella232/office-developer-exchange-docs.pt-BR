@@ -11,7 +11,7 @@ ms.openlocfilehash: bcde002c794ac79d9515befc0755c1f954ee8706
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823781"
 ---
 # <a name="groupinginformation-pox"></a>GroupingInformation (POX)
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto é comparado com o valor do elemento **GroupingInformation** para outras caixas de correio. Caixas de correio que têm o mesmo valor e usar o mesmo ponto de extremidade de serviços Web do Exchange (EWS) podem ser agrupadas para manter a afinidade. Para obter mais detalhes, consulte [Manter afinidade entre um grupo de assinaturas e o servidor de caixa de correio no Exchange](http://msdn.microsoft.com/library/1bda4094-88c3-4f61-9219-6ee70f6e81cf%28Office.15%29.aspx).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento **GroupingInformation** só é aplicável aos elementos de **protocolo** que têm um elemento filho de [Tipo POX ()](type-pox.md) com um valor de "EXPR". 
   

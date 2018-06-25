@@ -16,7 +16,7 @@ ms.openlocfilehash: cc3f7ed3b4b5f5ce27a9d45d508506bfa62e5086
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824489"
 ---
 # <a name="moreevents"></a>MoreEvents
@@ -50,7 +50,7 @@ Nenhum.
 
 O valor de texto representa um valor booleano. Um valor **true** indica que mais eventos na fila. Um valor **false** indica que não há mais eventos estão na fila. Esta propriedade é somente leitura. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 No caso de notificações de recepção, um valor **verdadeiro** nesse elemento indica ao cliente que a outra solicitação GetEvents deve ser emitida para obter os eventos restantes. Supondo que as especificações do cliente exigem latência mínima para notificações de evento, Solicitações GetEvents devem continuar em uma sucessão contínua até que um **Falso** **MoreEvents** valor será retornado. 
   

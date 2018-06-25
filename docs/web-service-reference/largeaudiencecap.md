@@ -12,7 +12,7 @@ ms.openlocfilehash: c207ad37b01e582ebe68f179186354b6d7f8e691
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824196"
 ---
 # <a name="largeaudiencecap"></a>LargeAudienceCap
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **LargeAudienceCap** é o número máximo de destinatários que podem ser abordados em uma mensagem de email. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

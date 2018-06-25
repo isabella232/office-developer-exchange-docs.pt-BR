@@ -11,7 +11,7 @@ ms.openlocfilehash: b952bfda17b30dcf29812697d225db32718d9781
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824458"
 ---
 # <a name="microsoftonline-pox"></a>MicrosoftOnline (POX)
@@ -48,7 +48,7 @@ Nenhum.
 |:-----|:-----|
 |[Conta (POX)](account-pox.md) <br/> |Especifica as configurações da conta do usuário ou contém respostas de erro.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor de texto indica se a caixa de correio do usuário está hospedada no Exchange Online. O valor será **true** se a caixa de correio do usuário está hospedadas no Exchange Online; Caso contrário, **false**.
   

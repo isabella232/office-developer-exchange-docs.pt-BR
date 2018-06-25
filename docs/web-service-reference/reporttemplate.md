@@ -16,7 +16,7 @@ ms.openlocfilehash: 70aab69f4d20ad9fd7e878c7fccd16e261c9b94c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825118"
 ---
 # <a name="reporttemplate"></a>ReportTemplate
@@ -57,7 +57,7 @@ A tabela a seguir lista os valores possíveis para o elemento **ReportTemplate**
 |Resumo  <br/> |Especifica que o relatório exibirá todos os destinatários da mensagem e o status de entrega da mensagem para cada destinatário.  <br/> |
 |RecipientPath  <br/> |Especifica que, para um único destinatário, o relatório exibirá um histórico completo dos eventos que ocorreram.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
   

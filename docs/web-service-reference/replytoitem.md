@@ -16,7 +16,7 @@ ms.openlocfilehash: 561ddc3b64ad6d2fe0ea3a3583c41faea36a4a5b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825120"
 ---
 # <a name="replytoitem"></a>ReplyToItem
@@ -76,7 +76,7 @@ Nenhum.
 |[ResponseObjects](responseobjects.md) <br/> |Contém uma coleção de todos os objetos de resposta que estão associados um item no armazenamento do Exchange.  <br/> |
 |[Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Contém uma matriz de itens para criar a pasta que é identificada pelo elemento [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento [de](from.md) deve ser definido como o endereço de email da entidade de segurança se um item é uma resposta de um representante. Se o representante não definir a propriedade [From](from.md) , o item será exibida para que foram enviados diretamente de caixa de correio do representante. 
   

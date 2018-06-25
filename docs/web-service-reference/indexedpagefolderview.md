@@ -16,7 +16,7 @@ ms.openlocfilehash: f32f778daa6fa3fea93ab2bc1951f2407dcf7f80
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823910"
 ---
 # <a name="indexedpagefolderview"></a>IndexedPageFolderView
@@ -61,7 +61,7 @@ Nenhum.
 |:-----|:-----|
 |[FindFolder](findfolder.md) <br/> |Define uma solicitação para localizar pastas em uma caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/FindFolder` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Buscando a partir do término envolve mover para a origem identificada pelo deslocamento. Além disso, o ponteiro é movido de volta pelo número de registros solicitados. Por exemplo, se existem 100 registros e o deslocamento for 25 do fim, a pesquisa começa a partir 75. Se 10 registros forem retornados, o ponteiro é movido para trás uma 10 adicionais registra como 65 e retorna registros 65 por meio de 75. O próximo índice é 64. O deslocamento próximo do final de uma página é 100 menos 64 que é igual a 36. O valor para o próximo deslocamento do final para obter a próxima página indexada é 36.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 410405638b3f8628dc589049873cfea1f153310c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824943"
 ---
 # <a name="querystring-querystringtype"></a>QueryString (QueryStringType)
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto do elemento **QueryString** representa uma consulta de caixa de correio que será feita usando um subconjunto da [Sintaxe de consulta avançada (AQS)](http://msdn.microsoft.com/en-us/library/aa965711%28VS.85%29.aspx). Consulte a seção de comentários para obter informações sobre as opções de sintaxe com suporte para cadeias de caracteres de consulta.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 No Exchange Server 2010, esse elemento é um tipo de cadeia de caracteres de esquema XML. Nas versões do Exchange, começando com o Exchange Server 2013, incluindo o Exchange Online, o tipo deste elemento é **QueryStringType**. Essa alteração não quebrará quaisquer clientes existentes, pois adiciona três novos atributos opcionais. 
   
@@ -137,7 +137,7 @@ A cadeia de caracteres de consulta também pode conter as propriedades não-inde
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra uma solicitação para pesquisar mensagens na caixa de entrada com a descoberta automática no assunto.
   

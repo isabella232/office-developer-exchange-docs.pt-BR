@@ -16,7 +16,7 @@ ms.openlocfilehash: eb03c34aeb5d80c4a9c6c92471e4094c63f04c87
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825252"
 ---
 # <a name="roomlists"></a>RoomLists
@@ -52,7 +52,7 @@ Nenhum.
 |:-----|:-----|
 |[GetRoomListsResponse](getroomlistsresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação GetRoomLists](getroomlists-operation.md) .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server com a função de servidor acesso para cliente instalada.
   

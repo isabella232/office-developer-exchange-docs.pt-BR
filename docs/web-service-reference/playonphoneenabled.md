@@ -16,7 +16,7 @@ ms.openlocfilehash: 1a6c5c41a4fe723f37d07ad0151dfbd6512cf4f7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824829"
 ---
 # <a name="playonphoneenabled"></a>PlayOnPhoneEnabled
@@ -50,7 +50,7 @@ Nenhum.
 
 O elemento **PlayOnPhoneEnabled** tem um valor **true** se tocar no telefone estiver habilitado para a conta; Caso contrário, o valor é **false**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento é obrigatório.
   

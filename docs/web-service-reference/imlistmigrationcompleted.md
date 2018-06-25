@@ -12,7 +12,7 @@ ms.openlocfilehash: 25f1b583b354a71958fbc8052c492726dc0eb7db
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823893"
 ---
 # <a name="imlistmigrationcompleted"></a>ImListMigrationCompleted
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **ImListMigrationCompleted** indica que os contatos de mensagens instantâneas repositório ter sido migrado para o Exchange armazenam. Um valor **false** indica que o repositório de contatos de mensagem instantânea não tenha sido migrado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 2e3226d4a611a3abd46e7d6d73e800b74dd31f59
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825561"
 ---
 # <a name="starttime-remindermessagedatatype"></a>StartTime (ReminderMessageDataType)
@@ -45,7 +45,7 @@ Nenhum.
 
 O valor de texto do elemento **StartTime (ReminderMessageDataType)** é que a hora de início do item do lembrete se destina. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   

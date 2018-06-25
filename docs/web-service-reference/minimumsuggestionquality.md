@@ -16,7 +16,7 @@ ms.openlocfilehash: ac79682bd761f678f23fc2d698a50fd7704f6fab
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824468"
 ---
 # <a name="minimumsuggestionquality"></a>MinimumSuggestionQuality
@@ -63,7 +63,7 @@ Nenhum.
 |**Justo** <br/> |A porcentagem que é considerada justa for definida usando o elemento [GoodThreshold](goodthreshold.md) .  <br/> |
 |**Baixa** <br/> |50% ou mais dos participantes têm um conflito com o tempo de reunião sugeridas.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento é necessário se o elemento [SuggestionsViewOptions](suggestionsviewoptions.md) é usado. 
   

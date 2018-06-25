@@ -16,7 +16,7 @@ ms.openlocfilehash: f97c050aec102b384fa4d98e6dee43befd4dc9ca
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824651"
 ---
 # <a name="oofstate"></a>OofState
@@ -59,13 +59,13 @@ Um valor de texto é necessário para o elemento **OofState** . A lista a seguir
     
 Um valor **agendado** indica que o status de ausência temporária está definido como **habilitada** durante um período de tempo identificado pelo elemento [duração (UserOofSettings)](duration-useroofsettings.md) . 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento é necessário em ambos a SetUsersOofSettingRequest e a mensagem GetUserOofSettingResponse.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir de uma solicitação de SetUserOofSettings permite que o **OofState**.
   

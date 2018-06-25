@@ -12,7 +12,7 @@ ms.openlocfilehash: 352292952c735e7d3893790a660096c6b6966536
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825315"
 ---
 # <a name="searchscope"></a>SearchScope
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **SearchScope** indica o tipo de caixa de correio que será pesquisado para uma pesquisa de descoberta. Um valor de texto de **PrimaryOnly** indica que a caixa de correio principal é pesquisada. Um valor de texto de **ArchiveOnly** indica que a caixa de correio de arquivo morto é pesquisada. Um valor de texto de **todas as** indica que os dois primário e caixas de correio de arquivo morto são pesquisadas. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

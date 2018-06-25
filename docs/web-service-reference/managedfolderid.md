@@ -16,7 +16,7 @@ ms.openlocfilehash: acdb69f82678633baff12c46494c39015c36d233
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824340"
 ---
 # <a name="managedfolderid"></a>ManagedFolderId
@@ -50,7 +50,7 @@ Nenhum.
 
 Um valor de texto é necessário para esse elemento.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor do identificador **ManagedFolderId** é o equivalente da propriedade **Guid** que é recuperado pelo `Get-ManagedFolder` comando do Microsoft Windows Powershell. Também é o valor do atributo **objectGUID** para a pasta gerenciada no serviço de diretório do Active Directory. 
   

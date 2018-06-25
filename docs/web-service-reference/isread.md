@@ -16,7 +16,7 @@ ms.openlocfilehash: bfa44eab1831b519aa7b515aaad456683e580299
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824096"
 ---
 # <a name="isread"></a>Foi lido
@@ -57,7 +57,7 @@ Nenhum.
 
 Um valor de texto de **true** indica que a mensagem foi lido. Um valor de texto de **false** indica que a mensagem não foi lido. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se [IsReadReceiptRequested](isreadreceiptrequested.md) for **true**, a configuração **foi lido** como **true** envia uma confirmação de leitura. O destinatário pode suprimir confirmações de leitura enviando-se o objeto de resposta [SuppressReadReceipt](suppressreadreceipt.md) antes de definir a propriedade **foi lido** . 
   

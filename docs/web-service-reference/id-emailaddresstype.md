@@ -16,7 +16,7 @@ ms.openlocfilehash: 5cd62f6f4e5912d2ecccda352be15c6a3b24e06c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823847"
 ---
 # <a name="id-emailaddresstype"></a>ID (EmailAddressType)
@@ -62,7 +62,7 @@ Nenhum.
 |:-----|:-----|
 |[Sala](room.md) <br/> |Define uma sala de reunião na organização do Exchange server.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
   

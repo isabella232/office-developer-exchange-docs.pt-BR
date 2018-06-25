@@ -11,7 +11,7 @@ ms.openlocfilehash: 4c82c7b61752cf7d91287a3968f6c642f4943855
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824301"
 ---
 # <a name="mailstore-pox"></a>Armazenamento_de_email (POX)
@@ -56,7 +56,7 @@ Nenhum.
 |:-----|:-----|
 |[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o servidor de acesso para cliente.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento **Armazenamento_de_email** está presente em uma resposta que tem um elemento de [Protocolo POX ()](protocol-pox.md) com um valor do atributo de **tipo** de "mapiHttp". 
   

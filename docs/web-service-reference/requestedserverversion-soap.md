@@ -13,7 +13,7 @@ ms.openlocfilehash: 6b9d31f3b7bca087652f04e4943becc5ac4e68e7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825132"
 ---
 # <a name="requestedserverversion-soap"></a>RequestedServerVersion (SOAP)
@@ -54,7 +54,7 @@ O valor de texto do elemento **RequestedServerVersion** Especifica a versão do 
 |Exchange2013  <br/> |Exchange Server 2013. O campo Exchange2013 é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.  <br/> |
 |Exchange2013_SP1  <br/> |Exchange Server 2013 Service Pack 1 (SP1). O campo Exchange2013_SP1 é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013 SP1.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento **RequestedServerVersion** é definido no cabeçalho SOAP. 
   

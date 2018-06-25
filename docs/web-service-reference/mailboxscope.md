@@ -12,7 +12,7 @@ ms.openlocfilehash: 89c9776079d686b114d6b744150f1c6df3711eab
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824293"
 ---
 # <a name="mailboxscope"></a>MailboxScope
@@ -45,7 +45,7 @@ Nenhum.
 
 O valor de texto do elemento **MailboxScope** é o escopo para localizar ou obter itens em uma conversa entre um dos caixas de correio primárias, arquivar caixas de correio ou ambos primário e arquivar caixas de correio. Um valor de texto de **PrimaryOnly** indica um escopo que refere-se a caixa de correio principal para um usuário. Um valor de texto de **ArchiveOnly** indica um escopo que refere-se a caixa de correio de arquivo morto para um usuário. Um valor de texto de **todas as** indica um escopo que refere-se a caixa de correio principal e a caixa de correio de arquivo morto. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

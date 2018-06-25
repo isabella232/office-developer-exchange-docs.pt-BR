@@ -16,7 +16,7 @@ ms.openlocfilehash: a02c3b5711a657311428d67cccabd9c8c231db67
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825256"
 ---
 # <a name="routingtype-emailaddresstype"></a>RoutingType (EmailAddressType)
@@ -52,7 +52,7 @@ Nenhum.
 
 O valor de texto representa um tipo de roteamento. SMTP é o valor de texto típica para esse elemento.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento é opcional no elemento de [caixa de correio](mailbox.md) . Outro elemento [RoutingType (EmailAddress)](routingtype-emailaddress.md) é usado para operações de disponibilidade. 
   

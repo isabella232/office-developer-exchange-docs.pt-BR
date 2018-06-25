@@ -12,7 +12,7 @@ ms.openlocfilehash: 1d9c3153d3c6232082f699697fc7faf108b43c70
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823832"
 ---
 # <a name="homecity"></a>HomeCity
@@ -46,7 +46,7 @@ Nenhum.
 
 O valor de texto do elemento **HomeCity** é um valor string que especifica a cidade. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

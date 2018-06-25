@@ -16,7 +16,7 @@ ms.openlocfilehash: 93c6f90d0866ae13618391b8544ab593fe33922b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824886"
 ---
 # <a name="previouswatermark"></a>PreviousWatermark
@@ -50,7 +50,7 @@ Nenhum.
 
 É necessário um valor de texto. O valor de texto representa a marca d'água mais recente. O valor de texto não pode ser uma sequência vazia.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A propriedade **PreviousWatermark** é útil para o cliente na determinação da última notificação bem-sucedida. Por exemplo, se uma assinatura tem três eventos com marcas d'água 1, 2 e 3 e a próxima notificação é enviada com um valor **PreviousWatermark** 3, o cliente pode comparar este valor como o valor de marca d'água da última notificação recebida. Isso permite que o cliente garantir a continuidade de eventos. 
   

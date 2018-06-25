@@ -16,7 +16,7 @@ ms.openlocfilehash: 99c8c69424a0a9d9594005fdf6b2ceba53e6288a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824451"
 ---
 # <a name="mergedfreebusyintervalinminutes"></a>MergedFreeBusyIntervalInMinutes
@@ -56,7 +56,7 @@ Nenhum.
 
 É necessário um valor de texto. O valor de texto representa o tempo em minutos. O valor padrão é 30 minutos. Seis minutos é o intervalo mínimo e um dia (1440 minutos) é o intervalo máximo para esse elemento.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse valor é usado somente se o elemento [RequestedView](requestedview.md) for igual a **MergedOnly**, **FreeBusyMerged**ou **DetailedMerge**. Este é um tipo de dados inteiro. O fluxo que contém os intervalos definidos por esse elemento é retornado no elemento [MergedFreeBusy](mergedfreebusy.md) . 
   

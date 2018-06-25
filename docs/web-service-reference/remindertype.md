@@ -12,7 +12,7 @@ ms.openlocfilehash: 11739d2068a1009b2840b2169e86b113151cbfa9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825077"
 ---
 # <a name="remindertype"></a>ReminderType
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **ReminderType** é o tipo de lembretes a serem retornadas, **tudo**, **atual**ou **antigo**. **All** é o valor recomendado para esse elemento. Para obter mais informações sobre a relação entre o elemento **ReminderType** e os elementos [BeginTime](begintime.md) e [EndTime](endtime-remindermessagedatatype.md) , consulte [GetReminders operação](getreminders-operation.md).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

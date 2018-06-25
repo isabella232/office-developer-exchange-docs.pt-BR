@@ -16,7 +16,7 @@ ms.openlocfilehash: b6d5c150cd874d1aced7f2d83ff36409e0738728
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824975"
 ---
 # <a name="recipientis"></a>RecipientIs
@@ -49,7 +49,7 @@ Nenhum.
 |[Condição](condition.md) <br/> |Identifica a condição que deve ser atendida para a parte de ação da regra a ser executada.  <br/> |
 |[E (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Indica que todos os elementos filho devem corresponder para avaliar como **true**.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
   

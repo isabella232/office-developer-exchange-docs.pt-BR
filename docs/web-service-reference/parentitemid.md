@@ -16,7 +16,7 @@ ms.openlocfilehash: 9bd875ee5ead8b87996288a640e1bb14e3a5e8b8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824703"
 ---
 # <a name="parentitemid"></a>ParentItemId
@@ -54,7 +54,7 @@ Nenhum.
 |:-----|:-----|
 |[CreateAttachment](createattachment.md) <br/> |Define uma solicitação para criar um anexo a um item em uma caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/CreateAttachment` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento é necessário na [operação CreateAttachment](createattachment-operation.md). Esse elemento é basicamente o mesmo que o elemento [ItemId](itemid.md) . 
   

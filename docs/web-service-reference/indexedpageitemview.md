@@ -16,7 +16,7 @@ ms.openlocfilehash: f1743e22087158c1889977f03774fccbc5577390
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823919"
 ---
 # <a name="indexedpageitemview"></a>IndexedPageItemView
@@ -58,13 +58,13 @@ Nenhum.
 |[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/FindItem` <br/> |
 |[FindConversation](findconversation.md) <br/> |Define uma solicitação para localizar conversas em uma caixa de correio.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Buscando a partir do término do envolve mover para a origem identificada pelo deslocamento. Além disso, o ponteiro é movido de volta pelo número de registros solicitados. Por exemplo, se existem 100 registros e o deslocamento for 25 do fim, a pesquisa começa a partir 75. Se 10 registros forem retornados, o ponteiro é movido para trás uma 10 adicionais registra como 65 e retorna registros 65 por meio de 75. O próximo índice é 64. O deslocamento próximo do final de uma página é 100 menos 64 que é igual a 36. 36 é o valor para o próximo deslocamento do final para obter a próxima página indexada.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra uma solicitação de [operação FindItem](finditem-operation.md) . Cada item é retornado com sua ID e o assunto. Um máximo de seis itens são retornados na resposta, conforme especificado pelo atributo **MaxEntriesReturned** . Os itens são listados na ordem agrupado por importância crescente. Itens em um grupo são agregados por assunto. 
   

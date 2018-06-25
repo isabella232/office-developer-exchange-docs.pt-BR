@@ -16,7 +16,7 @@ ms.openlocfilehash: ac5e9eadac7f45c233007ffb05f4d2430875ec52
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823955"
 ---
 # <a name="internalreply"></a>InternalReply
@@ -57,7 +57,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir de uma solicitação de SetUserOofSettings define o [OofState](oofstate.md) como **habilitada**, define a duração de ausência temporária para 10 dias e define as mensagens de ausência temporária internas e externas.
   

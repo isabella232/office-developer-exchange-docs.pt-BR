@@ -16,7 +16,7 @@ ms.openlocfilehash: 7269587e2fa72aeb9070a7b53ee9215829729329
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824432"
 ---
 # <a name="meetingrequesttype"></a>MeetingRequestType
@@ -60,7 +60,7 @@ Nenhum.
 |PrincipalWantsCopy  <br/> |Indica que a solicitação de reunião pertence a uma entidade de segurança que tem encaminhadas mensagens de reunião para um representante e tem suas cópias marcadas como informativas.  <br/> |
 |SilentUpdate  <br/> |Identifica a solicitação de reunião como uma atualização silenciosa a uma reunião existente.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
   

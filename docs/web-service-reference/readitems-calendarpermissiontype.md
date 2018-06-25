@@ -16,7 +16,7 @@ ms.openlocfilehash: 532b90c47cca7117a89d59e7012436268be9ebb0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824964"
 ---
 # <a name="readitems-calendarpermissiontype"></a>ReadItems (CalendarPermissionType)
@@ -59,7 +59,7 @@ A tabela a seguir lista os valores possíveis para o elemento **ReadItems** .
 |TimeAndSubjectAndLocation  <br/> |Indica que o usuário tem permissão para exibir o tempo de disponibilidade no calendário e o assunto e o local de compromissos.  <br/> |
 |FullDetails  <br/> |Indica que o usuário tem permissão para exibir todos os itens do calendário, incluindo o tempo de livre/ocupado e assunto, local e detalhes dos compromissos.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

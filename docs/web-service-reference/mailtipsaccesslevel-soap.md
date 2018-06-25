@@ -11,7 +11,7 @@ ms.openlocfilehash: 35fb4aa56bbfa42ac4be196a379dc48aff5ec101
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824313"
 ---
 # <a name="mailtipsaccesslevel-soap"></a>MailTipsAccessLevel (SOAP)
@@ -41,7 +41,7 @@ Nenhum.
 |:-----|:-----|
 |[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Representa uma lista de relacionamentos de organização para uma única organização.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento Especifica a quantidade máxima de detalhes de dicas de email que serão retornado na resposta.
   

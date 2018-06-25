@@ -15,14 +15,14 @@ ms.openlocfilehash: e6417b86ce17c0d34fe857cf1209a18972cbef63
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825146"
 ---
 # <a name="resetpin-operation-um-web-service"></a>Operação de ResetPIN (serviço web de Unificação de mensagens)
 
 A operação ResetPIN altera o PIN (senha TUI) para um novo valor aleatório.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A operação ResetPIN cria um novo PIN baseado nas diretivas de PIN. Se a operação for bem-sucedida, uma mensagem de email que contém o novo PIN é enviada à caixa de correio do usuário. Se a operação falhar, ele lançará uma exceção que contém informações sobre a falha.
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 71d2875f058d69e85755c256b6f817f8448d4f7e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824670"
 ---
 # <a name="owalink"></a>OwaLink
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **OwaLink** é a URL para exibir o item no Outlook Web App. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

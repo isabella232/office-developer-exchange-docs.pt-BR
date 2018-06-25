@@ -16,7 +16,7 @@ ms.openlocfilehash: d85c0fddec244c99dfbea1f85da331fc5319536d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823753"
 ---
 # <a name="groupby"></a>GroupBy
@@ -66,7 +66,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |:-----|:-----|
 |[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.  <br/><br/> Este é a expressão XPath para esse elemento:`/FindItem` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A resposta FindItem conterá uma coleção dos grupos. Cada grupo conterá todos os itens que tiveram valores da propriedade **GroupBy** correspondentes. A propriedade que determina o agrupamento é identificada no elemento [FieldURI](fielduri.md), [IndexedFieldURI](indexedfielduri.md)ou [ExtendedFieldURI](extendedfielduri.md) . 
   

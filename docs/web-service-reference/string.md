@@ -1,5 +1,5 @@
 ---
-title: Cadeia de caracteres
+title: String
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -16,10 +16,10 @@ ms.openlocfilehash: 66260c7ebcb56049a78c5eddbe057dfa8d61f193
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825607"
 ---
-# <a name="string"></a>Cadeia de caracteres
+# <a name="string"></a>String
 
 O elemento de **cadeia de caracteres** representa uma cadeia de caracteres que é usada pelo itens, contatos, tarefas e conversas. 
   
@@ -62,7 +62,7 @@ Nenhum.
 
 O valor de texto deste elemento é uma cadeia de caracteres que representa uma categoria, o filho de um contato, uma empresa, um único destinatário de uma conversa ou um contato que está associado uma tarefa.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   

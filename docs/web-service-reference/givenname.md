@@ -16,7 +16,7 @@ ms.openlocfilehash: a9c8e6b075a480bc54414d0ead11918a50223b56
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823710"
 ---
 # <a name="givenname"></a>GivenName
@@ -50,7 +50,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto que representa o nome do contato.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um determinado nome geralmente é o nome de uma pessoa.
   

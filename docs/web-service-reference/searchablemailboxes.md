@@ -12,7 +12,7 @@ ms.openlocfilehash: 5e8fdfbf4e0087b3fc514cd68b92b746cfb70db4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825289"
 ---
 # <a name="searchablemailboxes"></a>SearchableMailboxes
@@ -42,7 +42,7 @@ Nenhum.
 
 [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

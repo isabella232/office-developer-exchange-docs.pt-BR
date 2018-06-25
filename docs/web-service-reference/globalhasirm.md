@@ -12,7 +12,7 @@ ms.openlocfilehash: ad3eafcb38829e7ea57cbc7535b0f5411ad595d2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823717"
 ---
 # <a name="globalhasirm"></a>GlobalHasIrm
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **GlobalHasIrm** é **true** se pelo menos uma mensagem na conversa e em todas as pastas é uma mensagem protegida do IRM. Caso contrário, o valor é **false**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   

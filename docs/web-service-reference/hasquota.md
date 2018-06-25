@@ -16,7 +16,7 @@ ms.openlocfilehash: 26f14ee7c9d4de267733bca11f7884d1d391b3dd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823807"
 ---
 # <a name="hasquota"></a>HasQuota

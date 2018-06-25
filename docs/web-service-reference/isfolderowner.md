@@ -16,7 +16,7 @@ ms.openlocfilehash: a8838b2a7ed1b16c1e332d34a38038ba8254fc3f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824016"
 ---
 # <a name="isfolderowner"></a>IsFolderOwner
@@ -51,7 +51,7 @@ Nenhum.
 
 Um valor de texto de **true** indica que o usuário é o proprietário da pasta. Um valor **false** indica que o usuário não é o proprietário da pasta. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

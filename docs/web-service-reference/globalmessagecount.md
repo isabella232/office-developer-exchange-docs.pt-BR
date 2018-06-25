@@ -16,7 +16,7 @@ ms.openlocfilehash: 2dd871c1614bd537aeb7e7bf362b56adae7e4b7a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823741"
 ---
 # <a name="globalmessagecount"></a>GlobalMessageCount
@@ -58,7 +58,7 @@ Nenhum.
 
 O valor de texto do elemento **GlobalMessageCount** é o número total de itens de conversa em uma caixa de correio. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   

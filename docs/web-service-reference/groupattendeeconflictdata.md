@@ -16,7 +16,7 @@ ms.openlocfilehash: 382b4d866c95de98bd444cd6226d71813889d4f4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823757"
 ---
 # <a name="groupattendeeconflictdata"></a>GroupAttendeeConflictData
@@ -66,7 +66,7 @@ Nenhum.
 |:-----|:-----|
 |[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contém uma matriz de dados de conflito para participantes consultados identificados na [operação GetUserAvailability](getuseravailability-operation.md).  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento **GroupAttendeeConflictData** está presente na resposta quando um participante do [GetUserAvailabilityRequest](getuseravailabilityrequest.md) é resolvido para uma lista de distribuição. O elemento **GroupAttendeeConflictData** identifica três estados para membros de uma lista de distribuição: disponível, em conflito, ou nenhum dado. Expansão de lista de distribuição dará suporte a até 100 membros. Portanto, o elemento [NumberOfMembers](numberofmembers.md) pode conter um máximo de 100 membros. Expansão de lista de distribuição é recursiva. Se uma lista de distribuição contiver uma lista de distribuição de filhos que expande a associação do pai total a mais de 100 membros, na lista de distribuição de filhos não podem ser expandida e contará como uma única entrada da contagem do elemento [NumberOfMembersWithNoData](numberofmemberswithnodata.md) . Se uma lista de distribuição filho pode ser expandida e a associação de total pai não expande a mais de 100 membros, sua associação é expandida e as contagens do membro são adicionadas aos elementos filho do elemento **GroupAttendeeConflictData** . 
   

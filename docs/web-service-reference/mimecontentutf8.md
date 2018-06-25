@@ -12,7 +12,7 @@ ms.openlocfilehash: 47599b6634738fd488e5b020f69e36d5fcf550a6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824466"
 ---
 # <a name="mimecontentutf8"></a>MimeContentUTF8
@@ -46,7 +46,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto que representa um fluxo MIME base64binary.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O conteúdo da mensagem passa três níveis de codificação antes de ser armazenado no valor de **MimeContentUTF8** a seguir: 
   

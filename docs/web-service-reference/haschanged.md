@@ -12,7 +12,7 @@ ms.openlocfilehash: b0129e3d3acb43ada16a824e3d21706999d7053c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823802"
 ---
 # <a name="haschanged"></a>HasChanged
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **HasChanged** indica que a foto foi alterado desde a última vez em que ele foi retornado. Um valor **false** indica que a foto não tiver sido alterado desde a última vez em que ele foi retornado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

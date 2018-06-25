@@ -12,7 +12,7 @@ ms.openlocfilehash: 4f99cb9d6c521ff4083550737b64b77927669aaf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824188"
 ---
 # <a name="keyword"></a>Palavra-chave
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento de **palavra-chave** é o nome de uma única palavra-chave que representa uma estatística de palavra-chave única. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

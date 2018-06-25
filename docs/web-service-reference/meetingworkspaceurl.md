@@ -16,7 +16,7 @@ ms.openlocfilehash: 7d84547eafe4e77fb23a792fbf15633dbf93d775
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824436"
 ---
 # <a name="meetingworkspaceurl"></a>MeetingWorkspaceUrl
@@ -51,7 +51,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto que representa uma URL.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A propriedade MeetingWorkspaceUrl é gravável de leitura para o item de calendário do organizador. Ele é somente leitura para solicitações de reunião e itens de calendário dos participantes.
   

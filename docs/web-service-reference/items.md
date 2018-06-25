@@ -16,7 +16,7 @@ ms.openlocfilehash: 241a56ee23e87d6a4320b93cc65b1f5aa1f60120
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824163"
 ---
 # <a name="items"></a>Items
@@ -76,7 +76,7 @@ Nenhum.
 |[RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md) <br/> |Contém os resultados de uma pesquisa de uma pasta raiz única durante uma [operação FindItem](finditem-operation.md).  <br/> |
 |[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |Contém o status e o resultado de uma solicitação de [operação UpdateItem](updateitem-operation.md) .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para obter informações sobre o conjunto de itens em uma solicitação de [operação de CreateItem](createitem-operation.md) , consulte [itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md).
   

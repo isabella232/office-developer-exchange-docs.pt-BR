@@ -16,7 +16,7 @@ ms.openlocfilehash: 940f8e8fa0a53801ce1c3a45c3aecf1bdb6f519d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824898"
 ---
 # <a name="processrightaway"></a>ProcessRightAway
@@ -58,7 +58,7 @@ Nenhum.
 
 Um valor de texto de **true** indica que a resposta é enviada assim que a ação inicia o processamento no servidor. Um valor de texto de **false** indica que a resposta é enviada depois que a ação foi concluída. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 7f5cf5fcca0a72287593349fcf5090a74225d012
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824248"
 ---
 # <a name="locationsource"></a>LocationSource
@@ -55,7 +55,7 @@ Os valores de texto para o elemento **LocationSource** estão listados na tabela
 |Contato  <br/> |As informações foi obtidas de um contato.  <br/> |
 |Recurso  <br/> |As informações foi obtidas de um recurso.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

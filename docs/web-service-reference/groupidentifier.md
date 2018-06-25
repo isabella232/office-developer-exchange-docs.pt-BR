@@ -16,7 +16,7 @@ ms.openlocfilehash: d73d72979762238ca09496cfbd6636b4ff44a969
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823767"
 ---
 # <a name="groupidentifier"></a>GroupIdentifier
@@ -52,7 +52,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |:-----|:-----|
 |[GroupSids](groupsids.md) <br/> |Representa uma coleção de identificadores segurança de objeto de grupo de Active Directory que compõem um token de conta para serialização de token. Serialização de token não é suportada.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

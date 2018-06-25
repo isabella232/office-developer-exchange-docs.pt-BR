@@ -12,7 +12,7 @@ ms.openlocfilehash: d6cd5aab1145f6006912541c8f8c1d0a91d1e17e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824835"
 ---
 # <a name="policytag"></a>PolicyTag
@@ -46,7 +46,7 @@ Nenhum.
 
 O valor de texto do elemento **PolicyTag** é o identificador de marca de política. O identificador de marca de política é um GUID. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

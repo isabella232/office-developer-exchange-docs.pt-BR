@@ -11,7 +11,7 @@ ms.openlocfilehash: 43ebb328e31cdec11412e80b743d4d4393b7960a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825507"
 ---
 # <a name="smtpaddress-pox"></a>SmtpAddress POX)
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto representa o endereço SMTP atribuído ao repositório de pasta pública configurado para o usuário. Esse endereço SMTP pode ser usado no elemento [EMailAddress POX ()](emailaddress-pox.md) de uma solicitação de descoberta automática para descobrir as configurações de pasta pública. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O **SmtpAddress** é um elemento necessário filho do elemento **PublicFolderInformation** . 
   

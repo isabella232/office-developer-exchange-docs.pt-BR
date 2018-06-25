@@ -16,7 +16,7 @@ ms.openlocfilehash: 078bec85e1ca1530137f9935365d7dd3e530ea34
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825005"
 ---
 # <a name="recurrenceid"></a>RecurrenceId
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto representa um valor de data/hora que identifica uma ocorrência de calendário.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade é usada com a propriedade [UID](uid.md) para identificar uma instância específica de um item de calendário recorrente. 
   

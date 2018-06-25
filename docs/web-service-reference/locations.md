@@ -12,7 +12,7 @@ ms.openlocfilehash: 308fbdda4062b418a8925aa99d025b96e096778d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824249"
 ---
 # <a name="locations"></a>Locais
@@ -42,7 +42,7 @@ Nenhum.
 
 [Pessoa](persona.md)
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

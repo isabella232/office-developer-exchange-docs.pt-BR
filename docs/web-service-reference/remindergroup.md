@@ -12,7 +12,7 @@ ms.openlocfilehash: d9d31cdab482d04149428021ad44cc742108053a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825060"
 ---
 # <a name="remindergroup"></a>ReminderGroup
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **ReminderGroup** é o tipo de grupo do lembrete. O valor do **calendário** texto Especifica que o lembrete for para um item do calendário. O valor de texto da **tarefa** Especifica que o lembrete for para um item de tarefa. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

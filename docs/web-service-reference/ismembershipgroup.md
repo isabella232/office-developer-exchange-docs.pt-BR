@@ -12,7 +12,7 @@ ms.openlocfilehash: 03ab0dc75d2c798b7f2afeef85aa45f0349be70a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824050"
 ---
 # <a name="ismembershipgroup"></a>IsMembershipGroup
@@ -46,7 +46,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **IsMembershipGroup** indica que a entidade é um grupo de distribuição ou uma caixa de correio. Um valor false indica que a entidade não é um grupo de distribuição ou uma caixa de correio. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

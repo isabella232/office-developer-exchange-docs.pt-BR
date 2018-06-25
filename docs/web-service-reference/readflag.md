@@ -12,7 +12,7 @@ ms.openlocfilehash: f3156a51fbdd3372dd28f2065499d26a50b3d497
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824954"
 ---
 # <a name="readflag"></a>ReadFlag
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **ReadFlag** indica que os itens na pasta serão marcados como lida. Um valor **false** indica que os itens na pasta serão marcados como não lido. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

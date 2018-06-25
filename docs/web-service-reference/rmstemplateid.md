@@ -12,7 +12,7 @@ ms.openlocfilehash: 447da31fc0ccc0059c852f73b307d21cad11d5a1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825238"
 ---
 # <a name="rmstemplateid"></a>RMSTemplateId
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **RMSTemplateId** é o identificador do modelo de gerenciamento de direitos. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

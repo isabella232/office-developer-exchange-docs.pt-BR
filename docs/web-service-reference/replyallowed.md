@@ -12,7 +12,7 @@ ms.openlocfilehash: c774836ac6e72648d6a6c017d41fcafdb64d116c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825107"
 ---
 # <a name="replyallowed"></a>ReplyAllowed
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **ReplyAllowed** indica que as respostas são permitidas para os direitos de dados gerenciados. Um valor **false** indica que as respostas não são permitidas. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

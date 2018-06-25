@@ -16,7 +16,7 @@ ms.openlocfilehash: 7cd8f3452a744e0c9a98fd3698dffb9ed8721a6c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825014"
 ---
 # <a name="recurringdatetransition"></a>RecurringDateTransition
@@ -57,7 +57,7 @@ Nenhum.
 |[Transições](transitions.md) <br/> |Representa uma coleção de transições de fuso horário.  <br/> |
 |[TransitionsGroup](transitionsgroup.md) <br/> |Representa uma coleção de transições de fuso horário.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um exemplo de uma transição de fuso horário que poderia ser representado pelo elemento [RecurringDateTransition](recurringdatetransition.md) é uma transição que ocorre em 15 de março de cada ano. 
   

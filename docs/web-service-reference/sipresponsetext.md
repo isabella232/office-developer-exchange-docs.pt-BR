@@ -16,7 +16,7 @@ ms.openlocfilehash: 3856275c74b51e29db5884ed490715e9f286eb8b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825502"
 ---
 # <a name="sipresponsetext"></a>SIPResponseText
@@ -50,7 +50,7 @@ Nenhum.
 
 O texto de resposta SIP.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório /ews/ do computador que está executando o Exchange Server com a função de servidor acesso para cliente instalada.
   

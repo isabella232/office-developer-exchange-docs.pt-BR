@@ -12,7 +12,7 @@ ms.openlocfilehash: 53b82729f86ad91d187e1cdfc0fa410ce8ddf16c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824684"
 ---
 # <a name="pagesize"></a>PageSize
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **PageSize** é o número de itens retornados em uma única página de um conjunto de resultados de pesquisa. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

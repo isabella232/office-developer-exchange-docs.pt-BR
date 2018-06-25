@@ -16,7 +16,7 @@ ms.openlocfilehash: 9457cdabe99c0adcb8183cbc039cc86db881fec7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823952"
 ---
 # <a name="internetmessageheader"></a>InternetMessageHeader
@@ -52,7 +52,7 @@ Nenhum.
 
 O valor de texto representa o valor para o cabeçalho.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Apresentamos a seguir o EWS Managed API estendido a definição de propriedade para a propriedade **PR_TRANSPORT_MESSAGE_HEADERS** . 
   

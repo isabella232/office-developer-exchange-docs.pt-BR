@@ -16,7 +16,7 @@ ms.openlocfilehash: d10ce96cacb0be7411c4e8230ebc9b2803b7a5b1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824145"
 ---
 # <a name="itemchange"></a>ItemChange
@@ -60,7 +60,7 @@ Nenhum.
 |:-----|:-----|
 |[ItemChanges](itemchanges.md) <br/> |Contém uma matriz de elementos [ItemChange](itemchange.md) que identificam os itens e as atualizações para aplicar aos itens.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/UpdateItem/ItemChanges` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Somente um único elemento de [ItemId](itemid.md), [OccurrenceItemId](occurrenceitemid.md)ou [RecurringMasterItemId](recurringmasteritemid.md) pode ser usado em um elemento **ItemChange** . 
   

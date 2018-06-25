@@ -16,7 +16,7 @@ ms.openlocfilehash: b87393e460b1eee1c13efebf38e898d17915bd71
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824516"
 ---
 # <a name="newbodycontent"></a>NewBodyContent
@@ -63,7 +63,7 @@ Nenhum.
 
 O valor de texto representa o novo conteúdo de corpo de uma mensagem.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do servidor do Exchange que possui a função de servidor acesso para cliente instalada.
   

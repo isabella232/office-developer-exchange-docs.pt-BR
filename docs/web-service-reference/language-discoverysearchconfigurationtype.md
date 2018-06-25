@@ -12,7 +12,7 @@ ms.openlocfilehash: 1e904ac4d7f525b2d12cfe83f0da33b9ed474066
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824197"
 ---
 # <a name="language-discoverysearchconfigurationtype"></a>Idioma (DiscoverySearchConfigurationType)
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento de **idioma (DiscoverySearchConfigurationType)** é um idioma ou cultura. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento Especifica o formato de intervalos de data especificado na [operação SearchMailboxes](searchmailboxes-operation.md) ou a [operação SetHoldOnMailboxes](setholdonmailboxes-operation.md).
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 3678bd94851633fcca9817c020106670b57d110c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824245"
 ---
 # <a name="location-calendareventdetails"></a>Local (CalendarEventDetails)
@@ -66,7 +66,7 @@ Nenhum.
 
 Se esse elemento é retornado em tempo de resposta, é necessário um valor de texto. Esse elemento pode conter uma sequência vazia. Esse elemento é opcional, se o elemento [CalendarEventDetails](calendareventdetails.md) é usado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento mapeia para uma MAPI PR_Location propriedade nomeada.
   

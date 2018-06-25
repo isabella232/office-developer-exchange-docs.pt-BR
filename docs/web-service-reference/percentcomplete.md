@@ -16,7 +16,7 @@ ms.openlocfilehash: 18e53221ecdf60df195445ed7692c03795bdcc1e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824717"
 ---
 # <a name="percentcomplete"></a>PercentComplete
@@ -50,7 +50,7 @@ Nenhum.
 
 É necessário um valor de texto que representa um número inteiro entre 0 e 100.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A definição de **PercentComplete** como 100 tem o mesmo efeito que a configuração do elemento [CompleteDate](completedate.md) ou configuração do elemento de [Status](status.md) como **concluído**. Em uma solicitação que conjuntos de pelo menos dois dessas propriedades, a propriedade processada última determinará o valor que está definido para esses elementos. Por exemplo, se **PercentComplete** é 100, [CompleteDate](completedate.md) é 1º de janeiro de 2007, [o Status](status.md) é NotStarted e as propriedades são transmitidas nesta ordem, o efeito será definir o [Status](status.md) da tarefa como NotStarted, o [ CompleteDate](completedate.md) **Nulo**e a **PercentComplete** como 0. 
   

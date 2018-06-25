@@ -12,7 +12,7 @@ ms.openlocfilehash: e3958cd63fae406dc53d4dd3f603edc0af284ef6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825321"
 ---
 # <a name="sender-string"></a>Remetente (string)
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento do **remetente** é o remetente de um email que for encontrado, executando uma pesquisa de descoberta. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -15,7 +15,7 @@ ms.openlocfilehash: 5f4d59c5497158e5afbc8bb5db4900bd129df50b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824113"
 ---
 # <a name="isumenabled-um-web-service"></a>IsUMEnabled (serviço web de Unificação de mensagens)
@@ -47,7 +47,7 @@ Nenhum.
 
 Um valor de texto que representa um valor booleano é necessário se este elemento é incluído. Um valor **true** indica que a caixa de correio está habilitada para Unificação de mensagens. Um valor **false** significa que a caixa de correio não está habilitada para Unificação de mensagens. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para determinar se uma caixa de correio está habilitada para Unificação de mensagens, use a [operação IsUMEnabled (serviço web de Unificação de mensagens)](isumenabled-operation-um-web-service.md).
   

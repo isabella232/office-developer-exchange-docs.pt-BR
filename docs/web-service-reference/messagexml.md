@@ -16,7 +16,7 @@ ms.openlocfilehash: 8b6d201fe35c99a65f920ed7f60c33a2271fbd2e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824470"
 ---
 # <a name="messagexml"></a>MessageXml
@@ -92,7 +92,7 @@ Nenhum.
 |[GetServiceConfigurationResponse](getserviceconfigurationresponse.md) <br/> |Contém uma resposta a uma solicitação **GetServiceConfiguration** .  <br/> |
 |[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contém as definições de configuração de serviço.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento não é necessário e não está incluído em todas as respostas. Ele é incluído para mensagens de erro. Solicitações que envolvem pastas ou itens, o elemento **MessageXML** conterá um ou mais elementos que contêm os URIs para as propriedades que causou o erro. Um exemplo disso é o elemento [FieldURI](fielduri.md) . 
   

@@ -13,7 +13,7 @@ ms.openlocfilehash: 0d8682c33790d2d26001512ad9e2191ae52074d0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825134"
 ---
 # <a name="requestedversion-soap"></a>RequestedVersion (SOAP)
@@ -48,7 +48,7 @@ Nenhum.
 
 O valor de texto para o elemento **RequestedVersion** pode ser Exchange2010, Exchange2010_SP1, Exchange2010_SP2 ou Exchange2013.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se esse elemento não estiver presente, a versão mais recente do serviço é usada.
   

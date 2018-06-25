@@ -12,7 +12,7 @@ ms.openlocfilehash: 59b99ab165e7a099816fb07e126ac912f0858c9c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825529"
 ---
 # <a name="specificusers"></a>SpecificUsers
@@ -42,7 +42,7 @@ Nenhum.
 
 [ClientExtension](clientextension.md)
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 8044cb2b52cb572fad8731253dffa34de9d097fa
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823746"
 ---
 # <a name="goodthreshold"></a>GoodThreshold
@@ -56,7 +56,7 @@ Nenhum.
 
 É necessário um valor de texto. Os valores inteiros esperada estão entre 0 e 50.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento é necessário se o elemento [SuggestionsViewOptions](suggestionsviewoptions.md) é usado. O elemento **GoodThreshold** também determina quais reuniões são considerados razoável. Ele que a porcentagem de participantes com conflitos é que menor que o limite de uma boa e maior do que 50 por cento, o tempo de reunião sugerido qualifica como razoável. O limite de uma boa plus 50 é igual a porcentagem que define o limite de Good/razoável. 
   

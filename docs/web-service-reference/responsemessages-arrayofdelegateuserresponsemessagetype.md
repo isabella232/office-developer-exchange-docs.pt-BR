@@ -16,7 +16,7 @@ ms.openlocfilehash: e4b5567f3ded003e9648eb8ebebfadf8f1748d6c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825193"
 ---
 # <a name="responsemessages-arrayofdelegateuserresponsemessagetype"></a>ResponseMessages (ArrayOfDelegateUserResponseMessageType)
@@ -53,7 +53,7 @@ Nenhum.
 |[UpdateDelegateResponse](updatedelegateresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação UpdateDelegate](updatedelegate-operation.md) .  <br/> |
 |[RemoveDelegateResponse](removedelegateresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação RemoveDelegate](removedelegate-operation.md) .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento é usado a [operação AddDelegate](adddelegate-operation.md), a [operação de GetDelegate](getdelegate-operation.md), a [operação UpdateDelegate](updatedelegate-operation.md)e a [operação RemoveDelegate](removedelegate-operation.md). As respostas de operação de gerenciamento de representante são estruturadas de forma diferente de outras respostas. As mensagens de resposta do representante gerenciamento são fortemente tipadas.
   

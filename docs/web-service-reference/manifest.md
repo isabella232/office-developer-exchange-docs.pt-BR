@@ -12,7 +12,7 @@ ms.openlocfilehash: 7388e40a96a082666519d1c67af5b218b2b9ab01
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824343"
 ---
 # <a name="manifest"></a>Manifesto
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento manifesto é um formulário de representação da base64 binário codificado ASCII do arquivo de manifesto do aplicativo de cliente.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

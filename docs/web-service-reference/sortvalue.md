@@ -12,7 +12,7 @@ ms.openlocfilehash: 373a1de407635e8e7b79f5e25efac8d0b1778a70
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825524"
 ---
 # <a name="sortvalue"></a>SortValue
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento [SortValue](sortvalue.md) é o campo usado para classificar o conjunto de resultados. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

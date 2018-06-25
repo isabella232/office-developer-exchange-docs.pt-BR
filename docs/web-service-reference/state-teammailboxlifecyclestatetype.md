@@ -12,7 +12,7 @@ ms.openlocfilehash: accd70d36cc34e7364387b98a2e94c56b91f012f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825571"
 ---
 # <a name="state-teammailboxlifecyclestatetype"></a>Estado (TeamMailboxLifecycleStateType)
@@ -45,7 +45,7 @@ Nenhum.
 
 O valor de texto do elemento de **estado** é o estado de ciclo de vida que é definido em uma caixa de correio do site. Um valor de texto de **ativo** indica que uma caixa de correio de site está em uso ativo. Um valor de texto **fechado** indica que uma caixa de correio de site foi fechada e não está em uso ativo. Um valor de texto de **desvinculados** indica que uma caixa de correio de site não estiver vinculada a um ambiente de colaboração baseado na web. Os valores de **ativo**, **fechado**e **PendingDelete** são mutuamente exclusivos, mas o valor **desvinculados** não é mutuamente exclusivos os outros valores. Um valor de texto de **PendingDelete** indica que uma caixa de correio de site é exclusão pendente. Uma caixa de correio de site deve ser fechado antes que ela pode ser definida como **PendingDelete**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

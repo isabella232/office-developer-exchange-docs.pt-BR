@@ -12,7 +12,7 @@ ms.openlocfilehash: 417afd1afc25e5872d1f511feff34494fe6b7b62
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823990"
 ---
 # <a name="isarchive"></a>IsArchive
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **IsArchive** indica que a caixa de correio de destino é uma caixa de correio de arquivo morto. Um valor **false** indica que a caixa de correio de destino não é uma caixa de correio de arquivo morto. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

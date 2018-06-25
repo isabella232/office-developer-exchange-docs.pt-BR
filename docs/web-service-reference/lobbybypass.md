@@ -12,7 +12,7 @@ ms.openlocfilehash: 9ecc920acd9e1aea3476ad1194d6c7d0529b21c7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824246"
 ---
 # <a name="lobbybypass"></a>LobbyBypass
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **LobbyBypass** pode ser **desativado** ou **EnabledForGatewayParticipants**. O valor de **desabilitada** indica que o desvio de lobby está desativado para que todos os participantes da reunião devem acessar pelo lobby virtual. O valor de **EnabledForGatewayParticipants** indica que o desvio de lobby está habilitado para participantes de telefone. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

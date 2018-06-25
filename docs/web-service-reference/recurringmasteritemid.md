@@ -16,7 +16,7 @@ ms.openlocfilehash: ae59e33ece55d85435ece4c9030ccda32eb62eab
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825015"
 ---
 # <a name="recurringmasteritemid"></a>RecurringMasterItemId
@@ -59,7 +59,7 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir identifica o item mestre recorrente identificando um dos seus ocorrências com o identificador de 56lkjh6.
   

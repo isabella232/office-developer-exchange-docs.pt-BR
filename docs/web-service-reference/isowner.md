@@ -12,7 +12,7 @@ ms.openlocfilehash: aac3c2a599093282542025468d73c55ec4569e29
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824080"
 ---
 # <a name="isowner"></a>IsOwner
@@ -46,7 +46,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **IsOwner** indica que o usuário é o proprietário de direitos emitido em um item. Um valor **false** indica que o usuário não é o proprietário de direitos emitido em um item. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

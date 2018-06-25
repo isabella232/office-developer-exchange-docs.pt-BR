@@ -16,7 +16,7 @@ ms.openlocfilehash: 37c0357b3eab2314ee74e1c98287b3dc05a3bf26
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824095"
 ---
 # <a name="isprivate"></a>IsPrivate
@@ -66,7 +66,7 @@ Nenhum.
 
 É necessário um valor de texto que representa um valor booleano.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se este elemento for usado, os outros elementos no elemento [CalendarEventDetails](calendareventdetails.md) não serão incluídos na resposta. 
   

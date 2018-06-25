@@ -16,7 +16,7 @@ ms.openlocfilehash: c9ee9fd01367f714e1cb3770e2be5161cb45d98f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825522"
 ---
 # <a name="sourceids"></a>SourceIds
@@ -58,7 +58,7 @@ Nenhum.
 |:-----|:-----|
 |[ConvertId](convertid.md) <br/> |Define uma solicitação para converter os identificadores de item e pasta entre os formatos de suporte do Exchange.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server que possui a função de servidor acesso para cliente instalada.
   

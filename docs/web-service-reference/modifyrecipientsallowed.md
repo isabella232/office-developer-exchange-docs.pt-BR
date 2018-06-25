@@ -12,7 +12,7 @@ ms.openlocfilehash: 2b07c7fa8e6b5872621c8b019b60584abbf98e3c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824473"
 ---
 # <a name="modifyrecipientsallowed"></a>ModifyRecipientsAllowed
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **ModifyRecipientsAllowed** indica que a lista de destinatários do item é modificável para um item com o gerenciamento de direitos ativado contidas nela. Um valor **false** indica que a lista de destinatários não é modificável. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

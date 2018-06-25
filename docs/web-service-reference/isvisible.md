@@ -12,7 +12,7 @@ ms.openlocfilehash: c08b8a3d537c062d3a1a8ed59823bc0f74eea426
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824133"
 ---
 # <a name="isvisible"></a>IsVisible
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de **true** para o elemento **IsVisible** text indica que a política de retenção é visível para um usuário. Um valor **false** indica que a política de retenção não é visível para os usuários. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

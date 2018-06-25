@@ -16,7 +16,7 @@ ms.openlocfilehash: f73978df47bd8240dd5dabfbbf74523525e3270f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824637"
 ---
 # <a name="numberofmemberswithnodata"></a>NumberOfMembersWithNoData
@@ -64,7 +64,7 @@ Nenhum.
 |:-----|:-----|
 |[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contém informações de conflito agregadas sobre o número de usuários que estão disponíveis, o número de usuários que possuem conflitos e o número de usuários que não têm informações de disponibilidade em uma lista de distribuição para um horário de reunião sugeridas.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um contato em um grupo que não têm uma caixa de correio é um exemplo de um membro da lista de distribuição que não têm dados do calendário. Um contato também pode ter o status de **Nenhum dado** pelos seguintes motivos: 
   

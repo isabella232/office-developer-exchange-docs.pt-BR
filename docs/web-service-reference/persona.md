@@ -12,7 +12,7 @@ ms.openlocfilehash: 15af72eb0e25e424aa7293ce0cbc2dd31e76abda
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824736"
 ---
 # <a name="persona"></a>Pessoa
@@ -140,7 +140,7 @@ Nenhum.
 
 [AddNewImContactToGroupResponse](addnewimcontacttogroupresponse.md) | [AddNewTelUriContactToGroupResponse](addnewteluricontacttogroupresponse.md) | [GetPersonaResponseMessage](getpersonaresponsemessage.md) | [pessoas](people.md) | [personagens](personas-ex15websvcsotherref.md)
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

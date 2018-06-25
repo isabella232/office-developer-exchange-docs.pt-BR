@@ -16,7 +16,7 @@ ms.openlocfilehash: f3f6e0cc5fbfe29e5a818d69794cbaf5b6855962
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824046"
 ---
 # <a name="ismeeting-calendareventdetails"></a>IsMeeting (CalendarEventDetails)
@@ -66,7 +66,7 @@ Nenhum.
 
 Se esse elemento é retornado em tempo de resposta, é necessário um valor de texto. Esse elemento é necessário se o elemento [CalendarEventDetails](calendareventdetails.md) é usado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A diferença entre uma reunião e um compromisso é que uma reunião é um item de calendário que inclua os participantes; um compromisso é um item de calendário que não inclui os participantes.
   

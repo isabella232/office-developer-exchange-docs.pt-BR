@@ -16,7 +16,7 @@ ms.openlocfilehash: e64818961283f90e447e2044cf7f918eccd21f06
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823692"
 ---
 # <a name="getuseroofsettingsrequest"></a>GetUserOofSettingsRequest
@@ -52,7 +52,7 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir é um exemplo de uma solicitação de GetUserOofSettings que obtém informações de ausência temporária de um único usuário.
   

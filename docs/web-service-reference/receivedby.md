@@ -16,7 +16,7 @@ ms.openlocfilehash: 7918fa3320223e5cf02dd225912adfae3181e29c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824969"
 ---
 # <a name="receivedby"></a>ReceivedBy
@@ -61,7 +61,7 @@ Nenhum.
 |[ForwardItem](forwarditem.md) <br/> |Contém um item de armazenamento do Exchange para encaminhar para destinatários.  <br/> |
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |Representa o objeto de resposta é usado para cancelar uma reunião.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento **ReceivedRepresenting** é usado em conjunto com a **partir** e **ReceivedBy** elementos em Delegar cenários de acesso. A tabela a seguir lista as entidades que esses elementos representam em um cenário de acesso de representante. 
   

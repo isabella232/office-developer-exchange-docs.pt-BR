@@ -16,7 +16,7 @@ ms.openlocfilehash: f8aed9b78fc54307f44b96a45e5c31a4cc76ab50
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823756"
 ---
 # <a name="groupeditems"></a>GroupedItems
@@ -64,7 +64,7 @@ Nenhum.
 |:-----|:-----|
 |[Grupos](groups.md) <br/> |Contém uma coleção dos grupos que são encontrados com os critérios de pesquisa e a agregação de lista segura é identificada na solicitação de [operação FindItem](finditem-operation.md) .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
   

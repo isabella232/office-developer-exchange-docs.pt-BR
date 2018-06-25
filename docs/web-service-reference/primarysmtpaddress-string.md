@@ -12,7 +12,7 @@ ms.openlocfilehash: a103513c7cac94bd4923c12ed402b81c5d794e1f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824878"
 ---
 # <a name="primarysmtpaddress-string"></a>PrimarySmtpAddress (string)
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **PrimarySmtpAddress** é o endereço SMTP principal da caixa de correio. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

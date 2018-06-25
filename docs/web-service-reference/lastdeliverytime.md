@@ -16,7 +16,7 @@ ms.openlocfilehash: 240f6acaf3e5249686ab26501a26ee3e0f337b0f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824198"
 ---
 # <a name="lastdeliverytime"></a>LastDeliveryTime
@@ -58,7 +58,7 @@ Nenhum.
 
 O valor de texto do elemento **LastDeliveryTime** é a data e hora da mensagem foi recebida pela última nesta conversa na pasta atual. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   

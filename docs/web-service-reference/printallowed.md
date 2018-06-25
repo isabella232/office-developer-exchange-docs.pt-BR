@@ -12,7 +12,7 @@ ms.openlocfilehash: 85c18f3a6bd8f1705d0e21b99bae15484348f777
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824880"
 ---
 # <a name="printallowed"></a>PrintAllowed
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **PrintAllowed** indica que a opção Imprimir o conteúdo é permitida para um item direitos gerenciados. Um valor **false** indica que a impressão não é permitida. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

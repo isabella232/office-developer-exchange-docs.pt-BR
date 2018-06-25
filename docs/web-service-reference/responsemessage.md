@@ -16,7 +16,7 @@ ms.openlocfilehash: 69f1f6f12d10044045b72dd644536e742c479b9e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825191"
 ---
 # <a name="responsemessage"></a>ResponseMessage
@@ -69,7 +69,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Contém os resultados de resposta e as configurações de ausência temporária para um usuário.  <br/><br/> Este é a expressão XPath 2.0 para esse elemento:  <br/><br/>  `/GetUserOofSettingsResponse` <br/> |
 |[SetUserOofSettingsResponse](setuseroofsettingsresponse.md) <br/> |Contém o resultado de uma mensagem de [SetUserOofSettingsRequest](setuseroofsettingsrequest.md) tentada. <br/> <br/> Este é a expressão XPath 2.0 para esse elemento:  <br/><br/>  `/SetUserOofSettingsResponse` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O tipo de **ResponseMessageType** é comum a todas as respostas de serviços Web do Exchange. O tipo de **ResponseMessageType** é estendido pelos seguintes tipos complexos: 
   

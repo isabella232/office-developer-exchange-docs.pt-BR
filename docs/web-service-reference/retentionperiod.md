@@ -12,7 +12,7 @@ ms.openlocfilehash: cd1c667d21c4dd47ed282076ce7843150389c46e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825220"
 ---
 # <a name="retentionperiod"></a>RetentionPeriod
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **RetentionPeriod** é o número de dias em que a política de retenção está em vigor para um item. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

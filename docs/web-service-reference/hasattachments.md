@@ -16,7 +16,7 @@ ms.openlocfilehash: e76e0ecbb357396540f0d1649cf5062edfb18660
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823801"
 ---
 # <a name="hasattachments"></a>HasAttachments
@@ -62,7 +62,7 @@ Nenhum.
 
 É necessário um valor de texto que representa um valor booleano. Um valor **true** significa que o item ou conversa tem pelo menos um anexo visível. Um valor **false** significa que o item ou conversa sem anexos ou somente tem oculto anexos. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A propriedade **HasAttachments** é calculada da propriedade MAPI de **AllAttachmentsHidden** booleano. Se um item não tiver um anexo, a propriedade **AllAttachmentsHidden** não existe. Se todos os anexos no item estiver oculto, a propriedade **AllAttachmentsHidden** é **true**. A propriedade **AllAttachmentsHidden** for **Falso** , se ele tiver sido definido pelo menos um anexo e pelo menos um dos anexos está visível. Use a propriedade MAPI **AllAttachmentsHidden** para pesquisa, agrupar e classificar itens. 
   

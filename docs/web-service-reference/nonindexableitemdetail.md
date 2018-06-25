@@ -12,7 +12,7 @@ ms.openlocfilehash: ef1bd072a44b42b501a3016c394b89fe6ab25bf0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824543"
 ---
 # <a name="nonindexableitemdetail"></a>NonIndexableItemDetail
@@ -50,7 +50,7 @@ Nenhum.
 
 [Itens (ArrayOfNonIndexableItemDetailsType)](items-arrayofnonindexableitemdetailstype.md)
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

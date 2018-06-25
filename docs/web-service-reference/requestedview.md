@@ -16,7 +16,7 @@ ms.openlocfilehash: 7710227720264432c325f95da894cbbbd4748dc0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825145"
 ---
 # <a name="requestedview"></a>RequestedView
@@ -65,7 +65,7 @@ Nenhum.
 |Detalhada  <br/> |Representa as informações de status herdado: disponível, ocupado, provisório e OOF; os horários de início/término dos compromissos; e várias propriedades do compromisso como assunto, local e importância. Este modo de exibição solicitado retornará a quantidade máxima de informações para o qual o usuário solicitante é privilegiado. Se apenas informações de livre/ocupado mescladas estiverem disponíveis, como com solicitando informações para usuários em uma floresta do Microsoft Exchange Server 2003, **MergedOnly** será retornado. Caso contrário, **FreeBusy** ou **detalhado** será retornado.  <br/> |
 |DetailedMerged  <br/> |Representa todas as propriedades na **Detailed** com um fluxo de informações de livre/ocupado mescladas. Se apenas informações de livre/ocupado mescladas estiverem disponíveis, **MergedOnly** será retornado. Caso contrário, **FreeBusyMerged** ou **DetailedMerged** serão retornados.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor definido por esse elemento é retornado com o elemento [FreeBusyViewType](freebusyviewtype.md) na resposta. 
   

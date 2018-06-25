@@ -16,7 +16,7 @@ ms.openlocfilehash: bc5160480cc6881bb9d724aa61323f5717d1f2fa
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824636"
 ---
 # <a name="occurrence-time-zone-transition"></a>Ocorrência (transição de fuso horário)
@@ -62,7 +62,7 @@ O valor de texto é um inteiro que representa a ocorrência do dia da semana do 
 |-3  <br/> |A terceira ocorrência do dia da semana do final do mês especificado.  <br/> |
 |-4  <br/> |A quarta ocorrência do dia da semana do final do mês especificado.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
   

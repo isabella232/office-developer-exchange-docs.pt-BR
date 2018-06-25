@@ -16,7 +16,7 @@ ms.openlocfilehash: dd8644210692e0c342079d055ddf00b8d9283d7d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19824552"
 ---
 # <a name="notesfolderpermissionlevel"></a>NotesFolderPermissionLevel
@@ -62,7 +62,7 @@ A tabela a seguir lista os valores de texto que representam os níveis de permis
 |Editor  <br/> |O usuário delegado pode ler, criar e modificar itens na pasta anotações.  <br/> |
 |Personalizado  <br/> |O usuário delegado tem permissões de acesso personalizada para a pasta anotações.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   
