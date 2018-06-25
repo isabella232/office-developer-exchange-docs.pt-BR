@@ -12,7 +12,7 @@ ms.openlocfilehash: c2a5d764140b86ddec49d51ec969aab63eb34f19
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751032"
 ---
 # <a name="reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline"></a>Lendo e modificando mensagens no pipeline de transporte do Exchange 2013

@@ -16,7 +16,7 @@ ms.openlocfilehash: 2b6be1a96223da8c70b042475cc7c8f0a67c000b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752389"
 ---
 # <a name="generation"></a>Geração
@@ -50,7 +50,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento representa as mesmas informações que são representadas pela propriedade PR_Generation MAPI.
   

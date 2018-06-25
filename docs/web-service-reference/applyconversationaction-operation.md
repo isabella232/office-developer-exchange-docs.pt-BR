@@ -16,7 +16,7 @@ ms.openlocfilehash: 2a485b84ee87aec2ed807e3f4f0901b83432fa0a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751134"
 ---
 # <a name="applyconversationaction-operation"></a>Operação ApplyConversationAction
@@ -57,7 +57,7 @@ O exemplo a seguir de uma solicitação de **ApplyConversationAction** mostra co
 </soap:Envelope>
 ```
 
-### <a name="remarks"></a>Coment�rios
+### <a name="remarks"></a>Comentários
 
 Os identificadores de conversa e pasta foram diminuídos para preservar a legibilidade.
   

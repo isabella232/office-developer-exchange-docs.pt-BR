@@ -16,7 +16,7 @@ ms.openlocfilehash: 169312b8a3d37c014ba58fbfe094d786b134fc90
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751227"
 ---
 # <a name="attendeeconflictdataarray"></a>AttendeeConflictDataArray
@@ -70,7 +70,7 @@ Nenhum.
 |:-----|:-----|
 |[Sugestão](suggestion.md) <br/> |Representa uma única sugestão de tempo de reunião.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A posição de cada elemento no **AttendeeConflictDataArray** corresponde à posição dos participantes consultados no elemento [MailboxDataArray](mailboxdataarray.md) . Cada participante consultado deve corresponder a um dos elementos filho **AttendeeConflictDataArray** . Esses elementos representam um conflito único com o tempo de reunião sugerido identificado no elemento [sugestão](suggestion.md) . 
   

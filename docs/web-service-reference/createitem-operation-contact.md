@@ -16,14 +16,14 @@ ms.openlocfilehash: 05e4715f3c6675401ae7afac852395f7459c02c9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751602"
 ---
 # <a name="createitem-operation-contact"></a>Operação CreateItem (contato)
 
 A operação CreateItem é usada para criar contatos no armazenamento do Exchange.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Não há suporte para a criação de listas de distribuição privada. Todas as propriedades dentro do contêiner [CompleteName](completename.md) são somente leitura e não podem ser definidas em um item de contato. 
   

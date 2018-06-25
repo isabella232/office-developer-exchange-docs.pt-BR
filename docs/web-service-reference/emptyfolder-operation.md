@@ -12,7 +12,7 @@ ms.openlocfilehash: 0192744516c5a6d24b95915452bfcffecc2d92b7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752036"
 ---
 # <a name="emptyfolder-operation"></a>Operação EmptyFolder

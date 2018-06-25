@@ -12,7 +12,7 @@ ms.openlocfilehash: 7541fa6330ee96f7791febfabc672dbcf0e95b54
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752187"
 ---
 # <a name="extendedproperty-pathtoextendedfieldtype"></a>ExtendedProperty (PathToExtendedFieldType)
@@ -85,7 +85,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |ShortArray  <br/> |Indica uma matriz de valores **curta** .  <br/> |
 |SystemTime  <br/> |Indica um valor de tempo do sistema.  <br/> |
 |SystemTimeArray  <br/> |Indica uma matriz de valores de tempo do sistema.  <br/> |
-|Cadeia de caracteres  <br/> |Indica uma cadeia de caracteres.  <br/> |
+|String  <br/> |Indica uma cadeia de caracteres.  <br/> |
 |StringArray  <br/> |Indica uma matriz de cadeias de caracteres.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
@@ -98,7 +98,7 @@ Nenhum.
 |:-----|:-----|
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifica uma propriedade MAPI estendida.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

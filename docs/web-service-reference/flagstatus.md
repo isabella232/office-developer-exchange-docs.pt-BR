@@ -16,7 +16,7 @@ ms.openlocfilehash: 59e071cbd402c49f4dcc4370059883f3f45409ae
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752322"
 ---
 # <a name="flagstatus"></a>FlagStatus
@@ -64,7 +64,7 @@ O valor de texto do elemento **FlagStatus** é o status do sinalizador agregados
     
 - **Complete** - indica o status do sinalizador completa. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 7f6ceb6895add3fdd82cdd595463b3a80db822e5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751359"
 ---
 # <a name="calendarpermission"></a>CalendarPermission
@@ -68,7 +68,7 @@ Nenhum.
 |:-----|:-----|
 |[CalendarPermissions](calendarpermissions.md) <br/> |Contém uma matriz de permissões de calendário de uma pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

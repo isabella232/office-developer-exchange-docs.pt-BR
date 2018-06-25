@@ -16,7 +16,7 @@ ms.openlocfilehash: 90eea4fc545fae083e5675225665e517b502ba6f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752052"
 ---
 # <a name="end"></a>End
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto representa o fim de uma duração.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A operação UpdateItem pode definir a hora de [início](start.md) e **término** de um item de armazenamento do Exchange. Em uma solicitação de UpdateItem, você pode definir a hora de [início](start.md) sem também definir a hora de **término** . Isso pode causar um erro se a hora de [início](start.md) é posterior à hora de **término** . Lembre-se de que os aplicativos cliente devem executar ajustes à hora de **término** quando a hora de [início](start.md) for alterada para preservar a duração. 
   

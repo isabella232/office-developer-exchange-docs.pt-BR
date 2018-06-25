@@ -16,7 +16,7 @@ ms.openlocfilehash: 69b27d23fd75d4c1a274f31dfa419b759dbb2bbe
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751265"
 ---
 # <a name="baseshape"></a>BaseShape
@@ -75,11 +75,11 @@ A tabela a seguir lista as propriedades padrão que são retornadas para uma sol
 |Tarefas  <br/> |FolderId, nome para exibição, vencidos contagem, a contagem total, a contagem de subpasta  <br/> |
 |Observações  <br/> |FolderId, nome para exibição, a contagem total, a contagem de subpasta  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para retornar propriedades além daquelas identificado pelo elemento [BaseShape](baseshape.md) , use o elemento [AdditionalProperties](additionalproperties.md) . 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

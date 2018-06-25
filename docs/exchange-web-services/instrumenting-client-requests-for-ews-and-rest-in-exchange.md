@@ -10,7 +10,7 @@ ms.openlocfilehash: bcf362952c29956729c44397043a56bf3603d0af
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750852"
 ---
 # <a name="instrumenting-client-requests-for-ews-and-rest-in-exchange"></a>Instrumentação solicitações de clientes para o EWS e REST no Exchange

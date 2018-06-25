@@ -16,7 +16,7 @@ ms.openlocfilehash: 56a7a7d256624c5103c88a333222807519d21501
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752339"
 ---
 # <a name="foldername"></a>FolderName
@@ -56,7 +56,7 @@ Nenhum.
 
 É necessário um valor de texto. O valor de texto representa um nome de pasta.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Embora você possa usar os serviços Web do Exchange para adicionar pastas personalizadas gerenciadas a uma caixa de correio, você não pode usar a mesma tecnologia para acessar a lista de disponíveis pastas personalizadas gerenciadas. Você pode obter uma lista de pastas personalizadas gerenciadas usando um comando do Shell de gerenciamento do Exchange ou por meio de uma API que interage com o serviço de diretório do Active Directory. O nome da pasta é o nome do objeto do Active Directory correspondente.
   

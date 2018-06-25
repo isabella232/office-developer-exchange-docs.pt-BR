@@ -12,7 +12,7 @@ ms.openlocfilehash: a4803c0e5ac3b027396983a5524241590eac35f6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751293"
 ---
 # <a name="body"></a>Body
@@ -62,7 +62,7 @@ Nenhum.
 
 O valor do elemento de **corpo** de texto é o conteúdo do corpo do item. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

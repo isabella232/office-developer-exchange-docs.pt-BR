@@ -16,7 +16,7 @@ ms.openlocfilehash: 8d946aec8ae2c5e6bb4ca3f1d8ee74250262d373
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752171"
 ---
 # <a name="extendedfielduri"></a>ExtendedFieldURI
@@ -85,7 +85,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |ShortArray  <br/> |Uma matriz de números inteiros de 16 bits assinadas.  <br/> |
 |SystemTime  <br/> |Um inteiro de 64 bits a data e hora valor na forma de uma estrutura FILETIME.  <br/> |
 |SystemTimeArray  <br/> |Uma matriz de valores de data e hora de inteiro de 64 bits na forma de uma estrutura FILETIME.  <br/> |
-|Cadeia de caracteres  <br/> |Uma cadeia de caracteres Unicode.  <br/> |
+|String  <br/> |Uma cadeia de caracteres Unicode.  <br/> |
 |StringArray  <br/> |Uma matriz de cadeias de caracteres Unicode.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
@@ -116,7 +116,7 @@ Nenhum.
 |[Contém](contains.md) <br/> |Representa uma expressão de pesquisa que determina se uma determinada propriedade contém o valor de cadeia de caracteres constante fornecido.  <br/> |
 |[FieldOrder](fieldorder.md) <br/> |Representa um único campo pelo qual fazer a classificação de resultados e indica a direção para a classificação.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Alguns atributos não podem ser usados em combinação com outros atributos. Qualquer solicitação que vem com uma combinação de atributos de propriedade estendida inválida gerará uma mensagem de erro.
   
@@ -125,7 +125,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 > [!NOTE]
 > No Microsoft .NET, um Long é um inteiro assinado de 64 bits, enquanto em MAPI e COM, um Long é um inteiro de 32 bits. A maioria dos desenvolvedores usará o Microsoft.NET Framework para desenvolver aplicativos de cliente de serviços Web do Exchange. Portanto, a nomenclatura do .NET é usada no lugar de MAPI nomenclatura. Por exemplo, a propriedade de MAPI PR_MESSAGE_FLAGS, 0x0E07, é um tipo PT_LONG. No .NET, isso é considerado um número inteiro. Uma propriedade estendida para PR_MESSAGE_FLAGS é definida como \<t:ExtendedFieldURI PropertyTag não = "0x0E07" PropertyType = "Inteiro" /\>. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir de uma solicitação cria um item que possui duas propriedades personalizadas. A primeira propriedade personalizada é nomeada **IsMyHouse** com um valor Boolean que defina como **true**. A segunda propriedade estendida personalizada é nomeada **HousePrices**. Ele contém uma matriz de valores de moeda. 
   

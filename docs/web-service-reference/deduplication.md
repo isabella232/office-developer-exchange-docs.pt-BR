@@ -12,7 +12,7 @@ ms.openlocfilehash: 3f06bb1dccd0677b7fd43c4ad82eda54a0c3f812
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751717"
 ---
 # <a name="deduplication"></a>Eliminação da duplicação
@@ -45,7 +45,7 @@ Nenhum.
 
 Um valor de **true** para o elemento de eliminação da duplicação text indica que os resultados da pesquisa não podem conter itens duplicados. Um valor **false** indica que os resultados da pesquisa podem conter itens duplicados. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

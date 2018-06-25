@@ -12,7 +12,7 @@ ms.openlocfilehash: ae9c7d512981af3bf564bcb73a9a27c5c78217fc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751203"
 ---
 # <a name="archivetag"></a>ArchiveTag
@@ -59,7 +59,7 @@ Nenhum.
 
 O valor de texto do elemento **ArchiveTag** é um GUID que identifica a política de retenção. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

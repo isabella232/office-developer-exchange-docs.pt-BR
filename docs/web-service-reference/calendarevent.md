@@ -16,7 +16,7 @@ ms.openlocfilehash: f7fff7ba511ca12813dd4c2d694e89c97589ba31
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751347"
 ---
 # <a name="calendarevent"></a>CalendarEvent
@@ -68,7 +68,7 @@ Nenhum.
 |:-----|:-----|
 |[CalendarEventArray](calendareventarray.md) <br/> |Contém um conjunto de ocorrências de item de calendário exclusivo que representam a disponibilidade do usuário solicitado.  <br/> Este é a expressão XPath 2.0 para esse elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Os horários de compromissos e reuniões são retornados no fuso horário do cliente. Todos os elementos filhos são listados na sequência em que ocorrem. O nível de detalhes fornecidos por esse elemento depende as permissões concedidas para o solicitante.
   

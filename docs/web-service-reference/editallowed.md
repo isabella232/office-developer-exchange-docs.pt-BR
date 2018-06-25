@@ -12,7 +12,7 @@ ms.openlocfilehash: 48c7d751c018bf5702b05b41eeaa7ad350189e3a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751960"
 ---
 # <a name="editallowed"></a>EditAllowed
@@ -46,7 +46,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **EditAllowed** indica que o gerenciamento de direitos de informação (IRM) pode ser editado. Um valor **false** indica que o IRM não pode ser editado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

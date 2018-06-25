@@ -12,7 +12,7 @@ ms.openlocfilehash: a95bb35b88114e8e72e22de424679993fd4eef2a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751864"
 ---
 # <a name="discoverysearchconfigurations"></a>DiscoverySearchConfigurations
@@ -46,7 +46,7 @@ Nenhum.
 |:-----|:-----|
 |[GetDiscoverySearchConfigurationResponseMessage](getdiscoverysearchconfigurationresponsemessage.md) <br/> |Especifica a mensagem de resposta para uma solicitação de **GetDiscoverySearchConfiguration** .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

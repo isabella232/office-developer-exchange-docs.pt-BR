@@ -11,7 +11,7 @@ ms.openlocfilehash: c978608982a2795af1683b4b2121435a02149935
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752366"
 ---
 # <a name="freebusyaccesslevel-soap"></a>FreeBusyAccessLevel (SOAP)
@@ -41,7 +41,7 @@ Nenhum.
 |:-----|:-----|
 |[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Representa uma lista de relacionamentos de organização para uma única organização.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento Especifica a quantidade máxima de detalhes livre/ocupado serão retornados na resposta e indica o nível de dados de livre/ocupado compartilhado externamente. 
   

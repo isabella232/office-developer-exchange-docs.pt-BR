@@ -16,7 +16,7 @@ ms.openlocfilehash: 8e38597276e3e3051a5c1494619d3220280e401f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751387"
 ---
 # <a name="changes-items"></a>Alterações (itens)
@@ -63,7 +63,7 @@ Nenhum.
 |:-----|:-----|
 |[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Contém o status e o resultado de uma solicitação de [operação SyncFolderItems](syncfolderitems-operation.md) .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 4baa170a531cc9021102ff2255afc113f40e2348
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752354"
 ---
 # <a name="forwardallowed"></a>ForwardAllowed
@@ -46,7 +46,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **ForwardAllowed** indica que o encaminhamento de emails é permitido. Um valor **false** indica que o encaminhamento não é permitido. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

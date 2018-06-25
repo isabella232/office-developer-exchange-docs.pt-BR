@@ -16,7 +16,7 @@ ms.openlocfilehash: fed60275a007f2796c60d936def7a937e4982f29
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751565"
 ---
 # <a name="createattachment-operation"></a>Operação CreateAttachment
@@ -311,7 +311,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [Anexos](attachments-ex15websvcsotherref.md)
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se vários anexos anexados a um item em uma única ida e volta, o RootItemChangeKey na última mensagem de resposta é aquela que representa a nova chave de alteração do item que tenha os anexos.
   

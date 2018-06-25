@@ -16,7 +16,7 @@ ms.openlocfilehash: 8ebdd70ef13ee9f0cce9020b9212576cba782be4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752350"
 ---
 # <a name="foldershape"></a>FolderShape
@@ -54,13 +54,13 @@ Nenhum.
 |[GetFolder](getfolder.md) <br/> |Define uma solicitação para obter uma pasta do Exchange store.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetFolder` <br/> |
 |[SyncFolderHierarchy](syncfolderhierarchy.md) <br/> |Define uma solicitação para sincronizar uma hierarquia de pastas em um cliente.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/SyncFolderHierarchy` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O **FolderShape** é um elemento necessário filho do elemento [FindFolder](findfolder.md) . 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir de uma solicitação demonstra como localizar todas as pastas localizadas no primeiro nível da pasta caixa de entrada.
   

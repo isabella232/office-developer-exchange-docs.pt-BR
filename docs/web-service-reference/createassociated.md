@@ -16,7 +16,7 @@ ms.openlocfilehash: ec6e55ed2423ff5849f6d19aee29f790572ddda6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751564"
 ---
 # <a name="createassociated"></a>CreateAssociated
@@ -50,7 +50,7 @@ Nenhum.
 
 Um valor de texto de **true** indica que um cliente pode criar uma tabela de conteúdo associado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade é usada somente em objetos de pasta.
   

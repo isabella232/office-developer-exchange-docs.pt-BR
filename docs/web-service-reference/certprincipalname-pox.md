@@ -13,7 +13,7 @@ ms.openlocfilehash: d2766b16a3e8a1bcd013de332d9c07f709fcf949
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751386"
 ---
 # <a name="certprincipalname-pox"></a>CertPrincipalName (POX)
@@ -56,7 +56,7 @@ Nenhum.
 
 O valor de texto Especifica o nome principal do certificado SSL que é necessária para conectar-se à organização do Microsoft Exchange usando SSL.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se o elemento **CertPrincipalName** não for especificado, o padrão é definido como msstd:SERVER, em que servidor é o valor especificado no elemento [Server POX ()](server-pox.md) . Por exemplo, se o servidor é especificado como example.com e **CertPrincipalName** for deixado em branco com [SSL (POX)](ssl-pox.md) ativado, o valor padrão de **CertPrincipalName** seria msstd:example.com. 
   

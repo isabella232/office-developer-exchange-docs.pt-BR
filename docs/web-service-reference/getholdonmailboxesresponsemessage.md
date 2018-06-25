@@ -12,7 +12,7 @@ ms.openlocfilehash: e1c43f75bfa62b20de9248546e71c92ae5998ed9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752518"
 ---
 # <a name="getholdonmailboxesresponsemessage"></a>GetHoldOnMailboxesResponseMessage
@@ -64,7 +64,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange (EWS).  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

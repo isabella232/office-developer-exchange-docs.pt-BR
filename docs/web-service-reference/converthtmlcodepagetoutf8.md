@@ -12,7 +12,7 @@ ms.openlocfilehash: aff6579835097a273101188c02a9919003b71b58
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751541"
 ---
 # <a name="converthtmlcodepagetoutf8"></a>ConvertHtmlCodePageToUTF8
@@ -46,7 +46,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **ConvertHtmlCodePageToUTF8** indica que o corpo HTML é convertido em UTF8. Um valor de texto de **false** indica que o corpo HTML não é convertido em UTF8. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor padrão **True** é usado se o elemento **ConvertHtmlCodePageToUTF8** não for especificado em uma solicitação. 
   

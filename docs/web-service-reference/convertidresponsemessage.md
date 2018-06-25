@@ -16,7 +16,7 @@ ms.openlocfilehash: 6668c0b3254191ca628413bae5ff957c3cb95b5e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751547"
 ---
 # <a name="convertidresponsemessage"></a>ConvertIdResponseMessage
@@ -72,7 +72,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma mensagem de resposta por identificador convertido será retornada. O elemento [AlternateId](alternateid.md) serão ausente da resposta se um código de resposta de erro é retornado, 
   

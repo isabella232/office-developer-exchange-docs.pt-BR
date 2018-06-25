@@ -12,7 +12,7 @@ ms.openlocfilehash: d07f68494acd26940a4837bbbfc7a0505114bd20
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751009"
 ---
 # <a name="create-a-routingagent-transport-agent-for-exchange-2013"></a>Criar um agente de transporte RoutingAgent para o Exchange 2013

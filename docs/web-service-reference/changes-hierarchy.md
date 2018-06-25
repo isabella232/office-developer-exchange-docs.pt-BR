@@ -16,7 +16,7 @@ ms.openlocfilehash: 15e4f9f37c5e4a4083260dcf379a49beb2260030
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751391"
 ---
 # <a name="changes-hierarchy"></a>Alterações (hierarquia)
@@ -66,7 +66,7 @@ Nenhum.
 
 É necessário um valor de texto que representa um valor booleano.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do Exchange 2007 computador que possui a função de servidor acesso para cliente instalada.
   

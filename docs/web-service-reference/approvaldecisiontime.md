@@ -12,7 +12,7 @@ ms.openlocfilehash: 1f5358c6bde32233eaf650e7a0677e74324e557c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751192"
 ---
 # <a name="approvaldecisiontime"></a>ApprovalDecisionTime
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **ApprovalDecisionTime** representa a hora e data na qual a decisão de aprovação foi feita. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   

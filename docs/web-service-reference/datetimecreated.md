@@ -16,7 +16,7 @@ ms.openlocfilehash: 5cfd4e73295bc6823e76d901a21f4745c5fda977
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751689"
 ---
 # <a name="datetimecreated"></a>DateTimeCreated
@@ -61,7 +61,7 @@ Nenhum.
 
 O valor de texto representa a data e hora em que um item na caixa de correio foi criado.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Como usar objetos de resposta de calendário atualiza a propriedade [DateTimeCreated](datetimecreated.md) no item de calendário associado. O comportamento esperado é para a propriedade **DateTimeCreated** permanecem inalteradas. Por exemplo, envia o usuário A solicitação de uma reunião ao usuário B. o usuário B aceita a solicitação de reunião com o identificador da solicitação de reunião. A propriedade **DateTimeCreated** do item de calendário associada é alterada. 
   

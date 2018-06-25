@@ -16,7 +16,7 @@ ms.openlocfilehash: 858fe74c32cb7d1ed624888c06bba4ffe09d489e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751263"
 ---
 # <a name="bccrecipients"></a>BccRecipients
@@ -62,7 +62,7 @@ Nenhum.
 |[ForwardItem](forwarditem.md) <br/> |Contém um item de armazenamento do Exchange para encaminhar para destinatários.  <br/> |
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |Representa o objeto de resposta é usado para cancelar uma reunião.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você não pode obter **BccRecipients** usando uma solicitação FindItem. Use uma solicitação de GetItem para obter **BccRecipients**.
   

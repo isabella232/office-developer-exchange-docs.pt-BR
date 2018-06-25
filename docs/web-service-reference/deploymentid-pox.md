@@ -13,7 +13,7 @@ ms.openlocfilehash: 4f2548709753d8407d02218acecd9233f0ba764f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751779"
 ---
 # <a name="deploymentid-pox"></a>DeploymentId (POX)
@@ -51,7 +51,7 @@ Nenhum.
 
 O valor de texto identifica exclusivamente a floresta do Exchange 2007 no formato GUID.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se você desinstalar e reinstalar o Exchange 2007 e usar o mesmo nome de servidor, o valor de **DeploymentId** é alterado. 
   

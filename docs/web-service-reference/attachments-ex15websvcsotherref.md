@@ -16,7 +16,7 @@ ms.openlocfilehash: 8aa5c0849122f5ca83485459fce5d0fea449c974
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751224"
 ---
 # <a name="attachments"></a>Attachments
@@ -68,7 +68,7 @@ Nenhum.
 |[CreateAttachmentResponseMessage](createattachmentresponsemessage.md) <br/> |Contém o status e o resultado de uma única solicitação CreateAttachment.  <br/> |
 |[GetAttachmentResponseMessage](getattachmentresponsemessage.md) <br/> |Contém o status e o resultado de uma solicitação de GetAttachment.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Os elementos de **anexos** ter os mesmos elementos filho, mas são baseados em diferentes tipos: **ArrayOfAttachmentsType** e **NonEmptyArrayOfAttachmentsType**. Os tipos definem se um elemento filho é necessário. O **ArrayOfAttachmentsType** é usado apenas na mensagem de resposta. Também é importante observar que esses elementos ocorrerem em namespaces tipos e mensagens. 
   

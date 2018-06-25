@@ -16,7 +16,7 @@ ms.openlocfilehash: 82d1bd49819710fe54cfd9343bdd327798709954
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752286"
 ---
 # <a name="fielduri"></a>FieldURI
@@ -420,7 +420,7 @@ Este elemento é parte do grupo de substituição de [caminho](path.md) .
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra como usar o elemento FieldURI.
   

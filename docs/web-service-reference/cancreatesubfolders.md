@@ -16,7 +16,7 @@ ms.openlocfilehash: 234cbf604a3f0f5aa6e7fa896b7b6735516bd9ec
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751377"
 ---
 # <a name="cancreatesubfolders"></a>CanCreateSubFolders
@@ -51,7 +51,7 @@ Nenhum.
 
 Um valor de texto de **true** indica que o usuário pode criar subpastas na pasta. Um valor **false** indica que o usuário não é possível criar subpastas na pasta. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

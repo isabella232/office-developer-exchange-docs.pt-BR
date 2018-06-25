@@ -16,7 +16,7 @@ ms.openlocfilehash: 9c007ed45f85dba265261dd79a6fd846dbd9d2f9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752220"
 ---
 # <a name="actingas"></a>ActingAs
@@ -52,7 +52,7 @@ Nenhum.
 |:-----|:-----|
 |[GetServiceConfiguration](getserviceconfiguration.md) <br/> |Define uma solicitação **GetServiceConfiguration** .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento é opcional. Se esse elemento não estiver presente, o usuário autenticado é considerado o remetente. O elemento **ActingAs** deve ser incluído para solicitar as dicas de remetente. Pode ser retornado um erro de **ErrorInvalidArgument** em uma resposta, se o elemento **ActingAs** está ausente, não incluir um tipo de roteamento, não inclue um endereço de email, contém um endereço de email inválido, não é resolvido para um usuário no Active Directory Serviços de domínio (AD DS) ou resolve para vários usuários no AD DS. 
   

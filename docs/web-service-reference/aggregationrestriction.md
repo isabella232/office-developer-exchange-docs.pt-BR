@@ -12,7 +12,7 @@ ms.openlocfilehash: 8b4d5952dedb4de0201d2ecf2219c69f65f7dc09
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751077"
 ---
 # <a name="aggregationrestriction"></a>AggregationRestriction
@@ -42,7 +42,7 @@ Nenhum.
 
 [FindPeople](findpeople.md)
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento **AggregationRestriction** pode conter qualquer elemento filho que usa o grupo de substituição de **SearchExpression** . Os elementos que fazem parte do grupo de substituição **SearchExpression** são: [contém](contains.md), [exclusões](excludes.md), [Exists](exists.md), [não](not.md), [ou](or.md) [e](and.md), [IsEqualTo](isequalto.md), [IsNotEqualTo](isnotequalto.md), [IsGreaterThan ](isgreaterthan.md), [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md), [IsLessThan](islessthan.md)e [IsLessThanOrEqualTo](islessthanorequalto.md).
   

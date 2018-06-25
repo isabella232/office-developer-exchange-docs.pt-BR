@@ -12,7 +12,7 @@ ms.openlocfilehash: f1593da78a46851c7db43abc567eb66c0c74e0f2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751436"
 ---
 # <a name="contact-contacttype"></a>Contato (ContactType)
@@ -57,7 +57,7 @@ Nenhum.
 |:-----|:-----|
 |[Contatos (ArrayOfContactsType)](contacts-arrayofcontactstype.md) <br/> |Especifica uma matriz de contatos.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

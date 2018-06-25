@@ -16,7 +16,7 @@ ms.openlocfilehash: 38c35d2b68dabfca1a43ab034deaf72c47b0ea66
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752360"
 ---
 # <a name="fractionalpageitemview"></a>FractionalPageItemView
@@ -54,7 +54,7 @@ Nenhum.
 |:-----|:-----|
 |[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/FindItem` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O deslocamento do modo de exibição paginados desde o início do conjunto de itens encontrados descrito por uma fração. A fração, que é definida pelos atributos **numerador** e **denominador** , descreve onde a página de informações é iniciado. Por exemplo, se **numerador** é igual a quatro e **denominador** igual a cinco, a página de informações retornadas começa em uma entrada localizado quatro-quintas da maneira no conjunto de resultados. 
   
@@ -65,7 +65,7 @@ Se fração for avaliada como zero, o que indica o início do conjunto de result
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra uma solicitação [FindItem](finditem.md) . A solicitação retorna os itens dos resultados da pesquisa que começam após o segundo terceiro de todos os itens no conjunto de resultados. 
   

@@ -15,7 +15,7 @@ ms.openlocfilehash: 7d710542418a717c6fcad243a22682e5840ebbd2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751256"
 ---
 # <a name="base64folderid-um-web-service"></a>base64FolderId (serviço web de Unificação de mensagens)
@@ -53,7 +53,7 @@ Nenhum.
 
 É necessário um valor de texto. O valor de texto representa a identificação de MAPI da pasta.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para definir a pasta de email de acesso de telefone, use a [operação SetTelephoneAccessFolderEmail (serviço web de Unificação de mensagens)](settelephoneaccessfolderemail-operation-um-web-service.md).
   

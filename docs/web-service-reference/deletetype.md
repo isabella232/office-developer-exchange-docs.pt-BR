@@ -16,7 +16,7 @@ ms.openlocfilehash: abaa0c3d8b7001b2f42a38d1c82475edba32d2c5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751756"
 ---
 # <a name="deletetype"></a>DeleteType
@@ -61,7 +61,7 @@ O valor de texto do elemento **DeleteType** indica como os itens em uma conversa
     
 - SoftDelete - indica que os itens em uma conversa serão movidos para o dumpster se o dumpster está habilitado.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   

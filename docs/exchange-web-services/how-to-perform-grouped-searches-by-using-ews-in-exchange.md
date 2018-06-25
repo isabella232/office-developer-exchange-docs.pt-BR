@@ -10,7 +10,7 @@ ms.openlocfilehash: 63a796e2c724351c15287a5596a9a063954f8b40
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750803"
 ---
 # <a name="perform-grouped-searches-by-using-ews-in-exchange"></a>Realizar pesquisas de agrupadas usando o EWS no Exchange

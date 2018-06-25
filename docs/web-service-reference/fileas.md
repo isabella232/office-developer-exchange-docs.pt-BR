@@ -16,7 +16,7 @@ ms.openlocfilehash: dab9142eebf7691862e7970a7d1e8f5874393b94
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752249"
 ---
 # <a name="fileas"></a>FileAs
@@ -51,7 +51,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto que representa uma cadeia de caracteres.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento **FileAs** é usado para classificar os contatos e listas de distribuição por um nome que não seja um nome completo ou empresa. 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 8a3af0178d0c96b50f4dd641716a9f7a7be8f7a2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751792"
 ---
 # <a name="detailedsuggestionswindow"></a>DetailedSuggestionsWindow
@@ -56,7 +56,7 @@ Nenhum.
 |:-----|:-----|
 |[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para a obtenção de informações de sugestão de reunião.  <br/> Este é o XPath a este elemento:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento não é necessário.
   

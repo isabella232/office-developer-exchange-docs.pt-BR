@@ -16,7 +16,7 @@ ms.openlocfilehash: 03ee678611a6cf58a7256ded67ab4d0a8a06a7ee
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751708"
 ---
 # <a name="dayorder"></a>DayOrder
@@ -52,7 +52,7 @@ Nenhum.
 
 É necessário um valor de texto. O valor para o elemento **DayOrder** pode ser de 1 a 5. O valor máximo para esse elemento pode ser 4 ou 5, dependendo do mês e ano. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um elemento de [StandardTime](standardtime.md) que contém um elemento **DayOrder** que tem um valor de 5, um elemento de [mês](month.md) que possui um valor de 10 e um elemento de [DayOfWeek (TimeZone)](dayofweek-timezone.md) que tem um valor de domingo significa que a transição da hora padrão para Horário de verão ocorre no domingo do mês décimo quinto. 
   

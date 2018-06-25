@@ -16,7 +16,7 @@ ms.openlocfilehash: 53f4e083d9e6617206e383d4408e08ed7ea0fe08
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751874"
 ---
 # <a name="displayname-string"></a>DisplayName (string)
@@ -62,7 +62,7 @@ Se este elemento for usado, será necessário um valor de texto que representa o
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra como criar uma nova pasta e para definir o DisplayName da pasta a "TestFolder".
   

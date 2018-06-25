@@ -16,14 +16,14 @@ ms.openlocfilehash: 412710f32ed8702e1a28a596833c3a7e47e3ed76
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752550"
 ---
 # <a name="getitem-operation-task"></a>Operação GetItem (tarefa)
 
 A operação GetItem é usada para obter as tarefas do Exchange store.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O formato da solicitação GetItem para tarefas é igual ao GetItem para qualquer outro tipo de item. A única diferença é que em que as propriedades adicionais podem ser solicitadas dentro da forma de resposta. Essas propriedades adicionais devem ser propriedades relacionadas a tarefa ou propriedades estendidas.
   

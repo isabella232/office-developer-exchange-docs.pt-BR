@@ -16,7 +16,7 @@ ms.openlocfilehash: 1d2558dba41ec3e7ae2711bb2dc26f54cada827a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751422"
 ---
 # <a name="conflictingmeetings"></a>ConflictingMeetings
@@ -51,7 +51,7 @@ Nenhum.
 |[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no armazenamento do Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se este elemento for usado, ele deve conter um ou mais elementos filho.
   

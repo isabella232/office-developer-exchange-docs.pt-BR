@@ -12,7 +12,7 @@ ms.openlocfilehash: cf213fc3d7be02c411e9c2e83a4ff153dbefe098
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751195"
 ---
 # <a name="appstatus"></a>AppStatus
@@ -61,7 +61,7 @@ O valor de texto do elemento **AppStatus** indica o status do aplicativo de emai
 |4.0  <br/> |O aplicativo de email foi desabilitado automaticamente pelo seu cliente de email.  <br/> |
 |4.1  <br/> |O aplicativo de email foi desabilitado pelo Outlook por motivos de desempenho.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   

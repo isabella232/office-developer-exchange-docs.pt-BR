@@ -10,7 +10,7 @@ ms.openlocfilehash: e70ac499da57faa60b4bcb6082648b23d1a7e791
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750850"
 ---
 # <a name="work-with-exchange-mailbox-items-by-using-ews-in-exchange"></a>Trabalhar com itens de caixa de correio do Exchange usando o EWS no Exchange

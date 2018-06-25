@@ -16,7 +16,7 @@ ms.openlocfilehash: 43613593565ca15be97bd2a98dbe5c512dbe5fc7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751269"
 ---
 # <a name="bias-utc"></a>Bias (UTC)
@@ -53,11 +53,11 @@ Nenhum.
 
 É necessário um valor de texto. O valor de texto representa um número inteiro.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um segundo elemento [Bias](bias.md) no esquema representa o deslocamento do deslocamento de tempo Universal Coordenado (UTC). 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra a parte de uma solicitação XML que identifica um deslocamento de 8 horas do UTC no aplicativo cliente.
   

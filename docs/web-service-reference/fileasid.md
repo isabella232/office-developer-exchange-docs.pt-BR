@@ -12,7 +12,7 @@ ms.openlocfilehash: e2852c9d0a09fbcfd916d7b30db6e4405a6867d4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752244"
 ---
 # <a name="fileasid"></a>FileAsId
@@ -46,7 +46,7 @@ Nenhum.
 
 O valor de texto do elemento **FileAsId** Especifica o identificador de **FileAs** . 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

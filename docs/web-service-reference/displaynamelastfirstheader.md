@@ -12,7 +12,7 @@ ms.openlocfilehash: edcc5d51da0c40bba859ad13f357affc902981be
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751894"
 ---
 # <a name="displaynamelastfirstheader"></a>DisplayNameLastFirstHeader
@@ -46,7 +46,7 @@ Nenhum.
 
 O valor de texto do elemento **DisplayNameLastFirstHeader** é um valor string que especifica o nome de exibição, Sobrenome pela primeira vez. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

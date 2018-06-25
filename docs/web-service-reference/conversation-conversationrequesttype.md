@@ -12,7 +12,7 @@ ms.openlocfilehash: ef56e26fda7d2bf6556069355918aa576ce14cb6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751514"
 ---
 # <a name="conversation-conversationrequesttype"></a>Conversa (ConversationRequestType)
@@ -43,7 +43,7 @@ Nenhum.
 
 [Conversas](conversations-ex15websvcsotherref.md)
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

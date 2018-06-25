@@ -12,7 +12,7 @@ ms.openlocfilehash: 361259f733756995fae2c2c2390013a728e475a4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751037"
 ---
 # <a name="actiontype-reminderactiontype"></a>ActionType (ReminderActionType)
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **ActionType** Especifica a ação a ser executada no lembrete. O valor de texto da **Dismiss** indica que o lembrete deve ser descartado. O valor de texto da **Snooze** indica que o lembrete deve ser atrasado até o tempo especificado pelo elemento [NewReminderTime](newremindertime.md) . 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: d312420606c5e1914fe321ae7c7c512f0833199c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751416"
 ---
 # <a name="conferencetype"></a>ConferenceType
@@ -57,7 +57,7 @@ Se este elemento for usado, será necessário um valor de texto que representa u
     
 - 2 = bate-papo
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A propriedade **MeetingWorkspaceUrl** é gravável de leitura para o item de calendário do organizador. Ele é somente leitura para solicitações de reunião e itens de calendário do participante. 
   

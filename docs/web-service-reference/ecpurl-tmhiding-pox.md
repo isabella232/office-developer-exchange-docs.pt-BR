@@ -11,7 +11,7 @@ ms.openlocfilehash: 461e9780dbd657ba0ba8b9ce9ea4fe902cba9698
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751958"
 ---
 # <a name="ecpurl-tmhiding-pox"></a>EcpUrl-tmHiding (POX)
@@ -59,7 +59,7 @@ O valor de texto representa uma URL parcial que pode ser combinada com o valor d
 | 
   _Id_ <br/> |O endereço de email SMTP ou o X500 diferenciados nome da caixa de correio de site.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O **EcpUrl-tmHiding** é um elemento filho opcionais do elemento de **protocolo** . 
   

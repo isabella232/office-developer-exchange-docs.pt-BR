@@ -10,7 +10,7 @@ ms.openlocfilehash: 773fcc3f7e95d25effb5a686d4b79ec22610df8c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750705"
 ---
 # <a name="communicate-with-ews-by-using-the-ews-managed-api"></a>Comunicar-se com o EWS usando a API gerenciada de EWS

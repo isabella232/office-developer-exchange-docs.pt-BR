@@ -16,7 +16,7 @@ ms.openlocfilehash: a08532ed78296102ee252c1e0c40beee7ca8ea5d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751230"
 ---
 # <a name="attendeetype"></a>AttendeeType
@@ -66,7 +66,7 @@ Um valor de texto é necessário para esse elemento. A tabela a seguir lista os 
 |Sala  <br/> |Uma entidade de caixa de correio que representa um recurso de sala usado para a reunião.  <br/> |
 |Recurso  <br/> |Um recurso, como uma TV ou projetor que esteja agendado para ser usado na reunião.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este é um elemento necessário filho do elemento [MailboxData](mailboxdata.md) . Esse elemento pode ocorrer apenas uma vez no elemento [MailboxData](mailboxdata.md) . O esquema que descreve este elemento está localizado no diretório /EWS/ do computador que está executando o MicrosoftExchange Server 2007 que possui a função de servidor acesso para cliente instalada. 
   

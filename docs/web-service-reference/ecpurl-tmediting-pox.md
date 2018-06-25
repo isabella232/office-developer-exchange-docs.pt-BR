@@ -11,7 +11,7 @@ ms.openlocfilehash: 29b27ffe9ef3c18a3b6471ca4a42956a43a5aaa6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751956"
 ---
 # <a name="ecpurl-tmediting-pox"></a>EcpUrl-tmEditing (POX)
@@ -59,7 +59,7 @@ O valor de texto representa uma URL parcial que pode ser combinada com o valor d
 | 
   _Id_ <br/> |O endereço de email SMTP ou o X500 diferenciados nome da caixa de correio de site.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O **EcpUrl-tmEditing** é um elemento filho opcionais do elemento de **protocolo** . 
   

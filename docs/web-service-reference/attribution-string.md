@@ -12,7 +12,7 @@ ms.openlocfilehash: 227379db8a77fb8cba7b4337e74d985bc5af65d2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751231"
 ---
 # <a name="attribution-string"></a>Atribuição (string)
@@ -46,7 +46,7 @@ Nenhum.
 
 O valor de texto do elemento de **atribuição** é um valor string que os atributos de um valor de propriedade para o contato de origem. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

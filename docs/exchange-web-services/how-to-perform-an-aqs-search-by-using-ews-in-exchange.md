@@ -10,7 +10,7 @@ ms.openlocfilehash: dc859e24fa80cd5627477182979c9cc9527818d6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750823"
 ---
 # <a name="perform-an-aqs-search-by-using-ews-in-exchange"></a>Executar uma pesquisa AQS, usando o EWS no Exchange
@@ -40,16 +40,16 @@ Quando um valor for especificado, sem uma palavra-chave, todas as propriedades i
 
 |**Palavra-chave**|**Value type**|**Exemplo**|
 |:-----|:-----|:-----|
-|subject  <br/> |Cadeia de caracteres  <br/> |Assunto: project  <br/> |
-|body  <br/> |Cadeia de caracteres  <br/> |ilustrações de sales de corpo:  <br/> |
-|anexo  <br/> |Cadeia de caracteres  <br/> |anexo: relatório  <br/> |
-|para  <br/> |Cadeia de caracteres  <br/> |para: "Sadie Daniels"  <br/> |
-|from  <br/> |Cadeia de caracteres  <br/> |de:, esperamos  <br/> |
-|cc  <br/> |Cadeia de caracteres  <br/> |cc: "Ronnie Sturgis"  <br/> |
-|bcc  <br/> |Cadeia de caracteres  <br/> |BCC:mack  <br/> |
-|participantes  <br/> |Cadeia de caracteres  <br/> |participantes: sadie  <br/> |
+|subject  <br/> |String  <br/> |Assunto: project  <br/> |
+|body  <br/> |String  <br/> |ilustrações de sales de corpo:  <br/> |
+|anexo  <br/> |String  <br/> |anexo: relatório  <br/> |
+|para  <br/> |String  <br/> |para: "Sadie Daniels"  <br/> |
+|from  <br/> |String  <br/> |de:, esperamos  <br/> |
+|cc  <br/> |String  <br/> |cc: "Ronnie Sturgis"  <br/> |
+|bcc  <br/> |String  <br/> |BCC:mack  <br/> |
+|participantes  <br/> |String  <br/> |participantes: sadie  <br/> |
 |Ferramentas para desenvolvedores  <br/> |Cadeia de caracteres  <br/> |projeto de categoria:  <br/> |
-|importance  <br/> |Cadeia de caracteres  <br/> |importância: alta  <br/> |
+|importance  <br/> |String  <br/> |importância: alta  <br/> |
 |tipo  <br/> |Tipo de item  <br/> |reuniões do tipo:  <br/> |
 |enviado  <br/> |Data  <br/> |enviados: 12/10/2013  <br/> |
 |recebido  <br/> |Data  <br/> |recebidos: ontem  <br/> |

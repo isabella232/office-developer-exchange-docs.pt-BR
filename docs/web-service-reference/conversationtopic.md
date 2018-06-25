@@ -16,7 +16,7 @@ ms.openlocfilehash: 30b919dec3e65ca1961aac3f9c11c72cf97d707f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751539"
 ---
 # <a name="conversationtopic"></a>ConversationTopic
@@ -64,7 +64,7 @@ Nenhum.
 
 O valor de texto representa o tópico do thread de conversação.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O tópico da conversa geralmente é o assunto da mensagem de email primeiro em um segmento.
   

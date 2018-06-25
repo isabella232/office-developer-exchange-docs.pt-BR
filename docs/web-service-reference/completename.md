@@ -16,7 +16,7 @@ ms.openlocfilehash: 1f6c9ba68fe941f848d0e250a39aea6894fca61e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751406"
 ---
 # <a name="completename"></a>CompleteName
@@ -68,7 +68,7 @@ Nenhum.
 |:-----|:-----|
 |[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A propriedade [CompleteName](completename.md) é parte da forma [padrão](https://msdn.microsoft.com/library/ExchangeWebServices.DefaultShapeNamesType.Default.aspx) . Na versão release inicial do Microsoft Exchange Server 2007, a propriedade [CompleteName](completename.md) é retornada pela [operação GetItem](getitem-operation.md), mas não a [operação FindItem](finditem-operation.md). Iniciando com o Exchange Server 2007 Service Pack 1 (SP1), a [operação FindItem](finditem-operation.md) também retorna a propriedade [CompleteName](completename.md) com a forma [padrão](https://msdn.microsoft.com/library/ExchangeWebServices.DefaultShapeNamesType.Default.aspx) . Essa alteração não afeta o esquema. 
   

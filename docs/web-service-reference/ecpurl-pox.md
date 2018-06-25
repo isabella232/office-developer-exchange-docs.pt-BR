@@ -11,7 +11,7 @@ ms.openlocfilehash: 7021ce7129db87d85a35b8274ead9e94f5a59e1a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751950"
 ---
 # <a name="ecpurl-pox"></a>EcpUrl (POX)
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto representa a URL do painel de controle do Exchange para o usuário.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O **EcpUrl** é um elemento filho opcionais do elemento de **protocolo** . 
   

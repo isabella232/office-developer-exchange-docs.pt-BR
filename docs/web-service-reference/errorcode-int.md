@@ -12,7 +12,7 @@ ms.openlocfilehash: ed8a7771376f921303ea093f4be727c4146faa76
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752087"
 ---
 # <a name="errorcode-int"></a>ErrorCode (int)
@@ -46,7 +46,7 @@ Nenhum.
 
 O valor de texto do elemento **ErrorCode** é o código de erro retornado para uma pesquisa com falha realizada em uma caixa de correio. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

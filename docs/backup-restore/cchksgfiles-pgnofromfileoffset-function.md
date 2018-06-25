@@ -16,7 +16,7 @@ ms.openlocfilehash: d42ba7c8178c6fccdddec0b5da88a972f51184c6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750637"
 ---
 # <a name="cchksgfilespgnofromfileoffset-function"></a>Função CChkSGFiles.PgnoFromFileOffset
@@ -43,7 +43,7 @@ Parâmetro de entrada. O deslocamento em um arquivo de banco de dados, em bytes.
 
 Número de página lógica do arquivo de banco de dados que inclui o deslocamento especificado.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se o parâmetro **ibFileOffset** for inválido, a função de **PgnoFromFileOffset** retornará 0 (zero). 
   

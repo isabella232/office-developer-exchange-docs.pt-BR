@@ -16,7 +16,7 @@ ms.openlocfilehash: 2c2af53dc5dbe1e6fcbc7f3b1174a856e51e4905
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751619"
 ---
 # <a name="createmanagedfolder-operation"></a>Operação CreateManagedFolder
@@ -32,7 +32,7 @@ A operação CreateManagedFolder adiciona uma pasta personalizada gerenciada à 
   
 Você pode usar as operações FindFolder e GetFolder para acessar pastas gerenciadas. FindFolder é usado para pesquisar pastas em uma pasta pai especificado. Isso pode ser usado para que as pastas gerenciadas podem ser descobertas em uma pasta antes de tentar adicionar que uma duplicata gerenciado pasta personalizada no mesmo diretório. Para obter mais informações sobre uma pasta personalizada gerenciada, GetFolder é usada após a operação FindFolder.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para obter informações sobre como configurar a política de gerenciamento (MRM) de registros de mensagens, consulte [como criar uma diretiva de caixa de correio de pasta gerenciada](http://go.microsoft.com/fwlink/?LinkId=100975).
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 5733738d733578c47b849b9d7c62c9b66cd8922e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751283"
 ---
 # <a name="blockstatus"></a>BlockStatus
@@ -49,7 +49,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **BlockStatus** indica que um item está bloqueado. Um valor **false** indica que um item não será bloqueado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

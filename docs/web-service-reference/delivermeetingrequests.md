@@ -16,7 +16,7 @@ ms.openlocfilehash: 803bd2da72bdb21b507a59cc11635a40d4431acf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751773"
 ---
 # <a name="delivermeetingrequests"></a>DeliverMeetingRequests
@@ -61,7 +61,7 @@ A tabela a seguir lista os valores possíveis para o elemento **DeliverMeetingRe
 |DelegatesAndSendInformationToMe  <br/> |Solicitações de reunião são encaminhadas para o representante e permanecem na pasta caixa de entrada na caixa de correio da entidade de segurança, mas os botões de aceitar, recusar e provisório não aparecem no painel de leitura do Microsoft Office Outlook.  <br/> |
 |NoForward  <br/> |Solicitações de reunião não são encaminhadas para o representante.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A configuração de **DeliverMeetingRequests** afeta todos os delegados na caixa de correio da entidade de segurança. 
   

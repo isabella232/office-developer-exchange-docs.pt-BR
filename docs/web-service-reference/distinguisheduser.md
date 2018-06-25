@@ -16,7 +16,7 @@ ms.openlocfilehash: b14be22bfe5316b9ab254e63cdfa0757596b8b92
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751899"
 ---
 # <a name="distinguisheduser"></a>DistinguishedUser
@@ -50,7 +50,7 @@ Nenhum.
 
 Um valor de texto do **padrão** descreve a configuração padrão para os usuários de representante que são adicionados à caixa de correio do principal. Um valor de texto de **anônimo** descreve as configurações de acesso de representante que os usuários anônimos terão na caixa de correio do principal. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

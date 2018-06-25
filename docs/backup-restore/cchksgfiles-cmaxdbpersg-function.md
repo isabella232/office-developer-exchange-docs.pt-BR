@@ -16,7 +16,7 @@ ms.openlocfilehash: bf09074bab6dee13e97e8a59a22ae1b19522a5e5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751592"
 ---
 # <a name="cchksgfilescmaxdbpersg-function"></a>Função CChkSGFiles.CMaxDbPerSG
@@ -38,7 +38,7 @@ Nenhum.
 
 O número máximo de bancos de dados que permite que o servidor Exchange especificado por grupo de armazenamento. Como os grupos de armazenamento não fazem parte do Exchange 2013, essa função retornará 1.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você pode usar o objeto **CCheckSGFiles** para validar os bancos de dados (e os arquivos de log de transação) em apenas um grupo de armazenamento e, portanto, o valor retornado pela função **CMaxDbPerSG** também representa o número máximo de bancos de dados que você pode verificar usando um instância da classe **CCheckSGFiles** . 
   

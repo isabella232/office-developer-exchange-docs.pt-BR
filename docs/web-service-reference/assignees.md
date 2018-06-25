@@ -12,7 +12,7 @@ ms.openlocfilehash: 5fc301cd77268213e95fd33a2a2f36dbe218b512
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751211"
 ---
 # <a name="assignees"></a>Destinatários
@@ -48,7 +48,7 @@ Nenhum.
 |:-----|:-----|
 |[TaskSuggestion](tasksuggestion.md) <br/> |Especifica uma tarefa da proposta.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: a407019063b34970e883a00ca4f4d730935d7cba
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750636"
 ---
 # <a name="cchksgfileserrcheckdbheaders-function"></a>Função CChkSGFiles.ErrCheckDbHeaders
@@ -58,7 +58,7 @@ Parâmetro de entrada opcional. Esse valor é reservado para uso futuro. O valor
 
 Essa função retornará um código de erro da [enumeração CChkSGFiles.ERR](cchksgfiles-err-enumeration.md).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 **ErrCheckDbHeaders** certifica-se de que todos os bancos de dados registrados com **ErrInit** tenham o mesmo log assinatura e do banco de dados do tamanho da página. Você também pode usar o menor valor de parâmetro de **genMin** e o maior valor do parâmetro **genMax** para determinar o conjunto de arquivos de log que são necessárias para colocar todos os bancos de dados registrados em um estado de desligamento. 
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: a2a1472e2315d31748fb4367edac3f45dda59d5c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751992"
 ---
 # <a name="emailaddress-string"></a>EmailAddress (string)
@@ -46,7 +46,7 @@ Nenhum.
 
 O valor de texto do elemento **EmailAddress** é um valor string que especifica o endereço de email. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

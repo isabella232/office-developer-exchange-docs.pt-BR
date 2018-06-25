@@ -16,7 +16,7 @@ ms.openlocfilehash: 56947ea9ba56c76bb02d6a425ff43b3b846a2f60
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751847"
 ---
 # <a name="disconnectphonecall"></a>DisconnectPhoneCall

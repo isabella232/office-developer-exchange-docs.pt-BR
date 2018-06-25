@@ -12,7 +12,7 @@ ms.openlocfilehash: 75fee4bd793497b1758bb848c7aa7dcc4d1a4e8e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751065"
 ---
 # <a name="address-contacttype"></a>Endereço (ContactType)
@@ -46,7 +46,7 @@ Nenhum.
 
 O valor de texto do elemento de **endereço** é o endereço postal do contato. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 703fc6a3625d24cf874a785600e13ee4505b506f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752373"
 ---
 # <a name="freebusyviewoptions"></a>FreeBusyViewOptions
@@ -59,14 +59,14 @@ Nenhum.
 |:-----|:-----|
 |[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contém os argumentos usados para obter informações de disponibilidade do usuário. Este é um elemento raiz.  <br/> Este é o XPath a este elemento:  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento não é necessário e somente pode ocorrer uma vez se usada. Esse valor pode ser null se o valor do elemento [SuggestionsViewOptions](suggestionsviewoptions.md) não for nulo. 
   
 > [!NOTE]
 > O esquema que descreve este elemento está localizado no diretório /epi/ do computador que está executando o Microsoft® Exchange Server 2007 que possui a função de servidor acesso para cliente instalada. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir obtém uma lista de reuniões e um fluxo de informações de disponibilidade em intervalos de 60 minutos.
   

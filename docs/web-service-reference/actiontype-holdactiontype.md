@@ -12,7 +12,7 @@ ms.openlocfilehash: cb1cfa8a1306c4a6cacf5c82824d19cab57e7941
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751036"
 ---
 # <a name="actiontype-holdactiontype"></a>ActionType (HoldActionType)
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **ActionType** é o tipo de espera definido em uma caixa de correio. Um valor de texto de **criação** indica que uma isenção de caixa de correio será criada. Um valor de texto da **atualização** indica que uma isenção de caixa de correio será atualizada. Um valor de texto de **Remover** indica que uma isenção de caixa de correio será removida. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

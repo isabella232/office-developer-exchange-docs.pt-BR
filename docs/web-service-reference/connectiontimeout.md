@@ -16,7 +16,7 @@ ms.openlocfilehash: 2bb40ba502853c70ef107c4c740fdfe7073abe31
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751427"
 ---
 # <a name="connectiontimeout"></a>ConnectionTimeout
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto representa um número inteiro que descreve o número máximo de minutos para manter uma conexão de streaming aberta. O valor deve estar entre 1 e 30, inclusive.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   

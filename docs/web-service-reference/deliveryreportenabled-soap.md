@@ -11,7 +11,7 @@ ms.openlocfilehash: 089256a5f75ad92a4f11c5aaf3d175382eeee456
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751775"
 ---
 # <a name="deliveryreportenabled-soap"></a>DeliveryReportEnabled (SOAP)
@@ -45,7 +45,7 @@ Nenhum.
 
 Um valor de texto, True para o elemento DeliveryReportEnabled indica que os relatórios de entrega de usuários na organização podem ser usados. Um valor false indica que os relatórios de entrega deve ser suprimida.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use esse elemento para permitir ou suprimir notificações de entrega do servidor.
   

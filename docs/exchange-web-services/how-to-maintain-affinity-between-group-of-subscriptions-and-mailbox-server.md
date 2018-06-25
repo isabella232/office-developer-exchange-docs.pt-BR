@@ -10,7 +10,7 @@ ms.openlocfilehash: 7cfbfb5cc19e092c37e3d48a7fcc4f27023516e1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750740"
 ---
 # <a name="maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server-in-exchange"></a>Manter a afinidade entre um grupo de assinaturas e o servidor de caixa de correio no Exchange

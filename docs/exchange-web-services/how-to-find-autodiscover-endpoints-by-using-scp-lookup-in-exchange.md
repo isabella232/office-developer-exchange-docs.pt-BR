@@ -10,7 +10,7 @@ ms.openlocfilehash: 59fd316d0aa0feea81b60c279040da018c51b47d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750711"
 ---
 # <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>Encontrar os pontos de extremidade de descoberta automática usando pesquisa do SCP no Exchange

@@ -16,7 +16,7 @@ ms.openlocfilehash: 1c87a51676bf6e44b2e650a4e973d0ab89a52e31
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751084"
 ---
 # <a name="allowexternaloof"></a>AllowExternalOof
@@ -60,7 +60,7 @@ Um valor de texto é necessário para esse elemento. A tabela a seguir lista os 
 |**Conhecidos** <br/> |Remetentes de email fora da organização do usuário da caixa de correio que enviar mensagens para o usuário receberá uma resposta de mensagem de ausência temporária externa apenas se o remetente está no Exchange do usuário armazenam a lista de contatos.  <br/> |
 |**All** <br/> |Remetentes de email fora da organização do usuário da caixa de correio que enviar mensagens para o usuário receberá uma resposta de mensagem de ausência temporária externa.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento compartilha o mesmo tipo de elemento [ExternalAudience](externalaudience.md) . 
   

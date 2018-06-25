@@ -16,7 +16,7 @@ ms.openlocfilehash: d0d603f18642a94e841a1a6bb8e8849aa6b5b273
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752370"
 ---
 # <a name="freebusyview"></a>FreeBusyView
@@ -64,7 +64,7 @@ Nenhum.
 |:-----|:-----|
 |[FreeBusyResponse](freebusyresponse.md) <br/> |Contém as informações de disponibilidade para um usuário de caixa de correio única.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Todos os elementos filhos são listados na sequência em que ocorrem. O nível de detalhes fornecidos por esse elemento depende as permissões concedidas para o solicitante.
   

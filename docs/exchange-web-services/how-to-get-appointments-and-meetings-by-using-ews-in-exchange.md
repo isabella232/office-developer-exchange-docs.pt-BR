@@ -10,7 +10,7 @@ ms.openlocfilehash: 0f5eb135142e807f30f48f01d7948fbdbf147ac2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750718"
 ---
 # <a name="get-appointments-and-meetings-by-using-ews-in-exchange"></a>Obtenha os compromissos e reuniões usando o EWS no Exchange

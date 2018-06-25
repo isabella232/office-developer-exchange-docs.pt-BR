@@ -16,7 +16,7 @@ ms.openlocfilehash: db181eff9586061d728a5e4ef55a78f4955b5713
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752253"
 ---
 # <a name="filterhtmlcontent"></a>FilterHtmlContent
@@ -51,7 +51,7 @@ Nenhum.
 
 Esse elemento pode ser **true** ou **false**. O valor padrão é **false**. Este é um tipo de dados Boolean.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento é opcional.
   

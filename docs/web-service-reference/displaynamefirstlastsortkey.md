@@ -12,7 +12,7 @@ ms.openlocfilehash: 24d31759964ad2a303ac38f33953f91edec9c5ca
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751889"
 ---
 # <a name="displaynamefirstlastsortkey"></a>DisplayNameFirstLastSortKey
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **DisplayNameFirstLastSortKey** é a chave de classificação para o nome de exibição da pessoa, em nome, última ordem de nome. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: d4b76933a747fe4bf084061cf080bc68264132ed
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750628"
 ---
 # <a name="cchksgfileserrinit-function"></a>Função CChkSGFiles.ErrInit
@@ -63,7 +63,7 @@ Parâmetro de entrada opcional. Esse valor é reservado para uso futuro. O valor
 
 Um código de erro da enumeração [ERR](cchksgfiles-err-enumeration.md) . 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A função **ErrInit** registra os bancos de dados e arquivos de log a serem verificados. Esta função deve ser chamada após a função **New** é chamada, mas antes de qualquer outro **ChkSGFiles** é chamada de função. 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 770bf97b030ac1293595560bc269f54896e35a15
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751273"
 ---
 # <a name="bias"></a>Bias
@@ -52,11 +52,11 @@ Nenhum.
 
 É necessário um valor de texto. O valor de texto representa um número inteiro.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O deslocamento usado para determinar a hora local só pode ser fornecido por um dos elementos **Bias** . A soma dos valores do elemento Bias fornecido pelo elemento [DaylightTime](daylighttime.md) ou o elemento [StandardTime](standardtime.md) mais o elemento [Bias (UTC)](bias-utc.md) identifica a hora local. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra a parte de uma solicitação XML que identifica um usuário que tiver o horário de verão, ajustando o deslocamento do UTC por 60 minutos. Isso efetivamente torna o bias 420 minutos de UTC.
   

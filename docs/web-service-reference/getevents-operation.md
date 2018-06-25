@@ -16,7 +16,7 @@ ms.openlocfilehash: 1a23a9d570a4554e54becb7927f25dff89888c74
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752473"
 ---
 # <a name="getevents-operation"></a>Operação GetEvents
@@ -26,7 +26,7 @@ A operação **GetEvents** é usada pelos clientes de inscrição de recepção 
 > [!IMPORTANT]
 > A operação **DeleteUserConfiguration** irá disparar um evento de movimentação para o sistema de notificação de evento. O objeto de configuração do usuário será movido para o dumpster. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Alterações nos itens de calendário podem resultar na geração de vários eventos. Esses eventos são o resultado de itens temporários que está sendo criada na caixa de correio, itens de armazenamento de dados de livre/ocupado sendo alteradas como parte das operações normais do calendário, ou ambos. Classe de eventos para o item "IPM. SchedulePlus.FreeBusy.BinaryData"devem ser ignorados pelo clientes de serviço Web. Esses itens temporários são excluídos depois que eles são criados; Portanto, se for feita uma tentativa para recuperar esses itens, um erro será retornado que afirma que o item não foi encontrado.
   
@@ -181,7 +181,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de **GetEvent
 </soap:Envelope>
 ```
 
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Ao processar uma solicitação de **GetEvents** , o servidor de acesso para cliente executa as seguintes etapas: 
   

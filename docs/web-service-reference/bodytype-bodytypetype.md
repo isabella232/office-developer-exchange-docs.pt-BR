@@ -12,7 +12,7 @@ ms.openlocfilehash: d31e7a6f26af7f0781c047291b4c1bfcea6187ec
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751300"
 ---
 # <a name="bodytype-bodytypetype"></a>BodyType (BodyTypeType)
@@ -51,7 +51,7 @@ Nenhum.
 |HTML  <br/> |Indica que o corpo é HTML.  <br/> |
 |Texto  <br/> |Indica que o corpo é texto.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

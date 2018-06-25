@@ -16,7 +16,7 @@ ms.openlocfilehash: 156d5bc58d481c9c812793da4722272ac76adaad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751711"
 ---
 # <a name="dayquality"></a>DayQuality

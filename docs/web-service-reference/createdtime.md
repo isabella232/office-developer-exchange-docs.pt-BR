@@ -12,7 +12,7 @@ ms.openlocfilehash: 5e542f750e83f0fe6a078bf6230ffe1d0cc6680d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751577"
 ---
 # <a name="createdtime"></a>CreatedTime
@@ -46,7 +46,7 @@ Nenhum.
 
 O valor de texto do elemento CreatedTime é o horário em que o item foi criado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 960e4d9c1d6eb37bf988bf163e696cbba3e1ef6f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751250"
 ---
 # <a name="basefolderids"></a>BaseFolderIds
@@ -52,7 +52,7 @@ Nenhum.
 |:-----|:-----|
 |[SearchParameters](searchparameters.md) <br/> |Representa os parâmetros que definem a uma pasta de pesquisa.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento **BaseFolderIds** deve conter pelo menos um elemento [FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) . 
   

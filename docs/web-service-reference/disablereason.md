@@ -12,7 +12,7 @@ ms.openlocfilehash: f900bd1b98b294900f767c778b9c5f87f74042ca
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751837"
 ---
 # <a name="disablereason"></a>DisableReason
@@ -53,7 +53,7 @@ Nenhum.
 |OWAClientPerformance  <br/> |Para melhorar o desempenho de cliente de aplicativo Web.  <br/> |
 |MobileClientPerformance  <br/> |Para melhorar o desempenho do cliente móvel.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -10,7 +10,7 @@ ms.openlocfilehash: e38ff50fcdb5e42cea3f4b2e25345375f84ae6eb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750873"
 ---
 # <a name="work-with-search-folders-by-using-ews-in-exchange"></a>Trabalhar com pastas de pesquisa usando o EWS no Exchange

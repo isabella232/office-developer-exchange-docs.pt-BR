@@ -16,7 +16,7 @@ ms.openlocfilehash: 64e4f1ee6b24cf8015b7893dc4a904ca8b32d58e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751056"
 ---
 # <a name="additionalproperties"></a>AdditionalProperties
@@ -56,7 +56,7 @@ Nenhum.
 |[ItemShape](itemshape.md) <br/> | Identifica as propriedades do item e o conteúdo a ser incluído em uma resposta [GetItem](getitem.md), [FindItem](finditem.md)ou [SyncFolderItems](syncfolderitems.md) .<br/><br/>  A seguir estão as expressões XPath para esse elemento:<br/><br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
 |[AttachmentShape](attachmentshape.md) <br/> |Identifica as propriedades de item estendido adicional para retornar em resposta a uma solicitação de [GetItem](getitem.md) .<br/><br/> Este é a expressão XPath para esse elemento:<br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Não todos os elementos filhos podem ser usados com [GetItem](getitem.md), [UpdateItem](updateitem.md), [CreateItem](createitem.md), [FindItem](finditem.md)ou solicitações [FindFolder](findfolder.md) . A propriedade deve ser aplica à pasta ou item é acessado. Use propriedades estendidas para acessar outras propriedades. Se a propriedade não existe para um determinado item, nenhum elemento correspondente será emitido para o XML resultante. 
   
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
   
 Esse elemento é opcional.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo de solicitação a seguir mostra como obter um assunto do item usando o elemento **AdditionalProperties** . 
   

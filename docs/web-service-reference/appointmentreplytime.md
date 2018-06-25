@@ -16,7 +16,7 @@ ms.openlocfilehash: 4d524bdc36ee642dcf8186294d412d6849b59ade
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751184"
 ---
 # <a name="appointmentreplytime"></a>AppointmentReplyTime

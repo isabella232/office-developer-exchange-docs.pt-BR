@@ -10,7 +10,7 @@ ms.openlocfilehash: a4265a14a46c146c584a3daa61cef5486958e14e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750829"
 ---
 # <a name="update-appointments-and-meetings-by-using-ews-in-exchange"></a>Atualizar compromissos e reuniões usando o EWS no Exchange

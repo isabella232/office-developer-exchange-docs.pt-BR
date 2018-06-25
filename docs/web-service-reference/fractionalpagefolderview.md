@@ -16,7 +16,7 @@ ms.openlocfilehash: 3cb5f8333634a0c484ae3ce6a6256631cff57cc5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752357"
 ---
 # <a name="fractionalpagefolderview"></a>FractionalPageFolderView
@@ -54,7 +54,7 @@ Nenhum.
 |:-----|:-----|
 |[FindFolder](findfolder.md) <br/> |Define uma solicitação para identificar pastas em uma caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/FindFolder` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O deslocamento do modo de exibição paginados desde o início do conjunto de pastas localizadas descrito por uma fração. A fração, que é definida pelos atributos **numerador** e **denominador** , descreve onde a página de informações é iniciado. Por exemplo, se **numerador** é igual a quatro e **denominador** igual a cinco, a página de informações retornadas começa em uma entrada localizado quatro-quintas da maneira no conjunto de resultados. 
   

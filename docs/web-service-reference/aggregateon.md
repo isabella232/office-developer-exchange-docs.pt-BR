@@ -16,7 +16,7 @@ ms.openlocfilehash: fe14de23e6a4c90d826200cae927427acfccc3c8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751073"
 ---
 # <a name="aggregateon"></a>AggregateOn
@@ -71,7 +71,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |:-----|:-----|
 |[GroupBy](groupby.md) <br/> |Especifica agrupamentos arbitrários para consultas FindItem.  <br/> Este é a expressão XPath para esse elemento:`/FindItem/GroupBy` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A [operação FindItem](finditem-operation.md) pode retornar resultados agrupados. Em resultados agrupados, todos os itens que têm o mesmo valor de uma propriedade de agrupamento determinado são coletados juntos e apresentados como filhos desse grupo. Por exemplo, se você agrupar por remetente, todos os emails são organizados em grupos separados com base em estarem ou do remetente A, B do remetente e assim por diante. Esses grupos são filhos do grupo do remetente. 
   
@@ -85,7 +85,7 @@ Por exemplo, se você deseja que emite uma consulta agrupada FindItem, agrupando
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra uma solicitação FindItem agrupadas e a resposta. O exemplo mostra uma solicitação para retornar itens agrupados pela propriedade **ConversationTopic** . Dois grupos, A e B, são retornados em ordem decrescente com base no valor máximo da propriedade [DateTimeReceived](datetimereceived.md) . 
   

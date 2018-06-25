@@ -10,7 +10,7 @@ ms.openlocfilehash: 9e848babc96707152be767f42b561a587fc6cff0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750965"
 ---
 # <a name="whats-new-in-ews-and-other-web-services-in-exchange"></a>O que há de novo no EWS e outros serviços da web do Exchange

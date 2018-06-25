@@ -12,7 +12,7 @@ ms.openlocfilehash: 41ab2ec7ec1c24ccbbef037ef1e27431c1fe6811
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751272"
 ---
 # <a name="blockexternalimages"></a>BlockExternalImages
@@ -47,7 +47,7 @@ Nenhum.
 
 Um valor de **true** para o elemento **BlockExternalImages** text indica que imagens externas estarem bloqueadas em corpos HTML. Um valor **false** indica que externos imagens são permitidas. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

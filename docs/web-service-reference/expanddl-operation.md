@@ -16,7 +16,7 @@ ms.openlocfilehash: e4654120881f81a79358e0e7c0ab016f94db3288
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752147"
 ---
 # <a name="expanddl-operation"></a>Operação ExpandDL
@@ -46,7 +46,7 @@ Listas de distribuição pública podem ser expandidas usando um destes procedim
 > [!IMPORTANT]
 > Nomes de exibição não são exclusivos. Várias contas podem compartilhar o mesmo nome de exibição. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Expansão recursiva não é suportado. Lista de distribuição apenas um pode ser expandida em uma única chamada. Se mais de uma lista de distribuição corresponde aos critérios, o serviço Web relata um erro. Um aplicativo cliente pode usar a resolução de nome ambígua (ANR) para localizar a lista de distribuição ambígua e, em seguida, escolher o endereço de email correto da lista de distribuição necessários como um parâmetro para a [operação ExpandDL](expanddl-operation.md). Para obter mais informações, consulte [ResolveNames operação](resolvenames-operation.md).
   

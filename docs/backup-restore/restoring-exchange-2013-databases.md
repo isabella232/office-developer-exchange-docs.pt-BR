@@ -12,7 +12,7 @@ ms.openlocfilehash: d3ca3a884b0ad30f7d7968a9ed435b02aaf205e1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750659"
 ---
 # <a name="restoring-exchange-2013-databases"></a>Restaurando bancos de dados do Exchange 2013

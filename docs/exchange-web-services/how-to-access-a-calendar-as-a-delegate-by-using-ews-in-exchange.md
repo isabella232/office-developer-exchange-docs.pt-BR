@@ -10,7 +10,7 @@ ms.openlocfilehash: 24327c28f58e728807fc5581b480d3c01d3b7208
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750684"
 ---
 #  <a name="access-a-calendar-as-a-delegate-by-using-ews-in-exchange"></a>Acessar um calendário como um representante, usando o EWS no Exchange

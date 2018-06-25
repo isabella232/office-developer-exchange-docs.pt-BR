@@ -16,14 +16,14 @@ ms.openlocfilehash: 655455b46d4a3192b294bee9d85352d95ded49ae
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752270"
 ---
 # <a name="findfolder-operation"></a>Operação FindFolder
 
 A operação **FindFolder** usa serviços Web do Exchange para localizar as subpastas de uma pasta identificada e retorna um conjunto de propriedades que descrevem o conjunto de subpastas. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 FindFolder retorna apenas os primeiros 512 bytes de qualquer propriedade transmissíveis. Para Unicode, ele retorna os primeiros 255 caracteres, usando uma cadeia de caracteres Unicode terminada em nulo.
   

@@ -11,7 +11,7 @@ ms.openlocfilehash: 366a7a79c0f3c19b2cfef21c01826e62b0e95793
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751959"
 ---
 # <a name="ecpurl-ret-pox"></a>EcpUrl-resposta POX)
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto representa uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl POX ()](ecpurl-pox.md) para gerar uma URL que pode ser usada para acessar as configurações de marca de retenção para o usuário. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A **resposta de EcpUrl** é um elemento filho opcionais do elemento de **protocolo** . 
   

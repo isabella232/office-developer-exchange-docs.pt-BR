@@ -16,7 +16,7 @@ ms.openlocfilehash: 2910503d1661ca3aaeeb4e319deb39f6b57c5c0a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751219"
 ---
 # <a name="attachmentid"></a>AttachmentId
@@ -51,7 +51,7 @@ Nenhum.
 |[ItemAttachment](itemattachment.md) <br/> |Representa um item do Exchange que está anexado a outro item do Exchange.  <br/> |
 |[FileAttachment](fileattachment.md) <br/> |Representa um arquivo anexado a um item no armazenamento do Exchange.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 É importante observar que, quando um anexo é criado, a chave de alteração do item raiz seja alterada.
   

@@ -11,7 +11,7 @@ ms.openlocfilehash: f478db53e120f108c64e415e43141761d7914f71
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751941"
 ---
 # <a name="ecpurl-extinstall-pox"></a>EcpUrl-extinstall (POX)
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto representa uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl POX ()](ecpurl-pox.md) para gerar uma URL que pode ser usada para exibir ou alterar os aplicativos de email instalados atualmente na caixa de correio do usuário. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O **EcpUrl-extinstall** é um elemento filho opcionais do elemento de **protocolo** . 
   

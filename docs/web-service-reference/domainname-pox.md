@@ -13,7 +13,7 @@ ms.openlocfilehash: c38d2e470bd174ab6dd7e5e1dd3eee23daea5e69
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751918"
 ---
 # <a name="domainname-pox"></a>DomainName POX)
@@ -52,7 +52,7 @@ Nenhum.
 
 O valor de texto Especifica o domínio do usuário.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se nenhum valor for especificado, a autenticação padrão é usar o endereço de email como um formato de nome principal (UPN) do usuário. Por exemplo: \<Username\>@\<domínio\>.
   

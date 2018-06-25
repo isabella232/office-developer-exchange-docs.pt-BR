@@ -16,7 +16,7 @@ ms.openlocfilehash: f1588b1dbc4bd7e83683fa4432a175405ad17903
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750629"
 ---
 # <a name="cchksgfileserrcheckdbpages-function"></a>Função CChkSGFiles.ErrCheckDbPages
@@ -68,7 +68,7 @@ Parâmetro de entrada opcional. Esse valor é reservado para uso futuro. O valor
 
 Um código de erro da enumeração [ERR](cchksgfiles-err-enumeration.md) . 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Observe que você precisa especificar o banco de dados na matriz de bancos de dados passado para a função **ErrInit** . Além disso, **ErrCheckDbHeaders** deve ser chamado antes de **ErrCheckDbPages**.
   

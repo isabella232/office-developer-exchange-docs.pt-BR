@@ -10,7 +10,7 @@ ms.openlocfilehash: 87c6ee476e06b50c339901bf61020b0fc98f8486
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750673"
 ---
 # <a name="comparing-exchange-online-and-exchange-on-premises-client-programming"></a>Comparando o Exchange Online e programação do cliente do Exchange local

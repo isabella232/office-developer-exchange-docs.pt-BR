@@ -10,7 +10,7 @@ ms.openlocfilehash: a3358844f2317c9b0462456ff7d2f38442c98ee3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750686"
 ---
 # <a name="folders-and-items-in-ews-in-exchange"></a>Pastas e itens no EWS no Exchange

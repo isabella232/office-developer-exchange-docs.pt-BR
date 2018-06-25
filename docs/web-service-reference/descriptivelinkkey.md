@@ -16,7 +16,7 @@ ms.openlocfilehash: c917f401c0954a68ddce1226b522d54c87502462
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751794"
 ---
 # <a name="descriptivelinkkey"></a>DescriptiveLinkKey
@@ -93,7 +93,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto. Este elemento é somente leitura.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento não é necessário e não está incluído em todas as respostas.
   

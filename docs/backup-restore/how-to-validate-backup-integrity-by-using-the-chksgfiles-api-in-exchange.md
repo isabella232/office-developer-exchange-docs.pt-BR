@@ -12,7 +12,7 @@ ms.openlocfilehash: 968484cd5bb7439730685643683e1d850bec33ca
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750633"
 ---
 # <a name="validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013"></a>Validar a integridade do backup, usando a API CHKSGFILES no Exchange 2013

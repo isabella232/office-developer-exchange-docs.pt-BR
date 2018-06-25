@@ -16,7 +16,7 @@ ms.openlocfilehash: 05e92a3fea10a84518b0680c425011a91bc43d93
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751190"
 ---
 # <a name="appointmentstate"></a>AppointmentState
@@ -51,7 +51,7 @@ Nenhum.
 
 Esse elemento contém um valor de texto que representa o conjunto de bits. Isso é no formulário inteiro. Este elemento é somente leitura. Ele só será retornado em uma resposta.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor de inteiro retornado representa a máscara de bits de estado do compromisso. A tabela a seguir descreve cada bit.
   

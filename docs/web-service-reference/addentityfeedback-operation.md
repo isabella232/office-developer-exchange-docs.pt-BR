@@ -12,7 +12,7 @@ ms.openlocfilehash: b695806f543827d78aea139ffcbd7e4af58b9fef
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751053"
 ---
 # <a name="addentityfeedback-operation"></a>Operação AddEntityFeedback
@@ -68,13 +68,13 @@ A solicitação soap contém um único elemento **EntityFeedbackEntries**. Por s
 |**ClientEventTimeLocal** <br/> |Sim  <br/> |A hora local que o evento ocorreu no lado do cliente.  <br/> |DateTime  <br/> |
 |**ClientId** <br/> |Sim  <br/> |Tipo de cliente (por exemplo, Outlook, OWA, etc.).  <br/> |Enumeração ClientIDType  <br/> |
 |**ClientSessionId** <br/> |Sim  <br/> |GUID que identifica o ID de sessão. Gerado no cliente.  <br/> |GUID  <br/> |
-|**ClientVersion** <br/> |Sim  <br/> |Versão do cliente (por exemplo, 15.01.0101.000).  <br/> |Cadeia de caracteres  <br/> |
+|**ClientVersion** <br/> |Sim  <br/> |Versão do cliente (por exemplo, 15.01.0101.000).  <br/> |String  <br/> |
 |**EntityAddSource** <br/> |Não  <br/> |Origem de EntityAded (E.g., EntityRelevanceAPI, tipos, colados).  <br/> |Enumeração EntityAddSource  <br/> |
 |**EntrySequenceNumber** <br/> |Sim  <br/> |Um inteiro incremental por sessão de cliente. Usada para detectar a perda de dados.  <br/> |Int  <br/> |
-|**EventType** <br/> |Sim  <br/> |Tipo de evento (E.g., entidade adicionados, removidos de entidade).  <br/> |Cadeia de caracteres  <br/> |
+|**EventType** <br/> |Sim  <br/> |Tipo de evento (E.g., entidade adicionados, removidos de entidade).  <br/> |String  <br/> |
 |**JSONPropertyBag** <br/> |Não  <br/> |Propriedades adicionais associadas ao evento (JSON blob de pares de chave/valor).  <br/> |Blob JSON  <br/> |
 |**TargetEntityList** <br/> |Não  <br/> |Lista de entidades associada ao evento.  <br/> |Cadeia de caracteres JSON  <br/> |
-|**TransactionId** <br/> |Não  <br/> |ID (GUID) correlacionando a ID nos logs de consulta.  <br/> |Cadeia de caracteres  <br/> |
+|**TransactionId** <br/> |Não  <br/> |ID (GUID) correlacionando a ID nos logs de consulta.  <br/> |String  <br/> |
    
 ### <a name="successful-addentityfeedback-operation-response"></a>Resposta de operação AddEntityFeedback bem-sucedida
 

@@ -16,7 +16,7 @@ ms.openlocfilehash: fa66d253b4fc6bd5c29a39c5323f59bf323a906f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751569"
 ---
 # <a name="cchksgfilespageinfo-struct"></a>CChkSGFiles.PAGE_INFO struct
@@ -74,7 +74,7 @@ Inteiro não assinado de 64-bt. **ErrCheckDbPages** define este membro para o va
   
 Inteiro não assinado de 64 bits. Reservado para uso futuro. O valor desse campo deve ser definido como 0 (zero) antes de chamar **ErrCheckDbPages**.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Ao chamar a função **ErrCheckDbPages** , o parâmetro **rgPageInfo** é uma matriz de **página\_INFO** estruturas. Deve haver um **página\_INFO** estrutura para cada página de banco de dados a ser verificado. 
   

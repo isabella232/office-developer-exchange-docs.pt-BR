@@ -16,7 +16,7 @@ ms.openlocfilehash: 86c8c61f22d8d620a9139280b2a43ed7fec4727d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751285"
 ---
 # <a name="bitmask"></a>Máscara de bits
@@ -49,7 +49,7 @@ Nenhum.
 |:-----|:-----|
 |[Exclui](excludes.md) <br/> |Executa uma máscara de bit a bit das propriedades.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Valores hexadecimais devem ter um prefixo de 0x ou 0x. Se esse prefixo não existir, o valor é considerado um número decimal.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 360870d63853a0e79f801cc2f17473b1a1b28c25
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751473"
 ---
 # <a name="containsheaderstrings"></a>ContainsHeaderStrings

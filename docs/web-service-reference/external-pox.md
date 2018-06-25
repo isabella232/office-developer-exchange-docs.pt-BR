@@ -11,7 +11,7 @@ ms.openlocfilehash: 7f01fc29b5ce63b02de0a4a6e42887dcffbb4b82
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752184"
 ---
 # <a name="external-pox"></a>Externo (POX)
@@ -60,7 +60,7 @@ Nenhum.
 |:-----|:-----|
 |[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O **externo** é um elemento filho opcionais do elemento de **protocolo** . 
   

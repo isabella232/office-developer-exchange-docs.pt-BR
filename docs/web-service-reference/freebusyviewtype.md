@@ -16,7 +16,7 @@ ms.openlocfilehash: fe965d062f72d99dff7148f4d00b12fd8c4e1366
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752385"
 ---
 # <a name="freebusyviewtype"></a>FreeBusyViewType
@@ -69,7 +69,7 @@ Nenhum.
 |Detalhada  <br/> |Representa as informações de status herdado: disponível, ocupado, provisório e OOF; os horários de início/término dos compromissos; e várias propriedades do compromisso como assunto, local e importância. Este modo de exibição solicitado retornará a quantidade máxima de informações para o qual o usuário solicitante é privilegiado. Se apenas informações de livre/ocupado mescladas estiverem disponíveis, como com solicitando informações para usuários em uma floresta do Microsoft Exchange Server 2003, **MergedOnly** será retornado. Caso contrário, **FreeBusy** ou **detalhado** será retornado.  <br/> Se **Detailed** for especificado para uma lista de distribuição, as informações de disponibilidade para os membros da lista são mescladas e **MergedOnly** é retornado.  <br/> |
 |DetailedMerged  <br/> |Representa todas as propriedades na **Detailed** com um fluxo de informações de disponibilidade de livre/ocupado mesclado. Se houver apenas informações de livre/ocupado mescladas disponíveis, por exemplo, se a caixa de correio existir em um computador executando o Exchange 2003, **MergedOnly** será retornado. Caso contrário, **FreeBusyMerged** ou **DetailedMerged** serão retornados.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento é necessário se o elemento [FreeBusyView](freebusyview.md) é usado. O tipo de informações de disponibilidade retornadas é designado no elemento [RequestedView](requestedview.md) . O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente. 
   

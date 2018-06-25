@@ -16,14 +16,14 @@ ms.openlocfilehash: 4b94bfd8d6333c1f52be8ad7d0d111ab2a0552b3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751732"
 ---
 # <a name="deleteattachment-operation"></a>Operação DeleteAttachment
 
 A operação DeleteAttachment é usada para excluir anexos de arquivo e um item de um item existente no armazenamento do Exchange.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esta operação permite que você exclua um ou mais anexos por ID.
   

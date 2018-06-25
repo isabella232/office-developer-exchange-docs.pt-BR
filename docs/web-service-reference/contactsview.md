@@ -16,7 +16,7 @@ ms.openlocfilehash: e578eb4dd0042b8c478e883c7fa54d7f2e984229
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751462"
 ---
 # <a name="contactsview"></a>ContactsView
@@ -59,7 +59,7 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir de uma solicitação demonstra como localizar os três primeiros contatos começando com o contato que possui o nome de exibição de Kelly Rollin.
   

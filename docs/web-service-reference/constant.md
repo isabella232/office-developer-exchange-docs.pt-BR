@@ -16,7 +16,7 @@ ms.openlocfilehash: 73912bc1981c5d54040f7c4a563ad805916fe721
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751431"
 ---
 # <a name="constant"></a>Constante
@@ -49,7 +49,7 @@ Nenhum.
 |[Contém](contains.md) <br/> |Representa uma expressão de pesquisa que determina se uma determinada propriedade contém o valor de cadeia de caracteres constante fornecido.  <br/> |
 |[FieldURIOrConstant](fielduriorconstant.md) <br/> |Representa uma propriedade ou um valor de constante a ser usado ao comparar com outra propriedade.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor de cadeia de caracteres no atributo de **valor** deve ser conversível para o tipo que você está tentando comparar com. Por exemplo, se você está comparando uma propriedade de data/hora em relação a um valor de constante, o valor de cadeia de caracteres deve representam uma data/hora. 
   

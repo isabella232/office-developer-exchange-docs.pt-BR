@@ -11,7 +11,7 @@ ms.openlocfilehash: 13954a4dab8e81f4ba75b3578e6ba7f67f4b8b96
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751944"
 ---
 # <a name="ecpurl-mt-pox"></a>EcpUrl-mt POX)
@@ -61,7 +61,7 @@ O valor de texto representa uma URL parcial que pode ser combinada com o valor d
 | _Mbx_ <br/> |O endereço SMTP do proprietário da caixa de correio.  <br/> |
 | _Sender_ <br/> |O endereço de SMTP do remetente da mensagem.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O **EcpUrl-mt** é um elemento filho opcionais do elemento de **protocolo** . 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 00a1ec25be737ec0a5cc874063e1bce19a96cee0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751403"
 ---
 # <a name="completedate"></a>CompleteDate
@@ -51,7 +51,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto que representa a data e hora.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A definição de **CompleteDate** tem o mesmo efeito que a definição de [PercentComplete](percentcomplete.md) como 100 ou [Status](status.md) como **concluído**. Em uma solicitação que conjuntos de pelo menos dois dessas propriedades, a propriedade processada última determinará o valor que está definido para esses elementos. Por exemplo, se [PercentComplete](percentcomplete.md) é 100, **CompleteDate** é 1º de janeiro de 2007, [o Status](status.md) é **NotStarted**e as propriedades são transmitidas nesta ordem, o efeito será definir o [Status](status.md) da tarefa a ser **NotStarted **, o [CompleteDate](completedate.md) **Nulo**e [PercentComplete](percentcomplete.md) como 0. 
   

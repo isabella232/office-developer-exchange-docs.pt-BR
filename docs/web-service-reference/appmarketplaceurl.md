@@ -12,7 +12,7 @@ ms.openlocfilehash: f8e6c4bc3c4fc5713ccc2e0d16f13f039722c441
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751183"
 ---
 # <a name="appmarketplaceurl"></a>AppMarketplaceUrl
@@ -46,7 +46,7 @@ Nenhum.
 
 O valor de texto do elemento **AppMarketplaceUrl** é a URL para o marketplace de aplicativo. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -10,7 +10,7 @@ ms.openlocfilehash: 2f203c5634c29105feb39220c3ebdd9624bb49ec
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750953"
 ---
 # <a name="start-using-web-services-in-exchange"></a>Começar a usar os serviços web no Exchange

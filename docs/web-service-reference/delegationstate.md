@@ -16,7 +16,7 @@ ms.openlocfilehash: 00b0e41ae223f1c70f9a3a21662e8858f8690a86
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751724"
 ---
 # <a name="delegationstate"></a>DelegationState
@@ -63,7 +63,7 @@ Esta é uma propriedade somente leitura. Veja a seguir os valores possíveis:
     
 - Máx.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Serviços Web do Exchange no Microsoft Exchange Server 2007 não oferece suporte a atribuições de tarefa.
   

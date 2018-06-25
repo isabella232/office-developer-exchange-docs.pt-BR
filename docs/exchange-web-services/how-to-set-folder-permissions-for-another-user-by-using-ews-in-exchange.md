@@ -10,7 +10,7 @@ ms.openlocfilehash: 5bf570612d6349628e7f3abf858daa33daa13745
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750830"
 ---
 # <a name="set-folder-permissions-for-another-user-by-using-ews-in-exchange"></a>Definir permissões de pasta para outro usuário usando o EWS no Exchange

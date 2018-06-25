@@ -16,7 +16,7 @@ ms.openlocfilehash: a6a68017291ba13f45b3970307669222d583fcbb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751710"
 ---
 # <a name="dayofweek-workingperiod"></a>DayOfWeek (WorkingPeriod)
@@ -70,7 +70,7 @@ Um valor de texto será retornado se o usuário de caixa de correio tem dias def
     
 Os valores de texto serão retornados nesta ordem.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 É importante observar que a diferença entre esse elemento e o elemento de disponibilidade [DayOfWeek (TimeZone)](dayofweek-timezone.md) é o tipo. 
   

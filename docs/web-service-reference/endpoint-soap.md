@@ -11,7 +11,7 @@ ms.openlocfilehash: 85e1ad785b35649238ac3944f51472addf617c20
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752063"
 ---
 # <a name="endpoint-soap"></a>Ponto de extremidade (SOAP)
@@ -45,7 +45,7 @@ None
 
 O valor de texto representa o ponto de extremidade para o serviço web de token de segurança.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O ponto de extremidade é usado para comunicação com o serviço web de token de segurança.
   

@@ -11,7 +11,7 @@ ms.openlocfilehash: 4727e7054c02a4b5d454cb880691ecc01a075327
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752367"
 ---
 # <a name="freebusyaccessenabled-soap"></a>FreeBusyAccessEnabled (SOAP)
@@ -45,7 +45,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **FreeBusyAccessEnabled** indica que a relação de compartilhamento deve ser usada para recuperar informações de disponibilidade dos usuários na organização. Um valor **false** indica que a relação de compartilhamento deve ser suprimida. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use esse elemento para permitir ou impedir que informações de disponibilidade do servidor. 
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 62ec061f6d03abb9db7e511722e5570e70d65772
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751540"
 ---
 # <a name="conversationnodes"></a>ConversationNodes
@@ -46,7 +46,7 @@ Nenhum.
 |:-----|:-----|
 |[Conversa (ConversationResponseType)](conversation-conversationresponsetype.md) <br/> |Representa uma única conversa retornada em uma resposta **GetConversationItems** .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

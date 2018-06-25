@@ -12,7 +12,7 @@ ms.openlocfilehash: 7ae8083aea826726752f1cd3c9f3689fd0dd3fb5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751526"
 ---
 # <a name="conversationindex-string"></a>ConversationIndex (string)
@@ -46,7 +46,7 @@ Nenhum.
 
 Valor de cadeia de caracteres que representa o índice da conversa.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento é obrigatório.
   

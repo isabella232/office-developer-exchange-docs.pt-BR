@@ -16,7 +16,7 @@ ms.openlocfilehash: ace800982c284cf65ff22d92c711197ee5ee1d06
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751420"
 ---
 # <a name="conflictingmeetingcount"></a>ConflictingMeetingCount
@@ -51,7 +51,7 @@ Nenhum.
 
 O valor de texto representa um número inteiro. Esta propriedade é somente leitura.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um item de calendário é considerado conflitante se ele ocorrer, pelo menos em parte, ao mesmo tempo como outro item de calendário na mesma pasta Calendário. Se um item de calendário estiver em uma pasta noncalendar, ele é comparado com itens de calendário na pasta de calendário padrão. Solicitações de reunião são comparadas com itens de calendário na pasta de calendário padrão.
   

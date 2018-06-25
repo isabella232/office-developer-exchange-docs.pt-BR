@@ -16,14 +16,14 @@ ms.openlocfilehash: c2174dd806b922e640ef7afcab32b98c67c65b41
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751601"
 ---
 # <a name="createitem-operation-calendar-item"></a>Operação CreateItem (item de calendário)
 
 A operação CreateItem cria itens de calendário no armazenamento do Exchange.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A operação CreateItem cria compromissos, reuniões e solicitações de reunião. Se um item de calendário for criado sem participantes, ele será considerado um compromisso. Se os participantes forem especificados, o item de calendário é uma reunião. Quando uma reunião é criada usando a operação CreateItem, solicitações de reunião são enviadas automaticamente para os participantes identificados se o atributo SendMeetingInvitations for definido como enviar as solicitações de reunião.
   

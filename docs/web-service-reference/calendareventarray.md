@@ -16,7 +16,7 @@ ms.openlocfilehash: 2e56b7b2b94e12401ba708dfca94101064d625e1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751348"
 ---
 # <a name="calendareventarray"></a>CalendarEventArray
@@ -60,7 +60,7 @@ Nenhum.
 |:-----|:-----|
 |[FreeBusyView](freebusyview.md) <br/> |Contém informações de disponibilidade para um usuário específico.  <br/> Este é a expressão XPath 2.0 para esse elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O nível de detalhes fornecidos por esse elemento depende as permissões concedidas para o solicitante. Esse elemento é incluído quando o elemento [FreeBusyViewType](freebusyviewtype.md) estiver definido como **FreeBusy**, **FreeBusyMerged**, **Detailed**ou **DetailedMerged**. Este elemento não inclui todos os elementos filho se não há itens de calendário estiverem presentes na janela de tempo solicitada. 
   

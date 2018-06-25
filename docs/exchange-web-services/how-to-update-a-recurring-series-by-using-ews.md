@@ -10,7 +10,7 @@ ms.openlocfilehash: ecee78457d2e6f91483cf897cfb4976fbd83400c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750839"
 ---
 # <a name="update-a-recurring-series-by-using-ews"></a>Atualizar uma série recorrente usando o EWS

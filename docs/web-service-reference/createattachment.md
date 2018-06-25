@@ -16,7 +16,7 @@ ms.openlocfilehash: d403eb5ca15623d3a973f7b224dbcde5529cf1bc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751567"
 ---
 # <a name="createattachment"></a>CreateAttachment
@@ -72,7 +72,7 @@ Os seguintes anexos de item podem ser criados:
     
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra como criar e anexar um item a outro item no armazenamento do Exchange.
   

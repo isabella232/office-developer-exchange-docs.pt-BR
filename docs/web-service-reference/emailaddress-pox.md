@@ -13,7 +13,7 @@ ms.openlocfilehash: 7675ef18565d27db62f5662e651e982176001815
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751986"
 ---
 # <a name="emailaddress-pox"></a>EMailAddress POX)
@@ -50,7 +50,7 @@ Nenhum.
 
 O valor de texto representa o endereço de email do usuário.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento [LegacyDN (POX)](legacydn-pox.md) fornece um elemento alternativo para uma solicitação de descoberta automática. 
   

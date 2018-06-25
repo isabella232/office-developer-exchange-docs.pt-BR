@@ -13,7 +13,7 @@ ms.openlocfilehash: 120ec00ac82166ae2002a8fbac0edf9a1e23afc7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751236"
 ---
 # <a name="authpackage-pox"></a>AuthPackage (POX)
@@ -64,7 +64,7 @@ O valor de texto Especifica o esquema de autenticação que é usado durante a a
 - negociar
 - nego2
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento **AuthPackage** é usado apenas quando o elemento de [Tipo POX ()](type-pox.md) tem um valor de texto de EXCH ou EXPR. 
   

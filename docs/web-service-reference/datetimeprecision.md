@@ -12,7 +12,7 @@ ms.openlocfilehash: 4d11598628228b41adf021adbbaa77e6348534bb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751686"
 ---
 # <a name="datetimeprecision"></a>DateTimePrecision
@@ -49,7 +49,7 @@ O elemento **DateTimePrecision** está localizado no cabeçalho SOAP.
     
 - Milissegundos
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Data/hora de quando um cabeçalho SOAP com o elemento **DateTimePrecision** definido como "Segundos" é usado, os valores são retornados para os mais próximo segundos (00: 00:00). Data/hora de quando "Milissegundos" são usados, os valores são retornados para o milissegundo mais próximo (00:00:00.0000). 
   

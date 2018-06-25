@@ -16,7 +16,7 @@ ms.openlocfilehash: f84ffdd2e6b485436d9e4ccd5f03a6e2c57fcfd1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751573"
 ---
 # <a name="createcontents"></a>CreateContents
@@ -50,7 +50,7 @@ Nenhum.
 
 Um valor de texto de **true** indica que um cliente pode criar uma tabela de conteúdo. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade é usada somente em objetos de pasta.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: e1b9e337f633dbf6fda159c28725d3fb8dcd55a6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752338"
 ---
 # <a name="folders"></a>Pastas
@@ -62,7 +62,7 @@ Nenhum.
 |[RootFolder (FindFolderResponseMessage)](rootfolder-findfolderresponsemessage.md) <br/> |Contém os resultados de verificação ortográfica de uma pasta raiz única durante uma [operação FindFolder](findfolder-operation.md).  <br/> |
 |[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |Contém o status e o resultado de uma única [operação UpdateFolder](updatefolder-operation.md) solicitação.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este é um elemento necessário filho do elemento [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) . 
   

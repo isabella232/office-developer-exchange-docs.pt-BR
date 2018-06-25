@@ -16,7 +16,7 @@ ms.openlocfilehash: 0d0d95849a2562e06b88872b2857cc5e6ca67af3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751700"
 ---
 # <a name="dayofmonth"></a>DayOfMonth
@@ -52,7 +52,7 @@ Nenhum.
 
 Um valor de texto que representa um inteiro no intervalo de 1 a 31 é necessário. Se um determinado mês esse valor for maior que o número de dias no mês, o último dia do mês é assumido.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

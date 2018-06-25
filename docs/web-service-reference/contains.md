@@ -16,7 +16,7 @@ ms.openlocfilehash: 083efdf32cd32bea6964361b5b558480aa937280
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751468"
 ---
 # <a name="contains"></a>Contém
@@ -83,7 +83,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |[E](and.md) <br/> |Representa uma expressão de pesquisa que permite realizar uma operação Boolean e entre dois ou mais expressões de pesquisa. O resultado da operação e será **true** se todas as expressões de pesquisa contidas And forem **verdadeiras**.  <br/> |
 |[Ou](or.md) <br/> |Representa uma expressão de pesquisa que realiza um OR lógico a expressão de pesquisa que ele contém. O elemento [ou](or.md) retornará **true** se qualquer um dos seus filhos retornam **true**.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Os atributos são usados para determinar como os elementos são correspondidos.
   

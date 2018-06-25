@@ -10,7 +10,7 @@ ms.openlocfilehash: 0633c204207317c03740d35b1da4b9626152d2e3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750742"
 ---
 # <a name="get-freebusy-information-by-using-ews-in-exchange"></a>Obter informações de disponibilidade usando o EWS no Exchange

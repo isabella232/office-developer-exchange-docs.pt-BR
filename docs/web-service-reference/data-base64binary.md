@@ -16,7 +16,7 @@ ms.openlocfilehash: 9560273e31a64edb2254489961733dfe7360ad01
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751670"
 ---
 # <a name="data-base64binary"></a>Dados (base64Binary)
@@ -52,7 +52,7 @@ Nenhum.
 
 O elemento de **dados** contém os nomes de propriedade e valores para um item que será carregado em uma caixa de correio ou de um item exportado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 5b1070de73bc23ae09ddb7835bd72c8e8a71a95f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750632"
 ---
 # <a name="cchksgfileserrchecklogs-function"></a>Função CChkSGFiles.ErrCheckLogs
@@ -50,7 +50,7 @@ Um código de erro da enumeração [ERR](cchksgfiles-err-enumeration.md) .
   
 É importante lembrar-se de que esta função pode retornar **errSuccess** , mesmo quando são encontrados erros nos arquivos de log. Portanto, quando **ErrCheckLogs** retorna **errSuccess**, o aplicativo deve também verificar o parâmetro de retorno de **pfOnlyUnnecessaryLogsCorrupt** . Se **pfOnlyUnnecessaryLogsCorrupts** for **true** quando **ErrCheckLogs** retorna **errSuccess**, isto indica que foram encontrados erros de um ou mais, mas apenas nos arquivos de log que não é necessários colocar o banco de dados atualizado.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A função **ErrCheckDbHeaders** deve ser chamada antes que a função **ErrCheckLogs** pode ser chamada. 
   

@@ -11,7 +11,7 @@ ms.openlocfilehash: 6f44fc30fcf96bc059aa9412f5c3c5b8f596d2fc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751245"
 ---
 # <a name="autodiscoversmtpaddress-pox"></a>AutoDiscoverSMTPAddress (POX)
@@ -52,7 +52,7 @@ Nenhum.
 
 O valor de texto representa o endereço SMTP do usuário que é usado para o processo de descoberta automática.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O **AutoDiscoverSMTPAddress** é um elemento filho opcionais do elemento de **usuário** . 
   

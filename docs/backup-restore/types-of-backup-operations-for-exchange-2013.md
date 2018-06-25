@@ -12,7 +12,7 @@ ms.openlocfilehash: 588bc0ffe896f286258006f7f123cf09d28b218c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19750674"
 ---
 # <a name="types-of-backup-operations-for-exchange-2013"></a>Tipos de operações de backup para o Exchange 2013

@@ -12,7 +12,7 @@ ms.openlocfilehash: e2b5b612006c2ac732e5978d8a6126f9567ff17a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751191"
 ---
 # <a name="approvaldecisionmaker"></a>ApprovalDecisionMaker
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **ApprovalDecisionMaker** é um nome de exibição. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   

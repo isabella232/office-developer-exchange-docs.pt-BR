@@ -16,7 +16,7 @@ ms.openlocfilehash: 0afe19cfae49dbf48c685296a83ab1330b631d04
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751382"
 ---
 # <a name="ccrecipients"></a>CcRecipients
@@ -62,7 +62,7 @@ Nenhum.
 |[ForwardItem](forwarditem.md) <br/> |Contém um item de armazenamento do Exchange para encaminhar para destinatários.  <br/> |
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |Representa o objeto de resposta é usado para cancelar uma reunião.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você não pode obter **CcRecipients** usando uma solicitação FindItem. Use uma solicitação de GetItem para obter **Cc**.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 313699a15ef3038dd9114c18b76b29aba15e5ab7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751379"
 ---
 # <a name="cancreateitems"></a>CanCreateItems
@@ -51,7 +51,7 @@ Nenhum.
 
 Um valor de texto de **true** indica que o usuário pode criar itens na pasta. Um valor **false** indica que o usuário não pode criar itens na pasta. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 07ec4b1a5f84669aca33d46cdf1fa2e578f3b43b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751702"
 ---
 # <a name="daylighttime"></a>DaylightTime
@@ -64,7 +64,7 @@ Nenhum.
 |:-----|:-----|
 |[Fuso horário (disponibilidade)](timezone-availability.md) <br/> | Contém os elementos que identificam as informações de fuso horário.<br/><br/>Esse elemento também contém informações sobre a transição entre o período padrão e o horário de verão.<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
    
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 A solicitação de GetUserAvailability parcial seguinte representa um aplicativo cliente no local que reconheça o horário de verão.
   

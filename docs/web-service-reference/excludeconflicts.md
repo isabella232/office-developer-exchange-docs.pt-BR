@@ -16,7 +16,7 @@ ms.openlocfilehash: 66b69d57246942e551de2f683949870823e2e4e1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752128"
 ---
 # <a name="excludeconflicts"></a>ExcludeConflicts
@@ -58,7 +58,7 @@ Nenhum.
 
 É necessário um valor de texto. Os valores possíveis são um booleano **true** ou **false**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento é obrigatório.
   

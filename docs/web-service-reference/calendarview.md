@@ -16,7 +16,7 @@ ms.openlocfilehash: 79b5ad268a8013092c1122c99bdcd10d876abf2c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751369"
 ---
 # <a name="calendarview"></a>Exibição de calendário
@@ -55,7 +55,7 @@ Nenhum.
 |:-----|:-----|
 |[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.<br/><br/> Este é a expressão XPath para esse elemento:  <br/>  `/FindItem` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se o elemento de **exibição de calendário** for especificado em uma solicitação de FindItem, o serviço Web retorna uma lista de itens de calendário único e ocorrências de itens de calendário recorrentes dentro do intervalo especificado pelo **StartDate** e **EndDate**.
   
@@ -163,7 +163,7 @@ Consultas CalendarView só devem fazer use das propriedades a seguir, desde que 
     
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra uma solicitação FindItem. Uma solicitação bem-sucedida retornará uma resposta que inclui itens de calendário iniciados de 2006-05-18T00:00:00-08:00 ou depois e finalizada antes de 2006-05-19T00:00:00-08:00.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 7816b90000be36cf3a3354d26d978684bfdcfe40
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751703"
 ---
 # <a name="dayofweek-timezone"></a>DayOfWeek (TimeZone)
@@ -64,7 +64,7 @@ Nenhum.
 - Dia da semana   
 - WeekendDay
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um elemento de [StandardTime](standardtime.md) que contém um elemento [DayOrder](dayorder.md) que tem um valor de 5, um elemento de [mês](month.md) que possui um valor de 10 e um elemento de **DayOfWeek** que tem um valor de domingo significa que a transição da hora padrão para o horário de verão economia de tempo ocorre no domingo do mês décimo quinto. 
   

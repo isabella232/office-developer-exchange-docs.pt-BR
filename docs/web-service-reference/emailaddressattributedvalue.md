@@ -12,7 +12,7 @@ ms.openlocfilehash: 3bcbb5c0a2bc9a2dc24516b5fc62e6e3363a360b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752001"
 ---
 # <a name="emailaddressattributedvalue"></a>EmailAddressAttributedValue
@@ -50,7 +50,7 @@ Nenhum.
 |[Emails2](emails2.md) <br/> |Especifica uma matriz de valores de email e os identificadores de suas atribuições de origem para a pessoa associada.  <br/> |
 |[Emails3](emails3.md) <br/> |Especifica uma matriz de valores de email e os identificadores de suas atribuições de origem para a pessoa associada.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

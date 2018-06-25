@@ -16,7 +16,7 @@ ms.openlocfilehash: 07c634d6166d88a8912bc66081a13671e600c801
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751067"
 ---
 # <a name="address-string"></a>Endereço (string)
@@ -51,7 +51,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento pode ocorrer no máximo uma vez no elemento de [Email (EmailAddressType)](email-emailaddresstype.md) e o elemento de [caixa de correio (disponibilidade)](mailbox-availability.md) . 
   

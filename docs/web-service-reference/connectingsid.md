@@ -16,7 +16,7 @@ ms.openlocfilehash: 6e0bb90e197ce22bcd982a6d51954a88f3a2cf03
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751430"
 ---
 # <a name="connectingsid"></a>ConnectingSID
@@ -57,7 +57,7 @@ Nenhum.
 |:-----|:-----|
 |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Usado no cabeçalho de uma solicitação SOAP. Quando esse elemento estiver presente, o chamador está tentando representar a conta que está contida no elemento **ExchangeImpersonation** .  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/ExchangeImpersonation` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A chamada conta deve ter o **ms-exch-impersonation** direto no servidor de acesso para cliente e o **ms-exch-MayImpersonate** direito em ou o banco de dados de caixa de correio que contém a caixa de correio para representar ou o usuário do Active Directory ou um contato objeto. 
   

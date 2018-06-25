@@ -12,7 +12,7 @@ ms.openlocfilehash: c2f2511154daaded09ba0e8d811baf9ce30ca138
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751398"
 ---
 # <a name="clientextensions"></a>ClientExtensions
@@ -46,7 +46,7 @@ Nenhum.
 |:-----|:-----|
 |[GetClientExtensionResponse](getclientextensionresponse.md) <br/> |Representa uma resposta para obter informações de configuração sobre um aplicativo.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

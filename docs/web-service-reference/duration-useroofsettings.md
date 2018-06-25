@@ -16,7 +16,7 @@ ms.openlocfilehash: 62a5492372fd80173d58e965376b7c8c466825a6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751945"
 ---
 # <a name="duration-useroofsettings"></a>Duração (UserOofSettings)
@@ -54,13 +54,13 @@ Nenhum.
 |[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.<br/><br/>Este é a expressão XPath para esse elemento:<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
 |[Fora do escritório](outofoffice.md) <br/> |Define a mensagem de resposta de ausência temporária e um tempo de duração para enviar a mensagem de resposta para uma caixa de correio.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O tipo de **duração** também é o tipo para os elementos [DetailedSuggestionsWindow](detailedsuggestionswindow.md) [TimeWindow](timewindow.md)e [fora do escritório](outofoffice.md) . 
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir de uma solicitação de [operação SetUserOofSettings](setuseroofsettings-operation.md) define o [OofState](oofstate.md) como **habilitado**, as mensagens de ausência temporária internas e externas e define a duração de ausência temporária para 10 dias.
   
