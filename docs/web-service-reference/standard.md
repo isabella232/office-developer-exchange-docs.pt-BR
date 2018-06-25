@@ -16,12 +16,12 @@ ms.openlocfilehash: 1c9be4cf35773583078bc8e16ddf44433d3ad98c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825536"
 ---
-# <a name="standard"></a><span data-ttu-id="e3e62-103">Padrão</span><span class="sxs-lookup"><span data-stu-id="e3e62-103">Standard</span></span>
+# <a name="standard"></a><span data-ttu-id="c6619-103">Padrão</span><span class="sxs-lookup"><span data-stu-id="c6619-103">Standard</span></span>
 
-<span data-ttu-id="e3e62-104">O elemento **padrão** representa a data e hora de quando o tempo é alterado de horário de verão para a hora padrão.</span><span class="sxs-lookup"><span data-stu-id="e3e62-104">The **Standard** element represents the date and time when the time changes from daylight saving time to standard time.</span></span> 
+<span data-ttu-id="c6619-104">O elemento **padrão** representa a data e hora de quando o tempo é alterado de horário de verão para a hora padrão.</span><span class="sxs-lookup"><span data-stu-id="c6619-104">The **Standard** element represents the date and time when the time changes from daylight saving time to standard time.</span></span> 
   
 ```xml
 <Standard TimeZoneName="">
@@ -31,48 +31,48 @@ ms.locfileid: "19825536"
 </Standard>
 ```
 
- <span data-ttu-id="e3e62-105">**TimeChangeType**</span><span class="sxs-lookup"><span data-stu-id="e3e62-105">**TimeChangeType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="e3e62-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="e3e62-106">Attributes and elements</span></span>
+ <span data-ttu-id="c6619-105">**TimeChangeType**</span><span class="sxs-lookup"><span data-stu-id="c6619-105">**TimeChangeType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="c6619-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="c6619-106">Attributes and elements</span></span>
 
-<span data-ttu-id="e3e62-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="e3e62-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="c6619-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="c6619-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="e3e62-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="e3e62-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c6619-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="c6619-108">Attributes</span></span>
 
-|<span data-ttu-id="e3e62-109">**Attribute**</span><span class="sxs-lookup"><span data-stu-id="e3e62-109">**Attribute**</span></span>|<span data-ttu-id="e3e62-110">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="e3e62-110">**Description**</span></span>|
+|<span data-ttu-id="c6619-109">**Attribute**</span><span class="sxs-lookup"><span data-stu-id="c6619-109">**Attribute**</span></span>|<span data-ttu-id="c6619-110">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c6619-110">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="e3e62-111">**TimeZoneName**</span><span class="sxs-lookup"><span data-stu-id="e3e62-111">**TimeZoneName**</span></span> <br/> |<span data-ttu-id="e3e62-112">Descreve o nome do fuso horário.</span><span class="sxs-lookup"><span data-stu-id="e3e62-112">Describes the name of the time zone.</span></span>  <br/> |
+|<span data-ttu-id="c6619-111">**TimeZoneName**</span><span class="sxs-lookup"><span data-stu-id="c6619-111">**TimeZoneName**</span></span> <br/> |<span data-ttu-id="c6619-112">Descreve o nome do fuso horário.</span><span class="sxs-lookup"><span data-stu-id="c6619-112">Describes the name of the time zone.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="e3e62-113">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="e3e62-113">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c6619-113">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="c6619-113">Child elements</span></span>
 
-|<span data-ttu-id="e3e62-114">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="e3e62-114">**Element**</span></span>|<span data-ttu-id="e3e62-115">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="e3e62-115">**Description**</span></span>|
+|<span data-ttu-id="c6619-114">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="c6619-114">**Element**</span></span>|<span data-ttu-id="c6619-115">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c6619-115">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e3e62-116">Offset</span><span class="sxs-lookup"><span data-stu-id="e3e62-116">Offset</span></span>](offset.md) <br/> |<span data-ttu-id="e3e62-117">Descreve o deslocamento, desde o [BaseOffset](baseoffset.md).</span><span class="sxs-lookup"><span data-stu-id="e3e62-117">Describes the offset from the [BaseOffset](baseoffset.md).</span></span> <span data-ttu-id="e3e62-118">Em conjunto com o elemento **BaseOffset** , o elemento de **deslocamento** identifica se o tempo é a hora padrão ou o horário de verão.</span><span class="sxs-lookup"><span data-stu-id="e3e62-118">Together with the **BaseOffset** element, the **Offset** element identifies whether the time is standard time or daylight saving time.</span></span>  <br/> |
-|[<span data-ttu-id="e3e62-119">RelativeYearlyRecurrence</span><span class="sxs-lookup"><span data-stu-id="e3e62-119">RelativeYearlyRecurrence</span></span>](relativeyearlyrecurrence.md) <br/> |<span data-ttu-id="e3e62-120">Descreve um padrão de recorrência anual relativa para uma data de transição do fuso horário.</span><span class="sxs-lookup"><span data-stu-id="e3e62-120">Describes a relative yearly recurrence pattern for a time zone transition date.</span></span>  <br/> |
-|[<span data-ttu-id="e3e62-121">AbsoluteDate</span><span class="sxs-lookup"><span data-stu-id="e3e62-121">AbsoluteDate</span></span>](absolutedate.md) <br/> |<span data-ttu-id="e3e62-122">Representa a data quando o tempo é alterado de hora padrão ou o horário de verão.</span><span class="sxs-lookup"><span data-stu-id="e3e62-122">Represents the date when the time changes from standard time or daylight saving time.</span></span>  <br/> |
-|[<span data-ttu-id="e3e62-123">Tempo (TimeChangeType)</span><span class="sxs-lookup"><span data-stu-id="e3e62-123">Time (TimeChangeType)</span></span>](time-timechangetype.md) <br/> |<span data-ttu-id="e3e62-124">Descreve o tempo quando o tempo é alterado entre o período padrão e o horário de verão.</span><span class="sxs-lookup"><span data-stu-id="e3e62-124">Describes the time when the time changes between standard time and daylight saving time.</span></span>  <br/> |
+|[<span data-ttu-id="c6619-116">Offset</span><span class="sxs-lookup"><span data-stu-id="c6619-116">Offset</span></span>](offset.md) <br/> |<span data-ttu-id="c6619-117">Descreve o deslocamento, desde o [BaseOffset](baseoffset.md).</span><span class="sxs-lookup"><span data-stu-id="c6619-117">Describes the offset from the [BaseOffset](baseoffset.md).</span></span> <span data-ttu-id="c6619-118">Em conjunto com o elemento **BaseOffset** , o elemento de **deslocamento** identifica se o tempo é a hora padrão ou o horário de verão.</span><span class="sxs-lookup"><span data-stu-id="c6619-118">Together with the **BaseOffset** element, the **Offset** element identifies whether the time is standard time or daylight saving time.</span></span>  <br/> |
+|[<span data-ttu-id="c6619-119">RelativeYearlyRecurrence</span><span class="sxs-lookup"><span data-stu-id="c6619-119">RelativeYearlyRecurrence</span></span>](relativeyearlyrecurrence.md) <br/> |<span data-ttu-id="c6619-120">Descreve um padrão de recorrência anual relativa para uma data de transição do fuso horário.</span><span class="sxs-lookup"><span data-stu-id="c6619-120">Describes a relative yearly recurrence pattern for a time zone transition date.</span></span>  <br/> |
+|[<span data-ttu-id="c6619-121">AbsoluteDate</span><span class="sxs-lookup"><span data-stu-id="c6619-121">AbsoluteDate</span></span>](absolutedate.md) <br/> |<span data-ttu-id="c6619-122">Representa a data quando o tempo é alterado de hora padrão ou o horário de verão.</span><span class="sxs-lookup"><span data-stu-id="c6619-122">Represents the date when the time changes from standard time or daylight saving time.</span></span>  <br/> |
+|[<span data-ttu-id="c6619-123">Tempo (TimeChangeType)</span><span class="sxs-lookup"><span data-stu-id="c6619-123">Time (TimeChangeType)</span></span>](time-timechangetype.md) <br/> |<span data-ttu-id="c6619-124">Descreve o tempo quando o tempo é alterado entre o período padrão e o horário de verão.</span><span class="sxs-lookup"><span data-stu-id="c6619-124">Describes the time when the time changes between standard time and daylight saving time.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="e3e62-125">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="e3e62-125">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="c6619-125">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="c6619-125">Parent elements</span></span>
 
-|<span data-ttu-id="e3e62-126">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="e3e62-126">**Element**</span></span>|<span data-ttu-id="e3e62-127">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="e3e62-127">**Description**</span></span>|
+|<span data-ttu-id="c6619-126">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="c6619-126">**Element**</span></span>|<span data-ttu-id="c6619-127">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c6619-127">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e3e62-128">MeetingTimeZone</span><span class="sxs-lookup"><span data-stu-id="e3e62-128">MeetingTimeZone</span></span>](meetingtimezone.md) <br/> |<span data-ttu-id="e3e62-129">Representa o fuso horário do local onde a reunião está hospedada.</span><span class="sxs-lookup"><span data-stu-id="e3e62-129">Represents the time zone of the location where the meeting is hosted.</span></span>  <br/> |
+|[<span data-ttu-id="c6619-128">MeetingTimeZone</span><span class="sxs-lookup"><span data-stu-id="c6619-128">MeetingTimeZone</span></span>](meetingtimezone.md) <br/> |<span data-ttu-id="c6619-129">Representa o fuso horário do local onde a reunião está hospedada.</span><span class="sxs-lookup"><span data-stu-id="c6619-129">Represents the time zone of the location where the meeting is hosted.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="e3e62-130">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="e3e62-130">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c6619-130">Comentários</span><span class="sxs-lookup"><span data-stu-id="c6619-130">Remarks</span></span>
 
-<span data-ttu-id="e3e62-131">O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="e3e62-131">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="c6619-131">O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="c6619-131">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="e3e62-132">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="e3e62-132">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="c6619-132">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="c6619-132">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="e3e62-133">Namespace</span><span class="sxs-lookup"><span data-stu-id="e3e62-133">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="e3e62-134">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="e3e62-134">Schema Name</span></span>  <br/> |<span data-ttu-id="e3e62-135">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="e3e62-135">Types schema</span></span>  <br/> |
-|<span data-ttu-id="e3e62-136">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="e3e62-136">Validation File</span></span>  <br/> |<span data-ttu-id="e3e62-137">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="e3e62-137">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="e3e62-138">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="e3e62-138">Can be Empty</span></span>  <br/> |<span data-ttu-id="e3e62-139">False</span><span class="sxs-lookup"><span data-stu-id="e3e62-139">False</span></span>  <br/> |
+|<span data-ttu-id="c6619-133">Namespace</span><span class="sxs-lookup"><span data-stu-id="c6619-133">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="c6619-134">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="c6619-134">Schema Name</span></span>  <br/> |<span data-ttu-id="c6619-135">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="c6619-135">Types schema</span></span>  <br/> |
+|<span data-ttu-id="c6619-136">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="c6619-136">Validation File</span></span>  <br/> |<span data-ttu-id="c6619-137">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="c6619-137">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="c6619-138">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="c6619-138">Can be Empty</span></span>  <br/> |<span data-ttu-id="c6619-139">False</span><span class="sxs-lookup"><span data-stu-id="c6619-139">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="e3e62-140">Ver também</span><span class="sxs-lookup"><span data-stu-id="e3e62-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c6619-140">Ver também</span><span class="sxs-lookup"><span data-stu-id="c6619-140">See also</span></span>
 
 
 
-- [<span data-ttu-id="e3e62-141">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="e3e62-141">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="c6619-141">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="c6619-141">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

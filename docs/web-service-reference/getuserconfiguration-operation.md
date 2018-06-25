@@ -16,20 +16,20 @@ ms.openlocfilehash: 6c1cdf381126e54f9b9eeaed260e7c2b23b0b2a6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19823687"
 ---
-# <a name="getuserconfiguration-operation"></a><span data-ttu-id="8e676-103">Operação GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="8e676-103">GetUserConfiguration operation</span></span>
+# <a name="getuserconfiguration-operation"></a><span data-ttu-id="64ba6-103">Operação GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="64ba6-103">GetUserConfiguration operation</span></span>
 
-<span data-ttu-id="8e676-104">A operação **GetUserConfiguration** obtém um objeto de configuração do usuário de uma pasta.</span><span class="sxs-lookup"><span data-stu-id="8e676-104">The **GetUserConfiguration** operation gets a user configuration object from a folder.</span></span> 
+<span data-ttu-id="64ba6-104">A operação **GetUserConfiguration** obtém um objeto de configuração do usuário de uma pasta.</span><span class="sxs-lookup"><span data-stu-id="64ba6-104">The **GetUserConfiguration** operation gets a user configuration object from a folder.</span></span> 
   
-## <a name="getuserconfiguration-request-example"></a><span data-ttu-id="8e676-105">Exemplo de solicitação de GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="8e676-105">GetUserConfiguration request example</span></span>
+## <a name="getuserconfiguration-request-example"></a><span data-ttu-id="64ba6-105">Exemplo de solicitação de GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="64ba6-105">GetUserConfiguration request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="8e676-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="8e676-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="64ba6-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="64ba6-106">Description</span></span>
 
-<span data-ttu-id="8e676-107">O exemplo a seguir de uma solicitação de **GetUserConfiguration** mostra como formar uma solicitação para obter um objeto de configuração do usuário na pasta Rascunhos.</span><span class="sxs-lookup"><span data-stu-id="8e676-107">The following example of a **GetUserConfiguration** request shows how to form a request to get a user configuration object on the Drafts folder.</span></span> 
+<span data-ttu-id="64ba6-107">O exemplo a seguir de uma solicitação de **GetUserConfiguration** mostra como formar uma solicitação para obter um objeto de configuração do usuário na pasta Rascunhos.</span><span class="sxs-lookup"><span data-stu-id="64ba6-107">The following example of a **GetUserConfiguration** request shows how to form a request to get a user configuration object on the Drafts folder.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="8e676-108">Código</span><span class="sxs-lookup"><span data-stu-id="8e676-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="64ba6-108">Código</span><span class="sxs-lookup"><span data-stu-id="64ba6-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,13 +52,13 @@ ms.locfileid: "19823687"
 </soap:Envelope>
 ```
 
-## <a name="getuserconfiguration-response-example"></a><span data-ttu-id="8e676-109">Exemplo de resposta GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="8e676-109">GetUserConfiguration response example</span></span>
+## <a name="getuserconfiguration-response-example"></a><span data-ttu-id="64ba6-109">Exemplo de resposta GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="64ba6-109">GetUserConfiguration response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="8e676-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="8e676-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="64ba6-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="64ba6-110">Description</span></span>
 
-<span data-ttu-id="8e676-111">O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetUserConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="8e676-111">The following example shows a successful response to the **GetUserConfiguration** request.</span></span> 
+<span data-ttu-id="64ba6-111">O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetUserConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="64ba6-111">The following example shows a successful response to the **GetUserConfiguration** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="8e676-112">Código</span><span class="sxs-lookup"><span data-stu-id="8e676-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="64ba6-112">Código</span><span class="sxs-lookup"><span data-stu-id="64ba6-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -106,11 +106,11 @@ ms.locfileid: "19823687"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="8e676-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="8e676-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="64ba6-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="64ba6-113">See also</span></span>
 
 
 
-[<span data-ttu-id="8e676-114">Operações do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="8e676-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+[<span data-ttu-id="64ba6-114">Operações do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="64ba6-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="8e676-115">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="8e676-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="64ba6-115">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="64ba6-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

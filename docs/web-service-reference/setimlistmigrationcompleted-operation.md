@@ -12,11 +12,11 @@ ms.openlocfilehash: eca1e3670b554ab5d07d6dcdbe16bfc7e7461f53
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825423"
 ---
-# <a name="setimlistmigrationcompleted-operation"></a><span data-ttu-id="f90d6-103">Operação SetImListMigrationCompleted</span><span class="sxs-lookup"><span data-stu-id="f90d6-103">SetImListMigrationCompleted operation</span></span>
+# <a name="setimlistmigrationcompleted-operation"></a><span data-ttu-id="1b549-103">Operação SetImListMigrationCompleted</span><span class="sxs-lookup"><span data-stu-id="1b549-103">SetImListMigrationCompleted operation</span></span>
 
-<span data-ttu-id="f90d6-104">A operação SetImListMigrationCompleted não se destina a uso público.</span><span class="sxs-lookup"><span data-stu-id="f90d6-104">The SetImListMigrationCompleted operation is not intended for public use.</span></span>
+<span data-ttu-id="1b549-104">A operação SetImListMigrationCompleted não se destina a uso público.</span><span class="sxs-lookup"><span data-stu-id="1b549-104">The SetImListMigrationCompleted operation is not intended for public use.</span></span>
   
 
