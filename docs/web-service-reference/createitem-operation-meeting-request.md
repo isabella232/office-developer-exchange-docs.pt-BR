@@ -16,24 +16,24 @@ ms.openlocfilehash: a8aea688e46376906554952ce8ec45022cf613e9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751605"
 ---
-# <a name="createitem-operation-meeting-request"></a><span data-ttu-id="1853e-103">Operação CreateItem (solicitação de reunião)</span><span class="sxs-lookup"><span data-stu-id="1853e-103">CreateItem operation (meeting request)</span></span>
+# <a name="createitem-operation-meeting-request"></a><span data-ttu-id="c3bf7-103">Operação CreateItem (solicitação de reunião)</span><span class="sxs-lookup"><span data-stu-id="c3bf7-103">CreateItem operation (meeting request)</span></span>
 
-<span data-ttu-id="1853e-104">A operação CreateItem é usada para responder às solicitações de reunião.</span><span class="sxs-lookup"><span data-stu-id="1853e-104">The CreateItem operation is used to respond to meeting requests.</span></span>
+<span data-ttu-id="c3bf7-104">A operação CreateItem é usada para responder às solicitações de reunião.</span><span class="sxs-lookup"><span data-stu-id="c3bf7-104">The CreateItem operation is used to respond to meeting requests.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="1853e-105">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="1853e-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c3bf7-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="c3bf7-105">Remarks</span></span>
 
-<span data-ttu-id="1853e-106">A operação CreateItem oferece três opções para responder a uma solicitação de reunião: aceitar, aceitar provisoriamente ou recusar.</span><span class="sxs-lookup"><span data-stu-id="1853e-106">The CreateItem operation provides three options for responding to a meeting request: accept, tentatively accept, or decline.</span></span> 
+<span data-ttu-id="c3bf7-106">A operação CreateItem oferece três opções para responder a uma solicitação de reunião: aceitar, aceitar provisoriamente ou recusar.</span><span class="sxs-lookup"><span data-stu-id="c3bf7-106">The CreateItem operation provides three options for responding to a meeting request: accept, tentatively accept, or decline.</span></span> 
   
-## <a name="accept-meeting-request-example"></a><span data-ttu-id="1853e-107">Aceitar um exemplo de solicitação de reunião</span><span class="sxs-lookup"><span data-stu-id="1853e-107">Accept Meeting request example</span></span>
+## <a name="accept-meeting-request-example"></a><span data-ttu-id="c3bf7-107">Aceitar um exemplo de solicitação de reunião</span><span class="sxs-lookup"><span data-stu-id="c3bf7-107">Accept Meeting request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="1853e-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="1853e-108">Description</span></span>
+### <a name="description"></a><span data-ttu-id="c3bf7-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="c3bf7-108">Description</span></span>
 
-<span data-ttu-id="1853e-109">O exemplo a seguir mostra como aceitar uma reunião solicitar convite.</span><span class="sxs-lookup"><span data-stu-id="1853e-109">The following example shows how to accept a meeting request invitation.</span></span>
+<span data-ttu-id="c3bf7-109">O exemplo a seguir mostra como aceitar uma reunião solicitar convite.</span><span class="sxs-lookup"><span data-stu-id="c3bf7-109">The following example shows how to accept a meeting request invitation.</span></span>
   
-### <a name="code"></a><span data-ttu-id="1853e-110">Código</span><span class="sxs-lookup"><span data-stu-id="1853e-110">Code</span></span>
+### <a name="code"></a><span data-ttu-id="c3bf7-110">Código</span><span class="sxs-lookup"><span data-stu-id="c3bf7-110">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -53,31 +53,31 @@ ms.locfileid: "19751605"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="1853e-111">Comments</span><span class="sxs-lookup"><span data-stu-id="1853e-111">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="c3bf7-111">Comments</span><span class="sxs-lookup"><span data-stu-id="c3bf7-111">Comments</span></span>
 
-<span data-ttu-id="1853e-112">Para aceitar provisoriamente ou recusar a solicitação de reunião, use os elementos [TentativelyAcceptItem](tentativelyacceptitem.md) ou [DeclineItem](declineitem.md) no lugar do elemento [AcceptItem](acceptitem.md) .</span><span class="sxs-lookup"><span data-stu-id="1853e-112">To tentatively accept or to decline the meeting request, use the [TentativelyAcceptItem](tentativelyacceptitem.md) or [DeclineItem](declineitem.md) elements in place of the [AcceptItem](acceptitem.md) element.</span></span> 
+<span data-ttu-id="c3bf7-112">Para aceitar provisoriamente ou recusar a solicitação de reunião, use os elementos [TentativelyAcceptItem](tentativelyacceptitem.md) ou [DeclineItem](declineitem.md) no lugar do elemento [AcceptItem](acceptitem.md) .</span><span class="sxs-lookup"><span data-stu-id="c3bf7-112">To tentatively accept or to decline the meeting request, use the [TentativelyAcceptItem](tentativelyacceptitem.md) or [DeclineItem](declineitem.md) elements in place of the [AcceptItem](acceptitem.md) element.</span></span> 
   
-<span data-ttu-id="1853e-113">O identificador do item e alterar chave foram diminuídas para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="1853e-113">The item identifier and change key have been shortened to preserve readability.</span></span>
+<span data-ttu-id="c3bf7-113">O identificador do item e alterar chave foram diminuídas para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="c3bf7-113">The item identifier and change key have been shortened to preserve readability.</span></span>
   
-### <a name="accepting-meeting-request-elements"></a><span data-ttu-id="1853e-114">Aceitando elementos de solicitação de reunião</span><span class="sxs-lookup"><span data-stu-id="1853e-114">Accepting Meeting Request Elements</span></span>
+### <a name="accepting-meeting-request-elements"></a><span data-ttu-id="c3bf7-114">Aceitando elementos de solicitação de reunião</span><span class="sxs-lookup"><span data-stu-id="c3bf7-114">Accepting Meeting Request Elements</span></span>
 
-<span data-ttu-id="1853e-115">Os seguintes elementos são usados na solicitação:</span><span class="sxs-lookup"><span data-stu-id="1853e-115">The following elements are used in the request:</span></span>
+<span data-ttu-id="c3bf7-115">Os seguintes elementos são usados na solicitação:</span><span class="sxs-lookup"><span data-stu-id="c3bf7-115">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="1853e-116">CreateItem</span><span class="sxs-lookup"><span data-stu-id="1853e-116">CreateItem</span></span>](createitem.md)
+- [<span data-ttu-id="c3bf7-116">CreateItem</span><span class="sxs-lookup"><span data-stu-id="c3bf7-116">CreateItem</span></span>](createitem.md)
     
-- [<span data-ttu-id="1853e-117">Itens (NonEmptyArrayOfAllItemsType)</span><span class="sxs-lookup"><span data-stu-id="1853e-117">Items (NonEmptyArrayOfAllItemsType)</span></span>](items-nonemptyarrayofallitemstype.md)
+- [<span data-ttu-id="c3bf7-117">Itens (NonEmptyArrayOfAllItemsType)</span><span class="sxs-lookup"><span data-stu-id="c3bf7-117">Items (NonEmptyArrayOfAllItemsType)</span></span>](items-nonemptyarrayofallitemstype.md)
     
-- [<span data-ttu-id="1853e-118">AcceptItem</span><span class="sxs-lookup"><span data-stu-id="1853e-118">AcceptItem</span></span>](acceptitem.md)
+- [<span data-ttu-id="c3bf7-118">AcceptItem</span><span class="sxs-lookup"><span data-stu-id="c3bf7-118">AcceptItem</span></span>](acceptitem.md)
     
-- [<span data-ttu-id="1853e-119">ReferenceItemId</span><span class="sxs-lookup"><span data-stu-id="1853e-119">ReferenceItemId</span></span>](referenceitemid.md)
+- [<span data-ttu-id="c3bf7-119">ReferenceItemId</span><span class="sxs-lookup"><span data-stu-id="c3bf7-119">ReferenceItemId</span></span>](referenceitemid.md)
     
-## <a name="successful-accept-meeting-response-example"></a><span data-ttu-id="1853e-120">Exemplo de resposta bem-sucedida aceitar reunião</span><span class="sxs-lookup"><span data-stu-id="1853e-120">Successful Accept Meeting response example</span></span>
+## <a name="successful-accept-meeting-response-example"></a><span data-ttu-id="c3bf7-120">Exemplo de resposta bem-sucedida aceitar reunião</span><span class="sxs-lookup"><span data-stu-id="c3bf7-120">Successful Accept Meeting response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="1853e-121">Descrição</span><span class="sxs-lookup"><span data-stu-id="1853e-121">Description</span></span>
+### <a name="description"></a><span data-ttu-id="c3bf7-121">Descrição</span><span class="sxs-lookup"><span data-stu-id="c3bf7-121">Description</span></span>
 
-<span data-ttu-id="1853e-122">O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de CreateItem.</span><span class="sxs-lookup"><span data-stu-id="1853e-122">The following example shows a successful response to the CreateItem request.</span></span>
+<span data-ttu-id="c3bf7-122">O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de CreateItem.</span><span class="sxs-lookup"><span data-stu-id="c3bf7-122">The following example shows a successful response to the CreateItem request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="1853e-123">Código</span><span class="sxs-lookup"><span data-stu-id="1853e-123">Code</span></span>
+### <a name="code"></a><span data-ttu-id="c3bf7-123">Código</span><span class="sxs-lookup"><span data-stu-id="c3bf7-123">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -103,29 +103,29 @@ ms.locfileid: "19751605"
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a><span data-ttu-id="1853e-124">Elementos de resposta bem-sucedida</span><span class="sxs-lookup"><span data-stu-id="1853e-124">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="c3bf7-124">Elementos de resposta bem-sucedida</span><span class="sxs-lookup"><span data-stu-id="c3bf7-124">Successful response elements</span></span>
 
-<span data-ttu-id="1853e-125">Os seguintes elementos são usados na resposta:</span><span class="sxs-lookup"><span data-stu-id="1853e-125">The following elements are used in the response:</span></span>
+<span data-ttu-id="c3bf7-125">Os seguintes elementos são usados na resposta:</span><span class="sxs-lookup"><span data-stu-id="c3bf7-125">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="1853e-126">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="1853e-126">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="c3bf7-126">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="c3bf7-126">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="1853e-127">CreateItemResponse</span><span class="sxs-lookup"><span data-stu-id="1853e-127">CreateItemResponse</span></span>](createitemresponse.md)
+- [<span data-ttu-id="c3bf7-127">CreateItemResponse</span><span class="sxs-lookup"><span data-stu-id="c3bf7-127">CreateItemResponse</span></span>](createitemresponse.md)
     
-- [<span data-ttu-id="1853e-128">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="1853e-128">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="c3bf7-128">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c3bf7-128">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="1853e-129">CreateItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="1853e-129">CreateItemResponseMessage</span></span>](createitemresponsemessage.md)
+- [<span data-ttu-id="c3bf7-129">CreateItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c3bf7-129">CreateItemResponseMessage</span></span>](createitemresponsemessage.md)
     
-- [<span data-ttu-id="1853e-130">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="1853e-130">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="c3bf7-130">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c3bf7-130">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="1853e-131">Items</span><span class="sxs-lookup"><span data-stu-id="1853e-131">Items</span></span>](items.md)
+- [<span data-ttu-id="c3bf7-131">Items</span><span class="sxs-lookup"><span data-stu-id="c3bf7-131">Items</span></span>](items.md)
     
-## <a name="accept-meeting-error-response-example"></a><span data-ttu-id="1853e-132">Aceitar um exemplo de resposta de erro de reunião</span><span class="sxs-lookup"><span data-stu-id="1853e-132">Accept Meeting Error response example</span></span>
+## <a name="accept-meeting-error-response-example"></a><span data-ttu-id="c3bf7-132">Aceitar um exemplo de resposta de erro de reunião</span><span class="sxs-lookup"><span data-stu-id="c3bf7-132">Accept Meeting Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="1853e-133">Descrição</span><span class="sxs-lookup"><span data-stu-id="1853e-133">Description</span></span>
+### <a name="description"></a><span data-ttu-id="c3bf7-133">Descrição</span><span class="sxs-lookup"><span data-stu-id="c3bf7-133">Description</span></span>
 
-<span data-ttu-id="1853e-134">O exemplo a seguir mostra uma resposta de erro a solicitação de CreateItem.</span><span class="sxs-lookup"><span data-stu-id="1853e-134">The following example shows an error response to CreateItem request.</span></span> <span data-ttu-id="1853e-135">O erro é gerado por uma tentativa de aceitar uma solicitação de reunião que não pode ser encontrada no armazenamento do Exchange.</span><span class="sxs-lookup"><span data-stu-id="1853e-135">The error is caused by an attempt to accept a meeting request that cannot be found in the Exchange store.</span></span>
+<span data-ttu-id="c3bf7-134">O exemplo a seguir mostra uma resposta de erro a solicitação de CreateItem.</span><span class="sxs-lookup"><span data-stu-id="c3bf7-134">The following example shows an error response to CreateItem request.</span></span> <span data-ttu-id="c3bf7-135">O erro é gerado por uma tentativa de aceitar uma solicitação de reunião que não pode ser encontrada no armazenamento do Exchange.</span><span class="sxs-lookup"><span data-stu-id="c3bf7-135">The error is caused by an attempt to accept a meeting request that cannot be found in the Exchange store.</span></span>
   
-### <a name="code"></a><span data-ttu-id="1853e-136">Código</span><span class="sxs-lookup"><span data-stu-id="1853e-136">Code</span></span>
+### <a name="code"></a><span data-ttu-id="c3bf7-136">Código</span><span class="sxs-lookup"><span data-stu-id="c3bf7-136">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -153,31 +153,31 @@ ms.locfileid: "19751605"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a><span data-ttu-id="1853e-137">Elementos de resposta de erro</span><span class="sxs-lookup"><span data-stu-id="1853e-137">Error response elements</span></span>
+### <a name="error-response-elements"></a><span data-ttu-id="c3bf7-137">Elementos de resposta de erro</span><span class="sxs-lookup"><span data-stu-id="c3bf7-137">Error response elements</span></span>
 
-<span data-ttu-id="1853e-138">Os seguintes elementos são usados na resposta de erro:</span><span class="sxs-lookup"><span data-stu-id="1853e-138">The following elements are used in the error response:</span></span>
+<span data-ttu-id="c3bf7-138">Os seguintes elementos são usados na resposta de erro:</span><span class="sxs-lookup"><span data-stu-id="c3bf7-138">The following elements are used in the error response:</span></span>
   
-- [<span data-ttu-id="1853e-139">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="1853e-139">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="c3bf7-139">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="c3bf7-139">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="1853e-140">CreateItemResponse</span><span class="sxs-lookup"><span data-stu-id="1853e-140">CreateItemResponse</span></span>](createitemresponse.md)
+- [<span data-ttu-id="c3bf7-140">CreateItemResponse</span><span class="sxs-lookup"><span data-stu-id="c3bf7-140">CreateItemResponse</span></span>](createitemresponse.md)
     
-- [<span data-ttu-id="1853e-141">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="1853e-141">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="c3bf7-141">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c3bf7-141">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="1853e-142">CreateItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="1853e-142">CreateItemResponseMessage</span></span>](createitemresponsemessage.md)
+- [<span data-ttu-id="c3bf7-142">CreateItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c3bf7-142">CreateItemResponseMessage</span></span>](createitemresponsemessage.md)
     
-- [<span data-ttu-id="1853e-143">MessageText</span><span class="sxs-lookup"><span data-stu-id="1853e-143">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="c3bf7-143">MessageText</span><span class="sxs-lookup"><span data-stu-id="c3bf7-143">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="1853e-144">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="1853e-144">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="c3bf7-144">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c3bf7-144">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="1853e-145">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="1853e-145">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="c3bf7-145">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="c3bf7-145">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-- [<span data-ttu-id="1853e-146">Items</span><span class="sxs-lookup"><span data-stu-id="1853e-146">Items</span></span>](items.md)
+- [<span data-ttu-id="c3bf7-146">Items</span><span class="sxs-lookup"><span data-stu-id="c3bf7-146">Items</span></span>](items.md)
     
-## <a name="see-also"></a><span data-ttu-id="1853e-147">Confira também</span><span class="sxs-lookup"><span data-stu-id="1853e-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c3bf7-147">Confira também</span><span class="sxs-lookup"><span data-stu-id="c3bf7-147">See also</span></span>
 
 
 
-[<span data-ttu-id="1853e-148">Operação CreateItem</span><span class="sxs-lookup"><span data-stu-id="1853e-148">CreateItem operation</span></span>](createitem-operation.md)
+[<span data-ttu-id="c3bf7-148">Operação CreateItem</span><span class="sxs-lookup"><span data-stu-id="c3bf7-148">CreateItem operation</span></span>](createitem-operation.md)
   
-[<span data-ttu-id="1853e-149">Operação CreateItem (item de calendário)</span><span class="sxs-lookup"><span data-stu-id="1853e-149">CreateItem operation (calendar item)</span></span>](createitem-operation-calendar-item.md)
+[<span data-ttu-id="c3bf7-149">Operação CreateItem (item de calendário)</span><span class="sxs-lookup"><span data-stu-id="c3bf7-149">CreateItem operation (calendar item)</span></span>](createitem-operation-calendar-item.md)
 

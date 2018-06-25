@@ -16,26 +16,26 @@ ms.openlocfilehash: 87d7853daa5db0cd87b3f6469c228a584b4d9caf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19751753"
 ---
-# <a name="deleteitem-operation"></a><span data-ttu-id="5c2bd-103">Operação DeleteItem</span><span class="sxs-lookup"><span data-stu-id="5c2bd-103">DeleteItem operation</span></span>
+# <a name="deleteitem-operation"></a><span data-ttu-id="d8c68-103">Operação DeleteItem</span><span class="sxs-lookup"><span data-stu-id="d8c68-103">DeleteItem operation</span></span>
 
-<span data-ttu-id="5c2bd-104">A operação **DeleteItem** exclui os itens no armazenamento do Exchange.</span><span class="sxs-lookup"><span data-stu-id="5c2bd-104">The **DeleteItem** operation deletes items in the Exchange store.</span></span> 
+<span data-ttu-id="d8c68-104">A operação **DeleteItem** exclui os itens no armazenamento do Exchange.</span><span class="sxs-lookup"><span data-stu-id="d8c68-104">The **DeleteItem** operation deletes items in the Exchange store.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="5c2bd-105">Uma resposta de erro que inclui o código de erro ErrorCannotDeleteObject será retornada para uma operação **DeleteItem** quando um delegado tenta excluir um item na caixa de correio do principal, definindo o DisposalType para MoveToDeletedItems.</span><span class="sxs-lookup"><span data-stu-id="5c2bd-105">An error response that includes the ErrorCannotDeleteObject error code will be returned for a **DeleteItem** operation when a delegate tries to delete an item in the principal's mailbox by setting the DisposalType to MoveToDeletedItems.</span></span> <span data-ttu-id="5c2bd-106">Para excluir um item, movendo-o para a pasta Itens excluídos, um representante deve usar a [operação MoveItem](moveitem-operation.md).</span><span class="sxs-lookup"><span data-stu-id="5c2bd-106">To delete an item by moving it to the Deleted Items folder, a delegate must use the [MoveItem operation](moveitem-operation.md).</span></span> 
+> <span data-ttu-id="d8c68-105">Uma resposta de erro que inclui o código de erro ErrorCannotDeleteObject será retornada para uma operação **DeleteItem** quando um delegado tenta excluir um item na caixa de correio do principal, definindo o DisposalType para MoveToDeletedItems.</span><span class="sxs-lookup"><span data-stu-id="d8c68-105">An error response that includes the ErrorCannotDeleteObject error code will be returned for a **DeleteItem** operation when a delegate tries to delete an item in the principal's mailbox by setting the DisposalType to MoveToDeletedItems.</span></span> <span data-ttu-id="d8c68-106">Para excluir um item, movendo-o para a pasta Itens excluídos, um representante deve usar a [operação MoveItem](moveitem-operation.md).</span><span class="sxs-lookup"><span data-stu-id="d8c68-106">To delete an item by moving it to the Deleted Items folder, a delegate must use the [MoveItem operation](moveitem-operation.md).</span></span> 
   
-## <a name="deleteitem-request-example"></a><span data-ttu-id="5c2bd-107">Exemplo de solicitação DeleteItem</span><span class="sxs-lookup"><span data-stu-id="5c2bd-107">DeleteItem request example</span></span>
+## <a name="deleteitem-request-example"></a><span data-ttu-id="d8c68-107">Exemplo de solicitação DeleteItem</span><span class="sxs-lookup"><span data-stu-id="d8c68-107">DeleteItem request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="5c2bd-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="5c2bd-108">Description</span></span>
+### <a name="description"></a><span data-ttu-id="d8c68-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="d8c68-108">Description</span></span>
 
-<span data-ttu-id="5c2bd-109">O exemplo a seguir de uma solicitação de **DeleteItem** mostra como realizar uma exclusão dura de um item de uma caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="5c2bd-109">The following example of a **DeleteItem** request shows how to perform a hard delete of an item from a mailbox.</span></span> 
+<span data-ttu-id="d8c68-109">O exemplo a seguir de uma solicitação de **DeleteItem** mostra como realizar uma exclusão dura de um item de uma caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="d8c68-109">The following example of a **DeleteItem** request shows how to perform a hard delete of an item from a mailbox.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="5c2bd-110">A ID do item foi reduzida para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="5c2bd-110">The item ID has been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="d8c68-110">A ID do item foi reduzida para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="d8c68-110">The item ID has been shortened to preserve readability.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="5c2bd-111">Código</span><span class="sxs-lookup"><span data-stu-id="5c2bd-111">Code</span></span>
+### <a name="code"></a><span data-ttu-id="d8c68-111">Código</span><span class="sxs-lookup"><span data-stu-id="d8c68-111">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -51,25 +51,25 @@ ms.locfileid: "19751753"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a><span data-ttu-id="5c2bd-112">Elementos de solicitação</span><span class="sxs-lookup"><span data-stu-id="5c2bd-112">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="d8c68-112">Elementos de solicitação</span><span class="sxs-lookup"><span data-stu-id="d8c68-112">Request elements</span></span>
 
-<span data-ttu-id="5c2bd-113">Os seguintes elementos são usados na solicitação:</span><span class="sxs-lookup"><span data-stu-id="5c2bd-113">The following elements are used in the request:</span></span>
+<span data-ttu-id="d8c68-113">Os seguintes elementos são usados na solicitação:</span><span class="sxs-lookup"><span data-stu-id="d8c68-113">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="5c2bd-114">DeleteItem</span><span class="sxs-lookup"><span data-stu-id="5c2bd-114">DeleteItem</span></span>](deleteitem.md)
+- [<span data-ttu-id="d8c68-114">DeleteItem</span><span class="sxs-lookup"><span data-stu-id="d8c68-114">DeleteItem</span></span>](deleteitem.md)
     
-- [<span data-ttu-id="5c2bd-115">ItemIds</span><span class="sxs-lookup"><span data-stu-id="5c2bd-115">ItemIds</span></span>](itemids.md)
+- [<span data-ttu-id="d8c68-115">ItemIds</span><span class="sxs-lookup"><span data-stu-id="d8c68-115">ItemIds</span></span>](itemids.md)
     
-- [<span data-ttu-id="5c2bd-116">ItemId</span><span class="sxs-lookup"><span data-stu-id="5c2bd-116">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="d8c68-116">ItemId</span><span class="sxs-lookup"><span data-stu-id="d8c68-116">ItemId</span></span>](itemid.md)
     
-<span data-ttu-id="5c2bd-117">Para localizar outras opções para a mensagem de solicitação da operação **DeleteItem** , explore a hierarquia de esquema.</span><span class="sxs-lookup"><span data-stu-id="5c2bd-117">To find other options for the request message of the **DeleteItem** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="5c2bd-118">Inicie o elemento [DeleteItem](deleteitem.md) .</span><span class="sxs-lookup"><span data-stu-id="5c2bd-118">Start at the [DeleteItem](deleteitem.md) element.</span></span> 
+<span data-ttu-id="d8c68-117">Para localizar outras opções para a mensagem de solicitação da operação **DeleteItem** , explore a hierarquia de esquema.</span><span class="sxs-lookup"><span data-stu-id="d8c68-117">To find other options for the request message of the **DeleteItem** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="d8c68-118">Inicie o elemento [DeleteItem](deleteitem.md) .</span><span class="sxs-lookup"><span data-stu-id="d8c68-118">Start at the [DeleteItem](deleteitem.md) element.</span></span> 
   
-## <a name="successful-deleteitem-response"></a><span data-ttu-id="5c2bd-119">Resposta de DeleteItem bem-sucedida</span><span class="sxs-lookup"><span data-stu-id="5c2bd-119">Successful DeleteItem response</span></span>
+## <a name="successful-deleteitem-response"></a><span data-ttu-id="d8c68-119">Resposta de DeleteItem bem-sucedida</span><span class="sxs-lookup"><span data-stu-id="d8c68-119">Successful DeleteItem response</span></span>
 
-### <a name="description"></a><span data-ttu-id="5c2bd-120">Descrição</span><span class="sxs-lookup"><span data-stu-id="5c2bd-120">Description</span></span>
+### <a name="description"></a><span data-ttu-id="d8c68-120">Descrição</span><span class="sxs-lookup"><span data-stu-id="d8c68-120">Description</span></span>
 
-<span data-ttu-id="5c2bd-121">O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **DeleteItem** .</span><span class="sxs-lookup"><span data-stu-id="5c2bd-121">The following example shows a successful response to the **DeleteItem** request.</span></span> 
+<span data-ttu-id="d8c68-121">O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **DeleteItem** .</span><span class="sxs-lookup"><span data-stu-id="d8c68-121">The following example shows a successful response to the **DeleteItem** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="5c2bd-122">Código</span><span class="sxs-lookup"><span data-stu-id="5c2bd-122">Code</span></span>
+### <a name="code"></a><span data-ttu-id="d8c68-122">Código</span><span class="sxs-lookup"><span data-stu-id="d8c68-122">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -94,29 +94,29 @@ ms.locfileid: "19751753"
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a><span data-ttu-id="5c2bd-123">Elementos de resposta bem-sucedida</span><span class="sxs-lookup"><span data-stu-id="5c2bd-123">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="d8c68-123">Elementos de resposta bem-sucedida</span><span class="sxs-lookup"><span data-stu-id="d8c68-123">Successful response elements</span></span>
 
-<span data-ttu-id="5c2bd-124">Os seguintes elementos são usados na resposta:</span><span class="sxs-lookup"><span data-stu-id="5c2bd-124">The following elements are used in the response:</span></span>
+<span data-ttu-id="d8c68-124">Os seguintes elementos são usados na resposta:</span><span class="sxs-lookup"><span data-stu-id="d8c68-124">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="5c2bd-125">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="5c2bd-125">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="d8c68-125">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="d8c68-125">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="5c2bd-126">DeleteItemResponse</span><span class="sxs-lookup"><span data-stu-id="5c2bd-126">DeleteItemResponse</span></span>](deleteitemresponse.md)
+- [<span data-ttu-id="d8c68-126">DeleteItemResponse</span><span class="sxs-lookup"><span data-stu-id="d8c68-126">DeleteItemResponse</span></span>](deleteitemresponse.md)
     
-- [<span data-ttu-id="5c2bd-127">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="5c2bd-127">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="d8c68-127">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="d8c68-127">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="5c2bd-128">DeleteItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="5c2bd-128">DeleteItemResponseMessage</span></span>](deleteitemresponsemessage.md)
+- [<span data-ttu-id="d8c68-128">DeleteItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="d8c68-128">DeleteItemResponseMessage</span></span>](deleteitemresponsemessage.md)
     
-- [<span data-ttu-id="5c2bd-129">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="5c2bd-129">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="d8c68-129">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="d8c68-129">ResponseCode</span></span>](responsecode.md)
     
-<span data-ttu-id="5c2bd-130">Para localizar outras opções para a mensagem de resposta da operação **DeleteItem** , explore a hierarquia de esquema.</span><span class="sxs-lookup"><span data-stu-id="5c2bd-130">To find other options for the response message of the **DeleteItem** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="5c2bd-131">Inicie o elemento [DeleteItemResponse](deleteitemresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="5c2bd-131">Start at the [DeleteItemResponse](deleteitemresponse.md) element.</span></span> 
+<span data-ttu-id="d8c68-130">Para localizar outras opções para a mensagem de resposta da operação **DeleteItem** , explore a hierarquia de esquema.</span><span class="sxs-lookup"><span data-stu-id="d8c68-130">To find other options for the response message of the **DeleteItem** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="d8c68-131">Inicie o elemento [DeleteItemResponse](deleteitemresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="d8c68-131">Start at the [DeleteItemResponse](deleteitemresponse.md) element.</span></span> 
   
-## <a name="deleteitem-error-response"></a><span data-ttu-id="5c2bd-132">Resposta de erro DeleteItem</span><span class="sxs-lookup"><span data-stu-id="5c2bd-132">DeleteItem error response</span></span>
+## <a name="deleteitem-error-response"></a><span data-ttu-id="d8c68-132">Resposta de erro DeleteItem</span><span class="sxs-lookup"><span data-stu-id="d8c68-132">DeleteItem error response</span></span>
 
-### <a name="description"></a><span data-ttu-id="5c2bd-133">Descrição</span><span class="sxs-lookup"><span data-stu-id="5c2bd-133">Description</span></span>
+### <a name="description"></a><span data-ttu-id="d8c68-133">Descrição</span><span class="sxs-lookup"><span data-stu-id="d8c68-133">Description</span></span>
 
-<span data-ttu-id="5c2bd-134">O exemplo a seguir mostra uma resposta de erro a uma solicitação de **DeleteItem** .</span><span class="sxs-lookup"><span data-stu-id="5c2bd-134">The following example shows an error response to a **DeleteItem** request.</span></span> <span data-ttu-id="5c2bd-135">O erro foi criado porque a operação tentou excluir um item que não foi encontrado no repositório do Exchange.</span><span class="sxs-lookup"><span data-stu-id="5c2bd-135">The error was created because the operation tried to delete an item that was not found in the Exchange store.</span></span> 
+<span data-ttu-id="d8c68-134">O exemplo a seguir mostra uma resposta de erro a uma solicitação de **DeleteItem** .</span><span class="sxs-lookup"><span data-stu-id="d8c68-134">The following example shows an error response to a **DeleteItem** request.</span></span> <span data-ttu-id="d8c68-135">O erro foi criado porque a operação tentou excluir um item que não foi encontrado no repositório do Exchange.</span><span class="sxs-lookup"><span data-stu-id="d8c68-135">The error was created because the operation tried to delete an item that was not found in the Exchange store.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="5c2bd-136">Código</span><span class="sxs-lookup"><span data-stu-id="5c2bd-136">Code</span></span>
+### <a name="code"></a><span data-ttu-id="d8c68-136">Código</span><span class="sxs-lookup"><span data-stu-id="d8c68-136">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -143,30 +143,30 @@ ms.locfileid: "19751753"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a><span data-ttu-id="5c2bd-137">Elementos de resposta de erro</span><span class="sxs-lookup"><span data-stu-id="5c2bd-137">Error response elements</span></span>
+### <a name="error-response-elements"></a><span data-ttu-id="d8c68-137">Elementos de resposta de erro</span><span class="sxs-lookup"><span data-stu-id="d8c68-137">Error response elements</span></span>
 
-<span data-ttu-id="5c2bd-138">Os seguintes elementos são usados na resposta de erro:</span><span class="sxs-lookup"><span data-stu-id="5c2bd-138">The following elements are used in the error response:</span></span>
+<span data-ttu-id="d8c68-138">Os seguintes elementos são usados na resposta de erro:</span><span class="sxs-lookup"><span data-stu-id="d8c68-138">The following elements are used in the error response:</span></span>
   
-- [<span data-ttu-id="5c2bd-139">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="5c2bd-139">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="d8c68-139">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="d8c68-139">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="5c2bd-140">DeleteItemResponse</span><span class="sxs-lookup"><span data-stu-id="5c2bd-140">DeleteItemResponse</span></span>](deleteitemresponse.md)
+- [<span data-ttu-id="d8c68-140">DeleteItemResponse</span><span class="sxs-lookup"><span data-stu-id="d8c68-140">DeleteItemResponse</span></span>](deleteitemresponse.md)
     
-- [<span data-ttu-id="5c2bd-141">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="5c2bd-141">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="d8c68-141">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="d8c68-141">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="5c2bd-142">DeleteItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="5c2bd-142">DeleteItemResponseMessage</span></span>](deleteitemresponsemessage.md)
+- [<span data-ttu-id="d8c68-142">DeleteItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="d8c68-142">DeleteItemResponseMessage</span></span>](deleteitemresponsemessage.md)
     
-- [<span data-ttu-id="5c2bd-143">MessageText</span><span class="sxs-lookup"><span data-stu-id="5c2bd-143">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="d8c68-143">MessageText</span><span class="sxs-lookup"><span data-stu-id="d8c68-143">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="5c2bd-144">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="5c2bd-144">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="d8c68-144">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="d8c68-144">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="5c2bd-145">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="5c2bd-145">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="d8c68-145">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="d8c68-145">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-<span data-ttu-id="5c2bd-146">Para localizar outras opções para a mensagem de resposta de erro da operação **DeleteItem** , explore a hierarquia de esquema.</span><span class="sxs-lookup"><span data-stu-id="5c2bd-146">To find other options for the error response message of the **DeleteItem** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="5c2bd-147">Inicie o elemento [DeleteItemResponse](deleteitemresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="5c2bd-147">Start at the [DeleteItemResponse](deleteitemresponse.md) element.</span></span> 
+<span data-ttu-id="d8c68-146">Para localizar outras opções para a mensagem de resposta de erro da operação **DeleteItem** , explore a hierarquia de esquema.</span><span class="sxs-lookup"><span data-stu-id="d8c68-146">To find other options for the error response message of the **DeleteItem** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="d8c68-147">Inicie o elemento [DeleteItemResponse](deleteitemresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="d8c68-147">Start at the [DeleteItemResponse](deleteitemresponse.md) element.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="5c2bd-148">Confira também</span><span class="sxs-lookup"><span data-stu-id="5c2bd-148">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d8c68-148">Confira também</span><span class="sxs-lookup"><span data-stu-id="d8c68-148">See also</span></span>
 
-- [<span data-ttu-id="5c2bd-149">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="5c2bd-149">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
-- [<span data-ttu-id="5c2bd-150">Excluindo contatos</span><span class="sxs-lookup"><span data-stu-id="5c2bd-150">Deleting Contacts</span></span>](http://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)  
-- [<span data-ttu-id="5c2bd-151">Excluindo emails</span><span class="sxs-lookup"><span data-stu-id="5c2bd-151">Deleting E-mail Messages</span></span>](http://msdn.microsoft.com/library/c40f2f0b-dae0-412f-b716-727e8c0949b4%28Office.15%29.aspx) 
-- [<span data-ttu-id="5c2bd-152">A exclusão de tarefas</span><span class="sxs-lookup"><span data-stu-id="5c2bd-152">Deleting Tasks</span></span>](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+- [<span data-ttu-id="d8c68-149">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="d8c68-149">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="d8c68-150">Excluindo contatos</span><span class="sxs-lookup"><span data-stu-id="d8c68-150">Deleting Contacts</span></span>](http://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)  
+- [<span data-ttu-id="d8c68-151">Excluindo emails</span><span class="sxs-lookup"><span data-stu-id="d8c68-151">Deleting E-mail Messages</span></span>](http://msdn.microsoft.com/library/c40f2f0b-dae0-412f-b716-727e8c0949b4%28Office.15%29.aspx) 
+- [<span data-ttu-id="d8c68-152">A exclusão de tarefas</span><span class="sxs-lookup"><span data-stu-id="d8c68-152">Deleting Tasks</span></span>](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

@@ -11,11 +11,11 @@ ms.openlocfilehash: 7bd716822b33698c7055058f39af44d05ba4700b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752570"
 ---
-# <a name="getorganizationrelationshipsettings-operation-soap"></a><span data-ttu-id="6676b-105">Operação de GetOrganizationRelationshipSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="6676b-105">GetOrganizationRelationshipSettings operation (SOAP)</span></span>
+# <a name="getorganizationrelationshipsettings-operation-soap"></a><span data-ttu-id="b62a0-105">Operação de GetOrganizationRelationshipSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="b62a0-105">GetOrganizationRelationshipSettings operation (SOAP)</span></span>
 
-<span data-ttu-id="6676b-106">A operação **GetOrganizationRelationshipSetting** recupera as configurações de todos os OrganizationRelationships correspondentes que possuem pelo menos um domínio na propriedade **DomainNames** que mapeie pelo menos para um **EmailAddress** declaração no token.</span><span class="sxs-lookup"><span data-stu-id="6676b-106">The **GetOrganizationRelationshipSetting** operation retrieves the settings from all matching OrganizationRelationships that have at least one domain in the **DomainNames** property that maps to at least to one **EmailAddress** claim in the token.</span></span> <span data-ttu-id="6676b-107">A operação de **GetOrganizationRelationshipSetting** é apenas para uso interno.</span><span class="sxs-lookup"><span data-stu-id="6676b-107">The **GetOrganizationRelationshipSetting** operation is for internal use only.</span></span> <span data-ttu-id="6676b-108">Esta operação não é usada pelos clientes.</span><span class="sxs-lookup"><span data-stu-id="6676b-108">This operation is not used by clients.</span></span> 
+<span data-ttu-id="b62a0-106">A operação **GetOrganizationRelationshipSetting** recupera as configurações de todos os OrganizationRelationships correspondentes que possuem pelo menos um domínio na propriedade **DomainNames** que mapeie pelo menos para um **EmailAddress** declaração no token.</span><span class="sxs-lookup"><span data-stu-id="b62a0-106">The **GetOrganizationRelationshipSetting** operation retrieves the settings from all matching OrganizationRelationships that have at least one domain in the **DomainNames** property that maps to at least to one **EmailAddress** claim in the token.</span></span> <span data-ttu-id="b62a0-107">A operação de **GetOrganizationRelationshipSetting** é apenas para uso interno.</span><span class="sxs-lookup"><span data-stu-id="b62a0-107">The **GetOrganizationRelationshipSetting** operation is for internal use only.</span></span> <span data-ttu-id="b62a0-108">Esta operação não é usada pelos clientes.</span><span class="sxs-lookup"><span data-stu-id="b62a0-108">This operation is not used by clients.</span></span> 
   
 

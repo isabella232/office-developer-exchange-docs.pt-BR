@@ -15,20 +15,20 @@ ms.openlocfilehash: 36f9cba3690520ebb457a4cb2bfbcde3fea4b8dc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752417"
 ---
-# <a name="getcallinfo-operation-um-web-service"></a><span data-ttu-id="5746f-103">Operação de GetCallInfo (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="5746f-103">GetCallInfo operation (UM web service)</span></span>
+# <a name="getcallinfo-operation-um-web-service"></a><span data-ttu-id="e2231-103">Operação de GetCallInfo (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="e2231-103">GetCallInfo operation (UM web service)</span></span>
 
-<span data-ttu-id="5746f-104">A operação GetCallInfo retorna o status da chamada de saída que é especificada pelo [CallId (serviço web de Unificação de mensagens)](callid-um-web-service.md).</span><span class="sxs-lookup"><span data-stu-id="5746f-104">The GetCallInfo operation returns the status of the outbound call that is specified by [CallId (UM web service)](callid-um-web-service.md).</span></span>
+<span data-ttu-id="e2231-104">A operação GetCallInfo retorna o status da chamada de saída que é especificada pelo [CallId (serviço web de Unificação de mensagens)](callid-um-web-service.md).</span><span class="sxs-lookup"><span data-stu-id="e2231-104">The GetCallInfo operation returns the status of the outbound call that is specified by [CallId (UM web service)](callid-um-web-service.md).</span></span>
   
-## <a name="getcallinfo-request-example"></a><span data-ttu-id="5746f-105">Exemplo de solicitação de GetCallInfo</span><span class="sxs-lookup"><span data-stu-id="5746f-105">GetCallInfo request example</span></span>
+## <a name="getcallinfo-request-example"></a><span data-ttu-id="e2231-105">Exemplo de solicitação de GetCallInfo</span><span class="sxs-lookup"><span data-stu-id="e2231-105">GetCallInfo request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="5746f-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="5746f-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="e2231-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="e2231-106">Description</span></span>
 
-<span data-ttu-id="5746f-107">O exemplo a seguir de uma solicitação de GetCallInfo mostra como formar uma solicitação para obter mais informações sobre uma chamada de saída especificada.</span><span class="sxs-lookup"><span data-stu-id="5746f-107">The following example of a GetCallInfo request shows how to form a request to get information about a specified outbound call.</span></span>
+<span data-ttu-id="e2231-107">O exemplo a seguir de uma solicitação de GetCallInfo mostra como formar uma solicitação para obter mais informações sobre uma chamada de saída especificada.</span><span class="sxs-lookup"><span data-stu-id="e2231-107">The following example of a GetCallInfo request shows how to form a request to get information about a specified outbound call.</span></span>
   
-### <a name="code"></a><span data-ttu-id="5746f-108">Código</span><span class="sxs-lookup"><span data-stu-id="5746f-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="e2231-108">Código</span><span class="sxs-lookup"><span data-stu-id="e2231-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -41,13 +41,13 @@ ms.locfileid: "19752417"
 </soap:Envelope>
 ```
 
-## <a name="successful-getcallinfo-response-example"></a><span data-ttu-id="5746f-109">Exemplo de resposta bem-sucedida GetCallInfo</span><span class="sxs-lookup"><span data-stu-id="5746f-109">Successful GetCallInfo response example</span></span>
+## <a name="successful-getcallinfo-response-example"></a><span data-ttu-id="e2231-109">Exemplo de resposta bem-sucedida GetCallInfo</span><span class="sxs-lookup"><span data-stu-id="e2231-109">Successful GetCallInfo response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="5746f-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="5746f-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="e2231-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="e2231-110">Description</span></span>
 
-<span data-ttu-id="5746f-111">O exemplo a seguir de uma resposta GetCallInfo mostra uma resposta a uma solicitação GetCallInfo.</span><span class="sxs-lookup"><span data-stu-id="5746f-111">The following example of a GetCallInfo response shows a response to a GetCallInfo request.</span></span>
+<span data-ttu-id="e2231-111">O exemplo a seguir de uma resposta GetCallInfo mostra uma resposta a uma solicitação GetCallInfo.</span><span class="sxs-lookup"><span data-stu-id="e2231-111">The following example of a GetCallInfo response shows a response to a GetCallInfo request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="5746f-112">Código</span><span class="sxs-lookup"><span data-stu-id="5746f-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="e2231-112">Código</span><span class="sxs-lookup"><span data-stu-id="e2231-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -63,17 +63,17 @@ ms.locfileid: "19752417"
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="5746f-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="5746f-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e2231-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="e2231-113">See also</span></span>
 
 
 
-[<span data-ttu-id="5746f-114">GetCallInfo (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="5746f-114">GetCallInfo (UM web service)</span></span>](getcallinfo-um-web-service.md)
+[<span data-ttu-id="e2231-114">GetCallInfo (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="e2231-114">GetCallInfo (UM web service)</span></span>](getcallinfo-um-web-service.md)
   
-[<span data-ttu-id="5746f-115">GetCallInfoResponse (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="5746f-115">GetCallInfoResponse (UM web service)</span></span>](getcallinforesponse-um-web-service.md)
+[<span data-ttu-id="e2231-115">GetCallInfoResponse (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="e2231-115">GetCallInfoResponse (UM web service)</span></span>](getcallinforesponse-um-web-service.md)
   
-[<span data-ttu-id="5746f-116">CallId (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="5746f-116">CallId (UM web service)</span></span>](callid-um-web-service.md)
+[<span data-ttu-id="e2231-116">CallId (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="e2231-116">CallId (UM web service)</span></span>](callid-um-web-service.md)
   
-[<span data-ttu-id="5746f-117">CallState (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="5746f-117">CallState (UM web service)</span></span>](callstate-um-web-service.md)
+[<span data-ttu-id="e2231-117">CallState (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="e2231-117">CallState (UM web service)</span></span>](callstate-um-web-service.md)
   
-[<span data-ttu-id="5746f-118">EventCause (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="5746f-118">EventCause (UM web service)</span></span>](eventcause-um-web-service.md)
+[<span data-ttu-id="e2231-118">EventCause (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="e2231-118">EventCause (UM web service)</span></span>](eventcause-um-web-service.md)
 
