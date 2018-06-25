@@ -12,7 +12,7 @@ ms.openlocfilehash: 5c8e880f035ed74776a7c77e4b4e60ca46d66d4e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837767"
 ---
 # <a name="tokentype"></a>TokenType
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **TokenType** é o tipo de token. O valor de texto da **CallerIdentity** indica que o token é um token de identidade do chamador. O valor de texto da **ExtensionCallback** indica que o token é para um retorno de chamada de extensão. O valor de texto da **ScopedToken** indica que o token de acesso do cliente é um token de escopo. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

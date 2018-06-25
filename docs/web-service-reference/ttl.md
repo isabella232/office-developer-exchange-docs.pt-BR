@@ -12,7 +12,7 @@ ms.openlocfilehash: 004c8ebe04ec5f1e1aeb8b961b0708f05295d8d8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837806"
 ---
 # <a name="ttl"></a>TTL
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **TTL** é o tempo em minutos, que o token é válido. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

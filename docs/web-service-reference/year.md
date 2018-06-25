@@ -16,7 +16,7 @@ ms.openlocfilehash: 95d75f9c6166fc26e86534346fb07292a7fb3dcd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838101"
 ---
 # <a name="year"></a>Ano
@@ -52,7 +52,7 @@ Nenhum.
 
 O elemento de ano aceita uma cadeia de caracteres que representa um ano. O formato de ano é aaaa.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

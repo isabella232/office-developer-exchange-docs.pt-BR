@@ -16,7 +16,7 @@ ms.openlocfilehash: 98b447cd49685b49f73f75f12d921a65749be245
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837860"
 ---
 # <a name="unresolvedentry"></a>UnresolvedEntry
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto representa o nome de uma lista de contatos ou de distribuição pública. O comprimento mínimo da cadeia de caracteres é um caractere.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor de texto deste elemento é usado para resolver nomes com os seguintes campos:
   

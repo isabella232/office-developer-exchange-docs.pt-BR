@@ -16,7 +16,7 @@ ms.openlocfilehash: 1867aa781bc24f5eb3bdb4648fa494a2a7ea396a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838047"
 ---
 # <a name="watermark"></a>Marca d'água
@@ -60,7 +60,7 @@ Nenhum.
 
 Um valor de texto pode ser obrigatórias ou opcionais, dependendo de como esse elemento é usado.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se uma solicitação Subscribe contiver uma marca d'água, a assinatura é criada a partir de encaminhar a marca d'água. Se a solicitação Subscribe contiver uma marca d'água que não foi encontrada na tabela de eventos de caixa de correio, uma `ErrorInvalidWatermark` erro será retornado para o aplicativo cliente. Isso pode ocorrer se a marca d'água é muito antiga e foi removida da janela de 30 dias de tabela eventos ou se a marca d'água não estava nunca presentes na tabela eventos. Isso pode acontecer, por exemplo, se uma marca d'água é obtida de uma assinatura diferente para uma caixa de correio em um banco de dados diferente. 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 1f6de15f7a3b07714899aef2ff74a8d556f8ca1d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837667"
 ---
 # <a name="subscriptionstatus"></a>SubscriptionStatus
@@ -54,7 +54,7 @@ Nenhum.
     
 - Cancelar assinatura
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento descreve o status da assinatura. O aplicativo de cliente de assinatura push envia o status de volta para o computador que está executando o Exchange 2007 que possui a função de servidor de acesso para cliente instalada após cada notificação de push. Se o valor de **SubscriptionStatus** é igual o **cancelamento da assinatura**, o servidor de acesso para cliente interromperá o envio de notificações e encerrar a assinatura. Se o valor de **SubscriptionStatus** for igual a **Okey**, o servidor de acesso para cliente continuará enviar notificações.
   

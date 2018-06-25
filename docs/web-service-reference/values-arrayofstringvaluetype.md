@@ -12,7 +12,7 @@ ms.openlocfilehash: e84b444169f9c99096b46e742b2edac1ba1254cd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838031"
 ---
 # <a name="values-arrayofstringvaluetype"></a>Valores (ArrayOfStringValueType)
@@ -43,7 +43,7 @@ Nenhum.
 
 [StringArrayAttributedValue](stringarrayattributedvalue.md)
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

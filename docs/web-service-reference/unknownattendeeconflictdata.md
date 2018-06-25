@@ -16,7 +16,7 @@ ms.openlocfilehash: 2363e243a833f580b4b5701b7d39d9ba9420f35a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837848"
 ---
 # <a name="unknownattendeeconflictdata"></a>UnknownAttendeeConflictData
@@ -62,7 +62,7 @@ Nenhum.
 |:-----|:-----|
 |[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contém uma matriz de dados de conflito para participantes consultados identificados na [operação GetUserAvailability](getuseravailability-operation.md).  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um participante é desconhecido se ele não puder ser resolvido em relação a um objeto de serviço de diretório do Active Directory. Um participante não foi resolvido se ele não pode ser determinado para ser um usuário, grupo ou contato. Por exemplo, um participante não poderá ser resolvido se ela for uma pasta pública habilitada para email.
   

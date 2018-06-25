@@ -12,7 +12,7 @@ ms.openlocfilehash: f679a9237a577d26d4b28e1b25f3e135f7193903
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837804"
 ---
 # <a name="type-elcfoldertype"></a>Tipo (ElcFolderType)
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **Type** é o tipo de pasta usado em uma política de retenção. O valor de texto pode ser um dos seguintes valores que representam um tipo de pasta padrão: calendário, contatos, DeletedItems, Rascunhos, caixa de entrada, JunkEmail, diário, anotações, caixa de saída, itens enviados, tarefas, All, ManagedCustomFolder, RssSubscriptions, SyncIssues, ConversationHistory, pessoal, RecoverableItems ou NonIpmRoot 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

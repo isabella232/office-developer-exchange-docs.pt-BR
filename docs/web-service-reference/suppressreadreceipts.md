@@ -12,7 +12,7 @@ ms.openlocfilehash: 794252da6b3e6b6e6f36181c1811a2a001bfaf53
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837678"
 ---
 # <a name="suppressreadreceipts"></a>SuppressReadReceipts
@@ -44,7 +44,7 @@ Nenhum.
 
 Um valor de texto de **true** para o elemento **SuppressReadReciepts** indica read confirmações são suprimidas. Um valor **false** indica que são lidas confirmações serão enviadas ao remetente. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

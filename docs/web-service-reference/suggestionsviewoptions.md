@@ -16,7 +16,7 @@ ms.openlocfilehash: 09ff317ae0b2ebf1eadc89dc3bb1cf5b3ae19dcb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837675"
 ---
 # <a name="suggestionsviewoptions"></a>SuggestionsViewOptions
@@ -69,7 +69,7 @@ Nenhum.
 |:-----|:-----|
 |[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contém os argumentos usados para obter informações de disponibilidade do usuário. Este é um elemento raiz.  <br/> Este é o XPath a este elemento:  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento não é necessário e somente pode ocorrer uma vez se usada. Esse valor pode ser null se o valor do elemento [FreeBusyViewOptions](freebusyviewoptions.md) não for nulo. 
   

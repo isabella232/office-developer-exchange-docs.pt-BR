@@ -12,7 +12,7 @@ ms.openlocfilehash: e0ad877eee29937b93e2659f84769938c983f11d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837814"
 ---
 # <a name="uid-remindertype"></a>UID (ReminderType)
@@ -40,7 +40,7 @@ Nenhum.
 
 O valor de texto do elemento **UID (ReminderType)** identifica um item de calendário. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 865b24a4f7ec1cc7b53d4928b04f071cddf5fbfc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838044"
 ---
 # <a name="votingresponse"></a>VotingResponse
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **VotingResponse** é a votação enviada. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   

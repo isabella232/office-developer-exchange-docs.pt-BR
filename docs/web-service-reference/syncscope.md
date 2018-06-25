@@ -16,7 +16,7 @@ ms.openlocfilehash: 847c0244a8847364e29ea584b0c0b721f00d3064
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837690"
 ---
 # <a name="syncscope"></a>SyncScope
@@ -57,7 +57,7 @@ A tabela a seguir lista os valores possíveis para o elemento **SyncScope** .
 |NormalItems  <br/> |Especifica que apenas os itens na pasta são retornados em uma resposta de sincronização.  <br/> |
 |NormalAndAssociatedItems  <br/> |Especifica que ambos os itens da pasta e as informações da pasta associada são retornados em uma resposta de sincronização.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
   

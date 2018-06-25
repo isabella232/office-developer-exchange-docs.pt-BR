@@ -16,14 +16,14 @@ ms.openlocfilehash: d6f966fa663300b476383a136d30cf611d6bfb9b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837912"
 ---
 # <a name="updateitem-operation-task"></a>Operação UpdateItem (tarefa)
 
 A operação UpdateItem é usada para atualizar as propriedades de item de tarefa no armazenamento do Exchange.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você não pode usar os serviços Web do Exchange para enviar solicitações de tarefa. Serviços Web do Exchange pode retornar as solicitações de tarefa que são criadas por MicrosoftOfficeOutlook. Se já tiver sido enviada a uma solicitação de tarefa, uma solicitação para atualizar a tarefa retornará um erro.
   

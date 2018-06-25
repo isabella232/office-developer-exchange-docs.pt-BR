@@ -16,7 +16,7 @@ ms.openlocfilehash: e67e0149226b36c22cdd00acd78f6582f826dd3e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837672"
 ---
 # <a name="suggestionquality"></a>SuggestionQuality
@@ -72,7 +72,7 @@ Um valor de texto que representa um valor de **SuggestionQuality** é necessári
     
 - **Baixa** Menor que 50% dos usuários e recursos estão disponíveis para o tempo de reunião sugeridas. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O tipo de **SuggestionQuality** também é o tipo para o [DayQuality](dayquality.md) e os elementos de [MinimumSuggestionQuality](minimumsuggestionquality.md) . 
   

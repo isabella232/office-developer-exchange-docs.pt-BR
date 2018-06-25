@@ -11,7 +11,7 @@ ms.openlocfilehash: 1c267fc6cbfdadd471c568473cc9aeeafb43ae2d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837756"
 ---
 # <a name="tokenissuer-soap"></a>TokenIssuer (SOAP)
@@ -47,7 +47,7 @@ Nenhuma
 |:-----|:-----|
 |[TokenIssuers (SOAP)](tokenissuers-soap.md) <br/> |Representa uma coleção de serviço de token de segurança [Uri (SOAP)](uri-soap.md) e o [Ponto de extremidade (SOAP)](endpoint-soap.md).  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use o elemento **TokenIssuer** para especificar o serviço de token de segurança ao usar os tokens de segurança. 
   

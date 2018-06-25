@@ -12,7 +12,7 @@ ms.openlocfilehash: 41cc000c03961b3d5ae468b056deb806dbd0af38
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837696"
 ---
 # <a name="taskstring"></a>TaskString
@@ -45,7 +45,7 @@ Nenhum.
 
 O valor de texto do elemento **TaskString** é a tarefa sugerida que resultou em uma entidade de tarefa extraída de um item na caixa de correio. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 277ae96fdbc30f1b39ef20553e10ff1de3ff7a8b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837984"
 ---
 # <a name="userids"></a>UserIds
@@ -51,7 +51,7 @@ Nenhum.
 |[GetDelegate](getdelegate.md) <br/> |Define uma solicitação para obter mais informações sobre os representantes para uma caixa de correio. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
 |[RemoveDelegate](removedelegate.md) <br/> |Define uma solicitação para remover representantes de uma caixa de correio. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

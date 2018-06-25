@@ -12,7 +12,7 @@ ms.openlocfilehash: c6eb4ec4e39a0c5355775a635db4c63efc666820
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837844"
 ---
 # <a name="uniquebodytype"></a>UniqueBodyType
@@ -52,7 +52,7 @@ O valor de texto do elemento **UniqueBodyType** indica o formato do corpo exclus
 |HTML  <br/> |A resposta retornará um único corpo como HTML.  <br/> |
 |Texto  <br/> |A resposta retornará um único corpo como texto sem formatação.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   

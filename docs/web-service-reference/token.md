@@ -16,7 +16,7 @@ ms.openlocfilehash: cec11d9f2c24a250483c5be6e273f981fdf0a8e6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837769"
 ---
 # <a name="token"></a>Token
@@ -46,7 +46,7 @@ Nenhum.
 |:-----|:-----|
 |[EncryptedSharedFolderData](encryptedsharedfolderdata.md) <br/> |Contém os dados criptografados que um cliente pode usar para autorizar o compartilhamento de seu calendário ou entre em contato com o serviço de dados com outros clientes.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório Virtual do IIS que hospeda o Exchange Web Services do computador que está executando o Microsoft Exchange Server que tem a função de servidor acesso para cliente instalada.
   

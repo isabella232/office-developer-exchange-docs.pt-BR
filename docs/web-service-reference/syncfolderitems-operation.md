@@ -16,14 +16,14 @@ ms.openlocfilehash: 6b2e4694ac793e17a2b7cb2edb2cb9e6a4a105ea
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837688"
 ---
 # <a name="syncfolderitems-operation"></a>Operação SyncFolderItems
 
 A operação SyncFolderItems sincroniza os itens entre o Exchange server e o cliente.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A operação SyncFolderItems retornará um máximo de 512 alterações. As solicitações SyncFolderItems subsequentes devem ser executadas para fazer alterações adicionais. 
   

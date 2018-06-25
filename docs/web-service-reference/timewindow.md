@@ -16,7 +16,7 @@ ms.openlocfilehash: 05858b4d62b72b3ff9904c90652bb1bff78ceb41
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837749"
 ---
 # <a name="timewindow"></a>TimeWindow
@@ -58,7 +58,7 @@ Nenhum.
 |:-----|:-----|
 |[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Especifica o tipo de informações de disponibilidade retornadas na resposta.  <br/> Este é o XPath a este elemento:  <br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor máximo por este período é 42 dias. Esse valor máximo pode ser modificado. Quaisquer solicitações para obter informações de disponibilidade do usuário além o valor máximo retornará um erro. Se todos os compromissos parcialmente do intervalo de tempo definido pelos elementos [StartTime](starttime.md) e [EndTime](endtime.md) , esse compromisso está incluído na íntegra. 
   

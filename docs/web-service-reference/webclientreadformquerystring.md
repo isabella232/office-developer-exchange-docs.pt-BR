@@ -16,7 +16,7 @@ ms.openlocfilehash: 8096c14956d132a631b0ade6f2eae12a2bff9c06
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838055"
 ---
 # <a name="webclientreadformquerystring"></a>WebClientReadFormQueryString
@@ -61,7 +61,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto que representa uma cadeia de caracteres.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O identificador do item de um URL do Outlook Web App é o identificador do EWS do item. Você pode codificar o URL o identificador de item do EWS e acrescentá-la para a cadeia de caracteres de consulta para obter a URL do Outlook Web App para um item.
   

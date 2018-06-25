@@ -16,7 +16,7 @@ ms.openlocfilehash: 306e5f226a56694bb1ff32362f77e7dff80865ad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837856"
 ---
 # <a name="unknownentries"></a>UnknownEntries
@@ -51,7 +51,7 @@ Nenhum.
 |[PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) <br/> |Contém todas as permissões que estão configuradas para uma pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
 |[PermissionSet (CalendarPermissionSetType)](permissionset-calendarpermissionsettype.md) <br/> |Contém todas as permissões que estão configuradas para uma pasta de calendário. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você pode excluir entradas desconhecidas de uma pasta usando a operação UpdateFolder com o elemento [SetFolderField](setfolderfield.md) . As entradas desconhecidas são excluídas quando você reinicia o PermissionSet usando a opção SetFolderField da operação UpdateFolder. Serviços Web do Exchange não oferece suporte a exclusão de entradas individuais. 
   

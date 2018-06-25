@@ -13,7 +13,7 @@ ms.openlocfilehash: b8284880646cb82e6af6715523467021f080b8e7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838041"
 ---
 # <a name="version-soap"></a>Versão (SOAP)
@@ -47,7 +47,7 @@ Nenhum.
 
 O valor do elemento de **versão** é uma descrição da versão do produto de servidor. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O elemento de **versão** está contido no cabeçalho de uma resposta SOAP. 
   

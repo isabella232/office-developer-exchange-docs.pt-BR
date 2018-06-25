@@ -16,7 +16,7 @@ ms.openlocfilehash: 01729f0b5cb71989aef550abb08346cfe9a35789
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837809"
 ---
 # <a name="type-userconfiguration"></a>Tipo (UserConfiguration)
@@ -58,7 +58,7 @@ A tabela a seguir lista os valores possíveis para o **tipo** de elemento.
 |DateTime  <br/> ||
 |Booliano  <br/> ||
 |Byte  <br/> ||
-|Cadeia de caracteres  <br/> ||
+|String  <br/> ||
 |Integer32  <br/> ||
 |UnsignedInteger32  <br/> ||
 |Integer64  <br/> ||
@@ -66,7 +66,7 @@ A tabela a seguir lista os valores possíveis para o **tipo** de elemento.
 |StringArray  <br/> ||
 |ByteArray  <br/> ||
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
   

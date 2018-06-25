@@ -11,7 +11,7 @@ ms.openlocfilehash: 272133d4d8f6db260f37e2c6977be20f81fdc535
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837695"
 ---
 # <a name="targetsharingepr-soap"></a>TargetSharingEpr (SOAP)
@@ -42,7 +42,7 @@ Nenhum.
 |:-----|:-----|
 |[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Representa uma lista de relacionamentos de organização para uma única organização.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento Especifica a URL do servidor de destino para a organização externa. 
   

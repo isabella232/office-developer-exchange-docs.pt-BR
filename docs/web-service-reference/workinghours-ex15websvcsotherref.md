@@ -16,7 +16,7 @@ ms.openlocfilehash: c53779422b87adebed370a1ed88e4e91c7a2dcaf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838080"
 ---
 # <a name="workinghours"></a>WorkingHours
@@ -62,7 +62,7 @@ Nenhum.
 |:-----|:-----|
 |[FreeBusyView](freebusyview.md) <br/> |Contém informações de disponibilidade para um usuário específico.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Todos os elementos filhos são listados na sequência em que ocorrem. O nível de detalhes fornecidos por esse elemento depende as permissões concedidas para o solicitante.
   

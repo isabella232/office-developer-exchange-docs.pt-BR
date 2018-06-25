@@ -12,7 +12,7 @@ ms.openlocfilehash: 54d4dbcec49ca80b4f4d79fb450773c19aef05d4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837664"
 ---
 # <a name="stringattributedvalue"></a>StringAttributedValue
@@ -43,7 +43,7 @@ Nenhum.
 
 [DisplayNames](displaynames.md) | [FileAses](fileases.md) | [FileAsIds](fileasids.md) | [DisplayNamePrefixes](displaynameprefixes.md) | [GivenNames](givennames.md) | [MiddleNames](middlenames.md) | [sobrenomes](surnames.md) | [gerações ](generations.md)  |  [Apelidos](nicknames.md) | [iniciais](initials.md) | [YomiCompanyNames](yomicompanynames.md) | [YomiFirstNames](yomifirstnames.md) | [YomiLastNames](yomilastnames.md) | [BusinessHomePages](businesshomepages.md)  |  [PersonalHomePages](personalhomepages.md) | [OfficeLocations](officelocations.md) | [ImAddresses](imaddresses.md) | [ImAddresses2](imaddresses2.md) | [ImAddresses3](imaddresses3.md) | [títulos](titles.md)  |  [ Departamentos](departments.md) | [CompanyNames](companynames.md) | [gerentes](managers.md) | [AssistantNames](assistantnames.md) | [profissões](professions.md) | [SpouseNames](spousenames.md) | [escolas](schools.md)  |  [Hobbies](hobbies.md)  |  [WeddingAnniversaries](weddinganniversaries.md) | [aniversários](birthdays.md) | [locais](locations.md)
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

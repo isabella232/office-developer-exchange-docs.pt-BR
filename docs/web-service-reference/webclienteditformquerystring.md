@@ -16,7 +16,7 @@ ms.openlocfilehash: a7503c3896899e8d2da6aced7b8d259f9b8aaceb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838053"
 ---
 # <a name="webclienteditformquerystring"></a>WebClientEditFormQueryString
@@ -60,7 +60,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto que representa uma cadeia de caracteres.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para versões do Exchange, começando com o Exchange Server 2013, incluindo o Exchange Online, use as informações do elemento [WebClientReadFormQueryString](webclientreadformquerystring.md) para abrir um item de rascunho no Outlook Web App e, em seguida, use a interface do usuário para editar o item de rascunho. O elemento **WebClientEditFormQueryString** não é aplicável às versões do Exchange, começando com o Exchange Server 2013, incluindo o Exchange Online. 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 0a26002689e131959f09318b01d97ffb73b605f9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837746"
 ---
 # <a name="timeout"></a>Timeout
@@ -50,7 +50,7 @@ Nenhum.
 
 Se este elemento for usado, será necessário um valor de texto que representa um número inteiro. Os valores possíveis para esse elemento são de 1 a 1440, inclusive. Este elemento é obrigatório.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O timer de tempo limite para a assinatura é redefinido por uma solicitação GetEvents bem-sucedida.
   

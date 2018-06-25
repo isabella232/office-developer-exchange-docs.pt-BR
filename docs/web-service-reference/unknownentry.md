@@ -16,7 +16,7 @@ ms.openlocfilehash: 11939ad39c83ac2d15ec7fface6f530d3f60e12a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837858"
 ---
 # <a name="unknownentry"></a>UnknownEntry
@@ -50,7 +50,7 @@ Nenhum.
 
 O valor de texto representa uma entrada de permissão que não pode ser resolvida em relação ao Active Directory. O valor de texto representa um identificador de segurança (SID).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 2913705cad52c041809769fe58efc3d616f40462
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837775"
 ---
 # <a name="torecipients"></a>ToRecipients
@@ -62,7 +62,7 @@ Nenhum.
 |[ForwardItem](forwarditem.md) <br/> |Contém um item de armazenamento do Exchange para encaminhar para destinatários.  <br/> |
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |Representa o objeto de resposta é usado para cancelar uma reunião.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você não pode obter **ToRecipients** usando uma solicitação FindItem. Use uma solicitação de GetItem para obter o **ToRecipients**.
   

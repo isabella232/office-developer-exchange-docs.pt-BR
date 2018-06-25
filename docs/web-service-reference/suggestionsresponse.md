@@ -16,7 +16,7 @@ ms.openlocfilehash: 614b58a1df8e340c6be468ccddd3b37537d32591
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837674"
 ---
 # <a name="suggestionsresponse"></a>SuggestionsResponse
@@ -56,7 +56,7 @@ Nenhum.
 |:-----|:-----|
 |[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |Contém informações de disponibilidade dos usuários solicitada.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento não está incluído em uma resposta GetUserAvailability se [SuggestionsViewOptions](suggestionsviewoptions.md) não estiver definida na mensagem de solicitação GetUserAvailability. 
   

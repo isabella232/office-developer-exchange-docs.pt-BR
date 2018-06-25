@@ -16,7 +16,7 @@ ms.openlocfilehash: dc2466e8039819edc82294ff05f1746ada64cb43
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837765"
 ---
 # <a name="timezone-availability"></a>Fuso horário (disponibilidade)
@@ -55,11 +55,11 @@ Nenhum.
 |[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contém os argumentos usados para obter informações de disponibilidade do usuário. Este é um elemento raiz.  <br/> O elemento de **fuso horário** na mensagem GetUserAvailabilityRequest representa o fuso horário em que os valores de data/hora na solicitação são especificados. Os valores de data/hora retornados pelo serviço de disponibilidade também estão neste fuso horário.  <br/> Este é o XPath a este elemento:  <br/>  `/GetUserAvailabilityRequest` <br/> |
 |[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |Representa as configurações de fuso horário e o horário de trabalho para o usuário de caixa de correio solicitada.  <br/> O elemento de **fuso horário** na mensagem GetUserAvailabilityResponse representa as configurações de fuso horário do usuário da caixa de correio solicitada.  <br/> Este é o XPath a este elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esse elemento é necessário no elemento [GetUserAvailabilityRequest](getuseravailabilityrequest.md) . Esse elemento ocorre no máximo uma vez ou menos zero vezes quando o elemento pai é o elemento [WorkingHours](workinghours-ex15websvcsotherref.md) . 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra a parte de uma solicitação XML que identifica um deslocamento do UTC de 8 horas no aplicativo cliente.
   

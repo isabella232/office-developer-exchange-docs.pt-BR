@@ -16,7 +16,7 @@ ms.openlocfilehash: 716487fb7ed64dbaa6fa97caf1ea608e4673d2ef
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837724"
 ---
 # <a name="time"></a>Hora
@@ -51,13 +51,13 @@ Nenhum.
 
 O valor de texto representa horas, minutos e segundos no seguinte formato: hh.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Quando o elemento de **tempo** ocorre no elemento [DaylightTime](daylighttime.md) , ela representa a hora do dia em que ocorre a transição de horário de verão para a hora padrão. Quando o elemento de [tempo](time.md) ocorre no elemento [StandardTime](standardtime.md) , ela representa a hora do dia em que ocorre a transição da hora padrão para o horário de verão. 
   
 Este elemento tem uma ocorrência mínima de zero e uma ocorrência de máxima de um.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 A seguinte parte de uma solicitação representa um tempo de transição de 2h da manhã da hora padrão para o horário de verão.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: a035fd89387ece632d83f5f72a564e4896bc6753
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837993"
 ---
 # <a name="useroofsettings"></a>UserOofSettings
@@ -66,7 +66,7 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir de uma solicitação de SetUserOofSettings define o OoFState como **habilitada**, define a duração de ausência temporária para 10 dias e define as mensagens de ausência temporária internas e externas.
   

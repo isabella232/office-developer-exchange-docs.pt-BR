@@ -12,7 +12,7 @@ ms.openlocfilehash: a8f1cb12578603ee457b1d2a981cd2a03fce4aa7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837711"
 ---
 # <a name="templatename"></a>TemplateName
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **TemplateName** é o nome do modelo de gerenciamento de direitos aplicado a um item. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

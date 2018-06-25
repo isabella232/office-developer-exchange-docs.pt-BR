@@ -16,7 +16,7 @@ ms.openlocfilehash: 6d4e1b027760d0f8f6da16f97cdb45f0c7c4bc88
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838027"
 ---
 # <a name="value-userconfiguration"></a>Valor (UserConfiguration)
@@ -48,7 +48,7 @@ Nenhum.
 |[DictionaryKey](dictionarykey.md) <br/> |Especifica a chave de dicionário para uma propriedade de dicionário.  <br/> |
 |[DictionaryValue](dictionaryvalue.md) <br/> |Especifica o valor do dicionário para uma propriedade de dicionário.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
   

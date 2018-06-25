@@ -12,7 +12,7 @@ ms.openlocfilehash: 31737c4fbdd4a2e292b650f70b46a163ce11393a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838082"
 ---
 # <a name="workcity"></a>WorkCity
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto do elemento **WorkCity** é a cidade na qual a pessoa associada funciona. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   

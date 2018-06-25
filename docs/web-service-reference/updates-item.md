@@ -16,7 +16,7 @@ ms.openlocfilehash: 13df458c783b942e1c868853c41b6247119cf123
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837938"
 ---
 # <a name="updates-item"></a>Atualizações (Item)
@@ -63,7 +63,7 @@ Nenhum.
 |:-----|:-----|
 |[ItemChange](itemchange.md) <br/> |Contém um identificador de item e as atualizações para aplicar ao item.  <br/> Este é a expressão XPath para esse elemento:`/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 As atualizações que são definidas por esse elemento são executadas no item que é identificado pelos elementos [ItemId](itemid.md), [OccurrenceItemId](occurrenceitemid.md)ou [RecurringMasterItemId](recurringmasteritemid.md) . 
   

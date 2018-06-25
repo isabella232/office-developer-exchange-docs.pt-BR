@@ -11,7 +11,7 @@ ms.openlocfilehash: b070d85b32d5bce8461ac4e930329f237885bad7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837768"
 ---
 # <a name="tokenissuers-soap"></a>TokenIssuers (SOAP)
@@ -45,7 +45,7 @@ Nenhuma
 |:-----|:-----|
 |[GetFederationInformationResponse (SOAP)](getfederationinformationresponse-soap.md) <br/> |Contém a resposta de [operação GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md) .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O **TokenIssuers** representa uma coleção de elementos de [TokenIssuer (SOAP)](tokenissuer-soap.md) a ser usado na detecção automática. 
   

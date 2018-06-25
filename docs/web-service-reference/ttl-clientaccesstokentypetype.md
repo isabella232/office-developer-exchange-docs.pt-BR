@@ -12,7 +12,7 @@ ms.openlocfilehash: 04bd8124c7bd2b02e2ab1cc47ee1d4dca4847079
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837803"
 ---
 # <a name="ttl-clientaccesstokentypetype"></a>TTL (ClientAccessTokenTypeType)
@@ -44,7 +44,7 @@ Nenhum.
 
 O valor de texto para o elemento **TTL** indica quanto tempo o token permanecerá válido. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este elemento foi introduzido no Exchange Server 2013.
   
