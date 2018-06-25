@@ -16,31 +16,31 @@ ms.openlocfilehash: 9f69d784617d10d8902a260bbf6639703dd33b6d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837877"
 ---
-# <a name="updatedelegate-operation"></a><span data-ttu-id="03ead-103">Operação UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="03ead-103">UpdateDelegate operation</span></span>
+# <a name="updatedelegate-operation"></a><span data-ttu-id="26d4d-103">Operação UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="26d4d-103">UpdateDelegate operation</span></span>
 
-<span data-ttu-id="03ead-104">A operação **UpdateDelegate** atualiza delegar permissões na caixa de correio da entidade de segurança.</span><span class="sxs-lookup"><span data-stu-id="03ead-104">The **UpdateDelegate** operation updates delegate permissions on a principal's mailbox.</span></span> 
+<span data-ttu-id="26d4d-104">A operação **UpdateDelegate** atualiza delegar permissões na caixa de correio da entidade de segurança.</span><span class="sxs-lookup"><span data-stu-id="26d4d-104">The **UpdateDelegate** operation updates delegate permissions on a principal's mailbox.</span></span> 
   
-## <a name="soap-headers"></a><span data-ttu-id="03ead-105">Cabeçalhos SOAP</span><span class="sxs-lookup"><span data-stu-id="03ead-105">SOAP Headers</span></span>
+## <a name="soap-headers"></a><span data-ttu-id="26d4d-105">Cabeçalhos SOAP</span><span class="sxs-lookup"><span data-stu-id="26d4d-105">SOAP Headers</span></span>
 
-<span data-ttu-id="03ead-106">A operação **UpdateDelegate** pode usar os cabeçalhos SOAP que estão listados e descritos na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="03ead-106">The **UpdateDelegate** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
+<span data-ttu-id="26d4d-106">A operação **UpdateDelegate** pode usar os cabeçalhos SOAP que estão listados e descritos na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="26d4d-106">The **UpdateDelegate** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
   
-|<span data-ttu-id="03ead-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="03ead-107">**Header**</span></span>|<span data-ttu-id="03ead-108">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="03ead-108">**Element**</span></span>|<span data-ttu-id="03ead-109">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="03ead-109">**Description**</span></span>|
+|<span data-ttu-id="26d4d-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="26d4d-107">**Header**</span></span>|<span data-ttu-id="26d4d-108">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="26d4d-108">**Element**</span></span>|<span data-ttu-id="26d4d-109">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="26d4d-109">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="03ead-110">Representação</span><span class="sxs-lookup"><span data-stu-id="03ead-110">Impersonation</span></span>  <br/> |[<span data-ttu-id="03ead-111">ExchangeImpersonation</span><span class="sxs-lookup"><span data-stu-id="03ead-111">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="03ead-112">Identifica o usuário que o aplicativo cliente está representando.</span><span class="sxs-lookup"><span data-stu-id="03ead-112">Identifies the user whom the client application is impersonating.</span></span>  <br/> |
-|<span data-ttu-id="03ead-113">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="03ead-113">MailboxCulture</span></span>  <br/> |[<span data-ttu-id="03ead-114">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="03ead-114">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="03ead-115">Identifica a cultura RFC3066 a ser usado para acessar a caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="03ead-115">Identifies the RFC3066 culture to be used to access the mailbox.</span></span>  <br/> |
-|<span data-ttu-id="03ead-116">RequestVersion</span><span class="sxs-lookup"><span data-stu-id="03ead-116">RequestVersion</span></span>  <br/> |[<span data-ttu-id="03ead-117">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="03ead-117">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="03ead-118">Identifica a versão do esquema para a solicitação de operação.</span><span class="sxs-lookup"><span data-stu-id="03ead-118">Identifies the schema version for the operation request.</span></span>  <br/> |
-|<span data-ttu-id="03ead-119">ServerVersion</span><span class="sxs-lookup"><span data-stu-id="03ead-119">ServerVersion</span></span>  <br/> |[<span data-ttu-id="03ead-120">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="03ead-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="03ead-121">Identifica a versão do servidor que respondeu à solicitação.</span><span class="sxs-lookup"><span data-stu-id="03ead-121">Identifies the version of the server that responded to the request.</span></span>  <br/> |
+|<span data-ttu-id="26d4d-110">Representação</span><span class="sxs-lookup"><span data-stu-id="26d4d-110">Impersonation</span></span>  <br/> |[<span data-ttu-id="26d4d-111">ExchangeImpersonation</span><span class="sxs-lookup"><span data-stu-id="26d4d-111">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="26d4d-112">Identifica o usuário que o aplicativo cliente está representando.</span><span class="sxs-lookup"><span data-stu-id="26d4d-112">Identifies the user whom the client application is impersonating.</span></span>  <br/> |
+|<span data-ttu-id="26d4d-113">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="26d4d-113">MailboxCulture</span></span>  <br/> |[<span data-ttu-id="26d4d-114">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="26d4d-114">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="26d4d-115">Identifica a cultura RFC3066 a ser usado para acessar a caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="26d4d-115">Identifies the RFC3066 culture to be used to access the mailbox.</span></span>  <br/> |
+|<span data-ttu-id="26d4d-116">RequestVersion</span><span class="sxs-lookup"><span data-stu-id="26d4d-116">RequestVersion</span></span>  <br/> |[<span data-ttu-id="26d4d-117">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="26d4d-117">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="26d4d-118">Identifica a versão do esquema para a solicitação de operação.</span><span class="sxs-lookup"><span data-stu-id="26d4d-118">Identifies the schema version for the operation request.</span></span>  <br/> |
+|<span data-ttu-id="26d4d-119">ServerVersion</span><span class="sxs-lookup"><span data-stu-id="26d4d-119">ServerVersion</span></span>  <br/> |[<span data-ttu-id="26d4d-120">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="26d4d-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="26d4d-121">Identifica a versão do servidor que respondeu à solicitação.</span><span class="sxs-lookup"><span data-stu-id="26d4d-121">Identifies the version of the server that responded to the request.</span></span>  <br/> |
    
-## <a name="updatedelegate-request-example"></a><span data-ttu-id="03ead-122">Exemplo de solicitação de UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="03ead-122">UpdateDelegate request example</span></span>
+## <a name="updatedelegate-request-example"></a><span data-ttu-id="26d4d-122">Exemplo de solicitação de UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="26d4d-122">UpdateDelegate request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="03ead-123">Descrição</span><span class="sxs-lookup"><span data-stu-id="03ead-123">Description</span></span>
+### <a name="description"></a><span data-ttu-id="26d4d-123">Descrição</span><span class="sxs-lookup"><span data-stu-id="26d4d-123">Description</span></span>
 
-<span data-ttu-id="03ead-124">O exemplo a seguir de uma solicitação de **UpdateDelegate** mostra como atualizar permissões delegadas na conta de user1.</span><span class="sxs-lookup"><span data-stu-id="03ead-124">The following example of an **UpdateDelegate** request shows you how to update delegate permissions on user1's account.</span></span> <span data-ttu-id="03ead-125">O Usuário2 recebe nenhuma permissão no nível da pasta de tarefas e é concedida a permissão para exibir itens particulares.</span><span class="sxs-lookup"><span data-stu-id="03ead-125">User2 is granted the None permission level for the Tasks folder and is granted permission to view private items.</span></span> <span data-ttu-id="03ead-126">User3 recebe permissões de revisor para a pasta diário.</span><span class="sxs-lookup"><span data-stu-id="03ead-126">User3 is granted Reviewer permissions for the Journal folder.</span></span> <span data-ttu-id="03ead-127">As solicitações de reunião sejam enviadas para os representantes e informações sobre a solicitação são enviadas ao User1.</span><span class="sxs-lookup"><span data-stu-id="03ead-127">Meeting requests are sent to the delegates, and information about the request is sent to User1.</span></span> 
+<span data-ttu-id="26d4d-124">O exemplo a seguir de uma solicitação de **UpdateDelegate** mostra como atualizar permissões delegadas na conta de user1.</span><span class="sxs-lookup"><span data-stu-id="26d4d-124">The following example of an **UpdateDelegate** request shows you how to update delegate permissions on user1's account.</span></span> <span data-ttu-id="26d4d-125">O Usuário2 recebe nenhuma permissão no nível da pasta de tarefas e é concedida a permissão para exibir itens particulares.</span><span class="sxs-lookup"><span data-stu-id="26d4d-125">User2 is granted the None permission level for the Tasks folder and is granted permission to view private items.</span></span> <span data-ttu-id="26d4d-126">User3 recebe permissões de revisor para a pasta diário.</span><span class="sxs-lookup"><span data-stu-id="26d4d-126">User3 is granted Reviewer permissions for the Journal folder.</span></span> <span data-ttu-id="26d4d-127">As solicitações de reunião sejam enviadas para os representantes e informações sobre a solicitação são enviadas ao User1.</span><span class="sxs-lookup"><span data-stu-id="26d4d-127">Meeting requests are sent to the delegates, and information about the request is sent to User1.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="03ead-128">Código</span><span class="sxs-lookup"><span data-stu-id="03ead-128">Code</span></span>
+### <a name="code"></a><span data-ttu-id="26d4d-128">Código</span><span class="sxs-lookup"><span data-stu-id="26d4d-128">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -80,17 +80,17 @@ ms.locfileid: "19837877"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="03ead-129">Comments</span><span class="sxs-lookup"><span data-stu-id="03ead-129">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="26d4d-129">Comments</span><span class="sxs-lookup"><span data-stu-id="26d4d-129">Comments</span></span>
 
-<span data-ttu-id="03ead-130">A solicitação [UpdateDelegate](updatedelegate.md) não exige que as atualizações ser aplicadas aos delegados.</span><span class="sxs-lookup"><span data-stu-id="03ead-130">The [UpdateDelegate](updatedelegate.md) request does not require that updates be applied to delegates.</span></span> <span data-ttu-id="03ead-131">Os clientes podem alterar apenas a configuração de **DeliverMeetingMessage** .</span><span class="sxs-lookup"><span data-stu-id="03ead-131">Clients can change only the **DeliverMeetingMessage** setting.</span></span> 
+<span data-ttu-id="26d4d-130">A solicitação [UpdateDelegate](updatedelegate.md) não exige que as atualizações ser aplicadas aos delegados.</span><span class="sxs-lookup"><span data-stu-id="26d4d-130">The [UpdateDelegate](updatedelegate.md) request does not require that updates be applied to delegates.</span></span> <span data-ttu-id="26d4d-131">Os clientes podem alterar apenas a configuração de **DeliverMeetingMessage** .</span><span class="sxs-lookup"><span data-stu-id="26d4d-131">Clients can change only the **DeliverMeetingMessage** setting.</span></span> 
   
-## <a name="updatedelegate-response-example"></a><span data-ttu-id="03ead-132">Exemplo de resposta UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="03ead-132">UpdateDelegate response example</span></span>
+## <a name="updatedelegate-response-example"></a><span data-ttu-id="26d4d-132">Exemplo de resposta UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="26d4d-132">UpdateDelegate response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="03ead-133">Descrição</span><span class="sxs-lookup"><span data-stu-id="03ead-133">Description</span></span>
+### <a name="description"></a><span data-ttu-id="26d4d-133">Descrição</span><span class="sxs-lookup"><span data-stu-id="26d4d-133">Description</span></span>
 
-<span data-ttu-id="03ead-134">O exemplo a seguir mostra uma resposta bem-sucedida para uma operação de **UpdateDelegate** .</span><span class="sxs-lookup"><span data-stu-id="03ead-134">The following example shows a successful response to an **UpdateDelegate** operation.</span></span> 
+<span data-ttu-id="26d4d-134">O exemplo a seguir mostra uma resposta bem-sucedida para uma operação de **UpdateDelegate** .</span><span class="sxs-lookup"><span data-stu-id="26d4d-134">The following example shows a successful response to an **UpdateDelegate** operation.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="03ead-135">Código</span><span class="sxs-lookup"><span data-stu-id="03ead-135">Code</span></span>
+### <a name="code"></a><span data-ttu-id="26d4d-135">Código</span><span class="sxs-lookup"><span data-stu-id="26d4d-135">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -141,13 +141,13 @@ ms.locfileid: "19837877"
 </soap:Envelope>
 ```
 
-## <a name="updatedelegate-error-response-example"></a><span data-ttu-id="03ead-136">Exemplo de resposta de erro UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="03ead-136">UpdateDelegate Error response example</span></span>
+## <a name="updatedelegate-error-response-example"></a><span data-ttu-id="26d4d-136">Exemplo de resposta de erro UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="26d4d-136">UpdateDelegate Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="03ead-137">Descrição</span><span class="sxs-lookup"><span data-stu-id="03ead-137">Description</span></span>
+### <a name="description"></a><span data-ttu-id="26d4d-137">Descrição</span><span class="sxs-lookup"><span data-stu-id="26d4d-137">Description</span></span>
 
-<span data-ttu-id="03ead-138">O exemplo a seguir mostra uma resposta de erro a uma solicitação **UpdateDelegate** .</span><span class="sxs-lookup"><span data-stu-id="03ead-138">The following example shows an error response to an **UpdateDelegate** request.</span></span> <span data-ttu-id="03ead-139">O erro foi gerado porque o representante não existir na lista de representantes do principal.</span><span class="sxs-lookup"><span data-stu-id="03ead-139">The error was generated because the delegate does not exist in the principal's delegate list.</span></span> 
+<span data-ttu-id="26d4d-138">O exemplo a seguir mostra uma resposta de erro a uma solicitação **UpdateDelegate** .</span><span class="sxs-lookup"><span data-stu-id="26d4d-138">The following example shows an error response to an **UpdateDelegate** request.</span></span> <span data-ttu-id="26d4d-139">O erro foi gerado porque o representante não existir na lista de representantes do principal.</span><span class="sxs-lookup"><span data-stu-id="26d4d-139">The error was generated because the delegate does not exist in the principal's delegate list.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="03ead-140">Código</span><span class="sxs-lookup"><span data-stu-id="03ead-140">Code</span></span>
+### <a name="code"></a><span data-ttu-id="26d4d-140">Código</span><span class="sxs-lookup"><span data-stu-id="26d4d-140">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -179,9 +179,9 @@ ms.locfileid: "19837877"
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="03ead-141">Confira também</span><span class="sxs-lookup"><span data-stu-id="03ead-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="26d4d-141">Confira também</span><span class="sxs-lookup"><span data-stu-id="26d4d-141">See also</span></span>
 
 
 
-- [<span data-ttu-id="03ead-142">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="03ead-142">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="26d4d-142">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="26d4d-142">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
