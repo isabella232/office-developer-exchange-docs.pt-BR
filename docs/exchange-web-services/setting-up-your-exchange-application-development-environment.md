@@ -72,6 +72,6 @@ ms.locfileid: "19750951"
     
 - [<span data-ttu-id="03340-149">Controlar o acesso a EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="03340-149">Control access to EWS in Exchange</span></span>](how-to-control-access-to-ews-in-exchange.md)
     
-- [<span data-ttu-id="03340-150">EWS gerado modelos de objeto para o Exchange</span><span class="sxs-lookup"><span data-stu-id="03340-150">EWS generated object models for Exchange</span></span>](https://msdn.microsoft.com/en-us/library/jj190899)
+- [<span data-ttu-id="03340-150">EWS gerado modelos de objeto para o Exchange</span><span class="sxs-lookup"><span data-stu-id="03340-150">EWS generated object models for Exchange</span></span>](https://msdn.microsoft.com/pt-br/library/jj190899)
     
 

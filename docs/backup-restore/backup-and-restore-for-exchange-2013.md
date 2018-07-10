@@ -54,7 +54,7 @@ ms.locfileid: "19750627"
     
 ## <a name="see-also"></a><span data-ttu-id="5c5d0-148">Confira também</span><span class="sxs-lookup"><span data-stu-id="5c5d0-148">See also</span></span>
 
-- [<span data-ttu-id="5c5d0-149">Serviço de cópias de sombra de volume (Windows)</span><span class="sxs-lookup"><span data-stu-id="5c5d0-149">Volume Shadow Copy Service (Windows)</span></span>](http://msdn.microsoft.com/en-us/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
+- [<span data-ttu-id="5c5d0-149">Serviço de cópias de sombra de volume (Windows)</span><span class="sxs-lookup"><span data-stu-id="5c5d0-149">Volume Shadow Copy Service (Windows)</span></span>](http://msdn.microsoft.com/pt-br/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
 - [<span data-ttu-id="5c5d0-150">Explorar a API Gerenciada pelo EWS, EWS e serviços Web no Exchange</span><span class="sxs-lookup"><span data-stu-id="5c5d0-150">Explore the EWS Managed API, EWS, and web services in Exchange</span></span>](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
 - [<span data-ttu-id="5c5d0-151">Shell de Gerenciamento do Exchange</span><span class="sxs-lookup"><span data-stu-id="5c5d0-151">Exchange Management Shell</span></span>](../management/exchange-management-shell.md)   
 - [<span data-ttu-id="5c5d0-152">Agentes de transporte no Exchange</span><span class="sxs-lookup"><span data-stu-id="5c5d0-152">Transport agents in Exchange</span></span>](../transport-agents/transport-agents-in-exchange-2013.md) 

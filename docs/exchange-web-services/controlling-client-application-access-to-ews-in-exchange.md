@@ -69,19 +69,19 @@ ms.locfileid: "19750648"
 
 <span data-ttu-id="7c68c-142">Os administradores usar os seguintes cmdlets do Shell de gerenciamento do Exchange para configurar os controles de acesso do EWS:</span><span class="sxs-lookup"><span data-stu-id="7c68c-142">Administrators use the following Exchange Management Shell cmdlets to configure EWS access controls:</span></span> 
   
-- [<span data-ttu-id="7c68c-143">Get-CASMailbox</span><span class="sxs-lookup"><span data-stu-id="7c68c-143">Get-CASMailbox</span></span>](http://technet.microsoft.com/en-us/library/bb124754.aspx)
+- [<span data-ttu-id="7c68c-143">Get-CASMailbox</span><span class="sxs-lookup"><span data-stu-id="7c68c-143">Get-CASMailbox</span></span>](http://technet.microsoft.com/pt-br/library/bb124754.aspx)
     
-- [<span data-ttu-id="7c68c-144">Set-CASMailbox</span><span class="sxs-lookup"><span data-stu-id="7c68c-144">Set-CASMailbox</span></span>](http://technet.microsoft.com/en-us/library/bb125264.aspx)
+- [<span data-ttu-id="7c68c-144">Set-CASMailbox</span><span class="sxs-lookup"><span data-stu-id="7c68c-144">Set-CASMailbox</span></span>](http://technet.microsoft.com/pt-br/library/bb125264.aspx)
     
-- [<span data-ttu-id="7c68c-145">Get-OrganizationConfig.</span><span class="sxs-lookup"><span data-stu-id="7c68c-145">Get-OrganizationConfig</span></span>](http://technet.microsoft.com/en-us/library/aa997571.aspx)
+- [<span data-ttu-id="7c68c-145">Get-OrganizationConfig.</span><span class="sxs-lookup"><span data-stu-id="7c68c-145">Get-OrganizationConfig</span></span>](http://technet.microsoft.com/pt-br/library/aa997571.aspx)
     
-- [<span data-ttu-id="7c68c-146">Set-OrganizationConfig.</span><span class="sxs-lookup"><span data-stu-id="7c68c-146">Set-OrganizationConfig</span></span>](http://technet.microsoft.com/en-us/library/aa997443.aspx)
+- [<span data-ttu-id="7c68c-146">Set-OrganizationConfig.</span><span class="sxs-lookup"><span data-stu-id="7c68c-146">Set-OrganizationConfig</span></span>](http://technet.microsoft.com/pt-br/library/aa997443.aspx)
     
 ## <a name="see-also"></a><span data-ttu-id="7c68c-147">Confira também</span><span class="sxs-lookup"><span data-stu-id="7c68c-147">See also</span></span>
 
 - [<span data-ttu-id="7c68c-148">Start using web services in Exchange</span><span class="sxs-lookup"><span data-stu-id="7c68c-148">Start using web services in Exchange</span></span>](start-using-web-services-in-exchange.md)  
 - [<span data-ttu-id="7c68c-149">Controlar o acesso a EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="7c68c-149">Control access to EWS in Exchange</span></span>](how-to-control-access-to-ews-in-exchange.md)
-- [<span data-ttu-id="7c68c-150">PowerShell do Exchange Server (Shell de gerenciamento do Exchange)</span><span class="sxs-lookup"><span data-stu-id="7c68c-150">Exchange Server PowerShell (Exchange Management Shell)</span></span>](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
-- [<span data-ttu-id="7c68c-151">O Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="7c68c-151">Windows PowerShell</span></span>](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
+- [<span data-ttu-id="7c68c-150">PowerShell do Exchange Server (Shell de gerenciamento do Exchange)</span><span class="sxs-lookup"><span data-stu-id="7c68c-150">Exchange Server PowerShell (Exchange Management Shell)</span></span>](https://docs.microsoft.com/pt-br/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
+- [<span data-ttu-id="7c68c-151">O Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="7c68c-151">Windows PowerShell</span></span>](http://msdn.microsoft.com/pt-br/library/dd835506%28v=vs.85%29.aspx)
     
 
