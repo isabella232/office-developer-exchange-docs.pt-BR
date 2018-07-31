@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 240d1776-7adc-46cd-9099-88ffeba0a8aa
 description: Descubra como usar a API gerenciada de EWS e EWS no Exchange para fornecer acesso de representante para caixas de correio dos usuários.
-ms.openlocfilehash: 0416ed1889a7c235a35cb49290d39d3ccfc28c49
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 344255d86a51e13b21f1eda5113d292395d7cb8f
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750664"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354047"
 ---
 # <a name="delegate-access-and-ews-in-exchange"></a>Acesso de representante e EWS no Exchange
 
@@ -66,7 +66,7 @@ Quando um administrador ou o proprietário da caixa de correio adiciona um repre
 
 |**Nível de permissão**|**Descrição**|
 |:-----|:-----|
-|None  <br/> |Este é o valor padrão para todas as pastas.  <br/> |
+|Nenhum  <br/> |Este é o valor padrão para todas as pastas.  <br/> |
 |Autor  <br/> |Um representante pode ler e criar itens, modificar e excluir itens que criam por eles. Por exemplo, um representante pode criar solicitações de tarefa e solicitações de reunião diretamente na pasta de calendário ou de tarefa do proprietário da caixa de correio e, em seguida, enviar esses itens em nome do proprietário da caixa de correio.  <br/> |
 |Editor  <br/> |Um representante pode fazer tudo um autor pode fazer e também modificar e excluir os itens que o proprietário da caixa de correio criado.  <br/> |
 |Reviewer  <br/> |Um representante pode ler itens; Por exemplo, um representante com essa permissão pode ler mensagens na caixa de entrada de outra pessoa.  <br/> |
@@ -142,7 +142,7 @@ Se uma ID de item foi recuperada pelo método [FindItems](http://msdn.microsoft.
   
 ### <a name="implicit-access-and-ews"></a>Acesso implícito e EWS
 
-Se uma ID de item foi recuperada pela operação de [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) , a ID do item que pode ser usada em operações de [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) subsequentes para vincular ao item. Você pode chamar a operação [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx), [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx)ou [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) — ou qualquer operação que exija uma ID de item — conforme necessário para concluir a tarefa. Desde que o delegado tem permissões apropriadas para a pasta que contém o item (e, se aplicável, a pasta o item está mudando para), o representante pode fazer alterações de acordo com seus níveis de permissão. 
+Se uma ID de item foi recuperada pela operação de [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) , a ID do item que pode ser usada em operações de [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) subsequentes para vincular ao item. Você pode chamar a operação [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx), [DeleteItem](../web-service-reference/deleteitem-operation.md)ou [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) — ou qualquer operação que exija uma ID de item — conforme necessário para concluir a tarefa. Desde que o delegado tem permissões apropriadas para a pasta que contém o item (e, se aplicável, a pasta o item está mudando para), o representante pode fazer alterações de acordo com seus níveis de permissão. 
   
 ## <a name="in-this-section"></a>Nesta seção
 <a name="bk_implicit"> </a>

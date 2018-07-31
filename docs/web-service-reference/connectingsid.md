@@ -12,20 +12,19 @@ api_type:
 - schema
 ms.assetid: 56d6aa52-8fa6-4773-9046-44a6f4f5d97c
 description: O elemento ConnectingSID representa uma conta para representar quando você estiver usando o cabeçalho SOAP ExchangeImpersonation.
-ms.openlocfilehash: 6e0bb90e197ce22bcd982a6d51954a88f3a2cf03
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a30f11721506989a84f52dd04c328974f4483956
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751430"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354334"
 ---
 # <a name="connectingsid"></a>ConnectingSID
 
 O elemento **ConnectingSID** representa uma conta para representar quando você estiver usando o cabeçalho SOAP ExchangeImpersonation. 
   
-[ExchangeImpersonation](exchangeimpersonation.md)
-  
-[ConnectingSID](connectingsid.md)
+- [ExchangeImpersonation](exchangeimpersonation.md) 
+- [ConnectingSID](connectingsid.md)
   
 ```xml
 <ConnectingSID>
@@ -33,7 +32,26 @@ O elemento **ConnectingSID** representa uma conta para representar quando você 
 </ConnectingSID>
 ```
 
- **ConnectingSIDType**
+```xml
+<ConnectingSID>
+   <SmtpAddress/>
+</ConnectingSID>
+```
+
+```xml
+<ConnectingSID>
+    <SID/> 
+</ConnectingSID>
+```
+
+```xml
+<ConnectingSID>
+   <PrimarySmtpAddress/>
+</ConnectingSID>
+```
+
+**ConnectingSIDType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -74,7 +92,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Autorização de servidor-para-servidor no EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+- [Autorização de servidor-para-servidor no EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

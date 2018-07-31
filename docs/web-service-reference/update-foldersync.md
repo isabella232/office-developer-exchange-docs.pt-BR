@@ -1,5 +1,5 @@
 ---
-title: Atualização (FolderSync)
+title: Update (FolderSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,26 +12,22 @@ api_type:
 - schema
 ms.assetid: 47ed8edb-2a94-471b-b965-93f91456252e
 description: O elemento de atualização identifica uma única pasta ao atualizar no repositório de cliente local.
-ms.openlocfilehash: 6d4a6233df41ea95e1fd9b394502bfb2728bddb6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bf49741b2478edff450f114dc1464a0528072bea
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837873"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353501"
 ---
-# <a name="update-foldersync"></a>Atualização (FolderSync)
+# <a name="update-foldersync"></a>Update (FolderSync)
 
 O elemento **Atualizar** identifica uma única pasta ao atualizar no repositório de cliente local. 
   
-[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
-  
-[Alterações (hierarquia)](changes-hierarchy.md)
-  
-[Atualização (FolderSync)](update-foldersync.md)
+- [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md) 
+- [ResponseMessages](responsemessages.md) 
+- [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)  
+- [Changes (Hierarchy)](changes-hierarchy.md) 
+- [Update (FolderSync)](update-foldersync.md)
   
 ```xml
 <Update>
@@ -39,7 +35,32 @@ O elemento **Atualizar** identifica uma única pasta ao atualizar no repositóri
 </Update>
 ```
 
- **SyncFolderHierarchyCreateOrUpdateType**
+```xml
+<Update>
+   <CalendarFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <ContactsFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <TasksFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <SearchFolder/>
+</Update>
+```
+
+**SyncFolderHierarchyCreateOrUpdateType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -62,7 +83,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Alterações (hierarquia)](changes-hierarchy.md) <br/> |Contém uma matriz sequenciada dos tipos de alteração que representam o tipo das diferenças entre as pastas no cliente e as pastas do Exchange Server.  <br/> |
+|[Changes (Hierarchy)](changes-hierarchy.md) <br/> |Contém uma matriz sequenciada dos tipos de alteração que representam o tipo das diferenças entre as pastas no cliente e as pastas do Exchange Server.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -79,10 +100,6 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Operação SyncFolderItems](syncfolderitems-operation.md)
-
-
+- [Operação SyncFolderItems](syncfolderitems-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

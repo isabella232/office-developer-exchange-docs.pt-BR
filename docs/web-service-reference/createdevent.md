@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f0e53a53-c352-42a5-8280-cd808b0e961b
 description: O elemento CreatedEvent representa um evento no qual uma pasta ou um item é criada.
-ms.openlocfilehash: f52516090d0789b4dd9fc1ced824786ce000e885
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 791b8af87c0cc8ae7f07850e3a6fedd9975a251e
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751574"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353172"
 ---
 # <a name="createdevent"></a>CreatedEvent
 
@@ -32,7 +32,17 @@ O elemento **CreatedEvent** representa um evento no qual uma pasta ou um item é
 </CreatedEvent>
 ```
 
- **BaseObjectChangedEventType**
+```xml
+<CreatedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
+   <ParentFolderId/>
+</CreatedEvent>
+```
+
+**BaseObjectChangedEventType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -45,8 +55,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Marca d'água](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio.  <br/> |
-|[Carimbo de hora](timestamp.md) <br/> |Representa o carimbo de hora de um evento de caixa de correio de item ou pasta criado.  <br/> |
+|[Watermark](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Representa o carimbo de hora de um evento de caixa de correio de item ou pasta criado.  <br/> |
 |[FolderId](folderid.md) <br/> |Representa o identificador da pasta criada.  <br/> |
 |[ItemId](itemid.md) <br/> |Representa o identificador do item criado.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Representa o identificador da pasta pai da pasta ou item criado.  <br/> |
@@ -72,16 +82,9 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Inscrever-se a operação](subscribe-operation.md)
-  
-[Operação GetEvents](getevents-operation.md)
-  
-[Cancelar a operação](unsubscribe-operation.md)
-
-
-[Usando inscrições de recepção](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
-  
-[Notificações de eventos no EWS](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
+- [Inscrever-se a operação](subscribe-operation.md)  
+- [Operação GetEvents](getevents-operation.md)  
+- [Cancelar a operação](unsubscribe-operation.md)
+- [Usando inscrições de recepção](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx) 
+- [Notificações de eventos no EWS](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
 

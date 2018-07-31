@@ -1,5 +1,5 @@
 ---
-title: Condição
+title: Condition
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 0790a3f2-cb31-4036-a757-7821aa0722cb
 description: O elemento de condição identifica a condição que deve ser atendida para a parte de ação da regra a ser executada.
-ms.openlocfilehash: ed605946f99aa63416337cd0e731c931176a8ed4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d49f2984799b15c0499af59abecbb34abe15f7c3
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751415"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353557"
 ---
-# <a name="condition"></a>Condição
+# <a name="condition"></a>Condition
 
 O elemento de **condição** identifica a condição que deve ser atendida para a parte de ação da regra a ser executada. 
   
@@ -29,7 +29,32 @@ O elemento de **condição** identifica a condição que deve ser atendida para 
 </Condition>
 ```
 
- **ProtectionRuleConditionType**
+```xml
+<Condition> 
+    <SenderDepartments/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <True/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <Recipients/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <And/> 
+</Condition>
+```
+
+**ProtectionRuleConditionType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -43,7 +68,7 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[AllInternal](allinternal.md) <br/> |Avaliado como **verdadeiro** se todos os destinatários de uma mensagem de email são internos para a organização do remetente.  <br/> |
-|[E (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Especifica que todos os elementos filho devem corresponder para avaliar como **true**. Especifica se deve haver mais de uma condição de filho de regra de proteção.  <br/> |
+|[And (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Especifica que todos os elementos filho devem corresponder para avaliar como **true**. Especifica se deve haver mais de uma condição de filho de regra de proteção.  <br/> |
 |[RecipientIs](recipientis.md) <br/> |Especifica que qualquer destinatário da mensagem de email corresponde a qualquer um dos destinatários especificados nos elementos filho [valor (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
 |[SenderDepartments](senderdepartments.md) <br/> |Especifica se o departamento do remetente corresponde a um dos departamentos especificados nos elementos filho [valor (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
 |[True](true.md) <br/> |Especifica uma condição que corresponda sempre.  <br/> |
@@ -72,8 +97,6 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Ver também
-
-
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

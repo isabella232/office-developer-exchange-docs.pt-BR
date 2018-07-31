@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b8a59740-d978-454c-9629-a10792385ba0
 description: O elemento de FindFolder define uma solicitação para localizar pastas em uma caixa de correio.
-ms.openlocfilehash: d41283547c443e38e2e87379a7224df9c89f901d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 69fbaebc5615ac7d19512770658cde83e4d352df
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752269"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353529"
 ---
 # <a name="findfolder"></a>FindFolder
 
@@ -32,7 +32,17 @@ O elemento de **FindFolder** define uma solicitação para localizar pastas em u
 </FindFolder>
 ```
 
- **FindFolderType**
+```xml
+<FindFolder Traversal="Shallow/Deep/SoftDeleted">
+   <FolderShape/>
+   <FractionalPageFolderView/>
+   <Restriction/>
+   <ParentFolderIds/>
+</FindFolder>
+```
+
+**FindFolderType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -73,7 +83,7 @@ O esquema que descreve este elemento está localizado no diretório virtual EWS 
 
 O exemplo a seguir de uma solicitação de FindFolder mostra como uma solicitação para localizar todas as pastas localizadas em uma caixa de entrada de formulário.
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
   xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
@@ -101,7 +111,5 @@ O exemplo a seguir de uma solicitação de FindFolder mostra como uma solicitaç
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Operação FindFolder](findfolder-operation.md)
+- [Operação FindFolder](findfolder-operation.md)
 

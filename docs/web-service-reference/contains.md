@@ -1,5 +1,5 @@
 ---
-title: Contém
+title: Contains
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 476d059d-c243-43e9-b475-319fc413ade2
 description: O elemento contém representa uma expressão de pesquisa que determina se uma determinada propriedade contém o valor de cadeia de caracteres constante fornecido.
-ms.openlocfilehash: 083efdf32cd32bea6964361b5b558480aa937280
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b25b69aadf2c331527a17ad81ed46f61aa7b93c2
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751468"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354285"
 ---
-# <a name="contains"></a>Contém
+# <a name="contains"></a>Contains
 
 O elemento **contém** representa uma expressão de pesquisa que determina se uma determinada propriedade contém o valor de cadeia de caracteres constante fornecido. 
   
@@ -30,7 +30,23 @@ O elemento **contém** representa uma expressão de pesquisa que determina se um
 </Contains>
 ```
 
- **ContainsExpressionType**
+```xml
+<Contains ContainmentMode="" ContainmentComparison="">
+   <ExtendedFieldURI/>
+   <Constant/>
+</Contains>
+```
+
+```xml
+<Contains ContainmentMode="" ContainmentComparison="">
+   <IndexedFieldURI/>
+   <Constant/>
+</Contains>
+```
+
+
+**ContainsExpressionType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -99,8 +115,6 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Ver também
-
-
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

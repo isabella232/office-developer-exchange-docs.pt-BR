@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 22d30d1f-a84d-48bb-ad8f-ce13f8e76604
 description: O elemento CompleteName representa o nome completo de um contato.
-ms.openlocfilehash: 1f6c9ba68fe941f848d0e250a39aea6894fca61e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bca6f7e0eb915841673d00b5485da2f0f9794e80
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751406"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354257"
 ---
 # <a name="completename"></a>CompleteName
 
@@ -58,7 +58,7 @@ Nenhum.
 |[Suffix](suffix.md) <br/> |Representa um sufixo de nome de um contato.  <br/> |
 |[Iniciais](initials.md) <br/> |Representa as iniciais de um contato.  <br/> |
 |[FullName](fullname.md) <br/> |Representa o nome completo de um contato.  <br/> |
-|[Apelido](nickname.md) <br/> |Representa o apelido de um contato.  <br/> |
+|[Nickname](nickname.md) <br/> |Representa o apelido de um contato.  <br/> |
 |[YomiFirstName](yomifirstname.md) <br/> |Representa o nome usado no Japão para a ortografia pesquisável ou fonética de um nome japonês.  <br/> |
 |[YomiLastName](yomilastname.md) <br/> |Representa o nome usado no Japão para a ortografia pesquisável ou fonética do japonês sobrenome.  <br/> |
    
@@ -70,7 +70,7 @@ Nenhum.
    
 ## <a name="remarks"></a>Comentários
 
-A propriedade [CompleteName](completename.md) é parte da forma [padrão](https://msdn.microsoft.com/library/ExchangeWebServices.DefaultShapeNamesType.Default.aspx) . Na versão release inicial do Microsoft Exchange Server 2007, a propriedade [CompleteName](completename.md) é retornada pela [operação GetItem](getitem-operation.md), mas não a [operação FindItem](finditem-operation.md). Iniciando com o Exchange Server 2007 Service Pack 1 (SP1), a [operação FindItem](finditem-operation.md) também retorna a propriedade [CompleteName](completename.md) com a forma [padrão](https://msdn.microsoft.com/library/ExchangeWebServices.DefaultShapeNamesType.Default.aspx) . Essa alteração não afeta o esquema. 
+A propriedade CompleteName é parte da forma [padrão](https://docs.microsoft.com/en-us/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . Na versão release inicial do Microsoft Exchange Server 2007, a propriedade CompleteName é retornada pela [operação GetItem](getitem-operation.md), mas não a [operação FindItem](finditem-operation.md). Iniciando com o Exchange Server 2007 Service Pack 1 (SP1), a [operação FindItem](finditem-operation.md) também retorna a propriedade CompleteName com a forma [padrão](https://docs.microsoft.com/en-us/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . Essa alteração não afeta o esquema. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
@@ -85,17 +85,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[CompleteNameType](https://msdn.microsoft.com/library/ExchangeWebServices.CompleteNameType.aspx)
-  
-[CompleteName](https://msdn.microsoft.com/library/ExchangeWebServices.ContactItemType.CompleteName.aspx)
-  
-[contactsCompleteName](https://msdn.microsoft.com/library/ExchangeWebServices.UnindexedFieldURIType.contactsCompleteName.aspx)
-
-
+- [CompleteNameType](https://msdn.microsoft.com/library/ExchangeWebServices.CompleteNameType.aspx)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Criação de contatos (serviços Web do Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Criação de contatos (serviços Web do Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

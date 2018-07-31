@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b4fff4c9-c625-4d2a-9d14-bb28a5da5baf
 description: Saiba mais sobre as políticas de limitação que afetam o EWS quando você estiver usando o Exchange.
-ms.openlocfilehash: e7966f67753b3998235e000a022e41c90fa227b8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 64393c173a6fc60cd4be969e8c7457d5b0109713
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750713"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354012"
 ---
 # <a name="ews-throttling-in-exchange"></a>EWS limitação no Exchange
 
@@ -110,9 +110,11 @@ Você pode definir a limitação de diretiva em um servidor do Exchange usando o
   
 > [!TIP]
 > Recomendamos que você crie seus aplicativos para cumpram a diretiva padrão de limitação. Só faça alterações como padrão as políticas de limitação se o projeto do seu aplicativo de cliente não puder acomodar a política padrão. Lembre-se de que as políticas de limitação menos restritivas podem afetar negativamente confiabilidade de serviço. 
-  
-## <a name="throttling-considerations-for-applications-that-use-ews-impersonation"></a>Considerações de limitação para aplicativos que utilizam a representação do EWS
+
 <a name="bk_ThrottlingConsiderations"> </a>
+
+## <a name="throttling-considerations-for-applications-that-use-ews-impersonation"></a>Considerações de limitação para aplicativos que utilizam a representação do EWS
+
 
 [Representação](impersonation-and-ews-in-exchange.md) é um método de autorização que permite uma única conta acessar as contas de muitos. Quando uma conta de serviço personifica usuários, ele atua como os usuários e, portanto, pressupõe os direitos que são atribuídos aos usuários. Arquivos de log registram o acesso como usuário representado. Os administradores usar o controle de acesso baseado em função (RBAC) para configurar a representação por meio do Shell de gerenciamento do Exchange. 
   
@@ -222,20 +224,22 @@ while (fiResults.MoreAvailable == true);
 
 Simultaneidade refere-se ao número de conexões de um usuário específico. Uma conexão é mantido desde o momento em que uma solicitação for recebida até que uma resposta é enviada ao solicitante. Se os usuários tentarem tornar mais solicitações simultâneas que permite a sua política, a nova tentativa de conexão falha. No entanto, as conexões existentes permanecerão válidas. Políticas de limitação pode afetar simultaneidade de várias maneiras diferentes.
   
-O parâmetro de política de limitação **EWSMaxConcurrency** define o número de conexões simultâneas que um usuário específico pode ter ao mesmo tempo em relação a um servidor Exchange. Para determinar o número máximo de conexões simultâneas para permitir, considere as conexões que os clientes do Outlook usará. Outlook 2007 e Outlook 2010 usam o EWS para acessar informações de disponibilidade e ausência temporária. Mac Outlook 2011 usa o EWS para todas as funcionalidades de acesso do cliente. Dependendo do número de clientes do Outlook que está se conectando ativamente a caixa de correio do usuário, o número de conexões simultâneas disponíveis para um usuário pode ser limitado. Além disso, se seu aplicativo tiver conectem a várias caixas de correio simultaneamente durante o uso de um contexto de segurança único, é importante ser o valor da política **EWSMaxConcurrency** analisadas. Para obter mais informações sobre como usar um contexto de segurança único com conexões simultâneas, consulte [Considerações de aceleração para aplicativos que utilizam a representação EWS](http://msdn.microsoft.com/library/961f773a-8b8e-4b4f-a4b9-64305e107ca4.aspx#bk_ThrottlingConsiderations) anteriormente neste artigo. 
+O parâmetro de política de limitação **EWSMaxConcurrency** define o número de conexões simultâneas que um usuário específico pode ter ao mesmo tempo em relação a um servidor Exchange. Para determinar o número máximo de conexões simultâneas para permitir, considere as conexões que os clientes do Outlook usará. Outlook 2007 e Outlook 2010 usam o EWS para acessar informações de disponibilidade e ausência temporária. Mac Outlook 2011 usa o EWS para todas as funcionalidades de acesso do cliente. Dependendo do número de clientes do Outlook que está se conectando ativamente a caixa de correio do usuário, o número de conexões simultâneas disponíveis para um usuário pode ser limitado. Além disso, se seu aplicativo tiver conectem a várias caixas de correio simultaneamente durante o uso de um contexto de segurança único, é importante ser o valor da política **EWSMaxConcurrency** analisadas. Para obter mais informações sobre como usar um contexto de segurança único com conexões simultâneas, consulte [Considerações de aceleração para aplicativos que utilizam a representação EWS](#bk_ThrottlingConsiderations) anteriormente neste artigo. 
   
 Aplicativos que se conectam simultaneamente para várias caixas de correio precisam ser capaz de rastrear o uso de recursos no lado do cliente. Como operações do EWS são baseados em solicitação/resposta, você pode assegurar que seus aplicativos funcionam bem dentro do limite de **EWSMaxConcurrency** controlando o número de conexões que ocorrem entre o início de uma solicitação e a resposta é recebidos e garantir que não mais de dez abrir solicitações ocorrer simultaneamente. 
   
 O parâmetro de política de **EWSFindCountLimit** Especifica o tamanho máximo de resultado que uma operação **FindItem** ou **FindFolder** pode usar em um servidor de acesso para cliente ao mesmo tempo para um usuário. Se um aplicativo (ou potencialmente vários aplicativos) faz duas solicitações simultâneas do EWS **FindItem** que retornam 100 itens, cada um para um usuário específico, a carga de **EWSFindCountLimit** contra orçamento específico do usuário será 200. Quando a primeira solicitação retorna, o orçamento cai para 100 e quando a segunda solicitação retorna, o orçamento cai para zero. Se o mesmo aplicativo fosse fazer duas solicitações simultâneas para itens de 1000, o valor do orçamento seria itens 2000, que excede o valor de **EWSFindCountLimit** . Se o orçamento do usuário para itens cair abaixo de zero, a próxima solicitação resulta em erro até que o orçamento de usuário é recarregada a uma ou mais. 
+
+<a name="bk_ThrottlingNotifications"> </a>
   
 ## <a name="throttling-considerations-for-ews-notification-applications"></a>Considerações de limitação para aplicativos de notificação de EWS
-<a name="bk_ThrottlingNotifications"> </a>
+
 
 Se você estiver criando notificação EWS aplicativos que usam de envio, recepção ou streaming notificações, você deve considerar as implicações do **EWSMaxSubscriptions** e as políticas de limitação de **EWSMaxConcurrency** e o ** HangingConnectionLimit**. 
   
 O parâmetro de política de **EWSMaxSubscriptions** Especifica o número máximo de inscrições de streaming que um usuário pode ter em um servidor de acesso para cliente específico ao mesmo tempo, recepção e push ativo. Versões diferentes do Exchange têm valores padrão diferente para esse parâmetro. Um usuário pode inscrever-se a todas as pastas em uma caixa de correio usando a propriedade **SubscribeToAllFolders** - usa a uma única assinatura em relação ao orçamento **EWSMaxSubscriptions** . Os usuários podem assinar pastas individuais, com cada pasta rumo o orçamento **EWSMaxSubscriptions** , até o limite de contagem de assinatura definida pelo valor do parâmetro **EWSMaxSubscriptions** (por exemplo, os usuários podem se inscrever no calendário 20 pastas nas caixas de correio diferentes se **EWSMaxSubscriptions** for definido como 20). 
   
-Para obter informações sobre representação e o parâmetro **EWSMaxSubscriptions** , consulte [Considerações de aceleração para aplicativos que utilizam a representação EWS](ews-throttling-in-exchange.md#bk_ThrottlingConsiderations) anteriormente neste artigo. 
+Para obter informações sobre representação e o parâmetro **EWSMaxSubscriptions** , consulte [Considerações de aceleração para aplicativos que utilizam a representação EWS](#bk_ThrottlingConsiderations) anteriormente neste artigo. 
   
 O parâmetro de política **EWSMaxConcurrency** também pode ser um problema para notificações do EWS; Por exemplo: 
   
@@ -297,7 +301,7 @@ A tabela a seguir lista os códigos de status HTTP que são retornados por erros
   
 **Tabela 4: Códigos de status HTTP retornados por erros de limitação**
 
-|**Código de status HTTP**|**Descrição**|
+|**Código de status de HTTP**|**Descrição**|
 |:-----|:-----|
 |HTTP 503  <br/> |Indica que o EWS solicitações são enfileiramento com o IIS. O cliente deve atrasar a enviar solicitações adicionais até um momento posterior.  <br/> |
 |HTTP 500  <br/> |Indica um erro de servidor interno com o código de erro ErrorServerBusy. Isso indica que o cliente deve atrasar enviando solicitações adicionais até um momento posterior. A resposta pode conter uma dica chamada BackOffMilliseconds de retirada. Se presente, o valor da BackOffMilliseconds deverão ser usado como a duração, até que o cliente reenvia uma solicitação.  <br/> |

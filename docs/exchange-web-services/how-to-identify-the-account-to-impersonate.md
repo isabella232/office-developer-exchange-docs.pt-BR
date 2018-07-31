@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c7749f12-b97f-48d9-88e5-a545e108efb0
 description: Saiba como o aplicativo de serviço usa o EWS para identificar o usuário para representar.
-ms.openlocfilehash: 78df4b511a9947d4d815b2802a53ab178b14622b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 01c6ee797359c38c8539257003a2f110fdf253cf
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750725"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354292"
 ---
 # <a name="identify-the-account-to-impersonate"></a>Identificar a conta para representar
 
@@ -75,7 +75,7 @@ Em um aplicativo do EWS Managed API, você deve especificar o UPN juntamente com
 exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.PrincipleName, "alias@billing.contoso.com");
 ```
 
-Em uma solicitação SOAP EWS, o [PrincipalName elemento (ConnectingSIDType complexType) (EWS)](http://msdn.microsoft.com/library/6aac5388-c971-817b-b0bb-095a2639c6de%28Office.15%29.aspx) elemento contém o UPN para a conta de usuário. 
+Em uma solicitação SOAP EWS, o [PrincipalName elemento (ConnectingSIDType complexType) (EWS)](../web-service-reference/principalname.md) elemento contém o UPN para a conta de usuário. 
   
 ```XML
 <soap:Header>
@@ -114,7 +114,7 @@ Em uma solicitação SOAP EWS, o elemento de [SID](http://msdn.microsoft.com/lib
 
 - [Representação e EWS no Exchange](impersonation-and-ews-in-exchange.md)
     
-- [Adicione os compromissos, usando a representação do Exchange](how-to-add-appointments-by-using-exchange-impersonation.md)
+- [Adicionar compromissos usando a representação do Exchange](how-to-add-appointments-by-using-exchange-impersonation.md)
     
 - [Classe ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.aspx)
     

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1bae582a-8cb3-4e77-be2a-7e107fad26fe
 description: Saiba como obter compromissos e reuniões usando o EWS Managed API ou o EWS no Exchange.
-ms.openlocfilehash: 0f5eb135142e807f30f48f01d7948fbdbf147ac2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c78d70ca2266bd192b82f644d902ad8c958d2d4a
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750718"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353690"
 ---
 # <a name="get-appointments-and-meetings-by-using-ews-in-exchange"></a>Obtenha os compromissos e reuniões usando o EWS no Exchange
 
@@ -50,19 +50,24 @@ O exemplo de código a seguir mostra como usar a API gerenciada de EWS para recu
 
 ```
 
+<br/>
+
 A seguir é a saída do código de exemplo.
   
-Os cinco primeiros compromissos no calendário do 8/21/2013 9/20/2013 são: 
+```text
+The first five appointments on your calendar from 8/21/2013 to 9/20/2013 are: 
   
-Assunto: Início da reunião da equipe de desenvolvedores da Contoso: 21/8/2013 12:30:00 PM End: 21/8/2013 1:00:00 PM
+Subject: Contoso devs team meeting Start: 8/21/2013 12:30:00 PM End: 8/21/2013 1:00:00 PM
   
-Assunto: Reunião de status diária início: 21/8/2013 1:00:00 PM End: 21/8/2013 2:00:00 PM
+Subject: Daily status meeting Start: 8/21/2013 1:00:00 PM End: 8/21/2013 2:00:00 PM
   
-Assunto: Almoço com a equipe de vendas iniciar: 21/8/2013 2:30:00 PM End: 21/8/2013 3:30:00 PM
+Subject: Lunch with sales team Start: 8/21/2013 2:30:00 PM End: 8/21/2013 3:30:00 PM
   
-Assunto: Tênis na iniciar club: 22/8/2013 11:00:00 AM End: 22/8/2013 12:00:00 PM
+Subject: Tennis at the club Start: 8/22/2013 11:00:00 AM End: 8/22/2013 12:00:00 PM
   
-Assunto: Treinamento Online webcast: 22/8/2013 2:00:00 PM End: 22/8/2013 3:00:00 PM
+Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
+```
+
 ## <a name="get-appointments-by-using-ews"></a>Obter compromissos usando o EWS
 <a name="bk_xml"> </a>
 
@@ -89,6 +94,8 @@ O XML a seguir mostra uma solicitação de operação [GetFolder](http://msdn.mi
   </soap:Body>
 </soap:Envelope>
 ```
+
+<br/>
 
 O XML a seguir mostra a resposta **GetFolder** . Observe que os atributos **FolderID** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
   
@@ -119,6 +126,8 @@ O XML a seguir mostra a resposta **GetFolder** . Observe que os atributos **Fold
 </s:Envelope>
 ```
 
+<br/>
+
 O XML a seguir mostra a solicitação de **FindItem** usada para retornar os compromissos solicitados. Observe que os atributos **FolderID** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
   
 ```XML
@@ -148,6 +157,8 @@ O XML a seguir mostra a solicitação de **FindItem** usada para retornar os com
   </soap:Body>
 </soap:Envelope>
 ```
+
+<br/>
 
 O XML a seguir mostra a resposta **FindItem** . Observe que os atributos **ItemID** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
   
@@ -218,14 +229,10 @@ Em vez disso, o que você realmente deseja fazer é algo semelhante a aplicaçã
 ## <a name="see-also"></a>Confira também
 <a name="bk_additional"> </a>
 
-- [Calendários e EWS no Exchange](calendars-and-ews-in-exchange.md)
-    
-- [Criar compromissos e reuniões usando o EWS no Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
-    
-- [Atualizar compromissos e reuniões usando o EWS no Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
-    
-- [Excluir compromissos e cancelar reuniões usando o EWS no Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
-    
+- [Calendários e EWS no Exchange](calendars-and-ews-in-exchange.md)   
+- [Criar compromissos e reuniões usando o EWS no Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
+- [Atualizar compromissos e reuniões usando o EWS no Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [Excluir compromissos e cancelar reuniões usando o EWS no Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
 

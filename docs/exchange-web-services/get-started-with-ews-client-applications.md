@@ -1,19 +1,19 @@
 ---
-title: Introdução aos aplicativos de cliente do EWS
+title: Introdução aos aplicativos clientes do EWS
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e6fd5c23-0ba5-4a7b-bdde-4a553447069f
 description: Crie seu primeiro aplicativo usando os serviços Web do Exchange (EWS) no Exchange.
-ms.openlocfilehash: 911495c74f4c74114a86b1a3a98c9200db338b34
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 06606bdc2b37c8bf65b8b10dc7a516bdc911b256
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750675"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353774"
 ---
-# <a name="get-started-with-ews-client-applications"></a>Introdução aos aplicativos de cliente do EWS
+# <a name="get-started-with-ews-client-applications"></a>Introdução aos aplicativos clientes do EWS
 
 Crie seu primeiro aplicativo usando os serviços Web do Exchange (EWS) no Exchange.
   
@@ -31,7 +31,7 @@ Se você já tiver uma conta de caixa de correio do Exchange, você poderá igno
     
 Depois de confirmar que você pode enviar e receber emails do Exchange Server, você estará pronto para configurar seu ambiente de desenvolvimento. Você pode usar o Outlook Web App para verificar se você pode enviar o email.
   
-Você também precisará saber a URL do ponto de extremidade EWS para seu servidor. Em um aplicativo de produção, você usaria [descoberta automática](autodiscover-for-exchange.md) para determinar a URL do EWS. Os exemplos neste artigo usam a URL de ponto de extremidade do Office 365 EWS, https://outlook.office365.com/EWS/Exchange.asmx. A seção [próximas etapas](#bk_next) tem links para obter mais informações sobre a descoberta automática, quando estiver pronto. 
+Você também precisará saber a URL do ponto de extremidade EWS para seu servidor. Em um aplicativo de produção, você usaria [descoberta automática](autodiscover-for-exchange.md) para determinar a URL do EWS. Os exemplos neste artigo usam a URL de ponto de extremidade do Office 365 EWS, `https://outlook.office365.com/EWS/Exchange.asmx`. A seção [próximas etapas](#bk_next) tem links para obter mais informações sobre a descoberta automática, quando estiver pronto. 
   
 Se você estiver testando seu aplicativo usando um servidor do Exchange que tem o certificado autoassinado do padrão, você precisará criar um [método de validação do certificado](how-to-validate-a-server-certificate-for-the-ews-managed-api.md) que atenda aos requisitos de segurança da sua organização. 
   
@@ -437,9 +437,9 @@ Se você tiver algum problema com o seu aplicativo, [Experimente postar uma perg
 ## <a name="see-also"></a>Confira também
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)   
-- [Explorar a API Gerenciada pelo EWS, EWS e serviços Web no Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) 
+- [Explorar os recursos do EWS Managed API, do EWS e dos serviços Web no Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) 
 - [Visão geral de design de cliente do EWS do Exchange](ews-client-design-overview-for-exchange.md)   
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)  
-- [Introdução aos aplicativos de cliente API gerenciada de EWS](get-started-with-ews-managed-api-client-applications.md)
+- [Introdução aos aplicativos clientes do EWS Managed API](get-started-with-ews-managed-api-client-applications.md)
     
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c700af8-2792-4d3f-8571-8860e0550d8e
 description: Encontre informações sobre como arquitetura de função de transporte agente pipeline e o servidor no Exchange 2013 afetam desenvolvimento de agente de transporte e as classes que você pode usar para desenvolver agentes de transporte.
-ms.openlocfilehash: 9ddee0d68c9104357f84322b2cce7c5f2576d871
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6f7a03e16b260117c6ee27b86ec0e55b5346e301
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751031"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353704"
 ---
 # <a name="transport-agent-concepts-in-exchange-2013"></a>Transporte conceitos de agente no Exchange 2013
 
@@ -100,7 +100,7 @@ A tabela a seguir lista as classes do qual derivar para cada tipo de agente.
 |Tipo de agente  <br/> |Classe base de fábrica  <br/> |Classe de base do agente  <br/> |
 |Recebimento SMTP  <br/> |[SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> |
 |Roteamento  <br/> |[RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) <br/> |[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) <br/> |
-|Entrega  <br/> |[DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentFactory`1.aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.aspx) <br/> |
+|Entrega  <br/> |[DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) <br/> |
    
 Essas classes base de fábrica e agente fornecem propriedades e métodos que você pode usar para acessar mensagens e eventos de transporte. Implementar classes em seu agente que herdam essas classes. Na classe derivada de fábrica agente, substitua o método **CreateAgent** para que ele retorna uma nova instância da sua classe de agente. 
   

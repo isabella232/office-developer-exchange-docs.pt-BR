@@ -1,5 +1,5 @@
 ---
-title: Notificação
+title: Notification
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: c9070936-0930-438e-839c-91127256a6c8
 description: O elemento de notificação contém informações sobre a inscrição e os eventos que ocorreram desde a última notificação.
-ms.openlocfilehash: a769d8988eb68d0fa0b02f3838cd891e714571b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 942ec18521fc484a7a3aa1385fb54f480ce9d11f
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824547"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354348"
 ---
-# <a name="notification"></a>Notificação
+# <a name="notification"></a>Notification
 
 O elemento de **notificação** contém informações sobre a inscrição e os eventos que ocorreram desde a última notificação. 
   
@@ -32,7 +32,71 @@ O elemento de **notificação** contém informações sobre a inscrição e os e
 </Notification>
 ```
 
- **NotificationType**
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <CreatedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <DeletedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <ModifiedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <MovedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <NewMailEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <StatusEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <FreeBusyChangedEvent/>
+</Notification>
+```
+
+**NotificationType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -83,13 +147,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Inscrever-se a operação](subscribe-operation.md)
-  
-[Operação GetEvents](getevents-operation.md)
-  
-[Operação GetStreamingEvents](getstreamingevents-operation.md)
-  
-[Cancelar a operação](unsubscribe-operation.md)
+- [Inscrever-se a operação](subscribe-operation.md) 
+- [Operação GetEvents](getevents-operation.md) 
+- [Operação GetStreamingEvents](getstreamingevents-operation.md) 
+- [Cancelar a operação](unsubscribe-operation.md)
 

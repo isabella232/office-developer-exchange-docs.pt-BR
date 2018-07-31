@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c2267733-6f4f-49e5-9614-1e4a24c3af1a
 description: Desenvolva um aplicativo de cliente de email Hello World simple do Exchange usando a API gerenciada de EWS.
-ms.openlocfilehash: dafc8cbbf172ad725ab83c93553464ba96ef33b8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b4254ab80b4dfc2c8fadf90c79d57517c3a0bb16
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750678"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353984"
 ---
 # <a name="get-started-with-ews-managed-api-client-applications"></a>Introdução aos aplicativos clientes de API gerenciada por EWS
 
@@ -20,7 +20,12 @@ Desenvolva um aplicativo de cliente de email Hello World simple do Exchange usan
 A [API gerenciada de EWS](http://aka.ms/ews-managed-api-readme) fornece um modelo de objeto intuitivo e fácil de usar para envio e recebimento de mensagens do serviço web de aplicativos clientes, aplicativos de portal e aplicativos de serviço. Você pode acessar quase todas as informações armazenadas em um Exchange Online, Exchange Online como parte do Office 365 ou uma caixa de correio do Exchange server usando a API gerenciada de EWS. Você pode usar as informações neste artigo para ajudá-lo a desenvolver seu primeiro aplicativo cliente EWS Managed API. 
   
 > [!NOTE]
-> A API gerenciada de EWS agora está disponível como um projeto de código aberto no [GitHub](https://github.com/officedev/ews-managed-api). Você pode usar a biblioteca de fonte aberta: > correções e melhorias para a API de colaboração. > Obtenha correções e aprimoramentos antes que estejam disponíveis em um lançamento oficial. > Acesso a implementação mais abrangente e atualizado da API, para usar como uma referência ou para criar novas bibliotecas em plataformas novas. > Bem-vindos suas [contribuições](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) via GitHub. 
+> A API gerenciada de EWS agora está disponível como um projeto de código aberto no [GitHub](https://github.com/officedev/ews-managed-api). Você pode usar a biblioteca de código aberto: 
+> - Contribui com correções de bug e melhorias à API. 
+> - Obtenha correções e melhorias antes que estejam disponíveis em uma versão oficial. 
+> - Acesse a implementação mais abrangente e atualizada da API, para usar como referência ou criar novas bibliotecas em novas plataformas.  
+>
+>  Agradecemos suas [contribuições](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) via GitHub. 
   
 ## <a name="youll-need-an-exchange-server"></a>Você precisará de um servidor do Exchange
 <a name="NeedExchange"> </a>
@@ -210,10 +215,8 @@ namespace HelloWorld
 
 Se você estiver pronto para fazer mais com seu primeiro aplicativo de cliente do EWS Managed API, explore os recursos a seguir:
   
-- [Exchange 2013:101 amostras de código](http://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c)
-    
-- [Pastas e itens](folders-and-items-in-ews-in-exchange.md)
-    
+- [Exchange 2013:101 amostras de código](http://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c)   
+- [Pastas e itens](folders-and-items-in-ews-in-exchange.md)    
 - [EWSEditor](http://ewseditor.codeplex.com/)
     
 Se você tiver algum problema com o seu aplicativo, [Experimente postar uma pergunta ou um comentário no fórum](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment) (e não se esqueça de ler a postagem superior). 
@@ -221,10 +224,8 @@ Se você tiver algum problema com o seu aplicativo, [Experimente postar uma perg
 ## <a name="in-this-section"></a>Nesta seção
 <a name="Next"> </a>
 
-- [Faça referência ao conjunto de API gerenciada de EWS](how-to-reference-the-ews-managed-api-assembly.md)
-    
-- [Definir a URL de serviço do EWS usando a API gerenciada de EWS](how-to-set-the-ews-service-url-by-using-the-ews-managed-api.md)
-    
+- [Faça referência ao conjunto de API gerenciada de EWS](how-to-reference-the-ews-managed-api-assembly.md)   
+- [Definir a URL de serviço do EWS usando a API gerenciada de EWS](how-to-set-the-ews-service-url-by-using-the-ews-managed-api.md)   
 - [Comunicar-se com o EWS usando a API gerenciada de EWS](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
     
 ## <a name="see-also"></a>Confira também

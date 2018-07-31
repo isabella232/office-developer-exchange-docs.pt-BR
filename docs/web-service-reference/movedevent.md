@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 572f8b40-dfa8-47bc-b0c1-e1a7138506fd
 description: O elemento MovedEvent representa um evento na qual um item ou pasta é movida de uma pasta pai para outra pasta pai.
-ms.openlocfilehash: a375f421ca9159103e47b515729316b21149c68a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 07f9c02ea194187a9fdfb1e27b19eb311392f51f
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824479"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353256"
 ---
 # <a name="movedevent"></a>MovedEvent
 
@@ -34,7 +34,20 @@ O elemento **MovedEvent** representa um evento na qual um item ou pasta é movid
 </MovedEvent>
 ```
 
- **MovedCopiedEventType**
+```xml
+<MovedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
+   <ParentFolderId/>
+   <OldFolderId/>
+   <OldParentFolderId/>
+</MovedEvent>
+```
+
+
+**MovedCopiedEventType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -47,8 +60,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Marca d'água](watermark.md) <br/> |Representa um indicador de eventos na tabela de eventos de caixa de correio.  <br/> |
-|[Carimbo de hora](timestamp.md) <br/> |Representa o carimbo de hora de um evento de caixa de correio de item/pasta de movimentação.  <br/> |
+|[Watermark](watermark.md) <br/> |Representa um indicador de eventos na tabela de eventos de caixa de correio.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Representa o carimbo de hora de um evento de caixa de correio de item/pasta de movimentação.  <br/> |
 |[FolderId](folderid.md) <br/> |Representa o identificador da pasta movido.  <br/> |
 |[ItemId](itemid.md) <br/> |Representa o identificador do item movido.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Representa o identificador da pasta que contém o item movido ou pasta.  <br/> |
@@ -77,11 +90,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Inscrever-se a operação](subscribe-operation.md)
-  
-[Operação GetEvents](getevents-operation.md)
-  
-[Cancelar a operação](unsubscribe-operation.md)
+- [Inscrever-se a operação](subscribe-operation.md) 
+- [Operação GetEvents](getevents-operation.md) 
+- [Cancelar a operação](unsubscribe-operation.md)
 

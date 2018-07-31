@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 96390f92-cab1-4de6-9ec2-a55678fc20af
 description: Saiba como criar, obter, atualizar e excluir os lotes de mensagens de email em uma única chamada usando a API gerenciada de EWS ou EWS no Exchange.
-ms.openlocfilehash: 30ebbdf4c92111df629c7662987e301d167336e2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b7dcc8f0961a34061b0476e2136193bf21731d99
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750831"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354040"
 ---
 # <a name="process-email-messages-in-batches-by-using-ews-in-exchange"></a>Processar as mensagens de email em lotes, usando o EWS no Exchange
 
@@ -26,7 +26,7 @@ Você pode usar a API gerenciada de EWS ou torna o EWS para trabalhar com lotes 
 |Criar mensagens de email em lotes  <br/> |[ExchangeService.CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
 |Obter mensagens de email em lotes  <br/> |[ExchangeService.BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
 |Mensagens de email de atualização em lotes  <br/> |[ExchangeService.UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Excluir mensagens de email em lotes  <br/> |[ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|Excluir mensagens de email em lotes  <br/> |[ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 Neste artigo, você aprenderá como concluir as tarefas básicas para lotes de mensagens de email usando o EWS Managed API ou o EWS.
   
@@ -419,7 +419,7 @@ public static void BatchDeleteEmailItems(ExchangeService service, Collection<Ite
 ## <a name="delete-email-messages-in-batches-by-using-ews"></a>Excluir mensagens de email em lotes, usando o EWS
 <a name="bk_deleteews"> </a>
 
-Você pode excluir mensagens de email em lotes, usando a operação [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) EWS, conforme mostrado no exemplo de código a seguir. Isso também é a solicitação XML que o EWS Managed API envia quando você usar a API gerenciada de EWS para [Excluir mensagens de email em lotes](#bk_deleteewsma).
+Você pode excluir mensagens de email em lotes, usando a operação [DeleteItem](../web-service-reference/deleteitem-operation.md) EWS, conforme mostrado no exemplo de código a seguir. Isso também é a solicitação XML que o EWS Managed API envia quando você usar a API gerenciada de EWS para [Excluir mensagens de email em lotes](#bk_deleteewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

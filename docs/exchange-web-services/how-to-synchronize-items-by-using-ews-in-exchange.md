@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 886e7d35-9096-480b-8a8c-a7db27da06c2
 description: Descubra como usar a API gerenciada de EWS ou o EWS para obter uma lista de todos os itens em uma pasta ou uma lista das alterações que tenham ocorrido em uma pasta, para sincronizar seu cliente.
-ms.openlocfilehash: ce29a77cee595c2358441e4a22d32d45e78c6e60
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8763c053463e4787741ef992ddb99d29be4192fc
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750828"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353781"
 ---
 # <a name="synchronize-items-by-using-ews-in-exchange"></a>Sincronizar itens usando o EWS no Exchange
 
@@ -107,6 +107,8 @@ O exemplo a seguir mostra a solicitação XML para obter a lista inicial de iten
 </soap:Envelope>
 ```
 
+<a name="bk_responsesyncfolderitems"> </a>
+
 O exemplo a seguir mostra a resposta XML retornada pelo servidor depois de processar a solicitação de operação **SyncFolderItems** do cliente. A resposta inicial inclui [criar](http://msdn.microsoft.com/library/cb5e64a2-66a5-4447-921e-7c13efb8f6bf%28Office.15%29.aspx) elementos para cinco itens porque todos os itens são considerados novo durante a sincronização inicial. Os valores de alguns atributos e elementos foram diminuídos para melhorar a legibilidade. 
   
 ```XML
@@ -176,7 +178,7 @@ Depois que você recuperar a lista de novos itens no servidor, [criar os itens n
 ## <a name="get-the-changes-since-the-last-sync-by-using-ews"></a>Fazer as alterações desde a última sincronização usando o EWS
 <a name="bk_ewsexamplec"> </a>
 
-O exemplo a seguir mostra a solicitação XML para obter a lista de alterações nos itens da caixa de entrada usando a operação [SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) . Isso também é a solicitação XML que o EWS Managed API envia quando [recuperar a lista de alterações na caixa de entrada](#bk_cesyncongoingewsma). Este exemplo define o valor do elemento de [estado de sincronização](http://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) com o valor retornado na [resposta anterior](http://msdn.microsoft.com/library/886e7d35-9096-480b-8a8c-a7db27da06c2bk_ewsexamplea%28Office.15%29.aspx). E, para fins de demonstração, este exemplo define o elemento [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) **AllProperties** em vez de **IdOnly** para mostrar as propriedades adicionais retornadas. A definição de elemento [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) como **IdOnly** é uma [prática recomendada de sincronização](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). O valor do **estado de sincronização** foi reduzido para melhorar a legibilidade. 
+O exemplo a seguir mostra a solicitação XML para obter a lista de alterações nos itens da caixa de entrada usando a operação [SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) . Isso também é a solicitação XML que o EWS Managed API envia quando [recuperar a lista de alterações na caixa de entrada](#bk_cesyncongoingewsma). Este exemplo define o valor do elemento de [estado de sincronização](http://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) com o valor retornado na [resposta anterior](#bk_responsesyncfolderitems). E, para fins de demonstração, este exemplo define o elemento [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) **AllProperties** em vez de **IdOnly** para mostrar as propriedades adicionais retornadas. A definição de elemento [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) como **IdOnly** é uma [prática recomendada de sincronização](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). O valor do **estado de sincronização** foi reduzido para melhorar a legibilidade. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

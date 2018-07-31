@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: bd6a4265-ad40-43f6-bcc4-0bf5df4e984c
 description: O elemento ToFolderId representa a pasta de destino para um item movido ou copiada ou uma pasta.
-ms.openlocfilehash: a48309f0b7f5c9bf667fc2eb653a0502832bc996
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9d2fd6c177711cfe3a5d3415320440259e2f5289
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837758"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353655"
 ---
 # <a name="tofolderid"></a>ToFolderId
 
@@ -29,7 +29,14 @@ O elemento **ToFolderId** representa a pasta de destino para um item movido ou c
 </ToFolderId>
 ```
 
- **TargetFolderIdType**
+```xml
+<ToFolderId>
+   <DistinguishedFolderId/>
+</ToFolderId>
+```
+
+**TargetFolderIdType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -69,13 +76,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Operação MoveFolder](movefolder-operation.md)
-  
-[Operação CopyFolder](copyfolder-operation.md)
-  
-[Operação MoveItem](moveitem-operation.md)
-  
-[Operação CopyItem](copyitem-operation.md)
+- [Operação MoveFolder](movefolder-operation.md)  
+- [Operação CopyFolder](copyfolder-operation.md) 
+- [Operação MoveItem](moveitem-operation.md) 
+- [Operação CopyItem](copyitem-operation.md)
 

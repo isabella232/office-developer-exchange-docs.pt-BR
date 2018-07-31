@@ -12,22 +12,20 @@ api_type:
 - schema
 ms.assetid: 5cb43b02-d444-4d9c-9075-cdc5a4427daf
 description: O elemento ItemChange contém um identificador de item e as atualizações para aplicar ao item.
-ms.openlocfilehash: d10ce96cacb0be7411c4e8230ebc9b2803b7a5b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 42484c8deecb106e05023215342af3c7d996d852
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824145"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353508"
 ---
 # <a name="itemchange"></a>ItemChange
 
 O elemento **ItemChange** contém um identificador de item e as atualizações para aplicar ao item. 
   
-[UpdateItem](updateitem.md)
-  
-[ItemChanges](itemchanges.md)
-  
-[ItemChange](itemchange.md)
+- [UpdateItem](updateitem.md) 
+- [ItemChanges](itemchanges.md)
+- [ItemChange](itemchange.md)
   
 ```xml
 <ItemChange>
@@ -36,7 +34,22 @@ O elemento **ItemChange** contém um identificador de item e as atualizações p
 </ItemChange>
 ```
 
- **ItemChangeType**
+```xml
+<ItemChange>
+   <OccurrenceItemId>...</OccurrenceItemId>
+   <Updates>...</Updates>
+</ItemChange>
+```
+
+```xml
+<ItemChange>
+   <RecurringMasterItemId>...</RecurringMasterItemId>
+   <Updates>...</Updates>
+</ItemChange>
+```
+
+**ItemChangeType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -52,7 +65,7 @@ Nenhum.
 |[ItemId](itemid.md) <br/> |Contém o identificador e alterar a chave exclusiva de um item no armazenamento do Exchange. Esse elemento é necessário se o elemento [OccurrenceItemId](occurrenceitemid.md) ou [RecurringMasterItemId](recurringmasteritemid.md) não for usado.  <br/> |
 |[OccurrenceItemId](occurrenceitemid.md) <br/> |Identifica uma única ocorrência de um item recorrente. Esse elemento é obrigatório se usada. Esse elemento é necessário se o elemento [RecurringMasterItemId](recurringmasteritemid.md) ou [ItemId](itemid.md) não for usado.  <br/> |
 |[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifica um item-mestre recorrência identificando um dos identificadores dos seus itens relacionados ocorrência. Esse elemento é obrigatório se usada. Esse elemento é necessário se o elemento [OccurrenceItemId](occurrenceitemid.md) ou [ItemId](itemid.md) não for usado.  <br/> |
-|[Atualizações (Item)](updates-item.md) <br/> |Contém uma matriz que define append, definir e excluir as alterações nas propriedades do item. Este elemento é obrigatório.  <br/> |
+|[Updates (Item)](updates-item.md) <br/> |Contém uma matriz que define append, definir e excluir as alterações nas propriedades do item. Este elemento é obrigatório.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -77,7 +90,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Operação UpdateItem](updateitem-operation.md)
+- [Operação UpdateItem](updateitem-operation.md)
 

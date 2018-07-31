@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3645fa03-236d-4e5f-b8b9-5d98f7f35fa2
 description: O elemento SyncFolderId representa a pasta que contém os itens a serem sincronizados.
-ms.openlocfilehash: 45a4a62c7d269861555089019db259eacab26ef0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c90a20095ca4706f0c6edae3e98eaadd6024d817
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837683"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354397"
 ---
 # <a name="syncfolderid"></a>SyncFolderId
 
@@ -29,7 +29,14 @@ O elemento **SyncFolderId** representa a pasta que contém os itens a serem sinc
 </SyncFolderId>
 ```
 
- **TargetFolderIdType**
+```xml
+<SyncFolderId>
+   <DistinguishedFolderId/> 
+</SyncFolderId>
+```
+
+**TargetFolderIdType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -67,10 +74,6 @@ O esquema que descreve este elemento está localizado no diretório virtual EWS 
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Operação SyncFolderItems](syncfolderitems-operation.md)
-
-
+- [Operação SyncFolderItems](syncfolderitems-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

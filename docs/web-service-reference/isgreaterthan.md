@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: a6e9d462-cfa7-40ec-903e-128c95050352
 description: O elemento IsGreaterThan representa uma expressão de pesquisa que compara uma propriedade com a um valor de constante ou outra propriedade e retorna true se a primeira propriedade for maior.
-ms.openlocfilehash: f36ad646e6c2d415d14d4311a9971a56a85a3121
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dfa7c221bb04e59f1ae12eeb5b9f2e1f09aea3ce
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824031"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353487"
 ---
 # <a name="isgreaterthan"></a>IsGreaterThan
 
@@ -30,7 +30,22 @@ O elemento **IsGreaterThan** representa uma expressão de pesquisa que compara u
 </IsGreaterThan>
 ```
 
- **IsGreaterThanType**
+```xml
+<IsGreaterThan>
+   <IndexedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsGreaterThan>
+```
+
+```xml
+<IsGreaterThan>
+   <ExtendedFieldURI/>
+   <FieldURIOrConstant/>
+</IsGreaterThan>
+```
+
+**IsGreaterThanType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -71,8 +86,6 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Ver também
-
-
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

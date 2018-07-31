@@ -12,24 +12,21 @@ api_type:
 - schema
 ms.assetid: 48de92aa-e124-42b5-89bc-cdce5e93d78b
 description: O elemento ContextFolderId indica a pasta que está programada para ações que usam pastas. Este elemento deve estar presente quando copiar, excluir, mover e definindo o estado lido em itens da conversa em uma pasta de destino.
-ms.openlocfilehash: bd863d0395b9b9d7b437833acfb656fec4580985
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 94428a079be6da8873c777556771579a7110fb62
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751510"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354278"
 ---
 # <a name="contextfolderid"></a>ContextFolderId
 
 O elemento **ContextFolderId** indica a pasta que está programada para ações que usam pastas. Este elemento deve estar presente quando copiar, excluir, mover e definindo o estado lido em itens da conversa em uma pasta de destino. 
   
-[ApplyConversationAction](applyconversationaction.md)
-  
-[ConversationActions](conversationactions.md)
-  
-[ConversationAction](conversationaction.md)
-  
-[ContextFolderId](contextfolderid.md)
+- [ApplyConversationAction](applyconversationaction.md) 
+- [ConversationActions](conversationactions.md)
+- [ConversationAction](conversationaction.md)
+- [ContextFolderId](contextfolderid.md)
   
 ```XML
 <ContextFolderId>
@@ -37,7 +34,15 @@ O elemento **ContextFolderId** indica a pasta que está programada para ações 
 </ContextFolderId>
 ```
 
- **TargetFolderIdType**
+```XML
+<ContextFolderId>
+   <DistinguishedFolderId/>
+</ContextFolderId>
+```
+
+
+**TargetFolderIdType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -78,7 +83,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Operação ApplyConversationAction](applyconversationaction-operation.md)
+- [Operação ApplyConversationAction](applyconversationaction-operation.md)
 

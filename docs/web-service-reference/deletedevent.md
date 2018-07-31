@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c4565eb4-b537-466c-b1ff-11602533812b
 description: O elemento DeletedEvent representa um evento no qual uma pasta ou um item é excluída.
-ms.openlocfilehash: f06ca0727916f415c648e876f88bf7eacef5a5ff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5ddc909ffc9c74ea6b423610e915d5b9ff9bff43
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751737"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354404"
 ---
 # <a name="deletedevent"></a>DeletedEvent
 
@@ -28,6 +28,15 @@ O elemento **DeletedEvent** representa um evento no qual uma pasta ou um item é
    <Watermark/>
    <TimeStamp/>
    <ItemId/>
+   <ParentFolderId/>
+</DeletedEvent>
+```
+
+```xml
+<DeletedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
    <ParentFolderId/>
 </DeletedEvent>
 ```
@@ -46,8 +55,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Marca d'água](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio.  <br/> |
-|[Carimbo de hora](timestamp.md) <br/> |Representa o carimbo de hora de um evento de caixa de correio excluído item ou uma pasta.  <br/> |
+|[Watermark](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Representa o carimbo de hora de um evento de caixa de correio excluído item ou uma pasta.  <br/> |
 |[FolderId](folderid.md) <br/> |Representa o identificador da pasta excluído.  <br/> |
 |[ItemId](itemid.md) <br/> |Representa o identificador do item excluído.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Representa o identificador da pasta antes da exclusão ou a pasta pai do item excluído.  <br/> |

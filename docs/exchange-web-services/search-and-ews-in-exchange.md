@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9fa5b836-857e-401d-9450-51e7dbc69104
 description: Descubra como pesquisar por itens no Exchange usando a API gerenciada de EWS ou EWS.
-ms.openlocfilehash: da24258ba94b842fa97fff92148620344c939f05
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1a8ed6be71d88a02c4ef935864ca15888df90a38
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750956"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354054"
 ---
 # <a name="search-and-ews-in-exchange"></a>Pesquisa e EWS no Exchange
 
@@ -116,7 +116,7 @@ A definição de passagem no modo de exibição controla a profundidade e o esco
 |Raso  <br/> |Itens e pastas  <br/> |Pesquisas superficiais são limitadas para direcionar os filhos da pasta que estão sendo pesquisados.  <br/> |
 |Profundo  <br/> |Pastas e itens (somente com pastas de pesquisa)  <br/> |Pesquisas de profundidade recursivamente pesquisar a pasta que estão sendo pesquisados e as subpastas.  <br/> |
 |Associados  <br/> |Items  <br/> |Pesquisas associadas incluem apenas os itens associados da pasta que estão sendo pesquisados. Itens associados são itens ocultos dentro da pasta.  <br/> |
-|SoftDeleted  <br/> |Itens e pastas  <br/> |Esse tipo de passagem foi preterido. Pesquisas de SoftDeleted incluem apenas os itens que estão no dumpster. O dumpster foi substituída pela [pasta itens recuperáveis](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx(Office.15).aspx) no Exchange Online, o Exchange Online como parte do Office 365 e versões do Exchange, começando com o Exchange 2010.  <br/> |
+|SoftDeleted  <br/> |Itens e pastas  <br/> |Esse tipo de passagem foi preterido. Pesquisas de SoftDeleted incluem apenas os itens que estão no dumpster. O dumpster foi substituída pela [pasta itens recuperáveis](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder) no Exchange Online, o Exchange Online como parte do Office 365 e versões do Exchange, começando com o Exchange 2010.  <br/> |
    
 ## <a name="managing-search-results"></a>Gerenciando os resultados da pesquisa
 <a name="bk_ManageSearchResults"> </a>
@@ -188,7 +188,7 @@ static void CreateSearchFolder(ExchangeService service)
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
-- [Pasta itens recuperáveis](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx(Office.15).aspx)
+- [Pasta itens recuperáveis](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder)
     
 - [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 85284fcb-bd1e-4fda-9dab-cb4cd637cd5b
 description: O elemento SetItemField representa uma atualização para uma única propriedade de um item em uma operação UpdateItem.
-ms.openlocfilehash: 012e6ae21af653b4bf12588e5a97334a62884059
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bd3e5bca3d61325ef3f218c5ada535346247f391
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825439"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353795"
 ---
 # <a name="setitemfield"></a>SetItemField
 
@@ -30,7 +30,212 @@ O elemento **SetItemField** representa uma atualização para uma única proprie
 </SetItemField>
 ```
 
- **SetItemFieldType**
+```xml
+<SetItemField>
+   <ExtendedFieldURI/> 
+   <Item/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <ExtendedFieldURI/> 
+   <MeetingRequest/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <ExtendedFieldURI/> 
+   <MeetingResponse/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <IndexedFieldURI/> 
+   <Contact/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <IndexedFieldURI/> 
+   <DistributionList/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <IndexedFieldURI/> 
+   <MeetingResponse/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <FieldURI/> 
+   <MeetingResponse/> 
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <FieldURI/> 
+   <MeetingRequest/> 
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <FieldURI/> 
+   <Contact/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <IndexedFieldURI/> 
+   <Message/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <ExtendedFieldURI/> 
+   <CalendarItem/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <ExtendedFieldURI/> 
+   <Task/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <ExtendedFieldURI/> 
+   <Message/> 
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <FieldURI/> 
+   <MeetingCancellation/> 
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <FieldURI/> 
+   <Task/> 
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <IndexedFieldURI/> 
+   <MeetingRequest/>  
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+    <FieldURI/> 
+    <CalendarItem/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+    <IndexedFieldURI/> 
+    <Item/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <ExtendedFieldURI/> 
+   <MeetingCancellation/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <FieldURI/> 
+   <DistributionList/> 
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <IndexedFieldURI/> 
+   <MeetingCancellation/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <ExtendedFieldURI/> 
+   <MeetingMessage/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <IndexedFieldURI/> 
+   <Task/> 
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <IndexedFieldURI/> 
+   <CalendarItem/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <FieldURI/> 
+   <MeetingMessage/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <IndexedFieldURI/> 
+   <MeetingMessage/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <FieldURI/> 
+   <Message/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <ExtendedFieldURI/> 
+   <DistributionList/>
+</SetItemField>
+```
+
+```xml
+<SetItemField>
+   <ExtendedFieldURI/> 
+   <Contact/> 
+</SetItemField>
+```
+
+
+**SetItemFieldType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -61,7 +266,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Atualizações (Item)](updates-item.md) <br/> |Contém um conjunto de elementos que definem append, definir e excluir as alterações nas propriedades do item.  <br/> |
+|[Updates (Item)](updates-item.md) <br/> |Contém um conjunto de elementos que definem append, definir e excluir as alterações nas propriedades do item.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -78,7 +283,5 @@ O esquema que descreve este elemento está localizado no diretório virtual EWS 
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Operação UpdateItem](updateitem-operation.md)
+- [Operação UpdateItem](updateitem-operation.md)
 

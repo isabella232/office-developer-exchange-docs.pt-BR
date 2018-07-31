@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4771668f-5623-4397-a5c0-b75a7ba01698
 description: Aprenda a mover e copiar mensagens de email usando a API gerenciada de EWS ou EWS no Exchange.
-ms.openlocfilehash: 16f0604a16785c34dd04bdabedeedd331668a479
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 44d5834176b55ad041befbad2230b8b507a12ecc
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750792"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353466"
 ---
 # <a name="move-and-copy-email-messages-by-using-ews-in-exchange"></a>Mover e copiar mensagens de email usando o EWS no Exchange
 
@@ -28,7 +28,7 @@ Você pode usar a API gerenciada de EWS ou EWS mover e copiar mensagens de email
    
 É importante observar que, quando você move ou copia uma mensagem de email em uma pasta diferente, um novo item for criado na nova pasta com uma ID exclusiva de item, e a mensagem original é excluída. Se você estiver movendo ou copiando uma mensagem de email entre as duas pastas na mesma caixa de correio, o novo item será retornado na resposta, que fornece acesso a ID do item novo. No entanto, se você estiver movendo ou copiando uma mensagem de email entre duas caixas de correio ou entre uma caixa de correio e uma pasta pública, o novo item não será retornado na resposta. Para acessar a mensagem movida nesse cenário, use o método de API gerenciada de EWS [FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) ou a operação de EWS [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) , [criar uma definição de propriedade estendida](properties-and-extended-properties-in-ews-in-exchange.md) para a propriedade [PidTagSearchKey](http://msdn.microsoft.com/en-us/library/cc839918.aspx) (0x300B0102), ou como criar e configurar um sinalizador estendido propriedade e, em seguida, procure a propriedade estendida personalizada na nova pasta. 
   
-Excluir uma mensagem de email é diferente de mover um item para a pasta Itens excluídos. Se você usar o método de API gerenciada de EWS [item](http://msdn.microsoft.com/en-us/library/office/dd635072%28v=exchg.80%29.aspx) ou a operação de EWS [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) , o item especificado na solicitação é removido da pasta original e uma cópia é colocada na pasta Itens excluídos com uma nova ID de item. Ao contrário de quando você move ou copia qualquer item, o novo item não será retornado o método **Delete** ou a resposta de operação **DeleteItem** . As etapas envolvidas na [exclusão de um email usando a API gerenciada de EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteewsma) ou [EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteews) são os mesmos para excluir qualquer item genérica do armazenamento do Exchange. 
+Excluir uma mensagem de email é diferente de mover um item para a pasta Itens excluídos. Se você usar o método de API gerenciada de EWS [item](http://msdn.microsoft.com/en-us/library/office/dd635072%28v=exchg.80%29.aspx) ou a operação de EWS [DeleteItem](../web-service-reference/deleteitem-operation.md) , o item especificado na solicitação é removido da pasta original e uma cópia é colocada na pasta Itens excluídos com uma nova ID de item. Ao contrário de quando você move ou copia qualquer item, o novo item não será retornado o método **Delete** ou a resposta de operação **DeleteItem** . As etapas envolvidas na [exclusão de um email usando a API gerenciada de EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteewsma) ou [EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteews) são os mesmos para excluir qualquer item genérica do armazenamento do Exchange. 
   
 ## <a name="move-an-email-message-by-using-the-ews-managed-api"></a>Mover uma mensagem de email usando a API gerenciada de EWS
 <a name="bk_moveewsma"> </a>

@@ -1,19 +1,19 @@
 ---
-title: Atualizar informações de configuração usando a descoberta automática
+title: Atualizar informações de configuração usando a Descoberta Automática
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c2f3c6a5-e8ea-4375-b41a-686a6f238d33
 description: Saiba como e quando atualizar informações de configuração de sua conexão do Exchange usando a descoberta automática.
-ms.openlocfilehash: ef3b61781cbafa6e7b873336a050c0b8c33a28ec
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 764909fbe5e4cd62ba6e05bfa4b2c417ef41a9ae
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750838"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353053"
 ---
-# <a name="refresh-configuration-information-by-using-autodiscover"></a>Atualizar informações de configuração usando a descoberta automática
+# <a name="refresh-configuration-information-by-using-autodiscover"></a>Atualizar informações de configuração usando a Descoberta Automática
 
 Saiba como e quando atualizar informações de configuração de sua conexão do Exchange usando a descoberta automática.
   
@@ -67,12 +67,12 @@ Atualizar suas informações de configuração de cache pode ajudar com alguns e
 |:-----|:-----|:-----|
 |Erros de falha de DNS ou de rede<br/><br/> Exemplo: O nome do Host não pôde ser encontrado.  <br/> |[ServiceRemoteException](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ServiceRemoteException.aspx) <br/> |Qualquer erro que indica que o servidor não pôde ser encontrado ou não pôde ser alcançado pode ser resolvido pela tentativa de descoberta automática. <br/><br/> Talvez seu ponto de extremidade do EWS cache deixará de ser válido e descoberta automática pode ser capaz de ponto você para o novo servidor.  <br/> |
 |Erros de status HTTP<br/><br/> Exemplo: 503 serviço não disponível  <br/> |[ServiceRemoteException](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ServiceRemoteException.aspx) <br/> |Erros de status HTTP podem acontecer por vários motivos diferentes.<br/><br/> No entanto, é uma boa ideia para tentar a descoberta automática para ver se um novo ponto de extremidade do EWS está disponível para o usuário.  <br/> |
-|Códigos de erro EWS <br/><br/> Exemplo: ErrorConnectionFailed <br/> |[ResponseCodeType](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ResponseCodeType.aspx) <br/> | A maioria dos códigos de erro do EWS não garantem a atualizar suas informações de configuração.<br/><br/> No entanto, o seguinte especificamente indica que as informações de configuração precisam ser atualizado:<br/>- **ErrorConnectionFailed** <br/>- **ErrorMailboxMoveInProgress** <br/> |
+|Códigos de erro EWS <br/><br/> Exemplo: ErrorConnectionFailed <br/> |[ResponseCodeType](../web-service-reference/responsecode.md) <br/> | A maioria dos códigos de erro do EWS não garantem a atualizar suas informações de configuração.<br/><br/> No entanto, o seguinte especificamente indica que as informações de configuração precisam ser atualizado:<br/>- **ErrorConnectionFailed** <br/>- **ErrorMailboxMoveInProgress** <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 - [Descoberta Automática do Exchange](autodiscover-for-exchange.md)  
-- [Gerar uma lista de pontos de extremidade de descoberta automática](how-to-generate-a-list-of-autodiscover-endpoints.md)   
+- [Gerar uma lista de pontos de extremidade de Descoberta Automática](how-to-generate-a-list-of-autodiscover-endpoints.md)   
 - [Obter configurações de usuário do Exchange usando a descoberta automática](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 

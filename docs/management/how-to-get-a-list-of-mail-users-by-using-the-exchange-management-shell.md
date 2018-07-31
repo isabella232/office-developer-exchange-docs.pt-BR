@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b790dc8-5c4f-4acf-bbe7-63523395fbe7
 description: Saiba como usar cmdlets do Shell de gerenciamento do Exchange para criar uma ferramenta que retorna uma lista de usuários de caixa de correio do Exchange.
-ms.openlocfilehash: 6f64330a11e372bffbea2fcd88bcfa0231ec0f28
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e9493571e98760e5a11674db9a552111c1ec29b2
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750966"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353998"
 ---
 # <a name="get-a-list-of-mail-users-by-using-the-exchange-management-shell"></a>Obter uma lista de usuários de email usando o Shell de gerenciamento do Exchange
 
@@ -65,9 +65,9 @@ O exemplo de código a seguir define o método **GetUsersUsingBasicAuth** , que 
   
 Esse método requer os seguintes parâmetros:
   
--  **liveIDConnectionUri** &ndash; Uma cadeia de caracteres que contém o URI do servidor do Exchange Online que fará a autenticação do aplicativo. Se estiver executando o Exchange Online no Office 365, o URI é https://outlook.office365.com/PowerShell-LiveID; Caso contrário, o URI é https://\<nomedoservidor\>/PowerShell-LiveID. 
+-  **liveIDConnectionUri** &ndash; Uma cadeia de caracteres que contém o URI do servidor do Exchange Online que fará a autenticação do aplicativo. Se estiver executando o Exchange Online no Office 365, o URI é `https://outlook.office365.com/PowerShell-LiveID`; Caso contrário, o URI é `https://<servername>/PowerShell-LiveID`. 
     
--  **schemaUri** &ndash; Uma cadeia de caracteres que contém o URI do documento do esquema que define o esquema do Shell de gerenciamento do Exchange. O esquema URI é http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+-  **schemaUri** &ndash; Uma cadeia de caracteres que contém o URI do documento do esquema que define o esquema do Shell de gerenciamento do Exchange. O esquema URI é `http://schemas.microsoft.com/powershell/Microsoft.Exchange`. 
     
 -  **credenciais** &ndash; Um objeto [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) que contém as credenciais do usuário que está executando o aplicativo. 
     
@@ -253,7 +253,7 @@ O método **GetUserInformation** retornará não mais do que a _contagem de_ usu
   
 ## <a name="see-also"></a>Confira também
 
-- [Criar ferramentas do Shell de gerenciamento do Exchange](create-exchange-management-shell-tools.md)   
+- [Criar ferramentas do Shell de Gerenciamento do Exchange](create-exchange-management-shell-tools.md)   
 - [Use a resposta de cmdlet do Shell de gerenciamento do Exchange](how-to-use-the-exchange-management-shell-cmdlet-response.md)
     
 

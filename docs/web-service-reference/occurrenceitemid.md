@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4a15bbc3-5b93-4193-b9ec-da32f0a9a552
 description: O elemento OccurrenceItemId identifica uma única ocorrência de um item recorrente.
-ms.openlocfilehash: e3d7b6efc49775f54219ce0dc0ec39a34a95f8fd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 073639ecbca6ffda872e9253b7c7e44c3541f13b
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824639"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353459"
 ---
 # <a name="occurrenceitemid"></a>OccurrenceItemId
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b53ed47a-3d01-4c4e-ad32-fb0532872aad
 description: Conheça as classes do .NET Framework que você pode usar em seu Exchange 2013 agentes de transporte para ler, gravar e modificar as mensagens.
-ms.openlocfilehash: c2a5d764140b86ddec49d51ec969aab63eb34f19
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a39d6ecaeb837ce2760d762107e78aa8d4f09f7c
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751032"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354005"
 ---
 # <a name="reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline"></a>Lendo e modificando mensagens no pipeline de transporte do Exchange 2013
 
@@ -89,7 +89,7 @@ O namespace do iCalendar fornece um leitor somente de encaminhamento e gravador 
   
 As classes [CalendarReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.aspx) e [CalendarWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx) são usadas para ler e gravar dados de fluxo de iCalendar. 
   
-O CalendarReader leva um legíveis [Stream](https://msdn.microsoft.com/library/System.IO.Stream.aspx) como um argumento para seus construtores. Em seguida, você pode usar os métodos [ReadFirstChildComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx) , [ReadNextSiblingComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx) e [ReadNextComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx) sequencialmente acessem os componentes do iCalendar no fluxo de dados. Com base no valor que você definiu para a propriedade [ComplianceMode](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx) , erros no stream iCalendar fará com que uma exceção a ser lançada ou fará com que a propriedade [ComplianceStatus](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx) a ser definido como um valor diferente [compatível](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarComplianceStatus.Compliant.aspx) . Você pode verificar esta propriedade para descobrir algum problema com os dados recebidos do iCalendar. 
+O CalendarReader leva um legíveis [Stream](https://msdn.microsoft.com/library/System.IO.Stream.aspx) como um argumento para seus construtores. Em seguida, você pode usar os métodos [ReadFirstChildComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx), [ReadNextSiblingComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx)e [ReadNextComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx) sequencialmente acessem os componentes do iCalendar no fluxo de dados. Com base no valor que você definiu para a propriedade [ComplianceMode](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx) , erros no stream iCalendar fará com que uma exceção a ser lançada ou fará com que a propriedade [ComplianceStatus](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx) a ser definido como um valor diferente [compatível](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.contenttypes.icalendar.calendarcompliancestatus.aspx). Você pode verificar esta propriedade para descobrir algum problema com os dados recebidos do iCalendar. 
   
 A classe [CalendarWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx) tem um gravável [Stream](https://msdn.microsoft.com/library/System.IO.Stream.aspx) como um argumento para seus construtores. 
   
@@ -116,7 +116,7 @@ As classes [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Da
   
 A classe de [MimeDocument](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeDocument.aspx) encapsula DOM. As classes [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.aspx) e [MimeWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeWriter.aspx) representam computadores de estado. Sua alteração estados com base na entrada recebidas e os métodos de chamada. Ilustrações de 2 a 5 são diagramas de transição de estado simplificada que mostram, para o objeto [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.aspx) , quais métodos são válidos para chamar a partir de cada estado e o estado que resultarão. 
   
-Para usar esses diagramas, siga as setas de um estado para o próximo, observando as chamadas de método ou que causam o estado alterar valores de retorno. No primeiro diagrama, por exemplo, suponha que você está no início do fluxo ao qual pertence o MimeReader que você criou. Para obter o estado de cabeçalhos de parte, ligue para um dos [ReadNextPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadNextPart.aspx) ou [ReadFirstChildPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadFirstChildPart.aspx) , nesta ordem. Se houver cabeçalhos (ou seja, se o MIME é bem formado), você entrará no estado de cabeçalhos de parte. Caso contrário, uma exceção será lançada. 
+Para usar esses diagramas, siga as setas de um estado para o próximo, observando as chamadas de método ou que causam o estado alterar valores de retorno. No primeiro diagrama, por exemplo, suponha que você está no início do fluxo ao qual pertence o MimeReader que você criou. Para obter o estado de cabeçalhos de parte, ligue para um dos [ReadNextPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadNextPart.aspx) ou [ReadFirstChildPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadFirstChildPart.aspx), nesta ordem. Se houver cabeçalhos (ou seja, se o MIME é bem formado), você entrará no estado de cabeçalhos de parte. Caso contrário, uma exceção será lançada. 
   
 **Figura 2. Diagrama de transição do estado simplificado para objetos MimeReader**
 

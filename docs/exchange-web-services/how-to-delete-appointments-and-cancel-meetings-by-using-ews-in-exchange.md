@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 42412265-3968-468a-a8c2-7e8af3c6deb9
 description: Aprenda a excluir compromissos e reuniões usando o EWS Managed API ou o EWS no Exchange.
-ms.openlocfilehash: bd7eac803fedffc51133324259f68fd25652fcff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c71272bf753432a9f343adc917b444424fe3ba33
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750712"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354075"
 ---
 # <a name="delete-appointments-and-cancel-meetings-by-using-ews-in-exchange"></a>Excluir compromissos e cancelar reuniões usando o EWS no Exchange
 
@@ -23,13 +23,14 @@ A diferença essencial entre reuniões e compromissos é que reuniões possuem p
 
 |**Método API gerenciada de EWS**|**Operação de EWS**|**O que ele faz**|
 |:-----|:-----|:-----|
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |Exclui um compromisso.  <br/> |
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem (item de calendário)](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) <br/> |Exclui uma reunião.  <br/> |
+|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |Exclui um compromisso.  <br/> |
+|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem (item de calendário)](../web-service-reference/createitem-operation-calendar-item.md) <br/> |Exclui uma reunião.  <br/> |
    
-Observe que, quando você exclui um compromisso usando o EWS, você usar a operação [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) , mas quando você exclui uma reunião, use a operação [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) . Isso pode parecer contra-intuitivo, mas é porque você precisou para criar uma reunião mensagens de objeto de resposta para enviar o cancelamento da reunião aos participantes. 
-  
-## <a name="delete-an-appointment-by-using-the-ews-managed-api"></a>Excluir um compromisso usando a API gerenciada de EWS
+Observe que, quando você exclui um compromisso usando o EWS, você usar a operação [DeleteItem](../web-service-reference/deleteitem-operation.md) , mas quando você exclui uma reunião, use a operação [CreateItem](../web-service-reference/createitem-operation-calendar-item.md) . Isso pode parecer contra-intuitivo, mas é porque você precisou para criar uma reunião mensagens de objeto de resposta para enviar o cancelamento da reunião aos participantes. 
+
 <a name="bk_DeleteApptEWSMA"> </a>
+
+## <a name="delete-an-appointment-by-using-the-ews-managed-api"></a>Excluir um compromisso usando a API gerenciada de EWS
 
 O exemplo de código a seguir mostra como usar o método [Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) para excluir um compromisso da sua pasta de calendário e o método [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) para verificar que o compromisso foi excluído procurando por ela na pasta Itens excluídos. 
   
@@ -63,7 +64,7 @@ Como você pode ver, a exclusão de um compromisso é simples e praticamente o q
 
 A solicitação e a resposta XML nos exemplos a seguir correspondem às chamadas feitas pelo código API gerenciada de EWS em [Excluir um compromisso usando a API gerenciada de EWS](#bk_DeleteApptEWSMA). A solicitação e a resposta XML que verifica se o item de compromisso está na pasta Itens excluídos também é exibido.
   
-O exemplo a seguir mostra a solicitação de XML para a operação [DeleteItem](http://msdn.microsoft.com/library/e2152410-41ce-1fe7-8169-f206d5081ebc%28Office.15%29.aspx) excluir um compromisso. 
+O exemplo a seguir mostra a solicitação de XML para a operação [DeleteItem](../web-service-reference/deleteitem-operation.md) excluir um compromisso. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -86,7 +87,7 @@ O exemplo a seguir mostra a solicitação de XML para a operação [DeleteItem](
 
 ```
 
-O exemplo a seguir mostra a resposta XML retornada pela [operação DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx). Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+O exemplo a seguir mostra a resposta XML retornada pela operação de [DeleteItem](../web-service-reference/deleteitem-operation.md) . Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

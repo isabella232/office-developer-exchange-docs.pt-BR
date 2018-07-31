@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0e3e6e5f-06d0-499b-8ca4-d36036521658
 description: O elemento ParentFolderId identifica a pasta na qual uma nova pasta é criada ou a pasta para pesquisar a operação FindConversation.
-ms.openlocfilehash: 61072e1dd3321beb5f3b76d9accf20530b443796
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8e80b9b342274a8b2004838ebd16f8425a2d3fa3
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824686"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353823"
 ---
 # <a name="parentfolderid-targetfolderidtype"></a>ParentFolderId (TargetFolderIdType)
 
@@ -26,6 +26,12 @@ O elemento **ParentFolderId** identifica a pasta na qual uma nova pasta é criad
 ```xml
 <ParentFolderId>
    <DistinguishedFolderId/>
+</ParentFolderId>
+```
+
+```xml
+<ParentFolderId>
+   <FolderId/> 
 </ParentFolderId>
 ```
 

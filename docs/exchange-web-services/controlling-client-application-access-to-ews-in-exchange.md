@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 60ac3f7b-ba8a-4c93-99f7-c27002caff93
 description: Saiba mais sobre as opções para gerenciar o acesso do aplicativo cliente para o EWS.
-ms.openlocfilehash: 29a640178afc9814a0b2232225ae4307e49afed2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e3a0e07b733b4ebc070ab6b3fc73c8aec4b62785
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750648"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353060"
 ---
 # <a name="controlling-client-application-access-to-ews-in-exchange"></a>Controlando o acesso do aplicativo de cliente para o EWS no Exchange
 
@@ -34,7 +34,8 @@ O administrador do servidor de teste ou de produção pode configurar o controle
     
 Aplicativos são identificados pela cadeia de caracteres de agente de usuário que enviam na solicitação HTTP web.
   
-> [! Observação de segurança] nível de aplicativo não é um recurso de segurança de bloqueio. A cadeia de caracteres de agente do usuário é falsificada facilmente. Se um aplicativo tem acesso permitido ao EWS, o aplicativo deve ainda apresentar credenciais que o servidor autenticar antes que o aplicativo pode se conectar ao EWS. 
+> [!IMPORTANT]
+> Bloqueio de nível de aplicativo não é um recurso de segurança. A cadeia de caracteres de agente do usuário é falsificada facilmente. Se um aplicativo tem acesso permitido ao EWS, o aplicativo deve ainda apresentar credenciais que o servidor autenticar antes que o aplicativo pode se conectar ao EWS. 
   
 Os administradores também podem configurar o controle de acesso para proprietários de caixa de correio que se conectam ao EWS das seguintes maneiras: 
   
@@ -69,12 +70,9 @@ Para habilitar contas de representação, o administrador do servidor de teste o
 
 Os administradores usar os seguintes cmdlets do Shell de gerenciamento do Exchange para configurar os controles de acesso do EWS: 
   
-- [Get-CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)
-    
-- [Set-CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)
-    
-- [Get-OrganizationConfig.](http://technet.microsoft.com/en-us/library/aa997571.aspx)
-    
+- [Get-CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)   
+- [Set-CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)   
+- [Get-OrganizationConfig.](http://technet.microsoft.com/en-us/library/aa997571.aspx)   
 - [Set-OrganizationConfig.](http://technet.microsoft.com/en-us/library/aa997443.aspx)
     
 ## <a name="see-also"></a>Confira também
@@ -82,6 +80,6 @@ Os administradores usar os seguintes cmdlets do Shell de gerenciamento do Exchan
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)  
 - [Controlar o acesso a EWS no Exchange](how-to-control-access-to-ews-in-exchange.md)
 - [PowerShell do Exchange Server (Shell de gerenciamento do Exchange)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
-- [O Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
+- [Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
     
 

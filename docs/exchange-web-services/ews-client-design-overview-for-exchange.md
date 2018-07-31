@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b26f67aa-7c66-4d7d-98b3-746f26ab37f4
 description: Saiba mais sobre as considerações de design para o desenvolvimento com o EWS para Exchange.
-ms.openlocfilehash: ea0e1ad3f8402d19a6163f3320a2a17f08f3ea2a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 10e1c78bdd93dc5aede6e3f9337aa70b0214b770
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750663"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353900"
 ---
 # <a name="ews-client-design-overview-for-exchange"></a>Visão geral de design de cliente do EWS do Exchange
 
@@ -120,18 +120,12 @@ Para obter informações sobre os recursos que estão disponíveis em cada vers�
 ## <a name="in-this-section"></a>Nesta seção
 <a name="bk_inthissection"> </a>
 
-- [Disponibilidade de recursos do Web service API no Exchange e a API gerenciada de EWS](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)
-    
-- [Versões de esquema do EWS no Exchange](ews-schema-versions-in-exchange.md)
-    
-- [Opções de configuração para o EWS no Exchange](configuration-options-for-ews-in-exchange.md)
-    
-- [Comparando o Exchange Online e programação do cliente do Exchange local](comparing-exchange-online-and-exchange-on-premises-client-programming.md)
-    
-- [EWS limitação no Exchange](ews-throttling-in-exchange.md)
-    
-- [Requisitos de redistribuição para a API gerenciada de EWS](redistribution-requirements-for-the-ews-managed-api.md)
-    
+- [Disponibilidade de recursos do Web service API no Exchange e a API gerenciada de EWS](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)   
+- [Versões de esquema do EWS no Exchange](ews-schema-versions-in-exchange.md)  
+- [Opções de configuração para o EWS no Exchange](configuration-options-for-ews-in-exchange.md)  
+- [Comparar a programação de cliente do Exchange Online e do Exchange local](comparing-exchange-online-and-exchange-on-premises-client-programming.md)   
+- [EWS limitação no Exchange](ews-throttling-in-exchange.md)  
+- [Requisitos de redistribuição para a API Gerenciada do EWS](redistribution-requirements-for-the-ews-managed-api.md)  
 - [Instrumentação solicitações de clientes para o EWS e REST no Exchange](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
     
 ## <a name="see-also"></a>Confira também

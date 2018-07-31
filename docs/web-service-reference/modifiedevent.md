@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ca1309f4-2df7-4289-811c-75c3db0e7072
 description: O elemento ModifiedEvent representa um evento no qual um item ou pasta é modificada.
-ms.openlocfilehash: fb464fb0a270d8ca7d33d40e5425e260970b2f1e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2e9fb870396d49efb5cdf307a502b4111c2e507e
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824482"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353809"
 ---
 # <a name="modifiedevent"></a>ModifiedEvent
 
@@ -33,7 +33,18 @@ O elemento **ModifiedEvent** representa um evento no qual um item ou pasta é mo
 </ModifiedEvent>
 ```
 
- **ModifiedEventType**
+```xml
+<ModifiedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <ItemId/> 
+   <ParentFolderId/>
+   <UnreadCount/>
+</ModifiedEvent>
+```
+
+**ModifiedEventType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -46,8 +57,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Marca d'água](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio.  <br/> |
-|[Carimbo de hora](timestamp.md) <br/> |Representa o carimbo de hora de um evento de caixa de correio de item ou pasta modificado.  <br/> |
+|[Watermark](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Representa o carimbo de hora de um evento de caixa de correio de item ou pasta modificado.  <br/> |
 |[FolderId](folderid.md) <br/> |Representa o identificador da pasta modificada.  <br/> |
 |[ItemId](itemid.md) <br/> |Representa o identificador do item modificado.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Representa o identificador da pasta pai da pasta ou item modificado.  <br/> |
@@ -76,11 +87,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Inscrever-se a operação](subscribe-operation.md)
-  
-[Operação GetEvents](getevents-operation.md)
-  
-[Cancelar a operação](unsubscribe-operation.md)
+- [Inscrever-se a operação](subscribe-operation.md)  
+- [Operação GetEvents](getevents-operation.md)  
+- [Cancelar a operação](unsubscribe-operation.md)
 

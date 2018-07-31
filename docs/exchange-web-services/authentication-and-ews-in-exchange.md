@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9a83df96-aca0-42b3-b8f5-2b414f0363f1
 description: Encontre informações para ajudá-lo a escolher o padrão de autenticação correto para seu aplicativo do EWS que tem como destino o Exchange.
-ms.openlocfilehash: c81b29cbe9aa3c658a8f776876366fd0875b2669
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a4aae4678f1d6ffa5c08350f0bcccce5a4885f20
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750646"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353662"
 ---
 # <a name="authentication-and-ews-in-exchange"></a>Autenticação e EWS no Exchange
 
@@ -41,13 +41,13 @@ Recomendamos que todos os novos aplicativos usam o padrão de OAuth para conecta
 |:-----|:-----|
 | OAuth é um protocolo de autenticação padrão do setor.<br/><br/>Autenticação é gerenciada por um provedor de terceiros. Não tem seu aplicativo coletar e armazenar as credenciais do Exchange.<br/><br/>Menos preocupações para você, como seu aplicativo só recebe um token de opaco do provedor de autenticação; Portanto, uma violação de segurança em seu aplicativo só pode expor o token, não as credenciais do usuário Exchange.  <br/> | OAuth depende de um provedor de autenticação de terceiros. Isso pode impor custo adicional em sua organização ou seus clientes.<br/><br/>O padrão de OAuth é mais difícil de implementar do que a autenticação básica.<br/><br/>Para implementar o OAuth, você precisa integrar seu aplicativo com o provedor de autenticação e o servidor Exchange.  <br/> |
    
-Para ajudar a minimizar as desvantagens, você pode usar a [Biblioteca de autenticação do Microsoft Azure AD](http://msdn.microsoft.com/library/a03f39fa-7ba4-4182-a98e-55562a64b8f3%28Office.15%29.aspx) (ADAL) para autenticar usuários aos serviços de domínio Active Directory (AD DS) na nuvem ou no local e, em seguida, obter tokens de acesso para proteger as chamadas para um Servidor do Exchange. O Exchange Online requer tokens emitidos pelo serviço do Windows Azure Active Directory, que é compatível com o ADAL; No entanto, você pode usar qualquer biblioteca de terceiros. 
+Para ajudar a minimizar as desvantagens, você pode usar a [Biblioteca de autenticação do Microsoft Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries) (ADAL) para autenticar usuários aos serviços de domínio Active Directory (AD DS) na nuvem ou no local e, em seguida, obter tokens de acesso para proteger as chamadas para um Servidor do Exchange. O Exchange Online requer tokens emitidos pelo serviço do Windows Azure Active Directory, que é compatível com o ADAL; No entanto, você pode usar qualquer biblioteca de terceiros. 
   
 Para saber mais sobre como usar a autenticação OAuth no seu aplicativo do EWS, consulte os seguintes recursos:
   
-- [Avaliação do office 365](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx?CR_CC=200061904&amp;WT.srch=1&amp;WT.mc_ID=PS_bing_O365Comm_office%20365%20trial_Text), para configurar um servidor Exchange para usar para testar seu aplicativo cliente.
+- [Avaliação do office 365](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program), para configurar um servidor Exchange para usar para testar seu aplicativo cliente.
     
-- [Biblioteca de Autenticação do Azure AD para .NET](http://msdn.microsoft.com/library/a03f39fa-7ba4-4182-a98e-55562a64b8f3%28Office.15%29.aspx)
+- [Biblioteca de Autenticação do Azure AD para .NET](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries)
     
 - [Configurar o Azure Active Directory](http://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx), para habilitar o aplicativo para usar os tokens OAuth para autenticação.
     

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fe08c2e3-92a0-43ec-bc61-69b14caee8fe
 description: Saiba mais sobre os diferentes tipos de grupos de distribuição que estão disponíveis no Exchange e como você pode gerenciá-los em sua API gerenciada de EWS ou aplicativos do EWS.
-ms.openlocfilehash: 9b54bfd75f7d68f08c767171d99251b5ce86b7c4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 725b02c69f004a58c7216763d3c44f1e9d2df2ab
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750661"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353956"
 ---
 # <a name="distribution-groups-and-ews-in-exchange"></a>Grupos de distribuição e EWS no Exchange
 
@@ -30,23 +30,26 @@ O Exchange oferece suporte a três tipos de grupos de distribuição:
 - [Grupos de contatos](distribution-groups-and-ews-in-exchange.md#bk_ContactGroup) — os grupos de distribuição privada que estão localizados na caixa de correio do usuário. 
     
 O tipo de grupo de distribuição que você escolher dependerá de onde você planeja armazenar o grupo de distribuição que irá usá-lo, e o que ele será usado.
-  
-### <a name="universal-distribution-groups"></a>Grupos de distribuição universal
+
 <a name="bk_DistributionGroup"> </a>
+
+### <a name="universal-distribution-groups"></a>Grupos de distribuição universal
 
 Você pode usar grupos de distribuição universal para consolidar grupos de destinatários em um único endereço de email ou alias. Como os grupos de distribuição universal são armazenados no AD DS, qualquer pessoa pode usá-los para enviar email, incluindo usuários fora da sua organização. Você pode usar a API gerenciada de EWS ou o EWS para expandir um grupo de distribuição, mas para criar e gerenciar grupos de distribuição, você precisará usar [os cmdlets do Shell de gerenciamento do Exchange](#bk_UsingEMS).
   
 Você também pode usar grupos de distribuição universal contenha uma coleção de salas; Por exemplo, para facilitar para os usuários a localizar uma sala de conferência para uma reunião. Os usuários podem adicionar uma lista de salas — um grupo de distribuição universal que contenha caixas de correio de recurso de sala — a uma solicitação de reunião para localizar uma sala disponível sem precisar adicionar cada sala individualmente.
   
 Você pode criar um grupo de distribuição universal estática que permanece o mesmo até atualizar a associação, ou você pode criar um grupo dinâmico de distribuição universal. Um grupo dinâmico de distribuição universal consultas objetos habilitados para email do Active Directory e cria a associação de grupo com base nos resultados. A associação ao grupo é recalculada sempre que uma mensagem de email é enviada ao grupo. 
-  
-### <a name="security-groups"></a>Grupos de segurança
+
 <a name="bk_SecurityGroup"> </a>
 
+### <a name="security-groups"></a>Grupos de segurança
+
 Grupos de distribuição universal e grupos de segurança são idênticos na maioria das formas. No entanto, ao contrário de grupos de distribuição universal, você pode usar grupos de segurança para atribuir permissões a recursos de rede no AD DS. É possível usar a API gerenciada de EWS ou o EWS para criar e gerenciar grupos de segurança; em vez disso, você pode usar [cmdlets do Shell de gerenciamento do Exchange](#bk_UsingEMS). Mas, assim como os grupos de distribuição universal, você pode usar a API gerenciada de EWS ou o EWS para expandir grupos de segurança.
-  
-### <a name="contact-groups"></a>Grupos de contatos
+
 <a name="bk_ContactGroup"> </a>
+
+### <a name="contact-groups"></a>Grupos de contatos
 
 Se você não deseja dar cada acesso administrativo do usuário para o servidor para criar grupos de distribuição, mas você deseja habilitá-los enviar uma única mensagem para um grande conjunto de pessoas, você pode fazer isso usando grupos de contatos. Um grupo de contatos não tem um endereço de email associado a ela e existe apenas na caixa de correio de um usuário. outros usuários não terão acesso a ele. Você pode [usar a API gerenciada de EWS ou o EWS para criar grupos de contatos](how-to-create-contact-groups-by-using-ews-in-exchange.md).
   
@@ -58,7 +61,7 @@ Você pode usar a API gerenciada de EWS ou o EWS para expandir um grupo de distr
 
 |**Método API gerenciada de EWS**|**Operação do EWS**|**Use para …**|
 |:-----|:-----|:-----|
-|Métodos da [classe ContactGroup](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contactgroup%28v=exchg.80%29.aspx)  <br/> |[CreatItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> |Crie um grupo de contatos no armazenamento do Exchange.  <br/> > [!NOTE]> Você não pode criar um grupo de distribuição universal ou grupo de segurança usando a API gerenciada de EWS ou EWS.           |
+|Métodos da [classe ContactGroup](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contactgroup%28v=exchg.80%29.aspx)  <br/> |[CreatItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> |Crie um grupo de contatos no armazenamento do Exchange.<br/><br/>**Observação**: você não pode criar um grupo de distribuição universal ou grupo de segurança usando a API gerenciada de EWS ou EWS.           |
 |[ExpandGroup](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.expandgroup%28v=exchg.80%29.aspx) <br/> |[ExpandDL](http://msdn.microsoft.com/library/1f7837e7-9eff-4e10-9577-c40f7ed6af94%28Office.15%29.aspx) <br/> |Recuperando uma lista de seus membros, expanda um grupo de distribuição universal, grupo de segurança ou grupo de contatos.  <br/> |
 |[FindItems](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |Procurar grupos de contatos na caixa de correio.  <br/> |
 |[GetRooms](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.getrooms%28v=exchg.80%29.aspx) <br/> |[GetRooms](http://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) <br/> |Recupere uma coleção de todas as salas de uma lista de salas especificado em uma organização. Uma lista de salas é um grupo de distribuição que contém apenas de caixas de correio de recurso de sala.  <br/> |
@@ -74,9 +77,10 @@ Você pode usar as informações retornadas pelo método o [ExpandGroup](http://
 |PublicGroup  <br/> |PublicDL  <br/> |Um grupo de distribuição contido no grupo que você acabou de ser expandido. Para obter uma lista completa dos membros, expanda também esse grupo.  <br/> |
 |ContactGroup  <br/> |PrivateDL  <br/> |Um grupo de contatos que está localizado na caixa de correio e só está disponível para os usuários daquela caixa de correio.  <br/> |
 |Contato  <br/> |Contato  <br/> |Um contato de banco de dados do Exchange ou o contato de email do Active Directory.  <br/> |
-   
-## <a name="managing-distribution-groups-by-using-the-exchange-management-shell"></a>Gerenciando grupos de distribuição usando o Shell de gerenciamento do Exchange
+
 <a name="bk_UsingEMS"> </a>
+
+## <a name="managing-distribution-groups-by-using-the-exchange-management-shell"></a>Gerenciando grupos de distribuição usando o Shell de gerenciamento do Exchange
 
 Você pode [usar os cmdlets do Shell de gerenciamento do Exchange](http://msdn.microsoft.com/en-us/library/ff326159%28v=exchg.140%29.aspx) para criar e gerenciar grupos de distribuição universal e grupos de segurança em seu código. 
   
@@ -101,19 +105,17 @@ Você pode [usar os cmdlets do Shell de gerenciamento do Exchange](http://msdn.m
 |[New-DynamicDistributionGroup](http://technet.microsoft.com/en-us/library/bb125127%28v=exchg.150%29.aspx) <br/> |Crie um grupo dinâmico de distribuição.  <br/> |
 |[Remove-DynamicDistributionGroup](http://technet.microsoft.com/en-us/library/bb125038%28v=exchg.150%29.aspx) <br/> |Exclua um grupo dinâmico de distribuição existente. Este cmdlet Remove o grupo dinâmico de distribuição do AD DS.  <br/> |
 |[Set-DynamicDistributionGroup](http://technet.microsoft.com/en-us/library/bb123796%28v=exchg.150%29.aspx) <br/> |Modifique as configurações de um grupo dinâmico de distribuição existente.  <br/> |
-   
-## <a name="in-this-section"></a>Nesta seção
+
 <a name="bk_UsingEMS"> </a>
 
-- [Criar grupos de contatos usando o EWS no Exchange](how-to-create-contact-groups-by-using-ews-in-exchange.md)
-    
+## <a name="in-this-section"></a>Nesta seção
+
+- [Criar grupos de contatos usando o EWS no Exchange](how-to-create-contact-groups-by-using-ews-in-exchange.md)   
 - [Expandir grupos de distribuição, usando o EWS no Exchange 2013](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
     
 ## <a name="see-also"></a>Confira também
 
-
-- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
-    
+- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)   
 - [Cmdlets do Shell de gerenciamento do chamada Exchange do código gerenciado](http://msdn.microsoft.com/en-us/library/ff326159%28v=exchg.140%29.aspx)
     
 

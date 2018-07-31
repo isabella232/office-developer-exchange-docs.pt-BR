@@ -1,5 +1,5 @@
 ---
-title: Padrão
+title: Standard
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: d598f0a6-e296-423f-8ce5-3da57cfd8189
 description: O elemento padrão representa a data e hora de quando o tempo é alterado de horário de verão para a hora padrão.
-ms.openlocfilehash: 1c9be4cf35773583078bc8e16ddf44433d3ad98c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c121e959f243d982cfe50ed6b4ef39a82dae2cc8
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825536"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353431"
 ---
-# <a name="standard"></a>Padrão
+# <a name="standard"></a>Standard
 
 O elemento **padrão** representa a data e hora de quando o tempo é alterado de horário de verão para a hora padrão. 
   
@@ -31,7 +31,16 @@ O elemento **padrão** representa a data e hora de quando o tempo é alterado de
 </Standard>
 ```
 
- **TimeChangeType**
+```xml
+<Standard TimeZoneName="">
+   <Offset/>
+   <AbsoluteDate/>
+   <Time/>
+</Standard>
+```
+
+**TimeChangeType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -49,7 +58,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |[Offset](offset.md) <br/> |Descreve o deslocamento, desde o [BaseOffset](baseoffset.md). Em conjunto com o elemento **BaseOffset** , o elemento de **deslocamento** identifica se o tempo é a hora padrão ou o horário de verão.  <br/> |
 |[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Descreve um padrão de recorrência anual relativa para uma data de transição do fuso horário.  <br/> |
 |[AbsoluteDate](absolutedate.md) <br/> |Representa a data quando o tempo é alterado de hora padrão ou o horário de verão.  <br/> |
-|[Tempo (TimeChangeType)](time-timechangetype.md) <br/> |Descreve o tempo quando o tempo é alterado entre o período padrão e o horário de verão.  <br/> |
+|[Time (TimeChangeType)](time-timechangetype.md) <br/> |Descreve o tempo quando o tempo é alterado entre o período padrão e o horário de verão.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -71,8 +80,6 @@ O esquema que descreve este elemento está localizado no diretório virtual EWS 
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Ver também
-
-
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 77d2d222-320b-4aab-88e4-934ef177f55c
 description: O elemento DestinationFolderId indica a pasta de destino para cópia e move ações.
-ms.openlocfilehash: 5fb6cae7db9cdb09e23b3627e26e695ecf6418f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bfbacb9c82a681c7963ab5164c43cbb648e726cd
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751790"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353375"
 ---
 # <a name="destinationfolderid"></a>DestinationFolderId
 
@@ -34,7 +34,14 @@ O elemento **DestinationFolderId** indica a pasta de destino para cópia e move 
 </DestinationFolderId>
 ```
 
- **TargetFolderIdType**
+```XML
+<DestinationFolderId>
+   <DistinguishedFolderId/>
+</DestinationFolderId>
+```
+
+**TargetFolderIdType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.

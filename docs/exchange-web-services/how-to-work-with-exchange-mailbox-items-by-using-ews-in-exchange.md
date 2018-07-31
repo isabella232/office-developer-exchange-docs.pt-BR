@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 721deb84-f85d-45d0-84c1-0ed55f359969
 description: Saiba como criar, obter, atualizar e excluir itens usando a API gerenciada de EWS ou EWS no Exchange.
-ms.openlocfilehash: e70ac499da57faa60b4bcb6082648b23d1a7e791
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a40cd7ae682c1fb0a8d2f9cfcb10d99d4ab08052
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750850"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353963"
 ---
 # <a name="work-with-exchange-mailbox-items-by-using-ews-in-exchange"></a>Trabalhar com itens de caixa de correio do Exchange usando o EWS no Exchange
 
@@ -28,7 +28,7 @@ Por exemplo, você não pode usar um item genérico para recuperar um item que c
 |Criar um item genérico  <br/> |Nenhum. Você só pode criar tipos de item específico usando a API gerenciada de EWS; não é possível criar itens genéricos.  <br/> |[CreateItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> |
 |Obtenha um item  <br/> |[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> |
 |Atualização de um item  <br/> |[Item.Update](http://msdn.microsoft.com/en-us/library/office/dd635915%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Excluir um item  <br/> |[Item](http://msdn.microsoft.com/en-us/library/office/dd635072%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|Excluir um item  <br/> |[Item](http://msdn.microsoft.com/en-us/library/office/dd635072%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 Neste artigo, você saberá quando você pode usar a classe base genérica e quando você precisa usar um item fortemente tipado para concluir a tarefa. Os exemplos de código mostra como usar a classe base e o que fazer quando você não pode usar a classe base ou ele não atender às suas necessidades.
   
@@ -379,7 +379,7 @@ Para obter mais detalhes sobre a exclusão de itens, consulte [Excluindo itens u
 ## <a name="delete-an-item-by-using-ews"></a>Excluir um item usando o EWS
 <a name="bk_deleteews"> </a>
 
-Você pode excluir um item usando a operação [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) . 
+Você pode excluir um item usando a operação [DeleteItem](../web-service-reference/deleteitem-operation.md) . 
   
 O exemplo a seguir mostra a solicitação XML que será enviada para o servidor para mover a mensagem de email para a pasta Itens excluídos. Os valores de alguns atributos e elementos foram diminuídos para melhorar a legibilidade.
   

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6947dd03-9727-4379-9b9d-42373fa120c7
 description: O elemento UserConfigurationName representa o nome de um objeto de configuração do usuário. O nome de objeto de configuração do usuário é o identificador de um objeto de configuração do usuário.
-ms.openlocfilehash: 40580343e92493c3d39b090371708269ec3274b9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 33b3fc316a06b8088eb20a71788a9e6a3394d0d4
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837972"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354299"
 ---
 # <a name="userconfigurationname"></a>UserConfigurationName
 
@@ -29,7 +29,14 @@ O elemento **UserConfigurationName** representa o nome de um objeto de configura
 </UserConfigurationName>
 ```
 
- **UserConfigurationNameType**
+```XML
+<UserConfigurationName Name="">
+   <DistinguishedFolderId/> 
+</UserConfigurationName>
+```
+
+**UserConfigurationNameType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -73,8 +80,6 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Ver também
-
-
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

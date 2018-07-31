@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 39b6b20b-e081-4347-9e15-9b8cf829fdf0
 description: Saiba mais sobre identificadores no Exchange e como você pode usá-los nos seus EWS Managed API e os aplicativos de EWS.
-ms.openlocfilehash: c09b54c8ec4f443a64f8222094ccf0a5e1f750e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fbf6d7756f73b1c5d345f3b34deeb7ea8a347986
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750679"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353970"
 ---
 # <a name="ews-identifiers-in-exchange"></a>Identificadores EWS no Exchange
 
@@ -40,7 +40,7 @@ Os identificadores de EWS são aplicáveis para o EWS Managed API também. Na AP
 |[ConversationId](http://msdn.microsoft.com/library/d5f1ddb3-9af3-4677-a6ba-111b304a951e%28Office.15%29.aspx) <br/> |O atributo **Id** contém o identificador para que esse item é parte da conversa.  <br/> |O atributo **Id** é igual a EwsId deste item.  <br/> |
 |[AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) <br/> |Fornece o identificador exclusivo do anexo. O atributo [RootItemId](http://msdn.microsoft.com/library/f613c705-17ce-48ce-aa64-4dc2cea25e31%28Office.15%29.aspx) contém o identificador exclusivo do item raiz repositório à qual o anexo está vinculado.  <br/> |Anexos podem ser outros itens no armazenamento do Exchange, caso em que o [AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) será o mesmo que o EwsId. Em todos os casos, o [RootItemId](http://msdn.microsoft.com/library/f613c705-17ce-48ce-aa64-4dc2cea25e31%28Office.15%29.aspx) é um EwsId porque ele faz referência a um item no repositório.  <br/> |
 |[PersonaId](http://msdn.microsoft.com/library/eec3a468-afd5-4d72-a61e-cd1964fb686c%28Office.15%29.aspx) <br/> |O atributo **Id** retorna uma string que contém o identificador da pessoa.  <br/> |O atributo **Id** é o mesmo que o EwsId para a pessoa.  <br/> |
-|[ID de contato](http://msdn.microsoft.com/library/86f66275-1e39-48ed-bd89-ac3bffc465a7%28Office.15%29.aspx) <br/> |O atributo **Id** retorna uma string que contém o identificador do contato.  <br/> |O atributo **Id** é o mesmo que o EwsId para o contato.  <br/> |
+|[ContactId](http://msdn.microsoft.com/library/86f66275-1e39-48ed-bd89-ac3bffc465a7%28Office.15%29.aspx) <br/> |O atributo **Id** retorna uma string que contém o identificador do contato.  <br/> |O atributo **Id** é o mesmo que o EwsId para o contato.  <br/> |
 |[GroupId](http://msdn.microsoft.com/library/656d9b9a-8a65-4a75-8466-5b0d96512dab%28Office.15%29.aspx) <br/> |O atributo **Id** retorna uma string que contém o identificador do grupo.  <br/> |O atributo **Id** é o mesmo que o EwsId para o grupo.  <br/> |
 |[AssociatedCalendarItemId](http://msdn.microsoft.com/library/5b29898c-ea59-4e6a-914c-c011ec754032%28Office.15%29.aspx) <br/> |O atributo **Id** identifica o item de calendário que está associado um [MeetingMessage](http://msdn.microsoft.com/library/c95956a8-7505-44b4-bea4-11d1f5182796%28Office.15%29.aspx), [MeetingRequest](http://msdn.microsoft.com/library/c44f8804-a355-473d-a837-48cc91617251%28Office.15%29.aspx), [MeetingResponse](http://msdn.microsoft.com/library/9f798e79-dafd-4d4d-9967-95fd8e5c0502%28Office.15%29.aspx)ou [MeetingCancellation](http://msdn.microsoft.com/library/a9c61f7f-2ecd-4b21-9dce-24d9f61aeeea%28Office.15%29.aspx).  <br/> |O atributo **Id** é o mesmo que o EwsId para o item de calendário.  <br/> |
 |[UserConfigurationProperties](http://msdn.microsoft.com/library/c143a6ec-62ad-4d48-b844-b1ad88054bc1%28Office.15%29.aspx) <br/> |O valor de **identificação** para esse elemento Especifica a propriedade identifier.  <br/> |Esse identificador não mapear diretamente para o EwsId desde que ele um identificador de propriedade e não um item.  <br/> |
@@ -121,19 +121,15 @@ Você pode usar o método ou a operação **ConvertId** para converter vários f
 |EwsLegacyId  <br/> |O EwsId que se aplica ao Exchange 2007.  <br/> |
 |EwsId  <br/> |O EwsId que se aplica ao Exchange Online e versões do Exchange, começando com o Exchange 2007 SP1.  <br/> |
 |StoreId  <br/> |O identificador do repositório do Exchange onde as pastas e itens são armazenados.  <br/> |
-|OwaId  <br/> |O identificador do Outlook Web App usado com o Outlook Web App no Exchange 2007 e Exchange 2010.  <br/> > [!NOTE]> Exchange Online e versões do Exchange, começando com o Exchange 2013 usam o EwsId para o Outlook Web App.           |
+|OwaId  <br/> |O identificador do Outlook Web App usado com o Outlook Web App no Exchange 2007 e Exchange 2010. <br/><br/>**Observação**: o Exchange Online e versões do Exchange, começando com o Exchange 2013 usam o EwsId para o Outlook Web App.           |
 |EntryId  <br/> |Um identificador MAPI que normalmente é conhecido como a propriedade **PR_ENTRYID** de uma mensagem MAPI.  <br/> |
 |HexEntryId  <br/> |Uma representação hexadecimal codificado da propriedade **PR_ENTRYID** que é usada para o identificador de evento de calendário de disponibilidade. Isso também é o formato do identificador que o Outlook usa.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
-
-- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
-    
-- [Operação ConvertId](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)
-    
-- [Enumeração ServiceError](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx)
-    
+- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)  
+- [Operação ConvertId](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)  
+- [Enumeração ServiceError](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx) 
 - [Excluindo itens usando o EWS no Exchange](deleting-items-by-using-ews-in-exchange.md)
     
 

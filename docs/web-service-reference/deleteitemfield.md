@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3893be6a-49a7-49f6-bf53-c7f819ec3f87
 description: O elemento DeleteItemField representa uma operação para excluir uma determinada propriedade de um item durante uma chamada de UpdateItem.
-ms.openlocfilehash: 2388bd10379211a31890b7c4f27920431ce444c8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 571227eece8f717c1bf5da27cfab8ae50dfe3572
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751754"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353879"
 ---
 # <a name="deleteitemfield"></a>DeleteItemField
 
@@ -26,7 +26,7 @@ O elemento **DeleteItemField** representa uma operação para excluir uma determ
 - [UpdateItem](updateitem.md)  
 - [ItemChanges](itemchanges.md) 
 - [ItemChange](itemchange.md) 
-- [Atualizações (Item)](updates-item.md) 
+- [Updates (Item)](updates-item.md) 
 - [DeleteItemField](deleteitemfield.md)
   
 ```xml
@@ -35,7 +35,20 @@ O elemento **DeleteItemField** representa uma operação para excluir uma determ
 </DeleteItemField>
 ```
 
- **DeleteItemFieldType**
+```xml
+<DeleteItemField>
+   <IndexedFieldURI/> 
+</DeleteItemField>
+```
+
+```xml
+<DeleteItemField>
+   <ExtendedFieldURI/>
+</DeleteItemField>
+```
+
+**DeleteItemFieldType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -56,7 +69,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Atualizações (Item)](updates-item.md) <br/> |Contém um conjunto de elementos que definem append, definir e excluir as alterações nas propriedades do item.  <br/><br/>Este é a expressão XPath para esse elemento:<br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[Updates (Item)](updates-item.md) <br/> |Contém um conjunto de elementos que definem append, definir e excluir as alterações nas propriedades do item.  <br/><br/>Este é a expressão XPath para esse elemento:<br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
 ## <a name="remarks"></a>Comentários
 

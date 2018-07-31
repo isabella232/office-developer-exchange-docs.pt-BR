@@ -12,22 +12,20 @@ api_type:
 - schema
 ms.assetid: 23279750-131b-4e1a-b7d1-be235c4e0891
 description: O elemento FolderChange representa uma coleção de alterações a serem realizadas em uma única pasta.
-ms.openlocfilehash: 3f8b42ff4ac88eaef53d1d4ec1d61212bc14b8c7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f25defa9974f7b5dd0c683c7657983741890d45d
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752331"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354327"
 ---
 # <a name="folderchange"></a>FolderChange
 
 O elemento **FolderChange** representa uma coleção de alterações a serem realizadas em uma única pasta. 
   
-[UpdateFolder](updatefolder.md)
-  
-[FolderChanges](folderchanges.md)
-  
-[FolderChange](folderchange.md)
+- [UpdateFolder](updatefolder.md) 
+- [FolderChanges](folderchanges.md) 
+- [FolderChange](folderchange.md)
   
 ```xml
 <FolderChange>
@@ -36,7 +34,15 @@ O elemento **FolderChange** representa uma coleção de alterações a serem rea
 </FolderChange>
 ```
 
- **FolderChangeType**
+```xml
+<FolderChange>
+   <DistinguishedFolderId/>
+   <Updates/>
+</FolderChange>
+```
+
+**FolderChangeType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -51,7 +57,7 @@ Nenhum.
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contém o identificador e alterar a chave de uma pasta a ser atualizado.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica as pastas de MicrosoftExchange Server 2007 que podem ser referidas por nome.  <br/> |
-|[Atualizações (pasta)](updates-folder.md) <br/> |Define o tipo de atualização que é executada em uma pasta que é identificada pela elemento o [FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) .  <br/> |
+|[Updates (Folder)](updates-folder.md) <br/> |Define o tipo de atualização que é executada em uma pasta que é identificada pela elemento o [FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -74,7 +80,5 @@ O esquema que descreve este elemento está localizado no diretório virtual EWS 
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Operação UpdateFolder](updatefolder-operation.md)
+- [Operação UpdateFolder](updatefolder-operation.md)
 

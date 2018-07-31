@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fb2952e2-cbfe-43ac-b746-f071faa7665c
 description: Saiba como criar, obter, atualizar ou excluir os lotes de itens de calendário em uma única chamada usando a API gerenciada de EWS ou EWS no Exchange.
-ms.openlocfilehash: 2c92b492d9b51d0a5ac3140af22e5527e7bf19be
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e18e74490b536c07e90c64f76f81c98b4eab6024
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750827"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353844"
 ---
 # <a name="process-calendar-items-in-batches-in-exchange"></a>Processar itens de calendário em lotes no Exchange
 
@@ -26,7 +26,7 @@ Você pode usar a API gerenciada de EWS ou torna o EWS para trabalhar com lotes 
 |Criar itens do calendário em lotes  <br/> |[CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
 |Obter itens de calendário em lotes  <br/> |[BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
 |Itens de calendário de atualização em lotes  <br/> |[UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Excluir itens de calendário em lotes  <br/> |[DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|Excluir itens de calendário em lotes  <br/> |[DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 Neste artigo, você aprenderá como concluir as tarefas básicas para lotes de itens de calendário usando o EWS Managed API ou o EWS.
   
@@ -698,7 +698,7 @@ Quando o método **DeleteItems** é chamado na segunda vez, nenhuma exceção é
 ## <a name="delete-calendar-items-in-batches-by-using-ews"></a>Excluir itens de calendário em lotes usando o EWS
 <a name="bk_deleteews"> </a>
 
-Você pode excluir itens de calendário em lotes, usando a operação [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) EWS, conforme mostrado no exemplo de código a seguir. Isso também é a solicitação XML que o EWS Managed API envia quando você usar a API gerenciada de EWS para [Excluir itens de calendário em lotes](#bk_deleteewsma). 
+Você pode excluir itens de calendário em lotes, usando a operação [DeleteItem](../web-service-reference/deleteitem-operation.md) EWS, conforme mostrado no exemplo de código a seguir. Isso também é a solicitação XML que o EWS Managed API envia quando você usar a API gerenciada de EWS para [Excluir itens de calendário em lotes](#bk_deleteewsma). 
   
 Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
   

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2550469b-6e5d-45a5-9ecc-090d1b409296
 description: O elemento IsLessThan representa uma expressão de pesquisa que compara uma propriedade com a um valor de constante ou outra propriedade e retorna true se a primeira propriedade for menor que o segundo.
-ms.openlocfilehash: 374bfc20b86f99923034f126c3fd1fe9480fdf67
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bec5a9f3e12d0f0aada64d5395bf2e0b4181f162
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824040"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353606"
 ---
 # <a name="islessthan"></a>IsLessThan
 
@@ -30,7 +30,22 @@ O elemento **IsLessThan** representa uma expressão de pesquisa que compara uma 
 </IsLessThan>
 ```
 
- **IsLessThanType**
+```xml
+<IsLessThan>
+   <IndexedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsLessThan>
+```
+
+```xml
+<IsLessThan>
+   <ExtendedFieldURI/>
+   <FieldURIOrConstant/>
+</IsLessThan>
+```
+
+**IsLessThanType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -71,8 +86,6 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Ver também
-
-
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

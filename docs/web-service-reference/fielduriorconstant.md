@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 89d7a87e-7c93-49b8-83ec-8798e08c1052
 description: O elemento FieldURIOrConstant representa uma propriedade ou um valor de constante a ser usado ao comparar com outra propriedade.
-ms.openlocfilehash: 5195feec2a314d9ec15dc4a25a7a014aded1696a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a24c2fa044e03d0ac6f900625e325600903df8d0
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752245"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354222"
 ---
 # <a name="fielduriorconstant"></a>FieldURIOrConstant
 
@@ -29,7 +29,26 @@ O elemento **FieldURIOrConstant** representa uma propriedade ou um valor de cons
 </FieldURIOrConstant>
 ```
 
- **FieldURIOrConstantType**
+```xml
+<FieldURIOrConstant>
+    <IndexedFieldURI/> 
+</FieldURIOrConstant>
+```
+
+```xml
+<FieldURIOrConstant>
+   <FieldURI/>
+</FieldURIOrConstant>
+```
+
+```xml
+<FieldURIOrConstant>
+   <ExtendedFieldURI/> 
+</FieldURIOrConstant>
+```
+
+**FieldURIOrConstantType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -66,8 +85,7 @@ O esquema que descreve este elemento está localizado no diretório virtual EWS 
 
 O exemplo XML a seguir mostra o elemento FieldURIOrConstant usado com uma constante e o URI do campo.
   
-```
-[xml]
+```xml
 <Restriction>
   <Or xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
     <IsEqualTo>
@@ -96,8 +114,6 @@ O exemplo XML a seguir mostra o elemento FieldURIOrConstant usado com uma consta
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Ver também
-
-
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

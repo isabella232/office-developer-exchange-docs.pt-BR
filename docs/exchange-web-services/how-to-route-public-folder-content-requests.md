@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 59d2f05e-90fb-471e-ac06-70becc15b295
 description: Todas as solicitações de informações de pasta pública que envolvem o conteúdo da pasta pública necessidade de ser roteado para a caixa de correio de pasta pública que contém o conteúdo da pasta de destino. Para rotear as solicitações para essa caixa de correio, você precisará definir os cabeçalhos X-AnchorMailbox e X-PublicFolderMailbox para valores específicos.
-ms.openlocfilehash: ad36c1526a24d815ec690879d633774d429ed36c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 64fafecb9882b17a3394e54640df78f7aa180343
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750833"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354019"
 ---
 # <a name="route-public-folder-content-requests"></a>Rotear as solicitações de conteúdo de pasta pública
 
@@ -23,15 +23,17 @@ A tabela a seguir fornece uma visão geral do processo:
 
 |Cabeçalho|O que é necessário?|Como obtê-lo?|
 |:-----|:-----|:-----|
-|**X-AnchorMailbox** <br/> |1. [as X-AnchorMailbox e os valores de X-PublicFolderInformation](how-to-route-public-folder-hierarchy-requests.md) para a caixa de correio de hierarquia de pasta pública.<br/><br/>2. o GUID da caixa de correio de pasta pública que contém o conteúdo de caixa de correio, que é enviado para o serviço Descoberta automática.<br/><br/>  O **AutoDiscoverSMTPAddress** na resposta Autodisover torna-se o valor do cabeçalho **X-AnchorMailbox** .  <br/> ![TAREFAS PENDENTES](media/Ex15_PF_PFContent.png)| 1. use o exemplo de código neste artigo, que [implementa o EWS Managed API](#bk_determineguidewsma). Ou [use o EWS](#bk_determineguidews) e converter os resultados para obter um GUID.<br/><br/>2. [Verifique uma solicitação de descoberta automática](#bk_makeautodrequest) usando o GUID mais o nome de domínio.<br/><br/>3. use o valor do elemento **AutoDiscoverSMTPAddress** retornado na resposta da descoberta automática para [preencher o valor dos cabeçalhos](#bk_setheadervalues).  <br/> |
+|**X-AnchorMailbox** <br/> |1. [as X-AnchorMailbox e os valores de X-PublicFolderInformation](how-to-route-public-folder-hierarchy-requests.md) para a caixa de correio de hierarquia de pasta pública.<br/><br/>2. o GUID da caixa de correio de pasta pública que contém o conteúdo de caixa de correio, que é enviado para o serviço Descoberta automática.<br/><br/>  O **AutoDiscoverSMTPAddress** na resposta Autodisover torna-se o valor do cabeçalho **X-AnchorMailbox** .  <br/> ![TODO](media/Ex15_PF_PFContent.png)| 1. use o exemplo de código neste artigo, que [implementa o EWS Managed API](#bk_determineguidewsma). Ou [use o EWS](#bk_determineguidews) e converter os resultados para obter um GUID.<br/><br/>2. [Verifique uma solicitação de descoberta automática](#bk_makeautodrequest) usando o GUID mais o nome de domínio.<br/><br/>3. use o valor do elemento **AutoDiscoverSMTPAddress** retornado na resposta da descoberta automática para [preencher o valor dos cabeçalhos](#bk_setheadervalues).  <br/> |
 |**X-PublicFolderMailbox** <br/> |Seu trabalho é feito, o valor de X-PublicFolderMailbox é o mesmo que o valor X-AnchorMailbox!  <br/> |Você já possui!  <br/> |
    
 Após ter determinado os valores de cabeçalho, incluí-los [quando você faz solicitações de conteúdo de pasta pública](#bk_setheadervalues).
   
 As etapas neste artigo são específicas para solicitações de conteúdo de pasta pública. Para determinar se a sua solicitação é uma hierarquia de pasta pública ou a solicitação de conteúdo, consulte [Roteamento solicitações de pasta pública](public-folder-access-with-ews-in-exchange.md#bk_routing).
-  
-## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-the-ews-managed-api"></a>Determine o GUID da caixa de correio de pasta pública usando a API gerenciada de EWS
+
 <a name="bk_determineguidewsma"> </a>
+
+## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-the-ews-managed-api"></a>Determine o GUID da caixa de correio de pasta pública usando a API gerenciada de EWS
+
 
 Para determinar o GUID da caixa de correio de conteúdo de pasta pública, use o exemplo de código a seguir, que faz o seguinte: 
   
@@ -104,9 +106,10 @@ public static string CompareGuidsForEquality(List<string> list)
 Se você tiver recebido o erro "a solicitação falhou. A conexão subjacente foi fechada: não foi possível estabelecer relação de confiança para o canal seguro de SSL/TLS ", você precisará [Adicionar uma chamada para um método de retorno de chamada de validação](how-to-validate-a-server-certificate-for-the-ews-managed-api.md). Um espaço reservado e um comentário para esse método é incluído no exemplo de código.
   
 Se a caixa de correio GUID é o mesmo para todas as pastas públicas na raiz da pasta pública, o exemplo indica o endereço a ser usado ao [chamar a descoberta automática](#bk_makeautodrequest) no console de saída e como o valor de retorno. Se a GUID de caixa de correio não é o mesmo para todas as pastas públicas na raiz da pasta pública, será necessário fazer [uma solicitação de descoberta automática](#bk_makeautodrequest) no endereço associado com a pasta em sua solicitação de conteúdo. 
-  
-## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-ews"></a>Determine o GUID da caixa de correio de pasta pública usando o EWS
+
 <a name="bk_determineguidews"> </a>
+
+## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-ews"></a>Determine o GUID da caixa de correio de pasta pública usando o EWS
 
 O exemplo de código a seguir mostra como recupera o valor da propriedade **PR_REPLICA_LIST** (0x66980102) usando a operação de EWS [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) . Para o elemento [ExtendedFieldURI](http://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) , o atributo de **PropertyTag não** está definido como o valor decimal (26264) da propriedade **PR_REPLICA_LIST** e o atributo **PropertyType** estiver definido como **binário**.
   
@@ -194,7 +197,7 @@ Use o endereço retornado pelo `GetMailboxGuidAddress` método a ser chamado des
   
 |**Argumento**|**Descrição**|
 |:-----|:-----|
-|emailAddress  <br/> |O endereço retornado pelo `GetMailboxGuidAddress` método em [Determine o GUID da caixa de correio de pasta pública](http://msdn.microsoft.com/library/bk_determineguidewsma.aspx).  <br/> |
+|emailAddress  <br/> |O endereço retornado pelo `GetMailboxGuidAddress` método em [Determine o GUID da caixa de correio de pasta pública](#bk_determineguidewsma).  <br/> |
 |-skipSOAP  <br/> |Indica que as solicitações de descoberta automática de POX são necessárias.  <br/> |
 |-auth authEmailAddress  <br/> |Endereço de email do usuário da caixa de correio, que é usado para autenticação. Você será solicitado a inserir a senha do usuário da caixa de correio quando você executa o exemplo.  <br/> |
    
@@ -232,9 +235,9 @@ Por exemplo, dado um AutoDiscoverSMTPAddress de NewPublicFolder@contoso.com, inc
 
 **Chamadas de pasta pública que exigem os cabeçalhos X-AncorMailbox e X-PublicFolder**
 
-|**Métodos de API gerenciada de EWS**|**Operações de EWS**|
+|**Métodos de API gerenciada de EWS**|**Operações do EWS**|
 |:-----|:-----|
-|[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item.Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Item.Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
+|[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item.Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Item.Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
    
 Para adicionar esses cabeçalhos usando a API gerenciada de EWS, use o método [HttpHeaders.Add](http://msdn.microsoft.com/en-us/library/system.net.http.headers.httpheaders.add%28v=vs.118%29.aspx) . 
   
@@ -277,7 +280,7 @@ Expect: 100-continue
 
 - [Acessar pastas públicas com EWS no Exchange](public-folder-access-with-ews-in-exchange.md)    
 - [Descoberta Automática do Exchange](autodiscover-for-exchange.md)    
-- [Gerar uma lista de pontos de extremidade de descoberta automática](how-to-generate-a-list-of-autodiscover-endpoints.md)   
+- [Gerar uma lista de pontos de extremidade de Descoberta Automática](how-to-generate-a-list-of-autodiscover-endpoints.md)   
 - [Obter configurações de usuário do Exchange usando a descoberta automática](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 

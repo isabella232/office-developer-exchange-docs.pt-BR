@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f7624f5c-c390-4563-ab9a-08f1024fb914
 description: O elemento de FindItem define uma solicitação para localizar itens em uma caixa de correio.
-ms.openlocfilehash: 9831b034be7deb0cf6e756bb585bdbe34b370afd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6664cd91007f1d39db7e8d446e0135f47d5ab932
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752287"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353921"
 ---
 # <a name="finditem"></a>FindItem
 
@@ -35,7 +35,81 @@ O elemento de **FindItem** define uma solicitação para localizar itens em uma 
 </FindItem>
 ```
 
- **FindItemType**
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <IndexedPageItemView/>
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <ContactsView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <ContactsView/> 
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <CalendarView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <FractionalPageItemView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <FractionalPageItemView/>
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+
+**FindItemType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -61,7 +135,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |[ItemShape](itemshape.md) <br/> |Identifica as propriedades do item e o conteúdo a ser incluído em uma resposta de [operação FindItem](finditem-operation.md) .  <br/> |
 |[IndexedPageItemView](indexedpageitemview.md) <br/> |Descreve como paginados informações de item é retornada para uma solicitação de **FindItem** . Esse elemento é opcional.  <br/> |
 |[FractionalPageItemView](fractionalpageitemview.md) <br/> |Descreve o modo de exibição paginado inicia onde e o número máximo de itens retornados em uma solicitação de **FindItem** . O deslocamento do modo de exibição paginados desde o início do conjunto de itens encontrados descrito por uma fração. Esse elemento é opcional.  <br/> |
-|[Exibição de calendário](calendarview.md) <br/> |Fornece tempo span limites para definir uma pesquisa de itens de calendário. Esse elemento é opcional.  <br/> |
+|[CalendarView](calendarview.md) <br/> |Fornece tempo span limites para definir uma pesquisa de itens de calendário. Esse elemento é opcional.  <br/> |
 |[ContactsView](contactsview.md) <br/> |Define uma pesquisa de itens de contato, com base em nomes para exibição em ordem alfabética. Esse elemento é opcional.  <br/> |
 |[GroupBy](groupby.md) <br/> |Especifica agrupamentos arbitrários para consultas **FindItem** . Esse elemento é opcional.  <br/> |
 |[DistinguishedGroupBy](distinguishedgroupby.md) <br/> |Fornece agrupamentos padrão para consultas **FindItem** . Esse elemento é opcional.  <br/> |
@@ -91,10 +165,6 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
    
 ## <a name="see-also"></a>Ver também
 
-
-
-[Operação FindItem](finditem-operation.md)
-
-
-[Localizando itens](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Operação FindItem](finditem-operation.md)
+- [Localizando itens](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

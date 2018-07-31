@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d7bdb37-f7f1-409f-9749-f8bcde7dc52a
 description: Descubra como trabalhar com mensagens de email, incluindo como criar um email e como executar outras tarefas relacionadas ao email usando a API gerenciada de EWS ou EWS no Exchange.
-ms.openlocfilehash: d222be7409a3c3f4613a2be39b83b977fabb09e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2cd4613635bd2a5ecc061b50b0aecbdde1d32d46
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750654"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353669"
 ---
 # <a name="email-and-ews-in-exchange"></a>Email e EWS no Exchange
 
@@ -28,9 +28,9 @@ Da mesma forma, no EWS, use a operação [CreateItem](http://msdn.microsoft.com/
 |**Task**|**Método API gerenciada de EWS**|**Operação do EWS**|
 |:-----|:-----|:-----|
 |Criar  <br/> |[EmailMessage.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
-|Obter  <br/> |[EmailMessage.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
+|Get  <br/> |[EmailMessage.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
 |Atualizar  <br/> |[Item.Update](http://msdn.microsoft.com/en-us/library/dd635915%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Excluir  <br/> |[Item](http://msdn.microsoft.com/en-us/library/dd635072%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|Delete  <br/> |[Item](http://msdn.microsoft.com/en-us/library/dd635072%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 Como mensagens de email são simplesmente [fortemente tipadas itens](folders-and-items-in-ews-in-exchange.md#bk_item), em alguns casos você trabalhar com eles da mesma maneira que você [trabalhar com itens genéricos](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md). 
   

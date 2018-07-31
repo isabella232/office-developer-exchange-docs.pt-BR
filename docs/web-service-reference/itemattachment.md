@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 089ee599-f45e-46f5-a18a-5cfb3d2851ff
 description: O elemento ItemAttachment representa um item do Exchange que está anexado a outro item do Exchange.
-ms.openlocfilehash: 87e0331664f1fdf8857afc78500014d138f05401
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7bd3d22430fe04f1b28ae240102500609fe8d703
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824137"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353144"
 ---
 # <a name="itemattachment"></a>ItemAttachment
 
@@ -37,7 +37,120 @@ O elemento **ItemAttachment** representa um item do Exchange que está anexado a
 </ItemAttachment>
 ```
 
- **ItemAttachmentType**
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <Message/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <CalendarItem/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <Contact/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <Task/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingMessage/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingRequest/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingResponse/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingCancellation/>
+</ItemAttachment>
+```
+
+**ItemAttachmentType**
+
 ## <a name="attributes-and-elements"></a>Attributes and elements
 
 As seções a seguir descrevem os atributos e elementos filho elementos pai.
@@ -51,7 +164,7 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[AttachmentId](attachmentid.md) <br/> |Identifica o anexo.  <br/> |
-|[Nome (AttachmentType)](name-attachmenttype.md) <br/> |Representa o nome do anexo.  <br/> |
+|[Name (AttachmentType)](name-attachmenttype.md) <br/> |Representa o nome do anexo.  <br/> |
 |[ContentType](contenttype.md) <br/> |Descreve o tipo de email extensões MIME (Multipurpose Internet) do conteúdo do anexo.  <br/> |
 |[ContentId](contentid.md) <br/> |Representa um identificador para o conteúdo do anexo. [ContentId](contentid.md) pode ser definido como qualquer valor de cadeia de caracteres. Aplicativos podem usar [ContentId](contentid.md) implementar seus próprios mecanismos de identificação.  <br/> |
 |[ContentLocation](contentlocation.md) <br/> |Contém o identificador de URI (Uniform Resource) que corresponde ao local do conteúdo do anexo.  <br/> |
@@ -92,8 +205,6 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Ver também
-
-
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
