@@ -14,7 +14,7 @@ ms.assetid: 5584db5f-553a-47ce-85fb-f9902c9990ab
 description: O elemento Unsubscribe contém as propriedades usadas para cancelar uma assinatura.
 ms.openlocfilehash: bab797ff74a921e3e93c993229bc6d6d289e0c5c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19837867"
@@ -32,9 +32,9 @@ O elemento **Unsubscribe** contém as propriedades usadas para cancelar uma assi
 ```
 
  **UnsubscribeType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
@@ -54,7 +54,7 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
@@ -63,11 +63,11 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Inscrever-se a operação](subscribe-operation.md)
+[Operação Subscribe](subscribe-operation.md)
   
 [Operação GetEvents](getevents-operation.md)
   
