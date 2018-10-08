@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 29ded9e5-f191-4aa3-bc3e-500de2fc8818
 description: O elemento EventTypes contém uma coleção dos tipos de notificação de evento que são usados para criar uma assinatura.
-ms.openlocfilehash: f4c622376f6b607ed390511d7bb5f0f723889420
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7ea783dc0bf73abf992616b1f86c7621c5b36fc8
+ms.sourcegitcommit: 25cbbc6707e4ec0621c5c46baf7fe49be42d3297
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752106"
+ms.lasthandoff: 10/07/2018
+ms.locfileid: "25440834"
 ---
 # <a name="eventtypes"></a>EventTypes
 
@@ -30,9 +30,9 @@ O elemento **EventTypes** contém uma coleção dos tipos de notificação de ev
 ```
 
  **NonEmptyArrayOfNotificationEventTypesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
@@ -69,11 +69,11 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Inscrever-se a operação](subscribe-operation.md)
+[Operação Subscribe](subscribe-operation.md)
   
 [Operação GetEvents](getevents-operation.md)
   
