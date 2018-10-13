@@ -1,19 +1,19 @@
 ---
-title: Os suplementos do Outlook e o EWS no Exchange
+title: Suplementos do Outlook e EWS no Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 821c8eb9-bb58-42e8-9a3a-61ca635cba59
 description: Encontre informações sobre os suplementos do Outlook e como eles funcionam com o EWS no Exchange.
-ms.openlocfilehash: fc004108c7f31ea6475d61f4e2cd2289b13d27f5
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 7eae834fe0bb93e2e94f094e811ab6cf002fc71b
+ms.sourcegitcommit: 42eecc78e7aed7e95f73370d6c39ab8f4e96bf68
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353634"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25541635"
 ---
-# <a name="outlook-add-ins-and-ews-in-exchange"></a>Os suplementos do Outlook e o EWS no Exchange
+# <a name="outlook-add-ins-and-ews-in-exchange"></a>Suplementos do Outlook e EWS no Exchange
 
 Encontre informações sobre os suplementos do Outlook e como eles funcionam com o EWS no Exchange.
 
@@ -42,7 +42,7 @@ Você pode usar aplicativos de email para personalizar a experiência do Outlook
 
 Sua organização pode instalar aplicativos de email em um servidor interno para limitar o acesso aos usuários autorizados ou outros desenvolvedores de aplicativos de email e você podem colocar aplicativos de email no [Office Store](http://office.microsoft.com/store/) para venda para o público em geral. Qualquer pessoa que está executando o Outlook pode baixar, instalar e usar aplicativos de email no marketplace.
 
-Se você deseja saber mais sobre a criação de aplicativos de email, confira a [documentação de suplementos do Outlook](/outlook/add-ins/index.md) ou a amostra de [fazer uma solicitação EWS](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528) .
+Se você deseja saber mais sobre a criação de aplicativos de email, confira a [documentação de suplementos do Outlook](/outlook/add-ins) ou a amostra de [fazer uma solicitação EWS](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528) .
 
 ## <a name="ews-and-outlook-add-ins"></a>Suplementos EWS e Outlook
 
@@ -80,7 +80,7 @@ O token de retorno de chamada de serviço é um token de opaco que o serviço de
 - [Método Mailbox.makeEwsRequestAsync (API do JavaScript para Office)](http://msdn.microsoft.com/library/2ec380e0-4a67-4146-92a6-6a39f65dc6f2%28Office.15%29.aspx)
 
 - 
-  [Suplementos do Outlook](https://docs.microsoft.com/en-us/outlook/add-ins/)
+  [Suplementos do Outlook](https://docs.microsoft.com/outlook/add-ins)
 
 - [Método Mailbox.getUserIdentityTokenAsync (API do JavaScript para Office)](http://msdn.microsoft.com/library/c658518b-6867-41a0-99cf-810303e4c539%28Office.15%29.aspx)
 
