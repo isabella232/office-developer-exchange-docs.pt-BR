@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: f6bba68b-ae4f-41c1-b3e7-c8a31cdb1b0c
-description: O elemento ProcessRightAway indica se a resposta é enviada assim que a ação inicia o processamento no servidor ou se a resposta é enviada depois que a ação foi concluída. Este elemento deve estar presente para a resposta a ser enviado assíncrona para a ação solicitada.
-ms.openlocfilehash: 940f8e8fa0a53801ce1c3a45c3aecf1bdb6f519d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ProcessRightAway indica se a resposta é enviada assim que a ação começa o processamento no servidor ou se a resposta é enviada após a conclusão da ação. Esse elemento deve estar presente para que a resposta seja enviada de assíncrono para a ação solicitada.
+ms.openlocfilehash: 58d2b926c48db5e7395df64e1f8ee9d6a8f0e73c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824898"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44434068"
 ---
 # <a name="processrightaway"></a>ProcessRightAway
 
-O elemento **ProcessRightAway** indica se a resposta é enviada assim que a ação inicia o processamento no servidor ou se a resposta é enviada depois que a ação foi concluída. Este elemento deve estar presente para a resposta a ser enviado assíncrona para a ação solicitada. 
+O elemento **ProcessRightAway** indica se a resposta é enviada assim que a ação começa o processamento no servidor ou se a resposta é enviada após a conclusão da ação. Esse elemento deve estar presente para que a resposta seja enviada de assíncrono para a ação solicitada. 
   
 [ApplyConversationAction](applyconversationaction.md)
   
 [ConversationActions](conversationactions.md)
   
-[ConversationAction](conversationaction.md)
+[Conversation](conversationaction.md)
   
 [ProcessRightAway](processrightaway.md)
   
@@ -35,14 +35,14 @@ O elemento **ProcessRightAway** indica se a resposta é enviada assim que a aç�
 <ProcessRightAway/>
 ```
 
- **xs:Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **xs: Boolean**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,26 +52,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contém uma única ação a ser aplicado a uma única conversa.  <br/> |
+|[Conversation](conversationaction.md) <br/> |Contém uma única ação a ser aplicada a uma única conversa.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** indica que a resposta é enviada assim que a ação inicia o processamento no servidor. Um valor de texto de **false** indica que a resposta é enviada depois que a ação foi concluída. 
+Um valor **true** indica que a resposta é enviada assim que a ação começa o processamento no servidor. Um valor **false** indica que a resposta é enviada após a conclusão da ação. 
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

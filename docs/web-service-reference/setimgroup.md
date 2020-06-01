@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3c107b8d-714b-4cd5-ad1b-97b7cbcb90d6
-description: O elemento SetImGroup representa uma solicitação para alterar o nome de exibição de um grupo de mensagens instantâneo.
-ms.openlocfilehash: 67fd8188e3436d5042a2867fe54e673348cba807
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SetImGroup representa uma solicitação para alterar o nome de exibição de um grupo de mensagens instantâneas.
+ms.openlocfilehash: 96e93ef595720325448c343c193f25b846ba415e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825422"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44438065"
 ---
 # <a name="setimgroup"></a>SetImGroup
 
-O elemento **SetImGroup** representa uma solicitação para alterar o nome de exibição de um grupo de mensagens instantâneo. 
+O elemento **SetImGroup** representa uma solicitação para alterar o nome de exibição de um grupo de mensagens instantâneas. 
   
 ```XML
 <SetImGroup>
@@ -27,21 +27,21 @@ O elemento **SetImGroup** representa uma solicitação para alterar o nome de ex
 ```
 
  **SetImGroupType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[GroupId](groupid.md) | [NewDisplayName](newdisplayname.md)
+[GroupId](groupid.md)  |  [NewDisplayName](newdisplayname.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
@@ -49,11 +49,11 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||

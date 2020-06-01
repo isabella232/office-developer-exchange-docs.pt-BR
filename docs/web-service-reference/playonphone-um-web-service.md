@@ -1,5 +1,5 @@
 ---
-title: PlayOnPhone (serviço web de Unificação de mensagens)
+title: PlayOnPhone (serviço Web da UM)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 206a2ad1-a01d-4e71-99a1-90c2530423da
-description: O elemento de PlayOnPhone define uma solicitação para tocar um item em um telefone.
-ms.openlocfilehash: 7e5c1e25512a59d1ac3295b476fcc2b6b0f5a2b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento PlayOnPhone define uma solicitação para reproduzir um item em um telefone.
+ms.openlocfilehash: 9acbf9edbf4a889506558b24f5736a44d5015d3f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824825"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44434075"
 ---
-# <a name="playonphone-um-web-service"></a>PlayOnPhone (serviço web de Unificação de mensagens)
+# <a name="playonphone-um-web-service"></a>PlayOnPhone (serviço Web da UM)
 
-O elemento de **PlayOnPhone** define uma solicitação para tocar um item em um telefone. 
+O elemento **PlayOnPhone** define uma solicitação para reproduzir um item em um telefone. 
   
-[PlayOnPhone (serviço web de Unificação de mensagens)](playonphone-um-web-service.md)
+[PlayOnPhone (serviço Web da UM)](playonphone-um-web-service.md)
   
 ```xml
 <PlayOnPhone>
@@ -32,41 +32,41 @@ O elemento de **PlayOnPhone** define uma solicitação para tocar um item em um 
 ```
 
  **complexType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[entryId (serviço web de Unificação de mensagens)](entryid-um-web-service.md) <br/> |Contém o valor que representa o identificador do item para tocar no telefone em uma solicitação de [operação PlayOnPhone (serviço web de Unificação de mensagens)](playonphone-operation-um-web-service.md) .  <br/> |
-|[dialString (serviço web de Unificação de mensagens)](dialstring-um-web-service.md) <br/> |Contém o valor para o número de telefone discar.  <br/> |
+|[EntryID (serviço Web da UM)](entryid-um-web-service.md) <br/> |Contém o valor que representa o identificador do item a ser tocado no telefone em uma solicitação de [operação do PlayOnPhone (serviço Web da um)](playonphone-operation-um-web-service.md) .  <br/> |
+|[dialstring (serviço Web da UM)](dialstring-um-web-service.md) <br/> |Contém o valor do número de telefone a ser discado.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação de PlayOnPhone (serviço web de Unificação de mensagens)](playonphone-operation-um-web-service.md)
+[Operação PlayOnPhone (serviço Web da UM)](playonphone-operation-um-web-service.md)
 
