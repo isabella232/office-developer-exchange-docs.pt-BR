@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 75696436-997e-49f1-a31b-eb9a8c3526f3
-description: O elemento de solicitação contém as definições de configuração solicitado e os usuários de destino.
-ms.openlocfilehash: dfea33786066dd7803d0fd061cbb87bb06d11531
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Request contém as definições de configuração solicitadas e os usuários de destino.
+ms.openlocfilehash: 4358713d19e763b75d2a43f147385026f43b1255
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825125"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448986"
 ---
-# <a name="request-soap"></a><span data-ttu-id="c2cf6-103">Solicitação (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c2cf6-103">Request (SOAP)</span></span>
+# <a name="request-soap"></a><span data-ttu-id="83d98-103">Solicitação (SOAP)</span><span class="sxs-lookup"><span data-stu-id="83d98-103">Request (SOAP)</span></span>
 
-<span data-ttu-id="c2cf6-104">O elemento de **solicitação** contém as definições de configuração solicitado e os usuários de destino.</span><span class="sxs-lookup"><span data-stu-id="c2cf6-104">The **Request** element contains the requested configuration settings and the target users.</span></span> 
+<span data-ttu-id="83d98-104">O elemento **Request** contém as definições de configuração solicitadas e os usuários de destino.</span><span class="sxs-lookup"><span data-stu-id="83d98-104">The **Request** element contains the requested configuration settings and the target users.</span></span> 
   
 ```XML
 <Request>
@@ -28,45 +28,45 @@ ms.locfileid: "19825125"
 </Request>
 ```
 
- <span data-ttu-id="c2cf6-105">**GetUserSettingsRequest**</span><span class="sxs-lookup"><span data-stu-id="c2cf6-105">**GetUserSettingsRequest**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="c2cf6-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="c2cf6-106">Attributes and elements</span></span>
+ <span data-ttu-id="83d98-105">**GetUserSettingsRequest**</span><span class="sxs-lookup"><span data-stu-id="83d98-105">**GetUserSettingsRequest**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="83d98-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="83d98-106">Attributes and elements</span></span>
 
-<span data-ttu-id="c2cf6-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="c2cf6-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="83d98-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="83d98-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="c2cf6-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="c2cf6-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="83d98-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="83d98-108">Attributes</span></span>
 
-<span data-ttu-id="c2cf6-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="c2cf6-109">None.</span></span>
+<span data-ttu-id="83d98-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="83d98-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="c2cf6-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="c2cf6-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="83d98-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="83d98-110">Child elements</span></span>
 
-|<span data-ttu-id="c2cf6-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="c2cf6-111">**Element**</span></span>|<span data-ttu-id="c2cf6-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c2cf6-112">**Description**</span></span>|
+|<span data-ttu-id="83d98-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="83d98-111">**Element**</span></span>|<span data-ttu-id="83d98-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="83d98-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="c2cf6-113">Usuários (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c2cf6-113">Users (SOAP)</span></span>](users-soap.md) <br/> |<span data-ttu-id="c2cf6-114">Representa uma coleção de endereços de email dos usuários cujas configurações devem ser recuperadas.</span><span class="sxs-lookup"><span data-stu-id="c2cf6-114">Represents a collection of e-mail addresses of the users for whom settings should be retrieved.</span></span>  <br/> |
-|[<span data-ttu-id="c2cf6-115">RequestedSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c2cf6-115">RequestedSettings (SOAP)</span></span>](requestedsettings-soap.md) <br/> |<span data-ttu-id="c2cf6-116">Contém os nomes das definições de configuração solicitada.</span><span class="sxs-lookup"><span data-stu-id="c2cf6-116">Contains the names of the requested configuration settings.</span></span>  <br/> |
-|[<span data-ttu-id="c2cf6-117">RequestedVersion (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c2cf6-117">RequestedVersion (SOAP)</span></span>](requestedversion-soap.md) <br/> |<span data-ttu-id="c2cf6-118">Especifica a versão de servidor específico que o provedor gostaria de usar.</span><span class="sxs-lookup"><span data-stu-id="c2cf6-118">Specifies the specific server version that the provider would like to use.</span></span>  <br/> |
+|[<span data-ttu-id="83d98-113">Usuários (SOAP)</span><span class="sxs-lookup"><span data-stu-id="83d98-113">Users (SOAP)</span></span>](users-soap.md) <br/> |<span data-ttu-id="83d98-114">Representa uma coleção de endereços de email dos usuários para os quais as configurações devem ser recuperadas.</span><span class="sxs-lookup"><span data-stu-id="83d98-114">Represents a collection of e-mail addresses of the users for whom settings should be retrieved.</span></span>  <br/> |
+|[<span data-ttu-id="83d98-115">RequestedSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="83d98-115">RequestedSettings (SOAP)</span></span>](requestedsettings-soap.md) <br/> |<span data-ttu-id="83d98-116">Contém os nomes das definições de configuração solicitadas.</span><span class="sxs-lookup"><span data-stu-id="83d98-116">Contains the names of the requested configuration settings.</span></span>  <br/> |
+|[<span data-ttu-id="83d98-117">RequestedVersion (SOAP)</span><span class="sxs-lookup"><span data-stu-id="83d98-117">RequestedVersion (SOAP)</span></span>](requestedversion-soap.md) <br/> |<span data-ttu-id="83d98-118">Especifica a versão de servidor específica que o provedor gostaria de usar.</span><span class="sxs-lookup"><span data-stu-id="83d98-118">Specifies the specific server version that the provider would like to use.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="c2cf6-119">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="c2cf6-119">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="83d98-119">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="83d98-119">Parent elements</span></span>
 
-|<span data-ttu-id="c2cf6-120">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="c2cf6-120">**Element**</span></span>|<span data-ttu-id="c2cf6-121">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c2cf6-121">**Description**</span></span>|
+|<span data-ttu-id="83d98-120">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="83d98-120">**Element**</span></span>|<span data-ttu-id="83d98-121">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="83d98-121">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="c2cf6-122">GetUserSettingsRequestMessage (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c2cf6-122">GetUserSettingsRequestMessage (SOAP)</span></span>](getusersettingsrequestmessage-soap.md) <br/> |<span data-ttu-id="c2cf6-123">Representa uma solicitação de [operação GetUserSettings (SOAP)](getusersettings-operation-soap.md) .</span><span class="sxs-lookup"><span data-stu-id="c2cf6-123">Represents a [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md) request.</span></span>  <br/> |
+|[<span data-ttu-id="83d98-122">GetUserSettingsRequestMessage (SOAP)</span><span class="sxs-lookup"><span data-stu-id="83d98-122">GetUserSettingsRequestMessage (SOAP)</span></span>](getusersettingsrequestmessage-soap.md) <br/> |<span data-ttu-id="83d98-123">Representa uma solicitação de [operação de GetUserSettings (SOAP)](getusersettings-operation-soap.md) .</span><span class="sxs-lookup"><span data-stu-id="83d98-123">Represents a [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md) request.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="c2cf6-124">Text value</span><span class="sxs-lookup"><span data-stu-id="c2cf6-124">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="83d98-124">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="83d98-124">Text value</span></span>
 
-<span data-ttu-id="c2cf6-125">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="c2cf6-125">None.</span></span>
+<span data-ttu-id="83d98-125">Nenhum</span><span class="sxs-lookup"><span data-stu-id="83d98-125">None.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="c2cf6-126">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="c2cf6-126">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="83d98-126">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="83d98-126">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="c2cf6-127">Namespace</span><span class="sxs-lookup"><span data-stu-id="c2cf6-127">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="c2cf6-128">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="c2cf6-128">Schema Name</span></span>  <br/> |<span data-ttu-id="c2cf6-129">Esquema de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="c2cf6-129">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="c2cf6-130">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="c2cf6-130">Validation File</span></span>  <br/> |<span data-ttu-id="c2cf6-131">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="c2cf6-131">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="c2cf6-132">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="c2cf6-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="c2cf6-133">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="c2cf6-133">True</span></span>  <br/> |
+|<span data-ttu-id="83d98-127">Namespace</span><span class="sxs-lookup"><span data-stu-id="83d98-127">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="83d98-128">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="83d98-128">Schema Name</span></span>  <br/> |<span data-ttu-id="83d98-129">Esquema de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="83d98-129">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="83d98-130">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="83d98-130">Validation File</span></span>  <br/> |<span data-ttu-id="83d98-131">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="83d98-131">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="83d98-132">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="83d98-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="83d98-133">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="83d98-133">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="c2cf6-134">Ver também</span><span class="sxs-lookup"><span data-stu-id="c2cf6-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="83d98-134">Também consulte</span><span class="sxs-lookup"><span data-stu-id="83d98-134">See also</span></span>
 
 
 
-[<span data-ttu-id="c2cf6-135">Operação de GetUserSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c2cf6-135">GetUserSettings operation (SOAP)</span></span>](getusersettings-operation-soap.md)
+[<span data-ttu-id="83d98-135">Operação GetUserSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="83d98-135">GetUserSettings operation (SOAP)</span></span>](getusersettings-operation-soap.md)
 
