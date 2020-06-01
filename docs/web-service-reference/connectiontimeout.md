@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 14da68a0-bcca-4281-a774-47644baa4ee9
-description: O elemento ConnectionTimeout Especifica o número de minutos para manter uma conexão aberta.
-ms.openlocfilehash: 2bb40ba502853c70ef107c4c740fdfe7073abe31
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ConnectionTimeout especifica o número de minutos para manter uma conexão aberta.
+ms.openlocfilehash: 671e3cf5466ee8b3543036811708bd7f54afdcce
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751427"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463850"
 ---
 # <a name="connectiontimeout"></a>ConnectionTimeout
 
-O elemento **ConnectionTimeout** Especifica o número de minutos para manter uma conexão aberta. 
+O elemento **connectionTimeout** especifica o número de minutos para manter uma conexão aberta. 
   
 [Operação GetStreamingEvents](getstreamingevents-operation.md)
   
@@ -32,13 +32,13 @@ O elemento **ConnectionTimeout** Especifica o número de minutos para manter uma
 ```
 
  **int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,26 +48,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetStreamingEvents](getstreamingevents.md) <br/> |Define uma solicitação para obter notificações de evento a partir de uma conexão de streaming.  <br/> |
+|[GetStreamingEvents](getstreamingevents.md) <br/> |Define uma solicitação para obter notificações de eventos de uma conexão de streaming.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa um número inteiro que descreve o número máximo de minutos para manter uma conexão de streaming aberta. O valor deve estar entre 1 e 30, inclusive.
+O valor de texto representa um inteiro que descreve o número máximo de minutos para manter uma conexão de streaming aberta. O valor deve estar entre 1 e 30, inclusive.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 841d229c-140c-48bd-b3a7-21478fcea2fb
-description: O elemento MinimumSize representa o tamanho mínimo que uma mensagem deve ser em ordem para a condição ou uma exceção a ser aplicado.
-ms.openlocfilehash: 4f80bac3b9226019ec3d726cd2d6430e02cac423
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MinimumSize representa o tamanho mínimo que uma mensagem deve ter para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: b43a8b5916747c4e3e4ca9b66cf8b9d73f5f8942
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824480"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44464200"
 ---
 # <a name="minimumsize"></a>MinimumSize
 
-O elemento **MinimumSize** representa o tamanho mínimo que uma mensagem deve ser em ordem para a condição ou uma exceção a ser aplicado. 
+O elemento **MinimumSize** representa o tamanho mínimo que uma mensagem deve ter para que a condição ou exceção seja aplicada. 
   
 ```XML
 <MinimumSize/>
 ```
 
  **int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[WithinSizeRange](withinsizerange.md) <br/> |Especifica os tamanhos mínimos e máximo que as mensagens recebidas devem estar na ordem para a condição ou uma exceção a ser aplicado.  <br/> |
+|[WithinSizeRange](withinsizerange.md) <br/> |Especifica os tamanhos mínimo e máximo que as mensagens de entrada devem ter para que a condição ou exceção seja aplicada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto é um inteiro que identifica o tamanho mínimo da mensagem em bytes.
   
@@ -50,16 +50,16 @@ O valor de texto é um inteiro que identifica o tamanho mínimo da mensagem em b
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

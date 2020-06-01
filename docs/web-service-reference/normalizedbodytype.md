@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c6973aee-ec7b-44c1-b328-f2204d9de5d1
-description: O elemento NormalizedBodyType Especifica se o corpo normalizado é retornado no formato HTML ou texto.
-ms.openlocfilehash: 33575594b22f972a9eb762dfac884fa91459f04a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento NormalizedBodyType especifica se o corpo normalizado é retornado no formato de texto ou HTML.
+ms.openlocfilehash: e5d968673403eba24a68c67175e3ebcbb35eca39
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824554"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462658"
 ---
 # <a name="normalizedbodytype"></a>NormalizedBodyType
 
-O elemento **NormalizedBodyType** Especifica se o corpo normalizado é retornado no formato HTML ou texto. 
+O elemento **NormalizedBodyType** especifica se o corpo normalizado é retornado no formato de texto ou HTML. 
   
 ```XML
 <NormalizedBodyType> Best | HTML | Text </NormalizedBodyType>
 ```
 
  **BodyTypeResponseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -38,17 +38,17 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[ItemShape](itemshape.md)
+[Shape](itemshape.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **NormalizedBodyType** indica o formato do corpo normalizado é retornado em tempo. A tabela a seguir lista os valores possíveis para esse elemento. 
+O valor de texto do elemento **NormalizedBodyType** indica o formato em que o corpo normalizado é retornado. A tabela a seguir lista os valores possíveis para este elemento. 
   
 ****
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Melhor  <br/> |A resposta retornará o conteúdo disponível mais sofisticado de corpo de texto. Isso é útil se for desconhecido se o conteúdo é o texto ou HTML.  <br/> O corpo retornado será o texto se o corpo armazenado for texto sem formatação. Caso contrário, a resposta retornará HTML, se o corpo armazenado está no formato HTML ou RTF.  <br/> Este é o valor padrão.  <br/> |
+|Melhor  <br/> |A resposta retornará o conteúdo mais avançado disponível do corpo de texto. Isso é útil se for desconhecido se o conteúdo for texto ou HTML.  <br/> O corpo retornado será texto se o corpo armazenado for texto sem formatação. Caso contrário, a resposta retornará HTML se o corpo armazenado estiver em formato HTML ou RTF.  <br/> Esse é o valor padrão.  <br/> |
 |HTML  <br/> |A resposta retornará um corpo normalizado como HTML.  <br/> |
 |Texto  <br/> |A resposta retornará um corpo normalizado como texto sem formatação.  <br/> |
    
@@ -58,20 +58,20 @@ Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 
-[ItemShape](itemshape.md)
+[Shape](itemshape.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

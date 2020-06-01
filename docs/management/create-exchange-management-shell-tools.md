@@ -7,45 +7,45 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 46e4812f-37a8-449f-bd37-bc4a94605db9
-description: Encontre informações para começar a criação de ferramentas de Shell de gerenciamento do Exchange para o Exchange.
-ms.openlocfilehash: e8414460007f333e50c9d596bf977792977b1e4e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações para começar a criar ferramentas do Shell de gerenciamento do Exchange para o Exchange.
+ms.openlocfilehash: c6e11fa5b55aa514b12f4f52bc9346ac213d3781
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750958"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463724"
 ---
 # <a name="create-exchange-management-shell-tools"></a>Criar ferramentas do Shell de gerenciamento do Exchange
 
-Encontre informações para começar a criação de ferramentas de Shell de gerenciamento do Exchange para o Exchange.
+Encontre informações para começar a criar ferramentas do Shell de gerenciamento do Exchange para o Exchange.
 
 **Aplica-se a:** Exchange Online | Exchange Server 2013 | Office 365
   
-O Shell de gerenciamento do Exchange fornece um conjunto rico de comandos, com base na plataforma do Windows PowerShell para gerenciar o Exchange Online, Exchange Online como parte do Office 365 ou uma versão local do Exchange, começando com o Exchange 2013. Você pode usar os comandos do Shell de gerenciamento do Exchange para automatizar a administração de um servidor executando os comandos de diretamente ou usando scripts de comando.
+O Shell de gerenciamento do Exchange fornece um conjunto avançado de comandos, com base na plataforma Windows PowerShell, para gerenciar o Exchange Online, o Exchange Online como parte do Office 365 ou uma versão local do Exchange a partir do Exchange 2013. Você pode usar os comandos do Shell de gerenciamento do Exchange para automatizar a administração de um servidor executando diretamente os comandos ou usando scripts de comando.
   
-Se você precisa usar os comandos do Shell de gerenciamento do Exchange dentro de um aplicativo de hospedagem, como um aplicativo administrativo que está executando na área de trabalho do administrador ou por meio de um aplicativo baseado na web, você pode chamar os cmdlets do Shell de gerenciamento do Exchange dentro de seu aplicativo Visual Basic ou c# para gerenciar um servidor Exchange.
+Se você precisar usar os comandos do Shell de gerenciamento do Exchange de dentro de um aplicativo de hospedagem, como um aplicativo administrativo que está sendo executado na área de trabalho do administrador ou por meio de um aplicativo baseado na Web, você poderá chamar os cmdlets do Shell de gerenciamento do Exchange a partir do seu aplicativo do Visual Basic ou C# para gerenciar um servidor do Exchange.
   
-## <a name="get-started-with-exchange-management-shell-tools"></a>Guia de Introdução com as ferramentas do Shell de gerenciamento do Exchange
+## <a name="get-started-with-exchange-management-shell-tools"></a>Introdução às ferramentas do Shell de gerenciamento do Exchange
 <a name="SP15GettingStartedTemplate_WhatDoYouNeed"> </a>
 
-Se você estiver familiarizado com a criação de aplicativos de host do Windows PowerShell e deseja ver um exemplo que mostra como chamar os cmdlets do Shell de gerenciamento do Exchange a partir de um aplicativo ou para ver um exemplo dos tipos de aplicativos que você pode criar usando o Exchange Cmdlets do Shell de gerenciamento, consulte [obter uma lista de usuários de email usando o Shell de gerenciamento do Exchange](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md).
+Se você estiver familiarizado com a criação de aplicativos host do Windows PowerShell e quiser ver um exemplo que mostra como chamar os cmdlets do Shell de gerenciamento do Exchange a partir de um aplicativo ou para ver um exemplo dos tipos de aplicativos que você pode criar usando os cmdlets do Shell de gerenciamento do Exchange, consulte [obter uma lista de usuários de email usando o Shell de gerenciamento do Exchange](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md).
   
-Os cmdlets do Shell de gerenciamento do Exchange são extensões do Windows PowerShell, um baseados em tarefa shell de linha de comando e linguagem de script que foi projetada especificamente para administração do sistema. Windows PowerShell é baseado no .NET Framework e fornece uma API orientado a objetos para o cmdlet, provedor e os desenvolvedores de aplicativos do host. Para saber mais sobre programação de Windows PowerShell, consulte o [SDK do Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28VS.85%29.aspx).
+Os cmdlets do Shell de gerenciamento do Exchange são extensões para o Windows PowerShell, um shell de linha de comando baseado em tarefa e uma linguagem de script projetada especificamente para administração do sistema. O Windows PowerShell é criado no .NET Framework e fornece uma API orientada a objeto para desenvolvedores, provedores e aplicativos de host. Para saber mais sobre a programação do Windows PowerShell, confira o [SDK do Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28VS.85%29.aspx).
   
-Os cmdlets do Shell de gerenciamento do Exchange aceite e retornam objetos. Para obter uma lista dos cmdlets de shell de gerenciamento do Exchange e seus tipos de entrada e saídos, consulte [cmdlet do Shell de gerenciamento do Exchange de entrada e saída tipos](exchange-management-shell-cmdlet-input-and-output-types.md).
+Os cmdlets do Shell de gerenciamento do Exchange aceitam e retornam objetos. Para obter uma lista de cmdlets do Shell de gerenciamento do Exchange e seus tipos de entrada e saída, consulte [tipos de entrada e saída do cmdlet do Shell de gerenciamento do Exchange](exchange-management-shell-cmdlet-input-and-output-types.md).
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-- [Cmdlets do Shell de gerenciamento do Exchange novos e atualizados](new-and-updated-exchange-management-shell-cmdlets.md)  
-- [Entrada de cmdlet do Shell de gerenciamento do Exchange e tipos de saída](exchange-management-shell-cmdlet-input-and-output-types.md)
+- [Cmdlets novos e atualizados do Shell de gerenciamento do Exchange](new-and-updated-exchange-management-shell-cmdlets.md)  
+- [Tipos de entrada e de saída de cmdlet do Shell de Gerenciamento do Exchange](exchange-management-shell-cmdlet-input-and-output-types.md)
 - [Obter uma lista de usuários de email usando o Shell de gerenciamento do Exchange](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)
-- [Use a resposta de cmdlet do Shell de gerenciamento do Exchange](how-to-use-the-exchange-management-shell-cmdlet-response.md)
+- [Usar a resposta do cmdlet do Shell de gerenciamento do Exchange](how-to-use-the-exchange-management-shell-cmdlet-response.md)
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Namespaces do Shell de gerenciamento do Exchange](exchange-management-shell-namespaces.md)  
-- [PowerShell do Exchange Server (Shell de gerenciamento do Exchange)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  
-- [O Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
+- [PowerShell do Exchange Server (Shell de gerenciamento do Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  
+- [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
     
 

@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: e60e525f-c136-469a-b68b-b3dc01f400a6
-description: O elemento IsReadReceipt indica se as mensagens de entrada devem ser confirmações de leitura na ordem para a condição ou uma exceção a ser aplicado.
-ms.openlocfilehash: 78714aafb116a609a69d77b3b4f0fd15695bda34
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IsReadReceipt indica se as mensagens de entrada devem ser confirmações de leitura para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: e86a7776bc43204dae9fc92f21d4304255ddb888
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824094"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463899"
 ---
 # <a name="isreadreceipt"></a>IsReadReceipt
 
-O elemento **IsReadReceipt** indica se as mensagens de entrada devem ser confirmações de leitura na ordem para a condição ou uma exceção a ser aplicado. 
+O elemento **IsReadReceipt** indica se as mensagens de entrada devem ser confirmações de leitura para que a condição ou exceção seja aplicada. 
   
 ```XML
 <IsReadReceipt> true | false</IsReadReceipt>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,27 +44,27 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, quando atendida, irá disparar as ações de regra para essa regra.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, dispararão as ações de regra para essa regra.  <br/> |
 |[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para a regra de caixa de entrada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** indica que a mensagem deve ser uma confirmação de leitura na ordem para a condição ou uma exceção a ser aplicado. Se a mensagem não precisa ser uma confirmação de leitura para a condição ou uma exceção que se aplique, o valor é **false**.
+Um valor de texto **true** indica que a mensagem deve ser uma confirmação de leitura para que a condição ou exceção seja aplicada. Se a mensagem não tiver que ser uma confirmação de leitura para a condição ou exceção a ser aplicada, o valor será **false**.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

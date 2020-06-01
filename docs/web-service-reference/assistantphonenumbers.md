@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f9bd9ac1-7db3-44ea-9117-18488dddde15
-description: O elemento AssistantPhoneNumbers Especifica uma matriz de números de telefone do assistente e os identificadores de suas atribuições de origem para a pessoa associada.
-ms.openlocfilehash: 747835102af28d94d60b763fdbc5b2ea0947d47e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento AssistantPhoneNumbers especifica uma matriz de números de telefone do assistente e os identificadores de suas atribuições de origem para o persona associado.
+ms.openlocfilehash: a72c8d646750b5d7cf9ebca13a51f4df84bf7bdb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751215"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464480"
 ---
 # <a name="assistantphonenumbers"></a>AssistantPhoneNumbers
 
-O elemento **AssistantPhoneNumbers** Especifica uma matriz de números de telefone do assistente e os identificadores de suas atribuições de origem para a pessoa associada. 
+O elemento **AssistantPhoneNumbers** especifica uma matriz de números de telefone do assistente e os identificadores de suas atribuições de origem para o persona associado. 
   
 ```XML
 <AssistantPhoneNumbers>
@@ -26,13 +26,13 @@ O elemento **AssistantPhoneNumbers** Especifica uma matriz de números de telefo
 ```
 
  **ArrayOfPhoneNumberAttributedValuesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoa](persona.md) <br/> |Especifica um conjunto de dados de pessoa retornados por uma solicitação **GetPersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -52,16 +52,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

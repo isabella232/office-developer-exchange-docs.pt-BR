@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7784468c-c863-488a-864b-ce4d6c671dbe
 description: O elemento AppointmentReplyTime representa a data e hora em que um participante respondeu a uma solicitação de reunião.
-ms.openlocfilehash: 4d524bdc36ee642dcf8186294d412d6849b59ade
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 188cd5fbaaefa52e4324143a2ee89ae8dbca7742
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751184"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463493"
 ---
 # <a name="appointmentreplytime"></a>AppointmentReplyTime
 
@@ -28,13 +28,13 @@ O elemento **AppointmentReplyTime** representa a data e hora em que um participa
 ```
 
  **DateTime**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,26 +45,26 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no armazenamento do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Uma string que representa a data e hora.
+Uma cadeia de caracteres que representa uma data e hora.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

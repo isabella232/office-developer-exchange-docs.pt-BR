@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 73d7943d-d361-4f8b-9948-d85f886efa1a
-description: A operação ApplyConversationAction define uma única ou acompanhar a ação de todos os itens em uma conversa. A operação ApplyConversationAction permite categorizar, mover, copiar, excluir e definir o estado de leitura em todos os itens em uma conversa. Ações também podem ser definidas para novas mensagens em uma conversa.
-ms.openlocfilehash: 2a485b84ee87aec2ed807e3f4f0901b83432fa0a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação ApplyConversationAction define uma ação ocasional ou acompanhamento em todos os itens em uma conversa. A operação ApplyConversationAction permite categorizar, mover, copiar, excluir e definir o estado de leitura em todos os itens em uma conversa. As ações também podem ser definidas para novas mensagens em uma conversa.
+ms.openlocfilehash: cdab239a5b0b1406d2ce31f4604e4737d037cd7e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751134"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463500"
 ---
 # <a name="applyconversationaction-operation"></a>Operação ApplyConversationAction
 
-A operação **ApplyConversationAction** define uma única ou acompanhar a ação de todos os itens em uma conversa. A operação **ApplyConversationAction** permite categorizar, mover, copiar, excluir e definir o estado de leitura em todos os itens em uma conversa. Ações também podem ser definidas para novas mensagens em uma conversa. 
+A operação **ApplyConversationAction** define uma ação ocasional ou acompanhamento em todos os itens em uma conversa. A operação **ApplyConversationAction** permite categorizar, mover, copiar, excluir e definir o estado de leitura em todos os itens em uma conversa. As ações também podem ser definidas para novas mensagens em uma conversa. 
   
-## <a name="applyconversationaction-request-example"></a>Exemplo de solicitação de ApplyConversationAction
+## <a name="applyconversationaction-request-example"></a>Exemplo de solicitação ApplyConversationAction
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **ApplyConversationAction** mostra como mover os itens da conversa especificado para outra pasta. Itens que são adicionados à conversa também serão movidos para a pasta especificada. 
+O exemplo a seguir de uma solicitação **ApplyConversationAction** mostra como mover os itens da conversa especificada para outra pasta. Os itens adicionados à conversa também serão movidos para a pasta especificada. 
   
 ### <a name="code"></a>Código
 
@@ -36,8 +36,8 @@ O exemplo a seguir de uma solicitação de **ApplyConversationAction** mostra co
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -59,7 +59,7 @@ O exemplo a seguir de uma solicitação de **ApplyConversationAction** mostra co
 
 ### <a name="remarks"></a>Comentários
 
-Os identificadores de conversa e pasta foram diminuídos para preservar a legibilidade.
+Os identificadores de conversa e de pasta foram reduzidos para preservar a legibilidade.
   
 ## <a name="applyconversationaction-response-example"></a>Exemplo de resposta ApplyConversationAction
 
@@ -78,15 +78,15 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **ApplyC
                          MajorBuildNumber="91" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ApplyConversationActionResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ApplyConversationActionResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ApplyConversationActionResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -97,10 +97,10 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **ApplyC
 </s:Envelope>
 ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operação ApplyConversationAction](applyconversationaction-operation.md)
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
-- [Conversas no EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+- [Conversas no EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

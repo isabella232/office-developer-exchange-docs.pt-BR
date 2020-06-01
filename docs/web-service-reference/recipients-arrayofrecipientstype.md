@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f4b71403-cbae-4176-8b2e-3597048c057b
-description: O elemento de destinatários representa uma coleção de destinatários que recebem uma cópia da mensagem.
-ms.openlocfilehash: b24a029bfacd6cc40e85a201b8ca90efd7790e9f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Recipients representa uma coleção de destinatários que recebem uma cópia da mensagem.
+ms.openlocfilehash: 0e18152a8143b888ad27f48137c06613694f5713
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824991"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463871"
 ---
 # <a name="recipients-arrayofrecipientstype"></a>Destinatários (ArrayOfRecipientsType)
 
-O elemento de **destinatários** representa uma coleção de destinatários que recebem uma cópia da mensagem. 
+O elemento **Recipients** representa uma coleção de destinatários que recebem uma cópia da mensagem. 
   
 ```XML
 <Recipients>
@@ -30,27 +30,27 @@ O elemento de **destinatários** representa uma coleção de destinatários que 
 ```
 
  **ArrayOfRecipientsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Caixa de correio](mailbox.md) <br/> |Identifica um objeto do Active Directory habilitado para email.  <br/> |
+|[Caixa de Correio](mailbox.md) <br/> |Identifica um objeto do Active Directory habilitado para email.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetMailTips](getmailtips.md) <br/> |Contém os destinatários e os tipos de dicas de email para recuperar.  <br/> |
+|[GetMailTips](getmailtips.md) <br/> |Contém os destinatários e os tipos de dicas de email a serem recuperadas.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -58,16 +58,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

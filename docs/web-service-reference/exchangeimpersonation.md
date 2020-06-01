@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d8cbac49-47d0-4745-a2a7-545d33f8da93
-description: O elemento ExchangeImpersonation é usado no cabeçalho de uma solicitação SOAP. Quando esse elemento estiver presente, o chamador está tentando representar a conta que está contida no elemento ExchangeImpersonation.
-ms.openlocfilehash: aedeff22cda865ce1eec80dab9760d49fdc178f7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ExchangeImpersonation é usado no cabeçalho SOAP de uma solicitação. Quando esse elemento estiver presente, o chamador está tentando representar a conta que está contida no elemento ExchangeImpersonation.
+ms.openlocfilehash: 188219d95453dc45378c6ca65ab93c2de7db4eac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752125"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463346"
 ---
 # <a name="exchangeimpersonation"></a>ExchangeImpersonation
 
-O elemento **ExchangeImpersonation** é usado no cabeçalho de uma solicitação SOAP. Quando esse elemento estiver presente, o chamador está tentando representar a conta que está contida no elemento **ExchangeImpersonation** . 
+O elemento **ExchangeImpersonation** é usado no cabeçalho SOAP de uma solicitação. Quando esse elemento estiver presente, o chamador está tentando representar a conta que está contida no elemento **ExchangeImpersonation** . 
   
 [ExchangeImpersonation](exchangeimpersonation.md)
   
@@ -32,42 +32,42 @@ O elemento **ExchangeImpersonation** é usado no cabeçalho de uma solicitação
 ```
 
  **ExchangeImpersonationType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ConnectingSID](connectingsid.md) <br/> |Representa uma conta para representar quando você estiver usando o cabeçalho SOAP ExchangeImpersonation.  <br/> |
+|[ConnectingSID](connectingsid.md) <br/> |Representa uma conta a ser representada quando você estiver usando o cabeçalho SOAP ExchangeImpersonation.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-A chamada conta deve ter o **ms-exch-impersonation** direto no servidor de acesso para cliente e o **ms-exch-MayImpersonate** direito em ou o banco de dados de caixa de correio que contém a caixa de correio para representar ou o usuário/contato do Active Directory objeto. 
+A conta de chamada deve ter o direito **ms-Exch-Impersonation** no servidor de acesso para cliente e o **ms-exch-MayImpersonate** diretamente no banco de dados de caixa de correio que contém a caixa de correio para representar ou o objeto de usuário/contato do Active Directory. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Autorização de servidor-para-servidor no EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+[Autorização de servidor para servidor no EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

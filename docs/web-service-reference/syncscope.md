@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: e0ca231f-0374-4844-8d4c-ada8da167920
-description: O elemento SyncScope Especifica se apenas itens ou itens e informações de pasta associada são retornados em uma resposta de sincronização.
-ms.openlocfilehash: 847c0244a8847364e29ea584b0c0b721f00d3064
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SyncScope especifica se apenas itens ou itens e informações associadas à pasta são retornados em uma resposta de sincronização.
+ms.openlocfilehash: 5ede26204c823a452189222075c784f24e98d188
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837690"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463031"
 ---
 # <a name="syncscope"></a>SyncScope
 
-O elemento **SyncScope** Especifica se apenas itens ou itens e informações de pasta associada são retornados em uma resposta de sincronização. 
+O elemento **SyncScope** especifica se apenas itens ou itens e informações associadas à pasta são retornados em uma resposta de sincronização. 
   
 ```xml
 <SyncScope>NormalItems or NormalAndAssociatedItems</SyncScope>
 ```
 
  **SyncFolderItemsScopeType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,33 +44,33 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |O elemento que define uma solicitação para sincronizar os itens em uma pasta de repositório do Exchange.  <br/> Este é a expressão XPath para esse elemento:  <br/> / SyncFolderItems  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |O elemento que define uma solicitação para sincronizar itens em uma pasta do repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:  <br/> /SyncFolderItems  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 A tabela a seguir lista os valores possíveis para o elemento **SyncScope** . 
   
-**Valores de elemento SyncScope**
+**Valores do elemento SyncScope**
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|NormalItems  <br/> |Especifica que apenas os itens na pasta são retornados em uma resposta de sincronização.  <br/> |
-|NormalAndAssociatedItems  <br/> |Especifica que ambos os itens da pasta e as informações da pasta associada são retornados em uma resposta de sincronização.  <br/> |
+|NormalItems  <br/> |Especifica que somente os itens na pasta são retornados em uma resposta de sincronização.  <br/> |
+|NormalAndAssociatedItems  <br/> |Especifica que os dois itens na pasta e as informações associadas à pasta são retornados em uma resposta de sincronização.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

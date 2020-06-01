@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c56f997d-28f3-4590-97b0-cb71f016dbe4
-description: O elemento DaysOfWeek descreve os dias da semana que são usados em padrões de recorrência do item.
-ms.openlocfilehash: 0b730ff5a7bc9aa6b324fc080022d056c5342296
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DaysOfWeek descreve os dias da semana usados nos padrões de recorrência do item.
+ms.openlocfilehash: 3036cbe3f93ff87b9a4d5dc7bf164e3e952b06fd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751713"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463717"
 ---
 # <a name="daysofweek-daysofweektype"></a>DaysOfWeek (DaysOfWeekType)
 
-O elemento **DaysOfWeek** descreve os dias da semana que são usados em padrões de recorrência do item. 
+O elemento **DaysOfWeek** descreve os dias da semana usados nos padrões de recorrência do item. 
   
 ```XML
 <DaysOfWeek/>
@@ -29,13 +29,13 @@ O elemento **DaysOfWeek** descreve os dias da semana que são usados em padrões
 
 **DaysOfWeekType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -47,9 +47,9 @@ Nenhum.
 |:-----|:-----|
 |[WeeklyRecurrence](weeklyrecurrence.md) <br/> |Descreve um padrão de recorrência semanal.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. Veja a seguir os valores possíveis:
+Um valor de texto é obrigatório. Veja a seguir os valores possíveis:
   
 - Domingo    
 - Segunda-feira    
@@ -58,26 +58,26 @@ Nenhum.
 - Quinta-feira    
 - Sexta-feira    
 - Sábado    
-- Dia (esse valor não é válido para um padrão de recorrência semanal)    
-- Weekday (esse valor não é válido para um padrão de recorrência semanal)    
+- Day (este valor não é válido para um padrão de recorrência semanal)    
+- WEEKDAY (este valor não é válido para um padrão de recorrência semanal)    
 - WeekendDay (esse valor não é válido para um padrão de recorrência semanal)
     
-Um padrão de recorrência semanal pode conter vários valores. Valores são separados por um caractere de espaço. Por exemplo, para uma recorrência semanal às terças e quintas-feiras, o valor de texto será "Terça-feira quinta-feira".
+Um padrão de recorrência semanal pode conter vários valores. Os valores são separados por um caractere de espaço. Por exemplo, para uma recorrência semanal em terças e quinta-feira, o valor de texto será "terça-feira".
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

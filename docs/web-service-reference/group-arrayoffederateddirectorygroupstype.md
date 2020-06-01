@@ -1,5 +1,5 @@
 ---
-title: Grupo (ArrayOfFederatedDirectoryGroupsType)
+title: Group (ArrayOfFederatedDirectoryGroupsType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0474a5b4-1a48-4df6-a094-baf35d9a1083
-description: O elemento de grupo (ArrayOfFederatedDirectoryGroupsType) é destinado apenas para uso interno.
-ms.openlocfilehash: b426203a7b54cddac737e3e6a7f860b8592f6e10
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Group (ArrayOfFederatedDirectoryGroupsType) é destinado apenas para uso interno.
+ms.openlocfilehash: 7938b571f7cc48dd60b14429b8e21bad1eb26300
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823752"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462826"
 ---
-# <a name="group-arrayoffederateddirectorygroupstype"></a>Grupo (ArrayOfFederatedDirectoryGroupsType)
+# <a name="group-arrayoffederateddirectorygroupstype"></a>Group (ArrayOfFederatedDirectoryGroupsType)
 
-O elemento de **grupo (ArrayOfFederatedDirectoryGroupsType)** é destinado apenas para uso interno. 
+O elemento **Group (ArrayOfFederatedDirectoryGroupsType)** é destinado apenas para uso interno. 
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 

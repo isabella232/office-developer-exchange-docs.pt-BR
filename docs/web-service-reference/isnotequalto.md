@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e2eff26c-3403-45cd-bb74-1eb98c7dbfcd
-description: O elemento IsNotEqualTo representa uma expressão de pesquisa que compara uma propriedade com a um valor de constante ou outra propriedade e retorna true se os valores não são iguais.
-ms.openlocfilehash: 75b580d97fbadbf3aa28c29159973f53768df624
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: O elemento IsNotEqualTo representa uma expressão de pesquisa que compara uma propriedade com um valor constante ou outra propriedade e retorna true se os valores não forem iguais.
+ms.openlocfilehash: 8c40fd1ce8c7c1f14b70f4fccfd3a24e4c99f1b5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353249"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464186"
 ---
 # <a name="isnotequalto"></a>IsNotEqualTo
 
-O elemento **IsNotEqualTo** representa uma expressão de pesquisa que compara uma propriedade com um valor de constante ou outra propriedade e retorna **true** se os valores não são iguais. 
+O elemento **IsNotEqualTo** representa uma expressão de pesquisa que compara uma propriedade com um valor constante ou outra propriedade e retorna **true** se os valores não forem iguais. 
   
 ```xml
 <IsNotEqualTo>
@@ -46,20 +46,20 @@ O elemento **IsNotEqualTo** representa uma expressão de pesquisa que compara um
 
 **IsNotEqualToType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifica as propriedades frequentemente referenciadas pelo URI.  <br/> |
-|[IndexedFieldURI](indexedfielduri.md) <br/> |Identifica a membros individuais de um dicionário.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifica as propriedades com frequência referenciadas por URI.  <br/> |
+|[IndexedFieldURI](indexedfielduri.md) <br/> |Identifica membros individuais de um dicionário.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifica as propriedades MAPI.  <br/> |
 |[FieldURIOrConstant](fielduriorconstant.md) <br/> |Representa uma propriedade ou um valor de constante a ser usado ao comparar com outra propriedade.  <br/> |
    
@@ -67,27 +67,27 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Restriction](restriction.md) <br/> |Representa a restrição ou a consulta que é usada para filtrar itens ou pastas nas operações da pasta FindItem/FindFolder e pesquisa.  <br/> |
-|[Não](not.md) <br/> |Representa uma expressão de pesquisa que dispensa o valor booliano da expressão de pesquisa que ele contém.  <br/> |
-|[E](and.md) <br/> |Representa uma expressão de pesquisa que permite realizar uma operação Boolean e entre dois ou mais expressões de pesquisa. O resultado da operação e será **true** se todas as expressões de pesquisa contidas And forem **verdadeiras**.  <br/> |
-|[Ou](or.md) <br/> |Representa uma expressão de pesquisa que realiza um OR lógico a expressão de pesquisa que ele contém. [Ou](or.md) retornará **true** se qualquer um dos seus filhos retornam **true**. **Ou** deve ter dois ou mais filhos.  <br/> |
+|[Restriction](restriction.md) <br/> |Representa a restrição ou a consulta usada para filtrar itens ou pastas no FindItem/FindFolder e operações de pasta de pesquisa.  <br/> |
+|[Not](not.md) <br/> |Representa uma expressão de pesquisa que nega o valor booliano da expressão de pesquisa que ela contém.  <br/> |
+|[And](and.md) <br/> |Representa uma expressão de pesquisa que permite executar um Boolean e uma operação entre duas ou mais expressões de pesquisa. O resultado da operação and será **true** se todas as expressões de pesquisa contidas no e forem **true**.  <br/> |
+|[Or](or.md) <br/> |Representa uma expressão de pesquisa que executa uma expressão lógica ou na expressão de pesquisa que ela contém. [Ou](or.md) retornará **true** se qualquer um dos seus filhos retornar **true**. **Ou** deve ter dois ou mais filhos.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para executar comparações de sequência, considere o uso do elemento [contém](contains.md) , como ele fornece opções para os parâmetros correspondentes como caso e espaços em branco. Use o elemento [não](not.md) em conjunto com o elemento [contém](contains.md) para negar o resultado. 
+Para realizar comparações de cadeias de caracteres, considere o uso do elemento [Contains](contains.md) , pois fornece opções para correspondência de parâmetros como o caso e o espaço em branco. Use o elemento [não](not.md) em conjunto com o elemento [Contains](contains.md) para negar o resultado. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 446106b7-ff2d-4107-90c1-29f4d38ba128
-description: Encontre informações sobre o EWS FindPeople operação.
-ms.openlocfilehash: 97c34d7df590d20513e8f1ad476d62f16815a42b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações sobre a operação do EWS do FindPeople.
+ms.openlocfilehash: ab5edc3f140e34123ce1f009c401ddd61a0e2598
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752300"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462905"
 ---
 # <a name="findpeople-operation"></a>Operação FindPeople
 
-Encontre informações sobre a operação de EWS **FindPeople** . 
+Encontre informações sobre a operação do EWS do **FindPeople** . 
   
-A operação **FindPeople** retorna todos os objetos de pessoa de uma pasta de contatos especificada ou recupera contatos que correspondem a uma cadeia de caracteres de consulta especificada. 
+A operação **FindPeople** retorna todos os objetos persona de uma pasta de contatos especificada ou recupera contatos que correspondem a uma cadeia de caracteres de consulta especificada. 
   
 This operation was introduced in Exchange Server 2013.
   
@@ -27,11 +27,11 @@ This operation was introduced in Exchange Server 2013.
 
 A operação **FindPeople** retorna informações de contato agregadas. 
   
-A operação **FindPeople** aproveita as funções existentes dos tipos complexos [BaseShape](baseshape.md) e [restrição](restriction.md) adicionando uma restrição de agregação de lista segura e a capacidade de retornar as propriedades adicionais. Usando uma restrição, um cliente pode especificar filtros, como "retornar apenas resultados que têm um endereço de mensagens Instantâneas". O comportamento de pesquisa padrão refere-se a caixa de correio pessoal do usuário especificado e a lista de endereços global (GAL). Ao pesquisar a GAL como a pasta de pesquisa primário, você deve especificar uma cadeia de caracteres de consulta, em vez de uma restrição, porque não permite esta operação para navegação da GAL. 
+A operação **FindPeople** cria a funcionalidade existente dos tipos complexos [Restriction](restriction.md) e [BaseShape](baseshape.md) adicionando uma restrição de agregação e a capacidade de retornar propriedades adicionais. Usando uma restrição, um cliente pode especificar filtros, como "somente resultados de retorno que têm um endereço de mensagens instantâneas". O comportamento de pesquisa padrão é direcionado para a caixa de correio pessoal e a lista de endereços global (GAL) do usuário especificado. Ao pesquisar a GAL como a pasta de pesquisa principal, você deve especificar uma cadeia de caracteres de consulta em vez de uma restrição, porque essa operação não permite a navegação da GAL. 
   
-### <a name="findpeople-operation-soap-headers"></a>Cabeçalhos SOAP FindPeople operação
+### <a name="findpeople-operation-soap-headers"></a>Cabeçalhos SOAP de operação FindPeople
 
-A operação **FindPeople** pode usar os cabeçalhos SOAP que estão listados na tabela a seguir. 
+A operação **FindPeople** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
@@ -41,13 +41,13 @@ A operação **FindPeople** pode usar os cabeçalhos SOAP que estão listados na
    
 ## <a name="findpeople-operation-request-example"></a>Exemplo de solicitação de operação FindPeople
 
-O exemplo a seguir de uma solicitação de operação **FindPeople** mostra como retornar os primeiros 100 contatos da pasta Contatos. 
+O exemplo a seguir de uma solicitação de operação **FindPeople** mostra como retornar os primeiros 100 contatos da pasta contatos. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -62,7 +62,7 @@ O exemplo a seguir de uma solicitação de operação **FindPeople** mostra como
 </soap:Envelope>
 ```
 
-A solicitação de corpo SOAP contém os seguintes elementos:
+O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [FindPeople](findpeople.md)
     
@@ -72,13 +72,13 @@ A solicitação de corpo SOAP contém os seguintes elementos:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-O exemplo a seguir de uma solicitação de operação **FindPeople** mostra como retornar os primeiros 100 contatos da GAL usando-se uma cadeia de caracteres de consulta. Definir o **DistinguishedFolderId** "diretório" pesquisará GAL como a principal fonte de personagens. 
+O exemplo a seguir de uma solicitação de operação **FindPeople** mostra como retornar os primeiros 100 contatos da GAL usando uma cadeia de caracteres de consulta. A configuração do **DistinguishedFolderId** como "Directory" pesquisará a GAL como a principal fonte de personas. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -114,18 +114,18 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
                          MajorBuildNumber="349" 
                          MinorBuildNumber="0" 
                          Version="Exchange2013" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FindPeopleResponse ResponseClass="Success" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <People>
-        <Persona xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Persona xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <PersonaId Id="AAQkAGQ1MjJjMTBkLTc4Y2UtNDA5Ny04ZjU5LWI3MTYzNGNkZmRkYQAQAOjFqObcLmtOlzlRnHdXQjo=" />
           <CreationTime>2012-01-11T22:25:37Z</CreationTime>
           <DisplayName>Terry Adams</DisplayName>
@@ -160,7 +160,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
 </s:Envelope>
 ```
 
-A resposta SOAP body contém os seguintes elementos:
+O corpo SOAP de resposta contém os seguintes elementos:
   
 - [FindPeopleResponse](findpeopleresponse.md)
     
@@ -168,13 +168,13 @@ A resposta SOAP body contém os seguintes elementos:
     
 - [Pessoas](people.md)
     
-- [Pessoa](persona.md)
+- [Pessoal](persona.md)
     
-- [PersonaId](personaid.md)
+- [Personaid](personaid.md)
     
 - [CreationTime](creationtime.md)
     
-- [DisplayName (string)](displayname-string.md)
+- [DisplayName (cadeia de caracteres)](displayname-string.md)
     
 - [DisplayNameFirstLast](displaynamefirstlast.md)
     
@@ -188,13 +188,13 @@ A resposta SOAP body contém os seguintes elementos:
     
 - [EmailAddresses (ArrayOfEmailAddressesType)](emailaddresses-arrayofemailaddressestype.md)
     
-- [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
+- [EmailAddress (EmailAddresstype)](emailaddress-emailaddresstype.md)
     
-- [Nome (EmailAddressType)](name-emailaddresstype.md)
+- [Nome (EmailAddresstype)](name-emailaddresstype.md)
     
-- [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
+- [EmailAddress (EmailAddresstype)](emailaddress-emailaddresstype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddresstype)](routingtype-emailaddresstype.md)
     
 - [RelevanceScore](relevancescore.md)
     
@@ -202,12 +202,12 @@ A resposta SOAP body contém os seguintes elementos:
     
 ## <a name="findpeople-operation-error-response"></a>Resposta de erro de operação FindPeople
 
-Para códigos de erro que são genéricos para EWS, consulte [ResponseCode](responsecode.md).
+Para códigos de erro genéricos para EWS, confira [ResponseCode](responsecode.md).
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Pessoas e contatos no EWS no Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+- [Pessoas e contatos no EWS no Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     
-- [Operação GetPersona](getpersona-operation.md)
+- [Operação getpersona](getpersona-operation.md)
     
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 35aec4d1-5264-4b25-8b8f-cdee886da109
 description: O elemento BillingInformation contém informações de cobrança para uma tarefa.
-ms.openlocfilehash: 88c79851eda4f22b3f89084f90ccb9847c3e2daf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6a3cd1ef402a67e896c2ed3afcca6c7c126d3e1b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751264"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462763"
 ---
 # <a name="billinginformation"></a>BillingInformation
 
@@ -28,13 +28,13 @@ O elemento **BillingInformation** contém informações de cobrança para uma ta
 ```
 
  **String**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,26 +44,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Task](task.md) <br/> |Representa uma tarefa no armazenamento do Exchange.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa informações de cobrança relacionada à tarefa.
+O valor de texto representa informações de cobrança relacionadas à tarefa.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 282ddb7f-00e3-4260-ab85-73fea9317c0e
-description: O elemento de ExtendedProperties contém as propriedades estendidas usadas para as operações do repositório unificado de contatos.
-ms.openlocfilehash: af0ae532e578b5ec4dd5622de22a71e1929d6f7d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ExtendedProperties contém as propriedades estendidas usadas para as operações do repositório unificado de contatos.
+ms.openlocfilehash: 78580e69c37657d1873ed95a6b3761c6a458e28f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752163"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463115"
 ---
 # <a name="extendedproperties-nonemptyarrayofextendedfielduris"></a>ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)
 
-O elemento de **ExtendedProperties** contém as propriedades estendidas usadas para as operações do repositório unificado de contatos. 
+O elemento **ExtendedProperties** contém as propriedades estendidas usadas para as operações do repositório unificado de contatos. 
   
 ```XML
 <ExtendedProperties>
@@ -26,21 +26,21 @@ O elemento de **ExtendedProperties** contém as propriedades estendidas usadas p
 ```
 
  **NonEmptyArrayOfExtendedFieldURIs**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
+[Extended (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[GetImItems](getimitems.md) | [GetImItemList](getimitemlist.md)
+[GetImItems](getimitems.md)  |  [GetImItemList](getimitemlist.md)
   
 ## <a name="remarks"></a>Comentários
 
@@ -48,11 +48,11 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||

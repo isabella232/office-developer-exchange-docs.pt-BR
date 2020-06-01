@@ -11,32 +11,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: 36277ef0-18ee-4b35-9e6e-8c321d8f5433
-description: O método SetUserOofSettings Web define configurações de fora do escritório (OOF) e a mensagem de um usuário de caixa de correio.
-ms.openlocfilehash: 51c2f9488f38a4adb0e291c11adc2ebfe3426f25
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O método Web SetUserOofSettings define as configurações e mensagens de ausência temporária (OOF) de um usuário de caixa de correio.
+ms.openlocfilehash: 88b5475dd2f0fe6d334bad51a0fe8d0beb767634
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825469"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463150"
 ---
 # <a name="setuseroofsettings-operation"></a>Operação SetUserOofSettings
 
-O método de Web **SetUserOofSettings** define configurações de fora do escritório (OOF) e a mensagem de um usuário de caixa de correio. 
+O método Web **SetUserOofSettings** define as configurações e mensagens de ausência temporária (OOF) de um usuário de caixa de correio. 
   
 ## <a name="soap-headers"></a>Cabeçalhos SOAP
 
-A operação **SetUserOofSettings** pode usar os cabeçalhos SOAP que estão listados e descritos na tabela a seguir. 
+A operação **SetUserOofSettings** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
 |Representação  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação.  <br/> |
    
-## <a name="setuseroofsettings-request-example"></a>Exemplo de solicitação de SetUserOofSettings
+## <a name="setuseroofsettings-request-example"></a>Exemplo de solicitação SetUserOofSettings
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **SetUserOofSettings** define uma configuração de ausência temporária para 10 dias. 
+O exemplo a seguir de uma solicitação **SetUserOofSettings** define uma configuração de ausência temporária por 10 dias. 
   
 ### <a name="code"></a>Código
 
@@ -44,13 +44,13 @@ O exemplo a seguir de uma solicitação de **SetUserOofSettings** define uma con
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>User1</Name>
         <Address>user1@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -69,7 +69,7 @@ O exemplo a seguir de uma solicitação de **SetUserOofSettings** define uma con
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -79,7 +79,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [Nome (EmailAddress)](name-emailaddress.md)
     
-- [Endereço (string)](address-string.md)
+- [Endereço (cadeia de caracteres)](address-string.md)
     
 - [RoutingType (EmailAddress)](routingtype-emailaddress.md)
     
@@ -101,7 +101,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [ExternalReply](externalreply.md)
     
-## <a name="successful-setuseroofsettings-response-example"></a>Exemplo de resposta bem-sucedida SetUserOofSettings
+## <a name="successful-setuseroofsettings-response-example"></a>Exemplo de resposta SetUserOofSettings bem-sucedida
 
 ### <a name="description"></a>Descrição
 
@@ -115,10 +115,10 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **SetUserOo
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
-    <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" /> 
+    <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" /> 
   </soap:Header>
   <soap:Body>
-    <SetUserOofSettingsResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SetUserOofSettingsResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessage ResponseClass="Success">
         <ResponseCode>NoError</ResponseCode> 
       </ResponseMessage>
@@ -127,7 +127,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **SetUserOo
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -139,7 +139,7 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

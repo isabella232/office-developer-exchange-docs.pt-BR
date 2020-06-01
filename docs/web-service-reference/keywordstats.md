@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 79b24034-6456-4c9c-adf6-03d06024c4e8
-description: O elemento KeywordStats Especifica uma lista de um ou mais elementos KeywordStat.
-ms.openlocfilehash: d1f68059375fc0359b46d60b0184adc268d8fffb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento KeywordStats especifica uma lista de um ou mais elementos KeywordStat.
+ms.openlocfilehash: bf471c1712a96b44dbc533a2cb26e32546a6db38
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824193"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463290"
 ---
 # <a name="keywordstats"></a>KeywordStats
 
-O elemento **KeywordStats** Especifica uma lista de um ou mais elementos **KeywordStat** . 
+O elemento **KeywordStats** especifica uma lista de um ou mais elementos **KeywordStat** . 
   
 ```XML
 <KeywordStats>
@@ -26,13 +26,13 @@ O elemento **KeywordStats** Especifica uma lista de um ou mais elementos **Keywo
 ```
 
  **ArrayOfKeywordStatisticsSearchResultsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 

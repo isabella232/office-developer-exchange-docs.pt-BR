@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7763d11a-b338-4a02-8a01-938859c05dfb
 description: O elemento AutoDiscoverSMTPAddress contém o endereço SMTP do usuário que é usado para o processo de descoberta automática.
-ms.openlocfilehash: 6f44fc30fcf96bc059aa9412f5c3c5b8f596d2fc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cd40fac8b7ab4eaa9ea50e82d6fc8bdbd4c3c7b1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751245"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463948"
 ---
 # <a name="autodiscoversmtpaddress-pox"></a>AutoDiscoverSMTPAddress (POX)
 
@@ -20,7 +20,7 @@ O elemento **AutoDiscoverSMTPAddress** contém o endereço SMTP do usuário que 
   
 - [Descoberta automática (POX)](autodiscover-pox.md)
   
-- [Resposta POX)](response-pox.md)
+- [Resposta (POX)](response-pox.md)
   
 - [Usuário (POX)](user-pox.md)
   
@@ -30,13 +30,13 @@ O elemento **AutoDiscoverSMTPAddress** contém o endereço SMTP do usuário que 
 <AutoDiscoverSMTPAddress/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,15 +48,15 @@ Nenhum.
 |:-----|:-----|
 |[Usuário (POX)](user-pox.md) <br/> |Fornece informações específicas do usuário.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto representa o endereço SMTP do usuário que é usado para o processo de descoberta automática.
   
 ## <a name="remarks"></a>Comentários
 
-O **AutoDiscoverSMTPAddress** é um elemento filho opcionais do elemento de **usuário** . 
+O elemento **AutoDiscoverSMTPAddress** é um elemento filho opcional do elemento **User** . 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

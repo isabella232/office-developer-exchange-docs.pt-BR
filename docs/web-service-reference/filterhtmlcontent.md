@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2f9358a0-de1d-4544-9aa0-d9f6519f3b5f
-description: O elemento FilterHtmlContent Especifica se o conteúdo potencialmente não seguro de HTML é filtrado de um item ou de um anexo.
-ms.openlocfilehash: db181eff9586061d728a5e4ef55a78f4955b5713
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento FilterHtmlContent especifica se o conteúdo HTML potencialmente não seguro é filtrado de um item ou anexo.
+ms.openlocfilehash: 28e3be86b550c3f330fbb6846b64732b5674304d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752253"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462672"
 ---
 # <a name="filterhtmlcontent"></a>FilterHtmlContent
 
-O elemento **FilterHtmlContent** Especifica se o conteúdo potencialmente não seguro de HTML é filtrado de um item ou de um anexo. 
+O elemento **FilterHtmlContent** especifica se o conteúdo HTML potencialmente não seguro é filtrado de um item ou anexo. 
   
 ```xml
 <FilterHtmlContent>true or false</FilterHtmlContent>
 ```
 
  **boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,29 +44,29 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AttachmentShape](attachmentshape.md) <br/> | Identifica as propriedades adicionais para retornar em resposta a uma solicitação de [GetAttachment](getattachment.md) .  <br/><br/>  Este é a expressão XPath para esse elemento: <br/> <br/>  `/GetAttachment/AttachmentShape` <br/> |
-|[ItemShape](itemshape.md) <br/> | Identifica as propriedades do item e o conteúdo a ser incluído em uma resposta GetItem, FindItem ou SyncFolderItems.  <br/> <br/> A seguir estão as expressões XPath para esse elemento: <br/> <br/>  `/GetItem/ItemShape`<br/> <br/>  `/FindItem/ItemShape`<br/> <br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[AttachmentShape](attachmentshape.md) <br/> | Identifica propriedades adicionais para retornar em uma resposta a uma solicitação [GetAttachment](getattachment.md) .  <br/><br/>  A seguir está a expressão XPath para este elemento: <br/> <br/>  `/GetAttachment/AttachmentShape` <br/> |
+|[Shape](itemshape.md) <br/> | Identifica as propriedades e o conteúdo do item que serão incluídos em uma resposta GetItem, FindItem ou SyncFolderItems.  <br/> <br/> A seguir estão as expressões XPath para este elemento: <br/> <br/>  `/GetItem/ItemShape`<br/> <br/>  `/FindItem/ItemShape`<br/> <br/>  `/SyncFolderItems/ItemShape` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Esse elemento pode ser **true** ou **false**. O valor padrão é **false**. Este é um tipo de dados Boolean.
   
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é opcional.
+Este elemento é opcional.
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server com a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Exchange Server com a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

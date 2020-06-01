@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6bcf6c18-2695-44b1-aabe-dadc52b2633a
-description: O elemento ConferenceType descreve o tipo de conferência que for executado com um item de calendário.
-ms.openlocfilehash: d312420606c5e1914fe321ae7c7c512f0833199c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ConferenceType descreve o tipo de conferência que é executado com um item de calendário.
+ms.openlocfilehash: 482fc09d709e2b151b255107af59cb98de236aec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751416"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463927"
 ---
 # <a name="conferencetype"></a>ConferenceType
 
-O elemento **ConferenceType** descreve o tipo de conferência que for executado com um item de calendário. 
+O elemento **ConferenceType** descreve o tipo de conferência que é executado com um item de calendário. 
   
 ```xml
 <ConferenceType/>
 ```
 
  **int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,34 +45,34 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no armazenamento do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Se este elemento for usado, será necessário um valor de texto que representa um valor inteiro. Estes são os valores possíveis para esse elemento:
+Um valor de texto que representa um valor inteiro será necessário se esse elemento for usado. Estes são os valores possíveis para este elemento:
   
-- 0 = o NetMeeting
+- 0 = NetMeeting
     
-- 1 = a NetShow
+- 1 = NetShow
     
-- 2 = bate-papo
+- 2 = chat
     
 ## <a name="remarks"></a>Comentários
 
-A propriedade **MeetingWorkspaceUrl** é gravável de leitura para o item de calendário do organizador. Ele é somente leitura para solicitações de reunião e itens de calendário do participante. 
+A propriedade **MeetingWorkspaceUrl** é leitura/gravação para o item de calendário do organizador. É somente leitura para solicitações de reunião e itens de calendário do participante. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

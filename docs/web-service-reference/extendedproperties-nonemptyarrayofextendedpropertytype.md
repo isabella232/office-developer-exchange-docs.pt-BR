@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a7034730-210d-4916-b992-dda342f890f8
-description: O elemento ExtendedProperties Especifica uma matriz de propriedades adicionais.
-ms.openlocfilehash: b92108ecde63d4a3ac3cc80861c204c4d1950cc0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ExtendedProperties especifica uma matriz de propriedades adicionais.
+ms.openlocfilehash: 36011e0252ed391daefab190d4da679fb3a3f856
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752180"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463094"
 ---
 # <a name="extendedproperties-nonemptyarrayofextendedpropertytype"></a>ExtendedProperties (NonEmptyArrayOfExtendedPropertyType)
 
-O elemento **ExtendedProperties** Especifica uma matriz de propriedades adicionais. 
+O elemento **ExtendedProperties** especifica uma matriz de propriedades adicionais. 
   
 ```XML
 <ExtendedProperties>
@@ -26,25 +26,25 @@ O elemento **ExtendedProperties** Especifica uma matriz de propriedades adiciona
 ```
 
  **NonEmptyArrayOfExtendedPropertyType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ExtendedProperty](extendedproperty.md) <br/> |Identifica as propriedades estendidas de MAPI em pastas e itens.  <br/> |
+|[ExtendedProperty](extendedproperty.md) <br/> |Identifica as propriedades de MAPI estendidas em pastas e itens.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ImGroup](imgroup.md) <br/> |Representa um grupo de mensagens instantâneo.  <br/> |
+|[Imgroup](imgroup.md) <br/> |Representa um grupo de mensagens instantâneas.  <br/> |
 |[SearchPreviewItem](searchpreviewitem.md) <br/> |Especifica os primeiros 256 caracteres de um item de caixa de correio para visualização sem abrir o item.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -53,16 +53,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

@@ -7,29 +7,29 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 922c8b21-04a9-4229-b48c-187c3095422e
-description: O elemento EmailAddress destina-se somente para uso interno.
-ms.openlocfilehash: cf5571dd22a7f938097b6c38a8a3531c4ce0891a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento EmailAddress é destinado apenas para uso interno.
+ms.openlocfilehash: 30af442a6716efdb45473d83a6e0dbf0802b49ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751982"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463465"
 ---
 # <a name="emailaddress-emailaddress"></a>EmailAddress (EmailAddress)
 
-O elemento **EmailAddress** destina-se somente para uso interno. 
+O elemento **EmailAddress** é destinado apenas para uso interno. 
   
 ```XML
 <EmailAddress />
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -37,7 +37,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 

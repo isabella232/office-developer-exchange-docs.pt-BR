@@ -1,5 +1,5 @@
 ---
-title: EmailAddress (GetPersonaType)
+title: EmailAddress (getpersonatype)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 052055b5-4630-40ed-9b24-9e7f4bf7ba1d
-description: O elemento EmailAddress (GetPersonaType) Especifica o endereço de email associado com a pessoa.
-ms.openlocfilehash: a28a4a61a9719875fe99e1c950bcd3ec3af9ab13
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento EmailAddress (getpersonatype) especifica o endereço de email associado ao persona.
+ms.openlocfilehash: b58f61202cd94ff282b21138b47b40887b38752a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751985"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463451"
 ---
-# <a name="emailaddress-getpersonatype"></a>EmailAddress (GetPersonaType)
+# <a name="emailaddress-getpersonatype"></a>EmailAddress (getpersonatype)
 
-O elemento **EmailAddress (GetPersonaType)** Especifica o endereço de email associado com a pessoa. 
+O elemento **EmailAddress (Getpersonatype)** especifica o endereço de email associado ao persona. 
   
 ```XML
 <EmailAddress>
@@ -30,22 +30,22 @@ O elemento **EmailAddress (GetPersonaType)** Especifica o endereço de email ass
 </EmailAddress>>
 ```
 
- **EmailAddressType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **EmailAddresstype**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Nome (string)](name-string.md) | [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) | [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md) | [MailboxType](mailboxtype.md) | [ItemId](itemid.md) | [OriginalDisplayName](originaldisplayname.md)
+[Nome (cadeia de caracteres)](name-string.md)  |  [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)  |  [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)  |  [MailboxType](mailboxtype.md)  |  [ItemId](itemid.md)  |  [OriginalDisplayName](originaldisplayname.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[GetPersona](getpersona.md)
+[Getpersona](getpersona.md)
   
 ## <a name="remarks"></a>Comentários
 
@@ -53,17 +53,17 @@ Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
-- [GetPersona](getpersona.md)
+- [Getpersona](getpersona.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,32 +1,32 @@
 ---
-title: AddressBook POX)
+title: AddressBook (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b2d62fd0-741c-4a41-9762-cc7d0ff01c9c
-description: O elemento de AddressBook contém as especificações para conectar-se um cliente para o servidor de catálogo de endereços usando o protocolo MAPI/HTTP.
-ms.openlocfilehash: c30f0ee7c36de7e63157d07d003a11187d661fd7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento AddressBook contém as especificações para conectar um cliente ao servidor de catálogo de endereços usando o protocolo MAPI/HTTP.
+ms.openlocfilehash: 0967ac123cd3bb0086fd004ea0d0d37c08d2e037
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751063"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463633"
 ---
-# <a name="addressbook-pox"></a>AddressBook POX)
+# <a name="addressbook-pox"></a>AddressBook (POX)
 
-O elemento de **AddressBook** contém as especificações para conectar-se um cliente para o servidor de catálogo de endereços usando o protocolo MAPI/HTTP. 
+O elemento **AddressBook** contém as especificações para conectar um cliente ao servidor de catálogo de endereços usando o protocolo MAPI/http. 
   
 [Descoberta automática (POX)](autodiscover-pox.md)
   
-[Resposta POX)](response-pox.md)
+[Resposta (POX)](response-pox.md)
   
 [Conta (POX)](account-pox.md)
   
-[Protocolo (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[AddressBook POX)](addressbook-pox.md)
+[AddressBook (POX)](addressbook-pox.md)
   
 ```XML
 <AddressBook>
@@ -35,34 +35,34 @@ O elemento de **AddressBook** contém as especificações para conectar-se um cl
 </AddressBook>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ExternalUrl POX)](externalurl-pox.md) <br/> |Contém a URL que deve ser usada para acessar o catálogo de endereços de fora da rede da organização por meio do protocolo MAPI/HTTP.  <br/> |
-|[InternalUrl (POX)](internalurl-pox.md) <br/> |Contém a URL que deve ser usada para acessar o catálogo de endereços de dentro da rede da organização por meio do protocolo MAPI/HTTP.  <br/> |
+|[ExternalUrl (POX)](externalurl-pox.md) <br/> |Contém a URL que deve ser usada para acessar o catálogo de endereços de fora da rede da organização usando o protocolo MAPI/HTTP.  <br/> |
+|[InternalUrl (POX)](internalurl-pox.md) <br/> |Contém a URL que deve ser usada para acessar o catálogo de endereços de dentro da rede da organização usando o protocolo MAPI/HTTP.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o servidor de acesso para cliente.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao servidor de acesso para cliente.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O elemento **AddressBook** está presente em uma resposta que tem um elemento de [Protocolo POX ()](protocol-pox.md) com um valor do atributo de **tipo** de "mapiHttp". 
+O elemento **AddressBook** está presente em uma resposta que tem um elemento [Protocol (POX)](protocol-pox.md) com um valor de atributo **Type** de "mapiHttp". 
   
-O elemento **AddressBook** está disponível para clientes que implementam o protocolo MAPI/HTTP e destino Exchange Online, Exchange Online como parte do Office 365, e versões de local do Exchange, começando com o build 15.00.0847.032 (Exchange Server 2013 SP1) . 
+O elemento **AddressBook** está disponível para clientes que implementam o protocolo MAPI/http e direcionam o Exchange Online, o Exchange Online como parte do Office 365 e as versões locais do Exchange a partir do Build 15.00.0847.032 (exchange server 2013 SP1). 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

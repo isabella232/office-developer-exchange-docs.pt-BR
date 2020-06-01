@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ddeb11db-797d-4939-91d5-3e44be5f0778
-description: O elemento HasBlockedImages Especifica um valor Boolean que indica se o item bloqueou imagens.
-ms.openlocfilehash: fbe9967c898016aeef27e3c86e8a1cf603bd87fc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento HasBlockedImages especifica um valor Boolean que indica se o item tem imagens bloqueadas.
+ms.openlocfilehash: 370ab4b12ae841815faa344b2fd3a6d3ddc16bcb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823795"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462791"
 ---
 # <a name="hasblockedimages"></a>HasBlockedImages
 
-O elemento **HasBlockedImages** Especifica um valor Boolean que indica se o item bloqueou imagens. 
+O elemento **HasBlockedImages** especifica um valor Boolean que indica se o item tem imagens bloqueadas. 
   
 ```XML
 <HasBlockedImages> true | false </HasBlockedImages>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Item](item.md) <br/> |Representa um item genérico no armazenamento do Exchange.  <br/> |
+|[Item](item.md) <br/> |Representa um item genérico no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** para o elemento **HasBlockedImages** indica que o item bloqueou imagens. Um valor **false** indica que o item não tem quaisquer imagens bloqueadas. 
+Um valor de texto **true** para o elemento **HasBlockedImages** indica que o item tem imagens bloqueadas. Um valor **false** indica que o item não tem nenhuma imagem bloqueada. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -52,16 +52,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

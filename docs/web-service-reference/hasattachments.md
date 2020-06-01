@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 538b7a85-11d7-4daa-8458-09b540760e8b
-description: O elemento HasAttachments representa uma propriedade que é definida como true se um item tem pelo menos um anexo visível ou se uma conversa contém pelo menos um item que tenha um anexo. Esta propriedade é somente leitura.
-ms.openlocfilehash: e76e0ecbb357396540f0d1649cf5062edfb18660
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento HasAttachments representa uma propriedade que é definida como true se um item tiver pelo menos um anexo visível ou se uma conversa contiver pelo menos um item que tenha um anexo. Essa propriedade é somente leitura.
+ms.openlocfilehash: cc4e4ec0eac1c749723facc8cd780da41b0d8150
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823801"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462919"
 ---
 # <a name="hasattachments"></a>HasAttachments
 
-O elemento **HasAttachments** representa uma propriedade que é definida como **true** se um item tem pelo menos um anexo visível ou se uma conversa contém pelo menos um item que tenha um anexo. Esta propriedade é somente leitura. 
+O elemento **HasAttachments** representa uma propriedade que é definida como **true** se um item tiver pelo menos um anexo visível ou se uma conversa contiver pelo menos um item que tenha um anexo. Essa propriedade é somente leitura. 
   
 ```XML
 <HasAttachments/>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,39 +45,39 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[Condições](conditions.md) <br/> |Representa as condições que, quando atendida, irá disparar as ações de regra para essa regra.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, dispararão as ações de regra para essa regra.  <br/> |
 |[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
-|[Conversa (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição.  <br/> |
 |[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para a regra de caixa de entrada.  <br/> |
-|[1.1](item.md) <br/> |Representa um item no armazenamento do Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Representa o cancelamento da reunião no armazenamento do Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no armazenamento do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no armazenamento do Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no armazenamento do Exchange.  <br/> |
-|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
-|[Task](task.md) <br/> |Representa uma tarefa no armazenamento do Exchange.  <br/> |
+|[Item](item.md) <br/> |Representa um item no repositório do Exchange.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no repositório do Exchange.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto que representa um valor booleano. Um valor **true** significa que o item ou conversa tem pelo menos um anexo visível. Um valor **false** significa que o item ou conversa sem anexos ou somente tem oculto anexos. 
+Um valor de texto que representa um valor booliano é necessário. Um valor **true** significa que o item ou a conversa tem pelo menos um anexo visível. Um valor **false** significa que o item ou a conversa não tem nenhum anexo ou tem apenas anexos ocultos. 
   
 ## <a name="remarks"></a>Comentários
 
-A propriedade **HasAttachments** é calculada da propriedade MAPI de **AllAttachmentsHidden** booleano. Se um item não tiver um anexo, a propriedade **AllAttachmentsHidden** não existe. Se todos os anexos no item estiver oculto, a propriedade **AllAttachmentsHidden** é **true**. A propriedade **AllAttachmentsHidden** for **Falso** , se ele tiver sido definido pelo menos um anexo e pelo menos um dos anexos está visível. Use a propriedade MAPI **AllAttachmentsHidden** para pesquisa, agrupar e classificar itens. 
+A propriedade **HasAttachments** é calculada a partir da propriedade Boolean **AllAttachmentsHidden** MAPI. Se um item não tiver um anexo, a propriedade **AllAttachmentsHidden** não existe. Se todos os anexos do item estiverem ocultos, a propriedade **AllAttachmentsHidden** será **true**. A propriedade **AllAttachmentsHidden** é **false** se tiver pelo menos um anexo e se pelo menos um dos anexos estiver visível. Use a propriedade MAPI **AllAttachmentsHidden** para pesquisar, agrupar e classificar itens. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

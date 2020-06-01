@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8534f44b-a5af-4a9f-9621-23a3eff5f9d8
-description: O elemento de ContactsView define uma pesquisa de itens de contato, com base em nomes para exibição em ordem alfabética.
-ms.openlocfilehash: e578eb4dd0042b8c478e883c7fa54d7f2e984229
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ContactsView define uma pesquisa para itens de contato com base em nomes de exibição em ordem alfabética.
+ms.openlocfilehash: 23c3fe13c44cdd0e5a054ecb3378bc3d633e55aa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751462"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463815"
 ---
 # <a name="contactsview"></a>ContactsView
 
-O elemento de **ContactsView** define uma pesquisa de itens de contato, com base em nomes para exibição em ordem alfabética. 
+O elemento **ContactsView** define uma pesquisa para itens de contato com base em nomes de exibição em ordem alfabética. 
   
 [FindItem](finditem.md)
   
@@ -33,17 +33,17 @@ O elemento de **ContactsView** define uma pesquisa de itens de contato, com base
 
 **ContactsViewType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
 |**MaxEntriesReturned** <br/> |Descreve o número máximo de resultados a serem retornados na resposta [FindItem](finditem.md) .  <br/> |
-|**InitialName** <br/> |Define o primeiro nome na lista de contatos para retornar na resposta. Se o nome inicial especificado não estiver na lista de contatos, o próximo nome em ordem alfabética conforme definido pela cultura contexto será retornado, exceto se o próximo nome vem após **FinalName**. Se o atributo **InitialName** for omitido, a resposta conterá uma lista de contatos que começa com o primeiro nome na lista de contatos. Este atributo é opcional.  <br/> |
-|**FinalName** <br/> |Define o sobrenome na lista de contatos para retornar na resposta. Se o atributo **FinalName** for omitido, a resposta conterá todos os contatos subsequentes na ordem de classificação especificado. Se o nome final especificado não estiver na lista de contatos, o próximo nome em ordem alfabética conforme definido pelo contexto de cultura não será excluído.  <br/><br/>Por exemplo, se FinalName = "Name", mas nome não estiver na lista de contatos, contatos que tenham exibem nomes do Nome1 ou nome não serão incluído.  <br/><br/>Este atributo é opcional.  <br/> |
+|**Initialname** <br/> |Define o primeiro nome na lista de contatos a ser retornado na resposta. Se o nome inicial especificado não estiver na lista de contatos, o próximo nome da ordem alfabética definido pelo contexto cultural será retornado, exceto se o próximo nome vier após o **finalname**. Se o atributo **inicialname** for omitido, a resposta conterá uma lista de contatos que inicia com o primeiro nome na lista de contatos. Esse atributo é opcional.  <br/> |
+|**Finalname** <br/> |Define o último nome na lista de contatos para retornar na resposta. Se o atributo **finalname** for omitido, a resposta conterá todos os contatos subsequentes na ordem de classificação especificada. Se o nome final especificado não estiver na lista de contatos, o nome da próxima ordem alfabética definido pelo contexto cultural será excluído.  <br/><br/>Por exemplo, se Finalname = "Name", mas Name não estiver na lista de contatos, os contatos com nomes de exibição de Nome1 ou NAME não serão incluídos.  <br/><br/>Esse atributo é opcional.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -53,7 +53,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.<br/><br/> Este é a expressão XPath para esse elemento:  <br/>  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.<br/><br/> A seguir está a expressão XPath para este elemento:  <br/>  `/FindItem` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -61,16 +61,16 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação demonstra como localizar os três primeiros contatos começando com o contato que possui o nome de exibição de Kelly Rollin.
+O exemplo a seguir de uma solicitação demonstra como localizar os primeiros três contatos começando com o contato com o nome de exibição de Kelly Rollin.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindItem Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindItem Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemShape>
         <t:BaseShape>IdOnly</t:BaseShape>
         <t:AdditionalProperties>
@@ -91,17 +91,17 @@ O exemplo a seguir de uma solicitação demonstra como localizar os três primei
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação FindItem](finditem-operation.md)
-- [Localizando itens](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Localizar itens](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

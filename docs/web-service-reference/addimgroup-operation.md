@@ -7,48 +7,48 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6df6e504-b7c8-4773-b10f-ffa5defac229
-description: Encontre informações sobre o EWS AddImGroup operação.
-ms.openlocfilehash: 91236f9ad2236b3f6bee600b9d57bcf736090ed7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações sobre a operação do EWS do AddImGroup.
+ms.openlocfilehash: 38ed12a741d46fe998dc0079ed13973ce9edf5ac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751051"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462812"
 ---
 # <a name="addimgroup-operation"></a>Operação AddImGroup
 
-Encontre informações sobre a operação de EWS **AddImGroup** . 
+Encontre informações sobre a operação do EWS do **AddImGroup** . 
   
-A operação de serviços Web do Exchange (EWS) **AddImGroup** adiciona um novo grupo de mensagens instantâneas para uma caixa de correio. 
+A operação do **AddImGroup** do serviços Web do Exchange (EWS) adiciona um novo grupo de mensagens instantâneas (IM) a uma caixa de correio. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-addimgroup-operation"></a>Usando a operação AddImGroup
 
-A operação **AddImGroup** só entra em um argumento de nome de exibição único. 
+A operação **AddImGroup** usa apenas um único argumento de nome de exibição. 
   
-Esta operação retorna o nome para exibição, tipo de grupo e identificador de repositório do Exchange do novo grupo.
+Essa operação retorna o nome de exibição, o tipo de grupo e o identificador de repositório do Exchange do novo grupo.
   
-A operação **AddImGroup** pode usar os cabeçalhos SOAP que estão listados na tabela a seguir. 
+A operação **AddImGroup** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
   
-**Tabela 1. Cabeçalhos SOAP AddImGroup operação**
+**Tabela 1. Cabeçalhos SOAP de operação AddImGroup**
 
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Isso é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido no RFC 3066, "Marcas para a identificação de idiomas", que será usada para acessar a caixa de correio. Isso é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Isso é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Isso é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Isso se aplica a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Isso se aplica a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Isso se aplica a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Isso se aplica a uma resposta.  <br/> |
    
-## <a name="addimgroup-operation-request-example-create-a-new-im-group"></a>Exemplo de solicitação de operação AddImGroup: criar um novo grupo de mensagens Instantâneas
+## <a name="addimgroup-operation-request-example-create-a-new-im-group"></a>Exemplo de solicitação de operação AddImGroup: criar um novo grupo de IM
 
-O exemplo a seguir de uma solicitação de operação **AddImGroup** mostra como criar um grupo de mensagens Instantâneas chamado MyCustomerGroup. 
+O exemplo a seguir de uma solicitação de operação **AddImGroup** mostra como criar um grupo de mensagens instantâneas chamado mycustomerobject. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -61,11 +61,11 @@ O exemplo a seguir de uma solicitação de operação **AddImGroup** mostra como
 </soap:Envelope>
 ```
 
-A solicitação de corpo SOAP contém os seguintes elementos:
+O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [AddImGroup](addimgroup.md)
     
-- [DisplayName (string)](displayname-string.md)
+- [DisplayName (cadeia de caracteres)](displayname-string.md)
     
 ## <a name="successful-addimgroup-operation-response"></a>Resposta de operação AddImGroup bem-sucedida
 
@@ -80,37 +80,37 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
                            MajorBuildNumber="349"
                            MinorBuildNumber="0"
                            Version="Exchange2013"
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <AddImGroupResponse ResponseClass="Success"
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <ImGroup>
-            <DisplayName xmlns="http://schemas.microsoft.com/exchange/services/2006/types">MyCustomGroup</DisplayName>
-            <GroupType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">IPM.DistList.MOC.UserGroup</GroupType>
+            <DisplayName xmlns="https://schemas.microsoft.com/exchange/services/2006/types">MyCustomGroup</DisplayName>
+            <GroupType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">IPM.DistList.MOC.UserGroup</GroupType>
             <ExchangeStoreId Id="AAMkAGQ1MjJjMTBkLTc4Y2UtNDA5Ny04ZjU5LWI3MAAA="
                              ChangeKey="EgAAAA=="
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/types"/>
          </ImGroup>
       </AddImGroupResponse>
    </s:Body>
 </s:Envelope>
 ```
 
-A resposta SOAP body contém os seguintes elementos:
+O corpo SOAP de resposta contém os seguintes elementos:
   
 - [AddImGroupResponse](addimgroupresponse.md)
     
 - [ResponseCode](responsecode.md)
     
-- [ImGroup](imgroup.md)
+- [Imgroup](imgroup.md)
     
-- [DisplayName (string)](displayname-string.md)
+- [DisplayName (cadeia de caracteres)](displayname-string.md)
     
 - [GroupType](grouptype.md)
     
@@ -118,19 +118,19 @@ A resposta SOAP body contém os seguintes elementos:
     
 ## <a name="addimgroup-operation-error-response"></a>Resposta de erro de operação AddImGroup
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **AddImGroup** . Esta é uma resposta a uma solicitação que contém um caractere que não pode ser usado em um nome de exibição. Observe que isso é uma falha de SOAP e não uma mensagem de erro baseados no esquema. É o nome de exibição enviado na solicitação ~! @# $% ^&amp;, e o erro ocorre no &amp; caractere. O &amp; caractere ocorreu o caractere de linha e 33rd 11 na carga de solicitação. A resposta foi retornada com um código HTTP 500. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **AddImGroup** . Esta é uma resposta a uma solicitação que contém um caractere que não pode ser usado em um nome de exibição. Observe que esta é uma falha SOAP e não uma mensagem de erro baseada em esquema. O nome de exibição enviado na solicitação é ~! @ # $% ^ &amp; e o erro ocorre no &amp; caractere. O &amp; caractere ocorreu na linha 11 e no caractere 33rd na carga de solicitação. A resposta foi retornada com um código HTTP 500. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
    <s:Body>
       <s:Fault>
-         <faultcode xmlns:a="http://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
+         <faultcode xmlns:a="https://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
          <faultstring xml:lang="en-US">The request failed schema validation: An error occurred while parsing EntityName. Line 11, position 33.</faultstring>
          <detail>
-            <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
-            <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
-            <t:MessageXml xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+            <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
+            <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
+            <t:MessageXml xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
                <t:LineNumber>11</t:LineNumber>
                <t:LinePosition>33</t:LinePosition>
                <t:Violation>An error occurred while parsing EntityName. Line 11, position 33.</t:Violation>
@@ -141,9 +141,9 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Pessoas e contatos no EWS no Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+- [Pessoas e contatos no EWS no Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     
 - [Operação RemoveImGroup](removeimgroup-operation.md)
     

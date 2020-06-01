@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 72cec5ec-8485-431c-95b7-b9c2247669d6
 description: O elemento LegacyDN identifica uma caixa de correio por seu nome distinto herdado.
-ms.openlocfilehash: 8cd0aeb3018a6a45a3b7172d83ac0899a012b353
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b5eb23d285925f97cc25f53b56bca669bbbb5840
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824238"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463234"
 ---
 # <a name="legacydn"></a>LegacyDN
 
@@ -25,13 +25,13 @@ O elemento **LegacyDN** identifica uma caixa de correio por seu nome distinto he
 
 **cadeia de caracteres**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -41,9 +41,9 @@ Nenhum.
 
 [Caixas de correio (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento de **LegacyDN** é o nome diferenciado herdado da caixa de correio de destino. 
+O valor de texto do elemento **LegacyDN** é o nome diferenciado herdado da caixa de correio de destino. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -51,13 +51,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

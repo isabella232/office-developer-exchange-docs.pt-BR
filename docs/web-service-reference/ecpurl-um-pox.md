@@ -1,44 +1,44 @@
 ---
-title: EcpUrl-um POX)
+title: EcpUrl-um (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 455c77c6-c03f-49a7-a8ca-aa0023b6e73b
-description: O elemento EcpUrl um Especifica uma URL parcial que pode ser combinada com o valor do elemento EcpUrl POX () para gerar uma URL que pode ser usada para acessar as configurações de caixa postal de um usuário habilitado para email.
-ms.openlocfilehash: 5f9be67f02703bbdfeb114eda13c5ce59f83290d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento EcpUrl-um especifica uma URL parcial que pode ser combinada com o valor do elemento EcpUrl (POX) para gerar uma URL que possa ser usada para acessar as configurações de caixa postal de um usuário habilitado para email.
+ms.openlocfilehash: 0fa3d42113d7d9accd6bba3d3b065477baf4d484
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751957"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463486"
 ---
-# <a name="ecpurl-um-pox"></a>EcpUrl-um POX)
+# <a name="ecpurl-um-pox"></a>EcpUrl-um (POX)
 
-O elemento **EcpUrl um** Especifica uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl POX ()](ecpurl-pox.md) para gerar uma URL que pode ser usada para acessar as configurações de caixa postal de um usuário habilitado para email. 
+O elemento **EcpUrl-um** especifica uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que possa ser usada para acessar as configurações de caixa postal de um usuário habilitado para email. 
   
 [Descoberta automática (POX)](autodiscover-pox.md)
   
-[Resposta POX)](response-pox.md)
+[Resposta (POX)](response-pox.md)
   
 [Conta (POX)](account-pox.md)
   
-[Protocolo (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[EcpUrl-um POX)](ecpurl-um-pox.md)
+[EcpUrl-um (POX)](ecpurl-um-pox.md)
   
 ```XML
 <EcpUrl-um/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,19 +48,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl POX ()](ecpurl-pox.md) para gerar uma URL que pode ser usada para acessar as configurações de caixa postal para o usuário. 
+O valor de texto representa uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que possa ser usada para acessar as configurações de caixa postal do usuário. 
   
 ## <a name="remarks"></a>Comentários
 
-O elemento **EcpUrl um** é um elemento filho opcionais do elemento de **protocolo** . 
+O elemento **EcpUrl-um** é um elemento filho opcional do elemento **Protocol** . 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

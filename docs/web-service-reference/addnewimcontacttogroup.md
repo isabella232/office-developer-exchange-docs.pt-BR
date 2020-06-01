@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d5913619-0c13-429d-b9d2-057e8af220f1
-description: O elemento de AddNewImContactToGroup define uma solicitação para adicionar um novo contato de mensagens instantâneo a um grupo de mensagens instantâneo.
-ms.openlocfilehash: 2736bac6880a11101e9bffee12033c838705700e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento AddNewImContactToGroup define uma solicitação para adicionar um novo contato de sistema de mensagens instantâneas a um grupo de mensagens instantâneas.
+ms.openlocfilehash: c493ba81b23832a462acd425eb60297801f8768f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751058"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463647"
 ---
 # <a name="addnewimcontacttogroup"></a>AddNewImContactToGroup
 
-O elemento de **AddNewImContactToGroup** define uma solicitação para adicionar um novo contato de mensagens instantâneo a um grupo de mensagens instantâneo. 
+O elemento **AddNewImContactToGroup** define uma solicitação para adicionar um novo contato de sistema de mensagens instantâneas a um grupo de mensagens instantâneas. 
   
 ```XML
 <AddNewImContactToGroup>
@@ -28,21 +28,21 @@ O elemento de **AddNewImContactToGroup** define uma solicitação para adicionar
 ```
 
  **AddNewImContactToGroupType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[ImAddress (NonEmptyStringType)](imaddress-nonemptystringtype.md) | [DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md) | [GroupId](groupid.md)
+[IMAddress (NonEmptyStringType)](imaddress-nonemptystringtype.md)  |  [DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md)  |  [GroupId](groupid.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
-|Pode estar vazio  <br/> |false  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Pode estar vazio  <br/> |falso  <br/> |
    
 

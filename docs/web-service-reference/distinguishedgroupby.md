@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6ff3ac48-02ba-40ec-a71b-c401bb2b127c
-description: O elemento DistinguishedGroupBy fornece agrupamentos padrão para consultas FindItem.
-ms.openlocfilehash: 0635366447675bf28dedf3af4f7d76094ee5e0a4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DistinguishedGroupBy fornece agrupamentos padrão para consultas do FindItem.
+ms.openlocfilehash: 004613d55419a19f69e960203ae13d8d906b74c8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751897"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463136"
 ---
 # <a name="distinguishedgroupby"></a>DistinguishedGroupBy
 
-O elemento **DistinguishedGroupBy** fornece agrupamentos padrão para consultas FindItem. 
+O elemento **DistinguishedGroupBy** fornece agrupamentos padrão para consultas do FindItem. 
   
 - [FindItem](finditem.md) 
 - [DistinguishedGroupBy](distinguishedgroupby.md)
@@ -33,43 +33,43 @@ O elemento **DistinguishedGroupBy** fornece agrupamentos padrão para consultas 
 ```
 
  **DistinguishedGroupByType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[StandardGroupBy](standardgroupby.md) <br/> |Representa o padrão de agrupamento e agregar mecanismos para uma operação de FindItem agrupada.  <br/> |
+|[StandardGroupBy](standardgroupby.md) <br/> |Representa os mecanismos padrão de agrupamento e agregação para uma operação FindItem agrupada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.<br/><br/>Este é a expressão XPath para esse elemento:`/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.<br/><br/>A seguir está a expressão XPath para este elemento:`/FindItem` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O elemento **DistinguishedGroupBy** pode ser adicionado a uma operação FindItem quando os resultados devem vir armazenados agrupados e quando um dos grupos padrão atende aos requisitos de agrupamento. Se nem o elemento **DistinguishedGroupBy** nem o elemento [GroupBy](groupby.md) for especificado, desagrupado FindItem resultados retornarão. 
+O elemento **DistinguishedGroupBy** pode ser adicionado a uma operação FindItem quando os resultados precisam ser agrupados e quando um dos grupos padrão atende aos requisitos de agrupamento. Se nem o elemento **DistinguishedGroupBy** nem o elemento [GroupBy](groupby.md) for especificado, os resultados do FindItem retornarão de Ungrouped. 
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação FindItem](finditem-operation.md)
-- [Localizando itens](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Localizar itens](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

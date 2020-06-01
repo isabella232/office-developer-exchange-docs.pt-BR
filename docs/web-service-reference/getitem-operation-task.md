@@ -11,27 +11,27 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8265dd06-1752-4470-8074-5f0e3e970f52
-description: A operação GetItem é usada para obter as tarefas do Exchange store.
-ms.openlocfilehash: 412710f32ed8702e1a28a596833c3a7e47e3ed76
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação GetItem é usada para obter tarefas do repositório do Exchange.
+ms.openlocfilehash: 17a23d4c2a35761e831610f3514c980a5a67e12b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752550"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463332"
 ---
 # <a name="getitem-operation-task"></a>Operação GetItem (tarefa)
 
-A operação GetItem é usada para obter as tarefas do Exchange store.
+A operação GetItem é usada para obter tarefas do repositório do Exchange.
   
 ## <a name="remarks"></a>Comentários
 
-O formato da solicitação GetItem para tarefas é igual ao GetItem para qualquer outro tipo de item. A única diferença é que em que as propriedades adicionais podem ser solicitadas dentro da forma de resposta. Essas propriedades adicionais devem ser propriedades relacionadas a tarefa ou propriedades estendidas.
+O formato da solicitação GetItem para tarefas é o mesmo que GetItem para qualquer outro tipo de item. A única diferença é no qual as propriedades adicionais podem ser solicitadas dentro da forma de resposta. Essas propriedades adicionais devem ser propriedades relacionadas à tarefa ou propriedades estendidas.
   
 ## <a name="task-getitem-request-example"></a>Exemplo de solicitação de GetItem de tarefa
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de GetItem mostra como obter um item de tarefa.
+O exemplo a seguir de uma solicitação GetItem mostra como obter um item de tarefa.
   
 ### <a name="code"></a>Código
 
@@ -40,10 +40,10 @@ O exemplo a seguir de uma solicitação de GetItem mostra como obter um item de 
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <ItemShape>
         <t:BaseShape>AllProperties</t:BaseShape>
       </ItemShape>
@@ -55,18 +55,18 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> O identificador do item e alterar chave foram diminuídas para preservar a legibilidade. 
+> O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade. 
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
 - [GetItem](getitem.md)
     
-- [ItemShape](itemshape.md)
+- [Shape](itemshape.md)
     
 - [BaseShape](baseshape.md)
     
@@ -74,11 +74,11 @@ Os seguintes elementos são usados na solicitação:
     
 - [ItemId](itemid.md)
     
-## <a name="task-getitem-response-example"></a>Exemplo de resposta GetItem da tarefa
+## <a name="task-getitem-response-example"></a>Exemplo de resposta de GetItem de tarefa
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de GetItem.
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação GetItem.
   
 ### <a name="code"></a>Código
 
@@ -89,12 +89,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de GetIt
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -133,12 +133,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de GetIt
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> Os identificadores de item e pasta e chaves de alteração tem sido reduzidas para preservar a legibilidade. 
+> Os identificadores de item e de pasta e as chaves de alteração foram reduzidos para preservar a legibilidade. 
   
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -152,9 +152,9 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-- [Items](items.md)
+- [Itens](items.md)
     
-- [Task](task.md)
+- [Tarefa](task.md)
     
 - [ItemId](itemid.md)
     
@@ -166,15 +166,15 @@ Os seguintes elementos são usados na resposta:
     
 - [Sensitivity](sensitivity.md)
     
-- [Corpo](body.md)
+- [Body](body.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
-- [Size](size.md)
+- [Tamanho](size.md)
     
-- [Importância](importance.md)
+- [Importance](importance.md)
     
-- [IsSubmitted](issubmitted.md)
+- [Isenviado](issubmitted.md)
     
 - [IsDraft](isdraft.md)
     
@@ -204,16 +204,16 @@ Os seguintes elementos são usados na resposta:
     
 - [StatusDescription](statusdescription.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
 [Operação GetItem](getitem-operation.md)
 
 
-[Criação de tarefas](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+[Criando tarefas](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[Atualizar as tarefas](http://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
+[Atualizando tarefas](https://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
   
-[A exclusão de tarefas](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Excluir tarefas](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

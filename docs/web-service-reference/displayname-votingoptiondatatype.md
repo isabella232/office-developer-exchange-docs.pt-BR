@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 08e89583-438c-4c9f-8475-3bc28f555e95
-description: O elemento DisplayName (VotingOptionDataType) Especifica o nome de exibição de uma opção de votação.
-ms.openlocfilehash: 09f593000fd318ae90a31d961b33c8fe3879f7c9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DisplayName (VotingOptionDataType) especifica o nome de exibição de uma opção de votação.
+ms.openlocfilehash: 42291dc032517a13259fde01217b3543d3329f7d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751881"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463598"
 ---
 # <a name="displayname-votingoptiondatatype"></a>DisplayName (VotingOptionDataType)
 
-O elemento **DisplayName (VotingOptionDataType)** Especifica o nome de exibição de uma opção de votação. 
+O elemento **DisplayName (VotingOptionDataType)** especifica o nome de exibição de uma opção de votação. 
   
 ```XML
 <DisplayName />
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,7 +40,7 @@ Nenhum.
 
 [VotingOptionData](votingoptiondata.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto do elemento **DisplayName (VotingOptionDataType)** é o nome de exibição de uma opção de votação. 
   
@@ -50,16 +50,16 @@ Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 - [VotingOptionData](votingoptiondata.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

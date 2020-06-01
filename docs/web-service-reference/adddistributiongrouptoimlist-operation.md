@@ -7,46 +7,46 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5aa9bec8-71cf-4a6e-8ec8-b4965b40fd4a
-description: Encontre informações sobre o EWS AddDistributionGroupToImList operação.
-ms.openlocfilehash: 7c562c317890a4cffb9e5844ea41c1096a8595b4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações sobre a operação do EWS do AddDistributionGroupToImList.
+ms.openlocfilehash: e68e21b6994af5773f5cf991d55129e1db3367ac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751045"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463689"
 ---
 # <a name="adddistributiongrouptoimlist-operation"></a>Operação AddDistributionGroupToImList
 
-Encontre informações sobre a operação de EWS **AddDistributionGroupToImList** . 
+Encontre informações sobre a operação do EWS do **AddDistributionGroupToImList** . 
   
-A operação de serviços Web do Exchange (EWS) **AddDistributionGroupToImList** adiciona um grupo de distribuição para a lista (IM) no repositório de contato de Unificação de mensagens instantâneas. 
+A operação do **AddDistributionGroupToImList** do serviços Web do Exchange (EWS) adiciona um grupo de distribuição à lista de mensagens instantâneas (IM) no repositório unificado de contatos. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-adddistributiongrouptoimlist-operation"></a>Usando a operação AddDistributionGroupToImList
 
-A operação **AddDistributionGroupToImList** aceita um argumento único que identifica um grupo de distribuição para adicionar à lista de mensagens Instantâneas. Esta operação não cria um grupo de distribuição; o grupo de distribuição já deve ser criado. 
+A operação **AddDistributionGroupToImList** aceita um único argumento que identifica um grupo de distribuição para adicionar à lista de mensagens instantâneas. Essa operação não cria um grupo de distribuição; o grupo de distribuição já deve ser criado. 
   
-Esta operação pode usar os cabeçalhos SOAP que estão listados na tabela a seguir.
+Essa operação pode usar os cabeçalhos SOAP listados na tabela a seguir.
   
-**Tabela 1. Cabeçalhos SOAP AddDistributionGroupToImList operação**
+**Tabela 1. Cabeçalhos SOAP de operação AddDistributionGroupToImList**
 
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Isso é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido no RFC 3066, "Marcas para a identificação de idiomas", que será usada para acessar a caixa de correio. Isso é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Isso é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Isso é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Isso se aplica a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Isso se aplica a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Isso se aplica a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Isso se aplica a uma resposta.  <br/> |
    
 ## <a name="adddistributiongrouptoimlist-operation-request-example"></a>Exemplo de solicitação de operação AddDistributionGroupToImList
 
-O exemplo a seguir de uma solicitação de operação **AddDistributionGroupToImList** mostra como adicionar um grupo de distribuição à lista de mensagens Instantâneas. 
+O exemplo a seguir de uma solicitação de operação do **AddDistributionGroupToImList** mostra como adicionar um grupo de distribuição à lista de mensagens instantâneas. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -59,7 +59,7 @@ O exemplo a seguir de uma solicitação de operação **AddDistributionGroupToIm
 </soap:Envelope>
 ```
 
-A solicitação de corpo SOAP contém os seguintes elementos:
+O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [AddDistributionGroupToImList](adddistributiongrouptoimlist.md)   
 - [SmtpAddress](smtpaddress.md)
@@ -73,8 +73,8 @@ A resposta bem-sucedida contém o nome de exibição do grupo de distribuição,
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"
-            xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-            xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+            xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+            xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <s:Header>
       <t:ServerVersionInfo MajorVersion="15" 
                            MinorVersion="0" 
@@ -96,23 +96,23 @@ A resposta bem-sucedida contém o nome de exibição do grupo de distribuição,
 </s:Envelope>
 ```
 
-A resposta SOAP body contém os seguintes elementos:
+O corpo SOAP de resposta contém os seguintes elementos:
   
 - [AddDistributionGroupToImListResponse](adddistributiongrouptoimlistresponse.md)
     
 - [ResponseCode](responsecode.md)
     
-- [ImGroup](imgroup.md)
+- [Imgroup](imgroup.md)
     
-- [DisplayName (string)](displayname-string.md)
+- [DisplayName (cadeia de caracteres)](displayname-string.md)
     
 - [GroupType](grouptype.md)
     
 - [ExchangeStoreId](exchangestoreid.md)
     
-## <a name="adddistributiongrouptoimlist-operation-errorinvalidimdistributiongroupsmtpaddress-error-response"></a>Operação AddDistributionGroupToImList ErrorInvalidImDistributionGroupSmtpAddress resposta de erro
+## <a name="adddistributiongrouptoimlist-operation-errorinvalidimdistributiongroupsmtpaddress-error-response"></a>Resposta de erro ErrorInvalidImDistributionGroupSmtpAddress operação AddDistributionGroupToImList
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **AddDistributionGroupToImList** . A seguinte resposta de erro ocorre quando é feita uma tentativa para adicionar um grupo de distribuição que não existe no armazenamento do Exchange. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **AddDistributionGroupToImList** . A seguinte resposta de erro ocorre quando é feita uma tentativa de adicionar um grupo de distribuição que não existe no repositório do Exchange. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -123,15 +123,15 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
                            MajorBuildNumber="349" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <AddDistributionGroupToImListResponse ResponseClass="Error" 
-                                            xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                            xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>The specified IM distribution group SMTP address is invalid.</MessageText>
          <ResponseCode>ErrorInvalidImDistributionGroupSmtpAddress</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -140,7 +140,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-A resposta de erro corpo SOAP contém os seguintes elementos:
+O corpo SOAP de resposta de erro contém os seguintes elementos:
   
 - [AddDistributionGroupToImListResponse](adddistributiongrouptoimlistresponse.md)
     
@@ -148,9 +148,9 @@ A resposta de erro corpo SOAP contém os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Pessoas e contatos no EWS no Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)   
+- [Pessoas e contatos no EWS no Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)   
 - [AddImGroup](addimgroup-operation.md)   
 - [RemoveImGroup](removeimgroup-operation.md)
     

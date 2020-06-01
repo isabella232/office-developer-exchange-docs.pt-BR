@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2740bcf6-f86d-4756-a0f2-24ed6e9b75f7
-description: O elemento MessageTrackingReport contém uma única mensagem retornada em uma operação de GetMessageTrackingReport.
-ms.openlocfilehash: d01e0fbf099d096c7f255a8e94070e330577e6ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MessageTrackingReport contém uma única mensagem que é retornada em uma operação GetMessageTrackingReport.
+ms.openlocfilehash: fc3e56fbb1bee411fa31751f558f520874133076
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824457"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463213"
 ---
 # <a name="messagetrackingreport"></a>MessageTrackingReport
 
-O elemento **MessageTrackingReport** contém uma única mensagem retornada em uma [operação de GetMessageTrackingReport](getmessagetrackingreport-operation.md).
+O elemento **MessageTrackingReport** contém uma única mensagem que é retornada em uma [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md).
   
 ```XML
 <MessageTrackingReport>
@@ -36,24 +36,24 @@ O elemento **MessageTrackingReport** contém uma única mensagem retornada em um
 ```
 
  **MessageTrackingReportType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Remetente (EmailAddressType)](sender-emailaddresstype.md) <br/> |Contém informações de contato para o remetente da mensagem de email.  <br/> |
-|[PurportedSender](purportedsender.md) <br/> |Contém informações de contato para o emissor Denúncia de uma mensagem de email.  <br/> |
+|[Remetente (EmailAddresstype)](sender-emailaddresstype.md) <br/> |Contém informações de contato para o remetente da mensagem de email.  <br/> |
+|[PurportedSender](purportedsender.md) <br/> |Contém informações de contato para o remetente supostamente de uma mensagem de email.  <br/> |
 |[Assunto](subject.md) <br/> |Contém o assunto da mensagem de email.  <br/> |
-|[SubmitTime](submittime.md) <br/> |Contém a hora do dia em que a mensagem de email foi enviada.  <br/> |
+|[Enviartime](submittime.md) <br/> |Contém a hora do dia em que a mensagem de email foi enviada.  <br/> |
 |[OriginalRecipients](originalrecipients.md) <br/> |Contém uma lista dos destinatários da mensagem de email.  <br/> |
-|[RecipientTrackingEvents](recipienttrackingevents.md) <br/> |Contém uma lista de um ou mais eventos de rastreamento para os destinatários.  <br/> |
+|[RecipientTrackingEvents](recipienttrackingevents.md) <br/> |Contém uma lista de um ou mais eventos de controle para os destinatários.  <br/> |
 |[Propriedades (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contém uma lista de uma ou mais propriedades de controle.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
@@ -62,24 +62,24 @@ Nenhum.
 |:-----|:-----|
 |[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contém o resultado de uma única solicitação de [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md) .  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

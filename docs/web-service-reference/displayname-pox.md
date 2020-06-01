@@ -8,20 +8,20 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: dab23ed1-7fcf-4870-a634-f39d0742923a
-description: O elemento DisplayName representa o nome para exibição do usuário.
-ms.openlocfilehash: 7e4e5b1a97b8e627454a192a3fec2b8a02520a66
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DisplayName representa o nome de exibição do usuário.
+ms.openlocfilehash: 14522080a519d12a05567e4a65cba8ea00098b7d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751879"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463654"
 ---
 # <a name="displayname-pox"></a>DisplayName (POX)
 
-O elemento **DisplayName** representa o nome para exibição do usuário. 
+O elemento **DisplayName** representa o nome de exibição do usuário. 
   
 - [Descoberta automática (POX)](autodiscover-pox.md) 
-- [Resposta POX)](response-pox.md) 
+- [Resposta (POX)](response-pox.md) 
 - [Usuário (POX)](user-pox.md) 
 - [DisplayName (POX)](displayname-pox.md)
   
@@ -29,13 +29,13 @@ O elemento **DisplayName** representa o nome para exibição do usuário.
 <DisplayName/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -47,11 +47,11 @@ Nenhum.
 |:-----|:-----|
 |[Usuário (POX)](user-pox.md) <br/> |Fornece informações específicas do usuário.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o nome para exibição do usuário.
+O valor de texto representa o nome de exibição do usuário.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a84c19e-57cd-448e-af4f-c8005fd5f2a2
-description: O elemento de aniversários Especifica uma matriz de aniversários, armazenados como cadeias de caracteres e os identificadores de suas atribuições de origem para a pessoa associada.
-ms.openlocfilehash: 2511a2acf0eb2eb24f06e98a1c660d289687bd02
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento aniversários especifica uma matriz de aniversários, armazenada como cadeias de caracteres e os identificadores de suas atribuições de origem para o persona associado.
+ms.openlocfilehash: aa85febd84c32ae87e0822ce47fd99f445b6fe9e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751274"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462756"
 ---
 # <a name="birthdays"></a>Aniversários
 
-O elemento de **aniversários** Especifica uma matriz de aniversários, armazenados como cadeias de caracteres e os identificadores de suas atribuições de origem para a pessoa associada. 
+O elemento **aniversários** especifica uma matriz de aniversários, armazenada como cadeias de caracteres e os identificadores de suas atribuições de origem para o persona associado. 
   
 ```XML
 <Birthdays>
@@ -26,25 +26,25 @@ O elemento de **aniversários** Especifica uma matriz de aniversários, armazena
 ```
 
  **ArrayOfStringAttributedValuesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Especifica uma instância em uma matriz de atributos associados a um elemento de pessoa.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Especifica uma instância em uma matriz de atributos associados a um elemento persona.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoa](persona.md) <br/> |Especifica um conjunto de dados de pessoa retornados por uma solicitação **GetPersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -52,16 +52,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54d43fe6-9f7b-4f84-920a-bd686c65b059
 description: O elemento GetUserPhotoResponseMessage contém a resposta a uma solicitação GetUserPhoto.
-ms.openlocfilehash: fa817b59527f616afed84d8548e3a18e6c971e2d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a6df1204d4ac3a976694afbca008852acef6a76e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823696"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463297"
 ---
 # <a name="getuserphotoresponsemessage"></a>GetUserPhotoResponseMessage
 
@@ -31,17 +31,17 @@ O elemento **GetUserPhotoResponseMessage** contém a resposta a uma solicitaçã
 ```
 
  **GetUserPhotoResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [HasChanged](haschanged.md) | [PictureData](picturedata.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)  |  [HasChanged](haschanged.md)  |  [PictureData](picturedata.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -53,13 +53,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 
