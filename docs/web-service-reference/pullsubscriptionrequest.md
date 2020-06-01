@@ -11,19 +11,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 145c5cc7-a894-4f0b-a6ea-358cddfb5c33
-description: O elemento PullSubscriptionRequest representa uma assinatura para uma inscrição de notificação de evento baseado em extração.
-ms.openlocfilehash: 5f757bf1f79f7e2a00fb886db50e6ea0eaed1a4a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento PullSubscriptionRequest representa uma assinatura para uma assinatura de notificação de eventos baseada em pull.
+ms.openlocfilehash: fb9712c9e1481678c2821ee344052783d5c25bf9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824932"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468863"
 ---
 # <a name="pullsubscriptionrequest"></a>PullSubscriptionRequest
 
-O elemento **PullSubscriptionRequest** representa uma assinatura para uma inscrição de notificação de evento baseado em extração. 
+O elemento **PullSubscriptionRequest** representa uma assinatura para uma assinatura de notificação de eventos baseada em pull. 
   
-[Inscrever-se](subscribe.md)
+[Assinar](subscribe.md)
   
 [PullSubscriptionRequest](pullsubscriptionrequest.md)
   
@@ -37,32 +37,32 @@ O elemento **PullSubscriptionRequest** representa uma assinatura para uma inscri
 ```
 
  **PullSubscriptionRequestType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**SubscribeToAllFolders** <br/> |Indica se deve se inscrever para todas as pastas disponíveis. Este atributo é opcional.  <br/> |
+|**SubscribeToAllFolders** <br/> |Indica se é para se inscrever em todas as pastas disponíveis. Esse atributo é opcional.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderIds](folderids.md) <br/> |Contém uma matriz de identificadores de pasta que são usados para identificar pastas para monitorar as notificações de eventos.  <br/> |
-|[EventTypes](eventtypes.md) <br/> |Contém uma coleção de notificações de eventos que são usados para criar uma assinatura.  <br/> |
-|[Marca d'água](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio. Isso é usado para criar uma assinatura que inicia em um evento que é representado por marca d'água. Se a marca d'água de uma solicitação Subscribe não for encontrada, uma resposta de erro será retornada ao cliente. Esse erro pode ocorrer se a marca d'água tem mais de 30 dias ou se a marca d'água nunca estava presente na caixa de correio.  <br/> |
-|[Timeout](timeout.md) <br/> |Representa a duração em minutos, que a assinatura pode permanecer inativa sem uma solicitação GetEvents do cliente.  <br/> |
+|[FolderIds](folderids.md) <br/> |Contém uma matriz de identificadores de pasta que são usados para identificar as pastas a serem monitoradas para notificações de eventos.  <br/> |
+|[EventType](eventtypes.md) <br/> |Contém uma coleção de notificações de eventos que são usadas para criar uma assinatura.  <br/> |
+|[Marca d'água](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio. Isso é usado para criar uma assinatura que começa em um evento que é representado pela marca d' água. Se a marca d' água de uma solicitação de assinatura não for encontrada, uma resposta de erro será retornada ao cliente. Esse erro pode ocorrer se a marca d' água for mais antiga que 30 dias ou se a marca d' água nunca estiver presente na caixa de correio.  <br/> |
+|[Timeout](timeout.md) <br/> |Representa a duração, em minutos, que a assinatura pode permanecer ociosa sem uma solicitação de GetEvents do cliente.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Inscrever-se](subscribe.md) <br/> |Contém as propriedades que são usadas para criar assinaturas.  <br/> |
+|[Assinar](subscribe.md) <br/> |Contém as propriedades que são usadas para criar assinaturas.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -70,22 +70,22 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 [PushSubscriptionRequest](pushsubscriptionrequest.md)
   
-[Inscrever-se a operação](subscribe-operation.md)
+[Operação Subscribe](subscribe-operation.md)
   
 [Operação GetEvents](getevents-operation.md)
   

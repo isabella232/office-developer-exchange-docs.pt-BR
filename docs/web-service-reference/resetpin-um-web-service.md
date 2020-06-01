@@ -1,5 +1,5 @@
 ---
-title: ResetPIN (serviço web de Unificação de mensagens)
+title: ResetPIN (serviço Web da UM)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,32 +10,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: 383f0735-1caa-4675-a6e1-6dba6c5b1a28
-description: O elemento de ResetPIN define uma solicitação do ResetPIN operação (serviço web de Unificação de mensagens).
-ms.openlocfilehash: 3b6e68b7292d0c660c1980cc977981bef2a5e053
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ResetPIN define uma solicitação de operação do ResetPIN (serviço Web da UM).
+ms.openlocfilehash: de175797b202219df994708680ac8ab750b02880
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825147"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468849"
 ---
-# <a name="resetpin-um-web-service"></a>ResetPIN (serviço web de Unificação de mensagens)
+# <a name="resetpin-um-web-service"></a>ResetPIN (serviço Web da UM)
 
-O elemento de ResetPIN define uma solicitação de [operação ResetPIN (serviço web de Unificação de mensagens)](resetpin-operation-um-web-service.md) . 
+O elemento ResetPIN define uma solicitação de [operação do ResetPIN (serviço Web da um)](resetpin-operation-um-web-service.md) . 
   
-[ResetPIN (serviço web de Unificação de mensagens)](resetpin-um-web-service.md)
+[ResetPIN (serviço Web da UM)](resetpin-um-web-service.md)
   
 ```xml
 <ResetPIN />
 ```
 
  **complexType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -43,24 +43,24 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Operação de ResetPIN (serviço web de Unificação de mensagens)](resetpin-operation-um-web-service.md)
+[Operação ResetPIN (serviço Web da UM)](resetpin-operation-um-web-service.md)
 

@@ -1,5 +1,5 @@
 ---
-title: PrintAllowed
+title: Permitido
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7232505a-bab0-4d78-87bc-6cc4b568937a
-description: O elemento PrintAllowed Especifica se a impressão está habilitada.
-ms.openlocfilehash: 85c18f3a6bd8f1705d0e21b99bae15484348f777
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento impresso especifica se a impressão está habilitada.
+ms.openlocfilehash: ac38491d563916160b4d00165b743c51cb29fe00
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824880"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468744"
 ---
-# <a name="printallowed"></a>PrintAllowed
+# <a name="printallowed"></a>Permitido
 
-O elemento **PrintAllowed** Especifica se a impressão está habilitada. 
+O **elemento** impresso especifica se a impressão está habilitada. 
   
 ```XML
 <PrintAllowed> true | false </PrintAllowed>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [RightsManagementLicenseData](rightsmanagementlicensedata.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** para o elemento **PrintAllowed** indica que a opção Imprimir o conteúdo é permitida para um item direitos gerenciados. Um valor **false** indica que a impressão não é permitida. 
+Um valor de texto **true** para o elemento **reautorizado** indica que a impressão do conteúdo é permitida para um item de direitos gerenciados. Um valor **false** indica que a impressão não é permitida. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

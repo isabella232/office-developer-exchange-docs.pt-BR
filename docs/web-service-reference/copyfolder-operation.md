@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c7ea0d68-9793-4144-b378-d99536776db9
 description: A operação CopyFolder copia pastas em uma caixa de correio.
-ms.openlocfilehash: a83444ff0927a3c8fe075c79d44d02357a737773
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1f9a7a3f3ede2d3cf8f9d41677d8ce0487266f17
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751545"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468891"
 ---
 # <a name="copyfolder-operation"></a>Operação CopyFolder
 
@@ -25,25 +25,25 @@ A operação CopyFolder copia pastas em uma caixa de correio.
   
 ## <a name="using-the-copyfolder-operation"></a>Usando a operação CopyFolder
 
-A operação CopyFolder é semelhante à [operação MoveFolder](movefolder-operation.md). Ele copia pastas identificadas e retorna a **Id** e a **ChangeKey** das pastas copiadas. 
+A operação CopyFolder é semelhante à [operação MoveFolder](movefolder-operation.md). Ele copia pastas identificadas e retorna a **ID** e **ChangeKey** das pastas copiadas. 
   
 ## <a name="copyfolder-request-example"></a>Exemplo de solicitação CopyFolder
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de CopyFolder mostra como copie as pastas na pasta caixa de entrada.
+O exemplo a seguir de uma solicitação CopyFolder mostra como copiar pastas para a pasta caixa de entrada.
   
 > [!NOTE]
-> O valor do atributo **Id** do elemento [FolderId](folderid.md) foi reduzido para melhorar a legibilidade. 
+> O valor do atributo **ID** do elemento [FolderId](folderid.md) foi reduzido para legibilidade. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CopyFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ToFolderId>
         <t:DistinguishedFolderId Id="inbox"/>
       </ToFolderId>
@@ -56,11 +56,11 @@ O exemplo a seguir de uma solicitação de CopyFolder mostra como copie as pasta
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-Pastas podem ser identificadas por elemento [DistinguishedFolderId](distinguishedfolderid.md) ou o elemento [FolderId](folderid.md) para uso em tanto o [ToFolderId](tofolderid.md) ou os elementos de [FolderIds](folderids.md) . 
+As pastas podem ser identificadas pelo elemento [DistinguishedFolderId](distinguishedfolderid.md) ou o elemento [FolderId](folderid.md) para uso nos elementos [ToFolderId](tofolderid.md) ou [FolderIds](folderids.md) . 
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -77,16 +77,16 @@ Os seguintes elementos são usados na solicitação:
 > [!NOTE]
 > O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente. 
   
-Para localizar outras opções para a mensagem de solicitação da operação CopyFolder, explore a hierarquia de esquema. Inicie o elemento [CopyFolder](copyfolder.md) . 
+Para encontrar outras opções para a mensagem de solicitação da operação CopyFolder, explore a hierarquia de esquema. Inicie no elemento [CopyFolder](copyfolder.md) . 
   
-## <a name="successful-copyfolder-response"></a>Resposta de CopyFolder bem-sucedida
+## <a name="successful-copyfolder-response"></a>Resposta CopyFolder bem-sucedida
 
 ### <a name="description"></a>Descrição
 
 O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CopyFolder. 
   
 > [!NOTE]
-> A ID de pasta e a chave de alteração tem sido reduzidas para preservar a legibilidade. 
+> A ID da pasta e a chave de alteração foram reduzidas para preservar a legibilidade. 
   
 ### <a name="code"></a>Código
 
@@ -97,12 +97,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CopyFolder.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CopyFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CopyFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -118,9 +118,9 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CopyFolder.
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Comentário
 
-O elemento [FolderId](folderid.md) retornado na resposta representa a pasta que foi copiada no novo local de pasta. 
+O elemento [FolderId](folderid.md) retornado na resposta representa a pasta que foi copiada no novo local da pasta. 
   
 ### <a name="response-elements"></a>Elementos de resposta
 
@@ -142,13 +142,13 @@ Os seguintes elementos são usados na resposta:
     
 - [FolderId](folderid.md)
     
-Para localizar outras opções para a mensagem de resposta da operação CopyFolder, explore a hierarquia de esquema. Inicie o elemento [CopyFolderResponse](copyfolderresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta da operação CopyFolder, explore a hierarquia do esquema. Inicie no elemento [CopyFolderResponse](copyfolderresponse.md) . 
   
 ## <a name="copyfolder-error-response"></a>Resposta de erro CopyFolder
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de CopyFolder. O erro ocorreu porque já existe uma pasta com o mesmo nome de exibição.
+O exemplo a seguir mostra uma resposta de erro a uma solicitação CopyFolder. O erro ocorreu porque já existe uma pasta com o mesmo nome de exibição.
   
 ### <a name="code"></a>Código
 
@@ -159,12 +159,12 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de CopyFolder
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CopyFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CopyFolderResponseMessage ResponseClass="Error">
           <m:MessageText>The move or copy operation failed.</m:MessageText>
@@ -196,9 +196,9 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [Pastas](folders-ex15websvcsotherref.md)
     
-Para localizar outras opções para a mensagem de resposta de erro da operação CopyFolder, explore a hierarquia de esquema. Inicie o elemento [CopyFolderResponse](copyfolderresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta de erro da operação CopyFolder, explore a hierarquia de esquema. Inicie no elemento [CopyFolderResponse](copyfolderresponse.md) . 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operação MoveFolder](movefolder-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

@@ -1,5 +1,5 @@
 ---
-title: UserConfiguration
+title: Userconfiguration
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1811df99-ca5b-48a3-b160-b3fd70320c34
-description: O elemento de UserConfiguration define um objeto de configuração de usuário único.
-ms.openlocfilehash: ce3eaa470ef592c5a8e5a7ef24c377bb2feeca2e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento userconfiguration define um único objeto de configuração do usuário.
+ms.openlocfilehash: 1217f5d591570c2d8df49a116b6bf35c243d1e0e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837973"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468905"
 ---
-# <a name="userconfiguration"></a>UserConfiguration
+# <a name="userconfiguration"></a>Userconfiguration
 
-O elemento de **UserConfiguration** define um objeto de configuração de usuário único. 
+O elemento **userconfiguration** define um único objeto de configuração do usuário. 
   
 ```XML
 <UserConfiguration>
@@ -33,24 +33,24 @@ O elemento de **UserConfiguration** define um objeto de configuração de usuár
 </UserConfiguration>
 ```
 
- **UserConfigurationType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Userconfigurationtype**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserConfigurationName](userconfigurationname.md) <br/> |Representa o nome de um objeto de configuração do usuário. Este elemento deve ser usado quando você cria um objeto de configuração do usuário.  <br/> |
-|[ItemId](itemid.md) <br/> |Define o identificador de item do objeto de configuração do usuário.  <br/> |
-|[dicionário](dictionary.md) <br/> |Define um conjunto de entradas de propriedade de dicionário para um objeto de configuração do usuário.  <br/> |
-|[Xmldatahttp](xmldata.md) <br/> |Possui conteúdo de propriedade de dados XML para um objeto de configuração do usuário.  <br/> |
-|[BinaryData](binarydata.md) <br/> |Contém dados binários conteúdo de propriedade para um objeto de configuração do usuário.  <br/> |
+|[Userconfigurationname](userconfigurationname.md) <br/> |Representa o nome de um objeto de configuração do usuário. Este elemento deve ser usado quando você cria um objeto de configuração do usuário.  <br/> |
+|[ItemId](itemid.md) <br/> |Define o identificador do item de configuração do usuário.  <br/> |
+|[Dictionary](dictionary.md) <br/> |Define um conjunto de entradas de propriedades de dicionário para um objeto de configuração do usuário.  <br/> |
+|[Nota XMLDATA](xmldata.md) <br/> |Contém o conteúdo da propriedade de dados XML para um objeto de configuração do usuário.  <br/> |
+|[BinaryData](binarydata.md) <br/> |Contém conteúdo de propriedade de dados binários para um objeto de configuração do usuário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -64,16 +64,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
