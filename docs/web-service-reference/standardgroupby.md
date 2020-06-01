@@ -11,72 +11,72 @@ api_name:
 api_type:
 - schema
 ms.assetid: 04a84f71-b7eb-44dc-ac2c-ed504b52c463
-description: O elemento StandardGroupBy representa o padrão de agrupamento e agregar mecanismos para uma operação de FindItem agrupada.
-ms.openlocfilehash: 8e2ec72a79ebafc2e5757d6dcebb27c0c53ec0b5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento StandardGroupBy representa os mecanismos padrão de agrupamento e agregação para uma operação FindItem agrupada.
+ms.openlocfilehash: 3e135feba322979de3d66d5a45d423654ccc9100
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825542"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467554"
 ---
-# <a name="standardgroupby"></a><span data-ttu-id="50aa2-103">StandardGroupBy</span><span class="sxs-lookup"><span data-stu-id="50aa2-103">StandardGroupBy</span></span>
+# <a name="standardgroupby"></a><span data-ttu-id="b38b5-103">StandardGroupBy</span><span class="sxs-lookup"><span data-stu-id="b38b5-103">StandardGroupBy</span></span>
 
-<span data-ttu-id="50aa2-104">O elemento **StandardGroupBy** representa o padrão de agrupamento e agregar mecanismos para uma operação de FindItem agrupada.</span><span class="sxs-lookup"><span data-stu-id="50aa2-104">The **StandardGroupBy** element represents the standard grouping and aggregating mechanisms for a grouped FindItem operation.</span></span> 
+<span data-ttu-id="b38b5-104">O elemento **StandardGroupBy** representa os mecanismos padrão de agrupamento e agregação para uma operação FindItem agrupada.</span><span class="sxs-lookup"><span data-stu-id="b38b5-104">The **StandardGroupBy** element represents the standard grouping and aggregating mechanisms for a grouped FindItem operation.</span></span> 
   
-[<span data-ttu-id="50aa2-105">FindItem</span><span class="sxs-lookup"><span data-stu-id="50aa2-105">FindItem</span></span>](finditem.md)
+[<span data-ttu-id="b38b5-105">FindItem</span><span class="sxs-lookup"><span data-stu-id="b38b5-105">FindItem</span></span>](finditem.md)
   
-[<span data-ttu-id="50aa2-106">DistinguishedGroupBy</span><span class="sxs-lookup"><span data-stu-id="50aa2-106">DistinguishedGroupBy</span></span>](distinguishedgroupby.md)
+[<span data-ttu-id="b38b5-106">DistinguishedGroupBy</span><span class="sxs-lookup"><span data-stu-id="b38b5-106">DistinguishedGroupBy</span></span>](distinguishedgroupby.md)
   
-[<span data-ttu-id="50aa2-107">StandardGroupBy</span><span class="sxs-lookup"><span data-stu-id="50aa2-107">StandardGroupBy</span></span>](standardgroupby.md)
+[<span data-ttu-id="b38b5-107">StandardGroupBy</span><span class="sxs-lookup"><span data-stu-id="b38b5-107">StandardGroupBy</span></span>](standardgroupby.md)
   
 ```xml
 <StandardGroupBy/>
 ```
 
- <span data-ttu-id="50aa2-108">**StandardGroupByType**</span><span class="sxs-lookup"><span data-stu-id="50aa2-108">**StandardGroupByType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="50aa2-109">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="50aa2-109">Attributes and elements</span></span>
+ <span data-ttu-id="b38b5-108">**StandardGroupByType**</span><span class="sxs-lookup"><span data-stu-id="b38b5-108">**StandardGroupByType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="b38b5-109">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="b38b5-109">Attributes and elements</span></span>
 
-<span data-ttu-id="50aa2-110">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="50aa2-110">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="b38b5-110">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="b38b5-110">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="50aa2-111">Atributos</span><span class="sxs-lookup"><span data-stu-id="50aa2-111">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b38b5-111">Atributos</span><span class="sxs-lookup"><span data-stu-id="b38b5-111">Attributes</span></span>
 
-<span data-ttu-id="50aa2-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="50aa2-112">None.</span></span>
+<span data-ttu-id="b38b5-112">Nenhum</span><span class="sxs-lookup"><span data-stu-id="b38b5-112">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="50aa2-113">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="50aa2-113">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b38b5-113">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="b38b5-113">Child elements</span></span>
 
-<span data-ttu-id="50aa2-114">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="50aa2-114">None.</span></span>
+<span data-ttu-id="b38b5-114">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="b38b5-114">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="50aa2-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="50aa2-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="b38b5-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="b38b5-115">Parent elements</span></span>
 
-|<span data-ttu-id="50aa2-116">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="50aa2-116">**Element**</span></span>|<span data-ttu-id="50aa2-117">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="50aa2-117">**Description**</span></span>|
+|<span data-ttu-id="b38b5-116">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="b38b5-116">**Element**</span></span>|<span data-ttu-id="b38b5-117">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="b38b5-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="50aa2-118">DistinguishedGroupBy</span><span class="sxs-lookup"><span data-stu-id="50aa2-118">DistinguishedGroupBy</span></span>](distinguishedgroupby.md) <br/> |<span data-ttu-id="50aa2-119">Fornece agrupamentos padrão para consultas FindItem.</span><span class="sxs-lookup"><span data-stu-id="50aa2-119">Provides standard groupings for FindItem queries.</span></span>  <br/> |
+|[<span data-ttu-id="b38b5-118">DistinguishedGroupBy</span><span class="sxs-lookup"><span data-stu-id="b38b5-118">DistinguishedGroupBy</span></span>](distinguishedgroupby.md) <br/> |<span data-ttu-id="b38b5-119">Fornece agrupamentos padrão para consultas do FindItem.</span><span class="sxs-lookup"><span data-stu-id="b38b5-119">Provides standard groupings for FindItem queries.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="50aa2-120">Text value</span><span class="sxs-lookup"><span data-stu-id="50aa2-120">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="b38b5-120">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="b38b5-120">Text value</span></span>
 
-<span data-ttu-id="50aa2-121">É necessário um valor de texto.</span><span class="sxs-lookup"><span data-stu-id="50aa2-121">A text value is required.</span></span> <span data-ttu-id="50aa2-122">O único valor que pode ser usado para esse elemento é **ConversationTopic**.</span><span class="sxs-lookup"><span data-stu-id="50aa2-122">The only value that can be used for this element is **ConversationTopic**.</span></span> <span data-ttu-id="50aa2-123">Grupos de **ConversationTopic** por mensagem: ConversationTopic e agregados no item: DateTimeReceived (máximo).</span><span class="sxs-lookup"><span data-stu-id="50aa2-123">**ConversationTopic** groups by message:ConversationTopic and aggregates on item:DateTimeReceived (maximum).</span></span> <span data-ttu-id="50aa2-124">Para obter mais informações sobre agregação de lista segura, consulte [AggregateOn](aggregateon.md).</span><span class="sxs-lookup"><span data-stu-id="50aa2-124">For more information about aggregation, see [AggregateOn](aggregateon.md).</span></span>
+<span data-ttu-id="b38b5-121">Um valor de texto é obrigatório.</span><span class="sxs-lookup"><span data-stu-id="b38b5-121">A text value is required.</span></span> <span data-ttu-id="b38b5-122">O único valor que pode ser usado para esse elemento é **ConversationTopic**.</span><span class="sxs-lookup"><span data-stu-id="b38b5-122">The only value that can be used for this element is **ConversationTopic**.</span></span> <span data-ttu-id="b38b5-123">**ConversationTopic** grupos por mensagem: ConversationTopic e agregados no item: DateTimeReceived (máximo).</span><span class="sxs-lookup"><span data-stu-id="b38b5-123">**ConversationTopic** groups by message:ConversationTopic and aggregates on item:DateTimeReceived (maximum).</span></span> <span data-ttu-id="b38b5-124">Para obter mais informações sobre agregação, confira [Aggregate](aggregateon.md).</span><span class="sxs-lookup"><span data-stu-id="b38b5-124">For more information about aggregation, see [AggregateOn](aggregateon.md).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="50aa2-125">Comentários</span><span class="sxs-lookup"><span data-stu-id="50aa2-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b38b5-125">Comentários</span><span class="sxs-lookup"><span data-stu-id="b38b5-125">Remarks</span></span>
 
-<span data-ttu-id="50aa2-126">O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="50aa2-126">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="b38b5-126">O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="b38b5-126">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="50aa2-127">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="50aa2-127">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="b38b5-127">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="b38b5-127">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="50aa2-128">Namespace</span><span class="sxs-lookup"><span data-stu-id="50aa2-128">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="50aa2-129">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="50aa2-129">Schema Name</span></span>  <br/> |<span data-ttu-id="50aa2-130">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="50aa2-130">Types schema</span></span>  <br/> |
-|<span data-ttu-id="50aa2-131">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="50aa2-131">Validation File</span></span>  <br/> |<span data-ttu-id="50aa2-132">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="50aa2-132">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="50aa2-133">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="50aa2-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="50aa2-134">False</span><span class="sxs-lookup"><span data-stu-id="50aa2-134">False</span></span>  <br/> |
+|<span data-ttu-id="b38b5-128">Namespace</span><span class="sxs-lookup"><span data-stu-id="b38b5-128">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="b38b5-129">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="b38b5-129">Schema Name</span></span>  <br/> |<span data-ttu-id="b38b5-130">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="b38b5-130">Types schema</span></span>  <br/> |
+|<span data-ttu-id="b38b5-131">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="b38b5-131">Validation File</span></span>  <br/> |<span data-ttu-id="b38b5-132">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="b38b5-132">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="b38b5-133">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="b38b5-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="b38b5-134">False</span><span class="sxs-lookup"><span data-stu-id="b38b5-134">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="50aa2-135">Ver também</span><span class="sxs-lookup"><span data-stu-id="50aa2-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b38b5-135">Confira também</span><span class="sxs-lookup"><span data-stu-id="b38b5-135">See also</span></span>
 
 
 
-[<span data-ttu-id="50aa2-136">Operação FindItem</span><span class="sxs-lookup"><span data-stu-id="50aa2-136">FindItem operation</span></span>](finditem-operation.md)
+[<span data-ttu-id="b38b5-136">Operação FindItem</span><span class="sxs-lookup"><span data-stu-id="b38b5-136">FindItem operation</span></span>](finditem-operation.md)
   
-[<span data-ttu-id="50aa2-137">FindItem</span><span class="sxs-lookup"><span data-stu-id="50aa2-137">FindItem</span></span>](finditem.md)
+[<span data-ttu-id="b38b5-137">FindItem</span><span class="sxs-lookup"><span data-stu-id="b38b5-137">FindItem</span></span>](finditem.md)
 
 
-[<span data-ttu-id="50aa2-138">Localizando itens</span><span class="sxs-lookup"><span data-stu-id="50aa2-138">Finding Items</span></span>](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+[<span data-ttu-id="b38b5-138">Localizar itens</span><span class="sxs-lookup"><span data-stu-id="b38b5-138">Finding Items</span></span>](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

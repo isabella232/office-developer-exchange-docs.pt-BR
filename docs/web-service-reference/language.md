@@ -7,56 +7,56 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8e24e672-7b17-49c8-b368-a078ca1d4dd1
-description: O elemento de idioma contém o idioma usado para a consulta de pesquisa.
-ms.openlocfilehash: 735a962e6abca5ff81194242ea747a05bf92424e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Language contém o idioma usado para a consulta de pesquisa.
+ms.openlocfilehash: 3d1843ea5d38f5efee8453623f450a4486e4d18b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824225"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468695"
 ---
-# <a name="language"></a><span data-ttu-id="bf517-103">Idioma</span><span class="sxs-lookup"><span data-stu-id="bf517-103">Language</span></span>
+# <a name="language"></a><span data-ttu-id="16fee-103">Idioma</span><span class="sxs-lookup"><span data-stu-id="16fee-103">Language</span></span>
 
-<span data-ttu-id="bf517-104">O elemento de **idioma** contém o idioma usado para a consulta de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="bf517-104">The **Language** element contains the language used for the search query.</span></span> 
+<span data-ttu-id="16fee-104">O elemento **Language** contém o idioma usado para a consulta de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="16fee-104">The **Language** element contains the language used for the search query.</span></span> 
   
 ```XML
 <Language></Language>
 ```
 
- <span data-ttu-id="bf517-105">**cadeia de caracteres**</span><span class="sxs-lookup"><span data-stu-id="bf517-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="bf517-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="bf517-106">Attributes and elements</span></span>
+ <span data-ttu-id="16fee-105">**cadeia de caracteres**</span><span class="sxs-lookup"><span data-stu-id="16fee-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="16fee-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="16fee-106">Attributes and elements</span></span>
 
-<span data-ttu-id="bf517-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="bf517-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="16fee-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="16fee-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="bf517-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="bf517-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="16fee-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="16fee-108">Attributes</span></span>
 
-<span data-ttu-id="bf517-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="bf517-109">None.</span></span>
+<span data-ttu-id="16fee-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="16fee-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="bf517-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="bf517-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="16fee-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="16fee-110">Child elements</span></span>
 
-<span data-ttu-id="bf517-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="bf517-111">None.</span></span>
+<span data-ttu-id="16fee-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="16fee-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="bf517-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="bf517-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="16fee-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="16fee-112">Parent elements</span></span>
 
-<span data-ttu-id="bf517-113">[SetHoldOnMailboxes](setholdonmailboxes.md) | [SearchMailboxes](searchmailboxes.md)</span><span class="sxs-lookup"><span data-stu-id="bf517-113">[SetHoldOnMailboxes](setholdonmailboxes.md) | [SearchMailboxes](searchmailboxes.md)</span></span>
+<span data-ttu-id="16fee-113">[SetHoldOnMailboxes](setholdonmailboxes.md)  |  [SearchMailboxes](searchmailboxes.md)</span><span class="sxs-lookup"><span data-stu-id="16fee-113">[SetHoldOnMailboxes](setholdonmailboxes.md) | [SearchMailboxes](searchmailboxes.md)</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="bf517-114">Text value</span><span class="sxs-lookup"><span data-stu-id="bf517-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="16fee-114">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="16fee-114">Text value</span></span>
 
-<span data-ttu-id="bf517-115">O valor de texto do elemento de **idioma** é o idioma usado em uma pesquisa de descoberta.</span><span class="sxs-lookup"><span data-stu-id="bf517-115">The text value of the **Language** element is the language used in a discovery search.</span></span> 
+<span data-ttu-id="16fee-115">O valor de texto do elemento **Language** é o idioma usado em uma pesquisa de descoberta.</span><span class="sxs-lookup"><span data-stu-id="16fee-115">The text value of the **Language** element is the language used in a discovery search.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="bf517-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="bf517-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="16fee-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="16fee-116">Remarks</span></span>
 
-<span data-ttu-id="bf517-117">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="bf517-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="16fee-117">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="16fee-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="bf517-118">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="bf517-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="16fee-118">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="16fee-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="bf517-119">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="bf517-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="16fee-119">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="16fee-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="bf517-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="bf517-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="bf517-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="bf517-121">Schema name</span></span>  <br/> |<span data-ttu-id="bf517-122">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="bf517-122">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="bf517-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="bf517-123">Validation file</span></span>  <br/> |<span data-ttu-id="bf517-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="bf517-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="bf517-125">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="bf517-125">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="16fee-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="16fee-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="16fee-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="16fee-121">Schema name</span></span>  <br/> |<span data-ttu-id="16fee-122">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="16fee-122">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="16fee-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="16fee-123">Validation file</span></span>  <br/> |<span data-ttu-id="16fee-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="16fee-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="16fee-125">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="16fee-125">Can be empty</span></span>  <br/> ||
    
 

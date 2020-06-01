@@ -8,52 +8,52 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 3d2b9edc-8e57-44dc-b63b-75a2eb47c84e
-description: O elemento MinorBuildNumber representa o número de compilação secundárias para o servidor.
-ms.openlocfilehash: 4b6fb9b16bd2b4e2c25d36074c5935135d1794f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MinorBuildNumber representa um número de compilação secundário para o servidor.
+ms.openlocfilehash: d5e4d80c448180baa18d2d90eb0440e12c2ed02b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824467"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466987"
 ---
-# <a name="minorbuildnumber-soap"></a><span data-ttu-id="ae096-103">MinorBuildNumber (SOAP)</span><span class="sxs-lookup"><span data-stu-id="ae096-103">MinorBuildNumber (SOAP)</span></span>
+# <a name="minorbuildnumber-soap"></a><span data-ttu-id="2b3b1-103">MinorBuildNumber (SOAP)</span><span class="sxs-lookup"><span data-stu-id="2b3b1-103">MinorBuildNumber (SOAP)</span></span>
 
-<span data-ttu-id="ae096-104">O elemento **MinorBuildNumber** representa o número de compilação secundárias para o servidor.</span><span class="sxs-lookup"><span data-stu-id="ae096-104">The **MinorBuildNumber** element represents minor build number for the server.</span></span> 
+<span data-ttu-id="2b3b1-104">O elemento **MinorBuildNumber** representa um número de compilação secundário para o servidor.</span><span class="sxs-lookup"><span data-stu-id="2b3b1-104">The **MinorBuildNumber** element represents minor build number for the server.</span></span> 
   
 ```XML
 <MinorBuildNumber/>
 ```
 
- <span data-ttu-id="ae096-105">**int**</span><span class="sxs-lookup"><span data-stu-id="ae096-105">**int**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="ae096-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="ae096-106">Attributes and elements</span></span>
+ <span data-ttu-id="2b3b1-105">**int**</span><span class="sxs-lookup"><span data-stu-id="2b3b1-105">**int**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="2b3b1-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="2b3b1-106">Attributes and elements</span></span>
 
-<span data-ttu-id="ae096-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="ae096-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="2b3b1-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="2b3b1-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ae096-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="ae096-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="2b3b1-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="2b3b1-108">Attributes</span></span>
 
-<span data-ttu-id="ae096-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="ae096-109">None.</span></span>
+<span data-ttu-id="2b3b1-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="2b3b1-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ae096-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="ae096-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="2b3b1-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="2b3b1-110">Child elements</span></span>
 
-<span data-ttu-id="ae096-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="ae096-111">None.</span></span>
+<span data-ttu-id="2b3b1-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="2b3b1-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="ae096-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="ae096-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="2b3b1-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="2b3b1-112">Parent elements</span></span>
 
-|<span data-ttu-id="ae096-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="ae096-113">**Element**</span></span>|<span data-ttu-id="ae096-114">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="ae096-114">**Description**</span></span>|
+|<span data-ttu-id="2b3b1-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="2b3b1-113">**Element**</span></span>|<span data-ttu-id="2b3b1-114">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="2b3b1-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="ae096-115">ServerVersionInfo (SOAP)</span><span class="sxs-lookup"><span data-stu-id="ae096-115">ServerVersionInfo (SOAP)</span></span>](serverversioninfo-soap.md) <br/> |<span data-ttu-id="ae096-116">Contém a versão do servidor que processaram a solicitação.</span><span class="sxs-lookup"><span data-stu-id="ae096-116">Contains the version of the server that processed the request.</span></span>  <br/> |
+|[<span data-ttu-id="2b3b1-115">ServerVersionInfo (SOAP)</span><span class="sxs-lookup"><span data-stu-id="2b3b1-115">ServerVersionInfo (SOAP)</span></span>](serverversioninfo-soap.md) <br/> |<span data-ttu-id="2b3b1-116">Contém a versão do servidor que processou a solicitação.</span><span class="sxs-lookup"><span data-stu-id="2b3b1-116">Contains the version of the server that processed the request.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="ae096-117">Text value</span><span class="sxs-lookup"><span data-stu-id="ae096-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="2b3b1-117">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="2b3b1-117">Text value</span></span>
 
-<span data-ttu-id="ae096-118">Número do servidor que processaram a solicitação de compilação de um valor integer que representa as secundárias.</span><span class="sxs-lookup"><span data-stu-id="ae096-118">An integer value that represents the minor build number of the server that processed the request.</span></span>
+<span data-ttu-id="2b3b1-118">Um valor inteiro que representa o número de compilação secundário do servidor que processou a solicitação.</span><span class="sxs-lookup"><span data-stu-id="2b3b1-118">An integer value that represents the minor build number of the server that processed the request.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="ae096-119">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="ae096-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="2b3b1-119">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="2b3b1-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ae096-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="ae096-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="ae096-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="ae096-121">Schema Name</span></span>  <br/> |<span data-ttu-id="ae096-122">Esquema de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="ae096-122">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="ae096-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="ae096-123">Validation File</span></span>  <br/> |<span data-ttu-id="ae096-124">messages.xsd</span><span class="sxs-lookup"><span data-stu-id="ae096-124">messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="ae096-125">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="ae096-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="ae096-126">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="ae096-126">True</span></span>  <br/> |
+|<span data-ttu-id="2b3b1-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="2b3b1-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="2b3b1-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="2b3b1-121">Schema Name</span></span>  <br/> |<span data-ttu-id="2b3b1-122">Esquema de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="2b3b1-122">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="2b3b1-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="2b3b1-123">Validation File</span></span>  <br/> |<span data-ttu-id="2b3b1-124">messages. xsd</span><span class="sxs-lookup"><span data-stu-id="2b3b1-124">messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="2b3b1-125">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="2b3b1-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="2b3b1-126">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="2b3b1-126">True</span></span>  <br/> |
    
 

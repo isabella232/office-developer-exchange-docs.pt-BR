@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: e9e3f50c-5a7b-49c7-a9ea-117959c08352
-description: O elemento MailboxData representa um usuário da caixa de correio individual e opções para o tipo de dados a serem retornadas sobre o usuário de caixa de correio.
-ms.openlocfilehash: df60294e7d83b1459e5cca7d75c2b6b4bb9d931d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MailboxData representa um usuário de caixa de correio individual e opções para o tipo de dados a ser retornado sobre o usuário da caixa de correio.
+ms.openlocfilehash: bfcb8c01d40af81097c7d9868006fe9b7b5519d4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824281"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467246"
 ---
-# <a name="mailboxdata"></a><span data-ttu-id="5c4ff-103">MailboxData</span><span class="sxs-lookup"><span data-stu-id="5c4ff-103">MailboxData</span></span>
+# <a name="mailboxdata"></a><span data-ttu-id="a2254-103">MailboxData</span><span class="sxs-lookup"><span data-stu-id="a2254-103">MailboxData</span></span>
 
-<span data-ttu-id="5c4ff-104">O elemento **MailboxData** representa um usuário da caixa de correio individual e opções para o tipo de dados a serem retornadas sobre o usuário de caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="5c4ff-104">The **MailboxData** element represents an individual mailbox user and options for the type of data to be returned about the mailbox user.</span></span> 
+<span data-ttu-id="a2254-104">O elemento **MailboxData** representa um usuário de caixa de correio individual e opções para o tipo de dados a ser retornado sobre o usuário da caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="a2254-104">The **MailboxData** element represents an individual mailbox user and options for the type of data to be returned about the mailbox user.</span></span> 
   
-- [<span data-ttu-id="5c4ff-105">GetUserAvailabilityRequest</span><span class="sxs-lookup"><span data-stu-id="5c4ff-105">GetUserAvailabilityRequest</span></span>](getuseravailabilityrequest.md)
+- [<span data-ttu-id="a2254-105">GetUserAvailabilityRequest</span><span class="sxs-lookup"><span data-stu-id="a2254-105">GetUserAvailabilityRequest</span></span>](getuseravailabilityrequest.md)
   
-- [<span data-ttu-id="5c4ff-106">MailboxDataArray</span><span class="sxs-lookup"><span data-stu-id="5c4ff-106">MailboxDataArray</span></span>](mailboxdataarray.md)
+- [<span data-ttu-id="a2254-106">MailboxDataArray</span><span class="sxs-lookup"><span data-stu-id="a2254-106">MailboxDataArray</span></span>](mailboxdataarray.md)
   
-- [<span data-ttu-id="5c4ff-107">MailboxData</span><span class="sxs-lookup"><span data-stu-id="5c4ff-107">MailboxData</span></span>](mailboxdata.md)
+- [<span data-ttu-id="a2254-107">MailboxData</span><span class="sxs-lookup"><span data-stu-id="a2254-107">MailboxData</span></span>](mailboxdata.md)
   
 ```xml
 <MailboxData>
@@ -37,42 +37,42 @@ ms.locfileid: "19824281"
 <MailboxData>
 ```
 
-<span data-ttu-id="5c4ff-108">**MailboxData**</span><span class="sxs-lookup"><span data-stu-id="5c4ff-108">**MailboxData**</span></span>
+<span data-ttu-id="a2254-108">**MailboxData**</span><span class="sxs-lookup"><span data-stu-id="a2254-108">**MailboxData**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="5c4ff-109">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="5c4ff-109">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="a2254-109">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="a2254-109">Attributes and elements</span></span>
 
-<span data-ttu-id="5c4ff-110">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="5c4ff-110">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="a2254-110">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="a2254-110">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5c4ff-111">Atributos</span><span class="sxs-lookup"><span data-stu-id="5c4ff-111">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="a2254-111">Atributos</span><span class="sxs-lookup"><span data-stu-id="a2254-111">Attributes</span></span>
 
-<span data-ttu-id="5c4ff-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="5c4ff-112">None.</span></span>
+<span data-ttu-id="a2254-112">Nenhum</span><span class="sxs-lookup"><span data-stu-id="a2254-112">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="5c4ff-113">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="5c4ff-113">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="a2254-113">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="a2254-113">Child elements</span></span>
 
-|<span data-ttu-id="5c4ff-114">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="5c4ff-114">**Element**</span></span>|<span data-ttu-id="5c4ff-115">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="5c4ff-115">**Description**</span></span>|
+|<span data-ttu-id="a2254-114">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="a2254-114">**Element**</span></span>|<span data-ttu-id="a2254-115">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="a2254-115">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5c4ff-116">Email (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="5c4ff-116">Email (EmailAddressType)</span></span>](email-emailaddresstype.md) <br/> |<span data-ttu-id="5c4ff-117">Representa o usuário de caixa de correio para uma consulta GetUserAvailability.</span><span class="sxs-lookup"><span data-stu-id="5c4ff-117">Represents the mailbox user for a GetUserAvailability query.</span></span>  <br/> |
-|[<span data-ttu-id="5c4ff-118">AttendeeType</span><span class="sxs-lookup"><span data-stu-id="5c4ff-118">AttendeeType</span></span>](attendeetype.md) <br/> |<span data-ttu-id="5c4ff-119">Representa o tipo do attendee identificado no elemento de [Email (EmailAddressType)](email-emailaddresstype.md) .</span><span class="sxs-lookup"><span data-stu-id="5c4ff-119">Represents the type of attendee identified in the [Email (EmailAddressType)](email-emailaddresstype.md) element.</span></span> <span data-ttu-id="5c4ff-120">Isso é usado nas solicitações para sugestões de reunião.</span><span class="sxs-lookup"><span data-stu-id="5c4ff-120">This is used in requests for meeting suggestions.</span></span>  <br/> |
-|[<span data-ttu-id="5c4ff-121">ExcludeConflicts</span><span class="sxs-lookup"><span data-stu-id="5c4ff-121">ExcludeConflicts</span></span>](excludeconflicts.md) <br/> |<span data-ttu-id="5c4ff-122">Especifica se é necessário retornar sugerido horários de horas do calendário que estão em conflito entre os participantes.</span><span class="sxs-lookup"><span data-stu-id="5c4ff-122">Specifies whether to return suggested times for calendar times that conflict among the attendees.</span></span>  <br/> |
+|[<span data-ttu-id="a2254-116">Email (EmailAddresstype)</span><span class="sxs-lookup"><span data-stu-id="a2254-116">Email (EmailAddressType)</span></span>](email-emailaddresstype.md) <br/> |<span data-ttu-id="a2254-117">Representa o usuário de caixa de correio de uma consulta GetUserAvailability.</span><span class="sxs-lookup"><span data-stu-id="a2254-117">Represents the mailbox user for a GetUserAvailability query.</span></span>  <br/> |
+|[<span data-ttu-id="a2254-118">Articipantetype</span><span class="sxs-lookup"><span data-stu-id="a2254-118">AttendeeType</span></span>](attendeetype.md) <br/> |<span data-ttu-id="a2254-119">Representa o tipo de participante identificado no elemento [email (EmailAddressType)](email-emailaddresstype.md) .</span><span class="sxs-lookup"><span data-stu-id="a2254-119">Represents the type of attendee identified in the [Email (EmailAddressType)](email-emailaddresstype.md) element.</span></span> <span data-ttu-id="a2254-120">Isso é usado em solicitações de sugestões de reunião.</span><span class="sxs-lookup"><span data-stu-id="a2254-120">This is used in requests for meeting suggestions.</span></span>  <br/> |
+|[<span data-ttu-id="a2254-121">ExcludeConflicts</span><span class="sxs-lookup"><span data-stu-id="a2254-121">ExcludeConflicts</span></span>](excludeconflicts.md) <br/> |<span data-ttu-id="a2254-122">Especifica se é para retornar horários sugeridos para os horários de calendário que entram em conflito entre os participantes.</span><span class="sxs-lookup"><span data-stu-id="a2254-122">Specifies whether to return suggested times for calendar times that conflict among the attendees.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="5c4ff-123">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="5c4ff-123">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="a2254-123">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="a2254-123">Parent elements</span></span>
 
-|<span data-ttu-id="5c4ff-124">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="5c4ff-124">**Element**</span></span>|<span data-ttu-id="5c4ff-125">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="5c4ff-125">**Description**</span></span>|
+|<span data-ttu-id="a2254-124">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="a2254-124">**Element**</span></span>|<span data-ttu-id="a2254-125">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="a2254-125">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5c4ff-126">MailboxDataArray</span><span class="sxs-lookup"><span data-stu-id="5c4ff-126">MailboxDataArray</span></span>](mailboxdataarray.md) <br/> |<span data-ttu-id="5c4ff-127">Contém uma lista de caixas de correio para consultar informações sobre a disponibilidade.</span><span class="sxs-lookup"><span data-stu-id="5c4ff-127">Contains a list of mailboxes to query for availability information.</span></span>  <br/> <span data-ttu-id="5c4ff-128">Este é o XPath a este elemento:</span><span class="sxs-lookup"><span data-stu-id="5c4ff-128">The following is the XPath to this element:</span></span>  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray[i]` <br/> |
+|[<span data-ttu-id="a2254-126">MailboxDataArray</span><span class="sxs-lookup"><span data-stu-id="a2254-126">MailboxDataArray</span></span>](mailboxdataarray.md) <br/> |<span data-ttu-id="a2254-127">Contém uma lista de caixas de correio para consultar informações de disponibilidade.</span><span class="sxs-lookup"><span data-stu-id="a2254-127">Contains a list of mailboxes to query for availability information.</span></span>  <br/> <span data-ttu-id="a2254-128">Este é o XPath para este elemento:</span><span class="sxs-lookup"><span data-stu-id="a2254-128">The following is the XPath to this element:</span></span>  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray[i]` <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5c4ff-129">Comentários</span><span class="sxs-lookup"><span data-stu-id="5c4ff-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a2254-129">Comentários</span><span class="sxs-lookup"><span data-stu-id="a2254-129">Remarks</span></span>
 
-<span data-ttu-id="5c4ff-130">Um aplicativo cliente poderá defini-la para muitos elementos **MailboxData** .</span><span class="sxs-lookup"><span data-stu-id="5c4ff-130">A client application can define one to many **MailboxData** elements.</span></span> 
+<span data-ttu-id="a2254-130">Um aplicativo cliente pode definir um para muitos elementos **MailboxData** .</span><span class="sxs-lookup"><span data-stu-id="a2254-130">A client application can define one to many **MailboxData** elements.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="5c4ff-131">O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="5c4ff-131">The schema that describes this element is located in the EWS virtual directory of the computer that is running Exchange Server 2007 that has the Client Access server role installed.</span></span> 
+> <span data-ttu-id="a2254-131">O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="a2254-131">The schema that describes this element is located in the EWS virtual directory of the computer that is running Exchange Server 2007 that has the Client Access server role installed.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="5c4ff-132">Exemplo</span><span class="sxs-lookup"><span data-stu-id="5c4ff-132">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a2254-132">Exemplo</span><span class="sxs-lookup"><span data-stu-id="a2254-132">Example</span></span>
 
 ```xml
 <MailboxDataArray>
-  <MailboxData xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+  <MailboxData xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
     <Email>
       <Name></Name>
       <Address>someone@ExServer.example.com</Address>
@@ -84,18 +84,18 @@ ms.locfileid: "19824281"
 </MailboxDataArray>
 ```
 
-## <a name="element-information"></a><span data-ttu-id="5c4ff-133">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="5c4ff-133">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="a2254-133">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="a2254-133">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5c4ff-134">Namespace</span><span class="sxs-lookup"><span data-stu-id="5c4ff-134">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="5c4ff-135">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="5c4ff-135">Schema Name</span></span>  <br/> |<span data-ttu-id="5c4ff-136">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="5c4ff-136">Types schema</span></span>  <br/> |
-|<span data-ttu-id="5c4ff-137">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="5c4ff-137">Validation File</span></span>  <br/> |<span data-ttu-id="5c4ff-138">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="5c4ff-138">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="5c4ff-139">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="5c4ff-139">Can be Empty</span></span>  <br/> |<span data-ttu-id="5c4ff-140">False</span><span class="sxs-lookup"><span data-stu-id="5c4ff-140">False</span></span>  <br/> |
+|<span data-ttu-id="a2254-134">Namespace</span><span class="sxs-lookup"><span data-stu-id="a2254-134">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="a2254-135">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="a2254-135">Schema Name</span></span>  <br/> |<span data-ttu-id="a2254-136">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="a2254-136">Types schema</span></span>  <br/> |
+|<span data-ttu-id="a2254-137">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="a2254-137">Validation File</span></span>  <br/> |<span data-ttu-id="a2254-138">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="a2254-138">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="a2254-139">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="a2254-139">Can be Empty</span></span>  <br/> |<span data-ttu-id="a2254-140">False</span><span class="sxs-lookup"><span data-stu-id="a2254-140">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="5c4ff-141">Ver também</span><span class="sxs-lookup"><span data-stu-id="5c4ff-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a2254-141">Confira também</span><span class="sxs-lookup"><span data-stu-id="a2254-141">See also</span></span>
 
-- [<span data-ttu-id="5c4ff-142">Operação GetUserAvailability</span><span class="sxs-lookup"><span data-stu-id="5c4ff-142">GetUserAvailability operation</span></span>](getuseravailability-operation.md)
-- [<span data-ttu-id="5c4ff-143">GetUserAvailabilityRequest</span><span class="sxs-lookup"><span data-stu-id="5c4ff-143">GetUserAvailabilityRequest</span></span>](getuseravailabilityrequest.md)
-- [<span data-ttu-id="5c4ff-144">Obtenção de disponibilidade do usuário</span><span class="sxs-lookup"><span data-stu-id="5c4ff-144">Getting User Availability</span></span>](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [<span data-ttu-id="a2254-142">Operação GetUserAvailability</span><span class="sxs-lookup"><span data-stu-id="a2254-142">GetUserAvailability operation</span></span>](getuseravailability-operation.md)
+- [<span data-ttu-id="a2254-143">GetUserAvailabilityRequest</span><span class="sxs-lookup"><span data-stu-id="a2254-143">GetUserAvailabilityRequest</span></span>](getuseravailabilityrequest.md)
+- [<span data-ttu-id="a2254-144">Obtendo disponibilidade do usuário</span><span class="sxs-lookup"><span data-stu-id="a2254-144">Getting User Availability</span></span>](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

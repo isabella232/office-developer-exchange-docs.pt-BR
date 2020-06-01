@@ -1,5 +1,5 @@
 ---
-title: Referência de serviço de web mensagens unificada para Exchange
+title: Referência do serviço Web de Unificação de mensagens do Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,39 +10,39 @@ api_name:
 api_type:
 - schema
 ms.assetid: 83afea8a-c716-41df-9eb2-e1000357afb6
-description: Encontre conteúdo de referência para o serviço web de Unificação de mensagens (UM) do Exchange.
-ms.openlocfilehash: 9e124f504ecee517edc51610696f06729904d75f
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: Encontre o conteúdo de referência para o serviço da Web de Unificação de mensagens (UM) no Exchange.
+ms.openlocfilehash: e4bb63f34650dae8fc28016196c97a6b79e69df0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354271"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467372"
 ---
-# <a name="unified-messaging-web-service-reference-for-exchange"></a><span data-ttu-id="0d605-103">Referência de serviço de web mensagens unificada para Exchange</span><span class="sxs-lookup"><span data-stu-id="0d605-103">Unified Messaging web service reference for Exchange</span></span>
+# <a name="unified-messaging-web-service-reference-for-exchange"></a><span data-ttu-id="d9f93-103">Referência do serviço Web de Unificação de mensagens do Exchange</span><span class="sxs-lookup"><span data-stu-id="d9f93-103">Unified Messaging web service reference for Exchange</span></span>
 
-<span data-ttu-id="0d605-104">Encontre conteúdo de referência para o serviço web de Unificação de mensagens (UM) do Exchange.</span><span class="sxs-lookup"><span data-stu-id="0d605-104">Find reference content for the Unified Messaging (UM) web service in Exchange.</span></span>
+<span data-ttu-id="d9f93-104">Encontre o conteúdo de referência para o serviço da Web de Unificação de mensagens (UM) no Exchange.</span><span class="sxs-lookup"><span data-stu-id="d9f93-104">Find reference content for the Unified Messaging (UM) web service in Exchange.</span></span>
   
-<span data-ttu-id="0d605-105">O serviço web de Unificação de mensagens (UM) fornece um ponto de extensibilidade que permite que os clientes ler e alterar as informações sobre as propriedades de Unificação de mensagens e solicitar que os itens do repositório de caixa de correio ser analisados e ditadas por um dispositivo de telefonia.</span><span class="sxs-lookup"><span data-stu-id="0d605-105">The Unified Messaging (UM) web service provides an extensibility point that enables clients to read and change information about UM properties and request that mailbox store items be parsed and dictated over a telephony device.</span></span> <span data-ttu-id="0d605-106">Esta seção contém informações sobre as operações e os elementos que compõem as mensagens XML para o serviço web de Unificação de mensagens.</span><span class="sxs-lookup"><span data-stu-id="0d605-106">This section contains information about the operations and elements that make up the XML messages for the UM web service.</span></span> <span data-ttu-id="0d605-107">Este conteúdo se aplica para a URL do ponto de extremidade de serviço similar à https://\<yourclientaccessserver\>.com/EWS/UM2007Legacy.asmx.</span><span class="sxs-lookup"><span data-stu-id="0d605-107">This content applies to the service endpoint URL that is similar to https://\<yourclientaccessserver\>.com/EWS/UM2007Legacy.asmx.</span></span> 
+<span data-ttu-id="d9f93-105">O serviço Web de Unificação de mensagens (UM) fornece um ponto de extensibilidade que permite aos clientes ler e alterar informações sobre as propriedades da UM e solicitar que os itens do repositório de caixa de correio sejam analisados e ditados em um dispositivo de telefonia.</span><span class="sxs-lookup"><span data-stu-id="d9f93-105">The Unified Messaging (UM) web service provides an extensibility point that enables clients to read and change information about UM properties and request that mailbox store items be parsed and dictated over a telephony device.</span></span> <span data-ttu-id="d9f93-106">Esta seção contém informações sobre as operações e os elementos que compõem as mensagens XML para o serviço Web da UM.</span><span class="sxs-lookup"><span data-stu-id="d9f93-106">This section contains information about the operations and elements that make up the XML messages for the UM web service.</span></span> <span data-ttu-id="d9f93-107">Este conteúdo se aplica à URL de ponto de extremidade de serviço semelhante a https:// \<yourclientaccessserver\> . com/EWS/UM2007Legacy. asmx.</span><span class="sxs-lookup"><span data-stu-id="d9f93-107">This content applies to the service endpoint URL that is similar to https://\<yourclientaccessserver\>.com/EWS/UM2007Legacy.asmx.</span></span> 
   
-<span data-ttu-id="0d605-108">Você pode usar o serviço Descoberta automática para obter a URL do ponto de extremidade do serviço web de Unificação de mensagens.</span><span class="sxs-lookup"><span data-stu-id="0d605-108">You can use the Autodiscover service to get the URL to the UM web service endpoint.</span></span> <span data-ttu-id="0d605-109">Para obter mais informações sobre a descoberta automática, consulte [descoberta automática do Exchange](../exchange-web-services/autodiscover-for-exchange.md).</span><span class="sxs-lookup"><span data-stu-id="0d605-109">For more information about Autodiscover, see [Autodiscover for Exchange](../exchange-web-services/autodiscover-for-exchange.md).</span></span>
+<span data-ttu-id="d9f93-108">Você pode usar o serviço de descoberta automática para obter a URL para o ponto de extremidade do serviço Web da UM.</span><span class="sxs-lookup"><span data-stu-id="d9f93-108">You can use the Autodiscover service to get the URL to the UM web service endpoint.</span></span> <span data-ttu-id="d9f93-109">Para obter mais informações sobre a descoberta automática, confira [descoberta automática do Exchange](../exchange-web-services/autodiscover-for-exchange.md).</span><span class="sxs-lookup"><span data-stu-id="d9f93-109">For more information about Autodiscover, see [Autodiscover for Exchange](../exchange-web-services/autodiscover-for-exchange.md).</span></span>
   
 > [!NOTE]
->  <span data-ttu-id="0d605-110">Para versões do Exchange, começando com o Exchange 2010, recomendamos que você use as operações de Unificação de mensagens que estão disponíveis no [Exchange Web Services (EWS)](http://msdn.microsoft.com/library/60285497-0c4e-4e51-84e1-34dd6d89a5d8%28Office.15%29.aspx) em vez do serviço web de Unificação de mensagens, pelos seguintes motivos:</span><span class="sxs-lookup"><span data-stu-id="0d605-110">For versions of Exchange starting with Exchange 2010, we recommend that you use the Unified Messaging operations that are available in [Exchange Web Services (EWS)](http://msdn.microsoft.com/library/60285497-0c4e-4e51-84e1-34dd6d89a5d8%28Office.15%29.aspx) instead of the UM web service, for the following reasons:</span></span> 
-> - <span data-ttu-id="0d605-111">Os recursos de Unificação de mensagens baseada no EWS têm suporte de primeira classe na API gerenciada do EWS.</span><span class="sxs-lookup"><span data-stu-id="0d605-111">The EWS-based UM features have first-class support in the EWS Managed API.</span></span> 
-> - <span data-ttu-id="0d605-112">Nas versões do Exchange, começando com o Exchange 2010, novos recursos de Unificação de mensagens são adicionados ao EWS, mas não para o serviço web de Unificação de mensagens.</span><span class="sxs-lookup"><span data-stu-id="0d605-112">In versions of Exchange starting with Exchange 2010, new UM features are added to EWS but not to the Unified Messaging web service.</span></span> 
+>  <span data-ttu-id="d9f93-110">Para as versões do Exchange a partir do Exchange 2010, recomendamos que você use as operações de Unificação de mensagens disponíveis nos [Serviços Web do Exchange (EWS)](https://msdn.microsoft.com/library/60285497-0c4e-4e51-84e1-34dd6d89a5d8%28Office.15%29.aspx) , em vez do serviço da um, pelos seguintes motivos:</span><span class="sxs-lookup"><span data-stu-id="d9f93-110">For versions of Exchange starting with Exchange 2010, we recommend that you use the Unified Messaging operations that are available in [Exchange Web Services (EWS)](https://msdn.microsoft.com/library/60285497-0c4e-4e51-84e1-34dd6d89a5d8%28Office.15%29.aspx) instead of the UM web service, for the following reasons:</span></span> 
+> - <span data-ttu-id="d9f93-111">Os recursos da UM com base no EWS têm suporte de primeira classe na API gerenciada do EWS.</span><span class="sxs-lookup"><span data-stu-id="d9f93-111">The EWS-based UM features have first-class support in the EWS Managed API.</span></span> 
+> - <span data-ttu-id="d9f93-112">Nas versões do Exchange a partir do Exchange 2010, novos recursos da UM são adicionados ao EWS, mas não ao serviço Web de Unificação de mensagens.</span><span class="sxs-lookup"><span data-stu-id="d9f93-112">In versions of Exchange starting with Exchange 2010, new UM features are added to EWS but not to the Unified Messaging web service.</span></span> 
   
-<span data-ttu-id="0d605-113">O serviço web de Unificação de mensagens não tem um esquema explícito.</span><span class="sxs-lookup"><span data-stu-id="0d605-113">The UM web service does not have an explicit schema.</span></span>
+<span data-ttu-id="d9f93-113">O serviço Web da UM não tem um esquema explícito.</span><span class="sxs-lookup"><span data-stu-id="d9f93-113">The UM web service does not have an explicit schema.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="0d605-114">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="0d605-114">In this section</span></span>
-<span data-ttu-id="0d605-115"><a name="bk_InThisSection"> </a></span><span class="sxs-lookup"><span data-stu-id="0d605-115"></span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d9f93-114">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="d9f93-114">In this section</span></span>
+<span data-ttu-id="d9f93-115"><a name="bk_InThisSection"> </a></span><span class="sxs-lookup"><span data-stu-id="d9f93-115"><a name="bk_InThisSection"> </a></span></span>
 
-- [<span data-ttu-id="0d605-116">Operações de serviço de web mensagens unificadas para Exchange</span><span class="sxs-lookup"><span data-stu-id="0d605-116">Unified Messaging web service operations for Exchange</span></span>](unified-messaging-web-service-operations-for-exchange.md)   
-- [<span data-ttu-id="0d605-117">Unified Messaging web service os elementos XML para o Exchange</span><span class="sxs-lookup"><span data-stu-id="0d605-117">Unified Messaging web service XML elements for Exchange</span></span>](unified-messaging-web-service-xml-elements-for-exchange.md)
+- [<span data-ttu-id="d9f93-116">Operações do serviço Web de Unificação de mensagens para o Exchange</span><span class="sxs-lookup"><span data-stu-id="d9f93-116">Unified Messaging web service operations for Exchange</span></span>](unified-messaging-web-service-operations-for-exchange.md)   
+- [<span data-ttu-id="d9f93-117">Elementos XML do serviço Web de Unificação de mensagens para o Exchange</span><span class="sxs-lookup"><span data-stu-id="d9f93-117">Unified Messaging web service XML elements for Exchange</span></span>](unified-messaging-web-service-xml-elements-for-exchange.md)
     
-## <a name="see-also"></a><span data-ttu-id="0d605-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="0d605-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d9f93-118">Também consulte</span><span class="sxs-lookup"><span data-stu-id="d9f93-118">See also</span></span>
 
-- [<span data-ttu-id="0d605-119">Referência de web service de descoberta automática do Exchange</span><span class="sxs-lookup"><span data-stu-id="0d605-119">Autodiscover web service reference for Exchange</span></span>](autodiscover-web-service-reference-for-exchange.md)
-- [<span data-ttu-id="0d605-120">Descoberta Automática do Exchange</span><span class="sxs-lookup"><span data-stu-id="0d605-120">Autodiscover for Exchange</span></span>](../exchange-web-services/autodiscover-for-exchange.md)
-- [<span data-ttu-id="0d605-121">Start using web services in Exchange</span><span class="sxs-lookup"><span data-stu-id="0d605-121">Start using web services in Exchange</span></span>](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [<span data-ttu-id="d9f93-119">Referência do serviço Web de descoberta automática do Exchange</span><span class="sxs-lookup"><span data-stu-id="d9f93-119">Autodiscover web service reference for Exchange</span></span>](autodiscover-web-service-reference-for-exchange.md)
+- [<span data-ttu-id="d9f93-120">Descoberta Automática do Exchange</span><span class="sxs-lookup"><span data-stu-id="d9f93-120">Autodiscover for Exchange</span></span>](../exchange-web-services/autodiscover-for-exchange.md)
+- [<span data-ttu-id="d9f93-121">Introdução ao uso dos serviços Web no Exchange</span><span class="sxs-lookup"><span data-stu-id="d9f93-121">Start using web services in Exchange</span></span>](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

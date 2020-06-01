@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: be003e12-3496-468d-a61c-48af0b819654
-description: O elemento UserRoles Especifica as funções de usuário que o usuário ou o usuário que o aplicativo de parceiro chamada está atuando como, quer aplicar para a chamada atual.
-ms.openlocfilehash: 19dc1a7e00decb9141326b53b650d72101013c11
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UserRoles especifica as funções de usuário que o usuário de chamada ou o usuário que o aplicativo de parceiro de chamada está agindo como, deseja aplicar à chamada atual.
+ms.openlocfilehash: 5155b82781321b16d1b58fdcaffe7b8cf2372717
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837998"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467127"
 ---
-# <a name="userroles"></a><span data-ttu-id="30599-103">UserRoles</span><span class="sxs-lookup"><span data-stu-id="30599-103">UserRoles</span></span>
+# <a name="userroles"></a><span data-ttu-id="e94f3-103">UserRoles</span><span class="sxs-lookup"><span data-stu-id="e94f3-103">UserRoles</span></span>
 
-<span data-ttu-id="30599-104">O elemento **UserRoles** Especifica as funções de usuário que o usuário ou o usuário que o aplicativo de parceiro chamada está atuando como, quer aplicar para a chamada atual.</span><span class="sxs-lookup"><span data-stu-id="30599-104">The **UserRoles** element specifies the user roles that the calling user, or the user that the calling partner application is acting as, wants to apply to the current call.</span></span> 
+<span data-ttu-id="e94f3-104">O elemento **UserRoles** especifica as funções de usuário que o usuário de chamada ou o usuário que o aplicativo de parceiro de chamada está agindo como, deseja aplicar à chamada atual.</span><span class="sxs-lookup"><span data-stu-id="e94f3-104">The **UserRoles** element specifies the user roles that the calling user, or the user that the calling partner application is acting as, wants to apply to the current call.</span></span> 
   
 ```XML
 <UserRoles>
@@ -25,36 +25,36 @@ ms.locfileid: "19837998"
 </UserRoles>
 ```
 
- <span data-ttu-id="30599-105">**NonEmptyArrayOfRoleType**</span><span class="sxs-lookup"><span data-stu-id="30599-105">**NonEmptyArrayOfRoleType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="30599-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="30599-106">Attributes and elements</span></span>
+ <span data-ttu-id="e94f3-105">**NonEmptyArrayOfRoleType**</span><span class="sxs-lookup"><span data-stu-id="e94f3-105">**NonEmptyArrayOfRoleType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="e94f3-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="e94f3-106">Attributes and elements</span></span>
 
-<span data-ttu-id="30599-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="30599-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="e94f3-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="e94f3-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="30599-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="30599-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="e94f3-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="e94f3-108">Attributes</span></span>
 
-<span data-ttu-id="30599-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="30599-109">None.</span></span>
+<span data-ttu-id="e94f3-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="e94f3-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="30599-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="30599-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="e94f3-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="e94f3-110">Child elements</span></span>
 
-[<span data-ttu-id="30599-111">Role</span><span class="sxs-lookup"><span data-stu-id="30599-111">Role</span></span>](role.md)
+[<span data-ttu-id="e94f3-111">Função</span><span class="sxs-lookup"><span data-stu-id="e94f3-111">Role</span></span>](role.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="30599-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="30599-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="e94f3-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="e94f3-112">Parent elements</span></span>
 
-[<span data-ttu-id="30599-113">ManagementRole</span><span class="sxs-lookup"><span data-stu-id="30599-113">ManagementRole</span></span>](managementrole.md)
+[<span data-ttu-id="e94f3-113">ManagementRole</span><span class="sxs-lookup"><span data-stu-id="e94f3-113">ManagementRole</span></span>](managementrole.md)
   
-## <a name="remarks"></a><span data-ttu-id="30599-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="30599-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e94f3-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="e94f3-114">Remarks</span></span>
 
-<span data-ttu-id="30599-115">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="30599-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="e94f3-115">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e94f3-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="30599-116">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="30599-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="e94f3-116">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="e94f3-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="30599-117">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="30599-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="e94f3-117">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="e94f3-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="30599-118">Namespace</span><span class="sxs-lookup"><span data-stu-id="30599-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="30599-119">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="30599-119">Schema name</span></span>  <br/> |<span data-ttu-id="30599-120">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="30599-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="30599-121">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="30599-121">Validation file</span></span>  <br/> |<span data-ttu-id="30599-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="30599-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="30599-123">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="30599-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="e94f3-118">Namespace</span><span class="sxs-lookup"><span data-stu-id="e94f3-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="e94f3-119">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="e94f3-119">Schema name</span></span>  <br/> |<span data-ttu-id="e94f3-120">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="e94f3-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="e94f3-121">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="e94f3-121">Validation file</span></span>  <br/> |<span data-ttu-id="e94f3-122">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="e94f3-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="e94f3-123">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="e94f3-123">Can be empty</span></span>  <br/> ||
    
 
