@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e15dbfca-3b9d-463e-94ec-4f1b6115bee3
-description: O elemento GetDiscoverySearchConfiguration Especifica uma solicitação para recuperar a configuração de pesquisa de descoberta eletrônica.
-ms.openlocfilehash: 41a3cabb2822c4ee6a31aa7ff3074d62987edc92
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetDiscoverySearchConfiguration especifica uma solicitação para recuperar a configuração de pesquisa de descoberta eletrônica.
+ms.openlocfilehash: 821c5e1429c160e326f6d99df3ff4fcc831b83d1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752460"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460999"
 ---
 # <a name="getdiscoverysearchconfiguration"></a>GetDiscoverySearchConfiguration
 
-O elemento **GetDiscoverySearchConfiguration** Especifica uma solicitação para recuperar a configuração de pesquisa de descoberta eletrônica. 
+O elemento **GetDiscoverySearchConfiguration** especifica uma solicitação para recuperar a configuração de pesquisa de descoberta eletrônica. 
   
 ```XML
 <GetDiscoverySearchConfiguration>
@@ -27,24 +27,24 @@ O elemento **GetDiscoverySearchConfiguration** Especifica uma solicitação para
 ```
 
  **GetDiscoverySearchConfigurationType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[SearchId](searchid.md) <br/> |Especifica o identificador da pesquisa.  <br/> |
-|[ExpandGroupMembership](expandgroupmembership.md) <br/> |Contém um valor Boolean que indica se é necessário expandir a associação do grupo retornado de uma solicitação de **GetSearchableMailboxes** .  <br/> |
+|[ExpandGroupMembership](expandgroupmembership.md) <br/> |Contém um valor Boolean que indica se a associação do grupo retornado de uma solicitação **GetSearchableMailboxes** deve ser expandida.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
@@ -52,16 +52,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nome do esquema  <br/> |Esquema de mensagem  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nome do esquema  <br/> |Esquema de mensagens  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

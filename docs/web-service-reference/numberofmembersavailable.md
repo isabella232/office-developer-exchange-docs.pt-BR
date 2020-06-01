@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e367a278-1622-4b65-955f-2d4b2fc6e4d7
-description: O elemento NumberOfMembersAvailable representa o número de membros da lista de distribuição que estão disponíveis para um horário de reunião sugeridas. Esse elemento representa membros para o qual o status é livre.
-ms.openlocfilehash: 8669f61fbd640c160ad54739c5a15407b3dd470a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento NumberOfMembersAvailable representa o número de membros da lista de distribuição que estão disponíveis para um horário de reunião sugerido. Este elemento representa Membros para os quais o status é livre.
+ms.openlocfilehash: 947e1c133cc49fb7e322962e95e184fe77e09353
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824641"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462588"
 ---
 # <a name="numberofmembersavailable"></a>NumberOfMembersAvailable
 
-O elemento **NumberOfMembersAvailable** representa o número de membros da lista de distribuição que estão disponíveis para um horário de reunião sugeridas. Esse elemento representa membros para o qual o status é **livre**.
+O elemento **NumberOfMembersAvailable** representa o número de membros da lista de distribuição que estão disponíveis para um horário de reunião sugerido. Este elemento representa Membros para os quais o status é **livre**.
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ O elemento **NumberOfMembersAvailable** representa o número de membros da lista
   
 [SuggestionArray](suggestionarray.md)
   
-[Sugestão](suggestion.md)
+[La](suggestion.md)
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
@@ -46,13 +46,13 @@ O elemento **NumberOfMembersAvailable** representa o número de membros da lista
 ```
 
  **int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -62,22 +62,22 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contém informações de conflito agregadas sobre o número de usuários que estão disponíveis, o número de usuários que possuem conflitos e o número de usuários que não têm informações de disponibilidade em uma lista de distribuição para um horário de reunião sugeridas.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contém informações de conflito agregadas sobre o número de usuários que estão disponíveis, o número de usuários que têm conflitos e o número de usuários que não têm informações de disponibilidade em uma lista de distribuição para um tempo de reunião sugerido.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -86,5 +86,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

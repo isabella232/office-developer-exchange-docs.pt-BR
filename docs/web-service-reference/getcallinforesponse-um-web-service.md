@@ -1,5 +1,5 @@
 ---
-title: GetCallInfoResponse (serviço web de Unificação de mensagens)
+title: GetCallInfoResponse (serviço Web da UM)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: aa5196bf-f5f3-455c-94ea-304fb7920c79
-description: O elemento de GetCallInfoResponse define uma resposta a uma solicitação do GetCallInfo operação (serviço web de Unificação de mensagens).
-ms.openlocfilehash: d9658dd9cb47f925e05dc21a8651c98dce1f0a2a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetCallInfoResponse define uma resposta a uma solicitação de operação GetCallInfo (serviço Web da UM).
+ms.openlocfilehash: 6e54ec61a9a5ebecd96bbd39dad68f8cc011b8a1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752421"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461202"
 ---
-# <a name="getcallinforesponse-um-web-service"></a>GetCallInfoResponse (serviço web de Unificação de mensagens)
+# <a name="getcallinforesponse-um-web-service"></a>GetCallInfoResponse (serviço Web da UM)
 
-O elemento de **GetCallInfoResponse** define uma resposta a uma solicitação de [operação GetCallInfo (serviço web de Unificação de mensagens)](getcallinfo-operation-um-web-service.md) . 
+O elemento **GetCallInfoResponse** define uma resposta a uma solicitação de [operação GetCallInfo (serviço Web da um)](getcallinfo-operation-um-web-service.md) . 
   
-[GetCallInfoResponse (serviço web de Unificação de mensagens)](getcallinforesponse-um-web-service.md)
+[GetCallInfoResponse (serviço Web da UM)](getcallinforesponse-um-web-service.md)
   
 ```xml
 <GetCallInfoResponse>
@@ -32,45 +32,45 @@ O elemento de **GetCallInfoResponse** define uma resposta a uma solicitação de
 ```
 
  **UMCallInfo**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|CallState  <br/> |Contém um valor que indica o status de uma chamada para o qual a [operação GetCallInfo (serviço web de Unificação de mensagens)](getcallinfo-operation-um-web-service.md) informações solicitadas.  <br/> |
-|EventCause  <br/> |Contém um valor que indica a causa de um evento para uma chamada para o qual a [operação GetCallInfo (serviço web de Unificação de mensagens)](getcallinfo-operation-um-web-service.md) informações solicitadas.  <br/> |
+|Callstate  <br/> |Contém um valor que indica o status de uma chamada para a qual a [operação do GetCallInfo (serviço Web da um)](getcallinfo-operation-um-web-service.md) solicitou informações.  <br/> |
+|EventCause  <br/> |Contém um valor que indica a causa de um evento para uma chamada para a qual a [operação do GetCallInfo (serviço Web da um)](getcallinfo-operation-um-web-service.md) solicitou informações.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação de GetCallInfo (serviço web de Unificação de mensagens)](getcallinfo-operation-um-web-service.md)
+[Operação GetCallInfo (serviço Web da UM)](getcallinfo-operation-um-web-service.md)
   
-[CallState (serviço web de Unificação de mensagens)](callstate-um-web-service.md)
+[Callstate (serviço Web da UM)](callstate-um-web-service.md)
   
-[EventCause (serviço web de Unificação de mensagens)](eventcause-um-web-service.md)
+[EventCause (serviço Web da UM)](eventcause-um-web-service.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 00ef4a84-76d2-4669-b597-f52abbbc34f5
-description: O elemento RedirectToRecipients indica os endereços de email para os quais as mensagens devem ser redirecionados.
-ms.openlocfilehash: ca0422f2ca678cabe1a88f99e617bee691f2e2f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RedirectToRecipients indica os endereços de email aos quais as mensagens devem ser redirecionadas.
+ms.openlocfilehash: ebc0e0abe88d1e364dee94cc24313879458778d0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825024"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462189"
 ---
 # <a name="redirecttorecipients"></a>RedirectToRecipients
 
-O elemento **RedirectToRecipients** indica os endereços de email para os quais as mensagens devem ser redirecionados. 
+O elemento **RedirectToRecipients** indica os endereços de email aos quais as mensagens devem ser redirecionadas. 
   
 ```XML
 <RedirectToRecipients>
@@ -30,27 +30,27 @@ O elemento **RedirectToRecipients** indica os endereços de email para os quais 
 ```
 
  **ArrayOfEmailAddressesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Endereço (EmailAddressType)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
+|[Endereço (EmailAddresstype)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Ações](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis a ser executada em uma mensagem quando as condições são atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -58,16 +58,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

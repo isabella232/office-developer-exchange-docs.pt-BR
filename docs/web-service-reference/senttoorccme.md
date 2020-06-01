@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: ca43e05d-df37-485b-9276-34678025f2b7
-description: O elemento SentToOrCcMe indica se o proprietário da caixa de correio deve ser na propriedade um ToRecipients ou CC das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado.
-ms.openlocfilehash: baed8f71349c9ec06173d0b494ece688f6fc2c5a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SentToOrCcMe indica se o proprietário da caixa de correio deve estar em uma propriedade ToRecipients ou CcRecipients de mensagens de entrada para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: 906e5d9fd405b9aa6f772bcedbd1869b5023a05e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825361"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462077"
 ---
 # <a name="senttoorccme"></a>SentToOrCcMe
 
-O elemento **SentToOrCcMe** indica se o proprietário da caixa de correio deve ser na propriedade um **ToRecipients** ou **Cc** das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado. 
+O elemento **SentToOrCcMe** indica se o proprietário da caixa de correio deve estar em uma propriedade **ToRecipients** ou **CcRecipients** de mensagens de entrada para que a condição ou exceção seja aplicada. 
   
 ```XML
 <SentToOrCcMe>true | false</SentToOrCcMe>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,27 +44,27 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, quando atendida, irá disparar as ações de regra para uma regra.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
 |[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** indica que o proprietário da caixa de correio deve estar na propriedade **ToRecipients** ou **Cc** das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado. Um valor **false** indica que o proprietário da caixa de correio não deve ser na propriedade **ToRecipients** ou **Cc** das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado. 
+Um valor de texto **true** indica que o proprietário da caixa de correio deve estar na propriedade **ToRecipients** ou **CcRecipients** das mensagens de entrada para que a condição ou exceção seja aplicada. Um valor **false** indica que o proprietário da caixa de correio não deve estar na propriedade **ToRecipients** ou **CcRecipients** das mensagens de entrada para que a condição ou exceção seja aplicada. 
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

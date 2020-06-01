@@ -1,5 +1,5 @@
 ---
-title: CreateAssociated
+title: Createassociado
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 742a6136-6015-4924-bae4-f3868127e966
-description: O elemento CreateAssociated indica se um cliente pode criar um índice de conteúdo associado. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: ec6e55ed2423ff5849f6d19aee29f790572ddda6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento createassociado indica se um cliente pode criar uma tabela de conteúdo associada. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: e88d7670fd9ef848221dab8cc145395bcb11e5bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751564"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460789"
 ---
-# <a name="createassociated"></a>CreateAssociated
+# <a name="createassociated"></a>Createassociado
 
-O elemento **CreateAssociated** indica se um cliente pode criar um índice de conteúdo associado. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+O elemento **createassociado** indica se um cliente pode criar uma tabela de conteúdo associada. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <CreateAssociated>true or false</CreateAssociated>
 ```
 
  **boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,33 +44,33 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[EffectiveRights](effectiverights.md) <br/> |Contém os direitos do cliente com base nas configurações de permissão para o item ou a pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |Contém os direitos do cliente com base nas configurações de permissão para o item ou pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** indica que um cliente pode criar uma tabela de conteúdo associado. 
+Um valor **true** indica que um cliente pode criar uma tabela de conteúdo associado. 
   
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada somente em objetos de pasta.
+Esta propriedade só é usada em objetos Folder.
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Definindo permissões de nível de pasta](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Definindo permissões no nível de pasta](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

@@ -1,5 +1,5 @@
 ---
-title: RecurrenceId
+title: RecurrenceType
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9ef3569d-ee56-4b22-b008-609fb3337da7
-description: O elemento RecurrenceId é usado para identificar uma instância específica de um item de calendário recorrente.
-ms.openlocfilehash: 078bec85e1ca1530137f9935365d7dd3e530ea34
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RecurrenceType é usado para identificar uma instância específica de um item de calendário recorrente.
+ms.openlocfilehash: 58a379f2cffa7ff37181e93ad1c45c9752e84f1d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825005"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461608"
 ---
-# <a name="recurrenceid"></a>RecurrenceId
+# <a name="recurrenceid"></a>RecurrenceType
 
-O elemento **RecurrenceId** é usado para identificar uma instância específica de um item de calendário recorrente. 
+O elemento **RecurrenceType** é usado para identificar uma instância específica de um item de calendário recorrente. 
   
 ```xml
 <RecurrenceId/>
 ```
 
  **dateTime**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,9 +48,9 @@ Nenhum.
 |[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião.  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Representa o cancelamento da reunião.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto representa um valor de data/hora que identifica uma ocorrência de calendário.
   
@@ -58,16 +58,16 @@ O valor de texto representa um valor de data/hora que identifica uma ocorrência
 
 Essa propriedade é usada com a propriedade [UID](uid.md) para identificar uma instância específica de um item de calendário recorrente. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

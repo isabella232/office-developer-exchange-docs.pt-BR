@@ -1,5 +1,5 @@
 ---
-title: Elementos de Autodiscover XML POX para Exchange
+title: Elementos XML de descoberta automática de POX para o Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,33 +8,33 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 4ea99dcc-4b5a-48be-9cb7-f92851d13b03
-description: Encontre informações de referência de elemento XML para o serviço web de descoberta automática de POX no Exchange.
-ms.openlocfilehash: 6fb7b34d366e2d1d72c32d4c3e76f4b19266a6c5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações de referência do elemento XML para o serviço Web de descoberta automática do POX no Exchange.
+ms.openlocfilehash: 9085491197f5aa79ffe54c5c920708d7b100458f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824864"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462245"
 ---
-# <a name="pox-autodiscover-xml-elements-for-exchange"></a>Elementos de Autodiscover XML POX para Exchange
+# <a name="pox-autodiscover-xml-elements-for-exchange"></a>Elementos XML de descoberta automática de POX para o Exchange
 
-Encontre informações de referência de elemento XML para o serviço web de descoberta automática de POX no Exchange.
+Encontre informações de referência do elemento XML para o serviço Web de descoberta automática do POX no Exchange.
   
-A documentação desta seção se baseia nas instâncias de elemento XML de descoberta automática POX que são enviadas entre o cliente e servidor. O serviço Descoberta automática de POX não tem um esquema publicado que pode ser descoberto no servidor. Esta seção fornece informações sobre os elementos XML de descoberta automática POX individuais.
+A documentação desta seção é baseada nas instâncias do elemento XML de descoberta automática do POX enviadas entre o cliente e o servidor. O serviço de descoberta automática do POX não tem um esquema publicado que possa ser descoberto no servidor. Esta seção fornece informações sobre os elementos XML de descoberta automática de POX individuais.
   
-## <a name="related-sections"></a>Se��es relacionadas
+## <a name="related-sections"></a>Seções relacionadas
 <a name="bk_RelatedSections"> </a>
 
-[Referência do serviço web POX descoberta automática do Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
+[Referência de serviço Web de descoberta automática do POX para o Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
   
 [Referência do EWS para Exchange](ews-reference-for-exchange.md)
   
-[Referência de serviço de web mensagens unificada para Exchange](unified-messaging-web-service-reference-for-exchange.md)
+[Referência do serviço Web de Unificação de mensagens do Exchange](unified-messaging-web-service-reference-for-exchange.md)
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Referência de web service de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
+- [Referência do serviço Web de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
 - [Descoberta Automática do Exchange](../exchange-web-services/autodiscover-for-exchange.md)
-- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Introdução ao uso dos serviços Web no Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

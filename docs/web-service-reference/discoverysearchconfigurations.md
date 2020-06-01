@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f04b14c9-384c-4016-b113-52a49e15e73b
-description: O elemento DiscoverySearchConfigurations Especifica uma matriz de elementos de DiscoverySearchConfiguration.
-ms.openlocfilehash: a95bb35b88114e8e72e22de424679993fd4eef2a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DiscoverySearchConfigurations especifica uma matriz de elementos DiscoverySearchConfiguration.
+ms.openlocfilehash: 6af4c8198f2ad73f8b39f9718e11b88aa8075c39
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751864"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461377"
 ---
 # <a name="discoverysearchconfigurations"></a>DiscoverySearchConfigurations
 
-O elemento **DiscoverySearchConfigurations** Especifica uma matriz de elementos de **DiscoverySearchConfiguration** . 
+O elemento **DiscoverySearchConfigurations** especifica uma matriz de elementos **DiscoverySearchConfiguration** . 
   
 ```XML
 <DiscoverySearchConfigurations>
@@ -26,25 +26,25 @@ O elemento **DiscoverySearchConfigurations** Especifica uma matriz de elementos 
 ```
 
  **ArrayOfDiscoverySearchConfigurationType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DiscoverySearchConfiguration](discoverysearchconfiguration.md) <br/> |Especifica a configuração de pesquisa de descoberta eletrônica.  <br/> |
+|[DiscoverySearchConfiguration](discoverysearchconfiguration.md) <br/> |Especifica a configuração da pesquisa de descoberta eletrônica.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetDiscoverySearchConfigurationResponseMessage](getdiscoverysearchconfigurationresponsemessage.md) <br/> |Especifica a mensagem de resposta para uma solicitação de **GetDiscoverySearchConfiguration** .  <br/> |
+|[GetDiscoverySearchConfigurationResponseMessage](getdiscoverysearchconfigurationresponsemessage.md) <br/> |Especifica a mensagem de resposta para uma solicitação **GetDiscoverySearchConfiguration** .  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -52,16 +52,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nome do esquema  <br/> |Esquema de mensagem  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nome do esquema  <br/> |Esquema de mensagens  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

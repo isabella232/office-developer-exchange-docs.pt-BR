@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: af7f202b-2889-447e-bdeb-aaad18ce6b46
-description: O elemento IncludeNonIndexableItems contém um valor booleano para indicar se deseja incluir itens que não podem ser indexados.
-ms.openlocfilehash: ae91a3c6db82aea1d45940603d0ff2064d29f43f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IncludeNonIndexableItems contém um valor booleano para indicar se deve incluir itens que não podem ser indexados.
+ms.openlocfilehash: eab559e938f0b949d79626ae5bf61b3d4a838924
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823904"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460621"
 ---
 # <a name="includenonindexableitems"></a>IncludeNonIndexableItems
 
-O elemento **IncludeNonIndexableItems** contém um valor **booleano** para indicar se deseja incluir itens que não podem ser indexados. 
+O elemento **IncludeNonIndexableItems** contém um valor **booleano** para indicar se deve incluir itens que não podem ser indexados. 
   
 ```XML
 <IncludeNonIndexableItems>true | false</IncludeNonIndexableItems>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [SetHoldOnMailboxes](setholdonmailboxes.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** para o elemento **IncludeNonIndexableItems** indica que os itens que não podem ser indexados estão incluídos no armazenamentos de caixa de correio. Um valor **false** indica que os itens que não podem ser indexados não são incluídos em armazenamentos de caixa de correio. 
+Um valor de texto **true** para o elemento **IncludeNonIndexableItems** indica que os itens que não podem ser indexados estão incluídos no bloqueio de caixa de correio. Um valor **false** indica que os itens que não podem ser indexados não estão incluídos nas isenções de caixa de correio. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
-|Pode estar vazio  <br/> |false  <br/> |
+|Pode estar vazio  <br/> |falso  <br/> |
    
 

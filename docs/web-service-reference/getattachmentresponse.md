@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: cb65f449-309b-4b6e-8d22-d1967135490c
-description: O elemento de GetAttachmentResponse define uma resposta a uma solicitação de GetAttachment.
-ms.openlocfilehash: 05a9e84236c791dcec99182dfca0352e44efca46
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetAttachmentResponse define uma resposta a uma solicitação GetAttachment.
+ms.openlocfilehash: f0daf778f1248eabc5d51ee6155c460d9248549f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752410"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461251"
 ---
 # <a name="getattachmentresponse"></a>GetAttachmentResponse
 
-O elemento de **GetAttachmentResponse** define uma resposta a uma solicitação de GetAttachment. 
+O elemento **GetAttachmentResponse** define uma resposta a uma solicitação GetAttachment. 
   
 ```xml
 <GetAttachmentResponse>
@@ -30,13 +30,13 @@ O elemento de **GetAttachmentResponse** define uma resposta a uma solicitação 
 ```
 
  **GetAttachmentResponseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,22 +46,22 @@ Nenhum.
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

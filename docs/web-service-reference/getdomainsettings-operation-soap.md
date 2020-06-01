@@ -1,5 +1,5 @@
 ---
-title: Operação de GetDomainSettings (SOAP)
+title: Operação GetDomainSettings (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,42 +8,42 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a6f4a53d-d7f6-4ad1-8afb-78745c500eaa
-description: A operação GetDomainSettings recupera as configurações especificadas do domínio para o usuário. Descoberta automática retorna os domínios que devem ser descobertos e as configurações solicitadas desses domínios.
-ms.openlocfilehash: 09b1d610cd415d2d9d7d0098354521ece86f5184
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação GetDomainSettings recupera as configurações especificadas do domínio para o usuário. A descoberta automática retorna os domínios que devem ser descobertos e as configurações solicitadas desses domínios.
+ms.openlocfilehash: fd655e088b73372bc1dd68a740ebc2b516d1804a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752475"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460964"
 ---
-# <a name="getdomainsettings-operation-soap"></a>Operação de GetDomainSettings (SOAP)
+# <a name="getdomainsettings-operation-soap"></a>Operação GetDomainSettings (SOAP)
 
-A operação **GetDomainSettings** recupera as configurações especificadas do domínio para o usuário. Descoberta automática retorna os domínios que devem ser descobertos e as configurações solicitadas desses domínios. 
+A operação **GetDomainSettings** recupera as configurações especificadas do domínio para o usuário. A descoberta automática retorna os domínios que devem ser descobertos e as configurações solicitadas desses domínios. 
   
-## <a name="getdomainsettings-request-example"></a>Exemplo de solicitação de GetDomainSettings
+## <a name="getdomainsettings-request-example"></a>Exemplo de solicitação GetDomainSettings
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **GetDomainSettings** mostra uma solicitação para configurações de um usuário de domínio **ExternalEWSUrl** . O cliente envia essa solicitação ao servidor. 
+O exemplo a seguir de uma solicitação **GetDomainSettings** mostra uma solicitação para as configurações de domínio do **ExternalEWSUrl** de um usuário. O cliente envia essa solicitação para o servidor. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?> 
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover"
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover"
                xmlns:wsa="http://www.w3.org/2005/08/addressing"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
     <soap:Header> 
         <a:RequestedServerVersion>Exchange2010</a:RequestedServerVersion>
-        <wsa:Action>http://schemas.microsoft.com/exchange/2010/
+        <wsa:Action>https://schemas.microsoft.com/exchange/2010/
             Autodiscover/Autodiscover/GetDomainSettings</wsa:Action>
         <wsa:To>
             https://autodiscover.exchange.microsoft.com/autodiscover/autodiscover.svc
         </wsa:To>
     </soap:Header> 
     <soap:Body> 
-        <a:GetDomainSettingsRequestMessage xmlns:a="http://schemas.microsoft.com
+        <a:GetDomainSettingsRequestMessage xmlns:a="https://schemas.microsoft.com
             /exchange/2010/Autodiscover"> 
             <a:Request> 
                 <a:Domains> 
@@ -58,7 +58,7 @@ O exemplo a seguir de uma solicitação de **GetDomainSettings** mostra uma soli
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -78,17 +78,17 @@ Os seguintes elementos são usados na solicitação:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de **GetDomainSettings** que o servidor envia para o cliente. 
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetDomainSettings** que o servidor envia para o cliente. 
   
 ### <a name="code"></a>Código
 
 ```XML
 //www.w3.org/2005/08/addressing"> 
     <s:Header> 
-        <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/ 
+        <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/ 
             Autodiscover/Autodiscover/GetDomainSettingsResponse
         </a:Action> 
-        <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+        <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
             xmlns:i="http://www.w3.org/2001/XMLSchema-instance"> 
         <h:MajorVersion>14</h:MajorVersion> 
         <h:MinorVersion>0</h:MinorVersion> 
@@ -98,7 +98,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de **GetDom
         </h:ServerVersionInfo>
     </s:Header> 
     <s:Body> 
-        <GetDomainSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover"> 
+        <GetDomainSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover"> 
             <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance"> 
                 <ErrorCode>NoError</ErrorCode> 
                 <ErrorMessage /> 
@@ -128,7 +128,7 @@ Os seguintes elementos são usados na resposta:
   
 - [GetDomainSettingsResponseMessage (SOAP)](getdomainsettingsresponsemessage-soap.md)
     
-- [Resposta SOAP)](response-soap.md)
+- [Resposta (SOAP)](response-soap.md)
     
 - [ErrorCode (SOAP)](errorcode-soap.md)
     
@@ -150,11 +150,11 @@ Os seguintes elementos são usados na resposta:
     
 - [RedirectTarget (SOAP)](redirecttarget-soap.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Operação de GetUserSettings (SOAP)](getusersettings-operation-soap.md)
+[Operação GetUserSettings (SOAP)](getusersettings-operation-soap.md)
   
-[Operação de GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+[Operação GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 71a418a5-5652-40e1-8f84-fe4f7c9f86af
-description: O elemento GetDelegateResponse contém o status e o resultado de uma solicitação de operação GetDelegate.
-ms.openlocfilehash: 52731ea66420c21cf3fb8d19082aef65551c2af2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetDelegateResponse contém o status e o resultado de uma solicitação de operação getdelegate.
+ms.openlocfilehash: 81c5033cd67b79baa131d71ea0b866c788ae5e82
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752454"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462021"
 ---
 # <a name="getdelegateresponse"></a>GetDelegateResponse
 
-O elemento **GetDelegateResponse** contém o status e o resultado de uma solicitação de [operação GetDelegate](getdelegate-operation.md) . 
+O elemento **GetDelegateResponse** contém o status e o resultado de uma solicitação de [operação getdelegate](getdelegate-operation.md) . 
   
 ```xml
 <GetDelegateResponse>
@@ -35,47 +35,47 @@ O elemento **GetDelegateResponse** contém o status e o resultado de uma solicit
 ```
 
  **GetDelegateResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DeliverMeetingRequests](delivermeetingrequests.md) <br/> |Define como as solicitações de reunião são manipuladas entre o delegado e a entidade.  <br/> |
-|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Contém as mensagens de resposta para uma solicitação de gerenciamento do representante de serviços Web do Exchange.  <br/> |
+|[DeliverMeetingRequests](delivermeetingrequests.md) <br/> |Define como as solicitações de reunião são tratadas entre o representante e a entidade de segurança.  <br/> |
+|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Contém as mensagens de resposta para uma solicitação de gerenciamento de representante do Exchange Web Services.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fornece uma descrição de texto do status da resposta.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fornece um código de erro que identifica o erro específico que enfrentaram a solicitação.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |No momento não utilizados e está reservado para uso futuro. Ele contém um valor de 0.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fornece informações de resposta de erro adicionais.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fornece um código de erro que identifica o erro específico que a solicitação encontrou.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Não utilizado no momento e está reservado para uso futuro. Ele contém um valor de 0.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta de erro.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação GetDelegate](getdelegate-operation.md)
+[Operação getdelegate](getdelegate-operation.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

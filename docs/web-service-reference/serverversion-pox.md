@@ -9,34 +9,34 @@ api_type:
 - schema
 ms.assetid: 2c0bc41c-2452-4fc8-a19c-0e85f9fdbc4a
 description: O elemento ServerVersion representa o número da versão do computador que está executando o Microsoft Exchange Server.
-ms.openlocfilehash: ef0562e166094d75d0dd92f5f48bb558e11a2cad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3ef531a69d2dd00ee9784c9eb191684ce517e842
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825391"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461965"
 ---
 # <a name="serverversion-pox"></a>ServerVersion (POX)
 
 O elemento **ServerVersion** representa o número da versão do computador que está executando o Microsoft Exchange Server. 
   
 - [Descoberta automática (POX)](autodiscover-pox.md) 
-- [Resposta POX)](response-pox.md)
+- [Resposta (POX)](response-pox.md)
 - [Conta (POX)](account-pox.md)
-- [Protocolo (POX)](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
 - [ServerVersion (POX)](serverversion-pox.md)
   
 ```xml
 <ServerVersion/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,19 +46,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o computador que está executando o Microsoft Exchange que tenha a função de servidor acesso para cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange que tem a função de servidor de acesso para Cliente instalada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o número de versão do Exchange server.
+O valor de texto representa o número da versão do Exchange Server.
   
 ## <a name="remarks"></a>Comentários
 
-O valor de **ServerVersion** só será válido se o elemento de [Tipo POX ()](type-pox.md) é igual a EXCH ou EXPR. O valor de **ServerVersion** é um número hexadecimal que contém o MajorVersion, MinorVersion e MajorBuildNumber do servidor. 
+O valor **ServerVersion** só será válido se o elemento [Type (POX)](type-pox.md) for igual a Exch ou expr. O valor **ServerVersion** é um número hexadecimal que contém o MajorVersion, o MinorVersion e o MajorBuildNumber do servidor. 
   
 ## <a name="example"></a>Exemplo
 
-As seguir coverts exemplo um **ServerVersion** valor que é retornado em uma resposta de descoberta automática para obter e exibir os MajorVersion, MinorVersion e MajorBuildNumber. Este exemplo permite que você insira um valor hexadecimal para o valor de **ServerVersion** . Se nenhum valor **ServerVersion** for inserido, o valor padrão **ServerVersion** 738180DA é usado. 
+O exemplo a seguir retorna um valor **ServerVersion** que é retornado em uma resposta de descoberta automática para obter e exibir o MajorVersion, MinorVersion e MajorBuildNumber. Este exemplo permite que você insira um valor hexadecimal para o valor **ServerVersion** . Se nenhum valor **ServerVersion** for inserido, um valor padrão de **ServerVersion** de 738180DA será usado. 
   
 ```csharp
 static void Main(string[] args)
@@ -103,7 +103,7 @@ static void Main(string[] args)
 }
 ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

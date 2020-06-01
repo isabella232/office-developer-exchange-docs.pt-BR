@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 682d47a6-f9fe-4cc6-a56c-c5db835d5ec6
-description: O elemento de ApplyConversationActionResponse define uma resposta a uma solicitação de operação ApplyConversationAction.
-ms.openlocfilehash: 39f7344596de7376e770ed98dbe372a590057deb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ApplyConversationActionResponse define uma resposta a uma solicitação de operação ApplyConversationAction.
+ms.openlocfilehash: 22955378f8982c92b4cd0e9b8880b6907f47aa0c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751180"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461671"
 ---
 # <a name="applyconversationactionresponse"></a>ApplyConversationActionResponse
 
-O elemento de **ApplyConversationActionResponse** define uma resposta a uma solicitação de [operação ApplyConversationAction](applyconversationaction-operation.md) . 
+O elemento **ApplyConversationActionResponse** define uma resposta a uma solicitação de [operação ApplyConversationAction](applyconversationaction-operation.md) . 
   
 [ApplyConversationActionResponse](applyconversationactionresponse.md)
   
@@ -32,13 +32,13 @@ O elemento de **ApplyConversationActionResponse** define uma resposta a uma soli
 ```
 
  **ApplyConversationActionResponseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,9 +48,9 @@ Nenhum.
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -58,16 +58,16 @@ Nenhum.
 
 Este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação ApplyConversationAction](applyconversationaction-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: fff7c928-da28-4864-9379-dc54c1bf048f
-description: O elemento OpenAsAdminOrSystemService é apenas para uso interno. Este elemento não é usado pelos clientes.
-ms.openlocfilehash: ef7538425034b9fc734e8caac8e597e6fb68cd3a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento OpenAsAdminOrSystemService é somente para uso interno. Esse elemento não é usado por clientes.
+ms.openlocfilehash: e4bd101b048bd5ac1af8d383d64519b9ed6f0041
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824652"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462504"
 ---
 # <a name="openasadminorsystemservice"></a>OpenAsAdminOrSystemService
 
-O elemento **OpenAsAdminOrSystemService** é apenas para uso interno. Este elemento não é usado pelos clientes. 
+O elemento **OpenAsAdminOrSystemService** é somente para uso interno. Esse elemento não é usado por clientes. 
   
 ```XML
 <OpenAsAdminOrSystemService LogonType="">
@@ -30,44 +30,44 @@ O elemento **OpenAsAdminOrSystemService** é apenas para uso interno. Este eleme
 ```
 
  **OpenAsAdminOrSystemServiceType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|Tipo de logon  <br/> |Não foi projetado para uso do cliente.  <br/> |
+|LogonType  <br/> |Não se destina ao uso do cliente.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|ConnectingSID  <br/> |Não foi projetado para uso do cliente.  <br/> |
+|ConnectingSID  <br/> |Não se destina ao uso do cliente.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

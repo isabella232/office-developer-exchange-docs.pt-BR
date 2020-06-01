@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8f5731eb-bed0-45bf-ba89-4aaf20c34a39
-description: O elemento AbsoluteDateTransition representa uma transição de fuso horário que ocorre em uma data específica e, em um momento específico.
-ms.openlocfilehash: 1e9e5f3f2269814a82b827efe46c71a172e21348
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento AbsoluteDateTransition representa uma transição de fuso horário que ocorre em uma data específica e em uma hora específica.
+ms.openlocfilehash: 514464f69c3be5496aedbe184848ef9ed9f296b9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751034"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461720"
 ---
 # <a name="absolutedatetransition"></a>AbsoluteDateTransition
 
-O elemento **AbsoluteDateTransition** representa uma transição de fuso horário que ocorre em uma data específica e, em um momento específico. 
+O elemento **AbsoluteDateTransition** representa uma transição de fuso horário que ocorre em uma data específica e em uma hora específica. 
   
 ```xml
 <AbsoluteDateTransition>
@@ -32,20 +32,20 @@ O elemento **AbsoluteDateTransition** representa uma transição de fuso horári
 
 **AbsoluteDateTransitionType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[To](to.md) <br/> |Especifica o [período](period.md) ou [TransitionsGroup](transitionsgroup.md) que é o destino da transição fuso horário.  <br/> |
-|[DateTime](datetime.md) <br/> |Representa a data e hora em que ocorre a transição de fuso horário.  <br/> |
+|[To](to.md) <br/> |Especifica o [período](period.md) ou [TransitionsGroup](transitionsgroup.md) que é o destino da transição de fuso horário.  <br/> |
+|[DateTime](datetime.md) <br/> |Representa a data e a hora em que ocorre a transição de fuso horário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -58,16 +58,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

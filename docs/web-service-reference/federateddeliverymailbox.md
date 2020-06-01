@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: cd56bcc0-d24a-4e8b-87bd-999bf69234b7
-description: O elemento FederatedDeliveryMailbox representa a caixa de correio ao qual uma mensagem entre local foi enviada.
-ms.openlocfilehash: 4a9250455f8de3ede25f2b5ba9433690137ca1d3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento FederatedDeliveryMailbox representa a caixa de correio para a qual uma mensagem entre instalações foi enviada.
+ms.openlocfilehash: d493ed81e82237b7257e8c469f4552d931b73aa6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752235"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461944"
 ---
 # <a name="federateddeliverymailbox"></a>FederatedDeliveryMailbox
 
-O elemento **FederatedDeliveryMailbox** representa a caixa de correio ao qual uma mensagem entre local foi enviada. 
+O elemento **FederatedDeliveryMailbox** representa a caixa de correio para a qual uma mensagem entre instalações foi enviada. 
   
 ```XML
 <FederatedDeliveryMailbox>
@@ -33,32 +33,32 @@ O elemento **FederatedDeliveryMailbox** representa a caixa de correio ao qual um
 </FederatedDeliveryMailbox>
 ```
 
- **EmailAddressType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **EmailAddresstype**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Nome (EmailAddressType)](name-emailaddresstype.md) <br/> |Define o nome do usuário da caixa de correio. Esse elemento é opcional.  <br/> |
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Define o endereço de Simple Mail Transfer Protocol (SMTP) de um usuário de caixa de correio. Esse elemento é opcional.  <br/> |
-|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Define o roteamento que é usado para a caixa de correio. O padrão é SMTP. Esse elemento é opcional.  <br/> |
-|[MailboxType](mailboxtype.md) <br/> |Define o tipo de caixa de correio de um usuário de caixa de correio. Esse elemento é opcional.  <br/> |
-|[ItemId](itemid.md) <br/> |Define o identificador do item de um contato ou uma lista de distribuição particular para destinatários da pasta de contatos do usuário. Esse elemento é opcional.  <br/> |
+|[Nome (EmailAddresstype)](name-emailaddresstype.md) <br/> |Define o nome do usuário da caixa de correio. Este elemento é opcional.  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Define o endereço SMTP (Simple Mail Transfer Protocol) de um usuário de caixa de correio. Este elemento é opcional.  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Define o roteamento usado para a caixa de correio. O padrão é SMTP. Este elemento é opcional.  <br/> |
+|[MailboxType](mailboxtype.md) <br/> |Define o tipo de caixa de correio de um usuário de caixa de correio. Este elemento é opcional.  <br/> |
+|[ItemId](itemid.md) <br/> |Define o identificador de item de um contato ou de uma lista de distribuição privada para destinatários da pasta contatos de um usuário. Este elemento é opcional.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Contém os critérios para os tipos de mensagens para encontrar.  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Contém critérios para os tipos de mensagens a serem localizados.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -66,16 +66,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

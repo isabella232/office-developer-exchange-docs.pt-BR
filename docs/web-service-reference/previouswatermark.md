@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 474f4f7c-47da-47d4-8126-230012172fb5
-description: O elemento PreviousWatermark representa a marca d'água do evento mais recente que foi comunicada com êxito para o cliente para a assinatura.
-ms.openlocfilehash: 93c6f90d0866ae13618391b8544ab593fe33922b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento PreviousWatermark representa a marca d' água do último evento que foi comunicado com êxito ao cliente para a assinatura.
+ms.openlocfilehash: 1b26a645a5ec6dbbd2874b118f968866aadc32af
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824886"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461650"
 ---
 # <a name="previouswatermark"></a>PreviousWatermark
 
-O elemento **PreviousWatermark** representa a marca d'água do evento mais recente que foi comunicada com êxito para o cliente para a assinatura. 
+O elemento **PreviousWatermark** representa a marca d' água do último evento que foi comunicado com êxito ao cliente para a assinatura. 
   
 ```xml
 <PreviousWatermark/>
 ```
 
- **WatermarkType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Marca d' água**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,36 +44,36 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Notificação](notification-ex15websvcsotherref.md) <br/> |Contém informações sobre a inscrição e os eventos que ocorreram desde a última notificação.  <br/> |
+|[Notificação](notification-ex15websvcsotherref.md) <br/> |Contém informações sobre a assinatura e os eventos que ocorreram desde a última notificação.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. O valor de texto representa a marca d'água mais recente. O valor de texto não pode ser uma sequência vazia.
+Um valor de texto é obrigatório. O valor de texto representa a marca d' água mais recente. O valor de texto não pode ser uma cadeia de caracteres vazia.
   
 ## <a name="remarks"></a>Comentários
 
-A propriedade **PreviousWatermark** é útil para o cliente na determinação da última notificação bem-sucedida. Por exemplo, se uma assinatura tem três eventos com marcas d'água 1, 2 e 3 e a próxima notificação é enviada com um valor **PreviousWatermark** 3, o cliente pode comparar este valor como o valor de marca d'água da última notificação recebida. Isso permite que o cliente garantir a continuidade de eventos. 
+A propriedade **PreviousWatermark** é útil para o cliente para determinar a última notificação bem-sucedida. Por exemplo, se uma assinatura tem três eventos com marcas d' água 1, 2 e 3 e a próxima notificação é enviada com um valor de **PreviousWatermark** de 3, o cliente pode comparar esse valor ao valor da marca d' água da última notificação recebida. Isso permite ao cliente garantir a continuidade de eventos. 
   
-Para clientes de push, o **PreviousWatermark** é comparado com a local, no lado do cliente última conhecida marca d'água. Se os valores forem diferentes, o cliente perdeu uma notificação de evento e deverá restabelecer uma inscrição usando a marca d'água local mais recente. Por exemplo, se um cliente de push recebe eventos de três para uma inscrição com marcas d'água 1, 2 e 3 e a próxima notificação vem com um valor **PreviousWatermark** 5, o cliente perdeu a notificação de pelo menos um e crie uma nova assinatura, passando um 3 como a marca d'água. 
+Para clientes de envio, o **PreviousWatermark** é comparado com a marca d' água local, da última chamada do cliente. Se os valores forem diferentes, o cliente perdeu uma notificação de evento e deve restabelecer uma assinatura usando a marca d' água local mais recente. Por exemplo, se um cliente de envio receber três eventos para uma assinatura com marcas d' água 1, 2 e 3 e a próxima notificação vier com um valor de 5 **PreviousWatermark** , o cliente perderá pelo menos uma notificação e deverá criar uma nova assinatura, passando um 3 como a marca d' água. 
   
-No caso de um cliente de recepção, o valor de **PreviousWatermark** será o mesmo que a [marca d'água](watermark.md) incluídos pelo cliente na chamada GetEvents. 
+No caso de um cliente de recebimento, o valor de **PreviousWatermark** será o mesmo que a [marca d' água](watermark.md) incluída pelo cliente na chamada GetEvents. 
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Inscrever-se a operação](subscribe-operation.md)
+[Operação Subscribe](subscribe-operation.md)
   
 [Operação GetEvents](getevents-operation.md)
   

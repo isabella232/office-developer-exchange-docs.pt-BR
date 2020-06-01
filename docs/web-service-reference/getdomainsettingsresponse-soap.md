@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 43ebd17b-3a70-4878-9254-97a4c2c87b77
-description: O elemento GetDomainSettingsResponse representa a resposta a uma operação de GetDomainSettings (SOAP), que retorna as configurações de domínio.
-ms.openlocfilehash: c4984c2c6c532fcbd45c1a75733e578f6d9491fa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetDomainSettingsResponse representa a resposta a uma operação GetDomainSettings (SOAP), que retorna as configurações de domínio.
+ms.openlocfilehash: 94cb202948e6a0d5a34f5547132c052d1d1b6a40
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752468"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461874"
 ---
 # <a name="getdomainsettingsresponse-soap"></a>GetDomainSettingsResponse (SOAP)
 
-O elemento **GetDomainSettingsResponse** representa a resposta a uma [operação de GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md), que retorna as configurações de domínio.
+O elemento **GetDomainSettingsResponse** representa a resposta a uma [operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md), que retorna as configurações de domínio.
   
 ```XML
 <GetDomainSettingsResponse>
@@ -29,42 +29,42 @@ O elemento **GetDomainSettingsResponse** representa a resposta a uma [operação
 ```
 
  **GetDomainSettingsResponse**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DomainResponses (SOAP)](domainresponses-soap.md) <br/> |Contém uma matriz de respostas para as configurações do cada domínio solicitada.  <br/> |
+|[DomainResponses (SOAP)](domainresponses-soap.md) <br/> |Contém uma matriz de respostas para cada configuração de domínio solicitada.  <br/> |
 |[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Representa um código de erro retornado pelo serviço de descoberta automática.  <br/> |
-|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Representa uma mensagem que está associada um código de erro retornado pelo serviço de descoberta automática.  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Representa uma mensagem que é associada a um código de erro retornado pelo serviço de descoberta automática.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Operação de GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+[Operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
 

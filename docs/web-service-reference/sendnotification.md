@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e45c4451-a286-4aec-a691-119ec41c58e0
-description: O elemento SendNotification contém as notificações de push enviadas pelo computador que está executando o Microsoft Exchange Server 2007 para o aplicativo cliente.
-ms.openlocfilehash: 2288dbb5cf97b57a64b3c645eb72836342f4c178
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SendNotification contém as notificações por push enviadas pelo computador que está executando o Microsoft Exchange Server 2007 para o aplicativo cliente.
+ms.openlocfilehash: 49f2f6cb7f5c8e1171b54ff965ee1d22accc9bf2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825345"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462112"
 ---
 # <a name="sendnotification"></a>SendNotification
 
-O elemento **SendNotification** contém as notificações de push enviadas pelo computador que está executando o Microsoft Exchange Server 2007 para o aplicativo cliente. 
+O elemento **SendNotification** contém as notificações por push enviadas pelo computador que está executando o Microsoft Exchange Server 2007 para o aplicativo cliente. 
   
 ```xml
 <SendNotification>
@@ -30,45 +30,45 @@ O elemento **SendNotification** contém as notificações de push enviadas pelo 
 ```
 
  **SendNotificationResponseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as notificações de push enviadas pelo servidor de acesso para cliente.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as notificações por push enviadas pelo servidor de acesso para cliente.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Notificações de eventos no EWS](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
+[Notificações de eventos no EWS](https://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
   
-[Aplicativo de amostra de notificação de push](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
+[Aplicativo de amostra de notificação por push](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

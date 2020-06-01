@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0073d195-75fd-4c89-97e0-2ad6d91f99f9
-description: O elemento ClientExtensions contém uma matriz de informações de usuário e de configuração sobre os aplicativos.
-ms.openlocfilehash: c2f2511154daaded09ba0e8d811baf9ce30ca138
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ClientExtensions contém uma matriz de informações de usuário e configuração sobre aplicativos.
+ms.openlocfilehash: 016b4c910f3c21a20d72b926a1c568925aa9d37e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751398"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461454"
 ---
 # <a name="clientextensions"></a>ClientExtensions
 
-O elemento **ClientExtensions** contém uma matriz de informações de usuário e de configuração sobre os aplicativos. 
+O elemento **ClientExtensions** contém uma matriz de informações de usuário e configuração sobre aplicativos. 
   
 ```XML
 <ClientExtensions>
@@ -26,19 +26,19 @@ O elemento **ClientExtensions** contém uma matriz de informações de usuário 
 ```
 
  **ArrayOfClientExtensionsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ClientExtension](clientextension.md) <br/> |Contém informações de usuário e de configuração sobre um aplicativo.  <br/> |
+|[ClientExtension](clientextension.md) <br/> |Contém informações de usuário e configuração sobre um aplicativo.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -52,7 +52,7 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 ||
 |:-----|

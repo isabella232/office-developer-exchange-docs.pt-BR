@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6b82122b-5544-4adf-91b7-ef2db7d5046f
-description: O elemento ItemIds contém as identidades exclusivas dos itens, itens de ocorrência e itens recorrentes de mestres que são usados para excluir, enviar, obter, mover ou copiar itens no armazenamento do Exchange.
-ms.openlocfilehash: 1bd4d6f4593a7c3b418561269d8b29707cc6030c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ItemIds contém as identidades exclusivas de itens, itens de ocorrência e itens mestres recorrentes que são usados para excluir, enviar, obter, mover ou copiar itens no repositório do Exchange.
+ms.openlocfilehash: bbd594ce2610bd625b0e16a0383fda552ee9eb19
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824155"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460600"
 ---
 # <a name="itemids"></a>ItemIds
   
-O elemento **ItemIds** contém as identidades exclusivas dos itens, itens de ocorrência e itens recorrentes de mestres que são usados para excluir, enviar, obter, mover ou copiar itens no armazenamento do Exchange.
+O elemento **ItemIds** contém as identidades exclusivas de itens, itens de ocorrência e itens mestres recorrentes que são usados para excluir, enviar, obter, mover ou copiar itens no repositório do Exchange.
   
 ```xml
 <ItemIds>
@@ -33,47 +33,47 @@ O elemento **ItemIds** contém as identidades exclusivas dos itens, itens de oco
 
 **NonEmptyArrayOfBaseItemIdsType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai. 
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai. 
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |Contém o identificador e alterar a chave exclusiva de um item no armazenamento do Exchange.  <br/> |
+|[ItemId](itemid.md) <br/> |Contém o identificador exclusivo e a chave de alteração de um item no repositório do Exchange.  <br/> |
 |[OccurrenceItemId](occurrenceitemid.md) <br/> |Identifica uma única ocorrência de um item recorrente.  <br/> |
-|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifica um item-mestre recorrência identificando um dos identificadores dos seus itens relacionados ocorrência.  <br/> |
+|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifica um item mestre de recorrência identificando um de seus identificadores de itens de ocorrência relacionados.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
-|[DeleteItem](deleteitem.md) <br/> |Define uma solicitação para excluir itens no armazenamento do Exchange.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/DeleteItem` <br/> |
-|[SendItem](senditem.md) <br/> |O elemento raiz que define uma solicitação para enviar itens no armazenamento do Exchange.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/SendItem` <br/> |
-|[GetItem](getitem.md) <br/> |Define uma solicitação para obter itens do armazenamento do Exchange.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetItem` <br/> |
-|[MoveItem](moveitem.md) <br/> |Define uma solicitação para mover itens no armazenamento do Exchange.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/MoveItem` <br/> |
-|[CopyItem](copyitem.md) <br/> |Define uma solicitação para copiar os itens no armazenamento do Exchange.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/CopyItem` <br/> |
+|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[DeleteItem](deleteitem.md) <br/> |Define uma solicitação para excluir itens no repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/DeleteItem` <br/> |
+|[SendItem](senditem.md) <br/> |O elemento raiz que define uma solicitação para enviar itens no repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/SendItem` <br/> |
+|[GetItem](getitem.md) <br/> |Define uma solicitação para obter itens do repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetItem` <br/> |
+|[MoveItem](moveitem.md) <br/> |Define uma solicitação para mover itens no repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/MoveItem` <br/> |
+|[CopyItem](copyitem.md) <br/> |Define uma solicitação para copiar itens no repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/CopyItem` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação DeleteItem](deleteitem-operation.md)
 - [Operação SendItem](senditem-operation.md) 

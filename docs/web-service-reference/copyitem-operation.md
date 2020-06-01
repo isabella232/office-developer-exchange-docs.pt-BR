@@ -11,32 +11,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: bcc68f9e-d511-4c29-bba6-ed535524624a
-description: A operação CopyItem copia os itens e coloca os itens em uma pasta diferente.
-ms.openlocfilehash: 95d2371e9185aa25f40eaec37dda54276a54d321
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação CopyItem copia itens e coloca os itens em uma pasta diferente.
+ms.openlocfilehash: ec07700a5ebbdc8774aa2134919634b8dfd02406
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751551"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462175"
 ---
 # <a name="copyitem-operation"></a>Operação CopyItem
 
-A operação **CopyItem** copia os itens e coloca os itens em uma pasta diferente. 
+A operação **CopyItem** copia itens e coloca os itens em uma pasta diferente. 
   
-## <a name="copyitem-request-example"></a>Exemplo de solicitação de CopyItem
+## <a name="copyitem-request-example"></a>Exemplo de solicitação CopyItem
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **CopyItem** mostra como uma solicitação para copiar um item para a caixa de entrada de formulário. 
+O exemplo a seguir de uma solicitação **CopyItem** mostra como formar uma solicitação para copiar um item para a caixa de entrada. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CopyItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ToFolderId>
         <t:DistinguishedFolderId Id="inbox"/>
       </ToFolderId>
@@ -48,12 +48,12 @@ O exemplo a seguir de uma solicitação de **CopyItem** mostra como uma solicita
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> A ID de pasta e a chave de alteração tem sido reduzidas para preservar a legibilidade. 
+> A ID da pasta e a chave de alteração foram reduzidas para preservar a legibilidade. 
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -68,17 +68,17 @@ Os seguintes elementos são usados na solicitação:
 - [ItemId](itemid.md)
     
 > [!NOTE]
-> O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada. 
+> O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada. 
   
-Para localizar outras opções para a mensagem de solicitação da operação **CopyItem** , explore a hierarquia de esquema. Inicie o elemento [CopyItem](copyitem.md) . 
+Para encontrar outras opções para a mensagem de solicitação da operação **CopyItem** , explore a hierarquia de esquema. Inicie no elemento [CopyItem](copyitem.md) . 
   
-## <a name="successful-copyitem-response"></a>Resposta de CopyItem bem-sucedida
+## <a name="successful-copyitem-response"></a>Resposta CopyItem bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de **CopyItem** . 
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **CopyItem** . 
   
-O identificador do item do novo item será retornado na mensagem de resposta. Identificadores de item não são retornados em respostas em entre caixas de correio ou de caixa de correio para operações de **CopyItem** de pasta pública. 
+O identificador de item do novo item é retornado na mensagem de resposta. Os identificadores de item não são retornados em respostas para as operações de **CopyItem** de caixa de correio ou de caixa de correio de pasta pública. 
   
 ### <a name="code"></a>Código
 
@@ -89,12 +89,12 @@ O identificador do item do novo item será retornado na mensagem de resposta. Id
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CopyItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CopyItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -110,7 +110,7 @@ O identificador do item do novo item será retornado na mensagem de resposta. Id
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -124,15 +124,15 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-- [Items](items.md)
+- [Itens](items.md)
     
-Para localizar outras opções para a mensagem de resposta da operação **CopyItem** , explore a hierarquia de esquema. Inicie o elemento [CopyItemResponse](copyitemresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta da operação **CopyItem** , explore a hierarquia do esquema. Inicie no elemento [CopyItemResponse](copyitemresponse.md) . 
   
 ## <a name="copyitem-error-response"></a>Resposta de erro CopyItem
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de **CopyItem** . 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação **CopyItem** . 
   
 ### <a name="code"></a>Código
 
@@ -143,12 +143,12 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de **CopyItem
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CopyItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CopyItemResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>
@@ -180,11 +180,11 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [Items](items.md)
+- [Itens](items.md)
     
-Para localizar outras opções para a mensagem de resposta de erro da operação **CopyItem** , explore a hierarquia de esquema. Inicie o elemento [CopyItemResponse](copyitemresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta de erro da operação **CopyItem** , explore a hierarquia de esquema. Inicie no elemento [CopyItemResponse](copyitemresponse.md) . 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

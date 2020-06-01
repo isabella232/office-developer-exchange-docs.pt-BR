@@ -11,36 +11,36 @@ api_name:
 api_type:
 - schema
 ms.assetid: c7233966-6c87-4a14-8156-b1610760176d
-description: A operação MoveFolder move pastas de uma pasta especificada e os coloca em outra pasta.
-ms.openlocfilehash: 5da6929f11ce9ba74db190db6d799f25974d2192
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação MoveFolder move as pastas de uma pasta especificada e as coloca em outra pasta.
+ms.openlocfilehash: dc572130ca3b2f2b152abbb4a8b68cc6f67790e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824490"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460579"
 ---
 # <a name="movefolder-operation"></a>Operação MoveFolder
 
-A operação MoveFolder move pastas de uma pasta especificada e os coloca em outra pasta.
+A operação MoveFolder move as pastas de uma pasta especificada e as coloca em outra pasta.
   
 ## <a name="remarks"></a>Comentários
 
-A operação MoveFolder é semelhante à operação CopyFolder. Você não pode mover pastas diferenciadas. Você pode mover várias pastas de uma vez para a pasta de destino.
+A operação MoveFolder é semelhante à operação CopyFolder. Não é possível mover pastas diferenciadas. Você pode mover várias pastas de uma só vez para a pasta de destino.
   
 ## <a name="movefolder-request-example"></a>Exemplo de solicitação MoveFolder
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de MoveFolder mostra como uma solicitação para mover uma pasta identificada ao [FolderId](folderid.md) e colocar a pasta na pasta Lixo eletrônico distinto de formulário. 
+O exemplo a seguir de uma solicitação MoveFolder mostra como formar uma solicitação para mover uma pasta identificada por [FolderId](folderid.md) e colocar a pasta na pasta diferenciada de lixo eletrônico. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <MoveFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ToFolderId>
         <t:DistinguishedFolderId Id="junkemail"/>
       </ToFolderId>
@@ -52,14 +52,14 @@ O exemplo a seguir de uma solicitação de MoveFolder mostra como uma solicitaç
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> O valor do atributo ID do elemento [FolderId](folderid.md) foi reduzido para melhorar a legibilidade. 
+> O valor do atributo ID do elemento [FolderId](folderid.md) foi reduzido para legibilidade. 
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
-Essa solicitação MoveFolder inclui os seguintes elementos:
+Essa solicitação de MoveFolder inclui os seguintes elementos:
   
 - [MoveFolder](movefolder.md)
     
@@ -71,12 +71,12 @@ Essa solicitação MoveFolder inclui os seguintes elementos:
     
 - [FolderId](folderid.md)
     
-Consulte o esquema de elementos adicionais que você pode usar para formar uma solicitação MoveFolder.
+Confira o esquema para elementos adicionais que você pode usar para formar uma solicitação de MoveFolder.
   
 > [!NOTE]
-> O local padrão do esquema está no diretório virtual EWS no computador que possui a função de servidor acesso para cliente instalada. 
+> O local padrão do esquema está no diretório virtual EWS no computador em que a função de servidor de acesso para cliente está instalada. 
   
-## <a name="successful-movefolder-response-example"></a>Exemplo de resposta bem-sucedida MoveFolder
+## <a name="successful-movefolder-response-example"></a>Exemplo de resposta MoveFolder bem-sucedida
 
 ### <a name="description"></a>Descrição
 
@@ -91,12 +91,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação MoveFolder.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <MoveFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:MoveFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -112,12 +112,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação MoveFolder.
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> A ID de pasta e a chave de alteração tem sido reduzidas para preservar a legibilidade. 
+> A ID da pasta e a chave de alteração foram reduzidas para preservar a legibilidade. 
   
-O que é retornado na resposta FolderId representa a pasta que foi movido para o novo local da pasta.
+O FolderId retornado na resposta representa a pasta que foi movida para o novo local da pasta.
   
 ### <a name="response-elements"></a>Elementos de resposta
 
@@ -152,12 +152,12 @@ O exemplo a seguir mostra uma resposta de erro que ocorre quando você tenta mov
                  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <MoveFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:MoveFolderResponseMessage ResponseClass="Error">
           <m:MessageText>Cannot move distinguished folder.</m:MessageText>
@@ -189,7 +189,7 @@ A resposta de erro MoveFolder inclui os seguintes elementos:
     
 - [Pastas](folders-ex15websvcsotherref.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

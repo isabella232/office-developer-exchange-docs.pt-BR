@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6e80af47-6ec4-48f6-9c5d-10bf1324510e
-description: O elemento GetEncryptionConfigurationResponse destina-se somente para uso interno.
-ms.openlocfilehash: 48a1167ef52c2f0a59344993d45b6a83f0ba14bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetEncryptionConfigurationResponse é destinado apenas para uso interno.
+ms.openlocfilehash: 93a4d3a6b6bba53e508468c2114447384b34f4ef
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752466"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461825"
 ---
 # <a name="getencryptionconfigurationresponse"></a>GetEncryptionConfigurationResponse
 
-O elemento **GetEncryptionConfigurationResponse** destina-se somente para uso interno. 
+O elemento **GetEncryptionConfigurationResponse** é destinado apenas para uso interno. 
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 

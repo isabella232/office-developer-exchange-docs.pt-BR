@@ -7,51 +7,51 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8a54a6dc-110c-4972-a8bc-5ddb43c4b857
-description: Encontre informações sobre o EWS GetDiscoverySearchConfiguration operação.
-ms.openlocfilehash: a50463e575bf5a4ffdafc357d91563b0ca0486f4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações sobre a operação do EWS do GetDiscoverySearchConfiguration.
+ms.openlocfilehash: 4db435988a9954b921e7851986b6f92ffedbad94
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752457"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461020"
 ---
 # <a name="getdiscoverysearchconfiguration-operation"></a>Operação GetDiscoverySearchConfiguration
 
-Encontre informações sobre a operação de EWS **GetDiscoverySearchConfiguration** . 
+Encontre informações sobre a operação do EWS do **GetDiscoverySearchConfiguration** . 
   
-A operação **GetDiscoverySearchConfiguration** retorna contém informações de configuração local, salvo pesquisas de descoberta e as caixas de correio que estão habilitadas para pesquisa de descoberta. 
+A operação **GetDiscoverySearchConfiguration** retorna informações de configuração para bloqueios in-loco, pesquisas salvas de descoberta e caixas de correio habilitadas para pesquisa de descoberta. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-getdiscoverysearchconfiguration-operation"></a>Usando a operação GetDiscoverySearchConfiguration
 
-A operação **GetDiscoverySearchConfiguration** fornece informações de configuração de pesquisa de descoberta. Solicitações podem conter um ou mais dos seguintes argumentos: 
+A operação **GetDiscoverySearchConfiguration** fornece informações de configuração para pesquisa de descoberta. As solicitações podem conter um ou mais dos seguintes argumentos: 
   
-1. [SearchId](searchid.md) — identifica uma pesquisa de descoberta salvas. Se esse argumento for enviado na solicitação, os valores dos outros argumentos são ignorados. 
+1. [SearchId](searchid.md) — identifica uma pesquisa de descoberta salva. Se esse argumento for enviado na solicitação, os valores dos outros argumentos serão ignorados. 
     
-2. [ExpandGroupMembership](expandgroupmembership.md) — indica se a associação ao grupo for expandida na resposta. Um valor **true** indica que a associação de grupo é expandida para que todas as caixas de correio pesquisáveis são retornadas na resposta. Um valor **false** indica que somente o grupo será retornado na resposta. 
+2. [ExpandGroupMembership](expandgroupmembership.md) — indica se a associação de grupo está expandida na resposta. Um valor **true** indica que a associação de grupo foi expandida para que todas as caixas de correio que podem ser pesquisadas sejam retornadas na resposta. Um valor **false** indica que apenas o grupo é retornado na resposta. 
     
-3. [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) — indica se todas as caixas de correio pesquisáveis são retornadas além da configuração de bloqueio in-loco. Um valor **true** indica que apenas as configurações de bloqueio in-loco são devolvidas. Um valor **false** indica que todos os identificadores de caixa de correio pesquisável são retornados além dos identificadores de bloqueio in-loco. Se esse elemento não estiver presente, o comportamento padrão é o equivalente do valor **false**. 
+3. [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) — indica se todas as caixas de correio que podem ser pesquisadas são retornadas além da configuração de bloqueio in-loco. Um valor **true** indica que somente as configurações de bloqueio in-loco são retornadas. Um valor **false** indica que todos os identificadores de caixa de correio pesquisáveis são retornados além dos identificadores de bloqueio in-loco. Se esse elemento não estiver presente, o comportamento padrão será o equivalente do valor **false**. 
     
-### <a name="getdiscoverysearchconfiguration-operation-soap-headers"></a>Cabeçalhos SOAP GetDiscoverySearchConfiguration operação
+### <a name="getdiscoverysearchconfiguration-operation-soap-headers"></a>Cabeçalhos SOAP de operação GetDiscoverySearchConfiguration
 
-A operação **GetDiscoverySearchConfiguration** pode usar os cabeçalhos SOAP que estão listados na tabela a seguir. 
+A operação **GetDiscoverySearchConfiguration** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifica as funções de servidor necessários para que o chamador para fazer a solicitação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifica as funções de servidor necessárias para que o chamador faça a solicitação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
    
-## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>Exemplo de solicitação de operação GetDiscoverySearchConfiguration: Obtenha a configuração de pesquisa de descoberta para uma pesquisa salva
+## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>Exemplo de solicitação de operação GetDiscoverySearchConfiguration: obter a configuração de pesquisa de descoberta para uma pesquisa salva
 
-O exemplo a seguir de uma solicitação de operação **GetDiscoverySearchConfiguration** mostra como solicitar a configuração de pesquisas salvas chamada "MyDiscSearchFor sbrown". Os argumentos para os elementos de [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) de [ExpandGroupMembership](expandgroupmembership.md) e serão ignorados. 
+O exemplo a seguir de uma solicitação de operação **GetDiscoverySearchConfiguration** mostra como solicitar a configuração de uma pesquisa salva chamada "MyDiscSearchFor-sbrown". Os argumentos dos elementos [ExpandGroupMembership](expandgroupmembership.md) e [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) são ignorados. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -66,7 +66,7 @@ O exemplo a seguir de uma solicitação de operação **GetDiscoverySearchConfig
 
 ```
 
-A solicitação de corpo SOAP contém os seguintes elementos:
+O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [GetDiscoverySearchConfiguration](getdiscoverysearchconfiguration.md)
     
@@ -76,21 +76,21 @@ A solicitação de corpo SOAP contém os seguintes elementos:
     
 - [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>Resposta bem-sucedida de operação GetDiscoverySearchConfiguration: solicitar para uma única pesquisa salva
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>Resposta de operação GetDiscoverySearchConfiguration bem-sucedida: solicitação para uma única pesquisa salva
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetDiscoverySearchConfiguration** para obter a configuração de pesquisas salvas chamada "MyDiscSearchFor sbrown". 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetDiscoverySearchConfiguration** para obter a configuração de uma pesquisa salva chamada "MyDiscSearchFor-sbrown". 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <GetDiscoverySearchConfigurationResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetDiscoverySearchConfigurationResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <DiscoverySearchConfigurations>
-        <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <SearchId>MyDiscSearchFor-sbrown</SearchId>
           <SearchQuery>test item</SearchQuery>
           <SearchableMailboxes>
@@ -111,7 +111,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
 </s:Envelope>
 ```
 
-A resposta SOAP body contém os seguintes elementos:
+O corpo SOAP de resposta contém os seguintes elementos:
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -129,23 +129,23 @@ A resposta SOAP body contém os seguintes elementos:
     
 - [SearchableMailbox](searchablemailbox.md)
     
-- [GUID](guid-ex15websvcsotherref.md)
+- [Guid](guid-ex15websvcsotherref.md)
     
-- [PrimarySmtpAddress (string)](primarysmtpaddress-string.md)
+- [PrimarySmtpAddress (cadeia de caracteres)](primarysmtpaddress-string.md)
     
 - [IsExternalMailbox](isexternalmailbox.md)
     
 - [ExternalEmailAddress](externalemailaddress.md)
     
-- [DisplayName (string)](displayname-string.md)
+- [DisplayName (cadeia de caracteres)](displayname-string.md)
     
-- [IsMembershipGroup](ismembershipgroup.md)
+- [Membro ismembership](ismembershipgroup.md)
     
-- [ID de referência](referenceid.md)
+- [ReferenceId](referenceid.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-in-place-holds"></a>Resposta bem-sucedida de operação GetDiscoverySearchConfiguration: a solicitação de retenções locais
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-in-place-holds"></a>Resposta de operação GetDiscoverySearchConfiguration bem-sucedida: solicitação de bloqueio in-loco
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetDiscoverySearchConfiguration** obter somente in-loco contém. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetDiscoverySearchConfiguration** para obter bloqueios in-loco apenas. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -156,24 +156,24 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Success" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <DiscoverySearchConfigurations>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearchFor-sbrown</SearchId>
                <SearchQuery>test item</SearchQuery>
                <InPlaceHoldIdentity>3f37d90f53144558a80814ef0272749a9</InPlaceHoldIdentity>
                <ManagedByOrganization/>
             </DiscoverySearchConfiguration>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearch</SearchId>
                <SearchQuery>test</SearchQuery>
                <InPlaceHoldIdentity>6ea486f0f3f140efb044682a2e782abdf</InPlaceHoldIdentity>
@@ -186,7 +186,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
 
 ```
 
-A resposta SOAP body contém os seguintes elementos:
+O corpo SOAP de resposta contém os seguintes elementos:
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -204,7 +204,7 @@ A resposta SOAP body contém os seguintes elementos:
     
 - [ManagedByOrganization](managedbyorganization.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>Resposta bem-sucedida de operação GetDiscoverySearchConfiguration: a solicitação de todas as salvas descoberta de configurações de pesquisa
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>Resposta de operação GetDiscoverySearchConfiguration bem-sucedida: solicitação para todas as configurações de pesquisa de descoberta salvas
 
 O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetDiscoverySearchConfiguration** para obter todas as pesquisas de descoberta salvas. 
   
@@ -217,18 +217,18 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Success" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <DiscoverySearchConfigurations>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearchFor-sbrown</SearchId>
                <SearchQuery>test item</SearchQuery>
                <SearchableMailboxes>
@@ -243,7 +243,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
                   </SearchableMailbox>
                </SearchableMailboxes>
             </DiscoverySearchConfiguration>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearch</SearchId>
                <SearchQuery>test</SearchQuery>
                <SearchableMailboxes>
@@ -273,7 +273,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
 </s:Envelope>
 ```
 
-A resposta SOAP body contém os seguintes elementos:
+O corpo SOAP de resposta contém os seguintes elementos:
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -291,23 +291,23 @@ A resposta SOAP body contém os seguintes elementos:
     
 - [SearchableMailbox](searchablemailbox.md)
     
-- [GUID](guid-ex15websvcsotherref.md)
+- [Guid](guid-ex15websvcsotherref.md)
     
-- [PrimarySmtpAddress (string)](primarysmtpaddress-string.md)
+- [PrimarySmtpAddress (cadeia de caracteres)](primarysmtpaddress-string.md)
     
 - [IsExternalMailbox](isexternalmailbox.md)
     
 - [ExternalEmailAddress](externalemailaddress.md)
     
-- [DisplayName (string)](displayname-string.md)
+- [DisplayName (cadeia de caracteres)](displayname-string.md)
     
-- [IsMembershipGroup](ismembershipgroup.md)
+- [Membro ismembership](ismembershipgroup.md)
     
-- [ID de referência](referenceid.md)
+- [ReferenceId](referenceid.md)
     
 ## <a name="getdiscoverysearchconfiguration-operation-error-response"></a>Resposta de erro de operação GetDiscoverySearchConfiguration
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetDiscoverySearchConfiguration** . Esta é uma resposta a uma solicitação para fazer uma pesquisa salva que não for encontrada no servidor. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetDiscoverySearchConfiguration** . Esta é uma resposta a uma solicitação para obter uma pesquisa salva que não é encontrada no servidor. 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -317,15 +317,15 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Error" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>Search configuration corresponding to the search id was not found.</MessageText>
          <ResponseCode>ErrorInvalidArgument</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -336,7 +336,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 
 ```
 
-A resposta de erro corpo SOAP contém os seguintes elementos:
+O corpo SOAP de resposta de erro contém os seguintes elementos:
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -348,9 +348,9 @@ A resposta de erro corpo SOAP contém os seguintes elementos:
     
 - [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
     
-Para códigos de erro adicionais que são genérica do EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
+Para obter códigos de erro adicionais genéricos para o EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
     

@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 404842e1-fbdb-480d-a1d8-ba1ab2c9fb1e
-description: O elemento MarkAsRead indica se as mensagens devem ser marcados como lidos.
-ms.openlocfilehash: b453ad73912e99b6fd3aed84b03a7d2fc2b6a294
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MarkAsRead indica se as mensagens devem ser marcadas como lidas.
+ms.openlocfilehash: 691409a4eace8885d36f4b30b8eef1aca8c332a6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824355"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461762"
 ---
 # <a name="markasread"></a>MarkAsRead
 
-O elemento **MarkAsRead** indica se as mensagens devem ser marcados como lidos. 
+O elemento **MarkAsRead** indica se as mensagens devem ser marcadas como lidas. 
   
 ```XML
 <MarkAsRead>true | false</MarkAsRead>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,26 +44,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Ações](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis a ser executada em uma mensagem quando as condições são atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** indica que a mensagem deve ser marcada como lida. Um valor **false** indica que as mensagens não devem ser marcadas como lidos. 
+Um valor de texto **true** indica que a mensagem deve ser marcada como lida. Um valor **false** indica que as mensagens não devem ser marcadas como lidas. 
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

@@ -9,34 +9,34 @@ api_type:
 - schema
 ms.assetid: 1f26b691-7331-4c7f-a92b-dfcc66c26963
 description: O elemento DomainRequired indica se o domínio é necessário para autenticação.
-ms.openlocfilehash: f314b9d27d1b4ee472d249ec49af1a785ff9ac25
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 97d602c40b247f9a6650cc4440b53bf23c18482e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751914"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461321"
 ---
 # <a name="domainrequired-pox"></a>DomainRequired (POX)
 
 O elemento **DomainRequired** indica se o domínio é necessário para autenticação. 
   
 - [Descoberta automática (POX)](autodiscover-pox.md)  
-- [Resposta POX)](response-pox.md) 
+- [Resposta (POX)](response-pox.md) 
 - [Conta (POX)](account-pox.md)  
-- [Protocolo (POX)](protocol-pox.md)  
+- [Protocol (POX)](protocol-pox.md)  
 - [DomainRequired (POX)](domainrequired-pox.md)
   
 ```xml
 <DomainRequired>on or off</DomainRequired>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,17 +46,17 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto indica se o domínio é necessário para autenticação. Os valores possíveis são **Ativar** e **Desativar**. Se o valor estiver **ligado**, a solicitação subsequente deve conter o domínio da conta do usuário.
+O valor de texto indica se o domínio é necessário para autenticação. Os valores possíveis estão **ativados** e **desativados**. Se o valor estiver **ativado**, a solicitação subsequente deverá conter o domínio da conta do usuário.
   
 ## <a name="remarks"></a>Comentários
 
-Se o domínio não for especificado no elemento [LoginName POX ()](loginname-pox.md) ou o elemento **LoginName** não foi especificado, o usuário deve digitar o domínio antes de autenticação terá êxito. 
+Se o domínio não for especificado no elemento [LoginName (POX)](loginname-pox.md) ou se o elemento **LoginName** não tiver sido especificado, o usuário deverá inserir o domínio antes que a autenticação seja bem-sucedida. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

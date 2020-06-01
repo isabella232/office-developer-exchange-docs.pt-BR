@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: d91cf587-24e3-4c13-8784-5ca29787cca7
-description: O elemento ContentLocation contém o identificador de URI (Uniform Resource) que corresponde ao local do conteúdo de um anexo.
-ms.openlocfilehash: 060dab2da653637420d5900bad3b95823c2e6ea3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ContentLocation contém o URI (Uniform Resource Identifier) que corresponde ao local do conteúdo de um anexo.
+ms.openlocfilehash: 01bb95da5f620fddc8777f88b1d3eb1a7e6069b1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751508"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461482"
 ---
 # <a name="contentlocation"></a>ContentLocation
 
-O elemento **ContentLocation** contém o identificador de URI (Uniform Resource) que corresponde ao local do conteúdo de um anexo. 
+O elemento **ContentLocation** contém o URI (Uniform Resource Identifier) que corresponde ao local do conteúdo de um anexo. 
   
 ```xml
 <ContentLocation/>
 ```
 
  **String**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,27 +44,27 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ItemAttachment](itemattachment.md) <br/> |Representa um item do Exchange que está anexado a outro item do Exchange.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo anexado a um item no armazenamento do Exchange.  <br/> |
+|[ItemAttachment](itemattachment.md) <br/> |Representa um item do Exchange anexado a outro item do Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo anexado a um item no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto é um valor string que representa um URI.
+O valor de texto é um valor String que representa um URI.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

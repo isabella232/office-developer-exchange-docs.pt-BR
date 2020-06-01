@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3ecea174-73d1-47fd-8917-6065cef1d565
-description: O elemento FileAttachment representa um arquivo anexado a um item no armazenamento do Exchange.
-ms.openlocfilehash: 5ce7aef753313aa9430f640bb3c26f652b8c1c43
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento fileattachment representa um arquivo anexado a um item no repositório do Exchange.
+ms.openlocfilehash: db9b541fb2527ae3c09cbdb33bedea7fb215bd30
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752252"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461013"
 ---
 # <a name="fileattachment"></a>FileAttachment
 
-O elemento **FileAttachment** representa um arquivo anexado a um item no armazenamento do Exchange. 
+O elemento **Fileattachment** representa um arquivo anexado a um item no repositório do Exchange. 
   
 ```XML
 <FileAttachment>
@@ -39,36 +39,36 @@ O elemento **FileAttachment** representa um arquivo anexado a um item no armazen
 ```
 
  **FileAttachmentType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AttachmentId](attachmentid.md) <br/> |Identifica o anexo de arquivo.  <br/> |
+|[Attachmentid](attachmentid.md) <br/> |Identifica o anexo de arquivo.  <br/> |
 |[Nome (AttachmentType)](name-attachmenttype.md) <br/> |Representa o nome do anexo.  <br/> |
-|[ContentType](contenttype.md) <br/> |Descreve o tipo de email extensões MIME (Multipurpose Internet) do conteúdo do anexo.  <br/> |
-|[ContentId](contentid.md) <br/> |Representa um identificador para o conteúdo de um anexo. [ContentId](contentid.md) pode ser definido como qualquer valor de cadeia de caracteres. Aplicativos podem usar [ContentId](contentid.md) implementar seus próprios mecanismos de identificação.  <br/> |
-|[ContentLocation](contentlocation.md) <br/> |Contém o identificador de URI (Uniform Resource) que corresponde ao local do conteúdo do anexo.  <br/> |
-|[Size](size.md) <br/> |Representa o tamanho em bytes de arquivo do anexo.  <br/> |
+|[ContentType](contenttype.md) <br/> |Descreve o tipo de MIME (Multipurpose Internet Mail Extensions) do conteúdo do anexo.  <br/> |
+|[ContentId](contentid.md) <br/> |Representa um identificador para o conteúdo de um anexo. [ContentId](contentid.md) pode ser definido como qualquer valor de cadeia de caracteres. Os aplicativos podem usar [ContentId](contentid.md) para implementar seus próprios mecanismos de identificação.  <br/> |
+|[ContentLocation](contentlocation.md) <br/> |Contém o URI (Uniform Resource Identifier) que corresponde ao local do conteúdo do anexo.  <br/> |
+|[Tamanho](size.md) <br/> |Representa o tamanho em bytes do anexo de arquivo.  <br/> |
 |[LastModifiedTime](lastmodifiedtime.md) <br/> |Representa quando o anexo de arquivo foi modificado pela última vez.  <br/> |
-|[IsInline](isinline.md) <br/> |Indica se o anexo é exibido embutida dentro de um item.  <br/> |
-|[IsContactPhoto](iscontactphoto.md) <br/> |Indica se o anexo de arquivo é uma imagem do contato.  <br/> |
-|[Conteúdo](content.md) <br/> |Contém o conteúdo codificado na Base64 de arquivo do anexo.  <br/> |
+|[IsInline](isinline.md) <br/> |Indica se o anexo aparece embutido em um item.  <br/> |
+|[IsContactPhoto](iscontactphoto.md) <br/> |Indica se o anexo de arquivo é uma imagem de contato.  <br/> |
+|[Conteúdo](content.md) <br/> |Contém o conteúdo codificado em base64 do anexo de arquivo.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Anexos](attachments-ex15websvcsotherref.md) <br/> |Contém os itens ou arquivos que estejam anexados a um item no armazenamento do Exchange.  <br/> |
+|[Anexos](attachments-ex15websvcsotherref.md) <br/> |Contém os itens ou arquivos anexados a um item no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -76,16 +76,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

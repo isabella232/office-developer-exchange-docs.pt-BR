@@ -1,5 +1,5 @@
 ---
-title: Resposta de descoberta automática POX para Exchange
+title: Resposta de descoberta automática do POX para o Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,29 +8,29 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 08c6c5a2-a67a-4141-a8bd-1b5d560b90a7
-description: A resposta de descoberta automática conterá uma resposta a uma solicitação de descoberta automática que inclui uma lista das URLs que são usados para estabelecer um vínculo com serviços de Web do Exchange (EWS).
-ms.openlocfilehash: d9f8a5cc86efaa4dceda7385164872ecc5409252
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A resposta de descoberta automática contém uma resposta a uma solicitação de descoberta automática que inclui uma lista de URLs usadas para estabelecer uma associação com o EWS (serviços Web do Exchange).
+ms.openlocfilehash: 0d903d9829fa6dc1273d8b25a1eeb0b68700d5da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824863"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462280"
 ---
-# <a name="pox-autodiscover-response-for-exchange"></a>Resposta de descoberta automática POX para Exchange
+# <a name="pox-autodiscover-response-for-exchange"></a>Resposta de descoberta automática do POX para o Exchange
 
-A resposta de descoberta automática conterá uma resposta a uma solicitação de descoberta automática que inclui uma lista das URLs que são usados para estabelecer um vínculo com serviços de Web do Exchange (EWS).
+A resposta de descoberta automática contém uma resposta a uma solicitação de descoberta automática que inclui uma lista de URLs usadas para estabelecer uma associação com o EWS (serviços Web do Exchange).
   
-## <a name="autodiscover-response-example"></a>Exemplo de resposta da descoberta automática
+## <a name="autodiscover-response-example"></a>Exemplo de resposta de descoberta automática
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida de descoberta automática.
+O exemplo a seguir mostra uma resposta de descoberta automática bem-sucedida.
   
 ### <a name="code"></a>Código
 
 ```XML
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
-  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
     <User>
       <DisplayName>First Last</DisplayName>
       <LegacyDN>/o=contoso/ou=First Administrative Group/cn=Recipients/cn=iuser885646</LegacyDN>
@@ -72,17 +72,17 @@ O exemplo a seguir mostra uma resposta bem-sucedida de descoberta automática.
 </Autodiscover>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-Para vincular a serviços Web do Exchange, use a URL identificada pelo elemento [ASUrl POX ()](asurl-pox.md) . 
+Para associar aos serviços Web do Exchange, use a URL identificada pelo elemento [ASUrl (POX)](asurl-pox.md) . 
   
-### <a name="response-element"></a>Elemento de resposta
+### <a name="response-element"></a>Elemento Response
 
 Os seguintes elementos são usados no corpo da resposta:
   
 - [Descoberta automática (POX)](autodiscover-pox.md)
     
-- [Resposta POX)](response-pox.md)
+- [Resposta (POX)](response-pox.md)
     
 - [Usuário (POX)](user-pox.md)
     
@@ -94,11 +94,11 @@ Os seguintes elementos são usados no corpo da resposta:
     
 - [Conta (POX)](account-pox.md)
     
-- [AccountType POX)](accounttype-pox.md)
+- [AccountType (POX)](accounttype-pox.md)
     
-- [Ação POX)](action-pox.md)
+- [Ação (POX)](action-pox.md)
     
-- [Protocolo (POX)](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
     
 - [Tipo (POX)](type-pox.md)
     
@@ -132,8 +132,8 @@ O exemplo a seguir mostra uma resposta de erro de descoberta automática.
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
-  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
     <Error Time="21:25:04.8897083" Id="4130155072">
       <ErrorCode>600</ErrorCode>
       <Message>Invalid Request</Message>
@@ -149,19 +149,19 @@ Os seguintes elementos são usados no corpo da resposta:
   
 - [Descoberta automática (POX)](autodiscover-pox.md)
     
-- [Resposta POX)](response-pox.md)
+- [Resposta (POX)](response-pox.md)
     
 - [Erro (POX)](error-pox.md)
     
-- [ErrorCode POX)](errorcode-pox.md)
+- [ErrorCode (POX)](errorcode-pox.md)
     
 - [Mensagem (POX)](message-pox.md)
     
 - [DebugData (POX)](debugdata-pox.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Solicitação de descoberta automática POX para Exchange](pox-autodiscover-request-for-exchange.md)
-- [Referência do serviço web POX descoberta automática do Exchange](pox-autodiscover-web-service-reference-for-exchange.md) 
-- [Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Solicitação de descoberta automática do POX para o Exchange](pox-autodiscover-request-for-exchange.md)
+- [Referência de serviço Web de descoberta automática do POX para o Exchange](pox-autodiscover-web-service-reference-for-exchange.md) 
+- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

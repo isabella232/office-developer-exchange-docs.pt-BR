@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 22d4da6b-d8a8-484f-82c4-3e4b8f5431cd
-description: O elemento GetEvents representa a operação usada pelos clientes de recepção para notificações de solicitação do servidor.
-ms.openlocfilehash: e7b24207bff579a2f5230676d6520452f96fe0ce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetEvents representa a operação usada por clientes de recebimento para solicitar notificações do servidor.
+ms.openlocfilehash: 004f782ccd32b3c5e501080bfc59419a6e7d9ce4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752472"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462497"
 ---
 # <a name="getevents"></a>GetEvents
 
-O elemento **GetEvents** representa a operação usada pelos clientes de recepção para notificações de solicitação do servidor. 
+O elemento **GetEvents** representa a operação usada por clientes de recebimento para solicitar notificações do servidor. 
   
 [GetEvents](getevents.md)
   
@@ -32,44 +32,44 @@ O elemento **GetEvents** representa a operação usada pelos clientes de recepç
 </GetEvents>
 ```
 
- **GetEventsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Geteventtype**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Representa o identificador de uma assinatura que é consultado para eventos.  <br/> |
-|[Marca d'água](watermark.md) <br/> |Representa a última marca d'água retornada ao cliente. Se não tiver sido chamado GetEvents para esta inscrição, o cliente usa a marca d'água retornada da solicitação Subscribe. Caso contrário, a marca d'água a partir do último evento na última resposta GetEvents é usada.  <br/> |
+|[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Representa o identificador de uma assinatura que é consultada para eventos.  <br/> |
+|[Marca d'água](watermark.md) <br/> |Representa a última marca d' água retornada ao cliente. Se GetEvents não tiver sido chamado para esta assinatura, o cliente usará a marca d' água retornada da solicitação de assinatura. Caso contrário, a marca d' água do último evento na resposta GetEvents será usada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
-|Pode estar vazio  <br/> |false  <br/> |
+|Pode estar vazio  <br/> |falso  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[Inscrever-se a operação](subscribe-operation.md)
+[Operação Subscribe](subscribe-operation.md)
   
 [Operação GetEvents](getevents-operation.md)
   

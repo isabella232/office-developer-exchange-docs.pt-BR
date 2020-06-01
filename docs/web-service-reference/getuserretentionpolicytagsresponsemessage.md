@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9991d6e0-8c31-4e73-8af3-da4298474b66
-description: O elemento GetUserRetentionPolicyTagsResponseMessage Especifica a mensagem de resposta para uma solicitação de GetUserRetentionPolicyTags.
-ms.openlocfilehash: db73cb7f1922d845c9565753ff8d4917b82b1259
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetUserRetentionPolicyTagsResponseMessage especifica a mensagem de resposta para uma solicitação GetUserRetentionPolicyTags.
+ms.openlocfilehash: e65266e72010f42a2052bbb8cfab21ea4059f92b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823701"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461804"
 ---
 # <a name="getuserretentionpolicytagsresponsemessage"></a>GetUserRetentionPolicyTagsResponseMessage
 
-O elemento **GetUserRetentionPolicyTagsResponseMessage** Especifica a mensagem de resposta para uma solicitação de **GetUserRetentionPolicyTags** . 
+O elemento **GetUserRetentionPolicyTagsResponseMessage** especifica a mensagem de resposta para uma solicitação **GetUserRetentionPolicyTags** . 
   
 ```XML
 <GetUserRetentionPolicyTagsResponseMessage>
@@ -30,17 +30,17 @@ O elemento **GetUserRetentionPolicyTagsResponseMessage** Especifica a mensagem d
 ```
 
  **GetUserRetentionPolicyTagsResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [RetentionPolicyTags](retentionpolicytags.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)  |  [RetentionPolicyTags](retentionpolicytags.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -52,13 +52,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
-|Pode estar vazio  <br/> |false  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Pode estar vazio  <br/> |falso  <br/> |
    
 

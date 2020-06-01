@@ -1,5 +1,5 @@
 ---
-title: Constante
+title: Constant
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,32 +11,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: 340af0cd-9f12-44ab-b8f1-21d107c8d0c9
-description: O elemento constante identifica um valor de constante em uma restrição.
-ms.openlocfilehash: 73912bc1981c5d54040f7c4a563ad805916fe721
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Constant identifica um valor de constante em uma restrição.
+ms.openlocfilehash: 6cb2eaa4227a8fd0985e8ff5a15d647c3bb1cd6a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751431"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461552"
 ---
-# <a name="constant"></a>Constante
+# <a name="constant"></a>Constant
 
-O elemento **constante** identifica um valor de constante em uma restrição. 
+O elemento **Constant** identifica um valor de constante em uma restrição. 
   
 ```xml
 <Constant Value="" />
 ```
 
  **ConstantValueType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**Valor** <br/> |Especifica o valor para comparar os a restrição.  <br/> |
+|**Valor** <br/> |Especifica o valor a ser comparado na restrição.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -51,20 +51,20 @@ Nenhum.
    
 ## <a name="remarks"></a>Comentários
 
-O valor de cadeia de caracteres no atributo de **valor** deve ser conversível para o tipo que você está tentando comparar com. Por exemplo, se você está comparando uma propriedade de data/hora em relação a um valor de constante, o valor de cadeia de caracteres deve representam uma data/hora. 
+O valor da cadeia de caracteres no atributo **Value** deve ser coercible no tipo que você está tentando comparar. Por exemplo, se você estiver comparando uma propriedade data/hora em relação a um valor constante, o valor da cadeia de caracteres deverá representar uma data/hora. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

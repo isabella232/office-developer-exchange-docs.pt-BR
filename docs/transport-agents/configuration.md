@@ -1,5 +1,5 @@
 ---
-title: configuration
+title: Configuration
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6fc04e4d-657a-4999-9431-186ccb7832b5
-description: 'Modificado pela última vez: 17 de setembro de 2015'
-ms.openlocfilehash: 342e52e879534b6a130d286d358138c6095e4563
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Última modificação: 17 de setembro de 2015'
+ms.openlocfilehash: b886851b9a0c17d58428f49281d664930d0e4070
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750997"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461559"
 ---
-# <a name="configuration"></a>configuration
+# <a name="configuration"></a>Configuration
   
 **Aplica-se a:** Exchange Server 2013
   
-O elemento de **configuração** é o elemento raiz para o arquivo de configuração de agentes. 
+O elemento **Configuration** é o elemento raiz do arquivo de configuração dos agentes. 
   
-- [configuração](configuration.md) 
+- [configuration](configuration.md) 
 - [mexRuntime](mexruntime.md)
   
 ```XML
@@ -34,36 +34,36 @@ O elemento de **configuração** é o elemento raiz para o arquivo de configura�
 </configuration>
 ```
 
-**configurationType (complexType)**
+**ConfigurationType (complexType)**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[mexRuntime](mexruntime.md) <br/> |Contém os elementos que definem as informações de configuração de monitoramento de agente e informações de configuração de SMTP e os agentes de roteamento que estão instalados.  <br/> |
+|[mexRuntime](mexruntime.md) <br/> |Contém elementos que definem informações de configuração para o monitoramento de agentes e informações de configuração para SMTP e agentes de roteamento instalados.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |Esse arquivo não define um namespace.  <br/> |
-|Nome do esquema  <br/> |Não disponível.  <br/> |
-|Arquivo de validação  <br/> |Não disponível.  <br/> |
+|Namespace  <br/> |Este arquivo não define um namespace.  <br/> |
+|Nome do esquema  <br/> |Indisponível.  <br/> |
+|Arquivo de validação  <br/> |Indisponível.  <br/> |
 |Pode ser vazio  <br/> |Falso.  <br/> |
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Elementos de arquivo de configuração de agentes para o Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

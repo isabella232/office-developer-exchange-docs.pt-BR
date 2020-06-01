@@ -1,5 +1,5 @@
 ---
-title: Metadados
+title: Metadata
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c1cc609b-65ff-4998-8d2b-545f0fdcb54c
-description: O elemento de metadados contém metadados sobre o aplicativo de email.
-ms.openlocfilehash: 8dd3a3db5a5e0afc1a23dad44d70fa3353c796f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Metadata contém metadados sobre o aplicativo de email.
+ms.openlocfilehash: b7dd13936a25a43394b9a2d5eea8808fe08b4eb6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824459"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460586"
 ---
-# <a name="metadata"></a>Metadados
+# <a name="metadata"></a>Metadata
 
-O elemento de **metadados** contém metadados sobre o aplicativo de email. 
+O elemento **Metadata** contém metadados sobre o aplicativo de email. 
   
 ```XML
 <Metadata>
@@ -27,17 +27,17 @@ O elemento de **metadados** contém metadados sobre o aplicativo de email.
 </Metadata>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[EndNodeUrl](endnodeurl.md) | [AppStatus](appstatus-ex15websvcsotherref.md) | [ActionUrl](actionurl.md)
+[EndNodeUrl](endnodeurl.md)  |  [AppStatus](appstatus-ex15websvcsotherref.md)  |  [ActionUrl](actionurl.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -49,16 +49,16 @@ Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> | http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> | https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
 |Arquivo de validação  <br/> |Não aplicável  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

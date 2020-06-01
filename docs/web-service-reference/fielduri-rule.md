@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cecdea78-de9c-48be-ae31-03877feafeec
-description: O elemento FieldURI Especifica o URI para o campo de regra que causou o erro de validação.
-ms.openlocfilehash: 88ba54994625d3a950b58e900f28c986c31eddac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento FieldURI especifica o URI para o campo de regra que causou o erro de validação.
+ms.openlocfilehash: 3d88efdf951af580f81b5e2e7a544dcdf70ea830
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752237"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461244"
 ---
 # <a name="fielduri-rule"></a>FieldUri (regra)
 
-O elemento **FieldURI** Especifica o URI para o campo de regra que causou o erro de validação. 
+O elemento **FieldURI** especifica o URI para o campo de regra que causou o erro de validação. 
   
 ```XML
 <FieldURI/>
 ```
 
  **RuleFieldURIType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Erro](error.md) <br/> |Representa um erro de validação exclusivo em um valor da propriedade regra específica, o valor da propriedade predicado ou o valor da propriedade action.  <br/> |
+|[Erro](error.md) <br/> |Representa um único erro de validação em um valor de propriedade de regra específico, um valor da propriedade Predicate ou um valor da propriedade Action.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto para esse elemento é restrito a uma das cadeias de caracteres seguintes:
+O valor de texto para este elemento é restrito a uma das seguintes cadeias de caracteres:
   
 - RuleId
     
@@ -100,9 +100,9 @@ O valor de texto para esse elemento é restrito a uma das cadeias de caracteres 
     
 - Condição: IsSigned
     
-- Condição: IsVoicemail
+- Condição: iscaixa postal
     
-- Condição: ItemClasses
+- Condição: doclasss
     
 - Condição: MessageClassifications
     
@@ -168,9 +168,9 @@ O valor de texto para esse elemento é restrito a uma das cadeias de caracteres 
     
 - Exceção: IsSigned
     
-- Exceção: IsVoicemail
+- Exceção: ispostal
     
-- Exceção: ItemClasses
+- Exceção: doclasss
     
 - Exceção: MessageClassifications
     
@@ -230,16 +230,16 @@ O valor de texto para esse elemento é restrito a uma das cadeias de caracteres 
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

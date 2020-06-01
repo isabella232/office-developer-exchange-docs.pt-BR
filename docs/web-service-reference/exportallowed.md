@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dcff5ccc-31dc-4941-9f71-d6519133aebb
-description: O elemento ExportAllowed Especifica se a exportação está habilitada.
-ms.openlocfilehash: 5c07941e0a79394bbdaa1a1f62b20adedfe7a9bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ExportAllowed especifica se a exportação está habilitada.
+ms.openlocfilehash: f5a9aa3040c45d535ef338010bb37bcedb797ffc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752146"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460628"
 ---
 # <a name="exportallowed"></a>ExportAllowed
 
-O elemento **ExportAllowed** Especifica se a exportação está habilitada. 
+O elemento **ExportAllowed** especifica se a exportação está habilitada. 
   
 ```XML
 <ExportAllowed>true | false</ExportAllowed>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -42,28 +42,28 @@ Nenhum.
 |:-----|:-----|
 |[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Especifica informações sobre a licença de gerenciamento de direitos.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** para o elemento **ExportAllowed** indica que a exportação é permitida. Um valor **false** indica que não é permitida a exportação. 
+Um valor de texto **true** para o elemento **ExportAllowed** indica que a exportação é permitida. Um valor **false** indica que a exportação não é permitida. 
   
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é opcional.
+Este elemento é opcional.
   
 Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

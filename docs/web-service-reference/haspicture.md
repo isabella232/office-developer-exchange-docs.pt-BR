@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 922a43fe-01bd-49f2-9261-e00e4699b8da
 description: O elemento HasPicture indica se o item de contato tem um anexo de arquivo que representa a imagem do contato.
-ms.openlocfilehash: 8f6890ec2bcc9a961f69331fb20f5cad8a59bf38
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0f0758e38807587d47b9469f40b10bd9c6ea5012
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823806"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462434"
 ---
 # <a name="haspicture"></a>HasPicture
 
@@ -32,13 +32,13 @@ O elemento **HasPicture** indica se o item de contato tem um anexo de arquivo qu
 ```
 
  **boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,9 +48,9 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Contato](contact.md) <br/> |Representa um item de contato no armazenamento do Exchange.  <br/> |
+|[Contato](contact.md) <br/> |Representa um item de contato no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto do elemento **HasPicture** pode ser **true** ou **false**. O valor padrão é **false**.
   
@@ -58,16 +58,16 @@ O valor de texto do elemento **HasPicture** pode ser **true** ou **false**. O va
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

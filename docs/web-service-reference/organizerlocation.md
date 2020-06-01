@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1c76bd1d-6099-4966-a93e-865437267e33
-description: O elemento OrganizerLocation destina-se somente para uso interno.
-ms.openlocfilehash: d9eb88e4ac435746f5e46f7d9b7e4f8c1862b579
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento OrganizerLocation é destinado apenas para uso interno.
+ms.openlocfilehash: cd60ea3e671037509df4f52c1e34e6bdbf9fadf8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824664"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462385"
 ---
 # <a name="organizerlocation"></a>OrganizerLocation
 
-O elemento **OrganizerLocation** destina-se somente para uso interno. 
+O elemento **OrganizerLocation** é destinado apenas para uso interno. 
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 

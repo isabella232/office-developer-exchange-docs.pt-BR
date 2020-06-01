@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: df50524e-471c-49d2-89fe-b2d0f61a1365
-description: O elemento FileAs representa como uma lista de contatos ou de distribuição é arquivada na pasta Contatos.
-ms.openlocfilehash: dab9142eebf7691862e7970a7d1e8f5874393b94
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento FileAs representa como um contato ou uma lista de distribuição é arquivado na pasta contatos.
+ms.openlocfilehash: be756d86d7608fcb758dd54f2ada9f03a04343e2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752249"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461195"
 ---
 # <a name="fileas"></a>FileAs
 
-O elemento **FileAs** representa como uma lista de contatos ou de distribuição é arquivada na pasta Contatos. 
+O elemento **FileAs** representa como um contato ou uma lista de distribuição é arquivado na pasta contatos. 
   
 ```xml
 <FileAs/>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -47,26 +47,26 @@ Nenhum.
 |[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição.  <br/> |
 |[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Se este elemento for usado, será necessário um valor de texto que representa uma cadeia de caracteres.
+Um valor de texto que representa uma cadeia de caracteres será necessário se esse elemento for usado.
   
 ## <a name="remarks"></a>Comentários
 
-O elemento **FileAs** é usado para classificar os contatos e listas de distribuição por um nome que não seja um nome completo ou empresa. 
+O elemento **FileAs** é usado para classificar contatos e listas de distribuição por um nome diferente de um nome completo ou nome da empresa. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

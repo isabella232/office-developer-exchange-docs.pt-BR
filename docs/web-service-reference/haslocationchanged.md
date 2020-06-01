@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5fd465b4-6070-4cd0-9ac3-ed9d2bfd5951
-description: O elemento HasLocationChanged Especifica se a propriedade location de uma reunião foi alterada.
-ms.openlocfilehash: dbb811b93149be0bb43fbb2f579a5086a396e401
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento HasLocationChanged especifica se a propriedade Location de uma reunião foi alterada.
+ms.openlocfilehash: 4f774adcf4a7666f40524931504f1172e15ba24d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823804"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462441"
 ---
 # <a name="haslocationchanged"></a>HasLocationChanged
 
-O elemento **HasLocationChanged** Especifica se a propriedade location de uma reunião foi alterada. 
+O elemento **HasLocationChanged** especifica se a propriedade Location de uma reunião foi alterada. 
   
 ```XML
 <HasLocationChanged> true | false </HasLocationChanged>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ChangeHighlights](changehighlights.md) <br/> |Especifica o que mudou entre duas versões de uma reunião mensagem de solicitação.  <br/> |
+|[ChangeHighlights](changehighlights.md) <br/> |Especifica o que mudou entre duas versões de uma mensagem de solicitação de reunião.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** para o elemento **HasLocationChanged** indica que a propriedade location de uma reunião foi alterado. Um valor **false** indica que a propriedade location de uma reunião não tiver sido alterado. 
+Um valor de texto **true** para o elemento **HasLocationChanged** indica que a propriedade Location de uma reunião foi alterada. Um valor **false** indica que a propriedade Location de uma reunião não foi alterada. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -52,16 +52,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

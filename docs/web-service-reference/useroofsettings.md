@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0a95ca63-660e-4cc0-82e4-3f74fb4ae21c
-description: O elemento UserOofSettings Especifica as configurações de fora do escritório (OOF).
-ms.openlocfilehash: a035fd89387ece632d83f5f72a564e4896bc6753
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UserOofSettings especifica as configurações de ausência temporária (OOF).
+ms.openlocfilehash: 417c3d5061a6229d41eb57f72e89f03213acf460
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837993"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461902"
 ---
 # <a name="useroofsettings"></a>UserOofSettings
 
-O elemento **UserOofSettings** Especifica as configurações de fora do escritório (OOF). 
+O elemento **UserOofSettings** especifica as configurações de ausência temporária (OOF). 
   
 [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
   
@@ -38,29 +38,29 @@ O elemento **UserOofSettings** Especifica as configurações de fora do escritó
 ```
 
  **UserOofSettings**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[OofState](oofstate.md) <br/> |Define o estado de ausência temporária do usuário.  <br/> |
-|[ExternalAudience](externalaudience.md) <br/> |Define ou contém um valor que determina a quem as mensagens de ausência temporária externas são enviadas.  <br/> |
-|[Duração (UserOofSettings)](duration-useroofsettings.md) <br/> |Especifica a duração em que o status de ausência temporária está ativado se o elemento [OofState](oofstate.md) for definido como **agendado**. Se o elemento [OofState](oofstate.md) for definido como **habilitado** ou **desabilitado**, o valor deste elemento será ignorado.  <br/> |
-|[InternalReply](internalreply.md) <br/> |Contém a resposta de ausência temporária enviada para outros usuários no domínio ou os domínios confiáveis do usuário.  <br/> |
-|[ExternalReply](externalreply.md) <br/> |Contém a resposta de ausência temporária enviada para endereços fora do domínio ou os domínios confiáveis do destinatário.  <br/> |
+|[ExternalAudience](externalaudience.md) <br/> |Define ou contém um valor que determina a quem mensagens externas OOF são enviadas.  <br/> |
+|[Duração (UserOofSettings)](duration-useroofsettings.md) <br/> |Especifica a duração para a qual o status de ausência temporária é habilitado se o elemento [OofState](oofstate.md) estiver definido como **agendado**. Se o elemento [OofState](oofstate.md) estiver definido como **Enabled** ou **Disabled**, o valor desse elemento será ignorado.  <br/> |
+|[InternalReply](internalreply.md) <br/> |Contém a resposta de ausência temporária enviada para outros usuários no domínio do usuário ou domínios confiáveis.  <br/> |
+|[ExternalReply](externalreply.md) <br/> |Contém a resposta de ausência temporária enviada para endereços fora do domínio do destinatário ou domínios confiáveis.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |Contém os argumentos usados para definir configurações de ausência temporária e mensagens de um usuário de caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/SetUserOofSettingsRequest` <br/> |
+|[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |Contém os argumentos usados para definir as configurações e mensagens de ausência temporária de um usuário de caixa de correio.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/SetUserOofSettingsRequest` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -68,19 +68,19 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação de SetUserOofSettings define o OoFState como **habilitada**, define a duração de ausência temporária para 10 dias e define as mensagens de ausência temporária internas e externas.
+O exemplo a seguir de uma solicitação SetUserOofSettings define o OoFState como **habilitado**, define a duração de OOF por 10 dias e define as mensagens externas e externa OOF.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -99,16 +99,16 @@ O exemplo a seguir de uma solicitação de SetUserOofSettings define o OoFState 
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação SetUserOofSettings](setuseroofsettings-operation.md)
 

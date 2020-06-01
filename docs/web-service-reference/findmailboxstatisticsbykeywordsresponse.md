@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: af1dd9bf-df47-473d-a2ce-ab9a01a37606
-description: O elemento FindMailboxStatisticsByKeywordsResponse Especifica a resposta a uma solicitação FindMailboxStatisticsByKeywords.
-ms.openlocfilehash: 43d3a9c4d5ca312f380fed65eb906543f25e5a1c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento FindMailboxStatisticsByKeywordsResponse especifica a resposta a uma solicitação FindMailboxStatisticsByKeywords.
+ms.openlocfilehash: a0595ec9ee0cedf5150852dc39eca50b598e15aa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752282"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460985"
 ---
 # <a name="findmailboxstatisticsbykeywordsresponse"></a>FindMailboxStatisticsByKeywordsResponse
 
-O elemento **FindMailboxStatisticsByKeywordsResponse** Especifica a resposta a uma solicitação **FindMailboxStatisticsByKeywords** . 
+O elemento **FindMailboxStatisticsByKeywordsResponse** especifica a resposta a uma solicitação **FindMailboxStatisticsByKeywords** . 
   
 ```XML
 <FindMailboxStatisticsByKeywordsResponse>
@@ -26,13 +26,13 @@ O elemento **FindMailboxStatisticsByKeywordsResponse** Especifica a resposta a u
 ```
 
  **FindMailboxStatisticsByKeywordsResponseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -42,22 +42,22 @@ Nenhum.
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nome do esquema  <br/> |Esquema de mensagem  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nome do esquema  <br/> |Esquema de mensagens  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

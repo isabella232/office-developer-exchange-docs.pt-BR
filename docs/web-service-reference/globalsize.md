@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 23c24437-8dab-4c86-888d-471d23af675a
-description: O elemento de GlobalSize contém o tamanho da conversa calculado a partir do tamanho de todos os itens de conversa, na caixa de correio.
-ms.openlocfilehash: 15424758be9bfaf3b1c467b2370ca04718ab87ce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GlobalSize contém o tamanho da conversa calculada a partir do tamanho de todos os itens de conversa na caixa de correio.
+ms.openlocfilehash: d23ab080dadb006cd5eff9d712d081fe7d94a2a8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823738"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462448"
 ---
 # <a name="globalsize"></a>GlobalSize
 
-O elemento de **GlobalSize** contém o tamanho da conversa calculado a partir do tamanho de todos os itens de conversa, na caixa de correio. 
+O elemento **GlobalSize** contém o tamanho da conversa calculada a partir do tamanho de todos os itens de conversa na caixa de correio. 
   
 [FindConversationResponse](findconversationresponse.md)
   
 [Conversas](conversations-ex15websvcsotherref.md)
   
-[Conversa (ConversationType)](conversation-conversationtype.md)
+[Conversa (Conversatype)](conversation-conversationtype.md)
   
 [GlobalSize](globalsize.md)
   
@@ -35,14 +35,14 @@ O elemento de **GlobalSize** contém o tamanho da conversa calculado a partir do
 <GlobalSize/>
 ```
 
- **xs:int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **xs: int**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,26 +52,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **GlobalSize** é o tamanho da conversa calculado a partir do tamanho de todos os itens de conversa, na caixa de correio. 
+O valor de texto do elemento **GlobalSize** é o tamanho da conversa calculada a partir do tamanho de todos os itens de conversa na caixa de correio. 
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -80,5 +80,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 [Operação ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversas no EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversas no EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

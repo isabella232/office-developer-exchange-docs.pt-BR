@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: b1f54673-578a-496b-99f5-0fde2c669278
-description: O elemento de erro representa um erro de validação única em um valor da propriedade regra específica, o valor da propriedade predicado ou o valor da propriedade action.
-ms.openlocfilehash: adb2de56b7610aa92b5bf5b8d43ac22f35021b64
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento error representa um único erro de validação em um valor de propriedade de regra específico, valor da propriedade Predicate ou valor da propriedade Action.
+ms.openlocfilehash: 9c28f63aa79446d89152868c81c85ffa7b3a8b39
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752089"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460677"
 ---
 # <a name="error"></a>Erro
 
-O elemento de **erro** representa um erro de validação única em um valor da propriedade regra específica, o valor da propriedade predicado ou o valor da propriedade action. 
+O elemento **Error** representa um único erro de validação em um valor de propriedade de regra específico, valor da propriedade Predicate ou valor da propriedade Action. 
   
 ```XML
 <Error>
@@ -33,21 +33,21 @@ O elemento de **erro** representa um erro de validação única em um valor da p
 ```
 
  **RuleValidationErrorType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[FieldUri (regra)](fielduri-rule.md) <br/> |Especifica o URI para o campo de regra que causou o erro de validação.  <br/> |
-|[ErrorCode](errorcode.md) <br/> |Representa um código de erro de validação de regra que descreve o que falha na validação para cada predicado regra ou ação.  <br/> |
-|[ErrorMessage](errormessage.md) <br/> |Representa o motivo para o erro de validação.  <br/> |
+|[ErrorCode](errorcode.md) <br/> |Representa um código de erro de validação de regra que descreve o que a validação falhou para cada predicado de regra ou ação.  <br/> |
+|[ErrorMessage](errormessage.md) <br/> |Representa o motivo do erro de validação.  <br/> |
 |[FieldValue](fieldvalue.md) <br/> |Representa o valor do campo que causou o erro de validação.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
@@ -56,7 +56,7 @@ Nenhum.
 |:-----|:-----|
 |[ValidationErrors](validationerrors.md) <br/> |Representa uma matriz de erros de validação de regra em cada campo de regra que possui um erro.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -64,16 +64,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 
