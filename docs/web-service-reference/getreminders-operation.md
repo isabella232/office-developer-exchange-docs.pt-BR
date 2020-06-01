@@ -1,5 +1,5 @@
 ---
-title: Operação GetReminders
+title: Operação getlembretes
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,58 +7,58 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1b56f83f-3b87-4b55-8259-fde6692da681
-description: Encontre informações sobre o EWS GetReminders operação.
-ms.openlocfilehash: 803dabf51b94dbd8fb01f2709a42ff59a597bfd1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações sobre a operação do EWS de getlembretes.
+ms.openlocfilehash: dcbe20c674d7524a7776d374fa6964899abf472f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752611"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458303"
 ---
-# <a name="getreminders-operation"></a><span data-ttu-id="9df31-103">Operação GetReminders</span><span class="sxs-lookup"><span data-stu-id="9df31-103">GetReminders operation</span></span>
+# <a name="getreminders-operation"></a><span data-ttu-id="dc2f6-103">Operação getlembretes</span><span class="sxs-lookup"><span data-stu-id="dc2f6-103">GetReminders operation</span></span>
 
-<span data-ttu-id="9df31-104">Encontre informações sobre a operação de EWS **GetReminders** .</span><span class="sxs-lookup"><span data-stu-id="9df31-104">Find information about the **GetReminders** EWS operation.</span></span> 
+<span data-ttu-id="dc2f6-104">Encontre informações sobre a operação do EWS de **Getlembretes** .</span><span class="sxs-lookup"><span data-stu-id="dc2f6-104">Find information about the **GetReminders** EWS operation.</span></span> 
   
-<span data-ttu-id="9df31-105">A operação de serviços Web do Exchange (EWS) **GetReminders** recupera lembretes para itens de calendário e tarefas.</span><span class="sxs-lookup"><span data-stu-id="9df31-105">The **GetReminders** Exchange Web Services (EWS) operation retrieves reminders for calendar and task items.</span></span> 
+<span data-ttu-id="dc2f6-105">A operação dos serviços Web do Exchange (EWS) do **Getlembretes** recupera lembretes para itens de calendário e tarefa.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-105">The **GetReminders** Exchange Web Services (EWS) operation retrieves reminders for calendar and task items.</span></span> 
   
-<span data-ttu-id="9df31-106">This operation was introduced in Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9df31-106">This operation was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="dc2f6-106">This operation was introduced in Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-106">This operation was introduced in Exchange Server 2013.</span></span>
   
-## <a name="using-the-getreminders-operation"></a><span data-ttu-id="9df31-107">Usando a operação GetReminders</span><span class="sxs-lookup"><span data-stu-id="9df31-107">Using the GetReminders operation</span></span>
+## <a name="using-the-getreminders-operation"></a><span data-ttu-id="dc2f6-107">Usando a operação getlembretes</span><span class="sxs-lookup"><span data-stu-id="dc2f6-107">Using the GetReminders operation</span></span>
 
-<span data-ttu-id="9df31-108">A operação **GetReminders** obtém lembretes de calendário atual e futuro e itens de tarefa na caixa de correio do usuário, dependendo dos valores do elemento passado na solicitação.</span><span class="sxs-lookup"><span data-stu-id="9df31-108">The **GetReminders** operation gets reminders for current and future calendar and task items in the user's mailbox, depending on the element values passed in the request.</span></span> <span data-ttu-id="9df31-109">A operação pode recuperar todos os itens de calendário atuais e futuros, bem como tarefas que possuem um lembrete definido.</span><span class="sxs-lookup"><span data-stu-id="9df31-109">The operation can retrieve all current and future calendar items as well as tasks that have a reminder set.</span></span> <span data-ttu-id="9df31-110">Itens de calendário particular são incluídos nas respostas.</span><span class="sxs-lookup"><span data-stu-id="9df31-110">Private calendar items are included in responses.</span></span> <span data-ttu-id="9df31-111">Tarefas sem lembretes não são incluídas nas respostas, nem são emails com lembretes ou sinalizadores de acompanhamento.</span><span class="sxs-lookup"><span data-stu-id="9df31-111">Tasks without reminders are not included in responses, nor are emails with reminders or follow up flags.</span></span> 
+<span data-ttu-id="dc2f6-108">A operação **Getlembretes** Obtém lembretes para os itens de calendário e de tarefa atuais e futuros na caixa de correio do usuário, dependendo dos valores de elemento passados na solicitação.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-108">The **GetReminders** operation gets reminders for current and future calendar and task items in the user's mailbox, depending on the element values passed in the request.</span></span> <span data-ttu-id="dc2f6-109">A operação pode recuperar todos os itens de calendário atuais e futuros, bem como tarefas que tenham um lembrete definido.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-109">The operation can retrieve all current and future calendar items as well as tasks that have a reminder set.</span></span> <span data-ttu-id="dc2f6-110">Os itens de calendário privado estão incluídos nas respostas.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-110">Private calendar items are included in responses.</span></span> <span data-ttu-id="dc2f6-111">Tarefas sem lembretes não estão incluídas em respostas, nem emails com lembretes ou sinalizadores de acompanhamento.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-111">Tasks without reminders are not included in responses, nor are emails with reminders or follow up flags.</span></span> 
   
-<span data-ttu-id="9df31-112">Para recuperar todos os lembretes atuais, recomendamos a configuração do [ReminderType](remindertype.md) para **todos** e o [EndTime](endtime-remindermessagedatatype.md) para a hora atual.</span><span class="sxs-lookup"><span data-stu-id="9df31-112">To retrieve all current reminders, we recommend setting the [ReminderType](remindertype.md) to **All** and the [EndTime](endtime-remindermessagedatatype.md) to the current time.</span></span> 
+<span data-ttu-id="dc2f6-112">Para recuperar todos os lembretes atuais, recomendamos definir o [lembrete](remindertype.md) como **todos** e a [EndTime](endtime-remindermessagedatatype.md) como a hora atual.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-112">To retrieve all current reminders, we recommend setting the [ReminderType](remindertype.md) to **All** and the [EndTime](endtime-remindermessagedatatype.md) to the current time.</span></span> 
   
-<span data-ttu-id="9df31-113">Se os elementos [BeginTime](begintime.md) e **EndTime** estão incluídos na solicitação, a resposta inclui os lembretes para qualquer calendário e itens de tarefa que ocorrem entre tiverem um lembrete que ocorre entre o **BeginTime** e **EndTime**.</span><span class="sxs-lookup"><span data-stu-id="9df31-113">If the [BeginTime](begintime.md) and **EndTime** elements are included in the request, the response includes reminders for any calendar and task items that occur between have a reminder that occurs between the **BeginTime** and **EndTime**.</span></span>
+<span data-ttu-id="dc2f6-113">Se os elementos [BeginTime](begintime.md) e **EndTime** forem incluídos na solicitação, a resposta inclui lembretes para qualquer calendário e itens de tarefa que ocorrem entre ter um lembrete que ocorre entre o **BeginTime** e a **EndTime**.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-113">If the [BeginTime](begintime.md) and **EndTime** elements are included in the request, the response includes reminders for any calendar and task items that occur between have a reminder that occurs between the **BeginTime** and **EndTime**.</span></span>
   
-<span data-ttu-id="9df31-114">A tabela a seguir descreve o comportamento do elemento **ReminderType** quando os elementos **BeginTime** e **EndTime** são incluídos.</span><span class="sxs-lookup"><span data-stu-id="9df31-114">The following table describes the behavior of the **ReminderType** element when the **BeginTime** and **EndTime** elements are included.</span></span> 
+<span data-ttu-id="dc2f6-114">A tabela a seguir descreve o comportamento do elemento **Remindertype** quando os elementos **BeginTime** e **EndTime** são incluídos.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-114">The following table describes the behavior of the **ReminderType** element when the **BeginTime** and **EndTime** elements are included.</span></span> 
   
-|<span data-ttu-id="9df31-115">ReminderType * * elemento valor * *</span><span class="sxs-lookup"><span data-stu-id="9df31-115">****ReminderType** element value**</span></span>|<span data-ttu-id="9df31-116">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="9df31-116">**Description**</span></span>|
+|<span data-ttu-id="dc2f6-115">Lembrete \* \* valor do elemento \* \*</span><span class="sxs-lookup"><span data-stu-id="dc2f6-115">\*\*\*\*ReminderType\*\* element value\*\*</span></span>|<span data-ttu-id="dc2f6-116">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="dc2f6-116">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="9df31-117">Todos</span><span class="sxs-lookup"><span data-stu-id="9df31-117">All</span></span>  <br/> |<span data-ttu-id="9df31-118">Lembretes que ocorrem entre o **BeginTime** e **EndTime**.</span><span class="sxs-lookup"><span data-stu-id="9df31-118">Reminders that occur between the **BeginTime** and **EndTime**.</span></span>  <br/> |
-|<span data-ttu-id="9df31-119">Atual</span><span class="sxs-lookup"><span data-stu-id="9df31-119">Current</span></span>  <br/> |<span data-ttu-id="9df31-120">Lembretes retornados por **todos**, além de lembretes mais antigos que a janela de tempo solicitado se o evento for ainda em andamento, além de todos os compromissos, independentemente da idade.</span><span class="sxs-lookup"><span data-stu-id="9df31-120">Reminders returned by **All**, plus reminders that are earlier than the requested time window if the event is still ongoing, plus all appointments regardless of age.</span></span>  <br/> |
-|<span data-ttu-id="9df31-121">Antigo</span><span class="sxs-lookup"><span data-stu-id="9df31-121">Old</span></span>  <br/> |<span data-ttu-id="9df31-122">Retornado por **todos**, menos os eventos que não tenham sido concluídas ainda, menos todos os compromissos de lembretes.</span><span class="sxs-lookup"><span data-stu-id="9df31-122">Reminders returned by **All**, minus events that haven't completed yet, minus all appointments.</span></span> <span data-ttu-id="9df31-123">Os elementos **BeginTime** e **EndTime** devem ser definidos para usar o valor **antigo** .</span><span class="sxs-lookup"><span data-stu-id="9df31-123">The **BeginTime** and **EndTime** elements must be set to use the **Old** value.</span></span>  <br/> |
+|<span data-ttu-id="dc2f6-117">Todos</span><span class="sxs-lookup"><span data-stu-id="dc2f6-117">All</span></span>  <br/> |<span data-ttu-id="dc2f6-118">Lembretes que ocorrem entre **BeginTime** e **EndTime**.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-118">Reminders that occur between the **BeginTime** and **EndTime**.</span></span>  <br/> |
+|<span data-ttu-id="dc2f6-119">Atual</span><span class="sxs-lookup"><span data-stu-id="dc2f6-119">Current</span></span>  <br/> |<span data-ttu-id="dc2f6-120">Lembretes retornados por **todos**, além de lembretes anteriores à janela de tempo solicitada, se o evento ainda estiver em andamento, além de todos os compromissos, independentemente da idade.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-120">Reminders returned by **All**, plus reminders that are earlier than the requested time window if the event is still ongoing, plus all appointments regardless of age.</span></span>  <br/> |
+|<span data-ttu-id="dc2f6-121">Antigo</span><span class="sxs-lookup"><span data-stu-id="dc2f6-121">Old</span></span>  <br/> |<span data-ttu-id="dc2f6-122">Lembretes retornados por **todos**, menos eventos que ainda não foram concluídos, menos todos os compromissos.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-122">Reminders returned by **All**, minus events that haven't completed yet, minus all appointments.</span></span> <span data-ttu-id="dc2f6-123">Os elementos **BeginTime** e **EndTime** devem ser definidos para usar o valor **antigo** .</span><span class="sxs-lookup"><span data-stu-id="dc2f6-123">The **BeginTime** and **EndTime** elements must be set to use the **Old** value.</span></span>  <br/> |
    
-### <a name="getreminders-operation-soap-headers"></a><span data-ttu-id="9df31-124">Cabeçalhos SOAP GetReminders operação</span><span class="sxs-lookup"><span data-stu-id="9df31-124">GetReminders operation SOAP headers</span></span>
+### <a name="getreminders-operation-soap-headers"></a><span data-ttu-id="dc2f6-124">Cabeçalhos SOAP de operação de islembretes</span><span class="sxs-lookup"><span data-stu-id="dc2f6-124">GetReminders operation SOAP headers</span></span>
 
-<span data-ttu-id="9df31-125">A operação **GetReminders** pode usar os cabeçalhos SOAP que estão listados na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="9df31-125">The **GetReminders** operation can use the SOAP headers that are listed in the following table.</span></span> 
+<span data-ttu-id="dc2f6-125">A operação **Getlembretes** pode usar os cabeçalhos SOAP listados na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-125">The **GetReminders** operation can use the SOAP headers that are listed in the following table.</span></span> 
   
-|<span data-ttu-id="9df31-126">**Nome de cabeçalho**</span><span class="sxs-lookup"><span data-stu-id="9df31-126">**Header name**</span></span>|<span data-ttu-id="9df31-127">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="9df31-127">**Element**</span></span>|<span data-ttu-id="9df31-128">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="9df31-128">**Description**</span></span>|
+|<span data-ttu-id="dc2f6-126">**Nome de cabeçalho**</span><span class="sxs-lookup"><span data-stu-id="dc2f6-126">**Header name**</span></span>|<span data-ttu-id="dc2f6-127">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="dc2f6-127">**Element**</span></span>|<span data-ttu-id="dc2f6-128">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="dc2f6-128">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="9df31-129">**Representação**</span><span class="sxs-lookup"><span data-stu-id="9df31-129">**Impersonation**</span></span> <br/> |[<span data-ttu-id="9df31-130">ExchangeImpersonation</span><span class="sxs-lookup"><span data-stu-id="9df31-130">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="9df31-131">Identifica o usuário que o aplicativo cliente está representando.</span><span class="sxs-lookup"><span data-stu-id="9df31-131">Identifies the user whom the client application is impersonating.</span></span> <span data-ttu-id="9df31-132">Este cabeçalho é aplicável a uma solicitação.</span><span class="sxs-lookup"><span data-stu-id="9df31-132">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="9df31-133">**MailboxCulture**</span><span class="sxs-lookup"><span data-stu-id="9df31-133">**MailboxCulture**</span></span> <br/> |[<span data-ttu-id="9df31-134">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="9df31-134">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="9df31-135">Identifica a cultura, conforme definido no RFC 3066, "Marcas para a identificação de idiomas", que será usada para acessar a caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="9df31-135">Identifies the culture, as defined in RFC 3066, "Tags for the Identification of Languages", to be used to access the mailbox.</span></span> <span data-ttu-id="9df31-136">Este cabeçalho é aplicável a uma solicitação.</span><span class="sxs-lookup"><span data-stu-id="9df31-136">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="9df31-137">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="9df31-137">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="9df31-138">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="9df31-138">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="9df31-139">Identifica a versão do esquema para a solicitação de operação.</span><span class="sxs-lookup"><span data-stu-id="9df31-139">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="9df31-140">Este cabeçalho é aplicável a uma solicitação.</span><span class="sxs-lookup"><span data-stu-id="9df31-140">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="9df31-141">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="9df31-141">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="9df31-142">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="9df31-142">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="9df31-143">Identifica a versão do servidor que respondeu à solicitação.</span><span class="sxs-lookup"><span data-stu-id="9df31-143">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="9df31-144">Este cabeçalho é aplicável a uma resposta.</span><span class="sxs-lookup"><span data-stu-id="9df31-144">This header is applicable to a response.</span></span>  <br/> |
+|<span data-ttu-id="dc2f6-129">**Representação**</span><span class="sxs-lookup"><span data-stu-id="dc2f6-129">**Impersonation**</span></span> <br/> |[<span data-ttu-id="dc2f6-130">ExchangeImpersonation</span><span class="sxs-lookup"><span data-stu-id="dc2f6-130">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="dc2f6-131">Identifica o usuário que o aplicativo cliente está representando.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-131">Identifies the user whom the client application is impersonating.</span></span> <span data-ttu-id="dc2f6-132">Este cabeçalho é aplicável a uma solicitação.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-132">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="dc2f6-133">**MailboxCulture**</span><span class="sxs-lookup"><span data-stu-id="dc2f6-133">**MailboxCulture**</span></span> <br/> |[<span data-ttu-id="dc2f6-134">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="dc2f6-134">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="dc2f6-135">Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-135">Identifies the culture, as defined in RFC 3066, "Tags for the Identification of Languages", to be used to access the mailbox.</span></span> <span data-ttu-id="dc2f6-136">Este cabeçalho é aplicável a uma solicitação.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-136">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="dc2f6-137">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="dc2f6-137">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="dc2f6-138">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="dc2f6-138">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="dc2f6-139">Identifica a versão do esquema para a solicitação de operação.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-139">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="dc2f6-140">Este cabeçalho é aplicável a uma solicitação.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-140">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="dc2f6-141">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="dc2f6-141">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="dc2f6-142">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="dc2f6-142">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="dc2f6-143">Identifica a versão do servidor que respondeu à solicitação.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-143">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="dc2f6-144">Este cabeçalho é aplicável a uma resposta.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-144">This header is applicable to a response.</span></span>  <br/> |
    
-## <a name="getreminders-operation-request-example"></a><span data-ttu-id="9df31-145">Exemplo de solicitação de operação GetReminders</span><span class="sxs-lookup"><span data-stu-id="9df31-145">GetReminders operation request example</span></span>
+## <a name="getreminders-operation-request-example"></a><span data-ttu-id="dc2f6-145">Exemplo de solicitação de operação getlembretes</span><span class="sxs-lookup"><span data-stu-id="dc2f6-145">GetReminders operation request example</span></span>
 
-<span data-ttu-id="9df31-146">O exemplo a seguir de uma solicitação de operação **GetReminders** mostra como recuperar os itens de calendário de cinco primeiro que ocorrem entre o **BeginTime** e **EndTime**.</span><span class="sxs-lookup"><span data-stu-id="9df31-146">The following example of a **GetReminders** operation request shows how to retrieve the first five calendar items that occur between the **BeginTime** and **EndTime**.</span></span>
+<span data-ttu-id="dc2f6-146">O exemplo a seguir de uma solicitação de operação **Getlembretes** mostra como recuperar os cinco primeiros itens de calendário que ocorrem entre o **BeginTime** e a **EndTime**.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-146">The following example of a **GetReminders** operation request shows how to retrieve the first five calendar items that occur between the **BeginTime** and **EndTime**.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
@@ -72,26 +72,26 @@ ms.locfileid: "19752611"
 </soap:Envelope>
 ```
 
-<span data-ttu-id="9df31-147">O exemplo de solicitação SOAP body contém os seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="9df31-147">The example request SOAP body contains the following elements:</span></span>
+<span data-ttu-id="dc2f6-147">O corpo SOAP de solicitação de exemplo contém os seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="dc2f6-147">The example request SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="9df31-148">GetReminders</span><span class="sxs-lookup"><span data-stu-id="9df31-148">GetReminders</span></span>](getreminders.md)
+- [<span data-ttu-id="dc2f6-148">Getlembretes</span><span class="sxs-lookup"><span data-stu-id="dc2f6-148">GetReminders</span></span>](getreminders.md)
     
-- [<span data-ttu-id="9df31-149">EndTime</span><span class="sxs-lookup"><span data-stu-id="9df31-149">EndTime</span></span>](endtime-remindermessagedatatype.md)
+- [<span data-ttu-id="dc2f6-149">EndTime</span><span class="sxs-lookup"><span data-stu-id="dc2f6-149">EndTime</span></span>](endtime-remindermessagedatatype.md)
     
-- [<span data-ttu-id="9df31-150">ReminderType</span><span class="sxs-lookup"><span data-stu-id="9df31-150">ReminderType</span></span>](remindertype.md)
+- [<span data-ttu-id="dc2f6-150">Remindertype</span><span class="sxs-lookup"><span data-stu-id="dc2f6-150">ReminderType</span></span>](remindertype.md)
     
-<span data-ttu-id="9df31-151">O corpo SOAP também pode conter os seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="9df31-151">The SOAP body can also contain the following elements:</span></span>
+<span data-ttu-id="dc2f6-151">O corpo SOAP também pode conter os seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="dc2f6-151">The SOAP body can also contain the following elements:</span></span>
   
-- [<span data-ttu-id="9df31-152">BeginTime</span><span class="sxs-lookup"><span data-stu-id="9df31-152">BeginTime</span></span>](begintime.md)
+- [<span data-ttu-id="dc2f6-152">BeginTime</span><span class="sxs-lookup"><span data-stu-id="dc2f6-152">BeginTime</span></span>](begintime.md)
     
-- [<span data-ttu-id="9df31-153">MaxItems</span><span class="sxs-lookup"><span data-stu-id="9df31-153">MaxItems</span></span>](maxitems.md)
+- [<span data-ttu-id="dc2f6-153">MaxItems</span><span class="sxs-lookup"><span data-stu-id="dc2f6-153">MaxItems</span></span>](maxitems.md)
     
-## <a name="successful-getreminders-operation-response"></a><span data-ttu-id="9df31-154">Resposta de operação GetReminders bem-sucedida</span><span class="sxs-lookup"><span data-stu-id="9df31-154">Successful GetReminders operation response</span></span>
+## <a name="successful-getreminders-operation-response"></a><span data-ttu-id="dc2f6-154">Resposta de operação de getlembretes bem-sucedida</span><span class="sxs-lookup"><span data-stu-id="dc2f6-154">Successful GetReminders operation response</span></span>
 
-<span data-ttu-id="9df31-155">O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetReminders** .</span><span class="sxs-lookup"><span data-stu-id="9df31-155">The following example shows a successful response to a **GetReminders** operation request.</span></span> <span data-ttu-id="9df31-156">A resposta conterá um lembrete para o item de calendário "Reunião da equipe" e um lembrete para a tarefa "Tarefa para enviar anotações da reunião".</span><span class="sxs-lookup"><span data-stu-id="9df31-156">The response contains a reminder for the "Team meeting" calendar item and a reminder for the "Task to send meeting notes" task.</span></span> 
+<span data-ttu-id="dc2f6-155">O exemplo a seguir mostra uma resposta bem-sucedida para uma solicitação de operação **Getlembretes** .</span><span class="sxs-lookup"><span data-stu-id="dc2f6-155">The following example shows a successful response to a **GetReminders** operation request.</span></span> <span data-ttu-id="dc2f6-156">A resposta contém um lembrete para o item de calendário "reunião de equipe" e um lembrete para a tarefa "tarefa de envio de anotações da reunião".</span><span class="sxs-lookup"><span data-stu-id="dc2f6-156">The response contains a reminder for the "Team meeting" calendar item and a reminder for the "Task to send meeting notes" task.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="9df31-157">Identificadores foram diminuídos para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="9df31-157">Identifiers have been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="dc2f6-157">Os identificadores foram reduzidos para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-157">Identifiers have been shortened to preserve readability.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -102,18 +102,18 @@ ms.locfileid: "19752611"
                        MajorBuildNumber="918"
                        MinorBuildNumber="7"
                        Version="V2_10"
-                       xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetRemindersResponse ResponseClass="Success"
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <Reminders>
-        <Reminder xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Reminder xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Subject>Team meeting</Subject>
           <Location />
           <ReminderTime>2014-04-15T21:00:00Z</ReminderTime>
@@ -125,7 +125,7 @@ ms.locfileid: "19752611"
           <ReminderGroup>Calendar</ReminderGroup>
           <UID>6CF2FA62</UID>
         </Reminder>
-        <Reminder xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Reminder xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Subject>Task to send meeting notes</Subject>
           <Location />
           <ReminderTime>2014-04-16T14:00:00Z</ReminderTime>
@@ -142,35 +142,35 @@ ms.locfileid: "19752611"
 </s:Envelope>
 ```
 
-<span data-ttu-id="9df31-158">A resposta SOAP body contém os seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="9df31-158">The response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="dc2f6-158">O corpo SOAP de resposta contém os seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="dc2f6-158">The response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="9df31-159">GetRemindersResponse</span><span class="sxs-lookup"><span data-stu-id="9df31-159">GetRemindersResponse</span></span>](getremindersresponse.md)
+- [<span data-ttu-id="dc2f6-159">GetRemindersResponse</span><span class="sxs-lookup"><span data-stu-id="dc2f6-159">GetRemindersResponse</span></span>](getremindersresponse.md)
     
-- [<span data-ttu-id="9df31-160">Reminders</span><span class="sxs-lookup"><span data-stu-id="9df31-160">Reminders</span></span>](reminders.md)
+- [<span data-ttu-id="dc2f6-160">Lembretes</span><span class="sxs-lookup"><span data-stu-id="dc2f6-160">Reminders</span></span>](reminders.md)
     
-- [<span data-ttu-id="9df31-161">Lembrete</span><span class="sxs-lookup"><span data-stu-id="9df31-161">Reminder</span></span>](reminder.md)
+- [<span data-ttu-id="dc2f6-161">Lembrete</span><span class="sxs-lookup"><span data-stu-id="dc2f6-161">Reminder</span></span>](reminder.md)
     
-- [<span data-ttu-id="9df31-162">Assunto</span><span class="sxs-lookup"><span data-stu-id="9df31-162">Subject</span></span>](subject.md)
+- [<span data-ttu-id="dc2f6-162">Assunto</span><span class="sxs-lookup"><span data-stu-id="dc2f6-162">Subject</span></span>](subject.md)
     
-- [<span data-ttu-id="9df31-163">Location</span><span class="sxs-lookup"><span data-stu-id="9df31-163">Location</span></span>](location-remindermessagedatatype.md)
+- [<span data-ttu-id="dc2f6-163">Localização</span><span class="sxs-lookup"><span data-stu-id="dc2f6-163">Location</span></span>](location-remindermessagedatatype.md)
     
-- [<span data-ttu-id="9df31-164">ReminderTime</span><span class="sxs-lookup"><span data-stu-id="9df31-164">ReminderTime</span></span>](remindertime.md)
+- [<span data-ttu-id="dc2f6-164">ReminderTime</span><span class="sxs-lookup"><span data-stu-id="dc2f6-164">ReminderTime</span></span>](remindertime.md)
     
-- [<span data-ttu-id="9df31-165">StartDate</span><span class="sxs-lookup"><span data-stu-id="9df31-165">StartDate</span></span>](startdate.md)
+- [<span data-ttu-id="dc2f6-165">StartDate</span><span class="sxs-lookup"><span data-stu-id="dc2f6-165">StartDate</span></span>](startdate.md)
     
-- [<span data-ttu-id="9df31-166">EndDate</span><span class="sxs-lookup"><span data-stu-id="9df31-166">EndDate</span></span>](enddate-remindertype.md)
+- [<span data-ttu-id="dc2f6-166">EndDate</span><span class="sxs-lookup"><span data-stu-id="dc2f6-166">EndDate</span></span>](enddate-remindertype.md)
     
-- [<span data-ttu-id="9df31-167">ItemId</span><span class="sxs-lookup"><span data-stu-id="9df31-167">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="dc2f6-167">ItemId</span><span class="sxs-lookup"><span data-stu-id="dc2f6-167">ItemId</span></span>](itemid.md)
     
-- [<span data-ttu-id="9df31-168">RecurringMasterItemId</span><span class="sxs-lookup"><span data-stu-id="9df31-168">RecurringMasterItemId</span></span>](recurringmasteritemid.md)
+- [<span data-ttu-id="dc2f6-168">RecurringMasterItemId</span><span class="sxs-lookup"><span data-stu-id="dc2f6-168">RecurringMasterItemId</span></span>](recurringmasteritemid.md)
     
-- [<span data-ttu-id="9df31-169">ReminderGroup</span><span class="sxs-lookup"><span data-stu-id="9df31-169">ReminderGroup</span></span>](remindergroup.md)
+- [<span data-ttu-id="dc2f6-169">Um dos lembretes</span><span class="sxs-lookup"><span data-stu-id="dc2f6-169">ReminderGroup</span></span>](remindergroup.md)
     
-- [<span data-ttu-id="9df31-170">UID</span><span class="sxs-lookup"><span data-stu-id="9df31-170">UID</span></span>](uid-remindertype.md)
+- [<span data-ttu-id="dc2f6-170">UID</span><span class="sxs-lookup"><span data-stu-id="dc2f6-170">UID</span></span>](uid-remindertype.md)
     
-## <a name="getreminders-operation-error-response-example"></a><span data-ttu-id="9df31-171">Exemplo de resposta de erro de operação GetReminders</span><span class="sxs-lookup"><span data-stu-id="9df31-171">GetReminders operation error response example</span></span>
+## <a name="getreminders-operation-error-response-example"></a><span data-ttu-id="dc2f6-171">Exemplo de resposta de erro de operação de lembretes</span><span class="sxs-lookup"><span data-stu-id="dc2f6-171">GetReminders operation error response example</span></span>
 
-<span data-ttu-id="9df31-172">O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetReminders** .</span><span class="sxs-lookup"><span data-stu-id="9df31-172">The following example shows an error response to a **GetReminders** operation request.</span></span> <span data-ttu-id="9df31-173">Esta é uma resposta a uma solicitação em que a data final foi anterior à data de início.</span><span class="sxs-lookup"><span data-stu-id="9df31-173">This is a response to a request in which the end date was earlier than the start date.</span></span> 
+<span data-ttu-id="dc2f6-172">O exemplo a seguir mostra uma resposta de erro para uma solicitação de operação **Getlembretes** .</span><span class="sxs-lookup"><span data-stu-id="dc2f6-172">The following example shows an error response to a **GetReminders** operation request.</span></span> <span data-ttu-id="dc2f6-173">Esta é uma resposta a uma solicitação na qual a data de término era anterior à data de início.</span><span class="sxs-lookup"><span data-stu-id="dc2f6-173">This is a response to a request in which the end date was earlier than the start date.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -181,15 +181,15 @@ ms.locfileid: "19752611"
                        MajorBuildNumber="918"
                        MinorBuildNumber="7"
                        Version="V2_10"
-                       xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetRemindersResponse ResponseClass="Error"
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <MessageText>EndDate is earlier than StartDate</MessageText>
       <ResponseCode>ErrorInvalidOperation</ResponseCode>
       <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -198,21 +198,21 @@ ms.locfileid: "19752611"
 </s:Envelope>
 ```
 
-<span data-ttu-id="9df31-174">A resposta de erro corpo SOAP contém os seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="9df31-174">The error response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="dc2f6-174">O corpo SOAP de resposta de erro contém os seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="dc2f6-174">The error response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="9df31-175">GetRemindersResponse</span><span class="sxs-lookup"><span data-stu-id="9df31-175">GetRemindersResponse</span></span>](getremindersresponse.md)
+- [<span data-ttu-id="dc2f6-175">GetRemindersResponse</span><span class="sxs-lookup"><span data-stu-id="dc2f6-175">GetRemindersResponse</span></span>](getremindersresponse.md)
     
-- [<span data-ttu-id="9df31-176">MessageText</span><span class="sxs-lookup"><span data-stu-id="9df31-176">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="dc2f6-176">MessageText</span><span class="sxs-lookup"><span data-stu-id="dc2f6-176">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="9df31-177">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="9df31-177">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="dc2f6-177">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="dc2f6-177">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="9df31-178">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="9df31-178">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="dc2f6-178">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="dc2f6-178">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-<span data-ttu-id="9df31-179">Para códigos de erro adicionais que são genérica do EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="9df31-179">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
+<span data-ttu-id="dc2f6-179">Para obter códigos de erro adicionais genéricos para o EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="dc2f6-179">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="9df31-180">Confira também</span><span class="sxs-lookup"><span data-stu-id="9df31-180">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dc2f6-180">Também consulte</span><span class="sxs-lookup"><span data-stu-id="dc2f6-180">See also</span></span>
 
 
-- [<span data-ttu-id="9df31-181">PerformReminderAction</span><span class="sxs-lookup"><span data-stu-id="9df31-181">PerformReminderAction</span></span>](performreminderaction.md)
+- [<span data-ttu-id="dc2f6-181">PerformReminderAction</span><span class="sxs-lookup"><span data-stu-id="dc2f6-181">PerformReminderAction</span></span>](performreminderaction.md)
     
 

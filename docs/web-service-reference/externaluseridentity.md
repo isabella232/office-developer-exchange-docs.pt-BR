@@ -11,61 +11,61 @@ api_name:
 api_type:
 - schema
 ms.assetid: f2bc0a61-7c50-4b36-828e-358dfc5b9ae1
-description: O elemento ExternalUserIdentity identifica um usuário delegado externo ou um usuário externo que tem permissões de acesso de pasta.
-ms.openlocfilehash: 08ca4500ba610150e9e673f1b63823dabf70d9ff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ExternalUserIdentity identifica um usuário delegado externo ou um usuário externo que tenha permissões de acesso de pasta.
+ms.openlocfilehash: b4432b29278b693b21e455a5245be0d96496ffe5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752224"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457946"
 ---
-# <a name="externaluseridentity"></a><span data-ttu-id="4179e-103">ExternalUserIdentity</span><span class="sxs-lookup"><span data-stu-id="4179e-103">ExternalUserIdentity</span></span>
+# <a name="externaluseridentity"></a><span data-ttu-id="50106-103">ExternalUserIdentity</span><span class="sxs-lookup"><span data-stu-id="50106-103">ExternalUserIdentity</span></span>
 
-<span data-ttu-id="4179e-104">O elemento **ExternalUserIdentity** identifica um usuário delegado externo ou um usuário externo que tem permissões de acesso de pasta.</span><span class="sxs-lookup"><span data-stu-id="4179e-104">The **ExternalUserIdentity** element identifies an external delegate user or an external user who has folder access permissions.</span></span> 
+<span data-ttu-id="50106-104">O elemento **ExternalUserIdentity** identifica um usuário delegado externo ou um usuário externo que tenha permissões de acesso de pasta.</span><span class="sxs-lookup"><span data-stu-id="50106-104">The **ExternalUserIdentity** element identifies an external delegate user or an external user who has folder access permissions.</span></span> 
   
 ```xml
 <ExternalUserIdentity/>
 ```
 
- <span data-ttu-id="4179e-105">**String**</span><span class="sxs-lookup"><span data-stu-id="4179e-105">**String**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="4179e-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="4179e-106">Attributes and elements</span></span>
+ <span data-ttu-id="50106-105">**String**</span><span class="sxs-lookup"><span data-stu-id="50106-105">**String**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="50106-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="50106-106">Attributes and elements</span></span>
 
-<span data-ttu-id="4179e-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="4179e-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="50106-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="50106-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="4179e-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="4179e-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="50106-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="50106-108">Attributes</span></span>
 
-<span data-ttu-id="4179e-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="4179e-109">None.</span></span>
+<span data-ttu-id="50106-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="50106-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="4179e-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="4179e-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="50106-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="50106-110">Child elements</span></span>
 
-<span data-ttu-id="4179e-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="4179e-111">None.</span></span>
+<span data-ttu-id="50106-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="50106-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="4179e-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="4179e-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="50106-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="50106-112">Parent elements</span></span>
 
-|<span data-ttu-id="4179e-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="4179e-113">**Element**</span></span>|<span data-ttu-id="4179e-114">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="4179e-114">**Description**</span></span>|
+|<span data-ttu-id="50106-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="50106-113">**Element**</span></span>|<span data-ttu-id="50106-114">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="50106-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="4179e-115">UserId</span><span class="sxs-lookup"><span data-stu-id="4179e-115">UserId</span></span>](userid.md) <br/> |<span data-ttu-id="4179e-116">Identifica um usuário delegado ou um usuário que tem permissões de acesso de pasta.</span><span class="sxs-lookup"><span data-stu-id="4179e-116">Identifies a delegate user or a user who has folder access permissions.</span></span>  <br/> |
+|[<span data-ttu-id="50106-115">UserId</span><span class="sxs-lookup"><span data-stu-id="50106-115">UserId</span></span>](userid.md) <br/> |<span data-ttu-id="50106-116">Identifica um usuário delegado ou um usuário com permissões de acesso à pasta.</span><span class="sxs-lookup"><span data-stu-id="50106-116">Identifies a delegate user or a user who has folder access permissions.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="4179e-117">Text value</span><span class="sxs-lookup"><span data-stu-id="4179e-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="50106-117">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="50106-117">Text value</span></span>
 
-<span data-ttu-id="4179e-118">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="4179e-118">None.</span></span>
+<span data-ttu-id="50106-118">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="50106-118">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="4179e-119">Comentários</span><span class="sxs-lookup"><span data-stu-id="4179e-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="50106-119">Comentários</span><span class="sxs-lookup"><span data-stu-id="50106-119">Remarks</span></span>
 
-<span data-ttu-id="4179e-120">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="4179e-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="50106-120">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="50106-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="4179e-121">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="4179e-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="50106-121">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="50106-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="4179e-122">Namespace</span><span class="sxs-lookup"><span data-stu-id="4179e-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="4179e-123">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="4179e-123">Schema Name</span></span>  <br/> |<span data-ttu-id="4179e-124">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="4179e-124">Types schema</span></span>  <br/> |
-|<span data-ttu-id="4179e-125">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="4179e-125">Validation File</span></span>  <br/> |<span data-ttu-id="4179e-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="4179e-126">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="4179e-127">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="4179e-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="4179e-128">False</span><span class="sxs-lookup"><span data-stu-id="4179e-128">False</span></span>  <br/> |
+|<span data-ttu-id="50106-122">Namespace</span><span class="sxs-lookup"><span data-stu-id="50106-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="50106-123">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="50106-123">Schema Name</span></span>  <br/> |<span data-ttu-id="50106-124">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="50106-124">Types schema</span></span>  <br/> |
+|<span data-ttu-id="50106-125">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="50106-125">Validation File</span></span>  <br/> |<span data-ttu-id="50106-126">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="50106-126">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="50106-127">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="50106-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="50106-128">False</span><span class="sxs-lookup"><span data-stu-id="50106-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="4179e-129">Ver também</span><span class="sxs-lookup"><span data-stu-id="4179e-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="50106-129">Confira também</span><span class="sxs-lookup"><span data-stu-id="50106-129">See also</span></span>
 
 
 
-- [<span data-ttu-id="4179e-130">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="4179e-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="50106-130">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="50106-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

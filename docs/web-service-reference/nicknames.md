@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bbafce39-7fc6-4099-bc27-b40c0ad44c77
-description: O elemento de apelidos Especifica uma matriz de valores de apelidos e os identificadores de suas atribuições de origem para a pessoa associada.
-ms.openlocfilehash: e798ce082da2ca963b4ef78a4f462a996bdff4df
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento nickname especifica uma matriz de valores de apelido e os identificadores de suas atribuições de origem para o persona associado.
+ms.openlocfilehash: c6b7de5e1c93797603a2950b4a9527c5d370f93d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824536"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457771"
 ---
-# <a name="nicknames"></a><span data-ttu-id="a0c3d-103">Apelidos</span><span class="sxs-lookup"><span data-stu-id="a0c3d-103">Nicknames</span></span>
+# <a name="nicknames"></a><span data-ttu-id="2d171-103">Apelidos</span><span class="sxs-lookup"><span data-stu-id="2d171-103">Nicknames</span></span>
 
-<span data-ttu-id="a0c3d-104">O elemento de **apelidos** Especifica uma matriz de valores de apelidos e os identificadores de suas atribuições de origem para a pessoa associada.</span><span class="sxs-lookup"><span data-stu-id="a0c3d-104">The **Nicknames** element specifies an array of nickname values and the identifiers of their source attributions for the associated persona.</span></span> 
+<span data-ttu-id="2d171-104">O elemento **nickname** especifica uma matriz de valores de apelido e os identificadores de suas atribuições de origem para o persona associado.</span><span class="sxs-lookup"><span data-stu-id="2d171-104">The **Nicknames** element specifies an array of nickname values and the identifiers of their source attributions for the associated persona.</span></span> 
   
 ```XML
 <Nicknames>
@@ -25,37 +25,37 @@ ms.locfileid: "19824536"
 </Nicknames>
 ```
 
-<span data-ttu-id="a0c3d-105">**ArrayOfStringAttributedValuesType**</span><span class="sxs-lookup"><span data-stu-id="a0c3d-105">**ArrayOfStringAttributedValuesType**</span></span>
+<span data-ttu-id="2d171-105">**ArrayOfStringAttributedValuesType**</span><span class="sxs-lookup"><span data-stu-id="2d171-105">**ArrayOfStringAttributedValuesType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="a0c3d-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="a0c3d-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="2d171-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="2d171-106">Attributes and elements</span></span>
 
-<span data-ttu-id="a0c3d-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="a0c3d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="2d171-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="2d171-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="a0c3d-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="a0c3d-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="2d171-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="2d171-108">Attributes</span></span>
 
-<span data-ttu-id="a0c3d-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="a0c3d-109">None.</span></span>
+<span data-ttu-id="2d171-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="2d171-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="a0c3d-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="a0c3d-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="2d171-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="2d171-110">Child elements</span></span>
 
-[<span data-ttu-id="a0c3d-111">StringAttributedValue</span><span class="sxs-lookup"><span data-stu-id="a0c3d-111">StringAttributedValue</span></span>](stringattributedvalue.md)
+[<span data-ttu-id="2d171-111">StringAttributedValue</span><span class="sxs-lookup"><span data-stu-id="2d171-111">StringAttributedValue</span></span>](stringattributedvalue.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="a0c3d-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="a0c3d-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="2d171-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="2d171-112">Parent elements</span></span>
 
-[<span data-ttu-id="a0c3d-113">Pessoa</span><span class="sxs-lookup"><span data-stu-id="a0c3d-113">Persona</span></span>](persona.md)
+[<span data-ttu-id="2d171-113">Pessoal</span><span class="sxs-lookup"><span data-stu-id="2d171-113">Persona</span></span>](persona.md)
   
-## <a name="remarks"></a><span data-ttu-id="a0c3d-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="a0c3d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2d171-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="2d171-114">Remarks</span></span>
 
-<span data-ttu-id="a0c3d-115">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a0c3d-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="2d171-115">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2d171-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="a0c3d-116">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="a0c3d-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="2d171-116">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="2d171-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="a0c3d-117">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="a0c3d-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="2d171-117">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="2d171-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="a0c3d-118">Namespace</span><span class="sxs-lookup"><span data-stu-id="a0c3d-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="a0c3d-119">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="a0c3d-119">Schema name</span></span>  <br/> |<span data-ttu-id="a0c3d-120">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="a0c3d-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="a0c3d-121">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="a0c3d-121">Validation file</span></span>  <br/> |<span data-ttu-id="a0c3d-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="a0c3d-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="a0c3d-123">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="a0c3d-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="2d171-118">Namespace</span><span class="sxs-lookup"><span data-stu-id="2d171-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="2d171-119">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="2d171-119">Schema name</span></span>  <br/> |<span data-ttu-id="2d171-120">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="2d171-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="2d171-121">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="2d171-121">Validation file</span></span>  <br/> |<span data-ttu-id="2d171-122">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="2d171-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="2d171-123">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="2d171-123">Can be empty</span></span>  <br/> ||
    
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7a54992d-03a6-4afc-a2e4-dcdc9ce54194
-description: O elemento de GetInboxRules define uma solicitação para obter as regras de caixa de entrada em uma caixa de correio no armazenamento do servidor.
-ms.openlocfilehash: 3c3ee682dd009e5c4bec940637a7dfa3c11f8402
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetInboxRules define uma solicitação para obter as regras de caixa de entrada em uma caixa de correio no repositório do servidor.
+ms.openlocfilehash: 890592fd3f87fc5592a618a2febf28e4daf0dbe4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752528"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457925"
 ---
-# <a name="getinboxrules"></a><span data-ttu-id="576b1-103">GetInboxRules</span><span class="sxs-lookup"><span data-stu-id="576b1-103">GetInboxRules</span></span>
+# <a name="getinboxrules"></a><span data-ttu-id="005ca-103">GetInboxRules</span><span class="sxs-lookup"><span data-stu-id="005ca-103">GetInboxRules</span></span>
 
-<span data-ttu-id="576b1-104">O elemento de **GetInboxRules** define uma solicitação para obter as regras de caixa de entrada em uma caixa de correio no armazenamento do servidor.</span><span class="sxs-lookup"><span data-stu-id="576b1-104">The **GetInboxRules** element defines a request to get the Inbox rules on a mailbox in the server store.</span></span> 
+<span data-ttu-id="005ca-104">O elemento **GetInboxRules** define uma solicitação para obter as regras de caixa de entrada em uma caixa de correio no repositório do servidor.</span><span class="sxs-lookup"><span data-stu-id="005ca-104">The **GetInboxRules** element defines a request to get the Inbox rules on a mailbox in the server store.</span></span> 
   
 ```XML
 <GetInboxRules>
@@ -29,41 +29,41 @@ ms.locfileid: "19752528"
 </GetInboxRules>
 ```
 
- <span data-ttu-id="576b1-105">**GetInboxRulesRequestType**</span><span class="sxs-lookup"><span data-stu-id="576b1-105">**GetInboxRulesRequestType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="576b1-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="576b1-106">Attributes and elements</span></span>
+ <span data-ttu-id="005ca-105">**GetInboxRulesRequestType**</span><span class="sxs-lookup"><span data-stu-id="005ca-105">**GetInboxRulesRequestType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="005ca-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="005ca-106">Attributes and elements</span></span>
 
-<span data-ttu-id="576b1-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="576b1-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="005ca-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="005ca-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="576b1-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="576b1-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="005ca-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="005ca-108">Attributes</span></span>
 
-<span data-ttu-id="576b1-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="576b1-109">None.</span></span>
+<span data-ttu-id="005ca-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="005ca-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="576b1-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="576b1-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="005ca-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="005ca-110">Child elements</span></span>
 
-|<span data-ttu-id="576b1-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="576b1-111">**Element**</span></span>|<span data-ttu-id="576b1-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="576b1-112">**Description**</span></span>|
+|<span data-ttu-id="005ca-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="005ca-111">**Element**</span></span>|<span data-ttu-id="005ca-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="005ca-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="576b1-113">MailboxSmtpAddress</span><span class="sxs-lookup"><span data-stu-id="576b1-113">MailboxSmtpAddress</span></span>](mailboxsmtpaddress.md) <br/> |<span data-ttu-id="576b1-114">Representa o endereço SMTP do usuário cujas regras de caixa de entrada devem ser recuperadas.</span><span class="sxs-lookup"><span data-stu-id="576b1-114">Represents the SMTP address of the user whose Inbox rules are to be retrieved.</span></span>  <br/> |
+|[<span data-ttu-id="005ca-113">MailboxSmtpAddress</span><span class="sxs-lookup"><span data-stu-id="005ca-113">MailboxSmtpAddress</span></span>](mailboxsmtpaddress.md) <br/> |<span data-ttu-id="005ca-114">Representa o endereço SMTP do usuário cujas regras de caixa de entrada devem ser recuperadas.</span><span class="sxs-lookup"><span data-stu-id="005ca-114">Represents the SMTP address of the user whose Inbox rules are to be retrieved.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="576b1-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="576b1-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="005ca-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="005ca-115">Parent elements</span></span>
 
-<span data-ttu-id="576b1-116">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="576b1-116">None.</span></span>
+<span data-ttu-id="005ca-116">Nenhum</span><span class="sxs-lookup"><span data-stu-id="005ca-116">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="576b1-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="576b1-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="005ca-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="005ca-117">Remarks</span></span>
 
-<span data-ttu-id="576b1-118">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="576b1-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="005ca-118">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="005ca-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="576b1-119">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="576b1-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="005ca-119">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="005ca-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="576b1-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="576b1-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="576b1-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="576b1-121">Schema Name</span></span>  <br/> |<span data-ttu-id="576b1-122">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="576b1-122">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="576b1-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="576b1-123">Validation File</span></span>  <br/> |<span data-ttu-id="576b1-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="576b1-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="576b1-125">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="576b1-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="576b1-126">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="576b1-126">True</span></span>  <br/> |
+|<span data-ttu-id="005ca-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="005ca-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="005ca-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="005ca-121">Schema Name</span></span>  <br/> |<span data-ttu-id="005ca-122">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="005ca-122">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="005ca-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="005ca-123">Validation File</span></span>  <br/> |<span data-ttu-id="005ca-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="005ca-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="005ca-125">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="005ca-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="005ca-126">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="005ca-126">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="576b1-127">Ver também</span><span class="sxs-lookup"><span data-stu-id="576b1-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="005ca-127">Também consulte</span><span class="sxs-lookup"><span data-stu-id="005ca-127">See also</span></span>
 
 
 
-[<span data-ttu-id="576b1-128">Operação GetInboxRules</span><span class="sxs-lookup"><span data-stu-id="576b1-128">GetInboxRules operation</span></span>](getinboxrules-operation.md)
+[<span data-ttu-id="005ca-128">Operação GetInboxRules</span><span class="sxs-lookup"><span data-stu-id="005ca-128">GetInboxRules operation</span></span>](getinboxrules-operation.md)
 

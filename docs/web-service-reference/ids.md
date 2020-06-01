@@ -1,5 +1,5 @@
 ---
-title: IDs
+title: Código
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c54cdeaf-6761-4d1a-a329-fb279f0e2a64
-description: O elemento de Ids contém uma matriz de identificadores de definição de fuso horário.
-ms.openlocfilehash: e4f8afb1292b3cb9f3990d4613b7461050976a59
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IDs contém uma matriz de identificadores de definição de fuso horário.
+ms.openlocfilehash: 1c5a6974c8d3abc318ff122f3db09d8c3472dc65
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823856"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457617"
 ---
-# <a name="ids"></a><span data-ttu-id="b78c3-103">IDs</span><span class="sxs-lookup"><span data-stu-id="b78c3-103">Ids</span></span>
+# <a name="ids"></a><span data-ttu-id="fc201-103">Código</span><span class="sxs-lookup"><span data-stu-id="fc201-103">Ids</span></span>
 
-<span data-ttu-id="b78c3-104">O elemento de **Ids** contém uma matriz de identificadores de definição de fuso horário.</span><span class="sxs-lookup"><span data-stu-id="b78c3-104">The **Ids** element contains an array of time zone definition identifiers.</span></span> 
+<span data-ttu-id="fc201-104">O elemento **IDs** contém uma matriz de identificadores de definição de fuso horário.</span><span class="sxs-lookup"><span data-stu-id="fc201-104">The **Ids** element contains an array of time zone definition identifiers.</span></span> 
   
 ```XML
 <Ids>
@@ -29,39 +29,39 @@ ms.locfileid: "19823856"
 </Ids>
 ```
 
- <span data-ttu-id="b78c3-105">**NonEmptyArrayOfTimeZoneIdType**</span><span class="sxs-lookup"><span data-stu-id="b78c3-105">**NonEmptyArrayOfTimeZoneIdType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="b78c3-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="b78c3-106">Attributes and elements</span></span>
+ <span data-ttu-id="fc201-105">**NonEmptyArrayOfTimeZoneIdType**</span><span class="sxs-lookup"><span data-stu-id="fc201-105">**NonEmptyArrayOfTimeZoneIdType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="fc201-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="fc201-106">Attributes and elements</span></span>
 
-<span data-ttu-id="b78c3-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="b78c3-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="fc201-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="fc201-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="b78c3-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="b78c3-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="fc201-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="fc201-108">Attributes</span></span>
 
-<span data-ttu-id="b78c3-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="b78c3-109">None.</span></span>
+<span data-ttu-id="fc201-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="fc201-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="b78c3-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="b78c3-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="fc201-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="fc201-110">Child elements</span></span>
 
-|<span data-ttu-id="b78c3-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="b78c3-111">**Element**</span></span>|<span data-ttu-id="b78c3-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="b78c3-112">**Description**</span></span>|
+|<span data-ttu-id="fc201-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="fc201-111">**Element**</span></span>|<span data-ttu-id="fc201-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="fc201-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="b78c3-113">ID (TimeZone)</span><span class="sxs-lookup"><span data-stu-id="b78c3-113">Id (TimeZone)</span></span>](id-timezone.md) <br/> |<span data-ttu-id="b78c3-114">O elemento que identifica a definição de um único fuso horário.</span><span class="sxs-lookup"><span data-stu-id="b78c3-114">The element that identifies a single time zone definition.</span></span>  <br/> |
+|[<span data-ttu-id="fc201-113">ID (TimeZone)</span><span class="sxs-lookup"><span data-stu-id="fc201-113">Id (TimeZone)</span></span>](id-timezone.md) <br/> |<span data-ttu-id="fc201-114">O elemento que identifica uma única definição de fuso horário.</span><span class="sxs-lookup"><span data-stu-id="fc201-114">The element that identifies a single time zone definition.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="b78c3-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="b78c3-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="fc201-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="fc201-115">Parent elements</span></span>
 
-|<span data-ttu-id="b78c3-116">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="b78c3-116">**Element**</span></span>|<span data-ttu-id="b78c3-117">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="b78c3-117">**Description**</span></span>|
+|<span data-ttu-id="fc201-116">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="fc201-116">**Element**</span></span>|<span data-ttu-id="fc201-117">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="fc201-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="b78c3-118">GetServerTimeZones</span><span class="sxs-lookup"><span data-stu-id="b78c3-118">GetServerTimeZones</span></span>](getservertimezones.md) <br/> |<span data-ttu-id="b78c3-119">Define uma solicitação para recuperar as definições de fuso horário do servidor Exchange.</span><span class="sxs-lookup"><span data-stu-id="b78c3-119">Defines a request to retrieve time zone definitions from the Exchange server.</span></span>  <br/> |
+|[<span data-ttu-id="fc201-118">GetServerTimeZones</span><span class="sxs-lookup"><span data-stu-id="fc201-118">GetServerTimeZones</span></span>](getservertimezones.md) <br/> |<span data-ttu-id="fc201-119">Define uma solicitação para recuperar definições de fuso horário do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="fc201-119">Defines a request to retrieve time zone definitions from the Exchange server.</span></span>  <br/> |
    
-## <a name="element-information"></a><span data-ttu-id="b78c3-120">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="b78c3-120">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="fc201-120">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="fc201-120">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="b78c3-121">Namespace</span><span class="sxs-lookup"><span data-stu-id="b78c3-121">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="b78c3-122">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="b78c3-122">Schema Name</span></span>  <br/> |<span data-ttu-id="b78c3-123">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="b78c3-123">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="b78c3-124">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="b78c3-124">Validation File</span></span>  <br/> |<span data-ttu-id="b78c3-125">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="b78c3-125">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="b78c3-126">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="b78c3-126">Can be Empty</span></span>  <br/> |<span data-ttu-id="b78c3-127">False</span><span class="sxs-lookup"><span data-stu-id="b78c3-127">False</span></span>  <br/> |
+|<span data-ttu-id="fc201-121">Namespace</span><span class="sxs-lookup"><span data-stu-id="fc201-121">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="fc201-122">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="fc201-122">Schema Name</span></span>  <br/> |<span data-ttu-id="fc201-123">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="fc201-123">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="fc201-124">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="fc201-124">Validation File</span></span>  <br/> |<span data-ttu-id="fc201-125">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="fc201-125">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="fc201-126">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="fc201-126">Can be Empty</span></span>  <br/> |<span data-ttu-id="fc201-127">False</span><span class="sxs-lookup"><span data-stu-id="fc201-127">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="b78c3-128">Ver também</span><span class="sxs-lookup"><span data-stu-id="b78c3-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc201-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="fc201-128">See also</span></span>
 
 
 
-- [<span data-ttu-id="b78c3-129">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="b78c3-129">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="fc201-129">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="fc201-129">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -7,64 +7,64 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 90841617-3b83-4124-8125-0293c9470f4a
-description: O elemento IsUndecidedApprovalRequest Especifica se uma mensagem de solicitação de aprovação tiver sido acionada.
-ms.openlocfilehash: 82b4624df5b2fe7ca212fdf76248e1ccfa3a081f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IsUndecidedApprovalRequest especifica se uma mensagem de solicitação de aprovação foi acionada.
+ms.openlocfilehash: 0949cf64b8583c4b3fa5a1700475f01cc480f69f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824127"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458170"
 ---
-# <a name="isundecidedapprovalrequest"></a><span data-ttu-id="ec713-103">IsUndecidedApprovalRequest</span><span class="sxs-lookup"><span data-stu-id="ec713-103">IsUndecidedApprovalRequest</span></span>
+# <a name="isundecidedapprovalrequest"></a><span data-ttu-id="119da-103">IsUndecidedApprovalRequest</span><span class="sxs-lookup"><span data-stu-id="119da-103">IsUndecidedApprovalRequest</span></span>
 
-<span data-ttu-id="ec713-104">O elemento **IsUndecidedApprovalRequest** Especifica se uma mensagem de solicitação de aprovação tiver sido acionada.</span><span class="sxs-lookup"><span data-stu-id="ec713-104">The **IsUndecidedApprovalRequest** element specifies whether an approval request message has been acted on.</span></span> 
+<span data-ttu-id="119da-104">O elemento **IsUndecidedApprovalRequest** especifica se uma mensagem de solicitação de aprovação foi acionada.</span><span class="sxs-lookup"><span data-stu-id="119da-104">The **IsUndecidedApprovalRequest** element specifies whether an approval request message has been acted on.</span></span> 
   
 ```XML
 <IsUndecidedApprovalRequest> true | false </IsUndecidedApprovalRequest>
 ```
 
- <span data-ttu-id="ec713-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="ec713-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="ec713-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="ec713-106">Attributes and elements</span></span>
+ <span data-ttu-id="119da-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="119da-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="119da-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="119da-106">Attributes and elements</span></span>
 
-<span data-ttu-id="ec713-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="ec713-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="119da-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="119da-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ec713-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="ec713-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="119da-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="119da-108">Attributes</span></span>
 
-<span data-ttu-id="ec713-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="ec713-109">None.</span></span>
+<span data-ttu-id="119da-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="119da-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ec713-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="ec713-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="119da-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="119da-110">Child elements</span></span>
 
-<span data-ttu-id="ec713-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="ec713-111">None.</span></span>
+<span data-ttu-id="119da-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="119da-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="ec713-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="ec713-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="119da-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="119da-112">Parent elements</span></span>
 
-[<span data-ttu-id="ec713-113">ApprovalRequestData</span><span class="sxs-lookup"><span data-stu-id="ec713-113">ApprovalRequestData</span></span>](approvalrequestdata.md)
+[<span data-ttu-id="119da-113">ApprovalRequestData</span><span class="sxs-lookup"><span data-stu-id="119da-113">ApprovalRequestData</span></span>](approvalrequestdata.md)
   
-## <a name="text-value"></a><span data-ttu-id="ec713-114">Text value</span><span class="sxs-lookup"><span data-stu-id="ec713-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="119da-114">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="119da-114">Text value</span></span>
 
-<span data-ttu-id="ec713-115">O valor de texto do elemento **IsUndecidedApprovalRequest** é **true** se uma mensagem de solicitação de aprovação não tiver sido realizada.</span><span class="sxs-lookup"><span data-stu-id="ec713-115">The text value of the **IsUndecidedApprovalRequest** element is **true** if an approval request message has not been acted on.</span></span> <span data-ttu-id="ec713-116">Um valor **false** indica que a solicitação de aprovação foi decidida.</span><span class="sxs-lookup"><span data-stu-id="ec713-116">A value of **false** indicates that the approval request has been decided.</span></span> 
+<span data-ttu-id="119da-115">O valor de texto do elemento **IsUndecidedApprovalRequest** será **true** se uma mensagem de solicitação de aprovação não tiver sido acionada.</span><span class="sxs-lookup"><span data-stu-id="119da-115">The text value of the **IsUndecidedApprovalRequest** element is **true** if an approval request message has not been acted on.</span></span> <span data-ttu-id="119da-116">Um valor **false** indica que a solicitação de aprovação foi decidida.</span><span class="sxs-lookup"><span data-stu-id="119da-116">A value of **false** indicates that the approval request has been decided.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="ec713-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="ec713-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="119da-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="119da-117">Remarks</span></span>
 
-<span data-ttu-id="ec713-118">Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="ec713-118">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="119da-118">Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="119da-118">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
   
-<span data-ttu-id="ec713-119">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="ec713-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="119da-119">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="119da-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="ec713-120">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="ec713-120">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="119da-120">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="119da-120">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ec713-121">Namespace</span><span class="sxs-lookup"><span data-stu-id="ec713-121">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="ec713-122">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="ec713-122">Schema Name</span></span>  <br/> |<span data-ttu-id="ec713-123">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="ec713-123">Types schema</span></span>  <br/> |
-|<span data-ttu-id="ec713-124">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="ec713-124">Validation File</span></span>  <br/> |<span data-ttu-id="ec713-125">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ec713-125">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="ec713-126">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="ec713-126">Can be Empty</span></span>  <br/> |<span data-ttu-id="ec713-127">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="ec713-127">True</span></span>  <br/> |
+|<span data-ttu-id="119da-121">Namespace</span><span class="sxs-lookup"><span data-stu-id="119da-121">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="119da-122">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="119da-122">Schema Name</span></span>  <br/> |<span data-ttu-id="119da-123">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="119da-123">Types schema</span></span>  <br/> |
+|<span data-ttu-id="119da-124">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="119da-124">Validation File</span></span>  <br/> |<span data-ttu-id="119da-125">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="119da-125">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="119da-126">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="119da-126">Can be Empty</span></span>  <br/> |<span data-ttu-id="119da-127">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="119da-127">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="ec713-128">Ver também</span><span class="sxs-lookup"><span data-stu-id="ec713-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="119da-128">Também consulte</span><span class="sxs-lookup"><span data-stu-id="119da-128">See also</span></span>
 
 
 
-[<span data-ttu-id="ec713-129">ApprovalRequestData</span><span class="sxs-lookup"><span data-stu-id="ec713-129">ApprovalRequestData</span></span>](approvalrequestdata.md)
+[<span data-ttu-id="119da-129">ApprovalRequestData</span><span class="sxs-lookup"><span data-stu-id="119da-129">ApprovalRequestData</span></span>](approvalrequestdata.md)
 
 
-- [<span data-ttu-id="ec713-130">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="ec713-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="119da-130">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="119da-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
