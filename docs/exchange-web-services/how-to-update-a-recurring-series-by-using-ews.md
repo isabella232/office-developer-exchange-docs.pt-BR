@@ -5,35 +5,35 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7e61bee9-4840-4773-a0a7-47b11e1fdf59
-description: Saiba como modificar os compromissos em uma série recorrente, usando a API gerenciada de EWS ou EWS no Exchange.
-ms.openlocfilehash: ecee78457d2e6f91483cf897cfb4976fbd83400c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Saiba como modificar compromissos em uma série recorrente usando a API gerenciada do EWS ou o EWS no Exchange.
+ms.openlocfilehash: eb40dd60f28a6acf4395d3149744ce7321c34999
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750839"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455846"
 ---
 # <a name="update-a-recurring-series-by-using-ews"></a>Atualizar uma série recorrente usando o EWS
 
-Saiba como modificar os compromissos em uma série recorrente, usando a API gerenciada de EWS ou EWS no Exchange.
+Saiba como modificar compromissos em uma série recorrente usando a API gerenciada do EWS ou o EWS no Exchange.
   
-Você pode usar a API gerenciada de EWS ou o EWS para atualizar uma série recorrente, ambos [Atualizando a série inteira](how-to-update-a-recurring-series-by-using-ews-in-exchange.md), ou atualizando uma única ocorrência. Neste artigo, abordaremos como atualizar uma única ocorrência.
+Você pode usar a API gerenciada do EWS ou o EWS para atualizar uma série recorrente [atualizando a série inteira](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)ou atualizando uma única ocorrência. Neste artigo, discutiremos como atualizar uma única ocorrência.
   
-Modificar um único compromisso em uma série é muito semelhante ao [modificar um compromisso de única instância](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md). Usar os mesmos métodos e operações, mas você usar a ID do item a ocorrência que você deseja alterar.
+A modificação de um único compromisso em uma série é muito semelhante à [modificação de um único compromisso de instância](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md). Você usa os mesmos métodos e operações, mas usa a ID de item da ocorrência que você deseja alterar.
   
-Quando você altera uma única ocorrência de uma série, essa ocorrência é adicionada a uma matriz de compromissos modificadas associado do mestre da série recorrente. Você pode usar a propriedade da API gerenciada de EWS [Appointment.ModifiedOccurrences](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx) ou o elemento do EWS [ModifiedOccurrences](http://msdn.microsoft.com/library/552932fc-b3b4-486e-8d73-32c0bb10bd68%28Office.15%29.aspx) para acessar todos os compromissos em uma série que foram modificados. 
+Quando você altera uma única ocorrência em uma série, essa ocorrência é adicionada a uma matriz de compromissos modificados associados ao mestre recorrente para a série. Você pode usar a propriedade de API gerenciada do EWS [ModifiedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx) ou o elemento [ModifiedOccurrences](https://msdn.microsoft.com/library/552932fc-b3b4-486e-8d73-32c0bb10bd68%28Office.15%29.aspx) EWS para acessar todos os compromissos em uma série que foram modificados. 
   
-## <a name="modify-a-single-occurrence-in-a-series-by-using-the-ews-managed-api"></a>Modificar uma única ocorrência de uma série usando a API gerenciada de EWS
+## <a name="modify-a-single-occurrence-in-a-series-by-using-the-ews-managed-api"></a>Modificar uma única ocorrência em uma série usando a API gerenciada do EWS
 
-Para modificar uma única instância de uma série, você:
+Para modificar uma única instância em uma série, você:
   
-1. Ligar para a ocorrência que você deseja modificar usando um dos métodos de [Appointment.BindToOccurrence](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.bindtooccurrence%28v=exchg.80%29.aspx) o com o valor de índice do item ou o método [Appointment.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) com ID. a ocorrência Você obter esse ID partir a propriedade [Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) de um objeto de [compromisso](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) que corresponde à ocorrência ou a propriedade [ItemId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.occurrenceinfo.itemid%28v=exchg.80%29.aspx) do objeto [OccurrenceInfo](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.occurrenceinfo%28v=exchg.80%29.aspx) que corresponde à ocorrência. 
+1. Vincule à ocorrência que você deseja modificar usando o método de [compromisso. BindToOccurrence](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtooccurrence%28v=exchg.80%29.aspx) com o valor de índice do item ou o método de [compromisso. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) com a ID da ocorrência. Você obtém essa ID a partir da propriedade [ID](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) de um objeto [compromisso](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) que corresponde à ocorrência ou a partir da propriedade [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.occurrenceinfo.itemid%28v=exchg.80%29.aspx) do objeto [OccurrenceInfo](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.occurrenceinfo%28v=exchg.80%29.aspx) que corresponde à ocorrência. 
     
 2. Atualize as propriedades no objeto de compromisso da ocorrência.
     
-3. Salve as alterações ao objeto de compromisso a ocorrência usando o método [Appointment.Save](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) . 
+3. Salve as alterações no objeto de compromisso da ocorrência usando o método de [compromisso. salvar](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) . 
     
-O exemplo a seguir atualiza um compromisso em uma série recorrente e verifica se o compromisso modificado foi atualizado no mestre recorrente. Este exemplo pressupõe que você tenha autenticado com um servidor Exchange e adquiriu um objeto [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) denominado **service**. O `recurrenceMasterId` parâmetro é um identificador associado modificar a ocorrência do mestre recorrente. 
+O exemplo a seguir atualiza um compromisso em uma série recorrente e verifica se o compromisso modificado foi atualizado no mestre recorrente. Este exemplo pressupõe que você tenha autenticado em um servidor do Exchange e tenha adquirido um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) chamado **Service**. O `recurrenceMasterId` parâmetro é um identificador associado ao mestre recorrente para que a ocorrência seja modificada. 
   
 ```cs
 public static ItemId ModifyARecurringSeries(ExchangeService service, ItemId recurrenceMasterId)
@@ -91,18 +91,18 @@ public static ItemId ModifyARecurringSeries(ExchangeService service, ItemId recu
 
 ```
 
-## <a name="modify-a-single-occurrence-in-a-series-by-using-ews"></a>Modificar uma única ocorrência de uma série usando o EWS
+## <a name="modify-a-single-occurrence-in-a-series-by-using-ews"></a>Modificar uma única ocorrência em uma série usando o EWS
 
-Modificar uma única instância de uma série é essencialmente igual de modificar um compromisso de única instância. Você pode especificar a ocorrência para alterar usando um [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) ou um elemento [OccurrenceItemId](http://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) . 
+Modificar uma única instância em uma série é essencialmente o mesmo que modificar um único compromisso de instância. Você pode especificar a ocorrência a ser alterada usando um [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) ou um elemento [OccurrenceItemId](https://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) . 
   
-O exemplo a seguir mostra a solicitação XML quando você usar a operação [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) para atualizar uma ocorrência de uma série recorrente de compromissos. O **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+O exemplo a seguir mostra a solicitação de XML quando você usa a operação [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) para atualizar uma ocorrência em uma série recorrente de compromissos. O **ItemId** e o **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -190,9 +190,9 @@ O exemplo a seguir mostra a solicitação XML quando você usar a operação [Up
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **UpdateItem** com uma mensagem de [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) que inclui um valor de [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NoError**, que indica que a ocorrência foi atualizada com êxito e o [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) de o compromisso atualizado. 
+O servidor responde à solicitação **UpdateItem** com uma mensagem [UpdateItemResponse](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) que inclui um valor de [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, que indica que a ocorrência foi atualizada com êxito e o [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) do compromisso atualizado. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 - [Calendários e EWS no Exchange](calendars-and-ews-in-exchange.md)

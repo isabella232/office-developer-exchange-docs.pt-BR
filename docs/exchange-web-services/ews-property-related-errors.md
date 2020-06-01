@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1c4c5969-7bdd-4021-be0e-cae99e86cf2c
 description: Descubra como lidar com erros relacionados a propriedade em seu aplicativo do EWS.
-ms.openlocfilehash: f214ab40c3717178c6957a9da93bdf89999fc1d3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5863ab4e06bd968aa38b6fdec471e09c5e23f54a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750660"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455405"
 ---
 # <a name="ews-property-related-errors"></a>Erros relacionados a propriedade do EWS
 
@@ -42,7 +42,7 @@ A maioria dos aplicativos de cliente do EWS usará propriedades, que significa q
 |ErrorNoFolderClassOverride  <br/> |Defina a classe de pasta em uma nova pasta que não seja o tipo da pasta base.  <br/> |Usando um tipo de pasta genérico para definir a classe de pasta.  <br/> |
 |ErrorNoPropertyTagForCustomProperties  <br/> |Referência a uma propriedade estendida personalizada por marca de sua propriedade.  <br/> |Atualizar seu código para referenciar o sinalizador estendido identificador de conjunto de propriedade por propriedade e o nome da propriedade ou identificador de expedição de propriedade.  <br/> |
 |ErrorObjectTypeChanged  <br/> |Definir ou atualizar a classe de item em um item que não corresponda com seu tipo de esquema.  <br/> |Atualizando o seu código para que o item classe corresponde ao tipo de esquema do item.  <br/> |
-|ErrorPropertyUpdate  <br/> |Atualize uma propriedade com um valor de propriedade inválido.  <br/> |Verificando o valor da propriedade antes de enviá-la em uma solicitação de [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) .  <br/> |
+|ErrorPropertyUpdate  <br/> |Atualize uma propriedade com um valor de propriedade inválido.  <br/> |Verificando o valor da propriedade antes de enviá-la em uma solicitação de [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) .  <br/> |
 |ErrorRequiredPropertyMissing  <br/> |Envie uma solicitação de CreateAttachment que está faltando uma propriedade necessária.  <br/> |Atualizando o seu código para definir a propriedade ausente conforme especificado pelo caminho de propriedade retornado na resposta.  <br/> |
 |ErrorUnsupportedMapiPropertyType  <br/> |Use a propriedade estendida tipos de objeto do tipo, matriz de objeto, erro ou nulo.  <br/> |Atualizando o código para não usar os tipos de propriedade estendida restritos.  <br/> |
 |ErrorUnsupportedPathForQuery  <br/> |Use um caminho de propriedade não suportado em uma restrição de pesquisa.  <br/> |Alterando a restrição de pesquisa para excluir o caminho de propriedade não suportado.  <br/> |
@@ -50,7 +50,7 @@ A maioria dos aplicativos de cliente do EWS usará propriedades, que significa q
 |ErrorUnsupportedTypeForConversion  <br/> |Solicite um tipo de propriedade que não pode ser convertido para XML para o EWS retornar em uma resposta.  <br/> |Atualizando o seu código para não solicitar a propriedade sem suporte.  <br/> |
 |ErrorUpdatePropertyMismatch  <br/> |Atualize um item ou pasta para a descrição de alteração para o qual não corresponde à propriedade que é especificada para ser atualizado.  <br/> |Alterando seu código para que a descrição da alteração corresponde ao tipo de item ou a pasta que está sendo atualizado.  <br/> |
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 - [Propriedades e as propriedades estendidas no EWS no Exchange](properties-and-extended-properties-in-ews-in-exchange.md)

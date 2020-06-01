@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 0ba37d5b-3c19-4fdd-a196-b4723e6ba1b0
-description: O elemento AlternateMailboxCollectionSetting contém uma coleção de definições de caixa de correio alternativo.
-ms.openlocfilehash: 4abff2a36b3937a9a24e44104d18722b5e5b5ec5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento AlternateMailboxCollectionSetting contém uma coleção de configurações de caixa de correio alternativas.
+ms.openlocfilehash: 549aa297ca44106e1539080c369d6e7060a0bd43
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751082"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456224"
 ---
 # <a name="alternatemailboxcollectionsetting-soap"></a>AlternateMailboxCollectionSetting (SOAP)
 
-O elemento **AlternateMailboxCollectionSetting** contém uma coleção de definições de caixa de correio alternativo. 
+O elemento **AlternateMailboxCollectionSetting** contém uma coleção de configurações de caixa de correio alternativas. 
   
 ```XML
 <AlternateMailboxCollectionSetting>
@@ -27,38 +27,38 @@ O elemento **AlternateMailboxCollectionSetting** contém uma coleção de defini
 ```
 
  **AlternateMailboxCollectionSetting**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AlternateMailboxes (SOAP)](alternatemailboxes-soap.md) <br/> |Representa uma coleção de caixas de correio alternativas.  <br/> |
+|[AlternateMailboxes (SOAP)](alternatemailboxes-soap.md) <br/> |Representa uma coleção de caixas de correio alternadas.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
-- [SOAP referência de serviço web de descoberta automática do Exchange](soap-autodiscover-web-service-reference-for-exchange.md)
+- [Referência de serviço Web de descoberta automática do SOAP para Exchange](soap-autodiscover-web-service-reference-for-exchange.md)
 

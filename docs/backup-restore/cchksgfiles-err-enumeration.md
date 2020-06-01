@@ -1,5 +1,5 @@
 ---
-title: Enumeração CChkSGFiles.ERR
+title: Enumeração função cchksgfiles. ERR
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: f0efe195-91c3-4f3a-8c7d-e5dba336465a
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
-ms.openlocfilehash: 20f10c43e3b92604bb51e1aa5f896a8bd7c4b335
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Última modificação: 9 de março de 2015'
+ms.openlocfilehash: dbc76601a808f79ce3ed5b5dc9fbe4cf92efb015
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751575"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455251"
 ---
-# <a name="cchksgfileserr-enumeration"></a>Enumeração CChkSGFiles.ERR 
+# <a name="cchksgfileserr-enumeration"></a>Enumeração função cchksgfiles. ERR 
   
 **Aplica-se a:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
-Indica os resultados da função chamada. Esta enumeração é retornada por muitas funções da classe **CCheckSGFiles** . 
+Indica os resultados da função chamada. Essa enumeração é retornada por muitas funções da classe **CCheckSGFiles** . 
   
 ```cs
 Enum ERR  
@@ -40,22 +40,22 @@ Enum ERR
 
 ```
 
-## <a name="values"></a>Valores
+## <a name="values"></a>Values
 
 |**Nome do membro**|**Valor**|**Descrição**|
 |:-----|:-----|:-----|
-|errSuccess  <br/> |0  <br/> |A função concluída sem erros.  <br/> |
-|errTaskDropped  <br/> |-106  <br/> |Retornado pela função **ErrTerm** para indicar que nem todas as páginas do banco de dados e arquivos de log de transações marcados ou que foram encontrados erros durante a verificação.  <br/> |
-|errRequiredLogFilesMissing  <br/> |-543  <br/> |Um ou mais arquivos de log que são necessários para que o banco de dados para um estado de desligamento não foi encontrado no caminho do arquivo de log ou não tinha o nome de base de três letras especificado.  <br/> |
+|errSuccess  <br/> |,0  <br/> |A função foi concluída sem erros.  <br/> |
+|errTaskDropped  <br/> |-106  <br/> |Retornado pela função **ErrTerm** para indicar que nem todas as páginas do banco de dados e os arquivos de log de transações foram verificados ou que foram encontrados erros durante a verificação.  <br/> |
+|errRequiredLogFilesMissing  <br/> |-543  <br/> |Um ou mais arquivos de log necessários para colocar o banco de dados em um estado de desligamento normal não foram encontrados no caminho do arquivo de log ou não tinham o nome da base de três letras especificado.  <br/> |
 |errInvalidParameter  <br/> |-1003  <br/> |Um ou mais parâmetros que foram passados para a função eram inválidos.  <br/> |
-|errOutOfMemory  <br/> |-1011  <br/> |Memória insuficiente estava disponível para concluir a operação solicitada.  <br/> |
-|errReadVerifyFailure  <br/> |-1018  <br/> |A soma de verificação que é armazenada em uma página de banco de dados não coincide com sua soma de verificação esperada.  <br/> |
-|errTooManyActiveUsers  <br/> |-1059  <br/> |A função **ErrTerm** foi chamada enquanto o objeto ainda estava sendo usado. Isso pode ocorrer se **ErrTerm** é chamado antes **ErrCheckDbPages** ou **ErrCheckLogFiles** ter retornado.  <br/> |
+|errOutOfMemory  <br/> |-1011  <br/> |Memória insuficiente disponível para concluir a operação solicitada.  <br/> |
+|errReadVerifyFailure  <br/> |-1018  <br/> |O checksum armazenado em uma página de banco de dados não corresponde à soma de verificação esperada.  <br/> |
+|errTooManyActiveUsers  <br/> |-1059  <br/> |A função **ErrTerm** foi chamada enquanto o objeto ainda estava sendo usado. Isso pode ocorrer se **ErrTerm** for chamado antes de **ErrCheckDbPages** ou **ErrCheckLogFiles** ter retornado.  <br/> |
    
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
-Exchange Server 2013 apenas inclui uma versão de 64 bits da API CHKSGFILES.
+O Exchange Server 2013 inclui apenas uma versão de 64 bits da API CHKSGFILES.
   
-A conta que o aplicativo está sendo executado em deve ter permissões de acesso de leitura para os arquivos de log e de banco de dados que devem ser verificado.
+A conta sob a qual o aplicativo está sendo executado deve ter permissões de acesso de leitura para o banco de dados e arquivos de log que devem ser verificados.
   
 

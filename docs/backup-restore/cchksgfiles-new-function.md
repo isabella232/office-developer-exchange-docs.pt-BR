@@ -1,5 +1,5 @@
 ---
-title: Função CChkSGFiles.New
+title: Função função cchksgfiles. New
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 588d8c74-c9ce-4d5e-8a79-a2a68676e858
-description: 'Modificado pela última vez: 22 de fevereiro de 2013'
-ms.openlocfilehash: b40f8b1a95477715b29defb4addabfb333e92d04
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Última modificação: 22 de fevereiro de 2013'
+ms.openlocfilehash: d18d3ef20890012a1d8c193ec87bdca10a1ed451
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750624"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455230"
 ---
-# <a name="cchksgfilesnew-function"></a>Função CChkSGFiles.New
+# <a name="cchksgfilesnew-function"></a>Função função cchksgfiles. New
 
 **Aplica-se a:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
-Cria uma nova instância da classe **CChkSGFiles** . Você deve chamar essa função antes de especificar o grupo de armazenamento e bancos de dados a ser verificado. 
+Cria uma nova instância da classe **função cchksgfiles** . Você deve chamar essa função antes de poder especificar o grupo de armazenamento e os bancos de dados a serem verificados. 
   
 ```cs
 Static CCheckSGFiles  * __stdcall New  ();
@@ -40,14 +40,14 @@ Uma referência (ponteiro) para o objeto recém-criado.
   
 ## <a name="remarks"></a>Comentários
 
-A função **New** cria um objeto **CCheckSGFiles** e retorna ao chamador uma referência (ponteiro) para esse objeto. Antes de chamar qualquer uma das outras funções na classe **CCheckSGFiles** , você deve chamar essa função. 
+A **nova** função cria um objeto **CCheckSGFiles** e retorna ao chamador uma referência (ponteiro) para esse objeto. Você deve chamar essa função antes de chamar qualquer uma das outras funções na classe **CCheckSGFiles** . 
   
-Se você estiver usando CHKSGFILES em um aplicativo multithreaded, você deve chamar a função **New** na parte com um único segmento do aplicativo e você poderá chamá-lo apenas uma vez para cada objeto **CCheckSGFiles** . 
+Se você estiver usando o CHKSGFILES em um aplicativo multi-threaded, deverá chamar a **nova** função na parte de thread único do aplicativo, e poderá chamá-la somente uma vez para cada objeto **CCheckSGFiles** . 
   
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
-Exchange 2013 inclui apenas uma versão de 64 bits da API CHKSGFILES.
+O Exchange 2013 inclui apenas uma versão de 64 bits da API CHKSGFILES.
   
-A conta que o aplicativo está sendo executado em deve ter permissões de acesso de leitura para os arquivos de log e de banco de dados que devem ser verificado.
+A conta sob a qual o aplicativo está sendo executado deve ter permissões de acesso de leitura para o banco de dados e arquivos de log que devem ser verificados.
   
 

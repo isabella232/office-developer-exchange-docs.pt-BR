@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: ae36b5f9-a787-4863-9dbc-258ad724801d
-description: O elemento IsContactPhoto indica se o anexo de arquivo é uma imagem do contato.
-ms.openlocfilehash: a015cd9bdb34ea9275952d5fe252a30cacf888ac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IsContactPhoto indica se o anexo de arquivo é uma imagem de contato.
+ms.openlocfilehash: f60e558ab4f20b59c1d5ae51f9dfca430feeff00
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823999"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455545"
 ---
 # <a name="iscontactphoto"></a>IsContactPhoto
 
-O elemento **IsContactPhoto** indica se o anexo de arquivo é uma imagem do contato. 
+O elemento **IsContactPhoto** indica se o anexo de arquivo é uma imagem de contato. 
   
 ```xml
 <IsContactPhoto>true or false</IsContactPhoto>
 ```
 
  **boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,26 +44,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo anexado a um item no armazenamento do Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo anexado a um item no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Esse elemento pode ser **true** ou **false**. O valor padrão é **false**.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

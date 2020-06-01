@@ -1,35 +1,35 @@
 ---
-title: Atualizar o fuso horário para um compromisso usando o EWS no Exchange
+title: Atualizar o fuso horário de um compromisso usando o EWS no Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dc2240c1-5500-4d5c-97d5-09d63ffd30d5
-description: Saiba como atualizar o fuso horário para uma reunião ou compromisso existente usando a API gerenciada de EWS ou EWS no Exchange.
-ms.openlocfilehash: 535eb9f546d9a4353408579f3a24750f32237699
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Saiba como atualizar o fuso horário de um compromisso ou reunião existente usando a API gerenciada do EWS ou o EWS no Exchange.
+ms.openlocfilehash: 064f99997b7c3d1197cb8d1ee6a24f8fb874f706
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750836"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455839"
 ---
-# <a name="update-the-time-zone-for-an-appointment-by-using-ews-in-exchange"></a>Atualizar o fuso horário para um compromisso usando o EWS no Exchange
+# <a name="update-the-time-zone-for-an-appointment-by-using-ews-in-exchange"></a>Atualizar o fuso horário de um compromisso usando o EWS no Exchange
 
-Saiba como atualizar o fuso horário para uma reunião ou compromisso existente usando a API gerenciada de EWS ou EWS no Exchange.
+Saiba como atualizar o fuso horário de um compromisso ou reunião existente usando a API gerenciada do EWS ou o EWS no Exchange.
   
-Quando um compromisso ou reunião é criado em um calendário do Exchange, o fuso horário usado para especificar os horários de início e término é salvo como o fuso horário de criação para o compromisso. Você pode alterar o fuso horário correspondente usando a API gerenciada de EWS ou EWS. No entanto, a alteração do fuso horário em um compromisso tem outros efeitos sobre a hora de início e término do compromisso.
+Quando um compromisso ou reunião é criado em um calendário do Exchange, o fuso horário usado para especificar as horas de início e término é salvo como o fuso horário de criação do compromisso. Você pode alterar esse fuso horário usando a API gerenciada do EWS ou o EWS. No entanto, alterar o fuso horário de um compromisso tem outros efeitos na hora de início e término do compromisso.
   
-Valores de hora são armazenados no servidor do Exchange em coordene UTC (Tempo Universal). Portanto, se um compromisso for definido como começar às 13:00 (13:00) no fuso horário do Leste (UTC-05:00), que o valor é armazenado como 6:00 PM (18:00) no servidor, supondo que o fuso horário esteja em sua fase de hora padrão. Quando esse compromisso for exibido em outros fusos horários, o número apropriado de horas é adicionado ou subtraído do valor para determinar o tempo específicas do fuso horário UTC. Por exemplo, se um compromisso tem uma hora de início às 13:00 Leste (6:00 PM UTC) e é visualizado a partir de um cliente no fuso horário do Pacífico (UTC-08:00), específicos do fuso horário hora de início para que o cliente seria 10:00 AM (18:00-08:00).
+Os valores de tempo são armazenados no servidor Exchange em tempo universal coordenado (UTC). Portanto, se um compromisso estiver definido para iniciar em 1:00 PM (13:00) no fuso horário do leste (UTC-05:00), esse valor será armazenado como 6:00 PM (18:00) no servidor, supondo que o fuso horário esteja em sua fase de tempo padrão. Quando esse compromisso é exibido em outros fusos horários, o número apropriado de horas é adicionado ou subtraído do valor UTC para determinar o tempo específico do fuso horário. Por exemplo, se um compromisso tem uma hora de início em 1:00 P.M. (6:00 PM UTC) e é exibido em um cliente no fuso horário do Pacífico (UTC-08:00), a hora de início específica do fuso horário desse cliente seria de 10:00 (18:00-08:00).
   
-Quando você atualiza o fuso horário do compromisso sem atualizar a hora de início e término, o servidor atualiza os valores de UTC armazenados no servidor para manter a hora de início e término como os tempos de fuso horário específico mesmos. Por exemplo, considere o compromisso de 1:00 PM do Leste. O tempo é armazenado como 18:00 UTC no servidor. Se o fuso horário do compromisso for alterado para o fuso horário do Pacífico, o servidor desloca a hora de início para 1:00 PM Pacífico (UTC 21:00).
+Quando você atualiza o fuso horário do compromisso sem Atualizar a hora de início e de término, o servidor atualiza os valores UTC armazenados no servidor para manter a hora de início e de término como os mesmos horários específicos de fuso horário. Por exemplo, considere o compromisso leste de 1:00 PM. O horário é armazenado como 18:00 UTC no servidor. Se o fuso horário do compromisso for alterado para o fuso horário do Pacífico, o servidor mudará o horário de início para 1:00 PM Pacífico (21:00 UTC).
   
-Você pode alterar esse comportamento, definindo explicitamente os horários de início e término.
+Você pode alterar esse comportamento definindo explicitamente as horas de início e de término.
   
-## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-the-ews-managed-api"></a>Atualizando o fuso horário em um compromisso existente usando a API gerenciada de EWS
+## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-the-ews-managed-api"></a>Atualizando o fuso horário de um compromisso existente usando a API gerenciada do EWS
 
-No exemplo a seguir, a API gerenciada de EWS é usada para atualizar o fuso horário em um compromisso existente para o fuso horário Central atualizando os **Appointment.StartTimeZone** e as propriedades de **Appointment.EndTimeZone** . Se o parâmetro _shiftAppointnment_ é definido como **true**, o código não definir explicitamente os horários de início e término no compromisso. Nesse caso, o servidor mudará os horários de início e término para mantê-los nos momentos mesmos relativa de fuso horário no novo fuso horário. Se definido como **false**, o código converte os horários de início e término explicitamente para manter o compromisso ao mesmo tempo em UTC. 
+No exemplo a seguir, a API gerenciada do EWS é usada para atualizar o fuso horário de um compromisso existente para o fuso horário central atualizando as propriedades de **compromisso. StartTimeZone** e **compromisso. endtimezone** . Se o parâmetro _shiftAppointnment_ for definido como **true**, o código não definirá explicitamente as horas de início e de término no compromisso. Nesse caso, o servidor mudará as horas de início e de término para mantê-las no mesmo fuso horário – tempo relativo, no novo fuso horário. Se definido como **false**, o código converte os horários de início e término explicitamente para manter o compromisso ao mesmo tempo em UTC. 
 
-Este exemplo pressupõe que o objeto **ExchangeService** foi inicializado com valores válidos nas propriedades [credenciais](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) e [Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . 
+Este exemplo pressupõe que o objeto **ExchangeService** tenha sido inicializado com valores válidos nas propriedades de [credenciais](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) e [URL](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . 
   
 ```cs
 static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bool shiftAppointment)
@@ -112,7 +112,7 @@ static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bo
 }
 ```
 
-Quando o exemplo é usado para atualizar um compromisso que começa às 13:00 Leste e terminará às 2:00 PM Leste, com o parâmetro _shiftAppointment_ definido como true e a propriedade [ExchangeService.TimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) definida como o fuso horário do Leste, a saída se parece semelhante ao seguinte. 
+Quando o exemplo é usado para atualizar um compromisso que começa às 1:00 P.M. Aires e termina em 2:00 P.M. Aires, com o parâmetro _shiftAppointment_ definido como true e a propriedade [ExchangeService. TimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) definida como o fuso horário do leste, a saída será semelhante ao seguinte. 
   
 ```MS-DOS
 Before update:
@@ -129,7 +129,7 @@ After update:
   End time zone: (UTC-06:00) Central Time (US &amp; Canada)
 ```
 
-Quando o exemplo é usado para atualizar o mesmo compromisso com o parâmetro _shiftAppointment_ definido como false e com a propriedade de **fuso horário** novamente definida para o fuso horário do Leste, a saída se parece um pouco diferente. 
+Quando o exemplo é usado para atualizar o mesmo compromisso com o parâmetro _shiftAppointment_ definido como false e, com a propriedade **timezone** novamente definida como o fuso horário do leste, a saída parece um pouco diferente. 
   
 ```MS-DOS
 Before update:
@@ -146,18 +146,18 @@ After update:
   End time zone: (UTC-06:00) Central Time (US &amp; Canada)
 ```
 
-Observe que os horários de início e término não foram alterado. Isso ocorre porque os tempos são interpretados no tempo do Leste (porque a propriedade **TimeZone** está definida para o fuso horário do Leste) de zona, e os valores de hora foram atualizados para impedir que o compromisso da mudança. 
+Observe que as horas de início e término não foram alteradas. Isso ocorre porque os horários estão sendo interpretados no fuso horário da costa leste (porque a propriedade **timezone** é definida como o fuso horário do leste) e os valores de tempo foram atualizados para impedir que o compromisso seja deslocado. 
   
-## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-ews"></a>Atualizando o fuso horário em um compromisso existente usando o EWS
+## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-ews"></a>Atualizando o fuso horário de um compromisso existente usando o EWS
 
-A solicitação EWS [UpdateItem operação](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) exemplo a seguir atualiza o fuso horário em um compromisso. Este exemplo atualiza apenas os elementos [StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) e [EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) , para que o servidor mudará os horários de início e término do compromisso mantê-la ao mesmo tempo relativa de fuso horário no novo fuso horário. O valor do elemento **ItemId** é abreviado para fins de legibilidade. 
+O exemplo a seguir, a solicitação de operação do EWS [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) atualiza o fuso horário de um compromisso. Este exemplo apenas atualiza os elementos [StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) e [endtimezone](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) , de modo que o servidor mudará as horas de início e de término do compromisso para mantê-lo no mesmo horário de fuso horário relativo ao novo fuso horário. O valor do elemento **ItemId** é reduzido para legibilidade. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -187,14 +187,14 @@ A solicitação EWS [UpdateItem operação](http://msdn.microsoft.com/library/5d
 </soap:Envelope>
 ```
 
-A solicitação de exemplo a seguir atualiza o fuso horário do compromisso e também atualiza os horários de início e término, definindo explicitamente os elementos **Start** e **End** . O valor do elemento **ItemId** é abreviado para fins de legibilidade. 
+A solicitação de exemplo a seguir atualiza o fuso horário do compromisso e também atualiza os horários de início e de término, definindo explicitamente os elementos **Start** e **end** . O valor do elemento **ItemId** é reduzido para legibilidade. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -236,7 +236,7 @@ A solicitação de exemplo a seguir atualiza o fuso horário do compromisso e ta
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Fusos horários e EWS no Exchange](time-zones-and-ews-in-exchange.md)   
 - [Criar compromissos em um fuso horário específico usando o EWS no Exchange](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)   

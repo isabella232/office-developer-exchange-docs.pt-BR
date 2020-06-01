@@ -1,5 +1,5 @@
 ---
-title: Função CChkSGFiles.ErrCheckDbHeaders
+title: Função função cchksgfiles. ErrCheckDbHeaders
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 75289cd2-35b1-4f75-a651-dce01f1ddda1
-description: 'Modificado pela última vez: 22 de fevereiro de 2013'
-ms.openlocfilehash: a407019063b34970e883a00ca4f4d730935d7cba
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Última modificação: 22 de fevereiro de 2013'
+ms.openlocfilehash: a62c5940322d3d7a71f2db93214f1e970fc6859b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750636"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455244"
 ---
-# <a name="cchksgfileserrcheckdbheaders-function"></a>Função CChkSGFiles.ErrCheckDbHeaders
+# <a name="cchksgfileserrcheckdbheaders-function"></a>Função função cchksgfiles. ErrCheckDbHeaders
 
 **Aplica-se a:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 
   
-Valida os cabeçalhos dos arquivos de banco de dados que foram especificados pela função **ErrInit** . Essa função também retornará o tamanho de página e o número de páginas em cada um dos bancos de dados especificados. 
+Valida os cabeçalhos dos arquivos de banco de dados que foram especificados pela função **ErrInit** . Essa função também retorna o tamanho da página e o número de páginas em cada um dos bancos de dados especificados. 
   
 ```cs
 Vitual ERRErrCheckDbHeaders  
@@ -36,44 +36,44 @@ Vitual ERRErrCheckDbHeaders
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 ### <a name="pcbdbpagesize"></a>pcbDbPageSize 
   
-Parâmetro de saída. O tamanho de página de cada banco de dados especificados, em bytes.
+Parâmetro de saída. O tamanho de página de cada um dos bancos de dados especificados, em bytes.
     
 ### <a name="pcheaderpagesperdb"></a>pcHeaderPagesPerDb 
   
-Parâmetro de saída. O número de páginas no início de cada especificado banco de dados que são reservados pelo mecanismo de banco de dados para uso interno. Observe que você deve *secreta páginas de cabeçalho para a função **ErrCheckDbPages** para validação* . 
+Parâmetro de saída. O número de páginas no início de cada banco de dados especificado que são reservados pelo mecanismo de banco de dados para uso interno. Observe que você *não* deve passar páginas de cabeçalho para a função **ErrCheckDbPages** para validação. 
     
 ### <a name="pidberrorencountered"></a>piDbErrorEncountered
   
-Parâmetro de saída. Se o valor de retorno da função indica um erro, esse parâmetro será um índice na matriz **[] de rgwszDb** passado para a função **ErrInit** . O elemento de matriz indexada representa o banco de dados no qual o erro foi encontrado. Se a função não retorna um valor de erro, o valor do parâmetro é inválido. 
+Parâmetro de saída. Se o valor de retorno da função indicar um erro, esse parâmetro será um índice na matriz **rgwszDb []** passada para a função **ErrInit** . O elemento de matriz indexada representa o banco de dados no qual o erro foi encontrado. Se a função não retornar um valor de erro, esse valor de parâmetro é inválido. 
     
 ### <a name="ulflags"></a>ulFlags 
   
-Parâmetro de entrada opcional. Esse valor é reservado para uso futuro. O valor passado deve ser de 0 (zero).
+Parâmetro de entrada opcional. Esse valor é reservado para uso futuro. O valor passado deve ser 0 (zero).
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-Essa função retornará um código de erro da [enumeração CChkSGFiles.ERR](cchksgfiles-err-enumeration.md).
+Essa função retorna um código de erro da [Enumeração função cchksgfiles. err](cchksgfiles-err-enumeration.md).
   
 ## <a name="remarks"></a>Comentários
 
-**ErrCheckDbHeaders** certifica-se de que todos os bancos de dados registrados com **ErrInit** tenham o mesmo log assinatura e do banco de dados do tamanho da página. Você também pode usar o menor valor de parâmetro de **genMin** e o maior valor do parâmetro **genMax** para determinar o conjunto de arquivos de log que são necessárias para colocar todos os bancos de dados registrados em um estado de desligamento. 
+**ErrCheckDbHeaders** verifica se todos os bancos de dados registrados com **ErrInit** têm a mesma assinatura de log e o tamanho da página do banco de dados. Você também pode usar o menor valor de parâmetro **genMin** e o valor de parâmetro de **genMax** mais alto para determinar o conjunto de arquivos de log que são necessários para colocar todos os bancos de dados registrados em um estado de desligamento normal. 
   
-O parâmetro **piDbErrorEncountered** é definido somente quando for detectado um erro, conforme indicado por uma diferente de zero **ErrCheckDbHeaders** o valor de retorno. 
+O parâmetro **piDbErrorEncountered** é definido somente quando um erro é detectado, conforme indicado por um valor de retorno diferente de zero **ErrCheckDbHeaders** . 
   
-Quando ocorre um erro nessa função, será adicionado um evento de erro no log de eventos de erro do Windows.
+Quando ocorrer um erro nesta função, um evento de erro será adicionado ao log de eventos de erro do Windows.
   
-Você pode chamar **ErrCheckDbHeaders** somente depois de chamar **ErrInit**e você deverá chamá-la antes de chamar **ErrCheckDbPages** e **ErrCheckLogs**.
+Você pode chamar **ErrCheckDbHeaders** somente depois de chamar **ErrInit**e deve chamá-lo antes de chamar **ErrCheckDbPages** e **ErrCheckLogs**.
   
-Se você estiver usando CHKSGFILES em um aplicativo multithreaded, você deve chamar a função **ErrCheckDbHeaders** na parte com um único segmento e você poderá chamá-lo apenas uma vez para cada objeto **CCheckSGFiles** . 
+Se você estiver usando o CHKSGFILES em um aplicativo multi-threaded, deverá chamar a função **ErrCheckDbHeaders** na parte de thread único e você poderá chamá-la apenas uma vez para cada objeto **CCheckSGFiles** . 
   
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
-Exchange 2013 inclui apenas uma versão de 64 bits da API CHKSGFILES.
+O Exchange 2013 inclui apenas uma versão de 64 bits da API CHKSGFILES.
   
-A conta que o aplicativo está sendo executado em deve ter permissões de acesso de leitura para os arquivos de log e de banco de dados que devem ser verificado.
+A conta sob a qual o aplicativo está sendo executado deve ter permissões de acesso de leitura para o banco de dados e arquivos de log que devem ser verificados.
   
 

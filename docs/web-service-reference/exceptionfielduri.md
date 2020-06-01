@@ -11,46 +11,46 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7afda93a-0f8c-4c9e-8e09-f1b0bfc928bf
-description: O elemento ExceptionFieldURI identifica erros específicos em uma solicitação. Esse elemento é usado apenas como parte de uma resposta de erro no nó MessageXml.
-ms.openlocfilehash: 79909405179cec0d0b86ad12bf52031e1daeb790
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ExceptionFieldURI identifica erros específicos em uma solicitação. Este elemento é usado apenas como parte de uma resposta de erro no nó MessageXml.
+ms.openlocfilehash: a47d44098f85d8bacb1e7a2c48a33e478e56c7ac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752118"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454341"
 ---
 # <a name="exceptionfielduri"></a>ExceptionFieldURI
 
-O elemento **ExceptionFieldURI** identifica erros específicos em uma solicitação. Esse elemento é usado apenas como parte de uma resposta de erro no nó [MessageXml](messagexml.md) . 
+O elemento **ExceptionFieldURI** identifica erros específicos em uma solicitação. Este elemento é usado apenas como parte de uma resposta de erro no nó [MessageXml](messagexml.md) . 
   
 ```xml
 <ExceptionFieldURI FieldURI="" />
 ```
 
  **ExceptionPropertyURIType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**FieldURI** <br/> |Identifica uma propriedade de uma ocorrência de um item recorrente. Este atributo é necessário.  <br/> |
+|**FieldURI** <br/> |Identifica uma propriedade de uma ocorrência de um item recorrente. Esse atributo é necessário.  <br/> |
    
 #### <a name="fielduri-attribute"></a>Atributo FieldURI
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Nome do anexo:  <br/> |Identifica o nome do anexo como contendo um erro.  <br/> |
-|anexo: ContentType  <br/> |Identifica o tipo de conteúdo como contendo um erro.  <br/> |
-|Conteúdo de anexo:  <br/> |Identifica o conteúdo como contendo um erro.  <br/> |
-|Recorrência: mês  <br/> |Identifica o campo de mês como contendo um erro.  <br/> |
-|Recorrência: DayOfWeekIndex  <br/> |Identifica o dia do índice de semana como contendo um erro.  <br/> |
-|Recorrência: DaysOfWeek  <br/> |Identifica a propriedade DaysOfWeek como contendo um erro.  <br/> |
-|Recorrência: DayOfMonth  <br/> |Identifica o DayOfMonth como contendo um erro.  <br/> |
-|Intervalo de recorrência:  <br/> |Identifica o intervalo como contendo um erro.  <br/> |
-|Recorrência: NumberOfOccurrences  <br/> |Identifica o número de ocorrências como contendo um erro.  <br/> |
+|Anexo: nome  <br/> |Identifica o nome do anexo como contendo um erro.  <br/> |
+|Anexo: ContentType  <br/> |Identifica o tipo de conteúdo como contendo um erro.  <br/> |
+|Anexo: conteúdo  <br/> |Identifica o conteúdo como contendo um erro.  <br/> |
+|recorrência: mês  <br/> |Identifica o campo month como contendo um erro.  <br/> |
+|recorrência: DayOfWeekIndex  <br/> |Identifica o índice de dia da semana como contendo um erro.  <br/> |
+|recorrência: DaysOfWeek  <br/> |Identifica a Propriedade DaysOfWeek como contendo um erro.  <br/> |
+|recorrência: DayOfMonth  <br/> |Identifica o DayOfMonth como contendo um erro.  <br/> |
+|recorrência: intervalo  <br/> |Identifica o intervalo como contendo um erro.  <br/> |
+|recorrência: NumberOfOccurrences  <br/> |Identifica o número de ocorrências como contendo um erro.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -60,22 +60,22 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MessageXml](messagexml.md) <br/> |Fornece informações de resposta de erro adicionais.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta de erro.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

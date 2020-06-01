@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b0f92682-4895-4bcf-a4a1-e4c2e8403979
 description: A operação DeleteFolder exclui pastas de uma caixa de correio.
-ms.openlocfilehash: 0fd7c9d4b04a706dcdb83f41087eaa4f3d45f129
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e9bb9199027c2af2cbbb664ef7ad4fa70b7ef718
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751743"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455741"
 ---
 # <a name="deletefolder-operation"></a>Operação DeleteFolder
 
@@ -27,17 +27,17 @@ A operação **DeleteFolder** exclui pastas de uma caixa de correio.
 
 ### <a name="description"></a>Descrição
 
-Este exemplo de uma solicitação de **DeleteFolder** a seguir mostra como uma solicitação para excluir uma pasta de formulário. 
+O exemplo a seguir de uma solicitação **DeleteFolder** mostra como formar uma solicitação para excluir uma pasta. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <DeleteFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <DeleteFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                   DeleteType="HardDelete" >
       <FolderIds>
         <t:FolderId Id="AS4AUnVz=" />
@@ -47,14 +47,14 @@ Este exemplo de uma solicitação de **DeleteFolder** a seguir mostra como uma s
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-Este exemplo executa uma exclusão dura na pasta.
+Este exemplo executa uma exclusão de disco rígido na pasta.
   
 > [!NOTE]
-> O ID de pasta foi reduzido para preservar a legibilidade. 
+> A ID da pasta foi reduzida para preservar a legibilidade. 
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -65,11 +65,11 @@ Os seguintes elementos são usados na solicitação:
 - [FolderId](folderid.md)
     
 > [!NOTE]
-> O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada. 
+> O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada. 
   
-Para localizar outras opções para a mensagem de solicitação da operação **DeleteFolder** , explore a hierarquia de esquema. Inicie o elemento [DeleteFolder](deletefolder.md) . 
+Para encontrar outras opções para a mensagem de solicitação da operação **DeleteFolder** , explore a hierarquia de esquema. Inicie no elemento [DeleteFolder](deletefolder.md) . 
   
-## <a name="successful-deletefolder-response"></a>Resposta de DeleteFolder bem-sucedida
+## <a name="successful-deletefolder-response"></a>Resposta DeleteFolder bem-sucedida
 
 ### <a name="description"></a>Descrição
 
@@ -84,12 +84,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **DeleteFol
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <DeleteFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -114,13 +114,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-Para localizar outras opções para a mensagem de resposta da operação **DeleteFolder** , explore a hierarquia de esquema. Inicie o elemento [DeleteFolderResponse](deletefolderresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta da operação **DeleteFolder** , explore a hierarquia do esquema. Inicie no elemento [DeleteFolderResponse](deletefolderresponse.md) . 
   
 ## <a name="deletefolder-error-response"></a>Resposta de erro DeleteFolder
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de **DeleteFolder** . O erro foi causado por uma solicitação para excluir uma pasta que não estava presente na caixa de correio. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação **DeleteFolder** . O erro foi causado por uma solicitação para excluir uma pasta que não estava presente na caixa de correio. 
   
 ### <a name="code"></a>Código
 
@@ -131,12 +131,12 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de **DeleteFo
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <DeleteFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteFolderResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -149,7 +149,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de **DeleteFo
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
 A operação **DeleteFolder** não pode ser usada em pastas diferenciadas. 
   
@@ -171,10 +171,10 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Para localizar outras opções para a mensagem de resposta de erro da operação **DeleteFolder** , explore a hierarquia de esquema. Inicie o elemento [DeleteFolderResponse](deletefolderresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta de erro da operação **DeleteFolder** , explore a hierarquia de esquema. Inicie no elemento [DeleteFolderResponse](deletefolderresponse.md) . 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
-- [Excluindo pastas](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
+- [Excluindo pastas](https://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
 

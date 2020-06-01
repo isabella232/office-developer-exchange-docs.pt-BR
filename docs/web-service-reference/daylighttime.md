@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9f551ee4-d945-477c-b981-9554b197d26d
-description: O elemento DaylightTime representa um deslocamento, desde o momento em relação ao tempo Universal Coordenado (UTC) que é representado por um elemento Bias (UTC) em regiões onde o horário de verão é observado. Esse elemento também contém informações sobre como ocorre a transição do horário de verão do período padrão.
-ms.openlocfilehash: 07ec4b1a5f84669aca33d46cdf1fa2e578f3b43b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DaylightTime representa um deslocamento do tempo relativo ao UTC (tempo Universal Coordenado) que é representado pelo elemento Bias (UTC) nas regiões onde o horário de verão é observado. Esse elemento também contém informações sobre quando ocorre a transição para o horário de Verão do horário padrão.
+ms.openlocfilehash: 350fcb4ce278f423c62fcc5ecaa160eda71e4a2c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751702"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455650"
 ---
 # <a name="daylighttime"></a>DaylightTime
 
-O elemento **DaylightTime** representa um deslocamento, desde o momento em relação ao tempo Universal Coordenado (UTC) que é representado por um elemento [Bias (UTC)](bias-utc.md) em regiões onde o horário de verão é observado. Esse elemento também contém informações sobre como ocorre a transição do horário de verão do período padrão. 
+O elemento **DaylightTime** representa um deslocamento do tempo relativo ao UTC (tempo Universal Coordenado) que é representado pelo elemento [Bias (UTC)](bias-utc.md) nas regiões onde o horário de verão é observado. Esse elemento também contém informações sobre quando ocorre a transição para o horário de Verão do horário padrão. 
   
 - [Fuso horário (disponibilidade)](timezone-availability.md) 
 - [DaylightTime](daylighttime.md)
@@ -39,37 +39,37 @@ O elemento **DaylightTime** representa um deslocamento, desde o momento em rela�
 
 **SerializableTimeZoneTime**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Bias](bias.md) <br/> |Representa o deslocamento de deslocamento UTC é identificado pelo elemento [Bias (UTC)](bias-utc.md) para o período padrão e o horário de verão. Este valor está em minutos.  <br/> |
-|[Time](time.md) <br/> |Representa a hora de transição do dia de e para período padrão e o horário de verão.  <br/> |
-|[DayOrder](dayorder.md) <br/> |Representa a ocorrência de _n_th do dia em que é especificado no elemento [DayOfWeek (TimeZone)](dayofweek-timezone.md) que representa a data de transição de e até o período padrão e o horário de verão.  <br/> |
-|[Month](month.md) <br/> |Representa o mês de transição do ano para e de período padrão e o horário de verão.  <br/> |
-|[DayOfWeek (TimeZone)](dayofweek-timezone.md) <br/> |Representa o dia da semana em que ocorre a transição entre o horário padrão e o horário de verão.  <br/> |
-|[Ano](year.md) <br/> |Usado para definir um fuso horário que mudam dependendo do ano. Esse elemento é opcional. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
+|[Bias](bias.md) <br/> |Representa o deslocamento do deslocamento UTC identificado pelo elemento [Bias (UTC)](bias-utc.md) para horário padrão e horário de verão. Este valor está em minutos.  <br/> |
+|[Time](time.md) <br/> |Representa o horário de transição do dia para e a partir do horário padrão e do horário de verão.  <br/> |
+|[DayOrder](dayorder.md) <br/> |Representa a _n_th ocorrência do dia que é especificada no elemento [DayOfWeek (TimeZone)](dayofweek-timezone.md) que representa a data de transição de e para o horário padrão e o horário de verão.  <br/> |
+|[Month](month.md) <br/> |Representa o mês de transição do ano de e para hora padrão e horário de verão.  <br/> |
+|[DayOfWeek (fuso horário)](dayofweek-timezone.md) <br/> |Representa o dia da semana em que ocorre a transição para e a hora padrão e o horário de verão.  <br/> |
+|[Year](year.md) <br/> |Usado para definir um fuso horário que muda dependendo do ano. Este elemento é opcional. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Fuso horário (disponibilidade)](timezone-availability.md) <br/> | Contém os elementos que identificam as informações de fuso horário.<br/><br/>Esse elemento também contém informações sobre a transição entre o período padrão e o horário de verão.<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[Fuso horário (disponibilidade)](timezone-availability.md) <br/> | Contém elementos que identificam informações de fuso horário.<br/><br/>Esse elemento também contém informações sobre a transição entre o horário padrão e o horário de verão.<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
    
 ## <a name="example"></a>Exemplo
 
-A solicitação de GetUserAvailability parcial seguinte representa um aplicativo cliente no local que reconheça o horário de verão.
+A solicitação parcial de GetUserAvailability a seguir representa um aplicativo cliente em um local que reconhece o horário de verão.
   
 ```xml
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -88,17 +88,17 @@ A solicitação de GetUserAvailability parcial seguinte representa um aplicativo
 </TimeZone>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação GetUserAvailability](getuseravailability-operation.md)
-- [Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

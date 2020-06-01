@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4e657e57-528f-4250-a99c-f9850bbbcec5
-description: O elemento RequestType identifica se uma solicitação de proxy é uma solicitação de entre florestas ou entre sites.
-ms.openlocfilehash: 96a4d57432b15aa54fff2618df458fc75cb227f3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RequestType identifica se uma solicitação de proxy é uma solicitação de intersite ou entre florestas.
+ms.openlocfilehash: 278a65a1f2ce4cb433ae8099703d70d0a2cafa3b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825139"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455965"
 ---
 # <a name="requesttype"></a>RequestType
 
-O elemento **RequestType** identifica se uma solicitação de proxy é uma solicitação de entre florestas ou entre sites. 
+O elemento **RequestType** identifica se uma solicitação de proxy é uma solicitação de intersite ou entre florestas. 
   
 ```xml
 <RequestType>CrossSite or CrossForest</RequestType>
 ```
 
  **AvailabilityProxyRequestType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,24 +44,24 @@ Nenhum.
 
 Este elemento não tem um pai no esquema. Este elemento é usado no cabeçalho SOAP. Para obter mais informações sobre como esse elemento é usado, consulte o arquivo WSDL.
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é necessário para esse elemento. Veja a seguir os valores possíveis:
+Um valor de texto é necessário para este elemento. Veja a seguir os valores possíveis:
   
 - CrossSite
     
-- Relação
+- CrossForest
     
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

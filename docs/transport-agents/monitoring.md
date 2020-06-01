@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: 350d7b46-9260-41a7-8613-3cb8cc1b29a5
-description: 'Modificado pela última vez: 17 de setembro de 2015'
-ms.openlocfilehash: 1b5484467def0bf3d22ba0707357977d5ed461ff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Última modificação: 17 de setembro de 2015'
+ms.openlocfilehash: 5614ac2c6428da9b6845769a9335486d3ded5754
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751023"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455825"
 ---
 # <a name="monitoring"></a>monitoramento
   
 **Aplica-se a:** Exchange Server 2013
   
-O elemento de **monitoramento** contém informações de configuração que definem como e quando o serviço de transporte de Front-End ou o serviço de transporte monitora os operadores que estão instalados. 
+O elemento **Monitoring** contém informações de configuração que definem como e quando o serviço de transporte de front-end ou o serviço de transporte monitora os agentes instalados. 
   
-- [configuração](configuration.md)  
+- [configuration](configuration.md)  
 - [mexRuntime](mexruntime.md)  
 - [monitoramento](monitoring.md)
   
@@ -36,39 +36,39 @@ O elemento de **monitoramento** contém informações de configuração que defi
 </monitoring>
 ```
 
-**monitoringType (complexType)**
+**monitortype (complexType)**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[agentExecution](agentexecution.md) <br/> |Define o tempo, em milissegundos, para o acesso do cliente ou o servidor de caixa de correio aguardar um operador retornar a partir de um evento antes que ela foi gravada no log de eventos.  <br/> |
-|[messageSnapshot](messagesnapshot.md) <br/> |Contém um atributo que especifica se o recurso de rastreamento de pipeline está habilitado para o acesso do cliente ou no servidor de caixa de correio.  <br/> |
+|[agentExecution](agentexecution.md) <br/> |Define o tempo, em milissegundos, para o acesso do cliente ou o servidor de caixa de correio para aguardar que um agente retorne de um evento antes de gravar no log de eventos.  <br/> |
+|[messageSnapshot](messagesnapshot.md) <br/> |Contém um atributo que especifica se o recurso de rastreamento de pipeline está habilitado para o acesso do cliente ou o servidor de caixa de correio.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[mexRuntime](mexruntime.md) <br/> |Contém os elementos que definem as informações de configuração de monitoramento de agente e informações de configuração de SMTP e os agentes de roteamento que estão instalados.  <br/> |
+|[mexRuntime](mexruntime.md) <br/> |Contém elementos que definem informações de configuração para o monitoramento de agentes e informações de configuração para SMTP e agentes de roteamento instalados.  <br/> |
    
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |Esse arquivo não define um namespace.  <br/> |
-|Nome do esquema  <br/> |Não disponível.  <br/> |
-|Arquivo de validação  <br/> |Não disponível.  <br/> |
+|Namespace  <br/> |Este arquivo não define um namespace.  <br/> |
+|Nome do esquema  <br/> |Indisponível.  <br/> |
+|Arquivo de validação  <br/> |Indisponível.  <br/> |
 |Pode ser vazio  <br/> |Falso.  <br/> |
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Elementos de arquivo de configuração de agentes para o Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Enumeração CChkSGFiles.iDbInvalid
+title: Enumeração função cchksgfiles. iDbInvalid
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,15 +11,15 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 3d2b754f-2161-4377-b5f8-35abe3033b68
-description: 'Modificado pela última vez: 22 de fevereiro de 2013'
-ms.openlocfilehash: e0dbe4998217a4dcd237b6dfa3385cc71a2b03e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Última modificação: 22 de fevereiro de 2013'
+ms.openlocfilehash: 5a2d32da114391a623d5b0cc2d6c5ca49db78148
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751568"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455503"
 ---
-# <a name="cchksgfilesidbinvalid-enumeration"></a>Enumeração CChkSGFiles.iDbInvalid
+# <a name="cchksgfilesidbinvalid-enumeration"></a>Enumeração função cchksgfiles. iDbInvalid
 
 **Aplica-se a:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
@@ -30,10 +30,10 @@ Enum { iDbInvalid = 0xFFFFFFF }
 
 ```
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
-Exchange Server 2013 apenas inclui uma versão de 64 bits da API CHKSGFILES.
+O Exchange Server 2013 inclui apenas uma versão de 64 bits da API CHKSGFILES.
   
-A conta que o aplicativo está sendo executado em deve ter permissões de acesso de leitura para os arquivos de log e de banco de dados que devem ser verificado.
+A conta sob a qual o aplicativo está sendo executado deve ter permissões de acesso de leitura para o banco de dados e arquivos de log que devem ser verificados.
   
 
