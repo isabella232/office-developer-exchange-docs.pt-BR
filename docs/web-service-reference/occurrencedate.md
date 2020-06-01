@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f041c15c-1a96-4a6f-9d21-0536936a5484
-description: O elemento OccurrenceDate destina-se somente para uso interno.
-ms.openlocfilehash: 20f6a65337ff81573ca0fa1c74757da0968b1292
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento OccurrenceDate é destinado apenas para uso interno.
+ms.openlocfilehash: 76f1410251ae4c3f8b82873894d97e94d66098af
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824638"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44450715"
 ---
 # <a name="occurrencedate"></a>OccurrenceDate
 
-O elemento **OccurrenceDate** destina-se somente para uso interno. 
+O elemento **OccurrenceDate** é destinado apenas para uso interno. 
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
