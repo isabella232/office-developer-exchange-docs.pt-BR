@@ -12,33 +12,33 @@ api_type:
 - schema
 ms.assetid: 93e44690-be2d-4fdb-96a8-4ded3c193aed
 description: A operação DeleteUserConfiguration exclui um objeto de configuração do usuário em uma pasta.
-ms.openlocfilehash: 033134a7e16aa8e7a3d6b928141012b646863a68
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 064e1ace2c2f51783431ce42670b2a4fd8146b54
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751759"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44451464"
 ---
 # <a name="deleteuserconfiguration-operation"></a>Operação DeleteUserConfiguration
 
 A operação **DeleteUserConfiguration** exclui um objeto de configuração do usuário em uma pasta. 
   
 > [!IMPORTANT]
-> A operação **DeleteUserConfiguration** irá disparar um evento de movimentação para o sistema de notificação de evento. O objeto de configuração do usuário será movido para o dumpster. 
+> A operação **DeleteUserConfiguration** acionará um evento move para o sistema de notificação de eventos. O objeto de configuração do usuário será movido para o dumpster. 
   
-## <a name="deleteuserconfiguration-request-example"></a>Exemplo de solicitação de DeleteUserConfiguration
+## <a name="deleteuserconfiguration-request-example"></a>Exemplo de solicitação DeleteUserConfiguration
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **DeleteUserConfiguration** mostra como formar uma solicitação para excluir um objeto de configuração do usuário na pasta Rascunhos. 
+O exemplo a seguir de uma solicitação **DeleteUserConfiguration** mostra como formar uma solicitação para excluir um objeto de configuração do usuário na pasta Rascunhos. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -71,15 +71,15 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **DeleteUse
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:DeleteUserConfigurationResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:DeleteUserConfigurationResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:DeleteUserConfigurationResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -90,7 +90,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **DeleteUse
 </s:Envelope>
 ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md) 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

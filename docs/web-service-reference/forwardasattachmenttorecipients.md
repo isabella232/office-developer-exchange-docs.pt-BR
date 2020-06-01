@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8649ea14-672f-43c9-b10a-a2b02efd5867
-description: O elemento ForwardAsAttachmentToRecipients indica os endereços de email ao qual as mensagens devem ser encaminhadas como anexos.
-ms.openlocfilehash: 04d4f9c6228e6d0ab34a6eff5d5751f461a57e19
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ForwardAsAttachmentToRecipients indica os endereços de email para os quais as mensagens devem ser encaminhadas como anexos.
+ms.openlocfilehash: bf8c3563460eea811602074bf16f9253b4610832
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752351"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44453333"
 ---
 # <a name="forwardasattachmenttorecipients"></a>ForwardAsAttachmentToRecipients
 
-O elemento **ForwardAsAttachmentToRecipients** indica os endereços de email ao qual as mensagens devem ser encaminhadas como anexos. 
+O elemento **ForwardAsAttachmentToRecipients** indica os endereços de email para os quais as mensagens devem ser encaminhadas como anexos. 
   
 ```XML
 <ForwardAsAttachmentToRecipients>
@@ -30,27 +30,27 @@ O elemento **ForwardAsAttachmentToRecipients** indica os endereços de email ao 
 ```
 
  **ArrayOfEmailAddressesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Endereço (EmailAddressType)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
+|[Endereço (EmailAddresstype)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Ações](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis a ser executada em uma mensagem quando as condições são atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -58,16 +58,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

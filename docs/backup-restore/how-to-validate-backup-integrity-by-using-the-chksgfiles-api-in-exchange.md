@@ -1,5 +1,5 @@
 ---
-title: Validar a integridade do backup, usando a API CHKSGFILES no Exchange 2013
+title: Validar a integridade do backup usando a API CHKSGFILES no Exchange 2013
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,37 +7,37 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 607cbeb9-0a02-4079-8a4d-34bdeb560224
-description: Descubra como usar a API de CHKSGFILES para validar um backup do repositório do Exchange no Exchange 2013.
-ms.openlocfilehash: 968484cd5bb7439730685643683e1d850bec33ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Descubra como usar a API CHKSGFILES para validar um backup do repositório do Exchange no Exchange 2013.
+ms.openlocfilehash: c101413793cf3b952d3db3e0f792c8bcf2dd9fc9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750633"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452857"
 ---
-# <a name="validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013"></a>Validar a integridade do backup, usando a API CHKSGFILES no Exchange 2013
+# <a name="validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013"></a>Validar a integridade do backup usando a API CHKSGFILES no Exchange 2013
 
-Descubra como usar a API de CHKSGFILES para validar um backup do repositório do Exchange no Exchange 2013.
+Descubra como usar a API CHKSGFILES para validar um backup do repositório do Exchange no Exchange 2013.
   
 **Aplica-se a:** Exchange Server 2013 
   
-Durante operações de backup gerenciadas pelo serviço de cópia de sombra de Volume (VSS), o Exchange Server 2013 não é possível ler cada arquivo de banco de dados inteira e verificar sua integridade de soma de verificação. Portanto, talvez você queira que o seu aplicativo de backup para verificar a integridade do arquivo de log do banco de dados e transações. É recomendável que o seu aplicativo de backup verificar a consistência física do conjunto de cópia de sombra antes da informando que o autor do Exchange que o backup for concluído. Após um backup bem-sucedido, o Exchange store atualiza os cabeçalhos os bancos de dados de backup para refletir o último backup bem-sucedido vezes e remove os logs de transação do servidor não são mais necessários para adiar a partir do último backup bem-sucedido.
+Durante operações de backup gerenciadas pelo serviço de cópias de sombra de volume (VSS), o Exchange Server 2013 não pode ler cada arquivo de banco de dados em sua totalidade e verificar a integridade da soma de verificação. Portanto, você pode querer que seu aplicativo de backup Verifique a integridade do banco de dados e do arquivo de log de transações. Recomendamos que o aplicativo de backup Verifique a consistência física do conjunto de cópia de sombra antes de informar o gravador do Exchange de que o backup foi concluído. Após um backup bem-sucedido, o repositório do Exchange atualiza os cabeçalhos dos bancos de dados de backup para refletir os últimos tempos de backup com êxito e remove logs de transações do servidor que não são mais necessários para rolar para frente a partir do último backup bem-sucedido.
   
-## <a name="prerequisites-for-validating-backup-integrity"></a>Pré-requisitos para a validação de integridade do backup.
+## <a name="prerequisites-for-validating-backup-integrity"></a>Pré-requisitos para validar a integridade do backup
 
-Antes de seu aplicativo possa validar a integridade do backup, você deve ter acesso ao seguinte:
+Para que o aplicativo possa validar a integridade do backup, você deve ter acesso ao seguinte:
   
-- Arquivos de seu backup de repositório do Exchange.
-- Uma versão do Visual Studio, começando com o Visual Studio 2010.
-- Os arquivos de cabeçalho e de biblioteca CHKSGFILES. Você pode baixar os arquivos de biblioteca e o cabeçalho do [Centro de Download da Microsoft](http://www.microsoft.com/en-us/download/details.aspx?id=36802).
+- Arquivos do backup do armazenamento do Exchange.
+- Uma versão do Visual Studio que começa com o Visual Studio 2010.
+- A biblioteca CHKSGFILES e os arquivos de cabeçalho. Você pode baixar os arquivos de biblioteca e de cabeçalho no [centro de download da Microsoft](https://www.microsoft.com/download/details.aspx?id=36802).
     
-## <a name="validate-backup-integrity"></a>Validar a integridade do backup.
+## <a name="validate-backup-integrity"></a>Validar a integridade do backup
 
-O procedimento a seguir descreve como validar a integridade dos dados no seu backup e restaurar o aplicativo.
+O procedimento a seguir descreve como validar a integridade dos dados no aplicativo de backup e restauração.
   
-### <a name="to-validate-backup-integrity"></a>Para validar a integridade do backup.
+### <a name="to-validate-backup-integrity"></a>Para validar a integridade do backup
 
-1. Crie uma nova instância da classe **CChkSGFiles** . 
+1. Crie uma nova instância da classe **função cchksgfiles** . 
    
    ```cpp
    CCheckSGFiles::ERRerr = CCheckSGFiles::errSuccess;
@@ -51,9 +51,9 @@ O procedimento a seguir descreve como validar a integridade dos dados no seu bac
    }
    ```
 
-   As primeiras linhas de código cria um objeto error e defina seu valor inicial para o sucesso e criar um objeto que verifica a validade do banco de dados. Em seguida, a [função CChkSGFiles.New](cchksgfiles-new-function.md) cria uma nova instância da classe **CChkSGFiles** . Uma verificação rápida do novo objeto indica se qualquer problema ocorreu quando a nova instância foi criada. 
+   As primeiras linhas de código criam um objeto Error e definem seu valor inicial como Success e criam um objeto que verifica a validade do banco de dados. Em seguida, a [função função cchksgfiles. New](cchksgfiles-new-function.md) cria uma nova instância da classe **função cchksgfiles** . Uma verificação rápida do novo objeto indica se ocorreram problemas quando a nova instância foi criada. 
     
-2. Inicialize o objeto **CChkSGFiles** . 
+2. Inicialize o objeto **função cchksgfiles** . 
    
    ```cpp
    Call( pcchecksgfiles->ErrInit(
@@ -63,9 +63,9 @@ O procedimento a seguir descreve como validar a integridade dos dados no seu bac
    wszBaseName ) );
    ```
    
-   Para obter mais informações sobre os parâmetros, consulte a [função de CChkSGFiles.ErrInit](cchksgfiles-errinit-function.md).
+   Para obter mais informações sobre os parâmetros, consulte a [função função cchksgfiles. ErrInit](cchksgfiles-errinit-function.md).
    
-3. Use a [função CChkSGFiles.ErrCheckDbHeaders](cchksgfiles-errcheckdbheaders-function.md) para validar a integridade do banco de dados, verificando os cabeçalhos de banco de dados.
+3. Use a [função função cchksgfiles. ErrCheckDbHeaders](cchksgfiles-errcheckdbheaders-function.md) para validar a integridade do banco de dados verificando os cabeçalhos do banco de dados.
    
    ```cpp
    err = pcchecksgfiles->ErrCheckDbHeaders(
@@ -86,19 +86,19 @@ O procedimento a seguir descreve como validar a integridade dos dados no seu bac
    }
    ```
    
-   Para obter mais informações sobre os parâmetros, consulte a [função de CChkSGFiles.ErrCheckDbHeaders](cchksgfiles-errcheckdbheaders-function.md).
+   Para obter mais informações sobre os parâmetros, consulte a [função função cchksgfiles. ErrCheckDbHeaders](cchksgfiles-errcheckdbheaders-function.md).
    
-4. Manipular erros e usar a [função CChkSGFiles.Delete](cchksgfiles-delete-function.md) para remover a classe de **CChkSGFiles** da memória. 
+4. Manipule erros e use a [função função cchksgfiles. Delete](cchksgfiles-delete-function.md) para remover a classe **função cchksgfiles** da memória. 
    
    ```cpp
    HandleError:
    CCheckSGFiles::Delete( pcchecksgfiles );  
    ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Referência de classe CChkSGFiles](cchksgfiles-class-reference.md)
-- [Criar um backup e restaurar aplicativos para o Exchange 2013](build-backup-and-restore-applications-for-exchange-2013.md)
-- [Conceitos de backup e restauração do Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)
+- [Referência de classe função cchksgfiles](cchksgfiles-class-reference.md)
+- [Criar aplicativos de backup e restauração para o Exchange 2013](build-backup-and-restore-applications-for-exchange-2013.md)
+- [Conceitos de backup e restauração para o Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)
     
 

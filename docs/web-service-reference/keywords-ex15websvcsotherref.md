@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c466c845-9806-4a9a-8ba6-ee908b80d012
-description: O elemento de palavras-chave especifica palavras-chave para uma pesquisa de operação FindMailboxStatisticsByKeywords.
-ms.openlocfilehash: fc12756c54bfc457e8b9124d932ff7c5178719b2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Keywords Especifica palavras-chave para uma pesquisa de operação do FindMailboxStatisticsByKeywords.
+ms.openlocfilehash: d23840c4b651f5d4f42f36a0307a0fe5b25471f4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824192"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44451632"
 ---
 # <a name="keywords"></a>Palavras-chave
 
-O elemento de **palavras-chave** Especifica palavras-chave para uma pesquisa de operação **FindMailboxStatisticsByKeywords** . 
+O elemento **Keywords** Especifica palavras-chave para uma pesquisa de operação do **FindMailboxStatisticsByKeywords** . 
   
 ```XML
 <KeyWords>
@@ -26,13 +26,13 @@ O elemento de **palavras-chave** Especifica palavras-chave para uma pesquisa de 
 ```
 
  **ArrayOfStringsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
