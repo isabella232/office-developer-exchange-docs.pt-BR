@@ -7,56 +7,56 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4a3d12a2-0736-4f60-b3b8-14586467df3c
-description: O elemento ImContactSipUriAddress contém o endereço de URI do SIP de um contato que é adicionado a um grupo (IM) de mensagens instantâneas.
-ms.openlocfilehash: 230f663c10f5738707a8d03a2ba6be8a4e6d285a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ImContactSipUriAddress contém o endereço URI SIP de um contato que é adicionado a um grupo de mensagens instantâneas (IM).
+ms.openlocfilehash: 07eff4ef597b689f65241622677e4e4afc9300be
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823886"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460705"
 ---
-# <a name="imcontactsipuriaddress"></a><span data-ttu-id="1f201-103">ImContactSipUriAddress</span><span class="sxs-lookup"><span data-stu-id="1f201-103">ImContactSipUriAddress</span></span>
+# <a name="imcontactsipuriaddress"></a><span data-ttu-id="c8a81-103">ImContactSipUriAddress</span><span class="sxs-lookup"><span data-stu-id="c8a81-103">ImContactSipUriAddress</span></span>
 
-<span data-ttu-id="1f201-104">O elemento **ImContactSipUriAddress** contém o endereço de URI do SIP de um contato que é adicionado a um grupo (IM) de mensagens instantâneas.</span><span class="sxs-lookup"><span data-stu-id="1f201-104">The **ImContactSipUriAddress** element contains the SIP URI address of a contact that is added to an instant messaging (IM) group.</span></span> 
+<span data-ttu-id="c8a81-104">O elemento **ImContactSipUriAddress** contém o endereço URI SIP de um contato que é adicionado a um grupo de mensagens instantâneas (IM).</span><span class="sxs-lookup"><span data-stu-id="c8a81-104">The **ImContactSipUriAddress** element contains the SIP URI address of a contact that is added to an instant messaging (IM) group.</span></span> 
   
 ```XML
 <ImContactSipUriAddress></ImContactSipUriAddress>
 ```
 
- <span data-ttu-id="1f201-105">**NonEmptyStringType**</span><span class="sxs-lookup"><span data-stu-id="1f201-105">**NonEmptyStringType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="1f201-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="1f201-106">Attributes and elements</span></span>
+ <span data-ttu-id="c8a81-105">**NonEmptyStringType**</span><span class="sxs-lookup"><span data-stu-id="c8a81-105">**NonEmptyStringType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="c8a81-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="c8a81-106">Attributes and elements</span></span>
 
-<span data-ttu-id="1f201-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="1f201-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="c8a81-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="c8a81-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="1f201-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="1f201-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c8a81-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="c8a81-108">Attributes</span></span>
 
-<span data-ttu-id="1f201-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="1f201-109">None.</span></span>
+<span data-ttu-id="c8a81-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="c8a81-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="1f201-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="1f201-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c8a81-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="c8a81-110">Child elements</span></span>
 
-<span data-ttu-id="1f201-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="1f201-111">None.</span></span>
+<span data-ttu-id="c8a81-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="c8a81-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="1f201-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="1f201-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="c8a81-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="c8a81-112">Parent elements</span></span>
 
-[<span data-ttu-id="1f201-113">AddNewTelUriContactToGroup</span><span class="sxs-lookup"><span data-stu-id="1f201-113">AddNewTelUriContactToGroup</span></span>](addnewteluricontacttogroup.md)
+[<span data-ttu-id="c8a81-113">AddNewTelUriContactToGroup</span><span class="sxs-lookup"><span data-stu-id="c8a81-113">AddNewTelUriContactToGroup</span></span>](addnewteluricontacttogroup.md)
   
-## <a name="text-value"></a><span data-ttu-id="1f201-114">Text value</span><span class="sxs-lookup"><span data-stu-id="1f201-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="c8a81-114">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="c8a81-114">Text value</span></span>
 
-<span data-ttu-id="1f201-115">O valor de texto do elemento **ImContactSipUriAddress** é o endereço de URI do SIP de um contato.</span><span class="sxs-lookup"><span data-stu-id="1f201-115">The text value of the **ImContactSipUriAddress** element is the SIP URI address of a contact.</span></span> 
+<span data-ttu-id="c8a81-115">O valor de texto do elemento **ImContactSipUriAddress** é o endereço URI SIP de um contato.</span><span class="sxs-lookup"><span data-stu-id="c8a81-115">The text value of the **ImContactSipUriAddress** element is the SIP URI address of a contact.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="1f201-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="1f201-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c8a81-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="c8a81-116">Remarks</span></span>
 
-<span data-ttu-id="1f201-117">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1f201-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="c8a81-117">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c8a81-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="1f201-118">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="1f201-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="c8a81-118">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="c8a81-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="1f201-119">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="1f201-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="c8a81-119">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="c8a81-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="1f201-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="1f201-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="1f201-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="1f201-121">Schema name</span></span>  <br/> |<span data-ttu-id="1f201-122">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="1f201-122">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="1f201-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="1f201-123">Validation file</span></span>  <br/> |<span data-ttu-id="1f201-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="1f201-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="1f201-125">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="1f201-125">Can be empty</span></span>  <br/> |<span data-ttu-id="1f201-126">False</span><span class="sxs-lookup"><span data-stu-id="1f201-126">False</span></span>  <br/> |
+|<span data-ttu-id="c8a81-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="c8a81-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="c8a81-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="c8a81-121">Schema name</span></span>  <br/> |<span data-ttu-id="c8a81-122">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="c8a81-122">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="c8a81-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="c8a81-123">Validation file</span></span>  <br/> |<span data-ttu-id="c8a81-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="c8a81-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="c8a81-125">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="c8a81-125">Can be empty</span></span>  <br/> |<span data-ttu-id="c8a81-126">False</span><span class="sxs-lookup"><span data-stu-id="c8a81-126">False</span></span>  <br/> |
    
 

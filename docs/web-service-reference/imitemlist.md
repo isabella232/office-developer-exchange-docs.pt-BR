@@ -1,5 +1,5 @@
 ---
-title: ImItemList
+title: Imitemlist
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 556457d5-a730-4131-853f-1198c27c5942
-description: O elemento ImItemList contém uma lista de contatos de mensagens instantâneas e de grupos de mensagens instantâneos.
-ms.openlocfilehash: 490ac57da0c7ae7bedc75e94b7e21dc30c9da23f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento imitemlist contém uma lista de grupos de mensagens instantâneas e contatos de mensagens instantâneas.
+ms.openlocfilehash: 976897fd999b61207a94a8b1dc60cc1b1308acd8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823896"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460670"
 ---
-# <a name="imitemlist"></a><span data-ttu-id="1fcc4-103">ImItemList</span><span class="sxs-lookup"><span data-stu-id="1fcc4-103">ImItemList</span></span>
+# <a name="imitemlist"></a><span data-ttu-id="1d453-103">Imitemlist</span><span class="sxs-lookup"><span data-stu-id="1d453-103">ImItemList</span></span>
 
-<span data-ttu-id="1fcc4-104">O elemento **ImItemList** contém uma lista de contatos de mensagens instantâneas e de grupos de mensagens instantâneos.</span><span class="sxs-lookup"><span data-stu-id="1fcc4-104">The **ImItemList** element contains a list of instant messaging groups and instant messaging contacts.</span></span> 
+<span data-ttu-id="1d453-104">O elemento **Imitemlist** contém uma lista de grupos de mensagens instantâneas e contatos de mensagens instantâneas.</span><span class="sxs-lookup"><span data-stu-id="1d453-104">The **ImItemList** element contains a list of instant messaging groups and instant messaging contacts.</span></span> 
   
 ```XML
 <ImItemList>
@@ -26,36 +26,36 @@ ms.locfileid: "19823896"
 </ImItemList>
 ```
 
- <span data-ttu-id="1fcc4-105">**ImItemListType**</span><span class="sxs-lookup"><span data-stu-id="1fcc4-105">**ImItemListType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="1fcc4-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="1fcc4-106">Attributes and elements</span></span>
+ <span data-ttu-id="1d453-105">**ImItemListType**</span><span class="sxs-lookup"><span data-stu-id="1d453-105">**ImItemListType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="1d453-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="1d453-106">Attributes and elements</span></span>
 
-<span data-ttu-id="1fcc4-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="1fcc4-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="1d453-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="1d453-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="1fcc4-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="1fcc4-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="1d453-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="1d453-108">Attributes</span></span>
 
-<span data-ttu-id="1fcc4-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="1fcc4-109">None.</span></span>
+<span data-ttu-id="1d453-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="1d453-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="1fcc4-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="1fcc4-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="1d453-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="1d453-110">Child elements</span></span>
 
-<span data-ttu-id="1fcc4-111">[Grupos (ArrayOfImGroupType)](groups-arrayofimgrouptype.md) | [personagens](personas-ex15websvcsotherref.md)</span><span class="sxs-lookup"><span data-stu-id="1fcc4-111">[Groups (ArrayOfImGroupType)](groups-arrayofimgrouptype.md) | [Personas](personas-ex15websvcsotherref.md)</span></span>
+<span data-ttu-id="1d453-111">[Grupos (ArrayOfImGroupType)](groups-arrayofimgrouptype.md)  |  [Pessoas](personas-ex15websvcsotherref.md)</span><span class="sxs-lookup"><span data-stu-id="1d453-111">[Groups (ArrayOfImGroupType)](groups-arrayofimgrouptype.md) | [Personas](personas-ex15websvcsotherref.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="1fcc4-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="1fcc4-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="1d453-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="1d453-112">Parent elements</span></span>
 
-<span data-ttu-id="1fcc4-113">[GetImItemsResponse](getimitemsresponse.md) | [GetImItemListResponse](getimitemlistresponse.md)</span><span class="sxs-lookup"><span data-stu-id="1fcc4-113">[GetImItemsResponse](getimitemsresponse.md) | [GetImItemListResponse](getimitemlistresponse.md)</span></span>
+<span data-ttu-id="1d453-113">[GetImItemsResponse](getimitemsresponse.md)  |  [GetImItemListResponse](getimitemlistresponse.md)</span><span class="sxs-lookup"><span data-stu-id="1d453-113">[GetImItemsResponse](getimitemsresponse.md) | [GetImItemListResponse](getimitemlistresponse.md)</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="1fcc4-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="1fcc4-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1d453-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="1d453-114">Remarks</span></span>
 
-<span data-ttu-id="1fcc4-115">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1fcc4-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="1d453-115">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1d453-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="1fcc4-116">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="1fcc4-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="1d453-116">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="1d453-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="1fcc4-117">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="1fcc4-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="1d453-117">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="1d453-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="1fcc4-118">Namespace</span><span class="sxs-lookup"><span data-stu-id="1fcc4-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="1fcc4-119">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="1fcc4-119">Schema name</span></span>  <br/> |<span data-ttu-id="1fcc4-120">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="1fcc4-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="1fcc4-121">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="1fcc4-121">Validation file</span></span>  <br/> |<span data-ttu-id="1fcc4-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="1fcc4-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="1fcc4-123">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="1fcc4-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="1d453-118">Namespace</span><span class="sxs-lookup"><span data-stu-id="1d453-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="1d453-119">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="1d453-119">Schema name</span></span>  <br/> |<span data-ttu-id="1d453-120">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="1d453-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="1d453-121">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="1d453-121">Validation file</span></span>  <br/> |<span data-ttu-id="1d453-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="1d453-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="1d453-123">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="1d453-123">Can be empty</span></span>  <br/> ||
    
 
