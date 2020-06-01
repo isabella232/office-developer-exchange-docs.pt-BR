@@ -1,5 +1,5 @@
 ---
-title: Comment
+title: Comentário
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: be7f4b56-a741-46b7-9d72-3604514baac6
-description: O elemento de comentário contém o comentário associado uma pasta gerenciada.
-ms.openlocfilehash: 02f077c6320acc989bbbd29f7563cdca9e57425e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento comment contém o comentário associado a uma pasta gerenciada.
+ms.openlocfilehash: 5c13b4085f856dd9a689ec4d6acc89b39e482663
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751399"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457386"
 ---
-# <a name="comment"></a>Comment
+# <a name="comment"></a>Comentário
 
-O elemento de **comentário** contém o comentário associado uma pasta gerenciada. 
+O elemento **comment** contém o comentário associado a uma pasta gerenciada. 
   
 ```xml
 <Comment/>
 ```
 
  **String**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,24 +46,24 @@ Nenhum.
 |:-----|:-----|
 |[ManagedFolderInformation](managedfolderinformation.md) <br/> |Contém informações sobre uma pasta gerenciada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representando o comentário associado uma pasta gerenciada.
+O valor de texto representa o comentário associado a uma pasta gerenciada.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

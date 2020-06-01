@@ -8,30 +8,30 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 849629a0-0467-422f-88f6-3b8a95c17bba
-description: O elemento de domínio contém um domínio federado em uma resposta GetFederationInformation ou contém um domínio em que as definições de configuração para o qual são solicitadas em uma solicitação de GetDomainSettings.
-ms.openlocfilehash: 411ca866800322ef06eeecc2ab92adc6f711917c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Domain contém um domínio federado em uma resposta GetFederationInformation ou contém um domínio as definições de configuração para as quais são solicitadas em uma solicitação GetDomainSettings.
+ms.openlocfilehash: f90c608ee1fc3356a227bca6411eaeff0c1e8b22
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751913"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456980"
 ---
 # <a name="domain-soap"></a>Domínio (SOAP)
 
-O elemento de **domínio** contém um domínio federado em uma resposta **GetFederationInformation** ou contém um domínio em que as definições de configuração para o qual são solicitadas em uma solicitação de **GetDomainSettings** . 
+O elemento **Domain** contém um domínio federado em uma resposta **GetFederationInformation** ou contém um domínio as definições de configuração para as quais são solicitadas em uma solicitação **GetDomainSettings** . 
   
 ```XML
 <Domain/> 
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -41,17 +41,17 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Domínios (SOAP)](domains-soap.md) <br/> |Representa os domínios que as definições de configuração para o qual são retornadas em uma operação de **GetDomainSettings** ou os domínios que a organização tem federados em uma operação de **GetFederationInformation** .  <br/> |
+|[Domínios (SOAP)](domains-soap.md) <br/> |Representa os domínios em que as definições de configuração para as quais são retornadas em uma operação **GetDomainSettings** ou os domínios que a organização federaram em uma operação **GetFederationInformation** .  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **domínio** representa um nome de domínio. 
+O valor de texto do elemento **Domain** representa um nome de domínio. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |

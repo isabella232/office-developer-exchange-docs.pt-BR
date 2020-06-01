@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f6ea8816-04cc-4ccf-8498-bc89d46a32e8
 description: O elemento ConversationShape identifica a propriedade definida para retornar em uma resposta de operação FindConversation.
-ms.openlocfilehash: 2637c175fe94be4303476363cd59a1f895b9c959
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 18f652e7580a5521a4da25ccf19ae73e6614c3d0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751534"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457610"
 ---
 # <a name="conversationshape"></a>ConversationShape
 
@@ -27,17 +27,17 @@ O elemento **ConversationShape** identifica a propriedade definida para retornar
 ```
 
  ****
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[BaseShape](baseshape.md) | [AdditionalProperties](additionalproperties.md)
+[BaseShape](baseshape.md)  |  [AdditionalProperties](additionalproperties.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -49,13 +49,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
-|Pode estar vazio  <br/> |false  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Pode estar vazio  <br/> |falso  <br/> |
    
 

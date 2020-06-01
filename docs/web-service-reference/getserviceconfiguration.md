@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: acbb29e4-d853-4302-8e32-7018775d54e4
-description: O elemento de GetServiceConfiguration define uma solicitação GetServiceConfiguration.
-ms.openlocfilehash: 7ff7124ff062f21a02fc69b86b7cc7367ba3fcb6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetServiceConfiguration define uma solicitação GetServiceConfiguration.
+ms.openlocfilehash: e9357a9e3be22e129c4910c01231f9dbd22a2dbe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823666"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457869"
 ---
 # <a name="getserviceconfiguration"></a>GetServiceConfiguration
 
-O elemento de **GetServiceConfiguration** define uma solicitação GetServiceConfiguration. 
+O elemento **GetServiceConfiguration** define uma solicitação GetServiceConfiguration. 
   
 ```XML
 <GetServiceConfiguration>
@@ -31,26 +31,26 @@ O elemento de **GetServiceConfiguration** define uma solicitação GetServiceCon
 ```
 
  **GetServiceConfigurationType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ActingAs](actingas.md) <br/> |Identifica que o chamador está enviando como. Esse elemento é opcional. Se esse elemento não estiver presente, o usuário autenticado é considerado o remetente. O elemento **ActingAs** deve ser incluído para solicitar as dicas de remetente. Pode ser retornado um erro de ErrorInvalidArgument em uma resposta, se o elemento **ActingAs** está ausente, não incluir um tipo de roteamento, não inclue um endereço de email, contém um endereço de email inválido, não é resolvido para um usuário no domínio do Active Directory Serviços (AD DS) ou resolva a vários usuários no AD DS.  <br/> |
-|[RequestedConfiguration](requestedconfiguration.md) <br/> |Contém as configurações do serviço solicitado. Este elemento é obrigatório.  <br/> |
+|[Agindo](actingas.md) <br/> |Identifica quem o chamador está enviando como. Este elemento é opcional. Se esse elemento não estiver presente, o usuário autenticado será considerado como o remetente. O elemento **agindo** deve ser incluído para solicitar dicas de remetente. Um erro ErrorInvalidArgument pode ser retornado em uma resposta se o elemento **agindo** estiver ausente, não incluir um tipo de roteamento, não incluir um endereço de email, contiver um endereço de email inválido, não resolver para um usuário nos serviços de domínio do Active Directory (AD DS) ou resolver para vários usuários no AD DS.  <br/> |
+|[RequestedConfiguration](requestedconfiguration.md) <br/> |Contém as configurações de serviço solicitadas. Este elemento é obrigatório.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -58,16 +58,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

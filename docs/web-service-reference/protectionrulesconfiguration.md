@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e5b4699a-476e-4053-bb52-873eb921c046
 description: O elemento ProtectionRulesConfiguration contém informações de configuração de serviço para o serviço de regras de proteção.
-ms.openlocfilehash: 9c286fcf9752d591d53323f45a264f4bdd078c1c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e664fba78f170c9f4c59b49b3a08c0dd2e4ed4cd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824912"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456719"
 ---
 # <a name="protectionrulesconfiguration"></a>ProtectionRulesConfiguration
 
@@ -31,49 +31,49 @@ O elemento **ProtectionRulesConfiguration** contém informações de configuraç
 ```
 
  **ProtectionRulesServiceConfiguration**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**RefreshInterval** <br/> |Especifica a frequência, em horas inteiras, o cliente deve solicitar as regras de proteção do servidor. Este atributo é necessário e seu valor deve ser um inteiro que é igual ou maior que 1.  <br/> |
+|**RefreshInterval** <br/> |Especifica com que frequência, em horas inteiras, o cliente deve solicitar regras de proteção do servidor. Este atributo é obrigatório e seu valor deve ser um inteiro igual ou maior que 1.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[Regras](rules-ex15websvcsotherref.md) <br/> |Uma matriz de regras de proteção. Este elemento é obrigatório.  <br/> |
-|[InternalDomains (SmtpDomainList)](internaldomains-smtpdomainlist.md) <br/> |Identifica a lista de domínios de SMTP internos da organização. Este elemento é obrigatório.  <br/> |
+|[InternalDomains (SmtpDomainList)](internaldomains-smtpdomainlist.md) <br/> |Identifica a lista de domínios SMTP internos da organização. Este elemento é obrigatório.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contém as definições de configuração de serviço.  <br/> |
+|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contém definições de configuração de serviço.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-A configuração de serviço de regras de proteção é composta por uma lista de regras, domínios internos e um intervalo de atualização.
+A configuração do serviço de regras de proteção é composta por uma lista de regras, domínios internos e um intervalo de atualização.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

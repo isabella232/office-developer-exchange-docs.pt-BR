@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bbafce39-7fc6-4099-bc27-b40c0ad44c77
-description: O elemento de apelidos Especifica uma matriz de valores de apelidos e os identificadores de suas atribuições de origem para a pessoa associada.
-ms.openlocfilehash: e798ce082da2ca963b4ef78a4f462a996bdff4df
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento nickname especifica uma matriz de valores de apelido e os identificadores de suas atribuições de origem para o persona associado.
+ms.openlocfilehash: c6b7de5e1c93797603a2950b4a9527c5d370f93d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824536"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457771"
 ---
 # <a name="nicknames"></a>Apelidos
 
-O elemento de **apelidos** Especifica uma matriz de valores de apelidos e os identificadores de suas atribuições de origem para a pessoa associada. 
+O elemento **nickname** especifica uma matriz de valores de apelido e os identificadores de suas atribuições de origem para o persona associado. 
   
 ```XML
 <Nicknames>
@@ -27,13 +27,13 @@ O elemento de **apelidos** Especifica uma matriz de valores de apelidos e os ide
 
 **ArrayOfStringAttributedValuesType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -41,7 +41,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Pessoa](persona.md)
+[Pessoal](persona.md)
   
 ## <a name="remarks"></a>Comentários
 
@@ -49,13 +49,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

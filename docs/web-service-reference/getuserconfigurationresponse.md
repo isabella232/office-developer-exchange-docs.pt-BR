@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5e418c91-c836-4de0-a80d-f0dad0c684d7
-description: O elemento de GetUserConfigurationResponse define uma resposta a uma única solicitação GetUserConfiguration.
-ms.openlocfilehash: b720809a66c75dbf75f6e597a0064992b9f741e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetUserConfigurationResponse define uma resposta a uma única solicitação de GetUserConfiguration.
+ms.openlocfilehash: d80f281f8dc02f911281959b8629b0d8908f4e97
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823689"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457701"
 ---
 # <a name="getuserconfigurationresponse"></a>GetUserConfigurationResponse
 
-O elemento de **GetUserConfigurationResponse** define uma resposta a uma única solicitação GetUserConfiguration. 
+O elemento **GetUserConfigurationResponse** define uma resposta a uma única solicitação de GetUserConfiguration. 
   
 ```xml
 <GetUserConfigurationResponse>   <ResponseMessages/></GetUserConfigurationResponse>
 ```
 
  **GetUserConfigurationResponseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,22 +44,22 @@ Nenhum.
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

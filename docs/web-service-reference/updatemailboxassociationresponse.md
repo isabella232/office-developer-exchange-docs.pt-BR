@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c037de3d-7881-4de4-8f52-68d4878155eb
-description: O elemento UpdateMailboxAssociationResponse destina-se somente para uso interno.
-ms.openlocfilehash: f2be330ccd78c1e2765e0854d1f8f461e0bea8f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UpdateMailboxAssociationResponse é destinado apenas para uso interno.
+ms.openlocfilehash: e4c511d75ef91f0919d5fe182e85070bdc9aae9c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837930"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457904"
 ---
 # <a name="updatemailboxassociationresponse"></a>UpdateMailboxAssociationResponse
 
-O elemento **UpdateMailboxAssociationResponse** destina-se somente para uso interno. 
+O elemento **UpdateMailboxAssociationResponse** é destinado apenas para uso interno. 
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 

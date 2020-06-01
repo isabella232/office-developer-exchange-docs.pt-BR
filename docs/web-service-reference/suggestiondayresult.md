@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 916b1cbb-f2e3-471d-84b0-e33467616652
-description: O elemento SuggestionDayResult representa um único dia que contém os horários de reunião sugeridas.
-ms.openlocfilehash: 7b75258a9e70f1ec6feed6a0b18beb76f356c7f4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SuggestionDayResult representa um único dia que contém horários de reunião sugeridos.
+ms.openlocfilehash: af907b62acefb4913814907722b98d326bd0535b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837671"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457988"
 ---
 # <a name="suggestiondayresult"></a>SuggestionDayResult
 
-O elemento **SuggestionDayResult** representa um único dia que contém os horários de reunião sugeridas. 
+O elemento **SuggestionDayResult** representa um único dia que contém horários de reunião sugeridos. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -40,42 +40,42 @@ O elemento **SuggestionDayResult** representa um único dia que contém os horá
 ```
 
  **SuggestionDayResult**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Date](date.md) <br/> |Representa a data em que contém os horários sugeridos de reunião.  <br/> |
-|[DayQuality](dayquality.md) <br/> |Representa a qualidade do dia para conter os horários de reunião sugerido de qualidade.  <br/> |
+|[Date](date.md) <br/> |Representa a data que contém os horários de reunião sugeridos.  <br/> |
+|[DayQuality](dayquality.md) <br/> |Representa a qualidade do dia para conter os horários de reunião sugeridos de qualidade.  <br/> |
 |[SuggestionArray](suggestionarray.md) <br/> |Contém uma matriz de sugestões de reunião.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SuggestionDayResultArray](suggestiondayresultarray.md) <br/> |Contém uma matriz de reunião sugestões organizados por data.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray` <br/> |
+|[SuggestionDayResultArray](suggestiondayresultarray.md) <br/> |Contém uma matriz de sugestões de reunião organizadas por data.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -84,5 +84,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

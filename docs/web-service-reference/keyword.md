@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c1834b40-ab2a-4c67-a93a-eaadc9523fda
-description: O elemento de palavra-chave especifica uma palavra-chave única.
-ms.openlocfilehash: 4f99cb9d6c521ff4083550737b64b77927669aaf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento keyword especifica uma única palavra-chave.
+ms.openlocfilehash: cdb944aa7b5a8335d840555400381f1d863ded82
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824188"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458100"
 ---
 # <a name="keyword"></a>Palavra-chave
 
-O elemento de **palavra-chave** Especifica uma palavra-chave única. 
+O elemento **keyword** especifica uma única palavra-chave. 
   
 ```XML
 <Keyword></Keyword>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [KeywordStat](keywordstat.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento de **palavra-chave** é o nome de uma única palavra-chave que representa uma estatística de palavra-chave única. 
+O valor de texto do elemento **keyword** é o nome de uma única palavra-chave que representa uma única estatística de palavra-chave. 
   
 ## <a name="remarks"></a>Comentários
 

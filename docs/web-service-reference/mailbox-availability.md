@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: affd192e-8914-473f-9098-d9bdf898de2c
-description: O elemento de caixa de correio representa o usuário de caixa de correio para um SetUserOofSettings ou GetUserOofSettings solicitação.
-ms.openlocfilehash: 2e901ae0df56542f56f247184254294735018468
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Mailbox representa o usuário de caixa de correio de uma solicitação SetUserOofSettings ou GetUserOofSettings.
+ms.openlocfilehash: 1bda6e8b90551b86b4e1c2711ac25693a65e5410
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824254"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458072"
 ---
 # <a name="mailbox-availability"></a>Caixa de correio (disponibilidade)
 
-O elemento de **caixa de correio** representa o usuário de caixa de correio para um SetUserOofSettings ou GetUserOofSettings solicitação. 
+O elemento **Mailbox** representa o usuário de caixa de correio de uma solicitação SetUserOofSettings ou GetUserOofSettings. 
   
 ```xml
 <Mailbox>
@@ -31,30 +31,30 @@ O elemento de **caixa de correio** representa o usuário de caixa de correio par
 </Mailbox>
 ```
 
-**EmailAddressType**
+**EmailAddresstype**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Nome (EmailAddress)](name-emailaddress.md) <br/> |Representa o nome de exibição do usuário da caixa de correio. Esse elemento é opcional a SetUserOofSettingsRequest. O GetUserOofSettingsRequest retornará esse elemento.  <br/> |
-|[Endereço (string)](address-string.md) <br/> |Representa o endereço de email do usuário da caixa de correio. Este elemento é obrigatório.  <br/> |
-|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Representa o protocolo de roteamento para a mensagem. Esse elemento é opcional a SetUserOofSettingsRequest. O GetUserOofSettingsRequest retornará esse elemento.  <br/> |
+|[Nome (EmailAddress)](name-emailaddress.md) <br/> |Representa o nome de exibição do usuário da caixa de correio. Este elemento é opcional no SetUserOofSettingsRequest. O GetUserOofSettingsRequest retornará este elemento.  <br/> |
+|[Endereço (cadeia de caracteres)](address-string.md) <br/> |Representa o endereço de email do usuário da caixa de correio. Este elemento é obrigatório.  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Representa o protocolo de roteamento para a mensagem. Este elemento é opcional no SetUserOofSettingsRequest. O GetUserOofSettingsRequest retornará este elemento.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetUserOofSettingsRequest](getuseroofsettingsrequest.md) <br/> |Usado para fazer configurações de fora do escritório (OOF) e mensagens de um usuário de caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserOofSettingsRequest` <br/> |
-|[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |Usada para definir configurações de ausência temporária e mensagens de um usuário de caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/SetUserOofSettingsRequest` <br/> |
+|[GetUserOofSettingsRequest](getuseroofsettingsrequest.md) <br/> |Usado para obter as configurações e mensagens de ausência temporária (OOF) de um usuário de caixa de correio.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserOofSettingsRequest` <br/> |
+|[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |Usado para definir as configurações e mensagens de ausência temporária de um usuário de caixa de correio.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/SetUserOofSettingsRequest` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -62,16 +62,16 @@ O endereço de email é usado para identificar a pasta de calendário que conté
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação GetUserOofSettings](getuseroofsettings-operation.md)
 - [Operação SetUserOofSettings](setuseroofsettings-operation.md)

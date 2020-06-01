@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: eeba9eff-5eca-4002-b5a5-8fb794feaba1
-description: O elemento SuggestionDayResultArray contém uma matriz de reunião sugestões organizados por data.
-ms.openlocfilehash: c208104356606a5d9961461ad8743a772d2410d8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SuggestionDayResultArray contém uma matriz de sugestões de reunião organizadas por data.
+ms.openlocfilehash: 277d4cf71c31aba26cbff6f598eaa62769cae552
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837673"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457981"
 ---
 # <a name="suggestiondayresultarray"></a>SuggestionDayResultArray
 
-O elemento **SuggestionDayResultArray** contém uma matriz de reunião sugestões organizados por data. 
+O elemento **SuggestionDayResultArray** contém uma matriz de sugestões de reunião organizadas por data. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -36,40 +36,40 @@ O elemento **SuggestionDayResultArray** contém uma matriz de reunião sugestõe
 ```
 
  **ArrayOfSuggestionDayResult**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SuggestionDayResult](suggestiondayresult.md) <br/> |Representa um único dia que contém os horários de reunião sugeridas.  <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) <br/> |Representa um único dia que contém horários de reunião sugeridos.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SuggestionsResponse](suggestionsresponse.md) <br/> |Contém dados de informações e sugestão de resposta for solicitado sugestões de reunião  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
+|[SuggestionsResponse](suggestionsresponse.md) <br/> |Contém informações de resposta e dados de sugestão para sugestões de reunião solicitadas  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -78,5 +78,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

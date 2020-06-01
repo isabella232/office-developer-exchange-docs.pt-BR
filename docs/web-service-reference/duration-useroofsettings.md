@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 01d67af3-658e-4acd-93e3-441ae827fdd3
-description: O elemento de duração Especifica a duração em que o limite de status de ausência temporária será habilitado se o elemento OofState for definido como agendado.
-ms.openlocfilehash: 62a5492372fd80173d58e965376b7c8c466825a6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Duration especifica a duração que o status de ausência temporária (OOF) é habilitado se o elemento OofState estiver definido como agendado.
+ms.openlocfilehash: 0ba0f1ea7498781c0cccb072c7ea0fa05414764c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751945"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457295"
 ---
 # <a name="duration-useroofsettings"></a>Duração (UserOofSettings)
 
-O elemento de **duração** Especifica a duração em que o limite de status de ausência temporária será habilitado se o elemento [OofState](oofstate.md) for definido como **agendado**.
+O elemento **Duration** especifica a duração que o status de ausência temporária (OOF) é habilitado se o elemento [OofState](oofstate.md) estiver definido como **agendado**.
   
 ```XML
 <Duration>
@@ -30,14 +30,14 @@ O elemento de **duração** Especifica a duração em que o limite de status de 
 </Duration>
 ```
 
- **Duração**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Duration**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,31 +50,31 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/><br/>Este é a expressão XPath para esse elemento:<br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.<br/><br/>Este é a expressão XPath para esse elemento:<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
-|[Fora do escritório](outofoffice.md) <br/> |Define a mensagem de resposta de ausência temporária e um tempo de duração para enviar a mensagem de resposta para uma caixa de correio.  <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/><br/>A seguir está a expressão XPath para este elemento:<br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.<br/><br/>A seguir está a expressão XPath para este elemento:<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[Fora](outofoffice.md) <br/> |Define a mensagem de resposta de ausência temporária (OOF) e um tempo de duração para enviar a mensagem de resposta para uma caixa de correio.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O tipo de **duração** também é o tipo para os elementos [DetailedSuggestionsWindow](detailedsuggestionswindow.md) [TimeWindow](timewindow.md)e [fora do escritório](outofoffice.md) . 
+O tipo de **duração** também é o tipo dos elementos [DetailedSuggestionsWindow](detailedsuggestionswindow.md), [TimeWindow](timewindow.md)e [fora](outofoffice.md) . 
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação de [operação SetUserOofSettings](setuseroofsettings-operation.md) define o [OofState](oofstate.md) como **habilitado**, as mensagens de ausência temporária internas e externas e define a duração de ausência temporária para 10 dias.
+O exemplo a seguir de uma solicitação de [operação SetUserOofSettings](setuseroofsettings-operation.md) define o [OofState](oofstate.md) como **habilitado**, as mensagens de ausência temporária interna e externa e define a duração de OOF por 10 dias.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -94,16 +94,16 @@ O exemplo a seguir de uma solicitação de [operação SetUserOofSettings](setus
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação GetUserOofSettings](getuseroofsettings-operation.md)  
 - [Operação SetUserOofSettings](setuseroofsettings-operation.md)

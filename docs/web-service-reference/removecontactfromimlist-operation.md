@@ -7,52 +7,52 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 28ec96c3-45af-48ff-9f17-718a527dc0ad
-description: Encontre informações sobre o EWS RemoveContactFromImList operação.
-ms.openlocfilehash: 036b295a84e86ad74c467572cc52fdf6bbae5191
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações sobre a operação do EWS do RemoveContactFromImList.
+ms.openlocfilehash: 8b3d83a0b53bad169d9f3478540e5087901f3a12
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825080"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458464"
 ---
 # <a name="removecontactfromimlist-operation"></a>Operação RemoveContactFromImList
 
-Encontre informações sobre a operação de EWS **RemoveContactFromImList** . 
+Encontre informações sobre a operação do EWS do **RemoveContactFromImList** . 
   
-A operação **RemoveContactFromImList** remove contatos da lista de mensagens instantâneas (IM) de Lync quando o Lync usa o Exchange para o armazenamento de contato. 
+A operação **RemoveContactFromImList** remove contatos da lista de IM (mensagens instantâneas) do Lync quando o Lync usa o Exchange para o repositório de contatos. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-removecontactfromimlist-operation"></a>Usando a operação RemoveContactFromImList
 
-A operação **RemoveContactFromImList** aceita um argumento único que identifica um contato para remover da lista de contatos Lync armazenada em um servidor Exchange. A lista de contatos que destinos essa operação é chamado de **Contatos do Lync** no Outlook 2013. 
+A operação **RemoveContactFromImList** aceita um único argumento que identifica um contato a ser removido da lista de contatos do Lync armazenado em um servidor Exchange. A lista de contatos que esta operação direciona é chamada **contatos do Lync** no Outlook 2013. 
   
 > [!CAUTION]
-> Não use a [operação DeleteItem](deleteitem-operation.md) para remover contatos de uma lista de contatos. Processamento do lado do servidor adicionais talvez seja necessário ocorrem para oferecer suporte à remoção de um contato da lista de **Contatos do Lync** . Observe que a lista de **Contatos do Lync** é o equivalente conceitual da pasta padrão **Contatos do Lync** da caixa de correio. 
+> Não use a [Operação DeleteItem](deleteitem-operation.md) para remover contatos de uma lista de contatos. É possível que o processamento adicional no servidor tenha que ocorrer para dar suporte à remoção de um contato da lista de **contatos do Lync** . Observe que a lista de **contatos do Lync** é o equivalente conceitual da pasta de caixa de correio padrão do **Lync Contacts** . 
   
-### <a name="removecontactfromimlist-operation-soap-headers"></a>Cabeçalhos SOAP RemoveContactFromImList operação
+### <a name="removecontactfromimlist-operation-soap-headers"></a>Cabeçalhos SOAP de operação RemoveContactFromImList
 
-A operação **RemoveContactFromImList** pode usar os cabeçalhos SOAP que estão listados na tabela a seguir. 
+A operação **RemoveContactFromImList** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
 |**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido no RFC 3066, "Marcas para a identificação de idiomas", que será usada para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
    
-## <a name="removecontactfromimlist-operation-request-example-remove-a-contact-from-the-lync-contacts-list"></a>Exemplo de solicitação de operação RemoveContactFromImList: remover um contato da lista Contatos do Lync
+## <a name="removecontactfromimlist-operation-request-example-remove-a-contact-from-the-lync-contacts-list"></a>Exemplo de solicitação de operação RemoveContactFromImList: remover um contato da lista de contatos do Lync
 
-O exemplo a seguir de uma solicitação de operação **RemoveContactFromImList** mostra como remover um contato da lista **Contatos do Lync** . A operação **RemoveContactFromImList** aceita um único identificador exclusivo de contato para identificar o contato que é removido da lista de **Contatos do Lync** . 
+O exemplo a seguir de uma solicitação de operação do **RemoveContactFromImList** mostra como remover um contato da lista de **contatos do Lync** . A operação **RemoveContactFromImList** aceita um único identificador de contato exclusivo para identificar o contato removido da lista de **contatos do Lync** . 
   
 > [!NOTE]
-> Todos os identificadores de itens e teclas de alteração neste artigo foram diminuídas para preservar a legibilidade. 
+> Todos os identificadores de item e as chaves de alteração deste artigo foram reduzidos para preservar a legibilidade. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
@@ -70,11 +70,11 @@ Os seguintes elementos são usados na solicitação de corpo SOAP:
   
 - [RemoveContactFromImList](removecontactfromimlist.md)
     
-- [ID de contato](contactid.md)
+- [ContactID](contactid.md)
     
 ## <a name="successful-removecontactfromimlist-operation-response"></a>Resposta de operação RemoveContactFromImList bem-sucedida
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **RemoveContactFromImList** para remover um contato da lista de **Contatos do Lync** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação do **RemoveContactFromImList** para remover um contato da lista de **contatos do Lync** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -85,15 +85,15 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
                            MajorBuildNumber="556" 
                            MinorBuildNumber="8" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <RemoveContactFromImListResponse ResponseClass="Success" 
-                                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
       </RemoveContactFromImListResponse>
    </s:Body>
@@ -108,7 +108,7 @@ Os seguintes elementos são usados no corpo SOAP de resposta:
     
 ## <a name="removecontactfromimlist-operation-error-response"></a>Resposta de erro de operação RemoveContactFromImList
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **RemoveContactFromImList** . Esta é uma resposta a uma solicitação para remover um contato da lista **Contatos do Lync** , quando o contato não existe mais na lista. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **RemoveContactFromImList** . Esta é uma resposta a uma solicitação para remover um contato da lista de **contatos do Lync** quando o contato não existe mais na lista. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -119,15 +119,15 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
                            MajorBuildNumber="556" 
                            MinorBuildNumber="8" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <RemoveContactFromImListResponse ResponseClass="Error" 
-                                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>The specified object was not found in the store.</MessageText>
          <ResponseCode>ErrorItemNotFound</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -137,7 +137,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 
 ```
 
-A resposta de erro corpo SOAP são usados os seguintes elementos:
+Os seguintes elementos são usados no corpo SOAP de resposta de erro:
   
 - [RemoveContactFromImListResponse](removecontactfromimlistresponse.md)
     
@@ -147,7 +147,7 @@ A resposta de erro corpo SOAP são usados os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
     

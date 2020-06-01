@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5592a37e-cf4b-4643-8a2a-fa58c40345b9
-description: O elemento FreeBusyResponseArray contém informações de disponibilidade dos usuários solicitado e o status de resposta.
-ms.openlocfilehash: cc6022c28213667c40dc00b5627ed88c4f78e2f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento FreeBusyResponseArray contém as informações de disponibilidade dos usuários solicitados e o status da resposta.
+ms.openlocfilehash: b45938c19b76a377fca125fb6a19f9d712718db6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752368"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457806"
 ---
 # <a name="freebusyresponsearray"></a>FreeBusyResponseArray
 
-O elemento **FreeBusyResponseArray** contém informações de disponibilidade dos usuários solicitado e o status de resposta. 
+O elemento **FreeBusyResponseArray** contém as informações de disponibilidade dos usuários solicitados e o status da resposta. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -34,42 +34,42 @@ O elemento **FreeBusyResponseArray** contém informações de disponibilidade do
 ```
 
  **ArrayOfFreeBusyResponse**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FreeBusyResponse](freebusyresponse.md) <br/> |Contém as informações de disponibilidade para um usuário de caixa de correio única e o status de resposta.  <br/> |
+|[FreeBusyResponse](freebusyresponse.md) <br/> |Contém as informações de disponibilidade de um único usuário de caixa de correio e o status da resposta.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |Contém as propriedades que definem as informações de disponibilidade do usuário ou sugerido informações de tempo da reunião.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse` <br/> |
+|[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |Contém as propriedades que definem informações de disponibilidade do usuário ou informações de tempo de reunião sugeridas.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse elemento não está incluído em uma resposta GetUserAvailability se as informações de disponibilidade não são solicitadas.
+Esse elemento não está incluído em uma resposta GetUserAvailability se não for solicitada informação de disponibilidade.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -78,5 +78,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

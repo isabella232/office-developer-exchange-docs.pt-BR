@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ec33ef23-8537-41eb-8d89-7eb906a1fad7
-description: O elemento ExcludeConflicts Especifica se é necessário retornar sugerido horários de horas do calendário que estão em conflito entre os participantes.
-ms.openlocfilehash: 66b69d57246942e551de2f683949870823e2e4e1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ExcludeConflicts especifica se é para retornar horários sugeridos para os horários de calendário que entram em conflito entre os participantes.
+ms.openlocfilehash: d20c594ae600abf110681ea678b2d95a23bf7809
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752128"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456973"
 ---
 # <a name="excludeconflicts"></a>ExcludeConflicts
 
-O elemento **ExcludeConflicts** Especifica se é necessário retornar sugerido horários de horas do calendário que estão em conflito entre os participantes. 
+O elemento **ExcludeConflicts** especifica se é para retornar horários sugeridos para os horários de calendário que entram em conflito entre os participantes. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -36,13 +36,13 @@ O elemento **ExcludeConflicts** Especifica se é necessário retornar sugerido h
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,29 +52,29 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MailboxData](mailboxdata.md) <br/> |Representa um usuário de caixa de correio individual e opções para o tipo de dados a serem retornadas sobre o usuário de caixa de correio.  <br/> Este é o XPath a este elemento:  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData` <br/> |
+|[MailboxData](mailboxdata.md) <br/> |Representa um usuário de caixa de correio individual e opções para o tipo de dados a ser retornado sobre o usuário da caixa de correio.  <br/> Este é o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. Os valores possíveis são um booleano **true** ou **false**.
+Um valor de texto é obrigatório. Os valores possíveis são Boolean **true** ou **false**.
   
 ## <a name="remarks"></a>Comentários
 
 Este elemento é obrigatório.
   
 > [!NOTE]
-> O esquema que descreve este elemento está localizado no diretório /EWS/ do computador que está executando o MicrosoftExchange Server 2007 que possui a função de servidor acesso para cliente instalada. 
+> O esquema que descreve este elemento está localizado no diretório/EWS/do computador que está executando o MicrosoftExchange Server 2007 que tem a função de servidor de acesso para Cliente instalada. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -83,5 +83,5 @@ Este elemento é obrigatório.
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

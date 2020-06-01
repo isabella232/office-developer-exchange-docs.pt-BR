@@ -1,22 +1,22 @@
 ---
-title: DomainNames (SOAP)
+title: Usermainnames (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 79ffc3f9-25c4-40b5-84ce-09a3c5f892fa
-description: O elemento DomainNames representa a coleção de nomes de domínio. O elemento DomainNames é apenas para uso interno. Este elemento não é usado pelos clientes.
-ms.openlocfilehash: 45d256f3d5a57028a04572ad67d4be0786ca39e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DomainNames representa a coleção de nomes de domínio. O elemento DomainNames é somente para uso interno. Esse elemento não é usado por clientes.
+ms.openlocfilehash: 0b425b3cd4c0e7cb2427920d61feb04010a3b123
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751915"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458415"
 ---
-# <a name="domainnames-soap"></a>DomainNames (SOAP)
+# <a name="domainnames-soap"></a>Usermainnames (SOAP)
 
-O elemento **DomainNames** representa a coleção de nomes de domínio. O elemento **DomainNames** é apenas para uso interno. Este elemento não é usado pelos clientes. 
+O elemento **DomainNames** representa a coleção de nomes de domínio. O elemento **DomainNames** é somente para uso interno. Esse elemento não é usado por clientes. 
   
 ```XML
 <DomainNames>
@@ -25,44 +25,44 @@ O elemento **DomainNames** representa a coleção de nomes de domínio. O elemen
 ```
 
  **DomainNames**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Domínios (SOAP)](domains-soap.md) <br/> |Representa uma coleção de domínios que são retornados da [operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md), [a operação de GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)ou a [operação GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md).  <br/> |
+|[Domínios (SOAP)](domains-soap.md) <br/> |Representa uma coleção de domínios retornados da [operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md), [GETFEDERATIONINFORMATION Operation (SOAP)](getfederationinformation-operation-soap.md)ou a [operação GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md).  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Representa uma lista de relacionamentos de organização para uma única organização.  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Representa uma lista de relações de organização para uma única organização.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Esse elemento representa os domínios SMTP das organizações externas.
+Este elemento representa os domínios SMTP das organizações externas.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
-- [Operação de GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+- [Operação GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: b4b2701a-4a23-4acc-8c75-19f7955ad7ae
-description: A operação GetInboxRules usa serviços Web do Exchange para recuperar as regras de entrada na caixa de correio do usuário identificados.
-ms.openlocfilehash: f8a5068b1f189cc6fd5feef6dfec29204a0b8887
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação GetInboxRules usa os serviços Web do Exchange para recuperar regras de caixa de entrada na caixa de correio do usuário identificado.
+ms.openlocfilehash: f4c4c03f55c9f32be4a067024f4387888edd5fe9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752524"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457932"
 ---
 # <a name="getinboxrules-operation"></a>Operação GetInboxRules
 
-A operação **GetInboxRules** usa serviços Web do Exchange para recuperar as regras de entrada na caixa de correio do usuário identificados. 
+A operação **GetInboxRules** usa os serviços Web do Exchange para recuperar regras de caixa de entrada na caixa de correio do usuário identificado. 
   
-## <a name="getinboxrules-request-example"></a>Exemplo de solicitação de GetInboxRules
+## <a name="getinboxrules-request-example"></a>Exemplo de solicitação GetInboxRules
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra a solicitação XML que o cliente envia ao servidor. A solicitação identifica o usuário no elemento [MailboxSmtpAddress](mailboxsmtpaddress.md) . Todas as regras de caixa de entrada para o usuário identificado devem ser retornados na resposta. 
+O exemplo a seguir mostra o XML de solicitação que o cliente envia para o servidor. A solicitação identifica o usuário no elemento [MailboxSmtpAddress](mailboxsmtpaddress.md) . Todas as regras de caixa de entrada do usuário identificado serão retornadas na resposta. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+        xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
         xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
@@ -48,20 +48,20 @@ O exemplo a seguir mostra a solicitação XML que o cliente envia ao servidor. A
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 A solicitação inclui o seguinte elemento opcional:
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
-## <a name="successful-getinboxrules-response-example"></a>Exemplo de resposta bem-sucedida GetInboxRules
+## <a name="successful-getinboxrules-response-example"></a>Exemplo de resposta GetInboxRules bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma resposta bem-sucedida à solicitação **GetInboxRules** . Neste exemplo, a resposta inclui uma regra. 
+O exemplo a seguir do corpo SOAP (Simple Object Access Protocol) mostra uma resposta bem-sucedida à solicitação **GetInboxRules** . Neste exemplo, a resposta inclui uma regra. 
   
 > [!NOTE]
-> Os valores de **Id** e os atributos de **ChangeKey** do elemento [FolderId](folderid.md) foram diminuídos para preservar a legibilidade. 
+> Os valores dos atributos **ID** e **ChangeKey** do elemento [FolderId](folderid.md) foram reduzidos para preservar a legibilidade. 
   
 ### <a name="code"></a>Código
 
@@ -73,19 +73,19 @@ O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma res
         MinorVersion="1" MajorBuildNumber="139"
         MinorBuildNumber="0"
         Version="Exchange2010_SP1"
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetInboxRulesResponse ResponseClass="Success"
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <OutlookRuleBlobExists>true</OutlookRuleBlobExists>
       <InboxRules>
-        <Rule xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Rule xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <RuleId>dCsAAABjzvA=</RuleId>
           <DisplayName>MoveInterestingToJunk</DisplayName>
           <Priority>1</Priority>
@@ -109,7 +109,7 @@ O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma res
 
 ### <a name="response-elements"></a>Elementos de resposta
 
-Os seguintes elementos são incluídos na resposta:
+Os seguintes elementos estão incluídos na resposta:
   
 - [GetInboxRulesResponse](getinboxrulesresponse.md)
     
@@ -119,7 +119,7 @@ Os seguintes elementos são incluídos na resposta:
     
 - [InboxRules](inboxrules.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

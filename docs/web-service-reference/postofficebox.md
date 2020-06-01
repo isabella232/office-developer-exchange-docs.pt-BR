@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3ab9bcf-7dab-44f0-9ab6-b06543c0fdc2
-description: O elemento PostOfficeBox Especifica boxportion do thepost office de um endereço postal.
-ms.openlocfilehash: e2ec105accac380d27ebb4e7fc636cc538cad57f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento PostOfficeBox especifica o Post Office boxportion de um endereço postal.
+ms.openlocfilehash: dede39a7b053172157858686f8287466f982c4ab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824861"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458023"
 ---
 # <a name="postofficebox"></a>PostOfficeBox
 
-O elemento **PostOfficeBox** Especifica a parte de "caixa postal" de um endereço postal. 
+O elemento **PostOfficeBox** especifica a parte "caixa postal" de um endereço postal. 
   
 ```XML
 <PostOfficeBox></PostOfficeBox>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -38,9 +38,9 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) | [valor (PersonaPostalAddressType)](value-personapostaladdresstype.md)
+[Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)  |  [Valor (PersonaPostalAddressType)](value-personapostaladdresstype.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto do elemento **PostOfficeBox** é um identificador de caixa postal. 
   
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 199d1839-f061-4070-a977-874b0c08e5be
 description: O elemento IdOfFolderToShare representa o identificador da pasta no servidor que será compartilhado.
-ms.openlocfilehash: 1e3e53819f23bbc5753ac21b9e3ea6593ac4826c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 93a4740d9adefbb35aae071f0a6bfcb4b2021b4d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823853"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457624"
 ---
 # <a name="idoffoldertoshare"></a>IdOfFolderToShare
 
@@ -28,16 +28,16 @@ O elemento **IdOfFolderToShare** representa o identificador da pasta no servidor
 ```
 
  **FolderIdType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|Id  <br/> |Contém uma cadeia de caracteres que identifica uma pasta no repositório do Exchange. Este atributo é necessário.  <br/> |
-|ChangeKey  <br/> |Contém uma cadeia de caracteres que identifica uma versão de uma pasta que é identificada pelo atributo Id. Este atributo é opcional. Use este atributo para certificar-se de que a versão correta de uma pasta é usada.  <br/> |
+|Id  <br/> |Contém uma cadeia de caracteres que identifica uma pasta no repositório do Exchange. Esse atributo é necessário.  <br/> |
+|ChangeKey  <br/> |Contém uma cadeia de caracteres que identifica uma versão de uma pasta identificada pelo atributo ID. Esse atributo é opcional. Use este atributo para certificar-se de que a versão correta de uma pasta é usada.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -51,18 +51,18 @@ Nenhum.
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório Virtual do IIS que hospeda o Exchange Web Services do computador que está executando o Microsoft Exchange Server que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

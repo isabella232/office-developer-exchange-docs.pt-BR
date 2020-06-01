@@ -5,38 +5,38 @@ ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 88ed6e87-25f7-4a54-83fa-d757a0ff2528
-description: Saiba como criar reuniões recorrentes usando a API gerenciada de EWS ou EWS no Exchange.
-ms.openlocfilehash: db25fd4c97755248ebbbc7637a71749f485f8fa8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Saiba como criar reuniões recorrentes usando a API gerenciada do EWS ou o EWS no Exchange.
+ms.openlocfilehash: 1d04bd48c56a1a0e94eb1368166f776b3dfeb23a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750700"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456868"
 ---
 # <a name="create-a-recurring-series-by-using-ews-in-exchange"></a>Criar uma série recorrente usando o EWS no Exchange
 
-Saiba como criar reuniões recorrentes usando a API gerenciada de EWS ou EWS no Exchange.
+Saiba como criar reuniões recorrentes usando a API gerenciada do EWS ou o EWS no Exchange.
   
-Criando um compromisso recorrente ou reunião não é tudo o que é muito diferente da criação de [uma reunião ou um compromisso de única instância](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md). Você precisa atribuir valores para algumas propriedades adicionais relacionadas a recorrência. Elas são definidas no objeto de [Recorrência](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.recurrence%28v=exchg.80%29.aspx) de um objeto [ExchangeService.Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) (se você estiver usando a API gerenciada de EWS), ou o elemento filho de [Recorrência](http://msdn.microsoft.com/library/5f164e5b-47b6-4242-b6b9-8d650090a831%28Office.15%29.aspx) de um elemento [CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) (se você estiver usando o EWS). Uma coisa a serem consideradas quando você cria um recorrente, em vez de uma reunião de ocorrência única, é que o item de calendário que você criar é o mestre uma série recorrente. Um número de propriedades é definido apenas em um mestre recorrente; Essas propriedades podem ajudá-lo a encontrar, modificar ou excluir instâncias individuais em uma série. Por esse motivo, talvez seja útil controlar a ID do mestre recorrente quando você cria uma série recorrente. 
+A criação de um compromisso ou reunião recorrente não é muito diferente da criação [de um compromisso ou reunião de instância única](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md). Você só precisa atribuir valores a algumas propriedades adicionais relacionadas à recorrência. Eles são definidos em um objeto de [recorrência](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence%28v=exchg.80%29.aspx) do objeto [ExchangeService. compromisso](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) (se você estiver usando a API gerenciada do EWS) ou o elemento filho de [recorrência](https://msdn.microsoft.com/library/5f164e5b-47b6-4242-b6b9-8d650090a831%28Office.15%29.aspx) de um elemento [CALENDARITEM](https://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) (se você estiver usando o EWS). Uma coisa a ser considerada quando você cria uma recorrência, em vez de uma reunião de instância única, é que o item de calendário que você cria é o mestre recorrente para uma série. Várias propriedades são definidas somente em um mestre recorrente; essas propriedades podem ajudá-lo a localizar, modificar ou excluir instâncias individuais em uma série. Por esse motivo, pode ser útil manter o controle da ID do mestre recorrente quando você cria uma série recorrente. 
   
-**Tabela 1. Propriedades definidas nos itens de calendário mestre recorrente**
+**Tabela 1. Propriedades definidas em itens de calendário mestre recorrentes**
 
-|**API gerenciada de EWS classe ou propriedade**|**Elemento XML de EWS**|**Descrição**|
+|**Classe ou propriedade da API gerenciada do EWS**|**Elemento XML do EWS**|**Descrição**|
 |:-----|:-----|:-----|
-|[Classe de recorrência](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.recurrence%28v=exchg.80%29.aspx) <br/> A classe de **Recorrência** é a classe base para uma classe derivada do padrão, [IntervalPattern](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.recurrence.intervalpattern%28v=exchg.80%29.aspx), [RelativeYearlyPattern](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.recurrence.relativeyearlypattern%28v=exchg.80%29.aspx)ou [YearlyPattern](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.recurrence.yearlypattern%28v=exchg.80%29.aspx).  <br/> |[Recorrência (RecurrenceType)](http://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) <br/> |Contém informações relacionadas a recorrência, incluindo o padrão de recorrência (diariamente, semanalmente, mensalmente, e assim por diante), início e término data, número de ocorrências e assim por diante.  <br/> |
-|[Propriedade FirstOccurrence](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.firstoccurrence%28v=exchg.80%29.aspx) <br/> |[FirstOccurrence](http://msdn.microsoft.com/library/d6748860-ce0d-4d2e-b7e4-9ed834f1e45a%28Office.15%29.aspx) <br/> |Contém o início e término e a ID do item para a primeira reunião em uma série.  <br/> |
-|[Propriedade LastOccurrence](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.lastoccurrence%28v=exchg.80%29.aspx) <br/> |[LastOccurrence](http://msdn.microsoft.com/library/c9ef0fcb-4265-4e60-9986-fff0f211d00b%28Office.15%29.aspx) <br/> |Contém o início e término e a ID do item para a última reunião em uma série.  <br/> |
-|[Propriedade ModifiedOccurrences](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx) <br/> |[ModifiedOccurrences](http://msdn.microsoft.com/library/552932fc-b3b4-486e-8d73-32c0bb10bd68%28Office.15%29.aspx) <br/> |Contém o conjunto de todas as reuniões na série que ter sido modificada do padrão de recorrência original.  <br/> |
-|[Propriedade DeletedOccurrences](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.deletedoccurrences%28v=exchg.80%29.aspx) <br/> |[DeletedOccurrences](http://msdn.microsoft.com/library/736fb305-9528-4be8-ad37-65d7556edbf2%28Office.15%29.aspx) <br/> |Contém o conjunto de todas as reuniões na série que foram excluída do padrão de recorrência original.  <br/> |
+|[Classe Recurrence](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence%28v=exchg.80%29.aspx) <br/> A classe **Recurrence** é a classe base para uma classe de padrão derivada, [IntervalPattern](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence.intervalpattern%28v=exchg.80%29.aspx), [RelativeYearlyPattern](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence.relativeyearlypattern%28v=exchg.80%29.aspx)ou [YearlyPattern](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence.yearlypattern%28v=exchg.80%29.aspx).  <br/> |[Recurrence (RecurrenceType)](https://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) <br/> |Contém informações relacionadas à recorrência, incluindo o padrão de recorrência (diária, semanal, mensal e assim por diante), data de início e de término, número de ocorrências e assim por diante.  <br/> |
+|[Propriedade FirstOccurrence](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.firstoccurrence%28v=exchg.80%29.aspx) <br/> |[FirstOccurrence](https://msdn.microsoft.com/library/d6748860-ce0d-4d2e-b7e4-9ed834f1e45a%28Office.15%29.aspx) <br/> |Contém as horas de início e de término e a ID do item da primeira reunião em uma série.  <br/> |
+|[Propriedade LastOccurrence](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.lastoccurrence%28v=exchg.80%29.aspx) <br/> |[LastOccurrence](https://msdn.microsoft.com/library/c9ef0fcb-4265-4e60-9986-fff0f211d00b%28Office.15%29.aspx) <br/> |Contém as horas de início e de término e a ID do item da última reunião em uma série.  <br/> |
+|[Propriedade ModifiedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx) <br/> |[ModifiedOccurrences](https://msdn.microsoft.com/library/552932fc-b3b4-486e-8d73-32c0bb10bd68%28Office.15%29.aspx) <br/> |Contém o conjunto de todas as reuniões da série que foram modificadas do padrão de recorrência original.  <br/> |
+|[Propriedade DeletedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.deletedoccurrences%28v=exchg.80%29.aspx) <br/> |[DeletedOccurrences](https://msdn.microsoft.com/library/736fb305-9528-4be8-ad37-65d7556edbf2%28Office.15%29.aspx) <br/> |Contém o conjunto de todas as reuniões da série que foram excluídas do padrão de recorrência original.  <br/> |
    
-Como as reuniões são essencialmente os compromissos que incluam participantes, os exemplos de código deste artigo mostram como criar reuniões recorrentes. Se você quiser criar um compromisso recorrente, você pode modificar os exemplos, removendo código relacionado aos participantes.
+Como as reuniões são essencialmente compromissos que incluem participantes, os exemplos de código neste artigo mostram como criar reuniões recorrentes. Se quiser criar um compromisso recorrente, você pode modificar os exemplos removendo o código relacionado aos participantes.
   
-## <a name="create-a-recurring-meeting-by-using-the-ews-managed-api"></a>Criar uma reunião recorrente usando a API gerenciada de EWS
+## <a name="create-a-recurring-meeting-by-using-the-ews-managed-api"></a>Criar uma reunião recorrente usando a API gerenciada do EWS
 <a name="bk_CreateMtgEWSMA"> </a>
 
-O exemplo de código a seguir mostra como criar uma reunião recorrente. Primeiro, atribuir valores às propriedades de um [objeto de compromisso](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) usado para criar uma reunião, use o método [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) para salvar a série recorrente em sua pasta de calendário e enviar solicitações de reunião a participantes. Finalmente, use o método [Appointment.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) para olhar sobre os valores definidos no mestre recorrente para a série recorrente que você acabou de criar. 
+O exemplo de código a seguir mostra como criar uma reunião recorrente. Primeiro, atribua valores às propriedades de um [objeto compromisso](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) usado para criar uma reunião e, em seguida, use o método [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) para salvar a série recorrente na pasta calendário e enviar solicitações de reunião para seus participantes. Por fim, use o método [compromisso. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) para examinar os valores definidos no mestre recorrente para a série recorrente que você acabou de criar. 
   
-Este exemplo pressupõe que você tenha autenticado com um servidor Exchange e adquiriu um objeto [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) denominado **service**. O método neste exemplo retorna a [ID do item](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) de mestre de recorrente da série recorrente. 
+Este exemplo pressupõe que você tenha autenticado em um servidor do Exchange e tenha adquirido um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) chamado **Service**. O método neste exemplo retorna a [ID do item](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) da série recorrente ' mestre recorrente. 
   
 ```cs
 public static ItemId CreateARecurringMeeting(ExchangeService service)
@@ -93,14 +93,14 @@ public static ItemId CreateARecurringMeeting(ExchangeService service)
 ## <a name="create-a-recurring-meeting-by-using-ews"></a>Criar uma reunião recorrente usando o EWS
 <a name="bk_CreateMtgEWS"> </a>
 
-A solicitação e a resposta XML nos exemplos a seguir correspondem às chamadas feitas para [criar uma reunião recorrente usando a API gerenciada de EWS](#bk_CreateMtgEWSMA). Observe que, ao invés de definir valores de recorrência específicas sobre o elemento de [Recorrência](http://msdn.microsoft.com/library/5f164e5b-47b6-4242-b6b9-8d650090a831%28Office.15%29.aspx) , a solicitação é essencialmente o mesmo que você usaria para criar um compromisso de ocorrência única. O exemplo a seguir mostra a solicitação XML quando você usar a operação [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) para criar uma reunião. 
+O XML de solicitação e resposta nos exemplos a seguir correspondem às chamadas feitas para [criar uma reunião recorrente usando a API gerenciada do EWS](#bk_CreateMtgEWSMA). Observe que, além de definir valores específicos de recorrência no elemento [Recurrence](https://msdn.microsoft.com/library/5f164e5b-47b6-4242-b6b9-8d650090a831%28Office.15%29.aspx) , a solicitação é essencialmente a mesma que você usaria para criar um compromisso de instância única. O exemplo a seguir mostra a solicitação de XML quando você usa a operação [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) para criar uma reunião. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
     <t:TimeZoneContext>
@@ -201,23 +201,23 @@ A solicitação e a resposta XML nos exemplos a seguir correspondem às chamadas
 
 ```
 
- O exemplo a seguir mostra a resposta XML retornada pela operação de **CreateItem** . 
+ O exemplo a seguir mostra a resposta XML retornada pela operação **CreateItem** . 
   
-Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+Os atributos **ItemId** e **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="893" MinorBuildNumber="10" 
-                         Version="V2_10" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         Version="V2_10" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -234,16 +234,16 @@ Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilid
 
 ```
 
-O exemplo a seguir mostra a solicitação XML que é gerado quando você usar a operação [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) e o **ItemId** para a série que você criou e propriedades de solicitação definida apenas em um mestre recorrente para confirmar que o **ItemId** retornado pela servidor durante a criação de uma série recorrente destina-se um mestre recorrente. 
+O exemplo a seguir mostra o XML de solicitação que é gerado quando você usa a operação [GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) e **ItemId** para a série que você criou, e as propriedades de solicitação só são definidas em um mestre recorrente para confirmar que o **ItemId** retornado pelo servidor ao criar uma série recorrente é para um mestre recorrente. 
   
-Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+Os atributos **ItemId** e **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -270,23 +270,23 @@ Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilid
 
 ```
 
- O exemplo a seguir mostra a resposta XML retornada pela operação de **GetItem** . 
+ O exemplo a seguir mostra a resposta XML que é retornada pela operação **GetItem** . 
   
-Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+Os atributos **ItemId** e **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="893" MinorBuildNumber="10" 
-                         Version="V2_10" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         Version="V2_10" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -327,7 +327,7 @@ Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilid
 
 ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 - [Calendários e EWS no Exchange](calendars-and-ews-in-exchange.md)

@@ -5,35 +5,35 @@ ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7ae7c045-cd90-4c9f-baf5-0464d5058f45
-description: Saiba como fazer uma pasta ocultada e encontre as pastas ocultas usando a API gerenciada de EWS ou EWS no Exchange.
-ms.openlocfilehash: 72efc16ecc247d307b7300526e7d345fe6bdd3ac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Saiba como tornar uma pasta oculta e localizar pastas ocultas usando a API gerenciada do EWS ou o EWS no Exchange.
+ms.openlocfilehash: d4fa44a0399542350668359e8abb88d2a0a9d579
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750846"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456371"
 ---
 # <a name="work-with-hidden-folders-by-using-ews-in-exchange"></a>Trabalhar com pastas ocultas usando o EWS no Exchange
 
-Saiba como fazer uma pasta ocultada e encontre as pastas ocultas usando a API gerenciada de EWS ou EWS no Exchange.
+Saiba como tornar uma pasta oculta e localizar pastas ocultas usando a API gerenciada do EWS ou o EWS no Exchange.
   
-Com uma exceção, pastas na raiz de uma caixa de correio do Exchange (a subárvore não-IPM) são ocultadas do usuário. Por outro lado, todas as pastas em **MsgFolderRoot** (subárvore IPM) estarão visíveis para o usuário. Então, como você ocultar uma pasta sob o **MsgFolderRoot**? Não é complicado ou — se trata de apenas uma propriedade, a propriedade [PidTagAttributeHidden](http://msdn.microsoft.com/en-us/library/cc433490%28v=exchg.80%29.aspx) (0x10F4000B) estendido. Quando essa propriedade é definida como **true**, o Outlook ou outro cliente que usa a propriedade para determinar a visibilidade das pastas ocultará a pasta de exibição do usuário. Como esta é uma propriedade estendida, é mais complexo de usar do que sua propriedade pasta médio, portanto este artigo falaremos os principais cenários.
+Com uma exceção, as pastas na raiz de uma caixa de correio do Exchange (a sub-árvore não-IPM) ficam ocultas do usuário. Por outro lado, todas as pastas no **MsgFolderRoot** (a sub-árvore IPM) são visíveis para o usuário. Então, como você oculta uma pasta no **MsgFolderRoot**? Não é tão complicado – ele é direcionado para apenas uma propriedade, a propriedade estendida [PidTagAttributeHidden](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) (0x10F4000B). Quando essa propriedade é definida como **true**, o Outlook ou outro cliente que usa a propriedade para determinar a visibilidade da pasta ocultará a pasta do modo de exibição do usuário. Como esta é uma propriedade estendida, é mais complexo usar que a propriedade de pasta média, portanto, este artigo orientará você pelos principais cenários.
   
-**Tabela 1. Métodos de API gerenciada de EWS e operações de EWS para trabalhar com pastas ocultas**
+**Tabela 1. Métodos da API gerenciada do EWS e operações do EWS para trabalhar com pastas ocultas**
 
-|**Task**|**Método API gerenciada de EWS**|**Operação do EWS**|
+|**Tarefa**|**Método de API gerenciada do EWS**|**Operação do EWS**|
 |:-----|:-----|:-----|
-|Ocultar uma pasta  <br/> |[Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) seguido [Folder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) seguido [UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
-|Localizar pastas ocultas  <br/> |[FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) <br/> |[FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |
+|Ocultar uma pasta  <br/> |[Folder. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) seguido por [Folder. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) seguido por [UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
+|Localizar pastas ocultas  <br/> |[FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) <br/> |[FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |
    
-Você gostaria da única exceção é — ou seja, a pasta na raiz em que é visível para os usuários? É a pasta Finder (também conhecido como o valor de enumeração **SearchFolders**[WellKnownFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) , ou o valor do elemento **searchfolders**[DistinguishedFolderId](http://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) ), que contém as pastas de pesquisa dos usuários. Pastas de pesquisa criadas na pasta Finder estarão visíveis para os usuários do Outlook. Se você precisar criar uma pasta de pesquisa que não é visível para os usuários, movê-la sob a pasta raiz de ocultá-lo. Diferentemente de outras pastas, definindo a propriedade **PidTagAttributeHidden** como **true** não ocultará uma pasta de pesquisa na pasta Finder. 
+Você está se perguntando o que é a única exceção, ou seja, qual pasta na raiz é visível para os usuários? É a pasta Finder (também conhecida como o valor de enumeração **SearchFolders**[WellKnownFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) ou o valor do elemento **SearchFolders**[DistinguishedFolderId](https://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) ), que contém as pastas de pesquisa dos usuários. As pastas de pesquisa criadas na pasta localizador são visíveis para os usuários do Outlook. Se você precisar criar uma pasta de pesquisa que não é visível para os usuários, mova-a na pasta raiz para ocultá-la. Diferentemente de outras pastas, a definição da propriedade **PidTagAttributeHidden** como **true** não ocultará uma pasta de pesquisa na pasta Finder. 
   
-## <a name="hide-a-folder-by-using-the-ews-managed-api"></a>Ocultar uma pasta usando a API gerenciada de EWS
+## <a name="hide-a-folder-by-using-the-ews-managed-api"></a>Ocultar uma pasta usando a API gerenciada do EWS
 <a name="bk_hideewsma"> </a>
 
-Você pode [tornar uma pasta existente](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_createfolderewsma) uma pasta oculta, alterando o [PidTagAttributeHidden](http://msdn.microsoft.com/en-us/library/cc433490%28v=exchg.80%29.aspx) estendido a propriedade como **true**. Primeiro, crie uma [definição de propriedade estendida para a propriedade](properties-and-extended-properties-in-ews-in-exchange.md). Em seguida, use o método de [ligar](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) para acessar a pasta e atualizar o valor da propriedade **PidTagAttributeHidden** como true e use o método [Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) para salvar as alterações. 
+Você pode [tornar uma pasta existente](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_createfolderewsma) uma pasta oculta alterando a propriedade estendida [PidTagAttributeHidden](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) para **true**. Primeiro, crie uma [definição de propriedade estendida para a propriedade](properties-and-extended-properties-in-ews-in-exchange.md). Em seguida, use o método [BIND](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) para obter a pasta, atualize o valor da propriedade **PidTagAttributeHidden** para true e use o método [Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) para salvar as alterações. 
   
-Este exemplo pressupõe que esse **serviço** é um válido [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) do objeto para o proprietário da caixa de correio, que o usuário foi autenticado com um servidor Exchange e que **folderId** é um [Folder.Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) válido que identifica a pasta para ocultar. 
+Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido para o proprietário da caixa de correio, que o usuário foi autenticado em um servidor Exchange e que **FolderId** é uma [Folder.ID](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) válida que identifica a pasta a ser ocultada. 
   
 ```cs
 private static void MakeHidden(FolderId folderId, ExchangeService service)
@@ -53,18 +53,18 @@ private static void MakeHidden(FolderId folderId, ExchangeService service)
 ## <a name="hide-a-folder-by-using-ews"></a>Ocultar uma pasta usando o EWS
 <a name="bk_hideews"> </a>
 
-Você pode usar o EWS para [tornar uma pasta existente](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_createfolderewsma) uma pasta oculta, alterando o [PidTagAttributeHidden](http://msdn.microsoft.com/en-us/library/cc433490%28v=exchg.80%29.aspx) estendido a propriedade como **true**. Primeiro, usar a operação de [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) para acessar a pasta e, em seguida, recuperar a propriedade **PidTagAttributeHidden** , incluindo o elemento [ExtendedFieldURI](http://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) e definindo o valor **PropertyTag não** 4340 e o **PropertyType **valor booleano. 
+Você pode usar o EWS para [tornar uma pasta existente](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_createfolderewsma) uma pasta oculta alterando a propriedade estendida [PidTagAttributeHidden](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) para **true**. Primeiro, use a operação [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) para acessar a pasta e, em seguida, recuperar a propriedade **PidTagAttributeHidden** incluindo o elemento [ExtendedFieldURI](https://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) e definindo o valor de **PropertyTag** como 4340 e o valor **recordtypepropriedade** como Boolean. 
   
-Isso também é a solicitação XML que o EWS Managed API envia quando você usar o método **ligar** para obter uma pasta para a [realização de uma pasta oculta](#bk_hideewsma).
+Essa é também a solicitação XML que a API gerenciada do EWS envia quando você usa o método **BIND** para obter uma pasta antes [de torná-la uma pasta oculta](#bk_hideewsma).
   
-O valor de [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) é abreviado para fins de legibilidade. 
+O valor [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) é reduzido para legibilidade. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -85,26 +85,26 @@ O valor de [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **GetFolder** com uma mensagem de [GetFolderResponse](http://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) que inclui um valor do elemento de [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NoError**, que indica que a pasta foi recuperada com êxito. A resposta também inclui um [valor](http://msdn.microsoft.com/library/196278d4-5e77-4e0a-8af6-8ac065610510%28Office.15%29.aspx) para o [ExtendedProperty](http://msdn.microsoft.com/library/f9701409-b620-4afe-b9ee-4c1e95507af7%28Office.15%29.aspx). Neste exemplo, o **valor** é definido como **false**, que significa que a pasta atualmente não está oculto.
+O servidor responde à solicitação **GetFolder** com uma mensagem [GetFolderResponse](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) que inclui um valor de elemento [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, que indica que a pasta foi recuperada com êxito. A resposta também inclui um [valor](https://msdn.microsoft.com/library/196278d4-5e77-4e0a-8af6-8ac065610510%28Office.15%29.aspx) para a [extensão estendida](https://msdn.microsoft.com/library/f9701409-b620-4afe-b9ee-4c1e95507af7%28Office.15%29.aspx). Neste exemplo, o **valor** é definido como **false**, o que significa que a pasta não está oculta no momento.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="898"
                          MinorBuildNumber="23"
                          Version="V2_10"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -126,16 +126,16 @@ O servidor responde à solicitação **GetFolder** com uma mensagem de [GetFolde
 </s:Envelope>
 ```
 
-Para alterar o valor do **ExtendedProperty** como true, use a operação [UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) . Inclua os elementos **ExtendedProperty**, **ExtendedFieldURI**e **valor** para o **PidTagAttributeHidden** propriedade estendida e defina o elemento de **valor** como **true** ocultar a pasta. 
+Para alterar o valor de **Extended** para true, use a operação [UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) . Inclua os elementos **Extended**, **ExtendedFieldURI**e **Value** para a propriedade estendida **PidTagAttributeHidden** e defina o elemento **Value** como **true** para ocultar a pasta. 
   
-Isso também é a solicitação XML que o EWS Managed API envia quando você usar o método **Update** para atualizar uma pasta para [torná-la em uma pasta oculta](#bk_hideewsma).
+Essa é também a solicitação XML que a API gerenciada do EWS envia quando você usa o método **Update** para atualizar uma pasta para [torná-la uma pasta oculta](#bk_hideewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -165,14 +165,14 @@ Isso também é a solicitação XML que o EWS Managed API envia quando você usa
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **UpdateFolder** com uma mensagem de [UpdateFolderResponse](http://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx) que inclui um valor do elemento de [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NoError**, que indica que a pasta foi atualizada com êxito e agora está oculto.
+O servidor responde à solicitação **UpdateFolder** com uma mensagem [UpdateFolderResponse](https://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx) que inclui um valor de elemento [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, que indica que a pasta foi atualizada com êxito e que agora está oculta.
   
-## <a name="find-all-hidden-folders-by-using-the-ews-managed-api"></a>Localizar todas as pastas ocultas usando a API gerenciada de EWS
+## <a name="find-all-hidden-folders-by-using-the-ews-managed-api"></a>Localizar todas as pastas ocultas usando a API gerenciada do EWS
 <a name="bk_findhiddenewsma"> </a>
 
-Você pode encontrar todas as pastas ocultas em uma pasta pai criando uma [definição de propriedade estendida](properties-and-extended-properties-in-ews-in-exchange.md) para **PidTagAttributeHidden** propriedade estendida e, em seguida, usando o método [FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) para localizar pastas com um ** PidTagAttributeHidden** valor é definido como **true**. Este exemplo usa o MsgFolderRoot, também conhecida como a parte superior do armazenamento de informações ou subárvore IPM, como a pasta pai para pesquisar em.
+Você pode localizar todas as pastas ocultas em uma pasta pai criando [uma definição de propriedade estendida](properties-and-extended-properties-in-ews-in-exchange.md) para a propriedade estendida **PidTagAttributeHidden** e, em seguida, usando o método [FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) para localizar pastas com um valor de **PidTagAttributeHidden** que é definido como **true**. Este exemplo usa o MsgFolderRoot, também conhecido como a parte superior do armazenamento de informações, ou a sub-árvore IPM, como a pasta pai a ser pesquisada.
   
-Este exemplo supõe que esse **serviço** é um objeto [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido para o proprietário da caixa de correio e que o usuário foi autenticado com um servidor Exchange. 
+Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido para o proprietário da caixa de correio e que o usuário foi autenticado em um servidor Exchange. 
   
 ```cs
 private static void FindHiddenFolders(ExchangeService service)
@@ -202,16 +202,16 @@ private static void FindHiddenFolders(ExchangeService service)
 ## <a name="find-all-hidden-folders-by-using-ews"></a>Localizar todas as pastas ocultas usando o EWS
 <a name="bk_findhiddenews"> </a>
 
-Você pode usar o EWS para localizar todas as pastas ocultas em uma pasta existente, chamando-se a operação [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) e procurando pastas cujo [PidTagAttributeHidden](http://msdn.microsoft.com/en-us/library/cc433490%28v=exchg.80%29.aspx) propriedade estendida é definida como **true**. Para fazer isso, incluir uma[restrição](http://msdn.microsoft.com/library/77f19014-d112-4999-8e83-ecc32a117a73%28Office.15%29.aspx) de [IsEqualTo](http://msdn.microsoft.com/library/48e7e067-049c-4184-8026-071e6f558e8a%28Office.15%29.aspx)que procura o elemento [ExtendedFieldURI](http://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) para a propriedade **PidTagAttributeHidden** (valor **PropertyTag não** 4243 e o valor de **PropertyType** em booleano), conforme mostrado na seguinte solicitação. Este exemplo usa o MsgFolderRoot, também conhecida como a parte superior do armazenamento de informações ou subárvore IPM, como a pasta pai para pesquisar em. 
+Você pode usar o EWS para localizar todas as pastas ocultas em uma pasta existente chamando a operação [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) e procurando pastas cuja propriedade estendida [PidTagAttributeHidden](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) está definida como **true**. Para fazer isso, inclua uma[restrição](https://msdn.microsoft.com/library/77f19014-d112-4999-8e83-ecc32a117a73%28Office.15%29.aspx) [IsEqualTo](https://msdn.microsoft.com/library/48e7e067-049c-4184-8026-071e6f558e8a%28Office.15%29.aspx)que procura o elemento [ExtendedFieldURI](https://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) para a propriedade **PidTagAttributeHidden** (valor **PropertyTag** como 4243 e o valor **recordtypepropriedade** como Boolean), conforme mostrado na solicitação a seguir. Este exemplo usa o MsgFolderRoot, também conhecido como a parte superior do armazenamento de informações, ou a sub-árvore IPM, como a pasta pai a ser pesquisada. 
   
-Isso também é a solicitação XML que o EWS Managed API envia quando você usa o método **FindFolders** para [Localizar todas as pastas ocultas](#bk_findhiddenewsma).
+Essa é também a solicitação XML que a API gerenciada do EWS envia quando você usa o método **FindFolders** para [Localizar todas as pastas ocultas](#bk_findhiddenewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -248,28 +248,28 @@ Isso também é a solicitação XML que o EWS Managed API envia quando você usa
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **FindFolder** com uma mensagem de [FindFolderResponse](http://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) que inclui um valor do elemento de [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NoError**, que indica se a pesquisa de pasta foi bem-sucedida, bem como todos os ocultos pastas sob a pasta de mensagem raiz.
+O servidor responde à solicitação **FindFolder** com uma mensagem [FindFolderResponse](https://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) que inclui um valor de elemento [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, que indica que a pesquisa de pasta foi bem-sucedida, bem como todas as pastas ocultas na pasta de mensagens raiz.
   
-Os valores de [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) são reduzidos para melhorar a legibilidade. 
+Os valores [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) são reduzidos para legibilidade. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="898"
                          MinorBuildNumber="23"
                          Version="V2_10"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -349,9 +349,9 @@ Os valores de [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f
 ## 
 <a name="bk_findhiddenews"> </a>
 
-Após você ter oculto ou pastas exibidas, talvez você queira fazer a hierarquia de pasta ou [sincronizar a hierarquia de pastas](how-to-synchronize-folders-by-using-ews-in-exchange.md). Os exemplos que mostram a você como para [obter uma hierarquia de pastas usando a API gerenciada de EWS](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyewsma) ou [fazer uma hierarquia de pastas usando o EWS](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyews) também indica quais pastas na hierarquia estão ocultas. 
+Após ter pastas ocultas ou não ocultas, talvez você queira obter a hierarquia de pastas ou [sincronizar a hierarquia de pastas](how-to-synchronize-folders-by-using-ews-in-exchange.md). Os exemplos que mostram como [obter uma hierarquia de pastas usando a API gerenciada do EWS](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyewsma) ou [obter uma hierarquia de pastas usando o EWS](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyews) também indicam quais pastas da hierarquia estão ocultas. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 - [Pastas e itens no EWS no Exchange](folders-and-items-in-ews-in-exchange.md)

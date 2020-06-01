@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 502b2841-103d-4340-97d5-51a1db813fb2
-description: O elemento de EmptyFolder define uma solicitação para esvaziar a uma pasta em uma caixa de correio no armazenamento do Exchange. Opcionalmente, subpastas também podem ser excluídas quando a pasta será esvaziada.
-ms.openlocfilehash: c72e11cea29e2e55c9c29754eec60e73bd1e4d9c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento EmptyFolder define uma solicitação para esvaziar uma pasta em uma caixa de correio no repositório do Exchange. Opcionalmente, as subpastas também podem ser excluídas quando a pasta é esvaziada.
+ms.openlocfilehash: a42e4e3f25741a96ee65fe6f87fc3236b68f4dc9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752037"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457274"
 ---
 # <a name="emptyfolder"></a>EmptyFolder
 
-O elemento de **EmptyFolder** define uma solicitação para esvaziar a uma pasta em uma caixa de correio no armazenamento do Exchange. Opcionalmente, subpastas também podem ser excluídas quando a pasta será esvaziada. 
+O elemento **EmptyFolder** define uma solicitação para esvaziar uma pasta em uma caixa de correio no repositório do Exchange. Opcionalmente, as subpastas também podem ser excluídas quando a pasta é esvaziada. 
   
 ```XML
 <EmptyFolder>
@@ -26,36 +26,36 @@ O elemento de **EmptyFolder** define uma solicitação para esvaziar a uma pasta
 ```
 
  **EmptyFolderType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**DeleteType** <br/> |Especifica como uma pasta é esvaziada. Este atributo é necessário.  <br/> |
-|**DeleteSubFolders** <br/> |Especifica se as subpastas estão a ser excluído. Este atributo é necessário.  <br/> |
+|**DeleteType** <br/> |Especifica como uma pasta é esvaziada. Esse atributo é necessário.  <br/> |
+|**DeleteSubFolders** <br/> |Especifica se as subpastas devem ser excluídas. Esse atributo é necessário.  <br/> |
    
 #### <a name="deletetype-attribute"></a>Atributo DeleteType
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|HardDelete  <br/> |Uma mensagens e pastas são removidas permanentemente do repositório.  <br/> |
-|SoftDelete  <br/> |Uma mensagens e pastas são movidas para o dumpster se o dumpster está habilitado.  <br/> |
-|MoveToDeletedItems  <br/> |Uma mensagens e pastas são movidas para a pasta Itens excluídos.  <br/> |
+|HardDelete  <br/> |As mensagens e pastas são removidas permanentemente da loja.  <br/> |
+|SoftDelete  <br/> |As mensagens e pastas serão movidas para o dumpster se o dumpster estiver habilitado.  <br/> |
+|MoveToDeletedItems  <br/> |As mensagens e pastas são movidas para a pasta itens excluídos.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderIds](folderids.md) <br/> |Contém uma matriz de identificadores de pasta que são usados para identificar pastas para excluir.  <br/> |
+|[FolderIds](folderids.md) <br/> |Contém uma matriz de identificadores de pasta que são usados para identificar pastas a serem excluídas.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -63,16 +63,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nome do esquema  <br/> |Esquema de mensagem  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

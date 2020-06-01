@@ -8,30 +8,30 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 56aeb659-8309-47a6-8c41-9f8b0436438c
-description: O elemento de domínio identifica o domínio que tenha uma relação de confiança de Federação.
-ms.openlocfilehash: 240c0b7cc13257ee36833625125691d4e51a103d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Domain identifica o domínio que tem uma confiança de Federação.
+ms.openlocfilehash: 2fcb51154d2eb9a2eeaf8b13e67aa0bd8769c53a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751919"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457029"
 ---
 # <a name="domain-getfederationinformation-soap"></a>Domínio (GetFederationInformation) (SOAP)
 
-O elemento de **domínio** identifica o domínio que tenha uma relação de confiança de Federação. 
+O elemento **Domain** identifica o domínio que tem uma confiança de Federação. 
   
 ```XML
 <Domain/>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -41,22 +41,22 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Solicitação (GetFederationInformation) (SOAP)](request-getfederationinformationsoap.md) <br/> |Representa uma solicitação de [operação GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md) .  <br/> |
+|[Solicitação (GetFederationInformation) (SOAP)](request-getfederationinformationsoap.md) <br/> |Representa uma solicitação de [operação de GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md) .  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o nome de domínio do domínio que contém a relação de confiança de Federação.
+O valor de texto representa o nome de domínio do domínio que contém a confiança de Federação.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
-- [Operação de GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+- [Operação GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
 

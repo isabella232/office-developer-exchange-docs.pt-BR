@@ -6,26 +6,26 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 630cdbb5-d1c7-422c-924a-abf5738e9e5e
-description: O elemento de ponto de extremidade Especifica o ponto de extremidade de serviço de token de segurança.
-ms.openlocfilehash: 85e1ad785b35649238ac3944f51472addf617c20
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento de ponto de extremidade especifica o ponto de extremidade do serviço de token de segurança.
+ms.openlocfilehash: 93659bbefa4a95063304cf3abad81cb61767070a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752063"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458394"
 ---
 # <a name="endpoint-soap"></a>Ponto de extremidade (SOAP)
 
-O elemento de **ponto de extremidade** Especifica o ponto de extremidade de serviço de token de segurança. 
+O elemento de **ponto de extremidade** especifica o ponto de extremidade do serviço de token de segurança. 
   
 ```XML
 <Endpoint/>
 ```
 
  **xs: anyURI**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
@@ -33,7 +33,7 @@ Nenhuma
   
 ### <a name="child-elements"></a>Elementos filho
 
-None
+Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -41,19 +41,19 @@ None
 |:-----|:-----|
 |[TokenIssuer (SOAP)](tokenissuer-soap.md) <br/> |Especifica o URI e o ponto de extremidade para o serviço de token de segurança.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o ponto de extremidade para o serviço web de token de segurança.
+O valor de texto representa o ponto de extremidade do serviço Web de token de segurança.
   
 ## <a name="remarks"></a>Comentários
 
-O ponto de extremidade é usado para comunicação com o serviço web de token de segurança.
+O ponto de extremidade é usado para comunicação com o serviço Web de token de segurança.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |

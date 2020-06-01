@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5089c815-663f-46be-bc59-aed9ee20f94a
-description: O elemento RootFolder contém os resultados de uma pesquisa de uma pasta raiz única durante uma operação FindFolder.
-ms.openlocfilehash: 1cd79d5fa34318e7fe29606df84cbf0ef0520b93
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RootFolder contém os resultados de uma pesquisa de uma única pasta raiz durante uma operação FindFolder.
+ms.openlocfilehash: b5601d6abec67196c9991908e272a2122a201d69
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825253"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457134"
 ---
 # <a name="rootfolder-findfolderresponsemessage"></a>RootFolder (FindFolderResponseMessage)
 
-O elemento **RootFolder** contém os resultados de uma pesquisa de uma pasta raiz única durante uma [operação FindFolder](findfolder-operation.md).
+O elemento **RootFolder** contém os resultados de uma pesquisa de uma única pasta raiz durante uma [operação FindFolder](findfolder-operation.md).
   
 ```xml
 <RootFolder IndexedPagingOffset="" NumeratorOffset="" AbsoluteDenominator="" IncludesLastItemInRange="" TotalItemsInView="">
@@ -30,25 +30,25 @@ O elemento **RootFolder** contém os resultados de uma pesquisa de uma pasta rai
 ```
 
  **FindFolderParentType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|IndexedPagingOffset  <br/> |Representa o próximo índice que deve ser usado para a próxima solicitação ao usar o modo de exibição indexada paginação.  <br/> |
-|NumeratorOffset  <br/> |Representa o novo valor numerador usada para a próxima solicitação quando usar exibições de página fracionais.  <br/> |
-|AbsoluteDenominator  <br/> |Representa o denominador próximo a ser usado para a próxima solicitação ao fazer a paginação fracional.  <br/> |
-|IncludesLastItemInRange  <br/> |Indica se os resultados atuais contêm a última pasta na consulta, de forma que não seja necessário paginação ainda mais.  <br/> |
+|IndexedPagingOffset  <br/> |Representa o próximo índice que deve ser usado para a próxima solicitação ao usar um modo de exibição de paginação indexado.  <br/> |
+|NumeratorOffset  <br/> |Representa o novo valor do numerador a ser usado para a próxima solicitação ao usar as exibições de página fracionada.  <br/> |
+|AbsoluteDenominator  <br/> |Representa o próximo denominador a ser usado para a próxima solicitação ao fazer paginação fracionária.  <br/> |
+|IncludesLastItemInRange  <br/> |Indica se os resultados atuais contêm a última pasta na consulta, de modo que a paginação adicional não será necessária.  <br/> |
 |TotalItemsInView  <br/> |Representa o número total de pastas que passam a restrição.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pastas](folders-ex15websvcsotherref.md) <br/> |Contém uma matriz das pastas encontrado usando a [operação FindFolder](findfolder-operation.md).  <br/> |
+|[Pastas](folders-ex15websvcsotherref.md) <br/> |Contém uma matriz de pastas encontradas usando a [operação FindFolder](findfolder-operation.md).  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -58,23 +58,23 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 [Operação FindFolder](findfolder-operation.md)
 
 
-[Localizando pastas](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[Localizando pastas](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
 

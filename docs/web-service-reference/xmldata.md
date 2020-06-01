@@ -1,5 +1,5 @@
 ---
-title: Xmldatahttp
+title: Nota XMLDATA
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e47f1d32-3ee3-4a1d-b7f9-80973ed57bd4
-description: O elemento Xmldatahttp contém conteúdo de propriedade de dados XML para um objeto de configuração do usuário.
-ms.openlocfilehash: 6cd14d9e3873dd3aac352dce82afb2c309477214
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento XMLDATA contém o conteúdo da propriedade de dados XML para um objeto de configuração de usuário.
+ms.openlocfilehash: 2fb3e2ccbb6e9ccc409a5d0cfdd895b2a63214ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838096"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457015"
 ---
-# <a name="xmldata"></a>Xmldatahttp
+# <a name="xmldata"></a>Nota XMLDATA
 
-O elemento **Xmldatahttp** contém conteúdo de propriedade de dados XML para um objeto de configuração do usuário. 
+O elemento **XMLDATA** contém o conteúdo da propriedade de dados XML para um objeto de configuração de usuário. 
   
 ```XML
 <XmlData/>
@@ -29,13 +29,13 @@ O elemento **Xmldatahttp** contém conteúdo de propriedade de dados XML para um
 
 **Base64Binary**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,9 +45,9 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserConfiguration](userconfiguration.md) <br/> |Define um objeto de configuração de usuário único.  <br/> |
+|[Userconfiguration](userconfiguration.md) <br/> |Define um único objeto de configuração do usuário.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -55,16 +55,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: a8209f75-0070-4424-8dcd-273cfd192728
-description: O elemento HiddenRecipient indica que o destinatário foi adicionado por uma política de organização que deve ficar ocultos dos usuários sem privilégios.
-ms.openlocfilehash: 73b2e3e39c675cf3e2bc56105b1e76009d4a2451
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento HiddenRecipient indica que o destinatário foi adicionado por uma política da organização que deve ser ocultada de usuários não privilegiados.
+ms.openlocfilehash: bfe57fabc02ff00c801672b71ccdb0bf1b916bd9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823810"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457638"
 ---
 # <a name="hiddenrecipient"></a>HiddenRecipient
 
-O elemento **HiddenRecipient** indica que o destinatário foi adicionado por uma política de organização que deve ficar ocultos dos usuários sem privilégios. 
+O elemento **HiddenRecipient** indica que o destinatário foi adicionado por uma política da organização que deve ser ocultada de usuários não privilegiados. 
   
 ```XML
 <HiddenRecipient>true | false</HiddenRecipient>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,26 +44,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contém informações para um único evento de um destinatário.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contém informações de um único evento para um destinatário.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Esse elemento pode ser **true** ou **false**. Um valor **true** indica que o usuário foi adicionado por uma política de organização; um valor **false** indica que o usuário não foi adicionado por uma política de organização. 
+Esse elemento pode ser **true** ou **false**. Um valor **true** indica que o usuário foi adicionado por uma política de organização; um valor **false** indica que o usuário não foi adicionado por uma política da organização. 
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

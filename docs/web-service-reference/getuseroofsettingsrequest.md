@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 15dea99c-7f5d-4af1-82ff-4255127fe567
-description: O GetUserOofSettingsRequest é o elemento raiz que contém os argumentos usados para fazer configurações de ausência temporária do usuário a uma caixa de correio.
-ms.openlocfilehash: e64818961283f90e447e2044cf7f918eccd21f06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetUserOofSettingsRequest é o elemento raiz que contém os argumentos usados para obter as configurações de ausência temporária (OOF) de um usuário de caixa de correio.
+ms.openlocfilehash: f515e8cf016d3aff6c652ae92a0da71a8f0a5f6b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823692"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457827"
 ---
 # <a name="getuseroofsettingsrequest"></a>GetUserOofSettingsRequest
 
-O **GetUserOofSettingsRequest** é o elemento raiz que contém os argumentos usados para fazer configurações de ausência temporária do usuário a uma caixa de correio. 
+O elemento **GetUserOofSettingsRequest** é o elemento raiz que contém os argumentos usados para obter as configurações de ausência temporária (OOF) de um usuário de caixa de correio. 
   
 ```xml
 <GetUserOofSettingsRequest>
@@ -30,23 +30,23 @@ O **GetUserOofSettingsRequest** é o elemento raiz que contém os argumentos usa
 ```
 
  **GetUserOofSettingsRequest**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Caixa de correio (disponibilidade)](mailbox-availability.md) <br/> |Identifica o usuário de caixa de correio para uma solicitação SetUserOofSettings ou GetUserOofSettings.  <br/> |
+|[Caixa de correio (disponibilidade)](mailbox-availability.md) <br/> |Identifica o usuário de caixa de correio para uma solicitação de SetUserOofSettings ou GetUserOofSettings.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
@@ -54,14 +54,14 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir é um exemplo de uma solicitação de GetUserOofSettings que obtém informações de ausência temporária de um único usuário.
+Veja a seguir um exemplo de uma solicitação GetUserOofSettings que obtém as informações de OOF de um único usuário.
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
@@ -71,16 +71,16 @@ O exemplo a seguir é um exemplo de uma solicitação de GetUserOofSettings que 
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

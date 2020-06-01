@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: 153e4440-495b-4972-9811-2fbea740142a
-description: A operação GetUserOofSettings obtém as configurações de fora do escritório (OOF) e mensagens de um usuário de caixa de correio.
-ms.openlocfilehash: 75a734999842cc33c213e02dc114f23372ae51fd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação GetUserOofSettings Obtém as configurações e mensagens de ausência temporária (OOF) de um usuário de caixa de correio.
+ms.openlocfilehash: 622faa622b0ea231a6331ff62631885d4252c1f5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823691"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457694"
 ---
 # <a name="getuseroofsettings-operation"></a>Operação GetUserOofSettings
 
-A operação **GetUserOofSettings** obtém as configurações de fora do escritório (OOF) e mensagens de um usuário de caixa de correio. 
+A operação **GetUserOofSettings** Obtém as configurações e mensagens de ausência temporária (OOF) de um usuário de caixa de correio. 
   
 ## <a name="soap-headers"></a>Cabeçalhos SOAP
 
-A operação **GetUserOofSettings** pode usar os cabeçalhos SOAP que estão listados e descritos na tabela a seguir. 
+A operação **GetUserOofSettings** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
@@ -34,16 +34,16 @@ A operação **GetUserOofSettings** pode usar os cabeçalhos SOAP que estão lis
    
 ## <a name="using-the-getuseroofsettings-operation"></a>Usando a operação GetUserOofSettings
 
-A operação **GetUserOofSettings** fornece acesso às configurações de ausência temporária do usuário. Um usuário é identificado pelo endereço de email do usuário. Se a mensagem de ausência temporária é nula e ausência temporária estiver ativada, nenhuma mensagem de ausência temporária será enviada. 
+A operação **GetUserOofSettings** fornece acesso às configurações de ausência temporária de um usuário. Um usuário é identificado pelo endereço de email do usuário. Se a mensagem OOF for nula e OOF estiver habilitada, nenhuma mensagem OOF será enviada. 
   
 > [!IMPORTANT]
-> Se as mensagens de ausência temporária são definidas por MicrosoftOfficeOutlook, esta operação retornará as mensagens de ausência temporária no formato HTML. 
+> Se as mensagens OOF forem definidas por MicrosoftOfficeOutlook, esta operação retornará as mensagens OOF no formato HTML. 
   
-## <a name="getuseroofsettings-request-example"></a>Exemplo de solicitação de GetUserOofSettings
+## <a name="getuseroofsettings-request-example"></a>Exemplo de solicitação GetUserOofSettings
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma solicitação de **GetUserOofSettings** que obtém informações de ausência temporária de um único usuário. 
+O exemplo a seguir mostra uma solicitação **GetUserOofSettings** que obtém as informações de OOF de um único usuário. 
   
 ### <a name="code"></a>Código
 
@@ -53,8 +53,8 @@ O exemplo a seguir mostra uma solicitação de **GetUserOofSettings** que obtém
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns ="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns ="https://schemas.microsoft.com/exchange/services/2006/types">
         <Address>User1@example.com</Address>
       </Mailbox>
     </GetUserOofSettingsRequest>
@@ -62,7 +62,7 @@ O exemplo a seguir mostra uma solicitação de **GetUserOofSettings** que obtém
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -70,13 +70,13 @@ Os seguintes elementos são usados na solicitação:
     
 - [Caixa de correio (disponibilidade)](mailbox-availability.md)
     
-- [Endereço (string)](address-string.md)
+- [Endereço (cadeia de caracteres)](address-string.md)
     
-## <a name="successful-getuseroofsettings-response-example"></a>Exemplo de resposta bem-sucedida GetUserOofSettings
+## <a name="successful-getuseroofsettings-response-example"></a>Exemplo de resposta GetUserOofSettings bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra um estado OOF desabilitado com as mensagens de ausência temporária.
+O exemplo a seguir mostra um estado de ausência temporária com mensagens de ausência temporária.
   
 ### <a name="code"></a>Código
 
@@ -87,14 +87,14 @@ O exemplo a seguir mostra um estado OOF desabilitado com as mensagens de ausênc
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetUserOofSettingsResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetUserOofSettingsResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessage ResponseClass="Success">
         <ResponseCode>NoError</ResponseCode>
       </ResponseMessage>
-      <OofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <OofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Disabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -114,7 +114,7 @@ O exemplo a seguir mostra um estado OOF desabilitado com as mensagens de ausênc
 </soap:Envelope>
 ```
 
-### <a name="successful-getuseroofsettings-response-elements"></a>Elementos de resposta bem-sucedida GetUserOofSettings
+### <a name="successful-getuseroofsettings-response-elements"></a>Elementos de resposta do GetUserOofSettings bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -142,7 +142,7 @@ Os seguintes elementos são usados na resposta:
     
 - [ExternalReply](externalreply.md)
     
-- [Mensagem](message-ex15websvcsotherref.md)
+- [Message](message-ex15websvcsotherref.md)
     
 - [AllowExternalOof](allowexternaloof.md)
     
@@ -161,7 +161,7 @@ O exemplo a seguir mostra uma resposta de erro causada por uma tentativa de aces
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <soap:Fault>
@@ -169,14 +169,14 @@ O exemplo a seguir mostra uma resposta de erro causada por uma tentativa de aces
       <faultstring>Microsoft.Exchange.Data.Storage.AccessDeniedException: User is not mailbox owner. User = S-1-5-21-3642464542-282065186-3871681729-1155, MailboxGuid = S-1-5-21-3642464542-282065186-3871681729-1156 ---> User is not mailbox owner. </faultstring>
       <faultactor>https://CAS01.example.com/EWS/Exchange.asmx</faultactor>
       <detail>
-        <ErrorCode xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">-2146233088</ErrorCode>
+        <ErrorCode xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">-2146233088</ErrorCode>
       </detail>
     </soap:Fault>
   </soap:Body>
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

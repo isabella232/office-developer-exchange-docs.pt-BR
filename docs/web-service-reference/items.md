@@ -1,5 +1,5 @@
 ---
-title: Items
+title: Itens
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0811a73e-bf1f-4889-9219-73902dd47639
-description: O elemento de itens contém uma matriz de itens.
-ms.openlocfilehash: 241a56ee23e87d6a4320b93cc65b1f5aa1f60120
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento items contém uma matriz de itens.
+ms.openlocfilehash: 489e34ad0e4bcc2520febb3c213db970fa496051
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824163"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458128"
 ---
-# <a name="items"></a>Items
+# <a name="items"></a>Itens
 
-O elemento de **itens** contém uma matriz de itens. 
+O elemento **Items** contém uma matriz de itens. 
   
 ```xml
 <Items>
@@ -40,60 +40,60 @@ O elemento de **itens** contém uma matriz de itens.
 ```
 
  **ArrayOfRealItemsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Item](item.md) <br/> |Representa um item no armazenamento do Exchange.  <br/> |
-|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
+|[Item](item.md) <br/> |Representa um item no repositório do Exchange.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
 |[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião no armazenamento do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no armazenamento do Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no armazenamento do Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Representa o cancelamento da reunião no armazenamento do Exchange.  <br/> |
-|[Task](task.md) <br/> |Representa uma tarefa no armazenamento do Exchange.  <br/> |
-|[PostItem](postitem.md) <br/> |Representa um item de postagem no armazenamento do Exchange.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião no repositório do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no repositório do Exchange.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
+|[Item de postagem](postitem.md) <br/> |Representa um item de postagem no repositório do Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[CopyItemResponseMessage](copyitemresponsemessage.md) <br/> |Contém o status e o resultado de uma solicitação de [operação CopyItem](copyitem-operation.md) .  <br/> |
-|[CreateItemResponseMessage](createitemresponsemessage.md) <br/> |Contém o status e o resultado de uma única solicitação de [operação CreateItem](createitem-operation.md) .  <br/> |
+|[CreateItemResponseMessage](createitemresponsemessage.md) <br/> |Contém o status e o resultado de uma solicitação de [operação CreateItem](createitem-operation.md) única.  <br/> |
 |[GetItemResponseMessage](getitemresponsemessage.md) <br/> |Contém o status e o resultado de uma solicitação de [operação GetItem](getitem-operation.md) .  <br/> |
-|[GroupedItems](groupeditems.md) <br/> |Representa uma coleção de itens que são o resultado de uma [operação FindItem](finditem-operation.md) de agrupada de chamadas.  <br/> |
+|[GroupedItems](groupeditems.md) <br/> |Representa uma coleção de itens que são o resultado de uma chamada de [operação FindItem](finditem-operation.md) agrupada.  <br/> |
 |[MoveItemResponseMessage](moveitemresponsemessage.md) <br/> |Contém o status e o resultado de uma solicitação de [operação MoveItem](moveitem-operation.md) .  <br/> |
-|[RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md) <br/> |Contém os resultados de uma pesquisa de uma pasta raiz única durante uma [operação FindItem](finditem-operation.md).  <br/> |
+|[RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md) <br/> |Contém os resultados de uma pesquisa de uma única pasta raiz durante uma [operação FindItem](finditem-operation.md).  <br/> |
 |[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |Contém o status e o resultado de uma solicitação de [operação UpdateItem](updateitem-operation.md) .  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para obter informações sobre o conjunto de itens em uma solicitação de [operação de CreateItem](createitem-operation.md) , consulte [itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md).
+Para obter informações sobre o conjunto de itens em uma solicitação de [operação CreateItem](createitem-operation.md) , consulte [itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md).
   
-Elementos de [mensagem](message-ex15websvcsotherref.md) representam as mensagens de email e outros itens que não são fortemente tipados pelo esquema dos serviços Web do Exchange (EWS). Itens como IPM. Compartilhamento e IPM.InfoPath são retornados como elementos da **mensagem** . Versões do Exchange, começando com o Exchange Server 2010 não retornam o elemento do [Item](item.md) base nas respostas. 
+Os elementos da [mensagem](message-ex15websvcsotherref.md) representam mensagens de email e todos os outros itens que não são digitados com rigidez pelo esquema dos serviços Web do Exchange (EWS). Itens como IPM. O compartilhamento e o IPM. InfoPath são retornados como elementos de **mensagem** . As versões do Exchange a partir do Exchange Server 2010 não retornam o elemento de [Item](item.md) base em respostas. 
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Exchange que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

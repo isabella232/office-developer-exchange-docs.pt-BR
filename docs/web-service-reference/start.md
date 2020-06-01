@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7cfe9979-c893-4f9b-b3a1-8f9e17515a4b
-description: O elemento iniciar representa o início de uma duração.
-ms.openlocfilehash: 8d013990e650b497abfa947938a69eed3fed7474
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Start representa o início de uma duração.
+ms.openlocfilehash: 0daf9c1422f7ba3894f9785aacac58263c5e721e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825545"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457211"
 ---
 # <a name="start"></a>Início
 
-O elemento **Iniciar** representa o início de uma duração. 
+O elemento **Start** representa o início de uma duração. 
   
 ```xml
 <Start/>
@@ -29,13 +29,13 @@ O elemento **Iniciar** representa o início de uma duração.
 
 **DateTime**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -49,32 +49,32 @@ Nenhum.
 |[DeletedOccurrence](deletedoccurrence.md) <br/> |Representa uma ocorrência excluída de um item de calendário recorrente.  <br/> |
 |[FirstOccurrence](firstoccurrence.md) <br/> |Representa a primeira ocorrência de um item de calendário recorrente.  <br/> |
 |[LastOccurrence](lastoccurrence.md) <br/> |Representa a última ocorrência de um item de calendário recorrente.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no armazenamento do Exchange.  <br/> |
-|[Ocorrência](occurrence.md) <br/> |Representa uma única ocorrência de modificação de um item de calendário recorrente.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
+|[Ocorrência](occurrence.md) <br/> |Representa uma única ocorrência modificada de um item de calendário recorrente.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto representa o início de uma duração.
   
 ## <a name="remarks"></a>Comentários
 
-A operação UpdateItem pode definir a hora de [início](start.md) e [término](end-ex15websvcsotherref.md) de um item de armazenamento do Exchange. Em uma solicitação de UpdateItem, a hora de **início** pode ser definida sem também definir a hora de **término** . Isso pode causar um erro se a hora de **início** é posterior à hora de **término** . Lembre-se de que os aplicativos cliente devem executar ajustes à hora de **término** quando a hora de **início** for alterada para preservar a duração. 
+A operação UpdateItem pode definir a hora de [início](start.md) e de [término](end-ex15websvcsotherref.md) de um item do repositório do Exchange. Em uma solicitação UpdateItem, a hora de **início** pode ser definida sem definir também a hora de **término** . Isso pode causar um erro se a hora de **início** for posterior à hora de **término** . Lembre-se de que os aplicativos cliente devem realizar ajustes na hora de **término** quando essa hora de **início** é alterada para preservar a duração. 
   
 > [!NOTE]
-> As informações de deslocamento do fuso horário serão perdidas se as datas de [início](start.md) e [término](end-ex15websvcsotherref.md) do item mestre recorrente não tiver uma data que é igual a primeira ocorrência de um padrão de recorrência semanal. 
+> As informações de deslocamento de fuso horário serão perdidas se as datas de [início](start.md) e [término](end-ex15websvcsotherref.md) do item mestre recorrente não tiverem uma data igual à primeira ocorrência de um padrão de recorrência semanal. 
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [WeeklyRecurrence](weeklyrecurrence.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 35935ca3-60d5-47f0-b16d-69ab2b8fdd49
-description: O elemento PostalCode representa o código postal para um item de contato.
-ms.openlocfilehash: 853c65e0ac2fe182b1d188996948eaab6a1b7165
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento PostalCode representa o código postal de um item de contato.
+ms.openlocfilehash: edfb4590b7156229b5f6a893a96dca8d9fbea853
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824857"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457162"
 ---
 # <a name="postalcode"></a>PostalCode
 
-O elemento **PostalCode** representa o código postal para um item de contato. 
+O elemento **PostalCode** representa o código postal de um item de contato. 
   
 ```xml
 <PostalCode/>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,24 +46,24 @@ Nenhum.
 |:-----|:-----|
 |[Entrada (PhysicalAddress)](entry-physicaladdress.md) <br/> |Descreve um único endereço físico para um item de contato.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto é um valor string que representa o código postal de um contato.
+O valor de texto é um valor de cadeia de caracteres que representa o código postal de um contato.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

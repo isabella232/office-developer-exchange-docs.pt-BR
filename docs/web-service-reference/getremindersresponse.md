@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1b1c7288-2a98-4142-8961-4d2ebca5c37c
-description: O elemento GetRemindersResponse Especifica a resposta a uma solicitação GetReminders.
-ms.openlocfilehash: 1882ab377365908c0bc272059ab4e007c43d788c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetRemindersResponse especifica a resposta a uma solicitação de getlembrers.
+ms.openlocfilehash: 4e4d6a662d2b734b8bb93e3dd4b325bf6e46a6fc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752610"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458289"
 ---
 # <a name="getremindersresponse"></a>GetRemindersResponse
 
-O elemento **GetRemindersResponse** Especifica a resposta a uma solicitação **GetReminders** . 
+O elemento **GetRemindersResponse** especifica a resposta a uma solicitação de **getlembrers** . 
   
 ```XML
 <GetRemindersResponse>
@@ -27,17 +27,17 @@ O elemento **GetRemindersResponse** Especifica a resposta a uma solicitação **
 ```
 
  **GetRemindersResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Reminders](reminders.md)
+[Lembretes](reminders.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -49,16 +49,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 287d7fcb-b871-454c-a436-c8e3c95f413a
-description: O elemento UpdateMailboxAssociation destina-se somente para uso interno.
-ms.openlocfilehash: 23a1d791bcf10374668221825789cfa4e54c9815
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UpdateMailboxAssociation é destinado apenas para uso interno.
+ms.openlocfilehash: 4aeb5220785c7b750b2798737e0cd6fb9bb2a173
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837925"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457911"
 ---
 # <a name="updatemailboxassociation"></a>UpdateMailboxAssociation
 
-O elemento **UpdateMailboxAssociation** destina-se somente para uso interno. 
+O elemento **UpdateMailboxAssociation** é destinado apenas para uso interno. 
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d359f7e8-765f-40ba-a7a0-9ce428f84523
-description: O elemento Delegator contém o nome do representante que atribuiu a tarefa.
-ms.openlocfilehash: 00d9c24e71037c10d7093883491242e665305295
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento delegante contém o nome do delegante que atribuiu a tarefa.
+ms.openlocfilehash: 63f97838d732c29e1e434783e7a12cf45e195e76
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751723"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457358"
 ---
 # <a name="delegator"></a>Delegator
 
-O elemento **Delegator** contém o nome do representante que atribuiu a tarefa. 
+O elemento **delegante** contém o nome do delegante que atribuiu a tarefa. 
   
 ```xml
 <Delegator/>
@@ -29,13 +29,13 @@ O elemento **Delegator** contém o nome do representante que atribuiu a tarefa.
 
 **String**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,26 +45,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Task](task.md) <br/> |Representa uma tarefa no armazenamento do Exchange.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o nome do representante.
+O valor de texto representa o nome do delegante.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

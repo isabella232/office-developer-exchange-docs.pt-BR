@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f4f958ed-9cf4-4ebf-9b01-e2df9a7cbd63
-description: O elemento de GetPasswordExpirationDate define uma solicitação para obter a data de expiração de senha para uma conta de email. Este elemento é a base para a operação de operação GetPasswordExpirationDate.
-ms.openlocfilehash: a9e0955566372f7b99c48c56e62ce2c5025f9f95
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetPasswordExpirationDate define uma solicitação para obter a data de expiração da senha de uma conta de email. Este elemento é o elemento base para a operação de operação GetPasswordExpirationDate.
+ms.openlocfilehash: ececbf51f71c7d87705d727229fce2314d922efb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752587"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456490"
 ---
 # <a name="getpasswordexpirationdate"></a>GetPasswordExpirationDate
 
-O elemento de **GetPasswordExpirationDate** define uma solicitação para obter a data de expiração de senha para uma conta de email. Este elemento é a base para a operação [GetPasswordExpirationDate operação](getpasswordexpirationdate-operation.md) . 
+O elemento **GetPasswordExpirationDate** define uma solicitação para obter a data de expiração da senha de uma conta de email. Este elemento é o elemento base para a operação de [operação GetPasswordExpirationDate](getpasswordexpirationdate-operation.md) . 
   
 ```XML
 <GetPasswordExpirationDate>
@@ -26,23 +26,23 @@ O elemento de **GetPasswordExpirationDate** define uma solicitação para obter 
 ```
 
  **GetPasswordExpirationDateType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Nome do elemento**|**Descrição**|
 |:-----|:-----|
-|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Representa o endereço de email da conta de email para o qual a data de expiração de senha é a ser retornado.  <br/> |
+|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Representa o endereço de email da conta de email para a qual a data de vencimento da senha deve ser retornada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,16 +50,16 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
   
 Este elemento foi introduzido no Exchange Server 2010 Service Pack 2 (SP2).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

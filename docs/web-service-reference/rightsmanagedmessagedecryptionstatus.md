@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17c7af54-aa44-4065-86ce-ac9f2edbf464
-description: O elemento RightsManagedMessageDecryptionStatus Especifica o status de descriptografia do gerenciamento de direitos de um item.
-ms.openlocfilehash: f01ecfbd467765c556250718bf93304d843facd6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RightsManagedMessageDecryptionStatus especifica o status de descriptografia de gerenciamento de direitos de um item.
+ms.openlocfilehash: 2d10a78b18b977518ee6c8301da40d2bd5a58900
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825235"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457421"
 ---
 # <a name="rightsmanagedmessagedecryptionstatus"></a>RightsManagedMessageDecryptionStatus
 
-O elemento **RightsManagedMessageDecryptionStatus** Especifica o status de descriptografia do gerenciamento de direitos de um item. 
+O elemento **RightsManagedMessageDecryptionStatus** especifica o status de descriptografia de gerenciamento de direitos de um item. 
   
 ```XML
 <RightsManagedMessageDecryptionStatus></RightsManagedMessageDecryptionStatus>
 ```
 
- **inteiro**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Semantic**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [RightsManagementLicenseData](rightsmanagementlicensedata.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **RightsManagedMessageDecryptionStatus** é que o status de descriptografia de direitos de um item de protegido. 
+O valor de texto do elemento **RightsManagedMessageDecryptionStatus** é o status de descriptografia de um item protegido por direitos. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2de5f0ad-43f2-4d38-b520-06540066564e
-description: O elemento ExecutedSearchScope contém o escopo da pesquisa que foi executada para obter os resultados da pesquisa.
-ms.openlocfilehash: ece9fdfc156cedad2a9fa181897145ae4eea20a0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ExecutedSearchScope contém o escopo da pesquisa executada para obter os resultados da pesquisa.
+ms.openlocfilehash: 828fe3800b8c13a0e18c0daba6cdeab140a1c394
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752135"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456966"
 ---
 # <a name="executedsearchscope"></a>ExecutedSearchScope
 
-O elemento **ExecutedSearchScope** contém o escopo da pesquisa que foi executada para obter os resultados da pesquisa. 
+O elemento **ExecutedSearchScope** contém o escopo da pesquisa executada para obter os resultados da pesquisa. 
   
 ```xml
 <ExecutedSearchScope/>
 ```
 
  **String**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,24 +46,24 @@ Nenhum.
 |:-----|:-----|
 |[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contém o status e o resultado de uma única solicitação de [operação FindMessageTrackingReport](findmessagetrackingreport-operation.md) .  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto é opcional. Essa informação é usada pelo aplicativo cliente para armazenar em cache os resultados com mais eficiência.
+O valor de texto é opcional. Essas informações são usadas pelo aplicativo cliente para armazenar em cache os resultados de forma mais eficaz.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

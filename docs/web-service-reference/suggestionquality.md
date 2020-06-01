@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 734f1a58-adda-4830-973e-e84bf7b870d5
-description: O elemento SuggestionQuality representa a qualidade do tempo de reunião sugeridas.
-ms.openlocfilehash: e67e0149226b36c22cdd00acd78f6582f826dd3e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SuggestionQuality representa a qualidade do tempo de reunião sugerido.
+ms.openlocfilehash: 3f8c15ccabd03687dc386a0328020cbc0bc802c4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837672"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457974"
 ---
 # <a name="suggestionquality"></a>SuggestionQuality
 
-O elemento **SuggestionQuality** representa a qualidade do tempo de reunião sugeridas. 
+O elemento **SuggestionQuality** representa a qualidade do tempo de reunião sugerido. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ O elemento **SuggestionQuality** representa a qualidade do tempo de reunião sug
   
 [SuggestionArray](suggestionarray.md)
   
-[Sugestão](suggestion.md)
+[La](suggestion.md)
   
 [SuggestionQuality](suggestionquality.md)
   
@@ -42,13 +42,13 @@ O elemento **SuggestionQuality** representa a qualidade do tempo de reunião sug
 ```
 
  **SuggestionQuality**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -58,36 +58,36 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Sugestão](suggestion.md) <br/> |Representa uma única sugestão de tempo de reunião.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
+|[La](suggestion.md) <br/> |Representa uma única sugestão de horário de reunião.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Um valor de texto que representa um valor de **SuggestionQuality** é necessário. Veja a seguir os valores possíveis: 
   
-- **Excelente** 100% de usuários e recursos estão disponíveis para o tempo de reunião sugeridas. 
+- **Excelente** 100% dos usuários e recursos estão disponíveis para o tempo de reunião sugerido. 
     
-- **BOM** A porcentagem mínima de usuários e os recursos disponíveis é igual ou maior que o valor do elemento de [GoodThreshold](goodthreshold.md) mais de 50. 
+- **Bom** A porcentagem mínima de usuários e recursos disponíveis é igual ou maior do que o valor do elemento [GoodThreshold](goodthreshold.md) mais 50. 
     
-- **Justo** A porcentagem máxima de usuários e os recursos disponíveis para um horário de reunião sugerido é igual ao valor do elemento [GoodThreshold](goodthreshold.md) mais de 50. O valor mínimo para um horário de reunião de qualidade **justo** é 50 por cento. 
+- **Justa** A porcentagem máxima de usuários e recursos disponíveis para um horário de reunião sugerido é igual ao valor do elemento [GoodThreshold](goodthreshold.md) mais 50. O valor mínimo para um tempo de reunião de qualidade **justa** é de 50 por cento. 
     
-- **Baixa** Menor que 50% dos usuários e recursos estão disponíveis para o tempo de reunião sugeridas. 
+- **Ruim** Menos de 50% dos usuários e recursos estão disponíveis para o tempo de reunião sugerido. 
     
 ## <a name="remarks"></a>Comentários
 
-O tipo de **SuggestionQuality** também é o tipo para o [DayQuality](dayquality.md) e os elementos de [MinimumSuggestionQuality](minimumsuggestionquality.md) . 
+O tipo **SuggestionQuality** também é o tipo dos elementos [DayQuality](dayquality.md) e [MinimumSuggestionQuality](minimumsuggestionquality.md) . 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -96,5 +96,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

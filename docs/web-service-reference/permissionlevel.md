@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 87978600-3523-451e-a725-ef092c543e2a
 description: O elemento PermissionLevel representa o nível de permissão que um usuário tem em uma pasta. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 7cc734f5807fe039467065315c220341f47d3fb4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e1e441c53b5c40c16051eb852a6b35a8af7476e2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824730"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458037"
 ---
 # <a name="permissionlevel"></a>PermissionLevel
 
@@ -28,13 +28,13 @@ O elemento **PermissionLevel** representa o nível de permissão que um usuário
 ```
 
  **PermissionLevelType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,9 +44,9 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Permissão](permission.md) <br/> |Define o que um usuário tem acesso a uma pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[Permissão](permission.md) <br/> |Define o acesso que um usuário tem a uma pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 A tabela a seguir lista os valores possíveis para o elemento **PermissionLevel** . 
   
@@ -54,36 +54,36 @@ A tabela a seguir lista os valores possíveis para o elemento **PermissionLevel*
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|None  <br/> |Indica que o usuário não tem nenhuma permissão na pasta.  <br/> |
-|Proprietário  <br/> |Indica que o usuário pode criar, ler, editar, excluir todos os itens na pasta e criar subpastas. O usuário é o proprietário da pasta e o contato da pasta.  <br/> |
-|PublishingEditor  <br/> |Indica que o usuário pode criar, ler, editar, excluir todos os itens na pasta e criar subpastas.  <br/> |
+|Nenhum  <br/> |Indica que o usuário não tem permissões na pasta.  <br/> |
+|Proprietário  <br/> |Indica que o usuário pode criar, ler, editar e excluir todos os itens na pasta e criar subpastas. O usuário é o proprietário da pasta e o contato da pasta.  <br/> |
+|Publishingeditorcreateitems  <br/> |Indica que o usuário pode criar, ler, editar e excluir todos os itens na pasta e criar subpastas.  <br/> |
 |Editor  <br/> |Indica que o usuário pode criar, ler, editar e excluir todos os itens na pasta.  <br/> |
-|PublishingAuthor  <br/> |Indica que o usuário pode criar e ler todos os itens na pasta, editar e excluir apenas os itens que o usuário cria e criar subpastas.  <br/> |
-|Autor  <br/> |Indica que o usuário pode criar e ler todos os itens na pasta e editar e excluir apenas os itens que o usuário cria.  <br/> |
-|NoneditingAuthor  <br/> |Indica que o usuário pode criar e ler todos os itens na pasta e excluir apenas os itens que o usuário cria.  <br/> |
-|Reviewer  <br/> |Indica que o usuário pode ler todos os itens na pasta.  <br/> |
-|Colaborador  <br/> |Indica que o usuário pode criar itens na pasta. O conteúdo da pasta não aparecem.  <br/> |
+|Publishingauthorcreateitems  <br/> |Indica que o usuário pode criar e ler todos os itens na pasta, editar e excluir somente os itens que o usuário cria e criar subpastas.  <br/> |
+|Autor  <br/> |Indica que o usuário pode criar e ler todos os itens na pasta e editar e excluir somente os itens que o usuário cria.  <br/> |
+|Noneditingauthorcreateitems  <br/> |Indica que o usuário pode criar e ler todos os itens na pasta e excluir apenas os itens que o usuário cria.  <br/> |
+|Revisor  <br/> |Indica que o usuário pode ler todos os itens na pasta.  <br/> |
+|Colaborador  <br/> |Indica que o usuário pode criar itens na pasta. O conteúdo da pasta não é exibido.  <br/> |
 |Personalizado  <br/> |Indica que o usuário tem permissões de acesso personalizadas na pasta.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Definindo permissões de nível de pasta](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Definindo permissões no nível de pasta](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

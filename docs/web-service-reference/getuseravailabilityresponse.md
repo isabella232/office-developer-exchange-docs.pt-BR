@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6999510a-d60e-43da-8964-57b5fb3e9d11
-description: O GetUserAvailabilityResponse é o elemento raiz que contém as propriedades que definem as informações de disponibilidade do usuário ou sugerido informações de tempo da reunião.
-ms.openlocfilehash: 0a30dc8ebc11b1f818b2c27b0ea68fc135ec0925
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetUserAvailabilityResponse é o elemento raiz que contém as propriedades que definem informações de disponibilidade do usuário ou informações de tempo de reunião sugeridas.
+ms.openlocfilehash: ceb24bc8b31a7d7313add213c26bef5efd3c89ae
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823684"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458212"
 ---
 # <a name="getuseravailabilityresponse"></a>GetUserAvailabilityResponse
 
-O **GetUserAvailabilityResponse** é o elemento raiz que contém as propriedades que definem as informações de disponibilidade do usuário ou sugerido informações de tempo da reunião. 
+O elemento **GetUserAvailabilityResponse** é o elemento raiz que contém as propriedades que definem informações de disponibilidade do usuário ou informações de tempo de reunião sugeridas. 
   
 ```xml
 <GetUserAvailabilityResponse>
@@ -31,24 +31,24 @@ O **GetUserAvailabilityResponse** é o elemento raiz que contém as propriedades
 ```
 
  **GetUserAvailabilityResponseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |Contém informações de disponibilidade dos usuários solicitado e o status de resposta.  <br/> |
-|[SuggestionsResponse](suggestionsresponse.md) <br/> |Contém os dados de informações e sugestão de status de resposta for solicitado sugestões de reunião.  <br/> |
+|[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |Contém as informações de disponibilidade dos usuários solicitados e o status da resposta.  <br/> |
+|[SuggestionsResponse](suggestionsresponse.md) <br/> |Contém informações de status de resposta e dados de sugestão para sugestões de reunião solicitadas.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
@@ -62,14 +62,14 @@ O exemplo a seguir de uma resposta GetUserAvailability mostra uma resposta a uma
 <?xml version="1.0" encoding="utf-8" ?>
 <GetUserAvailabilityResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                              xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <FreeBusyResponseArray xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <FreeBusyResponseArray xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <FreeBusyResponse>
       <ResponseMessage ResponseClass="Success">
         <Path select="/m:GetUserAvailabilityRequest/MailboxDataArray[0]" />
       </ResponseMessage>
       <FreeBusyView>
-        <FreeBusyViewType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Detailed</FreeBusyViewType>
-        <CalendarEventArray xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <FreeBusyViewType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Detailed</FreeBusyViewType>
+        <CalendarEventArray xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <CalendarEvent>
             <StartTime>2006-02-28T19:00:00-08:00</StartTime>
             <EndTime>2006-02-28T23:30:00-08:00</EndTime>
@@ -86,7 +86,7 @@ O exemplo a seguir de uma resposta GetUserAvailability mostra uma resposta a uma
             </CalendarEventDetails>
           </CalendarEvent>
         </CalendarEventArray>
-        <WorkingHours xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <WorkingHours xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <TimeZone>
             <Bias>480</Bias>
             <StandardTime>
@@ -118,23 +118,23 @@ O exemplo a seguir de uma resposta GetUserAvailability mostra uma resposta a uma
 </GetUserAvailabilityResponse>
 ```
 
-O conteúdo do elemento de [identificação](id.md) foram abreviado para preservar a legibilidade. 
+O conteúdo do elemento [ID](id.md) foi reduzido para preservar a legibilidade. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d3f611ed-56a4-43f8-aa65-cbd7844b827f
-description: O elemento FolderChanges representa uma coleção das alterações de uma pasta.
-ms.openlocfilehash: 7ab89e79f6babb5e93863974835685c6975d96dd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento FolderChanges representa uma coleção de alterações para uma pasta.
+ms.openlocfilehash: 5481496100512584fd0b9745ee42d5b9516bd7fb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752321"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458380"
 ---
 # <a name="folderchanges"></a>FolderChanges
 
-O elemento **FolderChanges** representa uma coleção das alterações de uma pasta. 
+O elemento **FolderChanges** representa uma coleção de alterações para uma pasta. 
   
 [UpdateFolder](updatefolder.md)
   
@@ -34,13 +34,13 @@ O elemento **FolderChanges** representa uma coleção das alterações de uma pa
 ```
 
  **NonEmptyArrayOfFolderChangesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,22 +52,22 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UpdateFolder](updatefolder.md) <br/> |Representa a operação que é usada para atualizar as propriedades de uma pasta.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/UpdateFolder` <br/> |
+|[UpdateFolder](updatefolder.md) <br/> |Representa a operação usada para atualizar as propriedades de uma pasta.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/UpdateFolder` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

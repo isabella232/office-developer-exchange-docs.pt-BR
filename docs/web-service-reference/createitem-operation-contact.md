@@ -11,27 +11,27 @@ api_name:
 api_type:
 - schema
 ms.assetid: 417e994b-0a17-4c24-9527-04796b80b029
-description: A operação CreateItem é usada para criar contatos no armazenamento do Exchange.
-ms.openlocfilehash: 05e4715f3c6675401ae7afac852395f7459c02c9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação CreateItem é usada para criar contatos no repositório do Exchange.
+ms.openlocfilehash: e1d78392b94d328cf687655cd93e6c9568f6274f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751602"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457120"
 ---
 # <a name="createitem-operation-contact"></a>Operação CreateItem (contato)
 
-A operação CreateItem é usada para criar contatos no armazenamento do Exchange.
+A operação CreateItem é usada para criar contatos no repositório do Exchange.
   
 ## <a name="remarks"></a>Comentários
 
-Não há suporte para a criação de listas de distribuição privada. Todas as propriedades dentro do contêiner [CompleteName](completename.md) são somente leitura e não podem ser definidas em um item de contato. 
+A criação de listas de distribuição particulares não é suportada. Todas as propriedades dentro do contêiner [CompleteName](completename.md) são somente leitura e não podem ser definidas em um item de contato. 
   
 ## <a name="createitem-request-example"></a>Exemplo de solicitação CreateItem
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação SOAP CreateItem válida mostra como criar um contato na pasta padrão Contatos.
+O exemplo a seguir de uma solicitação CreateItem SOAP válida mostra como criar um contato na pasta contatos padrão.
   
 ### <a name="code"></a>Código
 
@@ -40,9 +40,9 @@ O exemplo a seguir de uma solicitação SOAP CreateItem válida mostra como cria
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
- xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" >
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" >
       <SavedItemFolderId>
         <t:DistinguishedFolderId Id="contacts"/>
       </SavedItemFolderId>
@@ -74,7 +74,7 @@ O exemplo a seguir de uma solicitação SOAP CreateItem válida mostra como cria
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na resposta:
   
@@ -102,11 +102,11 @@ Os seguintes elementos são usados na resposta:
     
 - [Entrada (PhysicalAddress)](entry-physicaladdress.md)
     
-- [Rua](street.md)
+- [123](street.md)
     
 - [Cidade](city.md)
     
-- [Estado](state-ex15websvcsotherref.md)
+- [State](state-ex15websvcsotherref.md)
     
 - [CountryOrRegion](countryorregion.md)
     
@@ -118,11 +118,11 @@ Os seguintes elementos são usados na resposta:
     
 - [Sobrenome](surname.md)
     
-## <a name="successful-createitem-request"></a>Solicitação de CreateItem bem-sucedida
+## <a name="successful-createitem-request"></a>Solicitação CreateItem bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de CreateItem que criou um contato. Neste exemplo, a resposta conterá o identificador do item recém-criado.
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CreateItem que criou um contato. Neste exemplo, a resposta contém o identificador do item recém-criado.
   
 ### <a name="code"></a>Código
 
@@ -133,12 +133,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de CreateIt
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -154,11 +154,11 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de CreateIt
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-O identificador do item foi reduzido para preservar a legibilidade.
+O identificador de item foi reduzido para preservar a legibilidade.
   
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -178,11 +178,11 @@ Os seguintes elementos são usados na resposta:
     
 - [ItemId](itemid.md)
     
-## <a name="invalid-createitem-request-example"></a>Exemplo de solicitação inválido CreateItem
+## <a name="invalid-createitem-request-example"></a>Exemplo de solicitação CreateItem inválida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma solicitação que contém o XML válido, mas as instruções incompatíveis. Não é possível criar um contato em uma pasta de pesquisa.
+O exemplo a seguir mostra uma solicitação que contém um XML válido, mas instruções incompatíveis. Não é possível criar um contato em uma pasta de pesquisa.
   
 ### <a name="code"></a>Código
 
@@ -190,9 +190,9 @@ O exemplo a seguir mostra uma solicitação que contém o XML válido, mas as in
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns='http://schemas.microsoft.com/exchange/services/2006/messages'>
+    <CreateItem xmlns='https://schemas.microsoft.com/exchange/services/2006/messages'>
       <SavedItemFolderId>
         <t:DistinguishedFolderId Id='searchfolders'/>
       </SavedItemFolderId>
@@ -210,7 +210,7 @@ O exemplo a seguir mostra uma solicitação que contém o XML válido, mas as in
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de CreateItem (contato).
+O exemplo a seguir mostra uma resposta de erro a uma solicitação CreateItem (contato).
   
 ### <a name="code"></a>Código
 
@@ -221,12 +221,12 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de CreateItem
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Error">
           <m:MessageText>Cannot create a contact in a non-contact Folder.</m:MessageText>
@@ -260,7 +260,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

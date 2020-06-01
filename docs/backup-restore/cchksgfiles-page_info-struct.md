@@ -1,5 +1,5 @@
 ---
-title: CChkSGFiles.PAGE_INFO struct
+title: Struct função cchksgfiles. PAGE_INFO
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 408335e1-6977-441f-bfad-ede791d1630c
-description: 'Modificado pela última vez: 22 de fevereiro de 2013'
-ms.openlocfilehash: fa66d253b4fc6bd5c29a39c5323f59bf323a906f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Última modificação: 22 de fevereiro de 2013'
+ms.openlocfilehash: 5ec9f4303b26ea95b125adac6943945ae1276439
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751569"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456336"
 ---
-# <a name="cchksgfilespageinfo-struct"></a>CChkSGFiles.PAGE_INFO struct
+# <a name="cchksgfilespage_info-struct"></a>Struct função cchksgfiles. PAGE_INFO
 
 **Aplica-se a:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
-Contém informações para uma página de banco de dados do Exchange. Essa estrutura é usada com a função **ErrCheckDbPages** . 
+Armazena informações de uma página de banco de dados do Exchange. Essa estrutura é usada com a função **ErrCheckDbPages** . 
   
 ```cs
 Struct PAGE_INFO  
@@ -40,50 +40,50 @@ Struct PAGE_INFO
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 ### <a name="ulpgno"></a>ulPgNo
   
-Unsigned Long. Número da página lógica da página banco de dados a ser verificado. Este valor deve ser definido antes de chamar **ErrCheckDbPages**. Se o aplicativo está lendo o arquivo com base em arquivo deslocamentos e, portanto, deve ser mapeados esses deslocamentos de arquivo aos números de página lógicos, você encontrará o método **PgnoFromFileOffset** útil para determinar o valor para esse campo. **ErrCheckDbPages** não modifique esse valor. 
+Longo não assinado. Número de página lógica da página do banco de dados a ser verificado. Esse valor deve ser definido antes de chamar **ErrCheckDbPages**. Se o aplicativo estiver lendo o arquivo com base nos deslocamentos de arquivo e, portanto, mapear esses deslocamentos de arquivo para números de página lógicos, você encontrará o método **PgnoFromFileOffset** útil para determinar o valor desse campo. **ErrCheckDbPages** não modifica esse valor. 
     
 ### <a name="fpageisinitialized"></a>fPageIsInitialized 
   
-Boolean. Um valor TRUE indica que a página de banco de dados contém dados. Um valor FALSE indica que a página contém somente zeros. **ErrCheckDbPages** define esse valor. 
+Valor. Um valor TRUE indica que a página do banco de dados contém dados. Um valor FALSE indica que a página contém apenas zeros. **ErrCheckDbPages** define este valor. 
     
 ### <a name="fcorrectableerror"></a>fCorrectableError
   
-Boolean. Um valor TRUE indica que houve uma incompatibilidade de soma de verificação detectada na página banco de dados, mas que é um erro pode ser corrigido. **ErrCheckDbPages** define esse valor. 
+Valor. Um valor TRUE indica que houve uma incompatibilidade de checksum detectada na página do banco de dados, mas é um erro corrigível. **ErrCheckDbPages** define este valor. 
     
 ### <a name="checksumactual"></a>checksumActual
   
-Inteiro não assinado de 64 bits. Indica o valor de soma de verificação armazenado no banco de dados para esta página lógica. **ErrCheckDbPages** define esse valor. 
+Inteiro de 64 bits não assinado. Indica o valor de checksum armazenado no banco de dados para essa página lógica. **ErrCheckDbPages** define este valor. 
     
 ### <a name="checksumexpected"></a>checksumExpected
   
-Inteiro não assinado de 64 bits. Esse é o valor de soma de verificação esperada é calculado para a página de banco de dados; ele é definido por **ErrCheckDbPages**. Se esse valor é diferente daquele armazenadas na página banco de dados (ou seja, o valor retornado em **checksumActual**), **ErrCheckDbPages** indicará que um erro foi localizado nesta página de banco de dados. 
+Inteiro de 64 bits não assinado. Este é o valor de soma de verificação esperado que é calculado para a página do banco de dados; é definido pelo **ErrCheckDbPages**. Se esse valor for diferente daquele armazenado na página de banco de dados (ou seja, o valor retornado em **checksumActual**), **ErrCheckDbPages** indicará que um erro foi encontrado nesta página de banco de dados. 
     
 ### <a name="dbtime"></a>dbTime
   
-Inteiro não assinado de 64 bits. **ErrCheckDbPages** define este membro para o carimbo de hora na página banco de dados. 
+Inteiro de 64 bits não assinado. **ErrCheckDbPages** define este membro para o carimbo de data/hora na página do banco de dados. 
     
 ### <a name="checksumpagestructure"></a>checksumPageStructure 
   
-Inteiro não assinado de 64-bt. **ErrCheckDbPages** define este membro para o valor calculado de soma de verificação do conteúdo da página excluindo dados que é desnecessários ao determinar a equivalência lógica de página. Por exemplo, é desnecessário considerar os valores de dados no espaço de página do banco de dados não utilizados. Este membro só será válido se os valores de **checksumActual** e **checksumExpected** são iguais uns aos outros. 
+Inteiro de 64-BT não assinado. **ErrCheckDbPages** define este membro como o valor de soma de verificação calculado do conteúdo da página, excluindo dados desnecessários ao determinar a equivalência de página lógica. Por exemplo, não é necessário considerar os valores de dados no espaço de página de banco de dados não usado. Este membro só será válido se os valores **checksumActual** e **checksumExpected** forem iguais. 
     
 ### <a name="ulflags"></a>ulFlags
   
-Inteiro não assinado de 64 bits. Reservado para uso futuro. O valor desse campo deve ser definido como 0 (zero) antes de chamar **ErrCheckDbPages**.
+Inteiro de 64 bits não assinado. Reserved for future use. O valor deste campo deve ser definido como 0 (zero) antes de chamar **ErrCheckDbPages**.
     
 ## <a name="remarks"></a>Comentários
 
-Ao chamar a função **ErrCheckDbPages** , o parâmetro **rgPageInfo** é uma matriz de **página\_INFO** estruturas. Deve haver um **página\_INFO** estrutura para cada página de banco de dados a ser verificado. 
+Ao chamar a função **ErrCheckDbPages** , o parâmetro **rgPageInfo** é uma matriz de estruturas de ** \_ informações da página** . Deve haver uma estrutura **de \_ informações da página** para cada página de banco de dados a ser verificada. 
   
-O aplicativo deve definir o membro **ulPgno** com o valor apropriado e também deve definir o membro **ulFlags** como 0 (zero) antes de chamar **ErrCheckDbPages**. 
+O aplicativo deve definir o membro **ulPgno** para o valor apropriado e também deve definir o membro **parâmetroulflags** como 0 (zero) antes de chamar **ErrCheckDbPages**. 
   
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
-Exchange Server 2013 apenas inclui uma versão de 64 bits da API CHKSGFILES.
+O Exchange Server 2013 inclui apenas uma versão de 64 bits da API CHKSGFILES.
   
-A conta que o aplicativo está sendo executado em deve ter permissões de acesso de leitura para os arquivos de log e de banco de dados que devem ser verificado.
+A conta sob a qual o aplicativo está sendo executado deve ter permissões de acesso de leitura para o banco de dados e arquivos de log que devem ser verificados.
   
 

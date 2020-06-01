@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54e3ba52-08a6-4d48-8a44-6fd5fdbffb25
-description: O elemento RelativeFolderPath contém uma matriz das pastas que indicam o caminho da pasta relativa do caminho da pasta a ser criado.
-ms.openlocfilehash: f568d282e47a41c0aaf6d70ef383e5ef3e2b54bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RelativeFolderPath contém uma matriz de pastas que indica o caminho de pasta relativo do caminho da pasta a ser criado.
+ms.openlocfilehash: 8a0fc0020943afdbe6cd4c79d51d61337f8dd329
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825051"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457155"
 ---
 # <a name="relativefolderpath"></a>RelativeFolderPath
 
-O elemento **RelativeFolderPath** contém uma matriz das pastas que indicam o caminho da pasta relativa do caminho da pasta a ser criado. 
+O elemento **RelativeFolderPath** contém uma matriz de pastas que indica o caminho de pasta relativo do caminho da pasta a ser criado. 
   
 ```XML
 <RelativeFolderPath>
@@ -30,21 +30,21 @@ O elemento **RelativeFolderPath** contém uma matriz das pastas que indicam o ca
 ```
 
  **NonEmptyArrayOfFoldersType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Pasta](folder.md) | [CalendarFolder](calendarfolder.md) | [ContactsFolder](contactsfolder.md) | [SearchFolder](searchfolder.md) | [TasksFolder](tasksfolder.md)
+[Pasta](folder.md)  |  [CalendarFolder](calendarfolder.md)  |  [ContactsFolder](contactsfolder.md)  |  [SearchFolder](searchfolder.md)  |  [TasksFolder](tasksfolder.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[CreateFolderPath](createfolderpath.md)
+[Createfolderpath](createfolderpath.md)
   
 ## <a name="remarks"></a>Comentários
 
@@ -52,11 +52,11 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: aa45f0c1-a80d-4b6c-8a85-375b6de515f4
-description: O elemento de excluir indica se um cliente pode excluir uma pasta ou item.
-ms.openlocfilehash: 8a00a24ea63fa564ecefb96a5caed3a9199690eb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento delete indica se um cliente pode excluir uma pasta ou item.
+ms.openlocfilehash: 5460f9e49b126ca6b039c6f11aaa3c6eb4a40544
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751727"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457351"
 ---
 # <a name="delete"></a>Excluir
 
-O elemento **Excluir** indica se um cliente pode excluir uma pasta ou item. 
+O elemento **delete** indica se um cliente pode excluir uma pasta ou item. 
   
 ```XML
 <Delete>true or false</Delete>
@@ -29,13 +29,13 @@ O elemento **Excluir** indica se um cliente pode excluir uma pasta ou item.
 
 **boolean**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,28 +45,28 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[EffectiveRights](effectiverights.md) <br/> |Contém os direitos do cliente com base nas configurações de permissão para o item ou a pasta.  <br/> |
-|[Ações](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis a ser executada em uma mensagem quando as condições são atendidas.  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |Contém os direitos do cliente com base nas configurações de permissão para o item ou pasta.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** indica que um cliente pode excluir um item ou pasta. Um valor **false** indica que um cliente não é possível excluir um item ou pasta. 
+Um valor **true** indica que um cliente pode excluir um item ou pasta. Um valor **false** indica que um cliente não pode excluir um item ou pasta. 
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
-- [Definindo permissões de nível de pasta](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+- [Definindo permissões no nível de pasta](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

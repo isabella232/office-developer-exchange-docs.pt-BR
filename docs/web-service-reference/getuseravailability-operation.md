@@ -11,60 +11,60 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8da17226-5d3a-4525-9ffa-d83730f47bb1
-description: Encontre informações sobre o EWS GetUserAvailability operação.
-ms.openlocfilehash: 41246fe22bfb7444cd4aa7b1d4651d475dd9231c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações sobre a operação do EWS do GetUserAvailability.
+ms.openlocfilehash: b6d03c7da65e3f30f093b7e41448abcca2330a84
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823686"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458219"
 ---
 # <a name="getuseravailability-operation"></a>Operação GetUserAvailability
 
-Encontre informações sobre a operação de EWS **GetUserAvailability** . 
+Encontre informações sobre a operação do EWS do **GetUserAvailability** . 
   
-A operação **GetUserAvailability** fornece informações detalhadas sobre a disponibilidade de um conjunto de usuários, salas e recursos em um período de tempo especificado. 
+A operação **GetUserAvailability** fornece informações detalhadas sobre a disponibilidade de um conjunto de usuários, salas e recursos dentro de um período de tempo especificado. 
   
 ## <a name="using-the-getuseravailability-operation"></a>Usando a operação GetUserAvailability
 
-A operação **GetUserAvailability** fornece informações de disponibilidade do usuário atual em um nível especificado de detalhes. Aplicativos cliente como o Outlook, Outlook Web Access, Outlook Mobile Access e outras pessoas usam endereços SMTP para identificar as informações de usuário solicitado. 
+A operação **GetUserAvailability** fornece as informações de disponibilidade do usuário atual em um nível especificado de detalhes. Aplicativos cliente como Outlook, Outlook Web Access, Outlook Mobile Access e outros usam endereços SMTP para identificar as informações de usuário solicitadas. 
   
-O serviço de disponibilidade expande listas de distribuição para recuperar o status livre/ocupado para cada membro da lista, desde que o número de caixas de correio na lista de distribuição é menor do que 100, que é o número máximo de identidades que o **GetUserAvailability **operação pode solicitar. Os status livre/ocupado dos membros da lista de distribuição são mesclados em um único status livre/ocupado para a lista de distribuição de toda. 
+O serviço de disponibilidade expande as listas de distribuição para recuperar o status de disponibilidade de cada membro da lista, desde que o número de caixas de correio na lista de distribuição seja menor que 100, que é o número máximo de identidades que a operação **GetUserAvailability** pode solicitar. Os status de disponibilidade dos membros da lista de distribuição são mesclados em um único status de disponibilidade para toda a lista de distribuição. 
   
-As solicitações do aplicativo cliente especificam o período de tempo da consulta disponibilidade. O padrão o período de tempo para as informações solicitadas é 42 dias. Se o calendário do usuário contiver compromissos ou reuniões que estão dentro e fora do período de tempo definido para a consulta, o compromisso será retornado. 
+Solicitações de aplicativo cliente especificam o período de tempo da consulta de disponibilidade. O período de tempo padrão para as informações solicitadas é de 42 dias. Se o calendário do usuário contiver compromissos ou reuniões que estejam dentro e fora do período de tempo definido para a consulta, o compromisso será retornado. 
   
-Os horários de compromissos e reuniões que são retornados estão no mesmo fuso horário como aplicativo cliente que está solicitando a reunião.
+O compromisso e os horários de reunião retornados estão no mesmo fuso horário que o aplicativo cliente que está solicitando a reunião.
   
 O serviço de disponibilidade processa a solicitação para cada cliente. O serviço expande todos os compromissos recorrentes e retorna o número máximo de detalhes do calendário que o cliente solicitante tem permissão para receber.
   
 > [!NOTE]
-> Se a caixa de correio de destino não está disponível ou não pode ser encontrada, uma exceção **MailRecipientNotFoundException** é lançada. O cliente recebe uma mensagem de erro que afirma que o destinatário do email não foi encontrado no serviço de diretório do Active Directory ou serviços de domínio Active Directory (AD DS). 
+> Se a caixa de correio de destino estiver indisponível ou não puder ser encontrada, uma exceção **MailRecipientNotFoundException** será lançada. O cliente recebe uma mensagem de erro que indica que o destinatário do email não é encontrado no serviço de diretório do Active Directory ou no AD DS (serviços de domínio Active Directory). 
   
-### <a name="getuseravailability-operation-soap-headers"></a>Cabeçalhos SOAP GetUserAvailability operação
+### <a name="getuseravailability-operation-soap-headers"></a>Cabeçalhos SOAP de operação GetUserAvailability
 
-A operação **GetUserAvailability** pode usar os cabeçalhos SOAP que estão listados na tabela a seguir. 
+A operação **GetUserAvailability** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário para o qual o cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
-|**TimeZoneContext** <br/> |[TimeZoneContext](timezonecontext.md) <br/> |Especifica um cabeçalho SOAP que identifica o fuso horário a ser usado para todas as respostas do servidor. Todos os horários que são retornados do servidor serão convertidos para o fuso horário especificado. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**TimeZoneContext** <br/> |[TimeZoneContext](timezonecontext.md) <br/> |Especifica um cabeçalho SOAP que identifica o fuso horário a ser usado para todas as respostas do servidor. Todas as horas retornadas do servidor serão convertidas no fuso horário especificado. Este cabeçalho é aplicável a uma resposta.  <br/> |
    
-## <a name="getuseravailability-request-example-get-availability-information"></a>Exemplo de solicitação de GetUserAvailability: obter informações de disponibilidade
+## <a name="getuseravailability-request-example-get-availability-information"></a>Exemplo de solicitação GetUserAvailability: obter informações de disponibilidade
 
-O exemplo a seguir de uma solicitação de operação **GetUserAvailability** mostra como obter as informações de disponibilidade detalhadas para dois usuários no fuso horário hora do Pacífico. 
+O exemplo a seguir de uma solicitação de operação **GetUserAvailability** mostra como obter informações detalhadas de disponibilidade de dois usuários no fuso horário do Pacífico. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetUserAvailabilityRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
-      <t:TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserAvailabilityRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+      <t:TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Bias>480</Bias>
         <StandardTime>
           <Bias>0</Bias>
@@ -110,9 +110,9 @@ O exemplo a seguir de uma solicitação de operação **GetUserAvailability** mo
 </soap:Envelope>
 ```
 
-Para obter mais informações sobre como recuperar sugeridos reuniões usando o elemento [SuggestionsViewOptions](suggestionsviewoptions.md) , consulte o esquema no diretório virtual EWS. 
+Para obter mais informações sobre como recuperar reuniões sugeridas usando o elemento [SuggestionsViewOptions](suggestionsviewoptions.md) , consulte o esquema no diretório virtual do EWS. 
   
-A solicitação de corpo SOAP contém os seguintes elementos:
+O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
     
@@ -130,7 +130,7 @@ A solicitação de corpo SOAP contém os seguintes elementos:
     
 - [Month](month.md)
     
-- [DayOfWeek (TimeZone)](dayofweek-timezone.md)
+- [DayOfWeek (fuso horário)](dayofweek-timezone.md)
     
 - [DaylightTime](daylighttime.md)
     
@@ -138,11 +138,11 @@ A solicitação de corpo SOAP contém os seguintes elementos:
     
 - [MailboxData](mailboxdata.md)
     
-- [Email (EmailAddressType)](email-emailaddresstype.md)
+- [Email (EmailAddresstype)](email-emailaddresstype.md)
     
-- [Endereço (string)](address-string.md)
+- [Endereço (cadeia de caracteres)](address-string.md)
     
-- [AttendeeType](attendeetype.md)
+- [Articipantetype](attendeetype.md)
     
 - [ExcludeConflicts](excludeconflicts.md)
     
@@ -159,7 +159,7 @@ A solicitação de corpo SOAP contém os seguintes elementos:
 O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de operação **GetUserAvailability** . 
   
 > [!NOTE]
-> Os identificadores de eventos de calendário foram diminuídos para preservar a legibilidade. 
+> Os identificadores de eventos de calendário foram reduzidos para preservar a legibilidade. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -168,19 +168,19 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de operaç�
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="665" MinorBuildNumber="7" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetUserAvailabilityResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetUserAvailabilityResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FreeBusyResponseArray>
         <FreeBusyResponse>
           <ResponseMessage ResponseClass="Success">
             <ResponseCode>NoError</ResponseCode>
           </ResponseMessage>
           <FreeBusyView>
-            <FreeBusyViewType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">DetailedMerged</FreeBusyViewType>
-            <MergedFreeBusy xmlns="http://schemas.microsoft.com/exchange/services/2006/types">000002220220000000000000</MergedFreeBusy>
-            <CalendarEventArray xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <FreeBusyViewType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">DetailedMerged</FreeBusyViewType>
+            <MergedFreeBusy xmlns="https://schemas.microsoft.com/exchange/services/2006/types">000002220220000000000000</MergedFreeBusy>
+            <CalendarEventArray xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
               <CalendarEvent>
                 <StartTime>2006-10-16T06:00:00-07:00</StartTime>
                 <EndTime>2006-10-16T06:30:00-07:00</EndTime>
@@ -227,7 +227,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de operaç�
                 </CalendarEventDetails>
               </CalendarEvent>
             </CalendarEventArray>
-            <WorkingHours xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <WorkingHours xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
               <TimeZone>
                 <Bias>480</Bias>
                 <StandardTime>
@@ -260,16 +260,16 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de operaç�
             <ResponseCode>NoError</ResponseCode>
           </ResponseMessage>
           <FreeBusyView>
-            <FreeBusyViewType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">FreeBusyMerged</FreeBusyViewType>
-            <MergedFreeBusy xmlns="http://schemas.microsoft.com/exchange/services/2006/types">000000001100000000000000</MergedFreeBusy>
-            <CalendarEventArray xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <FreeBusyViewType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">FreeBusyMerged</FreeBusyViewType>
+            <MergedFreeBusy xmlns="https://schemas.microsoft.com/exchange/services/2006/types">000000001100000000000000</MergedFreeBusy>
+            <CalendarEventArray xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
               <CalendarEvent>
                 <StartTime>2006-10-16T09:00:00-07:00</StartTime>
                 <EndTime>2006-10-16T10:00:00-07:00</EndTime>
                 <BusyType>Tentative</BusyType>
               </CalendarEvent>
             </CalendarEventArray>
-            <WorkingHours xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <WorkingHours xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
               <TimeZone>
                 <Bias>480</Bias>
                 <StandardTime>
@@ -303,9 +303,9 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de operaç�
 </soap:Envelope>
 ```
 
-As informações de disponibilidade para cada usuário é exibida em um elemento [FreeBusyResponse](freebusyresponse.md) exclusivo. A ordem dos usuários na solicitação de operação **GetUserAvailability** determina a ordem dos dados de disponibilidade para cada usuário na resposta. 
+As informações de disponibilidade para cada usuário são exibidas em um elemento [FreeBusyResponse](freebusyresponse.md) exclusivo. A ordem dos usuários na solicitação de operação **GetUserAvailability** determina a ordem dos dados de disponibilidade para cada usuário na resposta. 
   
-Um erro será retornado ao cliente se o número de compromissos no período de tempo definido na consulta for maior que o número máximo especificado pelo administrador. O número máximo de padrão de compromissos é 10.000 instâncias única e expandida itens de recorrência. Essa propriedade pode ser configurada apenas por um administrador.
+Um erro será retornado ao cliente se o número de compromissos no período de tempo definido na consulta for maior do que o número máximo especificado pelo administrador. O número máximo padrão de compromissos é de 10.000 instâncias únicas e itens de recorrência expandidos. Essa propriedade pode ser configurada somente por um administrador.
   
 Os seguintes elementos são usados na resposta:
   
@@ -339,19 +339,19 @@ Os seguintes elementos são usados na resposta:
     
 - [CalendarEventDetails](calendareventdetails.md)
     
-- [ID DO](id.md)
+- [ID](id.md)
     
 - [Assunto (CalendarEventDetails)](subject-calendareventdetails.md)
     
 - [Local (CalendarEventDetails)](location-calendareventdetails.md)
     
-- [IsMeeting (CalendarEventDetails)](ismeeting-calendareventdetails.md)
+- [Iscumprimento (CalendarEventDetails)](ismeeting-calendareventdetails.md)
     
 - [IsRecurring (CalendarEventDetails)](isrecurring-calendareventdetails.md)
     
 - [IsException](isexception.md)
     
-- [IsReminderSet](isreminderset.md)
+- [ReminderSet](isreminderset.md)
     
 - [IsPrivate](isprivate.md)
     
@@ -371,7 +371,7 @@ Os seguintes elementos são usados na resposta:
     
 - [Month](month.md)
     
-- [DayOfWeek (TimeZone)](dayofweek-timezone.md)
+- [DayOfWeek (fuso horário)](dayofweek-timezone.md)
     
 - [DaylightTime](daylighttime.md)
     
@@ -385,10 +385,10 @@ Os seguintes elementos são usados na resposta:
     
 - [EndTimeInMinutes](endtimeinminutes.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
     
-- [Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
     
 

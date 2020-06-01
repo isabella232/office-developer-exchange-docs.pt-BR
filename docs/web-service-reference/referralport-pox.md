@@ -8,25 +8,25 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: cd693f1e-fed4-4eb9-8297-178906f47050
-description: O elemento ReferralPort Especifica a porta usada para obter uma referência para um diretório.
-ms.openlocfilehash: 5045c0c5a9f15d5a31ac2e884b942e00dfb1f520
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ReferralPort especifica a porta usada para obter uma referência a um diretório.
+ms.openlocfilehash: 6b3968d7b2f252439d2dfbc647bd8337668cf818
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825037"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456785"
 ---
 # <a name="referralport-pox"></a>ReferralPort (POX)
 
-O elemento **ReferralPort** Especifica a porta usada para obter uma referência para um diretório. 
+O elemento **ReferralPort** especifica a porta usada para obter uma referência a um diretório. 
   
 [Descoberta automática (POX)](autodiscover-pox.md)
   
-[Resposta POX)](response-pox.md)
+[Resposta (POX)](response-pox.md)
   
 [Conta (POX)](account-pox.md)
   
-[Protocolo (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [ReferralPort (POX)](referralport-pox.md)
   
@@ -34,13 +34,13 @@ O elemento **ReferralPort** Especifica a porta usada para obter uma referência 
 <ReferralPort/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,19 +50,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa a porta usada para acessar o servidor do Exchange.
+O valor de texto representa a porta usada para acessar o servidor Exchange.
   
 ## <a name="remarks"></a>Comentários
 
-O elemento **ReferralPort** é usado apenas quando o elemento de [Tipo POX ()](type-pox.md) é igual a EXCH ou EXPR. 
+O elemento **ReferralPort** é usado somente quando o elemento [tipo (POX)](type-pox.md) é igual a Exch ou expr. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

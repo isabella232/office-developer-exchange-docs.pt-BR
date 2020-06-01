@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7a8a8cc1-392b-4db5-bb76-710477e31396
-description: O elemento DayOfWeek contém a lista de dias úteis agendados para o usuário de caixa de correio.
-ms.openlocfilehash: a6a68017291ba13f45b3970307669222d583fcbb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DayOfWeek contém a lista de dias úteis agendados para o usuário da caixa de correio.
+ms.openlocfilehash: 06d4a7d5541b3b71fcbf9be9beb7512d06853283
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751710"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457442"
 ---
 # <a name="dayofweek-workingperiod"></a>DayOfWeek (WorkingPeriod)
 
-O elemento **DayOfWeek** contém a lista de dias úteis agendados para o usuário de caixa de correio. 
+O elemento **DayOfWeek** contém a lista de dias úteis agendados para o usuário da caixa de correio. 
   
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)  
 - [FreeBusyResponseArray](freebusyresponsearray.md)  
@@ -38,13 +38,13 @@ O elemento **DayOfWeek** contém a lista de dias úteis agendados para o usuári
 
 **DaysOfWeek**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -54,11 +54,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[WorkingPeriod](workingperiod.md) <br/> |Contém a semana de trabalho dias e horas do usuário da caixa de correio.<br/><br/>Este é a expressão XPath para esse elemento:<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i[` <br/> |
+|[WorkingPeriod](workingperiod.md) <br/> |Contém os dias e as horas da semana de trabalho do usuário da caixa de correio.<br/><br/>A seguir está a expressão XPath para este elemento:<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i[` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto será retornado se o usuário de caixa de correio tem dias definidos para representar a semana de trabalho. Estes são os valores possíveis para esse elemento:
+Um valor de texto será retornado se o usuário da caixa de correio tiver dias definidos para representar a semana de trabalho. Estes são os valores possíveis para este elemento:
   
 - Domingo    
 - Segunda-feira    
@@ -68,26 +68,26 @@ Um valor de texto será retornado se o usuário de caixa de correio tem dias def
 - Sexta-feira    
 - Sábado 
     
-Os valores de texto serão retornados nesta ordem.
+Os valores de texto serão retornados nessa ordem.
   
 ## <a name="remarks"></a>Comentários
 
-É importante observar que a diferença entre esse elemento e o elemento de disponibilidade [DayOfWeek (TimeZone)](dayofweek-timezone.md) é o tipo. 
+É importante observar que a diferença entre este elemento e o elemento de disponibilidade de [DayOfWeek (TimeZone)](dayofweek-timezone.md) é o tipo. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação GetUserAvailability](getuseravailability-operation.md)  
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-- [Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

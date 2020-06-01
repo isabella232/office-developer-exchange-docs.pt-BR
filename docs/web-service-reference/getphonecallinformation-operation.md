@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: 418bd6ca-39d9-49a9-841e-7a71ede1fa51
-description: A operação GetPhoneCallInformation retorna informações sobre a chamada de telefone especificada.
-ms.openlocfilehash: 8f98ca5dd304eadffc307fa47620b7db6401c782
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação GetPhoneCallInformation retorna informações sobre a chamada telefônica especificada.
+ms.openlocfilehash: 231b160713526f44433188e2b1e3bd98012370b1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752604"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458310"
 ---
 # <a name="getphonecallinformation-operation"></a>Operação GetPhoneCallInformation
 
-A operação **GetPhoneCallInformation** retorna informações sobre a chamada de telefone especificada. 
+A operação **GetPhoneCallInformation** retorna informações sobre a chamada telefônica especificada. 
   
-## <a name="getphonecallinformation-request-example"></a>Exemplo de solicitação de GetPhoneCallInformation
+## <a name="getphonecallinformation-request-example"></a>Exemplo de solicitação GetPhoneCallInformation
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **GetPhoneCallInformation** mostra como uma solicitação para obter mais informações sobre uma chamada telefônica específica de formulário. 
+O exemplo a seguir de uma solicitação **GetPhoneCallInformation** mostra como formar uma solicitação para obter informações sobre uma chamada telefônica específica. 
   
 ### <a name="code"></a>Código
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -53,7 +53,7 @@ O exemplo a seguir de uma solicitação de **GetPhoneCallInformation** mostra co
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetPhoneCallInformation** . A resposta representa uma chamada telefônica que está conectada. 
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetPhoneCallInformation** . A resposta representa uma chamada telefônica que está conectada no momento. 
   
 ### <a name="code"></a>Código
 
@@ -66,26 +66,26 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetPhoneC
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetPhoneCallInformationResponse ResponseClass="Success" 
-                                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
-      <m:PhoneCallInformation xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <t:PhoneCallState xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">Connected</t:PhoneCallState>
-        <t:ConnectionFailureCause xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">None</t:ConnectionFailureCause>
+      <m:PhoneCallInformation xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <t:PhoneCallState xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">Connected</t:PhoneCallState>
+        <t:ConnectionFailureCause xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">None</t:ConnectionFailureCause>
       </m:PhoneCallInformation>
     </GetPhoneCallInformationResponse>
   </s:Body>
 </s:Envelope>
 ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

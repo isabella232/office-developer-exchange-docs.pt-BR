@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 26c55228-184e-4340-bd80-f86be56f3e7a
-description: Os elementos TokenIssuers representa a coleção de TokenIssuer (SOAP).
-ms.openlocfilehash: b070d85b32d5bce8461ac4e930329f237885bad7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Os elementos TokenIssuers representam a coleção TokenIssuer (SOAP).
+ms.openlocfilehash: 352487ad3fd9c1ee7de756a109fb98a49d0cdcd7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837768"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457071"
 ---
 # <a name="tokenissuers-soap"></a>TokenIssuers (SOAP)
 
-Os elementos **TokenIssuers** representa a coleção de [TokenIssuer (SOAP)](tokenissuer-soap.md) . 
+Os elementos **TokenIssuers** representam a coleção [TokenIssuer (SOAP)](tokenissuer-soap.md) . 
   
 ```XML
 <TokenIssuers>
@@ -25,9 +25,9 @@ Os elementos **TokenIssuers** representa a coleção de [TokenIssuer (SOAP)](tok
 ```
 
  **TokenIssuers**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
@@ -37,7 +37,7 @@ Nenhuma
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[TokenIssuer (SOAP)](tokenissuer-soap.md) <br/> |Especifica o [Uri (SOAP)](uri-soap.md) e o [Ponto de extremidade (SOAP)](endpoint-soap.md) para o serviço de token de segurança.  <br/> |
+|[TokenIssuer (SOAP)](tokenissuer-soap.md) <br/> |Especifica o [URI (SOAP)](uri-soap.md) e o [ponto de extremidade (SOAP)](endpoint-soap.md) para o serviço de token de segurança.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -47,22 +47,22 @@ Nenhuma
    
 ## <a name="remarks"></a>Comentários
 
-O **TokenIssuers** representa uma coleção de elementos de [TokenIssuer (SOAP)](tokenissuer-soap.md) a ser usado na detecção automática. 
+O **TokenIssuers** representa uma coleção de elementos [TokenIssuer (SOAP)](tokenissuer-soap.md) a serem usados na descoberta automática. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Referência de web service de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
+[Referência do serviço Web de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
   
-[Elementos de Autodiscover XML SOAP para o Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Elementos XML de descoberta automática SOAP para o Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

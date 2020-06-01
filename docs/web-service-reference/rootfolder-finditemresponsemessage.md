@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 187e009f-efaa-42a8-8962-329a645213ab
-description: O elemento RootFolder contém os resultados de uma pesquisa de uma pasta raiz única durante uma operação FindItem.
-ms.openlocfilehash: ea17369ef4efc4112a738b430c8f0dbab3886341
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RootFolder contém os resultados de uma pesquisa de uma única pasta raiz durante uma operação FindItem.
+ms.openlocfilehash: 3bbab325dff26139739c50ef519b215aea620a0b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825254"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457127"
 ---
 # <a name="rootfolder-finditemresponsemessage"></a>RootFolder (FindItemResponseMessage)
 
-O elemento **RootFolder** contém os resultados de uma pesquisa de uma pasta raiz única durante uma [operação FindItem](finditem-operation.md).
+O elemento **RootFolder** contém os resultados de uma pesquisa de uma única pasta raiz durante uma [operação FindItem](finditem-operation.md).
   
 ```xml
 <RootFolder IndexedPagingOffset="" NumeratorOffset="" AbsoluteDenominator="" IncludesLastItemInRange="" TotalItemsInView="">
@@ -31,26 +31,26 @@ O elemento **RootFolder** contém os resultados de uma pesquisa de uma pasta rai
 ```
 
  **FindItemParentType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**IndexedPagingOffset** <br/> |Representa o próximo índice que deve ser usado para a próxima solicitação ao usar o modo de exibição indexada paginação.  <br/> |
-|**NumeratorOffset** <br/> |Representa o novo valor numerador usada para a próxima solicitação quando usar exibições de página de fração.  <br/> |
-|**AbsoluteDenominator** <br/> |Representa o denominador próximo a ser usado para a próxima solicitação ao fazer a paginação fracional.  <br/> |
-|**IncludesLastItemInRange** <br/> |Indica se os resultados atuais contêm o último item na consulta, de forma que não seja necessário paginação ainda mais.  <br/> |
+|**IndexedPagingOffset** <br/> |Representa o próximo índice que deve ser usado para a próxima solicitação ao usar um modo de exibição de paginação indexado.  <br/> |
+|**NumeratorOffset** <br/> |Representa o novo valor do numerador a ser usado para a próxima solicitação ao usar as exibições da página de fração.  <br/> |
+|**AbsoluteDenominator** <br/> |Representa o próximo denominador a ser usado para a próxima solicitação ao fazer paginação fracionária.  <br/> |
+|**IncludesLastItemInRange** <br/> |Indica se os resultados atuais contêm o último item da consulta, de modo que a paginação adicional não será necessária.  <br/> |
 |**TotalItemsInView** <br/> |Representa o número total de itens que passam a restrição. Em uma [operação FindItem](finditem-operation.md)agrupada, o atributo **TotalItemsInView** retorna o número total de itens no modo de exibição mais o número total de grupos.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Items](items.md) <br/> |Contém uma matriz de itens encontrados com os critérios de pesquisa identificados na solicitação de [operação FindItem](finditem-operation.md) .  <br/> |
-|[Grupos](groups.md) <br/> |Contém uma coleção dos grupos encontrados que tenham os critérios de pesquisa e a agregação de lista segura identificados na solicitação de [operação FindItem](finditem-operation.md) .  <br/> |
+|[Itens](items.md) <br/> |Contém uma matriz de itens encontrados que têm os critérios de pesquisa identificados na solicitação de [operação FindItem](finditem-operation.md) .  <br/> |
+|[Grupos](groups.md) <br/> |Contém uma coleção de grupos encontrados que têm os critérios de pesquisa e agregação identificados na solicitação de [operação FindItem](finditem-operation.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -60,18 +60,18 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server com a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Exchange Server com a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -88,5 +88,5 @@ O esquema que descreve este elemento está localizado no diretório virtual EWS 
 [TotalItemsInView](https://msdn.microsoft.com/library/ExchangeWebServices.FindItemParentType.TotalItemsInView.aspx)
 
 
-[Localizando itens](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+[Localizar itens](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

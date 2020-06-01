@@ -1,73 +1,73 @@
 ---
-title: Instrumentação solicitações de clientes para o EWS e REST no Exchange
+title: Instrumentação de solicitações de cliente para EWS e REST no Exchange
 manager: sethgros
 ms.date: 4/13/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 330de503-498d-447e-b4a9-c20fc1699fd1
-description: Saiba mais sobre os cabeçalhos HTTP nas solicitações EWS e REST e respostas que podem ajudá-lo a monitorar e solucionar problemas de seu aplicativo do Exchange.
-ms.openlocfilehash: bcf362952c29956729c44397043a56bf3603d0af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Saiba mais sobre os cabeçalhos HTTP no EWS e as solicitações REST e respostas que podem ajudá-lo a monitorar e solucionar problemas do aplicativo Exchange.
+ms.openlocfilehash: 3a8ce889ec7a6b9e70ec25a95ac248902f48ca6c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750852"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456301"
 ---
-# <a name="instrumenting-client-requests-for-ews-and-rest-in-exchange"></a>Instrumentação solicitações de clientes para o EWS e REST no Exchange
+# <a name="instrumenting-client-requests-for-ews-and-rest-in-exchange"></a>Instrumentação de solicitações de cliente para EWS e REST no Exchange
 
-Saiba mais sobre os cabeçalhos HTTP nas solicitações EWS e REST e respostas que podem ajudá-lo a monitorar e solucionar problemas de seu aplicativo do Exchange.
+Saiba mais sobre os cabeçalhos HTTP no EWS e as solicitações REST e respostas que podem ajudá-lo a monitorar e solucionar problemas do aplicativo Exchange.
   
-Isso já aconteceu para você? Um usuário do seu aplicativo relata um erro inesperado. Você deseja investigar, mas você não pode reproduzi-lo. O erro desapareceu para o usuário e fica com muito pouco dados acionáveis. Frustrante, não é? Vejamos como você pode preparar proativamente para este cenário e esperamos evitar aborrecimento no futuro.
+Isso já aconteceu? Um usuário do seu aplicativo relata um erro inesperado. Você deseja investigar, mas não pode reproduzi-lo. O erro desapareceu para o usuário e você é deixado com poucos dados acionáveis. Frustrante, não é? Vamos ver como você pode se preparar proativamente para este cenário e, espero, evitar frustração no futuro.
   
-## <a name="add-instrumentation-to-requests"></a>Adicione instrumentação às solicitações
+## <a name="add-instrumentation-to-requests"></a>Adicionar instrumentação às solicitações
 
-Recomendamos que você adicione os cabeçalhos HTTP adicionais às suas solicitações para facilitar a solução de problemas. Você deve manter um registro dessas informações em qualquer lugar (por exemplo, em um arquivo de log), para que possa recuperá-lo mais tarde se precisar. Isso é útil quando examinando o tráfego de rede e também é útil se você contatar o suporte da Microsoft para obter assistência.
+Recomendamos que você adicione outros cabeçalhos HTTP às suas solicitações para facilitar a solução de problemas. Você deve manter um registro dessas informações em algum lugar (por exemplo, em um arquivo de log) para que possa recuperá-lo posteriormente, se necessário. Isso é útil ao examinar o tráfego de rede e também é útil se você entrar em contato com o suporte da Microsoft para obter assistência.
   
 **Tabela 1. Cabeçalhos de solicitação para solução de problemas**
 
-|**Cabeçalho HTTP (EWS)**|**API gerenciada de EWS equivalente**|**Notes**|
+|**Cabeçalho HTTP (EWS)**|**Equivalente à API gerenciada do EWS**|**Anotações**|
 |:-----|:-----|:-----|
-|Agente do usuário  <br/> |[ExchangeService.UserAgent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |Defina esta opção para um valor exclusivo que identifica o aplicativo cliente.<br/><br/> Usando o mesmo valor para todas as solicitações de seu aplicativo envia permite que a Microsoft ajudar a solucionar problemas de falhas de chamada, eles ocorrer.  <br/> |
-|id de solicitação do cliente  <br/> |[ExchangeService.ClientRequestId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |Defina esta opção para um valor exclusivo diferente para cada solicitação que envia seu aplicativo.<br/><br/> Recomendamos que você use um GUID. Este identificador exclusivo é destinado a serem usadas para correlacionar atividades entre dois sistemas que algo saia errado.  <br/> |
-|retorno-client-id de solicitação  <br/> |[ExchangeService.ReturnClientRequestId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.returnclientrequestid%28v=exchg.80%29.aspx) <br/> |Defina como **true** para sinalizar para o servidor do Exchange que ele deve retornar o valor da sua id de cliente-solicitação na resposta correspondente.<br/><br/> Você pode usar esse para correlacionar solicitações e respostas de rastreamentos de rede ou rastreamentos de API gerenciada de EWS.  <br/> |
-|X-ClientStatistics  <br/> |[ExchangeService.SendClientLatencies](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) <br/> |Usado para [as latências EWS do relatório](#bk_ReportLatency) para a Microsoft se seu aplicativo estiver acessando o Exchange Online ou Exchange Online como parte do Office 365.  <br/> |
+|Agente de usuário  <br/> |[ExchangeService. UserAgent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |Defina isso como um valor exclusivo que identifique o aplicativo cliente.<br/><br/> Usar o mesmo valor para todas as solicitações que o seu aplicativo envia permite que a Microsoft ajude a solucionar problemas de falhas de chamada, caso ocorram.  <br/> |
+|Client-Request-ID  <br/> |[ExchangeService. ClientRequestId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |Defina isso como um valor exclusivo diferente para cada solicitação que seu aplicativo envia.<br/><br/> Recomendamos que você use um GUID. Esse identificador exclusivo deve ser usado para correlacionar atividades entre dois sistemas no caso de algo errado.  <br/> |
+|retorno-Client-Request-ID  <br/> |[ExchangeService. ReturnClientRequestId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.returnclientrequestid%28v=exchg.80%29.aspx) <br/> |Defina como **true** para sinalizar para o servidor Exchange que deve retornar o valor de seu Client-Request-ID na resposta correspondente.<br/><br/> Você pode usar isso para correlacionar solicitações e respostas em rastreamentos de rede ou rastreamentos de API gerenciada do EWS.  <br/> |
+|X-ClientStatistics  <br/> |[ExchangeService. SendClientLatencies](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) <br/> |Usado para [relatar latências de EWS](#bk_ReportLatency) para a Microsoft se seu aplicativo estiver acessando o Exchange Online ou o Exchange Online como parte do Office 365.  <br/> |
    
-## <a name="log-information-from-responses"></a>Informações de logs de respostas
+## <a name="log-information-from-responses"></a>Informações de log de respostas
 
-Assim como seu cliente pode adicionar instrumentação adicionais às solicitações de que ele envia, Exchange adiciona instrumentação adicionais para as respostas no formato dos cabeçalhos HTTP. Seu cliente deve capturar essas informações para ir junto com as informações de instrumentação de solicitação.
+Assim que o cliente pode adicionar a instrumentação adicional às solicitações que envia, o Exchange adiciona instrumentação adicional às respostas na forma de cabeçalhos HTTP. O cliente deve capturar essas informações para acompanhar as informações de instrumentação de solicitação.
   
 > [!NOTE]
-> Se você estiver usando a API gerenciada de EWS, não há nenhum equivalente direto para os cabeçalhos HTTP. No entanto, todos os cabeçalhos de resposta HTTP podem ser acessados por meio da propriedade [ExchangeService.HttpResponseHeaders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.httpresponseheaders%28v=exchg.80%29.aspx) . 
+> Se você estiver usando a API gerenciada do EWS, não haverá equivalente direto aos cabeçalhos HTTP. No entanto, todos os cabeçalhos de resposta HTTP podem ser acessados por meio da propriedade [ExchangeService. HttpResponseHeaders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.httpresponseheaders%28v=exchg.80%29.aspx) . 
   
 **Tabela 2. Cabeçalhos de resposta HTTP**
 
 |**Cabeçalho HTTP**|**Descrição**|
 |:-----|:-----|
-|id de solicitação  <br/> |Uma ID para a solicitação que corresponde a essa resposta gerados pelo servidor.  <br/> |
-|id de solicitação do cliente  <br/> |O valor do cabeçalho na solicitação de id de solicitação do cliente.<br/><br/> Este cabeçalho só estará presente se a solicitação contém o cabeçalho de retorno-client-id de solicitação com um valor **true**.  <br/> |
-|X-FEServer  <br/> |O FQDN do servidor acesso para cliente que processaram a solicitação.  <br/> |
-|X-TargetBEServer  <br/> |O FQDN do servidor de caixa de correio que processaram a solicitação.  <br/> |
-|X-DiagInfo  <br/> |Informações de diagnósticos adicionais, dependendo da solicitação.  <br/> |
-|x-ms-diagnostics  <br/> | Este cabeçalho é aplicável somente se a autenticação OAuth é usada na solicitação.<br/><br/> Ele contém um código de erro explícita que especifica por que uma autenticação OAuth falhou.<br/><br/> Ele usa o seguinte formato:`errorId;reason="reason"error_type="error type"`<br/><br/> O campo **motivo** é uma legíveis descrição do erro.<br/><br/> O campo **identificação de erro** é um inteiro e o **erro\_tipo** campo é a representação de cadeia de caracteres desse número inteiro, da seguinte maneira:<ul><li>2000000: inválido\_assinatura</li><li>2000001: inválido\_token</li><li>  2000002: token\_expirou</li><li>2000003: inválido\_recurso</li><li>2000004: inválido\_locatário  </li><li>2000005: inválido\_usuário</li><li>2000006: inválido\_cliente</li><li>2000007: interno\_erro</li><li>2000008: inválido\_conceder</li></ul> |
+|ID da solicitação  <br/> |Uma ID gerada pelo servidor para a solicitação que corresponde a essa resposta.  <br/> |
+|Client-Request-ID  <br/> |O valor do cabeçalho Client-Request-ID na solicitação.<br/><br/> Este cabeçalho só estará presente se a solicitação contiver o cabeçalho Return-Client-Request-ID com um valor **true**.  <br/> |
+|X-FEServer  <br/> |O FQDN do servidor de acesso para cliente que processou a solicitação.  <br/> |
+|X-TargetBEServer  <br/> |O FQDN do servidor de caixa de correio que processou a solicitação.  <br/> |
+|X-DiagInfo  <br/> |Informações adicionais de diagnóstico, dependendo da solicitação.  <br/> |
+|x-MS-Diagnostics  <br/> | Esse cabeçalho só será aplicável se a autenticação OAuth for usada na solicitação.<br/><br/> Ele contém um código de erro explícito que especifica por que uma autenticação OAuth falhou.<br/><br/> Ele tem o seguinte formato:`errorId;reason="reason"error_type="error type"`<br/><br/> O campo de **motivo** é uma descrição legível do erro.<br/><br/> O campo **errorID** é um inteiro e o campo ** \_ tipo de erro** é a representação de cadeia de caracteres desse inteiro, da seguinte maneira:<ul><li>2 milhões: assinatura inválida \_</li><li>2000001: \_ token inválido</li><li>  2000002: token \_ expirado</li><li>2000003: \_ recurso inválido</li><li>2000004: \_ locatário inválido  </li><li>2000005: \_ usuário inválido</li><li>2000006: \_ cliente inválido</li><li>2000007: \_ erro interno</li><li>2000008: concessão inválida \_</li></ul> |
    
-## <a name="report-ews-latency-to-microsoft"></a>Latência do EWS de relatório para a Microsoft
+## <a name="report-ews-latency-to-microsoft"></a>Relatar a latência do EWS para a Microsoft
 <a name="bk_ReportLatency"> </a>
 
-Se seu aplicativo usa a API gerenciada de EWS ou o EWS para se conectar ao Exchange Online, é possível denunciar a latência em solicitações EWS diretamente à Microsoft. As informações são passadas por meio do cabeçalho de solicitação X-ClientStatistics. Se você estiver usando a API gerenciada de EWS, tudo o que você deve fazer é definir a propriedade [ExchangeService.SendClientLatencies](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) como **true**. Se você estiver usando o EWS, você precisará medir o tempo entre emitindo uma solicitação e recebimento de uma resposta, em seguida, adicione o cabeçalho X-ClientStatistics para a próxima solicitação EWS envia seu aplicativo, usando o seguinte formato.
+Se o aplicativo usar a API gerenciada do EWS ou o EWS para se conectar ao Exchange Online, você poderá relatar a latência em solicitações EWS diretamente à Microsoft. As informações são passadas pelo cabeçalho de solicitação X-ClientStatistics. Se você estiver usando a API gerenciada do EWS, tudo o que você precisa fazer é definir a propriedade [ExchangeService. SendClientLatencies](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) como **true**. Se você estiver usando o EWS, precisará medir o tempo entre a emissão de uma solicitação e o recebimento de uma resposta e, em seguida, adicione o cabeçalho X-ClientStatistics à próxima solicitação do EWS que seu aplicativo envia, usando o formato a seguir.
   
 `X-ClientStatistics: MessageId=<value of request-id header>,ResponseTime=<time in milliseconds>,SoapAction=<EWS operation>`
   
-Podemos manter relatórios para esses latências e usá-los para melhorar continuamente os serviços do EWS no Exchange Online.
+Mantemos relatórios para essas latências e os usam para melhorar continuamente os serviços do EWS no Exchange Online.
   
 ## <a name="next-steps"></a>Próximas etapas
 <a name="bk_ReportLatency"> </a>
 
-Depois que você adicionou instrumentação de cliente para seu aplicativo, você está preparado melhor caso algo saia errado. Se isso ocorrer, você pode usar os dados de instrumentação para [Solucionar problemas de seu aplicativo](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md).
+Após ter adicionado a instrumentação do cliente ao seu aplicativo, você estará mais preparado se algo der errado. Se isso acontecer, você poderá usar seus dados de instrumentação para [solucionar problemas com o aplicativo](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md).
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Visão geral de design de cliente do EWS do Exchange](ews-client-design-overview-for-exchange.md)
-- [Solicitações e respostas para solucionar problemas de aplicativos do EWS Managed API de rastreamento](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md)
-- [Ferramentas e recursos para solucionar problemas de aplicativos do EWS do Exchange](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md)
+- [Visão geral do design de cliente do EWS para Exchange](ews-client-design-overview-for-exchange.md)
+- [Rastrear solicitações e respostas para solucionar problemas de aplicativos de API gerenciada do EWS](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md)
+- [Ferramentas e recursos para a solução de problemas de aplicativos do EWS para Exchange](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md)
     
 

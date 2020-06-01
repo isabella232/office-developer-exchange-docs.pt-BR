@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3f3c2300-55cd-41c0-900e-b470b290d52f
-description: O elemento IncludeMimeContent Especifica se o conteúdo de email extensões MIME (Multipurpose Internet) de um item ou de um anexo é retornado na resposta.
-ms.openlocfilehash: ddd6988be93231ac7c574a2e19c9ba4b562c7d0e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IncludeMimeContent especifica se o conteúdo MIME (Multipurpose Internet Mail Extensions) de um item ou anexo é retornado na resposta.
+ms.openlocfilehash: 6198e4bef2dc59e6e56a8d3cbe463dad13e544e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823903"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457190"
 ---
 # <a name="includemimecontent"></a>IncludeMimeContent
 
-O elemento **IncludeMimeContent** Especifica se o conteúdo de email extensões MIME (Multipurpose Internet) de um item ou de um anexo é retornado na resposta. 
+O elemento **IncludeMimeContent** especifica se o conteúdo MIME (Multipurpose Internet Mail Extensions) de um item ou anexo é retornado na resposta. 
   
 ```xml
 <IncludeMimeContent>true or false</IncludeMimeContent>
 ```
 
  **boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,32 +44,32 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AttachmentShape](attachmentshape.md) <br/> | Identifica as propriedades adicionais para retornar em resposta a uma solicitação de [GetAttachment](getattachment.md) .  <br/> <br/> Este é a expressão XPath para esse elemento:  <br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
-|[ItemShape](itemshape.md) <br/> | Identifica as propriedades do item e o conteúdo a ser incluído em uma resposta GetItem, FindItem ou SyncFolderItems.  <br/> <br/> A seguir estão as expressões XPath para esse elemento:<br/>  <br/>  `/GetItem/ItemShape` <br/><br/>  `/FindItem/ItemShape` <br/><br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[AttachmentShape](attachmentshape.md) <br/> | Identifica propriedades adicionais para retornar em uma resposta a uma solicitação [GetAttachment](getattachment.md) .  <br/> <br/> A seguir está a expressão XPath para este elemento:  <br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
+|[Shape](itemshape.md) <br/> | Identifica as propriedades e o conteúdo do item que serão incluídos em uma resposta GetItem, FindItem ou SyncFolderItems.  <br/> <br/> A seguir estão as expressões XPath para este elemento:<br/>  <br/>  `/GetItem/ItemShape` <br/><br/>  `/FindItem/ItemShape` <br/><br/>  `/SyncFolderItems/ItemShape` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Esse elemento pode ser **true** ou **false**. O valor padrão é **false**. Este é um tipo de dados Boolean.
   
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é opcional.
+Este elemento é opcional.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação demonstra um como para definir o elemento **IncludeMimeContent** . 
+O exemplo a seguir de uma solicitação demonstra como definir o elemento **IncludeMimeContent** . 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentShape>
         <t:IncludeMimeContent>true</t:IncludeMimeContent>
         <t:BodyType>Best</t:BodyType>
@@ -82,15 +82,15 @@ O exemplo a seguir de uma solicitação demonstra um como para definir o element
 </soap:Envelope>
 ```
 
-O atributo de Id de anexo será truncado para preservar a legibilidade.
+O atributo ID do anexo é truncado para preservar a legibilidade.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
-|Pode ser vazio  <br/> |False  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Pode ser vazio  <br/> |Falso  <br/> |
    
 

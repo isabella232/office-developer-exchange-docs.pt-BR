@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fb70326a-2b34-43d1-a1a1-5fb0049d32f3
-description: O elemento refinadores Especifica uma lista de um ou mais elementos de refinador.
-ms.openlocfilehash: c08925f5e1b251967141a7391381239f495e5fb1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento refinadores especifica uma lista de um ou mais elementos do refinador.
+ms.openlocfilehash: a89a18550355ccc9ef916637305a189276ee2224
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825039"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457218"
 ---
 # <a name="refiners"></a>Refinadores
 
-O elemento **refinadores** Especifica uma lista de um ou mais elementos de **refinador** . 
+O elemento **refinadores** especifica uma lista de um ou mais elementos do **refinador** . 
   
 ```XML
 <Refiners>
@@ -26,17 +26,17 @@ O elemento **refinadores** Especifica uma lista de um ou mais elementos de **ref
 ```
 
  **ArrayOfSearchRefinerItemsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Refinador](refiner.md)
+[Menores](refiner.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -48,13 +48,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

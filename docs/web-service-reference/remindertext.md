@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4b429e55-6057-4dd7-8bb5-fa8a8c0cc223
-description: O elemento ReminderText Especifica o texto de uma mensagem de lembrete.
-ms.openlocfilehash: b88c4c89711e6fe45db633c60b7020cbad5c48db
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ReminderText especifica o texto de uma mensagem de lembrete.
+ms.openlocfilehash: 019ba9efe83b596be67a670497eaa6f8db1b8549
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825074"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458478"
 ---
 # <a name="remindertext"></a>ReminderText
 
-O elemento **ReminderText** Especifica o texto de uma mensagem de lembrete. 
+O elemento **ReminderText** especifica o texto de uma mensagem de lembrete. 
   
 ```XML
 <ReminderText/>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,7 +40,7 @@ Nenhum.
 
 [ReminderMessageData](remindermessagedata.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto do elemento **ReminderText** é o texto de uma mensagem de lembrete. 
   
@@ -50,16 +50,16 @@ Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

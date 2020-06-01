@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d220064f-ff4d-4537-8077-adf94f2cbdbd
-description: O elemento de UpdateInboxRules define uma solicitação para atualizar as regras de caixa de entrada em uma caixa de correio no armazenamento do servidor.
-ms.openlocfilehash: 73af3efcbf4320604576b724acf18530b8b86b26
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UpdateInboxRules define uma solicitação para atualizar as regras de caixa de entrada em uma caixa de correio no repositório do servidor.
+ms.openlocfilehash: d604604d582d28c07eaa75d3239082d1b6735e65
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837902"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456357"
 ---
 # <a name="updateinboxrules"></a>UpdateInboxRules
 
-O elemento de **UpdateInboxRules** define uma solicitação para atualizar as regras de caixa de entrada em uma caixa de correio no armazenamento do servidor. 
+O elemento **UpdateInboxRules** define uma solicitação para atualizar as regras de caixa de entrada em uma caixa de correio no repositório do servidor. 
   
 ```XML
 <UpdateInboxRules>
@@ -32,27 +32,27 @@ O elemento de **UpdateInboxRules** define uma solicitação para atualizar as re
 ```
 
  **UpdateInboxRulesRequestType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Representa o endereço SMTP do usuário cujas regras de caixa de entrada devem ser criados, modificados ou excluídos.  <br/> |
-|[RemoveOutlookRuleBlob](removeoutlookruleblob.md) <br/> |Indica se deseja remover o blob de regra do Microsoft Outlook.  <br/> |
-|[Operations](operations.md) <br/> |Contém uma matriz das operações de regra que podem ser executadas em uma caixa de entrada.  <br/> |
+|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Representa o endereço SMTP do usuário cujas regras de caixa de entrada devem ser criadas, modificadas ou excluídas.  <br/> |
+|[RemoveOutlookRuleBlob](removeoutlookruleblob.md) <br/> |Indica se o blob de regra do Microsoft Outlook deve ser removido.  <br/> |
+|[Operations](operations.md) <br/> |Contém uma matriz de operações de regra que podem ser executadas em uma caixa de entrada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -60,16 +60,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

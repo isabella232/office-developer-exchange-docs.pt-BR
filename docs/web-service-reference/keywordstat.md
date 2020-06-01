@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5af26dc5-6aaf-44a0-8d05-c1d116930a51
-description: O elemento KeywordStat Especifica as informações de estatísticas de palavra-chave.
-ms.openlocfilehash: 1d40ba5dfd249df3cb7d104500efdfd187b325da
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento KeywordStat especifica informações de estatísticas de palavra-chave.
+ms.openlocfilehash: d9c0524de04e256e94e279fd1ae0bbfd6a5de0f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824194"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458114"
 ---
 # <a name="keywordstat"></a>KeywordStat
 
-O elemento **KeywordStat** Especifica as informações de estatísticas de palavra-chave. 
+O elemento **KeywordStat** especifica informações de estatísticas de palavra-chave. 
   
 ```XML
 <KeywordStat>
@@ -28,17 +28,17 @@ O elemento **KeywordStat** Especifica as informações de estatísticas de palav
 ```
 
  **KeywordStatisticsSearchResultType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Palavra-chave](keyword.md) | [ItemHits](itemhits.md) | [tamanho (long)](size-long.md)
+[Palavra-chave](keyword.md)  |  [Hits](itemhits.md)  |  [Tamanho (longo)](size-long.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 

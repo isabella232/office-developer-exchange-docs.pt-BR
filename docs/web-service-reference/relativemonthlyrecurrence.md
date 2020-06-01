@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: a76595db-7460-44ac-ac2a-53241caa33a7
-description: O elemento RelativeMonthlyRecurrence descreve um padrão de recorrência mensal relativa.
-ms.openlocfilehash: 9b695052c38e2693946837bf99f03baea093df08
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RelativeMonthlyRecurrence descreve um padrão relativo de recorrência mensal.
+ms.openlocfilehash: 90aa0e43684bfb09a3e13cf86ec96f680e80a714
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825053"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457505"
 ---
 # <a name="relativemonthlyrecurrence"></a>RelativeMonthlyRecurrence
 
-O elemento **RelativeMonthlyRecurrence** descreve um padrão de recorrência mensal relativa. 
+O elemento **RelativeMonthlyRecurrence** descreve um padrão relativo de recorrência mensal. 
   
 ```xml
 <RelativeMonthlyRecurrence>
@@ -32,43 +32,43 @@ O elemento **RelativeMonthlyRecurrence** descreve um padrão de recorrência men
 ```
 
  **RelativeMonthlyRecurrencePatternType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Intervalo](interval.md) <br/> |Define o intervalo entre dois itens padrão recorrente de mensal consecutivos. O intervalo para esse valor é de 1 a 99.  <br/> |
-|[DaysOfWeek (DayOfWeekType)](daysofweek-dayofweektype.md) <br/> |Descreve quais dias da semana em que o padrão de recorrência mensal relativa.  <br/> |
-|[DayOfWeekIndex](dayofweekindex.md) <br/> |Descreve qual semana é usada em um padrão de recorrência mensal relativa.  <br/> |
+|[Intervalo](interval.md) <br/> |Define o intervalo entre dois itens padrão consecutivos de padrão recorrentes. O intervalo desse valor é de 1 a 99.  <br/> |
+|[DaysOfWeek (DayOfWeektype)](daysofweek-dayofweektype.md) <br/> |Descreve quais dias da semana estão no padrão de recorrência mensal relativo.  <br/> |
+|[DayOfWeekIndex](dayofweekindex.md) <br/> |Descreve qual semana é usada em um padrão relativo de recorrência mensal.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Recorrência (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contém o padrão de recorrência para itens de calendário e solicitações de reunião.  <br/> |
-|[Recorrência (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém informações de recorrência de tarefas recorrentes.  <br/> |
+|[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contém o padrão de recorrência para itens de calendário e solicitações de reunião.  <br/> |
+|[Recorrência (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém informações de recorrência para tarefas recorrentes.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

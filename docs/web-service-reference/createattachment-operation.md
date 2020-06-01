@@ -11,19 +11,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: e066db95-6963-4507-a8d0-8efad287f550
-description: A operação CreateAttachment cria um item ou o arquivo de anexo e o anexa ao item especificado.
-ms.openlocfilehash: fed60275a007f2796c60d936def7a937e4982f29
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação CreateAttachment cria um item ou anexo de arquivo e anexa-o ao item especificado.
+ms.openlocfilehash: 8028c56aa306774b54b39e5ee1ac0382b9113fa0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751565"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456567"
 ---
 # <a name="createattachment-operation"></a>Operação CreateAttachment
 
-A operação CreateAttachment cria um item ou o arquivo de anexo e o anexa ao item especificado.
+A operação CreateAttachment cria um item ou anexo de arquivo e anexa-o ao item especificado.
   
-## <a name="file-createattachment-request-example"></a>Exemplo de arquivo de solicitação CreateAttachment
+## <a name="file-createattachment-request-example"></a>Exemplo de solicitação de CreateAttachment de arquivo
 
 ### <a name="description"></a>Descrição
 
@@ -36,10 +36,10 @@ O exemplo a seguir de uma solicitação de CreateAttachment mostra como criar um
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 <soap:Body>
-  <CreateAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  <CreateAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     <ParentItemId Id="AAAtAE..." ChangeKey="CQAAABYA..."/>
     <Attachments>
       <t:FileAttachment>
@@ -52,14 +52,14 @@ O exemplo a seguir de uma solicitação de CreateAttachment mostra como criar um
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Comentário
 
-Um nome para o anexo deve ser fornecido.
+Deve ser fornecido um nome para o anexo.
   
 > [!NOTE]
-> O identificador do item pai e alterar chave foram diminuídas para preservar a legibilidade. 
+> O identificador de item pai e a chave de alteração foram reduzidos para preservar a legibilidade. 
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -75,7 +75,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [Conteúdo](content.md)
     
-## <a name="successful-file-createattachment-response-example"></a>Exemplo de resposta bem-sucedida CreateAttachment de arquivo
+## <a name="successful-file-createattachment-response-example"></a>Exemplo de resposta de CreateAttachment de arquivo bem-sucedido
 
 ### <a name="description"></a>Descrição
 
@@ -90,12 +90,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CreateAttac
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="653" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -111,11 +111,11 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CreateAttac
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Comentário
 
-A resposta conterá o identificador do arquivo anexado. Ele também contém o identificador e alterar a chave do item raiz. Os identificadores de item e alterar chave foram diminuídas para preservar a legibilidade.
+A resposta contém o identificador do arquivo anexado. Ele também contém o identificador e a chave de alteração do item raiz. Os identificadores de item e a chave de alteração foram reduzidos para preservar a legibilidade.
   
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -133,13 +133,13 @@ Os seguintes elementos são usados na resposta:
     
 - [FileAttachment](fileattachment.md)
     
-- [AttachmentId](attachmentid.md)
+- [Attachmentid](attachmentid.md)
     
-## <a name="item-createattachment-request-example"></a>Exemplo de solicitação do item CreateAttachment
+## <a name="item-createattachment-request-example"></a>Exemplo de solicitação de CreateAttachment de item
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de CreateAttachment mostra como criar um anexo do item.
+O exemplo a seguir de uma solicitação de CreateAttachment mostra como criar um anexo de item.
   
 ### <a name="code"></a>Código
 
@@ -148,10 +148,10 @@ O exemplo a seguir de uma solicitação de CreateAttachment mostra como criar um
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <CreateAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <ParentItemId Id="AAAtAE=" ChangeKey="CQAAABYA"/>
       <Attachments>
         <t:ItemAttachment>
@@ -166,13 +166,13 @@ O exemplo a seguir de uma solicitação de CreateAttachment mostra como criar um
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Comentário
 
-Um nome para o anexo deve ser fornecido.
+Deve ser fornecido um nome para o anexo.
   
- **Observação** O identificador do item pai e alterar chave foram diminuídas para preservar a legibilidade. 
+ **Observação** O identificador de item pai e a chave de alteração foram reduzidos para preservar a legibilidade. 
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -186,11 +186,11 @@ Os seguintes elementos são usados na solicitação:
     
 - [Nome (AttachmentType)](name-attachmenttype.md)
     
-- [Mensagem](message-ex15websvcsotherref.md)
+- [Message](message-ex15websvcsotherref.md)
     
 - [Assunto](subject.md)
     
-## <a name="successful-item-createattachment-response-example"></a>Exemplo de resposta bem-sucedida CreateAttachment de Item
+## <a name="successful-item-createattachment-response-example"></a>Exemplo de resposta de CreateAttachment de item bem-sucedido
 
 ### <a name="description"></a>Descrição
 
@@ -205,12 +205,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CreateAttac
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="653" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -226,11 +226,11 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CreateAttac
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Comentário
 
-A resposta conterá o identificador do novo anexo. Ele também contém o identificador e alterar a chave do item raiz. O item raiz é o item que contém o anexo. Os identificadores de item e alterar chave foram diminuídas para preservar a legibilidade.
+A resposta contém o identificador do novo anexo. Ele também contém o identificador e a chave de alteração do item raiz. O item raiz é o item que contém o anexo. Os identificadores de item e a chave de alteração foram reduzidos para preservar a legibilidade.
   
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -248,13 +248,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ItemAttachment](itemattachment.md)
     
-- [AttachmentId](attachmentid.md)
+- [Attachmentid](attachmentid.md)
     
 ## <a name="createattachment-error-response-example"></a>Exemplo de resposta de erro CreateAttachment
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro à solicitação CreateAttachment. O erro é devido ao fato de que o nome do anexo não foi especificado.
+O exemplo a seguir mostra uma resposta de erro para a solicitação de CreateAttachment. O erro se deve ao fato de que o nome do anexo não foi especificado.
   
 ### <a name="code"></a>Código
 
@@ -265,12 +265,12 @@ O exemplo a seguir mostra uma resposta de erro à solicitação CreateAttachment
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="653" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateAttachmentResponseMessage ResponseClass="Error">
           <m:MessageText>Required property is missing.</m:MessageText>
@@ -313,9 +313,9 @@ Os seguintes elementos são usados na resposta de erro:
     
 ## <a name="remarks"></a>Comentários
 
-Se vários anexos anexados a um item em uma única ida e volta, o RootItemChangeKey na última mensagem de resposta é aquela que representa a nova chave de alteração do item que tenha os anexos.
+Se vários anexos estiverem anexados a um item em uma única viagem de ida e volta, o RootItemChangeKey na última mensagem de resposta será aquele que representa a nova chave de alteração do item que tem os anexos.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

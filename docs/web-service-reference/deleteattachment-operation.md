@@ -11,27 +11,27 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4d48e595-b98c-48e7-bbeb-cacf91d12a78
-description: A operação DeleteAttachment é usada para excluir anexos de arquivo e um item de um item existente no armazenamento do Exchange.
-ms.openlocfilehash: 4b94bfd8d6333c1f52be8ad7d0d111ab2a0552b3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação DeleteAttachment é usada para excluir anexos de arquivo e de item de um item existente no repositório do Exchange.
+ms.openlocfilehash: 1d34ce4c5ba1d955989a35dafb8ab3c5d229d505
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751732"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457330"
 ---
 # <a name="deleteattachment-operation"></a>Operação DeleteAttachment
 
-A operação DeleteAttachment é usada para excluir anexos de arquivo e um item de um item existente no armazenamento do Exchange.
+A operação DeleteAttachment é usada para excluir anexos de arquivo e de item de um item existente no repositório do Exchange.
   
 ## <a name="remarks"></a>Comentários
 
-Esta operação permite que você exclua um ou mais anexos por ID.
+Essa operação permite que você exclua um ou mais anexos por ID.
   
 ## <a name="deleteattachment-request-example"></a>Exemplo de solicitação DeleteAttachment
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de DeleteAttachment mostra como excluir um anexo do item.
+O exemplo a seguir de uma solicitação DeleteAttachment mostra como excluir um anexo de item.
   
 ### <a name="code"></a>Código
 
@@ -40,10 +40,10 @@ O exemplo a seguir de uma solicitação de DeleteAttachment mostra como excluir 
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <DeleteAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <DeleteAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentIds>
         <t:AttachmentId Id="AAAtAEFkbWluaX"/>
       </AttachmentIds>
@@ -52,11 +52,11 @@ O exemplo a seguir de uma solicitação de DeleteAttachment mostra como excluir 
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
 O identificador de anexo foi reduzido para preservar a legibilidade.
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -64,13 +64,13 @@ Os seguintes elementos são usados na solicitação:
     
 - [AttachmentIds](attachmentids.md)
     
-- [AttachmentId](attachmentid.md)
+- [Attachmentid](attachmentid.md)
     
 ## <a name="deleteattachment-response-example"></a>Exemplo de resposta DeleteAttachment
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de DeleteAttachment.
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação DeleteAttachment.
   
 ### <a name="code"></a>Código
 
@@ -81,12 +81,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de Delet
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <DeleteAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteAttachmentResponseMessage xsi:type="m:DeleteAttachmentResponseMessageType" ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -98,16 +98,16 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de Delet
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-A operação CreateAttachment retorna um elemento do tipo AttachmentIdType que inclui um **RootItemId** e **RootItemChangeKey**. Esses atributos não são permitidos para identificadores dentro de uma solicitação de DeleteAttachment. DeleteAttachment usa elementos do tipo RequestAttachmentIdType, que não incluir esses atributos.
+A operação CreateAttachment retorna um elemento do tipo AttachmentIdType que inclui um **RootItemId** e **RootItemChangeKey**. Esses atributos não são permitidos para identificadores dentro de uma solicitação DeleteAttachment. DeleteAttachment usa elementos do tipo RequestAttachmentIdType, que não inclui esses atributos.
   
-A resposta DeleteAttachment inclui a identificação do item pai. Quando os anexos são removidos de um item, alterar a chave do item é modificada. A nova chave de alteração de item pode ser obtida a resposta DeleteAttachment.
+A resposta DeleteAttachment inclui a ID do item pai. Quando os anexos são removidos de um item, a chave de alteração do item é modificada. A nova chave de alteração de item pode ser obtida da resposta DeleteAttachment.
   
 > [!NOTE]
-> O identificador de [RootItemId](rootitemid.md) e ChangeKey foram diminuídas para preservar a legibilidade. 
+> O identificador [RootItemId](rootitemid.md) e o ChangeKey foram reduzidos para preservar a legibilidade. 
   
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -123,7 +123,7 @@ Os seguintes elementos são usados na resposta:
     
 - [RootItemId](rootitemid.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operação CreateAttachment](createattachment-operation.md) 
 - [Operação GetAttachment](getattachment-operation.md)

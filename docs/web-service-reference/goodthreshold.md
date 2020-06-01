@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 68f607f5-7271-46a6-8ffc-91878185a683
-description: O elemento GoodThreshold Especifica a porcentagem de participantes que devem ter o período de tempo abrir na ordem para o período de tempo para se qualificar como um horário de reunião sugerido BOM.
-ms.openlocfilehash: 8044cb2b52cb572fad8731253dffa34de9d097fa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GoodThreshold especifica a porcentagem de participantes que devem ter o período de tempo aberto para que o período de tempo se qualifique como um bom horário de reunião.
+ms.openlocfilehash: 34ea433ad7315d61df8cf8e22bae1166d3210af3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823746"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457309"
 ---
 # <a name="goodthreshold"></a>GoodThreshold
 
-O elemento **GoodThreshold** Especifica a porcentagem de participantes que devem ter o período de tempo abrir na ordem para o período de tempo para se qualificar como um horário de reunião sugerido BOM. 
+O elemento **GoodThreshold** especifica a porcentagem de participantes que devem ter o período de tempo aberto para que o período de tempo se qualifique como um bom horário de reunião. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -34,13 +34,13 @@ O elemento **GoodThreshold** Especifica a porcentagem de participantes que devem
 ```
 
  **int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,34 +50,34 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para a obtenção de informações de sugestão de reunião.  <br/> Este é o XPath a este elemento:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para obter informações de sugestão de reunião.  <br/> Este é o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. Os valores inteiros esperada estão entre 0 e 50.
+Um valor de texto é obrigatório. Os valores inteiros esperados estão entre 0 e 50.
   
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é necessário se o elemento [SuggestionsViewOptions](suggestionsviewoptions.md) é usado. O elemento **GoodThreshold** também determina quais reuniões são considerados razoável. Ele que a porcentagem de participantes com conflitos é que menor que o limite de uma boa e maior do que 50 por cento, o tempo de reunião sugerido qualifica como razoável. O limite de uma boa plus 50 é igual a porcentagem que define o limite de Good/razoável. 
+Esse elemento é necessário se o elemento [SuggestionsViewOptions](suggestionsviewoptions.md) for usado. O elemento **GoodThreshold** também determina quais reuniões são consideradas justas. A porcentagem de participantes com conflitos é menor do que o limite bom e maior que 50%, o tempo de reunião sugerido é qualificado como justo. O bom limite mais 50 equivale à porcentagem que define o limite bom/justo. 
   
 > [!NOTE]
 > O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 [Operação GetUserAvailability](getuseravailability-operation.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

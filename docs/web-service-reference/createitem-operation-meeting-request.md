@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: fe136881-a804-456a-8552-8a1bea5eb9c8
 description: A operação CreateItem é usada para responder às solicitações de reunião.
-ms.openlocfilehash: a8aea688e46376906554952ce8ec45022cf613e9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f9e6bd1742e6a30d08736ea67c0ff80b7a18e88a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751605"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457106"
 ---
 # <a name="createitem-operation-meeting-request"></a>Operação CreateItem (solicitação de reunião)
 
@@ -25,25 +25,25 @@ A operação CreateItem é usada para responder às solicitações de reunião.
   
 ## <a name="remarks"></a>Comentários
 
-A operação CreateItem oferece três opções para responder a uma solicitação de reunião: aceitar, aceitar provisoriamente ou recusar. 
+A operação CreateItem fornece três opções para responder a uma solicitação de reunião: aceitar, aceitar provisoriamente ou recusar. 
   
-## <a name="accept-meeting-request-example"></a>Aceitar um exemplo de solicitação de reunião
+## <a name="accept-meeting-request-example"></a>Exemplo de aceitação de solicitação de reunião
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra como aceitar uma reunião solicitar convite.
+O exemplo a seguir mostra como aceitar um convite de solicitação de reunião.
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
                 MessageDisposition="SendAndSaveCopy">
       <Items>
-        <AcceptItem xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <AcceptItem xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <ReferenceItemId Id="AAAlAFVzZ"
                            ChangeKey="CwAAABYAA"/>
         </AcceptItem>
@@ -53,13 +53,13 @@ O exemplo a seguir mostra como aceitar uma reunião solicitar convite.
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
 Para aceitar provisoriamente ou recusar a solicitação de reunião, use os elementos [TentativelyAcceptItem](tentativelyacceptitem.md) ou [DeclineItem](declineitem.md) no lugar do elemento [AcceptItem](acceptitem.md) . 
   
-O identificador do item e alterar chave foram diminuídas para preservar a legibilidade.
+O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade.
   
-### <a name="accepting-meeting-request-elements"></a>Aceitando elementos de solicitação de reunião
+### <a name="accepting-meeting-request-elements"></a>Aceitar elementos de solicitação de reunião
 
 Os seguintes elementos são usados na solicitação:
   
@@ -71,11 +71,11 @@ Os seguintes elementos são usados na solicitação:
     
 - [ReferenceItemId](referenceitemid.md)
     
-## <a name="successful-accept-meeting-response-example"></a>Exemplo de resposta bem-sucedida aceitar reunião
+## <a name="successful-accept-meeting-response-example"></a>Exemplo de resposta de reunião de aceitação bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de CreateItem.
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CreateItem.
   
 ### <a name="code"></a>Código
 
@@ -86,12 +86,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de CreateIt
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -103,7 +103,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação de CreateIt
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -117,13 +117,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-- [Items](items.md)
+- [Itens](items.md)
     
-## <a name="accept-meeting-error-response-example"></a>Aceitar um exemplo de resposta de erro de reunião
+## <a name="accept-meeting-error-response-example"></a>Exemplo de resposta de erro de reunião
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a solicitação de CreateItem. O erro é gerado por uma tentativa de aceitar uma solicitação de reunião que não pode ser encontrada no armazenamento do Exchange.
+O exemplo a seguir mostra uma resposta de erro para CreateItem. O erro é causado por uma tentativa de aceitar uma solicitação de reunião que não pode ser encontrada no repositório do Exchange.
   
 ### <a name="code"></a>Código
 
@@ -134,12 +134,12 @@ O exemplo a seguir mostra uma resposta de erro a solicitação de CreateItem. O 
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -171,9 +171,9 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [Items](items.md)
+- [Itens](items.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

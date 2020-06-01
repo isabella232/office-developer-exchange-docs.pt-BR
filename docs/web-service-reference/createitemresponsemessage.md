@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 595d36c2-f87a-4d50-8e8b-f58d7641564b
-description: O elemento CreateItemResponseMessage contém o status e o resultado de uma única solicitação de operação CreateItem.
-ms.openlocfilehash: 099dc799bedb527472bbe7d34cad0dbc8e98bec5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento CreateItemResponseMessage contém o status e o resultado de uma solicitação de operação CreateItem única.
+ms.openlocfilehash: 6304d2c7a3c9253c03c07eb37e9a57226e794a24
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751617"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457848"
 ---
 # <a name="createitemresponsemessage"></a>CreateItemResponseMessage
 
-O elemento **CreateItemResponseMessage** contém o status e o resultado de uma única solicitação de [operação CreateItem](createitem-operation.md) . 
+O elemento **CreateItemResponseMessage** contém o status e o resultado de uma solicitação de [operação CreateItem](createitem-operation.md) única. 
   
 - [CreateItemResponse](createitemresponse.md)  
 - [ResponseMessages](responsemessages.md) 
@@ -38,13 +38,13 @@ O elemento **CreateItemResponseMessage** contém o status e o resultado de uma �
 ```
 
  **ItemInfoResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
 |**ResponseClass** <br/> | Descreve o status de uma resposta de [operação CreateItem](createitem-operation.md) .<br/><br/>Os seguintes valores são válidos para este atributo:<br/><br/>-Êxito  <br/>-Aviso  <br/>-Erro  <br/> |
    
@@ -52,19 +52,19 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|**Sucesso** <br/> |Descreve uma solicitação que seja cumprida.  <br/> |
-|**Warning** <br/> | Descreve uma solicitação que não foi processada. Um aviso pode ser retornado se ocorreu um erro quando um item na solicitação estava processando e itens subsequentes não pôde ser processados.<br/><br/>Estes são exemplos de fontes de avisos de:<br/><br/>-O armazenamento do Exchange está offline durante o lote.  <br/>-Active Directory Domain Services (AD DS) está offline.  <br/>-Caixas de correio são movidas.  <br/>-O banco de dados de mensagens (MDB) está offline.  <br/>-Uma senha expirou.  <br/>-Uma cota for excedida.  <br/> |
-|**Erro** <br/> | Descreve uma solicitação que não puder ser atendida.<br/><br/>Estes são exemplos de fontes de erros:  <br/><br/>-Inválido atributos e elementos  <br/>-Atributos ou elementos fora do intervalo  <br/>-Marca desconhecida  <br/>-Atributo ou elemento não é válido no contexto  <br/>-Tentativa de acesso não autorizado de qualquer cliente  <br/>-Falha server-side em resposta a uma chamada de cliente válida<br/><br/>  Informações sobre o erro podem ser encontradas nos elementos [ResponseCode](responsecode.md) e [MessageText](messagetext.md) .  <br/> |
+|**Success** <br/> |Descreve uma solicitação que é atendida.  <br/> |
+|**Aviso** <br/> | Descreve uma solicitação que não foi processada. Um aviso pode ser retornado se um erro ocorreu enquanto um item na solicitação estava sendo processado e não foi possível processar os itens subsequentes.<br/><br/>A seguir estão exemplos de fontes de avisos:<br/><br/>– O repositório do Exchange está offline durante o lote.  <br/>– Os serviços de domínio do Active Directory (AD DS) estão offline.  <br/>-As caixas de correio são movidas.  <br/>– O banco de dados de mensagens (MDB) está offline.  <br/>-Uma senha expirou.  <br/>-Uma cota foi excedida.  <br/> |
+|**Error** <br/> | Descreve uma solicitação que não pode ser atendida.<br/><br/>A seguir estão exemplos de fontes de erros:  <br/><br/>-Atributos ou elementos inválidos  <br/>-Atributos ou elementos fora do intervalo  <br/>– Marca desconhecida  <br/>-Atributo ou elemento não válido no contexto  <br/>– Tentativa de acesso não autorizado por qualquer cliente  <br/>-Falha do servidor em resposta a uma chamada válida do lado do cliente<br/><br/>  As informações sobre o erro podem ser encontradas nos elementos [ResponseCode](responsecode.md) e [MessageText](messagetext.md) .  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[MessageText](messagetext.md) <br/> |Fornece uma descrição de texto do status da resposta.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fornece um código de erro que identifica o erro específico que enfrentaram a solicitação.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |No momento não utilizados e está reservado para uso futuro. Ele contém um valor de 0.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fornece informações de resposta de erro adicionais.  <br/> |
-|[Items](items.md) <br/> |Contém uma matriz de itens criados.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fornece um código de erro que identifica o erro específico que a solicitação encontrou.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Não utilizado no momento e está reservado para uso futuro. Ele contém um valor de 0.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta de erro.  <br/> |
+|[Itens](items.md) <br/> |Contém uma matriz de itens criados.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -74,18 +74,18 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação CreateItem](createitem-operation.md)
 - [Referência do EWS para Exchange](ews-reference-for-exchange.md)
