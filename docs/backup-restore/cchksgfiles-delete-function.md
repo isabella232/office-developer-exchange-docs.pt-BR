@@ -1,5 +1,5 @@
 ---
-title: Função CChkSGFiles.Delete
+title: Função função cchksgfiles. Delete
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 869e927f-7df2-4247-88ef-b8b05b29a700
-description: 'Modificado pela última vez: 22 de fevereiro de 2013'
-ms.openlocfilehash: 5c41007a797e5a256692b2c4bdcb3cfae82c12ab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Última modificação: 22 de fevereiro de 2013'
+ms.openlocfilehash: 38cb72b42727855f652de607bb2a02ecdeaae16e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750630"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44447047"
 ---
-# <a name="cchksgfilesdelete-function"></a>Função CChkSGFiles.Delete
+# <a name="cchksgfilesdelete-function"></a>Função função cchksgfiles. Delete
 
 **Aplica-se a:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
-Destruir uma instância existente da classe **CChkSGFiles** . Você deve chamar essa função depois que o aplicativo tiver terminado de trabalhar com o objeto especificado. 
+Destrói uma instância existente da classe **função cchksgfiles** . Você deve chamar essa função depois que o aplicativo tiver concluído o trabalho com o objeto especificado. 
   
 ```cs
 Static VOID __stdcall Delete 
@@ -33,11 +33,11 @@ Static VOID __stdcall Delete
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 ### <a name="pcchecksgfiles"></a>pcchecksgfiles 
   
-Parâmetro de entrada. Um ponteiro para um objeto **CCheckSGFiles** existente. A memória associada ao objeto, em seguida, será liberada. 
+Parâmetro de entrada. Um ponteiro para um objeto **CCheckSGFiles** existente. A memória associada ao objeto será liberada. 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -45,16 +45,16 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-A função **Excluir** libera a memória associada ao objeto **CCheckSGFiles** . Depois de chamar **Excluir**, o ponteiro transmitido no parâmetro *pcchecksgfiles* será inválido e nenhuma outra operação pode ser executada em desse objeto. 
+A função **delete** libera a memória associada ao objeto **CCheckSGFiles** . Depois de chamar **delete**, o ponteiro passado no parâmetro *pcchecksgfiles* será inválido e nenhuma outra operação poderá ser executada nesse objeto. 
   
-Se o aplicativo usa a função **ErrCheckDbPages** , o aplicativo deve liberar o buffer de memória manualmente; a função **Excluir** não serão liberá-la. 
+Se o aplicativo usar a função **ErrCheckDbPages** , o aplicativo deverá liberar o buffer de memória manualmente; a função **excluir** não a liberará. 
   
-Se você estiver usando CHKSGFILES em um aplicativo multithreaded, você deve chamar a função **Excluir** na parte com um único segmento do aplicativo e você poderá chamá-lo apenas uma vez para cada objeto **CCheckSGFiles** . 
+Se você estiver usando o CHKSGFILES em um aplicativo multi-threaded, deverá chamar a função **excluir** na parte de thread único do aplicativo e poderá chamá-la somente uma vez para cada objeto **CCheckSGFiles** . 
   
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
-Exchange 2013 inclui apenas uma versão de 64 bits da API CHKSGFILES.
+O Exchange 2013 inclui apenas uma versão de 64 bits da API CHKSGFILES.
   
-A conta que o aplicativo está sendo executado em deve ter permissões de acesso de leitura para os arquivos de log e de banco de dados que devem ser verificado.
+A conta sob a qual o aplicativo está sendo executado deve ter permissões de acesso de leitura para o banco de dados e arquivos de log que devem ser verificados.
   
 

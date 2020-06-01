@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: 600c4690-941c-45af-a906-5528748d09cd
-description: 'Modificado pela última vez: 17 de setembro de 2015'
-ms.openlocfilehash: 5848d52a68c8c3f747614015e49becb34bc4cfd8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Última modificação: 17 de setembro de 2015'
+ms.openlocfilehash: 457257e59fb37659daf2f91b0fa5dfced5c48c03
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750993"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44446487"
 ---
 # <a name="agentexecution"></a>agentExecution
   
 **Aplica-se a:** Exchange Server 2013 
   
-O elemento de **agentExecution** define o tempo, em milissegundos, para o servidor de acesso para cliente ou caixa de correio aguardar um operador retornar a partir de um evento antes que ela foi gravada no log de eventos. 
+O elemento **agentExecution** define o tempo, em milissegundos, para o servidor de acesso para cliente ou caixa de correio aguardar que um agente retorne de um evento antes de gravar no log de eventos. 
   
-- [configuração](configuration.md)  
+- [configuration](configuration.md)  
 - [monitoramento](monitoring.md)
 - [agentExecution](agentexecution.md)
   
@@ -35,15 +35,15 @@ O elemento de **agentExecution** define o tempo, em milissegundos, para o servid
 
 **agentExecutionType (complexType)**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**timeLimitInMilliseconds** <br/> |Um valor de número inteiro positivo que especifica o tempo, em milissegundos, para o servidor deverá esperar um operador retornar a partir de um evento antes que ele grava um aviso no log de eventos. O desempenho pode diminuir se esse valor é muito pequeno. O valor sugerido para este atributo é 300.000, que é igual a 5 minutos.  <br/> |
+|**timeLimitInMilliseconds** <br/> |Um valor inteiro positivo que especifica o tempo, em milissegundos, para que o servidor aguarde um agente retornar de um evento antes de gravar um aviso no log de eventos. O desempenho pode diminuir se esse valor for muito pequeno. O valor sugerido para este atributo é 300.000, que é igual a 5 minutos.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -53,18 +53,18 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[monitoramento](monitoring.md) <br/> |Contém informações de configuração que define como e quando o serviço Front End Transport ou o serviço de transporte monitora os operadores que estão instalados.  <br/> |
+|[monitoramento](monitoring.md) <br/> |Contém informações de configuração que definem como e quando o serviço de transporte de front-end ou o serviço de transporte monitora agentes instalados.  <br/> |
    
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |Esse arquivo não define um namespace.  <br/> |
-|Nome do esquema  <br/> |Não disponível.  <br/> |
-|Arquivo de validação  <br/> |Não disponível.  <br/> |
+|Namespace  <br/> |Este arquivo não define um namespace.  <br/> |
+|Nome do esquema  <br/> |Indisponível.  <br/> |
+|Arquivo de validação  <br/> |Indisponível.  <br/> |
 |Pode ser vazio  <br/> |Falso.  <br/> |
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Elementos de arquivo de configuração de agentes para o Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

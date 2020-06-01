@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f4adfc48-2d51-4d2d-9ddc-b91c3e96cb02
-description: O elemento StartTimeZoneId Especifica o fuso horário no qual uma reunião ocorre.
-ms.openlocfilehash: d131a4cad3076c1ed4044dbcbe49f1dfa4ed5ccf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento StartTimeZoneId especifica o fuso horário no qual ocorre uma reunião.
+ms.openlocfilehash: 30ccbbf75963615ba16a991370a007a46e684930
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825567"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448118"
 ---
 # <a name="starttimezoneid"></a>StartTimeZoneId
 
-O elemento **StartTimeZoneId** Especifica o fuso horário no qual uma reunião ocorre. 
+O elemento **StartTimeZoneId** especifica o fuso horário no qual ocorre uma reunião. 
   
 ```XML
 <StartTimeZoneId></StartTimeZoneId>
@@ -25,13 +25,13 @@ O elemento **StartTimeZoneId** Especifica o fuso horário no qual uma reunião o
 
 **cadeia de caracteres**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -39,11 +39,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[CalendarItem](calendaritem.md) | [MeetingRequest](meetingrequest.md)
+[CalendarItem](calendaritem.md)  |  [MeetingRequest](meetingrequest.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **StartTimeZoneId** é o identificador do fuso horário do fuso horário usado no elemento [Iniciar](start.md) . 
+O valor de texto do elemento **StartTimeZoneId** é o identificador de fuso horário do fuso horário usado no elemento [inicial](start.md) . 
   
 ## <a name="remarks"></a>Comentários
 
@@ -51,13 +51,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

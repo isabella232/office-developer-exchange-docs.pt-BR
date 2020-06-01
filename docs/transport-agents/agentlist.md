@@ -1,5 +1,5 @@
 ---
-title: agentList
+title: agentlist
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: e877b7ef-e303-4270-964d-8d116ff2a865
-description: 'Modificado pela última vez: 17 de setembro de 2015'
-ms.openlocfilehash: 7dd9d48356932c82dbc048a85b9f02437c6366de
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Última modificação: 17 de setembro de 2015'
+ms.openlocfilehash: 99e4e24c3bca77c7e7d5f2c59bb21cee1317fed2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750995"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44446389"
 ---
-# <a name="agentlist"></a>agentList
+# <a name="agentlist"></a>agentlist
   
 **Aplica-se a:** Exchange Server 2013
   
-O elemento **agentList** contém um elemento de [agente](agent.md) para cada agente instalado. 
+O elemento **agentlist** contém um elemento [Agent](agent.md) para cada agente instalado. 
   
-- [configuração](configuration.md)
+- [configuration](configuration.md)
 - [mexRuntime](mexruntime.md)
-- [agentList](agentlist.md)
+- [agentlist](agentlist.md)
   
 ```XML
 <agentList>
@@ -37,36 +37,36 @@ O elemento **agentList** contém um elemento de [agente](agent.md) para cada age
 
 **agentListType (complexType)**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[agente](agent.md) <br/> |Contém informações de configuração sobre um agente instalado.  <br/> |
+|[Agente](agent.md) <br/> |Contém informações de configuração sobre um agente instalado.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[mexRuntime](mexruntime.md) <br/> |Contém os elementos que definem as informações de configuração de monitoramento de agente e informações de configuração sobre agentes instalados.  <br/> |
+|[mexRuntime](mexruntime.md) <br/> |Contém elementos que definem informações de configuração para o monitoramento de agentes e informações de configuração sobre agentes instalados.  <br/> |
    
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |Esse arquivo não define um namespace.  <br/> |
-|Nome do esquema  <br/> |Não disponível.  <br/> |
-|Arquivo de validação  <br/> |Não disponível.  <br/> |
+|Namespace  <br/> |Este arquivo não define um namespace.  <br/> |
+|Nome do esquema  <br/> |Indisponível.  <br/> |
+|Arquivo de validação  <br/> |Indisponível.  <br/> |
 |Pode ser vazio  <br/> |Falso.  <br/> |
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Elementos de arquivo de configuração de agentes para o Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

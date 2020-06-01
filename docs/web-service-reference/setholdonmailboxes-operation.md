@@ -1,23 +1,26 @@
 ---
 title: Operação SetHoldOnMailboxes
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9015a0d8-3495-461b-aa79-797d23169585
-description: Encontre informações sobre o EWS SetHoldOnMailboxes operação.
-ms.openlocfilehash: 1091ed14ceb25dfd275499b9db47ae4e41b5f1a0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações sobre a operação do EWS do SetHoldOnMailboxes.
+ms.openlocfilehash: 4d79ba9f616974b9415ae9eae23b8f5fdb0ab205
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825412"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448391"
 ---
 # <a name="setholdonmailboxes-operation"></a>Operação SetHoldOnMailboxes
 
-Encontre informações sobre a operação de EWS **SetHoldOnMailboxes** . 
+> [!IMPORTANT]
+> A partir de 1º de abril de 2020, a operação SetHoldOnMailboxes não estará mais disponível no Exchange Online. Essa operação não será afetada nas versões locais do Exchange Server. Para obter mais informações, consulte [aposentadoria of Legacy eDiscovery Tools in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).
+
+Encontre informações sobre a operação do EWS do **SetHoldOnMailboxes** . 
   
 A operação **SetHoldOnMailboxes** define uma política de retenção de caixa de correio em caixas de correio. 
   
@@ -25,27 +28,27 @@ This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-setholdonmailboxes-operation"></a>Usando a operação SetHoldOnMailboxes
 
-A operação de **SetHoldOnMailboxes** define uma isenção de caixa de correio em uma ou mais caixas de correio. 
+A operação **SetHoldOnMailboxes** define uma retenção de caixa de correio em uma ou mais caixas de correio. 
   
-### <a name="setholdonmailboxes-operation-soap-headers"></a>Cabeçalhos SOAP SetHoldOnMailboxes operação
+### <a name="setholdonmailboxes-operation-soap-headers"></a>Cabeçalhos SOAP de operação SetHoldOnMailboxes
 
-A operação **SetHoldOnMailboxes** pode usar os cabeçalhos SOAP que estão listados na tabela a seguir. 
+A operação **SetHoldOnMailboxes** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifica as funções de servidor necessários para que o chamador para fazer a solicitação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifica as funções de servidor necessárias para que o chamador faça a solicitação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
    
 ## <a name="setholdonmailboxes-operation-request-example-apply-a-hold-on-a-mailbox"></a>Exemplo de solicitação de operação SetHoldOnMailboxes: aplicar uma retenção em uma caixa de correio
 
-O exemplo a seguir de uma solicitação de operação **SetHoldOnMailboxes** mostra como aplicar uma retenção em duas caixas de correio. A retenção de caixa de correio foi criada usando o comando [New-MailboxSearch](http://technet.microsoft.com/en-us/library/dd298064.aspx) . 
+O exemplo a seguir de uma solicitação de operação **SetHoldOnMailboxes** mostra como aplicar uma retenção em duas caixas de correio. A retenção de caixa de correio foi criada usando o comando [New-MailboxSearch](https://technet.microsoft.com/library/dd298064.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -67,13 +70,13 @@ O exemplo a seguir de uma solicitação de operação **SetHoldOnMailboxes** mos
 
 ```
 
-A solicitação de corpo SOAP contém os seguintes elementos:
+O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [SetHoldOnMailboxes](setholdonmailboxes.md)
     
 - [ActionType (HoldActionType)](actiontype-holdactiontype.md)
     
-- [HoldId](holdid.md)
+- [Isenção](holdid.md)
     
 - [Query](query.md)
     
@@ -81,15 +84,15 @@ A solicitação de corpo SOAP contém os seguintes elementos:
     
 - [String](string.md)
     
-- [Idioma](language.md)
+- [Language](language.md)
     
 - [IncludeNonIndexableItems](includenonindexableitems.md)
     
-- [Eliminação da duplicação](deduplication.md)
+- [Duplicidades](deduplication.md)
     
 ## <a name="successful-setholdonmailboxes-operation-response"></a>Resposta de operação SetHoldOnMailboxes bem-sucedida
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **SetHoldOnMailboxes** para colocar as duas caixas de correio em espera. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **SetHoldOnMailboxes** para colocar duas caixas de correio em espera. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -100,20 +103,20 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <SetHoldOnMailboxesResponse ResponseClass="Success" 
-                                  xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                  xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <MailboxHoldResult>
-            <HoldId xmlns="http://schemas.microsoft.com/exchange/services/2006/types">HoldId2</HoldId>
-            <Query xmlns="http://schemas.microsoft.com/exchange/services/2006/types">test</Query>
-            <MailboxHoldStatuses xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <HoldId xmlns="https://schemas.microsoft.com/exchange/services/2006/types">HoldId2</HoldId>
+            <Query xmlns="https://schemas.microsoft.com/exchange/services/2006/types">test</Query>
+            <MailboxHoldStatuses xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <MailboxHoldStatus>
                   <Mailbox>o=First/ou=Exchange(DLT)/cn=Recipients/cn=1fa441ff5e4749ba43ecc0fd94c21adf-Willi</Mailbox>
                   <Status>Pending</Status>
@@ -132,7 +135,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
 
 ```
 
-A resposta SOAP body contém os seguintes elementos:
+O corpo SOAP de resposta contém os seguintes elementos:
   
 - [SetHoldOnMailboxesResponse](setholdonmailboxesresponse.md)
     
@@ -140,7 +143,7 @@ A resposta SOAP body contém os seguintes elementos:
     
 - [MailboxHoldResult](mailboxholdresult.md)
     
-- [HoldId](holdid.md)
+- [Isenção](holdid.md)
     
 - [Query](query.md)
     
@@ -148,7 +151,7 @@ A resposta SOAP body contém os seguintes elementos:
     
 - [MailboxHoldStatus](mailboxholdstatus.md)
     
-- [Caixa de correio (string)](mailbox-string.md)
+- [Caixa de correio (cadeia de caracteres)](mailbox-string.md)
     
 - [Status (HoldStatusType)](status-holdstatustype.md)
     
@@ -156,7 +159,7 @@ A resposta SOAP body contém os seguintes elementos:
     
 ## <a name="setholdonmailboxes-operation-error-response"></a>Resposta de erro de operação SetHoldOnMailboxes
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **SetHoldOnMailboxes** . Esta é uma resposta a uma solicitação que contém um identificador de caixa de correio especificada incorretamente. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **SetHoldOnMailboxes** . Esta é uma resposta a uma solicitação que contém um identificador de caixa de correio especificado incorretamente. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -167,15 +170,15 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013"
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <SetHoldOnMailboxesResponse ResponseClass="Error" 
-                                  xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                  xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>No mailbox is specified for hold operation. If specified in the request, then it could be the object does not exist in AD or is a Distribution Group.</MessageText>
          <ResponseCode>ErrorInvalidOperation</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -185,7 +188,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 
 ```
 
-A resposta de erro corpo SOAP contém os seguintes elementos:
+O corpo SOAP de resposta de erro contém os seguintes elementos:
   
 - [SetHoldOnMailboxesResponse](setholdonmailboxesresponse.md)
     
@@ -195,9 +198,9 @@ A resposta de erro corpo SOAP contém os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Para códigos de erro adicionais que são genérica do EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
+Para obter códigos de erro adicionais genéricos para o EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
     
