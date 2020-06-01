@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 569ab552-5616-444a-a7f5-de366a684a34
-description: O elemento RestrictedGroupSids representa uma coleção dos grupos restritos de um token do usuário.
-ms.openlocfilehash: fcfee809261c7ed0a4e0d092c091841fec641e46
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RestrictedGroupSids representa uma coleção de grupos restritos do token de um usuário.
+ms.openlocfilehash: 739a73d2ac4bdbbee03650d035271b5c8d9ea25a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825201"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465356"
 ---
 # <a name="restrictedgroupsids"></a>RestrictedGroupSids
 
-O elemento **RestrictedGroupSids** representa uma coleção dos grupos restritos de um token do usuário. 
+O elemento **RestrictedGroupSids** representa uma coleção de grupos restritos do token de um usuário. 
   
 ```xml
 <RestrictedGroupSids>
@@ -30,40 +30,40 @@ O elemento **RestrictedGroupSids** representa uma coleção dos grupos restritos
 ```
 
  **NonEmptyArrayOfRestrictedGroupIdentifiersType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[RestrictedGroupIdentifier](restrictedgroupidentifier.md) <br/> |Representa o identificador de segurança (SID) do grupo e os atributos de um grupo restrito.  <br/> |
+|[RestrictedGroupIdentifier](restrictedgroupidentifier.md) <br/> |Representa o identificador de segurança do grupo (SID) e os atributos de um grupo restrito.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Usado no cabeçalho SOAP para serialização de token de autenticação de servidor-para-servidor. Serialização de token não é suportada.  <br/> |
+|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Usado no cabeçalho SOAP para serialização de token na autenticação de servidor para servidor. Não há suporte para serialização de token.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

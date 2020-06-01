@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a1fc7dff-a303-4809-b7f4-9672f86c183c
-description: O elemento ProgrammaticAccessAllowed Especifica se o acesso programático está habilitado para dados de direitos gerenciados.
-ms.openlocfilehash: 50bcce745bd94bf9c2e5ced93825722307e0a096
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ProgrammaticAccessAllowed especifica se o acesso programático está habilitado para dados gerenciados por direitos.
+ms.openlocfilehash: 8a5cf4e57a97807e5940a0402768d7123b9912d2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824889"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465636"
 ---
 # <a name="programmaticaccessallowed"></a>ProgrammaticAccessAllowed
 
-O elemento **ProgrammaticAccessAllowed** Especifica se o acesso programático está habilitado para dados de direitos gerenciados. 
+O elemento **ProgrammaticAccessAllowed** especifica se o acesso programático está habilitado para dados gerenciados por direitos. 
   
 ```XML
 <ProgrammaticAccessAllowed> true | false </ProgrammaticAccessAllowed>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [RightsManagementLicenseData](rightsmanagementlicensedata.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** para o elemento **ProgrammaticAccessAllowed** indica que os dados são acessíveis por meio de programação. Um valor **false** indica que os dados não estão acessíveis por meio de programação. 
+Um valor de texto **true** para o elemento **ProgrammaticAccessAllowed** indica que os dados estão acessíveis programaticamente. Um valor **false** indica que os dados não são acessíveis programaticamente. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
-|Pode estar vazio  <br/> |false  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Pode estar vazio  <br/> |falso  <br/> |
    
 

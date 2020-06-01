@@ -1,5 +1,5 @@
 ---
-title: Operação de GetUserSettings (SOAP)
+title: Operação GetUserSettings (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,39 +8,39 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 758d965c-ef63-4de4-9120-e293abf14ff8
-description: A operação GetUserSettings contém uma consulta para a configuração de acesso de cliente dos usuários.
-ms.openlocfilehash: 8bb8f766da3419ea33f89716e588a22d3924e1a4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação GetUserSettings contém uma consulta para a configuração de acesso para cliente dos usuários.
+ms.openlocfilehash: e274fd4e1ca954ea25ea91a52e363c9a434b290a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823704"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466140"
 ---
-# <a name="getusersettings-operation-soap"></a>Operação de GetUserSettings (SOAP)
+# <a name="getusersettings-operation-soap"></a>Operação GetUserSettings (SOAP)
 
-A operação **GetUserSettings** contém uma consulta para a configuração de acesso de cliente dos usuários. 
+A operação **GetUserSettings** contém uma consulta para a configuração de acesso para cliente dos usuários. 
   
-## <a name="getusersettings-request-example"></a>Exemplo de solicitação de GetUserSettings
+## <a name="getusersettings-request-example"></a>Exemplo de solicitação GetUserSettings
 
 ### <a name="description"></a>Descrição
 
-O exemplo XML a seguir mostra o corpo de uma solicitação de descoberta automática que solicita a um usuário nome para exibição, nome diferenciado, ID de implantação, o servidor de caixa de correio, nome distinto da caixa de correio, servidor do Active Directory, versão do servidor de acesso para cliente e Web com suporte do Exchange Esquemas de serviços.
+O exemplo de XML a seguir mostra um corpo de solicitação de descoberta automática que solicita o nome de exibição de um usuário, o nome diferenciado, a ID de implantação, o servidor de caixa de correio, o nome diferenciado da caixa de correio, o servidor do Active Directory, a versão do servidor de acesso para cliente e os esquemas
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover"      
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover"      
                xmlns:wsa="http://www.w3.org/2005/08/addressing" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"      
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <a:RequestedServerVersion>Exchange2010</a:RequestedServerVersion>
-    <wsa:Action>http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
+    <wsa:Action>https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
     <wsa:To>https://myserver.contoso.com/autodiscover/autodiscover.svc</wsa:To>
   </soap:Header>
   <soap:Body>
-    <a:GetUserSettingsRequestMessage xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <a:GetUserSettingsRequestMessage xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <a:Request>
         <a:Users>
           <a:User>
@@ -64,7 +64,7 @@ O exemplo XML a seguir mostra o corpo de uma solicitação de descoberta automá
 
 ```
 
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados no corpo da solicitação:
   
@@ -95,10 +95,10 @@ O exemplo a seguir mostra uma resposta **GetUserSettings** bem-sucedida.
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:a="http://www.w3.org/2005/08/addressing">
   <s:Header>
-    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
+    <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
   </s:Header>
   <s:Body>
-  <GetUserSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+  <GetUserSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <ErrorCode>NoError</ErrorCode>
         <ErrorMessage />
@@ -164,13 +164,13 @@ Os seguintes elementos são usados no corpo da resposta:
     
 - [RedirectTarget (SOAP)](redirecttarget-soap.md)
     
-- [Resposta SOAP)](response-soap.md)
+- [Resposta (SOAP)](response-soap.md)
     
-- [Resposta SOAP)](userresponse-soap.md)
+- [Userresponse (SOAP)](userresponse-soap.md)
     
-- [UserResponses (SOAP)](userresponses-soap.md)
+- [Userresponses (SOAP)](userresponses-soap.md)
     
-- [UserSetting (SOAP)](usersetting-soap.md)
+- [Usersetting (SOAP)](usersetting-soap.md)
     
 - [UserSettingErrors (SOAP)](usersettingerrors-soap.md)
     
@@ -178,14 +178,14 @@ Os seguintes elementos são usados no corpo da resposta:
     
 - [Valor (SOAP)](value-soap.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Operação de GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+[Operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
   
-[Operação de GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+[Operação GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
 
 
-[Elementos de Autodiscover XML SOAP para o Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Elementos XML de descoberta automática SOAP para o Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f46679d0-9236-41e2-8624-72300079c67c
-description: O elemento RetentionPolicyTag Especifica a política de retenção para um item de caixa de correio.
-ms.openlocfilehash: 2525f6d7a0ca583342d28dd9f4857a69b3a8c05a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RetentionPolicyTag especifica a política de retenção para um item de caixa de correio.
+ms.openlocfilehash: 3ece841e14e6cf11ab15e4a4d8b83a778ae32e46
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825226"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465174"
 ---
 # <a name="retentionpolicytag"></a>RetentionPolicyTag
 
-O elemento **RetentionPolicyTag** Especifica a política de retenção para um item de caixa de correio. 
+O elemento **RetentionPolicyTag** especifica a política de retenção para um item de caixa de correio. 
   
 ```XML
 <RetentionPolicyTag>
@@ -34,17 +34,17 @@ O elemento **RetentionPolicyTag** Especifica a política de retenção para um i
 ```
 
  **RetentionPolicyTagType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[DisplayName (string)](displayname-string.md) | [RetentionId](retentionid.md) | [RetentionPeriod](retentionperiod.md) | [tipo (ElcFolderType)](type-elcfoldertype.md) | [RetentionAction](retentionaction.md) | [Descrição](description.md) | [IsVisible](isvisible.md)  |  [OptedInto](optedinto.md) | [IsArchive](isarchive.md)
+[DisplayName (cadeia de caracteres)](displayname-string.md)  |  [RetentionId](retentionid.md)  |  [RetentionPeriod](retentionperiod.md)  |  [Tipo (ElcFolderType)](type-elcfoldertype.md)  |  [RetentionAction](retentionaction.md)  |  [Descrição](description.md)  |  [IsVisible](isvisible.md)  |  [OptedInto](optedinto.md)  |  [IsArchive](isarchive.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -56,13 +56,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

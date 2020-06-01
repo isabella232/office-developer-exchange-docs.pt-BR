@@ -1,5 +1,5 @@
 ---
-title: Value
+title: Valor
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9a30cadd-909e-41b1-b4e9-291643dd89c6
-description: O elemento de valor contém o valor de uma propriedade estendida.
-ms.openlocfilehash: 4b8674d267b78f0384f9457e794e88ace8234826
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Value contém o valor de uma propriedade estendida.
+ms.openlocfilehash: 5de1528dda6d58ea772d050e709c0720e389fae6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838032"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465209"
 ---
-# <a name="value"></a>Value
+# <a name="value"></a>Valor
 
-O elemento de **valor** contém o valor de uma propriedade estendida. 
+O elemento **Value** contém o valor de uma propriedade estendida. 
   
 ```xml
 <Value/>
@@ -29,13 +29,13 @@ O elemento de **valor** contém o valor de uma propriedade estendida.
 
 **String**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,29 +45,29 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Values](values.md) <br/> |Contém uma coleção de valores para uma propriedade estendida.  <br/> |
+|[Valores](values.md) <br/> |Contém uma coleção de valores para uma propriedade estendida.  <br/> |
 |[ExtendedProperty](extendedproperty.md) <br/> |Identifica as propriedades estendidas em pastas e itens.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto deve ser compatível com o tipo indicado pelo atributo PropertyType do ExtendedFieldURI.
+O valor de texto deve ser compatível com o tipo indicado pelo atributo Recordtypepropriedade de ExtendedFieldURI.
   
 ## <a name="remarks"></a>Comentários
 
-Um elemento de **valor** pode ocorrer em ambas as instâncias de único e vários valores de propriedade estendida. Instâncias de valor único, ele existe como um filho direto do elemento [ExtendedProperty](extendedproperty.md) . Para uma instância multivalorada, ele existe como um filho direto do conjunto de **valores** . 
+Um elemento **Value** pode ocorrer em instâncias de propriedade estendidas com um ou vários valores. Para instâncias de valor único, ela existe como um filho direto do elemento [Extended](extendedproperty.md) . Para uma instância com vários valores, ela existe como um filho direto da coleção **Values** . 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

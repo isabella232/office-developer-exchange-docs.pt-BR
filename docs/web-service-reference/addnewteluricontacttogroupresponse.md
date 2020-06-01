@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: abff2306-a3a7-489a-b548-2edbc1eb5cc4
-description: O elemento AddNewTelUriContactToGroupResponse Especifica os dados de resultado para a operação AddNewTelUriContactToGroup WSDL.
-ms.openlocfilehash: ddf038af2f4dec8cff98c4453e867af1fe7b8076
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento AddNewTelUriContactToGroupResponse especifica os dados de resultado para a operação WSDL AddNewTelUriContactToGroup.
+ms.openlocfilehash: dfbf208cd5fc59902b16661658985442d4fa57e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751064"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464914"
 ---
 # <a name="addnewteluricontacttogroupresponse"></a>AddNewTelUriContactToGroupResponse
 
-O elemento **AddNewTelUriContactToGroupResponse** Especifica os dados de resultado para a operação de WSDL **AddNewTelUriContactToGroup** . 
+O elemento **AddNewTelUriContactToGroupResponse** especifica os dados de resultado para a operação WSDL **AddNewTelUriContactToGroup** . 
   
 ```XML
 <AddNewTelUriContactToGroupResponse>
@@ -29,21 +29,21 @@ O elemento **AddNewTelUriContactToGroupResponse** Especifica os dados de resulta
 ```
 
  **AddNewTelUriContactToGroupResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Pessoa](persona.md) | [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md)
+[Persona](persona.md)  |  [MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
@@ -51,16 +51,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação AddNewTelUriContactToGroup](addnewteluricontacttogroup-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

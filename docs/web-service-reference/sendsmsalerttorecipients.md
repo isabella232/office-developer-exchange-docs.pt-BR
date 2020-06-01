@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c4dd000b-11b6-4b7b-91e0-dbfeae11d770
-description: O elemento SendSMSAlertToRecipients indica os números de telefone celular para o qual um alerta do serviço SMS (Short Message) será enviado.
-ms.openlocfilehash: b28202c71257fccca67879713d5d7df03f69b06d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SendSMSAlertToRecipients indica os números de telefone celular para os quais um alerta de serviço de mensagem curta (SMS) deve ser enviado.
+ms.openlocfilehash: ed17bf9ad20a51cbead4b86f385a53d19562fa64
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825347"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464844"
 ---
 # <a name="sendsmsalerttorecipients"></a>SendSMSAlertToRecipients
 
-O elemento **SendSMSAlertToRecipients** indica os números de telefone celular para o qual um alerta do serviço SMS (Short Message) será enviado. 
+O elemento **SendSMSAlertToRecipients** indica os números de telefone celular para os quais um alerta de serviço de mensagem curta (SMS) deve ser enviado. 
   
 ```XML
 <SendSMSAlertToRecipients>
@@ -30,27 +30,27 @@ O elemento **SendSMSAlertToRecipients** indica os números de telefone celular p
 ```
 
  **ArrayOfEmailAddressesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Endereço (EmailAddressType)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
+|[Endereço (EmailAddresstype)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Ações](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis a ser executada em uma mensagem quando as condições são atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -58,16 +58,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

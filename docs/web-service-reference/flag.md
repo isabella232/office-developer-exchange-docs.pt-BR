@@ -1,5 +1,5 @@
 ---
-title: Sinalizador
+title: Marca
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b47bc74-a60d-4308-8674-5d52444a1753
-description: O elemento sinalizador Especifica um sinalizador em um item de caixa de correio.
-ms.openlocfilehash: f30f435e8f064d7165ae52de737bbd75b0546206
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Flag especifica um sinalizador em um item de caixa de correio.
+ms.openlocfilehash: 7229a26181ee9baf80be5c32c0ef99483310ccb3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752317"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466259"
 ---
-# <a name="flag"></a>Sinalizador
+# <a name="flag"></a>Marca
 
-O elemento **sinalizador** Especifica um sinalizador em um item de caixa de correio. 
+O elemento **Flag** especifica um sinalizador em um item de caixa de correio. 
   
 ```XML
 <Flag>
@@ -29,29 +29,29 @@ O elemento **sinalizador** Especifica um sinalizador em um item de caixa de corr
 ```
 
  **FlagType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FlagStatus](flagstatus.md) <br/> |Contém o status do sinalizador agregados para itens na pasta atual.  <br/> |
+|[FlagStatus](flagstatus.md) <br/> |Contém o status de sinalizador agregado para itens na pasta atual.  <br/> |
 |[StartDate](startdate.md) <br/> |Representa a data de início de um item.  <br/> |
-|[DueDate](duedate.md) <br/> |Representa a data quando um item é vencimento.  <br/> |
-|[CompleteDate](completedate.md) <br/> |Representa a data em que um item foi concluído.  <br/> |
+|[DueDate](duedate.md) <br/> |Representa a data de vencimento de um item.  <br/> |
+|[Concluído](completedate.md) <br/> |Representa a data em que um item foi concluído.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contém uma única ação a ser aplicado a uma única conversa.  <br/> |
-|[1.1](item.md) <br/> |Representa um item genérico no armazenamento do Exchange.  <br/> |
+|[Conversation](conversationaction.md) <br/> |Contém uma única ação a ser aplicada a uma única conversa.  <br/> |
+|[Item](item.md) <br/> |Representa um item genérico no repositório do Exchange.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -59,16 +59,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 34602cb1-dc33-4552-a98c-3e77f614daa3
-description: O elemento SearchParameters representa os parâmetros que definem a uma pasta de pesquisa.
-ms.openlocfilehash: b534574a1292d78c8df99f5186990b114fc4e70a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SearchParameters representa os parâmetros que definem uma pasta de pesquisa.
+ms.openlocfilehash: cd9f255621b17d01113392e67a0301b01b70f326
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825299"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466665"
 ---
 # <a name="searchparameters"></a>SearchParameters
 
-O elemento **SearchParameters** representa os parâmetros que definem a uma pasta de pesquisa. 
+O elemento **SearchParameters** representa os parâmetros que definem uma pasta de pesquisa. 
   
 ```xml
 <SearchParameters Traversal="">
@@ -31,22 +31,22 @@ O elemento **SearchParameters** representa os parâmetros que definem a uma past
 ```
 
  **SearchParametersType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**Passagem** <br/> |Descreve como uma pasta de pesquisa percorre a hierarquia de pastas. As opções são para uma pesquisa **superficial** ou uma **profundidade** .  <br/> |
+|**Passagem** <br/> |Descreve como uma pasta de pesquisa atravessa a hierarquia de pastas. As opções são para uma pesquisa **profunda** ou **superficial** .  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Restriction](restriction.md) <br/> |Representa a restrição ou a consulta que é usada para filtrar itens ou pastas nas operações da pasta FindItem/FindFolder e pesquisa.  <br/> |
-|[BaseFolderIds](basefolderids.md) <br/> |Representa a coleção das pastas que serão extraídos para determinar o conteúdo de uma pasta de pesquisa.  <br/> |
+|[Restriction](restriction.md) <br/> |Representa a restrição ou a consulta usada para filtrar itens ou pastas no FindItem/FindFolder e operações de pasta de pesquisa.  <br/> |
+|[BaseFolderIds](basefolderids.md) <br/> |Representa a coleção de pastas que será minada para determinar o conteúdo de uma pasta de pesquisa.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -56,18 +56,18 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

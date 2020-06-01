@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 956c287a-a38a-49a7-a877-6d2088dfbc06
-description: O elemento RecipientFilter representa um endereço de destinatário para usar com o relatório de controle de mensagens especificada.
-ms.openlocfilehash: c31ed469132b110a690416b112d5e4e96e44c501
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RecipientFilter representa um endereço de destinatário a ser usado com o relatório de acompanhamento de mensagens especificado.
+ms.openlocfilehash: 945adf9155434e0690debfccc7caf70ba0cb94ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824972"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465804"
 ---
 # <a name="recipientfilter"></a>RecipientFilter
 
-O elemento **RecipientFilter** representa um endereço de destinatário para usar com o relatório de controle de mensagens especificada. 
+O elemento **RecipientFilter** representa um endereço de destinatário a ser usado com o relatório de acompanhamento de mensagens especificado. 
   
 ```XML
  <RecipientFilter>
@@ -33,32 +33,32 @@ O elemento **RecipientFilter** representa um endereço de destinatário para usa
 </RecipientFilter>
 ```
 
- **EmailAddressType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **EmailAddresstype**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Nome (EmailAddressType)](name-emailaddresstype.md) <br/> |Representa o nome do usuário da caixa de correio. Esse elemento é opcional.  <br/> |
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Define o endereço de Simple Mail Transfer Protocol (SMTP) principal de um usuário de caixa de correio. Esse elemento é opcional.  <br/> |
-|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Representa o protocolo de roteamento para o destinatário. O valor padrão é SMTP. Esse elemento é opcional.  <br/> |
-|[MailboxType](mailboxtype.md) <br/> |Representa o tipo de caixa de correio que é representado por um endereço de email. Esse elemento é opcional.  <br/> |
-|[ItemId](itemid.md) <br/> |Define o identificador do item de um contato ou uma lista de distribuição particular para destinatários da pasta de contatos do usuário. Esse elemento é opcional.  <br/> |
+|[Nome (EmailAddresstype)](name-emailaddresstype.md) <br/> |Representa o nome do usuário da caixa de correio. Este elemento é opcional.  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Define o endereço SMTP (Simple Mail Transfer Protocol) principal de um usuário de caixa de correio. Este elemento é opcional.  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Representa o protocolo de roteamento para este destinatário. O valor padrão é SMTP. Este elemento é opcional.  <br/> |
+|[MailboxType](mailboxtype.md) <br/> |Representa o tipo de caixa de correio que é representado pelo endereço de email. Este elemento é opcional.  <br/> |
+|[ItemId](itemid.md) <br/> |Define o identificador de item de um contato ou de uma lista de distribuição privada para destinatários da pasta contatos de um usuário. Este elemento é opcional.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contém a solicitação para a [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md) recuperar a mensagem completa relatório de rastreamento para a ID especificada.  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contém a solicitação para a [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md) para recuperar o relatório de acompanhamento de mensagens completo da ID especificada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -66,16 +66,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

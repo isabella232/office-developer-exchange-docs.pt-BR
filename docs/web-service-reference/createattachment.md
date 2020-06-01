@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e33b403a-b7d3-48ee-8d24-6b7abf0d70bc
-description: O elemento de CreateAttachment define uma solicitação para criar um anexo a um item no armazenamento do Exchange.
-ms.openlocfilehash: d403eb5ca15623d3a973f7b224dbcde5529cf1bc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento CreateAttachment define uma solicitação para criar um anexo a um item no repositório do Exchange.
+ms.openlocfilehash: 4cba1b8865dae5da58b9617b249a29314c67331a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751567"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466434"
 ---
 # <a name="createattachment"></a>CreateAttachment
 
-O elemento de **CreateAttachment** define uma solicitação para criar um anexo a um item no armazenamento do Exchange. 
+O elemento **CreateAttachment** define uma solicitação para criar um anexo a um item no repositório do Exchange. 
   
 ```xml
 <CreateAttachment>
@@ -31,34 +31,34 @@ O elemento de **CreateAttachment** define uma solicitação para criar um anexo 
 ```
 
  **CreateAttachmentType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ParentItemId](parentitemid.md) <br/> |Identifica o item pai Exchange repositório que contém o anexo criado. O elemento [ParentItemId](parentitemid.md) deve fornecer a identificação de uma troca real armazenam o item. Real de armazenar itens podem ser recuperadas usando a [operação GetItem](getitem-operation.md); anexos serão recuperados usando a [operação GetAttachment](getattachment-operation.md). Ocorrerá um erro se o [ParentItemId](parentitemid.md) é passado a identificação de um anexo de arquivo. Se o [ParentItemId](parentitemid.md) representar a identificação de um anexo de item existente, a [operação CreateAttachment](createattachment-operation.md) adiciona o novo anexo no anexo existente.  <br/> Esse elemento é necessário para a [operação CreateAttachment](createattachment-operation.md).  <br/> |
-|[Anexos](attachments-ex15websvcsotherref.md) <br/> |Contém os itens ou arquivos a serem anexados a um item no armazenamento do Exchange.  <br/> |
+|[ParentItemId](parentitemid.md) <br/> |Identifica o item do repositório pai do Exchange que contém o anexo criado. O elemento [ParentItemId](parentitemid.md) deve fornecer a ID de um item real do repositório do Exchange. Os itens do repositório real podem ser recuperados usando a [operação GetItem](getitem-operation.md); os anexos são recuperados usando a [operação GetAttachment](getattachment-operation.md). Ocorrerá um erro se [ParentItemId](parentitemid.md) for passado a ID de um anexo de arquivo. Se [ParentItemId](parentitemid.md) representar a ID de um anexo de item existente, a [operação CreateAttachment](createattachment-operation.md) adicionará o novo anexo ao anexo existente.  <br/> Este elemento é necessário para a [operação CreateAttachment](createattachment-operation.md).  <br/> |
+|[Anexos](attachments-ex15websvcsotherref.md) <br/> |Contém os itens ou arquivos a serem anexados a um item no repositório do Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-Um anexo do item não existe como um item de armazenamento. Ele só existe como um anexo de um item ou outro. Anexos de item só podem ser recuperados usando-se a solicitação [GetAttachment](getattachment.md) . 
+Um anexo de item não existe como um item de repositório. Ela só existe como um anexo a um item ou outro anexo. Os anexos de item só podem ser recuperados usando a solicitação [GetAttachment](getattachment.md) . 
   
 Os seguintes anexos de item podem ser criados:
   
 - Item
     
-- Message
+- Mensagem
     
 - CalendarItem
     
@@ -74,17 +74,17 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como criar e anexar um item a outro item no armazenamento do Exchange.
+O exemplo a seguir mostra como criar e anexar um item a outro item no repositório do Exchange.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <CreateAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <ParentItemId Id="ASkAS"/>
       <Attachments>
         <t:ItemAttachment>
@@ -101,16 +101,16 @@ O exemplo a seguir mostra como criar e anexar um item a outro item no armazename
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

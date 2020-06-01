@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0e0fa898-69a4-4c57-8bb2-52f716b5b478
-description: O elemento IntendedFreeBusyStatus representa o status desejado para o item de calendário que está associado à solicitação de reunião.
-ms.openlocfilehash: 3254becf8c6885f7d6dc401ecf31da149e7de2d4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IntendedFreeBusyStatus representa o status pretendido para o item de calendário que está associado à solicitação de reunião.
+ms.openlocfilehash: c5502bcfb308aa2f02a9575ab43f80261b5fa4ed
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823945"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465615"
 ---
 # <a name="intendedfreebusystatus"></a>IntendedFreeBusyStatus
 
-O elemento **IntendedFreeBusyStatus** representa o status desejado para o item de calendário que está associado à solicitação de reunião. 
+O elemento **IntendedFreeBusyStatus** representa o status pretendido para o item de calendário que está associado à solicitação de reunião. 
   
 ```xml
 <IntendedFreeBusyStatus/>
 ```
 
  **LegacyFreeBusyType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,36 +44,36 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no armazenamento do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. Estes são os valores possíveis para esse elemento:
+Um valor de texto é obrigatório. Estes são os valores possíveis para este elemento:
   
 - Disponível
     
-- Provisório
+- Provisória
     
 - Ocupado
     
-- AUSÊNCIA TEMPORÁRIA
+- TEMPORÁRIA
     
 - NoData
     
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

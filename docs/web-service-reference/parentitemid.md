@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 72dc4391-72db-44d2-85d9-4718d59886a7
-description: O elemento ParentItemId identifica o item pai que vincula a um anexo associado.
-ms.openlocfilehash: 9bd875ee5ead8b87996288a640e1bb14e3a5e8b8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ParentItemId identifica o item pai que é vinculado a um anexo associado.
+ms.openlocfilehash: 4f3e33da0af2438948313f0e335cd03e076d135a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824703"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465741"
 ---
 # <a name="parentitemid"></a>ParentItemId
 
-O elemento **ParentItemId** identifica o item pai que vincula a um anexo associado. 
+O elemento **ParentItemId** identifica o item pai que é vinculado a um anexo associado. 
   
 - [CreateAttachment](createattachment.md)
   
@@ -31,18 +31,18 @@ O elemento **ParentItemId** identifica o item pai que vincula a um anexo associa
 <ParentItemId Id="" ChangeKey="" />
 ```
 
-**ItemIdType**
+**ItemIdtype**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**ID de** <br/> |Identifica um único item no armazenamento do Exchange para associar um anexo. Esse valor é uma cadeia de caracteres. Este atributo é necessário.  <br/> |
-|**ChangeKey** <br/> |Identifica uma versão não especificada de um item que é identificado pelo atributo **Id** no armazenamento do Exchange. Isso é usado para certificar-se de que um item atual é usado quando ela é atualizada com um anexo. Esse valor é uma cadeia de caracteres. Este atributo é opcional.  <br/> |
+|**Id** <br/> |Identifica um único item no repositório do Exchange para associar a um anexo. Este valor é uma cadeia de caracteres. Esse atributo é necessário.  <br/> |
+|**ChangeKey** <br/> |Identifica uma versão não especificada de um item que é identificada pelo atributo **ID** no repositório do Exchange. Isso é usado para garantir que um item atual é usado quando é atualizado com um anexo. Este valor é uma cadeia de caracteres. Esse atributo é opcional.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,24 +52,24 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CreateAttachment](createattachment.md) <br/> |Define uma solicitação para criar um anexo a um item em uma caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/CreateAttachment` <br/> |
+|[CreateAttachment](createattachment.md) <br/> |Define uma solicitação para criar um anexo a um item em uma caixa de correio.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/CreateAttachment` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é necessário na [operação CreateAttachment](createattachment-operation.md). Esse elemento é basicamente o mesmo que o elemento [ItemId](itemid.md) . 
+Esse elemento é necessário na [operação CreateAttachment](createattachment-operation.md). Este elemento é basicamente o mesmo que o elemento [ItemId](itemid.md) . 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |[http://schemas.microsoft.com/exchange/services/2006/messages](http://schemas.microsoft.com/exchange/services/2006/messages) <br/> |
+|Namespace  <br/> |[https://schemas.microsoft.com/exchange/services/2006/messages](https://schemas.microsoft.com/exchange/services/2006/messages) <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação CreateAttachment](createattachment-operation.md)
 

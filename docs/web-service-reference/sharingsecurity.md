@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: d4831cac-a8f9-419a-ac42-481e34230cba
-description: O elemento SharingSecurity é usado no cabeçalho simples (SOAP Object Access Protocol) para o calendário ou o compartilhamento de contato.
-ms.openlocfilehash: fa6719b5bd2bf5388c3da6befd50f4a302d4c3d8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SharingSecurity é usado no cabeçalho SOAP (Simple Object Access Protocol) para compartilhamento de contatos e calendários.
+ms.openlocfilehash: 456190079cc539c170aa96e795031071b5d9f1ad
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825482"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466707"
 ---
 # <a name="sharingsecurity"></a>SharingSecurity
 
-O elemento **SharingSecurity** é usado no cabeçalho simples (SOAP Object Access Protocol) para o calendário ou o compartilhamento de contato. 
+O elemento **SharingSecurity** é usado no cabeçalho SOAP (Simple Object Access Protocol) para compartilhamento de contatos e calendários. 
   
 ```xml
 <SharingSecurity/>
 ```
 
  **EncryptedDataContainerType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -42,22 +42,22 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório Virtual do IIS que hospeda o Exchange Web Services do computador que está executando o Microsoft Exchange Server que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

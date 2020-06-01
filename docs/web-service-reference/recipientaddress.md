@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9ae6351a-2c60-4715-a489-5681a13641f9
 description: O elemento RecipientAddress representa a caixa de correio do destinatário.
-ms.openlocfilehash: 10928ac206227cfc21bd83ab5bfa9a55aad354e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f4b6edd034dd91471e6496f6b0cca65bd3ffb69a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824974"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465846"
 ---
 # <a name="recipientaddress"></a>RecipientAddress
 
@@ -33,45 +33,45 @@ O elemento **RecipientAddress** representa a caixa de correio do destinatário.
 </RecipientAddress>
 ```
 
- **EmailAddressType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **EmailAddresstype**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Nome (EmailAddressType)](name-emailaddresstype.md) <br/> |Representa o nome do usuário da caixa de correio. Esse elemento é opcional.  <br/> |
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Define o endereço de Simple Mail Transfer Protocol (SMTP) de um usuário de caixa de correio. Esse elemento é opcional.  <br/> |
-|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Representa o protocolo de roteamento para o destinatário. O padrão é SMTP. Esse elemento é opcional.  <br/> |
-|[MailboxType](mailboxtype.md) <br/> |Representa o tipo de caixa de correio que é representado por um endereço de email.  <br/> |
-|[ItemId](itemid.md) <br/> |Define o identificador do item de um contato ou uma lista de distribuição particular para destinatários da pasta de contatos do usuário. Esse elemento é opcional.  <br/> |
+|[Nome (EmailAddresstype)](name-emailaddresstype.md) <br/> |Representa o nome do usuário da caixa de correio. Este elemento é opcional.  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Define o endereço SMTP (Simple Mail Transfer Protocol) de um usuário de caixa de correio. Este elemento é opcional.  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Representa o protocolo de roteamento para o destinatário. O padrão é SMTP. Este elemento é opcional.  <br/> |
+|[MailboxType](mailboxtype.md) <br/> |Representa o tipo de caixa de correio que é representado pelo endereço de email.  <br/> |
+|[ItemId](itemid.md) <br/> |Define o identificador de item de um contato ou de uma lista de distribuição privada para destinatários da pasta contatos de um usuário. Este elemento é opcional.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Dicas de email](mailtips.md) <br/> |Representa os valores para os vários tipos de dicas de email.  <br/> |
+|[Dicas de Email](mailtips.md) <br/> |Representa valores de vários tipos de dicas de email.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Não
+title: Not
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1aa16318-7e90-4b19-bce8-dd1a20a66223
-description: O elemento não representa uma expressão de pesquisa que dispensa o valor booliano da expressão de pesquisa que ele contém.
-ms.openlocfilehash: f5bc709d8b1e77a13b3598905651ac1750436f03
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento not representa uma expressão de pesquisa que nega o valor booliano da expressão de pesquisa que ela contém.
+ms.openlocfilehash: 84c64a6d9d39f260d416fc32e4e5f5fcdef027e5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824553"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466714"
 ---
-# <a name="not"></a>Não
+# <a name="not"></a>Not
 
-O elemento **não** representa uma expressão de pesquisa que dispensa o valor booliano da expressão de pesquisa que ele contém. 
+O elemento **not** representa uma expressão de pesquisa que nega o valor booliano da expressão de pesquisa que ela contém. 
   
 ```xml
 <Not>
@@ -29,44 +29,44 @@ O elemento **não** representa uma expressão de pesquisa que dispensa o valor b
 </Not>
 ```
 
- **NotType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Não tipo**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SearchExpression](searchexpression.md) <br/> | Representa a classe base para expressões dentro de uma restrição. <br/><br/>Um dos seguintes elementos deve ser substituído por elemento **SearchExpression** : <br/> <br/>- [Existe](exists.md) <br/>- [Exclui](excludes.md) <br/>- [IsEqualTo](isequalto.md) <br/>- [IsNotEqualTo](isnotequalto.md) <br/>- [IsGreaterThan](isgreaterthan.md) <br/>- [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/>- [IsLessThan](islessthan.md) <br/>- [IsLessThanOrEqualTo](islessthanorequalto.md) <br/>- [Contém](contains.md) <br/>- **Não** <br/>- [E](and.md) <br/>- [Ou](or.md) <br/> |
+|[Pesquisa](searchexpression.md) <br/> | Representa a classe base para expressões dentro de uma restrição. <br/><br/>Um dos seguintes elementos deve ser substituído pelo elemento **searché** : <br/> <br/>- [Houver](exists.md) <br/>- [Exclui](excludes.md) <br/>- [IsEqualTo](isequalto.md) <br/>- [IsNotEqualTo](isnotequalto.md) <br/>- [IsGreaterThan](isgreaterthan.md) <br/>- [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/>- [IsLessThan](islessthan.md) <br/>- [IsLessThanOrEqualTo](islessthanorequalto.md) <br/>- [Contém](contains.md) <br/>- **Sido** <br/>- [E](and.md) <br/>- [Ou](or.md) <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Restriction](restriction.md) <br/> |Representa a restrição ou a consulta que é usada para filtrar itens ou pastas nas operações da pasta FindItem/FindFolder e pesquisa.  <br/> |
-|**Não** <br/> |Representa uma expressão de pesquisa que dispensa o valor booliano da expressão de pesquisa que ele contém.  <br/> |
-|[E](and.md) <br/> |Representa uma expressão de pesquisa que lhe permite realizar uma operação de booleano **e** entre dois ou mais expressões de pesquisa. O resultado da operação **e** será **true** se todas as expressões de pesquisa contidas no elemento **e** forem **verdadeiras**.  <br/> |
-|[Ou](or.md) <br/> |Representa uma expressão de pesquisa que executa uma operação **OR** lógica a expressão de pesquisa que ele contém. **Ou** retornará **true** se qualquer um dos seus filhos retornam **true**. **Ou** deve ter dois ou mais filhos.  <br/> |
+|[Restriction](restriction.md) <br/> |Representa a restrição ou a consulta usada para filtrar itens ou pastas no FindItem/FindFolder e operações de pasta de pesquisa.  <br/> |
+|**Not** <br/> |Representa uma expressão de pesquisa que nega o valor booliano da expressão de pesquisa que ela contém.  <br/> |
+|[And](and.md) <br/> |Representa uma expressão de pesquisa que permite executar um Boolean **e** uma operação entre duas ou mais expressões de pesquisa. O resultado da operação **and** será **true** se todas as expressões de pesquisa contidas no elemento **e** forem **true**.  <br/> |
+|[Or](or.md) <br/> |Representa uma expressão de pesquisa que executa uma operação lógica **ou** na expressão de pesquisa que ela contém. **Ou** retornará **true** se qualquer um dos seus filhos retornar **true**. **Ou** deve ter dois ou mais filhos.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

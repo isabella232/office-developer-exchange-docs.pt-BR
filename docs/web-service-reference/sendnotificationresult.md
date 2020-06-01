@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: fa9d6202-fa66-4f10-9858-53f4f1ce14bc
-description: O elemento SendNotificationResult contém a resposta de um aplicativo cliente para uma notificação de push.
-ms.openlocfilehash: 9acaa396430cf4e06a9c996834874d19dcab50ac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SendNotificationResult contém a resposta de um aplicativo cliente para uma notificação por push.
+ms.openlocfilehash: 4ee9a0dda3d887f8fbfa2c2b34a9a077e7af37ba
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825350"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464886"
 ---
 # <a name="sendnotificationresult"></a>SendNotificationResult
 
-O elemento **SendNotificationResult** contém a resposta de um aplicativo cliente para uma notificação de push. 
+O elemento **SendNotificationResult** contém a resposta de um aplicativo cliente para uma notificação por push. 
   
 ```xml
 <SendNotificationResult>
@@ -30,38 +30,38 @@ O elemento **SendNotificationResult** contém a resposta de um aplicativo client
 ```
 
  **SendNotificationResultType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SubscriptionStatus](subscriptionstatus.md) <br/> |Descreve o status de uma inscrição de envio.  <br/> |
+|[SubscriptionStatus](subscriptionstatus.md) <br/> |Descreve o status de uma assinatura push.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

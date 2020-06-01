@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 14819975-ce54-4f0e-9f90-d4b275895ea0
-description: O elemento ResponseMessages contém as mensagens de resposta para uma solicitação de gerenciamento do representante de serviços Web do Exchange.
-ms.openlocfilehash: e4b5567f3ded003e9648eb8ebebfadf8f1748d6c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ResponseMessages contém as mensagens de resposta para uma solicitação de gerenciamento de representante de serviços Web do Exchange.
+ms.openlocfilehash: 6b035f4ee46af1750a275e2c61b2cddea06b37a1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825193"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465454"
 ---
 # <a name="responsemessages-arrayofdelegateuserresponsemessagetype"></a>ResponseMessages (ArrayOfDelegateUserResponseMessageType)
 
-O elemento **ResponseMessages** contém as mensagens de resposta para uma solicitação de gerenciamento do representante de serviços Web do Exchange. 
+O elemento **ResponseMessages** contém as mensagens de resposta para uma solicitação de gerenciamento de representante de serviços Web do Exchange. 
   
 ```
 <ResponseMessages>
@@ -30,13 +30,13 @@ O elemento **ResponseMessages** contém as mensagens de resposta para uma solici
 ```
 
  **ArrayOfDelegateUserResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -49,32 +49,32 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[AddDelegateResponse](adddelegateresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação AddDelegate](adddelegate-operation.md) .  <br/> |
-|[GetDelegateResponse](getdelegateresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação GetDelegate](getdelegate-operation.md) .  <br/> |
+|[GetDelegateResponse](getdelegateresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação Getdelegate](getdelegate-operation.md) .  <br/> |
 |[UpdateDelegateResponse](updatedelegateresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação UpdateDelegate](updatedelegate-operation.md) .  <br/> |
 |[RemoveDelegateResponse](removedelegateresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação RemoveDelegate](removedelegate-operation.md) .  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é usado a [operação AddDelegate](adddelegate-operation.md), a [operação de GetDelegate](getdelegate-operation.md), a [operação UpdateDelegate](updatedelegate-operation.md)e a [operação RemoveDelegate](removedelegate-operation.md). As respostas de operação de gerenciamento de representante são estruturadas de forma diferente de outras respostas. As mensagens de resposta do representante gerenciamento são fortemente tipadas.
+Esse elemento é usado na [operação AddDelegate](adddelegate-operation.md), a [operação getdelegate](getdelegate-operation.md), a [operação UpdateDelegate](updatedelegate-operation.md)e a [operação RemoveDelegate](removedelegate-operation.md). As respostas da operação de gerenciamento de representante são estruturadas de modo diferente de outras respostas. As mensagens de resposta de gerenciamento de representante são fortemente tipadas.
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server com a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Exchange Server com a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 [Operação AddDelegate](adddelegate-operation.md)
   
-[Operação GetDelegate](getdelegate-operation.md)
+[Operação getdelegate](getdelegate-operation.md)
   
 [Operação UpdateDelegate](updatedelegate-operation.md)
   

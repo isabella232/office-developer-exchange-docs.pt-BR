@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bb184144-3e4b-4419-a883-cc9fab1085e6
-description: O elemento ReplyBody contém uma mensagem de fora do escritório (OOF) e o idioma usado para a mensagem.
-ms.openlocfilehash: 8400dda1ee810781e129fcc44fd3cd5d6c15cbbe
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ReplyBody contém uma mensagem de ausência temporária (OOF) e o idioma usado para a mensagem.
+ms.openlocfilehash: 496d336d1f87d9ea493ba7da362eef5a416fd899
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825116"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465300"
 ---
 # <a name="replybody"></a>ReplyBody
 
-O elemento **ReplyBody** contém uma mensagem de fora do escritório (OOF) e o idioma usado para a mensagem. 
+O elemento **ReplyBody** contém uma mensagem de ausência temporária (OOF) e o idioma usado para a mensagem. 
   
 ```XML
 <ReplyBody xml:lang="">
@@ -30,29 +30,29 @@ O elemento **ReplyBody** contém uma mensagem de fora do escritório (OOF) e o i
 ```
 
  **ReplyBody**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|XML: lang  <br/> |Especifica o idioma usado no conteúdo da **ReplyBody** . Este atributo é opcional. Os valores possíveis desse atributo são definidos por IETF RFC 3066.  <br/> |
+|XML: lang  <br/> |Especifica o idioma usado no conteúdo do **ReplyBody** . Esse atributo é opcional. Os valores possíveis desse atributo são definidos pela IETF RFC 3066.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Mensagem (disponibilidade)](message-availability.md) <br/> |Contém o limite de resposta de ausência temporária.  <br/> |
+|[Mensagem (disponibilidade)](message-availability.md) <br/> |Contém a resposta de ausência temporária (OOF).  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Fora do escritório](outofoffice.md) <br/> |Define a mensagem de resposta de ausência temporária e um tempo de duração para enviar a mensagem de resposta para uma caixa de correio.  <br/> |
+|[Fora](outofoffice.md) <br/> |Define a mensagem de resposta de ausência temporária e um tempo de duração para enviar a mensagem de resposta para uma caixa de correio.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -62,16 +62,16 @@ Este elemento é obrigatório.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

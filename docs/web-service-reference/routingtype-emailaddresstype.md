@@ -1,5 +1,5 @@
 ---
-title: RoutingType (EmailAddressType)
+title: RoutingType (EmailAddresstype)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 683216be-9972-4f48-a148-c34bfe7f53e5
-description: O elemento de RoutingType define o tipo de endereço da caixa de correio.
-ms.openlocfilehash: a02c3b5711a657311428d67cccabd9c8c231db67
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RoutingType define o tipo de endereço da caixa de correio.
+ms.openlocfilehash: d4229f2857a5c99cc9bb7ff9b9b103de099a0055
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825256"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465083"
 ---
-# <a name="routingtype-emailaddresstype"></a>RoutingType (EmailAddressType)
+# <a name="routingtype-emailaddresstype"></a>RoutingType (EmailAddresstype)
 
-O elemento de **RoutingType** define o tipo de endereço da caixa de correio. 
+O elemento **RoutingType** define o tipo de endereço da caixa de correio. 
   
 ```XML
 <RoutingType/>
 ```
 
  **NonEmptyStringType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,30 +44,30 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ActingAs](actingas.md) <br/> |Identifica que o chamador está enviando como.  <br/> |
-|[Caixa de correio](mailbox.md) <br/> |Identifica um endereço de email totalmente resolvido.  <br/> |
+|[Agindo](actingas.md) <br/> |Identifica quem o chamador está enviando como.  <br/> |
+|[Caixa de Correio](mailbox.md) <br/> |Identifica um endereço de email totalmente resolvido.  <br/> |
 |[RoomList](roomlist.md) <br/> |Identifica uma lista de salas de reunião.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa um tipo de roteamento. SMTP é o valor de texto típica para esse elemento.
+O valor de texto representa um tipo de roteamento. SMTP é o valor de texto típico para este elemento.
   
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é opcional no elemento de [caixa de correio](mailbox.md) . Outro elemento [RoutingType (EmailAddress)](routingtype-emailaddress.md) é usado para operações de disponibilidade. 
+Este elemento é opcional no elemento [Mailbox](mailbox.md) . Outro elemento [RoutingType (EmailAddress)](routingtype-emailaddress.md) é usado para operações de disponibilidade. 
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

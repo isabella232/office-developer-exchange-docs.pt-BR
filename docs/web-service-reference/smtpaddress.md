@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 779305a6-ad1e-424e-8a69-4e3bef61d787
-description: O elemento SmtpAddress representa o endereço de Simple Mail Transfer Protocol (SMTP) de uma conta a ser usada para representação ou um endereço de destinatário de Simple Mail Transfer Protocol (SMTP) de um calendário ou uma solicitação de compartilhamento do contato.
-ms.openlocfilehash: 39588f0892cdcec819a1972547155730be5785f4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SmtpAddress representa o endereço SMTP (Simple Mail Transfer Protocol) de uma conta a ser usada para representação ou para um endereço de destinatário SMTP de um calendário ou solicitação de compartilhamento de contato.
+ms.openlocfilehash: 915ff328cc384c1f2884e9fbea8c10c1ebc79288
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825511"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466686"
 ---
 # <a name="smtpaddress"></a>SmtpAddress
 
-O elemento **SmtpAddress** representa o endereço de Simple Mail Transfer Protocol (SMTP) de uma conta a ser usada para representação ou um endereço de destinatário de Simple Mail Transfer Protocol (SMTP) de um calendário ou uma solicitação de compartilhamento do contato. 
+O elemento **smtpAddress** representa o endereço SMTP (Simple Mail Transfer Protocol) de uma conta a ser usada para representação ou para um endereço de destinatário SMTP de um calendário ou solicitação de compartilhamento de contato. 
   
 ```xml
 <SmtpAddress/>
@@ -29,13 +29,13 @@ O elemento **SmtpAddress** representa o endereço de Simple Mail Transfer Protoc
 
 **SmtpAddressType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,29 +45,29 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ConnectingSID](connectingsid.md) <br/> |Representa uma conta para representar quando você estiver usando o cabeçalho SOAP ExchangeImpersonation.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
-|[InvalidRecipient](invalidrecipient.md) <br/> |Representa um destinatário inválido para um compartilhamento de calendário ou mensagem de compartilhamento do contato.  <br/> |
-|[Destinatários (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) <br/> |Representa uma coleção dos destinatários que receberão acesso à pasta compartilhada.  <br/> |
+|[ConnectingSID](connectingsid.md) <br/> |Representa uma conta a ser representada quando você estiver usando o cabeçalho SOAP ExchangeImpersonation.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
+|[InvalidRecipient](invalidrecipient.md) <br/> |Representa um destinatário inválido para uma mensagem de compartilhamento de calendário ou contato.  <br/> |
+|[Destinatários (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) <br/> |Representa uma coleção de destinatários aos quais será concedido acesso à pasta compartilhada.  <br/> |
 |[GetSharingFolder](getsharingfolder.md) <br/> |Define uma solicitação para obter o identificador de pasta local de uma pasta compartilhada especificada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto que representa um endereço SMTP.
+Um valor de texto que representa um endereço SMTP é necessário.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório Virtual do IIS que hospeda o Exchange Web Services do computador que está executando o Microsoft Exchange Server que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

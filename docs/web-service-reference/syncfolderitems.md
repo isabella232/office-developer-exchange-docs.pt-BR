@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 463ed78c-bf82-4cd8-971a-d18425e9e7be
-description: O elemento de SyncFolderItems define uma solicitação para sincronizar os itens em uma pasta de repositório do Exchange.
-ms.openlocfilehash: 368e19babfccaeab40380103495c63d30647905c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SyncFolderItems define uma solicitação para sincronizar itens em uma pasta do repositório do Exchange.
+ms.openlocfilehash: 0fa5b1544d5627d1423287369e72f97662c28d12
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837686"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465146"
 ---
 # <a name="syncfolderitems"></a>SyncFolderItems
 
-O elemento de **SyncFolderItems** define uma solicitação para sincronizar os itens em uma pasta de repositório do Exchange. 
+O elemento **SyncFolderItems** define uma solicitação para sincronizar itens em uma pasta do repositório do Exchange. 
   
 ```xml
 <SyncFolderItems>
@@ -34,43 +34,43 @@ O elemento de **SyncFolderItems** define uma solicitação para sincronizar os i
 ```
 
  **SyncFolderItemsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ItemShape](itemshape.md) <br/> |Identifica as propriedades do item e o conteúdo a ser incluído em uma resposta SyncFolderItems. Este elemento é obrigatório.  <br/> |
+|[Shape](itemshape.md) <br/> |Identifica as propriedades e o conteúdo do item que serão incluídos em uma resposta SyncFolderItems. Este elemento é obrigatório.  <br/> |
 |[SyncFolderId](syncfolderid.md) <br/> |Representa a pasta que contém os itens a serem sincronizados. Este elemento é obrigatório.  <br/> |
-|[Estado de sincronização](syncstate-ex15websvcsotherref.md) <br/> |Contém um formulário codificado na base64 dos dados de sincronização que são atualizados após cada solicitação bem-sucedida. Isso é usado para identificar o estado de sincronização. Esse elemento é opcional.  <br/> |
-|[Ignore](ignore.md) <br/> |Identifica os itens a serem ignorados durante a sincronização. Esse elemento é opcional.  <br/> |
-|[MaxChangesReturned](maxchangesreturned.md) <br/> |Descreve o número máximo de alterações que pode ser retornado em uma resposta de sincronização. Este elemento é obrigatório.  <br/> |
-|[SyncScope](syncscope.md) <br/> |Especifica se apenas itens ou itens e informações de pasta associada são retornados em uma resposta de sincronização. Esse elemento é opcional.  <br/> |
+|[SyncState](syncstate-ex15websvcsotherref.md) <br/> |Contém uma forma codificada em base64 dos dados de sincronização que são atualizados após cada solicitação bem-sucedida. Isso é usado para identificar o estado de sincronização. Este elemento é opcional.  <br/> |
+|[Ignore](ignore.md) <br/> |Identifica os itens a serem ignorados durante a sincronização. Este elemento é opcional.  <br/> |
+|[MaxChangesReturned](maxchangesreturned.md) <br/> |Descreve o número máximo de alterações que podem ser retornadas em uma resposta de sincronização. Este elemento é obrigatório.  <br/> |
+|[SyncScope](syncscope.md) <br/> |Especifica se apenas itens ou itens e informações associadas à pasta são retornados em uma resposta de sincronização. Este elemento é opcional.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

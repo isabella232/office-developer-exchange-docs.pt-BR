@@ -11,57 +11,57 @@ api_name:
 api_type:
 - schema
 ms.assetid: 53f59054-8f68-4eaa-be9c-ccfc9383bcf2
-description: O elemento de regras contém uma matriz de regras de proteção.
-ms.openlocfilehash: 5d511f977f3eb3273dc43f56356a059985b2a929
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento rules contém uma matriz de regras de proteção.
+ms.openlocfilehash: d848abfe0c97d07836f28bc75806f506c5433d44
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825269"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464935"
 ---
 # <a name="rules"></a>Regras
 
-O elemento de **regras** contém uma matriz de regras de proteção. 
+O elemento **Rules** contém uma matriz de regras de proteção. 
   
 ```xml
 <Rules>   <Rule/></Rules>
 ```
 
  **ArrayOfProtectionRulesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Rule](rule.md) <br/> |Contém uma regra de proteção do único. Esse elemento pode ocorrer zero ou mais vezes. Esse elemento ocorre zero vezes quando não há regras de proteção são definidas pela organização. Uma ou mais vezes ocorre se não houver pelo menos uma regra definida pela organização.  <br/> |
+|[Rule](rule.md) <br/> |Contém uma única regra de proteção. Este elemento pode ocorrer zero ou mais vezes. Esse elemento ocorre sem nenhuma hora quando nenhuma regra de proteção é definida pela organização. Ela ocorre uma ou mais vezes se pelo menos uma regra for definida pela organização.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ProtectionRulesConfiguration](protectionrulesconfiguration.md) <br/> |Contém a configuração do serviço para o serviço de regras de proteção.  <br/> |
+|[ProtectionRulesConfiguration](protectionrulesconfiguration.md) <br/> |Contém a configuração de serviço para o serviço de regras de proteção.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

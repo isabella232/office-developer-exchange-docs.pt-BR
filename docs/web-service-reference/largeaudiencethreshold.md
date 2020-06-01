@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: dacd9db7-b8f0-445d-a3d1-3356b8c2bcd1
-description: O elemento LargeAudienceThreshold representa o limite de grande público para um cliente.
-ms.openlocfilehash: a222e992ba2d716f6539c7b146277358a76fe552
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento LargeAudienceThreshold representa o limite grande de audiência para um cliente.
+ms.openlocfilehash: 6d85f9eaf8b7723713877d376876461befa92324
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824201"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466385"
 ---
 # <a name="largeaudiencethreshold"></a>LargeAudienceThreshold
 
-O elemento **LargeAudienceThreshold** representa o limite de grande público para um cliente. 
+O elemento **LargeAudienceThreshold** representa o limite grande de audiência para um cliente. 
   
 ```XML
 <LargeAudienceThreshold/>
 ```
 
  **int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,24 +46,24 @@ Nenhum.
 |:-----|:-----|
 |[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contém informações de configuração de serviço para o serviço de dicas de email.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto é um inteiro que representa o limite de audiência que indica que a mensagem será mais de uma pessoa.
+O valor de texto é um inteiro que representa o limite de audiência que indica que a mensagem vai para mais de uma pessoa.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

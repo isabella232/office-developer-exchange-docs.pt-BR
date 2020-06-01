@@ -1,5 +1,5 @@
 ---
-title: IsOrganizer
+title: Isorganizer
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a31ac268-5061-4272-a433-ffaea2fbcfa9
-description: O elemento IsOrganizer Especifica um valor Boolean que indica se essa pessoa é o organizador da reunião.
-ms.openlocfilehash: 5fd775cfc0a296c08d19d0468d96aa36ba67ddd0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento isorganizer especifica um valor Boolean que indica se essa pessoa é o organizador da reunião.
+ms.openlocfilehash: 45b7a66068dc00f6e60b7380240bea6836282fd4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824063"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466560"
 ---
-# <a name="isorganizer"></a>IsOrganizer
+# <a name="isorganizer"></a>Isorganizer
 
-O elemento **IsOrganizer** Especifica um valor Boolean que indica se essa pessoa é o organizador da reunião. 
+O elemento **Isorganizer** especifica um valor Boolean que indica se essa pessoa é o organizador da reunião. 
   
 ```XML
 <IsOrganizer>true | false</IsOrganizer>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -43,9 +43,9 @@ Nenhum.
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de **true** para o elemento **IsOrganizer** text indica se a mensagem de reunião ou de item de calendário foi criada pelo usuário. Um valor **false** indica que a mensagem de reunião ou de item de calendário não foi criada bv o usuário. 
+Um valor de texto **true** para o elemento **isorganizer** indica que o item de calendário ou a mensagem de reunião foi criado pelo usuário. Um valor **false** indica que o item de calendário ou a mensagem de reunião não foi criado BV o usuário. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -53,16 +53,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

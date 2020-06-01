@@ -1,5 +1,5 @@
 ---
-title: Função CChkSGFiles.ErrTerm
+title: Função função cchksgfiles. ErrTerm
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,21 +12,21 @@ api_type:
 - dllExport
 ms.assetid: eea20a55-4a2a-4209-ae79-dc1ee1cd631b
 description: 'Última modificação: 25 de fevereiro de 2013'
-ms.openlocfilehash: 099ec33663baa2414a0c28b90364523b6191c697
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 12b07fba69054d327c7250bbf83e4c77016e8b3f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750634"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466196"
 ---
-# <a name="cchksgfileserrterm-function"></a>Função CChkSGFiles.ErrTerm
+# <a name="cchksgfileserrterm-function"></a>Função função cchksgfiles. ErrTerm
   
 **Aplica-se a:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
-Fornece um status geral da verificação de banco de dados e log, que indica se todas as páginas de banco de dados e logs foram verificados com êxito.
+Fornece um status geral do banco de dados e verificação de log, que indica se todas as páginas de banco de dados e logs foram verificadas com êxito.
   
 > [!IMPORTANT]
-> Grupos de armazenamento não estão disponíveis no Exchange 2013. Para manter a compatibilidade com bancos de dados e os grupos de armazenamento nas versões do Exchange anteriores ao Exchange Server 2010, a API CHKSGFILES permite especificar grupos de armazenamento. Quando você executa CHKSGFILES em bancos de dados do Exchange 2013, você deve definir parâmetros que especificam um identificador de grupo de armazenamento como uma sequência vazia. 
+> Os grupos de armazenamento não estão disponíveis no Exchange 2013. Para compatibilidade com versões anteriores com bancos de dados e grupos de armazenamento em versões do Exchange anteriores ao Exchange Server 2010, a API CHKSGFILES permite que você especifique grupos de armazenamento. Ao executar o CHKSGFILES em bancos de dados do Exchange 2013, você deve definir parâmetros que especificam um identificador de grupo de armazenamento para uma cadeia de caracteres vazia. 
   
 ```cs
 Vitual ERRErrTerm 
@@ -36,34 +36,34 @@ Vitual ERRErrTerm
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 ### <a name="ulflags"></a>ulFlags
   
-Parâmetro de entrada opcional. Esse valor é reservado para uso futuro. O valor passado por este parâmetro deve ser de 0 (zero).
+Parâmetro de entrada opcional. Esse valor é reservado para uso futuro. O valor passado por esse parâmetro deve ser 0 (zero).
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-Um código de erro da enumeração [ERR](cchksgfiles-err-enumeration.md) . 
+Um código de erro da enumeração [Err](cchksgfiles-err-enumeration.md) . 
   
 ## <a name="remarks"></a>Comentários
 
-O objeto **CChkSGFiles** determina se todos os bancos de dados registrados com a função **ErrInit** realmente marcados. Este objeto usa a função **ErrCheckDbPages** para verificar se o mesmo número de páginas identificadas pela função **ErrCheckDbHeaders** realmente foram verificadas de banco de dados. Se o número correto das páginas em cada banco de dados não forem verificado com êxito, a função de **ErrTerm** retornará um erro. 
+O objeto **função cchksgfiles** determina se todos os bancos de dados registrados com a função **ErrInit** foram realmente verificados. Este objeto usa a função **ErrCheckDbPages** para verificar se o mesmo número de páginas de banco de dados identificadas pela função **ErrCheckDbHeaders** foram realmente verificados. Se o número correto de páginas em cada banco de dados não for verificado com êxito, a função **ErrTerm** retornará um erro. 
   
-Se o número de páginas de banco de dados verificado com **ErrCheckDbPages** for menor do que indicado pelo **ErrCheckDbHeaders**, essa função cria um erro no log de eventos do Windows e **ErrTerm** retornará um erro. 
+Se o número de páginas de banco de dados verificadas com **ErrCheckDbPages** for menor que o indicado por **ErrCheckDbHeaders**, essa função cria um erro no log de eventos do Windows e **ErrTerm** retorna um erro. 
   
-Se o número de páginas de banco de dados verificado com **ErrCheckDbPages** for maior do que o indicado pelo **ErrCheckDbHeaders**, essa função cria um aviso no log de eventos do Windows para indicar que o aplicativo pode ser desnecessariamente verificando alguns páginas de banco de dados mais de uma vez. Nesse caso, entretanto, a função **ErrTerm** for bem-sucedido. 
+Se o número de páginas de banco de dados verificadas com **ErrCheckDbPages** for maior que o indicado por **ErrCheckDbHeaders**, essa função cria um aviso no log de eventos do Windows para indicar que o aplicativo pode estar desnecessariamente verificando algumas páginas de banco de dados mais de uma vez. Nesse caso, no entanto, a função **ErrTerm** é bem-sucedida. 
   
-O objeto **CChkSGFiles** também determina se os arquivos de log registrados com **ErrInit** realmente marcados. Se não todos os logs foram verificadas com êxito, a função **ErrTerm** retornará um erro. 
+O objeto **função cchksgfiles** também determina se os arquivos de log registrados no **ErrInit** foram realmente verificados. Se nem todos os logs foram verificados com êxito, a função **ErrTerm** retornará um erro. 
   
-Quando **ErrTerm** retornará um erro, será o primeiro erro encontrar, mesmo que ele verifica o status de verificação para todos os bancos de dados registrados com **ErrInit**.
+Quando **ErrTerm** retornar um erro, ele será o primeiro erro encontrado, mesmo que verifique o status de verificação de todos os bancos de dados registrados no **ErrInit**.
   
-Se você estiver usando CHKSGFILES em um aplicativo multithreaded, você deve chamar a função **ErrTerm** na parte com um único segmento do aplicativo e você poderá chamá-lo sem com mais de uma vez para cada objeto **CCheckSGFiles** . 
+Se você estiver usando o CHKSGFILES em um aplicativo multi-threaded, deverá chamar a função **ErrTerm** na parte de thread único do aplicativo, e poderá chamá-la não mais do que uma vez para cada objeto **CCheckSGFiles** . 
   
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
-Exchange 2013 inclui apenas uma versão de 64 bits do CHKSGFILES.
+O Exchange 2013 inclui apenas uma versão de 64 bits do CHKSGFILES.
   
-A conta que o aplicativo está sendo executado em deve ter permissões de acesso de leitura para os arquivos de log e de banco de dados que devem ser verificado.
+A conta sob a qual o aplicativo está sendo executado deve ter permissões de acesso de leitura para o banco de dados e arquivos de log que devem ser verificados.
   
 

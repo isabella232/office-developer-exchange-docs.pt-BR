@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7fafd1c8-cd29-43a0-b383-f6595f934f48
-description: O elemento e especifica que todos os elementos filho devem corresponder para avaliar como true.
-ms.openlocfilehash: 9e0128ee3fa2b6ffdc5975946694475afec53c25
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento and especifica que todos os elementos filho devem corresponder para serem avaliados como true.
+ms.openlocfilehash: ba898ccd77518971afaf713d1c7c7955f46465d5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751089"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464732"
 ---
 # <a name="and-protectionruleandtype"></a>E (ProtectionRuleAndType)
 
-O elemento **e** Especifica que todos os elementos filho devem corresponder para avaliar como **true**.
+O elemento **and** especifica que todos os elementos filho devem corresponder para serem avaliados como **true**.
   
 ```xml
 <And>
@@ -34,32 +34,32 @@ O elemento **e** Especifica que todos os elementos filho devem corresponder para
 ```
 
  **ProtectionRuleAndType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AllInternal](allinternal.md) <br/> |Avaliado como **verdadeiro** se todos os destinatários de uma mensagem de email são internos para a organização do remetente.  <br/> |
-|**E** <br/> |Especifica que todos os elementos filho devem corresponder para avaliar como **true**.  <br/> |
-|[RecipientIs](recipientis.md) <br/> |Especifica que qualquer destinatário da mensagem de email corresponde a qualquer um dos destinatários especificados nos elementos filho [valor (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
-|[SenderDepartments](senderdepartments.md) <br/> |Especifica se o departamento do remetente corresponde a um dos departamentos especificados nos elementos filho [valor (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
-|[True](true.md) <br/> |Especifica uma condição que corresponda sempre.  <br/> |
+|[Interno](allinternal.md) <br/> |Avalia como **true** se todos os destinatários de uma mensagem de email são internos à organização do remetente.  <br/> |
+|**And** <br/> |Especifica que todos os elementos filho devem corresponder para serem avaliados como **true**.  <br/> |
+|[Destinatário](recipientis.md) <br/> |Especifica que qualquer destinatário da mensagem de email corresponde a qualquer um dos destinatários especificados nos elementos de [valor filho (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
+|[SenderDepartments](senderdepartments.md) <br/> |Especifica que o departamento do remetente corresponde a qualquer um dos departamentos especificados nos elementos de [valor filho (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
+|[Verdadeiro](true.md) <br/> |Especifica uma condição que sempre corresponde.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condição](condition.md) <br/> |Identifica a condição que deve ser atendida para a parte de ação da regra a ser executada.  <br/> |
-|**E** <br/> |Especifica que todos os elementos filho devem corresponder para avaliar como **true**.  <br/> |
+|[Condição](condition.md) <br/> |Identifica a condição que deve ser satisfeita para a parte de ação da regra a ser executada.  <br/> |
+|**And** <br/> |Especifica que todos os elementos filho devem corresponder para serem avaliados como **true**.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -67,16 +67,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

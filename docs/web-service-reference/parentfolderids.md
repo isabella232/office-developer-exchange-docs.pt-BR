@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e7998023-e5e0-465c-91fa-2aa6d1559f64
-description: O elemento ParentFolderIds identifica pastas para as operações FindItem e FindFolder pesquisar.
-ms.openlocfilehash: 7c4dcc98d1cabc8e97f2846880c73111dd307dfb
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: O elemento ParentFolderIds identifica pastas para as operações FindItem e FindFolder a serem pesquisadas.
+ms.openlocfilehash: 6bc4b9cfe96c6c83cbeb623ec176e33177356bbc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354166"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465426"
 ---
 # <a name="parentfolderids"></a>ParentFolderIds
 
-O elemento **ParentFolderIds** identifica pastas para as operações FindItem e FindFolder pesquisar. 
+O elemento **ParentFolderIds** identifica pastas para as operações FindItem e FindFolder a serem pesquisadas. 
   
 ```xml
 <ParentFolderIds>
@@ -37,20 +37,20 @@ O elemento **ParentFolderIds** identifica pastas para as operações FindItem e 
 
 **NonEmptyArrayOfBaseFolderIdsType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contém o identificador e alterar a chave de uma pasta. O elemento **ParentFolderIds** deve usar esse elemento ou o elemento [DistinguishedFolderId](distinguishedfolderid.md) .  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica as pastas do Microsoft Exchange Server 2007 que podem ser referidas por nome. O elemento **ParentFolderIds** deve usar esse elemento ou o elemento [FolderId](folderid.md) .  <br/> |
+|[FolderId](folderid.md) <br/> |Contém o identificador e a chave de alteração de uma pasta. O elemento **ParentFolderIds** deve usar esse elemento ou o elemento [DistinguishedFolderId](distinguishedfolderid.md) .  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica as pastas do Microsoft Exchange Server 2007 que podem ser referenciadas por nome. O elemento **ParentFolderIds** deve usar este elemento ou o elemento [FolderId](folderid.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -58,20 +58,20 @@ Nenhum.
 |:-----|:-----|
 |[FindFolder](findfolder.md) <br/> |Define uma solicitação para identificar pastas em uma caixa de correio.  <br/> |
 |[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.  <br/> |
-|[ResolveNames](resolvenames.md) <br/> |Define uma solicitação para resolver nomes de ambíguos.  <br/> |
+|[ResolveNames](resolvenames.md) <br/> |Define uma solicitação para resolver nomes ambíguos.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O elemento **ParentFolderIds** deve usar o [FolderId](folderid.md) ou o elemento [DistinguishedFolderId](distinguishedfolderid.md) . Um número ilimitado de pastas pode ser definido para a pesquisa. 
+O elemento **ParentFolderIds** deve usar o elemento [FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) . Um número ilimitado de pastas pode ser definido para a pesquisa. 
   
 ## <a name="example"></a>Exemplo
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindFolder Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindFolder Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderShape>
         <t:BaseShape>Default</t:BaseShape>
       </FolderShape>
@@ -83,16 +83,16 @@ O elemento **ParentFolderIds** deve usar o [FolderId](folderid.md) ou o elemento
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação FindFolder](findfolder-operation.md)  
 - [Operação FindItem](finditem-operation.md) 

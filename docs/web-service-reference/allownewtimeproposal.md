@@ -11,26 +11,26 @@ api_name:
 api_type:
 - schema
 ms.assetid: afdb4ec9-2daf-48a1-a0bb-a7f647f212f2
-description: O elemento AllowNewTimeProposal indica se um novo tempo de reunião pode ser proposto para uma reunião por um participante.
-ms.openlocfilehash: d5deed5044769c477ffe54cc533d5261ba2e1932
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento AllowNewTimeProposal indica se um novo horário de reunião pode ser proposto para uma reunião por um participante.
+ms.openlocfilehash: b3f2c569bced08c66144680a4fddd6e8bac0cecf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751079"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464802"
 ---
 # <a name="allownewtimeproposal"></a>AllowNewTimeProposal
 
-O elemento **AllowNewTimeProposal** indica se um novo tempo de reunião pode ser proposto para uma reunião por um participante. 
+O elemento **AllowNewTimeProposal** indica se um novo horário de reunião pode ser proposto para uma reunião por um participante. 
   
 ```xml
 <AllowNewTimeProposal/>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
@@ -44,32 +44,32 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no armazenamento do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto que representa um valor booleano. Um valor **true** indica que uma nova proposta para o tempo de reunião pode ser criada; um valor **false** indica que as novas propostas de horários não são permitidas. O organizador define esse valor na solicitação de reunião. 
+Um valor de texto que representa um valor booliano é necessário. Um valor **true** indica que uma nova proposta para o tempo de reunião pode ser criada; um valor **false** indica que novas propostas de horários não são permitidas. O organizador define esse valor na solicitação de reunião. 
   
 ## <a name="remarks"></a>Comentários
 
-A propriedade AllowNewTimeProposal é gravável de leitura para o item de calendário do organizador. Ele é somente leitura para solicitações de reunião e itens de calendário dos participantes.
+A propriedade AllowNewTimeProposal é leitura/gravação para o item de calendário do organizador. É somente leitura para solicitações de reunião e itens de calendário dos participantes.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
 > [!NOTE]
-> Serviços Web do Exchange não oferece suporte a novas mensagens de proposta de tempo. Para obter as propriedades que são relacionadas às novas mensagens de proposta de tempo, use as propriedades estendidas. 
+> Os serviços Web do Exchange não dão suporte a novas mensagens de proposta de tempo. Para obter propriedades relacionadas a novas mensagens de proposta de tempo, use propriedades estendidas. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

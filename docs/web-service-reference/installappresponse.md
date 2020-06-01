@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c5e0582d-c1e1-453b-93ed-c31165c82697
-description: O elemento InstallAppResponse Especifica a resposta a uma solicitação InstallApp.
-ms.openlocfilehash: 8e8da720b3a38e979b3d83810bb798350822146c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento InstallAppResponse especifica a resposta a uma solicitação InstallApp.
+ms.openlocfilehash: 0f7690e2df7e71c4e478dec191671af24f96294b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823942"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465664"
 ---
 # <a name="installappresponse"></a>InstallAppResponse
 
-O elemento **InstallAppResponse** Especifica a resposta a uma solicitação **InstallApp** . 
+O elemento **InstallAppResponse** especifica a resposta a uma solicitação **InstallApp** . 
   
 ```xml
 <InstallAppResponse ResponseClass="">
@@ -29,13 +29,13 @@ O elemento **InstallAppResponse** Especifica a resposta a uma solicitação **In
 ```
 
  **InstallAppResponseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
 |ResponseClass  <br/> |Indica a classe da resposta.  <br/> |
    
@@ -43,7 +43,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Êxito  <br/> |Indica o sucesso.  <br/> |
+|Êxito  <br/> |Indica êxito.  <br/> |
 |Aviso  <br/> |Indica um aviso.  <br/> |
 |Erro  <br/> |Indica um erro.  <br/> |
    
@@ -51,9 +51,9 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |No momento não utilizados e reservada para uso futuro.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Atualmente não usado e reservado para uso futuro.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fornece uma descrição de texto do status da resposta.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fornece informações de resposta de erro adicionais.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta de erro.  <br/> |
 |[ResponseCode](responsecode.md) <br/> |Fornece informações de status sobre a solicitação.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
@@ -62,24 +62,24 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O elemento **GetAppManifestsResponseMessage** é aplicável para clientes que visam o Exchange Online e versões do Microsoft Exchange Server, começando com o Exchange 2013. 
+O elemento **GetAppManifestsResponseMessage** é aplicável para clientes que direcionam o Exchange Online e versões do Microsoft Exchange Server a partir do Exchange 2013. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nome do esquema  <br/> |Esquema de mensagem  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nome do esquema  <br/> |Esquema de mensagens  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c228877b-5a0e-49b7-b82e-043bc786c80f
-description: O elemento AppMarketplaceUrl Especifica a URL para o marketplace de aplicativo.
-ms.openlocfilehash: f8e6c4bc3c4fc5713ccc2e0d16f13f039722c441
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento AppMarketplaceUrl especifica a URL para o Marketplace de aplicativos.
+ms.openlocfilehash: 7e924edcf49d1716f4d9dc251c1294f595d27525
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751183"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466035"
 ---
 # <a name="appmarketplaceurl"></a>AppMarketplaceUrl
 
-O elemento **AppMarketplaceUrl** Especifica a URL para o marketplace de aplicativo. 
+O elemento **AppMarketplaceUrl** especifica a URL para o Marketplace de aplicativos. 
   
 ```XML
 <AppMarketplaceUrl></AppMarketplaceUrl>
 ```
 
- **xs: String**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **xs:string**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetAppMarketplaceUrlResponse](getappmarketplaceurlresponse.md) <br/> |Especifica a mensagem de resposta para uma solicitação de **GetAppMarketplaceUrl** .  <br/> |
+|[GetAppMarketplaceUrlResponse](getappmarketplaceurlresponse.md) <br/> |Especifica a mensagem de resposta para uma solicitação **GetAppMarketplaceUrl** .  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **AppMarketplaceUrl** é a URL para o marketplace de aplicativo. 
+O valor de texto do elemento **AppMarketplaceUrl** é a URL para o Marketplace de aplicativos. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -52,16 +52,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nome do esquema  <br/> |Esquema de mensagem  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nome do esquema  <br/> |Esquema de mensagens  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

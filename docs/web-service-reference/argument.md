@@ -11,32 +11,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: 15b0bfb8-2448-4ceb-aeac-965115e0fb72
-description: O elemento de argumento especifica os argumentos para a ação.
-ms.openlocfilehash: ed4e46a8d9897516e9c96bf3930f7d488bc06714
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Argument especifica argumentos para a ação.
+ms.openlocfilehash: 41e3b1d891610669b0cc93f3daf6e8ee98c48396
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751206"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464753"
 ---
 # <a name="argument"></a>Argumento
 
-O elemento de **argumento** Especifica os argumentos para a ação. 
+O elemento **Argument** especifica argumentos para a ação. 
   
 ```xml
 <Argument Value=""/>
 ```
 
  **ProtectionRuleArgumentType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**Valor** <br/> |Um valor de cadeia de caracteres não-vazias que representa o valor de um argumento para a parte de ação de uma regra de proteção. Este atributo é necessário.  <br/> |
+|**Valor** <br/> |Um valor de cadeia de caracteres não vazio que representa o valor de um argumento para a parte de ação de uma regra de proteção. Esse atributo é necessário.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,9 +46,9 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Ação (ProtectionRuleActionType)](action-protectionruleactiontype.md) <br/> |Identifica a ação que deve ser executada se corresponder a parte de condição da regra.  <br/> |
+|[Ação (ProtectionRuleActionType)](action-protectionruleactiontype.md) <br/> |Identifica qual ação deve ser executada se a condição da condição da regra corresponder.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -56,16 +56,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

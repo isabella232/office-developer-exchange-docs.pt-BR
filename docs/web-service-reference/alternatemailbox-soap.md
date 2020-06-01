@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: d913a70d-5a85-4b6e-becc-2fb9334b6088
 description: O elemento AlternateMailbox representa uma caixa de correio alternativa.
-ms.openlocfilehash: 8eb53e4846ad55916e2c5876606c00c0f2e371ac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9019f85a373cc186cc9dadddceee3dc9d11b3854
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751135"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466154"
 ---
 # <a name="alternatemailbox-soap"></a>AlternateMailbox (SOAP)
 
@@ -31,44 +31,44 @@ O elemento **AlternateMailbox** representa uma caixa de correio alternativa.
 ```
 
  **AlternateMailbox**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Tipo (SOAP)](type-soap.md) <br/> |Representa o tipo de caixa de correio alternativo.  <br/> |
-|[DisplayName (SOAP)](displayname-soap.md) <br/> |Representa o nome de exibição da caixa de correio alternativo.  <br/> |
-|[LegacyDN (SOAP)](legacydn-soap.md) <br/> |Representa o nome distinto herdado de caixa de correio alternativo.  <br/> |
+|[Tipo (SOAP)](type-soap.md) <br/> |Representa o tipo de caixa de correio alternativa.  <br/> |
+|[DisplayName (SOAP)](displayname-soap.md) <br/> |Representa o nome de exibição alternativo da caixa de correio.  <br/> |
+|[LegacyDN (SOAP)](legacydn-soap.md) <br/> |Representa o nome diferenciado herdado da caixa de correio.  <br/> |
 |[Servidor (SOAP)](server-soap.md) <br/> |Representa o servidor de caixa de correio alternativo.  <br/> |
-|[SmtpAddress (SOAP)](smtpaddress-soap.md) <br/> |Representa a endereço SMTP da caixa de correio alternativa.  <br/> |
+|[SmtpAddress (SOAP)](smtpaddress-soap.md) <br/> |Representa o endereço SMTP alternativo da caixa de correio.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AlternateMailboxes (SOAP)](alternatemailboxes-soap.md) <br/> |Representa uma coleção de caixas de correio alternativas.  <br/> |
+|[AlternateMailboxes (SOAP)](alternatemailboxes-soap.md) <br/> |Representa uma coleção de caixas de correio alternadas.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 - [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
 

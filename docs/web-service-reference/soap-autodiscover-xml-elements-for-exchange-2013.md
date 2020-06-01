@@ -1,5 +1,5 @@
 ---
-title: Elementos de Autodiscover XML SOAP para o Exchange 2013
+title: Elementos XML de descoberta automática SOAP para o Exchange 2013
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,38 +8,38 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: ae18a5b3-ae44-4cff-8654-db8028565e01
-description: Encontre informações de referência de elemento XML para o serviço web de descoberta automática do SOAP no Exchange.
+description: Encontre informações de referência do elemento XML para o serviço Web de descoberta automática SOAP no Exchange.
 ms.openlocfilehash: 3b88429488dbecd4ed7c3adf56462f34fa0d4b17
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353389"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465181"
 ---
-# <a name="soap-autodiscover-xml-elements-for-exchange-2013"></a>Elementos de Autodiscover XML SOAP para o Exchange 2013
+# <a name="soap-autodiscover-xml-elements-for-exchange-2013"></a>Elementos XML de descoberta automática SOAP para o Exchange 2013
 
-Encontre informações de referência de elemento XML para o serviço web de descoberta automática do SOAP no Exchange.
+Encontre informações de referência do elemento XML para o serviço Web de descoberta automática SOAP no Exchange.
   
-A documentação desta seção se baseia nas instâncias de elemento XML de descoberta automática de SOAP que são enviadas entre o cliente e servidor. Esta documentação de instância XML baseia-se nos arquivos WSDL e do esquema que estão localizados no diretório virtual que hospeda o serviço de descoberta automática do SOAP. Usuários autenticados podem navegar para os arquivos de esquema e WSDL usando uma URL semelhante a um destes procedimentos:
+A documentação desta seção é baseada nas instâncias de elemento XML de descoberta automática do SOAP que são enviadas entre o cliente e o servidor. Esta documentação da instância XML baseia-se nos arquivos WSDL e de esquema localizados no diretório virtual que hospeda o serviço de descoberta automática do SOAP. Os usuários autenticados podem navegar para os arquivos WSDL e de esquema usando uma URL semelhante a uma das seguintes:
   
 - O local do arquivo WSDL: `http://<yourclientaccessserver>.com/autodiscover/services.wsdl` ou`http://autodiscover.<yourclientaccessserver>.com/autodiscover/services.wsdl`
     
 - O local do esquema de mensagens: `http://<yourclientaccessserver>.com/autodiscover/messages.xsd` ou`http://autodiscover.<yourclientaccessserver>.com/autodiscover/messages.xsd` 
     
-O local dos arquivos de esquema e SOAP WSDL de descoberta automática varia de acordo com a instalação do Exchange.
+O local dos arquivos WSDL e do esquema de descoberta automática SOAP varia com base na instalação do Exchange.
   
-O arquivo de esquema messages.xsd descreve os elementos XML que podem ser enviados em um cabeçalho SOAP de descoberta automática e o corpo SOAP. Este arquivo fornece um mapa geral dos quais a estrutura XML pode ser para uma interação de mensagem de solicitação-resposta determinado. A estrutura XML real que é enviada entre o cliente e o servidor se baseia nas opções e o contexto no qual ele é usado. Os arquivos de esquema definem o que é possível XML. O real intervalo de XML que será enviada pela conexão baseia-se na qual operação é chamado, as informações solicitadas e as configurações do servidor. 
+O arquivo de esquema messages. xsd descreve os elementos XML que podem ser enviados em um cabeçalho SOAP de descoberta automática e no corpo SOAP. Este arquivo fornece um roteiro geral sobre o que a estrutura XML pode ser para uma determinada interação de mensagem de resposta de solicitação. A estrutura XML real que é enviada entre o cliente e o servidor baseia-se nas opções e no contexto em que é usada. Os arquivos de esquema definem o que é possível para o XML. O intervalo real de XML enviado pela conexão baseia-se na operação que é chamada, nas informações solicitadas e nas configurações do servidor. 
   
-## <a name="related-sections"></a>Se��es relacionadas
+## <a name="related-sections"></a>Seções relacionadas
 
-- [SOAP referência de serviço web de descoberta automática do Exchange](soap-autodiscover-web-service-reference-for-exchange.md)    
+- [Referência de serviço Web de descoberta automática do SOAP para Exchange](soap-autodiscover-web-service-reference-for-exchange.md)    
 - [Referência do EWS para Exchange](ews-reference-for-exchange.md)    
-- [Referência de serviço de web mensagens unificada para Exchange](unified-messaging-web-service-reference-for-exchange.md)
+- [Referência do serviço Web de Unificação de mensagens do Exchange](unified-messaging-web-service-reference-for-exchange.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Referência de web service de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
+- [Referência do serviço Web de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
 - [Descoberta Automática do Exchange](../exchange-web-services/autodiscover-for-exchange.md)
-- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Introdução ao uso dos serviços Web no Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

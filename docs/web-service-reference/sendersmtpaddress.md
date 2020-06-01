@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e39c7df7-4bfa-455f-b4bb-1f1d05398eec
 description: O elemento SenderSmtpAddress representa o endereço de email SMTP correspondente à caixa de correio que contém a pasta que será compartilhada.
-ms.openlocfilehash: 70905dd1ae2c3df18224aceeea246b542d1338e3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 73047dcecfbccb55d74e373891c3154bc7baeeba
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825334"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464893"
 ---
 # <a name="sendersmtpaddress"></a>SenderSmtpAddress
 
@@ -28,13 +28,13 @@ O elemento **SenderSmtpAddress** representa o endereço de email SMTP correspond
 ```
 
  **NonEmptyStringType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,24 +46,24 @@ Nenhum.
 |:-----|:-----|
 |[GetSharingMetadata](getsharingmetadata.md) <br/> |Define uma solicitação para obter um token de autenticação opaco que identifica o convite de compartilhamento.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto que representa um endereço SMTP.
+Um valor de texto que representa um endereço SMTP é necessário.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório Virtual do IIS que hospeda o Exchange Web Services do computador que está executando o Microsoft Exchange Server que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

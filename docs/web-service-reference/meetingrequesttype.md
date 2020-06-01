@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: bcd5c97c-19aa-4b1d-a8e8-e8c4bd473dd9
-description: O elemento MeetingRequestType descreve o tipo de solicitação de reunião.
-ms.openlocfilehash: 7269587e2fa72aeb9070a7b53ee9215829729329
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MeetingRequestType descreve o tipo da solicitação de reunião.
+ms.openlocfilehash: e90c44dd4124d698ca5ef7655f6429a7167673e6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824432"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44465783"
 ---
 # <a name="meetingrequesttype"></a>MeetingRequestType
 
-O elemento **MeetingRequestType** descreve o tipo de solicitação de reunião. 
+O elemento **MeetingRequestType** descreve o tipo da solicitação de reunião. 
   
 ```xml
 <MeetingRequestType/>
 ```
 
  **MeetingRequestTypeType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,36 +44,36 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no armazenamento do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. A tabela a seguir lista os valores de texto possíveis para esse elemento.
+Um valor de texto é obrigatório. A tabela a seguir lista os valores de texto possíveis para este elemento.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
 |FullUpdate  <br/> |Identifica a solicitação de reunião como uma atualização completa para uma solicitação existente. Uma atualização completa atualizou o tempo e o conteúdo informativo.  <br/> |
-|InformationalUpdate  <br/> |Identifica a solicitação de reunião como contendo apenas atualizados conteúdo informativo.  <br/> |
+|InformationalUpdate  <br/> |Identifica a solicitação de reunião como somente com conteúdo atualizado de informações.  <br/> |
 |NewMeetingRequest  <br/> |Identifica a solicitação de reunião como uma nova solicitação de reunião.  <br/> |
-|None  <br/> |Indica o tipo de solicitação de reunião não está definido.  <br/> |
-|Desatualizadas  <br/> |Identifica a solicitação de reunião como desatualizados.  <br/> |
-|PrincipalWantsCopy  <br/> |Indica que a solicitação de reunião pertence a uma entidade de segurança que tem encaminhadas mensagens de reunião para um representante e tem suas cópias marcadas como informativas.  <br/> |
-|SilentUpdate  <br/> |Identifica a solicitação de reunião como uma atualização silenciosa a uma reunião existente.  <br/> |
+|Nenhum  <br/> |Indica que o tipo de solicitação de reunião não está definido.  <br/> |
+|Atualizados  <br/> |Identifica a solicitação de reunião como desatualizada.  <br/> |
+|PrincipalWantsCopy  <br/> |Indica que a solicitação de reunião pertence a uma entidade de segurança que encaminhou mensagens de reunião para um representante e tem suas cópias marcadas como informativas.  <br/> |
+|SilentUpdate  <br/> |Identifica a solicitação de reunião como uma atualização silenciosa para uma reunião existente.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

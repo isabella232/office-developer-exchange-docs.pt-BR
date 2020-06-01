@@ -1,5 +1,5 @@
 ---
-title: Timezonedefinition pela última vez
+title: TimeZoneDefinition
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: b005a80c-addb-4409-beff-e5162076752c
-description: O elemento timezonedefinition pela última vez Especifica os períodos e transições que definem um fuso horário.
-ms.openlocfilehash: ffd5ed0c862af794e4aff2387f508849b1d5fd5d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento TimeZoneDefinition especifica os períodos e as transições que definem um fuso horário.
+ms.openlocfilehash: 58d34556686bfc77244b5829798eada51a1df843
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837760"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466063"
 ---
-# <a name="timezonedefinition"></a>Timezonedefinition pela última vez
+# <a name="timezonedefinition"></a>TimeZoneDefinition
 
-O elemento **timezonedefinition pela última vez** Especifica os períodos e transições que definem um fuso horário. 
+O elemento **TimeZoneDefinition** especifica os períodos e as transições que definem um fuso horário. 
   
 ```XML
 <TimeZoneDefinition Id="" Name="">
@@ -33,13 +33,13 @@ O elemento **timezonedefinition pela última vez** Especifica os períodos e tra
 ```
 
  **TimeZoneDefinitionType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
 |Id  <br/> |Representa o identificador exclusivo do fuso horário.  <br/> |
 |Nome  <br/> |Representa o nome descritivo do fuso horário.  <br/> |
@@ -48,8 +48,8 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Períodos](periods.md) <br/> |Representa uma matriz de elementos do [período](period.md) que definem o deslocamento de tempo em fases diferentes do fuso horário.  <br/> |
-|[TransitionsGroups](transitionsgroups.md) <br/> |Representa uma matriz de elementos de [TransitionsGroup](transitionsgroup.md) que especificam as transições do fuso horário.  <br/> |
+|[Períodos](periods.md) <br/> |Representa uma matriz de elementos [period](period.md) que definem a diferença de tempo em diferentes estágios do fuso horário.  <br/> |
+|[TransitionsGroups](transitionsgroups.md) <br/> |Representa uma matriz de elementos [TransitionsGroup](transitionsgroup.md) que especificam transições de fuso horário.  <br/> |
 |[Transições](transitions.md) <br/> |Representa uma matriz de transições de fuso horário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
@@ -57,22 +57,22 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[TimeZoneDefinitions](timezonedefinitions.md) <br/> |Representa uma matriz de definições de fuso horário.  <br/> |
-|[TimeZoneContext](timezonecontext.md) <br/> |Representa a definição de fuso horário padrão que será usado para as propriedades de data/hora dos objetos que são criados, atualizados e recuperadas usando serviços Web do Exchange (EWS) de escopo.  <br/> |
+|[TimeZoneContext](timezonecontext.md) <br/> |Representa a definição de fuso horário padrão que deve ser usada para definir o escopo das propriedades DateTime de objetos que são criados, atualizados e recuperados usando o EWS (serviços Web do Exchange).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

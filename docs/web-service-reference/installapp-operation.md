@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 596eae95-3e78-489a-8bb2-d2dd4a026405
-description: Encontre informações sobre o EWS InstallApp operação.
-ms.openlocfilehash: ccc5d2dde949070bae905ff1ebb182c892f07fcb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações sobre a operação do EWS do InstallApp.
+ms.openlocfilehash: ae6aab7f7176aa827bafa9abf1aa67d458d309d2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823951"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465685"
 ---
 # <a name="installapp-operation"></a>Operação InstallApp
 
-Encontre informações sobre a operação de EWS **InstallApp** . 
+Encontre informações sobre a operação do EWS do **InstallApp** . 
   
 A operação **InstallApp** instala um aplicativo de email para o Outlook em uma caixa de correio. 
   
@@ -25,11 +25,11 @@ This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-installapp-operation"></a>Usando a operação InstallApp
 
-A operação **InstallApp** aceita um argumento único que identifica um aplicativo de email para instalar. O argumento contém o manifesto codificado na base64 para um aplicativo de email. 
+A operação **InstallApp** aceita um único argumento que identifica um aplicativo de email para instalar. O argumento contém o manifesto codificado em base64 para um aplicativo de email. 
   
-### <a name="installapp-operation-soap-headers"></a>Cabeçalhos SOAP InstallApp operação
+### <a name="installapp-operation-soap-headers"></a>Cabeçalhos SOAP de operação InstallApp
 
-A operação **InstallApp** pode usar os cabeçalhos SOAP que estão listados na tabela a seguir. 
+A operação **InstallApp** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
@@ -38,16 +38,16 @@ A operação **InstallApp** pode usar os cabeçalhos SOAP que estão listados na
    
 ## <a name="installapp-operation-request-example-install-a-mail-app-in-a-mailbox"></a>Exemplo de solicitação de operação InstallApp: instalar um aplicativo de email em uma caixa de correio
 
-O exemplo a seguir de uma solicitação de operação **InstallApp** mostra como instalar um aplicativo de email para Outlook. O manifesto do aplicativo pode ser encontrado usando a [operação GetAppManifests](getappmanifests-operation.md).
+O exemplo a seguir de uma solicitação de operação do **InstallApp** mostra como instalar um aplicativo de email para o Outlook. O manifesto do aplicativo pode ser encontrado usando a [operação GetAppManifests](getappmanifests-operation.md).
   
 > [!NOTE]
-> O manifesto do aplicativo codificado na base64 foi truncado arbitrariamente para preservar a legibilidade e não representam um manifesto válido. 
+> O manifesto do aplicativo codificado em Base64 foi truncado arbitrariamente para preservar a legibilidade e não representa um manifesto válido. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -60,7 +60,7 @@ O exemplo a seguir de uma solicitação de operação **InstallApp** mostra como
 
 ```
 
-A solicitação de corpo SOAP contém os seguintes elementos:
+O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [InstallApp](installapp.md)
     
@@ -79,22 +79,22 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
                            MajorBuildNumber="556" 
                            MinorBuildNumber="14" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <InstallAppResponse ResponseClass="Success" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
       </InstallAppResponse>
    </s:Body>
 </s:Envelope>
 ```
 
-A resposta SOAP body contém os seguintes elementos:
+O corpo SOAP de resposta contém os seguintes elementos:
   
 - [InstallAppResponse](installappresponse.md)
     
@@ -113,15 +113,15 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
                            MajorBuildNumber="556" 
                            MinorBuildNumber="14" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <InstallAppResponse ResponseClass="Error" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>This app can't be installed. Missing OfficeApp element.</MessageText>
          <ResponseCode>ErrorInternalServerError</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -131,7 +131,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 
 ```
 
-A resposta de erro corpo SOAP contém os seguintes elementos:
+O corpo SOAP de resposta de erro contém os seguintes elementos:
   
 - [InstallAppResponse](installappresponse.md)
     
@@ -141,7 +141,7 @@ A resposta de erro corpo SOAP contém os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
     

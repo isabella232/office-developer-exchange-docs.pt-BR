@@ -1,5 +1,5 @@
 ---
-title: Valores
+title: Values
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4b14c714-51fa-4225-82ad-83ba9f611824
-description: O elemento de valores contém uma coleção de valores para uma propriedade estendida.
-ms.openlocfilehash: 9c1c07262fa0085487b9a7081c8f72ee55e5ca99
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Values contém uma coleção de valores para uma propriedade estendida.
+ms.openlocfilehash: 2018f7a734725abe8d8e456492862d1142fda205
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838036"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465202"
 ---
-# <a name="values"></a>Valores
+# <a name="values"></a>Values
 
-O elemento de **valores** contém uma coleção de valores para uma propriedade estendida. 
+O elemento **Values** contém uma coleção de valores para uma propriedade estendida. 
   
 ```xml
 <Values>
@@ -31,13 +31,13 @@ O elemento de **valores** contém uma coleção de valores para uma propriedade 
 
 **NonEmptyArrayOfPropertyValuesType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -55,16 +55,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

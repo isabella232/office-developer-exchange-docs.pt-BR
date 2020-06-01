@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 456e3c34-e536-456a-ac40-7fd4f94c0bad
-description: O elemento RuleId Especifica um identificador de regra.
-ms.openlocfilehash: 4dfa71c9fb6ee362d776487952199f2430e5e4a9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RuleId especifica um identificador de regra.
+ms.openlocfilehash: 28fda7abbbbfd43be38d1ac4e5c37d37037993bc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825260"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44464991"
 ---
 # <a name="ruleid"></a>RuleId
 
-O elemento **RuleId** Especifica um identificador de regra. 
+O elemento **RuleId** especifica um identificador de regra. 
   
 ```XML
 <RuleId/>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,27 +44,27 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Regra (RuleType)](rule-ruletype.md) <br/> |Representa uma regra de caixa de correio do usuário.  <br/> |
+|[Regra (RuleType)](rule-ruletype.md) <br/> |Representa uma regra na caixa de correio do usuário.  <br/> |
 |[DeleteRuleOperation](deleteruleoperation.md) <br/> |Representa a operação para excluir uma regra de caixa de entrada existente.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto é um valor string que representa a regra.
+O valor de texto é um valor String que representa a regra.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

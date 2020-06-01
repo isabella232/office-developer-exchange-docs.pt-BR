@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3a3f6393-eacc-4734-b6c9-b67023fe2830
-description: O elemento WorkingPeriodArray contém trabalhando informações do período para o usuário de caixa de correio.
-ms.openlocfilehash: 02712f05dc3373a532d769f476341b78ad25a79c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento WorkingPeriodArray contém informações de período de trabalho para o usuário da caixa de correio.
+ms.openlocfilehash: a9ca55866a574c5208d8561fca6daf417867fef6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838091"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465195"
 ---
 # <a name="workingperiodarray"></a>WorkingPeriodArray
 
-O elemento **WorkingPeriodArray** contém trabalhando informações do período para o usuário de caixa de correio. 
+O elemento **WorkingPeriodArray** contém informações de período de trabalho para o usuário da caixa de correio. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -42,42 +42,42 @@ O elemento **WorkingPeriodArray** contém trabalhando informações do período 
 ```
 
  **ArrayOfWorkingPeriod**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[WorkingPeriod](workingperiod.md) <br/> |Contém a semana de trabalho dias e horas do usuário da caixa de correio.  <br/> |
+|[WorkingPeriod](workingperiod.md) <br/> |Contém os dias e as horas da semana de trabalho do usuário da caixa de correio.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |Representa as configurações de fuso horário e o horário de trabalho para o usuário de caixa de correio solicitada.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours` <br/> |
+|[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |Representa as configurações de fuso horário e as horas de trabalho do usuário de caixa de correio solicitado.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é necessário se o elemento [WorkingHours](workinghours-ex15websvcsotherref.md) é usado. Todos os elementos filhos são listados na sequência em que ocorrem. 
+Esse elemento é necessário se o elemento [WorkingHours](workinghours-ex15websvcsotherref.md) for usado. Todos os elementos filho são listados na sequência em que ocorrem. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -86,5 +86,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

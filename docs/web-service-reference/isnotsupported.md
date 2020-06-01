@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4db469ae-1515-47ea-9905-6aabf199febd
-description: O elemento IsNotSupported indica se a regra não pode ser modificada usando-se as APIs de código gerenciado.
-ms.openlocfilehash: 2468d47dbfdcaf1a28ed1a4afb1e7ea60147d1dc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IsNotSupported indica se a regra não pode ser modificada usando as APIs de código gerenciado.
+ms.openlocfilehash: e2d0c506209978fd5e8702e0de6cddf2e9c4b7fa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824057"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465832"
 ---
 # <a name="isnotsupported"></a>IsNotSupported
 
-O elemento **IsNotSupported** indica se a regra não pode ser modificada usando-se as APIs de código gerenciado. 
+O elemento **IsNotSupported** indica se a regra não pode ser modificada usando as APIs de código gerenciado. 
   
 ```XML
 <IsNotSupported/>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,26 +44,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Regra (RuleType)](rule-ruletype.md) <br/> |Representa uma regra de caixa de correio do usuário.  <br/> |
+|[Regra (RuleType)](rule-ruletype.md) <br/> |Representa uma regra na caixa de correio do usuário.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** indica que a regra não pode ser modificada usando-se as APIs de código gerenciado. Um valor **false** indica que a regra pode ser modificada usando o APIs de código gerenciado. 
+Um valor **true** indica que a regra não pode ser modificada usando as APIs de código gerenciado. Um valor **false** indica que a regra pode ser modificada usando as APIs de código gerenciado. 
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

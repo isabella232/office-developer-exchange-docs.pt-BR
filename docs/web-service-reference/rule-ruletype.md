@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 259a1f62-b235-4964-88bf-2d1f1c05a563
-description: O elemento de regra contém uma única regra e representa uma regra de caixa de correio do usuário.
-ms.openlocfilehash: b1f9f058213543633335db11f03729964baf98ad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Rule contém uma única regra e representa uma regra na caixa de correio de um usuário.
+ms.openlocfilehash: cdbd21df235a62a9e201e1eaae1d82a8ac10cdd2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825259"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44465076"
 ---
 # <a name="rule-ruletype"></a>Regra (RuleType)
 
-O elemento de **regra** contém uma única regra e representa uma regra de caixa de correio do usuário. 
+O elemento **Rule** contém uma única regra e representa uma regra na caixa de correio de um usuário. 
   
 ```XML
 <Rule>
@@ -38,37 +38,37 @@ O elemento de **regra** contém uma única regra e representa uma regra de caixa
 ```
 
  **RuleType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[RuleId](ruleid.md) <br/> |Especifica o identificador da regra.  <br/> |
-|[DisplayName (string)](displayname-string.md) <br/> |Contém o nome de exibição de uma regra.  <br/> |
-|[Priority](priority.md) <br/> |Indica a ordem na qual uma regra será executada.  <br/> |
+|[RuleId](ruleid.md) <br/> |Especifica o identificador de regra.  <br/> |
+|[DisplayName (cadeia de caracteres)](displayname-string.md) <br/> |Contém o nome de exibição de uma regra.  <br/> |
+|[Prioridade](priority.md) <br/> |Indica a ordem na qual uma regra deve ser executada.  <br/> |
 |[IsEnabled](isenabled.md) <br/> |Indica se a regra está habilitada.  <br/> |
-|[IsNotSupported](isnotsupported.md) <br/> |Indica se a regra não pode ser modificada com os APIs de código gerenciado.  <br/> |
+|[IsNotSupported](isnotsupported.md) <br/> |Indica se a regra não pode ser modificada com as APIs de código gerenciado.  <br/> |
 |[IsInError](isinerror.md) <br/> |Indica se a regra está em uma condição de erro.  <br/> |
-|[Condições](conditions.md) <br/> |Identifica as condições que, quando atendida, irá disparar as ações de regra para uma regra.  <br/> |
+|[Condições](conditions.md) <br/> |Identifica as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
 |[Exceções](exceptions.md) <br/> |Identifica as exceções que representam todas as condições de exceção de regra disponíveis para a regra de caixa de entrada.  <br/> |
-|[Ações](actions.md) <br/> |Representa as ações a serem tomadas em uma mensagem quando as condições são atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa as ações a serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[CreateRuleOperation](createruleoperation.md) <br/> |Representa uma operação para criar uma nova regra.  <br/> |
-|[InboxRules](inboxrules.md) <br/> |Representa uma matriz de regras da caixa de correio do usuário.  <br/> |
-|[SetRuleOperation](setruleoperation.md) <br/> |Representa uma operação de atualização de uma regra existente.  <br/> |
+|[InboxRules](inboxrules.md) <br/> |Representa uma matriz de regras na caixa de correio do usuário.  <br/> |
+|[SetRuleOperation](setruleoperation.md) <br/> |Representa uma operação para atualizar uma regra existente.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -76,16 +76,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

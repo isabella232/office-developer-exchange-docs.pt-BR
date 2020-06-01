@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 75f988f3-0b04-470c-8943-fb1f4fef9a87
-description: O elemento FirstLoadedRowIndex destina-se somente para uso interno.
-ms.openlocfilehash: 351026ccb8f886d082b3ec3b662cd26b9d7a9555
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento FirstLoadedRowIndex é destinado apenas para uso interno.
+ms.openlocfilehash: 0dbb5c08e03e5283e34cf38db0b9e371c5f92393
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752303"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466357"
 ---
 # <a name="firstloadedrowindex"></a>FirstLoadedRowIndex
 
-O elemento **FirstLoadedRowIndex** destina-se somente para uso interno. 
+O elemento **FirstLoadedRowIndex** é destinado apenas para uso interno. 
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 

@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 49db6a4f-4a20-4495-8f76-d756cc895b66
-description: O elemento RetentionPeriod Especifica o número de dias durante os quais a política de retenção está em vigor.
-ms.openlocfilehash: cd1c667d21c4dd47ed282076ce7843150389c46e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RetentionPeriod especifica o número de dias que a política de retenção está em vigor.
+ms.openlocfilehash: c9d049e2c1ed4e8abdec9faa7b8e365468d3d2ac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825220"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465188"
 ---
 # <a name="retentionperiod"></a>RetentionPeriod
 
-O elemento **RetentionPeriod** Especifica o número de dias durante os quais a política de retenção está em vigor. 
+O elemento **RetentionPeriod** especifica o número de dias que a política de retenção está em vigor. 
   
 ```XML
 <RetentionPeriod></RetentionPeriod>
 ```
 
- **inteiro**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Semantic**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [RetentionPolicyTag](retentionpolicytag.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **RetentionPeriod** é o número de dias em que a política de retenção está em vigor para um item. 
+O valor de texto do elemento **RetentionPeriod** é o número de dias que a política de retenção está em vigor para um item. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 
