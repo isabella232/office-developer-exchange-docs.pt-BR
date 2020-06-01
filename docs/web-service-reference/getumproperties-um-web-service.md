@@ -1,5 +1,5 @@
 ---
-title: GetUMProperties (serviço web de Unificação de mensagens)
+title: GetUMProperties (serviço Web da UM)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,32 +10,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: 19873b72-ec12-4811-ae5f-6b61f2dbf0cc
-description: O elemento de GetUMProperties define uma solicitação do GetUMProperties operação (serviço web de Unificação de mensagens).
-ms.openlocfilehash: bfae288c341bc5d3605282cf78393ef7dceed494
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetUMProperties define uma solicitação de operação do GetUMProperties (serviço Web da UM).
+ms.openlocfilehash: 2cab45ec6b1058f459b65992cf7345f1be171ce7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823680"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459129"
 ---
-# <a name="getumproperties-um-web-service"></a>GetUMProperties (serviço web de Unificação de mensagens)
+# <a name="getumproperties-um-web-service"></a>GetUMProperties (serviço Web da UM)
 
-O elemento de **GetUMProperties** define uma solicitação de [operação GetUMProperties (serviço web de Unificação de mensagens)](getumproperties-operation-um-web-service.md) . 
+O elemento **GetUMProperties** define uma solicitação de [operação do GetUMProperties (serviço Web da um)](getumproperties-operation-um-web-service.md) . 
   
-[GetUMProperties (serviço web de Unificação de mensagens)](getumproperties-um-web-service.md)
+[GetUMProperties (serviço Web da UM)](getumproperties-um-web-service.md)
   
 ```xml
 <GetUMProperties />
 ```
 
  **complexType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -43,24 +43,24 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Operação de GetUMProperties (serviço web de Unificação de mensagens)](getumproperties-operation-um-web-service.md)
+[Operação GetUMProperties (serviço Web da UM)](getumproperties-operation-um-web-service.md)
 

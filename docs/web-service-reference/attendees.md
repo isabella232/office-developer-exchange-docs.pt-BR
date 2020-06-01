@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 837bb372-39eb-48ae-9c09-0d2552511f93
-description: O elemento de participantes Especifica os destinatários de um convite para uma reunião.
-ms.openlocfilehash: 22d88bb092b416c553144496e133680b53f5d30e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento participantes especifica os destinatários de um convite para uma reunião.
+ms.openlocfilehash: 3a63bdf7e49309697ac503be5f4c95eb805b9635
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751229"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460327"
 ---
 # <a name="attendees"></a>Participantes
 
-O elemento de **participantes** Especifica os destinatários de um convite para uma reunião. 
+O elemento **participantes** especifica os destinatários de um convite para uma reunião. 
   
 ```XML
 <Attendees>
@@ -26,19 +26,19 @@ O elemento de **participantes** Especifica os destinatários de um convite para 
 ```
 
  **ArrayOfEmailUsersType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[EmailUser](emailuser.md) <br/> |Especifica um destinatário de email ou o contato do Active Directory.  <br/> |
+|[EmailUser](emailuser.md) <br/> |Especifica um destinatário de email ou contato do Active Directory.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -52,16 +52,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

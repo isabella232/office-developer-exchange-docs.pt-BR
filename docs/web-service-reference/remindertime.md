@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6081777a-ae91-43d2-bf83-f3742030aa70
-description: O elemento ReminderTime Especifica o tempo para o lembrete ocorra.
-ms.openlocfilehash: b72dd8d6252f41268263579d867a03e460c4ed6a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ReminderTime especifica a hora em que o lembrete deve ocorrer.
+ms.openlocfilehash: e5a1194af43e038a608bf928313909519e7d44e7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825075"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460026"
 ---
 # <a name="remindertime"></a>ReminderTime
 
-O elemento **ReminderTime** Especifica o tempo para o lembrete ocorra. 
+O elemento **ReminderTime** especifica a hora em que o lembrete deve ocorrer. 
   
 ```XML
 <ReminderTime/>
 ```
 
  **dateTime**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [Lembrete](reminder.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ReminderTime** é o horário do lembrete ocorra. 
+O valor de texto do elemento **ReminderTime** é a hora em que o lembrete ocorre. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,16 +50,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

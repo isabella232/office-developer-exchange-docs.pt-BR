@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 34e4c9ea-adcd-46bd-ae8f-7abb256c585a
-description: O elemento de GetFolder define uma solicitação para fazer uma pasta a partir de uma caixa de correio no armazenamento do Exchange.
-ms.openlocfilehash: 233da6ce57683350d4a13f6585593ac09438f0e6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetFolder define uma solicitação para obter uma pasta de uma caixa de correio no repositório do Exchange.
+ms.openlocfilehash: 41d2b1ab5fcd5d2d60c399e8070ca957ee4b66e7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752507"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458702"
 ---
 # <a name="getfolder"></a>GetFolder
 
-O elemento de **GetFolder** define uma solicitação para fazer uma pasta a partir de uma caixa de correio no armazenamento do Exchange. 
+O elemento **GetFolder** define uma solicitação para obter uma pasta de uma caixa de correio no repositório do Exchange. 
   
 ```xml
 <GetFolder>
@@ -31,39 +31,39 @@ O elemento de **GetFolder** define uma solicitação para fazer uma pasta a part
 ```
 
  **GetFolderType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> |Identifica as propriedades para obter para cada pasta identificada no elemento [FolderIds](folderids.md) .  <br/> |
-|[FolderIds](folderids.md) <br/> |Contém uma matriz de identificadores de pasta que são usados para identificar pastas para fazer a partir de uma caixa de correio no armazenamento do Exchange.  <br/> |
+|[FolderShape](foldershape.md) <br/> |Identifica as propriedades a serem obtidas para cada pasta identificada no elemento [FolderIds](folderids.md) .  <br/> |
+|[FolderIds](folderids.md) <br/> |Contém uma matriz de identificadores de pasta que são usados para identificar pastas a serem obtidas de uma caixa de correio no repositório do Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nome do esquema  <br/> |Esquema de mensagem  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

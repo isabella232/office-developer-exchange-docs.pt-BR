@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3c486a38-06da-4382-ad20-664d067d76ac
-description: O elemento OofState é usado para obter ou definir o estado de fora do escritório (OOF) do usuário.
-ms.openlocfilehash: f97c050aec102b384fa4d98e6dee43befd4dc9ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento OofState é usado para obter ou definir o estado de ausência temporária (OOF) do usuário.
+ms.openlocfilehash: 6aef7d989ee6978019a483f2673895e68a88a7c5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824651"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459732"
 ---
 # <a name="oofstate"></a>OofState
 
-O elemento **OofState** é usado para obter ou definir o estado de fora do escritório (OOF) do usuário. 
+O elemento **OofState** é usado para obter ou definir o estado de ausência temporária (OOF) do usuário. 
   
 ```xml
 <OofState>Disabled or Enabled or Scheduled</OofState>
 ```
 
  **OofState**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,42 +44,42 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é necessário para o elemento **OofState** . A lista a seguir contém os valores possíveis para esse elemento: 
+Um valor de texto é necessário para o elemento **OofState** . A lista a seguir contém os valores possíveis para este elemento: 
   
-- **Desabilitado**
+- **Disabled**
     
 - **Enabled**
     
-- **Agendado**
+- **Agendada**
     
-Um valor **agendado** indica que o status de ausência temporária está definido como **habilitada** durante um período de tempo identificado pelo elemento [duração (UserOofSettings)](duration-useroofsettings.md) . 
+Um valor **agendado** indica que o status de ausência temporária é definido como **habilitado** durante um período de tempo identificado pelo elemento [Duration (UserOofSettings)](duration-useroofsettings.md) . 
   
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é necessário em ambos a SetUsersOofSettingRequest e a mensagem GetUserOofSettingResponse.
+Esse elemento é necessário na mensagem SetUsersOofSettingRequest e na mensagem GetUserOofSettingResponse.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação de SetUserOofSettings permite que o **OofState**.
+O exemplo a seguir de uma solicitação SetUserOofSettings habilita o **OofState**.
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -98,16 +98,16 @@ O exemplo a seguir de uma solicitação de SetUserOofSettings permite que o **Oo
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

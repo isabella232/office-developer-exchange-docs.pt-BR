@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 78a09c3a-1646-4c55-95a2-1109fb11e1c6
-description: Os UserIds elemento contém uma matriz de delegar usuários para obter ou remova a caixa de correio da entidade de segurança. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 277ae96fdbc30f1b39ef20553e10ff1de3ff7a8b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UserIds contém uma matriz de usuários delegados a serem obtidos ou removidos da caixa de correio de uma entidade de segurança. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: de4661226c154ef0d2d5ac55c57405e20c4d2aee
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837984"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459774"
 ---
 # <a name="userids"></a>UserIds
 
-O elemento **UserIds** contém uma matriz de usuários do representante para obter ou remova a caixa de correio da entidade de segurança. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+O elemento **userids** contém uma matriz de usuários delegados a serem obtidos ou removidos da caixa de correio de uma entidade de segurança. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <UserIds>
@@ -30,45 +30,45 @@ O elemento **UserIds** contém uma matriz de usuários do representante para obt
 ```
 
  **ArrayOfUserIdType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserId](userid.md) <br/> |Identifica um representante para obter ou remova a caixa de correio da entidade de segurança. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[UserId](userid.md) <br/> |Identifica um representante para obter ou remover da caixa de correio de uma entidade de segurança. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetDelegate](getdelegate.md) <br/> |Define uma solicitação para obter mais informações sobre os representantes para uma caixa de correio. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[Getdelegate](getdelegate.md) <br/> |Define uma solicitação para obter informações sobre representantes para uma caixa de correio. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
 |[RemoveDelegate](removedelegate.md) <br/> |Define uma solicitação para remover representantes de uma caixa de correio. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação GetDelegate](getdelegate-operation.md)
+[Operação getdelegate](getdelegate-operation.md)
   
 [Operação RemoveDelegate](removedelegate-operation.md)
 

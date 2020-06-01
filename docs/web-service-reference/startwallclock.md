@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ae2292f-fc5f-49fa-88a7-34ba86ff21f9
-description: O elemento StartWallClock Especifica a hora de início de uma reunião no fuso horário do local em que a reunião ocorre.
-ms.openlocfilehash: 24fcc314daf1732b5167e1fa865e6f544ca34db6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento StartWallClock especifica a hora de início de uma reunião no fuso horário do local em que a reunião ocorre.
+ms.openlocfilehash: 6022de4659dd12579b0545b5d3ffd2ea9b8a103d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825569"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460005"
 ---
 # <a name="startwallclock"></a>StartWallClock
 
-O elemento **StartWallClock** Especifica a hora de início de uma reunião no fuso horário do local em que a reunião ocorre. 
+O elemento **StartWallClock** especifica a hora de início de uma reunião no fuso horário do local em que a reunião ocorre. 
   
 ```XML
 <StartWallClock></StartWallClock>
@@ -25,13 +25,13 @@ O elemento **StartWallClock** Especifica a hora de início de uma reunião no fu
 
 **dateTime**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -39,9 +39,9 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[CalendarItem](calendaritem.md) | [MeetingRequest](meetingrequest.md)
+[CalendarItem](calendaritem.md)  |  [MeetingRequest](meetingrequest.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto do elemento **StartWallClock** é a hora de início de uma reunião no fuso horário do local em que a reunião ocorre. 
   
@@ -51,13 +51,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

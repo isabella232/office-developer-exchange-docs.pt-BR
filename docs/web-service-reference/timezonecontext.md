@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 573c462b-aa1d-4ba0-8852-e3f48b26873b
-description: O elemento TimeZoneContext é usado no cabeçalho simples (SOAP Object Access Protocol) para especificar a que deve ser usado como padrão ao atribuir o fuso horário para as propriedades de data/hora dos objetos que são criados, atualizados e recuperados pela definição de fuso horário usando serviços Web do Exchange (EWS).
-ms.openlocfilehash: 38b7ab4c587adac45fc3bcf351f417ea72313a97
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento TimeZoneContext é usado no cabeçalho SOAP (Simple Object Access Protocol) para especificar a definição de fuso horário que deve ser usada como padrão ao atribuir o fuso horário das propriedades DateTime dos objetos criados, atualizados e recuperados usando o EWS (serviços Web do Exchange).
+ms.openlocfilehash: 26727317ccf34338e8d62ec92bd7a44d43a6cfdb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837751"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460250"
 ---
 # <a name="timezonecontext"></a>TimeZoneContext
 
-O elemento **TimeZoneContext** é usado no cabeçalho simples (SOAP Object Access Protocol) para especificar a definição de fuso horário que será usado como padrão ao atribuir o fuso horário para as propriedades de data/hora dos objetos criados, atualizado, e recuperada usando serviços Web do Exchange (EWS). 
+O elemento **TimeZoneContext** é usado no cabeçalho SOAP (Simple Object Access Protocol) para especificar a definição de fuso horário que deve ser usada como padrão ao atribuir o fuso horário das propriedades DateTime dos objetos criados, atualizados e recuperados usando o EWS (serviços Web do Exchange). 
   
 ```xml
 <TimeZoneContext>
@@ -30,38 +30,38 @@ O elemento **TimeZoneContext** é usado no cabeçalho simples (SOAP Object Acces
 ```
 
  **TimeZoneContextType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Timezonedefinition pela última vez](timezonedefinition.md) <br/> |Especifica os períodos e transições que definem um fuso horário.  <br/> |
+|[TimeZoneDefinition](timezonedefinition.md) <br/> |Especifica os períodos e as transições que definem um fuso horário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

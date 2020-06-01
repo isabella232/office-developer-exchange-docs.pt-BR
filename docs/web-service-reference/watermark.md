@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: e1545046-94f9-4ac7-af1c-ea81dfb6822c
-description: O elemento de marca d'água representa um indicador de evento na fila de eventos de caixa de correio.
-ms.openlocfilehash: 1867aa781bc24f5eb3bdb4648fa494a2a7ea396a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Watermark representa um indicador de evento na fila de eventos de caixa de correio.
+ms.openlocfilehash: a717196101fea698b0b8c66f92a3d420fda9a421
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838047"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459760"
 ---
 # <a name="watermark"></a>Marca d'água
 
-O elemento de **marca d'água** representa um indicador de evento na fila de eventos de caixa de correio. 
+O elemento **Watermark** representa um indicador de evento na fila de eventos de caixa de correio. 
   
 ```xml
 <Watermark/>
 ```
 
- **WatermarkType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Marca d' água**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,42 +44,42 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Representa uma assinatura para uma inscrição de notificação de evento baseado em extração.  <br/> |
-|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Representa uma assinatura para uma inscrição de notificação de push com base no evento.  <br/> |
-|[GetEvents](getevents.md) <br/> |Representa a operação usada pelos clientes de recepção para notificações de solicitação do servidor.  <br/> |
-|[CopiedEvent](copiedevent.md) <br/> |Representa um evento onde uma pasta ou um item é copiada.  <br/> |
-|[CreatedEvent](createdevent.md) <br/> |Representa um evento onde uma pasta ou um item é criada.  <br/> |
-|[DeletedEvent](deletedevent.md) <br/> |Representa um evento onde uma pasta ou um item é excluída.  <br/> |
-|[ModifiedEvent](modifiedevent.md) <br/> |Representa um evento onde um item ou pasta é modificada.  <br/> |
-|[MovedEvent](movedevent.md) <br/> |Representa um evento onde uma pasta ou um item é movida da pasta pai de um para outra pasta pai.  <br/> |
+|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Representa uma assinatura para uma assinatura de notificação de eventos baseada em pull.  <br/> |
+|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Representa uma assinatura para uma assinatura de notificação de eventos baseada em push.  <br/> |
+|[GetEvents](getevents.md) <br/> |Representa a operação usada por clientes de recebimento para solicitar notificações do servidor.  <br/> |
+|[CopiedEvent](copiedevent.md) <br/> |Representa um evento em que um item ou pasta é copiado.  <br/> |
+|[CreatedEvent](createdevent.md) <br/> |Representa um evento em que um item ou pasta é criado.  <br/> |
+|[DeletedEvent](deletedevent.md) <br/> |Representa um evento em que um item ou pasta é excluído.  <br/> |
+|[ModifiedEvent](modifiedevent.md) <br/> |Representa um evento em que um item ou pasta é modificado.  <br/> |
+|[MovedEvent](movedevent.md) <br/> |Representa um evento em que um item ou pasta é movido de uma pasta pai para outra pasta pai.  <br/> |
 |[NewMailEvent](newmailevent.md) <br/> |Representa um evento disparado por um novo item de email em uma caixa de correio.  <br/> |
-|[StatusEvent](statusevent.md) <br/> |Representa uma notificação que nenhuma nova atividade ocorreu na caixa de correio.  <br/> |
-|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |Contém o status e o resultado de uma solicitação Subscribe.  <br/> |
+|[StatusEvent](statusevent.md) <br/> |Representa uma notificação de que nenhuma atividade nova ocorreu na caixa de correio.  <br/> |
+|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |Contém o status e o resultado de uma solicitação de assinatura.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto pode ser obrigatórias ou opcionais, dependendo de como esse elemento é usado.
+Um valor de texto pode ser obrigatório ou opcional, dependendo de como esse elemento é usado.
   
 ## <a name="remarks"></a>Comentários
 
-Se uma solicitação Subscribe contiver uma marca d'água, a assinatura é criada a partir de encaminhar a marca d'água. Se a solicitação Subscribe contiver uma marca d'água que não foi encontrada na tabela de eventos de caixa de correio, uma `ErrorInvalidWatermark` erro será retornado para o aplicativo cliente. Isso pode ocorrer se a marca d'água é muito antiga e foi removida da janela de 30 dias de tabela eventos ou se a marca d'água não estava nunca presentes na tabela eventos. Isso pode acontecer, por exemplo, se uma marca d'água é obtida de uma assinatura diferente para uma caixa de correio em um banco de dados diferente. 
+Se uma solicitação de assinatura contiver uma marca d' água, a assinatura será criada a partir da marca d' água para frente. Se a solicitação de assinatura contiver uma marca d' água que não seja encontrada na tabela de eventos de caixa de correio, um `ErrorInvalidWatermark` erro será retornado para o aplicativo cliente. Isso pode ocorrer se a marca d' água for muito antiga e tiver sido removida da janela de 30 dias da tabela de eventos ou se a marca d' água ainda não estiver presente na tabela de eventos. Isso pode acontecer, por exemplo, se uma marca d' água for Obtida de uma assinatura diferente para uma caixa de correio em um banco de dados diferente. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Inscrever-se a operação](subscribe-operation.md)
+[Operação Subscribe](subscribe-operation.md)
   
 [Operação GetEvents](getevents-operation.md)
   

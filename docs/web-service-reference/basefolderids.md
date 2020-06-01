@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bdaa6093-f960-469a-b338-0e75aaa536c6
-description: O elemento BaseFolderIds representa a coleção das pastas que serão extraídos para determinar o conteúdo de uma pasta de pesquisa.
-ms.openlocfilehash: 960e4d9c1d6eb37bf988bf163e696cbba3e1ef6f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento BaseFolderIds representa a coleção de pastas que será minada para determinar o conteúdo de uma pasta de pesquisa.
+ms.openlocfilehash: 97159ec1ded685e63aafedfaf90a06eff39adaab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751250"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460264"
 ---
 # <a name="basefolderids"></a>BaseFolderIds
 
-O elemento **BaseFolderIds** representa a coleção das pastas que serão extraídos para determinar o conteúdo de uma pasta de pesquisa. 
+O elemento **BaseFolderIds** representa a coleção de pastas que será minada para determinar o conteúdo de uma pasta de pesquisa. 
   
 ```xml
 <BaseFolderIds>
@@ -31,43 +31,43 @@ O elemento **BaseFolderIds** representa a coleção das pastas que serão extra�
 ```
 
  **NonEmptyArrayOfBaseFolderIdsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contém o identificador e alterar a chave de uma pasta.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica as pastas de MicrosoftExchange Server 2007 que podem ser referidas por nome.  <br/> |
+|[FolderId](folderid.md) <br/> |Contém o identificador e a chave de alteração de uma pasta.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica as pastas do MicrosoftExchange Server 2007 que podem ser referenciadas por nome.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SearchParameters](searchparameters.md) <br/> |Representa os parâmetros que definem a uma pasta de pesquisa.  <br/> |
+|[SearchParameters](searchparameters.md) <br/> |Representa os parâmetros que definem uma pasta de pesquisa.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O elemento **BaseFolderIds** deve conter pelo menos um elemento [FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) . 
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

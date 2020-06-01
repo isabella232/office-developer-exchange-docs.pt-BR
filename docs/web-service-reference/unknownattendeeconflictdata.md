@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 70e41268-c231-4587-9d23-e46927fe5272
 description: O elemento UnknownAttendeeConflictData representa um participante não resolvido ou um participante que não é um usuário, uma lista de distribuição ou um contato.
-ms.openlocfilehash: 2363e243a833f580b4b5701b7d39d9ba9420f35a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b4362e0117e3939c21342a1ab8079d95512aec79
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837848"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459865"
 ---
 # <a name="unknownattendeeconflictdata"></a>UnknownAttendeeConflictData
 
@@ -33,7 +33,7 @@ O elemento **UnknownAttendeeConflictData** representa um participante não resol
   
 [SuggestionArray](suggestionarray.md)
   
-[Sugestão](suggestion.md)
+[La](suggestion.md)
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
@@ -44,13 +44,13 @@ O elemento **UnknownAttendeeConflictData** representa um participante não resol
 ```
 
  **UnknownAttendeeConflictData**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -60,24 +60,24 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contém uma matriz de dados de conflito para participantes consultados identificados na [operação GetUserAvailability](getuseravailability-operation.md).  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contém uma matriz de dados de conflito para participantes consultados identificados na [operação GetUserAvailability](getuseravailability-operation.md).  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um participante é desconhecido se ele não puder ser resolvido em relação a um objeto de serviço de diretório do Active Directory. Um participante não foi resolvido se ele não pode ser determinado para ser um usuário, grupo ou contato. Por exemplo, um participante não poderá ser resolvido se ela for uma pasta pública habilitada para email.
+Um participante é desconhecido se não puder ser resolvido em relação a um objeto de serviço de diretório do Active Directory. Um participante não será resolvido se não puder ser determinado como um usuário, um grupo ou um contato. Por exemplo, um participante não será resolvido se for uma pasta pública habilitada para email.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -86,5 +86,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

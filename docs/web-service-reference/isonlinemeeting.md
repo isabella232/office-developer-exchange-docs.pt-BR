@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: c29df676-0f3a-4694-a42f-522c6d16872f
-description: O elemento IsOnlineMeeting indica se a reunião online.
-ms.openlocfilehash: 5a56b0b9828d6f6bec83fc0ad0f8f9579b471a72
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IsOnlineMeeting indica se a reunião está online.
+ms.openlocfilehash: d2d60c8a51ad7e03c33b57709d9173e79d162268
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824061"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460397"
 ---
 # <a name="isonlinemeeting"></a>IsOnlineMeeting
 
-O elemento **IsOnlineMeeting** indica se a reunião online. 
+O elemento **IsOnlineMeeting** indica se a reunião está online. 
   
 ```xml
 <IsOnlineMeeting/>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,29 +44,29 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no armazenamento do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Se este elemento for usado, será necessário um valor de texto que representa um valor booleano. Um valor **true** indica que a reunião está online. Um valor **false** indica que a reunião não está online. 
+Um valor de texto que representa um valor booliano é necessário se esse elemento for usado. Um valor **true** indica que a reunião está online. Um valor **false** indica que a reunião não está online. 
   
 ## <a name="remarks"></a>Comentários
 
-A propriedade IsOnlineMeeting é gravável de leitura para o item de calendário do organizador. Ele é somente leitura para solicitações de reunião e itens de calendário dos participantes.
+A Propriedade IsOnlineMeeting é leitura/gravação para o item de calendário do organizador. É somente leitura para solicitações de reunião e itens de calendário dos participantes.
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o MicrosoftExchange 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

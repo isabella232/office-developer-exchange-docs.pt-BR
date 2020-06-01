@@ -1,5 +1,5 @@
 ---
-title: Bias
+title: Tendência
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ae10aa44-e6d3-483d-a3e6-bb9c45966810
-description: O elemento Bias representa o deslocamento do deslocamento de tempo Universal Coordenado (UTC) identificado pelo elemento Bias (UTC) para o período padrão e o horário de verão. Este valor está em minutos.
-ms.openlocfilehash: 770bf97b030ac1293595560bc269f54896e35a15
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Bias representa o deslocamento do deslocamento de tempo universal coordenado (UTC) identificado pelo elemento Bias (UTC) para horário padrão e horário de verão. Este valor está em minutos.
+ms.openlocfilehash: 6c9dce88f3eece9c793fb018114f07a85c7cb89b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751273"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460236"
 ---
-# <a name="bias"></a>Bias
+# <a name="bias"></a>Tendência
 
-O elemento **Bias** representa o deslocamento do deslocamento de tempo Universal Coordenado (UTC) identificado pelo elemento [Bias (UTC)](bias-utc.md) para o período padrão e o horário de verão. Este valor está em minutos. 
+O elemento **Bias** representa o deslocamento do deslocamento de tempo universal coordenado (UTC) identificado pelo elemento [Bias (UTC)](bias-utc.md) para horário padrão e horário de verão. Este valor está em minutos. 
   
 ```xml
 <Bias>...</Bias>
@@ -29,13 +29,13 @@ O elemento **Bias** representa o deslocamento do deslocamento de tempo Universal
 
 **int**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,12 +45,12 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[StandardTime](standardtime.md) <br/> | Representa um deslocamento, desde o momento em relação ao UTC representado pelo elemento [Bias (UTC)](bias-utc.md) . Horário de verão em regiões onde o horário de verão é observado, esse elemento também contém informações sobre a transição para a hora padrão.<br/><br/>A seguir estão as expressões XPath ao elemento [StandardTime](standardtime.md) :<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime` <br/><br/> `/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
-|[DaylightTime](daylighttime.md) <br/> | Representa um deslocamento, desde o momento em relação ao UTC representado pelo [Bias (UTC)](bias-utc.md) elemento em regiões onde o horário de verão é observado. Esse elemento também contém informações sobre como ocorre a transição do horário de verão do período padrão.  <br/><br/>A seguir estão as expressões XPath ao elemento [DaylightTime](daylighttime.md) :<br/><br/> `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime` <br/><br/> `/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
+|[StandardTime](standardtime.md) <br/> | Representa um deslocamento do tempo relativo ao UTC representado pelo elemento [Bias (UTC)](bias-utc.md) . Esse elemento também contém informações sobre a transição para o horário padrão do horário de verão nas regiões nas quais o horário de verão é observado.<br/><br/>A seguir estão as expressões XPath para o elemento [StandardTime](standardtime.md) :<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime` <br/><br/> `/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
+|[DaylightTime](daylighttime.md) <br/> | Representa um deslocamento do tempo relativo ao UTC representado pelo elemento [Bias (UTC)](bias-utc.md) nas regiões em que o horário de verão é observado. Esse elemento também contém informações sobre quando ocorre a transição para o horário de Verão do horário padrão.  <br/><br/>A seguir estão as expressões XPath para o elemento [DaylightTime](daylighttime.md) :<br/><br/> `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime` <br/><br/> `/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. O valor de texto representa um número inteiro.
+Um valor de texto é obrigatório. O valor de texto representa um inteiro.
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,10 +58,10 @@ O deslocamento usado para determinar a hora local só pode ser fornecido por um 
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra a parte de uma solicitação XML que identifica um usuário que tiver o horário de verão, ajustando o deslocamento do UTC por 60 minutos. Isso efetivamente torna o bias 420 minutos de UTC.
+O exemplo a seguir mostra parte de uma solicitação XML que identifica um usuário que observa o horário de verão ajustando o deslocamento do UTC por-60 minutos. Isso torna efetivamente a diferença de 420 minutos do UTC.
   
 ```xml
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -80,17 +80,17 @@ O exemplo a seguir mostra a parte de uma solicitação XML que identifica um usu
 </TimeZone>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação GetUserAvailability](getuseravailability-operation.md)
-- [Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

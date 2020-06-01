@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: b6d4dea5-812d-4b29-917d-071ebd7ddd92
-description: O elemento SentOnlyToMe indica se o proprietário da caixa de correio deve ser a única pessoa na propriedade ToRecipients de mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.
-ms.openlocfilehash: 91c31069652a35dc7a38ad6b6e1512cc07d67a98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SentOnlyToMe indica se o proprietário da caixa de correio deve ser a única na propriedade ToRecipients de mensagens de entrada para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: 3127550b09d6f5ccf5ba87ad34557afd047f8be0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825353"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458646"
 ---
 # <a name="sentonlytome"></a>SentOnlyToMe
 
-O elemento **SentOnlyToMe** indica se o proprietário da caixa de correio deve ser a única pessoa na propriedade **ToRecipients** de mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado. 
+O elemento **SentOnlyToMe** indica se o proprietário da caixa de correio deve ser a única na propriedade **ToRecipients** de mensagens de entrada para que a condição ou exceção seja aplicada. 
   
 ```XML
 <SentOnlyToMe/>true | false</SentOnlyToMe>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,27 +44,27 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, quando atendida, irá disparar as ações de regra para uma regra.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
 |[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** indica que o proprietário da caixa de correio deve ser a única pessoa na propriedade **ToRecipients** das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado. Um valor **false** indica que o proprietário da caixa de correio não deve ser a única pessoa na propriedade **ToRecipients** das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado. 
+Um valor de texto **true** indica que o proprietário da caixa de correio deve ser o único na propriedade **ToRecipients** das mensagens de entrada para que a condição ou exceção seja aplicada. Um valor **false** indica que o proprietário da caixa de correio não deve ser o único na propriedade **ToRecipients** das mensagens de entrada para que a condição ou exceção seja aplicada. 
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

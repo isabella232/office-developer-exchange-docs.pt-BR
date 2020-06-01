@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2ba50bd9-819f-4e5f-a3bb-85a0a87d8a86
-description: O elemento de permissões contém o conjunto de permissões para uma pasta.
-ms.openlocfilehash: 08d015c3b1afb58fce0fb4b99466965cc5c29fc6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Permissions contém a coleção de permissões para uma pasta.
+ms.openlocfilehash: b8616cefdb8c453106753fb0788a6c7d6a0ded79
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824727"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459213"
 ---
-# <a name="permissions"></a>Permissões
+# <a name="permissions"></a>Permissions
 
-O elemento de **permissões** contém o conjunto de permissões para uma pasta. 
+O elemento **Permissions** contém a coleção de permissões para uma pasta. 
   
 ```XML
 <Permissions>
@@ -30,25 +30,25 @@ O elemento de **permissões** contém o conjunto de permissões para uma pasta.
 ```
 
  **PermissionType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Permissão](permission.md) <br/> |Define o acesso que tem um representante para uma pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[Permissão](permission.md) <br/> |Define o acesso que um representante tem a uma pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) <br/> |Contém todas as permissões que estão configuradas para uma pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[PermissionSet (PermissionSettype)](permissionset-permissionsettype.md) <br/> |Contém todas as permissões configuradas para uma pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -58,23 +58,23 @@ Este elemento foi introduzido no Exchange Server 2007 Service Pack 1 (SP1).
   
 ### <a name="version-differences"></a>Diferenças de versão
 
-Para aplicativos de destino Exchange Online, Exchange Online como parte do Office 365 ou uma versão local do Exchange, começando com o Exchange 2013, permissões de pasta não serão retornadas quando o elemento [BaseShape](baseshape.md) tem um valor de **AllProperties** na solicitação de operação [GetFolder](getfolder-operation.md) . Para recuperar as permissões da pasta, adicione o elemento [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) ao elemento [AdditionalProperties](additionalproperties.md) na solicitação **GetFolder** . 
+Para aplicativos direcionados para o Exchange Online, o Exchange Online como parte do Office 365, ou uma versão local do Exchange a partir do Exchange 2013, as permissões de pasta não são retornadas quando o elemento [BaseShape](baseshape.md) tem um valor de **myproperties** na solicitação de operação [GetFolder](getfolder-operation.md) . Para recuperar permissões de pasta, adicione o elemento [PermissionSet (permissionsettype)](permissionset-permissionsettype.md) ao elemento [AdditionalProperties](additionalproperties.md) na solicitação **GetFolder** . 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Definindo permissões de nível de pasta](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Definindo permissões no nível de pasta](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2c738518-d99e-4043-bbf0-463085b58eb0
-description: O elemento IsOccurrencePresent destina-se somente para uso interno.
-ms.openlocfilehash: 2a15fe7d3b0a05a776408195a313b33df596fc8f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IsOccurrencePresent é destinado apenas para uso interno.
+ms.openlocfilehash: 3077179db89c9a9908b16199717cc5c110c195b5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824073"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460418"
 ---
 # <a name="isoccurrencepresent"></a>IsOccurrencePresent
 
-O elemento **IsOccurrencePresent** destina-se somente para uso interno. 
+O elemento **IsOccurrencePresent** é destinado apenas para uso interno. 
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 

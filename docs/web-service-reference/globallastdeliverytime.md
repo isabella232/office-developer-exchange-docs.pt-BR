@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: a88dada9-c527-43a7-b2d3-31aad330def9
-description: O elemento GlobalLastDeliveryTime contém o tempo de entrega da mensagem foi recebida pela última nesta conversa entre todas as pastas na caixa de correio.
-ms.openlocfilehash: fded5cd1891a406f0979cf4bec7321779d70ab3a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GlobalLastDeliveryTime contém o tempo de entrega da mensagem que foi recebida pela última vez nesta conversa em todas as pastas da caixa de correio.
+ms.openlocfilehash: b6d4d7c1d51c206e44973a717d25df4066845ada
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823733"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459409"
 ---
 # <a name="globallastdeliverytime"></a>GlobalLastDeliveryTime
 
-O elemento **GlobalLastDeliveryTime** contém o tempo de entrega da mensagem foi recebida pela última nesta conversa entre todas as pastas na caixa de correio. 
+O elemento **GlobalLastDeliveryTime** contém o tempo de entrega da mensagem que foi recebida pela última vez nesta conversa em todas as pastas da caixa de correio. 
   
 [FindConversationResponse](findconversationresponse.md)
   
 [Conversas](conversations-ex15websvcsotherref.md)
   
-[Conversa (ConversationType)](conversation-conversationtype.md)
+[Conversa (Conversatype)](conversation-conversationtype.md)
   
 [GlobalLastDeliveryTime](globallastdeliverytime.md)
   
@@ -35,14 +35,14 @@ O elemento **GlobalLastDeliveryTime** contém o tempo de entrega da mensagem foi
 <GlobalLastDeliveryTime/>
 ```
 
- **xs**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **xs: dateTime**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,26 +52,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **GlobalLastDeliveryTime** é a data e hora da mensagem foi recebida pela última nesta conversa entre todas as pastas na caixa de correio. 
+O valor de texto do elemento **GlobalLastDeliveryTime** é a data e a hora da última mensagem recebida nesta conversa em todas as pastas da caixa de correio. 
   
 ## <a name="remarks"></a>Comentários
 
-Este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1). O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda serviços Web do Exchange.
+Este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1). O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -80,5 +80,5 @@ Este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1). O es
 [Operação ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversas no EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversas no EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

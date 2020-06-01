@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: a5ee2504-db84-49ee-870c-cca9269f2e26
-description: O elemento EndDateRecurrence descreve a data de início e a data final do padrão de recorrência de um item.
-ms.openlocfilehash: 73450bf69c6b122e806d85011975159e348ad740
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento EndDateRecurrence descreve a data de início e a data de término de um padrão de recorrência de item.
+ms.openlocfilehash: e8ae72012e5bcac8d8b2a06b6d3a9b3a7caf30d7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752060"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460145"
 ---
 # <a name="enddaterecurrence"></a>EndDateRecurrence
 
-O elemento **EndDateRecurrence** descreve a data de início e a data final do padrão de recorrência de um item. 
+O elemento **EndDateRecurrence** descreve a data de início e a data de término de um padrão de recorrência de item. 
   
 ```xml
 <EndDateRecurrence>
@@ -31,42 +31,42 @@ O elemento **EndDateRecurrence** descreve a data de início e a data final do pa
 ```
 
  **EndDateRecurrenceRangeType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[StartDate (recorrência)](startdate-recurrence.md) <br/> |Representa a data de início de uma tarefa recorrente ou item de calendário.  <br/> |
-|[EndDate (recorrência)](enddate-recurrence.md) <br/> |Representa a data de término de uma tarefa recorrente ou item de calendário.  <br/> |
+|[StartDate (recorrência)](startdate-recurrence.md) <br/> |Representa a data de início de um item de calendário ou tarefa recorrente.  <br/> |
+|[EndDate (recorrência)](enddate-recurrence.md) <br/> |Representa a data de término de um item de calendário ou tarefa recorrente.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Recorrência (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contém o padrão de recorrência para itens de calendário e solicitações de reunião.  <br/> |
-|[Recorrência (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém o padrão de recorrência para as tarefas recorrentes.  <br/> |
+|[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contém o padrão de recorrência para itens de calendário e solicitações de reunião.  <br/> |
+|[Recorrência (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém o padrão de recorrência para tarefas recorrentes.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

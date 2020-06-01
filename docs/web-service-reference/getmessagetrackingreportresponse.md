@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 41177894-2008-44a6-86f8-bc34c0a48e36
 description: O elemento GetMessageTrackingReportResponse contém a resposta para a operação GetMessageTrackingReport.
-ms.openlocfilehash: bdb8b97e57f92a32cbdc498d09297920366b58bd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 15e1f5c91c07dbaad224fb0cd3bc89f444a18087
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752562"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460565"
 ---
 # <a name="getmessagetrackingreportresponse"></a>GetMessageTrackingReportResponse
 
@@ -37,13 +37,13 @@ O elemento **GetMessageTrackingReportResponse** contém a resposta para a [opera
 ```
 
  **GetMessageTrackingReportResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
 |**ResponseClass** <br/> | Descreve o status da resposta. <br/><br/>Os seguintes valores são válidos para este atributo:  <br/><br/>-Êxito  <br/>-Aviso  <br/>-Erro  <br/> |
    
@@ -51,28 +51,28 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|**Sucesso** <br/> |Descreve uma solicitação que seja cumprida.  <br/> |
-|**Warning** <br/> | Descreve uma solicitação que não foi processada. Um aviso pode ser retornado se ocorreu um erro quando um item na solicitação estava processando e itens subsequentes não pôde ser processados.<br/><br/> Estes são exemplos de fontes de avisos de:  <br/><br/>-O armazenamento do Exchange está offline durante o lote.  <br/>-Ativo serve de domínio Directory (AD DS) está offline.  <br/>-Caixas de correio foram movidos.  <br/>-O banco de dados de mensagens (MDB) está offline.  <br/>-Uma senha expirou.  <br/>-Uma cota foi excedida.  <br/> |
-|**Erro** <br/> | Descreve uma solicitação que não puder ser atendida. <br/><br/>Estes são exemplos de fontes de erros:  <br/>  Elementos ou atributos inválidos  <br/><br/>-Atributos ou elementos que estão fora do intervalo  <br/>-Uma marca desconhecida  <br/>-Um atributo ou elemento que não é válido no contexto  <br/>-Uma tentativa de acesso não autorizado por qualquer cliente  <br/>-Uma falha no servidor em resposta a uma chamada de cliente válida  <br/><br/>  Informações sobre o erro podem ser encontradas nos elementos [ResponseCode](responsecode.md) e [MessageText](messagetext.md) .  <br/> |
+|**Success** <br/> |Descreve uma solicitação que é atendida.  <br/> |
+|**Aviso** <br/> | Descreve uma solicitação que não foi processada. Um aviso pode ser retornado se um erro ocorreu enquanto um item na solicitação estava sendo processado e não foi possível processar os itens subsequentes.<br/><br/> A seguir estão exemplos de fontes de avisos:  <br/><br/>– O repositório do Exchange está offline durante o lote.  <br/>– O domínio do Active Directory serve (AD DS) está offline.  <br/>-As caixas de correio foram movidas.  <br/>– O banco de dados de mensagens (MDB) está offline.  <br/>-Uma senha expirou.  <br/>-Uma cota foi excedida.  <br/> |
+|**Error** <br/> | Descreve uma solicitação que não pode ser atendida. <br/><br/>A seguir estão exemplos de fontes de erros:  <br/>  Elementos ou atributos inválidos  <br/><br/>-Atributos ou elementos que estão fora do intervalo  <br/>-Uma marca desconhecida  <br/>-Um atributo ou elemento que não é válido no contexto  <br/>– Uma tentativa de acesso não autorizado por qualquer cliente  <br/>-Uma falha do servidor em resposta a uma chamada válida do lado do cliente  <br/><br/>  As informações sobre o erro podem ser encontradas nos elementos [ResponseCode](responsecode.md) e [MessageText](messagetext.md) .  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[MessageText](messagetext.md) <br/> |Fornece uma descrição de texto do status da resposta.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fornece um código de erro que identifica o erro específico que enfrentaram a solicitação.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |No momento não utilizados e reservada para uso futuro. Esse elemento contém um valor de 0.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fornece informações de resposta de erro adicionais.  <br/> |
-|[MessageTrackingReport](messagetrackingreport.md) <br/> |Contém uma única mensagem retornada em uma [operação de GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
-|[Diagnósticos](diagnostics.md) <br/> |Fornece informações de tempo e de desempenho que são usadas para relatórios em um data center.  <br/> |
-|[Erros](errors-ex15websvcsotherref.md) <br/> |Contém um recipiente de propriedades para armazenar os erros são retornados pelo serviço Web.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fornece um código de erro que identifica o erro específico que a solicitação encontrou.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Atualmente não usado e reservado para uso futuro. Este elemento contém um valor de 0.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta de erro.  <br/> |
+|[MessageTrackingReport](messagetrackingreport.md) <br/> |Contém uma única mensagem que é retornada em uma [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
+|[La](diagnostics.md) <br/> |Fornece informações de tempo e desempenho que são usadas para relatórios em um datacenter.  <br/> |
+|[Erros](errors-ex15websvcsotherref.md) <br/> |Contém um conjunto de propriedades para armazenar os erros retornados pelo serviço Web.  <br/> |
 |[Propriedades (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contém uma lista de uma ou mais propriedades de controle.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -80,16 +80,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação GetMessageTrackingReport](getmessagetrackingreport-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

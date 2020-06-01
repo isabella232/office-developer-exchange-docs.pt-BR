@@ -1,5 +1,5 @@
 ---
-title: Request (POX)
+title: Solicitação (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,20 +8,20 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: da54eb32-7ce5-4384-9893-255a2243a959
-description: O elemento de solicitação contém a solicitação para o serviço Descoberta automática.
-ms.openlocfilehash: 3f5d5258a92840fe79c4936370323b78aa4715b3
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: O elemento Request contém a solicitação para o serviço de descoberta automática.
+ms.openlocfilehash: bc215d614441ed8f12c0f1490f4abdbb7b574ad0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354425"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459543"
 ---
-# <a name="request-pox"></a>Request (POX)
+# <a name="request-pox"></a>Solicitação (POX)
 
-O elemento de **solicitação** contém a solicitação para o serviço Descoberta automática. 
+O elemento **Request** contém a solicitação para o serviço de descoberta automática. 
   
-- [AutoDiscover (POX)](autodiscover-pox.md) 
-- [Request (POX)](request-pox.md)
+- [Descoberta automática (POX)](autodiscover-pox.md) 
+- [Solicitação (POX)](request-pox.md)
   
 ```xml
 <Request>
@@ -37,29 +37,29 @@ O elemento de **solicitação** contém a solicitação para o serviço Descober
 </Request>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AcceptableResponseSchema (POX)](acceptableresponseschema-pox.md) <br/> |Identifica o esquema de uma resposta de descoberta automática.  <br/> |
+|[AcceptableResponseSchema (POX)](acceptableresponseschema-pox.md) <br/> |Identifica o esquema para uma resposta de descoberta automática.  <br/> |
 |[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Identifica o endereço de email do usuário.  <br/> |
-|[LegacyDN (POX)](legacydn-pox.md) <br/> |Identifica a caixa de correio de um usuário por nome distinto herdado.  <br/> |
+|[LegacyDN (POX)](legacydn-pox.md) <br/> |Identifica a caixa de correio de um usuário com o nome diferenciado herdado.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AutoDiscover (POX)](autodiscover-pox.md) <br/> |O elemento raiz em uma solicitação de descoberta automática.  <br/> |
+|[Descoberta automática (POX)](autodiscover-pox.md) <br/> |O elemento raiz em uma solicitação de descoberta automática.  <br/> |
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

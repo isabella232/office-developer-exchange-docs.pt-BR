@@ -1,5 +1,5 @@
 ---
-title: SetPlayOnPhoneDialString (serviço web de Unificação de mensagens)
+title: SetPlayOnPhoneDialString (serviço Web da UM)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 513a5072-c3ac-405f-98c2-0ab982d0a360
-description: O elemento SetPlayOnPhoneDialString define uma solicitação para definir a sequência de discagem padrão para a operação de PlayOnPhone (serviço web de Unificação de mensagens) e PlayOnPhoneGreeting solicitações de operação (serviço web de Unificação de mensagens).
-ms.openlocfilehash: fd82dc6ef0dd90a2318da93191f657005b7a5c87
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SetPlayOnPhoneDialString define uma solicitação para definir a cadeia de caracteres de discagem padrão para as solicitações PlayOnPhone (serviço Web da UM) e PlayOnPhoneGreeting (serviço Web da UM).
+ms.openlocfilehash: 40021e9dedafb5fafda91bf3612d8a6485dae8e7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825450"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458625"
 ---
-# <a name="setplayonphonedialstring-um-web-service"></a>SetPlayOnPhoneDialString (serviço web de Unificação de mensagens)
+# <a name="setplayonphonedialstring-um-web-service"></a>SetPlayOnPhoneDialString (serviço Web da UM)
 
-O elemento de **SetPlayOnPhoneDialString** define uma solicitação para definir a sequência de discagem padrão para solicitações de [operação de PlayOnPhone (serviço web de Unificação de mensagens)](playonphone-operation-um-web-service.md) e [a operação de PlayOnPhoneGreeting (serviço web de Unificação de mensagens)](playonphonegreeting-operation-um-web-service.md) . 
+O elemento **SetPlayOnPhoneDialString** define uma solicitação para definir a cadeia de caracteres de discagem padrão para as solicitações [PlayOnPhone (serviço Web da um)](playonphone-operation-um-web-service.md) e [PLAYONPHONEGREETING (serviço Web da um)](playonphonegreeting-operation-um-web-service.md) . 
   
-[SetPlayOnPhoneDialString (serviço web de Unificação de mensagens)](setplayonphonedialstring-um-web-service.md)
+[SetPlayOnPhoneDialString (serviço Web da UM)](setplayonphonedialstring-um-web-service.md)
   
 ```xml
 <SetPlayOnPhoneDialString>
@@ -31,40 +31,40 @@ O elemento de **SetPlayOnPhoneDialString** define uma solicitação para definir
 ```
 
  **complexType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[dialString (serviço web de Unificação de mensagens)](dialstring-um-web-service.md) <br/> |O número de telefone para definir como a cadeia de caracteres de discagem padrão.  <br/> |
+|[dialstring (serviço Web da UM)](dialstring-um-web-service.md) <br/> |O número de telefone a ser definido como a cadeia de caracteres de discagem padrão.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação de SetPlayOnPhoneDialString (serviço web de Unificação de mensagens)](setplayonphonedialstring-operation-um-web-service.md)
+[Operação SetPlayOnPhoneDialString (serviço Web da UM)](setplayonphonedialstring-operation-um-web-service.md)
 

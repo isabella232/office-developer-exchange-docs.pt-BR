@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6b860638-d655-4a49-91c4-60e59b596b48
-description: O elemento de itens especifica uma lista de itens disponíveis para visualização como os resultados de uma operação de SearchMailboxes.
-ms.openlocfilehash: 6c6b4410ec4f6fa3d7c49d43b515908353233794
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento items especifica uma lista de itens disponíveis para visualização como os resultados de uma operação SearchMailboxes.
+ms.openlocfilehash: 99d8af67370b75774def0db3b6c274c65a432aab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824153"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459858"
 ---
 # <a name="items-arrayofsearchpreviewitemstype"></a>Itens (ArrayOfSearchPreviewItemsType)
 
-O elemento de **itens** Especifica uma lista de itens disponíveis para visualização como os resultados de uma operação de **SearchMailboxes** . 
+O elemento **Items** especifica uma lista de itens disponíveis para visualização como os resultados de uma operação **SearchMailboxes** . 
   
 ```XML
 <Items>
@@ -26,13 +26,13 @@ O elemento de **itens** Especifica uma lista de itens disponíveis para visualiz
 ```
 
  **ArrayOfSearchPreviewItemsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 

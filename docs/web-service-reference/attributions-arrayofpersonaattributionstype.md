@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f61d843c-bca5-4c88-9667-fd03d2a963a1
-description: O elemento de atribuições Especifica uma matriz de informações de atribuição de um ou mais contatos ou destinatários do Active Directory agregados em que a pessoa associada.
-ms.openlocfilehash: 52fecb4e4381d5e9dbbaf7134fa18068ba15f6ec
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento de atribuições especifica uma matriz de informações de atribuição para um ou mais dos destinatários de contatos ou do Active Directory agregados ao persona associado.
+ms.openlocfilehash: a9883e06a8adbd5c9d3bc7e1edd28c62418df653
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751232"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460320"
 ---
 # <a name="attributions-arrayofpersonaattributionstype"></a>Atribuições (ArrayOfPersonaAttributionsType)
 
-O elemento de **atribuições** Especifica uma matriz de informações de atribuição de um ou mais contatos ou destinatários do Active Directory agregados em que a pessoa associada. 
+O elemento de **atribuições** especifica uma matriz de informações de atribuição para um ou mais dos destinatários de contatos ou do Active Directory agregados ao persona associado. 
   
 ```XML
 <Attributions>
@@ -26,25 +26,25 @@ O elemento de **atribuições** Especifica uma matriz de informações de atribu
 ```
 
  **ArrayOfPersonaAttributionsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Atribuição (PersonaAttributionType)](attribution-personaattributiontype.md) <br/> |Especifica uma instância em uma matriz de atributos de um elemento **PersonaType** .  <br/> |
+|[Atribuição (PersonaAttributionType)](attribution-personaattributiontype.md) <br/> |Especifica uma instância em uma matriz de atributos para um elemento **personatype** .  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoa](persona.md) <br/> |Especifica um conjunto de dados de pessoa retornados por uma solicitação **GetPersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -52,16 +52,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

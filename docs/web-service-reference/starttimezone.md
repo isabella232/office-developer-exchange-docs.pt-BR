@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d38c4dc1-4ecb-42a1-8d57-a451b16a2de2
-description: O elemento de StartTimeZone define o fuso horário para a hora de início de uma CalendarItem ou MeetingRequest.
-ms.openlocfilehash: 6d21869c4b3be048db27dcc9f128fff868aebcb5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento StartTimeZone define o fuso horário para a hora de início de um CalendarItem ou MeetingRequest.
+ms.openlocfilehash: fa88f676c0f6a7a2e934f51274942ed3bccbc789
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825559"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458520"
 ---
 # <a name="starttimezone"></a>StartTimeZone
 
-O elemento de **StartTimeZone** define o fuso horário para a hora de início de uma [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).
+O elemento **StartTimeZone** define o fuso horário para a hora de início de um [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).
   
 ```xml
 <StartTimeZone Id="" Name="">
@@ -33,13 +33,13 @@ O elemento de **StartTimeZone** define o fuso horário para a hora de início de
 
 **TimeZoneDefinitionType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
 |Id  <br/> |Representa o identificador exclusivo da definição de fuso horário.  <br/> |
 |Nome  <br/> |Representa o nome descritivo da definição de fuso horário.  <br/> |
@@ -48,8 +48,8 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Períodos](periods.md) <br/> |Representa uma matriz de elementos do [período](period.md) que definem o deslocamento de tempo em fases diferentes do fuso horário.  <br/> |
-|[TransitionsGroups](transitionsgroups.md) <br/> |Representa uma matriz de elementos de [TransitionsGroup](transitionsgroup.md) que especificam as transições do fuso horário.  <br/> |
+|[Períodos](periods.md) <br/> |Representa uma matriz de elementos [period](period.md) que definem a diferença de tempo em diferentes estágios do fuso horário.  <br/> |
+|[TransitionsGroups](transitionsgroups.md) <br/> |Representa uma matriz de elementos [TransitionsGroup](transitionsgroup.md) que especificam transições de fuso horário.  <br/> |
 |[Transições](transitions.md) <br/> |Representa uma matriz de transições de fuso horário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
@@ -57,22 +57,22 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no armazenamento do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

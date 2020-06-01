@@ -1,5 +1,5 @@
 ---
-title: DialString (serviços Web do Exchange)
+title: Dialstring (serviços Web do Exchange)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 077501f6-b3a8-4799-8c37-09e77af49ddb
-description: O elemento DialString representa a cadeia de caracteres de discagem do número de telefone que é chamado para reproduzir um item por telefone. Este elemento é obrigatório.
-ms.openlocfilehash: a2b9a12e714d29923402e4d5563c26b6b2d5f632
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento de discagem representa a cadeia de caracteres de discagem do número de telefone chamado para reproduzir um item por telefone. Este elemento é obrigatório.
+ms.openlocfilehash: c944c9f6b99f7f8d45f7e08442a7dfb55a5fe9f3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751800"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458744"
 ---
-# <a name="dialstring-exchange-web-services"></a>DialString (serviços Web do Exchange)
+# <a name="dialstring-exchange-web-services"></a>Dialstring (serviços Web do Exchange)
 
-O elemento **DialString** representa a cadeia de caracteres de discagem do número de telefone que é chamado para reproduzir um item por telefone. Este elemento é obrigatório. 
+O elemento de **discagem** representa a cadeia de caracteres de discagem do número de telefone chamado para reproduzir um item por telefone. Este elemento é obrigatório. 
   
 ```xml
 <DialString/>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,16 +50,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

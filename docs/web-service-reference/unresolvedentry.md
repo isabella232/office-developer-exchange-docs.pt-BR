@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5ac6116a-3b24-40f8-a877-dbe9a6935919
-description: O elemento UnresolvedEntry contém o nome de uma lista de contatos ou de distribuição para resolver.
-ms.openlocfilehash: 98b447cd49685b49f73f75f12d921a65749be245
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UnresolvedEntry contém o nome de um contato ou de uma lista de distribuição a ser resolvida.
+ms.openlocfilehash: 0f157c1be6c327187456a795c4c1000b8c35b620
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837860"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459837"
 ---
 # <a name="unresolvedentry"></a>UnresolvedEntry
 
-O elemento **UnresolvedEntry** contém o nome de uma lista de contatos ou de distribuição para resolver. 
+O elemento **UnresolvedEntry** contém o nome de um contato ou de uma lista de distribuição a ser resolvida. 
   
 [ResolveNames](resolvenames.md)
   
@@ -32,13 +32,13 @@ O elemento **UnresolvedEntry** contém o nome de uma lista de contatos ou de dis
 ```
 
  **NonEmptyStringType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,21 +48,21 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResolveNames](resolvenames.md) <br/> |Define uma solicitação para resolver nomes de ambíguos.  <br/> |
+|[ResolveNames](resolvenames.md) <br/> |Define uma solicitação para resolver nomes ambíguos.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o nome de uma lista de contatos ou de distribuição pública. O comprimento mínimo da cadeia de caracteres é um caractere.
+O valor de texto representa o nome de um contato público ou de uma lista de distribuição. O comprimento mínimo da cadeia de caracteres é um caractere.
   
 ## <a name="remarks"></a>Comentários
 
-O valor de texto deste elemento é usado para resolver nomes com os seguintes campos:
+O valor de texto desse elemento é usado para resolver nomes nos seguintes campos:
   
 - Nome
     
 - Sobrenome
     
-- Nome de exibição
+- Nome diferenciado (DN)
     
 - Nome completo
     
@@ -72,20 +72,20 @@ O valor de texto deste elemento é usado para resolver nomes com os seguintes ca
     
 - Endereço SMTP
     
-Endereços de email com tipos de roteamento de prefixados, como smtp ou sip, são salvas em uma matriz de valores múltiplos. A [operação ResolveNames](resolvenames-operation.md) realiza uma correspondência parcial contra cada valor dessa matriz, quando você adiciona o tipo de roteamento no início do nome não resolvido, como "sip:User1@Contoso.com". Se você não especificar um tipo de roteamento, a operação **ResolveNames** padrão para o tipo de roteamento de smtp, associá-lo a uma propriedade de endereço SMTP principal e não a matriz de vários valores de pesquisa. 
+Os endereços de email com tipos de roteamento prefixos, como SMTP ou SIP, são salvos em uma matriz de vários valores. A [operação ResolveNames](resolvenames-operation.md) executa uma correspondência parcial em relação a cada valor dessa matriz quando você adiciona o tipo de roteamento no início do nome não resolvido, como "SIP:User1@Contoso.com". Se você não especificar um tipo de roteamento, a operação **ResolveNames** usará como padrão o tipo de roteamento do SMTP, o corresponderá a uma propriedade de endereço SMTP primária e não pesquisará a matriz de vários valores. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

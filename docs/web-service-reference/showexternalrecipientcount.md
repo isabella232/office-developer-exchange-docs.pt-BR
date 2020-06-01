@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: db28dbcb-d051-4e5c-a9c2-4b8d5149b4e1
-description: O elemento de ShowExternalRecipientCount indica se os consumidores da operação GetMailTips têm que mostrar as dicas de email que indicam o número de destinatários externos ao qual uma mensagem é endereçada.
-ms.openlocfilehash: 1fd3ceb629689c560dc60afe01f0413602f79a0d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ShowExternalRecipientCount indica se os consumidores da operação GetQuery devem mostrar dicas de email que indicam o número de destinatários externos para os quais uma mensagem é endereçada.
+ms.openlocfilehash: fc32e5c4a95f0e33b5532af9c77d31bd6446e641
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825491"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460467"
 ---
 # <a name="showexternalrecipientcount"></a>ShowExternalRecipientCount
 
-O elemento de **ShowExternalRecipientCount** indica se os consumidores da [operação GetMailTips](getmailtips-operation.md) têm que mostrar as dicas de email que indicam o número de destinatários externos ao qual uma mensagem é endereçada. 
+O elemento **ShowExternalRecipientCount** indica se os consumidores da [operação](getmailtips-operation.md) GetQuery devem mostrar dicas de email que indicam o número de destinatários externos para os quais uma mensagem é endereçada. 
   
 ```XML
 <ShowExternalRecipientCount>true | false</ShowExternalRecipientCount>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,28 +46,28 @@ Nenhum.
 |:-----|:-----|
 |[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contém informações de configuração de serviço para o serviço de dicas de email.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto deste elemento é **true** se os consumidores da [operação GetMailTips](getmailtips-operation.md) tem que mostrar as dicas de email que indicam o número de destinatários externos ao qual uma mensagem é endereçada. O valor é **false** se não tiver os consumidores da [operação GetMailTips](getmailtips-operation.md) mostrar as dicas de email que indicam o número de destinatários externos ao qual uma mensagem é endereçada. 
+O valor de texto desse elemento será **true** se os consumidores da [operação](getmailtips-operation.md) GetQuery precisarem Mostrar dicas de email que indicam o número de destinatários externos para os quais uma mensagem é endereçada. O valor é **false** se os consumidores da [operação](getmailtips-operation.md) GetQuery não precisam mostrar dicas de email que indicam o número de destinatários externos para os quais uma mensagem é endereçada. 
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação GetMailTips](getmailtips-operation.md)
+[Operação](getmailtips-operation.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1ff68154-24b5-465a-a31c-3d3bab0d491e
-description: O elemento CurrentMeetingTime representa a hora de início de uma reunião que você deseja atualizar com o horário de uma reunião proposto pelo participante de uma reunião.
-ms.openlocfilehash: 88adbe566270d759986e9b55afd4827c0513ca43
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento CurrentMeetingTime representa a hora de início de uma reunião que você deseja atualizar com um horário de reunião proposto por um participante da reunião.
+ms.openlocfilehash: e79616fd735cbf6410e85450bd75c1276923f171
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751650"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458772"
 ---
 # <a name="currentmeetingtime"></a>CurrentMeetingTime
 
-O elemento **CurrentMeetingTime** representa a hora de início de uma reunião que você deseja atualizar com o horário de uma reunião proposto pelo participante de uma reunião. 
+O elemento **CurrentMeetingTime** representa a hora de início de uma reunião que você deseja atualizar com um horário de reunião proposto por um participante da reunião. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -34,13 +34,13 @@ O elemento **CurrentMeetingTime** representa a hora de início de uma reunião q
 ```
 
  **DateTime**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,30 +50,30 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para a obtenção de informações de sugestão de reunião.  <br/> Este é o XPath a este elemento:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para obter informações de sugestão de reunião.  <br/> Este é o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Este elemento não é necessário.
+Esse elemento não é obrigatório.
   
 > [!NOTE]
-> O esquema que descreve este elemento está localizado no diretório /EWS/ do computador que está executando o MicrosoftExchange Server 2007 que possui a função de servidor acesso para cliente instalada. 
+> O esquema que descreve este elemento está localizado no diretório/EWS/do computador que está executando o MicrosoftExchange Server 2007 que tem a função de servidor de acesso para Cliente instalada. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 [Operação GetUserAvailability](getuseravailability-operation.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: adfa95f8-0e92-4d21-b94f-94fac7117ece
-description: O GetRoomLists é o elemento raiz em uma solicitação para uma lista de endereços de email que representam uma lista de salas disponíveis.
-ms.openlocfilehash: 4dfcdcdf8841a6127ea0777514b5d619da56a63f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetRoomLists é o elemento raiz em uma solicitação para uma lista de endereços de email que representam uma lista de salas disponíveis.
+ms.openlocfilehash: 681a59131306506d31ee753467483e67b59a3de4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752613"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460551"
 ---
 # <a name="getroomlists"></a>GetRoomLists
 
-O **GetRoomLists** é o elemento raiz em uma solicitação para uma lista de endereços de email que representam uma lista de salas disponíveis. 
+O elemento **GetRoomLists** é o elemento raiz em uma solicitação para uma lista de endereços de email que representam uma lista de salas disponíveis. 
   
 ```XML
 <GetRoomLists/>
 ```
 
  **GetRoomListsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -42,22 +42,22 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
-|Pode ser vazio  <br/> |true  <br/> |
+|Pode ser vazio  <br/> |verdadeiro  <br/> |
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 90f3c5c5-f612-4e1b-b1f5-f92dd8524179
-description: O elemento ExtendedPropertyAttributedValue Especifica as propriedades estendidas para uma pessoa.
-ms.openlocfilehash: 92e4ec7f192ccb36ea68d7862e66cb7b3349819a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ExtendedPropertyAttributedValue especifica as propriedades estendidas para uma pessoa.
+ms.openlocfilehash: 5c2ad5918d7ac666d5e26af6597b2c4c3dde6202
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752179"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460124"
 ---
 # <a name="extendedpropertyattributedvalue"></a>ExtendedPropertyAttributedValue
 
-O elemento **ExtendedPropertyAttributedValue** Especifica as propriedades estendidas para uma pessoa. 
+O elemento **ExtendedPropertyAttributedValue** especifica as propriedades estendidas para uma pessoa. 
   
 ```XML
 <ExtendedPropertyAttributedValue>
@@ -27,26 +27,26 @@ O elemento **ExtendedPropertyAttributedValue** Especifica as propriedades estend
 ```
 
  **ExtendedPropertyAttributedValueType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[Valor (ExtendedPropertyType)](value-extendedpropertytype.md) <br/> |Especifica uma matriz de propriedades estendidas para uma pessoa.  <br/> |
-|[Atribuições (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Especifica uma matriz de atribuições para seu elemento **valor** associado.  <br/> |
+|[Atribuições (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Especifica uma matriz de atribuições para o elemento de **valor** associado.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md) <br/> |Contém as propriedades estendidas usadas para operações de repositório unificado de contatos.  <br/> |
+|[ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md) <br/> |Contém as propriedades estendidas usadas para operações do repositório unificado de contatos.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -54,16 +54,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

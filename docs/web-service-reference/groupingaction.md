@@ -1,5 +1,5 @@
 ---
-title: GroupingAction
+title: Grupoaction
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: eff6712e-54fa-442e-8d07-e181dda94dac
-description: O elemento GroupingAction destina-se somente para uso interno.
-ms.openlocfilehash: 4b04b992f62c366ff7a059ab26c43fc9f0ce7108
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Groupingaction é destinado apenas para uso interno.
+ms.openlocfilehash: 868c5c6bc6c0091bbe9e0d81709eaf45ab63ece9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823775"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460446"
 ---
-# <a name="groupingaction"></a>GroupingAction
+# <a name="groupingaction"></a>Grupoaction
 
-O elemento **GroupingAction** destina-se somente para uso interno. 
+O elemento **groupingaction** é destinado apenas para uso interno. 
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 

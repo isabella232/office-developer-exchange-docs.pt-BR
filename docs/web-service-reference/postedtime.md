@@ -1,5 +1,5 @@
 ---
-title: PostedTime
+title: Postadotime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: e8b3813c-fc7e-4674-a4c6-6818c13d2bcf
-description: O elemento PostedTime representa a hora em que um PostItem postado. Este elemento é somente leitura. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 8280fc26c534b280d0f30f663b6cc3a3958036c5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Postadotime representa a hora em que um PostItem foi lançado. Este elemento é somente leitura. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 5fc670bfee97a46700bc4442d489696a4489f88a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824860"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459192"
 ---
-# <a name="postedtime"></a>PostedTime
+# <a name="postedtime"></a>Postadotime
 
-O elemento **PostedTime** representa a hora em que um [PostItem](postitem.md) postado. Este elemento é somente leitura. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+O elemento **postadotime** representa a hora em que um [PostItem](postitem.md) foi lançado. Este elemento é somente leitura. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <PostedTime/>
 ```
 
  **dateTime**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,26 +44,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[PostItem](postitem.md) <br/> |Representa uma PostItem no armazenamento do Exchange. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[Item de postagem](postitem.md) <br/> |Representa um PostItem no repositório do Exchange. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto é uma data e hora que representa quando um **PostItem** foi lançado. Esta propriedade é somente leitura. 
+O valor de texto é um dateTime que representa quando um **PostItem** foi lançado. Essa propriedade é somente leitura. 
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

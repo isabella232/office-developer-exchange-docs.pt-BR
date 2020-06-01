@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: dcbb9d85-d90c-4363-b4c9-d081ad03f407
-description: O elemento de deslocamento descreve o deslocamento, desde o BaseOffset. Em conjunto com o elemento BaseOffset, o elemento de deslocamento identifica se o tempo é standard ou o horário de verão.
-ms.openlocfilehash: d85fef0d67633733f6aa1943d70413ea70a528d6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento offset descreve o deslocamento do BaseOffset. Junto com o elemento BaseOffset, o elemento offset identifica se o horário é padrão ou horário de verão.
+ms.openlocfilehash: 74ad87026c2cb89f3b0c35218c91f81380029963
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824642"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459753"
 ---
 # <a name="offset"></a>Deslocamento
 
-O elemento de **deslocamento** descreve o deslocamento, desde o [BaseOffset](baseoffset.md). Em conjunto com o elemento **BaseOffset** , o elemento de **deslocamento** identifica se o tempo é standard ou o horário de verão. 
+O elemento **offset** descreve o deslocamento do [BaseOffset](baseoffset.md). Junto com o elemento **BaseOffset** , o elemento **offset** identifica se o horário é padrão ou horário de verão. 
   
 ```xml
 <Offset/>
 ```
 
  **duration**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,27 +44,27 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Horário de verão](daylight.md) <br/> |Representa a data e hora de quando o tempo é alterado de horário de verão para a hora padrão.  <br/> |
-|[Standard](standard.md) <br/> |Representa a data e hora de quando o tempo é alterado de horário de verão para a hora padrão.  <br/> |
+|[Norte](daylight.md) <br/> |Representa a data e a hora em que o horário muda do horário de verão para o horário padrão.  <br/> |
+|[Standard](standard.md) <br/> |Representa a data e a hora em que o horário muda do horário de verão para o horário padrão.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o deslocamento do tempo Universal Coordenado (UTC).
+O valor de texto representa o deslocamento do tempo universal coordenado (UTC).
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

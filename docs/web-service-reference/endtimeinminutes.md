@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ef05bdda-7a66-44db-bb73-a2ce8316c257
-description: O elemento EndTimeInMinutes representa o final do dia útil para um usuário de caixa de correio.
-ms.openlocfilehash: 2885d810512eb0e575aa25b4f38d28332a10b8f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento EndTimeInMinutes representa o final do dia útil de um usuário de caixa de correio.
+ms.openlocfilehash: cb564f9de944848734749a30c813a94d6b5c4187
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752082"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459648"
 ---
 # <a name="endtimeinminutes"></a>EndTimeInMinutes
 
-O elemento **EndTimeInMinutes** representa o final do dia útil para um usuário de caixa de correio. 
+O elemento **EndTimeInMinutes** representa o final do dia útil de um usuário de caixa de correio. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -44,13 +44,13 @@ O elemento **EndTimeInMinutes** representa o final do dia útil para um usuário
 ```
 
  **int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -60,11 +60,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[WorkingPeriod](workingperiod.md) <br/> |Contém a semana de trabalho dias e horas do usuário da caixa de correio.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i]` <br/> |
+|[WorkingPeriod](workingperiod.md) <br/> |Contém os dias e as horas da semana de trabalho do usuário da caixa de correio.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i]` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. O valor de texto representa o final do dia útil por quantos minutos decorridos desde o início do dia. Por exemplo, uma hora de término das 18h00 é representado por 1080 minutos.
+Um valor de texto é obrigatório. O valor de texto representa o final do dia útil em quantos minutos foram decorridos desde o início do dia. Por exemplo, uma hora de término de 6 P.M. é representado por 1080 minutos.
   
 O intervalo de valores possíveis para esse elemento é de 0 a 1440.
   
@@ -72,16 +72,16 @@ O intervalo de valores possíveis para esse elemento é de 0 a 1440.
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -90,5 +90,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

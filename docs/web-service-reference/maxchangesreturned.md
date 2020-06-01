@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f471db84-a666-4dfa-9993-8ca9113a0384
-description: O elemento MaxChangesReturned descreve o número máximo de alterações que pode ser retornado em uma resposta de sincronização.
-ms.openlocfilehash: c3719b12b7e3e2f83a9454c7b68432b375d78614
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MaxChangesReturned descreve o número máximo de alterações que podem ser retornadas em uma resposta de sincronização.
+ms.openlocfilehash: caf96b6e95f2e63d0e544ead26fbea18cd637861
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824395"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460082"
 ---
 # <a name="maxchangesreturned"></a>MaxChangesReturned
 
-O elemento **MaxChangesReturned** descreve o número máximo de alterações que pode ser retornado em uma resposta de sincronização. 
+O elemento **MaxChangesReturned** descreve o número máximo de alterações que podem ser retornadas em uma resposta de sincronização. 
   
 [SyncFolderItems](syncfolderitems.md)
   
@@ -32,13 +32,13 @@ O elemento **MaxChangesReturned** descreve o número máximo de alterações que
 ```
 
  **int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,26 +48,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |Define uma solicitação para sincronizar os itens em uma pasta de repositório do Exchange.  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |Define uma solicitação para sincronizar itens em uma pasta do repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa um número inteiro que descreve o número máximo de itens que são retornados em uma chamada única de sincronização. O valor deve estar entre 1 e 512, inclusive.
+O valor de texto representa um inteiro que descreve o número máximo de itens retornados em uma única chamada de sincronização. O valor deve estar entre 1 e 512, inclusive.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

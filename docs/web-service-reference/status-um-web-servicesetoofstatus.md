@@ -1,5 +1,5 @@
 ---
-title: Status (UM serviço web - SetOofStatus)
+title: Status (serviço Web da UM-SetOofStatus)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,21 +10,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: 893bcff1-ccdc-493f-b366-ce8a68c813bd
-description: O elemento de Status define o valor a ser usado em uma solicitação do SetOofStatus operação (serviço web de Unificação de mensagens).
-ms.openlocfilehash: 57b4f8fe1a64341b1c2ae0a06bc98f1c9cfd28c4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento status define o valor a ser usado em uma solicitação de operação do SetOofStatus (serviço Web da UM).
+ms.openlocfilehash: 865152baf28c22578664e16db2dcd5f82a04af98
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825583"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459977"
 ---
-# <a name="status-um-web-service---setoofstatus"></a>Status (UM serviço web - SetOofStatus)
+# <a name="status-um-web-service---setoofstatus"></a>Status (serviço Web da UM-SetOofStatus)
 
-O elemento de **Status** define o valor a ser usado em uma solicitação de [operação SetOofStatus (serviço web de Unificação de mensagens)](setoofstatus-operation-um-web-service.md) . 
+O elemento **status** define o valor a ser usado em uma solicitação de [operação do SetOofStatus (serviço Web da um)](setoofstatus-operation-um-web-service.md) . 
   
-[SetOofStatus (serviço web de Unificação de mensagens)](setoofstatus-um-web-service.md)
+[SetOofStatus (serviço Web da UM)](setoofstatus-um-web-service.md)
   
-[Status (UM serviço web - SetOofStatus)](status-um-web-servicesetoofstatus.md)
+[Status (serviço Web da UM-SetOofStatus)](status-um-web-servicesetoofstatus.md)
   
 ```xml
 <SetOofStatus>
@@ -33,13 +33,13 @@ O elemento de **Status** define o valor a ser usado em uma solicitação de [ope
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -49,28 +49,28 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SetOofStatus (serviço web de Unificação de mensagens)](setoofstatus-um-web-service.md) <br/> |Define uma solicitação para definir o status de Unificação de mensagens fora do escritório (OOF) para o usuário que faz com que a solicitação.  <br/> |
+|[SetOofStatus (serviço Web da UM)](setoofstatus-um-web-service.md) <br/> |Define uma solicitação para definir o status de ausência temporária da Unificação de mensagens do Office (OOF) para o usuário que faz a solicitação.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor booleano. Veja a seguir os valores possíveis:
+Um valor booliano é necessário. Veja a seguir os valores possíveis:
   
-- True
+- Verdadeiro
     
-- False
+- Falso
     
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação de SetOofStatus (serviço web de Unificação de mensagens)](setoofstatus-operation-um-web-service.md)
+[Operação SetOofStatus (serviço Web da UM)](setoofstatus-operation-um-web-service.md)
 

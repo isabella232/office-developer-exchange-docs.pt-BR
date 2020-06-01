@@ -9,29 +9,29 @@ api_type:
 - schema
 ms.assetid: bf12f857-5a2e-48fc-83a5-096a44204fd8
 description: O elemento Type representa o tipo de caixa de correio alternativo.
-ms.openlocfilehash: 1aff509144492d369b2f4c71ace2972e6f0e96cf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b94ab77b384fbc0658678225d1116568a63c73c2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837811"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458891"
 ---
 # <a name="type-soap"></a>Tipo (SOAP)
 
-O **tipo** de elemento representa o tipo de caixa de correio alternativo. 
+O elemento **Type** representa o tipo de caixa de correio alternativo. 
   
 ```XML
 <Type/>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -43,24 +43,24 @@ Nenhum.
 |:-----|:-----|
 |[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |Representa uma caixa de correio alternativa.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto do elemento **Type** é o tipo de caixa de correio alternativo. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Referência de web service de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
+[Referência do serviço Web de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
   
-[Elementos de Autodiscover XML SOAP para o Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Elementos XML de descoberta automática SOAP para o Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

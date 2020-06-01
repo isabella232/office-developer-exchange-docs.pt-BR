@@ -1,5 +1,5 @@
 ---
-title: Tipo de dados
+title: DataType
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 267fe5aa-f9b1-4d4c-ac11-0f2e50ec2627
-description: O elemento DataType descreve o tipo de dados que são compartilhados por uma pasta compartilhada.
-ms.openlocfilehash: b1adac8e3029abd64df96ab1560706babe4b12f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DataType descreve o tipo de dados que é compartilhado por uma pasta compartilhada.
+ms.openlocfilehash: a7df8d38e10f0ab31038d790d8f35208d1be66d5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751688"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458828"
 ---
-# <a name="datatype"></a>Tipo de dados
+# <a name="datatype"></a>DataType
 
-O elemento **DataType** descreve o tipo de dados que são compartilhados por uma pasta compartilhada. 
+O elemento **DataType** descreve o tipo de dados que é compartilhado por uma pasta compartilhada. 
   
 ```xml
 <DataType>Calendar or Contacts</DataType>
@@ -29,13 +29,13 @@ O elemento **DataType** descreve o tipo de dados que são compartilhados por uma
 
 **SharingDataType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -47,31 +47,31 @@ Nenhum.
 |:-----|:-----|
 |[GetSharingFolder](getsharingfolder.md) <br/> |Define uma solicitação para obter o identificador de pasta local de uma pasta compartilhada especificada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-A tabela a seguir lista os valores possíveis para o elemento de **tipo de dados** . 
+A tabela a seguir lista os valores possíveis para o elemento **DataType** . 
   
-**Valores de elemento DataType**
+**Valores do elemento DataType**
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Calendário  <br/> |Indica que a pasta compartilhada contém informações de calendário.  <br/> |
+|Calendário  <br/> |Indica que a pasta compartilhada contém informações do calendário.  <br/> |
 |Contatos  <br/> |Indica que a pasta compartilhada contém informações de contato.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

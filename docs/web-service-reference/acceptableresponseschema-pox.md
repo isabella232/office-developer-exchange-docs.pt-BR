@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2f0f77bd-4cbe-4c02-880d-a93b387141d9
-description: O elemento AcceptableResponseSchema identifica o esquema de uma resposta de descoberta automática.
-ms.openlocfilehash: 16444b6b3e17c6774416f90a5a056d0e8025287d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento AcceptableResponseSchema identifica o esquema para uma resposta de descoberta automática.
+ms.openlocfilehash: ffc06f33144af7c8f06e81a12bcb5077719b15b8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752192"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460404"
 ---
 # <a name="acceptableresponseschema-pox"></a>AcceptableResponseSchema (POX)
 
-O elemento **AcceptableResponseSchema** identifica o esquema de uma resposta de descoberta automática. 
+O elemento **AcceptableResponseSchema** identifica o esquema para uma resposta de descoberta automática. 
   
 - [Descoberta automática (POX)](autodiscover-pox.md)
   
@@ -30,13 +30,13 @@ O elemento **AcceptableResponseSchema** identifica o esquema de uma resposta de 
 <AcceptableResponseSchema/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,13 +46,13 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Solicitação (POX)](request-pox.md) <br/> |Contém a solicitação para o serviço Descoberta automática.  <br/> |
+|[Solicitação (POX)](request-pox.md) <br/> |Contém a solicitação para o serviço de descoberta automática.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto identifica a localização do esquema de resposta de descoberta automática.
+O valor de texto identifica o local do esquema de resposta de descoberta automática.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

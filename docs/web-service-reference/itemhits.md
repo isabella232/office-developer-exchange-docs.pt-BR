@@ -1,5 +1,5 @@
 ---
-title: ItemHits
+title: Hits
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b0d54f5-1a04-4781-9f4a-d3e933a8b235
-description: O elemento ItemHits identifica quantas vezes uma palavra-chave foi encontrada.
-ms.openlocfilehash: f980b957c3b07d8ff45c32bbbd8f0465f0d77b22
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento dohits identifica quantas vezes uma palavra-chave foi encontrada.
+ms.openlocfilehash: a7e9165e2628fc1b66323b1d19a9c24131909e34
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824147"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460306"
 ---
-# <a name="itemhits"></a>ItemHits
+# <a name="itemhits"></a>Hits
 
-O elemento **ItemHits** identifica quantas vezes uma palavra-chave foi encontrada. 
+O elemento **dohits** identifica quantas vezes uma palavra-chave foi encontrada. 
   
 ```XML
 <ItemHits></ItemHits>
 ```
 
- **inteiro**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Semantic**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [KeywordStat](keywordstat.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ItemHits** é o número de vezes que uma palavra-chave foi encontrada em uma pesquisa de palavra-chave. 
+O valor de texto do elemento de **hits** é o número de vezes que uma palavra-chave foi encontrada em uma pesquisa de palavra-chave. 
   
 ## <a name="remarks"></a>Comentários
 

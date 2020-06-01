@@ -1,44 +1,44 @@
 ---
-title: EcpUrl-mt POX)
+title: EcpUrl-MT (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5221745b-572c-44a5-afdb-41b58af44971
-description: O elemento EcpUrl-mt Especifica uma URL parcial que pode ser combinada com o valor do elemento EcpUrl POX () para gerar uma URL que pode ser usada para acessar as configurações para um usuário habilitado para email de acompanhamento de mensagens de email.
-ms.openlocfilehash: 13954a4dab8e81f4ba75b3578e6ba7f67f4b8b96
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento EcpUrl-MT especifica uma URL parcial que pode ser combinada com o valor do elemento EcpUrl (POX) para gerar uma URL que possa ser usada para acessar as configurações de controle de mensagens de email de um usuário habilitado para email.
+ms.openlocfilehash: 097811add5635bca14c659814652bca244a1398d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751944"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458709"
 ---
-# <a name="ecpurl-mt-pox"></a>EcpUrl-mt POX)
+# <a name="ecpurl-mt-pox"></a>EcpUrl-MT (POX)
 
-O elemento **EcpUrl-mt** Especifica uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl POX ()](ecpurl-pox.md) para gerar uma URL que pode ser usada para acessar as configurações para um usuário habilitado para email de acompanhamento de mensagens de email. 
+O elemento **EcpUrl-MT** especifica uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que possa ser usada para acessar as configurações de controle de mensagens de email de um usuário habilitado para email. 
   
 [Descoberta automática (POX)](autodiscover-pox.md)
   
-[Resposta POX)](response-pox.md)
+[Resposta (POX)](response-pox.md)
   
 [Conta (POX)](account-pox.md)
   
-[Protocolo (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[EcpUrl-mt POX)](ecpurl-mt-pox.md)
+[EcpUrl-MT (POX)](ecpurl-mt-pox.md)
   
 ```XML
 <EcpUrl-mt/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,26 +48,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl POX ()](ecpurl-pox.md) para gerar uma URL que pode ser usada para acessar as configurações do usuário de acompanhamento de email. O valor do elemento **EcpUrl-mt** contém parâmetros contidos ' <' e ' >' caracteres que são substituídas pelo cliente, conforme mostrado na tabela a seguir. 
+O valor de texto representa uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que possa ser usada para acessar as configurações de controle de email do usuário. O valor do elemento **EcpUrl-MT** contém parâmetros contidos nos caracteres ' < ' e ' > ' que são substituídos pelo cliente, conforme mostrado na tabela a seguir. 
   
-|**Parâmetro**|**Substituir com**|
+|**Parâmetro**|**Substituir por**|
 |:-----|:-----|
-| _IsOwa_ <br/> |m  <br/> |
-| _MsgID_ <br/> |Identificador de mensagens da Internet da mensagem a serem rastreados conforme especificações de HttpCachePolicy o cabeçalho de ID da mensagem.  <br/> |
-| _Mbx_ <br/> |O endereço SMTP do proprietário da caixa de correio.  <br/> |
-| _Sender_ <br/> |O endereço de SMTP do remetente da mensagem.  <br/> |
+| _IsOwa_ <br/> |n  <br/> |
+| _MsgID_ <br/> |Identificador de mensagem da Internet da mensagem a ser rastreada conforme especificado pelo cabeçalho Message-ID.  <br/> |
+| _MBX_ <br/> |O endereço SMTP do proprietário da caixa de correio.  <br/> |
+| _Sender_ <br/> |O endereço SMTP do remetente da mensagem.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O **EcpUrl-mt** é um elemento filho opcionais do elemento de **protocolo** . 
+O elemento **EcpUrl-MT** é um elemento filho opcional do elemento **Protocol** . 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

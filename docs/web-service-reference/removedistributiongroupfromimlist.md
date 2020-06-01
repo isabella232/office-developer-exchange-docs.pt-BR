@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 35d2e592-38c1-4861-8293-f7fba3328f4e
-description: O elemento RemoveDistributionGroupFromImList representa uma solicitação para remover um específicos instant messaging lista grupo de distribuição.
-ms.openlocfilehash: 550cf984bf3df8334909dc6206799d6cf36f46c9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RemoveDistributionGroupFromImList representa uma solicitação para remover um grupo de lista de distribuição de mensagens instantâneas específico.
+ms.openlocfilehash: 0dff549c62c305a86464eaeac165d5f5bc01c9f5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825089"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459592"
 ---
 # <a name="removedistributiongroupfromimlist"></a>RemoveDistributionGroupFromImList
 
-O elemento **RemoveDistributionGroupFromImList** representa uma solicitação para remover um específicos instant messaging lista grupo de distribuição. 
+O elemento **RemoveDistributionGroupFromImList** representa uma solicitação para remover um grupo de lista de distribuição de mensagens instantâneas específico. 
   
 ```XML
 <RemoveDistributionGroupFromImList>
@@ -26,13 +26,13 @@ O elemento **RemoveDistributionGroupFromImList** representa uma solicitação pa
 ```
 
  **RemoveDistributionGroupFromImListType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,7 +40,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
@@ -48,13 +48,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
-|Pode estar vazio  <br/> |false  <br/> |
+|Pode estar vazio  <br/> |falso  <br/> |
    
 

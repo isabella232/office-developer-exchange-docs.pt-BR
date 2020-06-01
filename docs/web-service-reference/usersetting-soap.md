@@ -1,5 +1,5 @@
 ---
-title: UserSetting (SOAP)
+title: Usersetting (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: aac6dc31-edd2-49d7-b845-1df4d77da58c
-description: O elemento UserSetting (SOAP) representa uma configuração de usuário único.
-ms.openlocfilehash: cc58dc3705aa83374f68cd42eb4a51562a7707e6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento usersetting (SOAP) representa uma configuração de usuário único.
+ms.openlocfilehash: 8b9bb41e460c0c9d15c9823acb509b0f837eef32
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838001"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459767"
 ---
-# <a name="usersetting-soap"></a>UserSetting (SOAP)
+# <a name="usersetting-soap"></a>Usersetting (SOAP)
 
-O elemento [UserSetting (SOAP)](usersetting-soap.md) representa uma configuração de usuário único. 
+O elemento [usersetting (SOAP)](usersetting-soap.md) representa uma configuração de usuário único. 
   
 ```XML
 <UserSetting>
@@ -26,14 +26,14 @@ O elemento [UserSetting (SOAP)](usersetting-soap.md) representa uma configuraç�
 </UserSetting>
 ```
 
- **UserSetting**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Usersetting**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,19 +45,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserSettings (SOAP)](usersettings-soap.md) <br/> |Representa uma coleção de configurações do usuário.  <br/> |
+|[UserSettings (SOAP)](usersettings-soap.md) <br/> |Representa uma coleção de configurações de usuário.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 

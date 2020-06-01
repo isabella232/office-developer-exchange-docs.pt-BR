@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 90709f5b-4a1d-49d2-9236-ecd02bb3cdf8
-description: O elemento LargeAudienceCap Especifica o número máximo de destinatários para uma mensagem de email.
-ms.openlocfilehash: c207ad37b01e582ebe68f179186354b6d7f8e691
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento LargeAudienceCap especifica o número máximo de destinatários para uma mensagem de email.
+ms.openlocfilehash: 932cac7ac1a62de7066573bbb2db3d0a338b2379
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824196"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460103"
 ---
 # <a name="largeaudiencecap"></a>LargeAudienceCap
 
-O elemento **LargeAudienceCap** Especifica o número máximo de destinatários para uma mensagem de email. 
+O elemento **LargeAudienceCap** especifica o número máximo de destinatários para uma mensagem de email. 
   
 ```XML
 <LargeAudienceCap></LargeAudienceCap>
 ```
 
- **inteiro**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Semantic**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **LargeAudienceCap** é o número máximo de destinatários que podem ser abordados em uma mensagem de email. 
+O valor de texto do elemento **LargeAudienceCap** é o número máximo de destinatários que podem ser endereçados em uma mensagem de email. 
   
 ## <a name="remarks"></a>Comentários
 

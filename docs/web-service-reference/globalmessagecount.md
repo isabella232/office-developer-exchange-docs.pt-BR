@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: e2ac4677-9645-4a1e-911c-17a5a08e2b21
-description: O elemento GlobalMessageCount contém o número total de itens de conversa, na caixa de correio.
-ms.openlocfilehash: 2dd871c1614bd537aeb7e7bf362b56adae7e4b7a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GlobalMessageCount contém o número total de itens de conversa na caixa de correio.
+ms.openlocfilehash: fd828970bddb2dcc4dedf429ac5eb6cf31f9fb57
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823741"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459402"
 ---
 # <a name="globalmessagecount"></a>GlobalMessageCount
 
-O elemento **GlobalMessageCount** contém o número total de itens de conversa, na caixa de correio. 
+O elemento **GlobalMessageCount** contém o número total de itens de conversa na caixa de correio. 
   
 [FindConversationResponse](findconversationresponse.md)
   
 [Conversas](conversations-ex15websvcsotherref.md)
   
-[Conversa (ConversationType)](conversation-conversationtype.md)
+[Conversa (Conversatype)](conversation-conversationtype.md)
   
 [GlobalMessageCount](globalmessagecount.md)
   
@@ -35,14 +35,14 @@ O elemento **GlobalMessageCount** contém o número total de itens de conversa, 
 <GlobalMessageCount/>
 ```
 
- **xs:int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **xs: int**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,26 +52,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto do elemento **GlobalMessageCount** é o número total de itens de conversa em uma caixa de correio. 
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -80,5 +80,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 [Operação ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversas no EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversas no EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

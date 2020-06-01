@@ -8,25 +8,25 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 709dbe53-6141-41f8-a2b9-a399bae47991
-description: O elemento AuthPackage Especifica o esquema de autenticação usado quando se autenticar no servidor do Exchange que possui a função de servidor de caixa de correio instalada.
-ms.openlocfilehash: 120ec00ac82166ae2002a8fbac0edf9a1e23afc7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento AuthPackage especifica o esquema de autenticação que é usado na autenticação no servidor do Exchange que tem a função de servidor caixa de Correio instalada.
+ms.openlocfilehash: 5317cf49d354a558417829e1d1b5b67cd6874309
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751236"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459101"
 ---
 # <a name="authpackage-pox"></a>AuthPackage (POX)
 
-O elemento **AuthPackage** Especifica o esquema de autenticação usado quando se autenticar no servidor do Exchange que possui a função de servidor de caixa de correio instalada. 
+O elemento **AuthPackage** especifica o esquema de autenticação que é usado na autenticação no servidor do Exchange que tem a função de servidor caixa de Correio instalada. 
   
 - [Descoberta automática (POX)](autodiscover-pox.md)
   
-- [Resposta POX)](response-pox.md)
+- [Resposta (POX)](response-pox.md)
   
 - [Conta (POX)](account-pox.md)
   
-- [Protocolo (POX)](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
   
 - [AuthPackage (POX)](authpackage-pox.md)
   
@@ -34,13 +34,13 @@ O elemento **AuthPackage** Especifica o esquema de autenticação usado quando s
 <AuthPackage>basic or kerb or kerbntlm or ntlm or certificate or negotiate or nego2</AuthPackage>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,29 +50,29 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o servidor de acesso para cliente.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao servidor de acesso para cliente.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto Especifica o esquema de autenticação que é usado durante a autenticação com base no servidor de caixa de correio. Veja a seguir os valores possíveis:
+O valor de texto especifica o esquema de autenticação usado na autenticação no servidor de caixa de correio. Veja a seguir os valores possíveis:
   
-- básico
-- KERBTRAY localizado
+- Basic
+- kerb
 - kerbntlm
-- NTLM
+- NTML
 - certificado
-- negociar
+- negocia
 - nego2
     
 ## <a name="remarks"></a>Comentários
 
-O elemento **AuthPackage** é usado apenas quando o elemento de [Tipo POX ()](type-pox.md) tem um valor de texto de EXCH ou EXPR. 
+O elemento **AuthPackage** é usado somente quando o elemento [tipo (POX)](type-pox.md) tem um valor de texto de Exch ou expr. 
   
 ### <a name="version-differences"></a>Diferenças de versão
 
-O Office 365, Exchange Online e versões de local do Exchange começando com compilação 15.00.0995.014 retorno um valor igual a "negociar" somente se o servidor está configurado para usar a autenticação negociar e o cliente incluir um cabeçalho [X-ClientCanHandle](pox-autodiscover-request-for-exchange.md) que contém "Negociar". 
+O Office 365, o Exchange Online e as versões locais do Exchange começando com o Build 15.00.0995.014 retornam um valor de "Negotiate" somente se o servidor estiver configurado para usar a autenticação de negociação e o cliente incluir um cabeçalho [X-ClientCanHandle](pox-autodiscover-request-for-exchange.md) que contenha "negociar". 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

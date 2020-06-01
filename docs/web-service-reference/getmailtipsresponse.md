@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: fe270e34-566e-4f9e-9e73-fbf38e06436d
-description: O elemento GetMailTipsResponse representa a mensagem de resposta para uma operação de GetMailTips.
-ms.openlocfilehash: e7a18e8818761af931d32b26aeaf58a2853fa684
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetMailTipsResponse representa a mensagem de resposta para uma operação condicas de email.
+ms.openlocfilehash: 2c0dcfe4e2deddcf9a6f4bb9d68d59115c171796
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752555"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458604"
 ---
 # <a name="getmailtipsresponse"></a>GetMailTipsResponse
 
-O elemento **GetMailTipsResponse** representa a mensagem de resposta para uma [operação de GetMailTips](getmailtips-operation.md).
+O elemento **GetMailTipsResponse** representa a mensagem de resposta para uma [operação condicas](getmailtips-operation.md)de email.
   
 ```XML
 <GetMailTipsResponse>
@@ -30,25 +30,25 @@ O elemento **GetMailTipsResponse** representa a mensagem de resposta para uma [o
 ```
 
  **GetMailTipsResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages (ArrayOfMailTipsResponseMessageType)](responsemessages-arrayofmailtipsresponsemessagetype.md) <br/> |Representa uma lista das mensagens de resposta de dicas de email.  <br/> |
+|[ResponseMessages (ArrayOfMailTipsResponseMessageType)](responsemessages-arrayofmailtipsresponsemessagetype.md) <br/> |Representa uma lista de mensagens de resposta de dicas de email.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -56,20 +56,20 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação GetMailTips](getmailtips-operation.md)
+[Operação](getmailtips-operation.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

@@ -1,5 +1,5 @@
 ---
-title: ImAddresses
+title: Imendereços
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 29f614a7-7fe6-47fa-b5f2-8feff106aa99
-description: O elemento ImAddresses representa uma coleção de endereços de mensagens instantâneas de um contato.
-ms.openlocfilehash: e8c7a22e8537a4526594042905f7bb8454238bf1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ImAddresses representa uma coleção de endereços de mensagens instantâneas para um contato.
+ms.openlocfilehash: 24ff74d29c918d71116e25e097878b6e4e0a8ead
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823861"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460425"
 ---
-# <a name="imaddresses"></a>ImAddresses
+# <a name="imaddresses"></a>Imendereços
 
-O elemento **ImAddresses** representa uma coleção de endereços de mensagens instantâneas de um contato. 
+O elemento **ImAddresses** representa uma coleção de endereços de mensagens instantâneas para um contato. 
   
 ```xml
 <ImAddresses>
@@ -30,19 +30,19 @@ O elemento **ImAddresses** representa uma coleção de endereços de mensagens i
 ```
 
  **ImAddressDictionaryType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Entrada (IMAddress)](entry-imaddress.md) <br/> |Representa um endereço para um contato de mensagens instantâneas.  <br/> |
+|[Entrada (IMAddress)](entry-imaddress.md) <br/> |Representa um endereço de mensagens instantâneas para um contato.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -54,16 +54,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

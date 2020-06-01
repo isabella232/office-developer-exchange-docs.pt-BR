@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: cbcfa469-242c-4f98-8f4f-2c9bcbe69f5a
-description: O elemento ExternalReply contém o limite de resposta de ausência temporária que será enviada para endereços fora do domínio ou os domínios confiáveis do destinatário.
-ms.openlocfilehash: f318b34c98dd42487b8ca3791ba915fb91d629a5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ExternalReply contém a resposta de ausência temporária (OOF) que é enviada para endereços fora do domínio do destinatário ou domínios confiáveis.
+ms.openlocfilehash: c3381979e5e6aad51f9ae2bb3e661003ef793be6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752223"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458758"
 ---
 # <a name="externalreply"></a>ExternalReply
 
-O elemento **ExternalReply** contém o limite de resposta de ausência temporária que será enviada para endereços fora do domínio ou os domínios confiáveis do destinatário. 
+O elemento **ExternalReply** contém a resposta de ausência temporária (OOF) que é enviada para endereços fora do domínio do destinatário ou domínios confiáveis. 
   
 ```XML
 <ExternalReply>
@@ -30,15 +30,15 @@ O elemento **ExternalReply** contém o limite de resposta de ausência temporár
 ```
 
  **ReplyBody**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|XML: lang  <br/> |Especifica o idioma usado na mensagem **ExternalReply** . Os valores possíveis para este atributo são definidos por IETF RFC 3066.  <br/> |
+|XML: lang  <br/> |Especifica o idioma usado na mensagem **ExternalReply** . Os valores possíveis para este atributo são definidos pela IETF RFC 3066.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,8 +50,8 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -59,19 +59,19 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação de SetUserOofSettings define o [OofState](oofstate.md) como **habilitada**, define a duração de ausência temporária para 10 dias e define as mensagens de ausência temporária internas e externas.
+O exemplo a seguir de uma solicitação SetUserOofSettings define o [OofState](oofstate.md) como **habilitado**, define a duração de OOF como 10 dias e define as mensagens de ausência temporária interna e externa.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -90,16 +90,16 @@ O exemplo a seguir de uma solicitação de SetUserOofSettings define o [OofState
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

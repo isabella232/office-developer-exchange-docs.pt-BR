@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 769df8eb-9c72-48b5-a49f-82c6b86bc5fc
-description: O elemento de GetItem define uma solicitação para obter um item de uma caixa de correio no armazenamento do Exchange.
-ms.openlocfilehash: 39db141bad62c34bec5ae6a937ba94c2d1288090
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetItem define uma solicitação para obter um item de uma caixa de correio no repositório do Exchange.
+ms.openlocfilehash: a02403ee84195a41387d5dbe1785ae6d12b47da5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752548"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458695"
 ---
 # <a name="getitem"></a>GetItem
 
-O elemento de **GetItem** define uma solicitação para obter um item de uma caixa de correio no armazenamento do Exchange. 
+O elemento **GetItem** define uma solicitação para obter um item de uma caixa de correio no repositório do Exchange. 
   
 ```xml
 <GetItem>
@@ -31,39 +31,39 @@ O elemento de **GetItem** define uma solicitação para obter um item de uma cai
 ```
 
  **GetItemType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ItemShape](itemshape.md) <br/> |Identifica o conteúdo a ser incluído em uma resposta **GetItem** e propriedades do item.  <br/> |
-|[ItemIds](itemids.md) <br/> |Contém as identidades exclusivas dos itens, itens de ocorrência e itens recorrentes de mestres que são usados para obter os itens do armazenamento do Exchange. Esses itens representam contatos, tarefas, mensagens, itens de calendário, solicitações de reunião e outros itens válidos em uma caixa de correio.  <br/> |
+|[Shape](itemshape.md) <br/> |Identifica as propriedades e o conteúdo do item que serão incluídos em uma resposta **GetItem** .  <br/> |
+|[ItemIds](itemids.md) <br/> |Contém as identidades exclusivas de itens, itens de ocorrência e itens mestre recorrentes que são usados para obter itens do repositório do Exchange. Estes itens representam contatos, tarefas, mensagens, itens de calendário, solicitações de reunião e outros itens válidos em uma caixa de correio.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nome do esquema  <br/> |Esquema de mensagem  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

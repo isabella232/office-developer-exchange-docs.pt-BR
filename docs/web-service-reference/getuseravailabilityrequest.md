@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7906711b-80a1-42ae-8b33-26eeac036a5a
 description: O elemento GetUserAvailabilityRequest contém os argumentos usados para obter informações de disponibilidade do usuário. Este é um elemento raiz.
-ms.openlocfilehash: 5440f739b09bfbe27ad97cba99c08756686594f7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6c2e2c5452b6379171e49cf6aea2d437152ecb9b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823683"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459115"
 ---
 # <a name="getuseravailabilityrequest"></a>GetUserAvailabilityRequest
 
@@ -33,42 +33,42 @@ O elemento **GetUserAvailabilityRequest** contém os argumentos usados para obte
 ```
 
  **GetUserAvailabilityRequestType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Fuso horário (disponibilidade)](timezone-availability.md) <br/> |Contém os elementos que identificam as informações de fuso horário. Esse elemento também contém informações sobre a transição entre o período padrão e o horário de verão.  <br/> |
-|[MailboxDataArray](mailboxdataarray.md) <br/> |Contém uma lista de caixas de correio para consultar informações sobre a disponibilidade.  <br/> |
+|[Fuso horário (disponibilidade)](timezone-availability.md) <br/> |Contém elementos que identificam informações de fuso horário. Esse elemento também contém informações sobre a transição entre o horário padrão e o horário de verão.  <br/> |
+|[MailboxDataArray](mailboxdataarray.md) <br/> |Contém uma lista de caixas de correio para consultar informações de disponibilidade.  <br/> |
 |[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Especifica o tipo de informações de disponibilidade retornadas na resposta.  <br/> |
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para a obtenção de informações de sugestão de reunião.  <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para obter informações de sugestão de reunião.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório /EWS/ do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório/EWS/do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra uma solicitação de informações de livre/ocupado.
+O exemplo a seguir mostra uma solicitação de informações de disponibilidade.
   
 ```
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUserAvailabilityRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserAvailabilityRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Bias>480</Bias>
         <StandardTime>
           <Bias>0</Bias>
@@ -86,7 +86,7 @@ O exemplo a seguir mostra uma solicitação de informações de livre/ocupado.
         </DaylightTime>
       </TimeZone>
       <MailboxDataArray>
-        <MailboxData xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <MailboxData xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Email>
             <Name></Name>
             <Address>someone@exchangeserver.example.com</Address>
@@ -97,7 +97,7 @@ O exemplo a seguir mostra uma solicitação de informações de livre/ocupado.
           <ExcludeNonWorkingHours>false</ExcludeNonWorkingHours>
         </MailboxData>
       </MailboxDataArray>
-      <FreeBusyViewOptions xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <FreeBusyViewOptions xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <TimeWindow>
           <StartTime>2006-02-06T00:00:00</StartTime>
           <EndTime>2006-02-30T23:59:59</EndTime>
@@ -110,16 +110,16 @@ O exemplo a seguir mostra uma solicitação de informações de livre/ocupado.
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -128,5 +128,5 @@ O exemplo a seguir mostra uma solicitação de informações de livre/ocupado.
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

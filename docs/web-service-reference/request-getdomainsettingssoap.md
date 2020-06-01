@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 3ea026fc-74f1-4118-86ae-908ed4f82a4b
-description: O elemento de solicitação contém uma solicitação para retornar as configurações de domínio.
-ms.openlocfilehash: 71a6072d476fd665dad8b0c0fe388a40db56e059
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Request contém uma solicitação para retornar as configurações de domínio.
+ms.openlocfilehash: c5f666102be8aaeee001a23706732e9e6c44b560
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825135"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459585"
 ---
 # <a name="request-getdomainsettings-soap"></a>Solicitação (GetDomainSettings) (SOAP)
 
-O elemento de **solicitação** contém uma solicitação para retornar as configurações de domínio. 
+O elemento **Request** contém uma solicitação para retornar as configurações de domínio. 
   
 ```xml
 <Request>
@@ -28,43 +28,43 @@ O elemento de **solicitação** contém uma solicitação para retornar as confi
 ```
 
  **GetDomainSettingsRequest**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Domínios (SOAP)](domains-soap.md) <br/> |Representa os domínios que as configurações para o qual são retornadas em uma [operação de GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md) ou os domínios que a organização tem federados em uma [operação de GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md).  <br/> |
-|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Contém os nomes das definições de configuração solicitada.  <br/> |
+|[Domínios (SOAP)](domains-soap.md) <br/> |Representa os domínios em que as configurações para as quais são retornadas em uma [operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md) ou os domínios que a organização têm federado em uma [operação GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md).  <br/> |
+|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Contém os nomes das definições de configuração solicitadas.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetDomainSettingsRequestMessage (SOAP)](getdomainsettingsrequestmessage-soap.md) <br/> |Representa uma solicitação de [operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md).  <br/> |
+|[GetDomainSettingsRequestMessage (SOAP)](getdomainsettingsrequestmessage-soap.md) <br/> |Representa uma solicitação de [operação de GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md).  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Operação de GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+[Operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7789eec5-ceec-43f2-84d5-d0d15b734076
-description: O elemento ignorar identifica os itens a serem ignorados durante a sincronização.
-ms.openlocfilehash: 0ecff9bfeb1257552b7e52c0115e9e814edecd4b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ignore identifica itens que serão ignorados durante a sincronização.
+ms.openlocfilehash: b65d11d8c7655279dac0e7d3cbd13f8a9317540c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823858"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458569"
 ---
 # <a name="ignore"></a>Ignorar
 
-O elemento **Ignorar** identifica os itens a serem ignorados durante a sincronização. 
+O elemento **ignore** identifica itens que serão ignorados durante a sincronização. 
   
 [SyncFolderItems](syncfolderitems.md)
   
@@ -34,40 +34,40 @@ O elemento **Ignorar** identifica os itens a serem ignorados durante a sincroniz
 ```
 
  **ArrayOfBaseItemIdsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |Contém o identificador e alterar a chave exclusiva de um item no armazenamento do Exchange.  <br/> |
+|[ItemId](itemid.md) <br/> |Contém o identificador exclusivo e a chave de alteração de um item no repositório do Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |Define uma solicitação para sincronizar os itens em uma pasta de repositório do Exchange.  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |Define uma solicitação para sincronizar itens em uma pasta do repositório do Exchange.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

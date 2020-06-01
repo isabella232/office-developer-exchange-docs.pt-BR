@@ -11,44 +11,44 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4
-description: A operação UpdateItem é usada para modificar as propriedades de um item existente no armazenamento do Exchange.
-ms.openlocfilehash: 009ba16315017c4418fbd71d49744015c4d6d1b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação UpdateItem é usada para modificar as propriedades de um item existente no repositório do Exchange.
+ms.openlocfilehash: c001b7656862144023e9704cb04e6b4c0030f9df
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837913"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459388"
 ---
 # <a name="updateitem-operation"></a>Operação UpdateItem
 
-A operação **UpdateItem** é usada para modificar as propriedades de um item existente no armazenamento do Exchange. 
+A operação **UpdateItem** é usada para modificar as propriedades de um item existente no repositório do Exchange. 
   
 ## <a name="remarks"></a>Comentários
 
-Você pode executar três ações de atualização básica em um item. A tabela a seguir lista as ações que podem ser executadas.
+Você pode executar três ações básicas de atualização em um item. A tabela a seguir lista as ações que você pode executar.
   
 |**Action**|**Descrição**|
 |:-----|:-----|
-|Acréscimo  <br/> |Adiciona dados a uma propriedade existente. Essa ação preserva os dados atuais. Acrescentar não se aplica a todas as propriedades.  <br/> |
-|Conjunto  <br/> |Substitui os dados de uma propriedade se a propriedade contém dados, ou cria a propriedade e define seu valor se a propriedade não existir. A ação set só é aplicável às propriedades graváveis.  <br/> |
-|Excluir  <br/> |Remove uma propriedade de um item. Isso é diferente da configuração de uma propriedade para um valor vazio. Quando essa ação for concluída, a propriedade não existe para o item. Excluir só é aplicável às propriedades graváveis.  <br/> |
+|Append  <br/> |Adiciona dados a uma propriedade existente. Esta ação preserva os dados atuais. Append não se aplica a todas as propriedades.  <br/> |
+|Set  <br/> |Substitui dados de uma propriedade se a propriedade contiver dados ou criar a propriedade e define seu valor se a propriedade não existir. A ação Set só é aplicável a propriedades graváveis.  <br/> |
+|Excluir  <br/> |Remove uma propriedade de um item. Isso difere da definição de uma propriedade para um valor vazio. Quando essa ação é concluída, a propriedade não existe para o item. Delete só é aplicável a propriedades graváveis.  <br/> |
    
-Uma chamada **UpdateItem** pode ser usada para modificar um ou mais itens e uma ou mais propriedades em cada item. O elemento [ItemChanges](itemchanges.md) contém todas as modificações que devem ser executadas como parte desta chamada. O elemento [ItemChange](itemchange.md) , um filho do elemento [ItemChanges](itemchanges.md) , representa as modificações para ser executado em um único item. O elemento de [ItemChange](itemchange.md) contém um conjunto de ações de atualização que podem ser executadas em um único item. Essas alterações estão contidas no elemento [atualizações (Item)](updates-item.md) . O elemento [ItemId](itemid.md) identifica o item a ser atualizado. Para atualizar mais de uma propriedade em um item, um [SetItemField](setitemfield.md), [AppendToItemField](appendtoitemfield.md)ou [DeleteItemField](deleteitemfield.md) deve ser fornecido para cada propriedade que requer a atualização. 
+Uma chamada **UpdateItem** pode ser usada para modificar um ou mais itens e uma ou mais propriedades em cada item. O elemento [Mychanges](itemchanges.md) contém todas as modificações que devem ser realizadas como parte desta chamada. O elemento [ItemChange](itemchange.md) , um filho [do elemento items](itemchanges.md) , representa as modificações a serem realizadas em um único item. O elemento [ItemChange](itemchange.md) contém um conjunto de ações de atualização que podem ser executadas em um único item. Essas alterações estão contidas no elemento [Updates (item)](updates-item.md) . O elemento [ItemId](itemid.md) identifica o item a ser atualizado. Para atualizar mais de uma propriedade em um item, um [Setitemfield](setitemfield.md), [AppendToItemField](appendtoitemfield.md)ou [DeleteItemField](deleteitemfield.md) deve ser fornecido para cada propriedade que requer a atualização. 
   
 > [!NOTE]
-> Ações de atualização são aplicadas na ordem na qual foram especificados. 
+> As ações de atualização são aplicadas na ordem em que são especificadas. 
   
-Para cada alteração, você precisará especificar o caminho da propriedade para alterar e uma representação de um item com o seu novo valor. A ação Excluir é ligeiramente diferente apenas o caminho da propriedade que deve ser excluído é necessário. Para definir e acrescentar ações, o caminho especificado deve se referir a mesma propriedade que está sendo definida na representação do item. Se eles forem diferentes, um erro será retornado.
+Para cada alteração, você precisa especificar o caminho da propriedade a ser alterada e uma representação desse item com o novo valor. A ação de exclusão é ligeiramente diferente, pois apenas o caminho da propriedade que deve ser excluído é obrigatório. Para ações set e Append, o caminho especificado deve se referir à mesma propriedade que está sendo definida na representação do item. Se forem diferentes, um erro será retornado.
   
-A operação **UpdateItem** pode definir a hora de [início](start.md) e [término](end-ex15websvcsotherref.md) de um item de armazenamento do Exchange. Em uma solicitação de **UpdateItem** , a hora de [início](start.md) pode ser definida sem também definir a hora de [término](end-ex15websvcsotherref.md) . Isso pode causar um erro se a hora de [início](start.md) é posterior à hora de [término](end-ex15websvcsotherref.md) . Lembre-se de que os aplicativos cliente devem ajustar a hora de [término](end-ex15websvcsotherref.md) quando a hora de [início](start.md) for alterada para preservar a duração. 
+A operação **UpdateItem** pode definir a hora de [início](start.md) e de [término](end-ex15websvcsotherref.md) de um item do repositório do Exchange. Em uma solicitação **UpdateItem** , a hora de [início](start.md) pode ser definida sem definir também a hora de [término](end-ex15websvcsotherref.md) . Isso pode causar um erro se a hora de [início](start.md) for posterior à hora de [término](end-ex15websvcsotherref.md) . Lembre-se de que os aplicativos cliente devem ajustar a hora de [término](end-ex15websvcsotherref.md) quando a hora de [início](start.md) é alterada para preservar a duração. 
   
-Quando um item de calendário único é atualizado para se tornar um item de calendário mestre recorrente, a propriedade [MeetingTimeZone](meetingtimezone.md) deve ser definida pela operação de **UpdateItem** para preservar o fuso horário original do item de calendário. 
+Quando um único item de calendário é atualizado para se tornar um item de calendário mestre recorrente, a propriedade [MeetingTimeZone](meetingtimezone.md) deve ser definida pela operação **UpdateItem** para preservar o fuso horário original do item do calendário. 
   
-## <a name="setitemfield-request-example"></a>Exemplo de solicitação de SetItemField
+## <a name="setitemfield-request-example"></a>Exemplo de solicitação setitemfield
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **UpdateItem** mostra como definir a propriedade sensitivity em um item. 
+O exemplo a seguir de uma solicitação **UpdateItem** mostra como definir a propriedade sensibilidade em um item. 
   
 ### <a name="code"></a>Código
 
@@ -57,10 +57,10 @@ O exemplo a seguir de uma solicitação de **UpdateItem** mostra como definir a 
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkb..." ChangeKey="CQAAABYAAAB..."/>
@@ -79,37 +79,37 @@ O exemplo a seguir de uma solicitação de **UpdateItem** mostra como definir a 
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-O identificador do item e alterar chave foram diminuídas para preservar a legibilidade.
+O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade.
   
-### <a name="setitemfield-request-elements"></a>Elementos de solicitação de SetItemField
+### <a name="setitemfield-request-elements"></a>Elementos de solicitação setitemfield
 
 Os seguintes elementos são usados na solicitação:
   
 - [UpdateItem](updateitem.md)
     
-- [ItemChanges](itemchanges.md)
+- [Alterações](itemchanges.md)
     
 - [ItemChange](itemchange.md)
     
 - [ItemId](itemid.md)
     
-- [Atualizações (Item)](updates-item.md)
+- [Atualizações (item)](updates-item.md)
     
-- [SetItemField](setitemfield.md)
+- [Setitemfield](setitemfield.md)
     
 - [FieldURI](fielduri.md)
     
-- [Mensagem](message-ex15websvcsotherref.md)
+- [Message](message-ex15websvcsotherref.md)
     
 - [Sensitivity](sensitivity.md)
     
-## <a name="appendtoitemfield-request-example"></a>Exemplo de solicitação de AppendToItemField
+## <a name="appendtoitemfield-request-example"></a>Exemplo de solicitação AppendToItemField
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **UpdateItem** mostra como acrescentar texto a propriedade body em um item. 
+O exemplo a seguir de uma solicitação **UpdateItem** mostra como acrescentar texto à Propriedade Body em um item. 
   
 ### <a name="code"></a>Código
 
@@ -118,10 +118,10 @@ O exemplo a seguir de uma solicitação de **UpdateItem** mostra como acrescenta
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
   xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkbW..." ChangeKey="CQAAABYA..."/>
@@ -140,45 +140,45 @@ O exemplo a seguir de uma solicitação de **UpdateItem** mostra como acrescenta
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-As propriedades a seguir oferecem suporte à ação de append:
+As propriedades a seguir dão suporte à ação Append:
   
 - **mensagem: ReplyTo**
     
-- **Corpo do item:**
+- **item: Body**
     
-- Todas as participante e destinatário coleção propriedades
+- Todas as propriedades de coleção Recipient e participante
     
-O identificador do item e alterar chave foram diminuídas para preservar a legibilidade.
+O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade.
   
-### <a name="appendtoitemfield-request-elements"></a>Elementos de solicitação de AppendToItemField
+### <a name="appendtoitemfield-request-elements"></a>Elementos de solicitação AppendToItemField
 
 Os seguintes elementos são usados na solicitação:
   
 - [UpdateItem](updateitem.md)
     
-- [ItemChanges](itemchanges.md)
+- [Alterações](itemchanges.md)
     
 - [ItemChange](itemchange.md)
     
 - [ItemId](itemid.md)
     
-- [Atualizações (Item)](updates-item.md)
+- [Atualizações (item)](updates-item.md)
     
 - [AppendToItemField](appendtoitemfield.md)
     
 - [FieldURI](fielduri.md)
     
-- [Mensagem](message-ex15websvcsotherref.md)
+- [Message](message-ex15websvcsotherref.md)
     
-- [Corpo](body.md)
+- [Body](body.md)
     
-## <a name="deleteitemfield-request-example"></a>Exemplo de solicitação de DeleteItemField
+## <a name="deleteitemfield-request-example"></a>Exemplo de solicitação DeleteItemField
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **UpdateItem** mostra como excluir uma propriedade em um item. 
+O exemplo a seguir de uma solicitação **UpdateItem** mostra como excluir uma propriedade em um item. 
   
 ### <a name="code"></a>Código
 
@@ -186,10 +186,10 @@ O exemplo a seguir de uma solicitação de **UpdateItem** mostra como excluir um
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkbWluaXN0cm..." ChangeKey="CQAAABYAA..."/>
@@ -205,23 +205,23 @@ O exemplo a seguir de uma solicitação de **UpdateItem** mostra como excluir um
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-O identificador do item e alterar chave foram diminuídas para preservar a legibilidade.
+O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade.
   
-### <a name="deleteitemfield-request-elements"></a>Elementos de solicitação de DeleteItemField
+### <a name="deleteitemfield-request-elements"></a>Elementos de solicitação DeleteItemField
 
 Os seguintes elementos são usados na solicitação:
   
 - [UpdateItem](updateitem.md)
     
-- [ItemChanges](itemchanges.md)
+- [Alterações](itemchanges.md)
     
 - [ItemChange](itemchange.md)
     
 - [ItemId](itemid.md)
     
-- [Atualizações (Item)](updates-item.md)
+- [Atualizações (item)](updates-item.md)
     
 - [DeleteItemField](deleteitemfield.md)
     
@@ -231,7 +231,7 @@ Os seguintes elementos são usados na solicitação:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de **UpdateItem** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **UpdateItem** . 
   
 ### <a name="code"></a>Código
 
@@ -242,12 +242,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de **Upd
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="664" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <UpdateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -263,11 +263,11 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de **Upd
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-O identificador do item e alterar chave foram diminuídas para preservar a legibilidade.
+O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade.
   
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -281,13 +281,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-- [Items](items.md)
+- [Itens](items.md)
     
-- [Mensagem](message-ex15websvcsotherref.md)
+- [Message](message-ex15websvcsotherref.md)
     
 - [ItemId](itemid.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
@@ -299,7 +299,7 @@ Os seguintes elementos são usados na resposta:
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Atualizar contatos](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
+[Atualizando contatos](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   
-[Atualizar as tarefas](http://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
+[Atualizando tarefas](https://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
 

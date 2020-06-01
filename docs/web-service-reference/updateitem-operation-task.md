@@ -11,37 +11,37 @@ api_name:
 api_type:
 - schema
 ms.assetid: b0a7f114-d040-40eb-a8f3-05ea6489e472
-description: A operação UpdateItem é usada para atualizar as propriedades de item de tarefa no armazenamento do Exchange.
-ms.openlocfilehash: d6f966fa663300b476383a136d30cf611d6bfb9b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação UpdateItem é usada para atualizar as propriedades do item de tarefa no repositório do Exchange.
+ms.openlocfilehash: 0041af114d11fd9577037dd154e40b84e8483c35
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837912"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459802"
 ---
 # <a name="updateitem-operation-task"></a>Operação UpdateItem (tarefa)
 
-A operação UpdateItem é usada para atualizar as propriedades de item de tarefa no armazenamento do Exchange.
+A operação UpdateItem é usada para atualizar as propriedades do item de tarefa no repositório do Exchange.
   
 ## <a name="remarks"></a>Comentários
 
-Você não pode usar os serviços Web do Exchange para enviar solicitações de tarefa. Serviços Web do Exchange pode retornar as solicitações de tarefa que são criadas por MicrosoftOfficeOutlook. Se já tiver sido enviada a uma solicitação de tarefa, uma solicitação para atualizar a tarefa retornará um erro.
+Você não pode usar os serviços Web do Exchange para enviar solicitações de tarefa. Os serviços Web do Exchange podem retornar solicitações de tarefas criadas pelo MicrosoftOfficeOutlook. Se uma solicitação de tarefa já tiver sido enviada, uma solicitação para atualizar a tarefa retornará um erro.
   
 ## <a name="updating-the-current-occurrence-of-a-recurring-task"></a>Atualizando a ocorrência atual de uma tarefa recorrente
 
-O resultado de uma operação de UpdateItem em tarefas recorrentes difere do resultado da operação UpdateItem sobre uma tarefa única e nonrecurring. Alterações em uma ocorrência de uma tarefa recorrente causar únicas tarefas a serem gerados quando as seguintes atualizações são feitas:
+O resultado de uma operação UpdateItem em tarefas recorrentes difere do resultado da operação UpdateItem em uma única tarefa recorrente. Alterações a uma ocorrência de uma tarefa recorrente fazem com que as tarefas individuais sejam geradas quando as seguintes atualizações são feitas:
   
-1. A propriedade do status de uma tarefa recorrente regeneração ou nonregenerating é definida como **concluído**.
+1. A propriedade status de uma tarefa regeradora ou nonregenerating recorrente está definida como **concluída**.
     
-2. A data de início ou data de término de uma tarefa recorrente nonregenerating é alterada.
+2. A data de início ou a data de término de uma tarefa recorrente de nonregenerating é alterada.
     
-Por exemplo, se uma solicitação de **UpdateItem** define o valor de concluído de uma tarefa recorrente como **true**, o **UpdateItemResponse** incluirá uma nova Id e ChangeKey que representam uma tarefa único recém-criado. A Id que foi incluída na solicitação ainda é válida e a tarefa recorrente que é representada por esse Id foi atualizada para representar a próxima ocorrência. O que foi incluída na solicitação ChangeKey não é mais válido porque a tarefa recorrente foi atualizada. 
+Por exemplo, se uma solicitação **UpdateItem** define o valor concluído de uma tarefa recorrente como **true**, o **UpdateItemResponse** incluirá uma nova ID e ChangeKey que representam uma tarefa única recém-criada. A ID que foi incluída na solicitação ainda é válida e a tarefa recorrente representada pela ID foi atualizada para representar a próxima ocorrência. O ChangeKey que foi incluído na solicitação não é mais válido porque a tarefa recorrente foi atualizada. 
   
-Você pode usar a [operação GetItem](getitem-operation.md) para obter as últimas **ChangeKey** para a tarefa recorrente. 
+Você pode usar a [operação GetItem](getitem-operation.md) para obter o **ChangeKey** mais recente para a tarefa recorrente. 
   
-Para tarefas nonrecurring ou a última ocorrência de uma tarefa recorrente, a resposta UpdateItem retorna a mesma **Id** que foi passado para ele e retorna que o associado atualizado **ChangeKey**.
+Para tarefas recorrentes ou para a última ocorrência de uma tarefa recorrente, a resposta UpdateItem retorna a mesma **ID** que foi passada e retorna a **ChangeKey**atualizada associada.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3ba300f3-3355-4cab-9e77-0dcc2902e712
-description: O elemento GlobalFlagStatus contém o status do sinalizador agregados de todos os itens de conversa em uma caixa de correio.
-ms.openlocfilehash: 0c560c065463b8b619f96ecef73d1120b216ca35
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GlobalFlagStatus contém o status de sinalizador agregado para todos os itens de conversa em uma caixa de correio.
+ms.openlocfilehash: f9984a1bb7e8205a98dd3ef91f841b48a7ab9389
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823713"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459501"
 ---
 # <a name="globalflagstatus"></a>GlobalFlagStatus
 
-O elemento **GlobalFlagStatus** contém o status do sinalizador agregados de todos os itens de conversa em uma caixa de correio. 
+O elemento **GlobalFlagStatus** contém o status de sinalizador agregado para todos os itens de conversa em uma caixa de correio. 
   
 [FindConversationResponse](findconversationresponse.md)
   
 [Conversas](conversations-ex15websvcsotherref.md)
   
-[Conversa (ConversationType)](conversation-conversationtype.md)
+[Conversa (Conversatype)](conversation-conversationtype.md)
   
 [GlobalFlagStatus](globalflagstatus.md)
   
@@ -36,13 +36,13 @@ O elemento **GlobalFlagStatus** contém o status do sinalizador agregados de tod
 ```
 
  **FlagStatusType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,32 +52,32 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **GlobalFlagStatus** é o status do sinalizador agregados para itens de conversa na pasta atual. Estes são os valores de texto possíveis: 
+O valor de texto do elemento **GlobalFlagStatus** é o status de sinalizador agregado para itens de conversa na pasta atual. Estes são os valores de texto possíveis: 
   
-- **NotFlagged** - indica o status de não-sinalizado. 
+- Não **sinalizado** : indica o status não sinalizado. 
     
-- **Sinalizado** - indica o status sinalizado. 
+- **Marcado** : indica o status sinalizado. 
     
-- **Complete** - indica o status do sinalizador completa. 
+- **Concluído** -indica o status completo do sinalizador. 
     
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -86,5 +86,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 [Operação ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversas no EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversas no EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

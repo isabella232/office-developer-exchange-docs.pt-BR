@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6f98650e-3399-4f87-9b7f-40bf20cdb821
-description: O elemento WithinSizeRange Especifica os tamanhos mínimos e máximo que as mensagens recebidas devem estar na ordem para a condição ou uma exceção a ser aplicado.
-ms.openlocfilehash: 7711db9ca68f972f080c98197e30c7710620119a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento WithinSizeRange especifica os tamanhos mínimo e máximo que as mensagens de entrada devem ter para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: 31da5815b70e20c47594da89b0b7ccab87eaf8f3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838081"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459739"
 ---
 # <a name="withinsizerange"></a>WithinSizeRange
 
-O elemento **WithinSizeRange** Especifica os tamanhos mínimos e máximo que as mensagens recebidas devem estar na ordem para a condição ou uma exceção a ser aplicado. 
+O elemento **WithinSizeRange** especifica os tamanhos mínimo e máximo que as mensagens de entrada devem ter para que a condição ou exceção seja aplicada. 
   
 ```XML
 <WithinSizeRange>
@@ -31,29 +31,29 @@ O elemento **WithinSizeRange** Especifica os tamanhos mínimos e máximo que as 
 ```
 
  **RulePredicateSizeRangeType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MinimumSize](minimumsize.md) <br/> |Especifica o tamanho mínimo que uma mensagem deve ser em ordem para a condição ou uma exceção a ser aplicado.  <br/> |
-|[MaximumSize](maximumsize.md) <br/> |Especifica o tamanho máximo que uma mensagem deve ser em ordem para a condição ou uma exceção a ser aplicado.  <br/> |
+|[MinimumSize](minimumsize.md) <br/> |Especifica o tamanho mínimo que uma mensagem deve ter para que a condição ou exceção seja aplicada.  <br/> |
+|[MaximumSize](maximumsize.md) <br/> |Especifica o tamanho máximo que uma mensagem deve ter para que a condição ou exceção seja aplicada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, quando atendida, irá disparar as ações de regra para uma regra.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
 |[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -61,16 +61,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 
