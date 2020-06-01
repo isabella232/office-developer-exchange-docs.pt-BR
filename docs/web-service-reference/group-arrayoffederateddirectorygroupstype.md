@@ -1,5 +1,5 @@
 ---
-title: Grupo (ArrayOfFederatedDirectoryGroupsType)
+title: Group (ArrayOfFederatedDirectoryGroupsType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,38 +7,38 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0474a5b4-1a48-4df6-a094-baf35d9a1083
-description: O elemento de grupo (ArrayOfFederatedDirectoryGroupsType) é destinado apenas para uso interno.
-ms.openlocfilehash: b426203a7b54cddac737e3e6a7f860b8592f6e10
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Group (ArrayOfFederatedDirectoryGroupsType) é destinado apenas para uso interno.
+ms.openlocfilehash: 7938b571f7cc48dd60b14429b8e21bad1eb26300
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823752"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462826"
 ---
-# <a name="group-arrayoffederateddirectorygroupstype"></a><span data-ttu-id="e5032-103">Grupo (ArrayOfFederatedDirectoryGroupsType)</span><span class="sxs-lookup"><span data-stu-id="e5032-103">Group (ArrayOfFederatedDirectoryGroupsType)</span></span>
+# <a name="group-arrayoffederateddirectorygroupstype"></a><span data-ttu-id="62fdb-103">Group (ArrayOfFederatedDirectoryGroupsType)</span><span class="sxs-lookup"><span data-stu-id="62fdb-103">Group (ArrayOfFederatedDirectoryGroupsType)</span></span>
 
-<span data-ttu-id="e5032-104">O elemento de **grupo (ArrayOfFederatedDirectoryGroupsType)** é destinado apenas para uso interno.</span><span class="sxs-lookup"><span data-stu-id="e5032-104">The **Group (ArrayOfFederatedDirectoryGroupsType)** element is intended for internal use only.</span></span> 
+<span data-ttu-id="62fdb-104">O elemento **Group (ArrayOfFederatedDirectoryGroupsType)** é destinado apenas para uso interno.</span><span class="sxs-lookup"><span data-stu-id="62fdb-104">The **Group (ArrayOfFederatedDirectoryGroupsType)** element is intended for internal use only.</span></span> 
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="e5032-105">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="e5032-105">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="62fdb-105">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="62fdb-105">Attributes and elements</span></span>
 
-<span data-ttu-id="e5032-106">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="e5032-106">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="62fdb-106">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="62fdb-106">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="e5032-107">Atributos</span><span class="sxs-lookup"><span data-stu-id="e5032-107">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="62fdb-107">Atributos</span><span class="sxs-lookup"><span data-stu-id="62fdb-107">Attributes</span></span>
 
-<span data-ttu-id="e5032-108">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="e5032-108">None.</span></span>
+<span data-ttu-id="62fdb-108">Nenhum</span><span class="sxs-lookup"><span data-stu-id="62fdb-108">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="e5032-109">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="e5032-109">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="62fdb-109">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="62fdb-109">Child elements</span></span>
 
-<span data-ttu-id="e5032-110">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="e5032-110">None.</span></span>
+<span data-ttu-id="62fdb-110">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="62fdb-110">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="e5032-111">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="e5032-111">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="62fdb-111">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="62fdb-111">Parent elements</span></span>
 
-<span data-ttu-id="e5032-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="e5032-112">None.</span></span>
+<span data-ttu-id="62fdb-112">Nenhum</span><span class="sxs-lookup"><span data-stu-id="62fdb-112">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="e5032-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="e5032-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="62fdb-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="62fdb-113">Remarks</span></span>
 
-<span data-ttu-id="e5032-114">Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="e5032-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="62fdb-114">Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="62fdb-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
   
-<span data-ttu-id="e5032-115">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="e5032-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="62fdb-115">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="62fdb-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 

@@ -12,16 +12,16 @@ api_type:
 - schema
 ms.assetid: 43e12e8b-5629-4f5f-9cbd-a99084d8460f
 description: O elemento CreateUserConfiguration representa uma solicitação para criar um objeto de configuração do usuário.
-ms.openlocfilehash: dcf3acc356110b993bdb7f4f83245753835f299f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1d9194baf309936cb4be088a7ff56250dfa349cc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751633"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463773"
 ---
-# <a name="createuserconfiguration"></a><span data-ttu-id="93575-103">CreateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="93575-103">CreateUserConfiguration</span></span>
+# <a name="createuserconfiguration"></a><span data-ttu-id="9d05d-103">CreateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="9d05d-103">CreateUserConfiguration</span></span>
 
-<span data-ttu-id="93575-104">O elemento **CreateUserConfiguration** representa uma solicitação para criar um objeto de configuração do usuário.</span><span class="sxs-lookup"><span data-stu-id="93575-104">The **CreateUserConfiguration** element represents a request to create a user configuration object.</span></span> 
+<span data-ttu-id="9d05d-104">O elemento **CreateUserConfiguration** representa uma solicitação para criar um objeto de configuração do usuário.</span><span class="sxs-lookup"><span data-stu-id="9d05d-104">The **CreateUserConfiguration** element represents a request to create a user configuration object.</span></span> 
   
 ```xml
 <CreateUserConfiguration>
@@ -29,45 +29,45 @@ ms.locfileid: "19751633"
 </CreateUserConfiguration>
 ```
 
- <span data-ttu-id="93575-105">**CreateUserConfigurationType**</span><span class="sxs-lookup"><span data-stu-id="93575-105">**CreateUserConfigurationType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="93575-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="93575-106">Attributes and elements</span></span>
+ <span data-ttu-id="9d05d-105">**CreateUserConfigurationType**</span><span class="sxs-lookup"><span data-stu-id="9d05d-105">**CreateUserConfigurationType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="9d05d-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="9d05d-106">Attributes and elements</span></span>
 
-<span data-ttu-id="93575-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="93575-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="9d05d-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="9d05d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="93575-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="93575-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="9d05d-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="9d05d-108">Attributes</span></span>
 
-<span data-ttu-id="93575-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="93575-109">None.</span></span>
+<span data-ttu-id="9d05d-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="9d05d-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="93575-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="93575-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="9d05d-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="9d05d-110">Child elements</span></span>
 
-|<span data-ttu-id="93575-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="93575-111">**Element**</span></span>|<span data-ttu-id="93575-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="93575-112">**Description**</span></span>|
+|<span data-ttu-id="9d05d-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="9d05d-111">**Element**</span></span>|<span data-ttu-id="9d05d-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="9d05d-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="93575-113">UserConfiguration</span><span class="sxs-lookup"><span data-stu-id="93575-113">UserConfiguration</span></span>](userconfiguration.md) <br/> |<span data-ttu-id="93575-114">Representa um objeto de configuração de usuário único.</span><span class="sxs-lookup"><span data-stu-id="93575-114">Represents a single user configuration object.</span></span>  <br/> |
+|[<span data-ttu-id="9d05d-113">Userconfiguration</span><span class="sxs-lookup"><span data-stu-id="9d05d-113">UserConfiguration</span></span>](userconfiguration.md) <br/> |<span data-ttu-id="9d05d-114">Representa um único objeto de configuração do usuário.</span><span class="sxs-lookup"><span data-stu-id="9d05d-114">Represents a single user configuration object.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="93575-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="93575-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="9d05d-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="9d05d-115">Parent elements</span></span>
 
-<span data-ttu-id="93575-116">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="93575-116">None.</span></span>
+<span data-ttu-id="9d05d-116">Nenhum</span><span class="sxs-lookup"><span data-stu-id="9d05d-116">None.</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="93575-117">Text value</span><span class="sxs-lookup"><span data-stu-id="93575-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="9d05d-117">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="9d05d-117">Text value</span></span>
 
-<span data-ttu-id="93575-118">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="93575-118">None.</span></span>
+<span data-ttu-id="9d05d-118">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="9d05d-118">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="93575-119">Comentários</span><span class="sxs-lookup"><span data-stu-id="93575-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9d05d-119">Comentários</span><span class="sxs-lookup"><span data-stu-id="9d05d-119">Remarks</span></span>
 
-<span data-ttu-id="93575-120">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="93575-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="9d05d-120">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="9d05d-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="93575-121">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="93575-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="9d05d-121">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="9d05d-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="93575-122">Namespace</span><span class="sxs-lookup"><span data-stu-id="93575-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="93575-123">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="93575-123">Schema Name</span></span>  <br/> |<span data-ttu-id="93575-124">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="93575-124">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="93575-125">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="93575-125">Validation File</span></span>  <br/> |<span data-ttu-id="93575-126">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="93575-126">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="93575-127">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="93575-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="93575-128">False</span><span class="sxs-lookup"><span data-stu-id="93575-128">False</span></span>  <br/> |
+|<span data-ttu-id="9d05d-122">Namespace</span><span class="sxs-lookup"><span data-stu-id="9d05d-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="9d05d-123">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="9d05d-123">Schema Name</span></span>  <br/> |<span data-ttu-id="9d05d-124">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="9d05d-124">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="9d05d-125">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="9d05d-125">Validation File</span></span>  <br/> |<span data-ttu-id="9d05d-126">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="9d05d-126">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="9d05d-127">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="9d05d-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="9d05d-128">False</span><span class="sxs-lookup"><span data-stu-id="9d05d-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="93575-129">Ver também</span><span class="sxs-lookup"><span data-stu-id="93575-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9d05d-129">Confira também</span><span class="sxs-lookup"><span data-stu-id="9d05d-129">See also</span></span>
 
 
 
-- [<span data-ttu-id="93575-130">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="93575-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="9d05d-130">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="9d05d-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

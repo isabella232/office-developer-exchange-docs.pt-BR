@@ -7,63 +7,63 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2377b584-bd1e-49fc-b80a-a6634721a297
-description: O elemento IsHidden contém um valor Boolean que indica se o contato subjacente deve oculto ou exibido como parte da pessoa.
-ms.openlocfilehash: ee20bf0af287e3cddaedb5bc6d3c63ef9a7a7006
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IsHidden contém um valor Boolean que indica se o contato subjacente deve ser oculto ou exibido como parte do persona.
+ms.openlocfilehash: a22628e9ab4a46de04fe395f2d6c1b70083a5c77
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824032"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464235"
 ---
-# <a name="ishidden"></a><span data-ttu-id="97d63-103">IsHidden</span><span class="sxs-lookup"><span data-stu-id="97d63-103">IsHidden</span></span>
+# <a name="ishidden"></a><span data-ttu-id="0e60d-103">IsHidden</span><span class="sxs-lookup"><span data-stu-id="0e60d-103">IsHidden</span></span>
 
-<span data-ttu-id="97d63-104">O elemento **IsHidden** contém um valor Boolean que indica se o contato subjacente deve oculto ou exibido como parte da pessoa.</span><span class="sxs-lookup"><span data-stu-id="97d63-104">The **IsHidden** element contains a Boolean value that indicates whether the underlying contact should be hidden or displayed as part of the persona.</span></span> 
+<span data-ttu-id="0e60d-104">O elemento **IsHidden** contém um valor Boolean que indica se o contato subjacente deve ser oculto ou exibido como parte do persona.</span><span class="sxs-lookup"><span data-stu-id="0e60d-104">The **IsHidden** element contains a Boolean value that indicates whether the underlying contact should be hidden or displayed as part of the persona.</span></span> 
   
 ```XML
 <IsHidden>true | false</IsHidden>
 ```
 
- <span data-ttu-id="97d63-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="97d63-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="97d63-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="97d63-106">Attributes and elements</span></span>
+ <span data-ttu-id="0e60d-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="0e60d-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="0e60d-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="0e60d-106">Attributes and elements</span></span>
 
-<span data-ttu-id="97d63-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="97d63-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="0e60d-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="0e60d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="97d63-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="97d63-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="0e60d-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="0e60d-108">Attributes</span></span>
 
-<span data-ttu-id="97d63-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="97d63-109">None.</span></span>
+<span data-ttu-id="0e60d-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="0e60d-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="97d63-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="97d63-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="0e60d-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="0e60d-110">Child elements</span></span>
 
-<span data-ttu-id="97d63-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="97d63-111">None.</span></span>
+<span data-ttu-id="0e60d-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="0e60d-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="97d63-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="97d63-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="0e60d-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="0e60d-112">Parent elements</span></span>
 
-|<span data-ttu-id="97d63-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="97d63-113">**Element**</span></span>|<span data-ttu-id="97d63-114">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="97d63-114">**Description**</span></span>|
+|<span data-ttu-id="0e60d-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="0e60d-113">**Element**</span></span>|<span data-ttu-id="0e60d-114">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="0e60d-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="97d63-115">Atribuição (PersonaAttributionType)</span><span class="sxs-lookup"><span data-stu-id="97d63-115">Attribution (PersonaAttributionType)</span></span>](attribution-personaattributiontype.md) <br/> |<span data-ttu-id="97d63-116">Especifica uma instância em uma matriz de atributos de um elemento de **pessoa** .</span><span class="sxs-lookup"><span data-stu-id="97d63-116">Specifies an instance in an array of attributes for a **Persona** element.</span></span>  <br/> |
+|[<span data-ttu-id="0e60d-115">Atribuição (PersonaAttributionType)</span><span class="sxs-lookup"><span data-stu-id="0e60d-115">Attribution (PersonaAttributionType)</span></span>](attribution-personaattributiontype.md) <br/> |<span data-ttu-id="0e60d-116">Especifica uma instância em uma matriz de atributos para um elemento **persona** .</span><span class="sxs-lookup"><span data-stu-id="0e60d-116">Specifies an instance in an array of attributes for a **Persona** element.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="97d63-117">Text value</span><span class="sxs-lookup"><span data-stu-id="97d63-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="0e60d-117">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="0e60d-117">Text value</span></span>
 
-<span data-ttu-id="97d63-118">Um valor de texto de **true** para o elemento **IsHidden** indica que o contato subjacente deve ser oculto ou exibido como parte da pessoa.</span><span class="sxs-lookup"><span data-stu-id="97d63-118">A text value of **true** for the **IsHidden** element indicates that the underlying contact should be hidden or displayed as part of the persona.</span></span> <span data-ttu-id="97d63-119">Um valor **false** indica que o contato subjacente não deve ser oculto ou exibido como parte da pessoa.</span><span class="sxs-lookup"><span data-stu-id="97d63-119">A value of **false** indicates that the underlying contact should not be hidden or displayed as part of the persona.</span></span> 
+<span data-ttu-id="0e60d-118">Um valor de texto **true** para o elemento **IsHidden** indica que o contato subjacente deve ser oculto ou exibido como parte do persona.</span><span class="sxs-lookup"><span data-stu-id="0e60d-118">A text value of **true** for the **IsHidden** element indicates that the underlying contact should be hidden or displayed as part of the persona.</span></span> <span data-ttu-id="0e60d-119">Um valor **false** indica que o contato subjacente não deve ser oculto ou exibido como parte do persona.</span><span class="sxs-lookup"><span data-stu-id="0e60d-119">A value of **false** indicates that the underlying contact should not be hidden or displayed as part of the persona.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="97d63-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="97d63-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0e60d-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="0e60d-120">Remarks</span></span>
 
-<span data-ttu-id="97d63-121">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="97d63-121">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="0e60d-121">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0e60d-121">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="97d63-122">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="97d63-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="0e60d-122">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="0e60d-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="97d63-123">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="97d63-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="0e60d-123">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="0e60d-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="97d63-124">Namespace</span><span class="sxs-lookup"><span data-stu-id="97d63-124">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="97d63-125">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="97d63-125">Schema Name</span></span>  <br/> |<span data-ttu-id="97d63-126">Esquema de tipo</span><span class="sxs-lookup"><span data-stu-id="97d63-126">Type schema</span></span>  <br/> |
-|<span data-ttu-id="97d63-127">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="97d63-127">Validation File</span></span>  <br/> |<span data-ttu-id="97d63-128">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="97d63-128">types.xsd</span></span>  <br/> |
-|<span data-ttu-id="97d63-129">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="97d63-129">Can Be Empty</span></span>  <br/> ||
+|<span data-ttu-id="0e60d-124">Namespace</span><span class="sxs-lookup"><span data-stu-id="0e60d-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="0e60d-125">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="0e60d-125">Schema Name</span></span>  <br/> |<span data-ttu-id="0e60d-126">Esquema de tipo</span><span class="sxs-lookup"><span data-stu-id="0e60d-126">Type schema</span></span>  <br/> |
+|<span data-ttu-id="0e60d-127">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="0e60d-127">Validation File</span></span>  <br/> |<span data-ttu-id="0e60d-128">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="0e60d-128">types.xsd</span></span>  <br/> |
+|<span data-ttu-id="0e60d-129">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="0e60d-129">Can Be Empty</span></span>  <br/> ||
    
-## <a name="see-also"></a><span data-ttu-id="97d63-130">Confira também</span><span class="sxs-lookup"><span data-stu-id="97d63-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0e60d-130">Também consulte</span><span class="sxs-lookup"><span data-stu-id="0e60d-130">See also</span></span>
 
 
 
-- [<span data-ttu-id="97d63-131">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="97d63-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="0e60d-131">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="0e60d-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
