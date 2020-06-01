@@ -1,5 +1,5 @@
 ---
-title: Mês (recorrência do Item)
+title: Mês (recorrência do item)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: d2352001-f959-436a-afd5-a0a07b8ae02a
-description: O elemento de mês descreve o mês quando um item recorrente anual ocorre.
-ms.openlocfilehash: 64c76283deec70cb6996c9f424b689a9c87f2890
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Month descreve o mês em que ocorre um item recorrente anual.
+ms.openlocfilehash: d881c617374bc9545552ad77f2f2b355efdf2359
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824478"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468632"
 ---
-# <a name="month-item-recurrence"></a>Mês (recorrência do Item)
+# <a name="month-item-recurrence"></a>Mês (recorrência do item)
 
-O elemento de **mês** descreve o mês quando um item recorrente anual ocorre. 
+O elemento **month** descreve o mês em que ocorre um item recorrente anual. 
   
 ```xml
 <Month/>
 ```
 
  **MonthNamesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,31 +45,31 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[AbsoluteYearlyRecurrence](absoluteyearlyrecurrence.md) <br/> |Representa um padrão de recorrência anual.  <br/> |
-|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Descreve um padrão de recorrência anual relativa.  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Descreve um padrão relativo de recorrência anual.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. Estes são os valores de texto possíveis para esse elemento:
+Um valor de texto é obrigatório. Estes são os valores de texto possíveis para este elemento:
   
-- Janeiro
+- Mês
     
 - Fevereiro
     
 - Março
     
-- Abril
-    
 - Maio
     
-- Junho
+- Talvez
+    
+- Até
     
 - Julho
     
-- Agosto
+- Desde
     
 - Setembro
     
-- Outubro
+- Edição
     
 - Novembro
     
@@ -79,16 +79,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

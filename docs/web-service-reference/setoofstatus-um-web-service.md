@@ -1,5 +1,5 @@
 ---
-title: SetOofStatus (serviço web de Unificação de mensagens)
+title: SetOofStatus (serviço Web da UM)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9fc0ea9c-7a98-4fd7-a90c-cf5639c63a3a
-description: O elemento de SetOofStatus define uma solicitação para definir o status de Unificação de mensagens fora do escritório (OOF) para o usuário que faz com que a solicitação.
-ms.openlocfilehash: df28c98013e1d5c00ea120ce1aa342e9fc2c6f31
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SetOofStatus define uma solicitação para definir o status de ausência temporária da Unificação de mensagens do Office (OOF) para o usuário que faz a solicitação.
+ms.openlocfilehash: 86e056a440e282cd444cfd405e452720b26b7456
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825447"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467064"
 ---
-# <a name="setoofstatus-um-web-service"></a>SetOofStatus (serviço web de Unificação de mensagens)
+# <a name="setoofstatus-um-web-service"></a>SetOofStatus (serviço Web da UM)
 
-O elemento de **SetOofStatus** define uma solicitação para definir o status de Unificação de mensagens fora do escritório (OOF) para o usuário que faz com que a solicitação. 
+O elemento **SetOofStatus** define uma solicitação para definir o status de ausência temporária da Unificação de mensagens do Office (OOF) para o usuário que faz a solicitação. 
   
-[SetOofStatus (serviço web de Unificação de mensagens)](setoofstatus-um-web-service.md)
+[SetOofStatus (serviço Web da UM)](setoofstatus-um-web-service.md)
   
 ```xml
 <SetOofStatus>
@@ -31,42 +31,42 @@ O elemento de **SetOofStatus** define uma solicitação para definir o status de
 ```
 
  **Tipo**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Status (UM serviço web - SetOofStatus)](status-um-web-servicesetoofstatus.md) <br/> |Define um valor a ser usado em uma solicitação de [operação SetOofStatus (serviço web de Unificação de mensagens)](setoofstatus-operation-um-web-service.md) .  <br/> |
+|[Status (serviço Web da UM-SetOofStatus)](status-um-web-servicesetoofstatus.md) <br/> |Define um valor a ser usado em uma solicitação de [operação do SetOofStatus (serviço Web da um)](setoofstatus-operation-um-web-service.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação de SetOofStatus (serviço web de Unificação de mensagens)](setoofstatus-operation-um-web-service.md)
+[Operação SetOofStatus (serviço Web da UM)](setoofstatus-operation-um-web-service.md)
   
-[Status (UM serviço web - SetOofStatus)](status-um-web-servicesetoofstatus.md)
+[Status (serviço Web da UM-SetOofStatus)](status-um-web-servicesetoofstatus.md)
 

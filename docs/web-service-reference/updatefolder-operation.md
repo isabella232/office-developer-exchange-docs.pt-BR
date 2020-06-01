@@ -11,49 +11,49 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3494c996-b834-4813-b1ca-d99642d8b4e7
-description: 'A operação UpdateFolder é usada para modificar as propriedades de um item existente no armazenamento do Exchange. Cada operação UpdateFolder consiste no seguinte:'
-ms.openlocfilehash: b33937bb09f0dcbe3d3ed61bbf5233423f320d9c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'A operação UpdateFolder é usada para modificar as propriedades de um item existente no repositório do Exchange. Cada operação do UpdateFolder consiste no seguinte:'
+ms.openlocfilehash: fb894d9f42358b67f81e9fe8ae41ba61e6f46460
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837884"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467358"
 ---
 # <a name="updatefolder-operation"></a>Operação UpdateFolder
 
-A operação UpdateFolder é usada para modificar as propriedades de um item existente no armazenamento do Exchange. Cada operação UpdateFolder consiste no seguinte:
+A operação UpdateFolder é usada para modificar as propriedades de um item existente no repositório do Exchange. Cada operação do UpdateFolder consiste no seguinte:
   
-- Um elemento de [FolderId](folderid.md) que especifica uma pasta a ser atualizado. 
+- Um elemento [FolderId](folderid.md) que especifica uma pasta a ser atualizada. 
     
-- Um caminho interno de um elemento na pasta, conforme especificado pela forma pasta, que especifica os dados para atualizar.
+- Um caminho interno de um elemento na pasta, conforme especificado pela forma Folder, que especifica os dados a serem atualizados.
     
 - Uma pasta que contém o novo valor do campo atualizado, se a atualização não for uma exclusão.
     
 ## <a name="remarks"></a>Comentários
 
-Três ações de atualização básica podem ser executadas em um item. Essas ações são listadas na tabela a seguir.
+Três ações de atualização básicas podem ser executadas em um item. Essas ações estão listadas na tabela a seguir.
   
 |**Action**|**Descrição**|
 |:-----|:-----|
-|Acréscimo  <br/> |A ação append adiciona dados a uma propriedade existente. Preserva os dados que está atualmente lá. Acrescentar não é aplicável a todas as propriedades.  <br/> |
-|Conjunto  <br/> |A ação set substitui os dados de uma propriedade se ele contém dados, ou cria a propriedade e define seu valor, se não existir. A ação set só é aplicável às propriedades graváveis.  <br/> |
-|Excluir  <br/> |A ação Excluir remove uma propriedade de uma pasta. Isso é diferente de defini-la como um valor vazio. Quando concluir, a propriedade não existe para a pasta. Excluir só é aplicável às propriedades graváveis.  <br/> |
+|Append  <br/> |A ação Append adiciona dados a uma propriedade existente. Ele preserva os dados que estão atualmente lá. Append não é aplicável a todas as propriedades.  <br/> |
+|Set  <br/> |A ação Set substitui os dados de uma propriedade se ele contiver dados ou criar a propriedade e definir seu valor se ele não existir. A ação Set só é aplicável a propriedades graváveis.  <br/> |
+|Excluir  <br/> |A ação Excluir remove uma propriedade de uma pasta. Isso é diferente de defini-lo como um valor vazio. Quando concluído, a propriedade não existe para a pasta. Delete só é aplicável a propriedades graváveis.  <br/> |
    
 ## <a name="updatefolder-request-example"></a>Exemplo de solicitação UpdateFolder
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de UpdateFolder mostra como atualizar um nome de exibição da pasta. 
+O exemplo a seguir de uma solicitação UpdateFolder mostra como atualizar um nome de exibição de pasta. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <UpdateFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <UpdateFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <FolderChanges>
         <t:FolderChange>
           <t:FolderId Id="AScA" ChangeKey="GO3u/"/>
@@ -72,14 +72,14 @@ O exemplo a seguir de uma solicitação de UpdateFolder mostra como atualizar um
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-Este exemplo altera o nome de exibição da pasta para novonomedepasta.
+Este exemplo altera o nome de exibição da pasta para NewFolderName.
   
 > [!NOTE]
-> Os valores de **Id** e **ChangeKey** atributos do elemento [FolderId](folderid.md) foram diminuídos para melhorar a legibilidade. 
+> Os valores dos atributos **ID** e **ChangeKey** do elemento [FolderId](folderid.md) foram reduzidos para legibilidade. 
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -91,20 +91,20 @@ Os seguintes elementos são usados na solicitação:
     
 - [FolderId](folderid.md)
     
-- [Atualizações (Item)](updates-item.md)
+- [Atualizações (pasta)](updates-folder.md)
     
-- [SetFolderField](setfolderfield.md)
+- [Setfolderfield](setfolderfield.md)
     
 - [FieldURI](fielduri.md)
     
 - [Folder](folder.md)
     
-- [DisplayName (string)](displayname-string.md)
+- [DisplayName (cadeia de caracteres)](displayname-string.md)
     
-Consulte o esquema de elementos adicionais que você pode usar para formar uma solicitação UpdateFolder.
+Confira o esquema para elementos adicionais que você pode usar para formar uma solicitação de UpdateFolder.
   
 > [!NOTE]
-> O local padrão do esquema está no diretório virtual EWS no computador que possui a função de servidor acesso para cliente instalada. 
+> O local padrão do esquema está no diretório virtual EWS no computador em que a função de servidor de acesso para cliente está instalada. 
   
 ## <a name="updatefolder-response-example"></a>Exemplo de resposta UpdateFolder
 
@@ -121,12 +121,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação UpdateFolde
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UpdateFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -142,14 +142,14 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação UpdateFolde
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> A ID de pasta e a chave de alteração tem sido reduzidas para preservar a legibilidade. 
+> A ID da pasta e a chave de alteração foram reduzidas para preservar a legibilidade. 
   
-O ID da pasta que é retornado na resposta representa a pasta atualizada.
+A ID da pasta retornada na resposta representa a pasta atualizada.
   
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -173,7 +173,7 @@ Os seguintes elementos são usados na resposta:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de UpdateFolder.
+O exemplo a seguir mostra uma resposta de erro a uma solicitação UpdateFolder.
   
 ### <a name="code"></a>Código
 
@@ -184,12 +184,12 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de UpdateFold
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UpdateFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateFolderResponseMessage ResponseClass="Error">
           <m:MessageText>The change key is invalid.</m:MessageText>
@@ -203,9 +203,9 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de UpdateFold
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-Este exemplo mostra uma resposta de erro é gerada por um atributo **ChangeKey** inválido na solicitação. 
+Este exemplo mostra uma resposta de erro causada por um atributo **ChangeKey** inválido na solicitação. 
   
 ### <a name="error-response-elements"></a>Elementos de resposta de erro
 
@@ -227,7 +227,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [Pastas](folders-ex15websvcsotherref.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

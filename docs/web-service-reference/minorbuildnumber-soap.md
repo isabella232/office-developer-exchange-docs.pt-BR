@@ -8,30 +8,30 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 3d2b9edc-8e57-44dc-b63b-75a2eb47c84e
-description: O elemento MinorBuildNumber representa o número de compilação secundárias para o servidor.
-ms.openlocfilehash: 4b6fb9b16bd2b4e2c25d36074c5935135d1794f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MinorBuildNumber representa um número de compilação secundário para o servidor.
+ms.openlocfilehash: d5e4d80c448180baa18d2d90eb0440e12c2ed02b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824467"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466987"
 ---
 # <a name="minorbuildnumber-soap"></a>MinorBuildNumber (SOAP)
 
-O elemento **MinorBuildNumber** representa o número de compilação secundárias para o servidor. 
+O elemento **MinorBuildNumber** representa um número de compilação secundário para o servidor. 
   
 ```XML
 <MinorBuildNumber/>
 ```
 
  **int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -41,19 +41,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ServerVersionInfo (SOAP)](serverversioninfo-soap.md) <br/> |Contém a versão do servidor que processaram a solicitação.  <br/> |
+|[ServerVersionInfo (SOAP)](serverversioninfo-soap.md) <br/> |Contém a versão do servidor que processou a solicitação.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Número do servidor que processaram a solicitação de compilação de um valor integer que representa as secundárias.
+Um valor inteiro que representa o número de compilação secundário do servidor que processou a solicitação.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 

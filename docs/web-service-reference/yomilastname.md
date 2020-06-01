@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8dd97506-de8a-48ac-bc72-35b4db886588
-description: O elemento YomiLastName representa o nome que é usado no Japão para a ortografia pesquisável ou fonética de um japonês sobrenome.
-ms.openlocfilehash: e4af087c9510252feb71d5c8e37eb5ea3324b5b9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento YomiLastName representa o nome usado no Japão para a ortografia de pesquisa ou fonética para um sobrenome japonês.
+ms.openlocfilehash: ee85400a1516dfa428e4d378b2fa333fb6556896
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838108"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467106"
 ---
 # <a name="yomilastname"></a>YomiLastName
 
-O elemento **YomiLastName** representa o nome que é usado no Japão para a ortografia pesquisável ou fonética de um japonês sobrenome. 
+O elemento **YomiLastName** representa o nome usado no Japão para a ortografia de pesquisa ou fonética para um sobrenome japonês. 
   
 ```xml
 <YomiLastName/>
 ```
 
  **String**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,17 +50,17 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
-- [Criação de contatos (serviços Web do Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Criando contatos (serviços Web do Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

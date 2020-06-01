@@ -11,35 +11,35 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb
-description: Os endereços de email ambíguo ResolveNames operação resolve e nomes para exibição.
-ms.openlocfilehash: 8443cf834dfdf104daeaaa92fdee3742c3fa3719
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação ResolveNames resolve endereços de email e nomes de exibição ambíguos.
+ms.openlocfilehash: 51728addddd2bfb9d35b874ae8c11e83a4c8629b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825162"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468275"
 ---
 # <a name="resolvenames-operation"></a>Operação ResolveNames
 
-Os endereços de email ambíguo **ResolveNames** operação resolve e nomes para exibição. 
+A operação **ResolveNames** resolve endereços de email e nomes de exibição ambíguos. 
   
 ## <a name="using-the-resolvenames-operation"></a>Usando a operação ResolveNames
 
-Esta operação pode ser usada para verificar aliases e resolver nomes para exibição para o usuário de caixa de correio apropriado. Se nomes ambíguos existirem, a resposta de operação **ResolveNames** fornece informações sobre cada usuário de caixa de correio para que o aplicativo cliente possa resolver os nomes. 
+Essa operação pode ser usada para verificar aliases e resolver nomes de exibição para o usuário de caixa de correio apropriado. Se houver nomes ambíguos, a resposta de operação **ResolveNames** fornecerá informações sobre cada usuário de caixa de correio para que o aplicativo cliente possa resolver os nomes. 
   
 ## <a name="remarks"></a>Comentários
 
-A resposta ResolveNames retorna um máximo de 100 candidatos. Os 100 candidatos que são retornados são os primeiros 100 encontradas na operação de pesquisa.
+A resposta ResolveNames retorna um máximo de 100 candidatos. Os candidatos 100 retornados são os primeiros 100 encontrados na operação de pesquisa.
   
-Endereços de email com tipos de roteamento de prefixados, como smtp ou sip, são salvas em uma matriz de valores múltiplos. A operação **ResolveNames** realiza uma correspondência parcial contra cada valor dessa matriz, quando você adiciona o tipo de roteamento no início do nome não resolvido, como "sip:User1@Contoso.com". Se você não especificar um tipo de roteamento, **ResolveNames** será o padrão para o tipo de roteamento de smtp, associá-lo a uma propriedade de endereço smtp principal e não pesquisar a matriz de valores múltiplos. 
+Os endereços de email com tipos de roteamento prefixos, como SMTP ou SIP, são salvos em uma matriz de vários valores. A operação **ResolveNames** executa uma correspondência parcial em relação a cada valor dessa matriz quando você adiciona o tipo de roteamento no início do nome não resolvido, como "SIP:User1@Contoso.com". Se você não especificar um tipo de roteamento, **ResolveNames** usará como padrão o tipo de roteamento do SMTP, o corresponderá a uma propriedade de endereço SMTP primária e não pesquisará a matriz de vários valores. 
   
-Apenas um nome ambíguo pode ser especificado em uma única solicitação. Active Directory é pesquisado primeiro e, em seguida, a pasta de contato do usuário é pesquisada. Resolvido entradas da pasta de contato de um usuário tem uma propriedade de **ItemId** não-nulo, que pode ser usada em uma solicitação de GetItem. Se for a ID de uma lista de distribuição particular, pode ser usada em uma [operação ExpandDL](expanddl-operation.md). Se o atributo **ReturnFullContactData** for definido como **true**, entradas do Active Directory encontradas com a operação **ResolveNames** retornará propriedades adicionais que descrevem um [contato](contact.md). O atributo **ReturnFullContactData** não afeta os dados que são retornados para contatos e privadas listas de distribuição da pasta de contatos do usuário. 
+Apenas um nome ambíguo pode ser especificado em uma única solicitação. O Active Directory é pesquisado primeiro e, em seguida, a pasta de contatos do usuário é pesquisada. As entradas resolvidas da pasta de contatos de um usuário têm uma propriedade **ItemId** não nula, que pode ser usada em uma solicitação GetItem. Se for a ID de uma lista de distribuição privada, ela poderá ser usada em uma [operação ExpandDL](expanddl-operation.md). Se o atributo **ReturnFullContactData** for definido como **true**, as entradas do Active Directory localizadas com a operação **ResolveNames** retornarão propriedades adicionais que descrevem um [contato](contact.md). O atributo **ReturnFullContactData** não afeta os dados retornados para contatos e listas de distribuição privada da pasta de contatos do usuário. 
   
 ## <a name="resolvenames-request-example"></a>Exemplo de solicitação ResolveNames
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **ResolveNames** mostra como resolver a entrada do usuário.
+O exemplo a seguir de uma solicitação **ResolveNames** mostra como resolver a entrada de User.
   
 ### <a name="code"></a>Código
 
@@ -48,10 +48,10 @@ O exemplo a seguir de uma solicitação de **ResolveNames** mostra como resolver
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <ResolveNames xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <ResolveNames xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                   ReturnFullContactData="true">
       <UnresolvedEntry>User2</UnresolvedEntry>
     </ResolveNames>
@@ -59,22 +59,22 @@ O exemplo a seguir de uma solicitação de **ResolveNames** mostra como resolver
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-A resposta à solicitação retornará todas as entradas que começam com "Joana" ou "Mi". Os itens retornados são caixas de correio públicas, listas de distribuição pública e privada e contatos.
+A resposta a essa solicitação retornará todas as entradas que começam com "Jo" ou "mi". Os itens retornados são caixas de correio públicas, listas de distribuição pública e privada e contatos.
   
 > [!NOTE]
-> Somente os contatos da pasta Contatos pessoal padrão são pesquisados. 
+> Somente os contatos na pasta contatos pessoais padrão são pesquisados. 
   
-Estes são os resultados possíveis para uma solicitação de **ResolveNames** : 
+Estes são os resultados possíveis para uma solicitação **ResolveNames** : 
   
-- Respostas que não contêm uma entidade resolvida retornará um valor de atributo **ResponseClass** igual a **erro**. O elemento **MessageText** conterá " **Nenhum resultado é encontrado**."
+- As respostas que não contiverem uma entidade resolvida retornarão um valor de atributo **ResponseClass** igual a **erro**. O elemento **MessageText** conterá " **nenhum resultado encontrado**."
     
-- As respostas que contêm uma única entidade resolvida retornará um valor de atributo **ResponseClass** igual ao **sucesso**.
+- As respostas que contenham uma única entidade resolvida retornarão um valor de atributo **ResponseClass** igual a **Success**.
     
-- As respostas que contêm várias entidades possíveis retornará um valor de atributo **ResponseClass** igual a **Aviso**. Nesse caso, a entidade não pôde ser resolvida para uma identidade exclusiva. O elemento **MessageText** conterá "vários resultados encontrados." 
+- As respostas que contêm várias entidades possíveis retornarão um valor de atributo **ResponseClass** igual a **Warning**. Nesse caso, a entidade não pôde ser resolvida para uma identidade exclusiva. O elemento **MessageText** conterá "vários resultados encontrados." 
     
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -82,11 +82,11 @@ Os seguintes elementos são usados na solicitação:
     
 - [UnresolvedEntry](unresolvedentry.md)
     
-## <a name="successful-resolvenames-operation-response-example"></a>Exemplo de resposta bem-sucedida da operação ResolveNames
+## <a name="successful-resolvenames-operation-response-example"></a>Exemplo de resposta de operação ResolveNames com êxito
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de **ResolveNames** . 
+O exemplo a seguir mostra uma resposta bem-sucedida para uma solicitação **ResolveNames** . 
   
 ### <a name="code"></a>Código
 
@@ -97,12 +97,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de **Res
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ResolveNamesResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ResolveNamesResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ResolveNamesResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -130,7 +130,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de **Res
 </soap:Envelope>
 ```
 
-### <a name="successful-resolvenames-response-elements"></a>Elementos de resposta bem-sucedida ResolveNames
+### <a name="successful-resolvenames-response-elements"></a>Elementos de resposta resolvedos com êxito
 
 Os seguintes elementos são usados na resposta:
   
@@ -148,31 +148,31 @@ Os seguintes elementos são usados na resposta:
     
 - [Resolução](resolution.md)
     
-- [Caixa de correio](mailbox.md)
+- [Caixa de Correio](mailbox.md)
     
-- [Nome (EmailAddressType)](name-emailaddresstype.md)
+- [Nome (EmailAddresstype)](name-emailaddresstype.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddresstype)](routingtype-emailaddresstype.md)
     
 - [MailboxType](mailboxtype.md)
     
 - [Contato](contact.md)
     
-- [DisplayName (string)](displayname-string.md)
+- [DisplayName (cadeia de caracteres)](displayname-string.md)
     
 - [EmailAddresses](emailaddresses.md)
     
 - [Entrada (EmailAddress)](entry-emailaddress.md)
     
-- [ContactSource](contactsource.md)
+- [Contato](contactsource.md)
     
 ## <a name="resolvenames-operation-error-response"></a>Resposta de erro de operação ResolveNames
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de **ResolveNames** . O erro é causado por tentar resolver um nome que não pode ser resolvido. 
+O exemplo a seguir mostra uma resposta de erro para uma solicitação **ResolveNames** . O erro é causado pela tentativa de resolver um nome que não pode ser resolvido. 
   
 ### <a name="code"></a>Código
 
@@ -183,12 +183,12 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de **ResolveN
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ResolveNamesResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ResolveNamesResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ResolveNamesResponseMessage ResponseClass="Error">
           <m:MessageText>No results were found.</m:MessageText>
@@ -219,12 +219,12 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
 [Operação ExpandDL](expanddl-operation.md)
 
 
-[Usando a resolução de nome](http://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
+[Usando a resolução de nome](https://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
 

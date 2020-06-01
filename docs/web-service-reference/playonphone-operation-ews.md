@@ -1,5 +1,5 @@
 ---
-title: Operação de PlayOnPhone (EWS)
+title: Operação PlayOnPhone (EWS)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,30 +12,30 @@ api_type:
 - schema
 ms.assetid: 70e6ef33-2046-4eb8-9987-e106009be04b
 description: A operação PlayOnPhone inicia uma chamada de saída e reproduz uma mensagem por telefone.
-ms.openlocfilehash: ec77720c69862e210316d61975b0d58c9530a40c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 18af810160e72856599f296c4faa83cf9c73c393
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824819"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467953"
 ---
-# <a name="playonphone-operation-ews"></a>Operação de PlayOnPhone (EWS)
+# <a name="playonphone-operation-ews"></a>Operação PlayOnPhone (EWS)
 
 A operação **PlayOnPhone** inicia uma chamada de saída e reproduz uma mensagem por telefone. 
   
-## <a name="playonphone-request-example"></a>Exemplo de solicitação de PlayOnPhone
+## <a name="playonphone-request-example"></a>Exemplo de solicitação PlayOnPhone
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **PlayOnPhone** mostra como uma solicitação para reproduzir uma mensagem em um telefone de formulário. 
+O exemplo a seguir de uma solicitação **PlayOnPhone** mostra como formar uma solicitação para reproduzir uma mensagem em um telefone. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -67,15 +67,15 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **PlayOnPho
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <PlayOnPhoneResponse ResponseClass="Success" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <PhoneCallId Id="ZWMtWYtMY29t"/>
     </PlayOnPhoneResponse>
@@ -83,7 +83,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **PlayOnPho
 </s:Envelope>
 ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

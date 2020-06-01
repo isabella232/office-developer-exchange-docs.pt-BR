@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7efb6fd9-1615-469e-96f6-0f7846ad9b44
-description: O elemento escopo Especifica o escopo do relatório de controle de mensagens.
-ms.openlocfilehash: 534ed23916a60b246c7cb5be4a59d086980a7c37
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Scope especifica o escopo do relatório de controle de mensagens.
+ms.openlocfilehash: f86f6198e84e094e61ee569f6d005549316bbb9b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825280"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466938"
 ---
 # <a name="scope-nonemptystringtype"></a>Escopo (NonEmptyStringType)
 
-O elemento **escopo** Especifica o escopo do relatório de controle de mensagens. 
+O elemento **Scope** especifica o escopo do relatório de controle de mensagens. 
   
 ```XML
 <Scope>Organization | Forest | Site</Scope>
 ```
 
  **NonEmptyStringType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -42,32 +42,32 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[FindMessageTrackingReport](findmessagetrackingreport.md) | [GetMessageTrackingReport](getmessagetrackingreport.md)
+[FindMessageTrackingReport](findmessagetrackingreport.md)  |  [GetMessageTrackingReport](getmessagetrackingreport.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-A tabela a seguir lista os valores possíveis para o elemento de **escopo** . 
+A tabela a seguir lista os valores possíveis para o elemento **escopo** . 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Organização  <br/> |Escopos de controle de mensagens abrange em uma organização.  <br/> |
-|Floresta  <br/> |Escopos de controle de mensagens abrange em uma floresta.  <br/> |
-|Site  <br/> |Escopos de controle de mensagens abrange em um site.  <br/> |
+|Organização  <br/> |Os escopos de acompanhamento de mensagens se englobem em uma organização.  <br/> |
+|Floresta  <br/> |Os escopos de acompanhamento de mensagens se expandem em uma floresta.  <br/> |
+|Site  <br/> |Os escopos de acompanhamento de mensagens se englobem em um site.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

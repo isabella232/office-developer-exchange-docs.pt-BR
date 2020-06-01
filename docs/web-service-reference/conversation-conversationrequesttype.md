@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0308b71c-d4ff-44a8-b9ca-d5965291ee1d
 description: O elemento Conversation representa uma única conversa retornada em uma resposta GetConversationItems.
-ms.openlocfilehash: ef56e26fda7d2bf6556069355918aa576ce14cb6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 925fd6fce83cad36f4a0e95bb6228ba65e4e9c43
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751514"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466777"
 ---
 # <a name="conversation-conversationrequesttype"></a>Conversa (ConversationRequestType)
 
@@ -27,17 +27,17 @@ O elemento **Conversation** representa uma única conversa retornada em uma resp
 ```
 
  ****
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[ConversationId](conversationid.md) | [o estado de sincronização (base64Binary)](syncstate-base64binary.md)
+[Conversation](conversationid.md)  |  [SyncState (base64Binary)](syncstate-base64binary.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -49,13 +49,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
-|Pode estar vazio  <br/> |false  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Pode estar vazio  <br/> |falso  <br/> |
    
 

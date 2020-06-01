@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 766878e3-9007-454f-8501-45139bc5c0e2
-description: O elemento RemoveItem representa um objeto de resposta que é usado para remover um item de reunião, quando uma mensagem MeetingCancellation é recebida.
-ms.openlocfilehash: 6897363eba602e6a135ad255822197f9296dd44a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RemoveItem representa um objeto Response que é usado para remover um item de reunião quando uma mensagem MeetingCancellation é recebida.
+ms.openlocfilehash: c0cd5c1f9894287ee78c2f7a65b8f4d3b943414e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825108"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467687"
 ---
 # <a name="removeitem"></a>RemoveItem
 
-O elemento **RemoveItem** representa um objeto de resposta que é usado para remover um item de reunião, quando uma mensagem MeetingCancellation é recebida. 
+O elemento **RemoveItem** representa um objeto Response que é usado para remover um item de reunião quando uma mensagem MeetingCancellation é recebida. 
   
 ```xml
 <RemoveItem ObjectName="">
@@ -30,52 +30,52 @@ O elemento **RemoveItem** representa um objeto de resposta que é usado para rem
 ```
 
  **RemoveItemType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**ObjectName** <br/> |Representa o nome da classe de objeto de resposta RemoveItem como uma cadeia de caracteres de inglês.  <br/> |
+|**ObjectName** <br/> |Representa o nome da classe do objeto de resposta RemoveItem como uma cadeia de caracteres em inglês.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ReferenceItemId](referenceitemid.md) <br/> |Identifica o item para o qual o objeto de resposta RemoveItem refere-se.  <br/> |
+|[ReferenceItemId](referenceitemid.md) <br/> |Identifica o item ao qual o objeto de resposta RemoveItem se refere.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Contém uma matriz de itens para criar a pasta que é identificada pelo elemento [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) .  <br/> |
-|[ResponseObjects](responseobjects.md) <br/> |Contém uma coleção de todos os objetos de resposta que estão associados um item no armazenamento do Exchange.  <br/> |
+|[Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Contém uma matriz de itens a serem criados na pasta que é identificada pelo elemento [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) .  <br/> |
+|[ResponseObjects](responseobjects.md) <br/> |Contém uma coleção de todos os objetos Response associados a um item no repositório do Exchange.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
- **RemoveItem** é válida apenas para um [MeetingCancellation](meetingcancellation.md). Caso contrário, será gerado um erro.
+ **RemoveItem** é válido somente para um [MeetingCancellation](meetingcancellation.md). Caso contrário, um erro será gerado.
   
 > [!NOTE]
-> O [ItemClass](itemclass.md) para o cancelamento da reunião é IPM. Schedule.Meeting.Canceled. 
+> O [pseudoclasse](itemclass.md) para um cancelamento de reunião é IPM. Schedule. Meeting. cancelada. 
   
-Para remover um [MeetingRequest](meetingrequest.md) e o associado [CalendarItem](calendaritem.md), use o objeto de resposta de [DeclineItem](declineitem.md) , em vez de **RemoveItem**.
+Para remover um [MeetingRequest](meetingrequest.md) e o [CalendarItem](calendaritem.md)associado, use o objeto de resposta [DeclineItem](declineitem.md) em vez de **RemoveItem**.
   
- Não há suporte para **RemoveItem** para acesso de representante. 
+ **RemoveItem** não tem suporte para acesso de representante. 
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

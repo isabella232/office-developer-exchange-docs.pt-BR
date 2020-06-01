@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 26f38f1c-96a3-440e-805c-1437886d11c5
-description: O elemento transições representa uma matriz de transições de fuso horário.
-ms.openlocfilehash: df7cacdef71c3fdfaa3ecadb486843ea30e6109d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Transitions representa uma matriz de transições de fuso horário.
+ms.openlocfilehash: d48fb8872b2f7e052f733c32e5dd1c9b4d04d898
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837795"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467435"
 ---
 # <a name="transitions"></a>Transições
 
-O elemento **transições** representa uma matriz de transições de fuso horário. 
+O elemento **Transitions** representa uma matriz de transições de fuso horário. 
   
 ```xml
 <Transitions Id="">
@@ -33,13 +33,13 @@ O elemento **transições** representa uma matriz de transições de fuso horár
 ```
 
  **ArrayOfTransitionsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
 |Id  <br/> |Representa o identificador exclusivo da definição de fuso horário.  <br/> |
    
@@ -47,20 +47,20 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AbsoluteDateTransition](absolutedatetransition.md) <br/> |Representa uma transição de fuso horário que ocorre em uma data específica e, em um momento específico.  <br/> |
-|[RecurringDayTransition](recurringdaytransition.md) <br/> |Representa uma transição de fuso horário que ocorre no mesmo dia cada ano.  <br/> |
-|[RecurringDateTransition](recurringdatetransition.md) <br/> |Representa uma transição de fuso horário que ocorre em um dia especificado do ano.  <br/> |
+|[AbsoluteDateTransition](absolutedatetransition.md) <br/> |Representa uma transição de fuso horário que ocorre em uma data específica e em uma hora específica.  <br/> |
+|[RecurringDayTransition](recurringdaytransition.md) <br/> |Representa uma transição de fuso horário que ocorre no mesmo dia a cada ano.  <br/> |
+|[RecurringDateTransition](recurringdatetransition.md) <br/> |Representa uma transição de fuso horário que ocorre em um dia do ano especificado.  <br/> |
 |[Transição](transition.md) <br/> |Representa uma transição de fuso horário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[StartTimeZone](starttimezone.md) <br/> |Define o fuso horário para a hora de início de uma [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).  <br/> |
-|[EndTimeZone](endtimezone.md) <br/> |Define o fuso horário para a hora de término de uma [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).  <br/> |
-|[Timezonedefinition pela última vez](timezonedefinition.md) <br/> |Define um fuso horário.  <br/> |
+|[StartTimeZone](starttimezone.md) <br/> |Define o fuso horário para a hora de início de um [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).  <br/> |
+|[EndTimeZone](endtimezone.md) <br/> |Define o fuso horário para a hora de término de um [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).  <br/> |
+|[TimeZoneDefinition](timezonedefinition.md) <br/> |Define um fuso horário.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -68,16 +68,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

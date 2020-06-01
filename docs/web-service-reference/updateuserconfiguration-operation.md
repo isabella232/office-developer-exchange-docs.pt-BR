@@ -12,30 +12,30 @@ api_type:
 - schema
 ms.assetid: eda73b62-6a3a-43ae-8fd9-f30892811f27
 description: A operação UpdateUserConfiguration atualiza um objeto de configuração do usuário em uma pasta.
-ms.openlocfilehash: 9da7c7ba15b3cf6b35f0489db539660aefa2e40a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 95fe6518fa30104463ec7f0aec8f786183eb513b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837937"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468541"
 ---
 # <a name="updateuserconfiguration-operation"></a>Operação UpdateUserConfiguration
 
 A operação **UpdateUserConfiguration** atualiza um objeto de configuração do usuário em uma pasta. 
   
-## <a name="updateuserconfiguration-request-example"></a>Exemplo de solicitação de UpdateUserConfiguration
+## <a name="updateuserconfiguration-request-example"></a>Exemplo de solicitação UpdateUserConfiguration
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **UpdateUserConfiguration** mostra como formar uma solicitação de atualização de um objeto de configuração do usuário na pasta Rascunhos. 
+O exemplo a seguir de uma solicitação **UpdateUserConfiguration** mostra como formar uma solicitação para atualizar um objeto de configuração do usuário na pasta Rascunhos. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -82,15 +82,15 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **UpdateUse
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:UpdateUserConfigurationResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:UpdateUserConfigurationResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:UpdateUserConfigurationResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -101,7 +101,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **UpdateUse
 </s:Envelope>
 ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

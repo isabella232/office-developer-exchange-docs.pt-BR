@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 527bfe90-63d0-4b2f-97f7-7875b3a516b2
-description: O elemento ReadFlagChange é retornado em SyncFolderItems respostas da operação quando um item foi lido. Esta propriedade é somente leitura.
-ms.openlocfilehash: 28ef0267e8308ba58057bec01ab2672a19ee94a1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ReadFlagChange é retornado em respostas de operação SyncFolderItems quando um item foi lido. Essa propriedade é somente leitura.
+ms.openlocfilehash: 354f8085a6ea5b738d8619e2ffeb0fbccefd51da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824953"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468303"
 ---
 # <a name="readflagchange"></a>ReadFlagChange
 
-O elemento **ReadFlagChange** é retornado em [operação SyncFolderItems](syncfolderitems-operation.md) respostas quando um item foi lido. Esta propriedade é somente leitura. 
+O elemento **ReadFlagChange** é retornado em respostas de [operação SyncFolderItems](syncfolderitems-operation.md) quando um item foi lido. Essa propriedade é somente leitura. 
   
 ```xml
 <ReadFlagChange>
@@ -31,20 +31,20 @@ O elemento **ReadFlagChange** é retornado em [operação SyncFolderItems](syncf
 ```
 
  **SyncFolderItemsReadFlagType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |Identifica o item para o qual o sinalizador de leitura tiver sido alterado.  <br/> |
-|[Foi lido](isread.md) <br/> |Indica se o sinalizador de leitura tiver sido definido como **true**.  <br/> |
+|[ItemId](itemid.md) <br/> |Identifica o item para o qual o sinalizador de leitura foi alterado.  <br/> |
+|[IsRead](isread.md) <br/> |Indica se o sinalizador de leitura foi definido como **true**.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -54,18 +54,18 @@ Nenhum.
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

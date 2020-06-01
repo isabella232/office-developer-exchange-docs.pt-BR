@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ae402bc1-4589-45e0-a929-f368c916a7e4
-description: O elemento de CopyItemResponse define uma resposta a uma solicitação de CopyItem.
-ms.openlocfilehash: b460a3f5a176e0cee03443ceff62742602e8df03
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento CopyItemResponse define uma resposta a uma solicitação CopyItem.
+ms.openlocfilehash: 601c44dbaa50a8cccbb911a85daee47841152b17
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751553"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466763"
 ---
 # <a name="copyitemresponse"></a>CopyItemResponse
 
-O elemento de **CopyItemResponse** define uma resposta a uma solicitação de CopyItem. 
+O elemento **CopyItemResponse** define uma resposta a uma solicitação CopyItem. 
   
 ```xml
 <CopyItemResponse>
@@ -30,13 +30,13 @@ O elemento de **CopyItemResponse** define uma resposta a uma solicitação de Co
 ```
 
  **CopyItemResponseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,22 +46,22 @@ Nenhum.
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

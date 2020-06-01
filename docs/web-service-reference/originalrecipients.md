@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e4af86a5-85af-4239-8055-e29f0acf77c1
-description: O elemento OriginalRecipients representa uma lista de endereços de email dos destinatários da mensagem primeiro.
-ms.openlocfilehash: 8f99368409dbfb5ac798b691be65c7fd64f32660
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento OriginalRecipients representa uma lista de endereços de email dos destinatários da primeira mensagem.
+ms.openlocfilehash: 7385b1fd62313ee09c94cd04f3f669215e6cd497
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824665"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467176"
 ---
 # <a name="originalrecipients"></a>OriginalRecipients
 
-O elemento **OriginalRecipients** representa uma lista de endereços de email dos destinatários da mensagem primeiro. 
+O elemento **OriginalRecipients** representa uma lista de endereços de email dos destinatários da primeira mensagem. 
   
 ```XML
 <OriginalRecipients>
@@ -30,40 +30,40 @@ O elemento **OriginalRecipients** representa uma lista de endereços de email do
 ```
 
  **ArrayOfEmailAddressesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Endereço (EmailAddressType)](address-emailaddresstype.md) <br/> |Contém um endereço de email totalmente resolvido.  <br/> |
+|[Endereço (EmailAddresstype)](address-emailaddresstype.md) <br/> |Contém um endereço de email totalmente resolvido.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MessageTrackingReport](messagetrackingreport.md) <br/> |Contém uma única mensagem retornada em uma [operação de GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
+|[MessageTrackingReport](messagetrackingreport.md) <br/> |Contém uma única mensagem que é retornada em uma [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d22f68cf-b18b-45d0-a9ff-414b7db0e67e
-description: O elemento ReplyAllAllowed Especifica se uma resposta todos é permitida para direitos gerenciados dados.
-ms.openlocfilehash: cf814e6f27a734afc51b633bf832126a57d7ca5f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ReplyAllAllowed especifica se uma resposta All é permitida para dados gerenciados por direitos.
+ms.openlocfilehash: 56dfe7670ed87581999bfe0a340bcc72c99d04ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825105"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467911"
 ---
 # <a name="replyallallowed"></a>ReplyAllAllowed
 
-O elemento **ReplyAllAllowed** Especifica se uma resposta todos é permitida para direitos gerenciados dados. 
+O elemento **ReplyAllAllowed** especifica se uma resposta All é permitida para dados gerenciados por direitos. 
   
 ```XML
 <ReplyAllAllowed> true | false </ReplyAllAllowed>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [RightsManagementLicenseData](rightsmanagementlicensedata.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** para o elemento **ReplyAllAllowed** indica que uma resposta todos é permitida para os direitos gerenciados dados. Um valor **false** indica que uma resposta a todos os não é permitida. 
+Um valor de texto **true** para o elemento **ReplyAllAllowed** indica que uma resposta All é permitida para os dados gerenciados de direitos. Um valor **false** indica que uma resposta All não é permitida. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

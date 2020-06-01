@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1034b013-ef34-4e72-99b3-38bff475b3e8
-description: O elemento UnpinTeamMailbox contém a solicitação para Desafixar uma caixa de correio do site do cliente por removê-lo da resposta da descoberta automática.
-ms.openlocfilehash: d303b47f0796f9bec7e9f198afa81d2ecd9fd5cd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UnpinTeamMailbox contém a solicitação para Desafixar uma caixa de correio de site do cliente, removendo-a da resposta de descoberta automática.
+ms.openlocfilehash: a6b01bfa9c5908765ff04ef7f5edbef0b99a9be2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837855"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467239"
 ---
 # <a name="unpinteammailbox"></a>UnpinTeamMailbox
 
-O elemento **UnpinTeamMailbox** contém a solicitação para Desafixar uma caixa de correio do site do cliente por removê-lo da resposta da **descoberta automática** . 
+O elemento **UnpinTeamMailbox** contém a solicitação para Desafixar uma caixa de correio de site do cliente, removendo-a da resposta de **descoberta automática** . 
   
 ```XML
 <UnpinTeamMailbox>
@@ -26,21 +26,21 @@ O elemento **UnpinTeamMailbox** contém a solicitação para Desafixar uma caixa
 ```
 
  **UnpinTeamMailboxRequestType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
+[EmailAddress (EmailAddresstype)](emailaddress-emailaddresstype.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
@@ -48,13 +48,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

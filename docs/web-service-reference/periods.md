@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7920d81d-abba-4232-8bfe-49267b6c9a36
-description: O elemento de períodos representa uma matriz de períodos que definem o deslocamento de tempo em fases diferentes do fuso horário.
-ms.openlocfilehash: f2f9cf7c724b453d2b1975fcf72c55bc02caa54b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento periods representa uma matriz de períodos que definem a diferença de tempo em estágios diferentes do fuso horário.
+ms.openlocfilehash: 773457a6e4c0237eaeaf23109a7022427cc7dd0d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824729"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467771"
 ---
 # <a name="periods"></a>Períodos
 
-O elemento de **períodos** representa uma matriz de períodos que definem o deslocamento de tempo em fases diferentes do fuso horário. 
+O elemento **periods** representa uma matriz de períodos que definem a diferença de tempo em estágios diferentes do fuso horário. 
   
 ```xml
 <Periods>
@@ -30,42 +30,42 @@ O elemento de **períodos** representa uma matriz de períodos que definem o des
 ```
 
  **NonEmptyArrayOfPeriodsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Period](period.md) <br/> |Define o nome, a diferença de horário e o identificador exclusivo de um estágio específico do fuso horário.  <br/> |
+|[Period](period.md) <br/> |Define o nome, a diferença de tempo e o identificador exclusivo de um estágio específico do fuso horário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[StartTimeZone](starttimezone.md) <br/> |Define o fuso horário para a hora de início de uma [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).  <br/> |
-|[EndTimeZone](endtimezone.md) <br/> |Define o fuso horário para a hora de término de uma [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).  <br/> |
-|[Timezonedefinition pela última vez](timezonedefinition.md) <br/> |Define um fuso horário.  <br/> |
+|[StartTimeZone](starttimezone.md) <br/> |Define o fuso horário para a hora de início de um [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).  <br/> |
+|[EndTimeZone](endtimezone.md) <br/> |Define o fuso horário para a hora de término de um [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).  <br/> |
+|[TimeZoneDefinition](timezonedefinition.md) <br/> |Define um fuso horário.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

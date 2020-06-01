@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 023b79b4-c675-4669-9112-d85499ec4fc4
-description: O elemento de UpdateItemResponse define uma resposta a uma solicitação de UpdateItem.
-ms.openlocfilehash: 12c1274fa500fe206381d7868393aaa08ca97d54
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UpdateItemResponse define uma resposta a uma solicitação UpdateItem.
+ms.openlocfilehash: f18bb6658bf7a68e2262ebee7ce86255ea527ac4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837919"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467141"
 ---
 # <a name="updateitemresponse"></a>UpdateItemResponse
 
-O elemento de **UpdateItemResponse** define uma resposta a uma solicitação de UpdateItem. 
+O elemento **UpdateItemResponse** define uma resposta a uma solicitação UpdateItem. 
   
 ```xml
 <UpdateItemResponse>
@@ -30,13 +30,13 @@ O elemento de **UpdateItemResponse** define uma resposta a uma solicitação de 
 ```
 
  **UpdateItemResponseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,22 +46,22 @@ Nenhum.
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

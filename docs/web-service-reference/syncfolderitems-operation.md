@@ -11,38 +11,38 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7f0de089-8876-47ec-a871-df118ceae75d
-description: A operação SyncFolderItems sincroniza os itens entre o Exchange server e o cliente.
-ms.openlocfilehash: 6b2e4694ac793e17a2b7cb2edb2cb9e6a4a105ea
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação SyncFolderItems sincroniza itens entre o servidor Exchange e o cliente.
+ms.openlocfilehash: 1a28d895eda11dd43f77ec2662a60a426cfc463c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837688"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468142"
 ---
 # <a name="syncfolderitems-operation"></a>Operação SyncFolderItems
 
-A operação SyncFolderItems sincroniza os itens entre o Exchange server e o cliente.
+A operação SyncFolderItems sincroniza itens entre o servidor Exchange e o cliente.
   
 ## <a name="remarks"></a>Comentários
 
-A operação SyncFolderItems retornará um máximo de 512 alterações. As solicitações SyncFolderItems subsequentes devem ser executadas para fazer alterações adicionais. 
+A operação SyncFolderItems retornará um máximo de 512 alterações. As solicitações SyncFolderItems subsequentes devem ser executadas para obter alterações adicionais. 
   
-SyncFolderItems é semelhante à operação FindItem em que ele não é possível retornar propriedades como corpo ou anexos. Se a operação SyncFolderItems não retorna as propriedades que você precisa, você pode usar a [operação GetItem](getitem-operation.md) para obter um conjunto específico de propriedades para cada item que ele retornado pelo SyncFolderItems. 
+SyncFolderItems é semelhante à operação FindItem, pois não é possível retornar propriedades como Body ou Attachments. Se a operação SyncFolderItems não retornar as propriedades que você precisa, você pode usar a [operação GetItem](getitem-operation.md) para obter um conjunto específico de propriedades para cada item retornado por SyncFolderItems. 
   
 ## <a name="syncfolderitems-request-example"></a>Exemplo de solicitação SyncFolderItems
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de SyncFolderItems mostra como sincronizar itens em uma pasta. Este exemplo mostra a sincronização de um item pasta que não seja a primeira sincronização que ocorreram para a pasta Itens enviados. O elemento de [estado de sincronização](syncstate-ex15websvcsotherref.md) não está incluído na solicitação para a primeira tentativa sincronizar um cliente com o Exchange server. A primeira tentativa de sincronizar os itens em uma hierarquia de pasta retornará todos os itens na caixa de correio, excluindo itens que são identificados no elemento [Ignorar](ignore.md) . Essa solicitação SyncFolderItems tentará sincronizar todas as mudanças para os itens da pasta desde a última sincronização. Essa solicitação irá ignorar a tentativa de sincronizar o um item que é identificado no elemento [Ignorar](ignore.md) . 
+O exemplo a seguir de uma solicitação SyncFolderItems mostra como sincronizar itens em uma pasta. Este exemplo mostra uma sincronização de item de pasta que não é a primeira sincronização que ocorreu para a pasta Itens enviados. O elemento [SyncState](syncstate-ex15websvcsotherref.md) não está incluído na solicitação para a primeira tentativa de sincronizar um cliente com o Exchange Server. A primeira tentativa de sincronizar os itens em uma hierarquia de pastas retornará todos os itens da caixa de correio, excluindo os itens identificados no elemento [ignore](ignore.md) . Essa solicitação de SyncFolderItems tentará sincronizar todas as alterações feitas nos itens de pasta desde a última sincronização. Essa solicitação ignorará a tentativa de sincronização de um item identificado no elemento [ignore](ignore.md) . 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SyncFolderItems xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderItems xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemShape>
         <t:BaseShape>Default</t:BaseShape>
       </ItemShape>
@@ -59,17 +59,17 @@ O exemplo a seguir de uma solicitação de SyncFolderItems mostra como sincroniz
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-Os dados de [estado de sincronização](syncstate-ex15websvcsotherref.md) do elemento codificado na base64 e o atributo de **Id** do elemento [ItemId](itemid.md) foram diminuídas para preservar a legibilidade. 
+O elemento [SyncState](syncstate-ex15websvcsotherref.md) dados codificados em Base64 e o atributo **ID** do elemento [ItemId](itemid.md) foram reduzidos para preservar a legibilidade. 
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
 - [SyncFolderItems](syncfolderitems.md)
     
-- [ItemShape](itemshape.md)
+- [Shape](itemshape.md)
     
 - [BaseShape](baseshape.md)
     
@@ -77,7 +77,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [Estado de sincronização](syncstate-ex15websvcsotherref.md)
+- [SyncState](syncstate-ex15websvcsotherref.md)
     
 - [Ignore](ignore.md)
     
@@ -85,11 +85,11 @@ Os seguintes elementos são usados na solicitação:
     
 - [MaxChangesReturned](maxchangesreturned.md)
     
-## <a name="successful-syncfolderitems-response"></a>Resposta de SyncFolderItems bem-sucedida
+## <a name="successful-syncfolderitems-response"></a>Resposta SyncFolderItems bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação SyncFolderItems. Neste exemplo, uma solicitação de reunião é sincronizada da pasta Itens enviados.
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação SyncFolderItems. Neste exemplo, uma solicitação de reunião é sincronizada a partir da pasta Itens enviados.
   
 ### <a name="code"></a>Código
 
@@ -101,12 +101,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação SyncFolderI
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SyncFolderItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SyncFolderItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -142,11 +142,11 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação SyncFolderI
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-Os dados de [estado de sincronização](syncstate-ex15websvcsotherref.md) do elemento codificado na base64 e o atributo de **Id** do elemento [ItemId](itemid.md) foram diminuídas para preservar a legibilidade. 
+O elemento [SyncState](syncstate-ex15websvcsotherref.md) dados codificados em Base64 e o atributo **ID** do elemento [ItemId](itemid.md) foram reduzidos para preservar a legibilidade. 
   
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -160,13 +160,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-- [Estado de sincronização](syncstate-ex15websvcsotherref.md)
+- [SyncState](syncstate-ex15websvcsotherref.md)
     
 - [IncludesLastItemInRange](includeslastiteminrange.md)
     
 - [Alterações (itens)](changes-items.md)
     
-- [Criar (ItemSync)](create-itemsync.md)
+- [Create (issync)](create-itemsync.md)
     
 - [MeetingRequest](meetingrequest.md)
     
@@ -186,25 +186,25 @@ Os seguintes elementos são usados na resposta:
     
 - [Start](start.md)
     
-- [End](end-ex15websvcsotherref.md)
+- [Ponto](end-ex15websvcsotherref.md)
     
-- [Location](location.md)
+- [Localização](location.md)
     
-- [Organizer](organizer.md)
+- [Organizador](organizer.md)
     
-- [Caixa de correio](mailbox.md)
+- [Caixa de Correio](mailbox.md)
     
-- [Nome (EmailAddressType)](name-emailaddresstype.md)
+- [Nome (EmailAddresstype)](name-emailaddresstype.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddresstype)](routingtype-emailaddresstype.md)
     
 ## <a name="syncfolderitems-error-response"></a>Resposta de erro SyncFolderItems
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de SyncFolderItems. Esse erro foi causado por um estado de sincronização inválido.
+O exemplo a seguir mostra uma resposta de erro a uma solicitação SyncFolderItems. Esse erro foi causado por um SyncState inválido.
   
 ### <a name="code"></a>Código
 
@@ -216,12 +216,12 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de SyncFolder
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SyncFolderItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SyncFolderItemsResponseMessage ResponseClass="Error">
           <m:MessageText>Synchronization state data is corrupt or otherwise invalid.</m:MessageText>
@@ -254,11 +254,11 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [Estado de sincronização](syncstate-ex15websvcsotherref.md)
+- [SyncState](syncstate-ex15websvcsotherref.md)
     
 - [IncludesLastItemInRange](includeslastiteminrange.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 

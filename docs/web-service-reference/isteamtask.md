@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: af0095da-e5bb-4138-a01c-c203f1a5a33f
-description: O elemento IsTeamTask indica se a tarefa é pertencentes a uma equipe.
-ms.openlocfilehash: 25a60b44dbdca89d431dc202f06acb3055958a72
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IsTeamTask indica se a tarefa pertence a uma equipe.
+ms.openlocfilehash: 27b5efbac028dbe7cf5858b198e3a33f9f6cdc86
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824109"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468443"
 ---
 # <a name="isteamtask"></a>IsTeamTask
 
-O elemento **IsTeamTask** indica se a tarefa é pertencentes a uma equipe. 
+O elemento **IsTeamTask** indica se a tarefa pertence a uma equipe. 
   
 ```xml
 <IsTeamTask/>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,33 +44,33 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Task](task.md) <br/> |Representa uma tarefa no armazenamento do Exchange.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa um valor Boolean que indica se uma tarefa é pertencentes a uma equipe. Esta é uma propriedade somente leitura.
+O valor de texto representa um valor booliano que indica se uma tarefa pertence a uma equipe. Esta é uma propriedade somente leitura.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Criação de tarefas](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+[Criando tarefas](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[A exclusão de tarefas](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Excluir tarefas](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

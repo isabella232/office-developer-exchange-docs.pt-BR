@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 339005cd-a3b9-47dd-bc7b-a860b699625b
-description: O elemento SearchableMailbox Especifica uma caixa de correio retornados de uma solicitação de GetSearchableMailboxes.
-ms.openlocfilehash: 0d0981d050fa388e83eaa8408b60d305296c1f36
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SearchableMailbox especifica uma caixa de correio retornada de uma solicitação GetSearchableMailboxes.
+ms.openlocfilehash: f790d9a707f10f64a776b2fc35255c233ad854b6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825284"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467449"
 ---
 # <a name="searchablemailbox"></a>SearchableMailbox
 
-O elemento **SearchableMailbox** Especifica uma caixa de correio retornados de uma solicitação de **GetSearchableMailboxes** . 
+O elemento **SearchableMailbox** especifica uma caixa de correio retornada de uma solicitação **GetSearchableMailboxes** . 
   
 ```XML
 <SearchableMailbox>
@@ -32,17 +32,17 @@ O elemento **SearchableMailbox** Especifica uma caixa de correio retornados de u
 ```
 
  **SearchableMailboxType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[GUID](guid-ex15websvcsotherref.md) | [PrimarySmtpAddress (string)](primarysmtpaddress-string.md) | [IsExternalMailbox](isexternalmailbox.md) | [ExternalEmailAddress](externalemailaddress.md) | [DisplayName (string)](displayname-string.md) | [IsMembershipGroup](ismembershipgroup.md)  |  [ ID de referência](referenceid.md)
+[GUID](guid-ex15websvcsotherref.md)  |  [PrimarySmtpAddress (cadeia de caracteres)](primarysmtpaddress-string.md)  |  [IsExternalMailbox](isexternalmailbox.md)  |  [ExternalEmailAddress](externalemailaddress.md)  |  [DisplayName (cadeia de caracteres)](displayname-string.md)  |  [Membro Ismembership](ismembershipgroup.md)  |  [Referenceid](referenceid.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -54,13 +54,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

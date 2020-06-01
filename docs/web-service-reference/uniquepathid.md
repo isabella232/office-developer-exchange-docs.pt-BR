@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3c917100-907a-4aa1-a7d4-01c65f9a42e4
-description: O elemento UniquePathId representa uma cadeia de caracteres que seja diferente para cada caminho em um relatório de controle.
-ms.openlocfilehash: db238c6ebbe25d4089465f43df6bac79007bc952
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UniquePathId representa uma cadeia de caracteres diferente para cada caminho em um relatório de rastreamento.
+ms.openlocfilehash: c548619c49c617581f1510126385a6cf480460bb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837853"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468177"
 ---
 # <a name="uniquepathid"></a>UniquePathId
 
-O elemento **UniquePathId** representa uma cadeia de caracteres que seja diferente para cada caminho em um relatório de controle. 
+O elemento **UniquePathId** representa uma cadeia de caracteres diferente para cada caminho em um relatório de rastreamento. 
   
 ```XML
 <UniquePathId/>
 ```
 
  **NonEmptyStringType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,26 +44,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contém informações para um único evento de um destinatário.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contém informações de um único evento para um destinatário.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Se este elemento for usado, será necessário um valor de texto que representa uma cadeia de caracteres.
+Um valor de texto que representa uma cadeia de caracteres será necessário se esse elemento for usado.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

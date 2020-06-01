@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: eee79904-9412-4e61-b9b8-aff0ce25fade
-description: O elemento PrimarySmtpAddress representa o endereço de Simple Mail Transfer Protocol (SMTP) principal de uma conta a ser usada para autorização de servidor-para-servidor ou acesso de representante.
-ms.openlocfilehash: d33bf22af4ddf6b2f6d8d8d434168264acfaea7c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento PrimarySmtpAddress representa o endereço SMTP (Simple Mail Transfer Protocol) principal de uma conta a ser usada para autorização de servidor para servidor ou acesso de representante.
+ms.openlocfilehash: eea995b3e546d7e94e65cf9b230b639a781c4928
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824881"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467960"
 ---
 # <a name="primarysmtpaddress"></a>PrimarySmtpAddress
 
-O elemento **PrimarySmtpAddress** representa o endereço de Simple Mail Transfer Protocol (SMTP) principal de uma conta a ser usada para autorização de servidor-para-servidor ou acesso de representante. 
+O elemento **PrimarySmtpAddress** representa o endereço SMTP (Simple Mail Transfer Protocol) principal de uma conta a ser usada para autorização de servidor para servidor ou acesso de representante. 
   
 ```xml
 <PrimarySmtpAddress/>
 ```
 
  **PrimarySmtpAddressType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,37 +44,37 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ConnectingSID](connectingsid.md) <br/> |Representa uma conta para representar quando você estiver usando o cabeçalho SOAP ExchangeImpersonation.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
-|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Usado no cabeçalho SOAP para serialização de token de autenticação de servidor-para-servidor.  <br/> |
-|[UserId](userid.md) <br/> |Identifica um usuário delegado ou um usuário que tem permissões de acesso de pasta.  <br/> |
+|[ConnectingSID](connectingsid.md) <br/> |Representa uma conta a ser representada quando você estiver usando o cabeçalho SOAP ExchangeImpersonation.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
+|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Usado no cabeçalho SOAP para serialização de token na autenticação de servidor para servidor.  <br/> |
+|[UserId](userid.md) <br/> |Identifica um usuário delegado ou um usuário com permissões de acesso à pasta.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto que representa um endereço SMTP.
+Um valor de texto que representa um endereço SMTP é necessário.
   
 ## <a name="remarks"></a>Comentários
 
-Serviços Web do Exchange requer que as caixas de correio ser identificado pelo endereço SMTP principal da caixa de correio. Proxy ou endereços alternativos não são aceitas.
+Os serviços Web do Exchange exigem que as caixas de correio sejam identificadas pelo endereço SMTP principal da caixa de correio. Endereços de proxy ou alternativos não são aceitos.
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Autorização de servidor-para-servidor no EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+[Autorização de servidor para servidor no EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
   
-[Trabalhando com acesso de representante](http://msdn.microsoft.com/library/dfd6b4a3-8fd3-47ba-83c0-52465cb5f3f3%28Office.15%29.aspx)
+[Trabalhar com acesso de representante](https://msdn.microsoft.com/library/dfd6b4a3-8fd3-47ba-83c0-52465cb5f3f3%28Office.15%29.aspx)
 

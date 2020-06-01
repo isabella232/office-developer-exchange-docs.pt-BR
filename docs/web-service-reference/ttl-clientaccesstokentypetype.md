@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cc8f8caa-fced-49b6-9861-d112590b218a
-description: O elemento TTL indica o tempo de vida de valor para o token.
-ms.openlocfilehash: 04bd8124c7bd2b02e2ab1cc47ee1d4dca4847079
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento TTL indica o valor de vida útil para o token.
+ms.openlocfilehash: 0275e97ce02e41cc377f4003aee12c6fff0995e2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837803"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467386"
 ---
 # <a name="ttl-clientaccesstokentypetype"></a>TTL (ClientAccessTokenTypeType)
 
-O elemento **TTL** indica o tempo de vida de valor para o token. 
+O elemento **TTL** indica o valor de vida útil para o token. 
   
 ```XML
 <TTL></TTL>
 ```
 
- **inteiro**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Semantic**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[TokenRequest](tokenrequest.md) | [Token](token.md)
+[TokenRequest](tokenrequest.md)  |  [Token](token.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto para o elemento **TTL** indica quanto tempo o token permanecerá válido. 
+O valor de texto para o elemento **TTL** indica quanto tempo o token permanece válido. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
-|Pode estar vazio  <br/> |false  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Pode estar vazio  <br/> |falso  <br/> |
    
 

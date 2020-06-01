@@ -1,5 +1,5 @@
 ---
-title: TelephoneAccessFolderEmail (serviço web de Unificação de mensagens)
+title: TelephoneAccessFolderEmail (serviço Web da UM)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,34 +10,34 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5d32ae22-bb9f-4352-a251-d516b66ff35b
-description: O elemento TelephoneAccessFolderEmail contém um valor que especifica o identificador da pasta de email com a qual Unified Messaging lerá as mensagens por telefone conforme contidos em uma resposta a uma solicitação do GetUMProperties operação (serviço web de Unificação de mensagens).
-ms.openlocfilehash: e564e8ed44c3132ef32039e92982ff935c3e49e0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento TelephoneAccessFolderEmail contém um valor que especifica o identificador da pasta de email a partir da qual a Unificação de mensagens lerá as mensagens por telefone, como contida em uma resposta a uma solicitação de GetUMProperties (serviço da Web da UM).
+ms.openlocfilehash: 8da4065921b736313d4bbf5bb96edb51761a4bdb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837705"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468625"
 ---
-# <a name="telephoneaccessfolderemail-um-web-service"></a>TelephoneAccessFolderEmail (serviço web de Unificação de mensagens)
+# <a name="telephoneaccessfolderemail-um-web-service"></a>TelephoneAccessFolderEmail (serviço Web da UM)
 
-O elemento **TelephoneAccessFolderEmail** contém um valor que especifica o identificador da pasta de email com a qual Unified Messaging lerá as mensagens por telefone conforme contidos em uma resposta a uma [GetUMProperties operação (serviço web de Unificação de mensagens) ](getumproperties-operation-um-web-service.md)solicitação. 
+O elemento **TelephoneAccessFolderEmail** contém um valor que especifica o identificador da pasta de email a partir da qual a Unificação de mensagens lerá as mensagens por telefone, como contida em uma resposta a uma solicitação de [GetUMProperties (serviço da Web da um)](getumproperties-operation-um-web-service.md) . 
   
-[GetUMPropertiesResponse (serviço web de Unificação de mensagens)](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse (serviço Web da UM)](getumpropertiesresponse-um-web-service.md)
   
-[TelephoneAccessFolderEmail (serviço web de Unificação de mensagens)](telephoneaccessfolderemail-um-web-service.md)
+[TelephoneAccessFolderEmail (serviço Web da UM)](telephoneaccessfolderemail-um-web-service.md)
   
 ```xml
 <TelephoneAccessFolderEmail/>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -47,26 +47,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetUMPropertiesResponse (serviço web de Unificação de mensagens)](getumpropertiesresponse-um-web-service.md) <br/> |Define uma resposta a uma solicitação de [operação GetUMProperties (serviço web de Unificação de mensagens)](getumproperties-operation-um-web-service.md) .  <br/> |
+|[GetUMPropertiesResponse (serviço Web da UM)](getumpropertiesresponse-um-web-service.md) <br/> |Define uma resposta a uma solicitação de [operação do GetUMProperties (serviço Web da um)](getumproperties-operation-um-web-service.md) .  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto.
+Um valor de texto é obrigatório.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação de GetUMProperties (serviço web de Unificação de mensagens)](getumproperties-operation-um-web-service.md)
+[Operação GetUMProperties (serviço Web da UM)](getumproperties-operation-um-web-service.md)
   
-[Operação de SetTelephoneAccessFolderEmail (serviço web de Unificação de mensagens)](settelephoneaccessfolderemail-operation-um-web-service.md)
+[Operação SetTelephoneAccessFolderEmail (serviço Web da UM)](settelephoneaccessfolderemail-operation-um-web-service.md)
 

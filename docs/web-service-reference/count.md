@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 68314b4a-1e17-4e21-9c2e-224d70ef7a32
-description: O elemento de contagem contém o número de conflitos em uma resposta de operação UpdateItem.
-ms.openlocfilehash: 15cea49eb250336cdc6b7d551d53951aff1372c2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Count contém o número de conflitos em uma resposta de operação UpdateItem.
+ms.openlocfilehash: a43896a1b8b6a9d96ab02afe64f9e553639e478e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751556"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466756"
 ---
 # <a name="count"></a>Count
 
-O elemento de [contagem](count.md) contém o número de conflitos em uma resposta de [operação UpdateItem](updateitem-operation.md) . 
+O elemento [Count](count.md) contém o número de conflitos em uma resposta de [operação UpdateItem](updateitem-operation.md) . 
   
 [UpdateItemResponse](updateitemresponse.md)
   
@@ -38,13 +38,13 @@ O elemento de [contagem](count.md) contém o número de conflitos em uma respost
 ```
 
  **int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -56,24 +56,24 @@ Nenhum.
 |:-----|:-----|
 |[ConflictResults](conflictresults.md) <br/> |Contém o número de conflitos em uma resposta de [operação UpdateItem](updateitem-operation.md) .  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto é um inteiro que representa o número de conflitos em uma resposta de [operação UpdateItem](updateitem-operation.md) . 
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

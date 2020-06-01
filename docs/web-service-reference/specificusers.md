@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 121b0063-5447-4063-8e54-d3fcbb8cd2be
-description: O elemento SpecificUsers Especifica as contas de email que podem acessar o aplicativo.
-ms.openlocfilehash: 59b99ab165e7a099816fb07e126ac912f0858c9c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SpecificUsers especifica as contas de email que podem acessar o aplicativo.
+ms.openlocfilehash: ef003b6da20031f82d9a8be1dc1d1187288d6f60
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825529"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467631"
 ---
 # <a name="specificusers"></a>SpecificUsers
 
-O elemento **SpecificUsers** Especifica as contas de email que podem acessar o aplicativo. 
+O elemento **SpecificUsers** especifica as contas de email que podem acessar o aplicativo. 
   
 ```XML
 <SpecificUsers>
@@ -26,13 +26,13 @@ O elemento **SpecificUsers** Especifica as contas de email que podem acessar o a
 ```
 
  **ArrayOfStringsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,13 +48,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
-|Pode estar vazio  <br/> |false  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Pode estar vazio  <br/> |falso  <br/> |
    
 

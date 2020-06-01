@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1d0f219b-1063-4eaa-9d3b-da384a544f89
-description: O elemento TrackingPropertyType representa um par de nome e valor de cadeias de caracteres que é usado para criar propriedades para relatórios de acompanhamento de mensagens.
-ms.openlocfilehash: 762c7d364382c3087277651cc01329e3c85df4e4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento TrackingPropertyType representa um par de nome e valor de cadeias de caracteres que é usado para criar propriedades para relatórios de controle de mensagens.
+ms.openlocfilehash: 7812b52dd57fed0a9b6f1a8fc4e77660932a60dc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837789"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468079"
 ---
 # <a name="trackingpropertytype"></a>TrackingPropertyType
 
-O elemento **TrackingPropertyType** representa um par de nome e valor de cadeias de caracteres que é usado para criar propriedades para relatórios de acompanhamento de mensagens. 
+O elemento **TrackingPropertyType** representa um par de nome e valor de cadeias de caracteres que é usado para criar propriedades para relatórios de controle de mensagens. 
   
 [Propriedades (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md)
   
@@ -35,20 +35,20 @@ O elemento **TrackingPropertyType** representa um par de nome e valor de cadeias
 ```
 
  **TrackingPropertyType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Nome (rastreamento de mensagens)](name-message-tracking.md) <br/> |Define um nome para a propriedade relatório de controle de mensagens.  <br/> |
-|[Valor (rastreamento de mensagens)](value-message-tracking.md) <br/> |Define um valor para a propriedade relatório de controle de mensagens. Esse elemento é opcional.  <br/> |
+|[Nome (controle de mensagens)](name-message-tracking.md) <br/> |Define um nome para a propriedade do relatório de controle de mensagens.  <br/> |
+|[Valor (controle de mensagens)](value-message-tracking.md) <br/> |Define um valor para a propriedade do relatório de controle de mensagens. Este elemento é opcional.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -56,24 +56,24 @@ Nenhum.
 |:-----|:-----|
 |[Propriedades (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contém uma lista de uma ou mais propriedades de controle.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

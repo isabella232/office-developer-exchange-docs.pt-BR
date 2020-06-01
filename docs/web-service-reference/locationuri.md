@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0480b7f5-9312-4efe-bb37-9fffcd7e7a9d
-description: O elemento LocationUri contém uma cadeia de caracteres especificando um identificador URI (Uniform Resource) do endereço postal associado.
-ms.openlocfilehash: 19fe76e98a49d5badab0bb3f7604dccb72b9d668
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento LocationUri contém uma cadeia de caracteres que especifica um URI (Uniform Resource Identifier) do endereço postal associado.
+ms.openlocfilehash: 1cf857e29b67fdacdb73fc5bd921973d7dbd481e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824298"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467092"
 ---
 # <a name="locationuri"></a>LocationUri
 
-O elemento **LocationUri** contém uma cadeia de caracteres especificando um identificador URI (Uniform Resource) do endereço postal associado. 
+O elemento **LocationUri** contém uma cadeia de caracteres que especifica um URI (Uniform Resource Identifier) do endereço postal associado. 
   
 ```XML
 <LocationUri></LocationUri>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Valor (PersonaPostalAddressType)](value-personapostaladdresstype.md) | [Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
+[Valor (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **LocationUri** é uma cadeia de caracteres que especifica um URI para obter informações sobre um endereço postal. 
+O valor de texto do elemento **LocationUri** é uma cadeia de caracteres que especifica um URI para informações sobre um endereço postal. 
   
 ## <a name="remarks"></a>Comentários
 

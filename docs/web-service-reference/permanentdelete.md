@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1a0e0f46-1472-4eb7-bb54-f193a2603587
-description: O elemento PermanentDelete indica se as mensagens devem ser excluídos permanentemente e não são salvas na pasta Itens excluídos.
-ms.openlocfilehash: 40cf80e054bb70a3f6d687e8d4361f1d4331a7f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento PermanentDelete indica se as mensagens devem ser excluídas permanentemente e não foram salvas na pasta itens excluídos.
+ms.openlocfilehash: da7680eefca9ad359948af38eac49d18e9055988
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824724"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467764"
 ---
 # <a name="permanentdelete"></a>PermanentDelete
 
-O elemento **PermanentDelete** indica se as mensagens devem ser excluídos permanentemente e não são salvas na pasta Itens excluídos. 
+O elemento **PermanentDelete** indica se as mensagens devem ser excluídas permanentemente e não foram salvas na pasta itens excluídos. 
   
 ```XML
 <PermanentDelete>true | false</PermanentDelete>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,26 +44,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Ações](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis a ser executada em uma mensagem quando as condições são atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** indica que a mensagem deve ser marcada para ser excluídos permanentemente. Um valor **false** indica que a mensagem não deve ser marcada para ser excluídos permanentemente. 
+Um valor de texto **true** indica que a mensagem deve ser marcada para ser excluída permanentemente. Um valor **false** indica que a mensagem não deve ser marcada para ser excluída permanentemente. 
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

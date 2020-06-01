@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5b89a2cb-ab26-444d-b3dd-2b3858872d63
-description: O elemento StopProcessingRules indica se as regras subsequentes devem ser avaliadas.
-ms.openlocfilehash: 48799975f8c928bf291fcdcdb83f2ff8768af8b9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento StopProcessingRules indica se as regras subsequentes serão avaliadas.
+ms.openlocfilehash: 9f068fd6290a39bbab6e3c1e29066c4fefefc64b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825593"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467897"
 ---
 # <a name="stopprocessingrules"></a>StopProcessingRules
 
-O elemento **StopProcessingRules** indica se as regras subsequentes devem ser avaliadas. 
+O elemento **StopProcessingRules** indica se as regras subsequentes serão avaliadas. 
   
 ```XML
 <StopProcessingRules>true | false</StopProcessingRules>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,26 +44,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Ações](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis a ser executada em uma mensagem quando as condições são atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto de **true** indica que as regras subsequentes não devem ser processadas. Um valor **false** indica que as regras subsequentes devem continuar a ser avaliada. 
+Um valor **true** indica que as regras subsequentes não devem ser processadas. Um valor **false** indica que as regras subsequentes devem continuar a ser avaliadas. 
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

@@ -9,19 +9,19 @@ api_type:
 - schema
 ms.assetid: b879c134-307e-4645-bb53-55d8ba4fad9c
 description: O elemento DeploymentId identifica exclusivamente a floresta do Microsoft Exchange Server 2007.
-ms.openlocfilehash: 4f2548709753d8407d02218acecd9233f0ba764f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4986a3404763e88fb3e84d52a5d30d54c810f93a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751779"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467918"
 ---
 # <a name="deploymentid-pox"></a>DeploymentId (POX)
 
 O elemento **DeploymentId** identifica exclusivamente a floresta do Microsoft Exchange Server 2007. 
   
 - [Descoberta automática (POX)](autodiscover-pox.md)  
-- [Resposta POX)](response-pox.md) 
+- [Resposta (POX)](response-pox.md) 
 - [Usuário (POX)](user-pox.md)  
 - [DeploymentId (POX)](deploymentid-pox.md)
   
@@ -29,13 +29,13 @@ O elemento **DeploymentId** identifica exclusivamente a floresta do Microsoft Ex
 <DeploymentId/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -47,15 +47,15 @@ Nenhum.
 |:-----|:-----|
 |[Usuário (POX)](user-pox.md) <br/> |Fornece informações específicas do usuário.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto identifica exclusivamente a floresta do Exchange 2007 no formato GUID.
   
 ## <a name="remarks"></a>Comentários
 
-Se você desinstalar e reinstalar o Exchange 2007 e usar o mesmo nome de servidor, o valor de **DeploymentId** é alterado. 
+Se você desinstalar e depois reinstalar o Exchange 2007 e usar o mesmo nome de servidor, o valor **DeploymentId** será alterado. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

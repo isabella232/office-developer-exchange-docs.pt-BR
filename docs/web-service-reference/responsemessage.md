@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: bf57265a-d354-4cd7-bbfc-d93e19cbede6
 description: O elemento ResponseMessage fornece informações descritivas sobre o status de resposta para uma única entidade dentro de uma solicitação.
-ms.openlocfilehash: 69f1f6f12d10044045b72dd644536e742c479b9e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a7f4240b1e988cb69d67118c6db58db0d7babba5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825191"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467155"
 ---
 # <a name="responsemessage"></a>ResponseMessage
 
@@ -33,13 +33,13 @@ O elemento **ResponseMessage** fornece informações descritivas sobre o status 
 ```
 
  **ResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
 |**ResponseClass** <br/> | Representa o status da resposta. <br/><br/>Os seguintes valores são válidos para este atributo:  <br/><br/>-Êxito  <br/>-Aviso  <br/>-Erro  <br/> |
    
@@ -47,31 +47,31 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Êxito  <br/> |Descreve uma solicitação que seja cumprida.  <br/> |
-|Aviso  <br/> | Descreve uma solicitação que não foi processada. Um aviso pode ser retornado se ocorreu um erro quando um item na solicitação estava processando e itens subsequentes não pôde ser processados. <br/><br/>A seguir estão algumas causas possíveis avisos:  <br/><br/>-O armazenamento do Exchange está offline durante o lote.  <br/>-O serviço de diretório do Active Directory está offline.  <br/>-Caixas de correio são movidas.  <br/>-O banco de dados de mensagens (MDB) está offline.  <br/>-Uma senha expirou.  <br/>-Uma cota for excedida.  <br/> |
-|Erro  <br/> | Descreve uma solicitação que não puder ser atendida. <br/><br/>A seguir estão algumas causas possíveis erros:  <br/><br/>-Inválido atributos e elementos  <br/>-Atributos ou elementos fora do intervalo  <br/>-Marca desconhecida  <br/>-Atributo ou elemento não é válido no contexto  <br/>-Tentativa de acesso não autorizado de qualquer cliente  <br/>-Falha server-side em resposta a uma chamada de cliente válida  <br/> <br/> Informações sobre o erro podem ser encontradas nos elementos [ResponseCode](responsecode.md) e [MessageText](messagetext.md) .  <br/> |
+|Êxito  <br/> |Descreve uma solicitação que é atendida.  <br/> |
+|Aviso  <br/> | Descreve uma solicitação que não foi processada. Um aviso pode ser retornado se um erro ocorreu enquanto um item na solicitação estava sendo processado e não foi possível processar os itens subsequentes. <br/><br/>Veja a seguir algumas possíveis causas para os avisos:  <br/><br/>– O repositório do Exchange está offline durante o lote.  <br/>– O serviço de diretório do Active Directory está offline.  <br/>-As caixas de correio são movidas.  <br/>– O banco de dados de mensagens (MDB) está offline.  <br/>-Uma senha expirou.  <br/>-Uma cota foi excedida.  <br/> |
+|Erro  <br/> | Descreve uma solicitação que não pode ser atendida. <br/><br/>Veja a seguir algumas possíveis causas de erros:  <br/><br/>-Atributos ou elementos inválidos  <br/>-Atributos ou elementos fora do intervalo  <br/>– Marca desconhecida  <br/>-Atributo ou elemento não válido no contexto  <br/>– Tentativa de acesso não autorizado por qualquer cliente  <br/>-Falha do servidor em resposta a uma chamada válida do lado do cliente  <br/> <br/> As informações sobre o erro podem ser encontradas nos elementos [ResponseCode](responsecode.md) e [MessageText](messagetext.md) .  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[MessageText](messagetext.md) <br/> |Fornece uma descrição de texto do status da resposta.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fornece um código de erro que identifica o erro específico que enfrentaram a solicitação.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |No momento não utilizados e está reservado para uso futuro. Ele contém um valor de 0.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fornece informações de resposta de erro adicionais.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fornece um código de erro que identifica o erro específico que a solicitação encontrou.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Não utilizado no momento e está reservado para uso futuro. Ele contém um valor de 0.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta de erro.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FreeBusyResponse](freebusyresponse.md) <br/> |Contém as informações de disponibilidade para um usuário de caixa de correio única. <br/> <br/> Este é a expressão XPath 2.0 para esse elemento: <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray[i]/FreeBusyResponse` <br/> |
-|[SuggestionsResponse](suggestionsresponse.md) <br/> |Contém dados de informações e sugestão de resposta for solicitado sugestões de reunião.  <br/><br/> Este é a expressão XPath 2.0 para esse elemento:<br/>  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
-|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Contém os resultados de resposta e as configurações de ausência temporária para um usuário.  <br/><br/> Este é a expressão XPath 2.0 para esse elemento:  <br/><br/>  `/GetUserOofSettingsResponse` <br/> |
-|[SetUserOofSettingsResponse](setuseroofsettingsresponse.md) <br/> |Contém o resultado de uma mensagem de [SetUserOofSettingsRequest](setuseroofsettingsrequest.md) tentada. <br/> <br/> Este é a expressão XPath 2.0 para esse elemento:  <br/><br/>  `/SetUserOofSettingsResponse` <br/> |
+|[FreeBusyResponse](freebusyresponse.md) <br/> |Contém as informações de disponibilidade de um único usuário de caixa de correio. <br/> <br/> A seguir está a expressão XPath 2,0 para este elemento: <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray[i]/FreeBusyResponse` <br/> |
+|[SuggestionsResponse](suggestionsresponse.md) <br/> |Contém informações de resposta e dados de sugestão para sugestões de reunião solicitadas.  <br/><br/> A seguir está a expressão XPath 2,0 para este elemento:<br/>  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
+|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Contém os resultados da resposta e as configurações de ausência temporária de um usuário.  <br/><br/> A seguir está a expressão XPath 2,0 para este elemento:  <br/><br/>  `/GetUserOofSettingsResponse` <br/> |
+|[SetUserOofSettingsResponse](setuseroofsettingsresponse.md) <br/> |Contém o resultado de uma mensagem tentada [SetUserOofSettingsRequest](setuseroofsettingsrequest.md) . <br/> <br/> A seguir está a expressão XPath 2,0 para este elemento:  <br/><br/>  `/SetUserOofSettingsResponse` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O tipo de **ResponseMessageType** é comum a todas as respostas de serviços Web do Exchange. O tipo de **ResponseMessageType** é estendido pelos seguintes tipos complexos: 
+O tipo **ResponseMessageType** é comum a todas as respostas de serviços Web do Exchange. O tipo **ResponseMessageType** é estendido pelos seguintes tipos complexos: 
   
 - **ApplyConversationActionResponseMessageType**
     
@@ -103,25 +103,25 @@ O tipo de **ResponseMessageType** é comum a todas as respostas de serviços Web
     
 - **SyncFolderItemsResponseMessageType**
     
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
 ### <a name="version-differences"></a>Diferenças de versão
 
-Os tipos de **ApplyConversationActionResponseMessage** e **DeleteItemResponseMessageType** foram introduzidos no Exchange compilação 15.00.0986.00. 
+Os tipos **ApplyConversationActionResponseMessage** e **DeleteItemResponseMessageType** foram introduzidos no 15.00.0986.00 de compilação do Exchange. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação GetUserAvailability](getuseravailability-operation.md)
 - [Operação SetUserOofSettings](setuseroofsettings-operation.md)
 - [Operação GetUserOofSettings](getuseroofsettings-operation.md)
-- [Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

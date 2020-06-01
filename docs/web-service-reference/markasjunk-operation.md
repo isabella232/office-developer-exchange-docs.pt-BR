@@ -7,60 +7,60 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1f71f04d-56a9-4fee-a4e7-d1034438329e
-description: Encontre informações sobre o EWS MarkAsJunk operação.
-ms.openlocfilehash: b9d79e6fbec87ce41030b4981f3c16f2f9ce9507
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações sobre a operação do EWS do MarkAsJunk.
+ms.openlocfilehash: 25d6b01dfff64c4e45f3382223311219d349c165
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824353"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468569"
 ---
 # <a name="markasjunk-operation"></a>Operação MarkAsJunk
 
-Encontre informações sobre a operação de EWS **MarkAsJunk** . 
+Encontre informações sobre a operação do EWS do **MarkAsJunk** . 
   
-A operação **MarkAsJunk** adiciona e remove usuários da lista de bloqueios de email e transfere mensagens de email para a pasta Lixo eletrônico. 
+A operação **MarkAsJunk** adiciona e remove usuários da lista de e-mails bloqueados e move mensagens de email para a pasta lixo eletrônico. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-markasjunk-operation"></a>Usando a operação MarkAsJunk
 
-A operação **MarkAsJunk** contém duas opções booleanas para indicar se um remetente do email deve ser adicionado à lista de remetentes bloqueados e se a mensagem de email de destino deve ser movida para a pasta de lixo eletrônico padrão ou a pasta de caixa de entrada. As ações são determinadas pelos valores dos atributos **IsJunk** e **MoveItem** . A seguir estão as ações possíveis com base nas combinações de valores para os atributos **IsJunk** e **MoveItem** : 
+A operação **MarkAsJunk** contém duas opções booleanas para indicar se um remetente de email deve ser adicionado à lista de remetentes bloqueados e se a mensagem de email de destino deve ser movida para a pasta de lixo eletrônico padrão ou para a pasta caixa de entrada. As ações são determinadas pelos valores dos atributos **islixo** e **MoveItem** . A seguir estão as ações possíveis com base nas combinações de valor dos atributos **isjunk** e **MoveItem** : 
   
-- Se o atributo **IsJunk** estiver definido como **true**e o atributo **MoveItem** estiver definido como **true**, o remetente da mensagem de email de destino é adicionado à lista de remetentes bloqueados e a mensagem de email é movida para a pasta de lixo eletrônico Dmail.
+- Se o atributo **islixo** estiver definido como **true**e o atributo **MoveItem** estiver definido como **true**, o remetente da mensagem de email de destino será adicionado à lista de remetentes bloqueados e a mensagem de email será movida para a pasta lixo eletrônico.
     
-- Se o atributo **IsJunk** estiver definido como **true**e o atributo **MoveItem** estiver definido como **false**, o remetente da mensagem de email de destino é adicionado à lista de remetentes bloqueados e a mensagem de email não é movida da pasta.
+- Se o atributo **islixo** estiver definido como **true**e o atributo **MoveItem** estiver definido como **false**, o remetente da mensagem de email de destino será adicionado à lista de remetentes bloqueados e a mensagem de email não será movida da pasta.
     
-- Se o atributo **IsJunk** está definido como **false**e o **MoveItem** atributo estiver definido como **true**, o remetente da messageis de email de destino removido da lista de remetentes bloqueados e a mensagem de email é movida para a pasta de caixa de entrada.
+- Se o atributo **isjunk** for definido como **false**e o atributo **MoveItem** estiver definido como **true**, o remetente da mensagem de email de destino será removido da lista de remetentes bloqueados e a mensagem de email será movida para a pasta caixa de entrada.
     
-- Se o atributo **IsJunk** estiver definido como **false**e o atributo **MoveItem** estiver definido como **false**, o remetente da mensagem de email de destino é removido da lista de remetentes bloqueados e a mensagem de email não é movida da pasta.
+- Se o atributo **isjunk** for definido como **false**e o atributo **MoveItem** for definido como **false**, o remetente da mensagem de email de destino será removido da lista de remetentes bloqueados e a mensagem de email não será movida da pasta.
     
 > [!IMPORTANT]
-> O conteúdo da lista de remetentes bloqueados não é detectável do EWS. Se um remetente é adicionado à lista de remetentes bloqueados, você precisa manter uma cópia de uma mensagem de email enviada pelo remetente bloqueado para desbloquear o remetente no futuro. 
+> O conteúdo da lista de remetentes bloqueados não é detectável do EWS. Se um remetente for adicionado à lista de remetentes bloqueados, você precisará manter uma cópia de uma mensagem de email enviada pelo remetente bloqueado para desbloquear o remetente no futuro. 
   
-### <a name="markasjunk-operation-soap-headers"></a>Cabeçalhos SOAP MarkAsJunk operação
+### <a name="markasjunk-operation-soap-headers"></a>Cabeçalhos SOAP de operação MarkAsJunk
 
-A operação **MarkAsJunk** pode usar os cabeçalhos SOAP que estão listados na tabela a seguir. 
+A operação **MarkAsJunk** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
 |**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido no RFC 3066, "Marcas para a identificação de idiomas", que será usada para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
    
 ## <a name="markasjunk-operation-request-example-add-a-sender-to-the-blocked-sender-list"></a>Exemplo de solicitação de operação MarkAsJunk: adicionar um remetente à lista de remetentes bloqueados
 
-O exemplo a seguir de uma solicitação de operação **MarkAsJunk** mostra como adicionar o remetente de um email à lista de remetentes bloqueados e mover o email para a pasta Lixo eletrônico. A operação **MarkAsJunk** aceita o identificador de mensagem de email exclusivo para identificar o email que é usado para referenciar o remetente que é adicionado à lista de remetentes bloqueados. 
+O exemplo a seguir de uma solicitação de operação **MarkAsJunk** mostra como adicionar o remetente de um email à lista de remetentes bloqueados e mover o email para a pasta lixo eletrônico. A operação **MarkAsJunk** aceita o identificador de mensagem de email exclusivo para identificar o email que é usado para fazer referência ao remetente adicionado à lista de remetentes bloqueados. 
   
 > [!NOTE]
-> Todos os identificadores de itens e teclas de alteração neste artigo foram diminuídas para preservar a legibilidade. 
+> Todos os identificadores de item e as chaves de alteração deste artigo foram reduzidos para preservar a legibilidade. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
     <soap:Header>
         <t:RequestServerVersion Version="Exchange2013" />
@@ -76,7 +76,7 @@ O exemplo a seguir de uma solicitação de operação **MarkAsJunk** mostra como
 
 ```
 
-A solicitação de corpo SOAP contém os seguintes elementos:
+O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [MarkAsJunk](markasjunk.md)
     
@@ -86,7 +86,7 @@ A solicitação de corpo SOAP contém os seguintes elementos:
     
 ## <a name="successful-markasjunk-operation-response"></a>Resposta de operação MarkAsJunk bem-sucedida
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **MarkAsJunk** para adicionar um remetente à lista de remetentes bloqueados e mover a mensagem de email para a pasta Lixo eletrônico. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação de **MarkAsJunk** para adicionar um remetente à lista de remetentes bloqueados e mover a mensagem de email para a pasta lixo eletrônico. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -97,15 +97,15 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
                              MajorBuildNumber="545" 
                              MinorBuildNumber="11" 
                              Version="Exchange2013" 
-                             xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                             xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                              xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
     </s:Header>
     <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-        <m:MarkAsJunkResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+        <m:MarkAsJunkResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
            <m:ResponseMessages>
                <m:MarkAsJunkResponseMessage ResponseClass="Success">
                   <m:ResponseCode>NoError</m:ResponseCode>
@@ -117,7 +117,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
 </s:Envelope>
 ```
 
-A resposta SOAP body contém os seguintes elementos:
+O corpo SOAP de resposta contém os seguintes elementos:
   
 - [MarkAsJunkResponse](markasjunkresponse.md)
     
@@ -131,13 +131,13 @@ A resposta SOAP body contém os seguintes elementos:
     
 ## <a name="markasjunk-operation-request-example-remove-a-sender-from-the-blocked-sender-list"></a>Exemplo de solicitação de operação MarkAsJunk: remover um remetente da lista de remetentes bloqueados
 
-O exemplo a seguir de uma solicitação de operação **MarkAsJunk** mostra como remover o remetente de uma mensagem de email da lista de remetentes bloqueados e mover a mensagem de email para a pasta de caixa de entrada. Você precisa manter uma mensagem de email enviada pelo remetente bloqueado para remover o remetente da lista de remetentes bloqueados. Endereço de email do remetente é associado a mensagens de email que foram enviadas pelo remetente. Remover um remetente da lista de remetentes bloqueados não terá êxito se a mensagem de email de referência não existe mais na caixa de correio do usuário. O identificador de item usado para associar uma mensagem de email com seu remetente deve ser associado um item que existe na caixa de correio do Exchange. Recomendamos que você cria uma pasta oculta para armazenar itens enviados por remetentes bloqueados anteriormente, para que os remetentes possam ser desbloqueados do aplicativo cliente. Se um item foi removido da caixa de correio do Exchange, um administrador deve usar o Console de gerenciamento do Exchange para acessar a lista de remetentes bloqueados para remover um remetente da lista. Para obter informações sobre como desbloquear um usuário usando o Console de gerenciamento do Exchange, consulte [como definir as configurações de remetentes bloqueados no Office 365 e de remetentes confiáveis](http://support.microsoft.com/kb/2545137).
+O exemplo a seguir de uma solicitação de operação **MarkAsJunk** mostra como remover o remetente de uma mensagem de email da lista de remetentes bloqueados e mover a mensagem de email para a pasta caixa de entrada. Você precisa manter uma mensagem de email enviada pelo remetente bloqueado para remover o remetente da lista de remetentes bloqueados. O endereço de email do remetente é associado a mensagens de email enviadas pelo remetente. A remoção de um remetente da lista de remetentes bloqueados não será bem-sucedida se a mensagem de email de referência não existir mais na caixa de correio do usuário. O identificador de item usado para associar uma mensagem de email ao remetente deve estar associado a um item que existe na caixa de correio do Exchange. Recomendamos que você crie uma pasta oculta para armazenar itens enviados por remetentes bloqueados anteriormente para que os remetentes possam ser desbloqueados do aplicativo cliente. No caso de um item ter sido removido da caixa de correio do Exchange, um administrador deve usar o console de gerenciamento do Exchange para acessar a lista de remetentes bloqueados para remover um remetente da lista. Para obter informações sobre como desbloquear um usuário usando o console de gerenciamento do Exchange, consulte [como configurar as configurações de remetentes confiáveis e remetentes bloqueados no Office 365](https://support.microsoft.com/kb/2545137).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
     <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
@@ -155,7 +155,7 @@ O exemplo a seguir de uma solicitação de operação **MarkAsJunk** mostra como
 
 Uma resposta bem-sucedida para remover um remetente da lista de remetentes bloqueados é o mesmo que a resposta para adicionar um remetente à lista de remetentes bloqueados.
   
-A solicitação de corpo SOAP contém os seguintes elementos:
+O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [MarkAsJunk](markasjunk.md)
     
@@ -176,15 +176,15 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
                          MajorBuildNumber="545" 
                          MinorBuildNumber="11" 
                          Version="Exchange2013" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:MarkAsJunkResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:MarkAsJunkResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:MarkAsJunkResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -197,7 +197,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-A resposta de erro corpo SOAP contém os seguintes elementos:
+O corpo SOAP de resposta de erro contém os seguintes elementos:
   
 - [MarkAsJunkResponse](markasjunkresponse.md)
     
@@ -211,7 +211,7 @@ A resposta de erro corpo SOAP contém os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
     

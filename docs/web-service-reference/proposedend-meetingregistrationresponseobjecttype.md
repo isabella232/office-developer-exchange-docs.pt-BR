@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3e5d2567-a5a2-4791-b209-c29082894a9e
-description: O elemento ProposedEnd (MeetingRegistrationResponseObjectType) especifica proposto nova hora de término um participante para uma reunião.
-ms.openlocfilehash: deceacd54767bf9b5ae5b3e452709d397ef95402
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ProposedEnd (MeetingRegistrationResponseObjectType) especifica a nova hora de término proposta de um participante para uma reunião.
+ms.openlocfilehash: f6aafe157c653776dca511a104ceeb9518812d98
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824902"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466980"
 ---
 # <a name="proposedend-meetingregistrationresponseobjecttype"></a>ProposedEnd (MeetingRegistrationResponseObjectType)
 
-O elemento **ProposedEnd (MeetingRegistrationResponseObjectType)** Especifica proposto nova hora de término um participante para uma reunião. 
+O elemento **ProposedEnd (MeetingRegistrationResponseObjectType)** especifica a nova hora de término proposta de um participante para uma reunião. 
   
 ```XML
 <ProposedEnd />
 ```
 
  **dateTime**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[AcceptItem](acceptitem.md) | [TentativelyAcceptItem](tentativelyacceptitem.md) | [DeclineItem](declineitem.md)
+[AcceptItem](acceptitem.md)  |  [TentativelyAcceptItem](tentativelyacceptitem.md)  |  [DeclineItem](declineitem.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ProposedEnd (MeetingRegistrationResponseObjectType)** é a data de término proposta e a hora da reunião. 
+O valor de texto do elemento **ProposedEnd (MeetingRegistrationResponseObjectType)** é a data e a hora de término propostas da reunião. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,16 +50,16 @@ Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Também consulte
 
 
 

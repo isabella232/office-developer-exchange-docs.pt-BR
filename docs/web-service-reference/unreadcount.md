@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 53b22647-1453-4707-9ea0-6a8369748d56
-description: O elemento UnreadCount contém a contagem de itens não lidos dentro de uma pasta.
-ms.openlocfilehash: fbe887f8f6d83fbcf48ed9593b3d19322a7f48be
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UnreadCount contém a contagem de itens não lidos em uma pasta.
+ms.openlocfilehash: 72e5d47eac7618408e46ad11eb19eaebf9835502
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837862"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467218"
 ---
 # <a name="unreadcount"></a>UnreadCount
 
-O elemento **UnreadCount** contém a contagem de itens não lidos dentro de uma pasta. 
+O elemento **UnreadCount** contém a contagem de itens não lidos em uma pasta. 
   
 ```XML
 <UnreadCount/>
 ```
 
- **xs:int**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **xs: int**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,30 +44,30 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
 |[Folder](folder.md) <br/> |Representa uma pasta em uma caixa de correio.  <br/> |
-|[ModifiedEvent](modifiedevent.md) <br/> |Representa um evento onde um item ou pasta é modificada.  <br/> |
+|[ModifiedEvent](modifiedevent.md) <br/> |Representa um evento em que um item ou pasta é modificado.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Representa uma pasta de pesquisa em uma caixa de correio.  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |Representa uma pasta de tarefa em uma caixa de correio.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Representa uma pasta de tarefas em uma caixa de correio.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa um valor inteiro. Esta propriedade é somente leitura.
+O valor de texto representa um valor inteiro. Essa propriedade é somente leitura.
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

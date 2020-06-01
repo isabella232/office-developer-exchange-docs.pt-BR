@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: b0124b70-28ab-4484-ac81-465a42f42776
-description: O elemento de mensagem contém a mensagem de erro para um erro de resposta de descoberta automática.
-ms.openlocfilehash: fdcf2f4c7021948aad1ad25392c91203656aaa75
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Message contém a mensagem de erro para uma resposta de descoberta automática de erro.
+ms.openlocfilehash: 5e2f9d5b2f9ad45359f180f1121a34ccf9cd89cc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824448"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467988"
 ---
 # <a name="message-pox"></a>Mensagem (POX)
 
-O elemento de **mensagem** contém a mensagem de erro para um erro de resposta de descoberta automática. 
+O elemento **Message** contém a mensagem de erro para uma resposta de descoberta automática de erro. 
   
 [Erro (POX)](error-pox.md)
   
@@ -28,13 +28,13 @@ O elemento de **mensagem** contém a mensagem de erro para um erro de resposta d
 <Message/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,13 +46,13 @@ Nenhum.
 |:-----|:-----|
 |[Erro (POX)](error-pox.md) <br/> |Contém uma resposta de erro de descoberta automática.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa a mensagem de erro para o erro de resposta de descoberta automática.
+O valor de texto representa a mensagem de erro para a resposta de descoberta automática de erro.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

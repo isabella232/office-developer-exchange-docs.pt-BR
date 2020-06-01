@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 14571c28-effa-430a-802e-82fb99bafa7f
-description: O elemento de RefreshSharingFolder define uma solicitação para atualizar a pasta local especificada. É o elemento de base para a operação RefreshSharingFolder.
-ms.openlocfilehash: b09e311d0ba38b0cdcc9fe0864ed3e2b0151b0fd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RefreshSharingFolder define uma solicitação para atualizar a pasta local especificada. É o elemento base para a operação RefreshSharingFolder.
+ms.openlocfilehash: 4454607fa2c3114cc7279fd7c30f8aee74707baa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825043"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467925"
 ---
 # <a name="refreshsharingfolder"></a>RefreshSharingFolder
 
-O elemento de **RefreshSharingFolder** define uma solicitação para atualizar a pasta local especificada. É o elemento de base para a [operação RefreshSharingFolder](refreshsharingfolder-operation.md).
+O elemento **RefreshSharingFolder** define uma solicitação para atualizar a pasta local especificada. É o elemento base para a [operação RefreshSharingFolder](refreshsharingfolder-operation.md).
   
 ```xml
 <RefreshSharingFolder>   <SharingFolderId/></RefreshSharingFolder>
 ```
 
  **RefreshSharingFolderType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,22 +44,22 @@ Nenhum.
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório Virtual do IIS que hospeda o Exchange Web Services do computador que está executando o Microsoft Exchange Server que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

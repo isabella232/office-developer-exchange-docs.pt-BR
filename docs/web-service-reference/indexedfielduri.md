@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5c9cd0b5-7eca-480a-8730-fe98b1779afa
 description: O elemento IndexedFieldURI identifica membros individuais de um dicionário.
-ms.openlocfilehash: 6a75e8855ecabf15ca31bb1e05d569c258a43b0b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f794d9970590417d916925f7258b28d4f0920d0e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823909"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467015"
 ---
 # <a name="indexedfielduri"></a>IndexedFieldURI
 
@@ -28,31 +28,31 @@ O elemento **IndexedFieldURI** identifica membros individuais de um dicionário.
 ```
 
  **PathToIndexedFieldType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**FieldURI** <br/> |Identifica o dicionário que contém o membro para retornar. Este atributo é necessário.  <br/> |
-|**FieldIndex** <br/> |Identifica o membro do dicionário para retornar. Este atributo é necessário.  <br/> |
+|**FieldURI** <br/> |Identifica o dicionário que contém o membro a ser retornado. Esse atributo é necessário.  <br/> |
+|**FieldIndex** <br/> |Identifica o membro do dicionário a ser retornado. Esse atributo é necessário.  <br/> |
    
 #### <a name="fielduri-attribute"></a>Atributo FieldURI
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
 |item: InternetMessageHeader  <br/> |Representa o cabeçalho da mensagem de um item.  <br/> |
-|Contatos: ImAddress  <br/> |Representa o endereço de um contato de mensagens instantâneas.  <br/> |
-|Contatos: PhysicalAddress:Street  <br/> |Representa o endereço de um contato.  <br/> |
-|Contatos: PhysicalAddress:City  <br/> |Representa a cidade de um contato.  <br/> |
-|Contatos: PhysicalAddress:State  <br/> |Representa o estado de um contato.  <br/> |
-|Contatos: PhysicalAddress:Country  <br/> |Representa o país/região de um contato.  <br/> |
-|Contatos: PhysicalAddress:PostalCode  <br/> |Representa o código postal de um contato.  <br/> |
-|Contatos: PhoneNumber  <br/> |Representa o número de telefone de um contato.  <br/> |
-|Contatos: EmailAddress  <br/> |Representa o endereço de email de um contato.  <br/> |
-|DistributionList:Members:Member  <br/> |Representa um membro de uma lista de distribuição.  <br/> |
+|contatos: imendereço  <br/> |Representa o endereço de mensagens instantâneas de um contato.  <br/> |
+|contatos: PhysicalAddress: rua  <br/> |Representa o endereço de um contato.  <br/> |
+|contatos: PhysicalAddress: cidade  <br/> |Representa a cidade de um contato.  <br/> |
+|contatos: PhysicalAddress: State  <br/> |Representa o estado de um contato.  <br/> |
+|contatos: PhysicalAddress: país  <br/> |Representa o país/região de um contato.  <br/> |
+|contatos: PhysicalAddress: CEP  <br/> |Representa o código postal de um contato.  <br/> |
+|contatos: PhoneNumber  <br/> |Representa o número de telefone de um contato.  <br/> |
+|contatos: EmailAddress  <br/> |Representa o endereço de email de um contato.  <br/> |
+|DistributionList: members: member  <br/> |Representa um membro de uma lista de distribuição.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -62,24 +62,24 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AdditionalProperties](additionalproperties.md) <br/> |Identifica as propriedades adicionais para obter, definir ou criar.  <br/> |
-|[AggregateOn](aggregateon.md) <br/> |Representa a propriedade que é usada para determinar a ordem dos itens agrupados para um conjunto de resultados FindItem agrupada.  <br/> |
-|[GroupBy](groupby.md) <br/> |Especifica um agrupamento arbitrário para consultas FindItem.  <br/> |
+|[AdditionalProperties](additionalproperties.md) <br/> |Identifica propriedades adicionais a serem obtidas, definidas ou criadas.  <br/> |
+|[Agregar](aggregateon.md) <br/> |Representa a propriedade que é usada para determinar a ordem dos itens agrupados para um conjunto de resultados de FindItem agrupado.  <br/> |
+|[GroupBy](groupby.md) <br/> |Especifica um agrupamento arbitrário para consultas do FindItem.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

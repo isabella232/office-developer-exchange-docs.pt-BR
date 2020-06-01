@@ -1,5 +1,5 @@
 ---
-title: SetTelephoneAccessFolderEmail (serviço web de Unificação de mensagens)
+title: SetTelephoneAccessFolderEmail (serviço Web da UM)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 90759da7-6dba-499e-b8c8-e44a016b3198
-description: O elemento de SetTelephoneAccessFolderEmail define uma solicitação para definir a pasta de email padrão do qual Unificação de mensagens lê as mensagens por telefone.
-ms.openlocfilehash: e19f151e364411717d5129cbef8c5cc097689f89
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SetTelephoneAccessFolderEmail define uma solicitação para definir a pasta de email padrão a partir da qual a Unificação de mensagens lerá as mensagens por telefone.
+ms.openlocfilehash: 806bdb1f0c7930a9e89555192aa32ad997716e7e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825461"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467316"
 ---
-# <a name="settelephoneaccessfolderemail-um-web-service"></a>SetTelephoneAccessFolderEmail (serviço web de Unificação de mensagens)
+# <a name="settelephoneaccessfolderemail-um-web-service"></a>SetTelephoneAccessFolderEmail (serviço Web da UM)
 
-O elemento de **SetTelephoneAccessFolderEmail** define uma solicitação para definir a pasta de email padrão do qual Unificação de mensagens lê as mensagens por telefone. 
+O elemento **SetTelephoneAccessFolderEmail** define uma solicitação para definir a pasta de email padrão a partir da qual a Unificação de mensagens lerá as mensagens por telefone. 
   
-[SetTelephoneAccessFolderEmail (serviço web de Unificação de mensagens)](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail (serviço Web da UM)](settelephoneaccessfolderemail-um-web-service.md)
   
 ```xml
 <SetTelephoneAccessFolderEmail>
@@ -31,40 +31,40 @@ O elemento de **SetTelephoneAccessFolderEmail** define uma solicitação para de
 ```
 
  **complexType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[base64FolderId (serviço web de Unificação de mensagens)](base64folderid-um-web-service.md) <br/> |O identificador da pasta de email.  <br/> |
+|[base64FolderId (serviço Web da UM)](base64folderid-um-web-service.md) <br/> |O identificador da pasta de email.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação de SetTelephoneAccessFolderEmail (serviço web de Unificação de mensagens)](settelephoneaccessfolderemail-operation-um-web-service.md)
+[Operação SetTelephoneAccessFolderEmail (serviço Web da UM)](settelephoneaccessfolderemail-operation-um-web-service.md)
 

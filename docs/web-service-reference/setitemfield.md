@@ -1,5 +1,5 @@
 ---
-title: SetItemField
+title: Setitemfield
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 85284fcb-bd1e-4fda-9dab-cb4cd637cd5b
-description: O elemento SetItemField representa uma atualização para uma única propriedade de um item em uma operação UpdateItem.
-ms.openlocfilehash: bd3e5bca3d61325ef3f218c5ada535346247f391
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: O elemento setitemfield representa uma atualização para uma única propriedade de um item em uma operação UpdateItem.
+ms.openlocfilehash: b4606eb7d94b9d0c4c5bcd5a2b56d73a4d4270cb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353795"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467421"
 ---
-# <a name="setitemfield"></a>SetItemField
+# <a name="setitemfield"></a>Setitemfield
 
-O elemento **SetItemField** representa uma atualização para uma única propriedade de um item em uma [operação UpdateItem](updateitem-operation.md).
+O elemento **Setitemfield** representa uma atualização para uma única propriedade de um item em uma [operação UpdateItem](updateitem-operation.md).
   
 ```xml
 <SetItemField>
@@ -236,52 +236,52 @@ O elemento **SetItemField** representa uma atualização para uma única proprie
 
 **SetItemFieldType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifica as propriedades frequentemente referenciadas pelo URI.  <br/> |
-|[IndexedFieldURI](indexedfielduri.md) <br/> |Identifica a membros individuais de um dicionário.  <br/> |
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifica as propriedades estendidas de MAPI para definir.  <br/> |
-|[1.1](item.md) <br/> |Representa um item no armazenamento do Exchange.  <br/> |
-|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange para atualizar.  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange para atualizar.  <br/> |
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange para atualizar.  <br/> |
-|[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição a ser atualizado.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião a atualização.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião para atualizar.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião para atualizar.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Representa o cancelamento da reunião para atualizar.  <br/> |
-|[Task](task.md) <br/> |Representa uma tarefa a ser atualizado.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifica as propriedades com frequência referenciadas por URI.  <br/> |
+|[IndexedFieldURI](indexedfielduri.md) <br/> |Identifica membros individuais de um dicionário.  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifica as propriedades de MAPI estendidas a serem definidas.  <br/> |
+|[Item](item.md) <br/> |Representa um item no repositório do Exchange.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange a ser atualizada.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange a ser atualizado.  <br/> |
+|[Contato](contact.md) <br/> |Representa um item de contato do Exchange a ser atualizado.  <br/> |
+|[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição a ser atualizada.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião a ser atualizada.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião a ser atualizada.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião a ser atualizada.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião a ser atualizado.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa a ser atualizada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Updates (Item)](updates-item.md) <br/> |Contém um conjunto de elementos que definem append, definir e excluir as alterações nas propriedades do item.  <br/> |
+|[Atualizações (item)](updates-item.md) <br/> |Contém um conjunto de elementos que definem Append, set e Delete alterações nas propriedades do item.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação UpdateItem](updateitem-operation.md)
 

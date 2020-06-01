@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 8bcb0411-58b0-4e37-b97e-00c07dcbecb1
 description: O elemento SettingName representa o nome de uma configuração na resposta.
-ms.openlocfilehash: 9bf7c8197693bc6887a99ffcbeb2240e1f4c3b20
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d492b82b7385d6403f15c08356db5d0503792d54
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825468"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466721"
 ---
 # <a name="settingname-soap"></a>SettingName (SOAP)
 
@@ -25,13 +25,13 @@ O elemento **SettingName** representa o nome de uma configuração na resposta.
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -41,20 +41,20 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserSettingError (SOAP)](usersettingerror-soap.md) <br/> |Representa um erro retornado ao recuperar uma configuração de usuário.  <br/> |
-|[DomainSettingError (SOAP)](domainsettingerror-soap.md) <br/> |Representa um erro que ocorreu durante a recuperação de uma configuração de domínio. Isso representa um erro de uma solicitação de **GetDomainSettings** .  <br/> |
+|[UserSettingError (SOAP)](usersettingerror-soap.md) <br/> |Representa um erro retornado ao recuperar uma configuração do usuário.  <br/> |
+|[DomainSettingError (SOAP)](domainsettingerror-soap.md) <br/> |Representa um erro que ocorreu ao recuperar uma configuração de domínio. Isso representa um erro de uma solicitação **GetDomainSettings** .  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor do elemento **SettingName** representa o nome de uma configuração em uma resposta. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |

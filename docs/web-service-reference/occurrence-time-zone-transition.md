@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5c1142b1-c51f-42e1-bbb2-57e00cad0fdb
-description: O elemento de ocorrência representa a ocorrência do dia da semana do mês em que ocorre a transição do fuso horário.
-ms.openlocfilehash: bc5160480cc6881bb9d724aa61323f5717d1f2fa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ocorrência representa a ocorrência do dia da semana no mês em que ocorre a transição de fuso horário.
+ms.openlocfilehash: 846f6b22f43bcda07b9408d768d0845a5acfe668
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824636"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467974"
 ---
 # <a name="occurrence-time-zone-transition"></a>Ocorrência (transição de fuso horário)
 
-O elemento de **ocorrência** representa a ocorrência do dia da semana do mês em que ocorre a transição do fuso horário. 
+O elemento **ocorrência** representa a ocorrência do dia da semana no mês em que ocorre a transição de fuso horário. 
   
 ```xml
 <Occurrence/>
@@ -29,13 +29,13 @@ O elemento de **ocorrência** representa a ocorrência do dia da semana do mês 
 
 **int**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,37 +45,37 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[RecurringDayTransition](recurringdaytransition.md) <br/> |Representa uma transição de fuso horário que ocorre no mesmo dia cada ano.  <br/> |
+|[RecurringDayTransition](recurringdaytransition.md) <br/> |Representa uma transição de fuso horário que ocorre no mesmo dia a cada ano.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto é um inteiro que representa a ocorrência do dia da semana do mês em que ocorre a transição do fuso horário. A tabela a seguir lista os valores possíveis.
+O valor de texto é um inteiro que representa a ocorrência do dia da semana no mês em que ocorre a transição de fuso horário. A tabela a seguir lista os valores possíveis.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|1  <br/> |A primeira ocorrência do dia da semana desde o início do mês especificado.  <br/> |
-|2  <br/> |A segunda ocorrência do dia da semana desde o início do mês especificado.  <br/> |
-|3  <br/> |A terceira ocorrência do dia da semana desde o início do mês especificado.  <br/> |
-|4  <br/> |A quarta ocorrência do dia da semana desde o início do mês especificado.  <br/> |
-|-1  <br/> |A primeira ocorrência do dia da semana do final do mês especificado.  <br/> |
-|-2  <br/> |A segunda ocorrência do dia da semana do final do mês especificado.  <br/> |
-|-3  <br/> |A terceira ocorrência do dia da semana do final do mês especificado.  <br/> |
-|-4  <br/> |A quarta ocorrência do dia da semana do final do mês especificado.  <br/> |
+|1  <br/> |A primeira ocorrência do dia da semana especificado desde o início do mês.  <br/> |
+|duas  <br/> |A segunda ocorrência do dia da semana especificado desde o início do mês.  <br/> |
+|3D  <br/> |A terceira ocorrência do dia da semana especificado desde o início do mês.  <br/> |
+|4   <br/> |A quarta ocorrência do dia da semana especificado desde o início do mês.  <br/> |
+|-1  <br/> |A primeira ocorrência do dia da semana especificado do final do mês.  <br/> |
+|-2  <br/> |A segunda ocorrência do dia da semana especificado do final do mês.  <br/> |
+|-3  <br/> |A terceira ocorrência do dia da semana especificado do final do mês.  <br/> |
+|-4  <br/> |A quarta ocorrência do dia da semana especificado do final do mês.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

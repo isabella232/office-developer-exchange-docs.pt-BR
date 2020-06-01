@@ -8,25 +8,25 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: fba018d5-0c65-4e1b-9767-d1ce8b356278
-description: O elemento SPA indica se a autenticação de senha de segurança (SPA) é necessária.
-ms.openlocfilehash: 1fb0f3bb40e64be89eae7dfc208d51387f532191
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SPA indica se a autenticação de senha segura (SPA) é necessária.
+ms.openlocfilehash: cf57b3a6046b1b9b030b7cae81381189eee92c1c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825533"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467638"
 ---
 # <a name="spa-pox"></a>SPA (POX)
 
-O elemento **SPA** indica se a autenticação de senha de segurança (SPA) é necessária. 
+O elemento **Spa** indica se a autenticação de senha segura (Spa) é necessária. 
   
 [Descoberta automática (POX)](autodiscover-pox.md)
   
-[Resposta POX)](response-pox.md)
+[Resposta (POX)](response-pox.md)
   
 [Conta (POX)](account-pox.md)
   
-[Protocolo (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [SPA (POX)](spa-pox.md)
   
@@ -34,13 +34,13 @@ O elemento **SPA** indica se a autenticação de senha de segurança (SPA) é ne
 <SPA/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,19 +50,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto indica se a SPA é necessária. Se o valor de texto estiver **ligado**, SPA é necessária.
+O valor de texto indica se a SPA é necessária. Se o valor do texto estiver **ativado**, o Spa será obrigatório.
   
 ## <a name="remarks"></a>Comentários
 
-Se esse elemento não estiver presente, o valor padrão é definido para **ativado**.
+Se esse elemento não estiver presente, o valor padrão será definido como **ativado**.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

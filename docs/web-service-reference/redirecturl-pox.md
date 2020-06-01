@@ -1,5 +1,5 @@
 ---
-title: RedirectUrl POX)
+title: RedirectUrl (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: c54f310f-8c99-4c37-8e73-ac87722b6229
-description: O elemento RedirectUrl contém a URL do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor do acesso para cliente instalada deve ser usada para obter as configurações de descoberta automática.
-ms.openlocfilehash: 3b634f1a3a3d44b6aae1a826a005149200641dcb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RedirectUrl contém a URL do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada que deve ser usada para obter as configurações de descoberta automática.
+ms.openlocfilehash: 5400b1e7a4bb7ebebc58b6a0f1fc9bf37f5a2e22
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825027"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468086"
 ---
-# <a name="redirecturl-pox"></a>RedirectUrl POX)
+# <a name="redirecturl-pox"></a>RedirectUrl (POX)
 
-O elemento **RedirectUrl** contém a URL do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor do acesso para cliente instalada deve ser usada para obter as configurações de descoberta automática. 
+O elemento **RedirectUrl** contém a URL do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada que deve ser usada para obter as configurações de descoberta automática. 
   
 [Descoberta automática (POX)](autodiscover-pox.md)
   
-[Resposta POX)](response-pox.md)
+[Resposta (POX)](response-pox.md)
   
 [Conta (POX)](account-pox.md)
   
-[RedirectUrl POX)](redirecturl-pox.md)
+[RedirectUrl (POX)](redirecturl-pox.md)
   
 ```xml
 <RedirectUrl/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,19 +48,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conta (POX)](account-pox.md) <br/> |Especifica as configurações da conta do usuário.  <br/> |
+|[Conta (POX)](account-pox.md) <br/> |Especifica as configurações de conta do usuário.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa a URL do servidor acesso para cliente que deve ser usado para obter as configurações de descoberta automática.
+O valor de texto representa a URL do servidor de acesso para cliente que deve ser usado para obter as configurações de descoberta automática.
   
 ## <a name="remarks"></a>Comentários
 
-O aplicativo cliente deve parar redirecionando após 10 redirecionamentos.
+O aplicativo cliente deve parar de redirecionamento após 10 redirecionamentos.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

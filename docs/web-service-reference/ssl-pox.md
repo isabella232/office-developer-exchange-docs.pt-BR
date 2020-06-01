@@ -8,25 +8,25 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a7e2bdcd-a2f7-45a4-adcd-a03fe7fd4d9b
-description: O elemento SSL Especifica se o logon seguro é necessário.
-ms.openlocfilehash: 9a51c715032cb2af846e764d28698c5697670d98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SSL especifica se o logon seguro é necessário.
+ms.openlocfilehash: f4e42153c25b34c99f2cad50fb56e8cad24534ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825537"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467610"
 ---
 # <a name="ssl-pox"></a>SSL (POX)
 
-O elemento **SSL** Especifica se o logon seguro é necessário. 
+O elemento **SSL** especifica se o logon seguro é necessário. 
   
 [Descoberta automática (POX)](autodiscover-pox.md)
   
-[Resposta POX)](response-pox.md)
+[Resposta (POX)](response-pox.md)
   
 [Conta (POX)](account-pox.md)
   
-[Protocolo (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [SSL (POX)](ssl-pox.md)
   
@@ -34,13 +34,13 @@ O elemento **SSL** Especifica se o logon seguro é necessário.
 <SSL>on or off</SSL>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,15 +50,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocolo (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente para o computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto Especifica se o logon seguro é necessário. Se não for especificado, o valor padrão é definido para **ativado**. Os valores possíveis são **Ativar** e **Desativar**.
+O valor de texto especifica se o logon seguro é necessário. Se não for especificado, o valor padrão será definido como **ativado**. Os valores possíveis estão **ativados** e **desativados**.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

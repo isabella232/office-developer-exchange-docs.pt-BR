@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e895782a-74fe-4216-8ac2-c3c88c4b232d
-description: O elemento ItemIds contém uma matriz de identificadores de item que identificam os itens para exportar de uma caixa de correio.
-ms.openlocfilehash: c6d48832c5435080c7cec8e43093ea60825b604a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ItemIds contém uma matriz de identificadores de item que identificam os itens a serem exportados de uma caixa de correio.
+ms.openlocfilehash: 16c2633528e2ecbc863cfdde645e0f431b4c4297
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824151"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468590"
 ---
 # <a name="itemids-nonemptyarrayofitemidstype"></a>ItemIds (NonEmptyArrayOfItemIdsType)
 
-O elemento **ItemIds** contém uma matriz de identificadores de item que identificam os itens para exportar de uma caixa de correio. 
+O elemento **ItemIds** contém uma matriz de identificadores de item que identificam os itens a serem exportados de uma caixa de correio. 
   
 [ExportItems](exportitems.md)
   
@@ -34,19 +34,19 @@ O elemento **ItemIds** contém uma matriz de identificadores de item que identif
 ```
 
  **NonEmptyArrayOfItemIdsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |Contém o identificador e alterar a chave exclusiva de um item no armazenamento do Exchange.  <br/> |
+|[ItemId](itemid.md) <br/> |Contém o identificador exclusivo e a chave de alteração de um item no repositório do Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -54,24 +54,24 @@ Nenhum.
 |:-----|:-----|
 |[ExportItems](exportitems.md) <br/> |Representa uma solicitação para exportar itens de uma caixa de correio.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nome do esquema  <br/> |Esquema de mensagem  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

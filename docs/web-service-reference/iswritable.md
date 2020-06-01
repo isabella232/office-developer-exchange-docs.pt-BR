@@ -1,5 +1,5 @@
 ---
-title: IsWritable
+title: Iswritable
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d4af8eee-7001-4a8e-b9bd-d14882f2406b
-description: O elemento IsWritable Especifica se o contato subjacente ou o destinatário do Active Directory pode ser gravado em.
-ms.openlocfilehash: 03f258d01ecfc12dfa4e09ac88f4a75340d2acf3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento iswritable especifica se o contato subjacente ou o destinatário do Active Directory pode ser gravado.
+ms.openlocfilehash: 96075adc1772027456f8829eee43bdc734644c09
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824158"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467568"
 ---
-# <a name="iswritable"></a>IsWritable
+# <a name="iswritable"></a>Iswritable
 
-O elemento **IsWritable** Especifica se o contato subjacente ou o destinatário do Active Directory pode ser gravado em. 
+O elemento **iswritable** especifica se o contato subjacente ou o destinatário do Active Directory pode ser gravado. 
   
 ```XML
 <IsWritable> true | false </IsWritable>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [Atribuição (PersonaAttributionType)](attribution-personaattributiontype.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de **true** para o elemento **IsWritable** text indica que o contato ou um objeto do Active Directory está disponível para acesso de gravação. Um valor **false** indica que o contato ou um objeto do Active Directory não está disponível para acesso de gravação. 
+Um valor de texto **true** para o elemento **iswritable** indica que o contato ou o objeto do Active Directory está disponível para acesso de gravação. Um valor **false** indica que o contato ou o objeto do Active Directory não está disponível para acesso de gravação. 
   
 ## <a name="remarks"></a>Comentários
 

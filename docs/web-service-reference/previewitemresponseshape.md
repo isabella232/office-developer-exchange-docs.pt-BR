@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 183f4a06-c056-4770-b00b-ad850b97e03d
-description: O elemento PreviewItemResponseShape contém o conjunto de propriedades solicitada a serem retornados em uma pesquisa de descoberta.
-ms.openlocfilehash: 7d6abb232225a6807abe988846eccdd8e265fede
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento PreviewItemResponseShape contém a propriedade solicitada definida para ser retornada em uma pesquisa de descoberta.
+ms.openlocfilehash: 6f00849cdd564a45084b64704e36a6cd09c698f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824871"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468093"
 ---
 # <a name="previewitemresponseshape"></a>PreviewItemResponseShape
 
-O elemento **PreviewItemResponseShape** contém o conjunto de propriedades solicitada a serem retornados em uma pesquisa de descoberta. 
+O elemento **PreviewItemResponseShape** contém a propriedade solicitada definida para ser retornada em uma pesquisa de descoberta. 
   
 ```XML
 <PreviewItemResponseShape>
@@ -27,17 +27,17 @@ O elemento **PreviewItemResponseShape** contém o conjunto de propriedades solic
 ```
 
  **PreviewItemResponseShapeType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[BaseShape (PreviewItemBaseShapeType)](baseshape-previewitembaseshapetype.md) | [AdditionalProperties](additionalproperties.md)
+[BaseShape (PreviewItemBaseShapeType)](baseshape-previewitembaseshapetype.md)  |  [AdditionalProperties](additionalproperties.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -49,11 +49,11 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 737388b3-7b73-42af-94d3-3dbb0659718f
 description: O elemento MailTipsEnabled indica se o serviço de dicas de email está disponível.
-ms.openlocfilehash: 4fe2cae1087ab667133ec685c3325b14c4f12088
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6be923733f1cbd584010ce5f8ee5b96178d5c2c0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824330"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468009"
 ---
 # <a name="mailtipsenabled"></a>MailTipsEnabled
 
@@ -28,13 +28,13 @@ O elemento **MailTipsEnabled** indica se o serviço de dicas de email está disp
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,24 +46,24 @@ Nenhum.
 |:-----|:-----|
 |[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contém informações de configuração de serviço para o serviço de dicas de email.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto deste elemento é **true** se o serviço de dicas de email está disponível. O valor é **false** se o serviço de dicas de email não está disponível. 
+O valor de texto desse elemento será **true** se o serviço de dicas de email estiver disponível. O valor será **false** se o serviço de dicas de email não estiver disponível. 
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

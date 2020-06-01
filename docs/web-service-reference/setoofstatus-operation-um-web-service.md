@@ -1,5 +1,5 @@
 ---
-title: Operação de SetOofStatus (serviço web de Unificação de mensagens)
+title: Operação SetOofStatus (serviço Web da UM)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,23 +10,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 97c271e9-506e-43eb-89cd-46803fc47ee5
-description: A operação SetOofStatus define um valor que indica se a saudação de ausência temporária deve ser reproduzida para o usuário que faz com que a solicitação.
-ms.openlocfilehash: 2bb1deeec8ddb5be56979bfb2fae3396672298a3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação SetOofStatus define um valor que indica se a saudação de ausência temporária (OOF) deve ser reproduzida para o usuário que faz a solicitação.
+ms.openlocfilehash: 2311b6137ac25d15ad3d06668450c1d0f7ec1fad
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825445"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467351"
 ---
-# <a name="setoofstatus-operation-um-web-service"></a>Operação de SetOofStatus (serviço web de Unificação de mensagens)
+# <a name="setoofstatus-operation-um-web-service"></a>Operação SetOofStatus (serviço Web da UM)
 
-A operação SetOofStatus define um valor que indica se a saudação de ausência temporária deve ser reproduzida para o usuário que faz com que a solicitação.
+A operação SetOofStatus define um valor que indica se a saudação de ausência temporária (OOF) deve ser reproduzida para o usuário que faz a solicitação.
   
-## <a name="setoofstatus-request-example"></a>Exemplo de solicitação de SetOofStatus
+## <a name="setoofstatus-request-example"></a>Exemplo de solicitação SetOofStatus
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de SetOofStatus mostra como uma solicitação para ativar a saudação de ausência temporária para uma caixa de correio de formulário.
+O exemplo a seguir de uma solicitação SetOofStatus mostra como formar uma solicitação para habilitar a saudação de ausência temporária para uma caixa de correio.
   
 ### <a name="code"></a>Código
 
@@ -34,18 +34,18 @@ O exemplo a seguir de uma solicitação de SetOofStatus mostra como uma solicita
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetOofStatus xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SetOofStatus xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
         <status>true</status>
     </SetOofStatus>
   </soap:Body>
 </soap:Envelope>
 ```
 
-## <a name="successful-setoofstatus-response-example"></a>Exemplo de resposta bem-sucedida SetOofStatus
+## <a name="successful-setoofstatus-response-example"></a>Exemplo de resposta SetOofStatus bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma resposta SetOofStatus mostra uma resposta à solicitação de SetOofStatus.
+O exemplo a seguir de uma resposta SetOofStatus mostra uma resposta à solicitação SetOofStatus.
   
 ### <a name="code"></a>Código
 
@@ -53,18 +53,18 @@ O exemplo a seguir de uma resposta SetOofStatus mostra uma resposta à solicita�
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <SetOofStatusResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <SetOofStatusResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
-[SetOofStatus (serviço web de Unificação de mensagens)](setoofstatus-um-web-service.md)
+[SetOofStatus (serviço Web da UM)](setoofstatus-um-web-service.md)
   
-[SetOofStatusResponse (serviço web de Unificação de mensagens)](setoofstatusresponse-um-web-service.md)
+[SetOofStatusResponse (serviço Web da UM)](setoofstatusresponse-um-web-service.md)
   
-[Status (UM serviço web - SetOofStatus)](status-um-web-servicesetoofstatus.md)
+[Status (serviço Web da UM-SetOofStatus)](status-um-web-servicesetoofstatus.md)
 

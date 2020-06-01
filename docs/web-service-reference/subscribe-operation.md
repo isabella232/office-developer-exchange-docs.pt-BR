@@ -1,5 +1,5 @@
 ---
-title: Inscrever-se a operação
+title: Operação Subscribe
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,32 +11,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: f17c3d08-c79e-41f1-ba31-6e41e7aafd87
-description: A operação Subscribe é usada para assinar notificações de envio ou recepção aplicativos de cliente. É importante estar ciente de que a estrutura das respostas e mensagens de solicitação é diferente, dependendo do tipo de notificação de evento.
-ms.openlocfilehash: f6cacab80c8ca2e505ab63a162a161fcf5de8585
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação de assinatura é usada para assinar aplicativos cliente para notificações por Push ou pull. É importante estar ciente de que a estrutura das mensagens e respostas de solicitação é diferente dependendo do tipo de notificação de evento.
+ms.openlocfilehash: c40e0e434f698c6535ff5d03fd4d45a453959dd6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825619"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467043"
 ---
-# <a name="subscribe-operation"></a>Inscrever-se a operação
+# <a name="subscribe-operation"></a>Operação Subscribe
 
-A operação Subscribe é usada para assinar notificações de envio ou recepção aplicativos de cliente. É importante estar ciente de que a estrutura das respostas e mensagens de solicitação é diferente, dependendo do tipo de notificação de evento. 
+A operação de assinatura é usada para assinar aplicativos cliente para notificações por Push ou pull. É importante estar ciente de que a estrutura das mensagens e respostas de solicitação é diferente dependendo do tipo de notificação de evento. 
   
-## <a name="pull-subscription-subscribe-request-example"></a>Exemplo de solicitação de assinatura assinar recepção
+## <a name="pull-subscription-subscribe-request-example"></a>Exemplo de solicitação de assinatura pull Subscription
 
 ### <a name="description"></a>Descrição
 
-O exemplo de código a seguir mostra como se inscrever para uma inscrição de notificação de evento de recepção. A assinatura informa o aplicativo cliente se novos emails é adicionado à caixa de entrada e se um item é excluído da caixa de entrada. A assinatura será o tempo limite se o cliente não requisitar informações sobre eventos dentro de dez minutos. Se a assinatura expirar, uma nova assinatura deve ser estabelecida para continuar solicitar notificações.
+O exemplo de código a seguir mostra como se inscrever em uma assinatura de notificação de evento de recepção. A assinatura informa ao aplicativo cliente se novos emails são adicionados à caixa de entrada e se um item é excluído da caixa de entrada. A assinatura expirará se o cliente não solicitar informações sobre os eventos em dez minutos. Se a assinatura expirar, uma nova assinatura deve ser estabelecida para continuar a solicitar notificações.
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <Subscribe xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <Subscribe xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <PullSubscriptionRequest>
         <t:FolderIds>
           <t:DistinguishedFolderId Id="inbox"/>
@@ -52,11 +52,11 @@ O exemplo de código a seguir mostra como se inscrever para uma inscrição de n
 </soap:Envelope>
 ```
 
-### <a name="pull-subscription-subscribe-request-elements"></a>Inscrição de recepção assine os elementos de solicitação
+### <a name="pull-subscription-subscribe-request-elements"></a>Elementos de solicitação de inscrição de assinatura pull
 
 Os seguintes elementos são usados na solicitação:
   
-- [Inscrever-se](subscribe.md)
+- [Assinar](subscribe.md)
     
 - [PullSubscriptionRequest](pullsubscriptionrequest.md)
     
@@ -64,19 +64,19 @@ Os seguintes elementos são usados na solicitação:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [EventTypes](eventtypes.md)
+- [EventType](eventtypes.md)
     
 - [EventType](eventtype.md)
     
 - [Timeout](timeout.md)
     
-Para localizar outras opções para a mensagem de solicitação da operação Subscribe, explore a hierarquia de esquema. Inicie o elemento [PullSubscriptionRequest](pullsubscriptionrequest.md) . 
+Para encontrar outras opções para a mensagem de solicitação da operação de assinatura, explore a hierarquia do esquema. Inicie no elemento [PullSubscriptionRequest](pullsubscriptionrequest.md) . 
   
-## <a name="successful-pull-subscription-subscribe-response-example"></a>Exemplo de resposta Pull assinatura assinar bem-sucedida
+## <a name="successful-pull-subscription-subscribe-response-example"></a>Exemplo de resposta de inscrição de assinatura pull bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de inscrição de recepção bem-sucedida. A resposta conterá o identificador de inscrição e marca d'água que é usada para obter a matriz de eventos que estão associados uma assinatura. O identificador de inscrição também é usado para cancelar a assinatura de um cliente de uma assinatura.
+O exemplo a seguir mostra uma resposta de assinatura pull bem-sucedida. A resposta contém o identificador de assinatura e a marca d' água que é usada para obter a matriz de eventos que estão associados a uma assinatura. O identificador de assinatura também é usado para cancelar a assinatura de um cliente de uma assinatura.
   
 ### <a name="code"></a>Código
 
@@ -87,12 +87,12 @@ O exemplo a seguir mostra uma resposta de inscrição de recepção bem-sucedida
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -105,7 +105,7 @@ O exemplo a seguir mostra uma resposta de inscrição de recepção bem-sucedida
 </soap:Envelope>
 ```
 
-### <a name="pull-subscription-subscribe-response-elements"></a>Recepção de assinatura assinar elementos de resposta
+### <a name="pull-subscription-subscribe-response-elements"></a>Elementos de resposta de assinatura pull Subscription
 
 Os seguintes elementos são usados na resposta:
   
@@ -123,11 +123,11 @@ Os seguintes elementos são usados na resposta:
     
 - [Marca d'água](watermark.md)
     
-## <a name="pull-subscription-subscribe-error-response-example"></a>Exemplo de resposta de erro na assinatura assinar recepção
+## <a name="pull-subscription-subscribe-error-response-example"></a>Exemplo de resposta de erro de assinatura pull Subscription
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta a uma solicitação Subscribe de erro. O erro é causado por uma tentativa para assinar notificações usando o acesso de representante.
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de assinatura. O erro é causado por uma tentativa de inscrever-se em notificações usando o acesso de representante.
   
 ### <a name="code"></a>Código
 
@@ -138,12 +138,12 @@ O exemplo a seguir mostra uma resposta a uma solicitação Subscribe de erro. O 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Error">
           <m:MessageText>Subscriptions are not supported for delegate user access.</m:MessageText>
@@ -156,7 +156,7 @@ O exemplo a seguir mostra uma resposta a uma solicitação Subscribe de erro. O 
 </soap:Envelope>
 ```
 
-### <a name="pull-subscription-error-response-elements"></a>Coloque os elementos de resposta de erro na assinatura
+### <a name="pull-subscription-error-response-elements"></a>Elementos de resposta de erro de assinatura pull
 
 Os seguintes elementos são usados na resposta de erro:
   
@@ -174,26 +174,26 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="push-subscription-request-example"></a>Exemplo de solicitação de assinatura de push
+## <a name="push-subscription-request-example"></a>Exemplo de solicitação de assinatura push
 
 ### <a name="description"></a>Descrição
 
-O exemplo de código a seguir mostra como se inscrever para uma inscrição de notificação de evento de envio. A solicitação identifica as pastas a serem monitorados, os tipos de eventos a serem monitorados, a frequência das notificações de status e a URL do serviço Web que escuta as notificações de push do cliente.
+O exemplo de código a seguir mostra como se inscrever em uma assinatura de notificação por push de eventos. A solicitação identifica as pastas a serem monitoradas, os tipos de eventos a serem monitorados, a frequência das notificações de status e a URL do serviço Web cliente que escuta as notificações por push.
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <Subscribe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <PushSubscriptionRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <FolderIds xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <PushSubscriptionRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <FolderIds xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <DistinguishedFolderId Id="inbox" />
         </FolderIds>
-        <EventTypes xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <EventTypes xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <EventType>NewMailEvent</EventType>
           <EventType>CopiedEvent</EventType>
           <EventType>CreatedEvent</EventType>
@@ -201,25 +201,25 @@ O exemplo de código a seguir mostra como se inscrever para uma inscrição de n
           <EventType>ModifiedEvent</EventType>
           <EventType>MovedEvent</EventType>
         </EventTypes>
-        <StatusFrequency xmlns="http://schemas.microsoft.com/exchange/services/2006/types">1</StatusFrequency>
-        <URL xmlns="http://schemas.microsoft.com/exchange/services/2006/types">http://clientWebService/Service.asmx</URL>
+        <StatusFrequency xmlns="https://schemas.microsoft.com/exchange/services/2006/types">1</StatusFrequency>
+        <URL xmlns="https://schemas.microsoft.com/exchange/services/2006/types">http://clientWebService/Service.asmx</URL>
       </PushSubscriptionRequest>
     </Subscribe>
   </soap:Body>
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-O cliente do Web service deve ser configurada antes da notificação por push assine a solicitação é enviado; Caso contrário, a primeira notificação não será enviada para um ponto de extremidade válido e a notificação por push falhará. Para obter mais informações, consulte o [Aplicativo de amostra de notificação de Push](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx).
+O serviço Web do cliente deve ser configurado antes que a solicitação de assinatura de notificação por push seja enviada; caso contrário, a primeira notificação não será enviada para um ponto de extremidade válido e a notificação por push falhará. Para mais informações, consulte [aplicativo de exemplo de notificação por push](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx).
   
-Um novo [SubscriptionId (GetEvents)](subscriptionid-getevents.md) é criado quando você inscrever-se novamente. Use a marca d'água de uma assinatura anterior para inscrever-se novamente no ponto de onde a assinatura anterior terminou. 
+Uma nova [SubscriptionId (GetEvents)](subscriptionid-getevents.md) é criada ao se reinscrever. Use a marca d' água de uma assinatura anterior para se reinscrever no ponto em que a assinatura anterior terminou. 
   
-### <a name="push-subscription-request-elements"></a>Elementos de solicitação de assinatura de push
+### <a name="push-subscription-request-elements"></a>Elementos de solicitação de assinatura push
 
 Os seguintes elementos são usados na solicitação:
   
-- [Inscrever-se](subscribe.md)
+- [Assinar](subscribe.md)
     
 - [PushSubscriptionRequest](pushsubscriptionrequest.md)
     
@@ -227,19 +227,19 @@ Os seguintes elementos são usados na solicitação:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [EventTypes](eventtypes.md)
+- [EventType](eventtypes.md)
     
 - [EventType](eventtype.md)
     
 - [StatusFrequency](statusfrequency.md)
     
-- [URL](url-ex15websvcsotherref.md)
+- [Endereço](url-ex15websvcsotherref.md)
     
-## <a name="successful-push-subscription-response-example"></a>Exemplo de resposta de assinatura Push bem-sucedidas
+## <a name="successful-push-subscription-response-example"></a>Exemplo de resposta de assinatura push bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de assinatura push bem-sucedidas. 
+O exemplo a seguir mostra uma resposta de assinatura push bem-sucedida. 
   
 ### <a name="code"></a>Código
 
@@ -250,12 +250,12 @@ O exemplo a seguir mostra uma resposta de assinatura push bem-sucedidas.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessages>
         <SubscribeResponseMessage ResponseClass="Success">
           <ResponseCode>NoError</ResponseCode>
@@ -268,7 +268,7 @@ O exemplo a seguir mostra uma resposta de assinatura push bem-sucedidas.
 </soap:Envelope>
 ```
 
-### <a name="push-subscription-response-elements"></a>Elementos de resposta de assinatura de push
+### <a name="push-subscription-response-elements"></a>Elementos de resposta de assinatura push
 
 Os seguintes elementos são usados na resposta:
   
@@ -286,7 +286,7 @@ Os seguintes elementos são usados na resposta:
     
 - [Marca d'água](watermark.md)
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
@@ -295,7 +295,7 @@ Os seguintes elementos são usados na resposta:
 [Operação GetEvents](getevents-operation.md)
 
 
-[Usando inscrições de recepção](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+[Usando assinaturas pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
   
-[Aplicativo de amostra de notificação de push](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
+[Aplicativo de amostra de notificação por push](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 
