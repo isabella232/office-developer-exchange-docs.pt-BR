@@ -1,5 +1,5 @@
 ---
-title: ResetPINResponse (serviço web de Unificação de mensagens)
+title: ResetPINResponse (serviço Web da UM)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,57 +10,57 @@ api_name:
 api_type:
 - schema
 ms.assetid: 42aac88f-8513-416d-8be4-77378b71a45b
-description: O elemento de ResetPINResponse define uma resposta a uma solicitação do ResetPIN operação (serviço web de Unificação de mensagens).
-ms.openlocfilehash: 9c85909a5a03fd4c470468bd025a4de650472423
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ResetPINResponse define uma resposta a uma solicitação de operação ResetPIN (serviço Web da UM).
+ms.openlocfilehash: a30d75b91823ebc021cfffa4e77be04fc6cd7951
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825154"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466203"
 ---
-# <a name="resetpinresponse-um-web-service"></a><span data-ttu-id="e4b77-103">ResetPINResponse (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="e4b77-103">ResetPINResponse (UM web service)</span></span>
+# <a name="resetpinresponse-um-web-service"></a><span data-ttu-id="ce997-103">ResetPINResponse (serviço Web da UM)</span><span class="sxs-lookup"><span data-stu-id="ce997-103">ResetPINResponse (UM web service)</span></span>
 
-<span data-ttu-id="e4b77-104">O elemento de ResetPINResponse define uma resposta a uma solicitação de [operação ResetPIN (serviço web de Unificação de mensagens)](resetpin-operation-um-web-service.md) .</span><span class="sxs-lookup"><span data-stu-id="e4b77-104">The ResetPINResponse element defines a response to a [ResetPIN operation (UM web service)](resetpin-operation-um-web-service.md) request.</span></span> 
+<span data-ttu-id="ce997-104">O elemento ResetPINResponse define uma resposta a uma solicitação de [operação ResetPIN (serviço Web da um)](resetpin-operation-um-web-service.md) .</span><span class="sxs-lookup"><span data-stu-id="ce997-104">The ResetPINResponse element defines a response to a [ResetPIN operation (UM web service)](resetpin-operation-um-web-service.md) request.</span></span> 
   
-[<span data-ttu-id="e4b77-105">ResetPINResponse (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="e4b77-105">ResetPINResponse (UM web service)</span></span>](resetpinresponse-um-web-service.md)
+[<span data-ttu-id="ce997-105">ResetPINResponse (serviço Web da UM)</span><span class="sxs-lookup"><span data-stu-id="ce997-105">ResetPINResponse (UM web service)</span></span>](resetpinresponse-um-web-service.md)
   
 ```xml
 <ResetPINResponse />
 ```
 
- <span data-ttu-id="e4b77-106">**complexType**</span><span class="sxs-lookup"><span data-stu-id="e4b77-106">**complexType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="e4b77-107">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="e4b77-107">Attributes and elements</span></span>
+ <span data-ttu-id="ce997-106">**complexType**</span><span class="sxs-lookup"><span data-stu-id="ce997-106">**complexType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ce997-107">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="ce997-107">Attributes and elements</span></span>
 
-<span data-ttu-id="e4b77-108">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="e4b77-108">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ce997-108">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="ce997-108">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="e4b77-109">Atributos</span><span class="sxs-lookup"><span data-stu-id="e4b77-109">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ce997-109">Atributos</span><span class="sxs-lookup"><span data-stu-id="ce997-109">Attributes</span></span>
 
-<span data-ttu-id="e4b77-110">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="e4b77-110">None.</span></span>
+<span data-ttu-id="ce997-110">Nenhum</span><span class="sxs-lookup"><span data-stu-id="ce997-110">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="e4b77-111">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="e4b77-111">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ce997-111">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="ce997-111">Child elements</span></span>
 
-<span data-ttu-id="e4b77-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="e4b77-112">None.</span></span>
+<span data-ttu-id="ce997-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="ce997-112">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="e4b77-113">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="e4b77-113">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ce997-113">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="ce997-113">Parent elements</span></span>
 
-<span data-ttu-id="e4b77-114">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="e4b77-114">None.</span></span>
+<span data-ttu-id="ce997-114">Nenhum</span><span class="sxs-lookup"><span data-stu-id="ce997-114">None.</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="e4b77-115">Text value</span><span class="sxs-lookup"><span data-stu-id="e4b77-115">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="ce997-115">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="ce997-115">Text value</span></span>
 
-<span data-ttu-id="e4b77-116">Não é necessário um valor de texto.</span><span class="sxs-lookup"><span data-stu-id="e4b77-116">A text value is not required.</span></span>
+<span data-ttu-id="ce997-116">Um valor de texto não é necessário.</span><span class="sxs-lookup"><span data-stu-id="ce997-116">A text value is not required.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="e4b77-117">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="e4b77-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ce997-117">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="ce997-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="e4b77-118">Namespace</span><span class="sxs-lookup"><span data-stu-id="e4b77-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="e4b77-119">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="e4b77-119">Schema Name</span></span>  <br/> |<span data-ttu-id="e4b77-120">Mensagens</span><span class="sxs-lookup"><span data-stu-id="e4b77-120">Messages</span></span>  <br/> |
-|<span data-ttu-id="e4b77-121">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="e4b77-121">Validation File</span></span>  <br/> |<span data-ttu-id="e4b77-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="e4b77-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="e4b77-123">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="e4b77-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="e4b77-124">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="e4b77-124">True</span></span>  <br/> |
+|<span data-ttu-id="ce997-118">Namespace</span><span class="sxs-lookup"><span data-stu-id="ce997-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="ce997-119">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="ce997-119">Schema Name</span></span>  <br/> |<span data-ttu-id="ce997-120">Mensagens</span><span class="sxs-lookup"><span data-stu-id="ce997-120">Messages</span></span>  <br/> |
+|<span data-ttu-id="ce997-121">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="ce997-121">Validation File</span></span>  <br/> |<span data-ttu-id="ce997-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="ce997-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="ce997-123">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="ce997-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="ce997-124">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="ce997-124">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="e4b77-125">Ver também</span><span class="sxs-lookup"><span data-stu-id="e4b77-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ce997-125">Também consulte</span><span class="sxs-lookup"><span data-stu-id="ce997-125">See also</span></span>
 
 
 
-[<span data-ttu-id="e4b77-126">Operação de ResetPIN (serviço web de Unificação de mensagens)</span><span class="sxs-lookup"><span data-stu-id="e4b77-126">ResetPIN operation (UM web service)</span></span>](resetpin-operation-um-web-service.md)
+[<span data-ttu-id="ce997-126">Operação ResetPIN (serviço Web da UM)</span><span class="sxs-lookup"><span data-stu-id="ce997-126">ResetPIN operation (UM web service)</span></span>](resetpin-operation-um-web-service.md)
 

@@ -12,46 +12,46 @@ api_type:
 - schema
 ms.assetid: 1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a
 description: A operação RemoveDelegate remove um ou mais representantes da caixa de correio de um usuário.
-ms.openlocfilehash: 6f3371d19bd8a7fd967d4959d85037ae6b51f6aa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b2e342225e7e79c44dcd86b76b4b7d47b16b860b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825088"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466595"
 ---
-# <a name="removedelegate-operation"></a><span data-ttu-id="91342-103">Operação RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="91342-103">RemoveDelegate operation</span></span>
+# <a name="removedelegate-operation"></a><span data-ttu-id="06e80-103">Operação RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="06e80-103">RemoveDelegate operation</span></span>
 
-<span data-ttu-id="91342-104">A operação **RemoveDelegate** remove um ou mais representantes da caixa de correio de um usuário.</span><span class="sxs-lookup"><span data-stu-id="91342-104">The **RemoveDelegate** operation removes one or more delegates from a user's mailbox.</span></span> 
+<span data-ttu-id="06e80-104">A operação **RemoveDelegate** remove um ou mais representantes da caixa de correio de um usuário.</span><span class="sxs-lookup"><span data-stu-id="06e80-104">The **RemoveDelegate** operation removes one or more delegates from a user's mailbox.</span></span> 
   
-## <a name="soap-headers"></a><span data-ttu-id="91342-105">Cabeçalhos SOAP</span><span class="sxs-lookup"><span data-stu-id="91342-105">SOAP Headers</span></span>
+## <a name="soap-headers"></a><span data-ttu-id="06e80-105">Cabeçalhos SOAP</span><span class="sxs-lookup"><span data-stu-id="06e80-105">SOAP Headers</span></span>
 
-<span data-ttu-id="91342-106">A operação **RemoveDelegate** pode usar os cabeçalhos SOAP que estão listados e descritos na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="91342-106">The **RemoveDelegate** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
+<span data-ttu-id="06e80-106">A operação **RemoveDelegate** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="06e80-106">The **RemoveDelegate** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
   
-|<span data-ttu-id="91342-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="91342-107">**Header**</span></span>|<span data-ttu-id="91342-108">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="91342-108">**Element**</span></span>|<span data-ttu-id="91342-109">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="91342-109">**Description**</span></span>|
+|<span data-ttu-id="06e80-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="06e80-107">**Header**</span></span>|<span data-ttu-id="06e80-108">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="06e80-108">**Element**</span></span>|<span data-ttu-id="06e80-109">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="06e80-109">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="91342-110">Representação</span><span class="sxs-lookup"><span data-stu-id="91342-110">Impersonation</span></span>  <br/> |[<span data-ttu-id="91342-111">ExchangeImpersonation</span><span class="sxs-lookup"><span data-stu-id="91342-111">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="91342-112">Identifica o usuário que o aplicativo cliente está representando.</span><span class="sxs-lookup"><span data-stu-id="91342-112">Identifies the user whom the client application is impersonating.</span></span>  <br/> |
-|<span data-ttu-id="91342-113">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="91342-113">MailboxCulture</span></span>  <br/> |[<span data-ttu-id="91342-114">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="91342-114">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="91342-115">Identifica a cultura RFC3066 a ser usado para acessar a caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="91342-115">Identifies the RFC3066 culture to be used to access the mailbox.</span></span>  <br/> |
-|<span data-ttu-id="91342-116">RequestVersion</span><span class="sxs-lookup"><span data-stu-id="91342-116">RequestVersion</span></span>  <br/> |[<span data-ttu-id="91342-117">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="91342-117">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="91342-118">Identifica a versão do esquema para a solicitação de operação.</span><span class="sxs-lookup"><span data-stu-id="91342-118">Identifies the schema version for the operation request.</span></span>  <br/> |
-|<span data-ttu-id="91342-119">ServerVersion</span><span class="sxs-lookup"><span data-stu-id="91342-119">ServerVersion</span></span>  <br/> |[<span data-ttu-id="91342-120">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="91342-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="91342-121">Identifica a versão do servidor que respondeu à solicitação.</span><span class="sxs-lookup"><span data-stu-id="91342-121">Identifies the version of the server that responded to the request.</span></span>  <br/> |
+|<span data-ttu-id="06e80-110">Representação</span><span class="sxs-lookup"><span data-stu-id="06e80-110">Impersonation</span></span>  <br/> |[<span data-ttu-id="06e80-111">ExchangeImpersonation</span><span class="sxs-lookup"><span data-stu-id="06e80-111">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="06e80-112">Identifica o usuário que o aplicativo cliente está representando.</span><span class="sxs-lookup"><span data-stu-id="06e80-112">Identifies the user whom the client application is impersonating.</span></span>  <br/> |
+|<span data-ttu-id="06e80-113">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="06e80-113">MailboxCulture</span></span>  <br/> |[<span data-ttu-id="06e80-114">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="06e80-114">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="06e80-115">Identifica a cultura RFC3066 a ser usada para acessar a caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="06e80-115">Identifies the RFC3066 culture to be used to access the mailbox.</span></span>  <br/> |
+|<span data-ttu-id="06e80-116">RequestVersion</span><span class="sxs-lookup"><span data-stu-id="06e80-116">RequestVersion</span></span>  <br/> |[<span data-ttu-id="06e80-117">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="06e80-117">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="06e80-118">Identifica a versão do esquema para a solicitação de operação.</span><span class="sxs-lookup"><span data-stu-id="06e80-118">Identifies the schema version for the operation request.</span></span>  <br/> |
+|<span data-ttu-id="06e80-119">ServerVersion</span><span class="sxs-lookup"><span data-stu-id="06e80-119">ServerVersion</span></span>  <br/> |[<span data-ttu-id="06e80-120">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="06e80-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="06e80-121">Identifica a versão do servidor que respondeu à solicitação.</span><span class="sxs-lookup"><span data-stu-id="06e80-121">Identifies the version of the server that responded to the request.</span></span>  <br/> |
    
-## <a name="removedelegate-request-example"></a><span data-ttu-id="91342-122">Exemplo de solicitação de RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="91342-122">RemoveDelegate request example</span></span>
+## <a name="removedelegate-request-example"></a><span data-ttu-id="06e80-122">Exemplo de solicitação RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="06e80-122">RemoveDelegate request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="91342-123">Descrição</span><span class="sxs-lookup"><span data-stu-id="91342-123">Description</span></span>
+### <a name="description"></a><span data-ttu-id="06e80-123">Descrição</span><span class="sxs-lookup"><span data-stu-id="06e80-123">Description</span></span>
 
-<span data-ttu-id="91342-124">O exemplo de código a seguir mostra como remover dois delegados de caixa de correio do user1.</span><span class="sxs-lookup"><span data-stu-id="91342-124">The following code example shows how to remove two delegates from user1's mailbox.</span></span> <span data-ttu-id="91342-125">Neste exemplo, um delegado é removido usando o endereço de SMTP primário do representante, e outro é removido usando o identificador de segurança (SID) do representante.</span><span class="sxs-lookup"><span data-stu-id="91342-125">In this example, one delegate is removed by using the delegate's primary SMTP address, and the other one is removed by using the delegate's security identifier (SID).</span></span>
+<span data-ttu-id="06e80-124">O exemplo de código a seguir mostra como remover dois representantes da caixa de correio do user1's.</span><span class="sxs-lookup"><span data-stu-id="06e80-124">The following code example shows how to remove two delegates from user1's mailbox.</span></span> <span data-ttu-id="06e80-125">Neste exemplo, um representante é removido usando o endereço SMTP principal do representante e o outro é removido usando o identificador de segurança (SID) do representante.</span><span class="sxs-lookup"><span data-stu-id="06e80-125">In this example, one delegate is removed by using the delegate's primary SMTP address, and the other one is removed by using the delegate's security identifier (SID).</span></span>
   
-### <a name="code"></a><span data-ttu-id="91342-126">Código</span><span class="sxs-lookup"><span data-stu-id="91342-126">Code</span></span>
+### <a name="code"></a><span data-ttu-id="06e80-126">Código</span><span class="sxs-lookup"><span data-stu-id="06e80-126">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1"/>
   </soap:Header>
   <soap:Body>
-    <RemoveDelegate xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <RemoveDelegate xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <Mailbox>
         <t:EmailAddress>user1@example.com</t:EmailAddress>
       </Mailbox>
@@ -68,17 +68,17 @@ ms.locfileid: "19825088"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="91342-127">Comments</span><span class="sxs-lookup"><span data-stu-id="91342-127">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="06e80-127">Comentários</span><span class="sxs-lookup"><span data-stu-id="06e80-127">Comments</span></span>
 
-<span data-ttu-id="91342-128">A operação **RemoveDelegate** requer que o usuário delegado especificado para ter uma caixa de correio ou existir no serviço de diretório do Active Directory.</span><span class="sxs-lookup"><span data-stu-id="91342-128">The **RemoveDelegate** operation does not require the specified delegate user to have a mailbox or to exist in the Active Directory directory service.</span></span> <span data-ttu-id="91342-129">A operação **RemoveDelegate** terá êxito se a entrada de representante for órfão.</span><span class="sxs-lookup"><span data-stu-id="91342-129">The **RemoveDelegate** operation will succeed if the delegate entry is orphaned.</span></span> 
+<span data-ttu-id="06e80-128">A operação **RemoveDelegate** não exige que o usuário delegado especificado tenha uma caixa de correio ou exista no serviço de diretório do Active Directory.</span><span class="sxs-lookup"><span data-stu-id="06e80-128">The **RemoveDelegate** operation does not require the specified delegate user to have a mailbox or to exist in the Active Directory directory service.</span></span> <span data-ttu-id="06e80-129">A operação **RemoveDelegate** será bem-sucedida se a entrada de representante estiver órfão.</span><span class="sxs-lookup"><span data-stu-id="06e80-129">The **RemoveDelegate** operation will succeed if the delegate entry is orphaned.</span></span> 
   
-## <a name="removedelegate-response-example"></a><span data-ttu-id="91342-130">Exemplo de resposta RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="91342-130">RemoveDelegate response example</span></span>
+## <a name="removedelegate-response-example"></a><span data-ttu-id="06e80-130">Exemplo de resposta RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="06e80-130">RemoveDelegate response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="91342-131">Descrição</span><span class="sxs-lookup"><span data-stu-id="91342-131">Description</span></span>
+### <a name="description"></a><span data-ttu-id="06e80-131">Descrição</span><span class="sxs-lookup"><span data-stu-id="06e80-131">Description</span></span>
 
-<span data-ttu-id="91342-132">O exemplo a seguir de uma resposta **RemoveDelegate** mostra uma resposta bem-sucedida a uma solicitação **RemoveDelegate** .</span><span class="sxs-lookup"><span data-stu-id="91342-132">The following example of a **RemoveDelegate** response shows a successful response to a **RemoveDelegate** request.</span></span> <span data-ttu-id="91342-133">A resposta conterá um elemento **DelegateUserResponseMessageType** para cada delegado que é removido da caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="91342-133">The response contains a **DelegateUserResponseMessageType** element for each delegate that is removed from the mailbox.</span></span> 
+<span data-ttu-id="06e80-132">O exemplo a seguir de uma resposta **RemoveDelegate** mostra uma resposta bem-sucedida a uma solicitação **RemoveDelegate** .</span><span class="sxs-lookup"><span data-stu-id="06e80-132">The following example of a **RemoveDelegate** response shows a successful response to a **RemoveDelegate** request.</span></span> <span data-ttu-id="06e80-133">A resposta contém um elemento **DelegateUserResponseMessageType** para cada representante removido da caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="06e80-133">The response contains a **DelegateUserResponseMessageType** element for each delegate that is removed from the mailbox.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="91342-134">Código</span><span class="sxs-lookup"><span data-stu-id="91342-134">Code</span></span>
+### <a name="code"></a><span data-ttu-id="06e80-134">Código</span><span class="sxs-lookup"><span data-stu-id="06e80-134">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -91,12 +91,12 @@ ms.locfileid: "19825088"
                          MajorBuildNumber="206" 
                          MinorBuildNumber="0" 
                          Version="Exchange2007_SP1" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <m:RemoveDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <m:RemoveDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                               ResponseClass="Success" 
-                              xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Success">
@@ -111,13 +111,13 @@ ms.locfileid: "19825088"
 </soap:Envelope>
 ```
 
-## <a name="removedelegate-error-response-example"></a><span data-ttu-id="91342-135">Exemplo de resposta de erro RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="91342-135">RemoveDelegate Error response example</span></span>
+## <a name="removedelegate-error-response-example"></a><span data-ttu-id="06e80-135">Exemplo de resposta de erro RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="06e80-135">RemoveDelegate Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="91342-136">Descrição</span><span class="sxs-lookup"><span data-stu-id="91342-136">Description</span></span>
+### <a name="description"></a><span data-ttu-id="06e80-136">Descrição</span><span class="sxs-lookup"><span data-stu-id="06e80-136">Description</span></span>
 
-<span data-ttu-id="91342-137">O exemplo a seguir de uma resposta de erro **RemoveDelegate** mostra os resultados de uma solicitação para remover um representante que não existe.</span><span class="sxs-lookup"><span data-stu-id="91342-137">The following example of a **RemoveDelegate** error response shows the results of a request to remove a delegate that does not exist.</span></span> 
+<span data-ttu-id="06e80-137">O exemplo a seguir de uma resposta de erro do **RemoveDelegate** mostra os resultados de uma solicitação para remover um representante que não existe.</span><span class="sxs-lookup"><span data-stu-id="06e80-137">The following example of a **RemoveDelegate** error response shows the results of a request to remove a delegate that does not exist.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="91342-138">Código</span><span class="sxs-lookup"><span data-stu-id="91342-138">Code</span></span>
+### <a name="code"></a><span data-ttu-id="06e80-138">Código</span><span class="sxs-lookup"><span data-stu-id="06e80-138">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -130,12 +130,12 @@ ms.locfileid: "19825088"
                          MajorBuildNumber="206"
                          MinorBuildNumber="0"
                          Version="Exchange2007_SP1"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <m:RemoveDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <m:RemoveDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                               ResponseClass="Success"
-                              xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Error">
@@ -149,9 +149,9 @@ ms.locfileid: "19825088"
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="91342-139">Confira também</span><span class="sxs-lookup"><span data-stu-id="91342-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="06e80-139">Também consulte</span><span class="sxs-lookup"><span data-stu-id="06e80-139">See also</span></span>
 
 
 
-- [<span data-ttu-id="91342-140">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="91342-140">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="06e80-140">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="06e80-140">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
