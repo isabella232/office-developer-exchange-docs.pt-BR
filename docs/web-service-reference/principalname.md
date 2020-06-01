@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 88c142d4-0bc7-43ea-a997-d7200664d900
-description: O elemento PrincipalName representa o nome de usuário principal (UPN) da conta a ser usada para a representação do Exchange.
-ms.openlocfilehash: d8557ce0435a11a5602372517db1f576028a9c97
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento PrincipalName representa o nome principal do usuário (UPN) da conta a ser usada para a representação do Exchange.
+ms.openlocfilehash: 31412c1461264e28bf8d52c957a457e8d1e847ef
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824882"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44440187"
 ---
 # <a name="principalname"></a>PrincipalName
 
-O elemento **PrincipalName** representa o nome de usuário principal (UPN) da conta a ser usada para a representação do Exchange. 
+O elemento **PrincipalName** representa o nome principal do usuário (UPN) da conta a ser usada para a representação do Exchange. 
   
 ```xml
 <PrincipalName/>
 ```
 
  **PrincipalNameType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,31 +44,31 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ConnectingSID](connectingsid.md) <br/> |Representa uma conta para representar quando você estiver usando o cabeçalho SOAP ExchangeImpersonation.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
+|[ConnectingSID](connectingsid.md) <br/> |Representa uma conta a ser representada quando você estiver usando o cabeçalho SOAP ExchangeImpersonation.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o UPN do usuário. Esse valor existe no objeto de usuário no serviço de diretório do Active Directory. Contém o nome de logon do usuário e um nome de domínio que identifica o domínio no qual a conta de usuário está localizada no seguinte formato: `someone@example.com`.
+O valor de texto representa o UPN de um usuário. Esse valor existe no objeto user no serviço de diretório do Active Directory. Ele contém o nome de logon do usuário e um nome de domínio que identifica o domínio no qual a conta de usuário está localizada, no seguinte formato: `someone@example.com` .
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Autorização de servidor-para-servidor no EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+[Autorização de servidor para servidor no EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

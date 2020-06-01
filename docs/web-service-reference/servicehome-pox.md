@@ -1,5 +1,5 @@
 ---
-title: ServiceHome (POX)
+title: Onhome (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,21 +8,21 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: f1b812c3-ae8b-4d89-92e2-41d2fe51e32f
-description: O elemento ServiceHome contém a URL da home page do provedor de serviços de Internet (ISP).
-ms.openlocfilehash: 312eea2c021750327cc09cf65f111fc868e16608
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento de serviço de página contém a URL da home page do provedor de serviços de Internet (ISP).
+ms.openlocfilehash: 1e4a40cbc97167dc2cf79ccbfcacff988794c3a0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825388"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44439109"
 ---
-# <a name="servicehome-pox"></a>ServiceHome (POX)
+# <a name="servicehome-pox"></a>Onhome (POX)
 
-O elemento **ServiceHome** contém a URL da home page do provedor de serviços de Internet (ISP). 
+O **elemento de serviço de página** contém a URL da home page do provedor de serviços de Internet (ISP). 
   
 [Descoberta automática (POX)](autodiscover-pox.md)
   
-[Resposta POX)](response-pox.md)
+[Resposta (POX)](response-pox.md)
   
 [Conta (POX)](account-pox.md)
   
@@ -32,13 +32,13 @@ O elemento **ServiceHome** contém a URL da home page do provedor de serviços d
 <ServiceHome/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,15 +48,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conta (POX)](account-pox.md) <br/> |Especifica as configurações da conta do usuário.  <br/> |
+|[Conta (POX)](account-pox.md) <br/> |Especifica as configurações de conta do usuário.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa a URL da home page do provedor.
+O valor de texto representa a URL da home page do provedor de Internet.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 
 
-[Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

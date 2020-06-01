@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 73499df7-3d50-4e39-895d-6e15dd8b2777
 description: O elemento MailboxStatisticsSearchResult contém os resultados de uma pesquisa de palavra-chave.
-ms.openlocfilehash: 5b40622cf15596d7ab8a7fa09c9a1998092c3ee7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c300c6c2ec9ab3c772709edd3e6a1c7fea19d6e3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824302"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44440845"
 ---
 # <a name="mailboxstatisticssearchresult"></a>MailboxStatisticsSearchResult
 
@@ -28,17 +28,17 @@ O elemento **MailboxStatisticsSearchResult** contém os resultados de uma pesqui
 
 **MailboxStatisticsSearchResultType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[UserMailbox](usermailbox.md) | [KeywordStatisticsSearchResult](keywordstatisticssearchresult.md)
+[UserMailbox](usermailbox.md)  |  [KeywordStatisticsSearchResult](keywordstatisticssearchresult.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 
