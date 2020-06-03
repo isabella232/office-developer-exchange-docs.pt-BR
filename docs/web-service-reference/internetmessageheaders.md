@@ -16,7 +16,7 @@ ms.openlocfilehash: 4719050c02590e021b29173c234466de3fdc58a4
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467323"
 ---
 # <a name="internetmessageheaders"></a>Propriedadeinternetmessageheaders
@@ -58,7 +58,7 @@ Nenhum
 |[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Remove um item do repositório do Exchange.  <br/> |
 |[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
 |[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |Representa uma resposta provisoriamente aceita a uma solicitação de reunião.  <br/> |

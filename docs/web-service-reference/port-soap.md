@@ -13,7 +13,7 @@ ms.openlocfilehash: 8ed75cbbfbc111e17ef08acbd71329a419b4e285
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467722"
 ---
 # <a name="port-soap"></a>Porta (SOAP)
@@ -56,7 +56,7 @@ O valor é o número da porta a ser usado para o protocolo.
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

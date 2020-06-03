@@ -13,7 +13,7 @@ ms.openlocfilehash: 6fca347f49e27958ecb16cce345387b6a2146979
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467757"
 ---
 # <a name="protocol-pox"></a>Protocol (POX)
@@ -151,7 +151,7 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 O elemento **Protocol** está presente em uma resposta que tem um valor de [ação (POX)](action-pox.md) igual a **configurações**.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

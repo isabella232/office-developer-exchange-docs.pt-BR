@@ -11,7 +11,7 @@ ms.openlocfilehash: b3ff22fbba603bbd74dc08a0dbb1d8687714fe7d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466077"
 ---
 # <a name="anonymousaccessallowed-soap"></a>AnonymousAccessAllowed (SOAP)
@@ -54,7 +54,7 @@ O valor booliano do elemento **AnonymousAccessAllowed** indica se o local de com
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operação GetUserSettings (SOAP)](getusersettings-operation-soap.md)
 - [Referência do serviço Web de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)

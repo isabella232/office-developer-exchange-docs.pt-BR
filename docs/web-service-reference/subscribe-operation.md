@@ -16,7 +16,7 @@ ms.openlocfilehash: c40e0e434f698c6535ff5d03fd4d45a453959dd6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467043"
 ---
 # <a name="subscribe-operation"></a>Operação Subscribe
@@ -286,7 +286,7 @@ Os seguintes elementos são usados na resposta:
     
 - [Marca d'água](watermark.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

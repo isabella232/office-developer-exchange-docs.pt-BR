@@ -13,7 +13,7 @@ ms.openlocfilehash: 9a17cbe4e669d1afe9f3ef4a24f2a9a2889a7d52
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467379"
 ---
 # <a name="ttl-pox"></a>TTL (POX)
@@ -60,7 +60,7 @@ O valor de texto representa o tempo de vida, em horas, durante o qual as configu
 
 Após o tempo que é representado pelo elemento **TTL** ter decorrido, as configurações devem ser redescobertas usando uma solicitação de descoberta automática. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

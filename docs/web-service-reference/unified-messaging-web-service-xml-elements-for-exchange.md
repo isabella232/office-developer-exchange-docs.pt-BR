@@ -15,7 +15,7 @@ ms.openlocfilehash: f1a3aa99a6649d033fad3ee0696177adb5835baa
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467365"
 ---
 # <a name="unified-messaging-web-service-xml-elements-for-exchange"></a>Elementos XML do serviço Web de Unificação de mensagens para o Exchange
@@ -29,7 +29,7 @@ O serviço Web de Unificação de mensagens (UM) contém muitos elementos XML qu
 > - Os recursos da UM com base no EWS têm suporte de primeira classe na API gerenciada do EWS. 
 > - Nas versões do Exchange a partir do Exchange 2010, todos os novos recursos da UM são adicionados ao EWS, mas não ao serviço da UM. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Referência do serviço Web de Unificação de mensagens do Exchange](unified-messaging-web-service-reference-for-exchange.md)
 - [Descoberta Automática do Exchange](../exchange-web-services/autodiscover-for-exchange.md)

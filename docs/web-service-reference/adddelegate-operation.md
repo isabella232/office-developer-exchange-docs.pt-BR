@@ -16,7 +16,7 @@ ms.openlocfilehash: 80adbe71d69be1025dc9593c6a9002bc68fdcb76
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466511"
 ---
 # <a name="adddelegate-operation"></a>Operação AddDelegate
@@ -160,7 +160,7 @@ O exemplo a seguir mostra a resposta a uma solicitação para adicionar um repre
 
 Se o código de resposta ErrorDelegateAlreadyExists for retornado quando você tentar adicionar um representante, use a [operação getdelegate](getdelegate-operation.md) para obter todas as permissões atuais para o representante e, em seguida, use a [operação UpdateDelegate](updatedelegate-operation.md) para definir as novas permissões. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Adicionar representantes](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

@@ -15,7 +15,7 @@ ms.openlocfilehash: e4bb63f34650dae8fc28016196c97a6b79e69df0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467372"
 ---
 # <a name="unified-messaging-web-service-reference-for-exchange"></a>Referência do serviço Web de Unificação de mensagens do Exchange
@@ -39,7 +39,7 @@ O serviço Web da UM não tem um esquema explícito.
 - [Operações do serviço Web de Unificação de mensagens para o Exchange](unified-messaging-web-service-operations-for-exchange.md)   
 - [Elementos XML do serviço Web de Unificação de mensagens para o Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Referência do serviço Web de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
 - [Descoberta Automática do Exchange](../exchange-web-services/autodiscover-for-exchange.md)

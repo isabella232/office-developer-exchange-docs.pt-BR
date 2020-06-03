@@ -16,7 +16,7 @@ ms.openlocfilehash: fb894d9f42358b67f81e9fe8ae41ba61e6f46460
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467358"
 ---
 # <a name="updatefolder-operation"></a>Operação UpdateFolder
@@ -227,7 +227,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [Pastas](folders-ex15websvcsotherref.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

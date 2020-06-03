@@ -13,7 +13,7 @@ ms.openlocfilehash: cf57b3a6046b1b9b030b7cae81381189eee92c1c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467638"
 ---
 # <a name="spa-pox"></a>SPA (POX)
@@ -60,7 +60,7 @@ O valor de texto indica se a SPA é necessária. Se o valor do texto estiver **a
 
 Se esse elemento não estiver presente, o valor padrão será definido como **ativado**.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

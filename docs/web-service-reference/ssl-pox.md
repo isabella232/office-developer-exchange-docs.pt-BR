@@ -13,7 +13,7 @@ ms.openlocfilehash: f4e42153c25b34c99f2cad50fb56e8cad24534ff
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467610"
 ---
 # <a name="ssl-pox"></a>SSL (POX)
@@ -56,7 +56,7 @@ Nenhum.
 
 O valor de texto especifica se o logon seguro é necessário. Se não for especificado, o valor padrão será definido como **ativado**. Os valores possíveis estão **ativados** e **desativados**.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

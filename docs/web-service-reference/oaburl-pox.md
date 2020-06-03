@@ -13,7 +13,7 @@ ms.openlocfilehash: ea6efc3160a130a2293fa09534bfd0f76171e7cd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465888"
 ---
 # <a name="oaburl-pox"></a>OABUrl (POX)
@@ -56,7 +56,7 @@ Nenhum.
 
 O valor de texto especifica a URL do servidor de configuração do catálogo de endereços offline para uma topologia do Exchange.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

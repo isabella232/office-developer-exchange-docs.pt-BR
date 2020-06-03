@@ -15,7 +15,7 @@ ms.openlocfilehash: a2bb630f812ca811b4cbe68db1308dc18e5d3ba0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467330"
 ---
 # <a name="settelephoneaccessfolderemail-operation-um-web-service"></a>Operação SetTelephoneAccessFolderEmail (serviço Web da UM)
@@ -58,7 +58,7 @@ O exemplo a seguir de uma resposta SetTelephoneAccessFolderEmail mostra uma resp
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 
