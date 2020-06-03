@@ -7,22 +7,22 @@ ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 18bfa012-e903-d7f3-528a-31ccceb65463
-ms.openlocfilehash: c53686ccd032cabcc3f64a3a6684f29afe63a9b1
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 24f5a62eadd490b5b0000dfe048850c44540f266
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354173"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528731"
 ---
 # <a name="referenceattachmenttype-complextype-ews"></a>ReferenceAttachmentType complexType (EWS)
 
-## <a name="type-information"></a>Informações de tipo
+## <a name="type-information"></a>Informação de tipo
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|**Arquivo de esquema** <br/> |Types.xsd  <br/> |
-|**Extensão de base** <br/> |t:AttachmentType  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|**Arquivo de esquema** <br/> |Types. xsd  <br/> |
+|**Base da extensão** <br/> |t:AttachmentType  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -41,16 +41,16 @@ ms.locfileid: "21354173"
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[AttachLongPathName](attachlongpathname.md) <br/> |xs: String  <br/> ||
+|[AttachLongPathName](attachlongpathname.md) <br/> |xs:string  <br/> ||
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

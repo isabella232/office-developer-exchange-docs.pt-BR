@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5c9c89b5-4ce8-437b-a332-fa7ed35c8388
-description: O elemento RecurringMasterItemIdRanges Especifica uma matriz de intervalos de ocorrência.
-ms.openlocfilehash: 60d987f475bed5d630a1238550e4d14578ebd0d5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento RecurringMasterItemIdRanges especifica uma matriz de intervalos de ocorrência.
+ms.openlocfilehash: 784676844c5c58c65b8cc6177843bf26d351b7d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825016"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528752"
 ---
 # <a name="recurringmasteritemidranges"></a>RecurringMasterItemIdRanges
 
-O elemento **RecurringMasterItemIdRanges** Especifica uma matriz de intervalos de ocorrência. 
+O elemento **RecurringMasterItemIdRanges** especifica uma matriz de intervalos de ocorrência. 
   
 ```XML
 <RecurringMasterItemIdRanges Id="" ChangeKey="">
@@ -26,16 +26,16 @@ O elemento **RecurringMasterItemIdRanges** Especifica uma matriz de intervalos d
 ```
 
  **RecurringMasterItemIdRangesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**ID de** <br/> |O valor de texto do atributo **Id** é o identificador exclusivo de um item mestre recorrente. Este é um valor de **cadeia de caracteres** .  <br/> |
-|**ChangeKey** <br/> |O valor de texto do atributo **ChangeKey** é alterar a chave do item mestre recorrente. Este é um valor de **cadeia de caracteres** .  <br/> |
+|**Id** <br/> |O valor de texto do atributo **ID** é um identificador exclusivo do item mestre recorrente. Este é um valor de **cadeia de caracteres** .  <br/> |
+|**ChangeKey** <br/> |O valor de texto do atributo **ChangeKey** é a chave de alteração do item mestre recorrente. Este é um valor de **cadeia de caracteres** .  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -43,7 +43,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[ItemIds](itemids.md) | [GlobalItemIds](globalitemids.md) | [DraftItemIds](draftitemids.md) | [ContactIds](contactids.md) | [IDs de grupo](groupids.md)
+[ItemIds](itemids.md)  |  [GlobalItemIds](globalitemids.md)  |  [DraftItemIds](draftitemids.md)  |  [ContactIds](contactids.md)  |  [GroupIds](groupids.md)
   
 ## <a name="remarks"></a>Comentários
 
@@ -51,13 +51,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

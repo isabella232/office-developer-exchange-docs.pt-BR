@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 70399ab7-0530-4d22-9cfb-ffcc58588ef5
-description: O elemento AttemptCount representa o número de tentativas que tenham sido feitas para indexar o item.
-ms.openlocfilehash: b7ad4ce968cb71579bd174500a722df56528656a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento AttemptCount representa o número de tentativas que foram feitas para indexar o item.
+ms.openlocfilehash: 90ae6d7e095fcce54709e69c1d6d08075a791178
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751220"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527436"
 ---
 # <a name="attemptcount"></a>AttemptCount
 
-O elemento **AttemptCount** representa o número de tentativas que tenham sido feitas para indexar o item. 
+O elemento **AttemptCount** representa o número de tentativas que foram feitas para indexar o item. 
   
 ```XML
 <AttemptCount></AttemptCount>
 ```
 
- **inteiro**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **Semantic**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [NonIndexableItemDetail](nonindexableitemdetail.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor do elemento **AttemptCount** é o número de tentativas que tenham sido feitas para indexar um item. 
+O valor do elemento **AttemptCount** é o número de tentativas que foram feitas para indexar um item. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 6eef2188-6194-48f1-ad7e-46104aecdf56
-description: O elemento ProtocolConnection representa a conexão de protocolo do cliente da Web do servidor.
-ms.openlocfilehash: 8b5396821cd959e41d24fcf7a94c519f9c634a1f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ProtocolConnection representa a conexão de protocolo do cliente Web do servidor.
+ms.openlocfilehash: b9df3febe36db53d7c5bf0610ba857f13aa96abc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824915"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528857"
 ---
 # <a name="protocolconnection-soap"></a>ProtocolConnection (SOAP)
 
-O elemento **ProtocolConnection** representa a conexão de protocolo do cliente da Web do servidor. 
+O elemento **ProtocolConnection** representa a conexão de protocolo do cliente Web do servidor. 
   
 ```XML
 <ProtocolConnection>
@@ -29,42 +29,42 @@ O elemento **ProtocolConnection** representa a conexão de protocolo do cliente 
 ```
 
  **ProtocolConnection**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[O nome de host (SOAP)](hostname-soap.md) <br/> |Representa a parte do nome de host do nome completo do computador do computador.  <br/> |
+|[Nome do host (SOAP)](hostname-soap.md) <br/> |Representa a parte do nome do host do nome completo do computador.  <br/> |
 |[Porta (SOAP)](port-soap.md) <br/> |Representa o número da porta a ser usado para o protocolo.  <br/> |
-|[EncryptionMethod (SOAP)](encryptionmethod-soap.md) <br/> |Representa o método de criptografia que é usado para os protocolos POP, IMAP e SMTP.  <br/> |
+|[EncryptionMethod (SOAP)](encryptionmethod-soap.md) <br/> |Representa o método criptográfico que é usado para os protocolos POP, IMAP e SMTP.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ProtocolConnections (SOAP)](protocolconnections-soap.md) <br/> |Contém as conexões de protocolo de zero ou mais.  <br/> |
+|[ProtocolConnections (SOAP)](protocolconnections-soap.md) <br/> |Contém zero ou mais conexões de protocolo.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Nenhum.
+Nenhum
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

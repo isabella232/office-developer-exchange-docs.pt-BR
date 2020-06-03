@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cee14262-7153-44da-bb42-b856e380c4d0
-description: O elemento PerformReminderAction Especifica uma solicitação para executar uma ação de lembrete.
-ms.openlocfilehash: d57b7694e9678fc8e096e01c7cca162e5d2d16e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento PerformReminderAction especifica uma solicitação para executar uma ação de lembrete.
+ms.openlocfilehash: 915b15d3fd0663eb554eb1543845f670a2ae0772
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824723"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528997"
 ---
 # <a name="performreminderaction"></a>PerformReminderAction
 
-O elemento **PerformReminderAction** Especifica uma solicitação para executar uma ação de lembrete. 
+O elemento **PerformReminderAction** especifica uma solicitação para executar uma ação de lembrete. 
   
 ```XML
 <PerformReminderAction>
@@ -26,13 +26,13 @@ O elemento **PerformReminderAction** Especifica uma solicitação para executar 
 ```
 
  **PerformReminderActionType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,7 +40,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
@@ -48,16 +48,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

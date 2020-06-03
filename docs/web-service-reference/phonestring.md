@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54fd2192-54ca-4e42-b630-a3fbdd8e4239
-description: O elemento PhoneString Especifica o número de telefone para um contato extraído.
-ms.openlocfilehash: 83f8a4f08df00de9721ee9648876718ac593210b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Phonestring especifica o número de telefone de um contato extraído.
+ms.openlocfilehash: cc528b74034d1fd76c19247e72bb5ac00e7734d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824769"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528883"
 ---
 # <a name="phonestring"></a>PhoneString
 
-O elemento **PhoneString** Especifica o número de telefone para um contato extraído. 
+O elemento **phonestring** especifica o número de telefone de um contato extraído. 
   
 ```XML
 <PhoneString></PhoneString>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -38,9 +38,9 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Telefone](phone.md) | [telefone (PhoneEntityType)](phone-phoneentitytype.md)
+[Telefone](phone.md)  |  [Telefone (PhoneEntityType)](phone-phoneentitytype.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto do elemento **PhoneSting** é o número de telefone de um contato extraído. 
   
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

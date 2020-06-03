@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: b42fb512-2ae4-4072-906a-ccebb85edb84
-description: A operação DisconnectPhoneCall finaliza a chamada telefônica.
-ms.openlocfilehash: 4bd68dd40f831794072263b487255330ea31d7bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação DisconnectPhoneCall encerra a chamada telefônica.
+ms.openlocfilehash: e337185bc2d5c4d2d4e010605816eacea8dfa0ee
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751849"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529060"
 ---
 # <a name="disconnectphonecall-operation"></a>Operação DisconnectPhoneCall
 
-A operação **DisconnectPhoneCall** finaliza a chamada telefônica. 
+A operação **DisconnectPhoneCall** encerra a chamada telefônica. 
   
-## <a name="disconnectphonecall-request-example"></a>Exemplo de solicitação de DisconnectPhoneCall
+## <a name="disconnectphonecall-request-example"></a>Exemplo de solicitação DisconnectPhoneCall
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de **DisconnectPhoneCall** mostra como uma solicitação para desconectar uma chamada telefônica de formulário. 
+O exemplo a seguir de uma solicitação **DisconnectPhoneCall** mostra como formar uma solicitação para desconectar uma chamada telefônica. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -66,15 +66,15 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **Disconnec
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <DisconnectPhoneCallResponse ResponseClass="Success" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
     </DisconnectPhoneCallResponse>
   </s:Body>

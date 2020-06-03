@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c4565eb4-b537-466c-b1ff-11602533812b
-description: O elemento DeletedEvent representa um evento no qual uma pasta ou um item é excluída.
-ms.openlocfilehash: 5ddc909ffc9c74ea6b423610e915d5b9ff9bff43
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: O elemento DeletedEvent representa um evento no qual um item ou pasta é excluído.
+ms.openlocfilehash: 5eb0c947aacc592f81c595da2cc00bf4874f300b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354404"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526939"
 ---
 # <a name="deletedevent"></a>DeletedEvent
 
-O elemento **DeletedEvent** representa um evento no qual uma pasta ou um item é excluída. 
+O elemento **DeletedEvent** representa um evento no qual um item ou pasta é excluído. 
   
 ```xml
 <DeletedEvent>
@@ -43,46 +43,46 @@ O elemento **DeletedEvent** representa um evento no qual uma pasta ou um item é
 
 **BaseObjectChangedEventType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Watermark](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio.  <br/> |
-|[TimeStamp](timestamp.md) <br/> |Representa o carimbo de hora de um evento de caixa de correio excluído item ou uma pasta.  <br/> |
-|[FolderId](folderid.md) <br/> |Representa o identificador da pasta excluído.  <br/> |
+|[Marca d'água](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio.  <br/> |
+|[Registra](timestamp.md) <br/> |Representa o carimbo de data/hora de um evento de caixa de correio de pasta ou item excluído.  <br/> |
+|[FolderId](folderid.md) <br/> |Representa o identificador da pasta excluída.  <br/> |
 |[ItemId](itemid.md) <br/> |Representa o identificador do item excluído.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Representa o identificador da pasta antes da exclusão ou a pasta pai do item excluído.  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Representa o identificador da pasta pai do item ou pasta excluído antes da exclusão.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Notificação](notification-ex15websvcsotherref.md) <br/> |Contém informações sobre a inscrição e os eventos que ocorreram desde a última notificação.  <br/> |
+|[Notificação](notification-ex15websvcsotherref.md) <br/> |Contém informações sobre a assinatura e os eventos que ocorreram desde a última notificação.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
-- [Inscrever-se a operação](subscribe-operation.md)  
+- [Operação Subscribe](subscribe-operation.md)  
 - [Operação GetEvents](getevents-operation.md)  
 - [Cancelar a operação](unsubscribe-operation.md)
 

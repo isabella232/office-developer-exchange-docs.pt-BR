@@ -1,5 +1,5 @@
 ---
-title: Precisão
+title: Imprecisão
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e0d14b7f-5bde-4c0b-b6f7-816d11081286
-description: O elemento de precisão especifica a precisão do latitude e longitude do endereço postal associado.
-ms.openlocfilehash: 8960364477e1fd251ee8505d0f8b07d5a922cd93
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento exactidão especifica a precisão da latitude e da longitude do endereço postal associado.
+ms.openlocfilehash: ab251caee427a5209482eb9381fd2e243bc3a3d6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752193"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527548"
 ---
-# <a name="accuracy"></a>Precisão
+# <a name="accuracy"></a>Imprecisão
 
-O elemento de **precisão** Especifica a precisão do latitude e longitude do endereço postal associado. 
+O elemento **exactidão** especifica a precisão da latitude e da longitude do endereço postal associado. 
   
 ```XML
 <Accuracy></Accuracy>
 ```
 
- **xs:Double**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **xs: Double**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Especifica o endereço postal para uma pessoa.  <br/> |
+|[Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Especifica o endereço postal de um persona.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -50,13 +50,13 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

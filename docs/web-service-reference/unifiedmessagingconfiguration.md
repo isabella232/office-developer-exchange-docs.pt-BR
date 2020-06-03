@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: cbdb4268-077e-44ed-8ec2-9d759c84cc6d
 description: O elemento UnifiedMessagingConfiguration contém informações de configuração de serviço para o serviço de Unificação de mensagens.
-ms.openlocfilehash: 3ad8f66ecdf21062c00c2a6ac6f65fac875da38c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3f9f4ed65721929c552615c07e2239f48ef837f3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837829"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528689"
 ---
 # <a name="unifiedmessagingconfiguration"></a>UnifiedMessagingConfiguration
 
@@ -32,29 +32,29 @@ O elemento **UnifiedMessagingConfiguration** contém informações de configura�
 ```
 
  **UnifiedMessageServiceConfiguration**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[UmEnabled](umenabled.md) <br/> |Indica se a Unificação de mensagens está habilitada para uma conta. Este elemento é obrigatório.  <br/> |
-|[PlayOnPhoneDialString (serviços Web do Exchange)](playonphonedialstring-exchange-web-services.md) <br/> |Identifica a cadeia de caracteres de discagem de tocar no telefone. Este elemento é obrigatório.  <br/> |
-|[PlayOnPhoneEnabled](playonphoneenabled.md) <br/> |Indica se o recurso Tocar no telefone está habilitado. Este elemento é obrigatório.  <br/> |
+|[PlayOnPhoneDialString (serviços Web do Exchange)](playonphonedialstring-exchange-web-services.md) <br/> |Identifica a cadeia de caracteres de discagem de reprodução no telefone. Este elemento é obrigatório.  <br/> |
+|[PlayOnPhoneEnabled](playonphoneenabled.md) <br/> |Indica se o recurso de reproduzir no telefone está habilitado. Este elemento é obrigatório.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contém as definições de configuração de serviço.  <br/> |
+|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contém definições de configuração de serviço.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -62,16 +62,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

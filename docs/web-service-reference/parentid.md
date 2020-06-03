@@ -7,33 +7,33 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bb7aaa46-3a04-4197-aebb-8881ff10603f
-description: O elemento ParentId Especifica o identificador do item pai em uma visualização de pesquisa.
-ms.openlocfilehash: ddc76320b1c482e3518a98fb63fc2296143d163c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ParentId especifica o identificador do item pai em uma visualização de pesquisa.
+ms.openlocfilehash: e09b5f9e463c7ecdfc595c87a84584f69cab3f2c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824698"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529018"
 ---
 # <a name="parentid"></a>ParentId
 
-O elemento **ParentId** Especifica o identificador do item pai em uma visualização de pesquisa. 
+O elemento **parentID** especifica o identificador do item pai em uma visualização de pesquisa. 
   
 ```XML
 <ParentId Id="" ChangeKey=""/>
 ```
 
-**ItemIdType**
+**ItemIdtype**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|Id  <br/> |O valor de texto do atributo **Id** é o identificador do item pai.  <br/> |
+|Id  <br/> |O valor de texto do atributo **ID** é o identificador do item pai.  <br/> |
 |ChangeKey  <br/> |O valor de texto do atributo **ChangeKey** é a chave de alteração do item pai.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
-|Pode estar vazio  <br/> |true  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Pode estar vazio  <br/> |verdadeiro  <br/> |
    
 

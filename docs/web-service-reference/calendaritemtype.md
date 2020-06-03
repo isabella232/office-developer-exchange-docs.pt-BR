@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1feb0788-adf7-4a7c-830c-005214ad930f
 description: O elemento CalendarItemType representa o tipo de um item de calendário.
-ms.openlocfilehash: 3fe95c86ea24e6dfeb4740ead5e787bd63b5190d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 05e93b6db3ae574c03f6e43c5ebec2288edec3e5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751357"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527191"
 ---
 # <a name="calendaritemtype"></a>CalendarItemType
 
@@ -28,13 +28,13 @@ O elemento **CalendarItemType** representa o tipo de um item de calendário.
 ```
 
  **CalendarItemTypeType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,35 +44,35 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no armazenamento do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Se este elemento for usado, será necessário um valor de texto. Estes são os valores possíveis para esse elemento:
+Um valor de texto será necessário se esse elemento for usado. Estes são os valores possíveis para este elemento:
   
-- **Único** O item não é associado um item de calendário recorrente. 
+- **Único** O item não está associado a um item de calendário recorrente. 
     
 - **Ocorrência** O item é uma ocorrência de um item de calendário recorrente. 
     
 - **Exceção** O item é uma exceção a um item de calendário recorrente. 
     
-- **RecurringMaster** O item é o mestre de um conjunto de itens de calendário recorrente. 
+- **RecurringMaster** O item é mestre para um conjunto de itens de calendário recorrentes. 
     
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

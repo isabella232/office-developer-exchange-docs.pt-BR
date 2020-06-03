@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: bf614551-f5b0-4f80-bdac-628f685faee9
-description: O elemento DebugData contém os dados de depuração para uma resposta de erro de descoberta automática.
-ms.openlocfilehash: 84e171333e1d4d54928834915c088e486e4cfe8a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DebugData contém os dados de depuração de uma resposta de erro de descoberta automática.
+ms.openlocfilehash: 79b5f4d3fa1379b7052dcd03053bc8bac6430017
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751712"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526946"
 ---
 # <a name="debugdata-pox"></a>DebugData (POX)
 
-O elemento **DebugData** contém os dados de depuração para uma resposta de erro de descoberta automática. 
+O elemento **DebugData** contém os dados de depuração de uma resposta de erro de descoberta automática. 
   
 - [Erro (POX)](error-pox.md) 
 - [DebugData (POX)](debugdata-pox.md)
@@ -27,13 +27,13 @@ O elemento **DebugData** contém os dados de depuração para uma resposta de er
 <DebugData/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,11 +45,11 @@ Nenhum.
 |:-----|:-----|
 |[Erro (POX)](error-pox.md) <br/> |Contém uma resposta de erro de descoberta automática.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto representa os dados de depuração de uma resposta de erro de descoberta automática.
   
 ## <a name="see-also"></a>Confira também
 
-- [Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 
