@@ -8,99 +8,99 @@ ms.openlocfilehash: fbe4eaefc5befcc173096c9b8526adebf74a0aad
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44438430"
 ---
-# <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a><span data-ttu-id="bfe09-103">Autenticar uma conexão IMAP, POP ou SMTP usando o OAuth</span><span class="sxs-lookup"><span data-stu-id="bfe09-103">Authenticate an IMAP, POP or SMTP connection using OAuth</span></span>
+# <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a><span data-ttu-id="18824-103">Autenticar uma conexão IMAP, POP ou SMTP usando o OAuth</span><span class="sxs-lookup"><span data-stu-id="18824-103">Authenticate an IMAP, POP or SMTP connection using OAuth</span></span>
 
-<span data-ttu-id="bfe09-104">Saiba como usar a autenticação OAuth para se conectar com protocolos IMAP, POP ou SMTP e acessar dados de email para usuários do Office 365.</span><span class="sxs-lookup"><span data-stu-id="bfe09-104">Learn how to use OAuth authentication to connect with IMAP, POP or SMTP protocols and access email data for Office 365 users.</span></span>
+<span data-ttu-id="18824-104">Saiba como usar a autenticação OAuth para se conectar com protocolos IMAP, POP ou SMTP e acessar dados de email para usuários do Office 365.</span><span class="sxs-lookup"><span data-stu-id="18824-104">Learn how to use OAuth authentication to connect with IMAP, POP or SMTP protocols and access email data for Office 365 users.</span></span>
 
-> <span data-ttu-id="bfe09-105">O suporte do OAuth2 para protocolos IMAP, POP, SMTP, conforme descrito abaixo, não tem suporte para usuários do Outlook.com.</span><span class="sxs-lookup"><span data-stu-id="bfe09-105">OAuth2 support for IMAP, POP, SMTP protocols as described below is not supported for Outlook.com users.</span></span>
+> <span data-ttu-id="18824-105">O suporte do OAuth2 para protocolos IMAP, POP, SMTP, conforme descrito abaixo, não tem suporte para usuários do Outlook.com.</span><span class="sxs-lookup"><span data-stu-id="18824-105">OAuth2 support for IMAP, POP, SMTP protocols as described below is not supported for Outlook.com users.</span></span>
 
-<span data-ttu-id="bfe09-106">Se você não estiver familiarizado com o OAuth 2,0, comece lendo a [visão geral da plataforma de identidade da Microsoft (v 2.0)](/azure/active-directory/develop/v2-overview).</span><span class="sxs-lookup"><span data-stu-id="bfe09-106">If you're not familiar with OAuth 2.0, start by reading the [Microsoft identity platform (v2.0) overview](/azure/active-directory/develop/v2-overview).</span></span> <span data-ttu-id="bfe09-107">Esse documento apresenta a você diferentes componentes da plataforma de identidade da Microsoft, incluindo SDKs.</span><span class="sxs-lookup"><span data-stu-id="bfe09-107">That document introduces you to different components of Microsoft identity platform, including SDKs.</span></span>
+<span data-ttu-id="18824-106">Se você não estiver familiarizado com o OAuth 2,0, comece lendo a [visão geral da plataforma de identidade da Microsoft (v 2.0)](/azure/active-directory/develop/v2-overview).</span><span class="sxs-lookup"><span data-stu-id="18824-106">If you're not familiar with OAuth 2.0, start by reading the [Microsoft identity platform (v2.0) overview](/azure/active-directory/develop/v2-overview).</span></span> <span data-ttu-id="18824-107">Esse documento apresenta a você diferentes componentes da plataforma de identidade da Microsoft, incluindo SDKs.</span><span class="sxs-lookup"><span data-stu-id="18824-107">That document introduces you to different components of Microsoft identity platform, including SDKs.</span></span>
 
-<span data-ttu-id="bfe09-108">Você pode usar o serviço de autenticação OAuth fornecido pelo Azure Active Directory para permitir que seu aplicativo se conecte com protocolos IMAP, POP ou SMTP para acessar o Exchange Online no Office 365.</span><span class="sxs-lookup"><span data-stu-id="bfe09-108">You can use the OAuth authentication service provided by Azure Active Directory to enable your application to connect with IMAP, POP or SMTP protocols to access Exchange Online in Office 365.</span></span> <span data-ttu-id="bfe09-109">Para usar o OAuth com seu aplicativo, você precisa:</span><span class="sxs-lookup"><span data-stu-id="bfe09-109">To use OAuth with your application you need to:</span></span>
+<span data-ttu-id="18824-108">Você pode usar o serviço de autenticação OAuth fornecido pelo Azure Active Directory para permitir que seu aplicativo se conecte com protocolos IMAP, POP ou SMTP para acessar o Exchange Online no Office 365.</span><span class="sxs-lookup"><span data-stu-id="18824-108">You can use the OAuth authentication service provided by Azure Active Directory to enable your application to connect with IMAP, POP or SMTP protocols to access Exchange Online in Office 365.</span></span> <span data-ttu-id="18824-109">Para usar o OAuth com seu aplicativo, você precisa:</span><span class="sxs-lookup"><span data-stu-id="18824-109">To use OAuth with your application you need to:</span></span>
 
-1. <span data-ttu-id="bfe09-110">[Registre seu aplicativo com o](#register-your-application) Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="bfe09-110">[Register your application](#register-your-application) with Azure Active Directory.</span></span>
-1. <span data-ttu-id="bfe09-111">[Configure seu aplicativo](#configure-your-application) no Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="bfe09-111">[Configure your application](#configure-your-application) in Azure Active Directory.</span></span>
-1. <span data-ttu-id="bfe09-112">[Obter um token de acesso](#get-an-access-token) de um servidor de token.</span><span class="sxs-lookup"><span data-stu-id="bfe09-112">[Get an access token](#get-an-access-token) from a token server.</span></span>
-1. <span data-ttu-id="bfe09-113">[Autenticar solicitações de conexão](#authenticate-connection-requests) com um token de acesso.</span><span class="sxs-lookup"><span data-stu-id="bfe09-113">[Authenticate connection requests](#authenticate-connection-requests) with an access token.</span></span>
+1. <span data-ttu-id="18824-110">[Registre seu aplicativo com o](#register-your-application) Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="18824-110">[Register your application](#register-your-application) with Azure Active Directory.</span></span>
+1. <span data-ttu-id="18824-111">[Configure seu aplicativo](#configure-your-application) no Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="18824-111">[Configure your application](#configure-your-application) in Azure Active Directory.</span></span>
+1. <span data-ttu-id="18824-112">[Obter um token de acesso](#get-an-access-token) de um servidor de token.</span><span class="sxs-lookup"><span data-stu-id="18824-112">[Get an access token](#get-an-access-token) from a token server.</span></span>
+1. <span data-ttu-id="18824-113">[Autenticar solicitações de conexão](#authenticate-connection-requests) com um token de acesso.</span><span class="sxs-lookup"><span data-stu-id="18824-113">[Authenticate connection requests](#authenticate-connection-requests) with an access token.</span></span>
 
-## <a name="register-your-application"></a><span data-ttu-id="bfe09-114">Registrar seu aplicativo</span><span class="sxs-lookup"><span data-stu-id="bfe09-114">Register your application</span></span>
+## <a name="register-your-application"></a><span data-ttu-id="18824-114">Registrar seu aplicativo</span><span class="sxs-lookup"><span data-stu-id="18824-114">Register your application</span></span>
 
-<span data-ttu-id="bfe09-115">Para usar o OAuth, um aplicativo deve ser registrado no Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="bfe09-115">To use OAuth, an application must be registered with Azure Active Directory.</span></span>
+<span data-ttu-id="18824-115">Para usar o OAuth, um aplicativo deve ser registrado no Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="18824-115">To use OAuth, an application must be registered with Azure Active Directory.</span></span>
 
-<span data-ttu-id="bfe09-116">Siga as instruções listadas em [registrar um aplicativo com a plataforma de identidade da Microsoft](/azure/active-directory/develop/quickstart-register-app) para criar um novo aplicativo.</span><span class="sxs-lookup"><span data-stu-id="bfe09-116">Follow the instructions listed in [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app) to create a new application.</span></span>
+<span data-ttu-id="18824-116">Siga as instruções listadas em [registrar um aplicativo com a plataforma de identidade da Microsoft](/azure/active-directory/develop/quickstart-register-app) para criar um novo aplicativo.</span><span class="sxs-lookup"><span data-stu-id="18824-116">Follow the instructions listed in [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app) to create a new application.</span></span>
 
-## <a name="configure-your-application"></a><span data-ttu-id="bfe09-117">Configurar seu aplicativo</span><span class="sxs-lookup"><span data-stu-id="bfe09-117">Configure your application</span></span>
+## <a name="configure-your-application"></a><span data-ttu-id="18824-117">Configurar seu aplicativo</span><span class="sxs-lookup"><span data-stu-id="18824-117">Configure your application</span></span>
 
-<span data-ttu-id="bfe09-118">Siga as instruções listadas em [configurar um aplicativo cliente para acessar as APIs da Web](/azure/active-directory/develop/quickstart-configure-app-access-web-apis)</span><span class="sxs-lookup"><span data-stu-id="bfe09-118">Follow the instructions listed in [Configure a client application to access web APIs](/azure/active-directory/develop/quickstart-configure-app-access-web-apis)</span></span>
+<span data-ttu-id="18824-118">Siga as instruções listadas em [configurar um aplicativo cliente para acessar as APIs da Web](/azure/active-directory/develop/quickstart-configure-app-access-web-apis)</span><span class="sxs-lookup"><span data-stu-id="18824-118">Follow the instructions listed in [Configure a client application to access web APIs](/azure/active-directory/develop/quickstart-configure-app-access-web-apis)</span></span>
 
-<span data-ttu-id="bfe09-119">Certifique-se de adicionar um ou mais dos seguintes escopos de permissão que correspondem aos protocolos que você gostaria de integrar.</span><span class="sxs-lookup"><span data-stu-id="bfe09-119">Make sure to add one or more of the following permission scopes that correspond to the protocols you would like to integrate with.</span></span> <span data-ttu-id="bfe09-120">No assistente **Adicionar uma permissão** , selecione **Microsoft Graph** e, em seguida, **permissões delegadas** para localizar os seguintes escopos de permissão listados.</span><span class="sxs-lookup"><span data-stu-id="bfe09-120">In the **Add a permission** wizard, select **Microsoft Graph** and then **Delegated permissions** to find the following permission scopes listed.</span></span>
+<span data-ttu-id="18824-119">Certifique-se de adicionar um ou mais dos seguintes escopos de permissão que correspondem aos protocolos que você gostaria de integrar.</span><span class="sxs-lookup"><span data-stu-id="18824-119">Make sure to add one or more of the following permission scopes that correspond to the protocols you would like to integrate with.</span></span> <span data-ttu-id="18824-120">No assistente **Adicionar uma permissão** , selecione **Microsoft Graph** e, em seguida, **permissões delegadas** para localizar os seguintes escopos de permissão listados.</span><span class="sxs-lookup"><span data-stu-id="18824-120">In the **Add a permission** wizard, select **Microsoft Graph** and then **Delegated permissions** to find the following permission scopes listed.</span></span>
 
-| <span data-ttu-id="bfe09-121">Protocolo</span><span class="sxs-lookup"><span data-stu-id="bfe09-121">Protocol</span></span>  | <span data-ttu-id="bfe09-122">Escopo de permissão</span><span class="sxs-lookup"><span data-stu-id="bfe09-122">Permission scope</span></span>        |
+| <span data-ttu-id="18824-121">Protocolo</span><span class="sxs-lookup"><span data-stu-id="18824-121">Protocol</span></span>  | <span data-ttu-id="18824-122">Escopo de permissão</span><span class="sxs-lookup"><span data-stu-id="18824-122">Permission scope</span></span>        |
 |-----------|-------------------------|
-| <span data-ttu-id="bfe09-123">IMAP</span><span class="sxs-lookup"><span data-stu-id="bfe09-123">IMAP</span></span>      | `IMAP.AccessAsUser.All` |
-| <span data-ttu-id="bfe09-124">POP</span><span class="sxs-lookup"><span data-stu-id="bfe09-124">POP</span></span>       | `POP.AccessAsUser.All`  |
-| <span data-ttu-id="bfe09-125">AUTENTICAÇÃO SMTP</span><span class="sxs-lookup"><span data-stu-id="bfe09-125">SMTP AUTH</span></span> | `SMTP.Send`             |
+| <span data-ttu-id="18824-123">IMAP</span><span class="sxs-lookup"><span data-stu-id="18824-123">IMAP</span></span>      | `IMAP.AccessAsUser.All` |
+| <span data-ttu-id="18824-124">POP</span><span class="sxs-lookup"><span data-stu-id="18824-124">POP</span></span>       | `POP.AccessAsUser.All`  |
+| <span data-ttu-id="18824-125">AUTENTICAÇÃO SMTP</span><span class="sxs-lookup"><span data-stu-id="18824-125">SMTP AUTH</span></span> | `SMTP.Send`             |
 
-## <a name="get-an-access-token"></a><span data-ttu-id="bfe09-126">Obter um token de acesso</span><span class="sxs-lookup"><span data-stu-id="bfe09-126">Get an access token</span></span>
+## <a name="get-an-access-token"></a><span data-ttu-id="18824-126">Obter um token de acesso</span><span class="sxs-lookup"><span data-stu-id="18824-126">Get an access token</span></span>
 
-<span data-ttu-id="bfe09-127">Você pode usar uma de nossas [bibliotecas de cliente do MSAL](/azure/active-directory/develop/msal-overview) para buscar um token de acesso do aplicativo cliente.</span><span class="sxs-lookup"><span data-stu-id="bfe09-127">You can use one of our [MSAL client libraries](/azure/active-directory/develop/msal-overview) to fetch an access token from your client application.</span></span>
+<span data-ttu-id="18824-127">Você pode usar uma de nossas [bibliotecas de cliente do MSAL](/azure/active-directory/develop/msal-overview) para buscar um token de acesso do aplicativo cliente.</span><span class="sxs-lookup"><span data-stu-id="18824-127">You can use one of our [MSAL client libraries](/azure/active-directory/develop/msal-overview) to fetch an access token from your client application.</span></span>
 
-<span data-ttu-id="bfe09-128">Como alternativa, você pode selecionar um fluxo apropriado da lista a seguir e seguir as etapas correspondentes para chamar as APIs REST da plataforma de identidade subjacente e recuperar um token de acesso.</span><span class="sxs-lookup"><span data-stu-id="bfe09-128">Alternatively, you can select an appropriate flow from the following list and follow the corresponding steps to call the underlying identity platform REST APIs and retrieve an access token.</span></span>
+<span data-ttu-id="18824-128">Como alternativa, você pode selecionar um fluxo apropriado da lista a seguir e seguir as etapas correspondentes para chamar as APIs REST da plataforma de identidade subjacente e recuperar um token de acesso.</span><span class="sxs-lookup"><span data-stu-id="18824-128">Alternatively, you can select an appropriate flow from the following list and follow the corresponding steps to call the underlying identity platform REST APIs and retrieve an access token.</span></span>
 
-1. [<span data-ttu-id="bfe09-129">Fluxo de código de autorização OAuth2</span><span class="sxs-lookup"><span data-stu-id="bfe09-129">OAuth2 authorization code flow</span></span>](/azure/active-directory/develop/v2-oauth2-auth-code-flow)
-1. [<span data-ttu-id="bfe09-130">Fluxo de concessão de autorização de dispositivo OAuth2</span><span class="sxs-lookup"><span data-stu-id="bfe09-130">OAuth2 Device authorization grant flow</span></span>](/azure/active-directory/develop/v2-oauth2-device-code)
+1. [<span data-ttu-id="18824-129">Fluxo de código de autorização OAuth2</span><span class="sxs-lookup"><span data-stu-id="18824-129">OAuth2 authorization code flow</span></span>](/azure/active-directory/develop/v2-oauth2-auth-code-flow)
+1. [<span data-ttu-id="18824-130">Fluxo de concessão de autorização de dispositivo OAuth2</span><span class="sxs-lookup"><span data-stu-id="18824-130">OAuth2 Device authorization grant flow</span></span>](/azure/active-directory/develop/v2-oauth2-device-code)
 
-<span data-ttu-id="bfe09-131">Não há suporte para o acesso OAuth a IMAP, POP, protocolos de autenticação SMTP por meio do fluxo de concessão de credenciais do cliente OAuth2.</span><span class="sxs-lookup"><span data-stu-id="bfe09-131">OAuth access to IMAP, POP, SMTP AUTH protocols via OAuth2 client credentials grant flow is not supported.</span></span> <span data-ttu-id="bfe09-132">Se seu aplicativo precisar de acesso persistente a todas as caixas de correio em uma organização do Microsoft 365, recomendamos que você use as APIs do Microsoft Graph que permitem o acesso sem um usuário, habilite permissões granulares e permita que o escopo de administradores desse acesso a um conjunto específico de caixas de correio.</span><span class="sxs-lookup"><span data-stu-id="bfe09-132">If your application needs persistent access to all mailboxes in a Microsoft 365 organization, we recommend that you use the Microsoft Graph APIs which allow access without a user, enable granular permissions and let administrators scope such access to a specific set of mailboxes.</span></span>
+<span data-ttu-id="18824-131">Não há suporte para o acesso OAuth a IMAP, POP, protocolos de autenticação SMTP por meio do fluxo de concessão de credenciais do cliente OAuth2.</span><span class="sxs-lookup"><span data-stu-id="18824-131">OAuth access to IMAP, POP, SMTP AUTH protocols via OAuth2 client credentials grant flow is not supported.</span></span> <span data-ttu-id="18824-132">Se seu aplicativo precisar de acesso persistente a todas as caixas de correio em uma organização do Microsoft 365, recomendamos que você use as APIs do Microsoft Graph que permitem o acesso sem um usuário, habilite permissões granulares e permita que o escopo de administradores desse acesso a um conjunto específico de caixas de correio.</span><span class="sxs-lookup"><span data-stu-id="18824-132">If your application needs persistent access to all mailboxes in a Microsoft 365 organization, we recommend that you use the Microsoft Graph APIs which allow access without a user, enable granular permissions and let administrators scope such access to a specific set of mailboxes.</span></span>
 
-<span data-ttu-id="bfe09-133">Certifique-se de especificar os escopos completos, incluindo URLs de recursos do Outlook, ao autorizar seu aplicativo e solicitar um token de acesso.</span><span class="sxs-lookup"><span data-stu-id="bfe09-133">Make sure to specify the full scopes, including Outlook resource URLs, when authorizing your application and requesting an access token.</span></span>
+<span data-ttu-id="18824-133">Certifique-se de especificar os escopos completos, incluindo URLs de recursos do Outlook, ao autorizar seu aplicativo e solicitar um token de acesso.</span><span class="sxs-lookup"><span data-stu-id="18824-133">Make sure to specify the full scopes, including Outlook resource URLs, when authorizing your application and requesting an access token.</span></span>
 
-| <span data-ttu-id="bfe09-134">Protocolo</span><span class="sxs-lookup"><span data-stu-id="bfe09-134">Protocol</span></span>  | <span data-ttu-id="bfe09-135">Cadeia de caracteres de escopo de permissão</span><span class="sxs-lookup"><span data-stu-id="bfe09-135">Permission scope string</span></span> |
+| <span data-ttu-id="18824-134">Protocolo</span><span class="sxs-lookup"><span data-stu-id="18824-134">Protocol</span></span>  | <span data-ttu-id="18824-135">Cadeia de caracteres de escopo de permissão</span><span class="sxs-lookup"><span data-stu-id="18824-135">Permission scope string</span></span> |
 |-----------|-------------------------|
-| <span data-ttu-id="bfe09-136">IMAP</span><span class="sxs-lookup"><span data-stu-id="bfe09-136">IMAP</span></span>      | `https://outlook.office.com/IMAP.AccessAsUser.All` |
-| <span data-ttu-id="bfe09-137">POP</span><span class="sxs-lookup"><span data-stu-id="bfe09-137">POP</span></span>       | `https://outlook.office.com/POP.AccessAsUser.All`  |
-| <span data-ttu-id="bfe09-138">AUTENTICAÇÃO SMTP</span><span class="sxs-lookup"><span data-stu-id="bfe09-138">SMTP AUTH</span></span> | `https://outlook.office.com/SMTP.Send`             |
+| <span data-ttu-id="18824-136">IMAP</span><span class="sxs-lookup"><span data-stu-id="18824-136">IMAP</span></span>      | `https://outlook.office.com/IMAP.AccessAsUser.All` |
+| <span data-ttu-id="18824-137">POP</span><span class="sxs-lookup"><span data-stu-id="18824-137">POP</span></span>       | `https://outlook.office.com/POP.AccessAsUser.All`  |
+| <span data-ttu-id="18824-138">AUTENTICAÇÃO SMTP</span><span class="sxs-lookup"><span data-stu-id="18824-138">SMTP AUTH</span></span> | `https://outlook.office.com/SMTP.Send`             |
 
-<span data-ttu-id="bfe09-139">Além disso, você pode solicitar [offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) escopo.</span><span class="sxs-lookup"><span data-stu-id="bfe09-139">In addition, you can request for [offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) scope.</span></span> <span data-ttu-id="bfe09-140">Quando um usuário aprova o escopo de offline_access, seu aplicativo pode receber tokens de atualização do ponto de extremidade de token da plataforma de identidade da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="bfe09-140">When a user approves the offline_access scope, your app can receive refresh tokens from the Microsoft identity platform token endpoint.</span></span> <span data-ttu-id="bfe09-141">Os tokens de atualização são de longa duração.</span><span class="sxs-lookup"><span data-stu-id="bfe09-141">Refresh tokens are long-lived.</span></span> <span data-ttu-id="bfe09-142">Seu aplicativo pode obter novos tokens de acesso com a expiração dos mais antigos.</span><span class="sxs-lookup"><span data-stu-id="bfe09-142">Your app can get new access tokens as older ones expire.</span></span>
+<span data-ttu-id="18824-139">Além disso, você pode solicitar [offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) escopo.</span><span class="sxs-lookup"><span data-stu-id="18824-139">In addition, you can request for [offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) scope.</span></span> <span data-ttu-id="18824-140">Quando um usuário aprova o escopo de offline_access, seu aplicativo pode receber tokens de atualização do ponto de extremidade de token da plataforma de identidade da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="18824-140">When a user approves the offline_access scope, your app can receive refresh tokens from the Microsoft identity platform token endpoint.</span></span> <span data-ttu-id="18824-141">Os tokens de atualização são de longa duração.</span><span class="sxs-lookup"><span data-stu-id="18824-141">Refresh tokens are long-lived.</span></span> <span data-ttu-id="18824-142">Seu aplicativo pode obter novos tokens de acesso com a expiração dos mais antigos.</span><span class="sxs-lookup"><span data-stu-id="18824-142">Your app can get new access tokens as older ones expire.</span></span>
 
-## <a name="authenticate-connection-requests"></a><span data-ttu-id="bfe09-143">Autenticar solicitações de conexão</span><span class="sxs-lookup"><span data-stu-id="bfe09-143">Authenticate connection requests</span></span>
+## <a name="authenticate-connection-requests"></a><span data-ttu-id="18824-143">Autenticar solicitações de conexão</span><span class="sxs-lookup"><span data-stu-id="18824-143">Authenticate connection requests</span></span>
 
-<span data-ttu-id="bfe09-144">Você pode iniciar uma conexão com os servidores de email do Office 365 usando as [configurações de email IMAP e pop para o Office 365](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353).</span><span class="sxs-lookup"><span data-stu-id="bfe09-144">You can initiate a connection to Office 365 mail servers using the [IMAP and POP email settings for Office 365](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353).</span></span>
+<span data-ttu-id="18824-144">Você pode iniciar uma conexão com os servidores de email do Office 365 usando as [configurações de email IMAP e pop para o Office 365](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353).</span><span class="sxs-lookup"><span data-stu-id="18824-144">You can initiate a connection to Office 365 mail servers using the [IMAP and POP email settings for Office 365](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353).</span></span>
 
-### <a name="sasl-xoauth2"></a><span data-ttu-id="bfe09-145">XOAUTH2 SASL</span><span class="sxs-lookup"><span data-stu-id="bfe09-145">SASL XOAUTH2</span></span>
+### <a name="sasl-xoauth2"></a><span data-ttu-id="18824-145">XOAUTH2 SASL</span><span class="sxs-lookup"><span data-stu-id="18824-145">SASL XOAUTH2</span></span>
 
-<span data-ttu-id="bfe09-146">A integração OAuth com exige que seu aplicativo use o formato SASL XOAUTH2 para codificar e transmitir o token de acesso.</span><span class="sxs-lookup"><span data-stu-id="bfe09-146">OAuth integration with requires your application to use SASL XOAUTH2 format for encoding and transmitting the access token.</span></span> <span data-ttu-id="bfe09-147">O SASL XOAUTH2 codifica o nome de usuário, o token de acesso em conjunto no seguinte formato:</span><span class="sxs-lookup"><span data-stu-id="bfe09-147">SASL XOAUTH2 encodes the username, access token together in the following format:</span></span>
+<span data-ttu-id="18824-146">A integração OAuth com exige que seu aplicativo use o formato SASL XOAUTH2 para codificar e transmitir o token de acesso.</span><span class="sxs-lookup"><span data-stu-id="18824-146">OAuth integration with requires your application to use SASL XOAUTH2 format for encoding and transmitting the access token.</span></span> <span data-ttu-id="18824-147">O SASL XOAUTH2 codifica o nome de usuário, o token de acesso em conjunto no seguinte formato:</span><span class="sxs-lookup"><span data-stu-id="18824-147">SASL XOAUTH2 encodes the username, access token together in the following format:</span></span>
 
 ```text
 base64("user=" + userName + "^Aauth=Bearer " + accessToken + "^A^A")
 ```
 
-<span data-ttu-id="bfe09-148">`^A`representa um **controle**  +  **a** ( `%x01` ).</span><span class="sxs-lookup"><span data-stu-id="bfe09-148">`^A` represents a **Control** + **A** (`%x01`).</span></span>
+<span data-ttu-id="18824-148">`^A`representa um **controle**  +  **a** ( `%x01` ).</span><span class="sxs-lookup"><span data-stu-id="18824-148">`^A` represents a **Control** + **A** (`%x01`).</span></span>
 
-<span data-ttu-id="bfe09-149">Por exemplo, o formato SASL XOAUTH2 para acessar `test@contoso.onmicrosoft.com` com o token de acesso `EwBAAl3BAAUFFpUAo7J3Ve0bjLBWZWCclRC3EoAA` é:</span><span class="sxs-lookup"><span data-stu-id="bfe09-149">For example, the SASL XOAUTH2 format to access `test@contoso.onmicrosoft.com` with access token `EwBAAl3BAAUFFpUAo7J3Ve0bjLBWZWCclRC3EoAA` is:</span></span>
+<span data-ttu-id="18824-149">Por exemplo, o formato SASL XOAUTH2 para acessar `test@contoso.onmicrosoft.com` com o token de acesso `EwBAAl3BAAUFFpUAo7J3Ve0bjLBWZWCclRC3EoAA` é:</span><span class="sxs-lookup"><span data-stu-id="18824-149">For example, the SASL XOAUTH2 format to access `test@contoso.onmicrosoft.com` with access token `EwBAAl3BAAUFFpUAo7J3Ve0bjLBWZWCclRC3EoAA` is:</span></span>
 
 ```text
 base64("user=test@contoso.onmicrosoft.com^Aauth=Bearer EwBAAl3BAAUFFpUAo7J3Ve0bjLBWZWCclRC3EoAA^A^A")
 ```
 
-<span data-ttu-id="bfe09-150">Após a codificação Base64, isso é convertido para a cadeia de caracteres a seguir.</span><span class="sxs-lookup"><span data-stu-id="bfe09-150">After base64 encoding, this translates to the following string.</span></span> <span data-ttu-id="bfe09-151">Observe que as quebras de linha são inseridas para facilitar a leitura.</span><span class="sxs-lookup"><span data-stu-id="bfe09-151">Note that line breaks are inserted for readability.</span></span>
+<span data-ttu-id="18824-150">Após a codificação Base64, isso é convertido para a cadeia de caracteres a seguir.</span><span class="sxs-lookup"><span data-stu-id="18824-150">After base64 encoding, this translates to the following string.</span></span> <span data-ttu-id="18824-151">Observe que as quebras de linha são inseridas para facilitar a leitura.</span><span class="sxs-lookup"><span data-stu-id="18824-151">Note that line breaks are inserted for readability.</span></span>
 
 ```text
 dXNlcj10ZXN0QGNvbnRvc28ub25taWNyb3NvZnQuY29tAWF1dGg9QmVhcmVy
 IEV3QkFBbDNCQUFVRkZwVUFvN0ozVmUwYmpMQldaV0NjbFJDM0VvQUEBAQ==
 ```
 
-### <a name="imap-protocol-exchange"></a><span data-ttu-id="bfe09-152">Intercâmbio de protocolo IMAP</span><span class="sxs-lookup"><span data-stu-id="bfe09-152">IMAP Protocol Exchange</span></span>
+### <a name="imap-protocol-exchange"></a><span data-ttu-id="18824-152">Intercâmbio de protocolo IMAP</span><span class="sxs-lookup"><span data-stu-id="18824-152">IMAP Protocol Exchange</span></span>
 
-<span data-ttu-id="bfe09-153">Para autenticar uma conexão de servidor IMAP, o cliente terá que responder com um `AUTHENTICATE` comando no seguinte formato:</span><span class="sxs-lookup"><span data-stu-id="bfe09-153">To authenticate a IMAP server connection, the client will have to respond with an `AUTHENTICATE` command in the following format:</span></span>
+<span data-ttu-id="18824-153">Para autenticar uma conexão de servidor IMAP, o cliente terá que responder com um `AUTHENTICATE` comando no seguinte formato:</span><span class="sxs-lookup"><span data-stu-id="18824-153">To authenticate a IMAP server connection, the client will have to respond with an `AUTHENTICATE` command in the following format:</span></span>
 
 ```text
 AUTHENTICATE XOAUTH2 <base64 string in XOAUTH2 format>
 ```
 
-<span data-ttu-id="bfe09-154">Exemplo de troca de mensagens do cliente-servidor que resulta em um êxito de autenticação:</span><span class="sxs-lookup"><span data-stu-id="bfe09-154">Sample client-server message exchange that results in an authentication success:</span></span>
+<span data-ttu-id="18824-154">Exemplo de troca de mensagens do cliente-servidor que resulta em um êxito de autenticação:</span><span class="sxs-lookup"><span data-stu-id="18824-154">Sample client-server message exchange that results in an authentication success:</span></span>
 
 ```text
 [connection begins]
@@ -111,7 +111,7 @@ C: A01 AUTHENTICATE XOAUTH2 dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYXJlciB5
 S: A01 OK AUTHENTICATE completed.
 ```
 
-<span data-ttu-id="bfe09-155">Exemplo de troca de mensagens do cliente-servidor que resulta em uma falha de autenticação:</span><span class="sxs-lookup"><span data-stu-id="bfe09-155">Sample client-server message exchange that results in an authentication failure:</span></span>
+<span data-ttu-id="18824-155">Exemplo de troca de mensagens do cliente-servidor que resulta em uma falha de autenticação:</span><span class="sxs-lookup"><span data-stu-id="18824-155">Sample client-server message exchange that results in an authentication failure:</span></span>
 
 ```text
 [connection begins]
@@ -121,16 +121,16 @@ C: A01 AUTHENTICATE XOAUTH2 dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYXJlciB5
 S: A01 NO AUTHENTICATE failed.
 ```
 
-### <a name="pop-protocol-exchange"></a><span data-ttu-id="bfe09-156">Troca de protocolo POP</span><span class="sxs-lookup"><span data-stu-id="bfe09-156">POP Protocol Exchange</span></span>
+### <a name="pop-protocol-exchange"></a><span data-ttu-id="18824-156">Troca de protocolo POP</span><span class="sxs-lookup"><span data-stu-id="18824-156">POP Protocol Exchange</span></span>
 
-<span data-ttu-id="bfe09-157">Para autenticar uma conexão de servidor POP, o cliente terá que responder com um `AUTH` comando dividido em duas linhas no seguinte formato:</span><span class="sxs-lookup"><span data-stu-id="bfe09-157">To authenticate a POP server connection, the client will have to respond with an `AUTH` command split into two lines in the following format:</span></span>    
+<span data-ttu-id="18824-157">Para autenticar uma conexão de servidor POP, o cliente terá que responder com um `AUTH` comando dividido em duas linhas no seguinte formato:</span><span class="sxs-lookup"><span data-stu-id="18824-157">To authenticate a POP server connection, the client will have to respond with an `AUTH` command split into two lines in the following format:</span></span>    
 
 ```text 
 AUTH XOAUTH2 
 <base64 string in XOAUTH2 format>   
 ``` 
 
-<span data-ttu-id="bfe09-158">Exemplo de troca de mensagens do cliente-servidor que resulta em um êxito de autenticação:</span><span class="sxs-lookup"><span data-stu-id="bfe09-158">Sample client-server message exchange that results in an authentication success:</span></span>    
+<span data-ttu-id="18824-158">Exemplo de troca de mensagens do cliente-servidor que resulta em um êxito de autenticação:</span><span class="sxs-lookup"><span data-stu-id="18824-158">Sample client-server message exchange that results in an authentication success:</span></span>    
 
 ```text 
 [connection begins] 
@@ -143,7 +143,7 @@ S: +OK User successfully authenticated.
 [connection continues...]   
 ``` 
 
-<span data-ttu-id="bfe09-159">Exemplo de troca de mensagens do cliente-servidor que resulta em uma falha de autenticação:</span><span class="sxs-lookup"><span data-stu-id="bfe09-159">Sample client-server message exchange that results in an authentication failure:</span></span>    
+<span data-ttu-id="18824-159">Exemplo de troca de mensagens do cliente-servidor que resulta em uma falha de autenticação:</span><span class="sxs-lookup"><span data-stu-id="18824-159">Sample client-server message exchange that results in an authentication failure:</span></span>    
 
 ```text 
 [connection begins] 
@@ -155,15 +155,15 @@ l0Q2cBAQ=
 S: -ERR Authentication failure: unknown user name or bad password.  
 ```
 
-### <a name="smtp-protocol-exchange"></a><span data-ttu-id="bfe09-160">Troca de protocolo SMTP</span><span class="sxs-lookup"><span data-stu-id="bfe09-160">SMTP Protocol Exchange</span></span>
+### <a name="smtp-protocol-exchange"></a><span data-ttu-id="18824-160">Troca de protocolo SMTP</span><span class="sxs-lookup"><span data-stu-id="18824-160">SMTP Protocol Exchange</span></span>
 
-<span data-ttu-id="bfe09-161">Para autenticar uma conexão de servidor SMTP, o cliente terá que responder com um `AUTH` comando no seguinte formato:</span><span class="sxs-lookup"><span data-stu-id="bfe09-161">To authenticate a SMTP server connection, the client will have to respond with an `AUTH` command in the following format:</span></span>
+<span data-ttu-id="18824-161">Para autenticar uma conexão de servidor SMTP, o cliente terá que responder com um `AUTH` comando no seguinte formato:</span><span class="sxs-lookup"><span data-stu-id="18824-161">To authenticate a SMTP server connection, the client will have to respond with an `AUTH` command in the following format:</span></span>
 
 ```text
 AUTH XOAUTH2 <base64 string in XOAUTH2 format>
 ```
 
-<span data-ttu-id="bfe09-162">Exemplo de troca de mensagens do cliente-servidor que resulta em um êxito de autenticação:</span><span class="sxs-lookup"><span data-stu-id="bfe09-162">Sample client-server message exchange that results in an authentication success:</span></span>
+<span data-ttu-id="18824-162">Exemplo de troca de mensagens do cliente-servidor que resulta em um êxito de autenticação:</span><span class="sxs-lookup"><span data-stu-id="18824-162">Sample client-server message exchange that results in an authentication success:</span></span>
 
 ```text
 [connection begins]
@@ -176,7 +176,7 @@ S: 235 2.7.0 Authentication successful
 [connection continues...]
 ```
 
-<span data-ttu-id="bfe09-163">Exemplo de troca de mensagens do cliente-servidor que resulta em uma falha de autenticação:</span><span class="sxs-lookup"><span data-stu-id="bfe09-163">Sample client-server message exchange that results in an authentication failure:</span></span>
+<span data-ttu-id="18824-163">Exemplo de troca de mensagens do cliente-servidor que resulta em uma falha de autenticação:</span><span class="sxs-lookup"><span data-stu-id="18824-163">Sample client-server message exchange that results in an authentication failure:</span></span>
 
 ```text
 [connection begins]
@@ -188,10 +188,10 @@ l0Q2cBAQ==
 S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.com]
 ```
 
-## <a name="see-also"></a><span data-ttu-id="bfe09-164">Também consulte</span><span class="sxs-lookup"><span data-stu-id="bfe09-164">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="18824-164">Confira também</span><span class="sxs-lookup"><span data-stu-id="18824-164">See also</span></span>
 
-- [<span data-ttu-id="bfe09-165">Autenticação e EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="bfe09-165">Authentication and EWS in Exchange</span></span>](../exchange-web-services/authentication-and-ews-in-exchange.md)
-- [<span data-ttu-id="bfe09-166">Configurações de conexão POP e IMAP</span><span class="sxs-lookup"><span data-stu-id="bfe09-166">IMAP, POP Connection settings</span></span>](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)
-- [<span data-ttu-id="bfe09-167">Internet Message Access Protocol</span><span class="sxs-lookup"><span data-stu-id="bfe09-167">Internet Message Access Protocol</span></span>](https://tools.ietf.org/html/rfc3501)
-- [<span data-ttu-id="bfe09-168">Protocolo Post Office</span><span class="sxs-lookup"><span data-stu-id="bfe09-168">Post Office Protocol</span></span>](https://tools.ietf.org/html/rfc1081)
-- [<span data-ttu-id="bfe09-169">Extensão de serviço SMTP para autenticação</span><span class="sxs-lookup"><span data-stu-id="bfe09-169">SMTP Service extension for Authentication</span></span>](https://tools.ietf.org/html/rfc4954)
+- [<span data-ttu-id="18824-165">Autenticação e EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="18824-165">Authentication and EWS in Exchange</span></span>](../exchange-web-services/authentication-and-ews-in-exchange.md)
+- [<span data-ttu-id="18824-166">Configurações de conexão POP e IMAP</span><span class="sxs-lookup"><span data-stu-id="18824-166">IMAP, POP Connection settings</span></span>](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)
+- [<span data-ttu-id="18824-167">Internet Message Access Protocol</span><span class="sxs-lookup"><span data-stu-id="18824-167">Internet Message Access Protocol</span></span>](https://tools.ietf.org/html/rfc3501)
+- [<span data-ttu-id="18824-168">Protocolo Post Office</span><span class="sxs-lookup"><span data-stu-id="18824-168">Post Office Protocol</span></span>](https://tools.ietf.org/html/rfc1081)
+- [<span data-ttu-id="18824-169">Extensão de serviço SMTP para autenticação</span><span class="sxs-lookup"><span data-stu-id="18824-169">SMTP Service extension for Authentication</span></span>](https://tools.ietf.org/html/rfc4954)

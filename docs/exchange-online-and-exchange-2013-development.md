@@ -10,11 +10,11 @@ ms.openlocfilehash: 16f6cc4a317b2eeb661c0bbd81192aac292ba377
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456231"
 ---
-# <a name="exchange-online-and-exchange-2013-development"></a><span data-ttu-id="52226-104">Desenvolvimento do Exchange Online e do Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="52226-104">Exchange Online and Exchange 2013 development</span></span>
+# <a name="exchange-online-and-exchange-2013-development"></a><span data-ttu-id="2d025-104">Desenvolvimento do Exchange Online e do Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="2d025-104">Exchange Online and Exchange 2013 development</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="52226-105">Esta página foi desativada.</span><span class="sxs-lookup"><span data-stu-id="52226-105">This page has been retired.</span></span> <span data-ttu-id="52226-106">Confira as atualizações mais recentes, acesse [Desenvolvimento do Exchange Online e do Exchange](exchange-server-development.md).</span><span class="sxs-lookup"><span data-stu-id="52226-106">For the latest updates, go to [Exchange Online and Exchange development](exchange-server-development.md).</span></span>
+> <span data-ttu-id="2d025-105">Esta página foi desativada.</span><span class="sxs-lookup"><span data-stu-id="2d025-105">This page has been retired.</span></span> <span data-ttu-id="2d025-106">Confira as atualizações mais recentes, acesse [Desenvolvimento do Exchange Online e do Exchange](exchange-server-development.md).</span><span class="sxs-lookup"><span data-stu-id="2d025-106">For the latest updates, go to [Exchange Online and Exchange development](exchange-server-development.md).</span></span>
 
