@@ -1,32 +1,32 @@
 ---
-title: Solicitações e respostas para solucionar problemas de aplicativos do EWS Managed API de rastreamento
+title: Rastrear solicitações e respostas para solucionar problemas de aplicativos de API gerenciada do EWS
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 186c1d1d-b8dc-4914-b3cd-6fada7ecd877
-description: Descubra como EWS solicitações e respostas para solucionar erros no seu aplicativo do EWS Managed API de rastreamento.
-ms.openlocfilehash: 056a1f84c4172b0404975d6fc35f9ecd7395ecdb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Descubra como rastrear solicitações e respostas do EWS para solucionar erros no seu aplicativo de API gerenciada do EWS.
+localization_priority: Priority
+ms.openlocfilehash: dd225030d62a2e8211b7063ee78a59fd1a070263
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750825"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455853"
 ---
-# <a name="trace-requests-and-responses-to-troubleshoot-ews-managed-api-apps"></a>Solicitações e respostas para solucionar problemas de aplicativos do EWS Managed API de rastreamento
+# <a name="trace-requests-and-responses-to-troubleshoot-ews-managed-api-apps"></a>Rastrear solicitações e respostas para solucionar problemas de aplicativos de API gerenciada do EWS
 
-Descubra como EWS solicitações e respostas para solucionar erros no seu aplicativo do EWS Managed API de rastreamento.
+Descubra como rastrear solicitações e respostas do EWS para solucionar erros no seu aplicativo de API gerenciada do EWS.
   
-Depurar um aplicativo baseado no serviço da web pode ser difícil porque está sendo executada em um computador remoto que talvez você não tenha acesso à parte do processamento. Porque você não pode percorrer o código no servidor, ele pode ser útil ver as solicitações XML e respostas enviadas entre o cliente e o servidor para determinar qual parte do aplicativo está causando um erro. 
+A depuração de um aplicativo baseado em serviço Web pode ser difícil porque parte do processamento é executada em um computador remoto que você pode não ter acesso. Como não é possível percorrer o código no servidor, pode ser útil ver as solicitações e respostas XML enviadas entre o cliente e o servidor para determinar qual parte do aplicativo está causando um erro. 
   
-Se você estiver usando o EWS, você já tem acesso à solicitação XML e resposta; Você pode colocar um ponto de interrupção em seu código para analisar a resposta do servidor à sua solicitação para solucionar um problema. Se você estiver usando a API gerenciada de EWS, você não tem acesso direto para a solicitação do EWS e a resposta. No entanto, você pode usar os métodos de rastreamento no objeto [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) para capturar a solicitação XML e a resposta e, em seguida, você pode usar o XML para determinar porque seu código não está funcionando. 
+Se você estiver usando o EWS, você já tem acesso à solicitação e resposta XML; Você pode colocar um ponto de interrupção no seu código para revisar a resposta do servidor à sua solicitação, a fim de solucionar um problema. Se você estiver usando a API gerenciada do EWS, não terá acesso direto à solicitação e à resposta do EWS. No entanto, você pode usar os métodos de rastreamento no objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) para capturar a solicitação e a resposta XML e, em seguida, pode usar o XML para determinar por que seu código não está funcionando. 
 
-Por exemplo, se você não definir uma propriedade corretamente, você pode receber uma resposta inesperada e você pode usar a saída de rastreamento para examinar a solicitação XML e a resposta para identificar o erro. A saída do rastreamento da API gerenciada do EWS pode ajudá-lo a criar manualmente a solicitação XML para criar o seu aplicativo do EWS. Se você estiver usando o EWS, você pode criar um aplicativo pequeno usando o EWS Managed API, rastreá-lo e, em seguida, use as informações de solicitação XML para ajudar a construir sua solicitação EWS. 
+Por exemplo, se você não definiu uma propriedade corretamente, você pode receber uma resposta inesperada, e você pode usar a saída de rastreamento para examinar a solicitação e resposta XML para identificar o erro. A saída de rastreamento da API gerenciada do EWS também pode ajudá-lo a criar manualmente a solicitação XML para criar seu aplicativo do EWS. Se você estiver usando o EWS, é possível criar um pequeno aplicativo usando a API gerenciada do EWS, rastreá-lo e usar as informações de solicitação XML para ajudá-lo a criar sua solicitação do EWS. 
   
-## <a name="enabling-tracing-on-the-exchangeservice-object"></a>A habilitação do rastreamento no objeto ExchangeService
+## <a name="enabling-tracing-on-the-exchangeservice-object"></a>Habilitando o rastreamento no objeto ExchangeService
 <a name="bk_EnableTracing"> </a>
 
-Para habilitar o rastreamento, crie um objeto [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) para seu aplicativo e definir as propriedades de rastreamento, conforme mostrado no exemplo a seguir. 
+Para habilitar o rastreamento, crie um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) para o seu aplicativo e defina as propriedades de rastreamento, conforme mostrado no exemplo a seguir. 
   
 ```cs
 ExchangeService service = new ExchangeService(ExchangeVersion.Exchange2010);
@@ -37,12 +37,12 @@ service.TraceEnabled = true;
 
 ```
 
-Depois de definir a propriedade [TraceEnabled](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) como **true**, todas as solicitações que coincidem com os sinalizadores de rastreamento serão enviadas ao ouvinte de rastreamento especificado. Você pode especificar um sinalizador de rastreamento único, ou você pode especificar vários sinalizadores de rastreamento, combinando-os com uma lógica **OR**. Você pode usar a [enumeração TraceFlags](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.traceflags%28v=exchg.80%29.aspx) para especificar valores para o EWS e respostas e solicitações de descoberta automática. 
+Depois de definir a propriedade [TraceEnabled](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) como **true**, todas as solicitações que correspondam aos sinalizadores de rastreamento serão enviadas para o ouvinte de rastreamento especificado. Você pode especificar um único sinalizador de rastreamento ou pode especificar vários sinalizadores de rastreamento combinando-os com um **or**lógico. Você pode usar a [Enumeração TraceFlags](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.traceflags%28v=exchg.80%29.aspx) para especificar valores para EWS e para solicitações e respostas de descoberta automática. 
   
-## <a name="implementing-a-tracelistener-object"></a>Implementação de um objeto TraceListener
+## <a name="implementing-a-tracelistener-object"></a>Implementar um objeto TraceListener
 <a name="bk_traceListener"> </a>
 
-Você pode definir a propriedade [TraceEnabled](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) como **true** para as solicitações XML e respostas para seu aplicativo, como uma janela do console de saída. Se você quiser controlar a saída de rastreamento e salvá-lo em um arquivo, recomendamos que você implemente um objeto de [classe TraceListener](http://msdn.microsoft.com/en-us/library/system.diagnostics.tracelistener.aspx) . O exemplo de código a seguir mostra um objeto simple que implementa a interface [ITraceListener](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itracelistener%28v=exchg.80%29.aspx) e armazena as rastreados solicitações e respostas em arquivos XML ou de texto. 
+Você pode definir a propriedade [TraceEnabled](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) como **true** para gerar as solicitações e respostas XML para seu aplicativo, como uma janela do console. Se você quiser controlar a saída de rastreamento e salvá-la em um arquivo, recomendamos que você implemente um objeto de [classe TraceListener](https://msdn.microsoft.com/library/system.diagnostics.tracelistener.aspx) . O exemplo de código a seguir mostra um objeto simples que implementa a interface [ITraceListener](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itracelistener%28v=exchg.80%29.aspx) e armazena as solicitações e respostas rastreadas em XML ou arquivos de texto. 
   
 ```cs
 class TraceListener : ITraceListener
@@ -75,9 +75,9 @@ class TraceListener : ITraceListener
 
 ## <a name="see-also"></a>Confira também
 
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
-- [Manipulação de mensagens de erro de descoberta automática](handling-autodiscover-error-messages.md)    
-- [Faça referência ao conjunto de API gerenciada de EWS](how-to-reference-the-ews-managed-api-assembly.md)    
-- [Comunicar-se com o EWS usando a API gerenciada de EWS](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
+- [Introdução ao uso dos serviços Web no Exchange](start-using-web-services-in-exchange.md)
+- [Manipulação de mensagens de erro de Descoberta Automática](handling-autodiscover-error-messages.md)    
+- [Fazer referência ao assembly da API gerenciada do EWS](how-to-reference-the-ews-managed-api-assembly.md)    
+- [Comunicar-se com o EWS usando a API gerenciada do EWS](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
     
 

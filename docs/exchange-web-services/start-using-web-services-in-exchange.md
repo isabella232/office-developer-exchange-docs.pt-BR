@@ -1,81 +1,81 @@
 ---
-title: Começar a usar os serviços web no Exchange
+title: Introdução ao uso dos serviços Web no Exchange
 manager: sethgros
-ms.date: 2/27/2017
+ms.date: 2/26/2019
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: e1b07a92-0595-4bf1-bd6b-c07e66a8c923
-description: Encontre informações para ajudá-lo a começar a usar EWS e outros serviços web do Exchange.
-ms.openlocfilehash: 2f203c5634c29105feb39220c3ebdd9624bb49ec
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações para ajudá-lo a começar a usar o EWS e outros serviços Web no Exchange.
+localization_priority: Priority
+ms.openlocfilehash: 5980e22599585aa376890a414e0e8e7c7c5c707a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750953"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463752"
 ---
-# <a name="start-using-web-services-in-exchange"></a>Começar a usar os serviços web no Exchange
+# <a name="start-using-web-services-in-exchange"></a>Introdução ao uso dos serviços Web no Exchange
 
-Encontre informações para ajudá-lo a começar a usar EWS e outros serviços web do Exchange.
+Encontre informações para ajudá-lo a começar a usar o EWS e outros serviços Web no Exchange.
   
-O [web services no Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)fornecem acesso aos dados de caixa de correio armazenada no Exchange Online, Exchange Online como parte do Office 365 e a versões locais do Exchange, começando com o Exchange Server 2007 e permitem a criação de aplicativos personalizados que você pode usar Use para gerenciar essas informações de acordo com os requisitos da sua organização. Enquanto o intervalo de aplicativos de serviço do EWS e web que você pode criar é praticamente infinito, aplicam o determinados conceitos fundamentais para qualquer tipo de aplicativo. Esta seção fornece informações sobre os conceitos fundamentais que você precisa estar familiarizado com para começar a usar o EWS e outros serviços web do Exchange. 
+Os [Serviços Web no Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) fornecem acesso a dados de caixa de correio armazenados no Exchange Online, Exchange Online como parte do Office 365 e versões locais do Exchange a partir do exchange Server 2007 e permitem que você crie aplicativos personalizados que você pode usar para gerenciar essas informações de acordo com os requisitos de sua organização. Embora o intervalo de aplicativos de serviço da Web e do EWS que você pode criar seja praticamente infinito, certos conceitos fundamentais se aplicam a qualquer tipo de aplicativo. Esta seção fornece informações sobre os conceitos fundamentais com os quais você precisa se familiarizar para começar a usar o EWS e outros serviços Web no Exchange. 
   
-## <a name="build-your-knowledge"></a>Criar seus conhecimentos
+## <a name="build-your-knowledge"></a>Criar seu conhecimento
 <a name="bk_Knowledge"> </a>
 
-Se você usar o .NET Framework ou outra plataforma para desenvolver seu aplicativo de serviço web, convém entender alguns conceitos importantes antes de começar seu projeto de desenvolvimento. 
+Se você usa o .NET Framework ou outra plataforma para desenvolver seu aplicativo de serviço Web, convém entender alguns conceitos importantes antes de começar seu projeto de desenvolvimento. 
   
-**Tabela 1. Conceitos de serviços da Web**
+**Tabela 1. Conceitos de serviços Web**
 
 |**Conceito**|**Resumo**|
 |:-----|:-----|
-|[Arquitetura](ews-applications-and-the-exchange-architecture.md) <br/> |Saiba mais sobre o funcionamento do EWS dentro da arquitetura do Exchange e os protocolos que ela usa.  <br/> |
-|[Tipos de aplicativos do EWS](ews-application-types.md) <br/> |Saiba mais sobre os tipos mais comuns de aplicativos que você pode criar usando o EWS no Exchange.  <br/> |
-|[Acesso EWS](controlling-client-application-access-to-ews-in-exchange.md) <br/> |Os administradores do Exchange podem limitar o acesso aos EWS globalmente para toda a organização, para usuários individuais e a aplicativos individuais. Descobrir qual nível de acesso é o certo para você.  <br/> |
-|[Setup](setting-up-your-ews-application.md) <br/> |Encontre informações sobre as tarefas que você precisa concluir para criar aplicativos que usam a API gerenciada de EWS ou o EWS para se comunicar com o Exchange.  <br/> |
-|[Autenticação](authentication-and-ews-in-exchange.md) <br/> |Saiba mais sobre as opções de autenticação para se conectar ao Exchange Online e do Exchange local.  <br/> |
-|[Descoberta automática](autodiscover-for-exchange.md) <br/> |Saiba mais sobre o conjunto de serviços que você pode usar para descobrir o ponto de extremidade de URL em que uma conta de usuário pode acessar informações via EWS.  <br/> |
-|[Servidor de caixa de correio](http://technet.microsoft.com/en-us/library/jj150491%28v=exchg.150%29.aspx) <br/> |Saiba mais sobre o repositório principal de informações disponibilizados para um cliente do EWS. EWS tem acesso a um limitado a conjunto das informações armazenadas nos serviços de domínio Active Directory (AD DS).  <br/> |
-|[Aplicativos de email para o Outlook e o EWS](mail-apps-for-outlook-and-ews-in-exchange.md) <br/> |Encontre informações sobre aplicativos de email para o Outlook e como eles funcionam com o EWS no Exchange.  <br/> |
+|[Arquitetura](ews-applications-and-the-exchange-architecture.md) <br/> |Saiba mais sobre como o EWS funciona dentro da arquitetura do Exchange e os protocolos que ele usa.  <br/> |
+|[Tipos de aplicativo do EWS](ews-application-types.md) <br/> |Saiba mais sobre os tipos mais comuns de aplicativos que você pode criar usando o EWS no Exchange.  <br/> |
+|[Acesso ao EWS](controlling-client-application-access-to-ews-in-exchange.md) <br/> |Os administradores do Exchange podem limitar o acesso ao EWS globalmente para toda a organização, para usuários individuais e para aplicativos individuais. Descubra o nível de acesso certo para você.  <br/> |
+|[Configurar](setting-up-your-ews-application.md) <br/> |Encontre informações sobre as tarefas que precisam ser concluídas para criar aplicativos que usam a API gerenciada do EWS ou o EWS para se comunicar com o Exchange.  <br/> |
+|[Autenticação](authentication-and-ews-in-exchange.md) <br/> |Saiba mais sobre as opções de autenticação para se conectar ao Exchange Online e ao Exchange local.  <br/> |
+|[Descoberta Automática](autodiscover-for-exchange.md) <br/> |Saiba mais sobre o conjunto de serviços que você pode usar para descobrir o ponto de extremidade da URL onde a conta de um usuário pode acessar informações por meio do EWS.  <br/> |
+|[Servidor de Caixa de Correio](https://technet.microsoft.com/library/jj150491%28v=exchg.150%29.aspx) <br/> |Saiba mais sobre o repositório principal de informações disponibilizadas para um cliente do EWS. O EWS tem acesso a um conjunto limitado de informações armazenadas nos serviços de domínio do Active Directory (AD DS).  <br/> |
+|[Aplicativos de email para Outlook e EWS](mail-apps-for-outlook-and-ews-in-exchange.md) <br/> |Encontre informações sobre aplicativos de email para o Outlook e como eles funcionam com o EWS no Exchange.  <br/> |
 |[APIs de restante do Office 365 para emails, calendários e contatos](office-365-rest-apis-for-mail-calendars-and-contacts.md) <br/> |Saiba mais sobre as APIs do Office 365 que você pode usar para acessar email, calendários e contatos no Exchange Online como parte do Office 365.  <br/> |
-|[A API gerenciada de EWS](get-started-with-ews-managed-api-client-applications.md) <br/> |Encontre informações sobre a API do cliente preferencial para desenvolvedores do .NET Framework.  <br/> |
-|[EWS](get-started-with-ews-client-applications.md) <br/> |Encontre informações sobre como criar seu primeiro aplicativo usando o EWS XML solicitações e respostas.  <br/> |
-|[Funcionalidade do EWS nas versões de produto do Exchange](ews-functionality-in-exchange-product-versions.md) <br/> |Descobrir qual funcionalidade EWS está disponível na versão do Exchange.  <br/> |
-|[Rastrear e solucionar problemas](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md) <br/> |Descubra como EWS solicitações e respostas para solucionar erros no seu aplicativo do EWS Managed API de rastreamento.  <br/> |
+|[A API gerenciada do EWS](get-started-with-ews-managed-api-client-applications.md) <br/> |Encontre informações sobre a API do cliente preferencial para desenvolvedores do .NET Framework.  <br/> |
+|[EWS](get-started-with-ews-client-applications.md) <br/> |Encontre informações sobre como criar seu primeiro aplicativo usando solicitações e respostas XML do EWS.  <br/> |
+|[Funcionalidade do EWS em versões de produtos do Exchange](ews-functionality-in-exchange-product-versions.md) <br/> |Descubra o que a funcionalidade do EWS está disponível na versão do Exchange.  <br/> |
+|[Rastrear e solucionar problemas](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md) <br/> |Descubra como rastrear solicitações e respostas do EWS para solucionar erros no seu aplicativo de API gerenciada do EWS.  <br/> |
    
-## <a name="create-your-first-application"></a>Crie seu primeiro aplicativo
+## <a name="create-your-first-application"></a>Criar seu primeiro aplicativo
 <a name="create"> </a>
 
-Se você estiver pronto para ir para a empresa de criar seu primeiro .NET Framework ou um aplicativo cliente do EWS, consulte [Introdução ao aplicativos cliente do EWS Managed API](get-started-with-ews-managed-api-client-applications.md) ou [começar com os aplicativos de cliente do EWS](get-started-with-ews-client-applications.md).
+Se você estiver pronto para obter o negócio de escrever seu primeiro aplicativo do .NET Framework ou do EWS, confira [introdução aos aplicativos clientes de API gerenciada do EWS](get-started-with-ews-managed-api-client-applications.md) ou [introdução aos aplicativos clientes do EWS](get-started-with-ews-client-applications.md).
   
 ## <a name="get-code-samples"></a>Obter exemplos de código
 <a name="samples"> </a>
 
-Para obter exemplos de códigos e exemplos que mostram como trabalhar com outros serviços da web e de EWS no Exchange, consulte os seguintes recursos:
+Para encontrar exemplos de código e exemplos que mostram como trabalhar com o EWS e outros serviços Web no Exchange, consulte os seguintes recursos:
   
-- [Amostras de código do Exchange](http://code.msdn.microsoft.com/exchange)
+- [Exemplos de código do Exchange](https://code.msdn.microsoft.com/exchange)
     
 - [CodePlex](http://www.codeplex.com/)
     
 - [Documentação da API do Exchange](develop-web-service-clients-for-exchange.md)
     
-- [Fórum de desenvolvimento do Exchange](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment)
+- [Fórum de desenvolvimento do Exchange](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment)
     
-Muitos outros exemplos estão disponíveis em blogs, fóruns e sites de demonstração do código. Também recomendamos que você baixe o [EWSEditor](http://ewseditor.codeplex.com/). Esse projeto implementa a maioria das funcionalidades EWS; Você pode encontrar exemplos de todos os a funcionalidade básica do EWS aqui.
+Muitos outros exemplos estão disponíveis em Blogs, sites de demonstração de código e fóruns. Também recomendamos que você baixe o [EWSEditor](http://ewseditor.codeplex.com/). Este projeto implementa a maior parte da funcionalidade do EWS; Você pode encontrar exemplos de todas as funcionalidades principais do EWS aqui.
   
-Se você não for um desenvolvedor do .NET Framework, você pode encontrar muitas bibliotecas de cliente por aí para desenvolvimento do EWS que usam o Java, Python, PHP e outros idiomas. 
+Se você não for um desenvolvedor do .NET Framework, poderá encontrar várias bibliotecas de cliente para o desenvolvimento do EWS que usam Java, Python, PHP e outros idiomas. 
   
-## <a name="ask-questions-and-solve-problems"></a>Faça perguntas e resolver problemas
+## <a name="ask-questions-and-solve-problems"></a>Fazer perguntas e resolver problemas
 <a name="questions"> </a>
 
-Precisa de ajuda para obter suas tarefas e você não estiver encontrando respostas? Você pode pesquisar o [Fórum de desenvolvimento do Exchange](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment) para descobrir a outra pessoa tiver encontrado e resolvido o mesmo problema. Uma comunidade de colaboradores atendeu centenas de perguntas sobre o desenvolvimento do Exchange. Você também pode encontrar sites de terceiros, fóruns e blogs que abrangem o desenvolvimento do Exchange e podem ter a solução que você está procurando. 
+Precisa de ajuda para realizar tarefas e você não está encontrando respostas? Você pode pesquisar no [Fórum de desenvolvimento do Exchange](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment) para descobrir se alguém encontrou e solucionou o mesmo problema. Uma comunidade de colaboradores respondeu centenas de perguntas sobre o desenvolvimento do Exchange. Você também pode encontrar sites, fóruns e Blogs de terceiros que cobrem o desenvolvimento do Exchange e que podem ter a solução que você está procurando. 
   
-Contate o [suporte da Microsoft](https://support.microsoft.com/) se precisar de assistência adicional. A equipe de suporte do desenvolvedor do Exchange é formada por profissionais experientes que podem ajudar a responder às suas perguntas sobre o desenvolvimento do Exchange. 
+Entre em contato com [o suporte da Microsoft](https://support.microsoft.com/) se precisar de mais ajuda. A equipe de suporte para desenvolvedores do Exchange é responsável por profissionais experientes que podem ajudar a responder suas perguntas sobre o desenvolvimento do Exchange. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Explorar a API Gerenciada pelo EWS, EWS e serviços Web no Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) 
-- [Visão geral de design de cliente do EWS do Exchange](ews-client-design-overview-for-exchange.md) 
+- [Explorar os recursos da API gerenciada por EWS, EWS e serviços Web no Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) 
+- [Visão geral do design de cliente do EWS para Exchange](ews-client-design-overview-for-exchange.md) 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md) 
-- [Referência de serviços Web do Exchange](../web-service-reference/web-services-reference-for-exchange.md)
+- [Referência de serviço Web do Exchange](../web-service-reference/web-services-reference-for-exchange.md)
     
 

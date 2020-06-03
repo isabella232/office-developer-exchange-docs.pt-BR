@@ -1,47 +1,47 @@
 ---
-title: Validar um certificado de servidor para a API gerenciada de EWS
+title: Validar um certificado de servidor para a API gerenciada do EWS
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 1fe0b215-8340-4bc8-a6ce-4f591ca9e353
-description: Saiba como criar e fazer referência a um método de retorno de chamada de validação de certificado para que você possa fazer solicitações da API gerenciada de EWS para um servidor Exchange.
-ms.openlocfilehash: 13d7c51e55308b9e9997697a075c8a9e6b4f10d0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Saiba como criar e referenciar um método de retorno de chamada de validação de certificado para que você possa fazer solicitações de API gerenciada por EWS para um servidor Exchange.
+localization_priority: Priority
+ms.openlocfilehash: 195c51ca71890d6092e4182d23990bb528d37095
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750835"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456723"
 ---
-# <a name="validate-a-server-certificate-for-the-ews-managed-api"></a>Validar um certificado de servidor para a API gerenciada de EWS
+# <a name="validate-a-server-certificate-for-the-ews-managed-api"></a>Validar um certificado de servidor para a API gerenciada do EWS
 
-Saiba como criar e fazer referência a um método de retorno de chamada de validação de certificado para que você possa fazer solicitações da API gerenciada de EWS para um servidor Exchange.
+Saiba como criar e referenciar um método de retorno de chamada de validação de certificado para que você possa fazer solicitações de API gerenciada por EWS para um servidor Exchange.
   
-Por padrão, as versões do Exchange começando com o Exchange 2007 SP1 usam X509 autoassinado certificados para autenticar chamadas do EWS. Quando você estiver usando a API gerenciada de EWS, você precisa criar um método de retorno de chamada de validação de certificado; Caso contrário, as solicitações de API gerenciada de EWS falhará. Se você estiver usando o serviço Descoberta automática, a chamada para o método de descoberta automática de API gerenciada EWS falhará com um erro de **AutodiscoverLocalException** . Se você estiver usando um proxy de serviço web gerado pelo web, você também pode precisar criar um método de retorno de chamada de validação, dependendo de como o proxy é criado. 
+Por padrão, as versões do Exchange a partir do Exchange 2007 SP1 usam certificados X509 autoassinados para autenticar chamadas do EWS. Quando estiver usando a API gerenciada do EWS, você precisará criar um método de retorno de chamada de validação de certificado; caso contrário, as solicitações de API gerenciada do EWS falharão. Se você estiver usando o serviço de descoberta automática, a chamada para o método autodiscover da API gerenciada do EWS falhará com um erro **AutodiscoverLocalException** . Se você estiver usando um proxy de serviço Web gerado pela Web, também poderá ser necessário criar um método de retorno de chamada de validação, dependendo de como o proxy é criado. 
   
 ## <a name="prerequisites-for-creating-a-validation-callback-method"></a>Pré-requisitos para a criação de um método de retorno de chamada de validação
 <a name="bk_prereq"> </a>
 
-Configurar para validar um certificado de servidor, certifique-se de que as seguintes condições forem verdadeiras: 
+Para configurar a validação de um certificado de servidor, verifique se os seguintes itens são verdadeiros: 
   
-- Seu servidor do Exchange está usando um certificado autoassinado para o EWS. Se o administrador tiver instalado um certificado válido que rastreia a um certificado raiz, você não precisará criar um método de retorno de chamada de validação. 
+- O servidor do Exchange está usando um certificado autoassinado para EWS. Se o administrador tiver instalado um certificado válido que rastreia um certificado raiz, não será necessário criar um método de retorno de chamada de validação. 
     
-- Você está criando um aplicativo gerenciado que inclui uma referência para os seguintes namespaces do .NET Framework necessárias: 
+- Você está criando um aplicativo gerenciado que inclui uma referência para os seguintes namespaces .NET Framework necessários: 
     
   - **System.Net**
-  - **System.Net.Security**  
-  - **System.Security.Cryptography.X509Certificates**
+  - **System .net. Security**  
+  - **System. Security. Cryptography. X509Certificates**
     
-## <a name="example-callback-method-to-validate-a-server-certificate-for-the-ews-managed-api"></a>Exemplo: Método de retorno de chamada para validar um certificado de servidor para a API gerenciada de EWS
+## <a name="example-callback-method-to-validate-a-server-certificate-for-the-ews-managed-api"></a>Exemplo: método de retorno de chamada para validar um certificado de servidor para a API gerenciada do EWS
 <a name="bk_example"> </a>
 
-O exemplo de código a seguir mostra como criar um X509 método de retorno de chamada de validação de certificado para a API gerenciada de EWS. Esse método irá validar um X509 de certificado e apenas retornar true quando um dos seguintes critérios é atendido: 
+O exemplo de código a seguir mostra como criar um método de retorno de chamada de validação de certificado X509 para a API gerenciada do EWS. Este método validará um certificado X509 e retornará apenas true quando um dos seguintes critérios for atendido: 
   
-- O certificado é válido e rastreia de volta a um certificado raiz válido.    
-- O certificado é válido e autoassinado para o servidor que retornados a ele. 
+- O certificado é válido e rastreia de volta para um certificado raiz válido.    
+- O certificado é válido e é auto-assinado pelo servidor que o retornou. 
     
 > [!IMPORTANT]
-> O método de retorno de validação de certificado neste exemplo fornece segurança suficiente para o desenvolvimento e teste de aplicativos do EWS Managed API. No entanto, ele não pode fornecer segurança suficiente para seu aplicativo implantado. Sempre verifique se que o método de retorno de validação do certificado que você usa cumpre os requisitos de segurança da sua organização. 
+> O método de retorno de chamada de validação de certificado neste exemplo fornece segurança suficiente para o desenvolvimento e teste de aplicativos da API gerenciada do EWS. No entanto, ele pode não fornecer segurança suficiente para seu aplicativo implantado. Você sempre deve certificar-se de que o método de retorno de chamada de validação de certificado usado atenda aos requisitos de segurança da sua organização. 
   
 ```cs
       private static bool CertificateValidationCallBack(
@@ -93,7 +93,7 @@ O exemplo de código a seguir mostra como criar um X509 método de retorno de ch
 
 ```
 
-Você pode usar a classe **ServicePointManager** no namespace .NET **System.Net** para ligar um método de retorno de chamada de validação, definindo a propriedade **ServerCertificateValidationCallback** . Você pode usar o código semelhante ao exemplo de código a seguir para definir a propriedade **ServerCertificateValidationCallback** . 
+Você usa a classe **ServicePointManager** no namespace do .NET **System.net** para conectar um método de retorno de chamada de validação, definindo a propriedade **ServerCertificateValidationCallback** . Você pode usar código semelhante ao exemplo de código a seguir para definir a propriedade **ServerCertificateValidationCallback** . 
   
 ```cs
 ServicePointManager.ServerCertificateValidationCallback = CertificateValidationCallBack;
@@ -103,17 +103,17 @@ ServicePointManager.ServerCertificateValidationCallback = CertificateValidationC
 ## <a name="next-steps"></a>Próximas etapas
 <a name="bk_example"> </a>
 
-Após ter criado o método de retorno de validação para o EWS Managed API, você pode usar o serviço Descoberta automática para fazer configurações de domínio e de usuário e de pontos de conexão a partir de um servidor Exchange. Para obter mais informações, consulte os seguintes artigos:
+Depois de criar o método de retorno de chamada de validação para a API gerenciada do EWS, você pode usar o serviço de descoberta automática para obter pontos de conexão e configurações de usuário e domínio de um servidor Exchange. Para saber mais, confira os seguintes artigos:
   
-- [Usar descoberta automática para encontrar os pontos de conexão](how-to-use-autodiscover-to-find-connection-points.md)
+- [Usar a Descoberta Automática para localizar os pontos de conexão](how-to-use-autodiscover-to-find-connection-points.md)
     
-- [Obter configurações de usuário do Exchange usando a descoberta automática](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Obter as configurações de usuário do Exchange usando a Descoberta Automática](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
-- [Fazer configurações de domínio a partir de um servidor do Exchange](how-to-get-domain-settings-from-an-exchange-server.md)
+- [Obter as configurações de domínio de um servidor do Exchange](how-to-get-domain-settings-from-an-exchange-server.md)
     
 ## <a name="see-also"></a>Confira também
 
-- [Configurando seu aplicativo de EWS](setting-up-your-ews-application.md)  
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
+- [Configurando o aplicativo EWS](setting-up-your-ews-application.md)  
+- [Introdução ao uso dos serviços Web no Exchange](start-using-web-services-in-exchange.md)
     
 

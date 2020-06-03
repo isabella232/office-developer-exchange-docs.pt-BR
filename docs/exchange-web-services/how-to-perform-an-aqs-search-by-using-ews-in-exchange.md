@@ -1,115 +1,115 @@
 ---
-title: Executar uma pesquisa AQS, usando o EWS no Exchange
+title: Executar uma pesquisa do AQS usando o EWS no Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: c136901a-313e-4adf-a223-1d090d16917a
-description: Descubra como pesquisar com cadeias de caracteres de consulta e AQS na sua API gerenciada de EWS ou aplicativos do EWS.
-ms.openlocfilehash: dc859e24fa80cd5627477182979c9cc9527818d6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Descubra como Pesquisar cadeias de caracteres de consulta e AQS em sua API gerenciada do EWS ou aplicativo do EWS.
+localization_priority: Priority
+ms.openlocfilehash: 9f611a8d90c6baf0f307897735c6366c82bb63c8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750823"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455713"
 ---
-# <a name="perform-an-aqs-search-by-using-ews-in-exchange"></a>Executar uma pesquisa AQS, usando o EWS no Exchange
+# <a name="perform-an-aqs-search-by-using-ews-in-exchange"></a>Executar uma pesquisa do AQS usando o EWS no Exchange
 
-Descubra como pesquisar com cadeias de caracteres de consulta e AQS na sua API gerenciada de EWS ou aplicativos do EWS.
+Descubra como Pesquisar cadeias de caracteres de consulta e AQS em sua API gerenciada do EWS ou aplicativo do EWS.
   
-Cadeias de caracteres de consulta fornecem uma alternativa para [filtros de pesquisa](how-to-use-search-filters-with-ews-in-exchange.md) para expressar critérios de pesquisa. A maior vantagem ao uso de cadeias de caracteres de consulta é que não são necessários para especificar uma única propriedade a ser pesquisado. Você pode simplesmente fornecer um valor e a pesquisa se aplicará a todos os campos comumente usados nos itens. Você também pode refinar sua pesquisa usando a sintaxe de consulta avançada (AQS) em vez de um valor simple. No entanto, as cadeias de caracteres de consulta têm as seguintes limitações que você deve estar ciente antes de adicioná-los à sua caixa de ferramentas: 
+As cadeias de caracteres de consulta oferecem uma alternativa aos [filtros de pesquisa](how-to-use-search-filters-with-ews-in-exchange.md) para expressar critérios de pesquisa. A maior vantagem de usar cadeias de caracteres de consulta é que você não precisa especificar uma única propriedade a Pesquisar. Você pode simplesmente fornecer um valor e a pesquisa será aplicada a todos os campos usados com frequência nos itens. Você também pode refinar sua pesquisa usando a sintaxe de consulta avançada (AQS) em vez de um valor simples. No entanto, as cadeias de caracteres de consulta têm as seguintes limitações que você deve estar ciente antes de adicioná-las à caixa de ferramentas: 
   
-- **Capacidade limitada de propriedades específicas de pesquisa.** Quando você pesquisa com um valor simple em uma cadeia de caracteres de consulta, a pesquisa é executada em relação a todas as propriedades indexadas. Você pode refinar a pesquisa às propriedades específicas, mas as propriedades disponíveis para serem usados em uma cadeia de caracteres AQS são limitadas. Se a propriedade que você deseja pesquisar não for uma das propriedades disponíveis para AQS, considere o uso de um filtro de pesquisa. 
+- **Capacidade limitada de Pesquisar propriedades específicas.** Quando você pesquisa com um valor simples em uma cadeia de caracteres de consulta, a pesquisa é executada em todas as propriedades indexadas. Você pode refinar sua pesquisa a propriedades específicas, mas as propriedades disponíveis para uso em uma cadeia de caracteres AQS são limitadas. Se a propriedade que você deseja Pesquisar não é uma das propriedades que estão disponíveis para o AQS, considere usar um filtro de pesquisa. 
     
-- **Propriedades personalizadas não são pesquisadas.** As pesquisas de cadeia de caracteres de consulta são executadas em relação a um índice e propriedades personalizadas não são incluídas no índice. Se você precisar propriedades personalizadas de pesquisa, use um filtro de pesquisa. 
+- **Propriedades personalizadas não são pesquisadas.** Pesquisas de cadeia de caracteres de consulta são realizadas em um índice e as propriedades personalizadas não são incluídas nesse índice. Se você precisar pesquisar Propriedades personalizadas, use um filtro de pesquisa. 
     
-- **Controle limitado cadeia de caracteres de pesquisa.** As pesquisas de cadeia de caracteres de consulta sempre Ignorar maiusculas e minúsculas e são sempre pesquisas de subsequência. Se você deseja fazer diferencia maiusculas de minúsculas, o prefixo ou pesquisas de correspondência exata, usam um filtro de pesquisa. 
+- **Controle limitado para pesquisas de cadeia de caracteres.** Pesquisas de cadeia de caracteres de consulta sempre ignoram maiúsculas e são sempre subcadeias de pesquisa. Se você deseja fazer pesquisas de diferenciação de maiúsculas e minúsculas, prefixo ou correspondência exata, use um filtro de pesquisa. 
     
-- **Não disponível para pastas ou pastas de pesquisa.** As operações de EWS para a procura de pastas não suportam o uso uma cadeia de caracteres de consulta. Além disso, as pastas de pesquisa não oferecem suporte a cadeias de caracteres de consulta. Em ambos os casos, um filtro de pesquisa é a única opção. 
+- **Não disponível para pastas ou pastas de pesquisa.** As operações do EWS para pesquisa de pastas não são compatíveis com o uso de uma cadeia de caracteres de consulta. Além disso, as pastas de pesquisa não dão suporte a sequências de consulta. Em ambos os casos, um filtro de pesquisa é sua única opção. 
     
-## <a name="creating-a-query-string"></a>Criando uma cadeia de caracteres de consulta
+## <a name="creating-a-query-string"></a>Criar uma cadeia de caracteres de consulta
 <a name="bk_CreateQueryString"> </a>
 
-Cadeias de caracteres de consulta na API gerenciada de EWS e EWS são interpretadas como um subconjunto da sintaxe AQS. Cadeias de caracteres AQS são compostas de valores ou pares de palavra-chave/valor, separados por dois pontos (:).
+As cadeias de caracteres de consulta na API gerenciada do EWS e no EWS são interpretadas como um subconjunto da sintaxe AQS. As cadeias de caracteres AQS são compostas de valores ou pares de palavra-chave/valor, separados por dois-pontos (:).
   
 `keyword:value`
 
-Quando um valor for especificado, sem uma palavra-chave, todas as propriedades indexadas são pesquisadas para o valor. Se uma palavra-chave é emparelhada com um valor, a palavra-chave especifica uma propriedade para procurar o valor correspondente.
+Quando um valor é especificado sem uma palavra-chave, todas as propriedades indexadas são pesquisadas quanto ao valor. Se uma palavra-chave estiver emparelhada com um valor, a palavra-chave especificará uma propriedade para pesquisar o valor correspondente.
   
-**Tabela 1. Palavras-chave AQS com suporte**
+**Tabela 1. Palavras-chave AQS suportadas**
 
-|**Palavra-chave**|**Value type**|**Exemplo**|
+|**Chaves**|**Value type**|**Exemplo**|
 |:-----|:-----|:-----|
-|subject  <br/> |String  <br/> |Assunto: project  <br/> |
-|body  <br/> |String  <br/> |ilustrações de sales de corpo:  <br/> |
-|anexo  <br/> |String  <br/> |anexo: relatório  <br/> |
+|subject  <br/> |String  <br/> |Assunto: projeto  <br/> |
+|corpo  <br/> |String  <br/> |corpo: números de vendas  <br/> |
+|anexo  <br/> |String  <br/> |Anexo: relatório  <br/> |
 |para  <br/> |String  <br/> |para: "Sadie Daniels"  <br/> |
-|from  <br/> |String  <br/> |de:, esperamos  <br/> |
-|cc  <br/> |String  <br/> |cc: "Ronnie Sturgis"  <br/> |
-|bcc  <br/> |String  <br/> |BCC:mack  <br/> |
-|participantes  <br/> |String  <br/> |participantes: sadie  <br/> |
-|Ferramentas para desenvolvedores  <br/> |Cadeia de caracteres  <br/> |projeto de categoria:  <br/> |
-|importance  <br/> |String  <br/> |importância: alta  <br/> |
-|tipo  <br/> |Tipo de item  <br/> |reuniões do tipo:  <br/> |
-|enviado  <br/> |Data  <br/> |enviados: 12/10/2013  <br/> |
-|recebido  <br/> |Data  <br/> |recebidos: ontem  <br/> |
-|hasattachment  <br/> |Booliano  <br/> |Tem anexo: true  <br/> |
-|está sinalizado  <br/> |Booliano  <br/> |isflagged:True  <br/> |
-|foi lido  <br/> |Booliano  <br/> |isread:False  <br/> |
-|size  <br/> |Número  <br/> |Tamanho:\>5000  <br/> |
+|from  <br/> |String  <br/> |de: Espero  <br/> |
+|cc  <br/> |String  <br/> |CC: "Ronnie Sturgis"  <br/> |
+|bcc  <br/> |String  <br/> |CCO: Mack  <br/> |
+|participants  <br/> |String  <br/> |participantes: Sadie  <br/> |
+|category  <br/> |String  <br/> |Categoria: projeto  <br/> |
+|importance  <br/> |String  <br/> |prioridade: alta  <br/> |
+|Tipo  <br/> |Tipo de item  <br/> |tipo: reuniões  <br/> |
+|enviado  <br/> |Data  <br/> |enviado: 12/10/2013  <br/> |
+|recebido  <br/> |Data  <br/> |recebido: ontem  <br/> |
+|HasAttachment  <br/> |Booliano  <br/> |Tem anexo: true  <br/> |
+|issinalizado  <br/> |Booliano  <br/> |issinalizado: true  <br/> |
+|IsRead  <br/> |Booliano  <br/> |IsRead: false  <br/> |
+|size  <br/> |Número  <br/> |Tamanho: \> 5000  <br/> |
    
-Vamos dar uma olhada em como os tipos de valores diferentes funcionam.
+Vamos dar uma olhada em como os diferentes tipos de valor funcionam.
   
 ### <a name="using-a-string-value-type"></a>Usando um tipo de valor de cadeia de caracteres
 
-Tipos de valores de cadeia de caracteres são por padrão pesquisada como pesquisas de subcadeia de caracteres de prefixo que não diferenciam maiusculas de minúsculas. Isso significa que procurando por assunto: project encontraria como correspondente qualquer um dos seguintes assuntos: 
+Os tipos de valores de cadeia de caracteres são, por padrão, pesquisados como prefixo as pesquisas que não diferenciam maiúsculas de minúsculas. Isso significa que a pesquisa por assunto: Project corresponderia a qualquer um dos seguintes assuntos: 
   
-- Notas de reunião de projeto
+- Notas da reunião do projeto
     
-- Você tem os planos de projeto?
+- Você tem os planos do projeto?
     
 - Projeções de vendas de dezembro
     
-Você pode alterar a pesquisa para exigir a palavra inteira em vez de prefixos correspondentes colocando-se a cadeia de caracteres entre aspas. Procurando por assunto: "projeto" seria eliminar o valor de "Projeções de vendas de dezembro" da lista de correspondências. Observe que o valor é ainda não diferencia maiusculas de minúsculas. 
+Você pode alterar a pesquisa para exigir a palavra inteira em vez de coincidir prefixos, colocando a cadeia de caracteres entre aspas. Pesquisando o assunto: "projeto" eliminaria o valor "projeções de vendas de dezembro" da lista de correspondências. Observe que o valor ainda não diferencia maiúsculas de minúsculas. 
   
-Se você usar várias palavras em uma cadeia de caracteres de consulta, uma correspondência requer que ambas as palavras aparecem nos campos pesquisados. Por exemplo, procurando o plano de projeto de assunto: encontraria como correspondente qualquer um dos seguintes assuntos: 
+Se você usar várias palavras em uma cadeia de caracteres de consulta, uma correspondência exigirá que ambas as palavras apareçam nos campos pesquisados. Por exemplo, a pesquisa por assunto: o plano de projeto corresponderia a qualquer um dos seguintes assuntos: 
   
 - Plano de projeto
     
-- Você tem os planos de projeto?
+- Você tem os planos do projeto?
     
-- Oriente-me o plano para nosso projeto
+- Envie-me o plano para o nosso projeto
     
-- Planejando as etapas do projeto
+- Planejar Marcos de projeto
     
-Se você colocar várias palavras entre aspas, eles são tratados como uma única frase. Procurando por assunto: "plano de projeto" encontraria como correspondente apenas o assunto "Plano de projeto" da lista anterior. 
+Se você incluir várias palavras entre aspas, elas serão tratadas como uma única frase. Pesquisando o assunto: "plano de projeto" só corresponderia ao assunto "plano do projeto" da lista anterior. 
   
 ### <a name="using-an-item-type-value-type"></a>Usando um tipo de valor de tipo de item
 
-Você pode usar os seguintes valores de tipo de item com a palavra-chave de **tipo** para limitar os resultados de pesquisa a apenas um tipo específico de item, como email ou solicitações de reunião: 
+Você pode usar os seguintes valores de tipo de item com a palavra-chave **Kind** para limitar os resultados da pesquisa a apenas um tipo específico de item, como email ou solicitações de reunião: 
   
-- contatos    
-- documentos    
+- contacts    
+- docs    
 - email    
-- aparelhos de fax    
-- IM (corresponde a mensagens instantâneas)    
+- fax    
+- im (corresponde a mensagens instantâneas)    
 - diários    
-- reuniões (corresponde à compromissos e solicitações de reunião)    
-- Observações    
+- reuniões (corresponde a compromissos e solicitações de reunião)    
+- notes    
 - postagens    
 - rssfeeds    
 - tarefas    
-- caixa postal
+- postal
     
 ### <a name="using-a-date-value-type"></a>Usando um tipo de valor de data
 
-Você pode pesquisar os tipos de valores de data em um número de formas diferentes. É o mais simples para procurar uma data específica. Pesquisando com recebidos: 12/11/2013 retornará todos os itens recebidos em 11 de dezembro de 2013. No entanto, você também pode ser menos específico. Pesquisando com recebidos: 12/11 retornará todos os itens recebidos em 11 de dezembro do ano atual. 
+Você pode Pesquisar tipos de valor de data de várias maneiras diferentes. O mais simples é Pesquisar uma data específica. Pesquisa com recebido: 12/11/2013 retornará todos os itens recebidos em 11 de dezembro de 2013. No entanto, você também pode ser menos específico. Pesquisa com recebido: 12/11 retornará todos os itens recebidos em 11 de dezembro do ano atual. 
   
-Outra opção é usar os nomes dos meses. Você pode pesquisar com recebidos: 11 de dezembro de 2013 ou em 11 de dezembro para obter os mesmos resultados como recebido: 12/11/2013 e recebidos: 12/11, respectivamente. Você também pode pesquisar com recebidos: dezembro para obter todos os itens recebidos no mês de dezembro, no ano atual. 
+Outra opção é usar os nomes dos meses. Você pode pesquisar com recebido: 11 de dezembro de 2013 ou dezembro 11 para obter os mesmos resultados recebidos: 12/11/2013 e recebidos: 12/11, respectivamente. Você também pode pesquisar com recebido: dezembro para obter todos os itens recebidos no mês de dezembro, no ano atual. 
   
-Também é uma opção usando os nomes dos dias da semana. Pesquisando com recebidos: terça-feira retornará todos os itens recebidos na terça-feira da semana atual. 
+O uso dos nomes dos dias da semana também é uma opção. Pesquisa com recebido: terça-feira retornará todos os itens recebidos na terça-feira da semana atual. 
   
-Tipos de valores de data também suportam um conjunto de palavras-chave para pesquisas em relação a hora atual. Há suporte para as seguintes palavras-chave:
+Os tipos de valores de data também oferecem suporte a um conjunto de palavras-chave para pesquisas em relação à hora atual. Há suporte para as seguintes palavras-chave:
   
 - hoje  
 - tomorrow
@@ -120,46 +120,46 @@ Tipos de valores de data também suportam um conjunto de palavras-chave para pes
 - mês passado    
 - próximo ano
     
-Tipos de valores de data também podem ser comparados com os operadores relacionais como maior ou menor que, ou especificado como um intervalo com o operador de intervalo **.**. Por exemplo, recebido:\>30/11/2013, enviados:\>= ontem, e received:12/1/2013..today são todas as cadeias de caracteres de consulta válido. 
+Os tipos de valor de data também podem ser comparados com operadores relacionais, como maior ou menor que, ou especificados como um intervalo com o operador de intervalo **..**. Por exemplo, recebido: \> 11/30/2013, enviado: \> = ontem e recebido: 12/1/2013.. hoje são todas as cadeias de caracteres de consulta válidas. 
   
-### <a name="using-a-boolean-value-type"></a>Usando um tipo de valor booleano
+### <a name="using-a-boolean-value-type"></a>Usando um tipo de valor Boolean
 
-Tipos de valor booleano podem ser "verdadeiro" ou "falso". Os valores não diferenciam maiusculas de minúsculas, portanto isread:false produzirá os mesmos resultados que isread:FALSE.
+Os tipos de valor Boolean podem ser "true" ou "false". Os valores não diferenciam maiúsculas de minúsculas, portanto, IsRead: false produzirá os mesmos resultados que IsRead: FALSE.
   
 ### <a name="using-a-number-value-type"></a>Usando um tipo de valor de número
 
-Tipos de valor de número podem ser pesquisados como correspondências exatas, mas eles também podem ser pesquisados usando operadores relacionais como maior ou menor que. Por exemplo, tamanho: 10000 retornará apenas os itens que tenham um tamanho de exatamente 10000 bytes, mas tamanho:\>= 10000 retornará os itens que tenham um tamanho maior ou igual a 10000 bytes. Você também pode especificar um intervalo usando o operador de intervalo ( **.**). Por exemplo, tamanho: 7000..8000 retornará os itens que tenham um tamanho entre 7000 e 8000. 
+Os tipos de valor numérico podem ser pesquisados como correspondências exatas, mas também podem ser pesquisados usando operadores relacionais, como maior ou menor que. Por exemplo, tamanho: 10000 retornará apenas os itens que têm um tamanho de exatamente 10000 bytes, mas tamanho: \> = 10000 retornará itens com um tamanho maior ou igual a 10000 bytes. Você também pode especificar um intervalo usando o operador de intervalo ( **..**). Por exemplo, tamanho: 7000.. 8000 retornará itens que têm um tamanho entre 7000 e 8000. 
   
 ### <a name="using-logical-operators"></a>Usando operadores lógicos
 
-Cadeias de caracteres de consulta suportam os seguintes operadores lógicos.
+As cadeias de caracteres de consulta dão suporte aos seguintes operadores lógicos.
   
-**Tabela 2. Suporte para os operadores lógicos**
+**Tabela 2. Operadores lógicos suportados**
 
-|**Operador**|**Exemplos**|
+|**Operator**|**Exemplos**|
 |:-----|:-----|
-|E  <br/> |projeto e de: "Sadie Daniels"  <br/> Assunto:(project AND plan)  <br/> |
-|OU  <br/> |Assunto: reunião ou de: "Espero bruta"  <br/> de: ("Sadie Daniels" ou "Valor bruto, esperamos")  <br/> |
-|NÃO  <br/> |NÃO de: "Ronnie Sturgis"  <br/> recebidos: não hoje  <br/> |
+|E  <br/> |Project e de: "Sadie Daniels"  <br/> Assunto: (projeto e plano)  <br/> |
+|OU  <br/> |Assunto: reunião ou de: "Espero bruto"  <br/> de:("Sadie Daniels" ou "esperança bruto")  <br/> |
+|NÃO  <br/> |Não de: "Ronnie Sturgis"  <br/> recebido: não hoje  <br/> |
    
-Observe que você pode usar esses operadores para unir vários critérios ou unir vários valores dentro de um par de palavra-chave/valor único. No entanto, ao unir vários valores em um par de palavra-chave/valor único, você deve usar parênteses para delimitar vários valores. Para entender o porquê, considere a pesquisa com a partir de: "Sadie Daniels" ou "Espero bruto". Na verdade, essa pesquisa será interpretada como os seguintes critérios:
+Observe que você pode usar esses operadores para participar de vários critérios juntos ou para unir vários valores em um único par de palavra-chave/valor juntos. No entanto, ao unir vários valores em um único par de palavra-chave/valor, você deve usar parênteses para incluir os vários valores. Para entender por que, considere Pesquisar de: "Sadie Daniels" ou "esperança bruto". Na verdade, essa pesquisa é interpretada como o seguinte critério:
   
-- O item é de Sadie Daniels, OR
+- O item é de Sadie Daniels ou
     
-- O item tem a frase "Espero bruta" em qualquer uma das suas propriedades indexadas.
+- O item tem a frase "Espero bruto" em qualquer uma das propriedades indexadas.
     
-Por outro lado, a partir: ("Sadie Daniels" ou "Espero bruta") será interpretada como: 
+Por outro lado, de:("Sadie Daniels" ou "Espero bruto") é interpretado como: 
   
-- O item é de Sadie Daniels, OR
+- O item é de Sadie Daniels ou
     
-- O item é de espero bruta
+- O item é de esperança bruto
     
-O operador padrão quando vários critérios são especificados, mas nenhum operador lógico é incluído é and. Por exemplo, tem anexo: true assunto: project é equivalente à tem: anexo: true e assunto: project.
+O operador padrão quando vários critérios são especificados, mas nenhum operador lógico está incluído é e. Por exemplo, tem anexo: verdadeiro assunto: o projeto é equivalente a: Attachment: true e subject: Project.
   
-## <a name="example-find-items-by-using-a-query-string-and-the-ews-managed-api"></a>Exemplo: Localizar itens usando uma cadeia de caracteres de consulta e a API gerenciada de EWS
+## <a name="example-find-items-by-using-a-query-string-and-the-ews-managed-api"></a>Exemplo: localizar itens usando uma cadeia de caracteres de consulta e a API gerenciada do EWS
 <a name="bk_ExampleEWSMA"> </a>
 
-Neste exemplo, um método chamado **SearchWithQueryString** é definido. Que leva a um objeto [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , um objeto [WellKnownFolderName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) e um objeto de **cadeia de caracteres** que representa a cadeia de caracteres de consulta como parâmetros. Este exemplo pressupõe que o objeto **ExchangeService** foi inicializado com valores válidos nas propriedades [credenciais](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) e [Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . 
+Neste exemplo, um método chamado **SearchWithQueryString** é definido. Ele usa um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , um objeto [WellKnownFolderName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) e um objeto **String** que representa a cadeia de caracteres de consulta como parâmetros. Este exemplo pressupõe que o objeto **ExchangeService** tenha sido inicializado com valores válidos nas propriedades de [credenciais](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) e [URL](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -201,24 +201,24 @@ static void SearchWithQueryString(ExchangeService service, WellKnownFolderName f
 }
 ```
 
-Você pode usar esse método para procurar todos os itens com a frase "plano de projeto" no assunto, conforme mostrado neste exemplo.
+Você pode usar esse método para pesquisar todos os itens com a frase "plano de projeto" no assunto, conforme mostrado neste exemplo.
   
 ```cs
 string queryString = "subject:\"project plan\"";
 SearchWithQueryString(service, WellKnownFolderName.Inbox, queryString);
 ```
 
-## <a name="example-find-items-by-using-a-query-string-and-ews"></a>Exemplo: Localizar itens usando uma cadeia de caracteres de consulta e o EWS
+## <a name="example-find-items-by-using-a-query-string-and-ews"></a>Exemplo: localizar itens usando uma cadeia de caracteres de consulta e EWS
 <a name="bk_ExampleEWS"> </a>
 
-Neste exemplo, uma solicitação SOAP [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) localiza todos os itens na caixa de entrada com a frase "plano de projeto" no assunto. 
+Neste exemplo, uma solicitação SOAP [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) localiza todos os itens na caixa de entrada com a frase "plano do projeto" no assunto. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -253,16 +253,16 @@ O exemplo a seguir mostra a resposta do servidor com os resultados da pesquisa.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -287,9 +287,9 @@ O exemplo a seguir mostra a resposta do servidor com os resultados da pesquisa.
 
 ## <a name="see-also"></a>Confira também
 
-- [Pesquisa e EWS no Exchange](search-and-ews-in-exchange.md)    
-- [Use os filtros de pesquisa com o EWS no Exchange](how-to-use-search-filters-with-ews-in-exchange.md)    
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
-- [Operação FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [Pesquisar e EWS no Exchange](search-and-ews-in-exchange.md)    
+- [Usar filtros de pesquisa com o EWS no Exchange](how-to-use-search-filters-with-ews-in-exchange.md)    
+- [ExchangeService. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
+- [Operação FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 

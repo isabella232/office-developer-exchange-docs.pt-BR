@@ -3,55 +3,55 @@ title: Exportar itens usando o EWS no Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: e93ee68c-e134-4469-9070-fba404d46cb4
-description: Saiba como exportar compromissos, emails, contatos, tarefas e outros itens usando a API gerenciada de EWS ou EWS no Exchange.
-ms.openlocfilehash: 65b5b2ef1eba66877d5b6f6c3d4237a26a254196
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Saiba como exportar compromissos, emails, contatos, tarefas e outros itens usando a API gerenciada do EWS ou o EWS no Exchange.
+localization_priority: Priority
+ms.openlocfilehash: a01c9487821958b06ec162f2aee27e2d2804eaaf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750720"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455881"
 ---
 # <a name="export-items-by-using-ews-in-exchange"></a>Exportar itens usando o EWS no Exchange
 
-Saiba como exportar compromissos, emails, contatos, tarefas e outros itens usando a API gerenciada de EWS ou EWS no Exchange.
+Saiba como exportar compromissos, emails, contatos, tarefas e outros itens usando a API gerenciada do EWS ou o EWS no Exchange.
   
-Você pode exportar itens do Exchange usando a API gerenciada de EWS ou EWS em um número de formas diferentes. A opção que você usar depende de:
+Você pode exportar itens do Exchange usando a API gerenciada do EWS ou o EWS de várias maneiras diferentes. A opção que você usa depende:
   
-- O tipo de item que será exportado.
+- O tipo de item que é exportado.
     
-- O grau de fidelidade que deseja manter entre o estado de item no Exchange e o item exportado.
+- O grau de fidelidade que você deseja manter entre o estado do item no Exchange e o item exportado.
     
 - O formato do item exportado.
     
-- Quaisquer requisitos de pós-processamento.
+- Todos os requisitos de pós-processamento.
     
 - Se você deseja importar o item de volta para o Exchange.
     
-Este artigo mostra como usar cada uma das opções diferentes para exportar itens. Você pode usar qualquer opção para exportar itens do Exchange de lote.
+Este artigo mostra como usar cada uma das diferentes opções para exportar itens. Você pode usar qualquer opção para exportar itens em lotes do Exchange.
   
-## <a name="export-an-item-into-a-custom-format"></a>Exportar um item em um formato personalizado
+## <a name="export-an-item-into-a-custom-format"></a>Exportar um item para um formato personalizado
 <a name="bk_exportcustom"> </a>
 
-Você pode usar os resultados de uma chamada de método de API gerenciada de EWS [Item.Bind](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getewsma) ou analisar os resultados de uma operação de EWS [GetItem](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getews) em um formato que funciona com os requisitos de aplicativos. Use esta opção quando você está exportando itens para importá-los para um banco de dados, arquivos. csv, ou outro formato ou sistema. Você pode até mesmo salvar o item no formato do item EWS XML, que pode ser útil porque muitos sistemas têm a capacidade de análise de XML. Recomendamos que você use o método **Item.Bind** ou a operação de **GetItem** (sem a propriedade [Item.MimeContent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) ) porque essa opção lhe dá controle sobre quais propriedades serão exportadas. 
+Você pode usar os resultados de um [Item. vincule](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getewsma) a chamada de método de API gerenciada do EWS ou analise os resultados de uma operação do EWS do [GetItem](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getews) em um formato que funciona com seus requisitos de aplicativo. Use essa opção quando você estiver exportando itens para importá-los para um banco de dados, um arquivo. csv ou outro formato ou sistema. Você pode até mesmo salvar o item no formato do item EWS XML, que pode ser útil porque muitos sistemas têm capacidade de análise XML. Recomendamos que você use o método **Item. bind** ou a operação **GetItem** (sem a propriedade [Item. MimeContent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) ) porque essa opção dá controle sobre quais propriedades são exportadas. 
   
 ## <a name="export-items-with-full-fidelity"></a>Exportar itens com fidelidade total
 <a name="bk_exportfullfidelity"> </a>
 
-Se você deseja exportar itens com fidelidade total, você pode usar a operação de EWS [ExportItems](http://msdn.microsoft.com/library/e2846abb-0b16-4732-bbd8-038a674672f6%28Office.15%29.aspx) . A operação **ExportItems** exporta cada item como um fluxo de dados. Este fluxo de dados não é para análise, mas pode ser usado como um backup de nível de item que pode ser importado novamente para uma caixa de correio do Exchange. Você pode incluir o número de itens em cada solicitação de **ExportItems** , embora seja recomendável que você inclua não mais de 100 itens em cada chamada. Porque a API gerenciada de EWS não implementa a operação **ExportItems** , se você usar a API gerenciada de EWS, você precisará gravar uma rotina para enviar as solicitações da web. Opcionalmente, você pode usar o método [Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) obter metadados sobre o item para que você possa indexar e armazenar informações sobre o fluxo de dados. 
+Se você quiser exportar itens com fidelidade total, poderá usar a operação [ExportItems](https://msdn.microsoft.com/library/e2846abb-0b16-4732-bbd8-038a674672f6%28Office.15%29.aspx) do EWS. A operação **ExportItems** exporta cada item como um fluxo de dados. Esse fluxo de dados não é para análise, mas pode ser usado como um backup de nível de item que pode ser importado de volta para uma caixa de correio do Exchange. Você pode incluir muitos itens em cada solicitação **ExportItems** , embora seja recomendável que você não inclua mais de 100 itens em cada chamada. Como a API gerenciada do EWS não implementa a operação **ExportItems** , se você usar a API gerenciada do EWS, você precisará escrever uma rotina para enviar as solicitações da Web. Opcionalmente, você pode usar o método [Item. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) para obter metadados sobre o item para que você possa indexar e armazenar informações sobre o fluxo de dados. 
   
 Recomendamos que você use a operação **ExportItems** para exportar itens que você planeja importar para uma caixa de correio do Exchange. 
   
-O exemplo a seguir mostra como usar a operação **ExportItems** . Neste exemplo, o identificador do item é abreviado para fins de legibilidade. 
+O exemplo a seguir mostra como usar a operação **ExportItems** . Neste exemplo, o identificador de item é reduzido para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-      xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-      xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+      xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+      xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013"/>
   </soap:Header>
@@ -65,13 +65,13 @@ O exemplo a seguir mostra como usar a operação **ExportItems** . Neste exemplo
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **ExportItems** com um elemento [ExportItemsResponse](http://msdn.microsoft.com/library/ef44354b-fbdb-4f7c-b6bd-b27f56a1d018%28Office.15%29.aspx) que inclui um valor do elemento de [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NoError**, que indica que o item foi exportado com sucesso. A resposta também inclui a ID de item do item exportado e o fluxo de dados que contém o conteúdo exportado. O exemplo a seguir mostra o corpo SOAP que contenha o item exportado.
+O servidor responde à solicitação **ExportItems** com um elemento [ExportItemsResponse](https://msdn.microsoft.com/library/ef44354b-fbdb-4f7c-b6bd-b27f56a1d018%28Office.15%29.aspx) que inclui um valor de elemento [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, que indica que o item foi exportado com êxito. A resposta também inclui a ID do item exportado e o fluxo de dados que contém o conteúdo exportado. O exemplo a seguir mostra o corpo SOAP que contém o item exportado.
   
 ```XML
 <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <m:ExportItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  <m:ExportItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     <m:ResponseMessages>
       <m:ExportItemsResponseMessage ResponseClass="Success">
         <m:ResponseCode>NoError</m:ResponseCode>
@@ -87,15 +87,15 @@ O servidor responde à solicitação **ExportItems** com um elemento [ExportItem
 </s:Body>
 ```
 
-## <a name="use-the-mime-stream-to-export-into-common-file-formats"></a>Use o fluxo MIME para exportar em formatos de arquivo comuns
+## <a name="use-the-mime-stream-to-export-into-common-file-formats"></a>Usar o fluxo MIME para exportar para formatos de arquivo comuns
 <a name="bk_exportfullfidelity"> </a>
 
-Você pode usar o método de API gerenciada de EWS [Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) ou a operação de EWS [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) para obter uma representação de MIME de um item. Porque o Exchange não armazena o conteúdo MIME de cada item, ele deve converter uma representação de banco de dados de cada item no fluxo de MIME. Como essa conversão é dispendiosa, que não é recomendável que você solicitar o fluxo MIME para itens em grande escala. Observe também que o fluxo MIME contém um conjunto limitado de propriedades; Você pode precisar considerar outras opções, se o conjunto de propriedades não contém as propriedades que você precisa. 
+Você pode usar o método [Item. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) de API gerenciada do EWS ou a operação [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) EWS para obter uma representação MIME de um item. Como o Exchange não armazena o conteúdo MIME de cada item, ele precisa converter a representação de banco de dados de cada item no fluxo MIME. Como essa conversão é cara, não recomendamos que você solicite o fluxo MIME para itens em uma escala grande. Observe também que o fluxo MIME contém um conjunto limitado de propriedades; Você pode ter que considerar outras opções se o conjunto de propriedades não contiver as propriedades que você precisa. 
   
-### <a name="use-the-ews-managed-api-to-export-an-email-into-an-eml-and-mht-file-by-using-the-mime-stream"></a>Use a API gerenciada de EWS para exportar um email em um arquivo. eml e. mht usando o fluxo MIME
+### <a name="use-the-ews-managed-api-to-export-an-email-into-an-eml-and-mht-file-by-using-the-mime-stream"></a>Use a API gerenciada do EWS para exportar um email para um arquivo. eml e. mht usando o fluxo MIME
 <a name="bk_exportemailmime"> </a>
 
-Outlook e outros aplicativos de email comuns podem abrir o formato de arquivo EML (. eml). O exemplo a seguir mostra como você pode exportar um email usando o fluxo MIME e usa o fluxo de MIME para criar um EML e um arquivo de MIME HTML (. mht). O formato de arquivo MIME HTML suportam a vários navegadores da web. Este exemplo supõe que esse **serviço** é um objeto válido do [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) e que o usuário pode autenticar em um servidor Exchange. 
+O Outlook e outros aplicativos de email comuns podem abrir o formato de arquivo EML (. eml). O exemplo a seguir mostra como você pode exportar um email usando o fluxo MIME e usar o fluxo MIME para criar um arquivo EML e HTML (. mht). Muitos navegadores da Web oferecem suporte ao formato de arquivo MIME HTML. Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido e que o usuário pode autenticar em um servidor Exchange. 
   
 ```cs
 private static void ExportMIMEEmail(ExchangeService service)
@@ -127,12 +127,12 @@ private static void ExportMIMEEmail(ExchangeService service)
 }
 ```
 
-### <a name="use-the-ews-managed-api-to-export-an-appointment-into-an-ical-file-by-using-the-mime-stream"></a>Use a API gerenciada de EWS para exportar um compromisso em um arquivo iCal usando o fluxo MIME
+### <a name="use-the-ews-managed-api-to-export-an-appointment-into-an-ical-file-by-using-the-mime-stream"></a>Usar a API gerenciada do EWS para exportar um compromisso para um arquivo iCal usando o fluxo MIME
 <a name="bk_exporticalmime"> </a>
 
-Outlook e outros aplicativos de calendário comuns podem abrir o formato de arquivo iCalendar (. ICS). O exemplo a seguir mostra como exportar um compromisso usando-se o fluxo MIME e usa o fluxo de MIME para criar um arquivo iCal. Observe que muitas propriedades não são exportadas com o fluxo MIME, incluindo os participantes e propriedades relacionadas ao anexo. Você pode capturar outras propriedades do EWS solicitando-los e salvá-los no arquivo iCal como extensões privadas. Essas extensões privadas são prefixados com "x-". 
+O Outlook e outros aplicativos de calendário comuns podem abrir o formato de arquivo iCal (. ICS). O exemplo a seguir mostra como exportar um compromisso usando o fluxo MIME e usar o fluxo MIME para criar um arquivo iCal. Observe que muitas propriedades não são exportadas com o fluxo MIME, incluindo participantes e propriedades relacionadas a anexos. Você pode capturar outras propriedades do EWS solicitando-as e salvando-as no arquivo iCal como extensões privadas. Essas extensões privadas são prefixadas com "x-". 
   
-Este exemplo supõe que esse **serviço** é um objeto válido do [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) e que o usuário pode autenticar em um servidor Exchange. Este exemplo também pressupõe que você tenha um compromisso com o assunto "2015 financeiros projeções" na pasta de calendário. 
+Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido e que o usuário pode autenticar em um servidor Exchange. Este exemplo também pressupõe que você tenha um compromisso com o assunto "projeções financeiras 2015" na pasta calendário. 
   
 ```cs
 private static void ExportMIMEAppointment(ExchangeService service)
@@ -157,12 +157,12 @@ private static void ExportMIMEAppointment(ExchangeService service)
 }
 ```
 
-### <a name="use-the-ews-managed-api-to-export-a-contact-into-a-vcard-file-by-using-the-mime-stream"></a>Use a API gerenciada de EWS para exportar um contato em um arquivo vCard usando o fluxo MIME
+### <a name="use-the-ews-managed-api-to-export-a-contact-into-a-vcard-file-by-using-the-mime-stream"></a>Usar a API gerenciada do EWS para exportar um contato para um arquivo vCard usando o fluxo MIME
 <a name="bk_exportvcardmime"> </a>
 
-Outlook e outros aplicativos comuns de gerenciamento de contatos podem abrir o formato de arquivo vCard (. vcf). O exemplo a seguir mostra como exportar um contato usando o fluxo MIME e usa o fluxo de MIME para criar um vCard. Você pode capturar outras propriedades do EWS solicitando-los e salvá-los na. vCard como extensões privadas. Essas extensões são prefixados com "x-". 
+O Outlook e outros aplicativos de gerenciamento de contato comuns podem abrir o formato de arquivo vCard (. vcf). O exemplo a seguir mostra como exportar um contato usando o fluxo MIME e usar o fluxo MIME para criar um vCard. Você pode capturar outras propriedades do EWS solicitando-as e salvando-as no. vCard como extensões privadas. Essas extensões são prefixadas com "x-". 
   
-Este exemplo supõe que esse **serviço** é um objeto válido do [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) e que o usuário pode autenticar em um servidor Exchange. 
+Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido e que o usuário pode autenticar em um servidor Exchange. 
   
 ```cs
 private static void ExportMIMEContact(ExchangeService service)
@@ -188,19 +188,19 @@ private static void ExportMIMEContact(ExchangeService service)
 ```
 
 > [!NOTE]
-> Você não pode importar arquivos vCard usando a propriedade **MimeContent** . Você pode importar contatos usando o método de API gerenciada de EWS [Contact.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contact.save%28v=exchg.80%29.aspx) ou a operação de EWS [CreateItem](http://msdn.microsoft.com/library/417e994b-0a17-4c24-9527-04796b80b029%28Office.15%29.aspx) . 
+> Não é possível importar arquivos vCard usando a propriedade **MimeContent** . Você pode importar contatos usando o [contato. salvar](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact.save%28v=exchg.80%29.aspx) o método de API gerenciada do EWS ou a operação [CreateItem](https://msdn.microsoft.com/library/417e994b-0a17-4c24-9527-04796b80b029%28Office.15%29.aspx) do EWS. 
   
-### <a name="use-ews-to-export-any-item-by-using-the-mime-stream"></a>Use o EWS para exportar qualquer item usando o fluxo MIME
+### <a name="use-ews-to-export-any-item-by-using-the-mime-stream"></a>Usar o EWS para exportar qualquer item usando o fluxo MIME
 <a name="bk_exportewsmime"> </a>
 
-Use a operação **GetItem** para obter o fluxo MIME de um item. A solicitação de **GetItem** a seguir mostra como solicitar o conteúdo MIME de um item. 
+Use a operação **GetItem** para obter o fluxo MIME de um item. A solicitação **GetItem** a seguir mostra como solicitar o conteúdo MIME de um item. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -218,26 +218,26 @@ Use a operação **GetItem** para obter o fluxo MIME de um item. A solicitação
 </soap:Envelope>
 ```
 
-O exemplo a seguir mostra a resposta a uma solicitação para obter o fluxo MIME. O fluxo MIME foi reduzido para melhorar a legibilidade.
+O exemplo a seguir mostra a resposta a uma solicitação para obter o fluxo MIME. O fluxo MIME foi reduzido para legibilidade.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" 
                          MinorVersion="0" 
                          MajorBuildNumber="893" 
                          MinorBuildNumber="17" 
                          Version="V2_10" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -257,7 +257,7 @@ O exemplo a seguir mostra a resposta a uma solicitação para obter o fluxo MIME
 ## 
 <a name="bk_exportfullfidelity"> </a>
 
-Após exportar itens, talvez você queira [Importar itens para o Exchange](how-to-import-items-by-using-ews-in-exchange.md).
+Após exportar itens, talvez você queira [importar itens para o Exchange](how-to-import-items-by-using-ews-in-exchange.md).
   
 ## <a name="see-also"></a>Confira também
 

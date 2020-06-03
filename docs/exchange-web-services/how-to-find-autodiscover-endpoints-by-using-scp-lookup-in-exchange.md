@@ -1,84 +1,84 @@
 ---
-title: Encontrar os pontos de extremidade de descoberta automática usando pesquisa do SCP no Exchange
+title: Localizar os pontos de extremidade de Descoberta Automática usando pesquisa do SCP no Exchange
 manager: kelbow
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: b24228a8-5127-4bac-aef0-9c9e8843c9ff
-description: Descubra como localizar os objetos de descoberta automática SCP nos serviços de domínio Active Directory (AD DS) e usá-los para encontrar as URLs de ponto de extremidade de descoberta automática para usar com o serviço de descoberta automática do Exchange.
-ms.openlocfilehash: 59fd316d0aa0feea81b60c279040da018c51b47d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Descubra como localizar os objetos SCP de descoberta automática nos serviços de domínio do Active Directory (AD DS) e usá-los para localizar URLs de ponto de extremidade de descoberta automática para usar com o serviço de descoberta automática do Exchange.
+localization_priority: Priority
+ms.openlocfilehash: c0c0364a7d69364e12db902f1f22d65c4b5a0cc5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750711"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455874"
 ---
-# <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>Encontrar os pontos de extremidade de descoberta automática usando pesquisa do SCP no Exchange
+# <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>Localizar os pontos de extremidade de Descoberta Automática usando pesquisa do SCP no Exchange
 
-Descubra como localizar os objetos de descoberta automática SCP nos serviços de domínio Active Directory (AD DS) e usá-los para encontrar as URLs de ponto de extremidade de descoberta automática para usar com o serviço de descoberta automática do Exchange.
+Descubra como localizar os objetos SCP de descoberta automática nos serviços de domínio do Active Directory (AD DS) e usá-los para localizar URLs de ponto de extremidade de descoberta automática para usar com o serviço de descoberta automática do Exchange.
   
-Descoberta automática facilita recuperar as informações necessárias para conectar-se às caixas de correio em servidores do Exchange. No entanto, para usar a descoberta automática, você precisa descobrir servidores de descoberta automática que são apropriados para o usuário para que estiver recuperando configurações. Objetos de (SCP) do ponto de conexão de serviço no AD DS fornecem uma maneira fácil para clientes de domínio pesquisar outros servidores de descoberta automática. 
+A descoberta automática facilita a recuperação de informações que você precisa para se conectar às caixas de correio nos servidores do Exchange. No entanto, para usar a descoberta automática, você precisa encontrar servidores de descoberta automática apropriados para o usuário para o qual você está recuperando as configurações. Os objetos SCP (ponto de conexão de serviço) no AD DS fornecem uma maneira fácil para os clientes associados ao domínio procurarem servidores de descoberta automática. 
   
-## <a name="get-set-up-to-find-autodiscover-endpoints"></a>Configurar o para encontrar os pontos de extremidade de descoberta automática
+## <a name="get-set-up-to-find-autodiscover-endpoints"></a>Obter configuração para localizar pontos de extremidade de descoberta automática
 <a name="bk_PreReqs"> </a>
 
-Para localizar os objetos SCP de descoberta automática no AD DS, você precisa ter acesso ao seguinte:
+Para localizar objetos do SCP de descoberta automática no AD DS, você precisa ter acesso ao seguinte:
   
-- Um servidor que está executando uma versão do Exchange local começando com o Exchange 2007 SP1.
+- Um servidor que está executando uma versão do Exchange no local, começando com o Exchange 2007 SP1.
     
-- Um computador cliente que tenha ingressado no domínio em que o servidor do Exchange é instalado no.
+- Um computador cliente que ingressou no domínio em que o servidor Exchange está instalado.
     
-- Uma conta de usuário que tenha uma caixa de correio no Exchange server. 
+- Uma conta de usuário que tenha uma caixa de correio no servidor Exchange. 
     
-Além disso, antes de começar, você vai querer estar familiarizado alguns conceitos básicos. Estes são alguns recursos que você encontrará úteis.
+Além disso, antes de começar, você deve estar familiarizado com alguns conceitos básicos. Veja a seguir alguns recursos que você encontrará úteis.
   
-**Tabela 1. Artigos relacionados para localizar os pontos de extremidade de descoberta automática de objetos SCP**
+**Tabela 1. Artigos relacionados para localizar pontos de extremidade de descoberta automática a partir de objetos SCP**
 
-|**Leia este artigo**|**Para saber mais sobre...**|
+|**Leia este artigo**|**Saiba mais sobre...**|
 |:-----|:-----|
 |[Descoberta Automática do Exchange](autodiscover-for-exchange.md) <br/> |Como funciona o serviço de descoberta automática.  <br/> |
-|[Publicação com pontos de Conexão de serviço](http://msdn.microsoft.com/library/3544aa64-ecb0-48a1-ae49-05247a983842%28Office.15%29.aspx) <br/> |Como os objetos de SCP são usados para publicar dados específicos do serviço.  <br/> |
+|[Publicação com pontos de conexão de serviço](https://msdn.microsoft.com/library/3544aa64-ecb0-48a1-ae49-05247a983842%28Office.15%29.aspx) <br/> |Como os objetos SCP são usados para publicar dados específicos do serviço.  <br/> |
    
-## <a name="locate-autodiscover-scp-objects-in-ad-ds"></a>Localize objetos SCP de descoberta automática no AD DS
+## <a name="locate-autodiscover-scp-objects-in-ad-ds"></a>Localizar objetos SCP de descoberta automática no AD DS
 <a name="bk_LocateScpObjects"> </a>
 
-A primeira etapa para encontrar os pontos de extremidade de descoberta automática publicados no AD DS é localizar os objetos SCP de descoberta automática. Exchange publica dois tipos de objetos SCP para descoberta automática:
+A primeira etapa para localizar os pontos de extremidade de descoberta automática publicados no AD DS é localizar os objetos SCP de descoberta automática. O Exchange publica dois tipos de objetos SCP para descoberta automática:
   
-- **Ponteiros de SCP** — eles contêm informações que apontam para os servidores LDAP específicos que devem ser usados para localizar os objetos de descoberta automática SCP para o domínio do usuário. Ponteiros de SCP estão marcados com a seguinte GUID: FC de 8 67661d7F-4-4fa7-BFAC-E1D7794C1F68. 
+- **Ponteiros SCP** — contêm informações que apontam para servidores LDAP específicos que devem ser usados para localizar os objetos SCP de descoberta automática para o domínio do usuário. Os ponteiros SCP são marcados com o GUID seguinte: 67661d7F-8FC4-4fa7-BFAC-E1D7794C1F68. 
     
-- **URLs de SCP** — eles contêm URLs para pontos de extremidade de descoberta automática. URLs de SCP estão marcados com a seguinte GUID: 77378F46-2 66 de C-4aa9-A6A6-3E7A48B19596. 
+- **URLs de SCP** — contêm URLs para pontos de extremidade de descoberta automática. As URLs de SCP são carimbadas com o seguinte GUID: 77378F46-2C66-4aa9-A6A6-3E7A48B19596. 
     
 ### <a name="to-locate-autodiscover-scp-objects"></a>Para localizar os objetos SCP de descoberta automática
 
-1. Ler a propriedade **configurationNamingContext** da entrada DSE no AD DS para obter o caminho para o contexto de nomenclatura de configuração para o domínio raiz. Você pode fazer isso usando a classe [DirectoryEntry](http://msdn2.microsoft.com/EN-US/library/z9cddzaa) ou qualquer outra API que pode acessar o AD DS. 
+1. Leia a propriedade **configurationNamingContext** da entrada de DSE raiz no AD DS para obter o caminho para o contexto de nomenclatura de configuração para o domínio. Você pode fazer isso usando a classe [DirectoryEntry](https://msdn2.microsoft.com/library/z9cddzaa) ou qualquer outra API que possa acessar o AD DS. 
     
-2. Procurar SCP objetos no contexto de nomenclatura de configuração que tenham tanto o SCP ponteiro GUID ou o GUID da URL de SCP na propriedade **palavras-chave** . 
+2. Procure objetos SCP no contexto de nomenclatura de configuração que tenham o GUID do ponteiro SCP ou a URL do SCP na propriedade **Keywords** . 
     
-3. Verifique o SCP objetos encontrada para um ponteiro de SCP com escopo para o domínio do usuário, verificando a propriedade de **palavras-chave** para uma entrada igual a `"Domain=<domain>"`. Por exemplo, se o endereço de email do usuário for elvin@contoso.com, você faria procure um SCP ponteiro com uma entrada na propriedade **palavras-chave** for igual a `"Domain=contoso.com"`. Se for encontrado um ponteiro de SCP correspondente, descartar o conjunto de objetos SCP e recomece na etapa 1, usando o valor da propriedade **serviceBindingInformation** como o servidor para se conectar para a entrada de raiz DSE. 
+3. Verifique os objetos SCP que você encontrou para um ponteiro SCP que tem escopo para o domínio do usuário, verificando a propriedade **Keywords** de uma entrada igual a `"Domain=<domain>"` . Por exemplo, se o endereço de email do usuário for elvin@contoso.com, você procuraria um ponteiro SCP com uma entrada na propriedade **Keywords** que é igual a `"Domain=contoso.com"` . Se um ponteiro SCP correspondente for encontrado, descartar o conjunto de objetos SCP e começar novamente na etapa 1 usando o valor da propriedade **ServiceBindingInformation** como o servidor para se conectar para a entrada do DSE raiz. 
     
-4. Se você não encontrar qualquer ponteiros de SCP com escopo para o domínio do usuário, procure qualquer ponteiros de SCP que não estão no escopo para qualquer domínio e salve o valor da propriedade **serviceBindingInformation** como um servidor de "fallback", caso o servidor atual não obtiver qualquer um resultados. 
+4. Se você não encontrar nenhum apontador SCP com escopo para o domínio do usuário, verifique se há ponteiros SCP que não são do escopo para qualquer domínio e salve o valor da propriedade **ServiceBindingInformation** como um servidor de "fallback", caso o servidor atual não dê nenhum resultado. 
     
-5. Se você não encontrou qualquer ponteiros de SCP com escopo para o domínio, você estará pronto para passar para a próxima etapa: gerando uma lista de prioridades de pontos de extremidade de descoberta automática a partir de seus resultados.
+5. Se você não encontrou nenhum apontador SCP com escopo para o domínio, você está pronto para passar para a próxima etapa: gerar uma lista priorizada de pontos de extremidade de descoberta automática dos resultados.
     
-## <a name="generate-a-prioritized-list-of-autodiscover-endpoints"></a>Gerar uma lista de prioridades de pontos de extremidade de descoberta automática
+## <a name="generate-a-prioritized-list-of-autodiscover-endpoints"></a>Gerar uma lista priorizada de pontos de extremidade de descoberta automática
 <a name="bk_GenerateList"> </a>
 
-Você pode gerar uma lista de prioridades de URLs de ponto de extremidade de descoberta automática, usando o conjunto de objetos SCP que você localizou, fazendo o seguinte:
+Você pode gerar uma lista priorizada das URLs de ponto de extremidade de descoberta automática, usando o conjunto de objetos SCP que você localizou, fazendo o seguinte:
   
 1. Obtenha o nome do site do Active Directory do computador cliente.
     
-2. Verifique a propriedade **palavras-chave** em cada URL SCP no conjunto de objetos SCP encontrada e atribuir uma prioridade para a URL com base nas seguintes regras: 
+2. Verifique a propriedade **Keywords** em cada URL de SCP no conjunto de objetos SCP que você encontrou e atribua uma prioridade à URL com base nas seguintes regras: 
     
-  - Se a propriedade de **palavras-chave** contém um valor de `"Site=<site name>"`, onde `<site name>` é igual a, o nome do diretório ativo do site que você recuperada na etapa anterior, atribua o URL uma prioridade de 1. 
+  - Se a propriedade **Keywords** contiver um valor de `"Site=<site name>"` , onde `<site name>` igual ao nome do site do Active Directory que você recuperou na etapa anterior, atribua a URL a prioridade 1. 
     
-  - Se a propriedade de **palavras-chave** não contiver uma entrada com um valor que começa com `"Site="`, atribuir uma prioridade de 2 de URL. 
+  - Se a propriedade **Keywords** não contiver uma entrada com um valor que comece com `"Site="` , atribua a URL uma prioridade de 2. 
     
-  - Se a propriedade de **palavras-chave** contém um valor de `"Site=<site name>`, onde `<site name>` não igual o nome do site do Active Directory recuperado na etapa anterior, atribuir uma prioridade de 3 de URL. 
+  - Se a propriedade **Keywords** contiver um valor de `"Site=<site name>` , onde não `<site name>` é igual ao nome do site do Active Directory que você recuperou na etapa anterior, atribua a URL a prioridade 3. 
     
 ## <a name="code-example-performing-an-scp-lookup"></a>Exemplo de código: realizando uma pesquisa de SCP
 <a name="bk_CodeExample"> </a>
 
-No exemplo de código a seguir, você verá como localizar objetos SCP de descoberta automática e gerar uma lista de prioridades de pontos de extremidade de descoberta automática.
+No exemplo de código a seguir, você verá como localizar objetos do SCP de descoberta automática e gerar uma lista de prioridades de pontos de extremidade de descoberta automática.
   
 ```cs
 using System;
@@ -323,15 +323,15 @@ namespace ScpLookup
 ## <a name="next-steps"></a>Próximas etapas
 <a name="bk_NextSteps"> </a>
 
-A próxima etapa do processo de descoberta automática é enviar solicitações de descoberta automática para as URLs que você encontrou, começando com prioridade 1 URLs, e em seguida, URLs de prioridade 2 e finalmente prioridade 3. Para saber mais sobre como enviar solicitações de descoberta automática e controlar as respostas, leia os seguintes artigos:
+A próxima etapa do processo de descoberta automática é enviar solicitações de descoberta automática para as URLs que você encontrou, começando com as URLs de prioridade 1, e depois prioridade 2 URLs e, por fim, as URLs de prioridade 3. Para saber mais sobre como enviar solicitações de descoberta automática e lidar com respostas, leia os seguintes artigos:
   
-- [Obter configurações de usuário do Exchange usando a descoberta automática](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Obter as configurações de usuário do Exchange usando a Descoberta Automática](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
-- [Manipulação de mensagens de erro de descoberta automática](handling-autodiscover-error-messages.md)
+- [Manipulação de mensagens de erro de Descoberta Automática](handling-autodiscover-error-messages.md)
     
 ## <a name="see-also"></a>Confira também
 
 - [Descoberta Automática do Exchange](autodiscover-for-exchange.md)   
-- [Configurando seu aplicativo de EWS](setting-up-your-ews-application.md)
+- [Configurando o aplicativo EWS](setting-up-your-ews-application.md)
     
 

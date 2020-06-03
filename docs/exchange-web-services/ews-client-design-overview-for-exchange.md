@@ -1,103 +1,104 @@
 ---
-title: Visão geral de design de cliente do EWS do Exchange
+title: Visão geral do design de cliente do EWS para Exchange
 manager: sethgros
 ms.date: 3/11/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: b26f67aa-7c66-4d7d-98b3-746f26ab37f4
-description: Saiba mais sobre as considerações de design para o desenvolvimento com o EWS para Exchange.
-ms.openlocfilehash: 10e1c78bdd93dc5aede6e3f9337aa70b0214b770
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: Saiba mais sobre as considerações de design para desenvolvimento com o EWS para Exchange.
+localization_priority: Priority
+ms.openlocfilehash: 0ac4fe1be0800008af572ebc296e004aa29d8daf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353900"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455419"
 ---
-# <a name="ews-client-design-overview-for-exchange"></a>Visão geral de design de cliente do EWS do Exchange
+# <a name="ews-client-design-overview-for-exchange"></a>Visão geral do design de cliente do EWS para Exchange
 
-Saiba mais sobre as considerações de design para o desenvolvimento com o EWS para Exchange. 
+Saiba mais sobre as considerações de design para desenvolvimento com o EWS para Exchange. 
   
-Este artigo fornece informações gerais sobre como criar um aplicativo de serviços Web do Exchange (EWS). Você pode usar essas informações para determinar se o EWS é a API correta para o seu aplicativo, e se precisar, qual tipo de implementação de cliente que você deve usar. Este artigo também fornece informações e práticas recomendadas para projetar aplicativos que podem direcionar o Office 365, Exchange Online e versões do Exchange começando com o Exchange 2007, em uma base de código e pontos de decisão importantes para direcionamento Exchange local servidores versus direcionamento Exchange Online.
+Este artigo fornece informações gerais sobre como criar um aplicativo de serviços Web do Exchange (EWS). Você pode usar essas informações para determinar se o EWS é a API correta para seu aplicativo e, em caso afirmativo, qual tipo de implementação de cliente você deve usar. Este artigo também fornece informações de práticas recomendadas para projetar aplicativos que podem direcionar o Office 365, o Exchange Online e versões do Exchange a partir do Exchange 2007, em uma base de código e importantes pontos de decisão para direcionar servidores locais do Exchange versus direcionar o Exchange Online.
   
-## <a name="is-ews-the-right-api-for-your-application"></a>É o EWS a API correta para seu aplicativo?
+## <a name="is-ews-the-right-api-for-your-application"></a>O EWS é a API certa para seu aplicativo?
 <a name="IsEWSRight"> </a>
 
-Antes de começar a projetar seu aplicativo, é importante considerar se o EWS é a API certa para você. Se você estiver desenvolvendo contra o Exchange Server ou o Exchange Online, o EWS é a tecnologia de acesso de cliente preferencial. Desenvolvimento do acesso de cliente para versões do Exchange, começando com o Exchange 2007 tenha sido focalizado principalmente nas EWS. Nova funcionalidade de acesso de cliente que é implementada no Outlook usa o EWS, incluindo os recursos de disponibilidade e ausência temporária escritório (OOF) introduzidos no Exchange 2007 e a funcionalidade de dicas de email e salas de obter introduzidos no Exchange 2010. Isso representa um investimento confirmado no EWS para parceiros internos e externos que desenvolvem aplicativos cliente do Exchange.
+Antes de começar a criar seu aplicativo, é importante considerar se o EWS é a API correta para você. Se você estiver desenvolvendo no Exchange Server ou no Exchange Online, o EWS é a tecnologia de acesso para cliente preferencial. O desenvolvimento de acesso para cliente para versões do Exchange a partir do Exchange 2007 tem o foco principalmente no EWS. A nova funcionalidade de acesso para cliente implementada no Outlook usa o EWS, incluindo os recursos de ausência temporária (OOF) e disponibilidade introduzidos no Exchange 2007, e as funcionalidades dicas de correio e obter salas introduzidas no Exchange 2010. Isso representa um investimento confirmado no EWS para parceiros internos e externos que desenvolvem aplicativos cliente do Exchange.
   
-EWS é o acesso de cliente principal API para seus aplicativos de cliente do Exchange. No entanto, em alguns casos, você pode considerar outras APIs do Exchange para o desenvolvimento de aplicativos do cliente. Por exemplo, o Exchange ActiveSync oferece as seguintes vantagens sobre o EWS:
+O EWS é a API de acesso para cliente principal para seus aplicativos cliente do Exchange. No entanto, em alguns casos, você pode considerar outras APIs do Exchange para o desenvolvimento de aplicativos cliente. Por exemplo, o Exchange ActiveSync oferece as seguintes vantagens sobre o EWS:
   
-- A estrutura XML tiver sido tokenizada para tornar o Exchange ActiveSync um protocolo mais compacto.  
-- Exchange ActiveSync contém um mecanismo de política para controlar o acesso do cliente e fornecer outra empresarial robusta soluções móveis de mensagens.
+- A estrutura XML foi indexada para tornar o Exchange ActiveSync um protocolo mais compacto.  
+- O Exchange ActiveSync contém um mecanismo de política para controlar o acesso do cliente e fornecer outras soluções de mensagens móveis corporativas robustas.
     
 > [!NOTE]
-> Você precisa de uma licença para desenvolver clientes do Exchange ActiveSync. Para saber mais sobre as diferenças entre o Exchange ActiveSync e EWS, consulte [escolher entre o Exchange ActiveSync e serviços Web do Exchange (EWS)](http://msdn.microsoft.com/en-us/library/dn144954%28v=exchg.140%29.aspx). 
+> Você precisa de uma licença para desenvolver clientes do Exchange ActiveSync. Para saber mais sobre as diferenças entre o Exchange ActiveSync e o EWS, consulte [escolhendo entre Exchange ActiveSync e serviços Web do Exchange (EWS)](https://msdn.microsoft.com/library/dn144954%28v=exchg.140%29.aspx). 
   
-MAPI RPC sobre HTTP é outra opção de programação de aplicativos de cliente do Exchange. No entanto, MAPI RPC sobre HTTP não fornece uma interface intuitiva para a comunicação entre clientes e o servidor.
+MAPI RPC sobre HTTP é outra opção de programação para aplicativos cliente do Exchange. No entanto, MAPI RPC sobre HTTP não fornece uma interface intuitiva para comunicação entre clientes e o servidor.
   
-Para obter mais informações sobre tecnologias de desenvolvimento do Exchange, consulte a [explorar o EWS Managed API, EWS e web services no Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md).
+Para obter mais informações sobre as tecnologias de desenvolvimento do Exchange, consulte [explorar a API gerenciada do EWS, EWS e serviços Web no Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md).
   
-## <a name="options-for-ews-client-development"></a>Opções para o desenvolvimento do cliente EWS
+## <a name="options-for-ews-client-development"></a>Opções para o desenvolvimento de cliente do EWS
 <a name="EWSClientOptions"> </a>
 
-Várias opções estão disponíveis para o desenvolvimento no Exchange usando o EWS. A melhor opção para você dependerá a plataforma de desenvolvimento, ferramentas, implementações disponíveis e os requisitos de aplicativos para sua organização. A seguir estão as quatro opções principais que estão disponíveis para criação de aplicativos de cliente do EWS:
+Várias opções estão disponíveis para desenvolvimento no Exchange usando o EWS. A melhor opção para você dependerá da plataforma de desenvolvimento, das ferramentas, das implementações disponíveis e dos requisitos de aplicativo para sua organização. Veja a seguir as quatro opções principais que estão disponíveis para a criação de aplicativos clientes do EWS:
   
 - A API gerenciada do EWS
-- A API Java EWS
-- Os proxies do EWS gerada automaticamente
-- Um cliente personalizado do EWS API
+- A API Java do EWS
+- Os proxies gerados automaticamente pelo EWS
+- Uma API de cliente EWS personalizada
     
 ### <a name="ews-managed-api"></a>API Gerenciada do EWS
 
-A [API gerenciada de EWS](http://aka.ms/ews-managed-api-readme) é um cliente de serviços web personalizados. É a API de acesso de cliente padrão para aplicativos do .NET Framework. 
+A [API gerenciada do EWS](https://aka.ms/ews-managed-api-readme) é um cliente de serviço Web personalizado. É a API de acesso para cliente padrão para aplicativos do .NET Framework. 
   
-Estes são alguns dos benefícios do uso da API gerenciada de EWS:
+A seguir estão alguns dos benefícios de usar a API gerenciada do EWS:
   
 - Ele fornece um modelo de objeto intuitivo.   
-- Ele abstrai a complexidade da descrição do serviço nos arquivos de esquema e WSDL.   
-- Inclui a lógica de negócios do cliente.   
-- Ele lida com as solicitações da web e a respostas e a serialização de objeto e a desserialização.   
-- É com suporte da Microsoft.
+- Ele abstrai as complexidades da descrição do serviço nos arquivos WSDL e de esquema.   
+- Ele inclui a lógica de negócios do lado do cliente.   
+- Ele lida com as solicitações e respostas da Web e serialização e desserialização de objetos.   
+- É compatível com a Microsoft.
     
-No entanto, observe que a API gerenciada de EWS não é uma solução completa. Algumas funcionalidades podem não foi implementada o EWS Managed API. Embora a API gerenciada de EWS não implementa todas as funcionalidades do EWS, talvez seja a melhor escolha para o desenvolvimento de aplicativos do cliente, pelos seguintes motivos:
+No entanto, observe que a API gerenciada do EWS não é uma solução completa. Algumas funcionalidades não são implementadas na API gerenciada do EWS. Embora a API gerenciada do EWS não implemente toda a funcionalidade do EWS, ela pode ser a melhor opção para o desenvolvimento de aplicativos cliente, pelos seguintes motivos:
   
 - Você pode usar o .NET Framework para desenvolvimento.
-- Ele implementa a descoberta automática, além da maioria das partes do modelo de objeto do EWS.
-- Ele implementa a lógica de negócios do cliente para trabalhar com o EWS, na classe [ExchangeService](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) . 
+- Ele implementa a descoberta automática além da maioria das partes do modelo de objeto do EWS.
+- Ele implementa a lógica de negócios do lado do cliente para trabalhar com o EWS, na classe [ExchangeService](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) . 
     
-Você pode optar por usar a API do serviço web EWS, em vez do EWS Managed API para qualquer um dos seguintes motivos:
+Você pode optar por usar a API do serviço Web EWS em vez da API gerenciada do EWS por qualquer um dos seguintes motivos:
   
-- Seu aplicativo não usa o .NET Framework. 
-- Você não quer distribuir o assembly do EWS Managed API. 
-- Seu aplicativo usa os recursos que não são implementados na API gerenciada do EWS.
+- O aplicativo não usa o .NET Framework. 
+- Você não deseja distribuir o assembly da API gerenciada do EWS. 
+- Seu aplicativo usa recursos que não são implementados na API gerenciada do EWS.
     
-Para saber mais, consulte [Introdução ao aplicativos cliente do EWS Managed API](get-started-with-ews-managed-api-client-applications.md).
+Para saber mais, confira [introdução aos aplicativos clientes de API gerenciada do EWS](get-started-with-ews-managed-api-client-applications.md).
   
 > [!NOTE]
-> A API gerenciada de EWS agora está disponível como um projeto de código aberto no [GitHub](http://aka.ms/ews-managed-api-github). Você pode usar a biblioteca de código aberto: 
+> A API gerenciada do EWS já está disponível como um projeto de código-fonte aberto no [GitHub](https://aka.ms/ews-managed-api-github). É possível usar a biblioteca de software livre para: 
 > - Contribui com correções de bug e melhorias à API. 
 > - Obtenha correções e melhorias antes que estejam disponíveis em uma versão oficial.
 > - Acesse a implementação mais abrangente e atualizada da API, para usar como referência ou criar novas bibliotecas em novas plataformas. 
 > 
-> Agradecemos suas [contribuições](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) via GitHub. 
+> Agradecemos suas [contribuições](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) via github. 
   
 ### <a name="ews-java-api"></a>EWS Java API
 
-A API Java EWS é um projeto de código aberto no [GitHub](https://github.com/OfficeDev/ews-java-api) que podem ser atualizadas e estendido pela comunidade. Ele é stylistically semelhante à [API gerenciada de EWS](http://msdn.microsoft.com/en-us/library/office/jj220535%28v=exchg.80%29.aspx) e usa o EWS SOAP solicitações e respostas durante a transmissão. Embora você não puder acessar todas as [operações do EWS SOAP](http://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx) , usando a API Java EWS, com a [criação de recente](http://blogs.office.com/2014/08/28/open-sourcing-exchange-web-services-ews-java-api/) do projeto Abrir fonte, estamos observando na comunidade preencher essa lacuna. Observe que Microsoft Support, com um contrato de suporte apropriado, abordará perguntas relacionadas ao protocolo SOAP EWS, mas não a API Java EWS em si. A API Java EWS está disponível para download e comunidade contribuição no [GitHub](https://github.com/OfficeDev/ews-java-api).
-  
-### <a name="ews-autogenerated-proxies"></a>Proxies do EWS gerada automaticamente
+A API Java do EWS é um projeto de código aberto no [GitHub](https://github.com/OfficeDev/ews-java-api) que pode ser atualizado e estendido pela Comunidade. É de formalmente semelhante à [API gerenciada do EWS](https://msdn.microsoft.com/library/office/jj220535%28v=exchg.80%29.aspx) e usa solicitações e respostas do EWS SOAP em relação à conexão. Embora você não possa acessar todas as [operações do EWS SOAP](https://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx) usando a API Java do EWS, com a [criação recente](https://blogs.office.com/2014/08/28/open-sourcing-exchange-web-services-ews-java-api/) do projeto de código-fonte aberto, estamos procurando a Comunidade para preencher essa lacuna. Observe que o suporte da Microsoft, com um contrato de suporte apropriado, tratará de qualquer pergunta relacionada ao protocolo do EWS SOAP, mas não à API Java do EWS. A API Java do EWS está disponível para download e contribuição da Comunidade no [GitHub](https://github.com/OfficeDev/ews-java-api).
 
-APIs do cliente gerada automaticamente são geradas a partir do EWS WSDL e definições de esquema XML. Geradores de modelo de objeto do cliente estão disponíveis para vários idiomas. Em geral, os modelos de objeto gerada automaticamente gerenciam objeto serialização e desserialização. Eles não incluir lógica de negócios e o processo de geração automática frequentemente cria artefatos que tornam o modelo de objeto menos intuitivo usar. Suporte do Exchange abrange o XML que é enviado e recebido pelo cliente, mas não o modelo de objeto.
   
-### <a name="custom-ews-client-api"></a>Sinalizador de API do cliente EWS
+### <a name="ews-autogenerated-proxies"></a>Proxies gerados automaticamente pelo EWS
 
-Para alguns aplicativos que usam um pequeno conjunto de funcionalidades EWS, você pode criar um cliente personalizado API para se comunicar com o Exchange. Isso permite que você consumir menos recursos do sistema. Isso é útil para clientes que executam em dispositivos com restrição de memória, como clientes executando o Micro do .NET Framework.
+As APIs de cliente geradas automaticamente são geradas a partir das definições de esquema de WSDL e XML do EWS. Os geradores de modelos de objeto do cliente estão disponíveis para vários idiomas. Em geral, os modelos de objeto gerados automaticamente gerenciam a serialização e a desserialização de objetos. Eles não incluem a lógica de negócios, e o processo de geração automática geralmente cria artefatos que tornam o modelo de objeto menos intuitivo para usar. O suporte do Exchange cobre o XML que é enviado e recebido pelo cliente, mas não pelo modelo de objeto.
+  
+### <a name="custom-ews-client-api"></a>API de cliente EWS personalizada
+
+Para alguns aplicativos que usam um pequeno conjunto de funcionalidades do EWS, você pode criar uma API de cliente personalizada para se comunicar com o Exchange. Isso permite que você consuma menos recursos do sistema. Isso é útil para clientes que são executados em dispositivos restritos à memória, como clientes que executam o .NET micro Framework.
   
 ## <a name="ews-client-features"></a>Recursos do cliente EWS
 <a name="EWSFeatures"> </a>
 
-Independentemente da opção de desenvolvimento que você escolher, considere como os recursos do EWS são implementados no seu cliente. Disponibilidade de recurso baseia-se na versão do esquema de EWS que suas metas de aplicativo. Como os esquemas EWS são e encaminhar-compatível, se você criar um aplicativo que se destina a uma versão anterior do esquema, como o Exchange Server 2007 SP1, seu aplicativo também funcionará em relação a uma versão posterior do esquema, como o Exchange Server 2013 SP1 serviço, bem como o Exchange Online. 
+Independentemente da opção de desenvolvimento escolhida, você deve considerar como os recursos do EWS são implementados no cliente. A disponibilidade de recursos é baseada na versão do esquema do EWS que seu aplicativo direciona. Como os esquemas do EWS são compatíveis com versões anteriores e posteriores, se você criar um aplicativo que tenha como destino uma versão de esquema anterior, como o Exchange Server 2007 SP1, seu aplicativo também funcionará com uma versão de esquema posterior, como o serviço do Exchange Server 2013 SP1, bem como o Exchange Online. 
   
-Porque os recursos e as atualizações de recurso são acionadas pelo esquema, recomendamos que você use a base de código comum primeira voltado para os recursos do EWS que você deseja implementar no seu aplicativo cliente. Muitos aplicativos podem direcionar a versão Exchange2007_SP1, porque o esquema do Exchange 2007 SP1 contém quase todas a funcionalidade básica do Exchange para trabalhar com itens e pastas do Exchange Store. Recomendamos que você mantenha bifurcações de código para cada versão de esquema do EWS. Estas são as versões de esquema que estão disponíveis no momento. 
+Como recursos e atualizações de recurso são orientados pelo esquema, recomendamos que você use a base de código comum mais antiga que direciona os recursos do EWS que você deseja implementar no seu aplicativo cliente. Muitos aplicativos podem se concentrar na versão do Exchange2007_SP1, porque o esquema do Exchange 2007 SP1 contém quase todas as funcionalidades principais do Exchange para trabalhar com itens e pastas no repositório do Exchange. Recomendamos que você mantenha as bifurcações de código para cada versão do esquema do EWS. Veja a seguir as versões de esquema que estão disponíveis no momento. 
   
 ```XML
   <xs:simpleType name="ExchangeVersionType">
@@ -113,25 +114,25 @@ Porque os recursos e as atualizações de recurso são acionadas pelo esquema, r
   </xs:simpleType>
 ```
 
-As versões de esquema são mantidas no tipo **ExchangeVersionType** simple. 
+As versões do esquema são mantidas no tipo simples **ExchangeVersionType** . 
   
-Para obter informações sobre os recursos que estão disponíveis em cada versão de esquema do EWS, consulte [versões de esquema do EWS no Exchange](ews-schema-versions-in-exchange.md).
+Para obter informações sobre os recursos disponíveis em cada versão do esquema do EWS, consulte [EWS Schema Versions in Exchange](ews-schema-versions-in-exchange.md).
   
 ## <a name="in-this-section"></a>Nesta seção
 <a name="bk_inthissection"> </a>
 
-- [Disponibilidade de recursos do Web service API no Exchange e a API gerenciada de EWS](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)   
+- [Disponibilidade de recursos da API do serviço Web no Exchange e na API gerenciada do EWS](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)   
 - [Versões de esquema do EWS no Exchange](ews-schema-versions-in-exchange.md)  
-- [Opções de configuração para o EWS no Exchange](configuration-options-for-ews-in-exchange.md)  
-- [Comparar a programação de cliente do Exchange Online e do Exchange local](comparing-exchange-online-and-exchange-on-premises-client-programming.md)   
-- [EWS limitação no Exchange](ews-throttling-in-exchange.md)  
-- [Requisitos de redistribuição para a API Gerenciada do EWS](redistribution-requirements-for-the-ews-managed-api.md)  
-- [Instrumentação solicitações de clientes para o EWS e REST no Exchange](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
+- [Opções de configuração do EWS no Exchange](configuration-options-for-ews-in-exchange.md)  
+- [Comparando a programação de cliente local do Exchange Online e do Exchange](comparing-exchange-online-and-exchange-on-premises-client-programming.md)   
+- [Limitação do EWS no Exchange](ews-throttling-in-exchange.md)  
+- [Requisitos de redistribuição para a API gerenciada do EWS](redistribution-requirements-for-the-ews-managed-api.md)  
+- [Instrumentação de solicitações de cliente para EWS e REST no Exchange](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
     
 ## <a name="see-also"></a>Confira também
  
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
+- [Introdução ao uso dos serviços Web no Exchange](start-using-web-services-in-exchange.md)
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md) 
-- [Tipos de aplicativos do EWS](ews-application-types.md)
+- [Tipos de aplicativo do EWS](ews-application-types.md)
     
 

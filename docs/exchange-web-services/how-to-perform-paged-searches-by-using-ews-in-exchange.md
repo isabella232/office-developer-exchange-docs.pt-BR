@@ -1,122 +1,122 @@
 ---
-title: Realizar pesquisas paginadas utilizando o EWS no Exchange
+title: Executar pesquisas paginadas usando o EWS no Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 64ed70e4-32eb-4c25-bfc4-43d1477296e5
-description: Descubra como realizar pesquisas paginadas em sua API gerenciada de EWS ou aplicativos do EWS que tem como destino o Exchange.
-ms.openlocfilehash: 3f82f46d0582b0b7ff8be63de8a7054b5f3cacab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Descubra como realizar pesquisas paginadas em sua API gerenciada do EWS ou aplicativo EWS que tem como alvo o Exchange.
+localization_priority: Priority
+ms.openlocfilehash: 2b608584918c936f62883b8b444d59c05c5952ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750806"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456821"
 ---
-# <a name="perform-paged-searches-by-using-ews-in-exchange"></a>Realizar pesquisas paginadas utilizando o EWS no Exchange
+# <a name="perform-paged-searches-by-using-ews-in-exchange"></a>Executar pesquisas paginadas usando o EWS no Exchange
 
-Descubra como realizar pesquisas paginadas em sua API gerenciada de EWS ou aplicativos do EWS que tem como destino o Exchange.
+Descubra como realizar pesquisas paginadas em sua API gerenciada do EWS ou aplicativo EWS que tem como alvo o Exchange.
   
-Paginação é um recurso do EWS que permite controlar o tamanho dos resultados de uma pesquisa. Em vez de recuperar o conjunto em uma resposta EWS de resultados inteiro, é possível recuperar conjuntos menores em várias respostas do EWS. Por exemplo, considere um usuário com 10.000 mensagens de email na sua caixa de entrada. Hipoteticamente, você pode recuperar todos os emails de 10.000 em uma resposta muito grande, mas talvez você queira que divida em partes mais gerenciáveis por motivos de desempenho ou a largura de banda. Paginação oferece as ferramentas necessárias para fazer isso.
+Paginação é um recurso do EWS que permite controlar o tamanho dos resultados de uma pesquisa. Em vez de recuperar todo o conjunto de resultados em uma resposta do EWS, você pode recuperar conjuntos menores em várias respostas do EWS. Por exemplo, considere um usuário com 10.000 mensagens de email na caixa de entrada. De forma hipotética, você pode recuperar todos os emails 10.000 em uma resposta muito grande, mas você pode querer desmembrar isso em partes mais gerenciáveis para fins de largura de banda ou desempenho. A paginação fornece as ferramentas para fazer exatamente isso.
   
 > [!NOTE]
-> Hipoteticamente, é possível recuperar 10.000 itens em uma solicitação, na verdade, isso é improvável devido à limitação EWS. Para obter mais informações, consulte a [limitação do EWS no Exchange](ews-throttling-in-exchange.md). 
+> Embora você possa recuperar de fato 10.000 itens em uma única solicitação, na realidade, isso é improvável devido à limitação do EWS. Para saber mais, confira [limitação do EWS no Exchange](ews-throttling-in-exchange.md). 
   
-**Tabela 1. Parâmetros de paginação na API gerenciada de EWS e EWS**
+**Tabela 1. Parâmetros de paginação na API gerenciada do EWS e EWS**
 
-|**Para definir ou recuperar o …**|**Na API gerenciada do EWS, use …**|**No EWS, use …**|
+|**Para configurar ou recuperar o...**|**Na API gerenciada do EWS, use...**|**Em EWS, use...**|
 |:-----|:-----|:-----|
-|Número máximo de itens ou pastas em uma resposta  <br/> |O parâmetro **pageSize** para o [Construtor de ItemView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview.itemview%28v=exchg.80%29.aspx) ou o [Construtor de FolderView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview.folderview%28v=exchg.80%29.aspx) <br/> Or  <br/> A propriedade [PagedView.PageSize](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pagedview.pagesize%28v=exchg.80%29.aspx)  <br/> |O atributo **MaxEntriesReturned** no elemento [IndexedPageItemView](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) ou o elemento [IndexedPageFolderView](http://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx)  <br/> |
-|Ponto de partida na lista de itens ou pastas  <br/> |O parâmetro **offsetBasePoint** para o construtor de **ItemView** ou o construtor de **FolderView**  <br/> Or  <br/> A propriedade [PagedView.OffsetBasePoint](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pagedview.offsetbasepoint%28v=exchg.80%29.aspx)  <br/> |O atributo de **ponto de base** no elemento **IndexedPageItemView** ou o elemento **IndexedPageFolderView**  <br/> |
-|Deslocamento a partir do ponto de partida  <br/> |O parâmetro de **deslocamento** para o construtor de **ItemView** ou o construtor de **FolderView**  <br/> Or  <br/> A propriedade [PagedView.Offset](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pagedview.offset%28v=exchg.80%29.aspx)  <br/> |O atributo **deslocamento** no elemento **IndexedPageItemView** ou o elemento **IndexedPageFolderView**  <br/> |
-|Número total de resultados no servidor  <br/> |A propriedade [FindItemsResults.TotalCount](http://msdn.microsoft.com/en-us/library/dd635348%28v=exchg.80%29.aspx) ou a propriedade [FindFoldersResults.TotalCount](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults.totalcount%28v=exchg.80%29.aspx)  <br/> |O atributo **TotalItemsInView** no elemento [RootFolder (FindItemResponseMessage)](http://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx) ou o elemento [RootFolder (FindFolderResponseMessage)](http://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx)  <br/> |
-|Deslocamento do primeiro item ou pasta não incluído na resposta atual  <br/> |A propriedade [FindItemsResults.NextPageOffset](http://msdn.microsoft.com/en-us/library/ee693014%28v=exchg.80%29.aspx) ou a propriedade [FindFoldersResults.NextPageOffset](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults.nextpageoffset%28v=exchg.80%29.aspx)  <br/> |O atributo **IndexedPagingOffset** no elemento **RootFolder**  <br/> |
-|Indicador que a resposta inclui o último item ou a pasta na lista  <br/> |A propriedade [FindItemsResults.MoreAvailable](http://msdn.microsoft.com/en-us/library/dd635477%28v=exchg.80%29.aspx) ou a propriedade [FindFoldersResults.MoreAvailable](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults.moreavailable%28v=exchg.80%29.aspx)  <br/> |O atributo **IncludesLastItemInRange** no elemento **RootFolder**  <br/> |
+|Número máximo de itens ou pastas em uma resposta  <br/> |O parâmetro **PageSize** para o [Construtor de AllViews](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemview.itemview%28v=exchg.80%29.aspx) ou o [Construtor folderview](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderview.folderview%28v=exchg.80%29.aspx) <br/> Ou  <br/> A propriedade [PagedView. PageSize](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pagedview.pagesize%28v=exchg.80%29.aspx)  <br/> |O atributo **MaxEntriesReturned** no elemento [IndexedPageItemView](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) ou no elemento [IndexedPageFolderView](https://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx)  <br/> |
+|Ponto de partida na lista de itens ou pastas  <br/> |O parâmetro **offsetBasePoint** para o construtor **AllViews** ou o construtor **folderview**  <br/> Ou  <br/> A propriedade [PagedView. OffsetBasePoint](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pagedview.offsetbasepoint%28v=exchg.80%29.aspx)  <br/> |O atributo **BasePoint** no elemento **IndexedPageItemView** ou no elemento **IndexedPageFolderView**  <br/> |
+|Deslocamento a partir do ponto de partida  <br/> |O parâmetro **offset** para o construtor de **AllViews** ou o construtor **folderview**  <br/> Ou  <br/> A propriedade [PagedView. Offset](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pagedview.offset%28v=exchg.80%29.aspx)  <br/> |O atributo **offset** no elemento **IndexedPageItemView** ou o elemento **IndexedPageFolderView**  <br/> |
+|Número total de resultados no servidor  <br/> |A propriedade [FindItemsResults. TotalCount](https://msdn.microsoft.com/library/dd635348%28v=exchg.80%29.aspx) ou a propriedade [FindFoldersResults. TotalCount](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults.totalcount%28v=exchg.80%29.aspx)  <br/> |O atributo **TotalItemsInView** no elemento [RootFolder (FindItemResponseMessage)](https://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx) ou no elemento [RootFolder (FindFolderResponseMessage)](https://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx)  <br/> |
+|Deslocamento do primeiro item ou pasta não incluído na resposta atual  <br/> |A propriedade [FindItemsResults. NextPageOffset](https://msdn.microsoft.com/library/ee693014%28v=exchg.80%29.aspx) ou a propriedade [FindFoldersResults. NextPageOffset](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults.nextpageoffset%28v=exchg.80%29.aspx)  <br/> |O atributo **IndexedPagingOffset** no elemento **RootFolder**  <br/> |
+|Indicador de que a resposta inclui o último item ou pasta na lista  <br/> |A propriedade [FindItemsResults. MoreAvailable](https://msdn.microsoft.com/library/dd635477%28v=exchg.80%29.aspx) ou a propriedade [FindFoldersResults. MoreAvailable](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults.moreavailable%28v=exchg.80%29.aspx)  <br/> |O atributo **IncludesLastItemInRange** no elemento **RootFolder**  <br/> |
    
-## <a name="how-paging-works"></a>Como funciona a paginação
+## <a name="how-paging-works"></a>Como a paginação funciona
 <a name="bk_HowPagingWorks"> </a>
 
-Para entender como funciona a paginação, é útil visualizar as mensagens em uma pasta como cartazes alinhados lado a lado em um campo fora de sua casa. Você pode ver alguns desses cartazes é através de uma janela de mágica. Você tem a capacidade de alterar o tamanho da janela (para ver cartazes é mais ou menos de uma vez) e para mover a janela (para controlar quais cartazes, você pode ver). Este manipulação da janela é paginação. 
+Para entender como a paginação funciona, é útil visualizar as mensagens em uma pasta como os murals alinhados lado a lado em um campo fora da sua casa. Você pode ver algumas dessas mensagems por meio de uma janela do Magical. Você pode alterar o tamanho da janela (para ver mais ou menos mensagens de uma vez) e mover a janela (para controlar quais mensagens você pode ver). Essa manipulação da janela é paginação. 
   
-Quando você enviar sua solicitação para o Exchange server, você pode especificar o tamanho da sua janela em termos de quantos itens para retornar. Você pode definir a posição da janela, especificando um ponto de partida um (o início da linha) ou o final da linha e um deslocamento a partir desse ponto inicial, expressado em um número de itens. O início da janela é o número de itens especificada pelo deslocamento, desde o ponto de partida.
+Ao enviar sua solicitação para o servidor do Exchange, você especifica o tamanho da janela em termos de quantos itens serão retornados. Você define a posição da janela especificando um ponto de partida (o início da linha ou o final da linha) e um deslocamento a partir desse ponto inicial, expresso em um número de itens. O início da janela é o número de itens especificados pelo deslocamento a partir do ponto inicial.
   
-Onde paginação obtém um pouco mais interessante está na resposta do servidor, e como o seu aplicativo pode usar essa resposta para sua próxima solicitação de forma. O servidor fornece três partes de informações que você pode usar para determinar como configurar seu "janela" para sua próxima solicitação: 
+Onde a paginação fica um pouco mais interessante é na resposta do servidor e como seu aplicativo pode usar essa resposta para forma sua próxima solicitação. O servidor fornece três informações que você pode usar para determinar como configurar sua "janela" para sua próxima solicitação: 
   
-- Se os resultados na resposta incluir o último item geral conjunto de resultados no servidor.
+- Se os resultados na resposta incluem o último item no conjunto de resultados geral no servidor.
     
-- O número total de itens no resultado definido no servidor.
+- O número total de itens no conjunto de resultados no servidor.
     
-- O que o valor de deslocamento próximo deve ser, se você deseja avançar sua janela para o próximo item no conjunto de resultados que não esteja incluído na resposta atual.
+- Qual será o próximo valor de deslocamento, se você quiser avançar a janela para o próximo item no conjunto de resultados que não está incluído na resposta atual.
     
-Vamos ver um exemplo simples. Imagine uma caixa de entrada com 15 mensagens dela. Seu aplicativo envia uma solicitação inicial para recuperar um máximo de 10 itens, desde o início da lista de mensagens (para que o deslocamento for zero). O servidor responde com as mensagens de 10 primeiros e indica que a resposta não incluir o último item, que não há um total de 15 itens e que o próximo deslocamento deve ser 10.
+Vamos dar uma olhada em um exemplo simples. Imagine uma caixa de entrada com 15 mensagens. O aplicativo envia uma solicitação inicial para recuperar um máximo de 10 itens, começando no início da lista de mensagens (de modo que o deslocamento seja zero). O servidor responde com as 10 primeiras mensagens e indica que a resposta não inclui o último item, que há um total de 15 itens e que o próximo deslocamento deve ser 10.
   
-**Figura 1. Solicitando 10 itens em deslocamento 0 desde o início de uma lista de 15 itens**
+**Figura 1. Solicitar 10 itens no deslocamento 0 do início de uma lista de 15 itens**
 
 ![A diagram showing the results of requesting 10 items at offset 0 from the beginning of a list of 15 items.](media/Ex15_PagedSearch_FirstPage.png)
   
-Seu aplicativo, em seguida, reenvia a mesma solicitação ao servidor, com a única alteração de que o deslocamento agora é 10. O servidor retorna os últimos cinco itens e indica que a resposta incluir o último item, que não há um total de 15 itens e que o próximo deslocamento deve ser 15 (embora obviamente, você chegou final, portanto, não haverá um deslocamento próximo.)
+Em seguida, o aplicativo reenvia a mesma solicitação para o servidor, com a única alteração que o deslocamento agora é 10. O servidor retorna os últimos cinco itens e indica que a resposta inclui o último item, que há um total de 15 itens e que o próximo deslocamento deve ser 15 (porém, você chegou ao fim, portanto, não haverá um deslocamento próximo).
   
-**Figura 2. Solicitando 10 itens em deslocamento 10 desde o início de uma lista de 15 itens**
+**Figura 2. Solicitar 10 itens no deslocamento 10 do início de uma lista de 15 itens**
 
 ![A diagram showing the results of requesting 10 items at offset 10 from the beginning of a list of 15 items.](media/Ex15_PagedSearch_SecondPage.png)
   
 ## <a name="design-considerations-for-paging"></a>Considerações de design para paginação
 <a name="bk_DesignConsiderations"> </a>
 
-Tornar o máximo da paginação em seu aplicativo requerem alguns consideração. Por exemplo, como grandes ter sua janela""? O que fazer se os resultados no servidor alterar enquanto você estiver movendo sua janela""?
+Tornar o máximo da paginação em seu aplicativo exige alguma consideração. Por exemplo, qual é o tamanho da "janela"? O que fazer se os resultados no servidor mudarem enquanto você estiver movendo sua "janela"?
   
-### <a name="determine-the-size-of-your-window"></a>Determinar o tamanho da sua janela
+### <a name="determine-the-size-of-your-window"></a>Determinar o tamanho da janela
 
-Não há nenhum "única" número máximo de entradas que todos os aplicativos devem usar. Determinando o número correto para seu aplicativo depende de vários fatores diferentes. No entanto, é útil ter as seguintes diretrizes em mente:
+Não há um número máximo de entradas de "um tamanho para tudo" que todos os aplicativos devem usar. Determinar o número certo para seu aplicativo depende de vários fatores diferentes. No entanto, é útil manter as seguintes diretrizes em mente:
   
-- Por padrão, o Exchange limita o número máximo de itens que podem ser retornadas em uma única solicitação a 1000.
+- Por padrão, o Exchange limita o número máximo de itens que podem ser retornados em uma única solicitação para 1000.
     
-- Definindo o número máximo de entradas para um maior resulta de número em precisar enviar solicitações menos para obter todos os itens ao custo da necessidade de aguardar mais respostas.
+- Definir o número máximo de entradas para um número maior resulta em ter que enviar menos solicitações para obter todos os itens, ao custo de esperar mais por respostas.
     
-- Definindo o número máximo de entradas para um menor número os resultados nos tempos de resposta mais rápidos, ao custo de enviar mais solicitações para obter todos os itens.
+- Definir o número máximo de entradas para um número menor resulta em tempos de resposta mais rápidos, ao custo de ter que enviar mais solicitações para obter todos os itens.
     
-### <a name="handling-changes-to-the-result-set"></a>Tratamento de alterações ao conjunto de resultados
+### <a name="handling-changes-to-the-result-set"></a>Gerenciar alterações no conjunto de resultados
 
-No exemplo simple neste artigo, o número de itens na caixa de entrada do usuário permaneceu constante. No entanto, na realidade, o número de itens em uma caixa de entrada pode alterar com frequência. Novas mensagens podem chegar e itens podem ser excluídos ou movidos a qualquer momento. Mas como funciona a paginação este impacto? Vamos modificar o cenário de exemplo anterior para descobrir.
+No exemplo simples, anteriormente neste artigo, o número de itens na caixa de entrada do usuário permaneceu constante. No entanto, na realidade, o número de itens em uma caixa de entrada pode ser alterado com frequência. Novas mensagens podem chegar e os itens podem ser excluídos ou movidos a qualquer momento. Mas como isso afeta a paginação? Vamos modificar o cenário de exemplo anterior para descobrir.
   
-Começaremos novamente com os 15 itens na caixa de entrada do usuário e enviar a solicitação inicial mesma. Como antes, o servidor responde com as mensagens de 10 primeiros e indica que a resposta não incluir o último item, que não há um total de 15 itens e que o próximo deslocamento deve ser 10, conforme mostrado na Figura 1.
+Vamos começar novamente com os 15 itens na caixa de entrada do usuário e enviar a mesma solicitação inicial. Como antes, o servidor responde com as 10 primeiras mensagens e indica que a resposta não inclui o último item, que há um total de 15 itens e que o próximo deslocamento deve ser 10, conforme mostrado na Figura 1.
   
-Agora, enquanto o seu aplicativo está processando esses 10 itens, uma nova mensagem chega na caixa de entrada e é adicionada ao resultado definido no servidor. Seu aplicativo reenvia a mesma solicitação ao servidor (somente com o deslocamento definido como 10). Neste momento o servidor obtém volta seis itens e indica que há um total de 16 itens no conjunto de resultados.
+Agora, enquanto o aplicativo está processando esses 10 itens, uma nova mensagem chega na caixa de entrada e é adicionada ao conjunto de resultados no servidor. O aplicativo reenvia a mesma solicitação para o servidor (somente com o deslocamento definido como 10). Desta vez, o servidor recebe o retorno de seis itens e indica que há um total de 16 itens no conjunto de resultados.
   
-Nesse momento você deve estar se perguntando se isso ainda é um problema. Afinal, você obteve 16 itens novamente sobre as duas respostas, então, por que tudo isso? A resposta depende de onde colocado o novo item na lista. Se a lista é classificada para que os itens mais antigos (por data/hora recebido) sejam primeiro, não há nenhum motivo de preocupação neste cenário. O novo item será colocado no final da lista e será incluído na segunda resposta.
+Neste ponto, você pode estar se perguntando se isso é um problema. Afinal, você tem 16 itens de volta nas duas respostas, então por que todas as complicações? A resposta depende de onde o novo item é colocado na lista. Se a lista for classificada de forma que os itens mais antigos (por data/hora de recebimento) sejam os primeiros, não há nenhuma causa de preocupação neste cenário. O novo item será colocado no final da lista e será incluído na segunda resposta.
   
-**Figura 3. Solicitando 10 itens em deslocamento 10 desde o início de uma lista de itens de 16, com o item 16 na lista sendo novo**
+**Figura 3. Solicitar 10 itens no deslocamento 10 do início de uma lista de 16 itens, com o 16º item na lista sendo novo**
 
 ![A diagram showing the results of requesting 10 items at offset 10 from the beginning of a list of 16 items when the 16th item was added to the end of the list.](media/Ex15_PagedSearch_SecondPage_NewItemEnd.png)
   
-Se a lista é classificada para que os itens mais novos são primeiro, é uma história diferente. Nesse caso, o primeiro item na segunda solicitação seria o último item da solicitação anterior plus os cinco itens restantes de 15 a original. Para colocar em termos de nossa janela mágica imaginária, você deslocados posição da sua janela em 10, mas os cartazes sozinhos também deslocadas por 1.
+Se a lista for classificada de forma que os itens mais recentes sejam primeiro, ele será um texto diferente. Nesse caso, o primeiro item da segunda solicitação seria o último item da solicitação anterior mais os cinco itens restantes do original 15. Para colocá-lo em termos de nossa janela imaginária Magical, você moveu a posição da sua janela por 10, mas os próprios murals também foram deslocados por 1.
   
-**Figura 4. Solicitando 10 itens em deslocamento 10 desde o início de uma lista de itens de 16, com o primeiro item na lista que está sendo novo**
+**Figura 4. Solicitar 10 itens no deslocamento 10 do início de uma lista de 16 itens, com o primeiro item da lista sendo novo**
 
 ![A diagram showing the results of asking for 10 items at offset 10 from the beginning of a list of 16 items when the 16th item was added to the beginning of the list.](media/Ex15_PagedSearch_SecondPage_NewItemBeginning.png)
   
-Uma maneira para detectar uma alteração para os resultados no servidor é usar o conceito de um item de âncora. Um item de âncora é um item adicional em sua resposta que não é processado com o restante dos resultados, mas é usada para comparação com os próximos resultados para ver se alteraram próprios itens. Criando novamente no nosso exemplo simple, se o seu aplicativo está usando um tamanho de "janela" 10, realmente definir o número máximo de itens para retornar à 11. Seu aplicativo processa os 10 primeiros itens na resposta como de costume. Para o último item, você salvar o identificador do item como âncora e emita a próxima solicitação com um deslocamento de 10. Se os dados não tem sido alterado, o primeiro item na segunda resposta deve ter um identificador de item que corresponda à âncora. Se os identificadores de item não coincidirem, você saberá que os dados foi removidos ou inseridos na lista partes da lista de você ter já "paginados" sobre.
+Uma maneira de detectar uma alteração nos resultados no servidor é usar o conceito de um item de âncora. Um item de âncora é um item adicional em sua resposta que não é processado junto com o restante dos resultados, mas é usado para comparar com os próximos resultados para ver se os itens em si foram deslocados. Criando novamente em nosso exemplo simples, se o aplicativo estiver usando um tamanho de "janela" de 10, você realmente definirá o número máximo de itens para retornar a 11. Seu aplicativo processa os primeiros 10 itens na resposta como de costume. Para o último item, você salva o identificador do item como uma âncora e, em seguida, emite a próxima solicitação com um deslocamento de 10. Se os dados não tiverem sido alterados, o primeiro item da segunda resposta deverá ter um identificador de item que corresponda à âncora. Se os identificadores de item não forem correspondentes, você saberá que os dados foram removidos ou inseridos nas partes da lista que você já "pausou".
   
-Mesmo quando você souber que os dados foram alterados, você ainda precisará decidir como reagir. Há não uma única resposta para essa pergunta. Suas ações dependerá da natureza do seu aplicativo e como é essencial capturar todos os itens. Você pode ignorá-la completamente, reinicie o processo desde o início, ou fazer track e tente detectar onde a alteração aconteceu.
+Mesmo quando você sabe que os dados foram alterados, ainda precisa decidir como reagir. Não há uma resposta de tamanho único para essa pergunta. Suas ações dependerão da natureza do seu aplicativo e de como é essencial capturar todos os itens. Você pode ignorá-lo, reiniciar o processo do início ou do controle de volta e tentar detectar onde a alteração ocorreu.
   
-## <a name="example-perform-a-paged-search-by-using-the-ews-managed-api"></a>Exemplo: Executar uma pesquisa paginada usando a API gerenciada de EWS
+## <a name="example-perform-a-paged-search-by-using-the-ews-managed-api"></a>Exemplo: executar uma pesquisa paginada usando a API gerenciada do EWS
 <a name="bk_PagedSearchEWSMA"> </a>
 
-Paginação é suportada pelos seguintes métodos API gerenciada de EWS:
+A paginação é suportada pelos seguintes métodos da API gerenciada do EWS:
   
-- [ExchangeService.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
+- [ExchangeService. FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
     
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
+- [ExchangeService. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     
-- [Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
+- [Folder. FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
     
-- [Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
+- [Folder. FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
     
-Se você estiver usando a API gerenciada de EWS, seu aplicativo configura paginação com a classe [ItemView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview%28v=exchg.80%29.aspx) ou [FolderView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview%28v=exchg.80%29.aspx) e recebe informações do servidor referente a paginação do [FindItemsResults](http://msdn.microsoft.com/en-us/library/dd635381%28v=exchg.80%29.aspx) ou [FindFoldersResults](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults%28v=exchg.80%29.aspx) classe. 
+Se você estiver usando a API gerenciada do EWS, seu aplicativo configurará a paginação com o [DefaultView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemview%28v=exchg.80%29.aspx) ou a classe [folderview](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderview%28v=exchg.80%29.aspx) e receberá informações do servidor referente à paginação na classe [FindItemsResults](https://msdn.microsoft.com/library/dd635381%28v=exchg.80%29.aspx) ou [FindFoldersResults](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults%28v=exchg.80%29.aspx) . 
   
-O exemplo a seguir recupera todos os itens em uma pasta usando uma pesquisa paginada que retorne cinco itens em cada resposta. Ele também recupera um item adicional para servir como uma âncora para detectar alterações aos resultados no servidor. 
+O exemplo a seguir recupera todos os itens em uma pasta usando uma pesquisa paginada que retorna cinco itens em cada resposta. Ele também recupera um item adicional para servir como uma âncora para detectar alterações nos resultados no servidor. 
   
-Este exemplo pressupõe que o objeto **ExchangeService** foi inicializado com valores válidos nas propriedades [credenciais](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) e [Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . 
+Este exemplo pressupõe que o objeto **ExchangeService** tenha sido inicializado com valores válidos nas propriedades de [credenciais](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) e [URL](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -173,25 +173,25 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
 }
 ```
 
-## <a name="example-perform-a-paged-search-by-using-ews"></a>Exemplo: Executar uma pesquisa paginada usando o EWS
+## <a name="example-perform-a-paged-search-by-using-ews"></a>Exemplo: executar uma pesquisa paginada usando o EWS
 <a name="bk_PagedSearchEWS"> </a>
 
-Paginação é suportada pelos seguintes operações EWS:
+A paginação é suportada pelas seguintes operações do EWS:
   
-- [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
+- [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
     
-- [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
-Se você estiver usando o EWS, seu aplicativo configura paginação com o elemento [IndexedPageItemView](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) ou o elemento [IndexedPageFolderView](http://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx) e recebe informações do servidor referente a paginação do [(RootFolder FindItemResponseMessage)](http://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx) elemento ou o elemento [RootFolder (FindFolderResponseMessage)](http://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx) . 
+Se você estiver usando o EWS, o aplicativo configurará a paginação com o elemento [IndexedPageItemView](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) ou o elemento [IndexedPageFolderView](https://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx) e receberá informações do servidor em relação à paginação a partir do elemento [RootFolder (FindItemResponseMessage)](https://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx) ou do elemento [RootFolder (FindFolderResponseMessage)](https://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx) . 
   
-Neste exemplo de solicitação, uma solicitação de **FindItem** é enviada para um máximo de seis itens, começando em um deslocamento de zero desde o início da lista de itens na caixa de entrada do usuário. 
+Neste exemplo de solicitação, uma solicitação **FindItem** é enviada para um máximo de seis itens, começando em um deslocamento de zero do início da lista de itens na caixa de entrada do usuário. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -215,21 +215,21 @@ Neste exemplo de solicitação, uma solicitação de **FindItem** é enviada par
 </soap:Envelope>
 ```
 
-O servidor retorna a seguinte resposta, que contém seis itens. A resposta também indica que não há um total de oito itens nos resultados no servidor e que o último item na lista de resultados não está presente nesta resposta.
+O servidor retorna a seguinte resposta, que contém seis itens. A resposta também indica que há um total de oito itens nos resultados no servidor e que o último item na lista de resultados não está presente nesta resposta.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="35" Version="V2_4" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -268,14 +268,14 @@ O servidor retorna a seguinte resposta, que contém seis itens. A resposta tamb�
 </s:Envelope>
 ```
 
-Neste exemplo, a mesma solicitação é enviada, mas desta vez, o atributo de **deslocamento** é alterado para cinco, que indica que o servidor deve retornar no máximo seis itens, começando com offset cinco desde o início. 
+Neste exemplo, a mesma solicitação é enviada, mas desta vez, o atributo **offset** é alterado para cinco, o que indica que o servidor deve retornar no máximo seis itens começando no deslocamento cinco do início. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -299,21 +299,21 @@ Neste exemplo, a mesma solicitação é enviada, mas desta vez, o atributo de **
 </soap:Envelope>
 ```
 
-O servidor envia a seguinte resposta, que contém três itens. A resposta também indica que o número total de itens nos resultados no servidor ainda oito e que o último item nos resultados da lista está incluída nesta resposta.
+O servidor envia a seguinte resposta, que contém três itens. A resposta também indica que o número total de itens nos resultados no servidor ainda é oito e que o último item na lista de resultados está incluído nesta resposta.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="35" Version="V2_4" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -343,20 +343,20 @@ O servidor envia a seguinte resposta, que contém três itens. A resposta també
 ## <a name="see-also"></a>Confira também
 
 
-- [Pesquisa e EWS no Exchange](search-and-ews-in-exchange.md)
+- [Pesquisar e EWS no Exchange](search-and-ews-in-exchange.md)
     
-- [Método ExchangeService.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
+- [Método ExchangeService. FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
     
-- [Método ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
+- [Método ExchangeService. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     
-- [Método Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
+- [Método Folder. FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
     
-- [Método Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
+- [Método Folder. FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
     
-- [Operação FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
+- [Operação FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
     
-- [Operação FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [Operação FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
-- [EWS limitação no Exchange](ews-throttling-in-exchange.md)
+- [Limitação do EWS no Exchange](ews-throttling-in-exchange.md)
     
 

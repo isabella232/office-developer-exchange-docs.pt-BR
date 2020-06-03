@@ -3,41 +3,41 @@ title: Adicionar compromissos usando a representação do Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 78d5e51b-900f-4302-b9a8-fdc9aa4b65a5
-description: Aprenda a usar representação com a API gerenciada de EWS ou o EWS no Exchange para adicionar compromissos a calendários de usuários.
-ms.openlocfilehash: ab10a7d65a5603a84e12d918dd54198927d88b8a
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: Saiba como usar a representação com a API gerenciada do EWS ou o EWS no Exchange para adicionar compromissos aos calendários dos usuários.
+localization_priority: Priority
+ms.openlocfilehash: b1473d72113f8cc07d05364a4d87fedf23c7351d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353452"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455328"
 ---
 # <a name="add-appointments-by-using-exchange-impersonation"></a>Adicionar compromissos usando a representação do Exchange
 
-Aprenda a usar representação com a API gerenciada de EWS ou o EWS no Exchange para adicionar compromissos a calendários de usuários.
+Saiba como usar a representação com a API gerenciada do EWS ou o EWS no Exchange para adicionar compromissos aos calendários dos usuários.
   
-Você pode criar um aplicativo de serviço que insere compromissos diretamente em um calendário do Exchange usando uma conta de serviço que tem o **AppplicationImpersonation**[função habilitada](how-to-configure-impersonation.md). Quando você usa representação, o aplicativo está agindo como o usuário; é como se o usuário adicionado o compromisso no calendário usando um cliente como o Outlook. 
+Você pode criar um aplicativo de serviço que insere compromissos diretamente em um calendário do Exchange usando uma conta de serviço que tenha a função **ApplicationImpersonation** [habilitada](how-to-configure-impersonation.md). Quando você usa a representação, o aplicativo está agindo como o usuário; é como se o usuário adicionasse o compromisso ao calendário usando um cliente como o Outlook. 
   
-Quando você estiver usando a representação, tenha em mente o seguinte:
+Quando estiver usando a representação, tenha em mente o seguinte:
   
-- Seu objeto [ExchangeService](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.aspx) deve ser vinculado à conta de serviço. Você pode usar o mesmo objeto **ExchangeService** para representar várias contas, alterando a propriedade [ImpersonatedUserId](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx) para cada conta que você deseja representar. 
+- O objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.aspx) deve estar associado à conta de serviço. Você pode usar o mesmo objeto **ExchangeService** para representar várias contas alterando a propriedade [ImpersonatedUserId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx) para cada conta que deseja representar. 
     
-- Qualquer item que você salve em uma conta representada só pode ser usado uma vez. Por exemplo, se você deseja salvar o mesmo compromisso em várias contas, você precisa criar um objeto de [compromisso](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.aspx) para cada conta. 
+- Qualquer item que você salva em uma conta representada pode ser usado apenas uma vez. Se você deseja salvar o mesmo compromisso em várias contas, por exemplo, você precisa criar um objeto de [compromisso](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.aspx) para cada conta. 
     
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Seu aplicativo precisa de uma conta a ser usada para se conectar ao servidor do Exchange para que ele possa usar representação. Sugerimos que você use uma conta de serviço para o aplicativo que recebeu a função de representação do aplicativo para as contas que ele acessará. Para obter mais informações, consulte [Configure representação](how-to-configure-impersonation.md)
+Seu aplicativo precisa de uma conta para usar para se conectar ao servidor do Exchange antes de poder usar a representação. Sugerimos que você use uma conta de serviço para o aplicativo que recebeu a função de representação de aplicativo para as contas que ele acessará. Para obter mais informações, consulte [Configure Impersonation](how-to-configure-impersonation.md)
   
-## <a name="add-appointments-by-using-impersonation-with-the-ews-managed-api"></a>Adicione os compromissos, usando a representação com a API gerenciada de EWS
+## <a name="add-appointments-by-using-impersonation-with-the-ews-managed-api"></a>Adicionar compromissos usando representação com a API gerenciada do EWS
 
-O exemplo a seguir adiciona uma reunião ou compromisso no calendário de uma ou mais contas do Exchange. O método admite três parâmetros.
+O exemplo a seguir adiciona um compromisso ou reunião ao calendário de uma ou mais contas do Exchange. O método usa três parâmetros.
   
--  _serviço_ — um objeto **ExchangeService** vinculado à conta do aplicativo de serviço no servidor Exchange. 
+-  _serviço_ — um objeto **ExchangeService** associado à conta do aplicativo de serviço no servidor Exchange. 
     
--  _emailAddresses_ — um objeto [System.List](http://msdn.microsoft.com/library/6sh2ey19.aspx) contendo uma lista de cadeias de caracteres de endereço de email SMTP. 
+-  _EmailAddresses_ — um objeto [System. List](https://msdn.microsoft.com/library/6sh2ey19.aspx) contendo uma lista de cadeias de caracteres de endereços de email SMTP. 
     
--  _alocador_ — um objeto que implementa a interface **IAppointmentFactory** . Essa interface possui um método, **GetAppointment** que utiliza um objeto **ExchangeService** como um parâmetro e retorna um objeto de **compromisso** . A interface **IAppointmentFactory** é definida [IAppointmentFactory interface](#bk_IAppointmentFactory).
+-  _Factory_ — um objeto que implementa a interface **IAppointmentFactory** . Essa interface tem um método, **getcompromisso** que recebe um objeto **ExchangeService** como um parâmetro e retorna um objeto **compromisso** . A interface **IAppointmentFactory** é definida [IAppointmentFactory interface](#bk_IAppointmentFactory).
     
 ```cs
 private static void CreateAppointments(ExchangeService service, List<string> emailAddresses, IAppointmentFactory factory)
@@ -73,12 +73,12 @@ private static void CreateAppointments(ExchangeService service, List<string> ema
 }
 ```
 
-Quando você salva o compromisso, o código verifica para determinar se qualquer participantes foram adicionados à propriedade [RequiredAttendees](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.requiredattendees.aspx) . Se eles tiverem, o método [Appointment.Save](http://msdn.microsoft.com/library/dd635394.aspx) é chamado com o valor de enumeração [SendToAllAndSaveCopy](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsmode.aspx) para que os participantes recebem solicitações de reunião; Caso contrário, o método **Appointment.Save** é chamado com o valor de enumeração [SendToNone](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsmode.aspx) para que o compromisso é salvo no calendário do usuário representada com a propriedade [Appointment.IsMeeting](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.ismeeting.aspx) definida como **false**.
+Ao salvar o compromisso, o código verifica para determinar se algum participante foi adicionado à propriedade [RequiredAttendees](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.requiredattendees.aspx) . Se houver, o método de [compromisso. Save](https://msdn.microsoft.com/library/dd635394.aspx) é chamado com o valor de enumeração [SendToAllAndSaveCopy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsmode.aspx) para que os participantes recebam solicitações de reunião; caso contrário, o método de **compromisso. Save** é chamado com o valor de enumeração [SendToNone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsmode.aspx) para que o compromisso seja salvo no calendário do usuário representado com a propriedade [compromisso. issatisfaçing](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.ismeeting.aspx) definida como **false**.
   
-### <a name="iappointmentfactory-interface"></a>Interface de IAppointmentFactory
+### <a name="iappointmentfactory-interface"></a>Interface IAppointmentFactory
 <a name="bk_IAppointmentFactory"> </a>
 
-Porque é necessário um novo objeto de **compromisso** toda vez que você deseja salvar um compromisso no calendário do usuário um representada, a interface **IAppointmentFactory** abstrai o objeto usado para popular a cada objeto de **compromisso** . Esta versão é uma interface simples que contém apenas um método, **GetAppointment**, que utiliza um objeto **ExchangeService** como um parâmetro e retorna um novo objeto de **compromisso** associado a esse objeto **ExchangeService** . 
+Como você precisa de um novo objeto de **compromisso** sempre que quiser salvar um compromisso no calendário de um usuário representado, a interface **IAppointmentFactory** abstrai o objeto usado para preencher cada objeto de **compromisso** . Esta versão é uma interface simples que contém apenas um método, **getcompromisso**, que usa um objeto **ExchangeService** como um parâmetro e retorna um novo objeto **compromisso** associado a esse objeto **ExchangeService** . 
   
 ```cs
 interface IAppointmentFactory
@@ -87,7 +87,7 @@ interface IAppointmentFactory
 }
 ```
 
-O exemplo de classe **AppointmentFactory** a seguir mostra uma implementação da interface **IAppointmentFactory** que retorna um compromisso simples que ocorre três dias a partir de agora. Se você não comentar o `appointment.RequiredAttendees.Add` linha, o método **GetAppointment** retornará uma reunião e o endereço de email especificado nessa linha receberá uma solicitação de reunião com o usuário representado listado como o organizador. 
+O exemplo de classe **AppointmentFactory** a seguir mostra uma implementação da interface **IAppointmentFactory** que retorna um compromisso simples que ocorre três dias a partir de agora. Se você remover o comentário da `appointment.RequiredAttendees.Add` linha, o método **getcompromisso** retornará uma reunião e o endereço de email especificado nessa linha receberá uma solicitação de reunião com o usuário representado listado como organizador. 
   
 ```cs
 class AppointmentFactory : IAppointmentFactory
@@ -109,16 +109,16 @@ class AppointmentFactory : IAppointmentFactory
 
 ```
 
-## <a name="add-appointments-by-using-impersonation-with-ews"></a>Adicione os compromissos, usando a representação EWS
+## <a name="add-appointments-by-using-impersonation-with-ews"></a>Adicionar compromissos usando representação com EWS
 
-EWS permite que você aplicativo utilizam a representação para adicionar itens a um calendário em nome de proprietário do calendário. Este exemplo mostra como usar a operação [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) para adicionar um compromisso no calendário de uma conta representada. 
+O EWS permite que o aplicativo use a representação para adicionar itens a um calendário em nome do proprietário do calendário. Este exemplo mostra como usar a operação [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) para adicionar um compromisso ao calendário de uma conta representada. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+       xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+       xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
     <t:TimeZoneContext>
@@ -148,26 +148,26 @@ EWS permite que você aplicativo utilizam a representação para adicionar itens
 </soap:Envelope>
 ```
 
-Observe que, que não seja a adição do elemento **ExchangeImpersonation** no cabeçalho SOAP para especificar a conta que podemos são representando, essa é a mesma solicitação XML usada para criar um compromisso sem usar representação. 
+Observe que, além da adição do elemento **ExchangeImpersonation** no cabeçalho SOAP, para especificar a conta que estamos representando, esta é a mesma solicitação XML usada para criar um compromisso sem usar representação. 
   
-O exemplo a seguir mostra a resposta XML retornada pela operação de **CreateItem** . 
+O exemplo a seguir mostra a resposta XML retornada pela operação **CreateItem** . 
   
 > [!NOTE]
-> Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+> Os atributos **ItemId** e **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -184,23 +184,23 @@ O exemplo a seguir mostra a resposta XML retornada pela operação de **CreateIt
 
 ```
 
-Novamente, este é o mesmo XML que é retornado quando você usar a operação **CreateItem** sem usar representação. 
+Novamente, esse é o mesmo XML que é retornado quando você usa a operação **CreateItem** sem usar representação. 
   
 ## <a name="see-also"></a>Confira também
 
 
 - [Representação e EWS no Exchange](impersonation-and-ews-in-exchange.md)
     
-- [Função ApplicationImpersonation](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx)
+- [Função ApplicationImpersonation](https://technet.microsoft.com/library/dd776119%28v=exchg.150%29.aspx)
     
-- [Configurar a representação](how-to-configure-impersonation.md)
+- [Configurar representação](how-to-configure-impersonation.md)
     
-- [Identificar a conta para representar](how-to-identify-the-account-to-impersonate.md)
+- [Identificar a conta a ser representada](how-to-identify-the-account-to-impersonate.md)
     
 - [Criar compromissos e reuniões usando o EWS no Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [Operação CreateItem (item do calendário)](../web-service-reference/createitem-operation-calendar-item.md)
+- [Operação CreateItem (item de calendário)](../web-service-reference/createitem-operation-calendar-item.md)
     
-- [Propriedade ExchangeService.ImpersonatedUserId](https://docs.microsoft.com/en-us/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid?view=exchange-ews-api)
+- [Propriedade ExchangeService. ImpersonatedUserId](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid?view=exchange-ews-api)
     
 
