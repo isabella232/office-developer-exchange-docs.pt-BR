@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 808bb4a1-aa2d-48c5-94b3-551b52c348bd
-description: O elemento SharingEffectiveRights indica as permissões que o usuário tem para os dados de contato que está sendo compartilhados.
-ms.openlocfilehash: 19e67827dd2dbff6fb70423980d670da5cc257a3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SharingEffectiveRights indica as permissões que o usuário tem para os dados de contato que estão sendo compartilhados.
+ms.openlocfilehash: 64b1e6d831068e9699e9cd47693e74919e0416a5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825486"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526659"
 ---
 # <a name="sharingeffectiverights-permissionreadaccesstype"></a>SharingEffectiveRights (PermissionReadAccessType)
 
-O elemento **SharingEffectiveRights** indica as permissões que o usuário tem para os dados de contato que está sendo compartilhados. 
+O elemento **SharingEffectiveRights** indica as permissões que o usuário tem para os dados de contato que estão sendo compartilhados. 
   
 ```XML
 <SharingEffectiveRights>None | FullDetails</SharingEffectiveRights >
 ```
 
  **PermissionReadAccessType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,7 +46,7 @@ Nenhum.
 |:-----|:-----|
 |[ContactsFolder](contactsfolder.md) <br/> |Representa uma pasta de contatos que está contida em uma caixa de correio.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 A tabela a seguir lista os valores possíveis para o elemento **SharingEffectiveRights** . 
   
@@ -54,23 +54,23 @@ A tabela a seguir lista os valores possíveis para o elemento **SharingEffective
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|None  <br/> |Indica que o usuário não tem permissão para ler itens na pasta.  <br/> |
+|Nenhum  <br/> |Indica que o usuário não tem permissão para ler itens na pasta.  <br/> |
 |FullDetails  <br/> |Indica que o usuário tem permissão para ler todos os itens na pasta.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

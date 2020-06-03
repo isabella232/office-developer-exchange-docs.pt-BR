@@ -16,7 +16,7 @@ ms.openlocfilehash: 1f9a7a3f3ede2d3cf8f9d41677d8ce0487266f17
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468891"
 ---
 # <a name="copyfolder-operation"></a>Operação CopyFolder
@@ -198,7 +198,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 Para encontrar outras opções para a mensagem de resposta de erro da operação CopyFolder, explore a hierarquia de esquema. Inicie no elemento [CopyFolderResponse](copyfolderresponse.md) . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operação MoveFolder](movefolder-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

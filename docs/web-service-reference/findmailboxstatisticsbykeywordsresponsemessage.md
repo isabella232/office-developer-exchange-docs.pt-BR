@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d3835800-8887-43db-9a8a-fe3cfea7a863
-description: O elemento FindMailboxStatisticsByKeywordsResponseMessage Especifica a mensagem de resposta para uma solicitação de FindMailboxStatisticsByKeywords.
-ms.openlocfilehash: 9479252ed53335d07a6402707bc69e5eaadfa7c8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento FindMailboxStatisticsByKeywordsResponseMessage especifica a mensagem de resposta para uma solicitação FindMailboxStatisticsByKeywords.
+ms.openlocfilehash: 704eebbf82db2871ab36be8e5b30c88c6959baa5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752292"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44525973"
 ---
 # <a name="findmailboxstatisticsbykeywordsresponsemessage"></a>FindMailboxStatisticsByKeywordsResponseMessage
 
-O elemento **FindMailboxStatisticsByKeywordsResponseMessage** Especifica a mensagem de resposta para uma solicitação de **FindMailboxStatisticsByKeywords** . 
+O elemento **FindMailboxStatisticsByKeywordsResponseMessage** especifica a mensagem de resposta para uma solicitação **FindMailboxStatisticsByKeywords** . 
   
 ```XML
 <FindMailboxStatisticsByKeywordsResponseMessage ResponseClass=" Success | Warning | Error ">
@@ -30,13 +30,13 @@ O elemento **FindMailboxStatisticsByKeywordsResponseMessage** Especifica a mensa
 ```
 
  **FindMailboxStatisticsByKeywordsResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
 |ResponseClass  <br/> |Especifica a classe de resposta.  <br/> |
    
@@ -44,7 +44,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Êxito  <br/> |Indica o sucesso.  <br/> |
+|Êxito  <br/> |Indica êxito.  <br/> |
 |Aviso  <br/> |Indica um aviso.  <br/> |
 |Erro  <br/> |Indica um erro.  <br/> |
    
@@ -55,8 +55,8 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 |[MailboxStatisticsSearchResult](mailboxstatisticssearchresult.md) <br/> |Especifica o resultado de uma pesquisa de caixa de correio.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fornece uma descrição de texto do status da resposta.  <br/> |
 |[ResponseCode](responsecode.md) <br/> |Fornece informações de status sobre a solicitação.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |No momento não utilizados e reservada para uso futuro.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fornece informações de resposta de erro adicionais.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Atualmente não usado e reservado para uso futuro.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta de erro.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -70,13 +70,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nome do esquema  <br/> |Esquema de mensagem  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nome do esquema  <br/> |Esquema de mensagens  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

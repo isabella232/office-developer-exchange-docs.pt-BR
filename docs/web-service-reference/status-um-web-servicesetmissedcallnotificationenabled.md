@@ -1,5 +1,5 @@
 ---
-title: Status (UM serviço web - SetMissedCallNotificationEnabled)
+title: Status (serviço Web da UM-SetMissedCallNotificationEnabled)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,21 +10,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: e272d905-1a66-44f6-bb1d-59fa9e4d8dea
-description: O elemento de Status define o valor a ser usado em uma solicitação do SetMissedCallNotificationEnabled operação (serviço web de Unificação de mensagens).
-ms.openlocfilehash: 3bd07f0ed0f44bd00dad9f56aa8218bad0a82a9a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento status define o valor a ser usado em uma solicitação de operação do SetMissedCallNotificationEnabled (serviço Web da UM).
+ms.openlocfilehash: f184c3af49033bc09c28dd66f786935b72c3590b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825585"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526855"
 ---
-# <a name="status-um-web-service---setmissedcallnotificationenabled"></a>Status (UM serviço web - SetMissedCallNotificationEnabled)
+# <a name="status-um-web-service---setmissedcallnotificationenabled"></a>Status (serviço Web da UM-SetMissedCallNotificationEnabled)
 
-O elemento de **Status** define o valor a ser usado em uma solicitação de [operação SetMissedCallNotificationEnabled (serviço web de Unificação de mensagens)](setmissedcallnotificationenabled-operation-um-web-service.md) . 
+O elemento **status** define o valor a ser usado em uma solicitação de [operação do SetMissedCallNotificationEnabled (serviço Web da um)](setmissedcallnotificationenabled-operation-um-web-service.md) . 
   
-[SetMissedCallNotificationEnabled (serviço web de Unificação de mensagens)](setmissedcallnotificationenabled-um-web-service.md)
+[SetMissedCallNotificationEnabled (serviço Web da UM)](setmissedcallnotificationenabled-um-web-service.md)
   
-[Status (UM serviço web - SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
+[Status (serviço Web da UM-SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
   
 ```xml
 <SetMissedCallNotificationEnabled>
@@ -33,13 +33,13 @@ O elemento de **Status** define o valor a ser usado em uma solicitação de [ope
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -49,28 +49,28 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|SetMissedCallNotificationEnabled  <br/> |Define uma solicitação para uma solicitação de [operação SetMissedCallNotificationEnabled (serviço web de Unificação de mensagens)](setmissedcallnotificationenabled-operation-um-web-service.md) .  <br/> |
+|SetMissedCallNotificationEnabled  <br/> |Define uma solicitação para uma solicitação de [operação do SetMissedCallNotificationEnabled (serviço Web da um)](setmissedcallnotificationenabled-operation-um-web-service.md) .  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor booleano de texto é necessário. Veja a seguir os valores possíveis:
+Um valor de texto booliano é necessário. Veja a seguir os valores possíveis:
   
-- True
+- Verdadeiro
     
-- False
+- Falso
     
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação de SetMissedCallNotificationEnabled (serviço web de Unificação de mensagens)](setmissedcallnotificationenabled-operation-um-web-service.md)
+[Operação SetMissedCallNotificationEnabled (serviço Web da UM)](setmissedcallnotificationenabled-operation-um-web-service.md)
 

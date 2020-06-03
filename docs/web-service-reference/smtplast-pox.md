@@ -13,7 +13,7 @@ ms.openlocfilehash: 7019da28ffa196a9abc8798aa75aff2756198da3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468429"
 ---
 # <a name="smtplast-pox"></a>SMTPLast (POX)
@@ -56,7 +56,7 @@ Nenhum.
 
 O valor de texto especifica se o servidor SMTP exige que o email seja baixado antes de enviar emails usando o servidor SMTP. Os valores possíveis estão **ativados** e **desativados**. O valor padrão é **desativado**.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

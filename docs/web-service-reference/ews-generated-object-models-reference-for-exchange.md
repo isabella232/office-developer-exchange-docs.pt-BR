@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 67d7d831-9c53-46da-80e4-18f562e71284
 description: Se você estiver usando a referência de modelos de objeto gerados pelos EWS para desenvolver aplicativos para o Exchange, saiba mais sobre outras opções para o desenvolvimento nos EWS.
-ms.openlocfilehash: 94735a205748116457cb74efc2a75b0b2aa2c9ec
-ms.sourcegitcommit: 4221fd619bc309d2f8ab0497ec780b427acc6530
-ms.translationtype: HT
+ms.openlocfilehash: 0ab659fa57a591939b85ab8cfbc4104c9c775060
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25441530"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526162"
 ---
 # <a name="ews-generated-object-models-for-exchange"></a>Modelos de objeto do Exchange gerados pelos EWS
 

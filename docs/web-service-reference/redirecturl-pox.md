@@ -13,7 +13,7 @@ ms.openlocfilehash: 5400b1e7a4bb7ebebc58b6a0f1fc9bf37f5a2e22
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468086"
 ---
 # <a name="redirecturl-pox"></a>RedirectUrl (POX)
@@ -58,7 +58,7 @@ O valor de texto representa a URL do servidor de acesso para cliente que deve se
 
 O aplicativo cliente deve parar de redirecionamento após 10 redirecionamentos.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

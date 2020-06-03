@@ -11,7 +11,7 @@ ms.openlocfilehash: 48703a11fb056967c6c76073c2e928d5f6efa264
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468639"
 ---
 # <a name="smtpaddress-pox"></a>SmtpAddress (POX)
@@ -58,7 +58,7 @@ O valor de texto representa o endereço SMTP atribuído ao armazenamento de past
 
 O elemento **smtpAddress** é um elemento filho obrigatório do elemento **PublicFolderInformation** . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

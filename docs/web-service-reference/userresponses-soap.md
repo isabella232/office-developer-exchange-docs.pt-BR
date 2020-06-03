@@ -1,5 +1,5 @@
 ---
-title: UserResponses (SOAP)
+title: Userresponses (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a48766df-4cc8-47c2-a8c1-826daec94e5a
-description: O elemento UserResponses contém as definições de configuração para cada usuário solicitado.
-ms.openlocfilehash: bee7f3c9a95c1facfe0adc990516dfa323d9c8cf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento userresponses contém as definições de configuração para cada usuário solicitado.
+ms.openlocfilehash: db2bab16334b90395d29dc03353dce05b0e45357
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837995"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526743"
 ---
-# <a name="userresponses-soap"></a>UserResponses (SOAP)
+# <a name="userresponses-soap"></a>Userresponses (SOAP)
 
-O elemento **UserResponses** contém as definições de configuração para cada usuário solicitado. 
+O elemento **Userresponses** contém as definições de configuração para cada usuário solicitado. 
   
 ```XML
 <UserResponses>
@@ -27,38 +27,38 @@ O elemento **UserResponses** contém as definições de configuração para cada
 ```
 
  **ArrayOfUserResponse**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Resposta SOAP)](userresponse-soap.md) <br/> |Representa uma resposta a uma solicitação de [operação GetUserSettings (SOAP)](getusersettings-operation-soap.md) para um usuário individual.  <br/> |
+|[Userresponse (SOAP)](userresponse-soap.md) <br/> |Representa uma resposta a uma solicitação de [operação de GetUserSettings (SOAP)](getusersettings-operation-soap.md) para um usuário individual.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Resposta SOAP)](response-soap.md) <br/> |Contém a resposta a uma solicitação de [operação GetUserSettings (SOAP)](getusersettings-operation-soap.md) .  <br/> |
+|[Resposta (SOAP)](response-soap.md) <br/> |Contém a resposta a uma solicitação de [operação GetUserSettings (SOAP)](getusersettings-operation-soap.md) .  <br/> |
    
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação de GetUserSettings (SOAP)](getusersettings-operation-soap.md)
+[Operação GetUserSettings (SOAP)](getusersettings-operation-soap.md)
 

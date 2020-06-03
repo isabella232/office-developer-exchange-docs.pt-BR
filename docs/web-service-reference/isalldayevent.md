@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 29140a64-9d7a-4a14-a10d-c98197c9831b
-description: O elemento IsAllDayEvent indica se uma solicitação de reunião ou item de calendário representa um evento de dia inteiro.
-ms.openlocfilehash: 81cf1e7d8338275540f264de7cbf194005e7770c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IsAllDayEvent indica se um item de calendário ou uma solicitação de reunião representa um evento de dia inteiro.
+ms.openlocfilehash: f0c975deecf96e94599a47ef2c33e54a7d1a80b9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823983"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526533"
 ---
 # <a name="isalldayevent"></a>IsAllDayEvent
 
-O elemento **IsAllDayEvent** indica se uma solicitação de reunião ou item de calendário representa um evento de dia inteiro. 
+O elemento **IsAllDayEvent** indica se um item de calendário ou uma solicitação de reunião representa um evento de dia inteiro. 
   
 ```xml
 <IsAllDayEvent/>
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,28 +45,28 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no armazenamento do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto que representa um valor booleano é necessário se este elemento é incluído. Um valor **true** indica que o item representa um evento de dia inteiro. Um valor **false** indica que o item abrange menos que o horário de trabalho do usuário. 
+Um valor de texto que representa um valor booliano é necessário se esse elemento for incluído. Um valor **true** indica que o item representa um evento de dia inteiro. Um valor **false** indica que o item abrange menos do que o horário de trabalho de um usuário. 
   
 ## <a name="remarks"></a>Comentários
 
-Um evento de dia inteiro abrange a duração de horário de trabalho que está definida para uma caixa de correio.
+Um evento de dia inteiro abrange a duração de horas de trabalho que são definidas para uma caixa de correio.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

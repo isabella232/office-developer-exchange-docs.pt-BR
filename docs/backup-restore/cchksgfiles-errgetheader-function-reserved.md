@@ -1,5 +1,5 @@
 ---
-title: Função de CChkSGFiles.ErrGetHeader (reservada)
+title: Função função cchksgfiles. ErrGetHeader (reservado)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,15 +11,15 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: eed4d88b-8ac5-4c03-9ed9-e529e6072450
-description: 'Modificado pela última vez: 22 de fevereiro de 2013'
-ms.openlocfilehash: a502371f596967be58b6ead61b4e435bba30be88
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Última modificação: 22 de fevereiro de 2013'
+ms.openlocfilehash: 7ec94e1dc0b68c055d4b908b19458ee4c38eb1aa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750623"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526708"
 ---
-# <a name="cchksgfileserrgetheader-function-reserved"></a>Função de CChkSGFiles.ErrGetHeader (reservada)
+# <a name="cchksgfileserrgetheader-function-reserved"></a>Função função cchksgfiles. ErrGetHeader (reservado)
 
 **Aplica-se a:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
@@ -36,7 +36,7 @@ Vitual ERRErrGetHeader
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 ### <a name="wszfile"></a>wszFile
   
@@ -60,10 +60,10 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Nenhum.
+Nenhum
   
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
-Exchange Server 2013 apenas inclui uma versão de 64 bits da API CHKSGFILES.
+O Exchange Server 2013 inclui apenas uma versão de 64 bits da API CHKSGFILES.
   
 

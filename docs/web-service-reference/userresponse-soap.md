@@ -13,7 +13,7 @@ ms.openlocfilehash: 73848cb19d9c859e07216f354965ac4051d0d20c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468898"
 ---
 # <a name="userresponse-soap"></a>Userresponse (SOAP)
@@ -65,7 +65,7 @@ Nenhum
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

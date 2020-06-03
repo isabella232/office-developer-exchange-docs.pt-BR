@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: b3c6ea3a-9ead-44b9-9d99-64ecf12bde23
-description: O elemento ExtendedFieldURI identifica uma propriedade MAPI estendida.
-ms.openlocfilehash: 50ce46652863b0c534d09d58d4b9f7c8095deef2
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: O elemento ExtendedFieldURI identifica uma propriedade MAPI Estendida.
+ms.openlocfilehash: fd365010016c68236107991717ed538c97dc0d50
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353788"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526029"
 ---
 # <a name="extendedfielduri"></a>ExtendedFieldURI
 
-O elemento **ExtendedFieldURI** identifica uma propriedade MAPI estendida. 
+O elemento **ExtendedFieldURI** identifica uma propriedade MAPI Estendida. 
   
 ```xml
 <ExtendedFieldURI DistinguishedPropertySetId="" PropertySetId="" PropertyTag="" PropertyName="" PropertyId="" PropertyType="" />
@@ -29,63 +29,65 @@ O elemento **ExtendedFieldURI** identifica uma propriedade MAPI estendida.
 
 **PathToExtendedFieldType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**DistinguishedPropertySetId** <br/> |Define o conhecido propriedade definida IDs para propriedades estendidas de MAPI.<br/><br/>Se este atributo é usado, os atributos **PropertySetId** e **PropertyTag não** não podem ser usados. Este atributo deve ser usado com o **PropertyId** **PropertyName** atributo ou e o atributo **PropertyType** .<br/><br/>A tabela de atributo **DistinguishedPropertySetId** neste tópico lista os valores possíveis para este atributo.<br/><br/>Este atributo é opcional.  <br/> |
-|**PropertySetId** <br/> |Identifica um MAPI estendido namespace ou conjunto de propriedades por sua identificação GUID.<br/><br/>Se este atributo é usado, o atributo **DistinguishedPropertySetId** e **PropertyTag não** não pode ser usado. Este atributo deve ser usado com o **PropertyId** **PropertyName** atributo ou e o atributo **PropertyType** .<br/><br/>Este atributo é opcional.  <br/> |
-|**PropertyTag não** <br/> |Identifica a marca de propriedade sem a parte do tipo da marca. O **PropertyTag não** pode ser representado como um hexadecimal ou um inteiro curto.<br/><br/>O intervalo entre 0x8000 e 0xFFFE representa o intervalo personalizado das propriedades. Quando um banco de dados de caixa de correio encontra uma propriedade personalizada pela primeira vez, ele atribui essa propriedade personalizada uma marca de propriedade dentro do intervalo de propriedade personalizada de 0x8000-0xFFFE. Uma marca de propriedade personalizada determinado provavelmente serão diferentes entre bancos de dados. Portanto, uma solicitação de propriedade personalizada por marca de propriedade pode retornar propriedades diferentes em bancos de dados diferentes. O uso do atributo **PropertyTag não** é proibido para propriedades personalizadas. Em vez disso, use o atributo **PropertySetId** e o atributo **PropertyName** ou **PropertyId** .<br/><br/>**Importante**: acessar qualquer propriedade personalizada entre 0x8000 e 0xFFFE usando-se o GUID + nome/ID. Se o atributo **PropertyTag não** for usado, os atributos **DistinguishedPropertySetId**, **PropertySetId**, **PropertyName**e **PropertyId** não podem ser usados.<br/><br/>Este atributo é opcional.<br/><br/>**Observação**: você não pode usar um atributo de marca de propriedade para as propriedades dentro do intervalo personalizado 0x8000-0xFFFE. Você deve usar uma propriedade nomeada nesse caso.           |
-|**PropertyName** <br/> |Identifica uma propriedade estendida por seu nome. Esta propriedade deve ser associada **DistinguishedPropertySetId** ou **PropertySetId**.<br/><br/>Se este atributo é usado, os atributos **PropertyId** e **PropertyTag não** não podem ser usados.<br/><br/>Este atributo é opcional.  <br/> |
-|**PropertyId** <br/> |Identifica uma propriedade estendida por sua ID de expedição. A ID de expedição pode ser identificada nos formatos de decimais ou hexadecimais. Esta propriedade deve ser associada **DistinguishedPropertySetId** ou **PropertySetId**.<br/><br/>Se este atributo é usado, os atributos **PropertyName** e **PropertyTag não** não podem ser usados.<br/><br/>Este atributo é opcional.  <br/> |
-|**PropertyType** <br/> |Representa o tipo de propriedade de uma marca de propriedade. Isso corresponde à palavra menos significativa em uma marca de propriedade.<br/><br/>A tabela de atributo PropertyType neste tópico contém os valores possíveis para este atributo.<br/><br/>Este atributo é necessário.  <br/> |
+|**DistinguishedPropertySetId** <br/> |Define as IDs de conjunto de propriedades conhecidas para propriedades MAPI estendidas.<br/><br/>Se esse atributo for usado, os atributos **PropertySetId** e **PropertyTag** não poderão ser usados. Esse atributo deve ser usado com o atributo **PropertyId** ou **PropertyName** e o atributo **recordtypepropriedade** .<br/><br/>A tabela de atributos **DistinguishedPropertySetId** posteriormente neste tópico lista os valores possíveis para este atributo.<br/><br/>Esse atributo é opcional.  <br/> |
+|**PropertySetId** <br/> |Identifica um conjunto de propriedades estendidas de MAPI ou namespace por seu GUID de identificação.<br/><br/>Se esse atributo for usado, o atributo **DistinguishedPropertySetId** e **PropertyTag** não poderá ser usado. Esse atributo deve ser usado com o atributo **PropertyId** ou **PropertyName** e o atributo **recordtypepropriedade** .<br/><br/>Esse atributo é opcional.  <br/> |
+|**PropertyTag** <br/> |Identifica a marca de propriedade sem o tipo parte da marca. O **PropertyTag** pode ser representado como um inteiro hexadecimal ou curto.<br/><br/>O intervalo entre 0x8000 e 0xFFFE representa o intervalo de propriedades personalizado. Quando um banco de dados de caixa de correio encontra uma propriedade personalizada pela primeira vez, ele atribui a propriedade personalizada uma marca de propriedade dentro do intervalo de propriedades personalizadas de 0x8000-0xFFFE. Uma determinada marca de propriedade personalizada provavelmente será diferente em bancos de dados. Por esse motivo, uma marca de propriedade personalizada de solicitação de propriedade pode retornar propriedades diferentes em bancos de dados diferentes. O uso do atributo **PropertyTag** é proibido para propriedades personalizadas. Em vez disso, use o atributo **PropertySetId** e o atributo **PropertyName** ou **PropertyId** .<br/><br/>**Importante**: acessar qualquer propriedade personalizada entre o 0x8000 e o 0xFFFE usando o GUID + nome/ID. Se o atributo **PropertyTag** for usado, os **atributos DistinguishedPropertySetId**, **PropertySetId**, **PropertyName**e **PropertyId** não poderão ser usados.<br/><br/>Esse atributo é opcional.<br/><br/>**Observação**: não é possível usar um atributo de marca de propriedade para as propriedades dentro do intervalo personalizado 0X8000-0xFFFE. Você deve usar uma propriedade nomeada nesse caso.           |
+|**PropertyName** <br/> |Identifica uma propriedade estendida pelo nome. Essa propriedade deve ser associada a **DistinguishedPropertySetId** ou **PropertySetId**.<br/><br/>Se esse atributo for usado, os atributos **PropertyId** e **PropertyTag** não poderão ser usados.<br/><br/>Esse atributo é opcional.  <br/> |
+|**PropertyId** <br/> |Identifica uma propriedade estendida por sua ID de expedição. A ID de expedição pode ser identificada em formatos decimais ou hexadecimais. Essa propriedade deve ser associada a **DistinguishedPropertySetId** ou **PropertySetId**.<br/><br/>Se esse atributo for usado, os atributos **PropertyName** e **PropertyTag** não poderão ser usados.<br/><br/>Esse atributo é opcional.  <br/> |
+|**Recordtypepropriedade** <br/> |Representa o tipo de propriedade de uma marca de propriedade. Isso corresponde à palavra menos significativa em uma marca de propriedade.<br/><br/>A tabela de atributos Recordtypepropriedade posteriormente neste tópico contém os valores possíveis para este atributo.<br/><br/>Esse atributo é necessário.  <br/> |
    
 #### <a name="distinguishedpropertysetid-attribute"></a>Atributo DistinguishedPropertySetId
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Reunião  <br/> |Identifica a reunião propriedade definida ID pelo nome.  <br/> |
-|Compromisso  <br/> |Identifica a ID do conjunto de propriedade compromisso pelo nome.  <br/> |
-|Comuns  <br/> |Identifica a ID do conjunto de propriedade comum pelo nome.  <br/> |
-|PublicStrings  <br/> |Identifica a ID do conjunto de propriedade pública cadeias de caracteres pelo nome.  <br/> |
-|Endereço  <br/> |Identifica a ID do conjunto de propriedade endereço pelo nome.  <br/> |
-|InternetHeaders  <br/> |Identifica a identificação de conjunto de propriedade de cabeçalhos da Internet pelo nome.  <br/> |
-|CalendarAssistant  <br/> |Identifica a identificação de conjunto de propriedade de Assistente de calendário pelo nome.  <br/> |
-|UnifiedMessaging  <br/> |Identifica a ID do conjunto de propriedade mensagens unificadas pelo nome.  <br/> |
+|Endereço  <br/> |Identifica o ID do conjunto de propriedades de endereço por nome.  <br/> |
+|Compromisso  <br/> |Identifica o ID do conjunto de propriedades de compromisso por nome.  <br/> |
+|CalendarAssistant  <br/> |Identifica a propriedade do assistente de calendário ID definida por nome.  <br/> |
+|Comum  <br/> |Identifica a ID do conjunto de propriedades comuns por nome.  <br/> |
+|InternetHeaders  <br/> |Identifica a ID do conjunto de propriedades de cabeçalhos da Internet por nome.  <br/> |
+|Atenda  <br/> |Identifica a ID do conjunto de propriedades da reunião por nome.  <br/> |
+|Compartilhamento  <br/> | <br/> |
+|PublicStrings  <br/> |Identifica a ID do conjunto de propriedades de cadeia de caracteres pública por nome.  <br/> |
+|Tarefa  <br/> |Identifica o ID do conjunto de propriedades da tarefa por nome.  <br/> |
+|UnifiedMessaging  <br/> |Identifica o ID do conjunto de propriedades da Unificação de mensagens por nome.  <br/> |
    
-#### <a name="propertytype-attribute"></a>Atributo PropertyType
+#### <a name="propertytype-attribute"></a>Atributo Recordtypepropriedade
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|ApplicationTime  <br/> |Um valor double que será interpretado como uma data e hora. A parte inteira é a data e a parte de fração é a hora.  <br/> |
-|ApplicationTimeArray  <br/> |Uma matriz de valores duplos que são interpretadas como uma data e hora.  <br/> |
-|Binário  <br/> |Um valor binário codificado na Base64.  <br/> |
-|BinaryArray  <br/> |Uma matriz de valores binários codificado na Base64.  <br/> |
-|Booliano  <br/> |Um booleano **true** ou **false**.  <br/> |
+|Applicationtime  <br/> |Um valor Double que é interpretado como data e hora. A parte inteira é a data e a parte fracionária é a hora.  <br/> |
+|ApplicationTimeArray  <br/> |Uma matriz de valores double interpretados como data e hora.  <br/> |
+|Binária  <br/> |Um valor binário codificado em base64.  <br/> |
+|BinaryArray  <br/> |Uma matriz de valores binários codificados em base64.  <br/> |
+|Booliano  <br/> |Um booliano **true** ou **false**.  <br/> |
 |CLSID  <br/> |Uma cadeia de caracteres GUID.  <br/> |
 |CLSIDArray  <br/> |Uma matriz de cadeias de caracteres GUID.  <br/> |
-|Moeda  <br/> |Um inteiro de 64 bits que será interpretado como o número de centavos.  <br/> |
-|CurrencyArray  <br/> |Uma matriz de números inteiros de 64 bits que são interpretadas como o número de centavos.  <br/> |
-|Double  <br/> |Um valor de ponto flutuante de 64 bits.  <br/> |
+|Moeda  <br/> |Um inteiro de 64 bits interpretado como o número de centavos.  <br/> |
+|CurrencyArray  <br/> |Uma matriz de inteiros de 64 bits interpretados como o número de centavos.  <br/> |
+|Duplo  <br/> |Um valor de ponto flutuante de 64 bits.  <br/> |
 |DoubleArray  <br/> |Uma matriz de valores de ponto flutuante de 64 bits.  <br/> |
-|Error  <br/> |Valor SCODE; inteiro não assinado de 32 bits.  <br/> Não é usado para restrições ou valores de obtenção/configuração. Isso existe apenas para relatório.  <br/> |
-|Flutuante  <br/> |Um valor de ponto flutuante de 32 bits.  <br/> |
+|Erro  <br/> |Valor SCODE; número inteiro não assinado de 32 bits.  <br/> Não é usado para restrições ou para obter/definir valores. Isso existe somente para relatórios.  <br/> |
+|Flutuação  <br/> |Um valor de ponto flutuante de 32 bits.  <br/> |
 |FloatArray  <br/> |Uma matriz de valores de ponto flutuante de 32 bits.  <br/> |
-|Inteiro  <br/> |Um inteiro assinado de (Int32) de 32 bits.  <br/> |
-|IntegerArray  <br/> |Uma matriz de números inteiros (Int32) de 32 bits assinados.  <br/> |
-|Long  <br/> |Um sinal ou 64 bits (Int64) inteiro.  <br/> |
-|LongArray  <br/> |Uma matriz de sinal ou (Int64) de 64 bits inteiros.  <br/> |
-|Null  <br/> |Não indica que nenhum valor de propriedade.  <br/> Não é usado para restrições ou valores de obtenção/configuração. Isso existe apenas para relatório.  <br/> |
-|Objeto  <br/> |Um ponteiro para um objeto que implementa a interface IUnknown.  <br/> Não é usado para restrições ou valores de obtenção/configuração. Isso existe apenas para relatório.  <br/> |
-|ObjectArray  <br/> |Uma matriz de ponteiros para objetos que implementem a interface IUnknown.  <br/> Não é usado para restrições ou valores de obtenção/configuração. Isso existe apenas para relatório.  <br/> |
-|Curto  <br/> |Um inteiro assinado de 16 bits.  <br/> |
-|ShortArray  <br/> |Uma matriz de números inteiros de 16 bits assinadas.  <br/> |
-|SystemTime  <br/> |Um inteiro de 64 bits a data e hora valor na forma de uma estrutura FILETIME.  <br/> |
-|SystemTimeArray  <br/> |Uma matriz de valores de data e hora de inteiro de 64 bits na forma de uma estrutura FILETIME.  <br/> |
+|Número inteiro  <br/> |Um inteiro de 32 bits assinado (Int32).  <br/> |
+|IntegerArray  <br/> |Uma matriz de inteiros assinados de 32 bits (Int32).  <br/> |
+|Longo  <br/> |Um inteiro de 64 bits assinado ou não assinado (Int64).  <br/> |
+|LongArray  <br/> |Uma matriz de inteiros assinados ou não assinados de 64 bits (Int64).  <br/> |
+|Nulo  <br/> |Indica nenhum valor de propriedade.  <br/> Não é usado para restrições ou para obter/definir valores. Isso existe somente para relatórios.  <br/> |
+|Objeto  <br/> |Um ponteiro para um objeto que implementa a interface IUnknown.  <br/> Não é usado para restrições ou para obter/definir valores. Isso existe somente para relatórios.  <br/> |
+|Objectarray  <br/> |Uma matriz de ponteiros para objetos que implementam a interface IUnknown.  <br/> Não é usado para restrições ou para obter/definir valores. Isso existe somente para relatórios.  <br/> |
+|Curto  <br/> |Um inteiro de 16 bits assinado.  <br/> |
+|ShortArray  <br/> |Uma matriz de inteiros de 16 bits assinados.  <br/> |
+|SystemTime  <br/> |Um valor de data e hora inteiro de 64 bits na forma de uma estrutura FILETIME.  <br/> |
+|SystemTimeArray  <br/> |Uma matriz de dados inteiros de 64 bits e valores de tempo na forma de uma estrutura FILETIME.  <br/> |
 |String  <br/> |Uma cadeia de caracteres Unicode.  <br/> |
 |StringArray  <br/> |Uma matriz de cadeias de caracteres Unicode.  <br/> |
    
@@ -98,48 +100,48 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[ExtendedProperty](extendedproperty.md) <br/> |Identifica as propriedades estendidas em pastas e itens.  <br/> |
-|[AdditionalProperties](additionalproperties.md) <br/> | Identifica as propriedades adicionais.<br/><br/>A seguir estão as expressões XPath para esse elemento:<br/><br/>`/FindFolder/FolderShape/AdditionalProperties` <br/>  `/GetFolder/FolderShape/AdditionalProperties` <br/>  `/SyncFolderHierarchy/FolderShape/AdditionalProperties` <br/>  `/GetItem/ItemShape/AdditionalProperties` <br/>  `/FindItem/ItemShape/AdditionalProperties` <br/>  `/SyncFolderItems/ItemShape/AdditionalProperties` <br/>  `/GetAttachment/AttachmentShape/AdditionalProperties` <br/> |
-|[SetItemField](setitemfield.md) <br/> |Representa uma atualização para uma única propriedade de um item em uma [operação UpdateItem](updateitem-operation.md).  <br/> |
-|[SetFolderField](setfolderfield.md) <br/> |Representa uma atualização para uma única propriedade em uma pasta em uma [operação UpdateFolder](updatefolder-operation.md).  <br/> |
+|[AdditionalProperties](additionalproperties.md) <br/> | Identifica propriedades adicionais.<br/><br/>A seguir estão as expressões XPath para este elemento:<br/><br/>`/FindFolder/FolderShape/AdditionalProperties` <br/>  `/GetFolder/FolderShape/AdditionalProperties` <br/>  `/SyncFolderHierarchy/FolderShape/AdditionalProperties` <br/>  `/GetItem/ItemShape/AdditionalProperties` <br/>  `/FindItem/ItemShape/AdditionalProperties` <br/>  `/SyncFolderItems/ItemShape/AdditionalProperties` <br/>  `/GetAttachment/AttachmentShape/AdditionalProperties` <br/> |
+|[Setitemfield](setitemfield.md) <br/> |Representa uma atualização de uma única propriedade de um item em uma [operação UpdateItem](updateitem-operation.md).  <br/> |
+|[Setfolderfield](setfolderfield.md) <br/> |Representa uma atualização de uma única propriedade em uma pasta em uma [operação UpdateFolder](updatefolder-operation.md).  <br/> |
 |[DeleteItemField](deleteitemfield.md) <br/> |Representa uma operação de exclusão para excluir uma determinada propriedade de um item durante uma [operação UpdateItem](updateitem-operation.md).  <br/> |
-|[DeleteFolderField](deletefolderfield.md) <br/> |Representa uma operação de exclusão para excluir uma determinada propriedade de uma pasta durante uma chamada de UpdateFolder.  <br/> |
+|[DeleteFolderField](deletefolderfield.md) <br/> |Representa uma operação de exclusão para excluir uma determinada propriedade de uma pasta durante uma chamada UpdateFolder.  <br/> |
 |[AppendToItemField](appendtoitemfield.md) <br/> |Identifica os dados a serem acrescentados a uma única propriedade de um item durante uma [operação UpdateItem](updateitem-operation.md).  <br/> |
 |[AppendToFolderField](appendtofolderfield.md) <br/> |Especifica os dados a serem acrescentados a uma propriedade de pasta durante uma [operação UpdateFolder](updatefolder-operation.md).  <br/> |
-|[Existe](exists.md) <br/> |Representa uma expressão de pesquisa que retornará **true** se a propriedade fornecida existir em um item.  <br/> |
+|[Existe](exists.md) <br/> |Representa uma expressão de pesquisa que retorna **true** se a propriedade fornecida existir em um item.  <br/> |
 |[FieldURIOrConstant](fielduriorconstant.md) <br/> |Representa uma propriedade ou um valor de constante a ser usado ao comparar com outra propriedade.  <br/> |
-|[IsEqualTo](isequalto.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com a um valor de constante ou outra propriedade e será avaliada como **true** , se eles forem iguais.  <br/> |
-|[IsGreaterThan](isgreaterthan.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com um valor de constante ou outra propriedade e retorna **true** se a primeira propriedade for maior.  <br/> |
-|[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com um valor de constante ou outra propriedade e retorna **true** se a propriedade primeira for maior que ou igual à segunda.  <br/> |
-|[IsLessThan](islessthan.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com a um valor de constante ou outra propriedade e retorna **true** se a primeira propriedade for menor do que o segundo.  <br/> |
-|[IsLessThanOrEqualTo](islessthanorequalto.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com a um valor de constante ou outra propriedade e retorna **true** se a primeira propriedade for menor do que o segundo.  <br/> |
-|[IsNotEqualTo](isnotequalto.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com um valor de constante ou outra propriedade e retorna **true** se os valores não são iguais.  <br/> |
-|[Excludes](excludes.md) <br/> |Executa uma máscara de bit a bit das propriedades.  <br/> |
+|[IsEqualTo](isequalto.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com um valor constante ou outra propriedade e é avaliada como **true** se elas forem iguais.  <br/> |
+|[IsGreaterThan](isgreaterthan.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com um valor constante ou outra propriedade e retorna **true** se a primeira propriedade é maior.  <br/> |
+|[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com um valor constante ou outra propriedade e retorna **true** se a primeira propriedade for maior ou igual à segunda.  <br/> |
+|[IsLessThan](islessthan.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com um valor constante ou outra propriedade e retorna **true** se a primeira propriedade for menor do que o segundo.  <br/> |
+|[IsLessThanOrEqualTo](islessthanorequalto.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com um valor constante ou outra propriedade e retorna **true** se a primeira propriedade for menor do que o segundo.  <br/> |
+|[IsNotEqualTo](isnotequalto.md) <br/> |Representa uma expressão de pesquisa que compara uma propriedade com um valor constante ou outra propriedade e retorna **true** se os valores não forem iguais.  <br/> |
+|[Exclui](excludes.md) <br/> |Executa uma máscara de bits bit das propriedades.  <br/> |
 |[Contém](contains.md) <br/> |Representa uma expressão de pesquisa que determina se uma determinada propriedade contém o valor de cadeia de caracteres constante fornecido.  <br/> |
-|[FieldOrder](fieldorder.md) <br/> |Representa um único campo pelo qual fazer a classificação de resultados e indica a direção para a classificação.  <br/> |
+|[FieldOrder](fieldorder.md) <br/> |Representa um único campo pelo qual classificar os resultados e indica a direção da classificação.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Alguns atributos não podem ser usados em combinação com outros atributos. Qualquer solicitação que vem com uma combinação de atributos de propriedade estendida inválida gerará uma mensagem de erro.
+Alguns atributos não podem ser usados em combinação com outros atributos. Qualquer solicitação que vier com uma combinação inválida de atributos de propriedade estendida irá gerar uma mensagem de erro.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
 > [!NOTE]
-> No Microsoft .NET, um Long é um inteiro assinado de 64 bits, enquanto em MAPI e COM, um Long é um inteiro de 32 bits. A maioria dos desenvolvedores usará o Microsoft.NET Framework para desenvolver aplicativos de cliente de serviços Web do Exchange. Portanto, a nomenclatura do .NET é usada no lugar de MAPI nomenclatura.
+> No Microsoft .NET, um Long é um inteiro assinado de 64 bits, enquanto em MAPI e COM, um Long é um inteiro de bit 32. A maioria dos desenvolvedores usará a estrutura do Microsoft.NET para desenvolver aplicativos clientes de serviços Web do Exchange. Portanto, o nome do .NET é usado em vez do nome do MAPI.
 > 
-> Por exemplo, a propriedade de MAPI PR_MESSAGE_FLAGS, 0x0E07, é um PT\_digite longos. No .NET, isso é considerado um número inteiro. Uma propriedade estendida para PR_MESSAGE_FLAGS é definida como `<t:ExtendedFieldURI PropertyTag="0x0E07" PropertyType="Integer"/>`. 
+> Por exemplo, a propriedade PR_MESSAGE_FLAGS MAPI, 0x0E07, é um \_ tipo pt Long. No .NET, isso é considerado um inteiro. Uma propriedade estendida para PR_MESSAGE_FLAGS é definida como `<t:ExtendedFieldURI PropertyTag="0x0E07" PropertyType="Integer"/>` . 
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação cria um item que possui duas propriedades personalizadas. A primeira propriedade personalizada é nomeada **IsMyHouse** com um valor Boolean que defina como **true**. A segunda propriedade estendida personalizada é nomeada **HousePrices**. Ele contém uma matriz de valores de moeda. 
+O exemplo a seguir de uma solicitação cria um item que tem duas propriedades personalizadas. A primeira propriedade personalizada é denominada **IsMyHouse** com um valor booliano definido como **true**. A segunda propriedade estendida personalizada é denominada **HousePrices**. Ele contém uma matriz de valores de moeda. 
   
 ```XML
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
     MessageDisposition="SaveOnly">
       <SavedItemFolderId>
         <t:DistinguishedFolderId Id="inbox"/>
@@ -172,16 +174,16 @@ O exemplo a seguir de uma solicitação cria um item que possui duas propriedade
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [FieldURI](fielduri.md)
 - [IndexedFieldURI](indexedfielduri.md)

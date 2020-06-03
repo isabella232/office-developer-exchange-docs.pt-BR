@@ -13,7 +13,7 @@ ms.openlocfilehash: 5e2f9d5b2f9ad45359f180f1121a34ccf9cd89cc
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467988"
 ---
 # <a name="message-pox"></a>Mensagem (POX)
@@ -50,7 +50,7 @@ Nenhum.
 
 O valor de texto representa a mensagem de erro para a resposta de descoberta automática de erro.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

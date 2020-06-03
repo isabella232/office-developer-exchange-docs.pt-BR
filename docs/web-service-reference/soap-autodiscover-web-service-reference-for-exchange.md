@@ -13,7 +13,7 @@ ms.openlocfilehash: bfca8e8e260a6262d12542bd6834894a2375453f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468422"
 ---
 # <a name="soap-autodiscover-web-service-reference-for-exchange"></a>Referência de serviço Web de descoberta automática do SOAP para Exchange
@@ -46,7 +46,7 @@ Esta seção também fornece exemplos e descrições das mensagens usadas para r
     
 - [Elementos XML de descoberta automática SOAP para o Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Referência do serviço Web de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)

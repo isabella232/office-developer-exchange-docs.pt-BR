@@ -12,7 +12,7 @@ ms.openlocfilehash: 2cb9cd31d1adf0c6fecf803a8b42bc88330a14d1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468730"
 ---
 # <a name="inlineimageurltemplate"></a>InlineImageUrlTemplate
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

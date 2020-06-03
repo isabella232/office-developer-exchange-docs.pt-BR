@@ -13,7 +13,7 @@ ms.openlocfilehash: 4986a3404763e88fb3e84d52a5d30d54c810f93a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467918"
 ---
 # <a name="deploymentid-pox"></a>DeploymentId (POX)
@@ -55,7 +55,7 @@ O valor de texto identifica exclusivamente a floresta do Exchange 2007 no format
 
 Se você desinstalar e depois reinstalar o Exchange 2007 e usar o mesmo nome de servidor, o valor **DeploymentId** será alterado. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

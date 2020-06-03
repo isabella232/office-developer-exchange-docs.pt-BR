@@ -13,7 +13,7 @@ ms.openlocfilehash: 6eb1ddbd7ebf725b38ddc9bc70434c918aaca39f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468387"
 ---
 # <a name="mdbdn-pox"></a>MdbDN (POX)
@@ -56,7 +56,7 @@ Nenhum.
 
 O valor de texto representa o nome distinto do banco de dados de caixa de correio.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

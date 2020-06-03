@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 04b70f9e-c226-4130-958e-0db0275cf58b
 description: O elemento EventType é usado para criar uma assinatura e identifica um tipo de evento a ser relatado em uma notificação.
-ms.openlocfilehash: fb54c9e042f105d10e68cb0e9b48feae7ed8bf7b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 58c7ce571434b6fb8ac0b1dc2a3f8cd4fd56ff17
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752104"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526169"
 ---
 # <a name="eventtype"></a>EventType
 
@@ -28,13 +28,13 @@ O elemento **EventType** é usado para criar uma assinatura e identifica um tipo
 ```
 
  **NotificationEventTypeType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[EventTypes](eventtypes.md) <br/> |Contém uma coleção dos tipos de evento de notificação de evento que são usados para criar uma assinatura.  <br/> |
+|[EventType](eventtypes.md) <br/> |Contém uma coleção de tipos de eventos de notificação de eventos que são usados para criar uma assinatura.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. Veja a seguir os valores possíveis:
+Um valor de texto é obrigatório. Veja a seguir os valores possíveis:
   
 - CopiedEvent
     
@@ -66,22 +66,22 @@ Nenhum.
     
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.This elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Inscrever-se a operação](subscribe-operation.md)
+[Operação Subscribe](subscribe-operation.md)
   
 [Operação GetEvents](getevents-operation.md)
   

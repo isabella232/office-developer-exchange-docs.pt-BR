@@ -12,7 +12,7 @@ ms.openlocfilehash: 883a9b7ed45add423cbe942d1eabb90c53ac1ddf
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468107"
 ---
 # <a name="preview"></a>Visualização

@@ -11,7 +11,7 @@ ms.openlocfilehash: f3144a673a4c98aad821e21c562141b0ae00f426
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467981"
 ---
 # <a name="microsoftonline-pox"></a>MicrosoftOnline (POX)
@@ -52,7 +52,7 @@ Nenhum.
 
 O valor de texto indica se a caixa de correio do usuário está hospedada no Exchange Online. O valor será **true** se a caixa de correio do usuário estiver hospedada no Exchange Online; caso contrário, **false**.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

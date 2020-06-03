@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45ca2500-ceab-4c98-9576-cb9e158e5896
-description: O elemento GetClientAccessTokenResponseMessage Especifica a mensagem de resposta para uma solicitação de GetClientAccessToken.
-ms.openlocfilehash: 16fe684dd48f77156ed88d02a6ae7b8f3312cd87
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GetClientAccessTokenResponseMessage especifica a mensagem de resposta para uma solicitação GetClientAccessToken.
+ms.openlocfilehash: e842353dfe91fa7df410203b53e22d5ec53e1e39
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752424"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526680"
 ---
 # <a name="getclientaccesstokenresponsemessage"></a>GetClientAccessTokenResponseMessage
 
-O elemento **GetClientAccessTokenResponseMessage** Especifica a mensagem de resposta para uma solicitação de **GetClientAccessToken** . 
+O elemento **GetClientAccessTokenResponseMessage** especifica a mensagem de resposta para uma solicitação **GetClientAccessToken** . 
   
 ```XML
 <GetClientAccessTokenResponseMessage ResponseClass=" Success | Warning | Error ">
@@ -30,13 +30,13 @@ O elemento **GetClientAccessTokenResponseMessage** Especifica a mensagem de resp
 ```
 
  **GetClientAccessTokenResponseMessageType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
 |ResponseClass  <br/> |Indica a classe da resposta.  <br/> |
    
@@ -44,7 +44,7 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Êxito  <br/> |Indica o sucesso.  <br/> |
+|Êxito  <br/> |Indica êxito.  <br/> |
 |Aviso  <br/> |Indica um aviso.  <br/> |
 |Erro  <br/> |Indica um erro.  <br/> |
    
@@ -52,10 +52,10 @@ As seções a seguir descrevem os atributos e elementos filho elementos pai.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Token (ClientAccessTokenType)](token-clientaccesstokentype.md) <br/> |Especifica um token de acesso do cliente.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |No momento não utilizados e reservada para uso futuro.  <br/> |
+|[Token (ClientAccessTokenType)](token-clientaccesstokentype.md) <br/> |Especifica um token de acesso para cliente.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Atualmente não usado e reservado para uso futuro.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fornece uma descrição de texto do status da resposta.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fornece informações de resposta de erro adicionais.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta de erro.  <br/> |
 |[ResponseCode](responsecode.md) <br/> |Fornece informações de status sobre a solicitação.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
@@ -70,13 +70,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nome do esquema  <br/> |Esquema de mensagem  <br/> |
-|Arquivo de validação  <br/> |messages.xsd  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nome do esquema  <br/> |Esquema de mensagens  <br/> |
+|Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também
