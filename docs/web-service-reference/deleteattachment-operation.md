@@ -16,24 +16,24 @@ ms.openlocfilehash: 1d34ce4c5ba1d955989a35dafb8ab3c5d229d505
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457330"
 ---
-# <a name="deleteattachment-operation"></a><span data-ttu-id="0f1ec-103">Operação DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="0f1ec-103">DeleteAttachment operation</span></span>
+# <a name="deleteattachment-operation"></a><span data-ttu-id="ce523-103">Operação DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="ce523-103">DeleteAttachment operation</span></span>
 
-<span data-ttu-id="0f1ec-104">A operação DeleteAttachment é usada para excluir anexos de arquivo e de item de um item existente no repositório do Exchange.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-104">The DeleteAttachment operation is used to delete file and item attachments from an existing item in the Exchange store.</span></span>
+<span data-ttu-id="ce523-104">A operação DeleteAttachment é usada para excluir anexos de arquivo e de item de um item existente no repositório do Exchange.</span><span class="sxs-lookup"><span data-stu-id="ce523-104">The DeleteAttachment operation is used to delete file and item attachments from an existing item in the Exchange store.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0f1ec-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="0f1ec-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ce523-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="ce523-105">Remarks</span></span>
 
-<span data-ttu-id="0f1ec-106">Essa operação permite que você exclua um ou mais anexos por ID.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-106">This operation allows you to delete one or more attachments by ID.</span></span>
+<span data-ttu-id="ce523-106">Essa operação permite que você exclua um ou mais anexos por ID.</span><span class="sxs-lookup"><span data-stu-id="ce523-106">This operation allows you to delete one or more attachments by ID.</span></span>
   
-## <a name="deleteattachment-request-example"></a><span data-ttu-id="0f1ec-107">Exemplo de solicitação DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="0f1ec-107">DeleteAttachment request example</span></span>
+## <a name="deleteattachment-request-example"></a><span data-ttu-id="ce523-107">Exemplo de solicitação DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="ce523-107">DeleteAttachment request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="0f1ec-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="0f1ec-108">Description</span></span>
+### <a name="description"></a><span data-ttu-id="ce523-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="ce523-108">Description</span></span>
 
-<span data-ttu-id="0f1ec-109">O exemplo a seguir de uma solicitação DeleteAttachment mostra como excluir um anexo de item.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-109">The following example of a DeleteAttachment request shows how to delete an item attachment.</span></span>
+<span data-ttu-id="ce523-109">O exemplo a seguir de uma solicitação DeleteAttachment mostra como excluir um anexo de item.</span><span class="sxs-lookup"><span data-stu-id="ce523-109">The following example of a DeleteAttachment request shows how to delete an item attachment.</span></span>
   
-### <a name="code"></a><span data-ttu-id="0f1ec-110">Código</span><span class="sxs-lookup"><span data-stu-id="0f1ec-110">Code</span></span>
+### <a name="code"></a><span data-ttu-id="ce523-110">Código</span><span class="sxs-lookup"><span data-stu-id="ce523-110">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,27 +52,27 @@ ms.locfileid: "44457330"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="0f1ec-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="0f1ec-111">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="ce523-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="ce523-111">Comments</span></span>
 
-<span data-ttu-id="0f1ec-112">O identificador de anexo foi reduzido para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-112">The attachment identifier has been shortened to preserve readability.</span></span>
+<span data-ttu-id="ce523-112">O identificador de anexo foi reduzido para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="ce523-112">The attachment identifier has been shortened to preserve readability.</span></span>
   
-### <a name="request-elements"></a><span data-ttu-id="0f1ec-113">Elementos Request</span><span class="sxs-lookup"><span data-stu-id="0f1ec-113">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="ce523-113">Elementos Request</span><span class="sxs-lookup"><span data-stu-id="ce523-113">Request elements</span></span>
 
-<span data-ttu-id="0f1ec-114">Os seguintes elementos são usados na solicitação:</span><span class="sxs-lookup"><span data-stu-id="0f1ec-114">The following elements are used in the request:</span></span>
+<span data-ttu-id="ce523-114">Os seguintes elementos são usados na solicitação:</span><span class="sxs-lookup"><span data-stu-id="ce523-114">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="0f1ec-115">DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="0f1ec-115">DeleteAttachment</span></span>](deleteattachment.md)
+- [<span data-ttu-id="ce523-115">DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="ce523-115">DeleteAttachment</span></span>](deleteattachment.md)
     
-- [<span data-ttu-id="0f1ec-116">AttachmentIds</span><span class="sxs-lookup"><span data-stu-id="0f1ec-116">AttachmentIds</span></span>](attachmentids.md)
+- [<span data-ttu-id="ce523-116">AttachmentIds</span><span class="sxs-lookup"><span data-stu-id="ce523-116">AttachmentIds</span></span>](attachmentids.md)
     
-- [<span data-ttu-id="0f1ec-117">Attachmentid</span><span class="sxs-lookup"><span data-stu-id="0f1ec-117">AttachmentId</span></span>](attachmentid.md)
+- [<span data-ttu-id="ce523-117">Attachmentid</span><span class="sxs-lookup"><span data-stu-id="ce523-117">AttachmentId</span></span>](attachmentid.md)
     
-## <a name="deleteattachment-response-example"></a><span data-ttu-id="0f1ec-118">Exemplo de resposta DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="0f1ec-118">DeleteAttachment response example</span></span>
+## <a name="deleteattachment-response-example"></a><span data-ttu-id="ce523-118">Exemplo de resposta DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="ce523-118">DeleteAttachment response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="0f1ec-119">Descrição</span><span class="sxs-lookup"><span data-stu-id="0f1ec-119">Description</span></span>
+### <a name="description"></a><span data-ttu-id="ce523-119">Descrição</span><span class="sxs-lookup"><span data-stu-id="ce523-119">Description</span></span>
 
-<span data-ttu-id="0f1ec-120">O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação DeleteAttachment.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-120">The following example shows a successful response to a DeleteAttachment request.</span></span>
+<span data-ttu-id="ce523-120">O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação DeleteAttachment.</span><span class="sxs-lookup"><span data-stu-id="ce523-120">The following example shows a successful response to a DeleteAttachment request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="0f1ec-121">Código</span><span class="sxs-lookup"><span data-stu-id="0f1ec-121">Code</span></span>
+### <a name="code"></a><span data-ttu-id="ce523-121">Código</span><span class="sxs-lookup"><span data-stu-id="ce523-121">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -98,33 +98,33 @@ ms.locfileid: "44457330"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="0f1ec-122">Comentários</span><span class="sxs-lookup"><span data-stu-id="0f1ec-122">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="ce523-122">Comentários</span><span class="sxs-lookup"><span data-stu-id="ce523-122">Comments</span></span>
 
-<span data-ttu-id="0f1ec-123">A operação CreateAttachment retorna um elemento do tipo AttachmentIdType que inclui um **RootItemId** e **RootItemChangeKey**.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-123">The CreateAttachment operation returns an element of AttachmentIdType type that includes a **RootItemId** and **RootItemChangeKey**.</span></span> <span data-ttu-id="0f1ec-124">Esses atributos não são permitidos para identificadores dentro de uma solicitação DeleteAttachment.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-124">These attributes are not permitted for identifiers within a DeleteAttachment request.</span></span> <span data-ttu-id="0f1ec-125">DeleteAttachment usa elementos do tipo RequestAttachmentIdType, que não inclui esses atributos.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-125">DeleteAttachment uses elements of type RequestAttachmentIdType, which does not include these attributes.</span></span>
+<span data-ttu-id="ce523-123">A operação CreateAttachment retorna um elemento do tipo AttachmentIdType que inclui um **RootItemId** e **RootItemChangeKey**.</span><span class="sxs-lookup"><span data-stu-id="ce523-123">The CreateAttachment operation returns an element of AttachmentIdType type that includes a **RootItemId** and **RootItemChangeKey**.</span></span> <span data-ttu-id="ce523-124">Esses atributos não são permitidos para identificadores dentro de uma solicitação DeleteAttachment.</span><span class="sxs-lookup"><span data-stu-id="ce523-124">These attributes are not permitted for identifiers within a DeleteAttachment request.</span></span> <span data-ttu-id="ce523-125">DeleteAttachment usa elementos do tipo RequestAttachmentIdType, que não inclui esses atributos.</span><span class="sxs-lookup"><span data-stu-id="ce523-125">DeleteAttachment uses elements of type RequestAttachmentIdType, which does not include these attributes.</span></span>
   
-<span data-ttu-id="0f1ec-126">A resposta DeleteAttachment inclui a ID do item pai.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-126">The DeleteAttachment response includes the ID of the parent item.</span></span> <span data-ttu-id="0f1ec-127">Quando os anexos são removidos de um item, a chave de alteração do item é modificada.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-127">When attachments are removed from an item, the item's change key is modified.</span></span> <span data-ttu-id="0f1ec-128">A nova chave de alteração de item pode ser obtida da resposta DeleteAttachment.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-128">The new item change key can be obtained from the DeleteAttachment response.</span></span>
+<span data-ttu-id="ce523-126">A resposta DeleteAttachment inclui a ID do item pai.</span><span class="sxs-lookup"><span data-stu-id="ce523-126">The DeleteAttachment response includes the ID of the parent item.</span></span> <span data-ttu-id="ce523-127">Quando os anexos são removidos de um item, a chave de alteração do item é modificada.</span><span class="sxs-lookup"><span data-stu-id="ce523-127">When attachments are removed from an item, the item's change key is modified.</span></span> <span data-ttu-id="ce523-128">A nova chave de alteração de item pode ser obtida da resposta DeleteAttachment.</span><span class="sxs-lookup"><span data-stu-id="ce523-128">The new item change key can be obtained from the DeleteAttachment response.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="0f1ec-129">O identificador [RootItemId](rootitemid.md) e o ChangeKey foram reduzidos para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="0f1ec-129">The [RootItemId](rootitemid.md) identifier and ChangeKey have been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="ce523-129">O identificador [RootItemId](rootitemid.md) e o ChangeKey foram reduzidos para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="ce523-129">The [RootItemId](rootitemid.md) identifier and ChangeKey have been shortened to preserve readability.</span></span> 
   
-### <a name="successful-response-elements"></a><span data-ttu-id="0f1ec-130">Elementos de resposta bem-sucedidos</span><span class="sxs-lookup"><span data-stu-id="0f1ec-130">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="ce523-130">Elementos de resposta bem-sucedidos</span><span class="sxs-lookup"><span data-stu-id="ce523-130">Successful response elements</span></span>
 
-<span data-ttu-id="0f1ec-131">Os seguintes elementos são usados na resposta:</span><span class="sxs-lookup"><span data-stu-id="0f1ec-131">The following elements are used in the response:</span></span>
+<span data-ttu-id="ce523-131">Os seguintes elementos são usados na resposta:</span><span class="sxs-lookup"><span data-stu-id="ce523-131">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="0f1ec-132">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="0f1ec-132">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="ce523-132">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="ce523-132">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="0f1ec-133">DeleteAttachmentResponse</span><span class="sxs-lookup"><span data-stu-id="0f1ec-133">DeleteAttachmentResponse</span></span>](deleteattachmentresponse.md)
+- [<span data-ttu-id="ce523-133">DeleteAttachmentResponse</span><span class="sxs-lookup"><span data-stu-id="ce523-133">DeleteAttachmentResponse</span></span>](deleteattachmentresponse.md)
     
-- [<span data-ttu-id="0f1ec-134">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="0f1ec-134">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="ce523-134">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="ce523-134">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="0f1ec-135">DeleteAttachmentResponseMessage</span><span class="sxs-lookup"><span data-stu-id="0f1ec-135">DeleteAttachmentResponseMessage</span></span>](deleteattachmentresponsemessage.md)
+- [<span data-ttu-id="ce523-135">DeleteAttachmentResponseMessage</span><span class="sxs-lookup"><span data-stu-id="ce523-135">DeleteAttachmentResponseMessage</span></span>](deleteattachmentresponsemessage.md)
     
-- [<span data-ttu-id="0f1ec-136">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="0f1ec-136">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="ce523-136">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="ce523-136">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="0f1ec-137">RootItemId</span><span class="sxs-lookup"><span data-stu-id="0f1ec-137">RootItemId</span></span>](rootitemid.md)
+- [<span data-ttu-id="ce523-137">RootItemId</span><span class="sxs-lookup"><span data-stu-id="ce523-137">RootItemId</span></span>](rootitemid.md)
     
-## <a name="see-also"></a><span data-ttu-id="0f1ec-138">Também consulte</span><span class="sxs-lookup"><span data-stu-id="0f1ec-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ce523-138">Confira também</span><span class="sxs-lookup"><span data-stu-id="ce523-138">See also</span></span>
 
-- [<span data-ttu-id="0f1ec-139">Operação CreateAttachment</span><span class="sxs-lookup"><span data-stu-id="0f1ec-139">CreateAttachment operation</span></span>](createattachment-operation.md) 
-- [<span data-ttu-id="0f1ec-140">Operação GetAttachment</span><span class="sxs-lookup"><span data-stu-id="0f1ec-140">GetAttachment operation</span></span>](getattachment-operation.md)
+- [<span data-ttu-id="ce523-139">Operação CreateAttachment</span><span class="sxs-lookup"><span data-stu-id="ce523-139">CreateAttachment operation</span></span>](createattachment-operation.md) 
+- [<span data-ttu-id="ce523-140">Operação GetAttachment</span><span class="sxs-lookup"><span data-stu-id="ce523-140">GetAttachment operation</span></span>](getattachment-operation.md)
 

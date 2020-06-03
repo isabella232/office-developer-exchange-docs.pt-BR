@@ -16,12 +16,12 @@ ms.openlocfilehash: e84223b7c41846ca2f174293bff46a8825777a0e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457302"
 ---
-# <a name="member"></a><span data-ttu-id="75ff2-103">Member</span><span class="sxs-lookup"><span data-stu-id="75ff2-103">Member</span></span>
+# <a name="member"></a><span data-ttu-id="aa494-103">Member</span><span class="sxs-lookup"><span data-stu-id="aa494-103">Member</span></span>
 
-<span data-ttu-id="75ff2-104">O elemento **Member** representa um membro de uma lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="75ff2-104">The **Member** element represents a member of a distribution list.</span></span> 
+<span data-ttu-id="aa494-104">O elemento **Member** representa um membro de uma lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="aa494-104">The **Member** element represents a member of a distribution list.</span></span> 
   
 ```xml
 <Member Key="">
@@ -30,45 +30,45 @@ ms.locfileid: "44457302"
 </Member>
 ```
 
-<span data-ttu-id="75ff2-105">**MemberType**</span><span class="sxs-lookup"><span data-stu-id="75ff2-105">**MemberType**</span></span>
+<span data-ttu-id="aa494-105">**MemberType**</span><span class="sxs-lookup"><span data-stu-id="aa494-105">**MemberType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="75ff2-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="75ff2-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="aa494-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="aa494-106">Attributes and elements</span></span>
 
-<span data-ttu-id="75ff2-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="75ff2-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="aa494-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="aa494-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="75ff2-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="75ff2-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="aa494-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="aa494-108">Attributes</span></span>
 
-|<span data-ttu-id="75ff2-109">**Atributo**</span><span class="sxs-lookup"><span data-stu-id="75ff2-109">**Attribute**</span></span>|<span data-ttu-id="75ff2-110">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="75ff2-110">**Description**</span></span>|
+|<span data-ttu-id="aa494-109">**Atributo**</span><span class="sxs-lookup"><span data-stu-id="aa494-109">**Attribute**</span></span>|<span data-ttu-id="aa494-110">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="aa494-110">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="75ff2-111">Chave</span><span class="sxs-lookup"><span data-stu-id="75ff2-111">Key</span></span>  <br/> |<span data-ttu-id="75ff2-112">Fornece um identificador exclusivo para o membro da lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="75ff2-112">Provides a unique identifier for the distribution list member.</span></span> <span data-ttu-id="75ff2-113">Esse atributo é opcional.</span><span class="sxs-lookup"><span data-stu-id="75ff2-113">This attribute is optional.</span></span>  <br/> |
+|<span data-ttu-id="aa494-111">Chave</span><span class="sxs-lookup"><span data-stu-id="aa494-111">Key</span></span>  <br/> |<span data-ttu-id="aa494-112">Fornece um identificador exclusivo para o membro da lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="aa494-112">Provides a unique identifier for the distribution list member.</span></span> <span data-ttu-id="aa494-113">Esse atributo é opcional.</span><span class="sxs-lookup"><span data-stu-id="aa494-113">This attribute is optional.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="75ff2-114">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="75ff2-114">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="aa494-114">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="aa494-114">Child elements</span></span>
 
-|<span data-ttu-id="75ff2-115">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="75ff2-115">**Element**</span></span>|<span data-ttu-id="75ff2-116">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="75ff2-116">**Description**</span></span>|
+|<span data-ttu-id="aa494-115">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="aa494-115">**Element**</span></span>|<span data-ttu-id="aa494-116">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="aa494-116">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="75ff2-117">Caixa de Correio</span><span class="sxs-lookup"><span data-stu-id="75ff2-117">Mailbox</span></span>](mailbox.md) <br/> |<span data-ttu-id="75ff2-118">Representa o endereço de email do membro da lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="75ff2-118">Represents the e-mail address of the distribution list member.</span></span> <span data-ttu-id="75ff2-119">Este elemento é opcional.</span><span class="sxs-lookup"><span data-stu-id="75ff2-119">This element is optional.</span></span>  <br/> |
-|[<span data-ttu-id="75ff2-120">Status (MemberStatusType)</span><span class="sxs-lookup"><span data-stu-id="75ff2-120">Status (MemberStatusType)</span></span>](status-memberstatustype.md) <br/> |<span data-ttu-id="75ff2-121">Fornece informações sobre o status de um membro da lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="75ff2-121">Provides information about the status of a distribution list member.</span></span> <span data-ttu-id="75ff2-122">Este elemento é opcional.</span><span class="sxs-lookup"><span data-stu-id="75ff2-122">This element is optional.</span></span>  <br/> |
+|[<span data-ttu-id="aa494-117">Caixa de Correio</span><span class="sxs-lookup"><span data-stu-id="aa494-117">Mailbox</span></span>](mailbox.md) <br/> |<span data-ttu-id="aa494-118">Representa o endereço de email do membro da lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="aa494-118">Represents the e-mail address of the distribution list member.</span></span> <span data-ttu-id="aa494-119">Este elemento é opcional.</span><span class="sxs-lookup"><span data-stu-id="aa494-119">This element is optional.</span></span>  <br/> |
+|[<span data-ttu-id="aa494-120">Status (MemberStatusType)</span><span class="sxs-lookup"><span data-stu-id="aa494-120">Status (MemberStatusType)</span></span>](status-memberstatustype.md) <br/> |<span data-ttu-id="aa494-121">Fornece informações sobre o status de um membro da lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="aa494-121">Provides information about the status of a distribution list member.</span></span> <span data-ttu-id="aa494-122">Este elemento é opcional.</span><span class="sxs-lookup"><span data-stu-id="aa494-122">This element is optional.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="75ff2-123">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="75ff2-123">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="aa494-123">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="aa494-123">Parent elements</span></span>
 
-|<span data-ttu-id="75ff2-124">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="75ff2-124">**Element**</span></span>|<span data-ttu-id="75ff2-125">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="75ff2-125">**Description**</span></span>|
+|<span data-ttu-id="aa494-124">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="aa494-124">**Element**</span></span>|<span data-ttu-id="aa494-125">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="aa494-125">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="75ff2-126">Membros (MemberListType)</span><span class="sxs-lookup"><span data-stu-id="75ff2-126">Members (MemberListType)</span></span>](members-memberlisttype.md) <br/> |<span data-ttu-id="75ff2-127">Contém uma lista de membros da lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="75ff2-127">Contains a list of distribution list members.</span></span>  <br/> |
+|[<span data-ttu-id="aa494-126">Membros (MemberListType)</span><span class="sxs-lookup"><span data-stu-id="aa494-126">Members (MemberListType)</span></span>](members-memberlisttype.md) <br/> |<span data-ttu-id="aa494-127">Contém uma lista de membros da lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="aa494-127">Contains a list of distribution list members.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="75ff2-128">Comentários</span><span class="sxs-lookup"><span data-stu-id="75ff2-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="aa494-128">Comentários</span><span class="sxs-lookup"><span data-stu-id="aa494-128">Remarks</span></span>
 
-<span data-ttu-id="75ff2-129">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="75ff2-129">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="aa494-129">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="aa494-129">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="75ff2-130">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="75ff2-130">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="aa494-130">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="aa494-130">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="75ff2-131">Namespace</span><span class="sxs-lookup"><span data-stu-id="75ff2-131">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="75ff2-132">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="75ff2-132">Schema Name</span></span>  <br/> |<span data-ttu-id="75ff2-133">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="75ff2-133">Types schema</span></span>  <br/> |
-|<span data-ttu-id="75ff2-134">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="75ff2-134">Validation File</span></span>  <br/> |<span data-ttu-id="75ff2-135">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="75ff2-135">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="75ff2-136">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="75ff2-136">Can be Empty</span></span>  <br/> |<span data-ttu-id="75ff2-137">False</span><span class="sxs-lookup"><span data-stu-id="75ff2-137">False</span></span>  <br/> |
+|<span data-ttu-id="aa494-131">Namespace</span><span class="sxs-lookup"><span data-stu-id="aa494-131">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="aa494-132">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="aa494-132">Schema Name</span></span>  <br/> |<span data-ttu-id="aa494-133">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="aa494-133">Types schema</span></span>  <br/> |
+|<span data-ttu-id="aa494-134">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="aa494-134">Validation File</span></span>  <br/> |<span data-ttu-id="aa494-135">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="aa494-135">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="aa494-136">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="aa494-136">Can be Empty</span></span>  <br/> |<span data-ttu-id="aa494-137">False</span><span class="sxs-lookup"><span data-stu-id="aa494-137">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="75ff2-138">Confira também</span><span class="sxs-lookup"><span data-stu-id="75ff2-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aa494-138">Confira também</span><span class="sxs-lookup"><span data-stu-id="aa494-138">See also</span></span>
 
-- [<span data-ttu-id="75ff2-139">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="75ff2-139">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="aa494-139">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="aa494-139">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
