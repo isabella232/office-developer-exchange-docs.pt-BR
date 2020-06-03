@@ -11,7 +11,7 @@ ms.openlocfilehash: 53238caef1287536de838f4167e8937c182b41b0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459010"
 ---
 # <a name="smtpaddress-soap"></a>SmtpAddress (SOAP)
@@ -55,7 +55,7 @@ O valor de texto do elemento **smtpAddress** é o endereço de email SMTP da cai
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Referência do serviço Web de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
 - [Elementos XML de descoberta automática SOAP para o Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)

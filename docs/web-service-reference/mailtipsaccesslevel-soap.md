@@ -11,7 +11,7 @@ ms.openlocfilehash: 8e3a467f7aa8484fc8a4bfb23f8b4ac4c138ccad
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458065"
 ---
 # <a name="mailtipsaccesslevel-soap"></a>MailTipsAccessLevel (SOAP)
@@ -54,7 +54,7 @@ Este elemento Especifica a quantidade máxima de detalhes de dicas de email que 
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

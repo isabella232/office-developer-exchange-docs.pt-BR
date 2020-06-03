@@ -13,7 +13,7 @@ ms.openlocfilehash: c0728af063cfbf1353eb7d3b81f5fcfe8b398f7d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457260"
 ---
 # <a name="owaurl-pox"></a>OWAUrl (POX)
@@ -70,7 +70,7 @@ Nenhum.
 
 O valor de texto representa a URL do serviço do Outlook Web Access em um servidor de acesso para cliente.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

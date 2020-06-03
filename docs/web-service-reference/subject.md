@@ -16,7 +16,7 @@ ms.openlocfilehash: c4d7c21ab70c21ceb63e53d008d25aebf8e22270
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458968"
 ---
 # <a name="subject"></a>Assunto
@@ -55,7 +55,7 @@ Nenhum.
 |[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião no repositório do Exchange.  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Representa um email no repositório do Exchange.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa um email no repositório do Exchange.  <br/> |
 |[MessageTrackingReport](messagetrackingreport.md) <br/> |Contém uma única mensagem que é retornada em uma [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
 |[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contém um único resultado de mensagem para um elemento [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Representa um objeto de resposta Remover item.  <br/> |

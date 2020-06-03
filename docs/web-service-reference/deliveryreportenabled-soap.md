@@ -11,7 +11,7 @@ ms.openlocfilehash: 2a163b3e6ceaa169cc8f76f395b7d501419a31ed
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458471"
 ---
 # <a name="deliveryreportenabled-soap"></a>DeliveryReportEnabled (SOAP)
@@ -58,7 +58,7 @@ Use este elemento para permitir ou suprimir os relatórios de entrega do servido
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operação GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

@@ -11,7 +11,7 @@ ms.openlocfilehash: 24f475e7f2d54fa565cc90796a983c0bd842e4da
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458681"
 ---
 # <a name="ecpurl-sms-pox"></a>EcpUrl-SMS (POX)
@@ -58,7 +58,7 @@ O valor de texto representa uma URL parcial que pode ser combinada com o valor d
 
 O elemento **EcpUrl-SMS** é um elemento filho opcional do elemento **Protocol** . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

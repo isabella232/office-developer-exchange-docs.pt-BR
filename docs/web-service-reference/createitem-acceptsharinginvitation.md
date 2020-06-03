@@ -16,7 +16,7 @@ ms.openlocfilehash: eda846b72f42fe886497b355d9cddade7c5f4044
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457512"
 ---
 # <a name="createitem-acceptsharinginvitation"></a>CreateItem (AcceptSharingInvitation)
@@ -173,7 +173,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [Itens](items.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

@@ -16,7 +16,7 @@ ms.openlocfilehash: 622faa622b0ea231a6331ff62631885d4252c1f5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457694"
 ---
 # <a name="getuseroofsettings-operation"></a>Operação GetUserOofSettings
@@ -142,7 +142,7 @@ Os seguintes elementos são usados na resposta:
     
 - [ExternalReply](externalreply.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Mensagem](message-ex15websvcsotherref.md)
     
 - [AllowExternalOof](allowexternaloof.md)
     
@@ -176,7 +176,7 @@ O exemplo a seguir mostra uma resposta de erro causada por uma tentativa de aces
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

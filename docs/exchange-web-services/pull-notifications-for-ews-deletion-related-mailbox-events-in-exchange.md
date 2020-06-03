@@ -10,7 +10,7 @@ ms.openlocfilehash: c3d98ff798e3d0f6d214111d51da2c81278fd17d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457652"
 ---
 # <a name="pull-notifications-for-ews-deletion-related-mailbox-events-in-exchange"></a>Notificações de recebimento para eventos de caixa de correio relacionados à exclusão do EWS no Exchange
@@ -30,7 +30,7 @@ Quando você [exclui itens e pastas de uma caixa de correio](deleting-items-by-u
 |Exclusão impressa por meio da [operação DeleteFolder](https://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |DeletedEvent para a pasta.  <br/> ModifiedEvent para a pasta pai da pasta.  <br/> |DeletedEvent para a pasta.  <br/> ModifiedEvent para a pasta pai da pasta.  <br/> |DeletedEvent para a pasta.  <br/> ModifiedEvent para a pasta pai da pasta.  <br/> |DeletedEvent para a pasta.  <br/> ModifiedEvent para a pasta pai da pasta.  <br/> |
 |Mover para a pasta itens excluídos por meio da [operação DeleteFolder](https://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |MovedEvent para a pasta. Isso especifica os identificadores de pasta pai antigo e novo.  <br/> ModifiedEvent para a pasta pai antiga da pasta.  <br/> ModifiedEvent para a nova pasta pai da pasta, que é a pasta itens excluídos.  <br/> |MovedEvent para a pasta. Isso especifica os identificadores de pasta pai antigo e novo.  <br/> ModifiedEvent para a pasta pai antiga da pasta.  <br/> ModifiedEvent para a nova pasta pai da pasta, que é a pasta itens excluídos.  <br/> |MovedEvent para a pasta. Isso especifica os identificadores de pasta pai antigo e novo.  <br/> ModifiedEvent para a pasta pai antiga da pasta.  <br/> ModifiedEvent para a nova pasta pai da pasta, que é a pasta itens excluídos.  <br/> |ModifiedEvent para a pasta pai antiga da pasta.  <br/> ModifiedEvent para a nova pasta pai da pasta que é a pasta itens excluídos.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Assinaturas de notificação, eventos de caixa de correio e EWS no Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)

@@ -15,7 +15,7 @@ ms.openlocfilehash: bcfb778d94b19b1ab82af3e0d6420bdbeb69878e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458429"
 ---
 # <a name="disconnectresponse-um-web-service"></a>DisconnectResponse (serviço Web da UM)
@@ -58,7 +58,7 @@ Nenhum
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operação de desconexão (serviço Web da UM)](disconnect-operation-um-web-service.md)
 

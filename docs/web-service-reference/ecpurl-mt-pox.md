@@ -11,7 +11,7 @@ ms.openlocfilehash: 097811add5635bca14c659814652bca244a1398d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458709"
 ---
 # <a name="ecpurl-mt-pox"></a>EcpUrl-MT (POX)
@@ -65,7 +65,7 @@ O valor de texto representa uma URL parcial que pode ser combinada com o valor d
 
 O elemento **EcpUrl-MT** é um elemento filho opcional do elemento **Protocol** . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

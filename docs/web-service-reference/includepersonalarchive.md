@@ -12,7 +12,7 @@ ms.openlocfilehash: a25dd45bc0717af8f949d14b88793af3821ca69f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458247"
 ---
 # <a name="includepersonalarchive"></a>IncludePersonalArchive
@@ -59,7 +59,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

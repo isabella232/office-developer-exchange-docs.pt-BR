@@ -11,7 +11,7 @@ ms.openlocfilehash: 88968aac604b77cd057dbc69c396227a489ac9a8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457085"
 ---
 # <a name="targetapplicationuri-soap"></a>TargetApplicationUri (SOAP)
@@ -54,7 +54,7 @@ Este elemento define o URI de destino da organização externa.
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

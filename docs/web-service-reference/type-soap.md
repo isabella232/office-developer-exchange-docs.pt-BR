@@ -13,7 +13,7 @@ ms.openlocfilehash: b94ab77b384fbc0658678225d1116568a63c73c2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458891"
 ---
 # <a name="type-soap"></a>Tipo (SOAP)
@@ -56,7 +56,7 @@ O valor de texto do elemento **Type** é o tipo de caixa de correio alternativo.
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

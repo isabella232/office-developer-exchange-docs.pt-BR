@@ -16,7 +16,7 @@ ms.openlocfilehash: f6aaa9ed8e8257f19780492d6137fb015c1b6136
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458863"
 ---
 # <a name="createitem-operation"></a>Operação CreateItem
@@ -62,7 +62,7 @@ A operação CreateItem também oferece suporte a objetos de reunião adicionais
 |Resposta da reunião  <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
 |Cancelamento de reunião  <br/> |Representa um cancelamento de reunião no repositório do Exchange.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

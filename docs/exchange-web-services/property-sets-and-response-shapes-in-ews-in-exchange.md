@@ -10,7 +10,7 @@ ms.openlocfilehash: 8f539a2131798e764574ef92f75deb654c02c90f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457659"
 ---
 # <a name="property-sets-and-response-shapes-in-ews-in-exchange"></a>Conjuntos de propriedades e formas de resposta no EWS no Exchange
@@ -247,7 +247,7 @@ Observações:
   
 1. Incluído na [associação a um item](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) e na resposta da [operação GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx). Não incluído no resultado do método [Item. FindItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) ou a resposta da [operação FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx).
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

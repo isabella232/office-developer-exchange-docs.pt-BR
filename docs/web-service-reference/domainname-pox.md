@@ -13,7 +13,7 @@ ms.openlocfilehash: ff38d6a876e396317dedece0a81a9f9f0db0f587
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458422"
 ---
 # <a name="domainname-pox"></a>DomainName (POX)
@@ -56,7 +56,7 @@ O valor de texto especifica o domínio do usuário.
 
 Se nenhum valor for especificado, a autenticação padrão será usar o endereço de email como um formato de nome principal de usuário (UPN). Por exemplo: \<Username\> @ \<Domain\> .
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

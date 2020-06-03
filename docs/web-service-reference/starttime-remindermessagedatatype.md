@@ -12,7 +12,7 @@ ms.openlocfilehash: bdd940656d5441a0a36cfcef8f4e0b5db1474a7a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458996"
 ---
 # <a name="starttime-remindermessagedatatype"></a>StartTime (ReminderMessageDataType)
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [ReminderMessageData](remindermessagedata.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

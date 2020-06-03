@@ -11,7 +11,7 @@ ms.openlocfilehash: 45d7e72c5a43c5c468c1edd303a5e5ea8c2cb62e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457967"
 ---
 # <a name="external-pox"></a>Externo (POX)
@@ -64,7 +64,7 @@ Nenhum
 
 O elemento **externo** é um elemento filho opcional do elemento **Protocol** . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

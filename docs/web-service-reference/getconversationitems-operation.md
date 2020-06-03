@@ -12,7 +12,7 @@ ms.openlocfilehash: ddeb5386e56653a32ca2e6d212518704cd0f0c58
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457778"
 ---
 # <a name="getconversationitems-operation"></a>Operação GetConversationItems
@@ -227,7 +227,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Mensagem](message-ex15websvcsotherref.md)
     
 - [ItemId](itemid.md)
     
@@ -259,7 +259,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
     

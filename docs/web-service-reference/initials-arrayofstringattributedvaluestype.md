@@ -12,7 +12,7 @@ ms.openlocfilehash: 16133192fa1d9ef066e46a181f490248a8197e5b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458198"
 ---
 # <a name="initials-arrayofstringattributedvaluestype"></a>Iniciais (ArrayOfStringAttributedValuesType)
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

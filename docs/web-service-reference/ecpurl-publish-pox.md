@@ -11,7 +11,7 @@ ms.openlocfilehash: 98cac9132c1ba6e368be6337fbf3b522a02cb47a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458002"
 ---
 # <a name="ecpurl-publish-pox"></a>EcpUrl-publish (POX)
@@ -58,7 +58,7 @@ O valor de texto representa uma URL parcial que pode ser combinada com o valor d
 
 O elemento **EcpUrl-Publish** é um elemento filho opcional do elemento **Protocol** . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

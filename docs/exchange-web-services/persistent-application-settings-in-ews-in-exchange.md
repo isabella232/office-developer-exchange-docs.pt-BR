@@ -10,7 +10,7 @@ ms.openlocfilehash: b1faa057e5a0c1a96498efcc23738c83d25ae986
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457400"
 ---
 # <a name="persistent-application-settings-in-ews-in-exchange"></a>Configurações de aplicativo persistente no EWS no Exchange
@@ -90,7 +90,7 @@ A maioria dos usuários não está ciente e normalmente não acessa a pasta raiz
 
 Os objetos de configuração do usuário estão disponíveis no Exchange Online, no Exchange Online como parte do Office 365 e versões do Exchange a partir do Exchange 2010.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Gerenciar configurações de aplicativos persistentes usando o EWS no Exchange](how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md)
