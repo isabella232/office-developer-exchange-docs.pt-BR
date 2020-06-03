@@ -11,64 +11,64 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7a51e9e1-addb-4343-8a22-78f23763c0a8
-description: O elemento de modificar indica se um cliente pode modificar uma pasta ou item. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 29fd2184e83f66a9b7e7db4173a765cee2922be8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Modify indica se um cliente pode modificar uma pasta ou item. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: e7712644ac9c32afab06be49b438ad83bbb31058
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824514"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530412"
 ---
-# <a name="modify"></a><span data-ttu-id="ec7bf-104">Modificar</span><span class="sxs-lookup"><span data-stu-id="ec7bf-104">Modify</span></span>
+# <a name="modify"></a><span data-ttu-id="53868-104">Modificar</span><span class="sxs-lookup"><span data-stu-id="53868-104">Modify</span></span>
 
-<span data-ttu-id="ec7bf-105">O elemento de **Modificar** indica se um cliente pode modificar uma pasta ou item.</span><span class="sxs-lookup"><span data-stu-id="ec7bf-105">The **Modify** element indicates whether a client can modify a folder or item.</span></span> <span data-ttu-id="ec7bf-106">Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="ec7bf-106">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span> 
+<span data-ttu-id="53868-105">O elemento **Modify** indica se um cliente pode modificar uma pasta ou item.</span><span class="sxs-lookup"><span data-stu-id="53868-105">The **Modify** element indicates whether a client can modify a folder or item.</span></span> <span data-ttu-id="53868-106">Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="53868-106">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span> 
   
 ```xml
 <Modify>true or false</Modify>
 ```
 
- <span data-ttu-id="ec7bf-107">**boolean**</span><span class="sxs-lookup"><span data-stu-id="ec7bf-107">**boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="ec7bf-108">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="ec7bf-108">Attributes and elements</span></span>
+ <span data-ttu-id="53868-107">**boolean**</span><span class="sxs-lookup"><span data-stu-id="53868-107">**boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="53868-108">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="53868-108">Attributes and elements</span></span>
 
-<span data-ttu-id="ec7bf-109">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="ec7bf-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="53868-109">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="53868-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ec7bf-110">Atributos</span><span class="sxs-lookup"><span data-stu-id="ec7bf-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="53868-110">Atributos</span><span class="sxs-lookup"><span data-stu-id="53868-110">Attributes</span></span>
 
-<span data-ttu-id="ec7bf-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="ec7bf-111">None.</span></span>
+<span data-ttu-id="53868-111">Nenhum</span><span class="sxs-lookup"><span data-stu-id="53868-111">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ec7bf-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="ec7bf-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="53868-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="53868-112">Child elements</span></span>
 
-<span data-ttu-id="ec7bf-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="ec7bf-113">None.</span></span>
+<span data-ttu-id="53868-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="53868-113">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="ec7bf-114">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="ec7bf-114">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="53868-114">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="53868-114">Parent elements</span></span>
 
-|<span data-ttu-id="ec7bf-115">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="ec7bf-115">**Element**</span></span>|<span data-ttu-id="ec7bf-116">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="ec7bf-116">**Description**</span></span>|
+|<span data-ttu-id="53868-115">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="53868-115">**Element**</span></span>|<span data-ttu-id="53868-116">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="53868-116">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="ec7bf-117">EffectiveRights</span><span class="sxs-lookup"><span data-stu-id="ec7bf-117">EffectiveRights</span></span>](effectiverights.md) <br/> |<span data-ttu-id="ec7bf-118">Contém os direitos do cliente com base nas configurações de permissão para o item ou a pasta.</span><span class="sxs-lookup"><span data-stu-id="ec7bf-118">Contains the rights of the client based on the permission settings for the item or folder.</span></span> <span data-ttu-id="ec7bf-119">Este elemento foi introduzido no Exchange 2007 SP1.</span><span class="sxs-lookup"><span data-stu-id="ec7bf-119">This element was introduced in Exchange 2007 SP1.</span></span>  <br/> |
+|[<span data-ttu-id="53868-117">EffectiveRights</span><span class="sxs-lookup"><span data-stu-id="53868-117">EffectiveRights</span></span>](effectiverights.md) <br/> |<span data-ttu-id="53868-118">Contém os direitos do cliente com base nas configurações de permissão para o item ou pasta.</span><span class="sxs-lookup"><span data-stu-id="53868-118">Contains the rights of the client based on the permission settings for the item or folder.</span></span> <span data-ttu-id="53868-119">Este elemento foi introduzido no Exchange 2007 SP1.</span><span class="sxs-lookup"><span data-stu-id="53868-119">This element was introduced in Exchange 2007 SP1.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="ec7bf-120">Text value</span><span class="sxs-lookup"><span data-stu-id="ec7bf-120">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="53868-120">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="53868-120">Text value</span></span>
 
-<span data-ttu-id="ec7bf-121">Um valor de texto de **true** indica que um cliente pode modificar um item ou pasta.</span><span class="sxs-lookup"><span data-stu-id="ec7bf-121">A text value of **true** indicates that a client can modify an item or folder.</span></span> 
+<span data-ttu-id="53868-121">Um valor **true** indica que um cliente pode modificar um item ou pasta.</span><span class="sxs-lookup"><span data-stu-id="53868-121">A text value of **true** indicates that a client can modify an item or folder.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="ec7bf-122">Comentários</span><span class="sxs-lookup"><span data-stu-id="ec7bf-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="53868-122">Comentários</span><span class="sxs-lookup"><span data-stu-id="53868-122">Remarks</span></span>
 
-<span data-ttu-id="ec7bf-123">O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="ec7bf-123">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="53868-123">O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="53868-123">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="ec7bf-124">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="ec7bf-124">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="53868-124">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="53868-124">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ec7bf-125">Namespace</span><span class="sxs-lookup"><span data-stu-id="ec7bf-125">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="ec7bf-126">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="ec7bf-126">Schema Name</span></span>  <br/> |<span data-ttu-id="ec7bf-127">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="ec7bf-127">Types schema</span></span>  <br/> |
-|<span data-ttu-id="ec7bf-128">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="ec7bf-128">Validation File</span></span>  <br/> |<span data-ttu-id="ec7bf-129">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ec7bf-129">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="ec7bf-130">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="ec7bf-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="ec7bf-131">False</span><span class="sxs-lookup"><span data-stu-id="ec7bf-131">False</span></span>  <br/> |
+|<span data-ttu-id="53868-125">Namespace</span><span class="sxs-lookup"><span data-stu-id="53868-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="53868-126">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="53868-126">Schema Name</span></span>  <br/> |<span data-ttu-id="53868-127">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="53868-127">Types schema</span></span>  <br/> |
+|<span data-ttu-id="53868-128">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="53868-128">Validation File</span></span>  <br/> |<span data-ttu-id="53868-129">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="53868-129">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="53868-130">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="53868-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="53868-131">False</span><span class="sxs-lookup"><span data-stu-id="53868-131">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="ec7bf-132">Ver também</span><span class="sxs-lookup"><span data-stu-id="ec7bf-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="53868-132">Confira também</span><span class="sxs-lookup"><span data-stu-id="53868-132">See also</span></span>
 
 
 
-- [<span data-ttu-id="ec7bf-133">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="ec7bf-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="53868-133">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="53868-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
 
-[<span data-ttu-id="ec7bf-134">Definindo permissões de nível de pasta</span><span class="sxs-lookup"><span data-stu-id="ec7bf-134">Setting Folder-Level Permissions</span></span>](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[<span data-ttu-id="53868-134">Definindo permissões no nível de pasta</span><span class="sxs-lookup"><span data-stu-id="53868-134">Setting Folder-Level Permissions</span></span>](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

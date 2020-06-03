@@ -1,5 +1,5 @@
 ---
-title: ActingAs
+title: Agindo
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3896afff-5c2c-4eaf-8621-c70e0371ea78
-description: O elemento ActingAs identifica que o chamador está enviando como.
-ms.openlocfilehash: 9c007ed45f85dba265261dd79a6fd846dbd9d2f9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento agindo identifica quem o chamador está enviando como.
+ms.openlocfilehash: 175a03018ee3529ec595dbe9afb7dc61ad6afc35
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752220"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529697"
 ---
-# <a name="actingas"></a><span data-ttu-id="b0a4b-103">ActingAs</span><span class="sxs-lookup"><span data-stu-id="b0a4b-103">ActingAs</span></span>
+# <a name="actingas"></a><span data-ttu-id="cb6fe-103">Agindo</span><span class="sxs-lookup"><span data-stu-id="cb6fe-103">ActingAs</span></span>
 
-<span data-ttu-id="b0a4b-104">O elemento **ActingAs** identifica que o chamador está enviando como.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-104">The **ActingAs** element identifies who the caller is sending as.</span></span> 
+<span data-ttu-id="cb6fe-104">O elemento **agindo** identifica quem o chamador está enviando como.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-104">The **ActingAs** element identifies who the caller is sending as.</span></span> 
   
 ```xml
 <ActingAs>
@@ -30,44 +30,44 @@ ms.locfileid: "19752220"
 </ActingAs>
 ```
 
- <span data-ttu-id="b0a4b-105">**EmailAddressType**</span><span class="sxs-lookup"><span data-stu-id="b0a4b-105">**EmailAddressType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="b0a4b-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="b0a4b-106">Attributes and elements</span></span>
+ <span data-ttu-id="cb6fe-105">**EmailAddresstype**</span><span class="sxs-lookup"><span data-stu-id="cb6fe-105">**EmailAddressType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="cb6fe-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="cb6fe-106">Attributes and elements</span></span>
 
-<span data-ttu-id="b0a4b-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="cb6fe-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="b0a4b-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="b0a4b-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="cb6fe-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="cb6fe-108">Attributes</span></span>
 
-<span data-ttu-id="b0a4b-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-109">None.</span></span>
+<span data-ttu-id="cb6fe-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="cb6fe-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="b0a4b-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="b0a4b-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="cb6fe-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="cb6fe-110">Child elements</span></span>
 
-|<span data-ttu-id="b0a4b-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="b0a4b-111">**Element**</span></span>|<span data-ttu-id="b0a4b-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="b0a4b-112">**Description**</span></span>|
+|<span data-ttu-id="cb6fe-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="cb6fe-111">**Element**</span></span>|<span data-ttu-id="cb6fe-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="cb6fe-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="b0a4b-113">EmailAddress (NonEmptyStringType)</span><span class="sxs-lookup"><span data-stu-id="b0a4b-113">EmailAddress (NonEmptyStringType)</span></span>](emailaddress-nonemptystringtype.md) <br/> |<span data-ttu-id="b0a4b-114">Define o endereço de Simple Mail Transfer Protocol (SMTP) de um usuário de caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-114">Defines the Simple Mail Transfer Protocol (SMTP) address of a mailbox user.</span></span> <span data-ttu-id="b0a4b-115">Esse elemento é opcional.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-115">This element is optional.</span></span>  <br/> |
-|[<span data-ttu-id="b0a4b-116">RoutingType (EmailAddress)</span><span class="sxs-lookup"><span data-stu-id="b0a4b-116">RoutingType (EmailAddress)</span></span>](routingtype-emailaddress.md) <br/> |<span data-ttu-id="b0a4b-117">Define o roteamento que é usado para a caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-117">Defines the routing that is used for the mailbox.</span></span> <span data-ttu-id="b0a4b-118">O padrão é SMTP.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-118">The default is SMTP.</span></span> <span data-ttu-id="b0a4b-119">Esse elemento é opcional.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-119">This element is optional.</span></span>  <br/> |
+|[<span data-ttu-id="cb6fe-113">EmailAddress (NonEmptyStringType)</span><span class="sxs-lookup"><span data-stu-id="cb6fe-113">EmailAddress (NonEmptyStringType)</span></span>](emailaddress-nonemptystringtype.md) <br/> |<span data-ttu-id="cb6fe-114">Define o endereço SMTP (Simple Mail Transfer Protocol) de um usuário de caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-114">Defines the Simple Mail Transfer Protocol (SMTP) address of a mailbox user.</span></span> <span data-ttu-id="cb6fe-115">Este elemento é opcional.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-115">This element is optional.</span></span>  <br/> |
+|[<span data-ttu-id="cb6fe-116">RoutingType (EmailAddress)</span><span class="sxs-lookup"><span data-stu-id="cb6fe-116">RoutingType (EmailAddress)</span></span>](routingtype-emailaddress.md) <br/> |<span data-ttu-id="cb6fe-117">Define o roteamento usado para a caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-117">Defines the routing that is used for the mailbox.</span></span> <span data-ttu-id="cb6fe-118">O padrão é SMTP.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-118">The default is SMTP.</span></span> <span data-ttu-id="cb6fe-119">Este elemento é opcional.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-119">This element is optional.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="b0a4b-120">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="b0a4b-120">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="cb6fe-120">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="cb6fe-120">Parent elements</span></span>
 
-|<span data-ttu-id="b0a4b-121">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="b0a4b-121">**Element**</span></span>|<span data-ttu-id="b0a4b-122">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="b0a4b-122">**Description**</span></span>|
+|<span data-ttu-id="cb6fe-121">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="cb6fe-121">**Element**</span></span>|<span data-ttu-id="cb6fe-122">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="cb6fe-122">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="b0a4b-123">GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="b0a4b-123">GetServiceConfiguration</span></span>](getserviceconfiguration.md) <br/> |<span data-ttu-id="b0a4b-124">Define uma solicitação **GetServiceConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="b0a4b-124">Defines a **GetServiceConfiguration** request.</span></span>  <br/> |
+|[<span data-ttu-id="cb6fe-123">GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="cb6fe-123">GetServiceConfiguration</span></span>](getserviceconfiguration.md) <br/> |<span data-ttu-id="cb6fe-124">Define uma solicitação **GetServiceConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="cb6fe-124">Defines a **GetServiceConfiguration** request.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b0a4b-125">Comentários</span><span class="sxs-lookup"><span data-stu-id="b0a4b-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cb6fe-125">Comentários</span><span class="sxs-lookup"><span data-stu-id="cb6fe-125">Remarks</span></span>
 
-<span data-ttu-id="b0a4b-126">Esse elemento é opcional.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-126">This element is optional.</span></span> <span data-ttu-id="b0a4b-127">Se esse elemento não estiver presente, o usuário autenticado é considerado o remetente.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-127">If this element is not present, the authenticated user is assumed to be the sender.</span></span> <span data-ttu-id="b0a4b-128">O elemento **ActingAs** deve ser incluído para solicitar as dicas de remetente.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-128">The **ActingAs** element must be included for requesting sender hints.</span></span> <span data-ttu-id="b0a4b-129">Pode ser retornado um erro de **ErrorInvalidArgument** em uma resposta, se o elemento **ActingAs** está ausente, não incluir um tipo de roteamento, não inclue um endereço de email, contém um endereço de email inválido, não é resolvido para um usuário no Active Directory Serviços de domínio (AD DS) ou resolve para vários usuários no AD DS.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-129">An **ErrorInvalidArgument** error can be returned in a response if the **ActingAs** element is missing, does not include a routing type, does not include an e-mail address, contains an invalid e-mail address, does not resolve to a user in Active Directory Domain Services (AD DS), or resolves to multiple users in AD DS.</span></span> 
+<span data-ttu-id="cb6fe-126">Este elemento é opcional.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-126">This element is optional.</span></span> <span data-ttu-id="cb6fe-127">Se esse elemento não estiver presente, o usuário autenticado será considerado como o remetente.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-127">If this element is not present, the authenticated user is assumed to be the sender.</span></span> <span data-ttu-id="cb6fe-128">O elemento **agindo** deve ser incluído para solicitar dicas de remetente.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-128">The **ActingAs** element must be included for requesting sender hints.</span></span> <span data-ttu-id="cb6fe-129">Um erro **ErrorInvalidArgument** pode ser retornado em uma resposta se o elemento **agindo** estiver ausente, não incluir um tipo de roteamento, não incluir um endereço de email, contiver um endereço de email inválido, não resolver para um usuário nos serviços de domínio do Active Directory (AD DS) ou resolver para vários usuários no AD DS.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-129">An **ErrorInvalidArgument** error can be returned in a response if the **ActingAs** element is missing, does not include a routing type, does not include an e-mail address, contains an invalid e-mail address, does not resolve to a user in Active Directory Domain Services (AD DS), or resolves to multiple users in AD DS.</span></span> 
   
-<span data-ttu-id="b0a4b-130">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="b0a4b-130">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="cb6fe-130">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="cb6fe-130">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="b0a4b-131">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="b0a4b-131">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="cb6fe-131">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="cb6fe-131">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="b0a4b-132">Namespace</span><span class="sxs-lookup"><span data-stu-id="b0a4b-132">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="b0a4b-133">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="b0a4b-133">Schema Name</span></span>  <br/> |<span data-ttu-id="b0a4b-134">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="b0a4b-134">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="b0a4b-135">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="b0a4b-135">Validation File</span></span>  <br/> |<span data-ttu-id="b0a4b-136">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="b0a4b-136">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="b0a4b-137">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="b0a4b-137">Can be Empty</span></span>  <br/> |<span data-ttu-id="b0a4b-138">False</span><span class="sxs-lookup"><span data-stu-id="b0a4b-138">False</span></span>  <br/> |
+|<span data-ttu-id="cb6fe-132">Namespace</span><span class="sxs-lookup"><span data-stu-id="cb6fe-132">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="cb6fe-133">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="cb6fe-133">Schema Name</span></span>  <br/> |<span data-ttu-id="cb6fe-134">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="cb6fe-134">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="cb6fe-135">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="cb6fe-135">Validation File</span></span>  <br/> |<span data-ttu-id="cb6fe-136">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="cb6fe-136">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="cb6fe-137">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="cb6fe-137">Can be Empty</span></span>  <br/> |<span data-ttu-id="cb6fe-138">False</span><span class="sxs-lookup"><span data-stu-id="cb6fe-138">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="b0a4b-139">Ver também</span><span class="sxs-lookup"><span data-stu-id="b0a4b-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cb6fe-139">Confira também</span><span class="sxs-lookup"><span data-stu-id="cb6fe-139">See also</span></span>
 
-- [<span data-ttu-id="b0a4b-140">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="b0a4b-140">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="cb6fe-140">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="cb6fe-140">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

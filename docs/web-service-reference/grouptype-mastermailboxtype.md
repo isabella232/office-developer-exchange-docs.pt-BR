@@ -8,37 +8,37 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a4726e5-bace-4399-8b36-a0de1e35d3bc
 description: O elemento GroupType (MasterMailboxType) é destinado apenas para uso interno.
-ms.openlocfilehash: 0f52d31f7fee94b492924b67215e970573850705
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a1ddb85e4aaf762a4148ca2ecb139b69b7d676fe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823785"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530054"
 ---
-# <a name="grouptype-mastermailboxtype"></a><span data-ttu-id="9f5c3-103">GroupType (MasterMailboxType)</span><span class="sxs-lookup"><span data-stu-id="9f5c3-103">GroupType (MasterMailboxType)</span></span>
+# <a name="grouptype-mastermailboxtype"></a><span data-ttu-id="5b889-103">GroupType (MasterMailboxType)</span><span class="sxs-lookup"><span data-stu-id="5b889-103">GroupType (MasterMailboxType)</span></span>
 
-<span data-ttu-id="9f5c3-104">O elemento **GroupType (MasterMailboxType)** é destinado apenas para uso interno.</span><span class="sxs-lookup"><span data-stu-id="9f5c3-104">The **GroupType (MasterMailboxType)** element is intended for internal use only.</span></span> 
+<span data-ttu-id="5b889-104">O elemento **GroupType (MasterMailboxType)** é destinado apenas para uso interno.</span><span class="sxs-lookup"><span data-stu-id="5b889-104">The **GroupType (MasterMailboxType)** element is intended for internal use only.</span></span> 
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="9f5c3-105">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="9f5c3-105">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="5b889-105">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="5b889-105">Attributes and elements</span></span>
 
-<span data-ttu-id="9f5c3-106">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="9f5c3-106">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="5b889-106">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="5b889-106">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="9f5c3-107">Atributos</span><span class="sxs-lookup"><span data-stu-id="9f5c3-107">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="5b889-107">Atributos</span><span class="sxs-lookup"><span data-stu-id="5b889-107">Attributes</span></span>
 
-<span data-ttu-id="9f5c3-108">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="9f5c3-108">None.</span></span>
+<span data-ttu-id="5b889-108">Nenhum</span><span class="sxs-lookup"><span data-stu-id="5b889-108">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="9f5c3-109">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="9f5c3-109">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="5b889-109">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="5b889-109">Child elements</span></span>
 
-<span data-ttu-id="9f5c3-110">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="9f5c3-110">None.</span></span>
+<span data-ttu-id="5b889-110">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="5b889-110">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="9f5c3-111">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="9f5c3-111">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="5b889-111">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="5b889-111">Parent elements</span></span>
 
-<span data-ttu-id="9f5c3-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="9f5c3-112">None.</span></span>
+<span data-ttu-id="5b889-112">Nenhum</span><span class="sxs-lookup"><span data-stu-id="5b889-112">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9f5c3-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="9f5c3-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5b889-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="5b889-113">Remarks</span></span>
 
-<span data-ttu-id="9f5c3-114">Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="9f5c3-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="5b889-114">Este elemento foi introduzido no Exchange Server 2013 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="5b889-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
   
-<span data-ttu-id="9f5c3-115">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="9f5c3-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="5b889-115">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="5b889-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 

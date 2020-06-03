@@ -8,55 +8,55 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: bc632c85-ec74-4a00-baec-df5973e032fa
-description: O elemento EncryptionMethod representa o método de criptografia que é usado para os protocolos POP, IMAP e SMTP.
-ms.openlocfilehash: 5062d357a54019a576e391e1be4d4e8dfcc6e38d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento EncryptionMethod representa o método criptográfico que é usado para os protocolos POP, IMAP e SMTP.
+ms.openlocfilehash: 26236d9b08eae1bcabfd9aac59f5b01714ba9841
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752042"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530653"
 ---
-# <a name="encryptionmethod-soap"></a><span data-ttu-id="d9a07-103">EncryptionMethod (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d9a07-103">EncryptionMethod (SOAP)</span></span>
+# <a name="encryptionmethod-soap"></a><span data-ttu-id="5cd4f-103">EncryptionMethod (SOAP)</span><span class="sxs-lookup"><span data-stu-id="5cd4f-103">EncryptionMethod (SOAP)</span></span>
 
-<span data-ttu-id="d9a07-104">O elemento **EncryptionMethod** representa o método de criptografia que é usado para os protocolos POP, IMAP e SMTP.</span><span class="sxs-lookup"><span data-stu-id="d9a07-104">The **EncryptionMethod** element represents the cryptographic method that is used for the POP, IMAP, and SMTP protocols.</span></span> 
+<span data-ttu-id="5cd4f-104">O elemento **EncryptionMethod** representa o método criptográfico que é usado para os protocolos pop, IMAP e SMTP.</span><span class="sxs-lookup"><span data-stu-id="5cd4f-104">The **EncryptionMethod** element represents the cryptographic method that is used for the POP, IMAP, and SMTP protocols.</span></span> 
   
 ```XML
 <EncryptionMethod/>
 ```
 
- <span data-ttu-id="d9a07-105">**cadeia de caracteres**</span><span class="sxs-lookup"><span data-stu-id="d9a07-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="d9a07-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="d9a07-106">Attributes and elements</span></span>
+ <span data-ttu-id="5cd4f-105">**cadeia de caracteres**</span><span class="sxs-lookup"><span data-stu-id="5cd4f-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="5cd4f-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="5cd4f-106">Attributes and elements</span></span>
 
-<span data-ttu-id="d9a07-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="d9a07-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="5cd4f-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="5cd4f-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="d9a07-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="d9a07-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="5cd4f-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="5cd4f-108">Attributes</span></span>
 
-<span data-ttu-id="d9a07-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="d9a07-109">None.</span></span>
+<span data-ttu-id="5cd4f-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="5cd4f-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="d9a07-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="d9a07-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="5cd4f-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="5cd4f-110">Child elements</span></span>
 
-<span data-ttu-id="d9a07-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="d9a07-111">None.</span></span>
+<span data-ttu-id="5cd4f-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="5cd4f-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="d9a07-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="d9a07-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="5cd4f-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="5cd4f-112">Parent elements</span></span>
 
-|<span data-ttu-id="d9a07-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="d9a07-113">**Element**</span></span>|<span data-ttu-id="d9a07-114">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d9a07-114">**Description**</span></span>|
+|<span data-ttu-id="5cd4f-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="5cd4f-113">**Element**</span></span>|<span data-ttu-id="5cd4f-114">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="5cd4f-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="d9a07-115">ProtocolConnection (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d9a07-115">ProtocolConnection (SOAP)</span></span>](protocolconnection-soap.md) <br/> |<span data-ttu-id="d9a07-116">Representa a conexão de protocolo do cliente da Web do servidor.</span><span class="sxs-lookup"><span data-stu-id="d9a07-116">Represents the protocol connection of the server Web client.</span></span>  <br/> |
+|[<span data-ttu-id="5cd4f-115">ProtocolConnection (SOAP)</span><span class="sxs-lookup"><span data-stu-id="5cd4f-115">ProtocolConnection (SOAP)</span></span>](protocolconnection-soap.md) <br/> |<span data-ttu-id="5cd4f-116">Representa a conexão de protocolo do cliente Web do servidor.</span><span class="sxs-lookup"><span data-stu-id="5cd4f-116">Represents the protocol connection of the server Web client.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="d9a07-117">Text value</span><span class="sxs-lookup"><span data-stu-id="d9a07-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="5cd4f-117">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="5cd4f-117">Text value</span></span>
 
-<span data-ttu-id="d9a07-118">O valor de texto para esse elemento é o método de criptografia que é usado para os protocolos POP, IMAP e SMTP.</span><span class="sxs-lookup"><span data-stu-id="d9a07-118">The text value for this element is the cryptographic method that is used for the POP, IMAP, and SMTP protocols.</span></span>
+<span data-ttu-id="5cd4f-118">O valor de texto para esse elemento é o método criptográfico que é usado para os protocolos POP, IMAP e SMTP.</span><span class="sxs-lookup"><span data-stu-id="5cd4f-118">The text value for this element is the cryptographic method that is used for the POP, IMAP, and SMTP protocols.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="d9a07-119">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="d9a07-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="5cd4f-119">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="5cd4f-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="d9a07-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="d9a07-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="d9a07-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="d9a07-121">Schema Name</span></span>  <br/> |<span data-ttu-id="d9a07-122">Esquema de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="d9a07-122">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="d9a07-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="d9a07-123">Validation File</span></span>  <br/> |<span data-ttu-id="d9a07-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="d9a07-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="d9a07-125">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="d9a07-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="d9a07-126">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="d9a07-126">True</span></span>  <br/> |
+|<span data-ttu-id="5cd4f-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="5cd4f-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="5cd4f-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="5cd4f-121">Schema Name</span></span>  <br/> |<span data-ttu-id="5cd4f-122">Esquema de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="5cd4f-122">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="5cd4f-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="5cd4f-123">Validation File</span></span>  <br/> |<span data-ttu-id="5cd4f-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="5cd4f-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="5cd4f-125">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="5cd4f-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="5cd4f-126">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="5cd4f-126">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="d9a07-127">Ver também</span><span class="sxs-lookup"><span data-stu-id="d9a07-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5cd4f-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="5cd4f-127">See also</span></span>
 
-- [<span data-ttu-id="d9a07-128">Operação de GetUserSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d9a07-128">GetUserSettings operation (SOAP)</span></span>](getusersettings-operation-soap.md)
+- [<span data-ttu-id="5cd4f-128">Operação GetUserSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="5cd4f-128">GetUserSettings operation (SOAP)</span></span>](getusersettings-operation-soap.md)
 
