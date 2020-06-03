@@ -1,5 +1,5 @@
 ---
-title: End (ChangeHighlightsType)
+title: Fim (ChangeHighlightsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,56 +7,56 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62b7d14c-8d71-4f28-b93e-8fe42d99022b
-description: Final elemento Especifica as alterações feitas no final de uma reunião de tempo quando ocorre uma atualização de reunião.
-ms.openlocfilehash: 1b5d9736d8450c41316bcac8e1aaa4e5ff630c68
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento final especifica as alterações feitas em uma hora de término da reunião quando ocorre uma atualização de reunião.
+ms.openlocfilehash: 61d8c46af1999a506258dfa0cebf3a712962772a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752050"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526197"
 ---
-# <a name="end-changehighlightstype"></a><span data-ttu-id="321ae-103">End (ChangeHighlightsType)</span><span class="sxs-lookup"><span data-stu-id="321ae-103">End (ChangeHighlightsType)</span></span>
+# <a name="end-changehighlightstype"></a><span data-ttu-id="5193b-103">Fim (ChangeHighlightsType)</span><span class="sxs-lookup"><span data-stu-id="5193b-103">End (ChangeHighlightsType)</span></span>
 
-<span data-ttu-id="321ae-104">O elemento **final** Especifica as alterações feitas em uma reunião quando uma atualização de reunião ocorre de hora de término.</span><span class="sxs-lookup"><span data-stu-id="321ae-104">The **End** element specifies the changes made to a meeting end time when a meeting update occurs.</span></span> 
+<span data-ttu-id="5193b-104">O elemento **final** especifica as alterações feitas em uma hora de término da reunião quando ocorre uma atualização de reunião.</span><span class="sxs-lookup"><span data-stu-id="5193b-104">The **End** element specifies the changes made to a meeting end time when a meeting update occurs.</span></span> 
   
 ```XML
 <End></End>
 ```
 
- <span data-ttu-id="321ae-105">**dateTime**</span><span class="sxs-lookup"><span data-stu-id="321ae-105">**dateTime**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="321ae-106">Attributes and elements</span><span class="sxs-lookup"><span data-stu-id="321ae-106">Attributes and elements</span></span>
+ <span data-ttu-id="5193b-105">**dateTime**</span><span class="sxs-lookup"><span data-stu-id="5193b-105">**dateTime**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="5193b-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="5193b-106">Attributes and elements</span></span>
 
-<span data-ttu-id="321ae-107">As seções a seguir descrevem os atributos e elementos filho elementos pai.</span><span class="sxs-lookup"><span data-stu-id="321ae-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="5193b-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="5193b-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="321ae-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="321ae-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="5193b-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="5193b-108">Attributes</span></span>
 
-<span data-ttu-id="321ae-109">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="321ae-109">None.</span></span>
+<span data-ttu-id="5193b-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="5193b-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="321ae-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="321ae-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="5193b-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="5193b-110">Child elements</span></span>
 
-<span data-ttu-id="321ae-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="321ae-111">None.</span></span>
+<span data-ttu-id="5193b-111">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="5193b-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="321ae-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="321ae-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="5193b-112">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="5193b-112">Parent elements</span></span>
 
-[<span data-ttu-id="321ae-113">ChangeHighlights</span><span class="sxs-lookup"><span data-stu-id="321ae-113">ChangeHighlights</span></span>](changehighlights.md)
+[<span data-ttu-id="5193b-113">ChangeHighlights</span><span class="sxs-lookup"><span data-stu-id="5193b-113">ChangeHighlights</span></span>](changehighlights.md)
   
-## <a name="text-value"></a><span data-ttu-id="321ae-114">Text value</span><span class="sxs-lookup"><span data-stu-id="321ae-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="5193b-114">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="5193b-114">Text value</span></span>
 
-<span data-ttu-id="321ae-115">O valor de texto do elemento **final** é a nova hora de término de uma reunião.</span><span class="sxs-lookup"><span data-stu-id="321ae-115">The text value of the **End** element is the new end time of a meeting.</span></span> 
+<span data-ttu-id="5193b-115">O valor de texto do elemento **final** é a nova hora de término de uma reunião.</span><span class="sxs-lookup"><span data-stu-id="5193b-115">The text value of the **End** element is the new end time of a meeting.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="321ae-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="321ae-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5193b-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="5193b-116">Remarks</span></span>
 
-<span data-ttu-id="321ae-117">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="321ae-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="5193b-117">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5193b-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="321ae-118">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="321ae-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="5193b-118">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="5193b-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="321ae-119">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="321ae-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="5193b-119">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="5193b-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="321ae-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="321ae-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="321ae-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="321ae-121">Schema name</span></span>  <br/> |<span data-ttu-id="321ae-122">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="321ae-122">Types schema</span></span>  <br/> |
-|<span data-ttu-id="321ae-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="321ae-123">Validation file</span></span>  <br/> |<span data-ttu-id="321ae-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="321ae-124">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="321ae-125">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="321ae-125">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="5193b-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="5193b-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="5193b-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="5193b-121">Schema name</span></span>  <br/> |<span data-ttu-id="5193b-122">Esquema de tipos</span><span class="sxs-lookup"><span data-stu-id="5193b-122">Types schema</span></span>  <br/> |
+|<span data-ttu-id="5193b-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="5193b-123">Validation file</span></span>  <br/> |<span data-ttu-id="5193b-124">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="5193b-124">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="5193b-125">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="5193b-125">Can be empty</span></span>  <br/> ||
    
 
