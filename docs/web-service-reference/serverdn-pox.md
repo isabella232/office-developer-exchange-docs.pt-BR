@@ -13,7 +13,7 @@ ms.openlocfilehash: 16c6e7368e221b7e54c8d7d63532bb29464a7e54
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461993"
 ---
 # <a name="serverdn-pox"></a>ServerDN (POX)
@@ -60,7 +60,7 @@ O valor de texto representa o nome distinto do servidor Exchange.
 
 O valor **ServerDN** é usado somente quando o [tipo (POX)](type-pox.md) é igual a Exch. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

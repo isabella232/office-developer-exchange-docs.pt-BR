@@ -13,7 +13,7 @@ ms.openlocfilehash: 97d602c40b247f9a6650cc4440b53bf23c18482e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461321"
 ---
 # <a name="domainrequired-pox"></a>DomainRequired (POX)
@@ -56,7 +56,7 @@ O valor de texto indica se o domínio é necessário para autenticação. Os val
 
 Se o domínio não for especificado no elemento [LoginName (POX)](loginname-pox.md) ou se o elemento **LoginName** não tiver sido especificado, o usuário deverá inserir o domínio antes que a autenticação seja bem-sucedida. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

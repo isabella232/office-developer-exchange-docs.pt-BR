@@ -16,7 +16,7 @@ ms.openlocfilehash: f192965a8375eb46d1ca5b46d3b768a3299c284d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461832"
 ---
 # <a name="mexruntime"></a>mexRuntime
@@ -67,7 +67,7 @@ Nenhum
 |Arquivo de validação  <br/> |Indisponível.  <br/> |
 |Pode ser vazio  <br/> |Falso.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos de arquivo de configuração de agentes para o Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

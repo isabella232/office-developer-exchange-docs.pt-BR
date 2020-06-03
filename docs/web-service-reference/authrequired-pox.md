@@ -13,7 +13,7 @@ ms.openlocfilehash: 25e3aff6a6db719c7f466e30fd6166e602f2d418
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461622"
 ---
 # <a name="authrequired-pox"></a>AuthRequired (POX)
@@ -56,7 +56,7 @@ Nenhum.
 
 O valor de texto especifica se a autenticação é necessária. Os valores possíveis estão **ativados** e **desativados**. Se um valor não for especificado, o valor padrão será **ativado**. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

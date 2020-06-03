@@ -15,7 +15,7 @@ ms.openlocfilehash: 42176d9cd0288af6515aeea616a4f216a419410c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462469"
 ---
 # <a name="getumproperties-operation-um-web-service"></a>Operação GetUMProperties (serviço Web da UM)
@@ -64,7 +64,7 @@ O exemplo a seguir de uma resposta GetUMProperties mostra uma resposta à solici
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

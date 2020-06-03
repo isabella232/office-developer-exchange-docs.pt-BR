@@ -11,7 +11,7 @@ ms.openlocfilehash: 889e0ca3bdcdce4b557fe066db2918fde4abaa9b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461300"
 ---
 # <a name="ecpurl-extinstall-pox"></a>EcpUrl-extinstall (POX)
@@ -58,7 +58,7 @@ O valor de texto representa uma URL parcial que pode ser combinada com o valor d
 
 O elemento **EcpUrl-extinstall** é um elemento filho opcional do elemento **Protocol** . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

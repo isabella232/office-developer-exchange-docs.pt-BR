@@ -12,7 +12,7 @@ ms.openlocfilehash: 6769842d31519f0aac2cf9bda10c1cab70558301
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461811"
 ---
 # <a name="getuserphoto-operation"></a>Operação GetUserPhoto
@@ -115,7 +115,7 @@ Os seguintes elementos são usados no corpo SOAP de resposta:
 
 O envelope SOAP não retornará um código de erro se for feita uma tentativa de obter uma foto do usuário para um endereço de email que não existe na organização. Um código de status HTTP 500 será retornado na resposta para indicar que a solicitação não foi bem sucedida. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)   
 - [Obter fotos do usuário usando o EWS no Exchange](https://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx)

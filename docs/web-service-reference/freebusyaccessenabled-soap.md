@@ -11,7 +11,7 @@ ms.openlocfilehash: c148d8fa1301339f8579884dc02b6c9e452f3035
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461293"
 ---
 # <a name="freebusyaccessenabled-soap"></a>FreeBusyAccessEnabled (SOAP)
@@ -58,7 +58,7 @@ Use este elemento para permitir ou suprimir informações de disponibilidade do 
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

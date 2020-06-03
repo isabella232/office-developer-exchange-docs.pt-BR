@@ -13,7 +13,7 @@ ms.openlocfilehash: 2ba0a15cea0b4eb9b6069fab384edb3d9747a360
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462084"
 ---
 # <a name="directoryport-pox"></a>DirectoryPort (POX)
@@ -56,7 +56,7 @@ O valor de texto representa a porta usada para acessar o servidor Exchange.
 
 O elemento **DirectoryPort** é usado somente quando o elemento [tipo (POX)](type-pox.md) é igual a Exch ou expr. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

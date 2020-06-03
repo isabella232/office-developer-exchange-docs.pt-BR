@@ -16,7 +16,7 @@ ms.openlocfilehash: 8a58444580c803efb7312df95d75d697bc42e8e0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461839"
 ---
 # <a name="messagesnapshot"></a>messageSnapshot
@@ -65,7 +65,7 @@ Nenhum.
 |Arquivo de validação  <br/> |Indisponível.  <br/> |
 |Pode ser vazio  <br/> |Falso.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos de arquivo de configuração de agentes para o Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

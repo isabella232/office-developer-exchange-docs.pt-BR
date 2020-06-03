@@ -12,7 +12,7 @@ ms.openlocfilehash: 36011e0252ed391daefab190d4da679fb3a3f856
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463094"
 ---
 # <a name="extendedproperties-nonemptyarrayofextendedpropertytype"></a>ExtendedProperties (NonEmptyArrayOfExtendedPropertyType)
@@ -62,7 +62,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

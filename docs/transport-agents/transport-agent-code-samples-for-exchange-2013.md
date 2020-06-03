@@ -12,7 +12,7 @@ ms.openlocfilehash: c14a4e34102b55014cc6507e375929c186f5f6e9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461797"
 ---
 # <a name="transport-agent-code-samples-for-exchange-2013"></a>Exemplos de código de agente de transporte para o Exchange 2013
@@ -37,7 +37,7 @@ A tabela a seguir lista os agentes de amostra do Exchange 2013.
 |[Exchange 2013: criar um agente de transporte de log de servidor de caixa de correio](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-fc8632e5) <br/> |Este agente responde ao evento de pipeline de transporte do [OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) e registra a mensagem de forma síncrona em um arquivo no disco rígido local.  <br/> |
 |[Exchange 2013: criar um agente de transporte de cabeçalho X](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-an-32f62f5a) <br/> |Este agente responde ao evento [OnEndOfHeaders](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfHeaders.aspx) e ler e modificar cabeçalhos X nas mensagens.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Conceitos de agente de transporte no Exchange 2013](transport-agent-concepts-in-exchange-2013.md)    
 - [Referência do agente de transporte para o Exchange 2013](transport-agent-reference-for-exchange-2013.md)    

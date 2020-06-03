@@ -16,7 +16,7 @@ ms.openlocfilehash: f1cc199bdaf684d8d74687ed7f064eb66fee48ff
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462581"
 ---
 # <a name="findfolder-operation"></a>Operação FindFolder
@@ -224,7 +224,7 @@ A resposta de erro **FindFolder** inclui os seguintes elementos:
     
 - Use o valor **PropertyTag** de 0x672D com um tipo de propriedade de **inteiro** para identificar uma pasta gerenciada usando o elemento [ExtendedFieldURI](extendedfielduri.md) . 
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

@@ -11,7 +11,7 @@ ms.openlocfilehash: 2be930e8d9e4c2bbdb26eff49a429569fc0a1d5d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461279"
 ---
 # <a name="ecpurl-photo-pox"></a>EcpUrl-foto (POX)
@@ -58,7 +58,7 @@ O valor de texto representa uma URL parcial que pode ser combinada com o valor d
 
 O elemento **EcpUrl-Photo** é um elemento filho opcional do elemento **Protocol** . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

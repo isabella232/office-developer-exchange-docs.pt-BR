@@ -12,7 +12,7 @@ ms.openlocfilehash: 38ed12a741d46fe998dc0079ed13973ce9edf5ac
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462812"
 ---
 # <a name="addimgroup-operation"></a>Operação AddImGroup
@@ -141,7 +141,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Pessoas e contatos no EWS no Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     

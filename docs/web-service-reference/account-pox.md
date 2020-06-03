@@ -13,7 +13,7 @@ ms.openlocfilehash: ffd8ebe4b7bd9d4b3f6a9b42fc557ac6189a068d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462315"
 ---
 # <a name="account-pox"></a>Conta (POX)
@@ -75,7 +75,7 @@ Nenhum
 |:-----|:-----|
 |[Resposta (POX)](response-pox.md) <br/> |Contém a resposta do serviço de descoberta automática.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

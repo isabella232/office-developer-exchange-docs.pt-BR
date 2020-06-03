@@ -13,7 +13,7 @@ ms.openlocfilehash: d588f7eb12a445fba9c997c4b9db0a6842105b4e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462721"
 ---
 # <a name="networkrequirements-pox"></a>NetworkRequirements (POX)
@@ -68,7 +68,7 @@ Se o cliente de email não corresponder aos requisitos de rede, ele deverá tent
   
 O elemento **NetworkRequirements** é opcional. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

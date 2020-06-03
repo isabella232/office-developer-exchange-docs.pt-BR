@@ -12,7 +12,7 @@ ms.openlocfilehash: 62fb259672c47242a57b939deb4887e1e5519e2a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461755"
 ---
 # <a name="transport-agents-in-exchange"></a>Agentes de transporte no Exchange
@@ -43,10 +43,10 @@ O Exchange 2013 fornece uma biblioteca de classes que dão suporte à extensão 
     
 - [Referência do agente de transporte para o Exchange 2013](transport-agent-reference-for-exchange-2013.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Desenvolvimento do Exchange Online e do Exchange](../exchange-server-development.md)    
-- [Explorar os recursos do EWS Managed API, do EWS e dos serviços Web no Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)   
+- [Explorar os recursos da API gerenciada por EWS, EWS e serviços Web no Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)   
 - [Backup e restauração para o Exchange](../backup-restore/backup-and-restore-for-exchange-2013.md) 
     
 

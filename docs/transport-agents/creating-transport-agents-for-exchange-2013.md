@@ -12,7 +12,7 @@ ms.openlocfilehash: cb1cd180817524fe29a100a48d90444c75a77510
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462371"
 ---
 # <a name="creating-transport-agents-for-exchange-2013"></a>Criando agentes de transporte para o Exchange 2013
@@ -145,7 +145,7 @@ Para obter mais informações sobre como instalar, habilitar e gerenciar o seu a
     
 - [Criar um agente de transporte DeliveryAgent para o Exchange 2013](how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Conceitos de agente de transporte no Exchange 2013](transport-agent-concepts-in-exchange-2013.md)   
 - [Referência do agente de transporte para o Exchange 2013](transport-agent-reference-for-exchange-2013.md)

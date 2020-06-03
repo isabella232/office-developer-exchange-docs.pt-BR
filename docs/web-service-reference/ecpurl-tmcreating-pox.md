@@ -11,7 +11,7 @@ ms.openlocfilehash: 93ea3f5752dab0028c0732e5e79c5690e35bd059
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462056"
 ---
 # <a name="ecpurl-tmcreating-pox"></a>EcpUrl-tmCreating (POX)
@@ -58,7 +58,7 @@ O valor de texto representa uma URL parcial que pode ser combinada com o valor d
 
 O elemento **EcpUrl-tmCreating** é um elemento filho opcional do elemento **Protocol** . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

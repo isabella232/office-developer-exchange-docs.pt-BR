@@ -13,7 +13,7 @@ ms.openlocfilehash: 20ff7cf4e73f1b50668616d3f11edeeb1409815e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462308"
 ---
 # <a name="accounttype-pox"></a>AccountType (POX)
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto representa o tipo de conta. O valor possível é **email**, que indica as configurações de um servidor de email. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 
