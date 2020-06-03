@@ -12,7 +12,7 @@ ms.openlocfilehash: 66220f0cab99f404e17136bbb7836ca13d569b53
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459599"
 ---
 # <a name="removedistributiongroupfromimlist-operation"></a>Operação RemoveDistributionGroupFromImList
@@ -141,7 +141,7 @@ Os seguintes elementos são usados no corpo SOAP de resposta de erro:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
     

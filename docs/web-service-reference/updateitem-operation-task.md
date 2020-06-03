@@ -16,7 +16,7 @@ ms.openlocfilehash: 0041af114d11fd9577037dd154e40b84e8483c35
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459802"
 ---
 # <a name="updateitem-operation-task"></a>Operação UpdateItem (tarefa)
@@ -41,7 +41,7 @@ Você pode usar a [operação GetItem](getitem-operation.md) para obter o **Chan
   
 Para tarefas recorrentes ou para a última ocorrência de uma tarefa recorrente, a resposta UpdateItem retorna a mesma **ID** que foi passada e retorna a **ChangeKey**atualizada associada.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

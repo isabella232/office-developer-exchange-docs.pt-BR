@@ -16,7 +16,7 @@ ms.openlocfilehash: dc572130ca3b2f2b152abbb4a8b68cc6f67790e8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460579"
 ---
 # <a name="movefolder-operation"></a>Operação MoveFolder
@@ -189,7 +189,7 @@ A resposta de erro MoveFolder inclui os seguintes elementos:
     
 - [Pastas](folders-ex15websvcsotherref.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

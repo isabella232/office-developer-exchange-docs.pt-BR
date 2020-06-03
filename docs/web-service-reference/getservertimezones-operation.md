@@ -16,7 +16,7 @@ ms.openlocfilehash: 1afe7fe13501af4a14f72c731703fe41e1f33049
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460537"
 ---
 # <a name="getservertimezones-operation"></a>Operação GetServerTimeZones
@@ -217,7 +217,7 @@ O exemplo a seguir de uma resposta **GetServerTimeZones** mostra uma resposta be
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

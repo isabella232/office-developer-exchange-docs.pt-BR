@@ -12,7 +12,7 @@ ms.openlocfilehash: 5ba021d02849ffc7e125029f0fd18ebf14c3f8da
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459136"
 ---
 # <a name="create-an-smtpreceiveagent-transport-agent-for-exchange-2013"></a>Criar um agente de transporte SmtpReceiveAgent para o Exchange 2013
@@ -100,7 +100,7 @@ O procedimento a seguir descreve como criar um agente de transporte SmtpReceiveA
 
    Depois de definir sua classe de agente, você pode adicionar sua funcionalidade personalizada. Neste exemplo, o evento [OnEndOfData](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfData.aspx) é redirecionado para o manipulador de eventos personalizado. 
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Conceitos de agente de transporte no Exchange 2013](transport-agent-concepts-in-exchange-2013.md)    
 - [Referência do agente de transporte para o Exchange 2013](transport-agent-reference-for-exchange-2013.md)    

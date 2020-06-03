@@ -10,7 +10,7 @@ ms.openlocfilehash: d82f1b305fd1cc30e48cddbf9bf2981d3d829a5c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459150"
 ---
 # <a name="migrating-to-exchange-technologies"></a>Migrar para as tecnologias do Exchange 
@@ -81,7 +81,7 @@ API REST do ¹ e API do Graph exigem a atualização cumulativa 3 para o Exchang
 
 ² somente clientes híbridos podem tirar proveito das APIs REST para o Office 365 e caixas de correio locais.
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Escolher uma API ou tecnologia para desenvolver soluções para o Outlook](https://msdn.microsoft.com/library/01a46083-03d0-4333-920c-01a9f17f68cb%28Office.15%29.aspx)
 - [Requisitos de arquitetura local para a API REST](https://blogs.technet.microsoft.com/exchange/2016/09/26/on-premises-architectural-requirements-for-the-rest-api/)    

@@ -13,7 +13,7 @@ ms.openlocfilehash: 5317cf49d354a558417829e1d1b5b67cd6874309
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459101"
 ---
 # <a name="authpackage-pox"></a>AuthPackage (POX)
@@ -72,7 +72,7 @@ O elemento **AuthPackage** é usado somente quando o elemento [tipo (POX)](type-
 
 O Office 365, o Exchange Online e as versões locais do Exchange começando com o Build 15.00.0995.014 retornam um valor de "Negotiate" somente se o servidor estiver configurado para usar a autenticação de negociação e o cliente incluir um cabeçalho [X-ClientCanHandle](pox-autodiscover-request-for-exchange.md) que contenha "negociar". 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

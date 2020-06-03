@@ -13,7 +13,7 @@ ms.openlocfilehash: 9dcd681c00aefcfb88f1f8a58be3aa2ccd0bb72b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460649"
 ---
 # <a name="errorcode-pox"></a>ErrorCode (POX)
@@ -50,7 +50,7 @@ Nenhum.
 
 O valor de texto representa o código de erro para uma resposta de descoberta automática de erro.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

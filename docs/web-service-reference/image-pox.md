@@ -13,7 +13,7 @@ ms.openlocfilehash: 5e981c1bb4a6029108fd442556a68356b073059d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460726"
 ---
 # <a name="image-pox"></a>Imagem (POX)
@@ -54,7 +54,7 @@ Nenhum.
 
 O valor de texto representa o caminho de uma imagem que é usada para marcar a experiência de configuração.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

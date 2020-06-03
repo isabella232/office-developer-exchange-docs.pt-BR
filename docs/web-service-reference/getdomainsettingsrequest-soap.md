@@ -13,7 +13,7 @@ ms.openlocfilehash: 400016d0817131fb70ec7ff3db7fbfdc1b51f8f9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460957"
 ---
 # <a name="getdomainsettingsrequest-soap"></a>GetDomainSettingsRequest (SOAP)
@@ -62,7 +62,7 @@ Nenhum
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

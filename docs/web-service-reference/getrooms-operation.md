@@ -16,7 +16,7 @@ ms.openlocfilehash: 4cb124b96637b9fcdca15595faebb2ce4d304de0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460544"
 ---
 # <a name="getrooms-operation"></a>Operação getrooms
@@ -173,7 +173,7 @@ Os seguintes elementos são usados na resposta:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

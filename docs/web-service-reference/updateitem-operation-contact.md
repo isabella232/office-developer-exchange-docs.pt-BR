@@ -16,7 +16,7 @@ ms.openlocfilehash: 66e1b91ea3154d8a501339aed7b398970e8f5392
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459823"
 ---
 # <a name="updateitem-operation-contact"></a>Operação UpdateItem (contato)
@@ -222,7 +222,7 @@ O exemplo de código a seguir mostra uma resposta de erro a uma solicitação de
 
 Alguns elementos que são usados no corpo SOAP de uma resposta de erro causado por um erro de validação de esquema não estão definidos nos esquemas de mensagens ou tipos. O elemento **Detail** contém informações sobre o erro. O elemento [ResponseCode](responsecode.md) contém o código de erro. O elemento [Message](message-ex15websvcsotherref.md) contém uma explicação para o erro, se houver um disponível. O elemento **line** descreve o número da linha em que ocorreu o erro de validação do esquema. O elemento **Position** descreve a posição do caractere da extrema esquerda do documento XML. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

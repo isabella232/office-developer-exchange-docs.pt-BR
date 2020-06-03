@@ -13,7 +13,7 @@ ms.openlocfilehash: bc215d614441ed8f12c0f1490f4abdbb7b574ad0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459543"
 ---
 # <a name="request-pox"></a>Solicitação (POX)
@@ -59,7 +59,7 @@ Nenhum
 |:-----|:-----|
 |[Descoberta automática (POX)](autodiscover-pox.md) <br/> |O elemento raiz em uma solicitação de descoberta automática.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

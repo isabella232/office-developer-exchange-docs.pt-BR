@@ -16,7 +16,7 @@ ms.openlocfilehash: 0f70f1fe4348b5b74cef6be6414618af1e3de260
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459851"
 ---
 # <a name="items-nonemptyarrayofallitemstype"></a>Itens (NonEmptyArrayOfAllItemsType)
@@ -63,7 +63,7 @@ Nenhum
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[Item](item.md) <br/> |Representa um item no repositório do Exchange.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
 |[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição.  <br/> |

@@ -16,7 +16,7 @@ ms.openlocfilehash: cf66eb390b0287e89bb8402f26a2e728868a2b18
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460509"
 ---
 # <a name="getsharingfolder-operation"></a>Operação GetSharingFolder
@@ -155,7 +155,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação **GetSharingF
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 
