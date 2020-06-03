@@ -1,34 +1,34 @@
 ---
-title: Notificações de fluxo sobre eventos de caixa de correio usando o EWS no Exchange
+title: Transmitir notificações sobre eventos de caixa de correio usando o EWS no Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: fe9bde1e-da0e-413c-a109-077f399f67a3
-description: Descubra como usar a API gerenciada de EWS ou o EWS para assinar notificações de streaming e obtenha eventos.
-ms.openlocfilehash: aad7604511687d1482914183979e954f79572af9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Descubra como usar a API gerenciada do EWS ou o EWS para se inscrever em notificações de streaming e obter eventos.
+localization_priority: Priority
+ms.openlocfilehash: 97784be8ab13509f950355f532f97167e9b6f43e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750822"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527716"
 ---
-# <a name="stream-notifications-about-mailbox-events-by-using-ews-in-exchange"></a>Notificações de fluxo sobre eventos de caixa de correio usando o EWS no Exchange
+# <a name="stream-notifications-about-mailbox-events-by-using-ews-in-exchange"></a>Transmitir notificações sobre eventos de caixa de correio usando o EWS no Exchange
 
-Descubra como usar a API gerenciada de EWS ou o EWS para assinar notificações de streaming e obtenha eventos.
+Descubra como usar a API gerenciada do EWS ou o EWS para se inscrever em notificações de streaming e obter eventos.
   
-EWS no Exchange usa streaming notificações para receber notificações são enviadas pelo servidor por meio de uma conexão que permanece aberto para um período de tempo especificado.
+O EWS no Exchange usa notificações de fluxo contínuo para receber notificações enviadas pelo servidor por meio de uma conexão que permanece aberta por um período de tempo especificado.
   
-Se você está inscrevendo para notificações de fluxo contínuo usando a API gerenciada do EWS, você [inscrever e fazer streaming notificações](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cestreamewsma) usando o método [SubscribeToStreamingNotifications](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.subscribetostreamingnotifications%28v=exchg.80%29.aspx) . Você cria uma conexão para a assinatura usando o objeto [StreamingSubscriptionConnection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.streamingsubscriptionconnection.streamingsubscriptionconnection%28v=exchg.80%29.aspx) . 
+Se você estiver assinando notificações de streaming usando a API gerenciada do EWS, [assine e receba as notificações de streaming](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cestreamewsma) usando o método [SubscribeToStreamingNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.subscribetostreamingnotifications%28v=exchg.80%29.aspx) . Você cria uma conexão com a assinatura usando o objeto [StreamingSubscriptionConnection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.streamingsubscriptionconnection.streamingsubscriptionconnection%28v=exchg.80%29.aspx) . 
   
-Para assinar notificações de streaming usando o EWS, [Crie uma inscrição](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cestreamews) usando a [operação Subscribe](http://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx), analisar a resposta e [obter as notificações de streaming](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cegetnotifsews) usando a [operação GetStreamingEvents](http://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx) solicitação. 
+Para se inscrever em notificações de fluxo contínuo usando EWS, você [cria uma assinatura](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cestreamews) usando a [operação Subscribe](https://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx), analisa a resposta e [Obtém as notificações de streaming](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cegetnotifsews) usando a solicitação de [operação GetStreamingEvents](https://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx) . 
   
 Depois que o cliente recebe notificações de itens alterados ou criados no servidor, a [próxima etapa](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps) é sincronizar as alterações. 
   
-## <a name="subscribe-to-and-get-streaming-notifications-by-using-the-ews-managed-api"></a>Inscrever-se e obter notificações de fluxo contínuo usando a API gerenciada de EWS
+## <a name="subscribe-to-and-get-streaming-notifications-by-using-the-ews-managed-api"></a>Inscrever-se e obter notificações de streaming usando a API gerenciada do EWS
 <a name="bk_cestreamewsma"> </a>
 
-O exemplo de código a seguir mostra como usar o método [SubscribeToStreamingNotifications](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.endsubscribetostreamingnotifications%28v=exchg.80%29.aspx) para assinar notificações para todos os eventos na pasta caixa de entrada de streaming. Em seguida, ele cria uma conexão para a assinatura, criando um objeto [StreamingSubscriptionConnection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.streamingsubscriptionconnection.streamingsubscriptionconnection%28v=exchg.80%29.aspx) . Neste exemplo, vamos pressupor que esse **serviço** é uma vinculação [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válida. 
+O exemplo de código a seguir mostra como usar o método [SubscribeToStreamingNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.endsubscribetostreamingnotifications%28v=exchg.80%29.aspx) para assinar notificações de fluxo contínuo para todos os eventos na pasta caixa de entrada. Em seguida, ele cria uma conexão para a assinatura criando um objeto [StreamingSubscriptionConnection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.streamingsubscriptionconnection.streamingsubscriptionconnection%28v=exchg.80%29.aspx) . Neste exemplo, assumimos que **Service** é uma associação [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válida. 
   
 ```cs
 // Subscribe to streaming notifications in the Inbox. 
@@ -50,19 +50,19 @@ connection.OnDisconnect += OnDisconnect;
 connection.Open();
 ```
 
-Depois que você tiver recebido eventos do servidor, a [próxima etapa](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps) é sincronizar as alterações com o servidor. Use um dos métodos de cancelamento da assinatura listados na [tabela 4](notification-subscriptions-mailbox-events-and-ews-in-exchange.md#bk_notifunsubscribe) para encerrar a assinatura com o servidor quando a assinatura não é mais necessária. 
+Após ter recebido eventos do servidor, a [próxima etapa](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps) é sincronizar essas alterações com o servidor. Use um dos métodos unsubscribe listados na [tabela 4](notification-subscriptions-mailbox-events-and-ews-in-exchange.md#bk_notifunsubscribe) para finalizar a assinatura com o servidor quando a assinatura não for mais necessária. 
   
-## <a name="subscribe-to-streaming-notifications-by-using-ews"></a>Assine as notificações de fluxo contínuo usando o EWS
+## <a name="subscribe-to-streaming-notifications-by-using-ews"></a>Assinar notificações de streaming usando EWS
 <a name="bk_cestreamews"> </a>
 
-O exemplo a seguir mostra uma solicitação XML que é enviada pelo cliente para o servidor quando o cliente chama a [operação Inscrever-se](http://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx) para assinar todas as [EventTypes](http://msdn.microsoft.com/library/29ded9e5-f191-4aa3-bc3e-500de2fc8818%28Office.15%29.aspx) na pasta caixa de entrada. Isso também é a solicitação XML que o EWS Managed API envia quando você usa o método [SubscribeToStreamingNotifications](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.endsubscribetostreamingnotifications%28v=exchg.80%29.aspx) para assinar notificações de streaming. 
+O exemplo a seguir mostra uma solicitação XML que é enviada pelo cliente para o servidor quando o cliente chama a [operação Subscribe](https://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx) para inscrever-se em todos os [EventType](https://msdn.microsoft.com/library/29ded9e5-f191-4aa3-bc3e-500de2fc8818%28Office.15%29.aspx) na pasta caixa de entrada. Essa é também a solicitação XML que a API gerenciada do EWS envia quando você usa o método [SubscribeToStreamingNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.endsubscribetostreamingnotifications%28v=exchg.80%29.aspx) para se inscrever em notificações de fluxo contínuo. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -87,26 +87,26 @@ O exemplo a seguir mostra uma solicitação XML que é enviada pelo cliente para
 </soap:Envelope>
 ```
 
-O exemplo XML a seguir mostra a mensagem [SubscribeResponse](http://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx) que é enviada ao cliente em resposta à solicitação [Subscribe de operação](http://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx) do servidor. A inclusão do valor para o elemento [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) NoError significa que a assinatura foi criada com êxito. O elemento [SubscriptionId](http://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) identifica exclusivamente a inscrição de notificação de streaming no servidor. 
+O exemplo de XML a seguir mostra a mensagem [SubscribeResponse](https://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx) que é enviada do servidor para o cliente em resposta à solicitação de [operação de assinatura](https://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx) . A inclusão do valor NoError para o elemento [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) significa que a assinatura foi criada com êxito. O elemento [SubscriptionId](https://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) identifica exclusivamente a assinatura de notificação de streaming no servidor. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="785"
                          MinorBuildNumber="6"
                          Version="V2_6"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
           <m:SubscribeResponseMessage ResponseClass="Success">
             <m:ResponseCode>NoError</m:ResponseCode>
@@ -118,19 +118,19 @@ O exemplo XML a seguir mostra a mensagem [SubscribeResponse](http://msdn.microso
   </s:Envelope>
 ```
 
-Depois de criar a inscrição, você pode agora [obter os eventos em fluxo](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cegetnotifsews) usando a [SubscriptionId](http://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) retornados na mensagem [SubscribeResponse](http://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx) . 
+Depois de criar a assinatura, agora você pode [obter os eventos em fluxo](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cegetnotifsews) usando a [SubscriptionId](https://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) retornada na mensagem [SubscribeResponse](https://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx) . 
   
-## <a name="get-streaming-events-by-using-ews"></a>Fazer streaming eventos usando o EWS
+## <a name="get-streaming-events-by-using-ews"></a>Obter eventos de streaming usando EWS
 <a name="bk_cegetnotifsews"> </a>
 
-O exemplo XML a seguir mostra a mensagem de solicitação de [operação GetStreamingEvents](http://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx) que o cliente envia para o servidor para receber as notificações para a [SubscriptionId](http://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) retornados na mensagem [SubscribeResponse](http://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx) . A solicitação de [operação GetStreamingEvents](http://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx) indica que o comprimento da conexão é 30 minutos de duração. 
+O exemplo de XML a seguir mostra a mensagem de solicitação de [operação GetStreamingEvents](https://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx) que o cliente envia ao servidor para obter notificações para a [SubscriptionId](https://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) retornada na mensagem [SubscribeResponse](https://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx) . A solicitação de [operação GetStreamingEvents](https://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx) indica que o comprimento da conexão é de 30 minutos. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -145,27 +145,27 @@ O exemplo XML a seguir mostra a mensagem de solicitação de [operação GetStre
 </soap:Envelope>
 ```
 
-O exemplo XML a seguir mostra a mensagem de [GetStreamingEventsResponse](http://msdn.microsoft.com/library/ea1e7e7e-1b19-4e07-ba42-5dbd888c6db2%28Office.15%29.aspx) é enviada do servidor para o cliente em resposta à solicitação de [operação GetStreamingEvents](http://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx) . Ele contém um CreatedEvent e um NewMailEvent para o item e um ModifiedEvent para a pasta, todos os quais ocorrem quando uma nova mensagem for recebida. 
+O exemplo de XML a seguir mostra a mensagem [GetStreamingEventsResponse](https://msdn.microsoft.com/library/ea1e7e7e-1b19-4e07-ba42-5dbd888c6db2%28Office.15%29.aspx) que é enviada do servidor para o cliente em resposta à solicitação de [operação GetStreamingEvents](https://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx) . Ele contém um CreatedEvent e um NewMailEvent para o item, e um ModifiedEvent para a pasta, todos eles ocorrem quando uma nova mensagem é recebida. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="785"
                          MinorBuildNumber="6"
                          Version="V2_6"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
-  <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <m:GetStreamingEventsResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
     <m:ResponseMessages>
       <m:GetStreamingEventsResponseMessage ResponseClass="Success">
         <m:ResponseCode>NoError</m:ResponseCode>
@@ -196,23 +196,23 @@ O exemplo XML a seguir mostra a mensagem de [GetStreamingEventsResponse](http://
 </soap:Body>
 ```
 
-Depois que você tiver recebido eventos do servidor, a [próxima etapa](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps) é sincronizar as alterações com o servidor. Use a [operação de cancelamento da assinatura](http://msdn.microsoft.com/library/994a9d2b-1501-4804-90f0-12bd914496ec%28Office.15%29.aspx) para encerrar a assinatura com o servidor quando a assinatura não é mais necessária. 
+Após ter recebido eventos do servidor, a [próxima etapa](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps) é sincronizar essas alterações com o servidor. Use a [operação de cancelamento](https://msdn.microsoft.com/library/994a9d2b-1501-4804-90f0-12bd914496ec%28Office.15%29.aspx) de assinatura para finalizar a assinatura com o servidor quando a assinatura não for mais necessária. 
   
 ## <a name="next-steps"></a>Próximas etapas
 <a name="bk_nextsteps"> </a>
 
-Depois que você recebeu notificações, você pode [sincronizar a hierarquia de pastas](how-to-synchronize-folders-by-using-ews-in-exchange.md) ou [sincronizar o conteúdo da pasta que é alterado](how-to-synchronize-items-by-using-ews-in-exchange.md).
+Depois de receber notificações, você poderá [sincronizar a hierarquia de pastas](how-to-synchronize-folders-by-using-ews-in-exchange.md) ou [sincronizar o conteúdo da pasta que foi alterada](how-to-synchronize-items-by-using-ews-in-exchange.md).
   
 ## <a name="see-also"></a>Confira também
 
 
-- [Inscrições de notificação, eventos de caixa de correio e EWS no Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
+- [Assinaturas de notificação, eventos de caixa de correio e EWS no Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
     
 - [Receber notificações sobre eventos de caixa de correio usando o EWS no Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
     
 - [Manter a afinidade entre um grupo de assinaturas e o servidor de caixa de correio no Exchange](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md)
     
-- [Tratando erros relacionados a notificação no EWS no Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
+- [Tratamento de erros relacionados à notificação no EWS no Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
     
 - [Sincronização de caixa de correio e EWS no Exchange](mailbox-synchronization-and-ews-in-exchange.md)
     

@@ -3,41 +3,41 @@ title: Adicionar anexos usando o EWS no Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 0cbce436-2ae6-4fcc-bd8b-f517a0724e55
-description: Aprenda a criar novos itens com anexos ou adicionar anexos aos itens existentes usando a API gerenciada de EWS ou EWS no Exchange.
-ms.openlocfilehash: dbfff879c92dafeec588d79cddd92e294b763c06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Saiba como criar novos itens com anexos ou adicionar anexos a itens existentes usando a API gerenciada do EWS ou o EWS no Exchange.
+localization_priority: Priority
+ms.openlocfilehash: fa98eb437d1289f25cfb827b6fa9b351d842bd40
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19750715"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528262"
 ---
 # <a name="add-attachments-by-using-ews-in-exchange"></a>Adicionar anexos usando o EWS no Exchange
 
-Aprenda a criar novos itens com anexos ou adicionar anexos aos itens existentes usando a API gerenciada de EWS ou EWS no Exchange.
+Saiba como criar novos itens com anexos ou adicionar anexos a itens existentes usando a API gerenciada do EWS ou o EWS no Exchange.
   
-Você pode adicionar anexos de arquivo ou item anexos aos itens novos ou existentes usando o EWS Managed API ou o EWS. Se você estiver usando o EWS Managed API, use o mesmo método para adicionar anexos aos itens novos ou existentes; No entanto, o método altera se você estiver usando um anexo de arquivo ou item. De modo oposto, se você estiver usando o EWS, você usa a mesma operação para adicionar um arquivo ou um item anexo a um item, mas a operação será alterada se você estiver adicionando o anexo a um item novo ou existente.
+Você pode adicionar anexos de arquivo ou anexos de item a itens novos ou existentes usando a API gerenciada do EWS ou o EWS. Se você estiver usando a API gerenciada do EWS, use o mesmo método para adicionar anexos a itens novos ou existentes; no entanto, o método muda se você estiver usando um arquivo ou anexo de item. Por outro lado, se você estiver usando o EWS, use a mesma operação para adicionar um anexo de arquivo ou item a um item, mas a operação será alterada se você estiver adicionando o anexo a um item novo ou existente.
   
-**Tabela 1. Métodos de API gerenciada de EWS e operações de EWS para adição de anexos**
+**Tabela 1. Métodos da API gerenciada do EWS e operações do EWS para adição de anexos**
 
-|**Task**|**Método API gerenciada de EWS**|**Operação do EWS**|
+|**Tarefa**|**Método de API gerenciada do EWS**|**Operação do EWS**|
 |:-----|:-----|:-----|
-|Adicionar um anexo de arquivo a um email novo ou existente  <br/> |[AttachmentCollection.AddFileAttachment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) para um novo email  <br/> [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) para adicionar um email existente  <br/> |
-|Adicionar um anexo do item a um email novo ou existente  <br/> |[AttachmentCollection.AddItemAttachment](http://msdn.microsoft.com/en-us/library/dd634986%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) para um novo email  <br/> [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) para adicionar um email existente  <br/> |
+|Adicionar um anexo de arquivo a um email novo ou existente  <br/> |[AttachmentCollection. AddFileAttachment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) para um novo email  <br/> [CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) para adicionar a um email existente  <br/> |
+|Adicionar um anexo de item a um email novo ou existente  <br/> |[AttachmentCollection. AddItemAttachment](https://msdn.microsoft.com/library/dd634986%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) para um novo email  <br/> [CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) para adicionar a um email existente  <br/> |
    
-## <a name="create-an-email-with-file-and-item-attachments-by-using-the-ews-managed-api"></a>Criar um email com anexos de arquivo e um item usando a API gerenciada de EWS
+## <a name="create-an-email-with-file-and-item-attachments-by-using-the-ews-managed-api"></a>Criar um email com anexos de arquivo e de item usando a API gerenciada do EWS
 <a name="bk_createattachewsma"> </a>
 
-O exemplo de código a seguir mostra como criar um email com vários anexos de arquivo e um anexo do item por: 
+O exemplo de código a seguir mostra como criar um email com vários anexos de arquivo e um item anexado por: 
   
-1. Usando o objeto [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) para criar uma mensagem de email. 
+1. Usando o objeto [EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) para criar uma mensagem de email. 
     
-2. Usando os métodos [AttachmentCollection.AddFileAttachment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) e [AttachmentCollection.AddItemAttachment](http://msdn.microsoft.com/en-us/library/dd634986%28v=exchg.80%29.aspx) para adicionar anexos à mensagem. 
+2. Usando os métodos [AttachmentCollection. AddFileAttachment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) e [AttachmentCollection. AddItemAttachment](https://msdn.microsoft.com/library/dd634986%28v=exchg.80%29.aspx) para adicionar anexos à mensagem. 
     
-3. Usando o método [EmailMessage.SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) para enviar a mensagem para os destinatários e salve a mensagem na pasta Itens enviados. 
+3. Usando o método [EmailMessage. SendAndSaveCopy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) para enviar a mensagem para os destinatários e salvar a mensagem na pasta Itens enviados. 
     
-Este exemplo de código mostra as quatro maneiras em que um anexo de arquivo pode ser adicionado a um item usando a API gerenciada de EWS:
+Este exemplo de código mostra as quatro maneiras nas quais um anexo de arquivo pode ser adicionado a um item usando a API gerenciada do EWS:
   
 - Usando um local de arquivo totalmente qualificado.
     
@@ -45,11 +45,11 @@ Este exemplo de código mostra as quatro maneiras em que um anexo de arquivo pod
     
 - Usando uma matriz de bytes.
     
-- Usando um fluxo.
+- Usando um Stream.
     
-Observe que o item de anexo neste exemplo é criado ao mesmo tempo que a mensagem de email. Para adicionar uma mensagem de email existente como um anexo de item, consulte [Adicionar um item existente para um novo email usando o MimeContent e a API gerenciada de EWS](#bk_addexistingemailewsma).
+Observe que o anexo de item neste exemplo é criado ao mesmo tempo que a mensagem de email. Para adicionar uma mensagem de email existente como um anexo de item, confira [Adicionar um item existente a um novo email usando o MimeContent e a API gerenciada do EWS](#bk_addexistingemailewsma).
   
-Este exemplo supõe que esse **serviço** é um objeto válido do [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) e que o usuário foi autenticado com um servidor Exchange. 
+Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido e que o usuário foi autenticado em um servidor Exchange. 
   
 ```cs
 public static void CreateEmailWithAttachments(ExchangeService service)
@@ -90,19 +90,19 @@ public static void CreateEmailWithAttachments(ExchangeService service)
 }
 ```
 
-## <a name="create-an-email-with-file-and-item-attachments-by-using-ews"></a>Criar um email com anexos de arquivo e um item usando o EWS
+## <a name="create-an-email-with-file-and-item-attachments-by-using-ews"></a>Criar um email com anexos de arquivo e de item usando o EWS
 <a name="bk_createattachews"> </a>
 
-O exemplo de código a seguir mostra como usar a operação [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) para criar uma mensagem de email com quatro anexos de arquivo e um anexo do item. Isso também é uma das solicitações de XML que o EWS Managed API envia quando você [criar um email com anexos de arquivo e o item](#bk_createattachewsma).
+O exemplo de código a seguir mostra como usar a operação [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) para criar uma mensagem de email com quatro anexos de arquivo e um anexo de item. Também é uma das solicitações XML que a API gerenciada do EWS envia quando você [cria um email com anexos de arquivo e de item](#bk_createattachewsma).
   
-Observe que o item de anexo neste exemplo é criado ao mesmo tempo que a mensagem de email. Para adicionar uma mensagem de email existente como um anexo de item, consulte [Adicionar um item existente para um novo email usando o MimeContent e a API gerenciada de EWS](#bk_addexistingemailewsma).
+Observe que o anexo de item neste exemplo é criado ao mesmo tempo que a mensagem de email. Para adicionar uma mensagem de email existente como um anexo de item, confira [Adicionar um item existente a um novo email usando o MimeContent e a API gerenciada do EWS](#bk_addexistingemailewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -170,26 +170,26 @@ Observe que o item de anexo neste exemplo é criado ao mesmo tempo que a mensage
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **CreateItem** com uma mensagem de [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) que inclui um valor de [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) de **NoError**, que indica que o email e os anexos foram criados com êxito. O [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) da mensagem recém-criado e os valores de [AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) para cada um dos anexos também pode ser incluído na resposta. Os valores de alguns atributos foram diminuídos para melhorar a legibilidade. 
+O servidor responde à solicitação **CreateItem** com uma mensagem [CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) que inclui um valor [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NOERROR**, que indica que o email e os anexos foram criados com êxito. O [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) da mensagem recém-criada e os valores [attachmentid](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) para cada um dos anexos também está incluído na resposta. Os valores de alguns atributos foram reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="939"
                          MinorBuildNumber="12"
                          Version="V2_11"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -223,20 +223,20 @@ O servidor responde à solicitação **CreateItem** com uma mensagem de [CreateI
 </s:Envelope>
 ```
 
-Para [Enviar a mensagem de dados criado recentemente](how-to-send-email-messages-by-using-ews-in-exchange.md), chame a operação [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
+Para [enviar essa mensagem recém-criada](how-to-send-email-messages-by-using-ews-in-exchange.md), chame a operação [SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
   
-## <a name="add-an-existing-item-to-a-new-email-by-using-the-mimecontent-and-the-ews-managed-api"></a>Adicionar um item existente para um novo email usando o MimeContent e a API gerenciada de EWS
+## <a name="add-an-existing-item-to-a-new-email-by-using-the-mimecontent-and-the-ews-managed-api"></a>Adicionar um item existente a um novo email usando o MimeContent e a API gerenciada do EWS
 <a name="bk_addexistingemailewsma"> </a>
 
-Para adicionar um item existente como um anexo do item a outro item, você precisará criar um novo item de anexo e copiar o conteúdo do item existente para o novo item. Há duas maneiras de fazer isso: 
+Para adicionar um item existente como um anexo de item a outro item, você precisa criar um novo anexo de item e copiar o conteúdo do item existente para o novo item. Há duas maneiras de fazer isso: 
   
-1. Se você estiver trabalhando com mensagens de email especificamente, você pode copiar o valor da propriedade [MimeContent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) de email para o item recém-criado de anexo. Você perderá algumas propriedades durante esse processo, como categorias e os sinalizadores de acompanhamento, mas ele é muito útil para mensagens de email padrão. 
+1. Se você estiver trabalhando com mensagens de email especificamente, você pode copiar o valor da propriedade [MimeContent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) do email para o anexo de item recém-criado. Você perderá algumas propriedades durante esse processo, como os sinalizadores de acompanhamento e categorias, mas funciona ótimo para mensagens de email padrão. 
     
-2. Se você precisar com fidelidade total para todos os tipos de item, você pode vincular a um item existente e copiar todas as propriedades e propriedades estendidas para o novo anexo.
+2. Se você precisar de fidelidade total para todos os tipos de item, você pode vincular a um item existente e copiar todas as propriedades e propriedades estendidas para o novo anexo.
     
-O exemplo de código a seguir mostra a primeira abordagem, copiando o **MimeContent** para o novo item de anexo. Este exemplo a seguir é um procedimento que mostra como você pode modificar o código para usar a segunda abordagem. 
+O exemplo de código a seguir mostra a primeira abordagem, copiando o **MimeContent** para o novo anexo de item. A seguir, este exemplo é um procedimento que mostra como você pode modificar o código para usar a segunda abordagem. 
   
-Este exemplo supõe que esse **serviço** é um objeto válido do [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) que o usuário foi autenticado com um servidor Exchange e que o **itemId** é o [ItemId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) do item para anexar. 
+Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido e que o usuário foi autenticado em um servidor Exchange e que o **ItemId** é o [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) do item a ser anexado. 
   
 ```cs
 public static void CreateEmailExistingItem(ExchangeService service, ItemId itemId)
@@ -260,61 +260,61 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 }
 ```
 
-Para modificar este exemplo para copiar cada uma das propriedades no item existente para o novo item de anexo, faça o seguinte: 
+Para modificar este exemplo para copiar cada uma das propriedades no item existente para o novo anexo de item, faça o seguinte: 
   
-1. Altere a propriedade definida para incluir **PropertySet.FirstClassProperties** e qualquer propriedades adicionais ou propriedades estendidas, que você precisa. 
+1. Altere o conjunto de propriedades para incluir **PropertySet. FirstClassProperties** e propriedades adicionais ou propriedades estendidas necessárias. 
     
   ```cs
   // Add additional properties to the PropertySet.
   EmailMessage msgToAttach = EmailMessage.Bind(service, itemId, new PropertySet(PropertySet.FirstClassProperties));
   ```
 
-2. Remova a linha seguinte, porque a propriedade **MimeContent** não é necessário. 
+2. Remova a seguinte linha, porque você não precisa da propriedade **MimeContent** . 
     
   ```cs
   itemAttachment.Item.MimeContent = msgToAttach.MimeContent;
   ```
 
-3. Repita essa linha para cada propriedade copiar do item existente para o novo anexo. Não copie o **ItemId** para o novo item de anexo porque que é uma propriedade de somente leitura. 
+3. Repita essa linha para cada propriedade a ser copiada do item existente para o novo anexo. Não copie **ItemId** no novo anexo de item porque essa é uma propriedade somente leitura. 
     
   ```cs
   itemAttachment.Item.Subject = msgToAttach.Subject;
   ```
 
-4. Defina a propriedade [PidTagMessageFlags](http://msdn.microsoft.com/en-us/library/cc839733.aspx) (0x0E070003) no anexo para **enviado**.
+4. Defina a propriedade [PidTagMessageFlags](https://msdn.microsoft.com/library/cc839733.aspx) (0x0E070003) no anexo a ser **enviado**.
     
   ```cs
   ExtendedPropertyDefinition sent = new ExtendedPropertyDefinition(3591, MapiPropertyType.Integer);
   msgToAttach.Item.SetExtendedProperty(sent, "1");
   ```
 
-## <a name="add-an-existing-item-to-a-new-email-by-using-the-mimecontent-and-ews"></a>Adicionar um item existente para um novo email usando o EWS e MimeContent
+## <a name="add-an-existing-item-to-a-new-email-by-using-the-mimecontent-and-ews"></a>Adicionar um item existente a um novo email usando o MimeContent e o EWS
 <a name="bk_addexistingemailews"> </a>
 
-Há duas maneiras de adicionar um item existente para um novo item: 
+Há duas maneiras de adicionar um item existente a um novo item: 
   
-1. Se você estiver trabalhando com mensagens de email especificamente, você pode copiar o valor do elemento [MimeContent](http://msdn.microsoft.com/library/4f472a08-5653-4c54-ba65-831dfe32f20f%28Office.15%29.aspx) de email para o item recém-criado de anexo. Você perderá algumas propriedades durante esse processo, como categorias e os sinalizadores de acompanhamento, mas ele é muito útil para mensagens de email padrão. 
+1. Se você estiver trabalhando com mensagens de email especificamente, você pode copiar o valor do elemento [MimeContent](https://msdn.microsoft.com/library/4f472a08-5653-4c54-ba65-831dfe32f20f%28Office.15%29.aspx) do email para o anexo de item recém-criado. Você perderá algumas propriedades durante esse processo, como os sinalizadores de acompanhamento e categorias, mas funciona ótimo para mensagens de email padrão. 
     
-2. Se você precisar com fidelidade total para todos os tipos de item, você pode vincular a um item existente e copiar todas as propriedades e propriedades estendidas para o novo anexo.
+2. Se você precisar de fidelidade total para todos os tipos de item, você pode vincular a um item existente e copiar todas as propriedades e propriedades estendidas para o novo anexo.
     
-O exemplo de código a seguir mostra como usar o elemento **MimeContent** para copiar o conteúdo do item original para o valor de **MimeContent** do anexo novo item. O exemplo utiliza as seguintes operações: 
+O exemplo de código a seguir mostra como usar o elemento **MimeContent** para copiar o conteúdo do item original para o valor **MimeContent** do novo anexo de item. O exemplo usa as seguintes operações: 
   
-1. [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) — para obter o **MimeContent** e o [assunto](http://msdn.microsoft.com/library/c140d6c2-deb1-4f67-a908-9397197c4ae7%28Office.15%29.aspx) da mensagem que se tornará o anexo do item na nova mensagem. 
+1. [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) — para obter o **MimeContent** e o [assunto](https://msdn.microsoft.com/library/c140d6c2-deb1-4f67-a908-9397197c4ae7%28Office.15%29.aspx) da mensagem que se tornará o anexo de item na nova mensagem. 
     
-2. [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) — para criar a nova mensagem de email. 
+2. [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) — para criar a nova mensagem de email. 
     
-3. [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)— para criar o novo anexo, usando o **assunto** e **MimeContent** recuperados pela operação de **GetItem** . 
+3. [CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)— para criar o novo anexo, usando o **MimeContent** e o **assunto** recuperado pela operação **GetItem** . 
     
-4. [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) — para enviar e salvar a mensagem. 
+4. [SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) — para enviar e salvar a mensagem. 
     
 O exemplo começa recuperando o **MimeContent** e o **assunto** do item existente. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
     <m:GetItem>
       <m:ItemShape>
@@ -332,26 +332,26 @@ O exemplo começa recuperando o **MimeContent** e o **assunto** do item existent
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **GetItem** com uma mensagem de [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) que inclui um valor de [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) do **NoError**, que indica que o email foi recuperado com êxito, a **MimeContent** e ** Assunto** do email. 
+O servidor responde à solicitação **GetItem** com uma mensagem [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) que inclui um valor de [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NOERROR**, que indica que o email foi recuperado com êxito e o **MimeContent** e o **assunto** do email. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="944"
                          MinorBuildNumber="11"
                          Version="V2_12"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -375,9 +375,9 @@ Em seguida, chame a operação **CreateItem** para criar o novo email.
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -399,16 +399,16 @@ Em seguida, chame a operação **CreateItem** para criar o novo email.
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **CreateItem** com uma mensagem de [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) que inclui um valor de [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) de **NoError**, que indica se o email foi criado com êxito.
+O servidor responde à solicitação **CreateItem** com uma mensagem [CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) que inclui um valor [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NOERROR**, que indica que o email foi criado com êxito.
   
-Em seguida, crie o novo anexo de item usando o **MimeContent** e o **assunto** recuperados pela operação de **GetItem** . O valor do elemento [ParentItemId](http://msdn.microsoft.com/library/72dc4391-72db-44d2-85d9-4718d59886a7%28Office.15%29.aspx) é preenchido com o valor de **ItemId** retornado na resposta **CreateItem** . 
+Em seguida, crie o novo anexo de item usando o **MimeContent** e o **assunto** recuperado pela operação **GetItem** . O valor do elemento [ParentItemId](https://msdn.microsoft.com/library/72dc4391-72db-44d2-85d9-4718d59886a7%28Office.15%29.aspx) é populado usando o valor de **ItemId** retornado na resposta **CreateItem** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -429,16 +429,16 @@ Em seguida, crie o novo anexo de item usando o **MimeContent** e o **assunto** r
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **CreateAttachment** com uma mensagem de [CreateAttachmentResponse](http://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx) que inclui um valor de [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) de **NoError**, que indica que o anexo foi criado com êxito e o [ AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) do anexo recém-criado. 
+O servidor responde à solicitação **CreateAttachment** com uma mensagem [CreateAttachmentResponse](https://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx) que inclui um valor [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NOERROR**, que indica que o anexo foi criado com êxito e o [attachmentid](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) do anexo recém-criado. 
   
-Agora que a nova mensagem tiver sido criada, e o item foi anexado, você poderá [Enviar a mensagem de dados criado recentemente](how-to-send-email-messages-by-using-ews-in-exchange.md) chamando-se a operação [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
+Agora que a nova mensagem foi criada e o item foi anexado, você pode [enviar essa mensagem recém-criada](how-to-send-email-messages-by-using-ews-in-exchange.md) chamando a operação [SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -456,22 +456,22 @@ Agora que a nova mensagem tiver sido criada, e o item foi anexado, você poderá
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **SendItem** com uma mensagem de [SendItemResponse](http://msdn.microsoft.com/library/26ac41c7-57d9-473e-ab7a-bae93e1d2aba%28Office.15%29.aspx) que inclui um valor de [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NoError**, que indica que o email foi enviado com êxito.
+O servidor responde à solicitação **SendItem** com uma mensagem [SendItemResponse](https://msdn.microsoft.com/library/26ac41c7-57d9-473e-ab7a-bae93e1d2aba%28Office.15%29.aspx) que inclui um valor de [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, que indica que o email foi enviado com êxito.
   
-## <a name="create-an-email-with-an-inline-attachment-by-using-the-ews-managed-api"></a>Criar um email com um anexo em linha, usando a API gerenciada de EWS
+## <a name="create-an-email-with-an-inline-attachment-by-using-the-ews-managed-api"></a>Criar um email com um anexo embutido usando a API gerenciada do EWS
 <a name="bk_createinlineattachewsma"> </a>
 
-O exemplo de código a seguir mostra como criar um email com um anexo em linha por:
+O exemplo de código a seguir mostra como criar um email com um anexo embutido por:
   
-1. Usando o objeto [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) para criar uma mensagem de email. 
+1. Usando o objeto [EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) para criar uma mensagem de email. 
     
-2. Definindo a propriedade [EmailMessage.Body](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.body%28v=exchg.80%29.aspx) para um corpo HTML que inclui um anexo em linha. 
+2. Configuração da propriedade [EmailMessage. Body](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.body%28v=exchg.80%29.aspx) para um corpo HTML que inclui um anexo embutido. 
     
-3. Usando o método [AttachmentCollection.AddFileAttachment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) para adicionar o anexo à mensagem. 
+3. Usando o método [AttachmentCollection. AddFileAttachment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) para adicionar o anexo à mensagem. 
     
-4. Usando o método [EmailMessage.SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) para enviar a mensagem ao destinatário e salve a mensagem na pasta Itens enviados. 
+4. Usando o método [EmailMessage. SendAndSaveCopy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) para enviar a mensagem para o destinatário e salvar a mensagem na pasta Itens enviados. 
     
-Este exemplo supõe que esse **serviço** é um objeto válido do [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) e que o usuário foi autenticado com um servidor Exchange. 
+Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido e que o usuário foi autenticado em um servidor Exchange. 
   
 ```cs
 public static void CreateEmailWithInlineAttachment(ExchangeService service)
@@ -502,17 +502,17 @@ public static void CreateEmailWithInlineAttachment(ExchangeService service)
 }
 ```
 
-## <a name="create-an-email-with-an-inline-attachment-by-using-ews"></a>Criar um email com um anexo em linha usando o EWS
+## <a name="create-an-email-with-an-inline-attachment-by-using-ews"></a>Criar um email com um anexo embutido usando o EWS
 <a name="bk_createinlineattachewsma"> </a>
 
-O exemplo de código a seguir mostra como usar a operação [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) para criar uma mensagem de email com um anexo de arquivo embutida. O atributo **BodyType** do elemento [Body](http://msdn.microsoft.com/library/7851ea9b-9f87-4adc-a26f-7a27df4a9bca%28Office.15%29.aspx) indica que o conteúdo está no formato HTML e inclui a origem da imagem. Isso também é uma das solicitações de XML que o EWS Managed API envia quando você usar a API gerenciada de EWS para [criar um email com um anexo em linha](#bk_createinlineattachewsma).
+O exemplo de código a seguir mostra como usar a operação [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) para criar uma mensagem de email com um anexo de arquivo embutido. O atributo **BodyType** do elemento [Body](https://msdn.microsoft.com/library/7851ea9b-9f87-4adc-a26f-7a27df4a9bca%28Office.15%29.aspx) indica que o conteúdo está no formato HTML e inclui a fonte da imagem. Também é uma das solicitações XML que a API gerenciada do EWS envia quando você usa a API gerenciada do EWS para [criar um email com um anexo embutido](#bk_createinlineattachewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -542,22 +542,22 @@ O exemplo de código a seguir mostra como usar a operação [CreateItem](http://
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **CreateItem** com uma mensagem de [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) que inclui um valor de [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) de **NoError**, que indica se o email foi criado com êxito e o [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) do recentemente mensagem criada. 
+O servidor responde à solicitação **CreateItem** com uma mensagem [CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) que inclui um valor [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NOERROR**, que indica que o email foi criado com êxito e o [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) da mensagem recém-criada. 
   
-Para [Enviar a mensagem de dados criado recentemente](how-to-send-email-messages-by-using-ews-in-exchange.md), chame a operação [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
+Para [enviar essa mensagem recém-criada](how-to-send-email-messages-by-using-ews-in-exchange.md), chame a operação [SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
   
-## <a name="add-an-attachment-to-an-existing-email-by-using-the-ews-managed-api"></a>Adicionar um anexo a um email existente usando a API gerenciada de EWS
+## <a name="add-an-attachment-to-an-existing-email-by-using-the-ews-managed-api"></a>Adicionar um anexo a um email existente usando a API gerenciada do EWS
 <a name="bk_createinlineattachewsma"> </a>
 
 O exemplo de código a seguir mostra como adicionar um anexo a um email existente por: 
   
-1. Usando o método [EmailMessage.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) para associar a uma mensagem de email existente. 
+1. Usando o método [EmailMessage. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) para vincular a uma mensagem de email existente. 
     
-2. Adicionando um anexo de arquivo à mensagem usando o método **AddFileAttachment** . 
+2. Adicionar um anexo de arquivo à mensagem usando o método **AddFileAttachment** . 
     
-3. Salvando as atualizações ao chamar o método [EmailMessage.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) . 
+3. Salvar as atualizações chamando o método [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) . 
     
-Este exemplo supõe que esse **serviço** é um objeto válido do [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) e que o usuário foi autenticado com um servidor Exchange. 
+Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido e que o usuário foi autenticado em um servidor Exchange. 
   
 ```XML
 public static void AddAttachmentToExisting(ExchangeService service, ItemId itemId)
@@ -573,14 +573,14 @@ public static void AddAttachmentToExisting(ExchangeService service, ItemId itemI
 ## <a name="add-an-attachment-to-an-existing-email-by-using-ews"></a>Adicionar um anexo a um email existente usando o EWS
 <a name="bk_createinlineattachewsma"> </a>
 
-O exemplo de código a seguir mostra como usar a operação [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) para adicionar um anexo de arquivo a uma mensagem de email existente. Isso também é uma das solicitações de XML que o EWS Managed API envia quando você usar a API gerenciada de EWS para [Adicionar um anexo a um email existente](#bk_createinlineattachewsma).
+O exemplo de código a seguir mostra como usar a operação [CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) para adicionar um anexo de arquivo a uma mensagem de email existente. Também é uma das solicitações XML que a API gerenciada do EWS envia quando você usa a API gerenciada do EWS para [Adicionar um anexo a um email existente](#bk_createinlineattachewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -601,26 +601,26 @@ O exemplo de código a seguir mostra como usar a operação [CreateAttachment](h
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **CreateAttachment** com uma mensagem de [CreateAttachmentResponse](http://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx) que inclui um valor de [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) de **NoError**, que indica que o anexo foi criado com êxito e o [ AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) do anexo recém-criado. 
+O servidor responde à solicitação **CreateAttachment** com uma mensagem [CreateAttachmentResponse](https://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx) que inclui um valor [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NOERROR**, que indica que o anexo foi criado com êxito e o [attachmentid](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) do anexo recém-criado. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="939"
                          MinorBuildNumber="12"
                          Version="V2_11"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -641,11 +641,11 @@ O servidor responde à solicitação **CreateAttachment** com uma mensagem de [C
 ## <a name="see-also"></a>Confira também
 
 
-- [EWS no Exchange e anexos](attachments-and-ews-in-exchange.md)
+- [Anexos e EWS no Exchange](attachments-and-ews-in-exchange.md)
     
 - [Adicionar anexos usando o EWS no Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
     
-- [Excluir anexos usando o EWS no Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
+- [Excluir anexos usando EWS no Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
     
 - [Obter anexos usando o EWS no Exchange](how-to-get-attachments-by-using-ews-in-exchange.md)
     

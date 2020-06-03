@@ -1,28 +1,28 @@
 ---
-title: Obtenha os compromissos e reuniões usando o EWS no Exchange
+title: Obter compromissos e reuniões usando o EWS no Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 1bae582a-8cb3-4e77-be2a-7e107fad26fe
-description: Saiba como obter compromissos e reuniões usando o EWS Managed API ou o EWS no Exchange.
-ms.openlocfilehash: c78d70ca2266bd192b82f644d902ad8c958d2d4a
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: Saiba como obter compromissos e reuniões usando a API gerenciada do EWS ou o EWS no Exchange.
+localization_priority: Priority
+ms.openlocfilehash: d951bfeccdf50ae1397ecdd4887ed05548b25001
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353690"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528087"
 ---
-# <a name="get-appointments-and-meetings-by-using-ews-in-exchange"></a>Obtenha os compromissos e reuniões usando o EWS no Exchange
+# <a name="get-appointments-and-meetings-by-using-ews-in-exchange"></a>Obter compromissos e reuniões usando o EWS no Exchange
 
-Saiba como obter compromissos e reuniões usando o EWS Managed API ou o EWS no Exchange.
+Saiba como obter compromissos e reuniões usando a API gerenciada do EWS ou o EWS no Exchange.
   
-É possível recuperar compromissos e reuniões de uma pasta de calendário usando o método de API gerenciada de EWS [CalendarFolder.FindAppointments](http://msdn.microsoft.com/en-us/library/dd636179%28v=exchg.80%29.aspx) ou a operação de EWS [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) . 
+Você pode recuperar compromissos e reuniões de uma pasta de calendário usando o método [CalendarFolder. FindAppointments](https://msdn.microsoft.com/library/dd636179%28v=exchg.80%29.aspx) EWS Managed API ou a operação [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) do EWS. 
   
-## <a name="get-appointments-by-using-the-ews-managed-api"></a>Obtenha os compromissos usando a API gerenciada de EWS
+## <a name="get-appointments-by-using-the-ews-managed-api"></a>Obter compromissos usando a API gerenciada do EWS
 <a name="bk_retrieveappsEWSMA"> </a>
 
-O exemplo de código a seguir mostra como usar a API gerenciada de EWS para recuperar os compromissos do usuário que estão entre um especificados de início e hora de término.
+O exemplo de código a seguir mostra como usar a API gerenciada do EWS para recuperar os compromissos de um usuário que estejam entre uma hora de início e de término especificada.
   
 ```cs
        // Initialize values for the start and end times, and the number of appointments to retrieve.
@@ -52,7 +52,7 @@ O exemplo de código a seguir mostra como usar a API gerenciada de EWS para recu
 
 <br/>
 
-A seguir é a saída do código de exemplo.
+Veja a seguir a saída do exemplo de código.
   
 ```text
 The first five appointments on your calendar from 8/21/2013 to 9/20/2013 are: 
@@ -71,14 +71,14 @@ Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
 ## <a name="get-appointments-by-using-ews"></a>Obter compromissos usando o EWS
 <a name="bk_xml"> </a>
 
-O XML a seguir mostra uma solicitação de operação [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) para retornar a ID de uma pasta para a operação [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) . 
+O XML a seguir mostra uma solicitação de operação [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) para retornar uma ID de pasta para a operação [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+       xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+       xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -97,20 +97,20 @@ O XML a seguir mostra uma solicitação de operação [GetFolder](http://msdn.mi
 
 <br/>
 
-O XML a seguir mostra a resposta **GetFolder** . Observe que os atributos **FolderID** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+O XML a seguir mostra a resposta **GetFolder** . Observe que os atributos **FolderId** e **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="731" MinorBuildNumber="10" Version="V2_3" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
- xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -128,14 +128,14 @@ O XML a seguir mostra a resposta **GetFolder** . Observe que os atributos **Fold
 
 <br/>
 
-O XML a seguir mostra a solicitação de **FindItem** usada para retornar os compromissos solicitados. Observe que os atributos **FolderID** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+O XML a seguir mostra a solicitação **FindItem** usada para retornar os compromissos solicitados. Observe que os atributos **FolderId** e **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+       xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+       xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -160,21 +160,21 @@ O XML a seguir mostra a solicitação de **FindItem** usada para retornar os com
 
 <br/>
 
-O XML a seguir mostra a resposta **FindItem** . Observe que os atributos **ItemID** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+O XML a seguir mostra a resposta **FindItem** . Observe que os atributos **ItemId** e **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="731" MinorBuildNumber="10" Version="V2_3" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -219,12 +219,12 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </s:Envelope>
 ```
 
-## <a name="recurring-meetings-and-the-calendar-view"></a>Reuniões recorrentes e o modo de exibição de calendário
+## <a name="recurring-meetings-and-the-calendar-view"></a>Reuniões recorrentes e o modo de exibição calendário
 <a name="bk_recurring"> </a>
 
-A pasta de calendário é um pouco diferente de outras pastas em uma caixa de correio porque ocorrências em uma série recorrente e exceções a uma série recorrente não são reais itens na caixa de correio, mas em vez disso, são armazenadas internamente como anexos de um mestre recorrente. Isso significa que, embora você pode criar uma solicitação EWS que retorna valores entre um conjunto de **início** e **fim** valores usando um da API gerenciada de EWS **FindItems** sobrecarregar métodos, como [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) ou o EWS [ FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) operação, EWS não aparecerá no índice de anexo de cada item de calendário para encontrar exceções e ocorrências. 
+A pasta calendário é um pouco diferente de outras pastas em uma caixa de correio, pois as ocorrências em uma série recorrente e exceções a uma série recorrente não são itens reais na caixa de correio, mas sim armazenados internamente como anexos em um mestre recorrente. Isso significa que, embora você possa criar uma solicitação EWS que retorna valores entre um conjunto de valores **inicial** e **final** usando um dos métodos de sobrecarga de API gerenciada do EWS **FindItems** , como [EXCHANGESERVICE. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) ou a operação do EWS [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) , o EWS não examinaria a tabela de anexos de cada item de calendário para localizar exceções e ocorrências. 
   
-Em vez disso, o que você realmente deseja fazer é algo semelhante a aplicação de uma *exibição de dados* em uma união de duas tabelas do SQL, usando um objeto [CalendarView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx) . Observe que por motivos de desempenho, recomendamos que você use a propriedade [PropertySet](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) limitar o tamanho da resposta, indicando o número de compromissos ou reuniões a que serem retornadas, bem como as propriedades específicas que você deseja. 
+Em vez disso, o que você realmente deseja fazer é algo semelhante à aplicação de um *DataView* em uma União de duas tabelas SQL, usando um objeto [CalendarView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx) . Observe que por motivos de desempenho, recomendamos que você use a propriedade [PropertySet](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) para limitar o tamanho da resposta indicando o número de compromissos ou reuniões que você deseja que sejam retornados, bem como as propriedades específicas desejadas. 
   
 ## <a name="see-also"></a>Confira também
 <a name="bk_additional"> </a>

@@ -3,38 +3,38 @@ title: Excluir compromissos e cancelar reuniões usando o EWS no Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 42412265-3968-468a-a8c2-7e8af3c6deb9
-description: Aprenda a excluir compromissos e reuniões usando o EWS Managed API ou o EWS no Exchange.
-ms.openlocfilehash: c71272bf753432a9f343adc917b444424fe3ba33
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: Saiba como excluir compromissos e reuniões usando a API gerenciada do EWS ou o EWS no Exchange.
+localization_priority: Priority
+ms.openlocfilehash: 6a2fdaa357f4088da4bbd0643187d05a5bc51c0c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354075"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528129"
 ---
 # <a name="delete-appointments-and-cancel-meetings-by-using-ews-in-exchange"></a>Excluir compromissos e cancelar reuniões usando o EWS no Exchange
 
-Aprenda a excluir compromissos e reuniões usando o EWS Managed API ou o EWS no Exchange.
+Saiba como excluir compromissos e reuniões usando a API gerenciada do EWS ou o EWS no Exchange.
   
-A diferença essencial entre reuniões e compromissos é que reuniões possuem participantes, e não de compromissos. Compromissos e reuniões podem ser instâncias única ou parte de uma série recorrente, mas como compromissos não incluem os participantes, salas ou recursos, eles não exigem uma mensagem a ser enviada. Internamente, o Exchange usa o mesmo objeto para reuniões e compromissos. Use a API gerenciada de EWS [classe de compromisso](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) ou o elemento do EWS [CalendarItem](http://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx) para trabalhar com compromissos e reuniões. 
+A diferença essencial entre reuniões e compromissos é que as reuniões têm participantes e compromissos não. Compromissos e reuniões podem ser instâncias únicas ou parte de uma série recorrente, mas como os compromissos não incluem participantes, salas ou recursos, eles não exigem que uma mensagem seja enviada. Internamente, o Exchange usa o mesmo objeto para reuniões e compromissos. Você usa a [classe de compromisso](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) da API gerenciada do EWS ou o elemento [CalendarItem](https://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx) do EWS para trabalhar com reuniões e compromissos. 
   
-**Tabela 1. Métodos de API gerenciada de EWS e operações de EWS para excluir compromissos e reuniões**
+**Tabela 1. Métodos da API gerenciada do EWS e operações do EWS para exclusão de compromissos e reuniões**
 
-|**Método API gerenciada de EWS**|**Operação de EWS**|**O que ele faz**|
+|**Método de API gerenciada do EWS**|**Operação do EWS**|**Função**|
 |:-----|:-----|:-----|
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |Exclui um compromisso.  <br/> |
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem (item de calendário)](../web-service-reference/createitem-operation-calendar-item.md) <br/> |Exclui uma reunião.  <br/> |
+|[Compromisso. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |Exclui um compromisso.  <br/> |
+|[Compromisso. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem (item de calendário)](../web-service-reference/createitem-operation-calendar-item.md) <br/> |Exclui uma reunião.  <br/> |
    
-Observe que, quando você exclui um compromisso usando o EWS, você usar a operação [DeleteItem](../web-service-reference/deleteitem-operation.md) , mas quando você exclui uma reunião, use a operação [CreateItem](../web-service-reference/createitem-operation-calendar-item.md) . Isso pode parecer contra-intuitivo, mas é porque você precisou para criar uma reunião mensagens de objeto de resposta para enviar o cancelamento da reunião aos participantes. 
+Observe que quando você exclui um compromisso usando o EWS, você usa a operação [DeleteItem](../web-service-reference/deleteitem-operation.md) , mas quando você exclui uma reunião, você usa a operação [CreateItem](../web-service-reference/createitem-operation-calendar-item.md) . Isso pode parecer um pouco intuitivo, mas é porque você precisa criar um objeto Response de reunião para enviar mensagens de cancelamento de reunião aos participantes. 
 
 <a name="bk_DeleteApptEWSMA"> </a>
 
-## <a name="delete-an-appointment-by-using-the-ews-managed-api"></a>Excluir um compromisso usando a API gerenciada de EWS
+## <a name="delete-an-appointment-by-using-the-ews-managed-api"></a>Excluir um compromisso usando a API gerenciada do EWS
 
-O exemplo de código a seguir mostra como usar o método [Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) para excluir um compromisso da sua pasta de calendário e o método [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) para verificar que o compromisso foi excluído procurando por ela na pasta Itens excluídos. 
+O exemplo de código a seguir mostra como usar o método [delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) para excluir um compromisso da pasta calendário e o método [ExchangeService. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) para verificar se o compromisso foi excluído procurando-o na pasta itens excluídos. 
   
-Este exemplo pressupõe que você tenha autenticado com um servidor Exchange e adquiriu um objeto [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) denominado **service**. A variável local `appointmentId` é um identificador associado a um compromisso existente. 
+Este exemplo pressupõe que você tenha autenticado em um servidor do Exchange e tenha adquirido um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) chamado **Service**. A variável local `appointmentId` é um identificador associado a um compromisso existente. 
   
 ```cs
 // Instantiate an appointment object by binding to it by using the ItemId.
@@ -55,21 +55,21 @@ Console.WriteLine("The appointment " + "\"" + deletedItem.Subject + "\"" + " is 
 
 ```
 
-Este exemplo mostra uma maneira simples de verificar se o compromisso foi excluído, verificando se o assunto do primeiro item na pasta Itens excluídos corresponde do compromisso excluído. Como você optar por verificar que sua compromisso foi excluído irá variar com base em necessidades do seu aplicativo.
+Este exemplo mostra uma maneira simples de verificar se o compromisso foi excluído, verificando se o assunto do primeiro item na pasta itens excluídos corresponde ao do compromisso excluído. A maneira de verificar se o compromisso foi excluído variará com base nas necessidades do seu aplicativo.
   
-Como você pode ver, a exclusão de um compromisso é simples e praticamente o que você pode esperar. Observação: quando você criar seu etapa de verificação que o item de compromisso na pasta Itens excluídos tem um ItemId diferente que o item de compromisso na pasta Calendário. O item é copiado e excluído em vez de simplesmente movido para a pasta Itens excluídos. 
+Como você pode ver, a exclusão de um compromisso é direta e quase tudo o que você pode esperar. Observação Quando você cria a etapa de verificação de que o item de compromisso na pasta itens excluídos tem um ItemId diferente do item de compromisso na pasta calendário. O item é copiado e excluído, em vez de simplesmente movido para a pasta itens excluídos. 
   
 ## <a name="delete-an-appointment-by-using-ews"></a>Excluir um compromisso usando o EWS
 <a name="bk_DeleteApptEWSMA"> </a>
 
-A solicitação e a resposta XML nos exemplos a seguir correspondem às chamadas feitas pelo código API gerenciada de EWS em [Excluir um compromisso usando a API gerenciada de EWS](#bk_DeleteApptEWSMA). A solicitação e a resposta XML que verifica se o item de compromisso está na pasta Itens excluídos também é exibido.
+O XML de solicitação e resposta nos exemplos a seguir correspondem a chamadas feitas pelo código da API gerenciada do EWS em [excluir um compromisso usando a API gerenciada do EWS](#bk_DeleteApptEWSMA). O XML de solicitação e resposta que verifica se o item de compromisso está na pasta itens excluídos também é mostrado.
   
-O exemplo a seguir mostra a solicitação de XML para a operação [DeleteItem](../web-service-reference/deleteitem-operation.md) excluir um compromisso. 
+O exemplo a seguir mostra a solicitação de XML para a operação [DeleteItem](../web-service-reference/deleteitem-operation.md) para excluir um compromisso. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -87,20 +87,20 @@ O exemplo a seguir mostra a solicitação de XML para a operação [DeleteItem](
 
 ```
 
-O exemplo a seguir mostra a resposta XML retornada pela operação de [DeleteItem](../web-service-reference/deleteitem-operation.md) . Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+O exemplo a seguir mostra a resposta XML que é retornada pela operação [DeleteItem](../web-service-reference/deleteitem-operation.md) . Os atributos **ItemId** e **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="800" MinorBuildNumber="5" Version="V2_6" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:DeleteItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:DeleteItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:DeleteItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -112,12 +112,12 @@ O exemplo a seguir mostra a resposta XML retornada pela operação de [DeleteIte
 
 ```
 
-O exemplo a seguir mostra a solicitação de XML para a operação [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) que recupera o primeiro item na pasta Itens excluídos para comparar o assunto do item com que o objeto de compromisso excluído. 
+O exemplo a seguir mostra o XML de solicitação para a operação [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) que recupera o primeiro item da pasta itens excluídos para comparar o assunto do item com o do objeto compromisso excluído. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages
-" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages
+" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -144,23 +144,23 @@ O exemplo a seguir mostra a solicitação de XML para a operação [FindItem](ht
 
 ```
 
-O exemplo a seguir mostra a resposta XML retornada pela operação de [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) durante a etapa de verificação. 
+O exemplo a seguir mostra a resposta XML que é retornada pela operação [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) durante a etapa de verificação. 
   
 > [!NOTE]
-> Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+> Os atributos **ItemId** e **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="800" MinorBuildNumber="5" Version="V2_6" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -183,21 +183,21 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 
 <a name="bk_DeleteMtgEWSMA"> </a>
 
-## <a name="delete-a-meeting-by-using-the-ews-managed-api"></a>Excluir uma reunião usando a API gerenciada de EWS
+## <a name="delete-a-meeting-by-using-the-ews-managed-api"></a>Excluir uma reunião usando a API gerenciada do EWS
 
-Quando você exclui uma reunião, além de remover o item de compromisso na pasta Calendário, convém também Enviar cancelamentos de reunião a participantes. Você pode usar três métodos a seguir para cancelar uma reunião:
+Ao excluir uma reunião, além de remover o item de compromisso da pasta calendário, você também pode querer enviar cancelamentos de reunião para participantes. Você pode usar os três métodos a seguir para cancelar uma reunião:
   
-- [Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)
+- [Compromisso. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)
     
-- [Appointment.CancelMeeting](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx)
+- [Compromisso. CancelMeeting](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx)
     
-- [CancelMeetingMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.cancelmeetingmessage%28v=exchg.80%29.aspx)
+- [CancelMeetingMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.cancelmeetingmessage%28v=exchg.80%29.aspx)
     
-O método que você escolher depende do nível de detalhes que você precisa fornecer na sua mensagem de cancelamento. [Appointment.CancelMeeting](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx) facilita atualizar a mensagem de cancelamento, passando-se uma mensagem atualizada como um parâmetro. [CancelMeetingMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.cancelmeetingmessage%28v=exchg.80%29.aspx) permite modificar as propriedades em sua mensagem antes de enviar um cancelamento, então você pode fazer coisas como solicitação uma confirmação. 
+O método escolhido depende do nível de detalhes que você precisa fornecer na mensagem de cancelamento. O [compromisso. CancelMeeting](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx) facilita a atualização da mensagem de cancelamento, passando uma mensagem atualizada como um parâmetro. O [CancelMeetingMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.cancelmeetingmessage%28v=exchg.80%29.aspx) permite que você modifique as propriedades da mensagem antes de enviar um cancelamento, para que você possa fazer coisas como solicitar um recibo. 
   
-Os exemplos de código nesta seção mostram as diferentes maneiras para excluir uma reunião e Enviar cancelamentos de reunião. Os exemplos pressupõem que você tenha autenticado com um servidor Exchange e adquiriu um objeto [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) denominado **service**. A variável local `meetingId` é um identificador associado a uma reunião existente onde o usuário de destino é o organizador da reunião. 
+Os exemplos de código nesta seção mostram as diferentes maneiras de excluir uma reunião e enviar cancelamentos de reunião. Os exemplos supõem que você tenha autenticado em um servidor do Exchange e tenha adquirido um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) chamado **Service**. A variável local `meetingId` é um identificador associado a uma reunião existente, onde o usuário de destino é o organizador da reunião. 
   
-O exemplo de código a seguir mostra como excluir uma reunião usando o método [Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) . 
+O exemplo de código a seguir mostra como excluir uma reunião usando o método de [compromisso. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) . 
   
 ```cs
 // Instantiate an appointment object for the meeting by binding to it using the ItemId.
@@ -219,7 +219,7 @@ Console.WriteLine("The meeting " + "\"" + deletedItem.Subject + "\"" + " is now 
 
 ```
 
-O exemplo de código a seguir mostra como excluir uma reunião usando o método [CancelMeeting](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx) . 
+O exemplo de código a seguir mostra como excluir uma reunião usando o método [CancelMeeting](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx) . 
   
 ```cs
 // Instantiate an appointment object by binding to it using the ItemId.
@@ -230,7 +230,7 @@ meeting.CancelMeeting("The outdoor meeting has been cancelled due to hailstorms.
 
 ```
 
-O exemplo de código a seguir mostra como excluir uma reunião usando o método [Appointment.CreateCancelMeetingMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.createcancelmeetingmessage%28v=exchg.80%29.aspx) . 
+O exemplo de código a seguir mostra como excluir uma reunião usando o método de [compromisso. CreateCancelMeetingMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.createcancelmeetingmessage%28v=exchg.80%29.aspx) . 
   
 ```cs
 // Instantiate an appointment object by binding to it using the ItemId.
@@ -247,14 +247,14 @@ cancelMessage.SendAndSaveCopy();
 ## <a name="delete-a-meeting-by-using-ews"></a>Excluir uma reunião usando o EWS
 <a name="bk_EWSDeleteApptAndMeeting"> </a>
 
-A solicitação e a resposta XML nos exemplos a seguir correspondem às chamadas feitas pelo código API gerenciada de EWS em [Excluir uma reunião usando a API gerenciada de EWS](#bk_DeleteMtgEWSMA) usando o método [Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) . 
+O XML de solicitação e resposta nos exemplos a seguir correspondem a chamadas feitas pelo código da API gerenciada do EWS em [excluir uma reunião usando a API gerenciada do EWS](#bk_DeleteMtgEWSMA) usando o método de [compromisso. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) . 
   
-O exemplo a seguir mostra a solicitação XML quando você usar a operação [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) para enviar mensagens de cancelamento aos participantes e excluir uma reunião. 
+O exemplo a seguir mostra a solicitação de XML quando você usa a operação [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) para enviar mensagens de cancelamento para participantes e excluir uma reunião. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -275,22 +275,22 @@ O exemplo a seguir mostra a solicitação XML quando você usar a operação [Cr
 
 ```
 
-O exemplo a seguir mostra o XML que é retornado em resposta a uma solicitação de operação [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) usada para excluir uma reunião. 
+O exemplo a seguir mostra o XML que é retornado em resposta a uma solicitação de operação [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) usada para excluir uma reunião. 
   
 > [!NOTE]
-> Os atributos **ItemId** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+> Os atributos **ItemId** e **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="800" MinorBuildNumber="5" Version="V2_6" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -307,12 +307,12 @@ O exemplo a seguir mostra o XML que é retornado em resposta a uma solicitação
 
 ```
 
-O exemplo a seguir mostra a solicitação de XML para a operação [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) que recupera o primeiro item na pasta Itens excluídos para comparar o assunto do item com que o objeto de compromisso excluído. 
+O exemplo a seguir mostra o XML de solicitação para a operação [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) que recupera o primeiro item da pasta itens excluídos para comparar o assunto do item com o do objeto compromisso excluído. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -339,23 +339,23 @@ O exemplo a seguir mostra a solicitação de XML para a operação [FindItem](ht
 
 ```
 
-O exemplo a seguir mostra o XML que é retornado pela operação de [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) durante a etapa de verificação. 
+O exemplo a seguir mostra o XML que é retornado pela operação [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) durante a etapa de verificação. 
   
 > [!NOTE]
-> Os atributos **Id** e **ChangeKey** são reduzidos para melhorar a legibilidade. 
+> Os atributos **ID** e **ChangeKey** são reduzidos para facilitar a leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="800" MinorBuildNumber="5" Version="V2_6" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -380,7 +380,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 
 - [Calendários e EWS no Exchange](calendars-and-ews-in-exchange.md)    
 - [Criar compromissos e reuniões usando o EWS no Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
-- [Obtenha os compromissos e reuniões usando o EWS no Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md) 
+- [Obter compromissos e reuniões usando o EWS no Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md) 
 - [Atualizar compromissos e reuniões usando o EWS no Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
 - [Propor um novo horário de reunião usando o EWS no Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md) 
 - [Propor um novo horário de reunião usando o EWS no Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
