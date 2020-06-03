@@ -12,12 +12,12 @@ ms.openlocfilehash: 9fd552670c529009838125063869f65e130c1e63
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463990"
 ---
-# <a name="attributions-arrayofvalueattributionstype"></a><span data-ttu-id="c7d77-103">Atribuições (ArrayOfValueAttributionsType)</span><span class="sxs-lookup"><span data-stu-id="c7d77-103">Attributions (ArrayOfValueAttributionsType)</span></span>
+# <a name="attributions-arrayofvalueattributionstype"></a><span data-ttu-id="23148-103">Atribuições (ArrayOfValueAttributionsType)</span><span class="sxs-lookup"><span data-stu-id="23148-103">Attributions (ArrayOfValueAttributionsType)</span></span>
 
-<span data-ttu-id="c7d77-104">O elemento de **atribuições** especifica uma matriz de atribuições para o elemento de **valor** associado.</span><span class="sxs-lookup"><span data-stu-id="c7d77-104">The **Attributions** element specifies an array of attributions for its associated **Value** element.</span></span> 
+<span data-ttu-id="23148-104">O elemento de **atribuições** especifica uma matriz de atribuições para o elemento de **valor** associado.</span><span class="sxs-lookup"><span data-stu-id="23148-104">The **Attributions** element specifies an array of attributions for its associated **Value** element.</span></span> 
   
 ```XML
 <Attributions>
@@ -25,49 +25,49 @@ ms.locfileid: "44463990"
 </Attribution>
 ```
 
- <span data-ttu-id="c7d77-105">**ArrayOfValueAttributionsType**</span><span class="sxs-lookup"><span data-stu-id="c7d77-105">**ArrayOfValueAttributionsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="c7d77-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="c7d77-106">Attributes and elements</span></span>
+ <span data-ttu-id="23148-105">**ArrayOfValueAttributionsType**</span><span class="sxs-lookup"><span data-stu-id="23148-105">**ArrayOfValueAttributionsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="23148-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="23148-106">Attributes and elements</span></span>
 
-<span data-ttu-id="c7d77-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="c7d77-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="23148-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="23148-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="c7d77-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="c7d77-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="23148-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="23148-108">Attributes</span></span>
 
-<span data-ttu-id="c7d77-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="c7d77-109">None.</span></span>
+<span data-ttu-id="23148-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="23148-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="c7d77-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="c7d77-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="23148-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="23148-110">Child elements</span></span>
 
-|<span data-ttu-id="c7d77-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="c7d77-111">**Element**</span></span>|<span data-ttu-id="c7d77-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c7d77-112">**Description**</span></span>|
+|<span data-ttu-id="23148-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="23148-111">**Element**</span></span>|<span data-ttu-id="23148-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="23148-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="c7d77-113">Atribuição (cadeia de caracteres)</span><span class="sxs-lookup"><span data-stu-id="c7d77-113">Attribution (string)</span></span>](attribution-string.md) <br/> |<span data-ttu-id="c7d77-114">Especifica uma cadeia de caracteres usada para identificar um atributo.</span><span class="sxs-lookup"><span data-stu-id="c7d77-114">Specifies a string used to identify an attribute.</span></span>  <br/> |
+|[<span data-ttu-id="23148-113">Atribuição (cadeia de caracteres)</span><span class="sxs-lookup"><span data-stu-id="23148-113">Attribution (string)</span></span>](attribution-string.md) <br/> |<span data-ttu-id="23148-114">Especifica uma cadeia de caracteres usada para identificar um atributo.</span><span class="sxs-lookup"><span data-stu-id="23148-114">Specifies a string used to identify an attribute.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="c7d77-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="c7d77-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="23148-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="23148-115">Parent elements</span></span>
 
-|<span data-ttu-id="c7d77-116">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="c7d77-116">**Element**</span></span>|<span data-ttu-id="c7d77-117">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c7d77-117">**Description**</span></span>|
+|<span data-ttu-id="23148-116">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="23148-116">**Element**</span></span>|<span data-ttu-id="23148-117">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="23148-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="c7d77-118">BodyContentAttributedValue</span><span class="sxs-lookup"><span data-stu-id="c7d77-118">BodyContentAttributedValue</span></span>](bodycontentattributedvalue.md) <br/> |<span data-ttu-id="c7d77-119">Especifica o conteúdo do corpo de um item.</span><span class="sxs-lookup"><span data-stu-id="c7d77-119">Specifies the body content of an item.</span></span>  <br/> |
-|[<span data-ttu-id="c7d77-120">EmailAddressAttributedValue</span><span class="sxs-lookup"><span data-stu-id="c7d77-120">EmailAddressAttributedValue</span></span>](emailaddressattributedvalue.md) <br/> |<span data-ttu-id="c7d77-121">Especifica uma instância de uma matriz de endereços de email e suas atribuições associadas.</span><span class="sxs-lookup"><span data-stu-id="c7d77-121">Specifies an instance of an array of email addresses and their associated attributions.</span></span>  <br/> |
-|[<span data-ttu-id="c7d77-122">ExtendedPropertyAttributedValue</span><span class="sxs-lookup"><span data-stu-id="c7d77-122">ExtendedPropertyAttributedValue</span></span>](extendedpropertyattributedvalue.md) <br/> |<span data-ttu-id="c7d77-123">Especifica propriedades estendidas para uma pessoa.</span><span class="sxs-lookup"><span data-stu-id="c7d77-123">Specifies extended properties for a persona.</span></span>  <br/> |
-|[<span data-ttu-id="c7d77-124">PhoneNumberAttributedValue</span><span class="sxs-lookup"><span data-stu-id="c7d77-124">PhoneNumberAttributedValue</span></span>](phonenumberattributedvalue.md) <br/> |<span data-ttu-id="c7d77-125">Especifica uma instância de uma matriz de números de telefone e suas atribuições associadas.</span><span class="sxs-lookup"><span data-stu-id="c7d77-125">Specifies an instance of an array of phone numbers and their associated attributions.</span></span>  <br/> |
-|[<span data-ttu-id="c7d77-126">PostalAddressAttributedValue</span><span class="sxs-lookup"><span data-stu-id="c7d77-126">PostalAddressAttributedValue</span></span>](postaladdressattributedvalue.md) <br/> |<span data-ttu-id="c7d77-127">Especifica uma instância de uma matriz de endereços postais e suas atribuições associadas.</span><span class="sxs-lookup"><span data-stu-id="c7d77-127">Specifies an instance of an array of postal addresses and their associated attributions.</span></span>  <br/> |
-|[<span data-ttu-id="c7d77-128">StringArrayAttributedValue</span><span class="sxs-lookup"><span data-stu-id="c7d77-128">StringArrayAttributedValue</span></span>](stringarrayattributedvalue.md) <br/> |<span data-ttu-id="c7d77-129">Especifica uma instância de uma matriz de dados de cadeia de caracteres para um elemento persona.</span><span class="sxs-lookup"><span data-stu-id="c7d77-129">Specifies an instance of an array of string data for a persona element.</span></span>  <br/> |
-|[<span data-ttu-id="c7d77-130">StringAttributedValue</span><span class="sxs-lookup"><span data-stu-id="c7d77-130">StringAttributedValue</span></span>](stringattributedvalue.md) <br/> |<span data-ttu-id="c7d77-131">Especifica uma instância em uma matriz de atributos associados a um elemento persona.</span><span class="sxs-lookup"><span data-stu-id="c7d77-131">Specifies an instance in an array of attributes associated with a persona element.</span></span>  <br/> |
+|[<span data-ttu-id="23148-118">BodyContentAttributedValue</span><span class="sxs-lookup"><span data-stu-id="23148-118">BodyContentAttributedValue</span></span>](bodycontentattributedvalue.md) <br/> |<span data-ttu-id="23148-119">Especifica o conteúdo do corpo de um item.</span><span class="sxs-lookup"><span data-stu-id="23148-119">Specifies the body content of an item.</span></span>  <br/> |
+|[<span data-ttu-id="23148-120">EmailAddressAttributedValue</span><span class="sxs-lookup"><span data-stu-id="23148-120">EmailAddressAttributedValue</span></span>](emailaddressattributedvalue.md) <br/> |<span data-ttu-id="23148-121">Especifica uma instância de uma matriz de endereços de email e suas atribuições associadas.</span><span class="sxs-lookup"><span data-stu-id="23148-121">Specifies an instance of an array of email addresses and their associated attributions.</span></span>  <br/> |
+|[<span data-ttu-id="23148-122">ExtendedPropertyAttributedValue</span><span class="sxs-lookup"><span data-stu-id="23148-122">ExtendedPropertyAttributedValue</span></span>](extendedpropertyattributedvalue.md) <br/> |<span data-ttu-id="23148-123">Especifica propriedades estendidas para uma pessoa.</span><span class="sxs-lookup"><span data-stu-id="23148-123">Specifies extended properties for a persona.</span></span>  <br/> |
+|[<span data-ttu-id="23148-124">PhoneNumberAttributedValue</span><span class="sxs-lookup"><span data-stu-id="23148-124">PhoneNumberAttributedValue</span></span>](phonenumberattributedvalue.md) <br/> |<span data-ttu-id="23148-125">Especifica uma instância de uma matriz de números de telefone e suas atribuições associadas.</span><span class="sxs-lookup"><span data-stu-id="23148-125">Specifies an instance of an array of phone numbers and their associated attributions.</span></span>  <br/> |
+|[<span data-ttu-id="23148-126">PostalAddressAttributedValue</span><span class="sxs-lookup"><span data-stu-id="23148-126">PostalAddressAttributedValue</span></span>](postaladdressattributedvalue.md) <br/> |<span data-ttu-id="23148-127">Especifica uma instância de uma matriz de endereços postais e suas atribuições associadas.</span><span class="sxs-lookup"><span data-stu-id="23148-127">Specifies an instance of an array of postal addresses and their associated attributions.</span></span>  <br/> |
+|[<span data-ttu-id="23148-128">StringArrayAttributedValue</span><span class="sxs-lookup"><span data-stu-id="23148-128">StringArrayAttributedValue</span></span>](stringarrayattributedvalue.md) <br/> |<span data-ttu-id="23148-129">Especifica uma instância de uma matriz de dados de cadeia de caracteres para um elemento persona.</span><span class="sxs-lookup"><span data-stu-id="23148-129">Specifies an instance of an array of string data for a persona element.</span></span>  <br/> |
+|[<span data-ttu-id="23148-130">StringAttributedValue</span><span class="sxs-lookup"><span data-stu-id="23148-130">StringAttributedValue</span></span>](stringattributedvalue.md) <br/> |<span data-ttu-id="23148-131">Especifica uma instância em uma matriz de atributos associados a um elemento persona.</span><span class="sxs-lookup"><span data-stu-id="23148-131">Specifies an instance in an array of attributes associated with a persona element.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c7d77-132">Comentários</span><span class="sxs-lookup"><span data-stu-id="c7d77-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="23148-132">Comentários</span><span class="sxs-lookup"><span data-stu-id="23148-132">Remarks</span></span>
 
-<span data-ttu-id="c7d77-133">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c7d77-133">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="23148-133">Este elemento foi introduzido no Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="23148-133">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="c7d77-134">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="c7d77-134">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="23148-134">O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="23148-134">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="c7d77-135">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="c7d77-135">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="23148-135">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="23148-135">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="c7d77-136">Namespace</span><span class="sxs-lookup"><span data-stu-id="c7d77-136">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="c7d77-137">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="c7d77-137">Schema Name</span></span>  <br/> |<span data-ttu-id="c7d77-138">Esquema de tipo</span><span class="sxs-lookup"><span data-stu-id="c7d77-138">Type schema</span></span>  <br/> |
-|<span data-ttu-id="c7d77-139">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="c7d77-139">Validation File</span></span>  <br/> |<span data-ttu-id="c7d77-140">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="c7d77-140">types.xsd</span></span>  <br/> |
-|<span data-ttu-id="c7d77-141">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="c7d77-141">Can Be Empty</span></span>  <br/> ||
+|<span data-ttu-id="23148-136">Namespace</span><span class="sxs-lookup"><span data-stu-id="23148-136">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="23148-137">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="23148-137">Schema Name</span></span>  <br/> |<span data-ttu-id="23148-138">Esquema de tipo</span><span class="sxs-lookup"><span data-stu-id="23148-138">Type schema</span></span>  <br/> |
+|<span data-ttu-id="23148-139">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="23148-139">Validation File</span></span>  <br/> |<span data-ttu-id="23148-140">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="23148-140">types.xsd</span></span>  <br/> |
+|<span data-ttu-id="23148-141">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="23148-141">Can Be Empty</span></span>  <br/> ||
    
-## <a name="see-also"></a><span data-ttu-id="c7d77-142">Também consulte</span><span class="sxs-lookup"><span data-stu-id="c7d77-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="23148-142">Confira também</span><span class="sxs-lookup"><span data-stu-id="23148-142">See also</span></span>
 
-- [<span data-ttu-id="c7d77-143">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="c7d77-143">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="23148-143">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="23148-143">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -13,56 +13,56 @@ ms.openlocfilehash: 2da59e03a57b44fb12d14368d1b585ba845eacfe
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464011"
 ---
-# <a name="port-pox"></a><span data-ttu-id="c8d33-103">Porta (POX)</span><span class="sxs-lookup"><span data-stu-id="c8d33-103">Port (POX)</span></span>
+# <a name="port-pox"></a><span data-ttu-id="c68ee-103">Porta (POX)</span><span class="sxs-lookup"><span data-stu-id="c68ee-103">Port (POX)</span></span>
 
-<span data-ttu-id="c8d33-104">O elemento **Port** especifica a porta usada para se conectar ao repositório.</span><span class="sxs-lookup"><span data-stu-id="c8d33-104">The **Port** element specifies the port that is used to connect to the store.</span></span> 
+<span data-ttu-id="c68ee-104">O elemento **Port** especifica a porta usada para se conectar ao repositório.</span><span class="sxs-lookup"><span data-stu-id="c68ee-104">The **Port** element specifies the port that is used to connect to the store.</span></span> 
   
-[<span data-ttu-id="c8d33-105">Descoberta automática (POX)</span><span class="sxs-lookup"><span data-stu-id="c8d33-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
+[<span data-ttu-id="c68ee-105">Descoberta automática (POX)</span><span class="sxs-lookup"><span data-stu-id="c68ee-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
   
-[<span data-ttu-id="c8d33-106">Resposta (POX)</span><span class="sxs-lookup"><span data-stu-id="c8d33-106">Response (POX)</span></span>](response-pox.md)
+[<span data-ttu-id="c68ee-106">Resposta (POX)</span><span class="sxs-lookup"><span data-stu-id="c68ee-106">Response (POX)</span></span>](response-pox.md)
   
-[<span data-ttu-id="c8d33-107">Conta (POX)</span><span class="sxs-lookup"><span data-stu-id="c8d33-107">Account (POX)</span></span>](account-pox.md)
+[<span data-ttu-id="c68ee-107">Conta (POX)</span><span class="sxs-lookup"><span data-stu-id="c68ee-107">Account (POX)</span></span>](account-pox.md)
   
-[<span data-ttu-id="c8d33-108">Protocol (POX)</span><span class="sxs-lookup"><span data-stu-id="c8d33-108">Protocol (POX)</span></span>](protocol-pox.md)
+[<span data-ttu-id="c68ee-108">Protocol (POX)</span><span class="sxs-lookup"><span data-stu-id="c68ee-108">Protocol (POX)</span></span>](protocol-pox.md)
   
-[<span data-ttu-id="c8d33-109">Porta (POX)</span><span class="sxs-lookup"><span data-stu-id="c8d33-109">Port (POX)</span></span>](port-pox.md)
+[<span data-ttu-id="c68ee-109">Porta (POX)</span><span class="sxs-lookup"><span data-stu-id="c68ee-109">Port (POX)</span></span>](port-pox.md)
   
 ```xml
 <Port/>
 ```
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="c8d33-110">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="c8d33-110">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="c68ee-110">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="c68ee-110">Attributes and elements</span></span>
 
-<span data-ttu-id="c8d33-111">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="c8d33-111">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="c68ee-111">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="c68ee-111">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="c8d33-112">Atributos</span><span class="sxs-lookup"><span data-stu-id="c8d33-112">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c68ee-112">Atributos</span><span class="sxs-lookup"><span data-stu-id="c68ee-112">Attributes</span></span>
 
-<span data-ttu-id="c8d33-113">Nenhum</span><span class="sxs-lookup"><span data-stu-id="c8d33-113">None.</span></span>
+<span data-ttu-id="c68ee-113">Nenhum</span><span class="sxs-lookup"><span data-stu-id="c68ee-113">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="c8d33-114">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="c8d33-114">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c68ee-114">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="c68ee-114">Child elements</span></span>
 
-<span data-ttu-id="c8d33-115">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="c8d33-115">None.</span></span>
+<span data-ttu-id="c68ee-115">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="c68ee-115">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="c8d33-116">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="c8d33-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="c68ee-116">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="c68ee-116">Parent elements</span></span>
 
-|<span data-ttu-id="c8d33-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="c8d33-117">**Element**</span></span>|<span data-ttu-id="c8d33-118">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c8d33-118">**Description**</span></span>|
+|<span data-ttu-id="c68ee-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="c68ee-117">**Element**</span></span>|<span data-ttu-id="c68ee-118">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c68ee-118">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="c8d33-119">Protocol (POX)</span><span class="sxs-lookup"><span data-stu-id="c8d33-119">Protocol (POX)</span></span>](protocol-pox.md) <br/> |<span data-ttu-id="c8d33-120">Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="c8d33-120">Contains the specifications for connecting a client to the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>  <br/> |
+|[<span data-ttu-id="c68ee-119">Protocol (POX)</span><span class="sxs-lookup"><span data-stu-id="c68ee-119">Protocol (POX)</span></span>](protocol-pox.md) <br/> |<span data-ttu-id="c68ee-120">Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.</span><span class="sxs-lookup"><span data-stu-id="c68ee-120">Contains the specifications for connecting a client to the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="c8d33-121">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="c8d33-121">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="c68ee-121">Valor de texto</span><span class="sxs-lookup"><span data-stu-id="c68ee-121">Text value</span></span>
 
-<span data-ttu-id="c8d33-122">O valor de texto representa a porta usada para acessar o servidor Exchange.</span><span class="sxs-lookup"><span data-stu-id="c8d33-122">The text value represents the port that is used to access the Exchange server.</span></span>
+<span data-ttu-id="c68ee-122">O valor de texto representa a porta usada para acessar o servidor Exchange.</span><span class="sxs-lookup"><span data-stu-id="c68ee-122">The text value represents the port that is used to access the Exchange server.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c8d33-123">Comentários</span><span class="sxs-lookup"><span data-stu-id="c8d33-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c68ee-123">Comentários</span><span class="sxs-lookup"><span data-stu-id="c68ee-123">Remarks</span></span>
 
-<span data-ttu-id="c8d33-124">O valor da **porta** não será usado se o elemento [servidor (POX)](server-pox.md) contiver uma URL.</span><span class="sxs-lookup"><span data-stu-id="c8d33-124">The **Port** value is not used if the [Server (POX)](server-pox.md) element contains a URL.</span></span> 
+<span data-ttu-id="c68ee-124">O valor da **porta** não será usado se o elemento [servidor (POX)](server-pox.md) contiver uma URL.</span><span class="sxs-lookup"><span data-stu-id="c68ee-124">The **Port** value is not used if the [Server (POX)](server-pox.md) element contains a URL.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="c8d33-125">Também consulte</span><span class="sxs-lookup"><span data-stu-id="c8d33-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c68ee-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="c68ee-125">See also</span></span>
 
 
 
-[<span data-ttu-id="c8d33-126">Elementos XML de descoberta automática de POX para o Exchange</span><span class="sxs-lookup"><span data-stu-id="c8d33-126">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
+[<span data-ttu-id="c68ee-126">Elementos XML de descoberta automática de POX para o Exchange</span><span class="sxs-lookup"><span data-stu-id="c68ee-126">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
 
