@@ -11,48 +11,48 @@ ms.openlocfilehash: 72476d72a3b5faef358bba52f6038c065d51ff6f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467792"
 ---
-# <a name="mailtipsaccessenabled-soap"></a><span data-ttu-id="630ef-105">MailTipsAccessEnabled (SOAP)</span><span class="sxs-lookup"><span data-stu-id="630ef-105">MailTipsAccessEnabled (SOAP)</span></span>
+# <a name="mailtipsaccessenabled-soap"></a><span data-ttu-id="bb3a4-105">MailTipsAccessEnabled (SOAP)</span><span class="sxs-lookup"><span data-stu-id="bb3a4-105">MailTipsAccessEnabled (SOAP)</span></span>
 
-<span data-ttu-id="630ef-106">O elemento **MailTipsAccessEnabled** representa o sinalizador **MailTipsAccessEnabled ()** .</span><span class="sxs-lookup"><span data-stu-id="630ef-106">The **MailTipsAccessEnabled** element represents the **MailTipsAccessEnabled()** flag.</span></span> <span data-ttu-id="630ef-107">O elemento **MailTipsAccessEnabled** é somente para uso interno.</span><span class="sxs-lookup"><span data-stu-id="630ef-107">The **MailTipsAccessEnabled** element is for internal use only.</span></span> <span data-ttu-id="630ef-108">Esse elemento não é usado por clientes.</span><span class="sxs-lookup"><span data-stu-id="630ef-108">This element is not used by clients.</span></span> 
+<span data-ttu-id="bb3a4-106">O elemento **MailTipsAccessEnabled** representa o sinalizador **MailTipsAccessEnabled ()** .</span><span class="sxs-lookup"><span data-stu-id="bb3a4-106">The **MailTipsAccessEnabled** element represents the **MailTipsAccessEnabled()** flag.</span></span> <span data-ttu-id="bb3a4-107">O elemento **MailTipsAccessEnabled** é somente para uso interno.</span><span class="sxs-lookup"><span data-stu-id="bb3a4-107">The **MailTipsAccessEnabled** element is for internal use only.</span></span> <span data-ttu-id="bb3a4-108">Esse elemento não é usado por clientes.</span><span class="sxs-lookup"><span data-stu-id="bb3a4-108">This element is not used by clients.</span></span> 
   
 ```XML
 <MailTipsAccessEnabled>true | false</ MailTipsAccessEnabled>
 ```
 
- <span data-ttu-id="630ef-109">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="630ef-109">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="630ef-110">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="630ef-110">Attributes and elements</span></span>
+ <span data-ttu-id="bb3a4-109">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="bb3a4-109">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="bb3a4-110">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="bb3a4-110">Attributes and elements</span></span>
 
-<span data-ttu-id="630ef-111">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="630ef-111">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="bb3a4-111">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="bb3a4-111">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="630ef-112">Atributos</span><span class="sxs-lookup"><span data-stu-id="630ef-112">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="bb3a4-112">Atributos</span><span class="sxs-lookup"><span data-stu-id="bb3a4-112">Attributes</span></span>
 
-<span data-ttu-id="630ef-113">Nenhum</span><span class="sxs-lookup"><span data-stu-id="630ef-113">None.</span></span>
+<span data-ttu-id="bb3a4-113">Nenhum</span><span class="sxs-lookup"><span data-stu-id="bb3a4-113">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="630ef-114">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="630ef-114">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="bb3a4-114">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="bb3a4-114">Child elements</span></span>
 
-<span data-ttu-id="630ef-115">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="630ef-115">None.</span></span>
+<span data-ttu-id="bb3a4-115">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="bb3a4-115">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="630ef-116">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="630ef-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="bb3a4-116">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="bb3a4-116">Parent elements</span></span>
 
-|<span data-ttu-id="630ef-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="630ef-117">**Element**</span></span>|<span data-ttu-id="630ef-118">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="630ef-118">**Description**</span></span>|
+|<span data-ttu-id="bb3a4-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="bb3a4-117">**Element**</span></span>|<span data-ttu-id="bb3a4-118">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="bb3a4-118">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="630ef-119">OrganizationRelationshipSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="630ef-119">OrganizationRelationshipSettings (SOAP)</span></span>](organizationrelationshipsettings-soap.md) <br/> |<span data-ttu-id="630ef-120">Representa uma lista de relações de organização para uma única organização.</span><span class="sxs-lookup"><span data-stu-id="630ef-120">Represents a list of organization relationships for a single organization.</span></span>  <br/> |
+|[<span data-ttu-id="bb3a4-119">OrganizationRelationshipSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="bb3a4-119">OrganizationRelationshipSettings (SOAP)</span></span>](organizationrelationshipsettings-soap.md) <br/> |<span data-ttu-id="bb3a4-120">Representa uma lista de relações de organização para uma única organização.</span><span class="sxs-lookup"><span data-stu-id="bb3a4-120">Represents a list of organization relationships for a single organization.</span></span>  <br/> |
    
-## <a name="element-information"></a><span data-ttu-id="630ef-121">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="630ef-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="bb3a4-121">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="bb3a4-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="630ef-122">Namespace</span><span class="sxs-lookup"><span data-stu-id="630ef-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="630ef-123">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="630ef-123">Schema Name</span></span>  <br/> |<span data-ttu-id="630ef-124">Esquema de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="630ef-124">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="630ef-125">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="630ef-125">Validation File</span></span>  <br/> |<span data-ttu-id="630ef-126">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="630ef-126">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="630ef-127">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="630ef-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="630ef-128">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="630ef-128">True</span></span>  <br/> |
+|<span data-ttu-id="bb3a4-122">Namespace</span><span class="sxs-lookup"><span data-stu-id="bb3a4-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="bb3a4-123">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="bb3a4-123">Schema Name</span></span>  <br/> |<span data-ttu-id="bb3a4-124">Esquema de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="bb3a4-124">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="bb3a4-125">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="bb3a4-125">Validation File</span></span>  <br/> |<span data-ttu-id="bb3a4-126">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="bb3a4-126">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="bb3a4-127">Pode ser vazio</span><span class="sxs-lookup"><span data-stu-id="bb3a4-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="bb3a4-128">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="bb3a4-128">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="630ef-129">Também consulte</span><span class="sxs-lookup"><span data-stu-id="630ef-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bb3a4-129">Confira também</span><span class="sxs-lookup"><span data-stu-id="bb3a4-129">See also</span></span>
 
 
 
-[<span data-ttu-id="630ef-130">Operação GetOrganizationRelationshipSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="630ef-130">GetOrganizationRelationshipSettings operation (SOAP)</span></span>](getorganizationrelationshipsettings-operation-soap.md)
+[<span data-ttu-id="bb3a4-130">Operação GetOrganizationRelationshipSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="bb3a4-130">GetOrganizationRelationshipSettings operation (SOAP)</span></span>](getorganizationrelationshipsettings-operation-soap.md)
 
