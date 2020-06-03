@@ -8,7 +8,7 @@ ms.openlocfilehash: fbe4eaefc5befcc173096c9b8526adebf74a0aad
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44438430"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Autenticar uma conexão IMAP, POP ou SMTP usando o OAuth
@@ -188,7 +188,7 @@ l0Q2cBAQ==
 S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.com]
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Autenticação e EWS no Exchange](../exchange-web-services/authentication-and-ews-in-exchange.md)
 - [Configurações de conexão POP e IMAP](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)

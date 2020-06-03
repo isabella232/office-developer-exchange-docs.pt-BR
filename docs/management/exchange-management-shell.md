@@ -12,7 +12,7 @@ ms.openlocfilehash: 38e75339a4ad97cf8ff99e1cbe9c01059e157941
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44435804"
 ---
 # <a name="exchange-management-shell"></a>Shell de Gerenciamento do Exchange
@@ -42,7 +42,7 @@ Os artigos desta seção descrevem os recursos do Shell de gerenciamento do Exch
     
 - [Namespaces do Shell de gerenciamento do Exchange](exchange-management-shell-namespaces.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
   
 - [Documentação do Windows PowerShell](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6)
 - [Script do PowerShell](https://docs.microsoft.com/powershell/scripting/powershell-scripting?view=powershell-6)

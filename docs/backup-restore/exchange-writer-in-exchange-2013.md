@@ -12,7 +12,7 @@ ms.openlocfilehash: 44270a87c38b08d274d389fa6e46f3864da13ed2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44452885"
 ---
 # <a name="exchange-writer-in-exchange-2013"></a>Gravador do Exchange no Exchange 2013
@@ -75,7 +75,7 @@ O Exchange 2013 não permite backups simultâneos do mesmo banco de dados. Somen
   
 O truncamento do arquivo de log de transação iniciado pelo backup é acionado com base no tipo de backup a ser executado. Em configurações não DAG, o gravador do Exchange truncará os arquivos de log de transações na conclusão de backups completos e incrementais bem-sucedidos. Nas configurações replicadas do DAG, o truncamento de log será atrasado pelo serviço de replicação até que todos os arquivos de log necessários sejam repetidos em todas as outras cópias. O serviço de replicação excluirá os arquivos de log de backup dos caminhos de arquivo de log ativo e de cópia depois de verificar se os arquivos de log foram aplicados com êxito ao banco de dados de cópia e ao banco de dados de cópias de banco de dados e se passaram os arquivos de log para serem excluídos.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Logs de transação e arquivos de ponto de verificação para backup e restauração no Exchange 2013](transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md)
     

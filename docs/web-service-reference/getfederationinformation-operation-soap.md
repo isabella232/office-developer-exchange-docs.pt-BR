@@ -13,7 +13,7 @@ ms.openlocfilehash: 533b2f6d282e3287f4945df56b169f5bc93ff445
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455622"
 ---
 # <a name="getfederationinformation-operation-soap"></a>Operação GetFederationInformation (SOAP)
@@ -123,7 +123,7 @@ Os seguintes elementos são usados na resposta:
     
 - [Domínio (SOAP)](domain-soap.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operação GetUserSettings (SOAP)](getusersettings-operation-soap.md)
 - [Operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)

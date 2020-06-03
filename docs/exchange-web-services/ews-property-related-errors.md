@@ -10,7 +10,7 @@ ms.openlocfilehash: 5863ab4e06bd968aa38b6fdec471e09c5e23f54a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455405"
 ---
 # <a name="ews-property-related-errors"></a>Erros relacionados a propriedade do EWS
@@ -50,12 +50,12 @@ A maioria dos aplicativos de cliente do EWS usará propriedades, que significa q
 |ErrorUnsupportedTypeForConversion  <br/> |Solicite um tipo de propriedade que não pode ser convertido para XML para o EWS retornar em uma resposta.  <br/> |Atualizando o seu código para não solicitar a propriedade sem suporte.  <br/> |
 |ErrorUpdatePropertyMismatch  <br/> |Atualize um item ou pasta para a descrição de alteração para o qual não corresponde à propriedade que é especificada para ser atualizado.  <br/> |Alterando seu código para que a descrição da alteração corresponde ao tipo de item ou a pasta que está sendo atualizado.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Propriedades e as propriedades estendidas no EWS no Exchange](properties-and-extended-properties-in-ews-in-exchange.md)
     
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
+- [Introdução ao uso dos serviços Web no Exchange](start-using-web-services-in-exchange.md)
     
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

@@ -16,7 +16,7 @@ ms.openlocfilehash: 3c8f749a03b4aa251bf9312eba5d7e2d46c91fae
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44452892"
 ---
 # <a name="cchksgfilespgnofromfileoffset-function"></a>Função função cchksgfiles. PgnoFromFileOffset

@@ -10,7 +10,7 @@ ms.openlocfilehash: f62937ec444d64b0b358581371f1260f565215b3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455937"
 ---
 # <a name="handling-synchronization-related-errors-in-ews-in-exchange"></a>Como lidar com erros relacionados à sincronização no EWS no Exchange
@@ -28,7 +28,7 @@ Se o aplicativo sincronizar itens e pastas, talvez seja necessário lidar com er
 |ErrorTimeoutExpired  <br/> |Enviar muitas solicitações.  <br/> |Limitar seus lotes a 10 itens por lote para evitar a [limitação](ews-throttling-in-exchange.md).  <br/> |
 |[Naresponseexception](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponseexception%28v=exchg.80%29.aspx) <br/> |Conecte-se ao EWS quando o servidor está offline ou há um problema com a conectividade.  <br/> |Verificar a conectividade com o servidor e repetir sua solicitação mais tarde. Isso provavelmente é um erro de serviço transitório ou um erro de rede.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Sincronização de caixa de correio e EWS no Exchange](mailbox-synchronization-and-ews-in-exchange.md)

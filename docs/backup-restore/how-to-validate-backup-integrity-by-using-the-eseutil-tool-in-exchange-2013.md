@@ -12,7 +12,7 @@ ms.openlocfilehash: e8f1a46e2d94729ae5586861317312e277216d63
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44452794"
 ---
 #  <a name="validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013"></a>Validar a integridade do backup usando a ferramenta Eseutil no Exchange 2013
@@ -64,7 +64,7 @@ O solicitante deve verificar se todos os valores de erro de Exit ERRORLEVEL reto
   
 Antes de o solicitante chamar o método **BackupComplete** , ele deve garantir que o status do componente de backup reflita o resultado da verificação de consistência. Se alguma corrupção for encontrada, o status será FALSE; Se nenhuma corrupção for encontrada, o status será TRUE. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Validar a integridade do backup usando a API CHKSGFILES no Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md)
 - [Criar aplicativos de backup e restauração para o Exchange 2013](build-backup-and-restore-applications-for-exchange-2013.md)

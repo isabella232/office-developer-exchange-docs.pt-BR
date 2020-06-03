@@ -10,7 +10,7 @@ ms.openlocfilehash: dca41472b3b2f775f420b6654d7e43ef456b0583
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456889"
 ---
 # <a name="access-a-recurring-series-by-using-ews-in-exchange"></a>Acessar uma série recorrente usando o EWS no Exchange
@@ -210,7 +210,7 @@ O XML a seguir mostra a solicitação [GetItem](https://msdn.microsoft.com/libra
 
 O servidor responde à solicitação **GetItem** com uma mensagem [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) que inclui um valor de [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NOERROR**, que indica que o email foi criado com êxito e o [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) da mensagem recém-criada. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Calendários e EWS no Exchange](calendars-and-ews-in-exchange.md)

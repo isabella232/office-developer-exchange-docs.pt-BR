@@ -12,7 +12,7 @@ ms.openlocfilehash: bda6607be20f2a21bc22d472d63615d46634d8ab
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457141"
 ---
 # <a name="new-and-updated-exchange-management-shell-cmdlets"></a>Cmdlets novos e atualizados do Shell de gerenciamento do Exchange
@@ -730,7 +730,7 @@ Os seguintes cmdlets foram removidos do Exchange 2013:
     
 - **Estrutura de logs do IRM**
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Tipos de entrada e de saída de cmdlet do Shell de Gerenciamento do Exchange](exchange-management-shell-cmdlet-input-and-output-types.md)    
 - [Obter uma lista de usuários de email usando o Shell de gerenciamento do Exchange](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    

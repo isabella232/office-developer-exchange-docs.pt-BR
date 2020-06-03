@@ -10,7 +10,7 @@ ms.openlocfilehash: a8032e16cdd9100289666d8f2ce742fe054ede2e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456028"
 ---
 # <a name="ews-functionality-in-exchange-product-versions"></a>Funcionalidade do EWS em versões de produtos do Exchange
@@ -36,6 +36,6 @@ A tabela a seguir lista as versões do Exchange que incluem o EWS e os principai
 
 - [Introdução ao uso dos serviços Web no Exchange](start-using-web-services-in-exchange.md)
 - [Migrar para as tecnologias do Exchange ](../migrating-to-exchange-online-and-exchange-2013-technologies.md)
-- [Explorar os recursos do EWS Managed API, do EWS e dos serviços Web no Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
+- [Explorar os recursos da API gerenciada por EWS, EWS e serviços Web no Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
     
 

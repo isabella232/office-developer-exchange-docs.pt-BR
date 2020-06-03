@@ -10,7 +10,7 @@ ms.openlocfilehash: 6afef658e747b11d9aa5fb7d7a88ba8f5c57ac82
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456007"
 ---
 # <a name="ews-schema-versions-in-exchange"></a>Versões de esquema do EWS no Exchange

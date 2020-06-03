@@ -16,7 +16,7 @@ ms.openlocfilehash: 77da9028766881b9bc633e1b3318cd4d70c6b72f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457022"
 ---
 # <a name="domain-message-tracking"></a>Domínio (controle de mensagens)

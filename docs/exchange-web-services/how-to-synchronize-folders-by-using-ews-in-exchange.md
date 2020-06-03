@@ -10,7 +10,7 @@ ms.openlocfilehash: e49fdaf2faf97c2369f2ad7dbb141c5ac3100884
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455860"
 ---
 # <a name="synchronize-folders-by-using-ews-in-exchange"></a>Sincronizar pastas usando o EWS no Exchange
@@ -262,7 +262,7 @@ Se você estiver usando a API gerenciada do EWS, após obter a lista de pastas n
   
 Se você estiver usando o EWS, use a [operação GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) para obter as propriedades das pastas novas ou alteradas e atualizar ou criar as pastas no cliente. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Sincronização de caixa de correio e EWS no Exchange](mailbox-synchronization-and-ews-in-exchange.md)   
 - [Sincronizar itens usando o EWS no Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)   

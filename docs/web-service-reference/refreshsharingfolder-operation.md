@@ -16,7 +16,7 @@ ms.openlocfilehash: dd7136ae82353841db09497d23eabe450c1c8b13
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456722"
 ---
 # <a name="refreshsharingfolder-operation"></a>Operação RefreshSharingFolder
@@ -163,7 +163,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [MessageXml](messagexml.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

@@ -10,7 +10,7 @@ ms.openlocfilehash: 1d04bd48c56a1a0e94eb1368166f776b3dfeb23a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456868"
 ---
 # <a name="create-a-recurring-series-by-using-ews-in-exchange"></a>Criar uma série recorrente usando o EWS no Exchange
@@ -327,7 +327,7 @@ Os atributos **ItemId** e **ChangeKey** são reduzidos para facilitar a leitura.
 
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Calendários e EWS no Exchange](calendars-and-ews-in-exchange.md)

@@ -10,7 +10,7 @@ ms.openlocfilehash: 145783c4e7f49ed6e2aa3a2dbe0d10909e06d7e8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455349"
 ---
 # <a name="handling-delegation-related-errors-in-ews-in-exchange"></a>Como lidar com erros relacionados à delegação no EWS no Exchange
@@ -33,7 +33,7 @@ Se o aplicativo usar delegação ou adicionar ou remover representantes, talvez 
 |ErrorWrongServerVersionDelegate  <br/> |Faça uma solicitação de um representante que tenha uma versão de servidor diferente do servidor de caixa de correio da entidade de segurança.  <br/> |Usando um representante ou adicionando um delegado cuja caixa de correio tem a mesma versão do servidor do proprietário da caixa de correio.  <br/> |
 |ErrorMissingEmailAddress  <br/> |Faça uma solicitação usando uma conta de representante que não tenha uma caixa de correio.  <br/> |Adição de uma caixa de correio à conta do representante.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Acesso de representante e EWS no Exchange](delegate-access-and-ews-in-exchange.md)

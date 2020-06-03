@@ -16,7 +16,7 @@ ms.openlocfilehash: 99e4e24c3bca77c7e7d5f2c59bb21cee1317fed2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44446389"
 ---
 # <a name="agentlist"></a>agentlist
@@ -66,7 +66,7 @@ Nenhum
 |Arquivo de validação  <br/> |Indisponível.  <br/> |
 |Pode ser vazio  <br/> |Falso.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos de arquivo de configuração de agentes para o Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

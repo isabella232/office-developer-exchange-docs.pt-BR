@@ -10,7 +10,7 @@ ms.openlocfilehash: 527c570c4532c043334820b8e451ebdf317bbefe
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456294"
 ---
 # <a name="license-information"></a>Informações da licença

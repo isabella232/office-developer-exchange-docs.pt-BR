@@ -12,7 +12,7 @@ ms.openlocfilehash: 1c5d99be60501fd1c4414ea22294bd05645bb0a7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455237"
 ---
 # <a name="backup-and-restore-for-exchange"></a>Backup e restauração para o Exchange
@@ -52,10 +52,10 @@ Embora a arquitetura do gravador VSS tenha sido atualizada no Exchange 2013, a f
     
 - [Referência de classe função cchksgfiles](cchksgfiles-class-reference.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Serviço de cópias de sombra de volume (Windows)](https://msdn.microsoft.com/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
-- [Explorar os recursos do EWS Managed API, do EWS e dos serviços Web no Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
+- [Explorar os recursos da API gerenciada por EWS, EWS e serviços Web no Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
 - [Exchange Management Shell](../management/exchange-management-shell.md)   
 - [Agentes de transporte no Exchange](../transport-agents/transport-agents-in-exchange-2013.md) 
     

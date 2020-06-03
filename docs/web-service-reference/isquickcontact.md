@@ -12,7 +12,7 @@ ms.openlocfilehash: a8944be111a8dcbe914601ffc4e31794422d58aa
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44441573"
 ---
 # <a name="isquickcontact"></a>IsQuickContact
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

@@ -10,7 +10,7 @@ ms.openlocfilehash: 2773aa3ab29868c69d1fb088deb6c8a96dfb9ecc
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455687"
 ---
 # <a name="route-public-folder-hierarchy-requests"></a>Rotear solicitações de hierarquia de pasta pública
@@ -201,7 +201,7 @@ Connection: Keep-Alive
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Acesso a pastas públicas com o EWS no Exchange](public-folder-access-with-ews-in-exchange.md)    
 - [Rotear solicitações de conteúdo de pasta pública](how-to-route-public-folder-content-requests.md)    

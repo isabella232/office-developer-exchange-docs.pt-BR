@@ -10,7 +10,7 @@ ms.openlocfilehash: 7c88015386dc882f14184765e0046a866e8c0e10
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456308"
 ---
 # <a name="inbox-management-and-ews-in-exchange"></a>Gerenciamento de caixa de entrada e EWS no Exchange
@@ -132,7 +132,7 @@ Embora você possa criar uma regra que mova todos os emails de um remetente espe
     
 - [Adicionar e remover endereços de email da lista de remetentes bloqueados usando o EWS no Exchange](how-to-add-and-remove-email-addresses-from-blocked-senders-list-by-using-ews.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

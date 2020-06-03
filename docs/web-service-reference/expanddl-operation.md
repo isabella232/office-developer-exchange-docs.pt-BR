@@ -16,7 +16,7 @@ ms.openlocfilehash: 8edaf057538e2c1136465f0ff7937c14477b2c47
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44454047"
 ---
 # <a name="expanddl-operation"></a>Operação ExpandDL
@@ -273,7 +273,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 Para encontrar outras opções para a mensagem de resposta da operação ExpandDL, explore a hierarquia do esquema. Inicie no elemento [ExpandDLResponse](expanddlresponse.md) . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operação ResolveNames](resolvenames-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

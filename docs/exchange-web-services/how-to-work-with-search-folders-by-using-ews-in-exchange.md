@@ -10,7 +10,7 @@ ms.openlocfilehash: 880c14bc99c4f6c674d4f7566036c4b8f5f19e55
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456364"
 ---
 # <a name="work-with-search-folders-by-using-ews-in-exchange"></a>Trabalhar com pastas de pesquisa usando o EWS no Exchange
@@ -469,7 +469,7 @@ Se você estiver usando o EWS, use a [operação DeleteFolder](https://msdn.micr
 
 O servidor responde com uma mensagem [DeleteFolderResponse](https://msdn.microsoft.com/library/27578bda-ef0a-4a33-bccc-2c1bc1735424%28Office.15%29.aspx) que inclui um valor [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, que indica êxito.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Pesquisar e EWS no Exchange](search-and-ews-in-exchange.md)   
 - [Usar filtros de pesquisa com o EWS no Exchange](how-to-use-search-filters-with-ews-in-exchange.md)    

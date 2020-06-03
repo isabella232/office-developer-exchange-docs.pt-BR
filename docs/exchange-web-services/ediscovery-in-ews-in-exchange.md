@@ -10,7 +10,7 @@ ms.openlocfilehash: 48e3fdb3a2f21f7dcfcb7eed21b586e099b249a3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456091"
 ---
 # <a name="ediscovery-in-ews-in-exchange"></a>Descoberta eletrônica no EWS no Exchange
@@ -37,7 +37,7 @@ A funcionalidade de descoberta eletrônica exposta pelo EWS está disponível po
 |[SearchMailboxes](https://msdn.microsoft.com/library/8a67c1d8-d021-4e68-aa62-35f7d9c2edc7%28Office.15%29.aspx) <br/> |Procura itens em caixas de correio específicas que correspondam a palavras-chave de consulta.  <br/> |
 |[SetHoldOnMailboxes](https://msdn.microsoft.com/library/9015a0d8-3495-461b-aa79-797d23169585%28Office.15%29.aspx) <br/> |Define um bloqueio baseado em consulta nos itens.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

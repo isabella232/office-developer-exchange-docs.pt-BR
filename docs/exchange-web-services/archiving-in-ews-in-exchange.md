@@ -10,7 +10,7 @@ ms.openlocfilehash: b433b9f88905ee255720e8b341d560fa0e464975
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456210"
 ---
 # <a name="archiving-in-ews-in-exchange"></a>Arquivamento no EWS no Exchange
@@ -30,7 +30,7 @@ A tabela a seguir lista as operações de arquivamento que foram introduzidas no
 |[ArchiveItem](https://msdn.microsoft.com/library/1af216b3-13ea-498e-b4fc-23513755d731%28Office.15%29.aspx) <br/> |Move um item da caixa de correio principal para a caixa de correio de arquivo morto.  <br/> |
 |[Createfolderpath](https://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |Cria um URI que aponta para o local de armazenamento da caixa de correio de arquivo morto.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

@@ -10,7 +10,7 @@ ms.openlocfilehash: eb40dd60f28a6acf4395d3149744ce7321c34999
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455846"
 ---
 # <a name="update-a-recurring-series-by-using-ews"></a>Atualizar uma série recorrente usando o EWS
@@ -192,7 +192,7 @@ O exemplo a seguir mostra a solicitação de XML quando você usa a operação [
 
 O servidor responde à solicitação **UpdateItem** com uma mensagem [UpdateItemResponse](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) que inclui um valor de [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, que indica que a ocorrência foi atualizada com êxito e o [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) do compromisso atualizado. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Calendários e EWS no Exchange](calendars-and-ews-in-exchange.md)

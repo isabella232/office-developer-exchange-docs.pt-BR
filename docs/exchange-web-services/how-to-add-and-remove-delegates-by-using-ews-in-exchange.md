@@ -10,7 +10,7 @@ ms.openlocfilehash: 9db0171db51c0847d54bbcec7e28937eaed18d43
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455335"
 ---
 # <a name="add-and-remove-delegates-by-using-ews-in-exchange"></a>Adicionar e remover representantes usando o EWS no Exchange
@@ -305,7 +305,7 @@ Após adicionar representantes às pastas de calendário, email e tarefas, o rep
     
 Se as pastas para as quais você adicionou representantes incluírem pastas filhas que foram criadas antes de você conceder acesso de representante, o representante não poderá acessar essas pastas sem permissões adicionais. Para adicionar essas permissões ou modificar permissões para qualquer outra pasta, confira [definir permissões de pasta para outro usuário usando o EWS no Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Acesso de representante e EWS no Exchange](delegate-access-and-ews-in-exchange.md)
 - [Exchange 2013: adicionar usuários delegados a uma conta de email programaticamente](https://code.msdn.microsoft.com/exchange/Exchange-2013-Adding-1024511f)   

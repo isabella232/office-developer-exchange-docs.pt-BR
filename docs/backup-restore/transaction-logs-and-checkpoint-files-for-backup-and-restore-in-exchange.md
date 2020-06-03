@@ -12,7 +12,7 @@ ms.openlocfilehash: 5b01fc6924f82e76943795df877ae84b1fde087b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456385"
 ---
 # <a name="transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange"></a>Logs de transação e arquivos de ponto de verificação para backup e restauração no Exchange
@@ -39,7 +39,7 @@ Periodicamente, o repositório do Exchange verifica a imagem de banco de dados n
 
 Um arquivo de ponto de verificação registra quais transações registradas foram gravadas nos arquivos de banco de dados de disco. O ponto de verificação é avançado quando todas as páginas do banco de dados que foram modificadas por entradas nos logs de transação são gravadas com êxito no disco. Como o arquivo de ponto de verificação registra quais transações já estão na imagem de banco de dados no disco, o repositório do Exchange só precisa repetir as transações que ocorreram após o ponto de verificação. Dependendo do período de tempo entre backups, isso pode diminuir significativamente o número de transações que devem ser repetidas no banco de dados se ocorrer uma falha do sistema.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Conceitos de backup e restauração para o Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)
 - [Tipos de operações de backup para o Exchange 2013](types-of-backup-operations-for-exchange-2013.md)

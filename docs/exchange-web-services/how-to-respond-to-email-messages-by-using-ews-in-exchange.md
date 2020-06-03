@@ -10,7 +10,7 @@ ms.openlocfilehash: 81599051f603654cdf8a50b789b37d7e76664a53
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455706"
 ---
 # <a name="respond-to-email-messages-by-using-ews-in-exchange"></a>Responder a mensagens de email usando o EWS no Exchange
@@ -241,7 +241,7 @@ public static void FindRecentlySent(EmailMessage messageToCheck)
 }
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Email e EWS no Exchange](email-and-ews-in-exchange.md)

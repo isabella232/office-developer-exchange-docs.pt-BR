@@ -10,7 +10,7 @@ ms.openlocfilehash: 476292d4db206f22cd84134ce2b46957e9fe85fc
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456238"
 ---
 # <a name="managing-user-access-by-using-ews-in-exchange"></a>Gerenciando o acesso do usuário usando o EWS no Exchange
@@ -29,7 +29,7 @@ Se seu aplicativo precisar de controle adicional sobre as contas em um servidor 
     
 - Usando os scripts do Windows PowerShell e do Windows PowerShell para chamar os cmdlets do Shell de gerenciamento do Exchange. Você pode encontrar uma lista completa do [PowerShell do Exchange Server (Shell de gerenciamento do Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps), juntamente com exemplos que mostram como usá-los. 
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Configurando o aplicativo EWS](setting-up-your-ews-application.md)   
 - [Cmdlets do Exchange 2013](https://docs.microsoft.com/powershell/exchange/?view=exchange-ps)  

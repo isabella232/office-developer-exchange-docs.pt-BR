@@ -10,7 +10,7 @@ ms.openlocfilehash: 41c217c1c3815606d898b8237ea327f34869174b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455944"
 ---
 # <a name="handling-deletion-related-errors-in-ews-in-exchange"></a>Tratamento de erros relacionados à exclusão no EWS no Exchange
@@ -32,7 +32,7 @@ Se o aplicativo [excluir itens e pastas](deleting-items-by-using-ews-in-exchange
 |ErrorItemNotFound  <br/> |Acessar um item permanentemente excluído.  <br/> |Remover referências a um item quando ele é excluído da loja. Se um item for recuperado, certifique-se de restabelecer as referências necessárias ao cliente.  <br/> |
 |ErrorSendMeetingCancellationsRequired  <br/> |Excluir um item de calendário sem especificar se o cancelamento de reunião deve ser enviado.  <br/> |Especificar que o cancelamento de reunião deve ou não deve ser enviado.  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Excluir itens usando o EWS no Exchange](deleting-items-by-using-ews-in-exchange.md)

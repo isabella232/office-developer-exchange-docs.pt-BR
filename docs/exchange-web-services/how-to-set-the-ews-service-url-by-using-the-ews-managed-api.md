@@ -10,7 +10,7 @@ ms.openlocfilehash: 5ba79b48d4eb4fec62110448c5924de16b67ce10
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456716"
 ---
 # <a name="set-the-ews-service-url-by-using-the-ews-managed-api"></a>Definir a URL do serviço EWS usando a API gerenciada do EWS

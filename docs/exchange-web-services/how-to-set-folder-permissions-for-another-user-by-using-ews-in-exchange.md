@@ -10,7 +10,7 @@ ms.openlocfilehash: e25f1a49a430e8c95829d404fa53451b76cab167
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455867"
 ---
 # <a name="set-folder-permissions-for-another-user-by-using-ews-in-exchange"></a>Definir permissões de pasta para outro usuário usando o EWS no Exchange
@@ -56,7 +56,7 @@ As seguintes permissões individuais estão disponíveis:
     
 Além disso, os seguintes níveis de permissão estão disponíveis, que definem um subconjunto de permissões e valores individuais, conforme mostrado na tabela 2:
   
-- Nenhum    
+- Nenhuma    
 - Proprietário    
 - Publishingeditorcreateitems    
 - Editor    
@@ -75,13 +75,13 @@ A tabela a seguir mostra quais permissões individuais são aplicadas por padrã
 
 |Nível da permissão|Pode criar itens|Pode criar subpastas|É proprietário da pasta|A pasta é visível|É o contato da pasta|Editar itens|Excluir itens|Pode ler itens|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Nenhum  <br/> |Falso  <br/> |Falso  <br/> |Falso  <br/> |Falso  <br/> |Falso  <br/> |Nenhum  <br/> |Nenhum  <br/> |Nenhum  <br/> |
+|Nenhuma  <br/> |Falso  <br/> |Falso  <br/> |Falso  <br/> |Falso  <br/> |Falso  <br/> |Nenhum  <br/> |Nenhum  <br/> |Nenhum  <br/> |
 |Proprietário  <br/> |Verdadeiro  <br/> |Verdadeiro  <br/> |Verdadeiro  <br/> |Verdadeiro  <br/> |Verdadeiro  <br/> |Todos  <br/> |Todos  <br/> |FullDetails  <br/> |
 |Publishingeditorcreateitems  <br/> |Verdadeiro  <br/> |Verdadeiro  <br/> |Falso  <br/> |Verdadeiro  <br/> |Falso  <br/> |Todos  <br/> |Todos  <br/> |FullDetails  <br/> |
 |Editor  <br/> |Verdadeiro  <br/> |Falso  <br/> |Falso  <br/> |Verdadeiro  <br/> |Falso  <br/> |Todos  <br/> |Todos  <br/> |FullDetails  <br/> |
 |Publishingauthorcreateitems  <br/> |Verdadeiro  <br/> |Verdadeiro  <br/> |Falso  <br/> |Verdadeiro  <br/> |Falso  <br/> |Possuir  <br/> |Possuir  <br/> |FullDetails  <br/> |
 |Autor  <br/> |Verdadeiro  <br/> |Falso  <br/> |Falso  <br/> |Verdadeiro  <br/> |Falso  <br/> |Possuir  <br/> |Possuir  <br/> |FullDetails  <br/> |
-|Noneditingauthorcreateitems  <br/> |Verdadeiro  <br/> |Falso  <br/> |Falso  <br/> |Verdadeiro  <br/> |Falso  <br/> |Nenhum  <br/> |Possuir  <br/> |FullDetails  <br/> |
+|Noneditingauthorcreateitems  <br/> |Verdadeiro  <br/> |Falso  <br/> |Falso  <br/> |Verdadeiro  <br/> |Falso  <br/> |Nenhuma  <br/> |Possuir  <br/> |FullDetails  <br/> |
 |Revisor  <br/> |Falso  <br/> |Falso  <br/> |Falso  <br/> |Verdadeiro  <br/> |Falso  <br/> |Nenhum  <br/> |Nenhum  <br/> |FullDetails  <br/> |
 |Colaborador  <br/> |Verdadeiro  <br/> |Falso  <br/> |Falso  <br/> |Verdadeiro  <br/> |Falso  <br/> |Nenhum  <br/> |Nenhum  <br/> |Nenhum  <br/> |
    
@@ -599,7 +599,7 @@ Depois de conceder a um usuário permissão para uma pasta específica, o usuár
     
 - [Acessar contatos como um representante usando o EWS no Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Acesso de representante e EWS no Exchange](delegate-access-and-ews-in-exchange.md)   
 - [Adicionar e remover representantes usando o EWS no Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)    

@@ -16,7 +16,7 @@ ms.openlocfilehash: 485514d9f72956083d8a7a0633478f3d9e694845
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455384"
 ---
 # <a name="lastmodifiedname"></a>LastModified
@@ -52,7 +52,7 @@ Nenhum.
 |[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Remove um item do repositório do Exchange.  <br/> |
 |[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
 |[Item de postagem](postitem.md) <br/> |Representa um item de postagem no repositório do Exchange. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |

@@ -10,7 +10,7 @@ ms.openlocfilehash: ab7b3ef5f87d8a26a412ca7187dc93c58d73112f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455727"
 ---
 # <a name="manage-persistent-application-settings-by-using-ews-in-exchange"></a>Gerenciar configurações de aplicativos persistentes usando o EWS no Exchange
@@ -417,7 +417,7 @@ O exemplo a seguir mostra o XML da solicitação para excluir um objeto de confi
 
 O [XML de resposta](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) é simples e indica se a solicitação de exclusão foi bem-sucedida ou se ocorreu um erro. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Configurações de aplicativo persistente no EWS no Exchange](persistent-application-settings-in-ews-in-exchange.md)
 - [Visão geral do design de cliente do EWS para Exchange](ews-client-design-overview-for-exchange.md)   

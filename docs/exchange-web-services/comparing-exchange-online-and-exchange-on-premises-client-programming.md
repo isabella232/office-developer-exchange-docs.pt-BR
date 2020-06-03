@@ -10,7 +10,7 @@ ms.openlocfilehash: 8b4dbae5cadfed377aa3a7179144a7cea68bc35c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456161"
 ---
 # <a name="comparing-exchange-online-and-exchange-on-premises-client-programming"></a>Comparando a programação de cliente local do Exchange Online e do Exchange
@@ -127,7 +127,7 @@ Você pode fazer o seguinte ao direcionar o Exchange no local, mas não o Exchan
     
 - Instalar [agentes de transporte personalizados](../transport-agents/transport-agents-in-exchange-2013.md) que podem afetar a entrega e o conteúdo de mensagens que você cria e envia com o EWS e outros clientes. 
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Visão geral do design de cliente do EWS para Exchange](ews-client-design-overview-for-exchange.md)
 - [Comparando o Exchange Online e o Exchange Server 2013](https://blogs.technet.com/b/exchange/archive/2012/09/19/comparing-exchange-online-and-exchange-server-2013.aspx)  

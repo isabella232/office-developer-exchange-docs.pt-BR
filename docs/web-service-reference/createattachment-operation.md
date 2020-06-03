@@ -16,7 +16,7 @@ ms.openlocfilehash: 8028c56aa306774b54b39e5ee1ac0382b9113fa0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456567"
 ---
 # <a name="createattachment-operation"></a>Operação CreateAttachment
@@ -186,7 +186,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [Nome (AttachmentType)](name-attachmenttype.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Mensagem](message-ex15websvcsotherref.md)
     
 - [Assunto](subject.md)
     
@@ -315,7 +315,7 @@ Os seguintes elementos são usados na resposta de erro:
 
 Se vários anexos estiverem anexados a um item em uma única viagem de ida e volta, o RootItemChangeKey na última mensagem de resposta será aquele que representa a nova chave de alteração do item que tem os anexos.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

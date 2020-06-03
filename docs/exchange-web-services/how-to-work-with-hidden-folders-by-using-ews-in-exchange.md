@@ -10,7 +10,7 @@ ms.openlocfilehash: d4fa44a0399542350668359e8abb88d2a0a9d579
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456371"
 ---
 # <a name="work-with-hidden-folders-by-using-ews-in-exchange"></a>Trabalhar com pastas ocultas usando o EWS no Exchange
@@ -351,7 +351,7 @@ Os valores [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88
 
 Após ter pastas ocultas ou não ocultas, talvez você queira obter a hierarquia de pastas ou [sincronizar a hierarquia de pastas](how-to-synchronize-folders-by-using-ews-in-exchange.md). Os exemplos que mostram como [obter uma hierarquia de pastas usando a API gerenciada do EWS](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyewsma) ou [obter uma hierarquia de pastas usando o EWS](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyews) também indicam quais pastas da hierarquia estão ocultas. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Pastas e itens no EWS no Exchange](folders-and-items-in-ews-in-exchange.md)

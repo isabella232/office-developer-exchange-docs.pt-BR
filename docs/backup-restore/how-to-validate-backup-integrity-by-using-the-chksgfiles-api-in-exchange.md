@@ -12,7 +12,7 @@ ms.openlocfilehash: c101413793cf3b952d3db3e0f792c8bcf2dd9fc9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44452857"
 ---
 # <a name="validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013"></a>Validar a integridade do backup usando a API CHKSGFILES no Exchange 2013
@@ -95,7 +95,7 @@ O procedimento a seguir descreve como validar a integridade dos dados no aplicat
    CCheckSGFiles::Delete( pcchecksgfiles );  
    ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Referência de classe função cchksgfiles](cchksgfiles-class-reference.md)
 - [Criar aplicativos de backup e restauração para o Exchange 2013](build-backup-and-restore-applications-for-exchange-2013.md)

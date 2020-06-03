@@ -12,7 +12,7 @@ ms.openlocfilehash: fd35699839af105dd3fe285776b071c1d03d58dd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44437981"
 ---
 # <a name="backup-and-restore-concepts-for-exchange-2013"></a>Conceitos de backup e restauração para o Exchange 2013
@@ -68,7 +68,7 @@ O único método com suporte de restauração de bancos de dados do DAG dos dado
     
 - [Gravador do Exchange no Exchange 2013](exchange-writer-in-exchange-2013.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Desenvolvimento do Exchange Online e do Exchange](../exchange-server-development.md) 
 - [Tipos de operações de backup para o Exchange 2013](types-of-backup-operations-for-exchange-2013.md)

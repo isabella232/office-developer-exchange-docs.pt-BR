@@ -10,7 +10,7 @@ ms.openlocfilehash: 3d77c0d4efb8fc853eea64ff2429af5c3dbead27
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456718"
 ---
 # <a name="pull-notifications-about-mailbox-events-by-using-ews-in-exchange"></a>Receber notificações sobre eventos de caixa de correio usando o EWS no Exchange
@@ -134,7 +134,7 @@ Após receber um evento do servidor, [sincronize as alterações no cliente](how
 
 Após receber notificações, você pode [sincronizar a hierarquia de pastas](how-to-synchronize-folders-by-using-ews-in-exchange.md) ou [sincronizar o conteúdo da pasta que foi alterada](how-to-synchronize-items-by-using-ews-in-exchange.md).
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Assinaturas de notificação, eventos de caixa de correio e EWS no Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)

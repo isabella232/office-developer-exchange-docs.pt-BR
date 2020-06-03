@@ -10,7 +10,7 @@ ms.openlocfilehash: 3a8ce889ec7a6b9e70ec25a95ac248902f48ca6c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456301"
 ---
 # <a name="instrumenting-client-requests-for-ews-and-rest-in-exchange"></a>Instrumentação de solicitações de cliente para EWS e REST no Exchange
@@ -64,7 +64,7 @@ Mantemos relatórios para essas latências e os usam para melhorar continuamente
 
 Após ter adicionado a instrumentação do cliente ao seu aplicativo, você estará mais preparado se algo der errado. Se isso acontecer, você poderá usar seus dados de instrumentação para [solucionar problemas com o aplicativo](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md).
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Visão geral do design de cliente do EWS para Exchange](ews-client-design-overview-for-exchange.md)
 - [Rastrear solicitações e respostas para solucionar problemas de aplicativos de API gerenciada do EWS](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md)

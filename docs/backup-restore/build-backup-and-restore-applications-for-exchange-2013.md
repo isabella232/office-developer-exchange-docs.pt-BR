@@ -12,7 +12,7 @@ ms.openlocfilehash: f8a332d0816792f8888c97a8394886b026f5204b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455266"
 ---
 # <a name="build-backup-and-restore-applications-for-exchange-2013"></a>Criar aplicativos de backup e restauração para o Exchange 2013
@@ -97,7 +97,7 @@ As informações necessárias para concluir com êxito as operações de backup 
     
 - [Validar a integridade do backup usando a ferramenta Eseutil no Exchange 2013](how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Backup e restauração para o Exchange](backup-and-restore-for-exchange-2013.md) 
 - [Referência de classe função cchksgfiles](cchksgfiles-class-reference.md) 

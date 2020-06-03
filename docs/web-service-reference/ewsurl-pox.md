@@ -11,7 +11,7 @@ ms.openlocfilehash: 295e65ddf14524a41c5cb714df78703dbf855a05
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44454348"
 ---
 # <a name="ewsurl-pox"></a>EwsUrl (POX)
@@ -58,7 +58,7 @@ O valor de texto representa a URL do ponto de extremidade do EWS para o usuário
 
 O elemento **EwsUrl** é um elemento filho opcional do elemento **Protocol** . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 
