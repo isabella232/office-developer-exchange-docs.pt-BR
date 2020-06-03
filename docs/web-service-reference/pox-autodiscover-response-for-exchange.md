@@ -13,20 +13,20 @@ ms.openlocfilehash: 0d903d9829fa6dc1273d8b25a1eeb0b68700d5da
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462280"
 ---
-# <a name="pox-autodiscover-response-for-exchange"></a><span data-ttu-id="732dd-103">Resposta de descoberta automática do POX para o Exchange</span><span class="sxs-lookup"><span data-stu-id="732dd-103">POX Autodiscover response for Exchange</span></span>
+# <a name="pox-autodiscover-response-for-exchange"></a><span data-ttu-id="b8fb6-103">Resposta de descoberta automática do POX para o Exchange</span><span class="sxs-lookup"><span data-stu-id="b8fb6-103">POX Autodiscover response for Exchange</span></span>
 
-<span data-ttu-id="732dd-104">A resposta de descoberta automática contém uma resposta a uma solicitação de descoberta automática que inclui uma lista de URLs usadas para estabelecer uma associação com o EWS (serviços Web do Exchange).</span><span class="sxs-lookup"><span data-stu-id="732dd-104">The Autodiscover response contains a response to an Autodiscover request that includes a list of URLs that are used to establish a binding with Exchange Web Services (EWS).</span></span>
+<span data-ttu-id="b8fb6-104">A resposta de descoberta automática contém uma resposta a uma solicitação de descoberta automática que inclui uma lista de URLs usadas para estabelecer uma associação com o EWS (serviços Web do Exchange).</span><span class="sxs-lookup"><span data-stu-id="b8fb6-104">The Autodiscover response contains a response to an Autodiscover request that includes a list of URLs that are used to establish a binding with Exchange Web Services (EWS).</span></span>
   
-## <a name="autodiscover-response-example"></a><span data-ttu-id="732dd-105">Exemplo de resposta de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="732dd-105">Autodiscover response example</span></span>
+## <a name="autodiscover-response-example"></a><span data-ttu-id="b8fb6-105">Exemplo de resposta de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="b8fb6-105">Autodiscover response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="732dd-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="732dd-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="b8fb6-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="b8fb6-106">Description</span></span>
 
-<span data-ttu-id="732dd-107">O exemplo a seguir mostra uma resposta de descoberta automática bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="732dd-107">The following example shows a successful Autodiscover response.</span></span>
+<span data-ttu-id="b8fb6-107">O exemplo a seguir mostra uma resposta de descoberta automática bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="b8fb6-107">The following example shows a successful Autodiscover response.</span></span>
   
-### <a name="code"></a><span data-ttu-id="732dd-108">Código</span><span class="sxs-lookup"><span data-stu-id="732dd-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="b8fb6-108">Código</span><span class="sxs-lookup"><span data-stu-id="b8fb6-108">Code</span></span>
 
 ```XML
 <Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
@@ -72,63 +72,63 @@ ms.locfileid: "44462280"
 </Autodiscover>
 ```
 
-### <a name="comments"></a><span data-ttu-id="732dd-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="732dd-109">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="b8fb6-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="b8fb6-109">Comments</span></span>
 
-<span data-ttu-id="732dd-110">Para associar aos serviços Web do Exchange, use a URL identificada pelo elemento [ASUrl (POX)](asurl-pox.md) .</span><span class="sxs-lookup"><span data-stu-id="732dd-110">To bind to Exchange Web Services, use the URL identified by the [ASUrl (POX)](asurl-pox.md) element.</span></span> 
+<span data-ttu-id="b8fb6-110">Para associar aos serviços Web do Exchange, use a URL identificada pelo elemento [ASUrl (POX)](asurl-pox.md) .</span><span class="sxs-lookup"><span data-stu-id="b8fb6-110">To bind to Exchange Web Services, use the URL identified by the [ASUrl (POX)](asurl-pox.md) element.</span></span> 
   
-### <a name="response-element"></a><span data-ttu-id="732dd-111">Elemento Response</span><span class="sxs-lookup"><span data-stu-id="732dd-111">Response Element</span></span>
+### <a name="response-element"></a><span data-ttu-id="b8fb6-111">Elemento Response</span><span class="sxs-lookup"><span data-stu-id="b8fb6-111">Response Element</span></span>
 
-<span data-ttu-id="732dd-112">Os seguintes elementos são usados no corpo da resposta:</span><span class="sxs-lookup"><span data-stu-id="732dd-112">The following elements are used in the response body:</span></span>
+<span data-ttu-id="b8fb6-112">Os seguintes elementos são usados no corpo da resposta:</span><span class="sxs-lookup"><span data-stu-id="b8fb6-112">The following elements are used in the response body:</span></span>
   
-- [<span data-ttu-id="732dd-113">Descoberta automática (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-113">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
+- [<span data-ttu-id="b8fb6-113">Descoberta automática (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-113">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
     
-- [<span data-ttu-id="732dd-114">Resposta (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-114">Response (POX)</span></span>](response-pox.md)
+- [<span data-ttu-id="b8fb6-114">Resposta (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-114">Response (POX)</span></span>](response-pox.md)
     
-- [<span data-ttu-id="732dd-115">Usuário (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-115">User (POX)</span></span>](user-pox.md)
+- [<span data-ttu-id="b8fb6-115">Usuário (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-115">User (POX)</span></span>](user-pox.md)
     
-- [<span data-ttu-id="732dd-116">DisplayName (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-116">DisplayName (POX)</span></span>](displayname-pox.md)
+- [<span data-ttu-id="b8fb6-116">DisplayName (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-116">DisplayName (POX)</span></span>](displayname-pox.md)
     
-- [<span data-ttu-id="732dd-117">LegacyDN (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-117">LegacyDN (POX)</span></span>](legacydn-pox.md)
+- [<span data-ttu-id="b8fb6-117">LegacyDN (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-117">LegacyDN (POX)</span></span>](legacydn-pox.md)
     
-- [<span data-ttu-id="732dd-118">DeploymentId (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-118">DeploymentId (POX)</span></span>](deploymentid-pox.md)
+- [<span data-ttu-id="b8fb6-118">DeploymentId (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-118">DeploymentId (POX)</span></span>](deploymentid-pox.md)
     
-- [<span data-ttu-id="732dd-119">Conta (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-119">Account (POX)</span></span>](account-pox.md)
+- [<span data-ttu-id="b8fb6-119">Conta (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-119">Account (POX)</span></span>](account-pox.md)
     
-- [<span data-ttu-id="732dd-120">AccountType (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-120">AccountType (POX)</span></span>](accounttype-pox.md)
+- [<span data-ttu-id="b8fb6-120">AccountType (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-120">AccountType (POX)</span></span>](accounttype-pox.md)
     
-- [<span data-ttu-id="732dd-121">Ação (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-121">Action (POX)</span></span>](action-pox.md)
+- [<span data-ttu-id="b8fb6-121">Ação (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-121">Action (POX)</span></span>](action-pox.md)
     
-- [<span data-ttu-id="732dd-122">Protocol (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-122">Protocol (POX)</span></span>](protocol-pox.md)
+- [<span data-ttu-id="b8fb6-122">Protocol (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-122">Protocol (POX)</span></span>](protocol-pox.md)
     
-- [<span data-ttu-id="732dd-123">Tipo (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-123">Type (POX)</span></span>](type-pox.md)
+- [<span data-ttu-id="b8fb6-123">Tipo (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-123">Type (POX)</span></span>](type-pox.md)
     
-- [<span data-ttu-id="732dd-124">Servidor (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-124">Server (POX)</span></span>](server-pox.md)
+- [<span data-ttu-id="b8fb6-124">Servidor (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-124">Server (POX)</span></span>](server-pox.md)
     
-- [<span data-ttu-id="732dd-125">ServerDN (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-125">ServerDN (POX)</span></span>](serverdn-pox.md)
+- [<span data-ttu-id="b8fb6-125">ServerDN (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-125">ServerDN (POX)</span></span>](serverdn-pox.md)
     
-- [<span data-ttu-id="732dd-126">ServerVersion (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-126">ServerVersion (POX)</span></span>](serverversion-pox.md)
+- [<span data-ttu-id="b8fb6-126">ServerVersion (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-126">ServerVersion (POX)</span></span>](serverversion-pox.md)
     
-- [<span data-ttu-id="732dd-127">MdbDN (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-127">MdbDN (POX)</span></span>](mdbdn-pox.md)
+- [<span data-ttu-id="b8fb6-127">MdbDN (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-127">MdbDN (POX)</span></span>](mdbdn-pox.md)
     
-- [<span data-ttu-id="732dd-128">ASUrl (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-128">ASUrl (POX)</span></span>](asurl-pox.md)
+- [<span data-ttu-id="b8fb6-128">ASUrl (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-128">ASUrl (POX)</span></span>](asurl-pox.md)
     
-- [<span data-ttu-id="732dd-129">OOFUrl (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-129">OOFUrl (POX)</span></span>](oofurl-pox.md)
+- [<span data-ttu-id="b8fb6-129">OOFUrl (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-129">OOFUrl (POX)</span></span>](oofurl-pox.md)
     
-- [<span data-ttu-id="732dd-130">UMUrl (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-130">UMUrl (POX)</span></span>](umurl-pox.md)
+- [<span data-ttu-id="b8fb6-130">UMUrl (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-130">UMUrl (POX)</span></span>](umurl-pox.md)
     
-- [<span data-ttu-id="732dd-131">OABUrl (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-131">OABUrl (POX)</span></span>](oaburl-pox.md)
+- [<span data-ttu-id="b8fb6-131">OABUrl (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-131">OABUrl (POX)</span></span>](oaburl-pox.md)
     
-- [<span data-ttu-id="732dd-132">Interno (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-132">Internal (POX)</span></span>](internal-pox.md)
+- [<span data-ttu-id="b8fb6-132">Interno (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-132">Internal (POX)</span></span>](internal-pox.md)
     
-- [<span data-ttu-id="732dd-133">OWAUrl (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-133">OWAUrl (POX)</span></span>](owaurl-pox.md)
+- [<span data-ttu-id="b8fb6-133">OWAUrl (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-133">OWAUrl (POX)</span></span>](owaurl-pox.md)
     
-## <a name="autodiscover-error-response-example"></a><span data-ttu-id="732dd-134">Exemplo de resposta de erro de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="732dd-134">Autodiscover Error response example</span></span>
+## <a name="autodiscover-error-response-example"></a><span data-ttu-id="b8fb6-134">Exemplo de resposta de erro de descoberta automática</span><span class="sxs-lookup"><span data-stu-id="b8fb6-134">Autodiscover Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="732dd-135">Descrição</span><span class="sxs-lookup"><span data-stu-id="732dd-135">Description</span></span>
+### <a name="description"></a><span data-ttu-id="b8fb6-135">Descrição</span><span class="sxs-lookup"><span data-stu-id="b8fb6-135">Description</span></span>
 
-<span data-ttu-id="732dd-136">O exemplo a seguir mostra uma resposta de erro de descoberta automática.</span><span class="sxs-lookup"><span data-stu-id="732dd-136">The following example shows an Autodiscover error response.</span></span>
+<span data-ttu-id="b8fb6-136">O exemplo a seguir mostra uma resposta de erro de descoberta automática.</span><span class="sxs-lookup"><span data-stu-id="b8fb6-136">The following example shows an Autodiscover error response.</span></span>
   
-### <a name="code"></a><span data-ttu-id="732dd-137">Código</span><span class="sxs-lookup"><span data-stu-id="732dd-137">Code</span></span>
+### <a name="code"></a><span data-ttu-id="b8fb6-137">Código</span><span class="sxs-lookup"><span data-stu-id="b8fb6-137">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -143,25 +143,25 @@ ms.locfileid: "44462280"
 </Autodiscover>
 ```
 
-### <a name="error-response-element"></a><span data-ttu-id="732dd-138">Elemento de resposta de erro</span><span class="sxs-lookup"><span data-stu-id="732dd-138">Error response element</span></span>
+### <a name="error-response-element"></a><span data-ttu-id="b8fb6-138">Elemento de resposta de erro</span><span class="sxs-lookup"><span data-stu-id="b8fb6-138">Error response element</span></span>
 
-<span data-ttu-id="732dd-139">Os seguintes elementos são usados no corpo da resposta:</span><span class="sxs-lookup"><span data-stu-id="732dd-139">The following elements are used in the response body:</span></span>
+<span data-ttu-id="b8fb6-139">Os seguintes elementos são usados no corpo da resposta:</span><span class="sxs-lookup"><span data-stu-id="b8fb6-139">The following elements are used in the response body:</span></span>
   
-- [<span data-ttu-id="732dd-140">Descoberta automática (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-140">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
+- [<span data-ttu-id="b8fb6-140">Descoberta automática (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-140">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
     
-- [<span data-ttu-id="732dd-141">Resposta (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-141">Response (POX)</span></span>](response-pox.md)
+- [<span data-ttu-id="b8fb6-141">Resposta (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-141">Response (POX)</span></span>](response-pox.md)
     
-- [<span data-ttu-id="732dd-142">Erro (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-142">Error (POX)</span></span>](error-pox.md)
+- [<span data-ttu-id="b8fb6-142">Erro (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-142">Error (POX)</span></span>](error-pox.md)
     
-- [<span data-ttu-id="732dd-143">ErrorCode (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-143">ErrorCode (POX)</span></span>](errorcode-pox.md)
+- [<span data-ttu-id="b8fb6-143">ErrorCode (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-143">ErrorCode (POX)</span></span>](errorcode-pox.md)
     
-- [<span data-ttu-id="732dd-144">Mensagem (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-144">Message (POX)</span></span>](message-pox.md)
+- [<span data-ttu-id="b8fb6-144">Mensagem (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-144">Message (POX)</span></span>](message-pox.md)
     
-- [<span data-ttu-id="732dd-145">DebugData (POX)</span><span class="sxs-lookup"><span data-stu-id="732dd-145">DebugData (POX)</span></span>](debugdata-pox.md)
+- [<span data-ttu-id="b8fb6-145">DebugData (POX)</span><span class="sxs-lookup"><span data-stu-id="b8fb6-145">DebugData (POX)</span></span>](debugdata-pox.md)
     
-## <a name="see-also"></a><span data-ttu-id="732dd-146">Também consulte</span><span class="sxs-lookup"><span data-stu-id="732dd-146">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b8fb6-146">Confira também</span><span class="sxs-lookup"><span data-stu-id="b8fb6-146">See also</span></span>
 
-- [<span data-ttu-id="732dd-147">Solicitação de descoberta automática do POX para o Exchange</span><span class="sxs-lookup"><span data-stu-id="732dd-147">POX Autodiscover request for Exchange</span></span>](pox-autodiscover-request-for-exchange.md)
-- [<span data-ttu-id="732dd-148">Referência de serviço Web de descoberta automática do POX para o Exchange</span><span class="sxs-lookup"><span data-stu-id="732dd-148">POX Autodiscover web service reference for Exchange</span></span>](pox-autodiscover-web-service-reference-for-exchange.md) 
-- [<span data-ttu-id="732dd-149">Elementos XML de descoberta automática de POX para o Exchange</span><span class="sxs-lookup"><span data-stu-id="732dd-149">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
+- [<span data-ttu-id="b8fb6-147">Solicitação de descoberta automática do POX para o Exchange</span><span class="sxs-lookup"><span data-stu-id="b8fb6-147">POX Autodiscover request for Exchange</span></span>](pox-autodiscover-request-for-exchange.md)
+- [<span data-ttu-id="b8fb6-148">Referência de serviço Web de descoberta automática do POX para o Exchange</span><span class="sxs-lookup"><span data-stu-id="b8fb6-148">POX Autodiscover web service reference for Exchange</span></span>](pox-autodiscover-web-service-reference-for-exchange.md) 
+- [<span data-ttu-id="b8fb6-149">Elementos XML de descoberta automática de POX para o Exchange</span><span class="sxs-lookup"><span data-stu-id="b8fb6-149">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
 
