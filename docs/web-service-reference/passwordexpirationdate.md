@@ -12,7 +12,7 @@ ms.openlocfilehash: 7bdca88739b911c37cb95228d3b36653faa1b7fd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465720"
 ---
 # <a name="passwordexpirationdate"></a>PasswordExpirationDate
@@ -61,7 +61,7 @@ Este elemento foi introduzido no Exchange Server 2010 Service Pack 2 (SP2).
 |Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

@@ -16,7 +16,7 @@ ms.openlocfilehash: 17a23d4c2a35761e831610f3514c980a5a67e12b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463332"
 ---
 # <a name="getitem-operation-task"></a>Operação GetItem (tarefa)
@@ -204,7 +204,7 @@ Os seguintes elementos são usados na resposta:
     
 - [StatusDescription](statusdescription.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

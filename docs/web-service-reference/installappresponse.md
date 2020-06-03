@@ -12,7 +12,7 @@ ms.openlocfilehash: 0f7690e2df7e71c4e478dec191671af24f96294b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465664"
 ---
 # <a name="installappresponse"></a>InstallAppResponse
@@ -79,7 +79,7 @@ O elemento **GetAppManifestsResponseMessage** é aplicável para clientes que di
 |Arquivo de validação  <br/> |messages. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

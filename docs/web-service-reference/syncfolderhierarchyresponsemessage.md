@@ -16,7 +16,7 @@ ms.openlocfilehash: fda0a37178f89ba0fd5ef860f8b009f335a11391
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465342"
 ---
 # <a name="syncfolderhierarchyresponsemessage"></a>SyncFolderHierarchyResponseMessage

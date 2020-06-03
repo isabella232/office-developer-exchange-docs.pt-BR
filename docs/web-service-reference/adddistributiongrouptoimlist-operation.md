@@ -12,7 +12,7 @@ ms.openlocfilehash: e68e21b6994af5773f5cf991d55129e1db3367ac
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463689"
 ---
 # <a name="adddistributiongrouptoimlist-operation"></a>Operação AddDistributionGroupToImList
@@ -148,7 +148,7 @@ O corpo SOAP de resposta de erro contém os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Pessoas e contatos no EWS no Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)   
 - [AddImGroup](addimgroup-operation.md)   

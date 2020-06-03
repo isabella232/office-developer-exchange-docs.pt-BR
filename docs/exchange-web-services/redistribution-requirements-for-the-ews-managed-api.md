@@ -10,7 +10,7 @@ ms.openlocfilehash: e64b4cdb8938caa819ba30621112a25946ef0424
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463822"
 ---
 # <a name="redistribution-requirements-for-the-ews-managed-api"></a>Requisitos de redistribuição para a API gerenciada do EWS
@@ -31,7 +31,7 @@ A menos que seu aplicativo esteja localizado no servidor Exchange, será necess�
     
 Os termos de licença estão incluídos no download da API gerenciada do EWS. Revise os termos das informações autoritativas sobre o que você pode fazer com a API gerenciada do EWS.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Visão geral do design de cliente do EWS para Exchange](ews-client-design-overview-for-exchange.md)

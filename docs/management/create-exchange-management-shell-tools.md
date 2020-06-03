@@ -12,7 +12,7 @@ ms.openlocfilehash: c6e11fa5b55aa514b12f4f52bc9346ac213d3781
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463724"
 ---
 # <a name="create-exchange-management-shell-tools"></a>Criar ferramentas do Shell de gerenciamento do Exchange
@@ -42,7 +42,7 @@ Os cmdlets do Shell de gerenciamento do Exchange aceitam e retornam objetos. Par
 - [Usar a resposta do cmdlet do Shell de gerenciamento do Exchange](how-to-use-the-exchange-management-shell-cmdlet-response.md)
 
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Namespaces do Shell de gerenciamento do Exchange](exchange-management-shell-namespaces.md)  
 - [PowerShell do Exchange Server (Shell de gerenciamento do Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  

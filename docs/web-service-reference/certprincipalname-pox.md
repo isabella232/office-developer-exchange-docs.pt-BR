@@ -13,7 +13,7 @@ ms.openlocfilehash: fb2a1c8577bce41945b669be56f2a94a2c4dca26
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463339"
 ---
 # <a name="certprincipalname-pox"></a>CertPrincipalName (POX)
@@ -62,7 +62,7 @@ Se o elemento **CertPrincipalName** não for especificado, o padrão será defin
   
 Se **nenhum** for especificado, o Windows validará o nome principal do certificado de acordo com as informações encontradas no tópico [nomes de entidade de segurança](https://go.microsoft.com/fwlink/?LinkId=93417) no msdn. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

@@ -16,7 +16,7 @@ ms.openlocfilehash: 0c9233146d21c7014be15896426b968106485200
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463780"
 ---
 # <a name="createuserconfiguration-operation"></a>Operação CreateUserConfiguration
@@ -103,7 +103,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **CreateUse
 </s:Envelope>
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

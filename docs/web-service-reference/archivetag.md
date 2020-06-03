@@ -12,7 +12,7 @@ ms.openlocfilehash: 23167f3c96a6756fe4c6d915a4de91e815e620d9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464760"
 ---
 # <a name="archivetag"></a>ArchiveTag
@@ -49,7 +49,7 @@ Nenhum.
 |[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição.  <br/> |
 |[Folder](folder.md) <br/> |Define uma pasta para criar, obter, localizar, sincronizar ou atualizar.  <br/> |
 |[Item](item.md) <br/> |Representa um item genérico no repositório do Exchange.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Microsoft Exchange.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Microsoft Exchange.  <br/> |
 |[Item de postagem](postitem.md) <br/> |Representa um item de postagem no repositório do Exchange.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Representa uma pasta de pesquisa que está contida em uma caixa de correio.  <br/> |
 |[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
@@ -74,7 +74,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

@@ -13,7 +13,7 @@ ms.openlocfilehash: ad3570094ebe28498dfdc375cf7fc255434ba20d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465097"
 ---
 # <a name="type-pox"></a>Tipo (POX)
@@ -67,7 +67,7 @@ O valor de texto representa o tipo de conta de email. A tabela a seguir lista os
 
 O Office 365, o Exchange Online e as versões locais do Exchange começando com o Build 15.00.0995.014 retornam um valor de "exhttp" somente se o servidor estiver configurado para aceitar conexões RPC/HTTP e o cliente incluir um cabeçalho [X-ClientCanHandle](pox-autodiscover-request-for-exchange.md) que contenha "ExHttpInfo". 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

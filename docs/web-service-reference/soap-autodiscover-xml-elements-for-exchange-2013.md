@@ -13,7 +13,7 @@ ms.openlocfilehash: 3b88429488dbecd4ed7c3adf56462f34fa0d4b17
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465181"
 ---
 # <a name="soap-autodiscover-xml-elements-for-exchange-2013"></a>Elementos XML de descoberta automática SOAP para o Exchange 2013
@@ -36,7 +36,7 @@ O arquivo de esquema messages. xsd descreve os elementos XML que podem ser envia
 - [Referência do EWS para Exchange](ews-reference-for-exchange.md)    
 - [Referência do serviço Web de Unificação de mensagens do Exchange](unified-messaging-web-service-reference-for-exchange.md)
     
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Referência do serviço Web de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
 - [Descoberta Automática do Exchange](../exchange-web-services/autodiscover-for-exchange.md)

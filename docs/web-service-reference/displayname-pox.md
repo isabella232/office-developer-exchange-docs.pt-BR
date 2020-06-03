@@ -13,7 +13,7 @@ ms.openlocfilehash: 14522080a519d12a05567e4a65cba8ea00098b7d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463654"
 ---
 # <a name="displayname-pox"></a>DisplayName (POX)
@@ -51,7 +51,7 @@ Nenhum.
 
 O valor de texto representa o nome de exibição do usuário.
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

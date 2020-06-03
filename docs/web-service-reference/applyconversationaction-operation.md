@@ -16,7 +16,7 @@ ms.openlocfilehash: cdab239a5b0b1406d2ce31f4604e4737d037cd7e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463500"
 ---
 # <a name="applyconversationaction-operation"></a>Operação ApplyConversationAction
@@ -97,7 +97,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **ApplyC
 </s:Envelope>
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operação ApplyConversationAction](applyconversationaction-operation.md)
 - [Operações do EWS no Exchange](ews-operations-in-exchange.md)

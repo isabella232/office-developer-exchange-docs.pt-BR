@@ -13,7 +13,7 @@ ms.openlocfilehash: 2da59e03a57b44fb12d14368d1b585ba845eacfe
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464011"
 ---
 # <a name="port-pox"></a>Porta (POX)
@@ -60,7 +60,7 @@ O valor de texto representa a porta usada para acessar o servidor Exchange.
 
 O valor da **porta** não será usado se o elemento [servidor (POX)](server-pox.md) contiver uma URL. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

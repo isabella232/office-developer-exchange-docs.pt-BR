@@ -15,7 +15,7 @@ ms.openlocfilehash: 8de64ce7a47e9c426f8eb9298e1ca00508fb616c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465489"
 ---
 # <a name="resetpin-operation-um-web-service"></a>Operação ResetPIN (serviço Web da UM)
@@ -60,7 +60,7 @@ O exemplo a seguir de uma resposta ResetPIN mostra uma resposta à solicitação
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

@@ -16,7 +16,7 @@ ms.openlocfilehash: 3bad638aa21019472df8f487f1e065d2e725e750
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465748"
 ---
 # <a name="parentfolderid"></a>ParentFolderId
@@ -63,7 +63,7 @@ Nenhum.
 |[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião em uma caixa de correio.  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião em uma caixa de correio.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião em uma caixa de correio.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email em uma caixa de correio.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email em uma caixa de correio.  <br/> |
 |[ModifiedEvent](modifiedevent.md) <br/> |Representa um evento no qual um item ou pasta é modificado.  <br/> |
 |[MovedEvent](movedevent.md) <br/> |Representa um evento no qual um item ou pasta é movido de uma pasta pai para outra pasta pai.  <br/> |
 |[NewMailEvent](newmailevent.md) <br/> |Representa um evento que é disparado por um novo item de email em uma caixa de correio.  <br/> |

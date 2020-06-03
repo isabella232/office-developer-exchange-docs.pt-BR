@@ -13,7 +13,7 @@ ms.openlocfilehash: de7c4f98072c325e1bac34cd552598307b5a8c00
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463241"
 ---
 # <a name="legacydn-soap"></a>LegacyDN (SOAP)
@@ -57,7 +57,7 @@ O valor do elemento **LegacyDN** é o nome diferenciado herdado de caixa de corr
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
 

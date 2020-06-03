@@ -13,7 +13,7 @@ ms.openlocfilehash: 5891cd53c306a0a3927579813f8095e4c67ab74d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463969"
 ---
 # <a name="authenticationmethods-soap"></a>AuthenticationMethods (SOAP)
@@ -56,7 +56,7 @@ O valor de texto do elemento **AuthenticationMethods** é a URL do cliente do Ou
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Operação GetUserSettings (SOAP)](getusersettings-operation-soap.md)
 

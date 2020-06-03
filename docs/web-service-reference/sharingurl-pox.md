@@ -11,7 +11,7 @@ ms.openlocfilehash: 9c793935808dbd20d2dc0631b82ee74db3f8a19f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465251"
 ---
 # <a name="sharingurl-pox"></a>SharingUrl (POX)
@@ -58,7 +58,7 @@ O valor de texto representa a URL do servidor de compartilhamento usado para o c
 
 O elemento **SharingUrl** é um elemento filho opcional do elemento **Protocol** . 
   
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 

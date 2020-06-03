@@ -10,7 +10,7 @@ ms.openlocfilehash: d35cc74ab2fa79530ac09256e315a780023d833b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463829"
 ---
 # <a name="search-and-ews-in-exchange"></a>Pesquisar e EWS no Exchange
@@ -183,7 +183,7 @@ static void CreateSearchFolder(ExchangeService service)
 
 - [Trabalhar com pastas de pesquisa usando o EWS no Exchange](how-to-work-with-search-folders-by-using-ews-in-exchange.md)
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
