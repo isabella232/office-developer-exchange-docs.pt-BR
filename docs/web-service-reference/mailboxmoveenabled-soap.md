@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 73d09137-d3bd-46b3-954a-a358ead07c91
-description: O elemento MailBoxMoveEnabled representa o sinalizador MailboxMoveEnabled(). O elemento MailBoxMoveEnabled é apenas para uso interno. Este elemento não é usado pelos clientes.
-ms.openlocfilehash: 9ba4f49cbd43ab8ca24d9597f69b55c448fd9263
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MailBoxMoveEnabled representa o sinalizador MailboxMoveEnabled (). O elemento MailBoxMoveEnabled é somente para uso interno. Esse elemento não é usado por clientes.
+ms.openlocfilehash: 4072d1c231e7cf109a39445fc44fbbb624f6f3a1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824292"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530737"
 ---
 # <a name="mailboxmoveenabled-soap"></a>MailboxMoveEnabled (SOAP)
 
-O elemento **MailBoxMoveEnabled** representa o sinalizador **MailboxMoveEnabled()** . O elemento **MailBoxMoveEnabled** é apenas para uso interno. Este elemento não é usado pelos clientes. 
+O elemento **MailBoxMoveEnabled** representa o sinalizador **MailBoxMoveEnabled ()** . O elemento **MailBoxMoveEnabled** é somente para uso interno. Esse elemento não é usado por clientes. 
   
 ```XML
 <MailBoxMoveEnabled>true | false</MailBoxMoveEnabled>
@@ -24,13 +24,13 @@ O elemento **MailBoxMoveEnabled** representa o sinalizador **MailboxMoveEnabled(
 
 **Boolean**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,18 +40,18 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Representa uma lista de relacionamentos de organização para uma única organização.  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Representa uma lista de relações de organização para uma única organização.  <br/> |
    
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
-- [Operação de GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+- [Operação GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

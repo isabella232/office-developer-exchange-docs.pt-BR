@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 009526aa-22e7-4f5c-be88-079175aa9122
 description: O elemento ValidationErrors representa uma matriz de erros de validação de regra em cada campo de regra que possui um erro.
-ms.openlocfilehash: c95c8057ad2d16a314d33e3738553b495355fd76
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0861425b04e03a3e2e54a47a5027d0a11264392d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838009"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530272"
 ---
 # <a name="validationerrors"></a>ValidationErrors
 
@@ -30,13 +30,13 @@ O elemento **ValidationErrors** representa uma matriz de erros de validação de
 ```
 
  **ArrayOfRuleValidationErrorsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,7 +50,7 @@ Nenhum.
 |:-----|:-----|
 |[RuleOperationError](ruleoperationerror.md) <br/> |Representa um erro de operação de regra.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -58,16 +58,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

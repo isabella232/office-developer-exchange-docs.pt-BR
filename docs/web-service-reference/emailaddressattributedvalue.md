@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ebdf224d-3796-4179-aa0a-87942e7585ff
-description: O elemento EmailAddressAttributedValue Especifica uma instância de uma matriz de endereços de email e suas atribuições associadas.
-ms.openlocfilehash: 3bcbb5c0a2bc9a2dc24516b5fc62e6e3363a360b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento EmailAddressAttributedValue especifica uma instância de uma matriz de endereços de email e suas atribuições associadas.
+ms.openlocfilehash: 09fdd5921cef3d70a6da4b6d4d38f08834c5d482
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752001"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530688"
 ---
 # <a name="emailaddressattributedvalue"></a>EmailAddressAttributedValue
 
-O elemento **EmailAddressAttributedValue** Especifica uma instância de uma matriz de endereços de email e suas atribuições associadas. 
+O elemento **EmailAddressAttributedValue** especifica uma instância de uma matriz de endereços de email e suas atribuições associadas. 
   
 ```XML
 <EmailAddressAttributedValue>
@@ -27,28 +27,28 @@ O elemento **EmailAddressAttributedValue** Especifica uma instância de uma matr
 ```
 
  **EmailAddressAttributedValueType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Valor (EmailAddressType)](value-emailaddresstype.md) <br/> |Especifica que o valor de um **endereço de email** associado a uma matriz de atribuições.  <br/> |
-|[Atribuições (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Especifica uma matriz de atribuições para seu elemento **valor** associado.  <br/> |
+|[Valor (EmailAddresstype)](value-emailaddresstype.md) <br/> |Especifica o valor de um **EmailAddress** associado a uma matriz de atribuições.  <br/> |
+|[Atribuições (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Especifica uma matriz de atribuições para o elemento de **valor** associado.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Emails1](emails1.md) <br/> |Especifica uma matriz de valores de email e os identificadores de suas atribuições de origem para a pessoa associada.  <br/> |
-|[Emails2](emails2.md) <br/> |Especifica uma matriz de valores de email e os identificadores de suas atribuições de origem para a pessoa associada.  <br/> |
-|[Emails3](emails3.md) <br/> |Especifica uma matriz de valores de email e os identificadores de suas atribuições de origem para a pessoa associada.  <br/> |
+|[Emails1](emails1.md) <br/> |Especifica uma matriz de valores de email e os identificadores de suas atribuições de origem para o persona associado.  <br/> |
+|[Emails2](emails2.md) <br/> |Especifica uma matriz de valores de email e os identificadores de suas atribuições de origem para o persona associado.  <br/> |
+|[Emails3](emails3.md) <br/> |Especifica uma matriz de valores de email e os identificadores de suas atribuições de origem para o persona associado.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -56,13 +56,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

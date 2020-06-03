@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 32b8b08f-65e9-4764-b40a-63245551f4a3
-description: O elemento MarkImportance Especifica a importância que deve ser marcada em mensagens.
-ms.openlocfilehash: 32b1fa63ef47327e7d3af717ed9f452e43b16380
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MarkImportance especifica a importância a ser carimbada nas mensagens.
+ms.openlocfilehash: 051307c0943a22e0c46439410806d168603d8a69
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824356"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530878"
 ---
 # <a name="markimportance"></a>MarkImportance
 
-O elemento **MarkImportance** Especifica a importância que deve ser marcada em mensagens. 
+O elemento **MarkImportance** especifica a importância a ser carimbada nas mensagens. 
   
 ```XML
 <MarkImportance/>
 ```
 
  **ImportanceChoicesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,13 +44,13 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Ações](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis a ser executada em uma mensagem quando as condições são atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto para esse elemento é restrito a um dos valores de cadeia de caracteres a seguir:
+O valor de texto para esse elemento é restrito a um dos seguintes valores de cadeia de caracteres:
   
-- Baixa
+- Baixo
     
 - Normal
     
@@ -60,16 +60,16 @@ O valor de texto para esse elemento é restrito a um dos valores de cadeia de ca
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a8b574dd-ce26-424f-b0f5-3311d93a4806
-description: O elemento ProposedEnd Especifica a hora de término proposta de uma reunião.
-ms.openlocfilehash: fd2a6813f3a936785adc8fcea289cb547d52c8c0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ProposedEnd especifica a hora de término proposta de uma reunião.
+ms.openlocfilehash: 68ad4bb7c3a4d78695ccb88c0994cafd0956828f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824901"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529900"
 ---
 # <a name="proposedend"></a>ProposedEnd
 
-O elemento **ProposedEnd** Especifica a hora de término proposta de uma reunião. 
+O elemento **ProposedEnd** especifica a hora de término proposta de uma reunião. 
   
 ```XML
 <ProposedEnd></ProposedEnd>
 ```
 
  **dateTime**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [MeetingResponse](meetingresponse.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ProposedEnd** é o horário de término proposta enviado por um participante para o organizador da reunião. 
+O valor de texto do elemento **ProposedEnd** é a hora de término proposta enviada por um participante para o organizador da reunião. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,13 +50,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
-|Pode estar vazio  <br/> |false  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Pode estar vazio  <br/> |falso  <br/> |
    
 

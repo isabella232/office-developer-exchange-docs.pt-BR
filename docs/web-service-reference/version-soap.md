@@ -8,30 +8,30 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 47c9216e-6bfe-48c8-a27a-26f70db8e8d5
-description: O elemento versão representa uma descrição da versão do produto de servidor.
-ms.openlocfilehash: b8284880646cb82e6af6715523467021f080b8e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Version representa uma descrição da versão do produto do servidor.
+ms.openlocfilehash: d7e6983c837b2818b7d11e1777015ec583968242
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838041"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44531025"
 ---
 # <a name="version-soap"></a>Versão (SOAP)
 
-O elemento **versão** representa uma descrição da versão do produto de servidor. 
+O elemento **version** representa uma descrição da versão do produto do servidor. 
   
 ```XML
 <Version/>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -41,32 +41,32 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ServerVersionInfo (SOAP)](serverversioninfo-soap.md) <br/> |Contém a versão do servidor que processaram a solicitação.  <br/> |
+|[ServerVersionInfo (SOAP)](serverversioninfo-soap.md) <br/> |Contém a versão do servidor que processou a solicitação.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor do elemento de **versão** é uma descrição da versão do produto de servidor. 
+O valor do elemento **version** é uma descrição da versão do produto do servidor. 
   
 ## <a name="remarks"></a>Comentários
 
-O elemento de **versão** está contido no cabeçalho de uma resposta SOAP. 
+O elemento **version** está contido no cabeçalho SOAP de uma resposta. 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação de GetUserSettings (SOAP)](getusersettings-operation-soap.md)
+[Operação GetUserSettings (SOAP)](getusersettings-operation-soap.md)
   
-[Operação de GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+[Operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
   
-[Operação de GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+[Operação GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
 

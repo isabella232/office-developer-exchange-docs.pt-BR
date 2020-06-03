@@ -7,34 +7,34 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 98161486-e2f2-480f-8d5d-708ba81b208a
-description: A operação EmptyFolder esvazia pastas em uma caixa de correio. Opcionalmente, essa operação permite excluir as subpastas da pasta especificada. Quando uma subpasta é excluída, a subpasta e as mensagens dentro da subpasta são excluídas.
-ms.openlocfilehash: 0192744516c5a6d24b95915452bfcffecc2d92b7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação EmptyFolder esvazia pastas em uma caixa de correio. Opcionalmente, essa operação permite que você exclua as subpastas da pasta especificada. Quando uma subpasta é excluída, a subpasta e as mensagens dentro da subpasta são excluídas.
+ms.openlocfilehash: 1913db74d33f1e6750cd158df5870f257d0e7839
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752036"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530681"
 ---
 # <a name="emptyfolder-operation"></a>Operação EmptyFolder
 
-A operação **EmptyFolder** esvazia pastas em uma caixa de correio. Opcionalmente, essa operação permite excluir as subpastas da pasta especificada. Quando uma subpasta é excluída, a subpasta e as mensagens dentro da subpasta são excluídas. 
+A operação **EmptyFolder** esvazia pastas em uma caixa de correio. Opcionalmente, essa operação permite que você exclua as subpastas da pasta especificada. Quando uma subpasta é excluída, a subpasta e as mensagens dentro da subpasta são excluídas. 
   
-## <a name="emptyfolder-request-example"></a>Exemplo de solicitação de EmptyFolder
+## <a name="emptyfolder-request-example"></a>Exemplo de solicitação EmptyFolder
 
 ### <a name="description"></a>Descrição
 
-Este exemplo de uma solicitação de **EmptyFolder** a seguir mostra como uma solicitação para esvaziar a uma pasta de formulário. Este exemplo exclui todas as subpastas da pasta identificada. 
+O exemplo a seguir de uma solicitação **EmptyFolder** mostra como formar uma solicitação para esvaziar uma pasta. Este exemplo exclui todas as subpastas da pasta identificada. 
   
 > [!NOTE]
-> Os valores de **Id** e os atributos de **ChangeKey** do elemento [FolderId](folderid.md) foram diminuídos para melhorar a legibilidade. 
+> Os valores dos atributos **ID** e **ChangeKey** do elemento [FolderId](folderid.md) foram reduzidos para legibilidade. 
   
 ### <a name="code"></a>Código
 
 ```XML
 <soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version ="Exchange2010_SP1"/>
     </soap:Header>
@@ -49,13 +49,13 @@ Este exemplo de uma solicitação de **EmptyFolder** a seguir mostra como uma so
 
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-Este exemplo executa uma exclusão dura na pasta.
+Este exemplo executa uma exclusão de disco rígido na pasta.
   
-Pastas podem ser identificadas por elemento [DistinguishedFolderId](distinguishedfolderid.md) ou o elemento [FolderId](folderid.md) para uso no elemento [FolderIds](folderids.md) . 
+As pastas podem ser identificadas pelo elemento [DistinguishedFolderId](distinguishedfolderid.md) ou o elemento [FolderId](folderid.md) para uso no elemento [FolderIds](folderids.md) . 
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -65,11 +65,11 @@ Os seguintes elementos são usados na solicitação:
     
 - [FolderId](folderid.md)
     
-## <a name="successful-emptyfolder-response"></a>EmptyFolder de resposta bem-sucedida
+## <a name="successful-emptyfolder-response"></a>Resposta EmptyFolder bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a solicitação **EmptyFolder** . 
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **EmptyFolder** . 
   
 ### <a name="code"></a>Código
 
@@ -82,15 +82,15 @@ O exemplo a seguir mostra uma resposta bem-sucedida a solicitação **EmptyFolde
                          MajorBuildNumber="164" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:EmptyFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:EmptyFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:EmptyFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -102,7 +102,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a solicitação **EmptyFolde
 
 ```
 
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -120,7 +120,7 @@ Os seguintes elementos são usados na resposta:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação **Emptyfolder** . O erro foi criado porque a operação tentou esvaziar uma pasta que não foi encontrada no repositório do Exchange. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação **EmptyFolder** . O erro foi criado porque a operação tentou esvaziar uma pasta que não foi encontrada no repositório do Exchange. 
   
 ### <a name="code"></a>Código
 
@@ -133,16 +133,16 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação **Emptyfolder
             MajorBuildNumber="164" 
             MinorBuildNumber="0" 
             Version="Exchange2010_SP1" 
-            xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-            xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+            xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+            xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <m:GetFolderResponse 
-          xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+          xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>

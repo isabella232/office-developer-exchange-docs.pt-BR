@@ -8,25 +8,25 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 74fed547-9999-4c9c-9566-f7df811f1048
-description: O elemento IPv6Start identifica o início de uma versão 6 (IPv6) do intervalo de IP endereços que são usados para identificar um computador em uma rede.
-ms.openlocfilehash: e48728e9ec7df436a2fa057c2cdf2a690f7200e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento IPv6Start identifica o início de um intervalo de endereços IP versão 6 (IPv6) usados para identificar um computador em uma rede.
+ms.openlocfilehash: a4cafc091567fd4db6a2b4c839e0c1f770fb7ddb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823978"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529991"
 ---
 # <a name="ipv6start-pox"></a>IPv6Start (POX)
 
-O elemento **IPv6Start** identifica o início de uma versão 6 (IPv6) do intervalo de IP endereços que são usados para identificar um computador em uma rede. 
+O elemento **IPv6Start** identifica o início de um intervalo de endereços IP versão 6 (IPv6) usados para identificar um computador em uma rede. 
   
 [Descoberta automática (POX)](autodiscover-pox.md)
   
-[Resposta POX)](response-pox.md)
+[Resposta (POX)](response-pox.md)
   
 [Conta (POX)](account-pox.md)
   
-[Protocolo (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [NetworkRequirements (POX)](networkrequirements-pox.md)
   
@@ -36,13 +36,13 @@ O elemento **IPv6Start** identifica o início de uma versão 6 (IPv6) do interva
 <IPv6Start/>
 ```
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,9 +52,9 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[NetworkRequirements (POX)](networkrequirements-pox.md) <br/> |Contém os critérios que são usados para determinar se o computador cliente está em uma rede que atenda o Internet do provedor de serviços (ISP) requisitos para se conectar ao servidor.  <br/> |
+|[NetworkRequirements (POX)](networkrequirements-pox.md) <br/> |Contém os critérios usados para determinar se o computador cliente está em uma rede que atenda aos requisitos de provedor de serviços de Internet para se conectar ao servidor.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 O valor de texto representa um endereço IPv6.
   
@@ -62,5 +62,5 @@ O valor de texto representa um endereço IPv6.
 
 
 
-[Elementos de Autodiscover XML POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

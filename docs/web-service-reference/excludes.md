@@ -1,5 +1,5 @@
 ---
-title: Excludes
+title: Exclui
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bbaeddf6-9a67-4ee0-af99-7a7a5bbdc0e1
-description: O elemento de exclusões realiza uma máscara de bit a bit da propriedade especificada e um valor fornecido.
-ms.openlocfilehash: febd4171210319d8f7e475f9879c5f895f508713
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: O elemento Excludes executa uma máscara bit a bit da propriedade especificada e um valor fornecido.
+ms.openlocfilehash: d5fcd8b86b454aa731bd43974b5b7d674fe76ed6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354383"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530611"
 ---
-# <a name="excludes"></a>Excludes
+# <a name="excludes"></a>Exclui
 
-O elemento de **exclusões** realiza uma máscara de bit a bit da propriedade especificada e um valor fornecido. 
+O elemento **Excludes** executa uma máscara bit a bit da propriedade especificada e um valor fornecido. 
   
 ```xml
 <Excludes>
@@ -46,56 +46,56 @@ O elemento de **exclusões** realiza uma máscara de bit a bit da propriedade es
 
 **ExcludesType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifica as propriedades frequentemente referenciadas pelo URI.  <br/> |
-|[IndexedFieldURI](indexedfielduri.md) <br/> |Identifica a membros individuais de um dicionário.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifica as propriedades com frequência referenciadas por URI.  <br/> |
+|[IndexedFieldURI](indexedfielduri.md) <br/> |Identifica membros individuais de um dicionário.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifica as propriedades MAPI.  <br/> |
-|[Bitmask](bitmask.md) <br/> |Representa uma máscara hexadecimal ou decimal a ser usado durante uma operação de restrição de [exclusões](excludes.md) . Se o bitmask representar um número hexadecimal, devem ser precedido por 0x ou 0x. Caso contrário, ele será considerado um número decimal.  <br/> |
+|[Mascara](bitmask.md) <br/> |Representa uma máscara hexadecimal ou decimal a ser usada durante uma operação de restrição [Excludes](excludes.md) . Se o bitmask representar um número hexadecimal, ele deve ser prefixado por 0x ou 0X. Caso contrário, ele será considerado um número decimal.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Restriction](restriction.md) <br/> |Representa a restrição ou a consulta que é usada para filtrar itens ou pastas nas operações da pasta FindItem/FindFolder e pesquisa.  <br/> |
-|[Não](not.md) <br/> |Representa uma expressão de pesquisa que dispensa o valor booliano da expressão de pesquisa que ele contém.  <br/> |
-|[E](and.md) <br/> |Representa uma expressão de pesquisa que permite realizar uma operação Boolean e entre dois ou mais expressões de pesquisa. O resultado da operação e será **true** se todas as expressões de pesquisa contidas And forem **verdadeiras**.  <br/> |
-|[Ou](or.md) <br/> |Representa uma expressão de pesquisa que realiza um OR lógico a expressão de pesquisa que ele contém. O elemento [ou](or.md) retornará **true** se qualquer um dos seus filhos retornam **true**.  <br/> |
+|[Restriction](restriction.md) <br/> |Representa a restrição ou a consulta usada para filtrar itens ou pastas no FindItem/FindFolder e operações de pasta de pesquisa.  <br/> |
+|[Not](not.md) <br/> |Representa uma expressão de pesquisa que nega o valor booliano da expressão de pesquisa que ela contém.  <br/> |
+|[And](and.md) <br/> |Representa uma expressão de pesquisa que permite executar um Boolean e uma operação entre duas ou mais expressões de pesquisa. O resultado da operação and será **true** se todas as expressões de pesquisa contidas no e forem **true**.  <br/> |
+|[Or](or.md) <br/> |Representa uma expressão de pesquisa que executa uma expressão lógica ou na expressão de pesquisa que ela contém. O elemento [ou](or.md) retornará **true** se qualquer um dos seus filhos retornar **true**.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-**Exclui** resolverá como **true** se uma operação de AND realizada no seguinte for resolvido como 0: 
+As **exclusões** serão resolvidas como **true** se uma operação and executada no seguinte procedimento resolver para 0: 
   
-1. O valor da propriedade bit a bit
+1. O valor bit a bit da propriedade
     
 2. O valor de bitmask para a propriedade
     
-**Exclui** só podem ser aplicadas a uma propriedade que tem um valor inteiro. Se o tipo da propriedade for algo diferente de um número inteiro, um código de erro de **ErrorUnsupportedPathForQuery** será retornado na resposta. 
+**Excludes** só podem ser aplicadas a uma propriedade que tenha um valor inteiro. Se o tipo de propriedade for algo diferente de um inteiro, um código de erro de **ErrorUnsupportedPathForQuery** será retornado na resposta. 
   
-Você pode executar a operação inversa chamando Not(Excludes).
+Você pode executar a operação reversa chamando não (exclui).
   
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

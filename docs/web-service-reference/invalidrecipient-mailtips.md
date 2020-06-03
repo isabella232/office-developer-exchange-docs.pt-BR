@@ -1,5 +1,5 @@
 ---
-title: InvalidRecipient (dicas de email)
+title: InvalidRecipient (dicas de dicas)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 48959a99-bb0d-4004-963e-5a5baaa96476
 description: O elemento InvalidRecipient indica se o destinatário é inválido.
-ms.openlocfilehash: addb86ece2be3091ac55a52ee2f16f5c5f72ae41
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fddd75beb2228c50084bd38b4f4745064cc281dc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823958"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529998"
 ---
-# <a name="invalidrecipient-mailtips"></a>InvalidRecipient (dicas de email)
+# <a name="invalidrecipient-mailtips"></a>InvalidRecipient (dicas de dicas)
 
 O elemento **InvalidRecipient** indica se o destinatário é inválido. 
   
@@ -28,13 +28,13 @@ O elemento **InvalidRecipient** indica se o destinatário é inválido.
 ```
 
  **Boolean**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,26 +44,26 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Dicas de email](mailtips.md) <br/> |Representa os valores para os vários tipos de dicas de email.  <br/> |
+|[Dicas de Email](mailtips.md) <br/> |Representa valores de vários tipos de dicas de email.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto deste elemento é **true** se o destinatário é inválido. O valor é **false** se o destinatário não é inválido. 
+O valor de texto desse elemento será **true** se o destinatário for inválido. O valor será **false** se o destinatário não for inválido. 
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

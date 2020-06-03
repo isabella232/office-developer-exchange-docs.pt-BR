@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aefecfe3-bf4d-4efe-833b-cdd15ecd1f8c
-description: O elemento Latitude Especifica o latitude do local do endereço postal associado.
-ms.openlocfilehash: 0fac298851e0218e896caacbc84efffc0fda14ab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento latitude especifica o latitude do local do endereço postal associado.
+ms.openlocfilehash: 7038ca04f09eb88669a945e179806d8a0cfff1da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824208"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530765"
 ---
 # <a name="latitude"></a>Latitude
 
-O elemento **Latitude** Especifica o latitude do local do endereço postal associado. 
+O elemento **latitude** especifica o latitude do local do endereço postal associado. 
   
 ```XML
 <Latitude></Latitude>
 ```
 
- **duplo**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **dois**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Valor (PersonaPostalAddressType)](value-personapostaladdresstype.md) | [Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
+[Valor (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **Latitude** é o latitude do endereço postal associado. 
+O valor de texto do elemento **latitude** é a latitude do endereço postal associado. 
   
 ## <a name="remarks"></a>Comentários
 

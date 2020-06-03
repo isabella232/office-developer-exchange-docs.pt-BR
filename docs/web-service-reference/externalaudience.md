@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 79dc2a4c-f7dd-46d1-8f31-149116e1f76e
-description: O elemento ExternalAudience define ou contém um valor que determina a quem as mensagens de ausência temporária externas são enviadas.
-ms.openlocfilehash: 836b0f6a5140a37e1584f571cb8e26534fe7a25f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ExternalAudience define ou contém um valor que determina para quem as mensagens externas fora do escritório (OOF) são enviadas.
+ms.openlocfilehash: b3fcebd9042b07bb9a8294196799ef2a13d78bdd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752194"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530597"
 ---
 # <a name="externalaudience"></a>ExternalAudience
 
-O elemento **ExternalAudience** define ou contém um valor que determina a quem as mensagens de ausência temporária externas são enviadas. 
+O elemento **ExternalAudience** define ou contém um valor que determina para quem as mensagens externas fora do escritório (OOF) são enviadas. 
   
 ```xml
 <ExternalAudience>None or Known or All</ExternalAudience>
 ```
 
  **ExternalAudience**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,40 +44,40 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é necessário para esse elemento. A tabela a seguir lista os valores possíveis para esse elemento.
+Um valor de texto é necessário para este elemento. A tabela a seguir lista os valores possíveis para este elemento.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|**None** <br/> |Remetentes de email fora da organização do usuário da caixa de correio que enviar mensagens para o usuário não receberá uma resposta de mensagem de ausência temporária externa.  <br/> |
-|**Conhecidos** <br/> |Remetentes de email fora da organização do usuário da caixa de correio que enviar mensagens para o usuário receberá uma resposta de mensagem de ausência temporária externa apenas se o remetente está no Exchange do usuário armazenam a lista de contatos.  <br/> |
-|**All** <br/> |Remetentes de email fora da organização do usuário da caixa de correio que enviar mensagens para o usuário receberá uma resposta de mensagem de ausência temporária externa.  <br/> |
+|**Nenhum** <br/> |Remetentes de email fora da organização do usuário da caixa de correio que enviam mensagens ao usuário não receberão uma resposta de mensagem OOF externa.  <br/> |
+|**Desconhecido** <br/> |Remetentes de email fora da organização do usuário da caixa de correio que enviam mensagens para o usuário receberão apenas uma resposta de mensagem OOF externa se o remetente estiver na lista de contatos do repositório do Exchange do usuário.  <br/> |
+|**All** <br/> |Remetentes de email fora da organização do usuário da caixa de correio que enviam mensagens ao usuário receberão uma resposta de mensagem OOF externa.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse elemento compartilha o mesmo tipo de elemento [AllowExternalOof](allowexternaloof.md) . 
+Este elemento compartilha o mesmo tipo que o elemento [AllowExternalOof](allowexternaloof.md) . 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação de SetUserOofSettings define o OoFState como **habilitada**, define o público externo para **todos os**, define a duração de ausência temporária para 10 dias e define as mensagens de ausência temporária internas e externas.
+O exemplo a seguir de uma solicitação SetUserOofSettings define o OoFState como **habilitado**, define a audiência externa como **todos**, define a duração de OOF como 10 dias e define as mensagens de ausência temporária interna e externa.
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -96,16 +96,16 @@ O exemplo a seguir de uma solicitação de SetUserOofSettings define o OoFState 
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

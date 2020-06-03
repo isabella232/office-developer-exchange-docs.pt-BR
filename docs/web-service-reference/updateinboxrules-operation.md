@@ -11,27 +11,27 @@ api_name:
 api_type:
 - schema
 ms.assetid: f982a237-471e-45c5-a2b5-468cfc53150b
-description: A operação UpdateInboxRules atualiza regras de caixa de entrada do usuário autenticado, aplicando as operações especificadas. UpdateInboxRules é usado para criar uma regra de caixa de entrada, para definir uma regra de caixa de correio ou para excluir uma regra de caixa de entrada.
-ms.openlocfilehash: 6e979421d619fed6625fe05db86c1f8c6a7418c9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação UpdateInboxRules atualiza as regras de caixa de entrada do usuário autenticado aplicando as operações especificadas. UpdateInboxRules é usado para criar uma regra de caixa de entrada, para definir uma regra de caixa de entrada, ou para excluir uma regra de caixa de entrada.
+ms.openlocfilehash: a6ced4be25c6fe4649ad649ba01194791548bf67
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837903"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530997"
 ---
 # <a name="updateinboxrules-operation"></a>Operação UpdateInboxRules
 
-A operação UpdateInboxRules atualiza regras de caixa de entrada do usuário autenticado, aplicando as operações especificadas. **UpdateInboxRules** é usado para criar uma regra de caixa de entrada, para definir uma regra de caixa de correio ou para excluir uma regra de caixa de entrada. 
+A operação UpdateInboxRules atualiza as regras de caixa de entrada do usuário autenticado aplicando as operações especificadas. **UpdateInboxRules** é usado para criar uma regra de caixa de entrada, para definir uma regra de caixa de entrada, ou para excluir uma regra de caixa de entrada. 
   
-Quando você usar a operação **UpdateInboxRules** , serviços Web do Exchange exclui regras de envio do lado do cliente. Regras de envio do lado do cliente são armazenadas no cliente na regra de mensagem de informações de associado de pasta (FAI) e em nenhum outro lugar. EWS exclui essa regra mensagem FAI por padrão, com base na expectativa de que o Outlook irá recriá-lo. No entanto, Outlook não puder recriar as regras que não existem também como uma regra estendida e regras de envio do lado do cliente não existirem como regras estendidas. Como resultado, essas regras são perdidas. Sugerimos que você considere o seguinte ao projetar sua solução. 
+Quando você usa a operação **UpdateInboxRules** , os serviços Web do Exchange excluem as regras de envio do lado do cliente. As regras de envio do lado do cliente são armazenadas no cliente na mensagem de FAI (informações associadas à pasta de regras) e em outro lugar. O EWS exclui essa regra FAI mensagem por padrão, com base na expectativa de que o Outlook a recriará. No entanto, o Outlook não pode recriar regras que não existam também como uma regra estendida e as regras de envio do lado do cliente não existem como regras estendidas. Como resultado, essas regras são perdidas. Sugerimos que você considere isso ao criar sua solução. 
   
-## <a name="updateinboxrules-create-rule-request-example"></a>Exemplo de solicitação de UpdateInboxRules (Criar regra)
+## <a name="updateinboxrules-create-rule-request-example"></a>Exemplo de solicitação UpdateInboxRules (criar regra)
 
-Você pode usar os serviços Web do Exchange para criar uma regra de caixa de entrada na caixa de correio do usuário no armazenamento do Exchange. Use o elemento [UpdateInboxRules](updateinboxrules.md) em conjunto com o elemento [CreateRuleOperation](createruleoperation.md) para criar uma regra. 
+Você pode usar os serviços Web do Exchange para criar uma regra de caixa de entrada na caixa de correio de um usuário no repositório do Exchange. Use o elemento [UpdateInboxRules](updateinboxrules.md) em conjunto com o elemento [CreateRuleOperation](createruleoperation.md) para criar uma regra. 
   
 ### <a name="description"></a>Descrição
 
-O cliente constrói solicitação XML e o envia ao servidor.
+O cliente cria a solicitação XML e a envia para o servidor.
   
 ### <a name="code"></a>Código
 
@@ -39,8 +39,8 @@ O cliente constrói solicitação XML e o envia ao servidor.
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version ="Exchange2010_SP1"/>
   </soap:Header>
@@ -73,13 +73,13 @@ O cliente constrói solicitação XML e o envia ao servidor.
 
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-Este exemplo cria uma regra que moverá uma mensagem de email para a pasta Lixo eletrônico, se o assunto do email contém uma cadeia de caracteres que é igual a "Interessante".
+Este exemplo cria uma regra que moverá uma mensagem de email para a pasta lixo eletrônico, se o assunto do email contiver uma cadeia de caracteres igual a "interessante".
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
-A solicitação de **UpdateInboxRules** inclui os seguintes elementos: 
+A solicitação **UpdateInboxRules** inclui os seguintes elementos: 
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
@@ -87,13 +87,13 @@ A solicitação de **UpdateInboxRules** inclui os seguintes elementos:
     
 - [Operations](operations.md)
     
-O elemento de [operações](operations.md) contém o elemento [CreateRuleOperation](createruleoperation.md) para criar uma regra. 
+O elemento [Operations](operations.md) contém o elemento [CreateRuleOperation](createruleoperation.md) para criar uma regra. 
   
-## <a name="updateinboxrules-create-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (Criar regra)
+## <a name="updateinboxrules-create-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (Create Rule)
 
 ### <a name="description"></a>Descrição
 
-O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma resposta bem-sucedida à solicitação de **UpdateInboxRules** que cria uma regra. 
+O exemplo a seguir do corpo SOAP (Simple Object Access Protocol) mostra uma resposta bem-sucedida à solicitação **UpdateInboxRules** que cria uma regra. 
   
 ### <a name="code"></a>Código
 
@@ -105,15 +105,15 @@ O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma res
         MinorVersion="1" 
         MajorBuildNumber="139" 
         MinorBuildNumber="0" Version="Exchange2010_SP1" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <UpdateInboxRulesResponse 
-         ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+         ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
     </UpdateInboxRulesResponse>
   </s:Body>
@@ -121,7 +121,7 @@ O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma res
 
 ```
 
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -133,13 +133,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-## <a name="updateinboxrules-set-rule-request-example"></a>Exemplo de solicitação de UpdateInboxRules (regra definido)
+## <a name="updateinboxrules-set-rule-request-example"></a>Exemplo de solicitação UpdateInboxRules (set rule)
 
-Você pode usar os serviços Web do Exchange para modificar uma regra de caixa de entrada na caixa de correio do usuário no armazenamento do Exchange. Use o elemento [UpdateInboxRules](updateinboxrules.md) em conjunto com o elemento [SetRuleOperation](setruleoperation.md) para modificar uma regra. 
+Você pode usar os serviços Web do Exchange para modificar uma regra de caixa de entrada na caixa de correio de um usuário no repositório do Exchange. Use o elemento [UpdateInboxRules](updateinboxrules.md) em conjunto com o elemento [SetRuleOperation](setruleoperation.md) para modificar uma regra. 
   
 ### <a name="description"></a>Descrição
 
-O cliente constrói solicitação XML e o envia ao servidor.
+O cliente cria a solicitação XML e a envia para o servidor.
   
 ### <a name="code"></a>Código
 
@@ -147,16 +147,16 @@ O cliente constrói solicitação XML e o envia ao servidor.
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version ="Exchange2010_SP1"/>
   </soap:Header>
   <soap:Body>
       <m:UpdateInboxRules>
         <m:RemoveOutlookRuleBlob>true</m:RemoveOutlookRuleBlob>
-        <Operations xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-          <SetRuleOperation xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Operations xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+          <SetRuleOperation xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
             <Rule>
               <RuleId>Nh8AAAAwW/w=</RuleId>
               <DisplayName>(Modified) This is Junk</DisplayName>
@@ -181,16 +181,16 @@ O cliente constrói solicitação XML e o envia ao servidor.
 
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-Este exemplo altera o nome para exibição "(modificado) Esta é lixo".
+Este exemplo altera o nome de exibição para "(modificado) isso é lixo eletrônico".
   
 > [!NOTE]
-> Os valores de **Id** e **ChangeKey** atributos do elemento [FolderId](folderid.md) foram diminuídos para melhorar a legibilidade. 
+> Os valores dos atributos **ID** e **ChangeKey** do elemento [FolderId](folderid.md) foram reduzidos para legibilidade. 
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
-A solicitação de **UpdateInboxRules** inclui os seguintes elementos: 
+A solicitação **UpdateInboxRules** inclui os seguintes elementos: 
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
@@ -198,13 +198,13 @@ A solicitação de **UpdateInboxRules** inclui os seguintes elementos:
     
 - [Operations](operations.md)
     
-O elemento de [operações](operations.md) contém o elemento [SetRuleOperation](setruleoperation.md) para modificar uma regra. 
+O elemento [Operations](operations.md) contém o elemento [SetRuleOperation](setruleoperation.md) para modificar uma regra. 
   
-## <a name="updateinboxrules-set-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (regra definido)
+## <a name="updateinboxrules-set-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (set rule)
 
 ### <a name="description"></a>Descrição
 
-O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma resposta bem-sucedida à solicitação de **UpdateInboxRules** que modifica uma regra. 
+O exemplo a seguir do corpo SOAP (Simple Object Access Protocol) mostra uma resposta bem-sucedida à solicitação **UpdateInboxRules** que modifica uma regra. 
   
 ### <a name="code"></a>Código
 
@@ -217,15 +217,15 @@ O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma res
         MajorBuildNumber="139" 
         MinorBuildNumber="0" 
         Version="Exchange2010_SP1" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <UpdateInboxRulesResponse 
-          ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+          ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
     </UpdateInboxRulesResponse>
   </s:Body>
@@ -233,7 +233,7 @@ O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma res
 
 ```
 
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -245,13 +245,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-## <a name="updateinboxrules-delete-rule-request-example"></a>Exemplo de solicitação de UpdateInboxRules (Excluir regra)
+## <a name="updateinboxrules-delete-rule-request-example"></a>Exemplo de solicitação UpdateInboxRules (excluir regra)
 
-Você pode usar os serviços Web do Exchange para excluir uma regra de caixa de entrada na caixa de correio do usuário no armazenamento do Exchange. Use o [UpdateInboxRules](updateinboxrules.md) em conjunto com o elemento [DeleteRuleOperation](deleteruleoperation.md) para excluir uma regra. 
+Você pode usar os serviços Web do Exchange para excluir uma regra de caixa de entrada na caixa de correio de um usuário no repositório do Exchange. Use o [UpdateInboxRules](updateinboxrules.md) em conjunto com o elemento [DeleteRuleOperation](deleteruleoperation.md) para excluir uma regra. 
   
 ### <a name="description"></a>Descrição
 
-O cliente constrói solicitação XML e o envia ao servidor.
+O cliente cria a solicitação XML e a envia para o servidor.
   
 ### <a name="code"></a>Código
 
@@ -259,8 +259,8 @@ O cliente constrói solicitação XML e o envia ao servidor.
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version ="Exchange2010_SP1"/>
   </soap:Header>
@@ -278,13 +278,13 @@ O cliente constrói solicitação XML e o envia ao servidor.
 
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
 Este exemplo exclui a regra identificada existente.
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
-A solicitação de **UpdateInboxRules** inclui os seguintes elementos: 
+A solicitação **UpdateInboxRules** inclui os seguintes elementos: 
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
@@ -292,13 +292,13 @@ A solicitação de **UpdateInboxRules** inclui os seguintes elementos:
     
 - [Operations](operations.md)
     
-O elemento de [operações](operations.md) contém o elemento [DeleteRuleOperation](deleteruleoperation.md) para excluir uma regra. 
+O elemento [Operations](operations.md) contém o elemento [DeleteRuleOperation](deleteruleoperation.md) para excluir uma regra. 
   
-## <a name="updateinboxrules-delete-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (Excluir regra)
+## <a name="updateinboxrules-delete-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (excluir regra)
 
 ### <a name="description"></a>Descrição
 
-O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma resposta bem-sucedida à solicitação de **UpdateInboxRules** que exclui uma regra. 
+O exemplo a seguir do corpo SOAP (Simple Object Access Protocol) mostra uma resposta bem-sucedida à solicitação **UpdateInboxRules** que exclui uma regra. 
   
 ### <a name="code"></a>Código
 
@@ -311,13 +311,13 @@ O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma res
         MajorBuildNumber="139" 
         MinorBuildNumber="0" 
         Version="Exchange2010_SP1" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <UpdateInboxRulesResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateInboxRulesResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
     </UpdateInboxRulesResponse>
   </s:Body>
@@ -325,7 +325,7 @@ O exemplo de corpo simples (SOAP Object Access Protocol) a seguir mostra uma res
 
 ```
 
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   

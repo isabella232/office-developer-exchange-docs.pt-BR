@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3ff9d15a-7220-4785-ae6b-583a7eb82005
-description: O elemento FolderIds contém uma matriz de identificadores de pasta que são usados para identificar pastas para copiar, mover, obter, excluir ou monitorar as notificações de eventos.
-ms.openlocfilehash: 911a74ca778ee988c270c16c67620a40656d82d8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento FolderIds contém uma matriz de identificadores de pasta que são usados para identificar as pastas a serem copiadas, movidas, obtidas, excluídas ou monitoradas para notificações de eventos.
+ms.openlocfilehash: ff0476f72c7da088bd2b39f58ab560dcc82197e4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752333"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530990"
 ---
 # <a name="folderids"></a>FolderIds
 
-O elemento **FolderIds** contém uma matriz de identificadores de pasta que são usados para identificar pastas para copiar, mover, obter, excluir ou monitorar as notificações de eventos. 
+O elemento **FolderIds** contém uma matriz de identificadores de pasta que são usados para identificar as pastas a serem copiadas, movidas, obtidas, excluídas ou monitoradas para notificações de eventos. 
   
 ```xml
 <FolderIds>
@@ -31,47 +31,47 @@ O elemento **FolderIds** contém uma matriz de identificadores de pasta que são
 ```
 
  **NonEmptyArrayOfBaseFolderIdsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contém o identificador e alterar a chave de uma pasta.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica as pastas do Microsoft Exchange Server que podem ser referidas por nome.  <br/> |
+|[FolderId](folderid.md) <br/> |Contém o identificador e a chave de alteração de uma pasta.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica as pastas do Microsoft Exchange Server que podem ser referenciadas por nome.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetFolder](getfolder.md) <br/> |Define uma solicitação para obter uma pasta do Exchange store.  <br/> Este é a expressão XPath para esse elemento:`/GetFolder` <br/> |
-|[DeleteFolder](deletefolder.md) <br/> |Define uma solicitação para excluir pastas do Exchange store.  <br/> Este é a expressão XPath para esse elemento:`/DeleteFolder` <br/> |
-|[EmptyFolder](emptyfolder.md) <br/> |Define uma solicitação para excluir pastas do Exchange store.  <br/> Este é a expressão XPath para esse elemento:`/EmptyFolder` <br/> |
-|[MoveFolder](movefolder.md) <br/> |Define uma solicitação para mover uma pasta no repositório do Exchange.  <br/> Este é a expressão XPath para esse elemento:`/MoveFolder` <br/> |
-|[CopyFolder](copyfolder.md) <br/> |Define uma solicitação para copiar uma pasta no repositório do Exchange.  <br/> Este é a expressão XPath para esse elemento:`/CopyFolder` <br/> |
-|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Representa uma assinatura para uma inscrição de notificação de push com base no evento.  <br/> |
-|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Representa uma assinatura para uma inscrição de notificação de evento baseado em extração.  <br/> |
+|[GetFolder](getfolder.md) <br/> |Define uma solicitação para obter uma pasta do repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:`/GetFolder` <br/> |
+|[DeleteFolder](deletefolder.md) <br/> |Define uma solicitação para excluir pastas do repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:`/DeleteFolder` <br/> |
+|[EmptyFolder](emptyfolder.md) <br/> |Define uma solicitação para excluir pastas do repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:`/EmptyFolder` <br/> |
+|[MoveFolder](movefolder.md) <br/> |Define uma solicitação para mover uma pasta no repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:`/MoveFolder` <br/> |
+|[CopyFolder](copyfolder.md) <br/> |Define uma solicitação para copiar uma pasta no repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:`/CopyFolder` <br/> |
+|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Representa uma assinatura para uma assinatura de notificação de eventos baseada em push.  <br/> |
+|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Representa uma assinatura para uma assinatura de notificação de eventos baseada em pull.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages e http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages e https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens; Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Messages.xsd; Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Messages. xsd; Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -83,5 +83,5 @@ O esquema que descreve este elemento está localizado no diretório virtual EWS 
   
 [Operação CopyFolder](copyfolder-operation.md)
   
-[Inscrever-se a operação](subscribe-operation.md)
+[Operação Subscribe](subscribe-operation.md)
 

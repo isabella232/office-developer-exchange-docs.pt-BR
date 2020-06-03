@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f9c4295c-8089-4533-b92f-2051eae9afeb
-description: O elemento SortOrder Especifica a ordem de classificação usada para o resultado de uma solicitação de GetConversationItems.
-ms.openlocfilehash: 397aead62d32e72f991af783bff02e79a6e4b0fb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento SortOrder especifica a ordem de classificação usada para o resultado de uma solicitação GetConversationItems.
+ms.openlocfilehash: 69d362b9f769749bcc9692825b64ff486e8b60a0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825520"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530962"
 ---
 # <a name="sortorder-conversationnodesortorder"></a>SortOrder (ConversationNodeSortOrder)
 
-O elemento **SortOrder** Especifica a ordem de classificação usada para o resultado de uma solicitação de **GetConversationItems** . 
+O elemento **SortOrder** especifica a ordem de classificação usada para o resultado de uma solicitação **GetConversationItems** . 
   
 ```XML
 <SortOrder>TreeOrderAscending | TreeOrderDescending | DateOrderAscending | DateOrderDescending</SortOrder>
 ```
 
  **ConversationNodeSortOrder**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -40,9 +40,9 @@ Nenhum.
 
 [GetConversationItems](getconversationitems.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **SortOrder** é a ordem na qual as conversas ordenadas. Um valor de texto de **TreeOrderAscending** indica que as conversas são ordenadas de acordo com a árvore de conversa em ordem crescente. Um valor de texto de **TreeOrderDescending** indica que as conversas são ordenadas de acordo com a árvore de conversa em ordem decrescente. Um valor de texto de **DateOrderAscending** indica que as conversas são ordenadas de acordo com a data de conversa em ordem crescente. Um valor de texto de **DateOrderDescending** indica que as conversas são ordenadas de acordo com a data de conversa em ordem decrescente. 
+O valor de texto do elemento **SortOrder** é a ordem na qual as conversas foram solicitadas. Um valor de texto de **TreeOrderAscending** indica que as conversas são ordenadas de acordo com a árvore de conversa em ordem crescente. Um valor de texto de **TreeOrderDescending** indica que as conversas são ordenadas de acordo com a árvore de conversa em ordem decrescente. Um valor de texto de **DateOrderAscending** indica que as conversas são ordenadas de acordo com a data da conversa em ordem crescente. Um valor de texto de **DateOrderDescending** indica que as conversas são ordenadas de acordo com a data da conversa em ordem decrescente. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -50,11 +50,11 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||

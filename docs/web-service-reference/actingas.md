@@ -1,5 +1,5 @@
 ---
-title: ActingAs
+title: Agindo
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3896afff-5c2c-4eaf-8621-c70e0371ea78
-description: O elemento ActingAs identifica que o chamador está enviando como.
-ms.openlocfilehash: 9c007ed45f85dba265261dd79a6fd846dbd9d2f9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento agindo identifica quem o chamador está enviando como.
+ms.openlocfilehash: 175a03018ee3529ec595dbe9afb7dc61ad6afc35
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752220"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529697"
 ---
-# <a name="actingas"></a>ActingAs
+# <a name="actingas"></a>Agindo
 
-O elemento **ActingAs** identifica que o chamador está enviando como. 
+O elemento **agindo** identifica quem o chamador está enviando como. 
   
 ```xml
 <ActingAs>
@@ -30,21 +30,21 @@ O elemento **ActingAs** identifica que o chamador está enviando como.
 </ActingAs>
 ```
 
- **EmailAddressType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+ **EmailAddresstype**
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Define o endereço de Simple Mail Transfer Protocol (SMTP) de um usuário de caixa de correio. Esse elemento é opcional.  <br/> |
-|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Define o roteamento que é usado para a caixa de correio. O padrão é SMTP. Esse elemento é opcional.  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Define o endereço SMTP (Simple Mail Transfer Protocol) de um usuário de caixa de correio. Este elemento é opcional.  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Define o roteamento usado para a caixa de correio. O padrão é SMTP. Este elemento é opcional.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -54,20 +54,20 @@ Nenhum.
    
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é opcional. Se esse elemento não estiver presente, o usuário autenticado é considerado o remetente. O elemento **ActingAs** deve ser incluído para solicitar as dicas de remetente. Pode ser retornado um erro de **ErrorInvalidArgument** em uma resposta, se o elemento **ActingAs** está ausente, não incluir um tipo de roteamento, não inclue um endereço de email, contém um endereço de email inválido, não é resolvido para um usuário no Active Directory Serviços de domínio (AD DS) ou resolve para vários usuários no AD DS. 
+Este elemento é opcional. Se esse elemento não estiver presente, o usuário autenticado será considerado como o remetente. O elemento **agindo** deve ser incluído para solicitar dicas de remetente. Um erro **ErrorInvalidArgument** pode ser retornado em uma resposta se o elemento **agindo** estiver ausente, não incluir um tipo de roteamento, não incluir um endereço de email, contiver um endereço de email inválido, não resolver para um usuário nos serviços de domínio do Active Directory (AD DS) ou resolver para vários usuários no AD DS. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

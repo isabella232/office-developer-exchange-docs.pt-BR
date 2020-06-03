@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7642cb03-71b1-4773-9508-4fbe3a5dcdf4
 description: O elemento EventDescription
-ms.openlocfilehash: d496e6d2a61b4a72954b25fe3c5362f82aabf143
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5f61a4eea945193d672afbcd2c693502ccf3e4e1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752108"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530632"
 ---
 # <a name="eventdescription"></a>EventDescription
 
@@ -28,13 +28,13 @@ O elemento **EventDescription**
 ```
 
  **MessageTrackingEventDescriptionType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,18 +46,18 @@ Nenhum.
 |:-----|:-----|
 |[RecipientTrackingEvent](recipienttrackingevent.md) <br/> ||
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 A tabela a seguir lista os valores possíveis para o elemento **EventDescription** . 
   
-**Valores de elemento EventDescription**
+**Valores do elemento EventDescription**
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Enviado  <br/> ||
+|Submitted  <br/> ||
 |Resolvido  <br/> ||
-|Expandida  <br/> ||
-|Entregue  <br/> ||
+|Expandido  <br/> ||
+|Gerados  <br/> ||
 |MovedToFolderByInboxRule  <br/> ||
 |RulesCc  <br/> ||
 |FailedGeneral  <br/> ||
@@ -68,7 +68,7 @@ A tabela a seguir lista os valores possíveis para o elemento **EventDescription
 |SmtpSendCrossForest  <br/> ||
 |SmtpReceive  <br/> ||
 |Encaminhadas  <br/> ||
-|Pendente  <br/> ||
+|Pending  <br/> ||
 |PendingModeration  <br/> ||
 |ApprovedModeration  <br/> ||
 |QueueRetry  <br/> ||
@@ -79,22 +79,22 @@ A tabela a seguir lista os valores possíveis para o elemento **EventDescription
 |TransferredToLegacyExchangeServer  <br/> ||
 |DelayedAfterTransferToPartnerOrg  <br/> ||
 |Ler  <br/> ||
-|NotRead  <br/> ||
+|Não lido  <br/> ||
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

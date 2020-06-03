@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 337b89ef-e1b7-45ed-92f3-8abe4200e4c7
-description: A operação SendItem é usada para enviar mensagens de email que estão localizadas no armazenamento do Exchange.
-ms.openlocfilehash: 780778b1599d0d5e5f4b6e5b58b67773bbe18cda
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: A operação SendItem é usada para enviar mensagens de email que estão localizadas no repositório do Exchange.
+ms.openlocfilehash: 9136379e50723211fe5a483c7f113da4fa125fc1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825336"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530335"
 ---
 # <a name="senditem-operation"></a>Operação SendItem
 
-A operação SendItem é usada para enviar mensagens de email que estão localizadas no armazenamento do Exchange.
+A operação SendItem é usada para enviar mensagens de email que estão localizadas no repositório do Exchange.
   
 ## <a name="senditem-e-mail-message-request-example"></a>Exemplo de solicitação SendItem (mensagem de email)
 
@@ -35,9 +35,9 @@ O exemplo a seguir mostra como enviar uma mensagem de email.
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SendItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    <SendItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
               SaveItemToFolder="true">
       <ItemIds>
         <t:ItemId Id="AAAtAEF=" ChangeKey="CQAAABY+T" />
@@ -47,11 +47,11 @@ O exemplo a seguir mostra como enviar uma mensagem de email.
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-O identificador do item foi reduzido para preservar a legibilidade.
+O identificador de item foi reduzido para preservar a legibilidade.
   
-### <a name="request-elements"></a>Elementos de solicitação
+### <a name="request-elements"></a>Elementos Request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -61,7 +61,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [ItemId](itemid.md)
     
-## <a name="successful-senditem-e-mail-message-response"></a>Resposta bem-sucedida SendItem (mensagem de email)
+## <a name="successful-senditem-e-mail-message-response"></a>Resposta SendItem (mensagem de email) bem-sucedida
 
 ### <a name="description"></a>Descrição
 
@@ -76,12 +76,12 @@ O exemplo a seguir mostra uma resposta SendItem bem-sucedida.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SendItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SendItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SendItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -92,7 +92,7 @@ O exemplo a seguir mostra uma resposta SendItem bem-sucedida.
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedida
+### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -106,13 +106,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Comentários
 
-Um delegado que tenta enviar uma mensagem de email que está localizada na pasta Rascunhos da entidade de segurança com a opção de SendAndSaveCopy definida para salvar uma cópia na pasta distinta falhará silenciosamente para mover uma cópia do item enviado para itens enviados diferenciado enviadas itens pasta. O item permanecerá na pasta Rascunhos do principal. A solução alternativa para esse problema é especificar a caixa de correio da entidade de segurança no elemento [DistinguishedFolderId](distinguishedfolderid.md) . 
+Um representante que tentar enviar uma mensagem de email que está localizado na pasta Rascunhos da entidade de segurança com a opção SendAndSaveCopy definida para salvar uma cópia na pasta distinta de itens enviados, falhará silenciosamente, para mover uma cópia do item enviado para a pasta distinta itens enviados. O item permanecerá na pasta Rascunhos da entidade de segurança. A solução alternativa para esse problema é especificar a caixa de correio da entidade de segurança no elemento [DistinguishedFolderId](distinguishedfolderid.md) . 
   
-Um cenário adicional a serem considerados é quando um delegado cria uma mensagem de email e o salva na pasta Rascunhos da caixa de correio do representante. Se o representante tenta enviar o item e salvar uma cópia para pasta distinto de itens enviados do principal, a mensagem é enviada corretamente, que a mensagem de rascunho permanece na pasta Rascunhos do representante, a mensagem enviada não aparecem do representante ou da entidade de segurança Pasta Itens enviados e a resposta é um sucesso.
+Um cenário adicional a ser considerado é quando um representante cria uma mensagem de email e a salva na pasta Rascunhos da caixa de correio do representante. Se o representante tentar enviar o item e salvar uma cópia na pasta distinta de itens enviados da entidade de segurança, a mensagem será enviada corretamente, a mensagem de rascunho permanecerá na pasta Rascunhos do representante, a mensagem enviada não aparecerá na pasta Itens enviados do representante ou da entidade de segurança e a resposta será um êxito.
   
-## <a name="invalid-senditem-e-mail-message-request-example"></a>Exemplo de solicitação inválido SendItem (mensagem de email)
+## <a name="invalid-senditem-e-mail-message-request-example"></a>Exemplo de solicitação SendItem (mensagem de email) inválida
 
 ### <a name="description"></a>Descrição
 
@@ -124,9 +124,9 @@ O exemplo de código a seguir mostra um exemplo de uma solicitação com um iden
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SendItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    <SendItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
               SaveItemToFolder="true">
       <ItemIds>
         <t:ItemId Id="%BadItemId%" ChangeKey="CQAAABYAAA" />
@@ -151,12 +151,12 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de SendItem q
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SendItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SendItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SendItemResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>

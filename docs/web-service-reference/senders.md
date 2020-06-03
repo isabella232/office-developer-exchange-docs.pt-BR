@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 69d88bb1-397c-4fb8-bd2b-21cccc5bb35d
-description: O elemento de remetentes Especifica uma matriz de endereços de Simple Mail Transfer Protocol (SMTP).
-ms.openlocfilehash: 0794b042c00183d56b2fb2aefe8587e0fdf1344d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento remetentes especifica uma matriz de endereços SMTP (Simple Mail Transfer Protocol).
+ms.openlocfilehash: 125d448be53b2ae297cd1e7249a04da6eda5d960
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825329"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530569"
 ---
 # <a name="senders"></a>Remetentes
 
-O elemento de **Remetentes** Especifica uma matriz de endereços de Simple Mail Transfer Protocol (SMTP). 
+O elemento **remetentes** especifica uma matriz de endereços SMTP (Simple Mail Transfer Protocol). 
   
 ```XML
 <Senders>
@@ -26,13 +26,13 @@ O elemento de **Remetentes** Especifica uma matriz de endereços de Simple Mail 
 ```
 
  **ArrayOfSmtpAddressType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,13 +48,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

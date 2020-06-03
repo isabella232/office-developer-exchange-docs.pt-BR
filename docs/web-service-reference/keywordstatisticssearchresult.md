@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d0278642-2b15-4605-974e-325b829a0528
-description: O elemento KeywordStatisticsSearchResult contém um resultado de pesquisa de palavra-chave única.
-ms.openlocfilehash: 39aa873dfea15e6df5ac42a804931e7199cff541
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento KeywordStatisticsSearchResult contém um único resultado de pesquisa de palavra-chave.
+ms.openlocfilehash: f433640aecb10a01c66f890bb30b7a120df3298f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824195"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530033"
 ---
 # <a name="keywordstatisticssearchresult"></a>KeywordStatisticsSearchResult
 
-O elemento **KeywordStatisticsSearchResult** contém um resultado de pesquisa de palavra-chave única. 
+O elemento **KeywordStatisticsSearchResult** contém um único resultado de pesquisa de palavra-chave. 
   
 
   
@@ -30,17 +30,17 @@ O elemento **KeywordStatisticsSearchResult** contém um resultado de pesquisa de
 ```
 
  **KeywordStatisticsSearchResultType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Palavra-chave](keyword.md) | [ItemHits](itemhits.md) | [tamanho (long)](size-long.md)
+[Palavra-chave](keyword.md)  |  [Hits](itemhits.md)  |  [Tamanho (longo)](size-long.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -52,13 +52,13 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

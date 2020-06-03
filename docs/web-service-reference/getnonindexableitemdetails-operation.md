@@ -7,51 +7,51 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9279c3ad-f7c8-4bbc-b0a7-2c78416cb39a
-description: Encontre informações sobre o EWS GetNonIndexableItemDetails operação.
-ms.openlocfilehash: 6b0c5afd54ac98f89bc6c5199300c20862c6f207
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Encontre informações sobre a operação do EWS do GetNonIndexableItemDetails.
+ms.openlocfilehash: a443e04b0622ddbaaeb1bc8c04bfd05679c6207e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752567"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530208"
 ---
 # <a name="getnonindexableitemdetails-operation"></a>Operação GetNonIndexableItemDetails
 
-Encontre informações sobre a operação de EWS **GetNonIndexableItemDetails** . 
+Encontre informações sobre a operação do EWS do **GetNonIndexableItemDetails** . 
   
-A operação **GetNonIndexableItemDetails** recupera os detalhes sobre os itens que não podem ser indexados. Isso inclui, mas não está limitado a, o identificador do item, um código de erro, uma descrição do erro, quando foi feita uma tentativa para indexar o item e informações adicionais sobre o arquivo. 
+A operação **GetNonIndexableItemDetails** recupera os detalhes sobre os itens que não podem ser indexados. Isso inclui, mas não está limitado a, o identificador de item, um código de erro, uma descrição de erro, quando uma tentativa é feita para indexar o item e informações adicionais sobre o arquivo. 
   
 > [!NOTE]
-> Embora o esquema indica que mais de uma caixa de correio pode ser pesquisada, na versão inicial do Exchange 2013, o serviço só oferece suporte ao obter detalhes do item para itens de nonindexable em uma única caixa de correio. 
+> Embora o esquema indique que mais de uma caixa de correio pode ser pesquisada, na versão inicial do Exchange 2013, o serviço só oferece suporte para obter detalhes do item para itens não indexados em uma única caixa de correio. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-getnonindexableitemdetails-operation"></a>Usando a operação GetNonIndexableItemDetails
 
-A operação **GetNonIndexableItemDetails** identifica os itens de caixa de correio que não podem ser indexados e fornece informações sobre por que os itens não podem ser indexados. Itens que não podem ser indexados não serão pesquisados durante uma pesquisa de descoberta. 
+A operação **GetNonIndexableItemDetails** identifica itens de caixa de correio que não podem ser indexados e fornece informações sobre o motivo pelo qual os itens não podem ser indexados. Os itens que não podem ser indexados não são pesquisados durante uma pesquisa de descoberta. 
   
-### <a name="getnonindexableitemdetails-operation-soap-headers"></a>Cabeçalhos SOAP GetNonIndexableItemDetails operação
+### <a name="getnonindexableitemdetails-operation-soap-headers"></a>Cabeçalhos SOAP de operação GetNonIndexableItemDetails
 
-A operação **GetNonIndexableItemDetails** pode usar os cabeçalhos SOAP que estão listados na tabela a seguir. 
+A operação **GetNonIndexableItemDetails** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifica as funções de servidor necessários para que o chamador para fazer a solicitação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifica as funções de servidor necessárias para que o chamador faça a solicitação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
    
-## <a name="getnonindexableitemdetails-operation-request-example-get-the-details-of-an-item-that-cannot-be-indexed"></a>Exemplo de solicitação de operação GetNonIndexableItemDetails: conheça os detalhes de um item que não podem ser indexados
+## <a name="getnonindexableitemdetails-operation-request-example-get-the-details-of-an-item-that-cannot-be-indexed"></a>Exemplo de solicitação de operação GetNonIndexableItemDetails: obter os detalhes de um item que não pode ser indexado
 
-O exemplo a seguir de uma solicitação de operação **GetNonIndexableItemDetails** mostra como solicitar os detalhes para itens que não podem ser indexados para uma única caixa de correio. A pesquisa é realizada entre os dois primário e caixas de correio de arquivamento. 
+O exemplo a seguir de uma solicitação de operação **GetNonIndexableItemDetails** mostra como solicitar os detalhes de itens que não podem ser indexados para uma única caixa de correio. A pesquisa é realizada nas caixas de correio primárias e de arquivo morto. 
   
 > [!NOTE]
-> Todos os nomes de domínio herdado neste exemplo ter ser reduzido para preservar a legibilidade. 
+> Todos os nomes de domínio herdados neste exemplo foram reduzidos para preservar a legibilidade. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -67,7 +67,7 @@ O exemplo a seguir de uma solicitação de operação **GetNonIndexableItemDetai
 
 ```
 
-A solicitação de corpo SOAP contém os seguintes elementos:
+O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [GetNonIndexableItemDetails](getnonindexableitemdetails.md)
     
@@ -79,7 +79,7 @@ A solicitação de corpo SOAP contém os seguintes elementos:
     
 ## <a name="successful-getnonindexableitemdetails-operation-response"></a>Resposta de operação GetNonIndexableItemDetails bem-sucedida
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetNonIndexableItemDetails** para obter itens que não podem ser indexados para uma única caixa de correio. O item neste exemplo que não podem ser indexados é o arquivo binaryfile.abc, que é um formato desconhecido. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetNonIndexableItemDetails** para obter itens que não podem ser indexados para uma única caixa de correio. O item neste exemplo que não pode ser indexado é o arquivo binaryfile. ABC, que é de um formato desconhecido. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -90,18 +90,18 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetNonIndexableItemDetailsResponse ResponseClass="Success" 
-                                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <NonIndexableItemDetailsResult>
-            <Items xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Items xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <NonIndexableItemDetail>
                   <ItemId Id="AQMkAGVmNDAyOQAAAY2fUAAAAA==" ChangeKey="CQAAAA=="/>
                   <ErrorCode>DocumentParserFailure</ErrorCode>
@@ -121,7 +121,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
 
 ```
 
-A resposta SOAP body contém os seguintes elementos:
+O corpo SOAP de resposta contém os seguintes elementos:
   
 - [GetNonIndexableItemDetailsResponse](getnonindexableitemdetailsresponse.md)
     
@@ -141,7 +141,7 @@ A resposta SOAP body contém os seguintes elementos:
     
 - [IsPermanentFailure](ispermanentfailure.md)
     
-- [SortValue](sortvalue.md)
+- [Sortvalue](sortvalue.md)
     
 - [AttemptCount](attemptcount.md)
     
@@ -162,13 +162,13 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <GetNonIndexableItemDetailsResponse ResponseClass="Error" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+      <GetNonIndexableItemDetailsResponse ResponseClass="Error" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>Multiple mailboxes is currently not supported, only single mailbox is supported.</MessageText>
          <ResponseCode>ErrorInvalidArgument</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -177,7 +177,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-A resposta de erro corpo SOAP contém os seguintes elementos:
+O corpo SOAP de resposta de erro contém os seguintes elementos:
   
 - [GetNonIndexableItemDetailsResponse](getnonindexableitemdetailsresponse.md)
     
@@ -187,7 +187,7 @@ A resposta de erro corpo SOAP contém os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Para códigos de erro adicionais que são genérica do EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
+Para obter códigos de erro adicionais genéricos para o EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Confira também
 

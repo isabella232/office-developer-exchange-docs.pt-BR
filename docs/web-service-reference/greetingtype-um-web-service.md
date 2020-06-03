@@ -1,5 +1,5 @@
 ---
-title: GreetingType (serviço web de Unificação de mensagens)
+title: Greetingtype (serviço Web da UM)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,34 +10,34 @@ api_name:
 api_type:
 - schema
 ms.assetid: 55bdf809-054c-4653-b76b-9fb36e010117
-description: O elemento GreetingType define o tipo de saudação para usar em uma solicitação do PlayOnPhoneGreeting operação (serviço web de Unificação de mensagens).
-ms.openlocfilehash: bbe2854abcaf99838678691e6d5d084c1fe8c59c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Greetingtype define o tipo de saudação a ser usado em uma solicitação de operação do PlayOnPhoneGreeting (serviço Web da UM).
+ms.openlocfilehash: 4ade61fc26d963826a1d5e515c93ab6ef6830fd8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823754"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530103"
 ---
-# <a name="greetingtype-um-web-service"></a>GreetingType (serviço web de Unificação de mensagens)
+# <a name="greetingtype-um-web-service"></a>Greetingtype (serviço Web da UM)
 
-O elemento **GreetingType** define o tipo de saudação a ser usado em uma solicitação de [operação PlayOnPhoneGreeting (serviço web de Unificação de mensagens)](playonphonegreeting-operation-um-web-service.md) . 
+O elemento **greetingtype** define o tipo de saudação a ser usado em uma solicitação de [operação do PlayOnPhoneGreeting (serviço Web da um)](playonphonegreeting-operation-um-web-service.md) . 
   
-[PlayOnPhoneGreeting (serviço web de Unificação de mensagens)](playonphonegreeting-um-web-service.md)
+[PlayOnPhoneGreeting (serviço Web da UM)](playonphonegreeting-um-web-service.md)
   
-[GreetingType (serviço web de Unificação de mensagens)](greetingtype-um-web-service.md)
+[Greetingtype (serviço Web da UM)](greetingtype-um-web-service.md)
   
 ```xml
 <GreetingType/>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -47,28 +47,28 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[PlayOnPhoneGreeting (serviço web de Unificação de mensagens)](playonphonegreeting-um-web-service.md) <br/> |Define uma solicitação para reproduzir um Unificação de mensagens em um telefone de saudação.  <br/> |
+|[PlayOnPhoneGreeting (serviço Web da UM)](playonphonegreeting-um-web-service.md) <br/> |Define uma solicitação para reproduzir uma saudação de Unificação de mensagens em um telefone.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. Veja a seguir os valores possíveis:
+Um valor de texto é obrigatório. Veja a seguir os valores possíveis:
   
 - NormalCustom
     
 - OofCustom
     
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Operação de PlayOnPhoneGreeting (serviço web de Unificação de mensagens)](playonphonegreeting-operation-um-web-service.md)
+[Operação PlayOnPhoneGreeting (serviço Web da UM)](playonphonegreeting-operation-um-web-service.md)
 

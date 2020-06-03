@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: a4593377-22dd-415f-b01d-387389ef650f
-description: O elemento de MoveItem define uma solicitação para mover um item no armazenamento do Exchange.
-ms.openlocfilehash: cd7f35bdabe8a596f4c186df1c8cd54e0ea1c540
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MoveItem define uma solicitação para mover um item no repositório do Exchange.
+ms.openlocfilehash: 61dbb91cc20a71f50999241b3daa21bf8ebfbcc8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824486"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530398"
 ---
 # <a name="moveitem"></a>MoveItem
 
-O elemento de **MoveItem** define uma solicitação para mover um item no armazenamento do Exchange. 
+O elemento **MoveItem** define uma solicitação para mover um item no repositório do Exchange. 
   
 ```XML
 <MoveItem>
@@ -32,27 +32,27 @@ O elemento de **MoveItem** define uma solicitação para mover um item no armaze
 ```
 
  **MoveItemType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ToFolderId](tofolderid.md) <br/> |Representa a pasta de destino para um item movido.  <br/> |
-|[ItemIds](itemids.md) <br/> |Contém uma matriz de itens identificados para mover para a pasta representada por um elemento [ToFolderId](tofolderid.md) .  <br/> |
+|[ToFolderId](tofolderid.md) <br/> |Representa a pasta de destino de um item movido.  <br/> |
+|[ItemIds](itemids.md) <br/> |Contém uma matriz de itens identificados para mover para a pasta representada pelo elemento [ToFolderId](tofolderid.md) .  <br/> |
 |[ReturnNewItemIds](returnnewitemids.md) <br/> |Indica se os identificadores de item de novos itens são retornados na resposta.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 Nenhum.
   
@@ -60,16 +60,16 @@ Nenhum.
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

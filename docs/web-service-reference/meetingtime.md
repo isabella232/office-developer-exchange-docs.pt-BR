@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6e6d2d8b-e8a2-43e6-a715-0fc7d6dd44b9
-description: O elemento MeetingTime representa um horário de reunião sugeridas.
-ms.openlocfilehash: 1ea79be394124431aa1279ee94d5e5c6331d377b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento MeetingTime representa um horário de reunião sugerido.
+ms.openlocfilehash: 3a7031e70eb8b22adc8030c1cec09d33399332ee
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824435"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530447"
 ---
 # <a name="meetingtime"></a>MeetingTime
 
-O elemento **MeetingTime** representa um horário de reunião sugeridas. 
+O elemento **MeetingTime** representa um horário de reunião sugerido. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ O elemento **MeetingTime** representa um horário de reunião sugeridas.
   
 [SuggestionArray](suggestionarray.md)
   
-[Sugestão](suggestion.md)
+[La](suggestion.md)
   
 [MeetingTime](meetingtime.md)
   
@@ -42,13 +42,13 @@ O elemento **MeetingTime** representa um horário de reunião sugeridas.
 ```
 
  **dateTime**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -58,28 +58,28 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Sugestão](suggestion.md) <br/> |Representa uma única sugestão de tempo de reunião.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
+|[La](suggestion.md) <br/> |Representa uma única sugestão de horário de reunião.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto que representa um valor de **data/hora** . 
+Um valor de texto que representa um valor de **DateTime** é necessário. 
   
 ## <a name="remarks"></a>Comentários
 
-O [MeetingTime](meetingtime.md) é um elemento filho obrigatório do elemento [sugestão](suggestion.md) . 
+O elemento [MeetingTime](meetingtime.md) é um elemento filho obrigatório do elemento [suggestion](suggestion.md) . 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
@@ -88,5 +88,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtenção de disponibilidade do usuário](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

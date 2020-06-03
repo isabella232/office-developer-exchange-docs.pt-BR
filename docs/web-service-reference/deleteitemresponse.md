@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 86463d66-fe47-4a19-a81b-e24841e816ab
-description: O elemento de DeleteItemResponse define uma resposta a uma única solicitação DeleteItem.
-ms.openlocfilehash: 8a35033c744fbcb0829d2c79a8d79557f77137bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DeleteItemResponse define uma resposta a uma única solicitação de DeleteItem.
+ms.openlocfilehash: 6aad30077e8867486012dd34bb1def97accffc2b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751755"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529193"
 ---
 # <a name="deleteitemresponse"></a>DeleteItemResponse
 
-O elemento de **DeleteItemResponse** define uma resposta a uma única solicitação DeleteItem. 
+O elemento **DeleteItemResponse** define uma resposta a uma única solicitação de DeleteItem. 
   
 ```xml
 <DeleteItemResponse>
@@ -30,13 +30,13 @@ O elemento de **DeleteItemResponse** define uma resposta a uma única solicitaç
 ```
 
  **DeleteItemResponseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,22 +46,22 @@ Nenhum.
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação DeleteItem](deleteitem-operation.md)  
 - [DeleteItem](deleteitem.md)

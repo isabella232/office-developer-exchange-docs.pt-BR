@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 82420338-a1f7-4887-b338-b2d93b2c2bf1
-description: O elemento DayOfWeekIndex descreve qual semana em um mês é usada em um padrão de recorrência relativa.
-ms.openlocfilehash: 4987685d0c3cefdfad4f5be1368776a5b859bf94
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DayOfWeekIndex descreve qual semana em um mês é usada em um padrão de recorrência relativo.
+ms.openlocfilehash: c9235d83a944f9c8883439dd2adf190b88977f16
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751709"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529207"
 ---
 # <a name="dayofweekindex"></a>DayOfWeekIndex
 
-O elemento **DayOfWeekIndex** descreve qual semana em um mês é usada em um padrão de recorrência relativa. 
+O elemento **DayOfWeekIndex** descreve qual semana em um mês é usada em um padrão de recorrência relativo. 
   
 ```xml
 <DayOfWeekIndex/>
@@ -29,13 +29,13 @@ O elemento **DayOfWeekIndex** descreve qual semana em um mês é usada em um pad
 
 **DayOfWeekIndexType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -45,35 +45,35 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Descreve um padrão de recorrência anual relativa.  <br/> |
-|[RelativeMonthlyRecurrence](relativemonthlyrecurrence.md) <br/> |Descreve um padrão de recorrência mensal relativa.  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Descreve um padrão relativo de recorrência anual.  <br/> |
+|[RelativeMonthlyRecurrence](relativemonthlyrecurrence.md) <br/> |Descreve um padrão relativo de recorrência mensal.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-É necessário um valor de texto. Veja a seguir os valores possíveis:
+Um valor de texto é obrigatório. Veja a seguir os valores possíveis:
   
-- Primeira    
-- Segunda    
+- Primeiro    
+- Segundo    
 - Terceira    
-- Quarto    
-- Last
+- Etapa    
+- Último
     
 ## <a name="remarks"></a>Comentários
 
-Por exemplo, a segunda segunda-feira de um mês pode ocorrer na terceira semana do mês. Se um mês inicia em uma sexta-feira, a primeira semana do mês contém alguns dias apenas e não contém segunda-feira. Portanto, a primeira segunda-feira teria ocorrer na segunda semana.
+Por exemplo, a segunda segunda-feira de um mês pode ocorrer na terceira semana desse mês. Se um mês iniciar em uma sexta-feira, a primeira semana do mês conterá apenas alguns dias e não conterá uma segunda-feira. Portanto, a primeira segunda-feira deve ocorrer na segunda semana.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bdc6fc1e-4979-42da-a35b-e3017988c7d3
-description: O elemento GroupIdentifier representa um identificador de segurança único e o atributo para um grupo de objetos do Active Directory directory service do qual a conta é membro.
-ms.openlocfilehash: d73d72979762238ca09496cfbd6636b4ff44a969
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento GroupIdentifier representa um único identificador de segurança e atributo para um grupo de objetos de serviço de diretório do Active Directory do qual a conta é membro.
+ms.openlocfilehash: 8b427b9228cc5e66f46f70389acf2fa4bcd283b3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823767"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530800"
 ---
 # <a name="groupidentifier"></a>GroupIdentifier
 
-O elemento **GroupIdentifier** representa um identificador de segurança único e o atributo para um grupo de objetos do Active Directory directory service do qual a conta é membro. 
+O elemento **GroupIdentifier** representa um único identificador de segurança e atributo para um grupo de objetos de serviço de diretório do Active Directory do qual a conta é membro. 
   
 ```xml
 <GroupIdentifier>
@@ -30,42 +30,42 @@ O elemento **GroupIdentifier** representa um identificador de segurança único 
 ```
 
  **SidAndAttributesType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Descrição**|
+|**Atributo**|**Descrição**|
 |:-----|:-----|
-|**Attributes** <br/> |Contém atributos de grupo.  <br/> |
+|**Atributos** <br/> |Contém atributos de grupo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SecurityIdentifier](securityidentifier.md) <br/> |Representa o formulário de segurança descritor definition language (SDDL) de um identificador de segurança ([SID](sid.md)) que representa o grupo.  <br/> |
+|[SecurityIdentifier](securityidentifier.md) <br/> |Representa a forma SDDL (Security Descriptor Definition Language) de um identificador de segurança ([Sid](sid.md)) que representa o grupo.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GroupSids](groupsids.md) <br/> |Representa uma coleção de identificadores segurança de objeto de grupo de Active Directory que compõem um token de conta para serialização de token. Serialização de token não é suportada.  <br/> |
+|[GroupSids](groupsids.md) <br/> |Representa uma coleção de identificadores de segurança do objeto do grupo do Active Directory que compõem um token de conta para serialização de token. Não há suporte para serialização de token.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9362699d-666a-4acf-8fa1-c6669f0a2ae5
-description: O elemento DistinguishedUser identifica as contas de usuário anônimo e padrão para acesso de representante. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: b14be22bfe5316b9ab254e63cdfa0757596b8b92
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento DistinguishedUser identifica contas de usuário anônimas e padrão para acesso de representante. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 922c36251290d7090cdafbed9e570144593ca97e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751899"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530730"
 ---
 # <a name="distinguisheduser"></a>DistinguishedUser
 
-O elemento **DistinguishedUser** identifica as contas de usuário anônimo e padrão para acesso de representante. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+O elemento **DistinguishedUser** identifica contas de usuário anônimas e padrão para acesso de representante. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <DistinguishedUser>Default or Anonymous</DistinguishedUser>
 ```
 
  **DistinguishedUserType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -44,29 +44,29 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserId](userid.md) <br/> |Identifica um usuário delegado ou um usuário que tem permissões de acesso de pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[UserId](userid.md) <br/> |Identifica um usuário delegado ou um usuário com permissões de acesso à pasta. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-Um valor de texto do **padrão** descreve a configuração padrão para os usuários de representante que são adicionados à caixa de correio do principal. Um valor de texto de **anônimo** descreve as configurações de acesso de representante que os usuários anônimos terão na caixa de correio do principal. 
+Um valor **padrão** de texto descreve a configuração padrão para usuários delegados que são adicionados à caixa de correio da entidade de segurança. Um valor de texto **anônimo** descreve as configurações de acesso de representante que os usuários anônimos têm na caixa de correio da entidade de segurança. 
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação AddDelegate](adddelegate-operation.md)  
 - [Operação UpdateDelegate](updatedelegate-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
-- [Adicionando representantes](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Adicionar representantes](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

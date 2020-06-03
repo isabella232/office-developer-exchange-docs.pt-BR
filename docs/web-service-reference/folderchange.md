@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 23279750-131b-4e1a-b7d1-be235c4e0891
 description: O elemento FolderChange representa uma coleção de alterações a serem realizadas em uma única pasta.
-ms.openlocfilehash: f25defa9974f7b5dd0c683c7657983741890d45d
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: e4a025bef100fdd478be545b6448b15886e47c60
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354327"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530236"
 ---
 # <a name="folderchange"></a>FolderChange
 
@@ -43,42 +43,42 @@ O elemento **FolderChange** representa uma coleção de alterações a serem rea
 
 **FolderChangeType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contém o identificador e alterar a chave de uma pasta a ser atualizado.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica as pastas de MicrosoftExchange Server 2007 que podem ser referidas por nome.  <br/> |
-|[Updates (Folder)](updates-folder.md) <br/> |Define o tipo de atualização que é executada em uma pasta que é identificada pela elemento o [FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) .  <br/> |
+|[FolderId](folderid.md) <br/> |Contém o identificador e a chave de alteração de uma pasta a ser atualizada.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica as pastas do MicrosoftExchange Server 2007 que podem ser referenciadas por nome.  <br/> |
+|[Atualizações (pasta)](updates-folder.md) <br/> |Define o tipo de atualização que é executada em uma pasta que é identificada pelo elemento [FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderChanges](folderchanges.md) <br/> |Representa uma coleção das alterações de uma pasta.  <br/> Este é a expressão XPath para esse elemento:  <br/>  `/UpdateFolder/FolderChanges` <br/> |
+|[FolderChanges](folderchanges.md) <br/> |Representa uma coleção de alterações para uma pasta.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/UpdateFolder/FolderChanges` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [Operação UpdateFolder](updatefolder-operation.md)
 

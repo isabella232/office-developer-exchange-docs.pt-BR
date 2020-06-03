@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9b659d83-45fb-42a2-b052-5bc4dbe3854d
-description: O elemento CalendarPermissions contém uma matriz de permissões de calendário de uma pasta. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 3dee635e4449cbb3717f5d2fab8838f3e43102a4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento CalendarPermissions contém uma matriz de permissões de calendário para uma pasta. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: f072339212d0fdff3983fbfb6bc8f53c272350c8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751363"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529466"
 ---
 # <a name="calendarpermissions"></a>CalendarPermissions
 
-O elemento **CalendarPermissions** contém uma matriz de permissões de calendário de uma pasta. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+O elemento **CalendarPermissions** contém uma matriz de permissões de calendário para uma pasta. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <CalendarPermissions>
@@ -30,19 +30,19 @@ O elemento **CalendarPermissions** contém uma matriz de permissões de calendá
 ```
 
  **ArrayOfCalendarPermissionsType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarPermission](calendarpermission.md) <br/> |Define o acesso que um usuário delegado tem para uma pasta de calendário.  <br/> |
+|[CalendarPermission](calendarpermission.md) <br/> |Define o acesso que um usuário delegado tem a uma pasta de calendário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -52,23 +52,23 @@ Nenhum.
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual EWS do computador que está executando o Microsoft Exchange Server 2007 que possui a função de servidor acesso para cliente instalada.
+O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Definindo permissões de nível de pasta](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Definindo permissões no nível de pasta](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

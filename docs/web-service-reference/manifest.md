@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: af0d7435-fef6-4f0d-bd22-00e3fa576315
-description: O elemento manifesto contém o arquivo de manifesto do aplicativo codificado na base64.
-ms.openlocfilehash: 7388e40a96a082666519d1c67af5b218b2b9ab01
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento manifest contém o arquivo de manifesto de aplicativo codificado em base64.
+ms.openlocfilehash: faac517bf8a8f03c6ae8abffddaf10421eed1699
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824343"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530534"
 ---
 # <a name="manifest"></a>Manifesto
 
-O elemento de **manifesto** contém o arquivo de manifesto do aplicativo codificado na base64. 
+O elemento **manifest** contém o arquivo de manifesto de aplicativo codificado em base64. 
   
 ```XML
 <Manifest></Manifest>
 ```
 
  **base64Binary**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Manifestos](manifests.md) | [InstallApp](installapp.md) | [ClientExtension](clientextension.md)
+[Manifestos](manifests.md)  |  [InstallApp](installapp.md)  |  [ClientExtension](clientextension.md)
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento manifesto é um formulário de representação da base64 binário codificado ASCII do arquivo de manifesto do aplicativo de cliente.
+O valor de texto do elemento manifest é uma representação ASCII da forma codificada binária base64 do arquivo de manifesto do aplicativo cliente.
   
 ## <a name="remarks"></a>Comentários
 

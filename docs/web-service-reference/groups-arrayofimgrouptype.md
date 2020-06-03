@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 544dbb60-d6cb-47e1-b157-f0166147b6cf
-description: O elemento de grupos representa uma matriz dos grupos de mensagens instantâneas.
-ms.openlocfilehash: 7632c922666742d6ab9428a2b1e78ae6a1d544b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento groups representa uma matriz de grupos de mensagens instantâneas (IM).
+ms.openlocfilehash: ad866afdecbcac0e555978647e3a46a033361672
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19823784"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530068"
 ---
 # <a name="groups-arrayofimgrouptype"></a>Grupos (ArrayOfImGroupType)
 
-O elemento de **grupos** representa uma matriz dos grupos de mensagens instantâneas. 
+O elemento **groups** representa uma matriz de grupos de mensagens instantâneas (IM). 
   
 ```XML
 <Groups>
@@ -27,21 +27,21 @@ O elemento de **grupos** representa uma matriz dos grupos de mensagens instantâ
 
 **ArrayOfImGroupType**
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[ImGroup](imgroup.md)
+[Imgroup](imgroup.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[ImItemList](imitemlist.md)
+[Imitemlist](imitemlist.md)
   
 ## <a name="remarks"></a>Comentários
 

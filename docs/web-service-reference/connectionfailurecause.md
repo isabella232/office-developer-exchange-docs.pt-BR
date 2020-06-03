@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: d2160c8a-015c-4964-b7f7-93478764a173
-description: O elemento ConnectionFailureCause Especifica o motivo para uma desconexão de uma chamada telefônica.
-ms.openlocfilehash: 54b4f5b89efdb42ef82dbef8f1af14a39c0ccc6a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento ConnectionFailureCause especifica a razão para uma desconexão de uma chamada telefônica.
+ms.openlocfilehash: 6385641eaee140a114906703232974d51d5ce344
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19751426"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529445"
 ---
 # <a name="connectionfailurecause"></a>ConnectionFailureCause
 
-O elemento **ConnectionFailureCause** Especifica o motivo para uma desconexão de uma chamada telefônica. 
+O elemento **ConnectionFailureCause** especifica a razão para uma desconexão de uma chamada telefônica. 
   
 ```xml
 <ConnectionFailureCause>None or UserBusy or NoAnswer or Unavailable or Other</ConnectionFailureCause>
 ```
 
  **ConnectionFailureCauseType**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,34 +46,34 @@ Nenhum.
 |:-----|:-----|
 |[PhoneCallInformation](phonecallinformation.md) <br/> |Especifica as informações de estado de uma chamada telefônica.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
 A tabela a seguir lista os valores possíveis para o elemento **ConnectionFailureCause** . 
   
-**Valores de elemento ConnectionFailureCause**
+**Valores do elemento ConnectionFailureCause**
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|None  <br/> |Estado de chamada não for desconectado ou o motivo de desconexão não é conhecido.  <br/> |
-|UserBusy  <br/> |A linha da parte chamada estava ocupada.  <br/> |
-|NoAnswer  <br/> |A parte chamada não atendida.  <br/> |
-|Unavailable  <br/> |O número da parte chamada não estava disponível.  <br/> |
-|Outro  <br/> |Pega-tudo por outros motivos desconectar.  <br/> |
+|Nenhum  <br/> |O estado de chamada não é desconectado ou o motivo da desconexão não é conhecido.  <br/> |
+|Userbusy  <br/> |A linha do participante chamada estava ocupada.  <br/> |
+|NOANSWER  <br/> |A parte chamada não respondeu.  <br/> |
+|Indisponível  <br/> |O número da parte chamada não estava disponível.  <br/> |
+|Outros  <br/> |Catch-tudo por outros motivos de desconexão.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

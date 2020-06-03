@@ -1,5 +1,5 @@
 ---
-title: UID (ReminderType)
+title: UID (remindertype)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,38 +7,38 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 169e7825-4480-46d2-9f84-cdab27c8bcfb
-description: O elemento UID (ReminderType) identifica o item de calendário associado com um lembrete.
-ms.openlocfilehash: e0ad877eee29937b93e2659f84769938c983f11d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento UID (remindertype) identifica o item de calendário associado a um lembrete.
+ms.openlocfilehash: ab7e59725a87ff21bb2df052b5893abf6217f78a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19837814"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530370"
 ---
-# <a name="uid-remindertype"></a>UID (ReminderType)
+# <a name="uid-remindertype"></a>UID (remindertype)
 
-O elemento **UID (ReminderType)** identifica o item de calendário associado com um lembrete. 
+O elemento **UID (Remindertype)** identifica o item de calendário associado a um lembrete. 
   
 ```XML
 <UID />
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 Nenhum.
   
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **UID (ReminderType)** identifica um item de calendário. 
+O valor de texto do elemento **UID (Remindertype)** identifica um item de calendário. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -46,16 +46,16 @@ Este elemento foi introduzido no Exchange Server 2013.
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types.xsd  <br/> |
+|Arquivo de validação  <br/> |Types. xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 

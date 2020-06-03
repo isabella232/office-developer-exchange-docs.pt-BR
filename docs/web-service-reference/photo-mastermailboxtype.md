@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 10cdefab-2c21-4a7d-b534-e1aa1d209476
-description: O elemento de foto (MasterMailboxType) é destinado apenas para uso interno.
-ms.openlocfilehash: 93e41e137b571403ecba9950123278b09491acbb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Photo (MasterMailboxType) é destinado apenas para uso interno.
+ms.openlocfilehash: b088f4310ba27e6fae2db096e3bad5270bac4c9c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824783"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529935"
 ---
 # <a name="photo-mastermailboxtype"></a>Foto (MasterMailboxType)
 
-O elemento de **foto (MasterMailboxType)** é destinado apenas para uso interno. 
+O elemento **Photo (MasterMailboxType)** é destinado apenas para uso interno. 
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 

@@ -1,5 +1,5 @@
 ---
-title: Master
+title: Mestre
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 51116adc-1f59-429b-b1a7-e9ada92c366f
-description: O mestre elemento destina-se apenas para uso interno.
-ms.openlocfilehash: df6746b07d50fb2dfc2460991f582600fac59b63
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento Master é destinado apenas para uso interno.
+ms.openlocfilehash: 38d33770d7b2222d4b852521a680eec185f54321
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19824359"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530520"
 ---
-# <a name="master"></a>Master
+# <a name="master"></a>Mestre
 
-O elemento de **mestre** destina-se somente para uso interno. 
+O elemento **Master** é destinado apenas para uso interno. 
 
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 

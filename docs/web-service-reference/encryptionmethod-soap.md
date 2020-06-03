@@ -8,30 +8,30 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: bc632c85-ec74-4a00-baec-df5973e032fa
-description: O elemento EncryptionMethod representa o método de criptografia que é usado para os protocolos POP, IMAP e SMTP.
-ms.openlocfilehash: 5062d357a54019a576e391e1be4d4e8dfcc6e38d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: O elemento EncryptionMethod representa o método criptográfico que é usado para os protocolos POP, IMAP e SMTP.
+ms.openlocfilehash: 26236d9b08eae1bcabfd9aac59f5b01714ba9841
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752042"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530653"
 ---
 # <a name="encryptionmethod-soap"></a>EncryptionMethod (SOAP)
 
-O elemento **EncryptionMethod** representa o método de criptografia que é usado para os protocolos POP, IMAP e SMTP. 
+O elemento **EncryptionMethod** representa o método criptográfico que é usado para os protocolos pop, IMAP e SMTP. 
   
 ```XML
 <EncryptionMethod/>
 ```
 
  **cadeia de caracteres**
-## <a name="attributes-and-elements"></a>Attributes and elements
+## <a name="attributes-and-elements"></a>Atributos e elementos
 
-As seções a seguir descrevem os atributos e elementos filho elementos pai.
+As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -41,22 +41,22 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |Representa a conexão de protocolo do cliente da Web do servidor.  <br/> |
+|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |Representa a conexão de protocolo do cliente Web do servidor.  <br/> |
    
-## <a name="text-value"></a>Text value
+## <a name="text-value"></a>Valor de texto
 
-O valor de texto para esse elemento é o método de criptografia que é usado para os protocolos POP, IMAP e SMTP.
+O valor de texto para esse elemento é o método criptográfico que é usado para os protocolos POP, IMAP e SMTP.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
-- [Operação de GetUserSettings (SOAP)](getusersettings-operation-soap.md)
+- [Operação GetUserSettings (SOAP)](getusersettings-operation-soap.md)
 
