@@ -16,12 +16,12 @@ ms.openlocfilehash: 46cd56aa3067b010d0f3f3b5a321e1855b0520bf
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459171"
 ---
-# <a name="getfolderresponse"></a><span data-ttu-id="eec78-103">GetFolderResponse</span><span class="sxs-lookup"><span data-stu-id="eec78-103">GetFolderResponse</span></span>
+# <a name="getfolderresponse"></a><span data-ttu-id="9559e-103">GetFolderResponse</span><span class="sxs-lookup"><span data-stu-id="9559e-103">GetFolderResponse</span></span>
 
-<span data-ttu-id="eec78-104">O elemento **GetFolderResponse** define uma resposta a uma solicitação GetFolder.</span><span class="sxs-lookup"><span data-stu-id="eec78-104">The **GetFolderResponse** element defines a response to a GetFolder request.</span></span> 
+<span data-ttu-id="9559e-104">O elemento **GetFolderResponse** define uma resposta a uma solicitação GetFolder.</span><span class="sxs-lookup"><span data-stu-id="9559e-104">The **GetFolderResponse** element defines a response to a GetFolder request.</span></span> 
   
 ```xml
 <GetFolderResponse>
@@ -29,45 +29,45 @@ ms.locfileid: "44459171"
 </GetFolderResponse>
 ```
 
- <span data-ttu-id="eec78-105">**GetFolderResponseType**</span><span class="sxs-lookup"><span data-stu-id="eec78-105">**GetFolderResponseType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="eec78-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="eec78-106">Attributes and elements</span></span>
+ <span data-ttu-id="9559e-105">**GetFolderResponseType**</span><span class="sxs-lookup"><span data-stu-id="9559e-105">**GetFolderResponseType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="9559e-106">Atributos e elementos</span><span class="sxs-lookup"><span data-stu-id="9559e-106">Attributes and elements</span></span>
 
-<span data-ttu-id="eec78-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="eec78-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="9559e-107">As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.</span><span class="sxs-lookup"><span data-stu-id="9559e-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="eec78-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="eec78-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="9559e-108">Atributos</span><span class="sxs-lookup"><span data-stu-id="9559e-108">Attributes</span></span>
 
-<span data-ttu-id="eec78-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="eec78-109">None.</span></span>
+<span data-ttu-id="9559e-109">Nenhum</span><span class="sxs-lookup"><span data-stu-id="9559e-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="eec78-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="eec78-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="9559e-110">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="9559e-110">Child elements</span></span>
 
-|<span data-ttu-id="eec78-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="eec78-111">**Element**</span></span>|<span data-ttu-id="eec78-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="eec78-112">**Description**</span></span>|
+|<span data-ttu-id="9559e-111">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="9559e-111">**Element**</span></span>|<span data-ttu-id="9559e-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="9559e-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="eec78-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="eec78-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="eec78-114">Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="eec78-114">Contains the response messages for an Exchange Web Services request.</span></span>  <br/> |
+|[<span data-ttu-id="9559e-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="9559e-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="9559e-114">Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.</span><span class="sxs-lookup"><span data-stu-id="9559e-114">Contains the response messages for an Exchange Web Services request.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="eec78-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="eec78-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="9559e-115">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="9559e-115">Parent elements</span></span>
 
-<span data-ttu-id="eec78-116">Nenhum</span><span class="sxs-lookup"><span data-stu-id="eec78-116">None.</span></span>
+<span data-ttu-id="9559e-116">Nenhum</span><span class="sxs-lookup"><span data-stu-id="9559e-116">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="eec78-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="eec78-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9559e-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="9559e-117">Remarks</span></span>
 
-<span data-ttu-id="eec78-118">O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.</span><span class="sxs-lookup"><span data-stu-id="eec78-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="9559e-118">O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.</span><span class="sxs-lookup"><span data-stu-id="9559e-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="eec78-119">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="eec78-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="9559e-119">Elemento de informações</span><span class="sxs-lookup"><span data-stu-id="9559e-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="eec78-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="eec78-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="eec78-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="eec78-121">Schema name</span></span>  <br/> |<span data-ttu-id="eec78-122">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="eec78-122">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="eec78-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="eec78-123">Validation file</span></span>  <br/> |<span data-ttu-id="eec78-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="eec78-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="eec78-125">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="eec78-125">Can be empty</span></span>  <br/> |<span data-ttu-id="eec78-126">False</span><span class="sxs-lookup"><span data-stu-id="eec78-126">False</span></span>  <br/> |
+|<span data-ttu-id="9559e-120">Namespace</span><span class="sxs-lookup"><span data-stu-id="9559e-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="9559e-121">Nome do esquema</span><span class="sxs-lookup"><span data-stu-id="9559e-121">Schema name</span></span>  <br/> |<span data-ttu-id="9559e-122">Esquema de mensagens</span><span class="sxs-lookup"><span data-stu-id="9559e-122">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="9559e-123">Arquivo de validação</span><span class="sxs-lookup"><span data-stu-id="9559e-123">Validation file</span></span>  <br/> |<span data-ttu-id="9559e-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="9559e-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="9559e-125">Pode estar vazio</span><span class="sxs-lookup"><span data-stu-id="9559e-125">Can be empty</span></span>  <br/> |<span data-ttu-id="9559e-126">False</span><span class="sxs-lookup"><span data-stu-id="9559e-126">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="eec78-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="eec78-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9559e-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="9559e-127">See also</span></span>
 
 
 
-[<span data-ttu-id="eec78-128">GetFolder</span><span class="sxs-lookup"><span data-stu-id="eec78-128">GetFolder</span></span>](getfolder.md)
+[<span data-ttu-id="9559e-128">GetFolder</span><span class="sxs-lookup"><span data-stu-id="9559e-128">GetFolder</span></span>](getfolder.md)
   
-[<span data-ttu-id="eec78-129">Operação GetFolder</span><span class="sxs-lookup"><span data-stu-id="eec78-129">GetFolder operation</span></span>](getfolder-operation.md)
+[<span data-ttu-id="9559e-129">Operação GetFolder</span><span class="sxs-lookup"><span data-stu-id="9559e-129">GetFolder operation</span></span>](getfolder-operation.md)
   
-[<span data-ttu-id="eec78-130">GetFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="eec78-130">GetFolderResponseMessage</span></span>](getfolderresponsemessage.md)
+[<span data-ttu-id="9559e-130">GetFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="9559e-130">GetFolderResponseMessage</span></span>](getfolderresponsemessage.md)
 

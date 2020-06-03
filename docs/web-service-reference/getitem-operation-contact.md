@@ -16,20 +16,20 @@ ms.openlocfilehash: 93e8dbe28e130ab64d4b8d12d2befde1f77ae8fa
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460019"
 ---
-# <a name="getitem-operation-contact"></a><span data-ttu-id="c297e-103">Operação GetItem (contato)</span><span class="sxs-lookup"><span data-stu-id="c297e-103">GetItem operation (contact)</span></span>
+# <a name="getitem-operation-contact"></a><span data-ttu-id="286ae-103">Operação GetItem (contato)</span><span class="sxs-lookup"><span data-stu-id="286ae-103">GetItem operation (contact)</span></span>
 
-<span data-ttu-id="c297e-104">A operação GetItem é usada para obter itens de contato do repositório do Exchange.</span><span class="sxs-lookup"><span data-stu-id="c297e-104">The GetItem operation is used to get contact items from the Exchange store.</span></span>
+<span data-ttu-id="286ae-104">A operação GetItem é usada para obter itens de contato do repositório do Exchange.</span><span class="sxs-lookup"><span data-stu-id="286ae-104">The GetItem operation is used to get contact items from the Exchange store.</span></span>
   
-## <a name="getitem-contact-request-example"></a><span data-ttu-id="c297e-105">Exemplo de solicitação GetItem (contato)</span><span class="sxs-lookup"><span data-stu-id="c297e-105">GetItem (Contact) request example</span></span>
+## <a name="getitem-contact-request-example"></a><span data-ttu-id="286ae-105">Exemplo de solicitação GetItem (contato)</span><span class="sxs-lookup"><span data-stu-id="286ae-105">GetItem (Contact) request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="c297e-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="c297e-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="286ae-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="286ae-106">Description</span></span>
 
-<span data-ttu-id="c297e-107">O exemplo a seguir mostra como obter um item do repositório do Exchange.</span><span class="sxs-lookup"><span data-stu-id="c297e-107">The following example shows how to get an item from the Exchange store.</span></span>
+<span data-ttu-id="286ae-107">O exemplo a seguir mostra como obter um item do repositório do Exchange.</span><span class="sxs-lookup"><span data-stu-id="286ae-107">The following example shows how to get an item from the Exchange store.</span></span>
   
-### <a name="code"></a><span data-ttu-id="c297e-108">Código</span><span class="sxs-lookup"><span data-stu-id="c297e-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="286ae-108">Código</span><span class="sxs-lookup"><span data-stu-id="286ae-108">Code</span></span>
 
 ```XML
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -49,34 +49,34 @@ ms.locfileid: "44460019"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="c297e-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="c297e-109">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="286ae-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="286ae-109">Comments</span></span>
 
-<span data-ttu-id="c297e-110">A solicitação para obter um item do armazenamento do Exchange assume o mesmo formulário para todos os tipos de itens.</span><span class="sxs-lookup"><span data-stu-id="c297e-110">The request to get an item from the Exchange store takes the same form for all item types.</span></span> <span data-ttu-id="c297e-111">As respostas às solicitações de itens diferentes serão diferentes porque diferentes itens retornam informações diferentes com base nas formas de resposta.</span><span class="sxs-lookup"><span data-stu-id="c297e-111">The responses to requests for different items will be different because different items return different information based on the response shapes.</span></span>
+<span data-ttu-id="286ae-110">A solicitação para obter um item do armazenamento do Exchange assume o mesmo formulário para todos os tipos de itens.</span><span class="sxs-lookup"><span data-stu-id="286ae-110">The request to get an item from the Exchange store takes the same form for all item types.</span></span> <span data-ttu-id="286ae-111">As respostas às solicitações de itens diferentes serão diferentes porque diferentes itens retornam informações diferentes com base nas formas de resposta.</span><span class="sxs-lookup"><span data-stu-id="286ae-111">The responses to requests for different items will be different because different items return different information based on the response shapes.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="c297e-112">O identificador de item foi reduzido para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="c297e-112">The item identifier has been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="286ae-112">O identificador de item foi reduzido para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="286ae-112">The item identifier has been shortened to preserve readability.</span></span> 
   
-### <a name="request-elements"></a><span data-ttu-id="c297e-113">Elementos Request</span><span class="sxs-lookup"><span data-stu-id="c297e-113">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="286ae-113">Elementos Request</span><span class="sxs-lookup"><span data-stu-id="286ae-113">Request elements</span></span>
 
-<span data-ttu-id="c297e-114">Os seguintes elementos são usados na solicitação:</span><span class="sxs-lookup"><span data-stu-id="c297e-114">The following elements are used in the request:</span></span>
+<span data-ttu-id="286ae-114">Os seguintes elementos são usados na solicitação:</span><span class="sxs-lookup"><span data-stu-id="286ae-114">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="c297e-115">GetItem</span><span class="sxs-lookup"><span data-stu-id="c297e-115">GetItem</span></span>](getitem.md)
+- [<span data-ttu-id="286ae-115">GetItem</span><span class="sxs-lookup"><span data-stu-id="286ae-115">GetItem</span></span>](getitem.md)
     
-- [<span data-ttu-id="c297e-116">Shape</span><span class="sxs-lookup"><span data-stu-id="c297e-116">ItemShape</span></span>](itemshape.md)
+- [<span data-ttu-id="286ae-116">Shape</span><span class="sxs-lookup"><span data-stu-id="286ae-116">ItemShape</span></span>](itemshape.md)
     
-- [<span data-ttu-id="c297e-117">BaseShape</span><span class="sxs-lookup"><span data-stu-id="c297e-117">BaseShape</span></span>](baseshape.md)
+- [<span data-ttu-id="286ae-117">BaseShape</span><span class="sxs-lookup"><span data-stu-id="286ae-117">BaseShape</span></span>](baseshape.md)
     
-- [<span data-ttu-id="c297e-118">ItemIds</span><span class="sxs-lookup"><span data-stu-id="c297e-118">ItemIds</span></span>](itemids.md)
+- [<span data-ttu-id="286ae-118">ItemIds</span><span class="sxs-lookup"><span data-stu-id="286ae-118">ItemIds</span></span>](itemids.md)
     
-- [<span data-ttu-id="c297e-119">ItemId</span><span class="sxs-lookup"><span data-stu-id="c297e-119">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="286ae-119">ItemId</span><span class="sxs-lookup"><span data-stu-id="286ae-119">ItemId</span></span>](itemid.md)
     
-## <a name="successful-getitem-contact-response"></a><span data-ttu-id="c297e-120">Resposta de GetItem (contato) bem-sucedida</span><span class="sxs-lookup"><span data-stu-id="c297e-120">Successful GetItem (Contact) Response</span></span>
+## <a name="successful-getitem-contact-response"></a><span data-ttu-id="286ae-120">Resposta de GetItem (contato) bem-sucedida</span><span class="sxs-lookup"><span data-stu-id="286ae-120">Successful GetItem (Contact) Response</span></span>
 
-### <a name="description"></a><span data-ttu-id="c297e-121">Descrição</span><span class="sxs-lookup"><span data-stu-id="c297e-121">Description</span></span>
+### <a name="description"></a><span data-ttu-id="286ae-121">Descrição</span><span class="sxs-lookup"><span data-stu-id="286ae-121">Description</span></span>
 
-<span data-ttu-id="c297e-122">O exemplo de código a seguir mostra uma resposta GetItem bem-sucedida **para o**[BaseShape](baseshape.md).</span><span class="sxs-lookup"><span data-stu-id="c297e-122">The following code example shows a successful GetItem response for the **AllProperties**[BaseShape](baseshape.md).</span></span>
+<span data-ttu-id="286ae-122">O exemplo de código a seguir mostra uma resposta GetItem bem-sucedida **para o**[BaseShape](baseshape.md).</span><span class="sxs-lookup"><span data-stu-id="286ae-122">The following code example shows a successful GetItem response for the **AllProperties**[BaseShape](baseshape.md).</span></span>
   
-### <a name="code"></a><span data-ttu-id="c297e-123">Código</span><span class="sxs-lookup"><span data-stu-id="c297e-123">Code</span></span>
+### <a name="code"></a><span data-ttu-id="286ae-123">Código</span><span class="sxs-lookup"><span data-stu-id="286ae-123">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -151,113 +151,113 @@ ms.locfileid: "44460019"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="c297e-124">Comentários</span><span class="sxs-lookup"><span data-stu-id="c297e-124">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="286ae-124">Comentários</span><span class="sxs-lookup"><span data-stu-id="286ae-124">Comments</span></span>
 
-<span data-ttu-id="c297e-125">O identificador de item foi reduzido para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="c297e-125">The item identifier has been shortened to preserve readability.</span></span>
+<span data-ttu-id="286ae-125">O identificador de item foi reduzido para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="286ae-125">The item identifier has been shortened to preserve readability.</span></span>
   
-### <a name="successful-response-elements"></a><span data-ttu-id="c297e-126">Elementos de resposta bem-sucedidos</span><span class="sxs-lookup"><span data-stu-id="c297e-126">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="286ae-126">Elementos de resposta bem-sucedidos</span><span class="sxs-lookup"><span data-stu-id="286ae-126">Successful response elements</span></span>
 
-<span data-ttu-id="c297e-127">Os seguintes elementos são usados na resposta para uma solicitação GetItem com uma forma de resposta de AllItems para um **item de contato** .</span><span class="sxs-lookup"><span data-stu-id="c297e-127">The following elements are used in the response for a GetItem request with a response shape of **AllProperties** for a contact item.</span></span> 
+<span data-ttu-id="286ae-127">Os seguintes elementos são usados na resposta para uma solicitação GetItem com uma forma de resposta de AllItems para um **item de contato** .</span><span class="sxs-lookup"><span data-stu-id="286ae-127">The following elements are used in the response for a GetItem request with a response shape of **AllProperties** for a contact item.</span></span> 
   
-- [<span data-ttu-id="c297e-128">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="c297e-128">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="286ae-128">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="286ae-128">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="c297e-129">GetItemResponse</span><span class="sxs-lookup"><span data-stu-id="c297e-129">GetItemResponse</span></span>](getitemresponse.md)
+- [<span data-ttu-id="286ae-129">GetItemResponse</span><span class="sxs-lookup"><span data-stu-id="286ae-129">GetItemResponse</span></span>](getitemresponse.md)
     
-- [<span data-ttu-id="c297e-130">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c297e-130">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="286ae-130">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="286ae-130">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="c297e-131">GetItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c297e-131">GetItemResponseMessage</span></span>](getitemresponsemessage.md)
+- [<span data-ttu-id="286ae-131">GetItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="286ae-131">GetItemResponseMessage</span></span>](getitemresponsemessage.md)
     
-- [<span data-ttu-id="c297e-132">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c297e-132">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="286ae-132">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="286ae-132">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="c297e-133">Itens</span><span class="sxs-lookup"><span data-stu-id="c297e-133">Items</span></span>](items.md)
+- [<span data-ttu-id="286ae-133">Itens</span><span class="sxs-lookup"><span data-stu-id="286ae-133">Items</span></span>](items.md)
     
-- [<span data-ttu-id="c297e-134">Contato</span><span class="sxs-lookup"><span data-stu-id="c297e-134">Contact</span></span>](contact.md)
+- [<span data-ttu-id="286ae-134">Contato</span><span class="sxs-lookup"><span data-stu-id="286ae-134">Contact</span></span>](contact.md)
     
-- [<span data-ttu-id="c297e-135">ItemId</span><span class="sxs-lookup"><span data-stu-id="c297e-135">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="286ae-135">ItemId</span><span class="sxs-lookup"><span data-stu-id="286ae-135">ItemId</span></span>](itemid.md)
     
-- [<span data-ttu-id="c297e-136">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="c297e-136">ParentFolderId</span></span>](parentfolderid.md)
+- [<span data-ttu-id="286ae-136">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="286ae-136">ParentFolderId</span></span>](parentfolderid.md)
     
-- [<span data-ttu-id="c297e-137">ItemClass</span><span class="sxs-lookup"><span data-stu-id="c297e-137">ItemClass</span></span>](itemclass.md)
+- [<span data-ttu-id="286ae-137">ItemClass</span><span class="sxs-lookup"><span data-stu-id="286ae-137">ItemClass</span></span>](itemclass.md)
     
-- [<span data-ttu-id="c297e-138">Sensitivity</span><span class="sxs-lookup"><span data-stu-id="c297e-138">Sensitivity</span></span>](sensitivity.md)
+- [<span data-ttu-id="286ae-138">Sensitivity</span><span class="sxs-lookup"><span data-stu-id="286ae-138">Sensitivity</span></span>](sensitivity.md)
     
-- [<span data-ttu-id="c297e-139">Body</span><span class="sxs-lookup"><span data-stu-id="c297e-139">Body</span></span>](body.md)
+- [<span data-ttu-id="286ae-139">Body</span><span class="sxs-lookup"><span data-stu-id="286ae-139">Body</span></span>](body.md)
     
-- [<span data-ttu-id="c297e-140">DateTimeReceived</span><span class="sxs-lookup"><span data-stu-id="c297e-140">DateTimeReceived</span></span>](datetimereceived.md)
+- [<span data-ttu-id="286ae-140">DateTimeReceived</span><span class="sxs-lookup"><span data-stu-id="286ae-140">DateTimeReceived</span></span>](datetimereceived.md)
     
-- [<span data-ttu-id="c297e-141">Tamanho</span><span class="sxs-lookup"><span data-stu-id="c297e-141">Size</span></span>](size.md)
+- [<span data-ttu-id="286ae-141">Tamanho</span><span class="sxs-lookup"><span data-stu-id="286ae-141">Size</span></span>](size.md)
     
-- [<span data-ttu-id="c297e-142">Importance</span><span class="sxs-lookup"><span data-stu-id="c297e-142">Importance</span></span>](importance.md)
+- [<span data-ttu-id="286ae-142">Importance</span><span class="sxs-lookup"><span data-stu-id="286ae-142">Importance</span></span>](importance.md)
     
-- [<span data-ttu-id="c297e-143">Isenviado</span><span class="sxs-lookup"><span data-stu-id="c297e-143">IsSubmitted</span></span>](issubmitted.md)
+- [<span data-ttu-id="286ae-143">Isenviado</span><span class="sxs-lookup"><span data-stu-id="286ae-143">IsSubmitted</span></span>](issubmitted.md)
     
-- [<span data-ttu-id="c297e-144">IsDraft</span><span class="sxs-lookup"><span data-stu-id="c297e-144">IsDraft</span></span>](isdraft.md)
+- [<span data-ttu-id="286ae-144">IsDraft</span><span class="sxs-lookup"><span data-stu-id="286ae-144">IsDraft</span></span>](isdraft.md)
     
-- [<span data-ttu-id="c297e-145">IsFromMe</span><span class="sxs-lookup"><span data-stu-id="c297e-145">IsFromMe</span></span>](isfromme.md)
+- [<span data-ttu-id="286ae-145">IsFromMe</span><span class="sxs-lookup"><span data-stu-id="286ae-145">IsFromMe</span></span>](isfromme.md)
     
-- [<span data-ttu-id="c297e-146">IsResend</span><span class="sxs-lookup"><span data-stu-id="c297e-146">IsResend</span></span>](isresend.md)
+- [<span data-ttu-id="286ae-146">IsResend</span><span class="sxs-lookup"><span data-stu-id="286ae-146">IsResend</span></span>](isresend.md)
     
-- [<span data-ttu-id="c297e-147">IsUnmodified</span><span class="sxs-lookup"><span data-stu-id="c297e-147">IsUnmodified</span></span>](isunmodified.md)
+- [<span data-ttu-id="286ae-147">IsUnmodified</span><span class="sxs-lookup"><span data-stu-id="286ae-147">IsUnmodified</span></span>](isunmodified.md)
     
-- [<span data-ttu-id="c297e-148">DateTimeSent</span><span class="sxs-lookup"><span data-stu-id="c297e-148">DateTimeSent</span></span>](datetimesent.md)
+- [<span data-ttu-id="286ae-148">DateTimeSent</span><span class="sxs-lookup"><span data-stu-id="286ae-148">DateTimeSent</span></span>](datetimesent.md)
     
-- [<span data-ttu-id="c297e-149">DateTimeCreated</span><span class="sxs-lookup"><span data-stu-id="c297e-149">DateTimeCreated</span></span>](datetimecreated.md)
+- [<span data-ttu-id="286ae-149">DateTimeCreated</span><span class="sxs-lookup"><span data-stu-id="286ae-149">DateTimeCreated</span></span>](datetimecreated.md)
     
-- [<span data-ttu-id="c297e-150">HasAttachments</span><span class="sxs-lookup"><span data-stu-id="c297e-150">HasAttachments</span></span>](hasattachments.md)
+- [<span data-ttu-id="286ae-150">HasAttachments</span><span class="sxs-lookup"><span data-stu-id="286ae-150">HasAttachments</span></span>](hasattachments.md)
     
-- [<span data-ttu-id="c297e-151">Cultura</span><span class="sxs-lookup"><span data-stu-id="c297e-151">Culture</span></span>](culture.md)
+- [<span data-ttu-id="286ae-151">Cultura</span><span class="sxs-lookup"><span data-stu-id="286ae-151">Culture</span></span>](culture.md)
     
-- [<span data-ttu-id="c297e-152">FileAs</span><span class="sxs-lookup"><span data-stu-id="c297e-152">FileAs</span></span>](fileas.md)
+- [<span data-ttu-id="286ae-152">FileAs</span><span class="sxs-lookup"><span data-stu-id="286ae-152">FileAs</span></span>](fileas.md)
     
-- [<span data-ttu-id="c297e-153">FileAsMapping</span><span class="sxs-lookup"><span data-stu-id="c297e-153">FileAsMapping</span></span>](fileasmapping.md)
+- [<span data-ttu-id="286ae-153">FileAsMapping</span><span class="sxs-lookup"><span data-stu-id="286ae-153">FileAsMapping</span></span>](fileasmapping.md)
     
-- [<span data-ttu-id="c297e-154">DisplayName (cadeia de caracteres)</span><span class="sxs-lookup"><span data-stu-id="c297e-154">DisplayName (string)</span></span>](displayname-string.md)
+- [<span data-ttu-id="286ae-154">DisplayName (cadeia de caracteres)</span><span class="sxs-lookup"><span data-stu-id="286ae-154">DisplayName (string)</span></span>](displayname-string.md)
     
-- [<span data-ttu-id="c297e-155">GivenName</span><span class="sxs-lookup"><span data-stu-id="c297e-155">GivenName</span></span>](givenname.md)
+- [<span data-ttu-id="286ae-155">GivenName</span><span class="sxs-lookup"><span data-stu-id="286ae-155">GivenName</span></span>](givenname.md)
     
-- [<span data-ttu-id="c297e-156">Iniciais</span><span class="sxs-lookup"><span data-stu-id="c297e-156">Initials</span></span>](initials.md)
+- [<span data-ttu-id="286ae-156">Iniciais</span><span class="sxs-lookup"><span data-stu-id="286ae-156">Initials</span></span>](initials.md)
     
-- [<span data-ttu-id="c297e-157">CompleteName</span><span class="sxs-lookup"><span data-stu-id="c297e-157">CompleteName</span></span>](completename.md)
+- [<span data-ttu-id="286ae-157">CompleteName</span><span class="sxs-lookup"><span data-stu-id="286ae-157">CompleteName</span></span>](completename.md)
     
-- [<span data-ttu-id="c297e-158">FirstName</span><span class="sxs-lookup"><span data-stu-id="c297e-158">FirstName</span></span>](firstname.md)
+- [<span data-ttu-id="286ae-158">FirstName</span><span class="sxs-lookup"><span data-stu-id="286ae-158">FirstName</span></span>](firstname.md)
     
-- [<span data-ttu-id="c297e-159">LastName</span><span class="sxs-lookup"><span data-stu-id="c297e-159">LastName</span></span>](lastname.md)
+- [<span data-ttu-id="286ae-159">LastName</span><span class="sxs-lookup"><span data-stu-id="286ae-159">LastName</span></span>](lastname.md)
     
-- [<span data-ttu-id="c297e-160">FullName</span><span class="sxs-lookup"><span data-stu-id="c297e-160">FullName</span></span>](fullname.md)
+- [<span data-ttu-id="286ae-160">FullName</span><span class="sxs-lookup"><span data-stu-id="286ae-160">FullName</span></span>](fullname.md)
     
-- [<span data-ttu-id="c297e-161">CompanyName</span><span class="sxs-lookup"><span data-stu-id="c297e-161">CompanyName</span></span>](companyname.md)
+- [<span data-ttu-id="286ae-161">CompanyName</span><span class="sxs-lookup"><span data-stu-id="286ae-161">CompanyName</span></span>](companyname.md)
     
-- [<span data-ttu-id="c297e-162">EmailAddresses</span><span class="sxs-lookup"><span data-stu-id="c297e-162">EmailAddresses</span></span>](emailaddresses.md)
+- [<span data-ttu-id="286ae-162">EmailAddresses</span><span class="sxs-lookup"><span data-stu-id="286ae-162">EmailAddresses</span></span>](emailaddresses.md)
     
-- [<span data-ttu-id="c297e-163">Entrada (EmailAddress)</span><span class="sxs-lookup"><span data-stu-id="c297e-163">Entry (EmailAddress)</span></span>](entry-emailaddress.md)
+- [<span data-ttu-id="286ae-163">Entrada (EmailAddress)</span><span class="sxs-lookup"><span data-stu-id="286ae-163">Entry (EmailAddress)</span></span>](entry-emailaddress.md)
     
-- [<span data-ttu-id="c297e-164">PhysicalAddresses</span><span class="sxs-lookup"><span data-stu-id="c297e-164">PhysicalAddresses</span></span>](physicaladdresses.md)
+- [<span data-ttu-id="286ae-164">PhysicalAddresses</span><span class="sxs-lookup"><span data-stu-id="286ae-164">PhysicalAddresses</span></span>](physicaladdresses.md)
     
-- [<span data-ttu-id="c297e-165">Entrada (PhysicalAddress)</span><span class="sxs-lookup"><span data-stu-id="c297e-165">Entry (PhysicalAddress)</span></span>](entry-physicaladdress.md)
+- [<span data-ttu-id="286ae-165">Entrada (PhysicalAddress)</span><span class="sxs-lookup"><span data-stu-id="286ae-165">Entry (PhysicalAddress)</span></span>](entry-physicaladdress.md)
     
-- [<span data-ttu-id="c297e-166">123</span><span class="sxs-lookup"><span data-stu-id="c297e-166">Street</span></span>](street.md)
+- [<span data-ttu-id="286ae-166">123</span><span class="sxs-lookup"><span data-stu-id="286ae-166">Street</span></span>](street.md)
     
-- [<span data-ttu-id="c297e-167">Cidade</span><span class="sxs-lookup"><span data-stu-id="c297e-167">City</span></span>](city.md)
+- [<span data-ttu-id="286ae-167">Cidade</span><span class="sxs-lookup"><span data-stu-id="286ae-167">City</span></span>](city.md)
     
-- [<span data-ttu-id="c297e-168">State</span><span class="sxs-lookup"><span data-stu-id="c297e-168">State</span></span>](state-ex15websvcsotherref.md)
+- [<span data-ttu-id="286ae-168">State</span><span class="sxs-lookup"><span data-stu-id="286ae-168">State</span></span>](state-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="c297e-169">CountryOrRegion</span><span class="sxs-lookup"><span data-stu-id="c297e-169">CountryOrRegion</span></span>](countryorregion.md)
+- [<span data-ttu-id="286ae-169">CountryOrRegion</span><span class="sxs-lookup"><span data-stu-id="286ae-169">CountryOrRegion</span></span>](countryorregion.md)
     
-- [<span data-ttu-id="c297e-170">PhoneNumbers</span><span class="sxs-lookup"><span data-stu-id="c297e-170">PhoneNumbers</span></span>](phonenumbers.md)
+- [<span data-ttu-id="286ae-170">PhoneNumbers</span><span class="sxs-lookup"><span data-stu-id="286ae-170">PhoneNumbers</span></span>](phonenumbers.md)
     
-- [<span data-ttu-id="c297e-171">Entrada (PhoneNumber)</span><span class="sxs-lookup"><span data-stu-id="c297e-171">Entry (PhoneNumber)</span></span>](entry-phonenumber.md)
+- [<span data-ttu-id="286ae-171">Entrada (PhoneNumber)</span><span class="sxs-lookup"><span data-stu-id="286ae-171">Entry (PhoneNumber)</span></span>](entry-phonenumber.md)
     
-- [<span data-ttu-id="c297e-172">JobTitle</span><span class="sxs-lookup"><span data-stu-id="c297e-172">JobTitle</span></span>](jobtitle.md)
+- [<span data-ttu-id="286ae-172">JobTitle</span><span class="sxs-lookup"><span data-stu-id="286ae-172">JobTitle</span></span>](jobtitle.md)
     
-- [<span data-ttu-id="c297e-173">Sobrenome</span><span class="sxs-lookup"><span data-stu-id="c297e-173">Surname</span></span>](surname.md)
+- [<span data-ttu-id="286ae-173">Sobrenome</span><span class="sxs-lookup"><span data-stu-id="286ae-173">Surname</span></span>](surname.md)
     
-## <a name="invalid-getitem-contact-request-example"></a><span data-ttu-id="c297e-174">Exemplo de solicitação GetItem (contato) inválido</span><span class="sxs-lookup"><span data-stu-id="c297e-174">Invalid GetItem (Contact) request example</span></span>
+## <a name="invalid-getitem-contact-request-example"></a><span data-ttu-id="286ae-174">Exemplo de solicitação GetItem (contato) inválido</span><span class="sxs-lookup"><span data-stu-id="286ae-174">Invalid GetItem (Contact) request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="c297e-175">Descrição</span><span class="sxs-lookup"><span data-stu-id="c297e-175">Description</span></span>
+### <a name="description"></a><span data-ttu-id="286ae-175">Descrição</span><span class="sxs-lookup"><span data-stu-id="286ae-175">Description</span></span>
 
-<span data-ttu-id="c297e-176">O exemplo de código a seguir mostra uma solicitação inválida.</span><span class="sxs-lookup"><span data-stu-id="c297e-176">The following code example shows an invalid request.</span></span>
+<span data-ttu-id="286ae-176">O exemplo de código a seguir mostra uma solicitação inválida.</span><span class="sxs-lookup"><span data-stu-id="286ae-176">The following code example shows an invalid request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="c297e-177">Código</span><span class="sxs-lookup"><span data-stu-id="c297e-177">Code</span></span>
+### <a name="code"></a><span data-ttu-id="286ae-177">Código</span><span class="sxs-lookup"><span data-stu-id="286ae-177">Code</span></span>
 
 ```XML
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -278,17 +278,17 @@ ms.locfileid: "44460019"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="c297e-178">Comentários</span><span class="sxs-lookup"><span data-stu-id="c297e-178">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="286ae-178">Comentários</span><span class="sxs-lookup"><span data-stu-id="286ae-178">Comments</span></span>
 
-<span data-ttu-id="c297e-179">Os identificadores de item foram reduzidos para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="c297e-179">Item identifiers have been shortened to preserve readability.</span></span>
+<span data-ttu-id="286ae-179">Os identificadores de item foram reduzidos para preservar a legibilidade.</span><span class="sxs-lookup"><span data-stu-id="286ae-179">Item identifiers have been shortened to preserve readability.</span></span>
   
-## <a name="getitem-contact-error-response"></a><span data-ttu-id="c297e-180">Resposta de erro GetItem (contato)</span><span class="sxs-lookup"><span data-stu-id="c297e-180">GetItem (Contact) error response</span></span>
+## <a name="getitem-contact-error-response"></a><span data-ttu-id="286ae-180">Resposta de erro GetItem (contato)</span><span class="sxs-lookup"><span data-stu-id="286ae-180">GetItem (Contact) error response</span></span>
 
-### <a name="description"></a><span data-ttu-id="c297e-181">Descrição</span><span class="sxs-lookup"><span data-stu-id="c297e-181">Description</span></span>
+### <a name="description"></a><span data-ttu-id="286ae-181">Descrição</span><span class="sxs-lookup"><span data-stu-id="286ae-181">Description</span></span>
 
-<span data-ttu-id="c297e-182">O exemplo de código a seguir mostra uma resposta de erro a uma solicitação de GetItem (contato).</span><span class="sxs-lookup"><span data-stu-id="c297e-182">The following code example shows an error response to a GetItem (Contact) request.</span></span>
+<span data-ttu-id="286ae-182">O exemplo de código a seguir mostra uma resposta de erro a uma solicitação de GetItem (contato).</span><span class="sxs-lookup"><span data-stu-id="286ae-182">The following code example shows an error response to a GetItem (Contact) request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="c297e-183">Código</span><span class="sxs-lookup"><span data-stu-id="c297e-183">Code</span></span>
+### <a name="code"></a><span data-ttu-id="286ae-183">Código</span><span class="sxs-lookup"><span data-stu-id="286ae-183">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -316,32 +316,32 @@ ms.locfileid: "44460019"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a><span data-ttu-id="c297e-184">Elementos de resposta de erro</span><span class="sxs-lookup"><span data-stu-id="c297e-184">Error response elements</span></span>
+### <a name="error-response-elements"></a><span data-ttu-id="286ae-184">Elementos de resposta de erro</span><span class="sxs-lookup"><span data-stu-id="286ae-184">Error response elements</span></span>
 
-<span data-ttu-id="c297e-185">Os seguintes elementos são usados na resposta de erro:</span><span class="sxs-lookup"><span data-stu-id="c297e-185">The following elements are used in the error response:</span></span>
+<span data-ttu-id="286ae-185">Os seguintes elementos são usados na resposta de erro:</span><span class="sxs-lookup"><span data-stu-id="286ae-185">The following elements are used in the error response:</span></span>
   
-- [<span data-ttu-id="c297e-186">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="c297e-186">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="286ae-186">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="286ae-186">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="c297e-187">GetItemResponse</span><span class="sxs-lookup"><span data-stu-id="c297e-187">GetItemResponse</span></span>](getitemresponse.md)
+- [<span data-ttu-id="286ae-187">GetItemResponse</span><span class="sxs-lookup"><span data-stu-id="286ae-187">GetItemResponse</span></span>](getitemresponse.md)
     
-- [<span data-ttu-id="c297e-188">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c297e-188">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="286ae-188">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="286ae-188">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="c297e-189">GetItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c297e-189">GetItemResponseMessage</span></span>](getitemresponsemessage.md)
+- [<span data-ttu-id="286ae-189">GetItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="286ae-189">GetItemResponseMessage</span></span>](getitemresponsemessage.md)
     
-- [<span data-ttu-id="c297e-190">MessageText</span><span class="sxs-lookup"><span data-stu-id="c297e-190">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="286ae-190">MessageText</span><span class="sxs-lookup"><span data-stu-id="286ae-190">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="c297e-191">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c297e-191">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="286ae-191">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="286ae-191">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="c297e-192">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="c297e-192">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="286ae-192">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="286ae-192">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-- [<span data-ttu-id="c297e-193">Itens</span><span class="sxs-lookup"><span data-stu-id="c297e-193">Items</span></span>](items.md)
+- [<span data-ttu-id="286ae-193">Itens</span><span class="sxs-lookup"><span data-stu-id="286ae-193">Items</span></span>](items.md)
     
-## <a name="see-also"></a><span data-ttu-id="c297e-194">Também consulte</span><span class="sxs-lookup"><span data-stu-id="c297e-194">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="286ae-194">Confira também</span><span class="sxs-lookup"><span data-stu-id="286ae-194">See also</span></span>
 
 
 
-[<span data-ttu-id="c297e-195">Operação GetItem</span><span class="sxs-lookup"><span data-stu-id="c297e-195">GetItem operation</span></span>](getitem-operation.md)
+[<span data-ttu-id="286ae-195">Operação GetItem</span><span class="sxs-lookup"><span data-stu-id="286ae-195">GetItem operation</span></span>](getitem-operation.md)
 
 
-- [<span data-ttu-id="c297e-196">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="c297e-196">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="286ae-196">Elementos XML do EWS no Exchange</span><span class="sxs-lookup"><span data-stu-id="286ae-196">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
