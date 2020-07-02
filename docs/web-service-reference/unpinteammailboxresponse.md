@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 82dfa204-e316-432f-a753-5bd97f576389
 description: O elemento UnpinTeamMailboxResponse contém uma resposta a uma solicitação para Desafixar uma caixa de correio de site.
 ms.openlocfilehash: ba1f61a7b5b5b4d5af6805c13d84ee15e3559751
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44467232"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012577"
 ---
 # <a name="unpinteammailboxresponse"></a>UnpinTeamMailboxResponse
 
@@ -43,7 +43,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
