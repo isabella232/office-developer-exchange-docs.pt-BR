@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: b4fff4c9-c625-4d2a-9d14-bb28a5da5baf
 description: Saiba mais sobre as políticas de limitação que afetam o EWS quando você está usando o Exchange.
 localization_priority: Priority
-ms.openlocfilehash: 0c6ac49629ad4cdb4419cc8638d8e60ecb6509d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 27db12c01180abbaf92b5b9a09a072212b6012ec
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455398"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012549"
 ---
 # <a name="ews-throttling-in-exchange"></a>Limitação do EWS no Exchange
 
@@ -239,7 +239,7 @@ O parâmetro de política **EWSMaxConcurrency** também pode ser um problema par
 
 Se o aplicativo de notificação for multi-threaded e fizer solicitações de conexão simultâneas para obter mais informações sobre uma mensagem específica que foi recebida por uma conta de usuário, o limite de políticas do **EWSMaxConcurrency** pode ser excedido. Para fazer isso, considere monitorar as conexões simultâneas em seu aplicativo, incluindo aquelas que podem ser usadas pelo servidor e implementar o enfileiramento de solicitações no cliente.
 
-O **HangingConnectionLimit** só é aplicável a notificações por streaming. Esse limite é definido no arquivo Web. config, o que significa que um administrador do Exchange pode definir esse valor em um servidor local do Exchange, mas as caixas de correio do Exchange Online devem usar o valor padrão para esse limite, que é 3 para o Exchange Online e o Exchange 2013. Para saber mais, confira [que valores de limitação Eu preciso levar em consideração?](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).
+O **HangingConnectionLimit** só é aplicável a notificações por streaming. Esse limite é definido no arquivo web.config, o que significa que um administrador do Exchange pode definir esse valor em um servidor local do Exchange, mas as caixas de correio do Exchange Online devem usar o valor padrão para esse limite, que é 10 para o Exchange Online, o Exchange 2019, o Exchange 2016 e o 3 para o Exchange 2013. Para saber mais, confira [que valores de limitação Eu preciso levar em consideração?](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).
 
 ## <a name="throttling-policy-and-application-performance"></a>Limitação da política e do desempenho do aplicativo
 

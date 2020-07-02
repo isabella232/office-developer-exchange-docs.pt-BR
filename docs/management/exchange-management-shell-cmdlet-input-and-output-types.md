@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.assetid: daca33d3-22f8-4bac-9cfd-6324e85a45c7
 description: Encontre tipos de entrada e saída para cmdlets do Exchange.
 localization_priority: Priority
-ms.openlocfilehash: 971dcbb16c0477490f7daf2de487043cd3d8926f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3500f00fd072d733c031301df098c7a15a96135f
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464865"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012570"
 ---
 # <a name="exchange-management-shell-cmdlet-input-and-output-types"></a>Tipos de entrada e de saída de cmdlet do Shell de Gerenciamento do Exchange
 
@@ -979,6 +979,7 @@ A tabela a seguir lista os cmdlets do Exchange e o tipo de entrada e saída de c
 |**Start-HistoricalSearch** <br/> |[OrganizationIdParameter](https://msdn.microsoft.com/library/Microsoft.Exchange.Configuration.Tasks.OrganizationIdParameter.aspx) <br/> [DateTime](https://msdn.microsoft.com/library/System.DateTime.aspx) <br/> [CultureInfo](https://msdn.microsoft.com/library/System.Globalization.CultureInfo.aspx) <br/> [String](https://msdn.microsoft.com/library/System.String.aspx) <br/> ||
 |**Stop-HistoricalSearch** <br/> |[OrganizationIdParameter](https://msdn.microsoft.com/library/Microsoft.Exchange.Configuration.Tasks.OrganizationIdParameter.aspx) <br/> [Guid](https://msdn.microsoft.com/library/System.Guid.aspx) <br/> ||
 |**Suspend-SyncRequest** <br/> |[Fqdn](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Fqdn.aspx) <br/> [String](https://msdn.microsoft.com/library/System.String.aspx) <br/> ||
+|**Get-BlockedSenderAddress** <br/> |[SmtpAddress](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.SmtpAddress.aspx) <br/> |[SmtpAddress](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.SmtpAddress.aspx) <br/> |
    
 ## <a name="see-also"></a>Confira também
 
