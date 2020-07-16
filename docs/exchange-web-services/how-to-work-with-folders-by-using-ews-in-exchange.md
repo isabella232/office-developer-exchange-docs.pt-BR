@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 4b3eb746-74c4-42a0-aa2c-742c147f1871
 description: Saiba como criar, obter, atualizar e excluir pastas usando a API gerenciada do EWS ou o EWS no Exchange.
 localization_priority: Priority
-ms.openlocfilehash: c09c0c76edda4af025a6ac7121fdf9ab9660fcab
-ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
+ms.openlocfilehash: a184d8da4d6949f01f47afc6a9fb7ed30729fd3b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012542"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44456378"
 ---
 # <a name="work-with-folders-by-using-ews-in-exchange"></a>Trabalhar com pastas usando o EWS no Exchange
 
@@ -24,7 +24,7 @@ O EWS no Exchange usa pastas para estruturar e organizar caixas de correio. Voc�
 |**Para...**|**Método de API gerenciada do EWS**|**Operação do EWS**|
 |:-----|:-----|:-----|
 |Criar uma pasta  <br/> |[Folder. Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder](https://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
-|Criar uma hierarquia de pastas  <br/> |Não disponível  <br/> |[CreateFolderPath](https://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |
+|Criar uma hierarquia de pastas  <br/> |Não disponível  <br/> |[Createfolderpath](https://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |
 |Obter uma pasta  <br/> |[Folder. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> |[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> |
 |Obter uma hierarquia de pastas  <br/> |[Folder. FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) <br/> |[FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |
 |Atualizar uma pasta  <br/> |[Pasta. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
@@ -38,7 +38,7 @@ O exemplo de código a seguir mostra como usar a classe [Folder](https://msdn.mi
   
 Estes exemplos pressupõem que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido e que o usuário foi autenticado em um servidor Exchange. 
   
-```csharp
+```cs
 // Create a custom folder.
 Folder folder = new Folder(service);
 folder.DisplayName = "Custom Folder";
@@ -49,7 +49,7 @@ folder.Save(WellKnownFolderName.Inbox);
 
 Para criar um tipo diferente de pasta, como [CalendarFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.calendarfolder%28v=exchg.80%29.aspx), [ContactsFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contactsfolder%28v=exchg.80%29.aspx), [SearchFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)ou [TasksFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx), crie uma nova instância da classe específica (em vez da classe de **pasta** genérica) e não defina a propriedade **FolderClass** . Por exemplo, o exemplo de código a seguir mostra como criar um novo [TasksFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx).
   
-```csharp
+```cs
 // Create a custom Tasks folder.
 TasksFolder folder = new TasksFolder(service);
 folder.DisplayName = "Custom Tasks";
@@ -71,7 +71,7 @@ Para criar uma única pasta, envie uma mensagem de solicitação de operação [
   
 Essa é também a solicitação XML que a API gerenciada do EWS envia quando você cria uma nova pasta e chama o método [Folder. Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) . 
   
-```xml
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
@@ -115,7 +115,7 @@ O exemplo de código a seguir mostra como usar o método [Folder. bind](https://
   
 Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido e que o usuário foi autenticado em um servidor Exchange. 
   
-```csharp
+```cs
 // As a best practice, limit the properties returned to only those that are required.
 // In this scenario, you only need the FolderId.
 PropertySet propSet = new PropertySet(BasePropertySet.IdOnly);
@@ -139,7 +139,7 @@ Essa é também a solicitação XML que a API gerenciada do EWS envia quando voc
   
 Para obter várias pastas, inclua vários elementos [FolderIds](https://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx) na mensagem de solicitação de operação **GetFolder** . 
   
-```xml
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
@@ -160,7 +160,7 @@ Para obter várias pastas, inclua vários elementos [FolderIds](https://msdn.mic
 
 O exemplo de XML a seguir mostra a mensagem [GetFolderResponse](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) que é enviada do servidor para o cliente em resposta à solicitação de operação **GetFolder** . Ele contém apenas o valor [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) da pasta caixa de entrada. Os valores de alguns atributos e elementos foram reduzidos para facilitar a leitura. 
   
-```xml
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
@@ -202,7 +202,7 @@ Neste exemplo, um objeto de classe [folderview](https://msdn.microsoft.com/libra
   
 Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido e que o usuário foi autenticado em um servidor Exchange. 
   
-```csharp
+```XML
 // Create a new folder view, and pass in the maximum number of folders to return.
 FolderView view = new FolderView(folderViewSize);
 // Create an extended property definition for the PR_ATTR_HIDDEN property,
@@ -226,7 +226,7 @@ Os exemplos de XML a seguir mostram como usar a operação [FindFolder](https://
   
 Essa é também a solicitação XML que a API gerenciada do EWS envia quando você chama o método [FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) . 
   
-```xml
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
@@ -260,7 +260,7 @@ O exemplo de XML a seguir mostra a mensagem [FindFolderResponse](https://msdn.mi
   
 Essa é também a resposta XML que a API gerenciada do EWS envia quando você obtém várias pastas usando o método [FindFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) . Os valores de alguns atributos e elementos foram reduzidos para legibilidade, e algumas pastas não foram incluídas por brevidade. 
   
-```xml
+```XML
 <?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
@@ -368,7 +368,7 @@ Em seguida, envie uma mensagem de solicitação de operação do [UpdateFolder](
   
 Essa é também a solicitação XML que a API gerenciada do EWS envia quando você atualiza uma pasta usando o método [Folder. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) . Os valores de alguns atributos e elementos foram reduzidos para facilitar a leitura. 
   
-```xml
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
@@ -425,7 +425,7 @@ Em seguida, envie uma mensagem de solicitação de operação do [DeleteFolder](
   
 Essa é também a solicitação XML que a API gerenciada do EWS envia quando você exclui uma pasta usando o método [Folder. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) . Os valores de alguns atributos e elementos foram reduzidos para facilitar a leitura. 
   
-```xml
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 

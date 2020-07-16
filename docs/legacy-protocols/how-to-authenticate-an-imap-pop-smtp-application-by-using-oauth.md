@@ -4,12 +4,12 @@ description: Saiba como usar a autenticação OAuth com seus aplicativos IMAP, P
 author: svpsiva
 ms.date: 02/19/2020
 ms.audience: Developer
-ms.openlocfilehash: f83a932790cde558e741ece1e87403103aff18fd
-ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
+ms.openlocfilehash: fbe4eaefc5befcc173096c9b8526adebf74a0aad
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012556"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44438430"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Autenticar uma conexão IMAP, POP ou SMTP usando o OAuth
 
@@ -91,10 +91,6 @@ Após a codificação Base64, isso é convertido para a cadeia de caracteres a s
 dXNlcj10ZXN0QGNvbnRvc28ub25taWNyb3NvZnQuY29tAWF1dGg9QmVhcmVy
 IEV3QkFBbDNCQUFVRkZwVUFvN0ozVmUwYmpMQldaV0NjbFJDM0VvQUEBAQ==
 ```
-
-### <a name="sasl-xoauth2-authentication-for-shared-mailboxes-in-office-365"></a>Autenticação de XOAUTH2 do SASL para caixas de correio compartilhadas no Office 365
-
-No caso de acesso compartilhado de caixa de correio usando o OAuth, o aplicativo precisa obter o token de acesso em nome de um usuário, mas substituir o campo userName na cadeia de caracteres codificada XOAUTH2 do SASL pelo endereço de email da caixa de correio compartilhada. 
 
 ### <a name="imap-protocol-exchange"></a>Intercâmbio de protocolo IMAP
 
@@ -192,7 +188,7 @@ l0Q2cBAQ==
 S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.com]
 ```
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Autenticação e EWS no Exchange](../exchange-web-services/authentication-and-ews-in-exchange.md)
 - [Configurações de conexão POP e IMAP](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)
