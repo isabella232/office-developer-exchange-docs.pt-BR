@@ -30,7 +30,7 @@ Você pode usar o serviço de autenticação OAuth fornecido com o Azure Active 
 
 Para usar o código desse artigo, você precisará ter acesso ao seguinte:
 
-- Uma conta do Microsoft 365 com uma caixa de correio do Exchange Online. Se você não tiver uma conta do Microsoft 365, você pode [inscrever-se no programa para desenvolvedores do Microsoft 365](https://developer.microsoft.com/microsoft-365/dev-program) para obter uma assinatura gratuita do Microsoft 365.
+- Uma conta do Microsoft 365 com uma caixa de correio do Exchange Online. Se você não tiver uma conta do Microsoft 365, poderá [inscrever-se no programa para desenvolvedores do Microsoft 365](https://developer.microsoft.com/microsoft-365/dev-program) para obter uma assinatura gratuita do Microsoft 365.
 - A [biblioteca de autenticação da Microsoft para .NET](/dotnet/api/microsoft.identity.client).
 - A [API gerenciada do EWS](https://github.com/officedev/ews-managed-api).
 
@@ -41,7 +41,7 @@ Existem dois tipos de permissões OAuth que podem ser usadas para acessar as API
 
 ## <a name="register-your-application"></a>Registre seu aplicativo
 
-Para usar o OAuth, um aplicativo deve ter uma ID de aplicativo emitida pelo Azure Active Directory. Neste tutorial, presume-se que o aplicativo seja um aplicativo de console, então você precise registrá-lo como um cliente público com o Azure Active Directory. Você pode registrar um aplicativo no centro de administração do Azure Active Directory ou usando o Microsoft Graph.
+Para usar o OAuth, um aplicativo deve ter uma ID de aplicativo emitida pelo Azure Active Directory. Neste tutorial, presume-se que o aplicativo seja um aplicativo de console, então você precisa registrá-lo como um cliente público com o Azure Active Directory. Você pode registrar um aplicativo no centro de administração do Azure Active Directory ou usando o Microsoft Graph.
 
 1. Abra um navegador, navegue até o [centro de administração do Azure Active Directory](https://aad.portal.azure.com) e faça logon usando uma **conta pessoal** (também conhecida como conta Microsoft) ou **Conta Corporativa ou de Estudante**.
 
@@ -130,7 +130,7 @@ var ewsScopes = new string[] { "EWS.AccessAsUser.All" };
 var authResult = await pca.AcquireTokenInteractive(ewsScopes).ExecuteAsync();
 ```
 
-### <a name="get-a-token-with-app-only-auth"></a>Obtenha um token com autenticação somente para o aplicativo
+### <a name="get-a-token-with-app-only-auth"></a>Obter um token com autenticação somente para o aplicativo
 
 ```cs
 // Using Microsoft.Identity.Client 4.22.0
@@ -147,7 +147,7 @@ var ewsScopes = new string[] { "https://outlook.office365.com/.default" };
 var authResult = await app.AcquireTokenForClient(ewsScopes).ExecuteAsync();
 ```
 
-## <a name="add-an-authentication-token-to-ews-requests"></a>Adicione um token de autenticação a solicitações do EWS.
+## <a name="add-an-authentication-token-to-ews-requests"></a>Adicionar um token de autenticação a solicitações do EWS
 
 Depois de receber o objeto **AuthenticationResult**, você pode usar a propriedade **AcessToken** para obter o token emitido pelo serviço de token.
 
@@ -158,7 +158,7 @@ ewsClient.Url = new Uri("https://outlook.office365.com/EWS/Exchange.asmx");
 ewsClient.Credentials = new OAuthCredentials(authResult.AccessToken);
 ```
 
-Para usar as permissões do aplicativo, você também precisará explicitamente representar uma caixa de correio que você deseja acessar.
+Para usar as permissões do aplicativo, você também precisará explicitamente representar uma caixa de correio que deseja acessar.
 
 ```cs
 //Impersonate the mailbox you'd like to access.
