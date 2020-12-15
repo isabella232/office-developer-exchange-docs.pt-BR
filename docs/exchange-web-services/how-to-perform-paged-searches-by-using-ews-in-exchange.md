@@ -87,13 +87,13 @@ Neste ponto, você deve estar se perguntando se esse isso é realmente um proble
   
 **Figura 3. Solicitar dez itens com deslocamento dez desde o início de uma lista com 16 itens, com o 16º item na lista sendo novo**
 
-![Um diagrama mostrando os resultados da solicitação de dez itens com deslocamento dez desde o início de uma lista com 16 itens quando o 16º item tiver sido adicionado ao final da lista.](media/Ex15_PagedSearch_SecondPage_NewItemEnd.png)
+![A diagram showing the results of requesting 10 items at offset 10 from the beginning of a list of 16 items when the 16th item was added to the end of the list.](media/Ex15_PagedSearch_SecondPage_NewItemEnd.png)
   
 A história é diferente se a lista for classificada para que os itens mais recentes apareçam primeiro. Nesse caso, o primeiro item na segunda solicitação seria o último item da solicitação anterior mais os cinco itens restantes dos 15 itens originais. Para colocá-lo em termos da nossa janela mágica imaginária, você mudou a posição da janela para 10, mas os próprios painéis também mudaram 1 posição.
   
 **Figura 4. Solicitar dez itens com deslocamento dez desde o início de uma lista com 16 itens, com o primeiro item da lista sendo novo**
 
-![Um diagrama mostrando os resultados da solicitação de dez itens com deslocamento dez desde o início de uma lista de 16 itens quando o 16º item tiver sido adicionado ao início da lista.](media/Ex15_PagedSearch_SecondPage_NewItemBeginning.png)
+![A diagram showing the results of asking for 10 items at offset 10 from the beginning of a list of 16 items when the 16th item was added to the beginning of the list.](media/Ex15_PagedSearch_SecondPage_NewItemBeginning.png)
   
 Uma maneira de detectar uma alteração nos resultados no servidor é usar o conceito de um item de âncora. Um item de âncora é um item adicional na resposta que não é processado juntamente com o restante dos resultados, mas é usado para comparar com os próximos resultados para ver se os itens propriamente ditos foram deslocados. Retomando o nosso exemplo, se o aplicativo estiver usando um tamanho de "janela" dez, você, na verdade, define o número máximo de itens a serem retornados para 11. O aplicativo processa os primeiros dez itens na resposta como de costume. Para o último item, você salva o identificador do item como uma âncora e emite a próxima solicitação com um deslocamento dez. Se os dados não forem alterados, o primeiro item na segunda resposta deve ter um identificador de item que corresponda à âncora. Se os identificadores de item não corresponderem, você saberá que os dados foram removidos ou inseridos nas partes da lista que já se encontravam "paginados".
   
