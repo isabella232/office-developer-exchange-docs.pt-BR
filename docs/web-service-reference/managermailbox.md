@@ -8,19 +8,21 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 70c324d5-2196-406d-a674-73323f8d8b92
 description: O elemento ManagerMailbox contém informações SMTP que identificam a caixa de correio do gerente do contato.
-ms.openlocfilehash: da9e26c3efdd22000694839f5962a6bb0256f748
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c30a343ad7071e92c826925407f8447ae6baccae
+ms.sourcegitcommit: 63e48eaf2891a6db1a718b55cd69e3a0433c4a9c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44453963"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58851111"
 ---
 # <a name="managermailbox"></a>ManagerMailbox
 
-O elemento **ManagerMailbox** contém informações SMTP que identificam a caixa de correio do gerente do contato. 
+O **elemento ManagerMailbox** contém informações SMTP que identificam a caixa de correio do gerente do contato. 
   
 ```XML
-<ManagerMailbox/>
+<ManagerMailbox>
+   <Mailbox/>
+</ManagerMailbox>
 ```
 
  **SingleRecipientType**
@@ -34,18 +36,16 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-Nenhum.
+|**Elemento**|**Descrição**|
+|:-----|:-----|
+|[Caixa de Correio](mailbox.md) <br/> |Identifica um objeto Active Directory habilitado para email que identifica o remetente.  <br/> |
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Nome do elemento**|**Descrição**|
 |:-----|:-----|
-|[Contato](contact.md) <br/> |Representa um item de contato no repositório do Exchange.  <br/> |
-   
-## <a name="text-value"></a>Valor de texto
+|[Contato](contact.md) <br/> |Representa um item de contato no Exchange store.  <br/> |
 
-Nenhum.
-  
 ## <a name="remarks"></a>Comentários
 
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
@@ -58,7 +58,7 @@ Este elemento foi introduzido no Exchange Server 2010 Service Pack 2 (SP2).
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -68,5 +68,5 @@ Este elemento foi introduzido no Exchange Server 2010 Service Pack 2 (SP2).
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Criando contatos (serviços Web do Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Criando contatos (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 
