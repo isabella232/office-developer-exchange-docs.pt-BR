@@ -1,27 +1,27 @@
 ---
-title: Crianças
+title: Children
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Children
 api_type:
 - schema
 ms.assetid: ceaffddd-f9bc-43ea-b348-a20fdade738f
 description: O elemento Children contém os nomes dos filhos de um contato.
-ms.openlocfilehash: de398c93590a4a9ae93b6aa46994c9295d051b84
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6090dc1a2b684ddff4ab0964de3308ceed25b876
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460222"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536903"
 ---
-# <a name="children"></a>Crianças
+# <a name="children"></a>Children
 
-O elemento **Children** contém os nomes dos filhos de um contato. 
+O **elemento Children** contém os nomes dos filhos de um contato. 
   
 ```xml
 <Children>
@@ -48,7 +48,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Contato](contact.md) <br/> |Representa um contato no repositório do Exchange.  <br/> |
+|[Contato](contact.md) <br/> |Representa um contato no Exchange store.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

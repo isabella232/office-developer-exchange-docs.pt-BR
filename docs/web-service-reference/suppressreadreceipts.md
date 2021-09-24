@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0805560-7a2f-455b-94d2-ec4f1e3652c3
-description: O elemento SuppressReadReceipts indica se as confirmações de leitura devem ser suprimidas.
-ms.openlocfilehash: aa604d4907582bd73727ba664958a589a222f9cb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SuppressReadReceipts indica se os recibos de leitura devem ser suprimidos.
+ms.openlocfilehash: 1f63f46f4e74a3123661caba39b737910bc2ef30
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455930"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517648"
 ---
 # <a name="suppressreadreceipts"></a>SuppressReadReceipts
 
-O elemento **SuppressReadReceipts** indica se as confirmações de leitura devem ser suprimidas. 
+O **elemento SuppressReadReceipts** indica se os recibos de leitura devem ser suprimidos. 
   
 ```XML
 <SuppressReadReceipts>true | false</SuppressReadReceipts>
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Conversation](conversationaction.md)  |  [MarkAllItemsAsRead](markallitemsasread.md)
+[ConversationAction](conversationaction.md)  |  [MarkAllItemsAsRead](markallitemsasread.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **SuppressReadReciepts** indica que as confirmações de leitura são suprimidas. Um valor **false** indica que as confirmações de leitura serão enviadas ao remetente. 
+Um valor de texto **true para** o **elemento SuppressReadReciepts** indica que os recibos de leitura são suprimidos. Um valor **false** indica que os recibos de leitura serão enviados ao remetente. 
   
 ## <a name="remarks"></a>Comentários
 

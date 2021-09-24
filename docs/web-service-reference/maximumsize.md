@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb7c3ab3-ef97-44c7-83e0-93cfe8c48e84
-description: O elemento MaximumSize representa o tamanho máximo que uma mensagem deve ter para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: 250e0c6aed37b934f5cf6eaed9d93b9f56159d93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MaximumSize representa o tamanho máximo que uma mensagem deve estar para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: cfc0e65674fc96e31f3daebe6a6c378309b1aa3f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461748"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522639"
 ---
 # <a name="maximumsize"></a>MaximumSize
 
-O elemento **MaximumSize** representa o tamanho máximo que uma mensagem deve ter para que a condição ou exceção seja aplicada. 
+O **elemento MaximumSize** representa o tamanho máximo que uma mensagem deve estar para que a condição ou exceção seja aplicada. 
   
 ```XML
 <Maximum/>
@@ -40,7 +40,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[WithinSizeRange](withinsizerange.md) <br/> |Especifica os tamanhos mínimo e máximo que as mensagens de entrada devem ter para que a condição ou exceção seja aplicada.  <br/> |
+|[WithinSizeRange](withinsizerange.md) <br/> |Especifica os tamanhos mínimo e máximo que as mensagens de entrada devem estar para que a condição ou exceção seja aplicada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

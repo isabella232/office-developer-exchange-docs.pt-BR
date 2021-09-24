@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f04b14c9-384c-4016-b113-52a49e15e73b
 description: O elemento DiscoverySearchConfigurations especifica uma matriz de elementos DiscoverySearchConfiguration.
-ms.openlocfilehash: 6af4c8198f2ad73f8b39f9718e11b88aa8075c39
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0bb104451d4bfe24e5e1bc9c5d2c98f226794c22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461377"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535530"
 ---
 # <a name="discoverysearchconfigurations"></a>DiscoverySearchConfigurations
 
-O elemento **DiscoverySearchConfigurations** especifica uma matriz de elementos **DiscoverySearchConfiguration** . 
+O **elemento DiscoverySearchConfigurations** especifica uma matriz de **elementos DiscoverySearchConfiguration.** 
   
 ```XML
 <DiscoverySearchConfigurations>
@@ -38,13 +38,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DiscoverySearchConfiguration](discoverysearchconfiguration.md) <br/> |Especifica a configuração da pesquisa de descoberta eletrônica.  <br/> |
+|[DiscoverySearchConfiguration](discoverysearchconfiguration.md) <br/> |Especifica a configuração da pesquisa de Descoberta Eletrônica.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetDiscoverySearchConfigurationResponseMessage](getdiscoverysearchconfigurationresponsemessage.md) <br/> |Especifica a mensagem de resposta para uma solicitação **GetDiscoverySearchConfiguration** .  <br/> |
+|[GetDiscoverySearchConfigurationResponseMessage](getdiscoverysearchconfigurationresponsemessage.md) <br/> |Especifica a mensagem de resposta para uma **solicitação GetDiscoverySearchConfiguration.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

@@ -5,27 +5,27 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetSharingMetadata
 api_type:
 - schema
 ms.assetid: eaf29427-ecf8-4a5e-9a54-db2e6414b35e
-description: A operação GetSharingMetadata Obtém um token de autenticação opaco que identifica um convite de compartilhamento.
-ms.openlocfilehash: 0390b9caa7b2e9847b1e8dcdc1b911a35e3c5864
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetSharingMetadata obtém um token de autenticação opaco que identifica um convite de compartilhamento.
+ms.openlocfilehash: c7b2d021f618abe5e49022949e85aa212184800c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530180"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516899"
 ---
 # <a name="getsharingmetadata-operation"></a>Operação GetSharingMetadata
 
-A operação **GetSharingMetadata** Obtém um token de autenticação opaco que identifica um convite de compartilhamento. 
+A **operação GetSharingMetadata** obtém um token de autenticação opaco que identifica um convite de compartilhamento. 
   
-## <a name="soap-headers"></a>Cabeçalhos SOAP
+## <a name="soap-headers"></a>SOAP Headers
 
-A operação **GetSharingMetadata** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir. 
+A **operação GetSharingMetadata** pode usar os headers SOAP listados e descritos na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
@@ -36,7 +36,7 @@ A operação **GetSharingMetadata** pode usar os cabeçalhos SOAP listados e des
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra como formar uma solicitação para obter um token de autenticação opaco que identifica um convite de compartilhamento. Neste exemplo, o user1@contoso.com deseja compartilhar a pasta especificada pelo elemento [IdOfFolderToShare](idoffoldertoshare.md) com user1@fabikam.com e user2@test.com. 
+O exemplo a seguir mostra como formar uma solicitação para obter um token de autenticação opaco que identifica um convite de compartilhamento. Neste exemplo, user1@contoso.com deseja compartilhar a pasta especificada pelo elemento [IdOfFolderToShare](idoffoldertoshare.md) com user1@fabikam.com e user2@test.com. 
   
 ### <a name="code"></a>Código
 
@@ -65,13 +65,13 @@ O exemplo a seguir mostra como formar uma solicitação para obter um token de a
 
 ### <a name="comments"></a>Comentários
 
-O elemento [Recipients (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) contém um elemento [smtpAddress](smtpaddress.md) para cada destinatário pretendido do convite de compartilhamento. 
+O [elemento Recipients (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) contém um [elemento SmtpAddress](smtpaddress.md) para cada destinatário pretendido do convite de compartilhamento. 
   
 ## <a name="successful-getsharingmetadata-response"></a>Resposta GetSharingMetadata bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **GetSharingMetadata** . Neste exemplo, dois destinatários foram especificados na solicitação **GetSharingMetadata** correspondente: user1@fabrikam.com e user2@test.com. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma **solicitação GetSharingMetadata.** Neste exemplo, dois destinatários foram especificados na solicitação **GetSharingMetadata** correspondente: user1@fabrikam.com e user2@test.com. 
   
 ### <a name="code"></a>Código
 
@@ -156,17 +156,17 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **GetSha
 
 ### <a name="comments"></a>Comentários
 
-A resposta contém um elemento [EncryptedSharedFolderData](encryptedsharedfolderdata.md) para cada organização representada por destinatários válidos que são especificados na solicitação **GetSharingMetadata** . 
+A resposta contém um [elemento EncryptedSharedFolderData](encryptedsharedfolderdata.md) para cada organização representado por destinatários válidos especificados na solicitação **GetSharingMetadata.** 
   
-A solicitação **GetSharingMetadata** será bem-sucedida mesmo se destinatários inválidos forem especificados na solicitação. O elemento [InvalidRecipients](invalidrecipients.md) contém informações sobre destinatários inválidos. Para obter informações sobre os motivos pelos quais um destinatário pode ser inválido, consulte [ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md).
+A **solicitação GetSharingMetadata** terá êxito mesmo que destinatários inválidos sejam especificados na solicitação. O [elemento InvalidRecipients](invalidrecipients.md) contém informações sobre destinatários inválidos. Para obter informações sobre os motivos pelos quais um destinatário pode ser inválido, consulte [ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md).
   
-Se todos os destinatários pretendidos forem inválidos, o elemento [EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) estará vazio. 
+Se todos os destinatários pretendido são inválidos, [o elemento EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) estará vazio. 
   
 ## <a name="getsharingmetadata-error-response"></a>Resposta de erro GetSharingMetadata
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação **GetSharingMetadata** . 
+O exemplo a seguir mostra uma resposta de erro a uma **solicitação GetSharingMetadata.** 
   
 ### <a name="code"></a>Código
 
@@ -209,7 +209,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação **GetSharingM
 [GetSharingMetadataResponseMessageType](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingMetadataResponseMessageType.aspx)
 
 
-[Operações do EWS no Exchange](ews-operations-in-exchange.md)
+[Operações EWS em Exchange](ews-operations-in-exchange.md)
   
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

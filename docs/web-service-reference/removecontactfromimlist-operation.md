@@ -5,48 +5,48 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 28ec96c3-45af-48ff-9f17-718a527dc0ad
-description: Encontre informações sobre a operação do EWS do RemoveContactFromImList.
-ms.openlocfilehash: 8b3d83a0b53bad169d9f3478540e5087901f3a12
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação RemoveContactFromImList EWS.
+ms.openlocfilehash: cc72dc1b0abf9032fabafbaac53d29f41968dafb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458464"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523583"
 ---
 # <a name="removecontactfromimlist-operation"></a>Operação RemoveContactFromImList
 
-Encontre informações sobre a operação do EWS do **RemoveContactFromImList** . 
+Encontre informações sobre a **operação RemoveContactFromImList** EWS. 
   
-A operação **RemoveContactFromImList** remove contatos da lista de IM (mensagens instantâneas) do Lync quando o Lync usa o Exchange para o repositório de contatos. 
+A **operação RemoveContactFromImList** remove contatos da lista de mensagens instantâneas (IM) do Lync quando o Lync usa Exchange para o armazenamento de contatos. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-removecontactfromimlist-operation"></a>Usando a operação RemoveContactFromImList
 
-A operação **RemoveContactFromImList** aceita um único argumento que identifica um contato a ser removido da lista de contatos do Lync armazenado em um servidor Exchange. A lista de contatos que esta operação direciona é chamada **contatos do Lync** no Outlook 2013. 
+A **operação RemoveContactFromImList** aceita um único argumento que identifica um contato a ser removido da lista de contatos do Lync armazenada em um servidor Exchange. A lista de contatos destinados a essa operação é chamada **de Contatos do Lync** no Outlook 2013. 
   
 > [!CAUTION]
-> Não use a [Operação DeleteItem](deleteitem-operation.md) para remover contatos de uma lista de contatos. É possível que o processamento adicional no servidor tenha que ocorrer para dar suporte à remoção de um contato da lista de **contatos do Lync** . Observe que a lista de **contatos do Lync** é o equivalente conceitual da pasta de caixa de correio padrão do **Lync Contacts** . 
+> Não use a operação [DeleteItem](deleteitem-operation.md) para remover contatos de uma lista de contatos. O processamento adicional do lado do servidor pode ter que ocorrer para dar suporte à remoção de um contato da lista **contatos do Lync.** Observe que a **lista contatos do Lync** é o equivalente conceitual da pasta de caixa de correio padrão do **Lync Contacts.** 
   
-### <a name="removecontactfromimlist-operation-soap-headers"></a>Cabeçalhos SOAP de operação RemoveContactFromImList
+### <a name="removecontactfromimlist-operation-soap-headers"></a>Headers SOAP da operação RemoveContactFromImList
 
-A operação **RemoveContactFromImList** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação RemoveContactFromImList** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Esse header é aplicável a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "Marcas para a Identificação de Idiomas", a ser usada para acessar a caixa de correio. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="removecontactfromimlist-operation-request-example-remove-a-contact-from-the-lync-contacts-list"></a>Exemplo de solicitação de operação RemoveContactFromImList: remover um contato da lista de contatos do Lync
+## <a name="removecontactfromimlist-operation-request-example-remove-a-contact-from-the-lync-contacts-list"></a>Exemplo da solicitação de operação RemoveContactFromImList: Remover um contato da lista contatos do Lync
 
-O exemplo a seguir de uma solicitação de operação do **RemoveContactFromImList** mostra como remover um contato da lista de **contatos do Lync** . A operação **RemoveContactFromImList** aceita um único identificador de contato exclusivo para identificar o contato removido da lista de **contatos do Lync** . 
+O exemplo a seguir de uma solicitação de operação **RemoveContactFromImList** mostra como remover um contato da lista contatos **do Lync.** A **operação RemoveContactFromImList** aceita um único identificador de contato exclusivo para identificar o contato removido da lista de contatos do **Lync.** 
   
 > [!NOTE]
-> Todos os identificadores de item e as chaves de alteração deste artigo foram reduzidos para preservar a legibilidade. 
+> Todos os identificadores de item e teclas de alteração neste artigo foram reduzidos para preservar a capacidade de leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -66,15 +66,15 @@ O exemplo a seguir de uma solicitação de operação do **RemoveContactFromImLi
 
 ```
 
-Os seguintes elementos são usados na solicitação de corpo SOAP:
+Os seguintes elementos são usados no corpo SOAP da solicitação:
   
 - [RemoveContactFromImList](removecontactfromimlist.md)
     
-- [ContactID](contactid.md)
+- [ContactId](contactid.md)
     
-## <a name="successful-removecontactfromimlist-operation-response"></a>Resposta de operação RemoveContactFromImList bem-sucedida
+## <a name="successful-removecontactfromimlist-operation-response"></a>Resposta bem-sucedida da operação RemoveContactFromImList
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação do **RemoveContactFromImList** para remover um contato da lista de **contatos do Lync** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **RemoveContactFromImList** para remover um contato da lista contatos **do Lync.** 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -100,7 +100,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
 </s:Envelope>
 ```
 
-Os seguintes elementos são usados no corpo SOAP de resposta:
+Os seguintes elementos são usados no corpo SOAP da resposta:
   
 - [RemoveContactFromImListResponse](removecontactfromimlistresponse.md)
     
@@ -108,7 +108,7 @@ Os seguintes elementos são usados no corpo SOAP de resposta:
     
 ## <a name="removecontactfromimlist-operation-error-response"></a>Resposta de erro de operação RemoveContactFromImList
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **RemoveContactFromImList** . Esta é uma resposta a uma solicitação para remover um contato da lista de **contatos do Lync** quando o contato não existe mais na lista. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **RemoveContactFromImList.** Esta é uma resposta a uma solicitação para remover um contato da lista contatos do **Lync** quando o contato não existir mais na lista. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -137,7 +137,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 
 ```
 
-Os seguintes elementos são usados no corpo SOAP de resposta de erro:
+Os seguintes elementos são usados no corpo SOAP da resposta de erro:
   
 - [RemoveContactFromImListResponse](removecontactfromimlistresponse.md)
     
@@ -149,7 +149,7 @@ Os seguintes elementos são usados no corpo SOAP de resposta de erro:
     
 ## <a name="see-also"></a>Confira também
 
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
     
 - [Operação GetImItemList](getimitemlist-operation.md)
     

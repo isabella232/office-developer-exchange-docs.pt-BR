@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateManagedFolderResponse
 api_type:
 - schema
 ms.assetid: 99062401-d356-4ce7-a5d0-c8c7aab99912
 description: O elemento CreateManagedFolderResponse define uma resposta a uma solicitação CreateManagedFolder.
-ms.openlocfilehash: a1983545f3279baeb4ec6a7a1ae56ee3501a1d82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4cfee0ef7b84c012150fd09a95dec2b175a9bc3e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458345"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536336"
 ---
 # <a name="createmanagedfolderresponse"></a>CreateManagedFolderResponse
 
-O elemento **CreateManagedFolderResponse** define uma resposta a uma solicitação CreateManagedFolder. 
+O **elemento CreateManagedFolderResponse** define uma resposta a uma solicitação CreateManagedFolder. 
   
 ```xml
 <CreateManagedFolderResponse>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

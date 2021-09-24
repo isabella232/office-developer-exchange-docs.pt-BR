@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ServerHint
 api_type:
 - schema
 ms.assetid: 5ac60472-a565-43d1-a5fb-8be0c9511f82
-description: O elemento ServerHint representa o ponto de partida para rastrear uma mensagem em um site ou floresta remoto.
-ms.openlocfilehash: 76a719901f4e4d1da67ce377ab8b73e4a4592dc4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ServerHint representa o ponto de partida para rastrear uma mensagem em um site remoto ou floresta.
+ms.openlocfilehash: 57ca0688a2af12d7325b213733d069dfd5fc6c20
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461986"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523381"
 ---
 # <a name="serverhint"></a>ServerHint
 
-O elemento **ServerHint** representa o ponto de partida para rastrear uma mensagem em um site ou floresta remoto. 
+O **elemento ServerHint** representa o ponto de partida para rastrear uma mensagem em um site remoto ou floresta. 
   
 ```xml
 <ServerHint/>
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Especifica critérios para os tipos de mensagens a serem encontradas.  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Especifica critérios para os tipos de mensagens a encontrar.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -52,7 +52,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de9a7e43-518e-49aa-9826-f54bab4279a3
-description: O elemento SharePointSiteURL contém o Uniform Resource Locator (URL) do site do SharePoint que está vinculado à caixa de correio de site.
-ms.openlocfilehash: 461ca904e9a050d20b9e067cb40875939608c101
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SharePointSiteURL contém a URL (Uniform Resource Locator) do site SharePoint que está vinculado à caixa de correio do site.
+ms.openlocfilehash: c36dacadddf2706437a8a51dd2e115529210d542
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467302"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517676"
 ---
 # <a name="sharepointsiteurl"></a>SharePointSiteUrl
 
-O elemento **SharePointSiteURL** contém o Uniform Resource Locator (URL) do site do SharePoint que está vinculado à caixa de correio de site. 
+O **elemento SharePointSiteURL** contém a URL (Uniform Resource Locator) do site SharePoint que está vinculado à caixa de correio do site. 
   
 ```XML
 <SharePointSiteURL></SharePointSiteURL>
@@ -43,7 +43,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **SharePointSiteURL** é a URL do site do SharePoint que está vinculado à caixa de correio de site. 
+O valor de texto do **elemento SharePointSiteURL** é a URL do site SharePoint que está vinculado à caixa de correio do site. 
   
 ## <a name="remarks"></a>Comentários
 

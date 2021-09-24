@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a53989e-eca6-45c4-afac-4d6ac19597d2
 description: O elemento SearchScope especifica o escopo de uma pesquisa.
-ms.openlocfilehash: df11c8db418ac90d1166030aeed3672c0b810052
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d4caa87cd552a633812b99d7e97f2419b156fb78
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466861"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523394"
 ---
 # <a name="searchscope"></a>SearchScope
 
-O elemento **SearchScope** especifica o escopo de uma pesquisa. 
+O **elemento SearchScope** especifica o escopo de uma pesquisa. 
   
 ```XML
 <SearchScope> PrimaryOnly | ArchiveOnly | All </SearchScope>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **SearchScope** indica o tipo de caixa de correio pesquisada para uma pesquisa de descoberta. Um valor de texto de **PrimaryOnly** indica que a caixa de correio principal é pesquisada. Um valor de texto de **ArchiveOnly** indica que a caixa de correio de arquivo morto é pesquisada. Um valor de texto indica que as **caixas de correio** primárias e de arquivo morto são pesquisadas. 
+O valor de texto do **elemento SearchScope** indica o tipo de caixa de correio que é pesquisado para uma pesquisa de descoberta. Um valor de texto **primaryOnly** indica que a caixa de correio principal é pesquisada. Um valor de texto **de ArchiveOnly** indica que a caixa de correio de arquivo morto é pesquisada. Um valor de texto **de All** indica que as caixas de correio primárias e de arquivo morto são pesquisadas. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

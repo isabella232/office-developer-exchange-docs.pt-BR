@@ -1,23 +1,23 @@
 ---
-title: Remetente (cadeia de caracteres)
+title: Sender (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c4c94b7-2d81-4585-b7b5-38646f990594
 description: O elemento Sender especifica o endereço de email da pessoa que enviou um item.
-ms.openlocfilehash: 530b875729e860d2b4f2069fb4e07fb5b3236d7a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 064f5ec3bad13ed8dafc05501327014451fb6d15
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455314"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523395"
 ---
-# <a name="sender-string"></a>Remetente (cadeia de caracteres)
+# <a name="sender-string"></a>Sender (string)
 
-O elemento **Sender** especifica o endereço de email da pessoa que enviou um item. 
+O **elemento Sender** especifica o endereço de email da pessoa que enviou um item. 
   
 ```XML
 <Sender></Sender>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **Sender** é o remetente de um email que é encontrado executando uma pesquisa de descoberta. 
+O valor de texto **do elemento Sender** é o remetente de um email encontrado executando uma pesquisa de descoberta. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

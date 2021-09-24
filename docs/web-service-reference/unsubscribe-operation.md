@@ -1,33 +1,33 @@
 ---
-title: Cancelar a operação
+title: Operação Unsubscribe
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Unsubscribe
 api_type:
 - schema
 ms.assetid: 994a9d2b-1501-4804-90f0-12bd914496ec
-description: A operação unsubscribe é usada para encerrar uma assinatura de notificação de recepção. Use essa operação, em vez de deixar um tempo limite de assinatura. Essa operação só é válida para notificações de recepção.
-ms.openlocfilehash: 054f89af1ba5c780c7de5016a6dfe34086c97f02
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação Unsubscribe é usada para encerrar uma assinatura de notificação de pull. Use essa operação em vez de permitir um tempo de tempo de assinatura. Essa operação só é válida para notificações de pull.
+ms.openlocfilehash: 96d30bcd585b07a7ed0497a4a4c723485e8626ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468023"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517501"
 ---
-# <a name="unsubscribe-operation"></a>Cancelar a operação
+# <a name="unsubscribe-operation"></a>Operação Unsubscribe
 
-A operação unsubscribe é usada para encerrar uma assinatura de notificação de recepção. Use essa operação, em vez de deixar um tempo limite de assinatura. Essa operação só é válida para notificações de recepção.
+A operação Unsubscribe é usada para encerrar uma assinatura de notificação de pull. Use essa operação em vez de permitir um tempo de tempo de assinatura. Essa operação só é válida para notificações de pull.
   
 ## <a name="unsubscribe-request-example"></a>Exemplo de solicitação de cancelamento de assinatura
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra a mensagem XML do SOAP que é enviada para cancelar a assinatura de um cliente do serviço de notificação.
+O exemplo a seguir mostra a mensagem XML SOAP que é enviada para cancelar a assinatura de um cliente do serviço de Notificação.
   
 ### <a name="code"></a>Código
 
@@ -43,7 +43,7 @@ O exemplo a seguir mostra a mensagem XML do SOAP que é enviada para cancelar a 
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-request-elements"></a>Cancelar assinatura de elementos Request
+### <a name="unsubscribe-request-elements"></a>Elementos de solicitação de cancelamento de assinatura
 
 Os seguintes elementos são usados na solicitação:
   
@@ -51,11 +51,11 @@ Os seguintes elementos são usados na solicitação:
     
 - [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
     
-## <a name="successful-unsubscribe-response-example"></a>Exemplo de resposta de cancelamento de assinatura bem-sucedido
+## <a name="successful-unsubscribe-response-example"></a>Exemplo de resposta unsubscribe bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de cancelamento de assinatura.
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação Cancelar assinatura.
   
 ### <a name="code"></a>Código
 
@@ -82,7 +82,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de cance
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-response-elements"></a>Cancelar assinatura dos elementos de resposta
+### <a name="unsubscribe-response-elements"></a>Elementos de resposta unsubscribe
 
 Os seguintes elementos são usados na resposta:
   
@@ -100,7 +100,7 @@ Os seguintes elementos são usados na resposta:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma resposta de erro de cancelamento de assinatura ocorre em resposta a uma tentativa de cancelar a assinatura usando um identificador de assinatura que não pode ser localizado no repositório do Exchange.
+O exemplo a seguir de uma resposta de erro Unsubscribe ocorre em resposta a uma tentativa de cancelar a assinatura usando um identificador de assinatura que não pode ser localizado no Exchange store.
   
 ### <a name="code"></a>Código
 
@@ -129,7 +129,7 @@ O exemplo a seguir de uma resposta de erro de cancelamento de assinatura ocorre 
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-error-response-elements"></a>Cancelar assinatura de elementos de resposta de erro
+### <a name="unsubscribe-error-response-elements"></a>Elementos de resposta de erro de cancelamento de assinatura
 
 Os seguintes elementos são usados na resposta de erro:
   
@@ -151,5 +151,5 @@ Os seguintes elementos são usados na resposta de erro:
 
 - [Operação Subscribe](subscribe-operation.md)
 - [Operação GetEvents](getevents-operation.md)
-- [Usando assinaturas pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+- [Usando Assinaturas Pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

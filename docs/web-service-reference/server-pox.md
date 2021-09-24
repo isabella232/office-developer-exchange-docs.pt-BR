@@ -1,34 +1,34 @@
 ---
-title: Servidor (POX)
+title: Server (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 0ce51644-7f3a-408c-a398-814439b658dc
 description: O elemento Server especifica o nome do servidor de email.
-ms.openlocfilehash: 6b29b153bc75b8836bfa113e126d122d620c2984
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 13673364aff111e1f330121283738119bc6041a2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462007"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517788"
 ---
-# <a name="server-pox"></a>Servidor (POX)
+# <a name="server-pox"></a>Server (POX)
 
-O elemento **Server** especifica o nome do servidor de email. 
+O **elemento Server** especifica o nome do servidor de email. 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Conta (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
-[Servidor (POX)](server-pox.md)
+[Server (POX)](server-pox.md)
   
 ```xml
 <Server/>
@@ -50,15 +50,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto identifica o servidor. Para protocolos como POP3, SMTP, IMAP ou NNTP, esse valor será um nome de host ou um endereço IP. Para protocolos como DAV ou WEB, será uma URL.
+O valor do texto identifica o servidor. Para protocolos como POP3, SMTP, IMAP ou NNTP, esse valor será um nome de host ou um endereço IP. Para protocolos como DAV ou WEB, isso será uma URL.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

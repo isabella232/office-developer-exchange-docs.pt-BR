@@ -1,33 +1,33 @@
 ---
-title: Período
+title: Period
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Period
 api_type:
 - schema
 ms.assetid: 2f9cf6af-c531-4d7d-90c9-1a1db504d890
-description: O elemento period define o nome, o deslocamento de tempo e o identificador exclusivo de um estágio específico do fuso horário.
-ms.openlocfilehash: a7c36a9de01fd0484a7df75de3b5525992ef7ee7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Period define o nome, o deslocamento de tempo e o identificador exclusivo para um estágio específico do fuso horário.
+ms.openlocfilehash: 7fa5bca6547f4e3120c60c2e2b69139f7bb12e93
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459718"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534732"
 ---
-# <a name="period"></a>Período
+# <a name="period"></a>Period
 
-O elemento **period** define o nome, o deslocamento de tempo e o identificador exclusivo de um estágio específico do fuso horário. 
+O **elemento Period** define o nome, o deslocamento de tempo e o identificador exclusivo para um estágio específico do fuso horário. 
   
 ```xml
 <Period Bias="" Name="" Id=""/>
 ```
 
- **Periodtype**
+ **PeriodType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -36,9 +36,9 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|Tendência  <br/> |Um valor de duração xs: que representa a diferença de tempo do UTC (tempo Universal Coordenado) para o período.  <br/> |
-|Nome  <br/> |Um valor String que representa o nome descritivo do período.  <br/> |
-|Id  <br/> |Um valor String que representa o identificador para o período.  <br/> |
+|Bias  <br/> |Um valor xs:duration que representa o deslocamento de tempo de UTC (Tempo Universal Coordenado) para o período.  <br/> |
+|Nome  <br/> |Um valor de cadeia de caracteres que representa o nome descritivo do período.  <br/> |
+|Id  <br/> |Um valor de cadeia de caracteres que representa o identificador do período.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,7 +48,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Períodos](periods.md) <br/> |Representa uma matriz de períodos que definem a diferença de tempo em diferentes estágios do fuso horário.  <br/> |
+|[Periods](periods.md) <br/> |Representa uma matriz de períodos que definem o deslocamento de tempo em diferentes estágios do fuso horário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16409652-21e4-4bd3-9373-67e1882236b4
 description: O elemento PolicyTipsEnabled indica se as dicas de política estão habilitadas.
-ms.openlocfilehash: 26a527022d60dd4b98f70c2b3bf020b649066057
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: de0fdc224f2e4a94d5270e0f1920eb28b0f29405
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468513"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516507"
 ---
 # <a name="policytipsenabled"></a>PolicyTipsEnabled
 
-O elemento **PolicyTipsEnabled** indica se as dicas de política estão habilitadas. 
+O **elemento PolicyTipsEnabled** indica se as dicas de política estão habilitadas. 
   
 ```XML
 <PolicyTipsEnabled> true | false </PolicyTipsEnabled>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **PolicyTipsEnabled** indica que as dicas de política estão habilitadas para uma caixa de correio. Um valor **false** indica que as dicas de política não estão habilitadas para uma caixa de correio. 
+Um valor de texto **true para** o **elemento PolicyTipsEnabled** indica que as dicas de política estão habilitadas para uma caixa de correio. Um valor false indica **que** as dicas de política não estão habilitadas para uma caixa de correio. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

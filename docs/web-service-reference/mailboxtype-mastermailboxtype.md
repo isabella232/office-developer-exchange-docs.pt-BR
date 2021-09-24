@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6deb44aa-080d-4643-9cc9-4846849423be
-description: O elemento MailboxType (MasterMailboxType) é destinado apenas para uso interno.
-ms.openlocfilehash: b8816c1a17b8ea6fea7a04fbf960e6a6806e631c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MailboxType (MasterMailboxType) destina-se apenas ao uso interno.
+ms.openlocfilehash: b2f42a8cf48d636f7358fd65eca6ac442b099b25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455363"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522674"
 ---
 # <a name="mailboxtype-mastermailboxtype"></a>MailboxType (MasterMailboxType)
 
-O elemento **MailboxType (MasterMailboxType)** é destinado apenas para uso interno. 
+O **elemento MailboxType (MasterMailboxType)** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

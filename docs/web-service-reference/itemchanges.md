@@ -1,31 +1,31 @@
 ---
-title: Alterações
+title: ItemChanges
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ItemChanges
 api_type:
 - schema
 ms.assetid: cd307892-2f69-4494-8325-219bdb5c3ad5
-description: O elemento items contém uma matriz de elementos ItemChange que identificam itens e as atualizações a serem aplicadas aos itens.
-ms.openlocfilehash: ea6fb2023b88360f9558057e80c7fe0d855173b5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ItemChanges contém uma matriz de elementos ItemChange que identificam itens e as atualizações a aplicar aos itens.
+ms.openlocfilehash: 69a90f7bce330910b9ff44c63656f38509438981
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459907"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516682"
 ---
-# <a name="itemchanges"></a>Alterações
+# <a name="itemchanges"></a>ItemChanges
 
-O **elemento** Items contém uma matriz de elementos [ItemChange](itemchange.md) que identificam itens e as atualizações a serem aplicadas aos itens. 
+O **elemento ItemChanges** contém uma matriz [de elementos ItemChange](itemchange.md) que identificam itens e as atualizações a aplicar aos itens. 
   
 [UpdateItem](updateitem.md)
   
-[Alterações](itemchanges.md)
+[ItemChanges](itemchanges.md)
   
 ```xml
 <ItemChanges>
@@ -46,13 +46,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ItemChange](itemchange.md) <br/> |Contém um identificador de item e as atualizações a serem aplicadas ao item.  <br/> |
+|[ItemChange](itemchange.md) <br/> |Contém um identificador de item e as atualizações a aplicar ao item.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UpdateItem](updateitem.md) <br/> |Define uma solicitação para atualizar itens em uma caixa de correio.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/UpdateItem` <br/> |
+|[UpdateItem](updateitem.md) <br/> |Define uma solicitação para atualizar itens em uma caixa de correio.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/UpdateItem` <br/> |
    
 ## <a name="remarks"></a>Comentários
 

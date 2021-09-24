@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AbsoluteYearlyRecurrence
 api_type:
 - schema
 ms.assetid: 96f53e2c-3893-4f6e-a78a-ac179f45c5db
-description: O elemento AbsoluteYearlyRecurrence representa um padrão de recorrência anual.
-ms.openlocfilehash: 19b617dfd5c0a3d206d62439c880da084fd5f5f0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AbsoluteYearlyRecurrence representa um padrão anual de recorrência.
+ms.openlocfilehash: b7aedae92900fcac724b3047470568036a40c49e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460411"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510390"
 ---
 # <a name="absoluteyearlyrecurrence"></a>AbsoluteYearlyRecurrence
 
-O elemento **AbsoluteYearlyRecurrence** representa um padrão de recorrência anual. 
+O **elemento AbsoluteYearlyRecurrence** representa um padrão anual de recorrência. 
   
 ```xml
 <AbsoluteYearlyRecurrence>
@@ -43,14 +43,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DayOfMonth](dayofmonth.md) <br/> |Descreve o dia em um mês em que ocorre um item recorrente. O intervalo de valores para essa propriedade é de 1 a 31. Se for um mês específico, esse valor será maior do que o número de dias no mês, o último dia do mês será assumido para essa propriedade.  <br/> |
-|[Mês (recorrência do item)](month-item-recurrence.md) <br/> |Descreve o mês em que ocorre um item recorrente anual.  <br/> |
+|[DayOfMonth](dayofmonth.md) <br/> |Descreve o dia em um mês em que um item recorrente ocorre. O intervalo de valores dessa propriedade é de 1 a 31. Se para um determinado mês esse valor for maior do que o número de dias no mês, o último dia do mês será assumido para essa propriedade.  <br/> |
+|[Month (Item Recurrence)](month-item-recurrence.md) <br/> |Descreve o mês em que ocorre um item recorrente anual.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Recorrência (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém informações de recorrência para tarefas recorrentes.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém informações de recorrência para tarefas recorrentes.  <br/> |
 |[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contém o padrão de recorrência para itens de calendário e solicitações de reunião.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -63,7 +63,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConnectionStatus
 api_type:
 - schema
 ms.assetid: 4300f9d6-8bf9-48c2-9f07-d80197864e17
 description: O elemento ConnectionStatus fornece uma descrição de texto do status de uma assinatura de streaming.
-ms.openlocfilehash: 928537201041950011ae06444e3c412228d252ea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 05ff80ac3e6c3c8bf1341a179a14c9d052c9947f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462714"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536848"
 ---
 # <a name="connectionstatus"></a>ConnectionStatus
 
-O elemento **ConnectionStatus** fornece uma descrição de texto do status de uma assinatura de streaming. 
+O **elemento ConnectionStatus** fornece uma descrição de texto do status de uma assinatura de streaming. 
   
 ```xml
 <ConnectionStatus>OK or Closed</ConnectionStatus>
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Contém o status e o resultado de uma única solicitação de [operação GetStreamingEvents](getstreamingevents-operation.md) .  <br/> |
+|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Contém o status e o resultado de uma única [solicitação de operação GetStreamingEvents.](getstreamingevents-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. Estes são os valores de texto possíveis para este elemento:
+Um valor de texto é necessário. Veja a seguir os valores de texto possíveis para este elemento:
   
 - OK
     
@@ -56,7 +56,7 @@ Um valor de texto é obrigatório. Estes são os valores de texto possíveis par
     
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 

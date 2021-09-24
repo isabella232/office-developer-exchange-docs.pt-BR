@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d4c9816-54bb-4932-b4ba-f057c9173a1a
-description: O elemento FailedMailbox especifica a mensagem de erro para uma caixa de correio que falhou na pesquisa.
-ms.openlocfilehash: 404084bc342eb555db61c4216e936bee6ced9c36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento FailedMailbox especifica a mensagem de erro de uma caixa de correio que falhou na pesquisa.
+ms.openlocfilehash: 5e2bfbce5da35ecacd1757a9c612ed226af963ee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461958"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535255"
 ---
 # <a name="failedmailbox"></a>FailedMailbox
 
-O elemento **FailedMailbox** especifica a mensagem de erro para uma caixa de correio que falhou na pesquisa. 
+O **elemento FailedMailbox** especifica a mensagem de erro de uma caixa de correio que falhou na pesquisa. 
   
 ```XML
 <FailedMailbox>
@@ -41,7 +41,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Caixa de correio (cadeia de caracteres)](mailbox-string.md) <br/> |Contém um identificador para a caixa de correio.  <br/> |
+|[Mailbox (string)](mailbox-string.md) <br/> |Contém um identificador para a caixa de correio.  <br/> |
 |[ErrorCode (int)](errorcode-int.md) <br/> |Especifica o código de erro da caixa de correio que falhou na pesquisa.  <br/> |
 |[ErrorMessage](errormessage.md) <br/> |Representa o motivo do erro de validação.  <br/> |
 |[IsArchive](isarchive.md) <br/> |Especifica um valor Boolean que indica se a caixa de correio é um arquivo morto.  <br/> |
@@ -63,8 +63,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

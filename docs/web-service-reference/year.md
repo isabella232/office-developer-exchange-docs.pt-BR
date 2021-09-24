@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Year
 api_type:
 - schema
 ms.assetid: 93bf2847-53fa-496c-9a1e-dc9a9ffd0b9f
-description: O elemento year é usado para definir um fuso horário que muda dependendo do ano. Este elemento é opcional. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: cc83f9b2137f151f3f8ef0ceaf603ec036989961
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Year é usado para definir um fuso horário que muda dependendo do ano. Esse elemento é opcional. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 80b4ce642a7a08631140e583fb9d92143f485ea3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465167"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509277"
 ---
 # <a name="year"></a>Ano
 
-O elemento **year** é usado para definir um fuso horário que muda dependendo do ano. Este elemento é opcional. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+O **elemento Year** é usado para definir um fuso horário que muda dependendo do ano. Esse elemento é opcional. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <Year/>
@@ -45,16 +45,16 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[StandardTime](standardtime.md) <br/> |Representa um deslocamento do tempo relativo ao UTC (tempo Universal Coordenado) que é representado pelo elemento [Bias (UTC)](bias-utc.md) .  <br/> |
-|[DaylightTime](daylighttime.md) <br/> |Representa um deslocamento da hora relativa ao UTC (tempo Universal Coordenado) que é representado pelo elemento [Bias (UTC)](bias-utc.md) nas regiões onde o horário de verão é observado.  <br/> |
+|[StandardTime](standardtime.md) <br/> |Representa um deslocamento do tempo em relação ao TEMPO Universal Coordenado (UTC) representado pelo elemento [Bias (UTC).](bias-utc.md)  <br/> |
+|[DaylightTime](daylighttime.md) <br/> |Representa um deslocamento do tempo em relação ao UTC (Tempo Universal Coordenado) representado pelo elemento [Bias (UTC)](bias-utc.md) em regiões onde o horário de verão é observado.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O elemento year aceita uma cadeia de caracteres que representa um ano. O formato de ano é aaaa.
+O elemento Year aceita uma cadeia de caracteres que representa um ano. O formato de ano é YYYY.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -62,7 +62,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

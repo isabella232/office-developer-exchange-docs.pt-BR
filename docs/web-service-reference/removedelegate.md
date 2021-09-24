@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RemoveDelegate
 api_type:
 - schema
 ms.assetid: f21c5171-62e7-47c8-99b1-22e1ff5883bb
-description: O elemento RemoveDelegate define uma solicitação para remover representantes de uma caixa de correio. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: eca357ad1ed2dc692f9f192b97abd3a5d765fafb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RemoveDelegate define uma solicitação para remover representantes de uma caixa de correio. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 8ef8e2f6fb296ea4d3a9b8739f856bfe9a50985a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465517"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523577"
 ---
 # <a name="removedelegate"></a>RemoveDelegate
 
-O elemento **RemoveDelegate** define uma solicitação para remover representantes de uma caixa de correio. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+O **elemento RemoveDelegate** define uma solicitação para remover representantes de uma caixa de correio. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <RemoveDelegate>
@@ -43,16 +43,16 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Caixa de Correio](mailbox.md) <br/> |Identifica a caixa de correio da entidade de segurança.  <br/> |
-|[UserIds](userids.md) <br/> |Contém uma matriz de usuários delegados para remover da caixa de correio de uma entidade de segurança. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[Caixa de Correio](mailbox.md) <br/> |Identifica a caixa de correio da entidade.  <br/> |
+|[UserIds](userids.md) <br/> |Contém uma matriz de usuários delegados a ser removido da caixa de correio de uma entidade. Esse elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 

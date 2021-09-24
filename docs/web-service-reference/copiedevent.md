@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CopiedEvent
 api_type:
 - schema
 ms.assetid: 82f2fcac-deaa-4ff8-801f-4fe28d8a19f5
 description: O elemento CopiedEvent representa um evento no qual um item ou pasta é copiado.
-ms.openlocfilehash: 928910ddbe0bf1e48549d1665ab373f7382366d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bc4902eb1e62344a7d5980ec573ac13b1bb084ee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529242"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536590"
 ---
 # <a name="copiedevent"></a>CopiedEvent
 
-O elemento **CopiedEvent** representa um evento no qual um item ou pasta é copiado. 
+O **elemento CopiedEvent** representa um evento no qual um item ou pasta é copiado. 
   
 ```xml
 <CopiedEvent>
@@ -40,7 +40,7 @@ O elemento **CopiedEvent** representa um evento no qual um item ou pasta é copi
    <TimeStamp/>
    <ItemId/>
    <ParentFolderId/>
-   <OldFolderId/>
+   <OldItemId/>
    <OldParentFolderId/>
 </CopiedEvent>
 ```
@@ -59,12 +59,12 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Marca d'água](watermark.md) <br/> |Representa um indicador de eventos na tabela de eventos de caixa de correio.  <br/> |
-|[Registra](timestamp.md) <br/> |Representa o carimbo de data/hora de um evento Copiar item/pasta de caixa de correio.  <br/> |
+|[Watermark](watermark.md) <br/> |Representa um indicador de eventos na tabela de eventos de caixa de correio.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Representa o data/hora de um evento de caixa de correio de item/pasta de cópia.  <br/> |
 |[FolderId](folderid.md) <br/> |Representa o identificador da pasta.  <br/> |
 |[ItemId](itemid.md) <br/> |Representa o identificador do item.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Representa o identificador da pasta que contém a cópia.  <br/> |
-|[OldFolderId](oldfolderid.md) <br/> |Representa o identificador de pasta da pasta original antes de ela ser copiada.  <br/> |
+|[OldFolderId](oldfolderid.md) <br/> |Representa o identificador de pasta da pasta original antes de ser copiada.  <br/> |
 |[OldItemId](olditemid.md) <br/> |Contém o identificador exclusivo do item original antes de ser copiado.  <br/> |
 |[OldParentFolderId](oldparentfolderid.md) <br/> |Contém o identificador da pasta pai original de um item ou pasta que foi copiado.  <br/> |
    
@@ -84,7 +84,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -92,6 +92,6 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 - [Operação Subscribe](subscribe-operation.md) 
 - [Operação GetEvents](getevents-operation.md) 
 - [Cancelar a operação](unsubscribe-operation.md)
-- [Usando assinaturas pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx) 
-- [Aplicativo de amostra de notificação por push](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
+- [Usando Assinaturas Pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx) 
+- [Aplicativo de exemplo de notificações por push](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

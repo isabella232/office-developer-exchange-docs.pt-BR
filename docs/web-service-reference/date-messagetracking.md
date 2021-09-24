@@ -1,27 +1,27 @@
 ---
-title: Data (MessageTracking)
+title: Date (MessageTracking)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Date
 api_type:
 - schema
 ms.assetid: 3b684b12-3e43-4012-a8c9-8fb8c43387b4
-description: O elemento Date representa a data e hora em que o evento ocorreu.
-ms.openlocfilehash: 0851c0785072f24868b17a828f34a47861441d22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Date representa a data e a hora em que o evento ocorreu.
+ms.openlocfilehash: 9ff6063b8dbe3e028013a9337cb65892162c1c84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459262"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535812"
 ---
-# <a name="date-messagetracking"></a>Data (MessageTracking)
+# <a name="date-messagetracking"></a>Date (MessageTracking)
 
-O elemento **Date** representa a data e hora em que o evento ocorreu. 
+O **elemento Date** representa a data e a hora em que o evento ocorreu. 
   
 ```XML
 <Date/>
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contém detalhes de um evento específico no relatório de rastreamento.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contém detalhes de um evento específico no relatório de controle.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

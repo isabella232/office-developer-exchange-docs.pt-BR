@@ -1,27 +1,27 @@
 ---
-title: Tempo (timechangtype)
+title: Time (TimeChangeType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Time
 api_type:
 - schema
 ms.assetid: be12e41e-6871-4f6b-b2d4-3dfa404f9ea1
-description: O elemento time descreve a hora em que a hora é alterada entre o horário padrão e o horário de verão.
-ms.openlocfilehash: c25d0bc3394fdfab42a29eab8b370bc4263618ed
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Time descreve a hora em que a hora muda entre o horário padrão e o horário de verão.
+ms.openlocfilehash: 0c669340778496958ef6dff082e48b5b7f6209b5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465734"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523304"
 ---
-# <a name="time-timechangetype"></a>Tempo (timechangtype)
+# <a name="time-timechangetype"></a>Time (TimeChangeType)
 
-O elemento **time** descreve a hora em que a hora é alterada entre o horário padrão e o horário de verão. 
+O **elemento Time** descreve a hora em que a hora muda entre o horário padrão e o horário de verão. 
   
 ```xml
 <Time/>
@@ -44,12 +44,12 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Norte](daylight.md) <br/> |Representa a data e a hora em que o horário muda do horário de verão para o horário padrão.  <br/> |
-|[Standard](standard.md) <br/> |Representa a data e a hora em que o horário muda do horário de verão para o horário padrão.  <br/> |
+|[Daylight](daylight.md) <br/> |Representa a data e a hora em que a hora muda do horário de verão para a hora padrão.  <br/> |
+|[Standard](standard.md) <br/> |Representa a data e a hora em que a hora muda do horário de verão para a hora padrão.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa a hora em que a hora é alterada entre o horário padrão e o horário de verão.
+O valor do texto representa a hora em que a hora muda entre o horário padrão e o horário de verão.
   
 ## <a name="remarks"></a>Comentários
 
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

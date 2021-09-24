@@ -1,23 +1,23 @@
 ---
-title: ProposedStart (attendetype)
+title: ProposedStart (AttendeeType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 94a233d8-2eb4-4cec-913d-965aca4c975b
-description: O elemento ProposedStart (attendetype) especifica a hora de início proposta de um participante para uma reunião.
-ms.openlocfilehash: cf5b6492ae21d5e2722f0b87cd4c6c0908f8df59
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ProposedStart (AttendeeType) especifica a hora de início proposta de um participante para uma reunião.
+ms.openlocfilehash: 9a202cca79c3881f2bbb8d59a72122fb2c599ada
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465608"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534653"
 ---
-# <a name="proposedstart-attendeetype"></a>ProposedStart (attendetype)
+# <a name="proposedstart-attendeetype"></a>ProposedStart (AttendeeType)
 
-O elemento **ProposedStart (Attendetype)** especifica a hora de início proposta de um participante para uma reunião. 
+O **elemento ProposedStart (AttendeeType)** especifica a hora de início proposta de um participante para uma reunião. 
   
 ```XML
 <ProposedStart/>
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Participante](attendee.md)
+[Attendee](attendee.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ProposedStart (Attendetype)** é uma data e hora de início propostas para uma reunião. 
+O valor de texto do **elemento ProposedStart (AttendeeType)** é uma data e hora de início propostas para uma reunião. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,14 +56,14 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[Participante](attendee.md)
+[Attendee](attendee.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WeddingAnniversary
 api_type:
 - schema
 ms.assetid: 75e3add5-a08f-4a5c-a34c-c36b8291d187
 description: O elemento WeddingAnniversary contém o aniversário de casamento de um contato.
-ms.openlocfilehash: 784e4da9587a4153871e0c20f84c4cb1cfb381fc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3b9f204ff66094ef7b030f2e30485d614b4c2309
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464872"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509284"
 ---
 # <a name="weddinganniversary"></a>WeddingAnniversary
 
-O elemento **WeddingAnniversary** contém o aniversário de casamento de um contato. 
+O **elemento WeddingAnniversary** contém o aniversário de casamento de um contato. 
   
 ```xml
 <WeddingAnniversary/>
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa a data da aniversário de casamento de um contato.
+O valor do texto representa a data do aniversário de casamento de um contato.
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

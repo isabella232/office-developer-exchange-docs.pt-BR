@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ChildFolderCount
 api_type:
 - schema
 ms.assetid: e0e4eabd-802f-4dd0-9911-89e08c66a15e
-description: O elemento ChildFolderCount representa o número de pastas filhas imediatas que estão contidas em uma pasta. Essa propriedade é somente leitura.
-ms.openlocfilehash: 6ea3b9c000c7836b55c6bf359c95870ed28350e0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ChildFolderCount representa o número de pastas filho imediatas contidas em uma pasta. Essa propriedade é somente leitura.
+ms.openlocfilehash: c05d93e3f9df2d2acbb1b65f1116dab1aea24a3b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463941"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536998"
 ---
 # <a name="childfoldercount"></a>ChildFolderCount
 
-O elemento **ChildFolderCount** representa o número de pastas filhas imediatas que estão contidas em uma pasta. Essa propriedade é somente leitura. 
+O **elemento ChildFolderCount** representa o número de pastas filho imediatas contidas em uma pasta. Essa propriedade é somente leitura. 
   
 ```xml
 <ChildFolderCount/>
@@ -45,10 +45,10 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |Representa uma pasta em uma caixa de correio.  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |Representa uma pasta de calendário em uma caixa de correio.  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |Representa uma pasta contatos em uma caixa de correio.  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |Representa uma pasta Calendário em uma caixa de correio.  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |Representa uma pasta Contatos em uma caixa de correio.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Representa uma pasta de pesquisa em uma caixa de correio.  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |Representa uma pasta tarefas em uma caixa de correio.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Representa uma pasta Tarefas em uma caixa de correio.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

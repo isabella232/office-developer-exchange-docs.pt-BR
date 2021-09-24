@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CopyFolder
 api_type:
 - schema
 ms.assetid: 7d5cd08a-fe81-4cb6-a5a0-6dec2d3c93d4
-description: O elemento CopyFolder define uma solicitação para copiar pastas em uma caixa de correio no repositório do Exchange.
-ms.openlocfilehash: fa75272540169a96d5567181d27b8a8f056cce42
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento CopyFolder define uma solicitação para copiar pastas em uma caixa de correio no Exchange store.
+ms.openlocfilehash: 85810ac0b2a2d805e91521a02c469383d40d86b8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452507"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510329"
 ---
 # <a name="copyfolder"></a>CopyFolder
 
-O elemento **CopyFolder** define uma solicitação para copiar pastas em uma caixa de correio no repositório do Exchange. 
+O **elemento CopyFolder** define uma solicitação para copiar pastas em uma caixa de correio no Exchange store. 
   
 ```xml
 <CopyFolder>
@@ -44,11 +44,11 @@ Nenhum
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[ToFolderId](tofolderid.md) <br/> |Representa a pasta de destino de uma pasta copiada.  <br/> |
-|[FolderIds](folderids.md) <br/> |Contém uma matriz de pastas a serem copiadas para a pasta identificada pelo elemento [ToFolderId](tofolderid.md) .  <br/> |
+|[FolderIds](folderids.md) <br/> |Contém uma matriz de pastas a ser copiada para a pasta identificada pelo [elemento ToFolderId.](tofolderid.md)  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

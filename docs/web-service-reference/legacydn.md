@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 72cec5ec-8485-431c-95b7-b9c2247669d6
-description: O elemento LegacyDN identifica uma caixa de correio por seu nome distinto herdado.
-ms.openlocfilehash: b5eb23d285925f97cc25f53b56bca669bbbb5840
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento LegacyDN identifica uma caixa de correio pelo nome diferenciado herdado.
+ms.openlocfilehash: c40f76ec37407a0ac6db27bcccad0c5b9d5924b9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463234"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509619"
 ---
 # <a name="legacydn"></a>LegacyDN
 
-O elemento **LegacyDN** identifica uma caixa de correio por seu nome distinto herdado. 
+O **elemento LegacyDN** identifica uma caixa de correio pelo nome diferenciado herdado. 
   
 ```XML
 <LegacyDN></LegacyDN>
@@ -39,11 +39,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Caixas de correio (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md)
+[Mailboxes (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **LegacyDN** é o nome diferenciado herdado da caixa de correio de destino. 
+O valor de texto **do elemento LegacyDN** é o nome diferenciado herdado da caixa de correio de destino. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,7 +57,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

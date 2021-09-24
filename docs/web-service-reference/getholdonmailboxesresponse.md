@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8af93c14-c4f0-4ec3-a1e6-4742a0a14eee
-description: O elemento GetHoldOnMailboxes contém a solicitação para obter o status de espera para uma caixa de correio.
-ms.openlocfilehash: fee6cd4781533cb779a971ebba46707527623dcc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetHoldOnMailboxes contém a solicitação para obter o status de espera de uma caixa de correio.
+ms.openlocfilehash: 36d183b2d3cb71d8767764821bda85aaad8f3ba6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462833"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516955"
 ---
 # <a name="getholdonmailboxesresponse"></a>GetHoldOnMailboxesResponse
 
-O elemento **GetHoldOnMailboxes** contém a solicitação para obter o status de espera para uma caixa de correio. 
+O **elemento GetHoldOnMailboxes** contém a solicitação para obter o status de espera de uma caixa de correio. 
   
 ```XML
 <GetHoldOnMailboxes>
@@ -36,11 +36,11 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Isenção](holdid.md)
+[HoldId](holdid.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -1,23 +1,23 @@
 ---
-title: Manterproperties
+title: KeepProperties
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 433f1bdd-2b96-465c-8e9e-e8427fdc2796
-description: O elemento KeepProperties é destinado apenas para uso interno.
-ms.openlocfilehash: a27e3ca9ced1f941f47f441b5089d02d9fd41f9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento KeepProperties destina-se apenas ao uso interno.
+ms.openlocfilehash: f8f319ae721b51d3af1a9c9a3109db417bf0e032
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468583"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522821"
 ---
-# <a name="keepproperties"></a>Manterproperties
+# <a name="keepproperties"></a>KeepProperties
 
-O elemento **KeepProperties** é destinado apenas para uso interno. 
+O **elemento KeepProperties** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

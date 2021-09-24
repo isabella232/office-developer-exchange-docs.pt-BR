@@ -1,28 +1,28 @@
 ---
-title: ResetPINResponse (serviço Web da UM)
+title: ResetPINResponse (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResetPINResponse
 api_type:
 - schema
 ms.assetid: 42aac88f-8513-416d-8be4-77378b71a45b
-description: O elemento ResetPINResponse define uma resposta a uma solicitação de operação ResetPIN (serviço Web da UM).
-ms.openlocfilehash: a30d75b91823ebc021cfffa4e77be04fc6cd7951
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ResetPINResponse define uma resposta a uma solicitação de operação ResetPIN (serviço Web de UM).
+ms.openlocfilehash: 8a68dad67fd2af02ab6cd40662b387adf9f75f38
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466203"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523570"
 ---
-# <a name="resetpinresponse-um-web-service"></a>ResetPINResponse (serviço Web da UM)
+# <a name="resetpinresponse-um-web-service"></a>ResetPINResponse (serviço Web de Unificação de Mensagens)
 
-O elemento ResetPINResponse define uma resposta a uma solicitação de [operação ResetPIN (serviço Web da um)](resetpin-operation-um-web-service.md) . 
+O elemento ResetPINResponse define uma resposta a uma solicitação de operação [ResetPIN (serviço Web de UM).](resetpin-operation-um-web-service.md) 
   
-[ResetPINResponse (serviço Web da UM)](resetpinresponse-um-web-service.md)
+[ResetPINResponse (serviço Web de Unificação de Mensagens)](resetpinresponse-um-web-service.md)
   
 ```xml
 <ResetPINResponse />
@@ -62,5 +62,5 @@ Um valor de texto não é necessário.
 
 
 
-[Operação ResetPIN (serviço Web da UM)](resetpin-operation-um-web-service.md)
+[Operação ResetPIN (serviço Web de Unificação de Mensagens)](resetpin-operation-um-web-service.md)
 

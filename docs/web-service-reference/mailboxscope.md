@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9778823-f290-4827-ba19-5f391ed4f877
-description: O elemento MailboxScope identifica se uma pesquisa ou busca de uma conversa deve abranger a caixa de correio principal, a caixa de correio de arquivo morto ou a caixa de correio principal e de arquivo morto.
-ms.openlocfilehash: 92823c06d4fe186917c3cfb532eda821bd6a95a7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MailboxScope identifica se uma pesquisa ou busca para uma conversa deve abranger a caixa de correio principal, a caixa de correio de arquivo morto ou a caixa de correio principal e arquivada.
+ms.openlocfilehash: 705c72ae2aefbb16599f392eb712d080668490b0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455370"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522877"
 ---
 # <a name="mailboxscope"></a>MailboxScope
 
-O elemento **MailboxScope** identifica se uma pesquisa ou busca de uma conversa deve abranger a caixa de correio principal, a caixa de correio de arquivo morto ou a caixa de correio principal e de arquivo morto. 
+O **elemento MailboxScope** identifica se uma pesquisa ou busca para uma conversa deve abranger a caixa de correio principal, a caixa de correio de arquivo morto ou a caixa de correio principal e arquivada. 
   
 ```XML
 <MailboxScope> PrimaryOnly | ArchiveOnly | All </MailboxScope>
@@ -39,11 +39,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[FindConversation](findconversation.md)  |  [GetConversationItems](getconversationitems.md)  |  [Conversa (conversatype)](conversation-conversationtype.md)
+[FindConversation](findconversation.md)  |  [GetConversationItems](getconversationitems.md)  |  [Conversation (ConversationType)](conversation-conversationtype.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **MailboxScope** é o escopo para localizar ou obter itens em uma conversa entre caixas de correio primárias, caixas de correio de arquivo morto ou caixas de correio primárias e de arquivo morto. Um valor de texto **PrimaryOnly** indica um escopo que direciona a caixa de correio principal de um usuário. Um valor de texto **ArchiveOnly** indica um escopo direcionado para a caixa de correio de arquivo morto de um usuário. Um valor de texto **All** indica um escopo que direciona a caixa de correio principal e a caixa de correio de arquivo morto. 
+O valor de texto do elemento **MailboxScope** é o escopo para localizar ou obter itens em uma conversa em caixas de correio primárias, caixas de correio de arquivo morto ou caixas de correio primárias e de arquivo morto. Um valor de texto **primaryOnly** indica um escopo destinado à caixa de correio principal para um usuário. Um valor de texto **de ArchiveOnly** indica um escopo destinado à caixa de correio de arquivo morto para um usuário. Um valor de texto **de All** indica um escopo destinado à caixa de correio principal e à caixa de correio de arquivo morto. 
   
 ## <a name="remarks"></a>Comentários
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3aba59a0-f12a-48b5-842b-11cf4530dd51
 description: O elemento DeleteFromFolderStateDefinition especifica o estado quando um item é excluído de uma pasta.
-ms.openlocfilehash: 0ea8c61a6839790869781d5d87ca81772b2e38d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 270edfc0b7abd70b74ff8c8b4353140ec5fbe27b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455720"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510236"
 ---
 # <a name="deletefromfolderstatedefinition"></a>DeleteFromFolderStateDefinition
 
-O elemento **DeleteFromFolderStateDefinition** especifica o estado quando um item é excluído de uma pasta. 
+O **elemento DeleteFromFolderStateDefinition** especifica o estado quando um item é excluído de uma pasta. 
   
 ```XML
 <DeleteFromFolderStateDefinition>
@@ -39,7 +39,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Ocorrência (transição de fuso horário)](occurrence-time-zone-transition.md) <br/> |Especifica a data da ocorrência de um item do calendário.  <br/> |
+|[Occurrence (Time Zone Transition)](occurrence-time-zone-transition.md) <br/> |Especifica a data da ocorrência de um item de calendário.  <br/> |
 |[IsOccurrencePresent](isoccurrencepresent.md) <br/> |Especifica um valor Boolean que indica se uma ocorrência do item de calendário está presente.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
@@ -59,8 +59,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

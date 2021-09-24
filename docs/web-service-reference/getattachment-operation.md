@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetAttachment
 api_type:
 - schema
 ms.assetid: 24d10a15-b942-415e-9024-a6375708f326
-description: A operação GetAttachment é usada para recuperar anexos existentes em itens no repositório do Exchange.
-ms.openlocfilehash: ac7eafd61c62b077a8d20e5fd8d004924bf06cf1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetAttachment é usada para recuperar anexos existentes em itens no Exchange store.
+ms.openlocfilehash: 44a9e1988deb513039f7700e11c645c366641519
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461286"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509933"
 ---
 # <a name="getattachment-operation"></a>Operação GetAttachment
 
-A operação GetAttachment é usada para recuperar anexos existentes em itens no repositório do Exchange.
+A operação GetAttachment é usada para recuperar anexos existentes em itens no Exchange store.
   
 ## <a name="getattachment-request-example"></a>Exemplo de solicitação GetAttachment
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de solicitação GetAttachment mostra como obter um anexo.
+O exemplo a seguir da solicitação GetAttachment mostra como obter um anexo.
   
 ### <a name="code"></a>Código
 
@@ -51,14 +51,14 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 
 ### <a name="comments"></a>Comentários
 
-O elemento [AttachmentShape](attachmentshape.md) permite que você especifique quais informações de anexo devem ser retornadas. Um elemento [AttachmentShape](attachmentshape.md) vazio é válido e renderizará seus anexos sem conteúdo MIME para anexos de item, com um tipo de corpo de texto e sem qualquer outra propriedade. 
+O [elemento AttachmentShape](attachmentshape.md) permite especificar quais informações de anexo devem ser retornadas. Um elemento [AttachmentShape](attachmentshape.md) vazio é válido e renderizará seus anexos sem conteúdo MIME para anexos de item, com um tipo de corpo de texto e sem nenhuma propriedade adicional. 
   
-A coleção [AttachmentIds](attachmentids.md) permite que você especifique um ou mais identificadores de anexo a serem retornados. Observe que eles são do tipo RequestAttachmentIdType, portanto, qualquer AttachmentIds que você receber de **CreateAttachment** deve ter os atributos **RootItemId** e **RootItemChangeKey** removidos antes de passá-los para **GetAttachment**.
+A [coleção AttachmentIds](attachmentids.md) permite que você especifique um ou mais identificadores de anexo a retornar. Observe que eles são do tipo RequestAttachmentIdType, portanto, quaisquer AttachmentIds que você receber de **CreateAttachment** devem ter os atributos **RootItemId** e **RootItemChangeKey** removidos antes de passá-los para **GetAttachment**.
   
 > [!NOTE]
-> O identificador de anexo e a chave de alteração foram reduzidos para preservar a legibilidade. 
+> O identificador de anexo e a chave de alteração foram reduzidos para preservar a capacidade de leitura. 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -68,9 +68,9 @@ Os seguintes elementos são usados na solicitação:
     
 - [AttachmentIds](attachmentids.md)
     
-- [Attachmentid (GetAttachment e DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
+- [AttachmentId (GetAttachment e DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
     
-## <a name="getattachment-response-example"></a>Exemplo de resposta de GetAttachment
+## <a name="getattachment-response-example"></a>Exemplo de resposta GetAttachment
 
 ### <a name="description"></a>Descrição
 
@@ -110,7 +110,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação GetAttac
 
 ### <a name="comments"></a>Comentários
 
-As mensagens de resposta para GetAttachment sempre conterão o anexo completo; ou seja, todas as propriedades serão sempre incluídas. Para anexos de arquivo, essas propriedades são [Name (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md)e [Content](content.md). Para anexos de item, essas propriedades são [Name (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md) e todas as propriedades do item, como se a forma **myproperties** tivesse sido usada em uma chamada GetItem. O elemento [AttachmentShape](attachmentshape.md) , se presente, permitirá que um aplicativo de consumidor solicite propriedades estendidas adicionais para anexos de item. 
+As mensagens de resposta para GetAttachment sempre conterão o anexo completo; ou seja, todas as propriedades sempre serão incluídas. Para anexos de arquivo, essas propriedades são [Name (AttachmentType),](name-attachmenttype.md) [ContentType,](contenttype.md) [ContentId,](contentid.md) [ContentLocation](contentlocation.md)e [Content](content.md). Para anexos de item, essas propriedades são [Name (AttachmentType),](name-attachmenttype.md) [ContentType,](contenttype.md) [ContentId,](contentid.md) [ContentLocation](contentlocation.md) e todas as propriedades do item, como se a forma **AllProperties** tivesse sido usada em uma chamada GetItem. O [elemento AttachmentShape,](attachmentshape.md) se presente, permitirá que um aplicativo consumidor solicite propriedades estendidas adicionais para anexos de item. 
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
@@ -130,9 +130,9 @@ Os seguintes elementos são usados na resposta:
     
 - [FileAttachment](fileattachment.md)
     
-- [Attachmentid (GetAttachment e DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
+- [AttachmentId (GetAttachment e DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
     
-- [Nome (AttachmentType)](name-attachmenttype.md)
+- [Name (AttachmentType)](name-attachmenttype.md)
     
 - [Conteúdo](content.md)
     

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 643f8663-1fab-4625-a7e9-5724e352972b
 description: O elemento FormattedAddress especifica o valor de exibição formatado do endereço postal associado.
-ms.openlocfilehash: 9150a3bb5bc81f7afecdafbf0cc33fafff597578
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 379b02a4ed667ec1a01b54f26dd6d58c7f66fa89
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461937"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535102"
 ---
 # <a name="formattedaddress"></a>FormattedAddress
 
-O elemento **FormattedAddress** especifica o valor de exibição formatado do endereço postal associado. 
+O **elemento FormattedAddress** especifica o valor de exibição formatado do endereço postal associado. 
   
 ```XML
 <FormattedAddress></FormattedAddress>
@@ -40,12 +40,12 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Valor (PersonaPostalAddressType)](value-personapostaladdresstype.md) <br/> |Especifica as informações associadas a um endereço postal.  <br/> |
-|[Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Especifica o endereço postal do local.  <br/> |
+|[Value (PersonaPostalAddressType)](value-personapostaladdresstype.md) <br/> |Especifica informações associadas a um endereço postal.  <br/> |
+|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Especifica o endereço postal do local.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **FormattedAddress** é um valor String que especifica o endereço formatado. 
+O valor de texto do **elemento FormattedAddress** é um valor de cadeia de caracteres que especifica o endereço formatado. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,8 +58,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

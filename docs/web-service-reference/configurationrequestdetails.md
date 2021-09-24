@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 545cfe9d-9995-44d6-a3d0-4d43a169cf67
-description: O elemento ConfigurationRequestDetails contém o estado do cliente para os deslocamentos de política. As informações de estado podem incluir as regras que são instaladas e a versão do componente do cliente.
-ms.openlocfilehash: 302327a13a108f1d87d39bdfd16346a6c43a7557
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ConfigurationRequestDetails contém o estado do cliente para nudges de política. As informações de estado podem incluir as regras instaladas e a versão do componente do cliente.
+ms.openlocfilehash: c8d634650e182a4c7d67d1206183e5025fc7904c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463913"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517248"
 ---
 # <a name="configurationrequestdetails"></a>ConfigurationRequestDetails
 
-O elemento **ConfigurationRequestDetails** contém o estado do cliente para os deslocamentos de política. As informações de estado podem incluir as regras que são instaladas e a versão do componente do cliente. 
+O **elemento ConfigurationRequestDetails** contém o estado do cliente para nudges de política. As informações de estado podem incluir as regras instaladas e a versão do componente do cliente. 
   
 ```XML
 <ConfigurationRequestDetails></ConfigurationRequestDetails>
@@ -34,7 +34,7 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-Os elementos filho não estão definidos no esquema de serviços Web do Exchange.
+Os elementos filho não são definidos no esquema Exchange Web Services.
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -52,7 +52,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

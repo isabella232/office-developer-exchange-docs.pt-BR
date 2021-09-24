@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnifiedMessagingConfiguration
 api_type:
 - schema
 ms.assetid: cbdb4268-077e-44ed-8ec2-9d759c84cc6d
-description: O elemento UnifiedMessagingConfiguration contém informações de configuração de serviço para o serviço de Unificação de mensagens.
-ms.openlocfilehash: 3f9f4ed65721929c552615c07e2239f48ef837f3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UnifiedMessagingConfiguration contém informações de configuração de serviço para o serviço de Unificação de Mensagens.
+ms.openlocfilehash: 861be041117a9df4329ed5b6995635aee3220003
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528689"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517494"
 ---
 # <a name="unifiedmessagingconfiguration"></a>UnifiedMessagingConfiguration
 
-O elemento **UnifiedMessagingConfiguration** contém informações de configuração de serviço para o serviço de Unificação de mensagens. 
+O **elemento UnifiedMessagingConfiguration** contém informações de configuração de serviço para o serviço de Unificação de Mensagens. 
   
 ```XML
 <UnifiedMessagingConfiguration>
@@ -44,15 +44,15 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UmEnabled](umenabled.md) <br/> |Indica se a Unificação de mensagens está habilitada para uma conta. Este elemento é obrigatório.  <br/> |
-|[PlayOnPhoneDialString (serviços Web do Exchange)](playonphonedialstring-exchange-web-services.md) <br/> |Identifica a cadeia de caracteres de discagem de reprodução no telefone. Este elemento é obrigatório.  <br/> |
-|[PlayOnPhoneEnabled](playonphoneenabled.md) <br/> |Indica se o recurso de reproduzir no telefone está habilitado. Este elemento é obrigatório.  <br/> |
+|[UmEnabled](umenabled.md) <br/> |Indica se a Unificação de Mensagens está habilitada para uma conta. Este elemento é obrigatório.  <br/> |
+|[PlayOnPhoneDialString (Exchange Web Services)](playonphonedialstring-exchange-web-services.md) <br/> |Identifica a cadeia de caracteres de discagem Play-on-Telefone. Este elemento é obrigatório.  <br/> |
+|[PlayOnPhoneEnabled](playonphoneenabled.md) <br/> |Indica se o recurso Play-on-Telefone está habilitado. Este elemento é obrigatório.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contém definições de configuração de serviço.  <br/> |
+|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contém configurações de serviço.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

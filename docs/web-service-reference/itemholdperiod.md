@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30369db5-4d45-40e8-bc83-3236667fc404
-description: O elemento ItemHoldPeriod especifica a quantidade de tempo para armazenar o conteúdo que corresponde à consulta de caixa de correio.
-ms.openlocfilehash: 185666b72cc96dd88605b7baa6433d070e7ebc91
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ItemHoldPeriod especifica o tempo de espera para manter o conteúdo que corresponde à consulta de caixa de correio.
+ms.openlocfilehash: de56c410c876917bbe8d545c9ef4f38ee6948b21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452283"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522849"
 ---
 # <a name="itemholdperiod"></a>ItemHoldPeriod
 
-O elemento **ItemHoldPeriod** especifica a quantidade de tempo para armazenar o conteúdo que corresponde à consulta de caixa de correio. 
+O **elemento ItemHoldPeriod** especifica o tempo de espera para manter o conteúdo que corresponde à consulta de caixa de correio. 
   
 ```XML
 <ItemHoldPeriod/>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto pode ser "Unlimited" ou o valor da cadeia de caracteres de qualquer valor [TimeSpan](https://msdn.microsoft.com/library/1ecy8h51%28v=vs.110%29.aspx) . 
+O valor de texto pode ser "Unlimited" ou o valor de cadeia de caracteres de qualquer [valor Timespan.](https://msdn.microsoft.com/library/1ecy8h51%28v=vs.110%29.aspx) 
   
 ## <a name="remarks"></a>Comentários
 

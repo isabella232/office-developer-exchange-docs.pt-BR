@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DateTime
 api_type:
 - schema
 ms.assetid: 9c6ecd4c-779c-4fa5-8082-dd2bc0a751f4
-description: O elemento DateTime representa a data e hora em que ocorre a transição de fuso horário.
-ms.openlocfilehash: 109fc1107ddf59d3e8aea12b267775503ac462ce
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DateTime representa a data e a hora em que ocorre a transição do fuso horário.
+ms.openlocfilehash: 37bd535e42f947caaa0ec9dc4c886132de3fb859
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44442875"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535745"
 ---
 # <a name="datetime"></a>DateTime
 
-O elemento **DateTime** representa a data e hora em que ocorre a transição de fuso horário. 
+O **elemento DateTime** representa a data e a hora em que ocorre a transição do fuso horário. 
   
 ```xml
 <DateTime/>
@@ -45,11 +45,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AbsoluteDateTransition](absolutedatetransition.md) <br/> |Representa uma transição de fuso horário que ocorre em uma data específica e em uma hora específica.  <br/> |
+|[AbsoluteDateTransition](absolutedatetransition.md) <br/> |Representa uma transição de fuso horário que ocorre em uma data específica e em um horário específico.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **DateTime** representa a data e a hora em que ocorre a transição de fuso horário. 
+O valor de texto do **elemento DateTime** representa a data e a hora em que ocorre a transição de fuso horário. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

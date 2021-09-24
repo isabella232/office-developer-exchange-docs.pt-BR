@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e524a09-86f8-4a71-ac5c-66527ae70790
 description: O elemento GetUserPhoto contém a solicitação para obter a foto de um usuário.
-ms.openlocfilehash: 64b0ec67abd70fb237549eb0fed1968275c615ba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 16697acbf3d6559915ea0e72f908cc72da971d58
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463906"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522975"
 ---
 # <a name="getuserphoto"></a>GetUserPhoto
 
-O elemento **GetUserPhoto** contém a solicitação para obter a foto de um usuário. 
+O **elemento GetUserPhoto** contém a solicitação para obter a foto de um usuário. 
   
 ```XML
 <GetUserPhoto>
@@ -37,11 +37,11 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Email (cadeia de caracteres)](email-string.md)  |  [SizeRequested](sizerequested.md)
+[Email (Cadeia de Caracteres)](email-string.md)  |  [SizeRequested](sizerequested.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

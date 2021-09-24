@@ -1,23 +1,23 @@
 ---
-title: Filhos (ArrayOfStringArrayAttributedValuesType)
+title: Children (ArrayOfStringArrayAttributedValuesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d37b3fd5-63f1-4003-a6ec-54adfce23d52
-description: O elemento Children especifica uma matriz de nomes filhos e identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: f4217f8a444bfdb6d86ff7b912294cfad9cbdcdc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Children especifica uma matriz de nomes filho e identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: 878f491af3047d313920cd0f3574de2daa8c21f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460229"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536971"
 ---
-# <a name="children-arrayofstringarrayattributedvaluestype"></a>Filhos (ArrayOfStringArrayAttributedValuesType)
+# <a name="children-arrayofstringarrayattributedvaluestype"></a>Children (ArrayOfStringArrayAttributedValuesType)
 
-O elemento **Children** especifica uma matriz de nomes filhos e identificadores de suas atribuições de origem para o persona associado. 
+O **elemento Children** especifica uma matriz de nomes filho e identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <Children>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

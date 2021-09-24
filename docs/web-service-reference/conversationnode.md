@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7f7acd3-ed65-441e-9976-8b4ed5f12c0b
 description: O elemento ConversationNode especifica um nó em uma conversa.
-ms.openlocfilehash: 074209c1b5669db8dd1ea4ba7f9dea064628afbd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2668d3cfaa8b43812a4a20ab8d92f419d636e368
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462700"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510355"
 ---
 # <a name="conversationnode"></a>ConversationNode
 
-O elemento **ConversationNode** especifica um nó em uma conversa. 
+O **elemento ConversationNode** especifica um nó em uma conversa. 
   
 ```XML
 <ConversationNode>
@@ -41,8 +41,8 @@ Nenhum
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[InternetMessageId](internetmessageid.md) <br/> |Representa o identificador de mensagem da Internet de um item.  <br/> |
-|[ParentInternetMessageId](parentinternetmessageid.md) <br/> |Especifica o identificador da mensagem de Internet pai.  <br/> |
-|[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |Especifica todos os itens no nó de conversa.  <br/> |
+|[ParentInternetMessageId](parentinternetmessageid.md) <br/> |Especifica o identificador da mensagem pai da Internet.  <br/> |
+|[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |Especifica todos os itens no nó da conversa.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -61,8 +61,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

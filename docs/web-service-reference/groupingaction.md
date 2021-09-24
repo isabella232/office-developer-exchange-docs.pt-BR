@@ -1,23 +1,23 @@
 ---
-title: Grupoaction
+title: GroupingAction
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eff6712e-54fa-442e-8d07-e181dda94dac
-description: O elemento Groupingaction é destinado apenas para uso interno.
-ms.openlocfilehash: 868c5c6bc6c0091bbe9e0d81709eaf45ab63ece9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GroupingAction destina-se apenas ao uso interno.
+ms.openlocfilehash: 8169e0b84cc1ed7b9113aaa30b038d52206dfb36
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460446"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516808"
 ---
-# <a name="groupingaction"></a>Grupoaction
+# <a name="groupingaction"></a>GroupingAction
 
-O elemento **groupingaction** é destinado apenas para uso interno. 
+O **elemento GroupingAction** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

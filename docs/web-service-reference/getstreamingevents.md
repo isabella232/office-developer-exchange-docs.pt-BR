@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetStreamingEvents
 api_type:
 - schema
 ms.assetid: dbe83857-c4f8-4d98-813f-e03c289697a1
-description: O elemento GetStreamingEvents representa a operação que é usada por clientes para solicitar notificações de streaming do servidor.
-ms.openlocfilehash: ec133ecd69c05a2208e95f925133570af0233cf2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetStreamingEvents representa a operação usada pelos clientes para solicitar notificações de streaming do servidor.
+ms.openlocfilehash: 8a68b3edbb53b623e4dc709e0128c5b3ebc94f91
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457316"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523046"
 ---
 # <a name="getstreamingevents"></a>GetStreamingEvents
 
-O elemento **GetStreamingEvents** representa a operação que é usada por clientes para solicitar notificações de streaming do servidor. 
+O **elemento GetStreamingEvents** representa a operação usada pelos clientes para solicitar notificações de streaming do servidor. 
   
 [GetStreamingEvents](getstreamingevents.md)
   
@@ -45,7 +45,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) <br/> |Representa o identificador de uma assinatura que é consultada para eventos.  <br/> |
+|[SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) <br/> |Representa o identificador de uma assinatura consultada para eventos.  <br/> |
 |[ConnectionTimeout](connectiontimeout.md) <br/> |Representa o número de minutos para manter uma conexão aberta.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
@@ -58,7 +58,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -77,7 +77,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
   
 [Operação GetStreamingEvents](getstreamingevents-operation.md)
   
-[Cancelar a operação](unsubscribe-operation.md)
+[Operação de cancelamento de assinatura](unsubscribe-operation.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

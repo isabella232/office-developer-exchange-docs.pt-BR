@@ -1,28 +1,28 @@
 ---
-title: GetUMPropertiesResponse (serviço Web da UM)
+title: GetUMPropertiesResponse (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUMPropertiesResponse
 api_type:
 - schema
 ms.assetid: fcd93ce5-7403-46a9-b46e-56d2ebdd2f79
 description: O elemento GetUMPropertiesResponse define uma resposta a uma solicitação de operação GetUMProperties (serviço Web da UM).
-ms.openlocfilehash: 3247489a305c694c10764d7a0c6f02b1fad51ebf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 97c3850d46369d4ab533629a8b24e199db3dd44a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459122"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522961"
 ---
-# <a name="getumpropertiesresponse-um-web-service"></a>GetUMPropertiesResponse (serviço Web da UM)
+# <a name="getumpropertiesresponse-um-web-service"></a>GetUMPropertiesResponse (serviço Web de Unificação de Mensagens)
 
-O elemento **GetUMPropertiesResponse** define uma resposta a uma solicitação de [operação GetUMProperties (serviço Web da um)](getumproperties-operation-um-web-service.md) . 
+O **elemento GetUMPropertiesResponse** define uma resposta a uma solicitação de operação [GetUMProperties (serviço Web](getumproperties-operation-um-web-service.md) da UM). 
   
-[GetUMPropertiesResponse (serviço Web da UM)](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse (serviço Web de Unificação de Mensagens)](getumpropertiesresponse-um-web-service.md)
   
 ```xml
 <GetUMPropertiesResponse>
@@ -47,10 +47,10 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MissedCallNotificationEnabled (serviço Web da UM)](missedcallnotificationenabled-um-web-service.md) <br/> |Indica se as notificações de chamadas perdidas estão habilitadas.  <br/> |
-|[PlayOnPhoneDialString (serviço Web da UM)](playonphonedialstring-um-web-service.md) <br/> |Contém a cadeia de caracteres de discagem padrão a ser usada para a [operação PlayOnPhone (serviço Web da um)](playonphone-operation-um-web-service.md) e a [operação PlayOnPhoneGreeting (serviço da um)](playonphonegreeting-operation-um-web-service.md).  <br/> |
-|[TelephoneAccessNumbers (serviço Web da UM)](telephoneaccessnumbers-um-web-service.md) <br/> |Contém a lista de números de telefone que o usuário pode usar para acessar a Unificação de mensagens por telefone.  <br/> |
-|[TelephoneAccessFolderEmail (serviço Web da UM)](telephoneaccessfolderemail-um-web-service.md) <br/> |Contém o identificador da pasta de email a partir da qual a Unificação de mensagens lerá as mensagens por telefone.  <br/> |
+|[MissedCallNotificationEnabled (serviço Web de Unificação de Mensagens)](missedcallnotificationenabled-um-web-service.md) <br/> |Indica se as notificações de chamada perdidas estão habilitadas.  <br/> |
+|[PlayOnPhoneDialString (serviço Web de Unificação de Mensagens)](playonphonedialstring-um-web-service.md) <br/> |Contém a cadeia de caracteres de discagem padrão a ser usada para a operação [PlayOnPhone (serviço Web](playonphone-operation-um-web-service.md) de UM) e a operação [PlayOnPhoneGreeting (serviço Web da UM)](playonphonegreeting-operation-um-web-service.md).  <br/> |
+|[TelephoneAccessNumbers (serviço Web de Unificação de Mensagens)](telephoneaccessnumbers-um-web-service.md) <br/> |Contém a lista de números de telefone que o usuário pode usar para acessar a Unificação de Mensagens por meio de um telefone.  <br/> |
+|[TelephoneAccessFolderEmail (serviço Web de Unificação de Mensagens)](telephoneaccessfolderemail-um-web-service.md) <br/> |Contém o identificador da pasta de email da qual a Unificação de Mensagens lerá mensagens por telefone.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -58,7 +58,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -73,5 +73,5 @@ Nenhum
 
 
 
-[Operação GetUMProperties (serviço Web da UM)](getumproperties-operation-um-web-service.md)
+[Operação GetUMProperties (serviço Web de Unificação de Mensagens)](getumproperties-operation-um-web-service.md)
 

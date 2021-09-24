@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 488ee828-343f-4382-a5e8-eed1005f5dbc
-description: O elemento ResultType contém o tipo de pesquisa a ser executada. O tipo de pesquisa pode ser apenas estatísticas ou apenas visualização.
-ms.openlocfilehash: 6617c8b4b64cd9b6728317d7247bcc5378e488f0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ResultType contém o tipo de pesquisa a ser executar. O tipo de pesquisa pode ser somente estatísticas ou visualização.
+ms.openlocfilehash: 65227a8f79a7abd597653b646a7c3985c3e38ac9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465279"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509452"
 ---
 # <a name="resulttype"></a>ResultType
 
-O elemento **ResultType** contém o tipo de pesquisa a ser executada. O tipo de pesquisa pode ser apenas estatísticas ou apenas visualização. 
+O **elemento ResultType** contém o tipo de pesquisa a ser executar. O tipo de pesquisa pode ser somente estatísticas ou visualização. 
   
 ```XML
 <ResultType>StatisticsOnly | PreviewOnly</ResultType>
 ```
 
- **SearchResulttype**
+ **SearchResultType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ResultType** é o tipo de resultado que é retornado para uma pesquisa de descoberta. Um valor de texto de **StatisticsOnly** retornará as estatísticas de pesquisa. Um valor de texto de **PreviewOnly** retornará informações de visualização do item. 
+O valor de texto do **elemento ResultType** é o tipo de resultado retornado para uma pesquisa de descoberta. Um valor de texto **de StatisticsOnly** retornará as estatísticas de pesquisa. Um valor de texto **de PreviewOnly** retornará informações de visualização de item. 
   
 ## <a name="remarks"></a>Comentários
 

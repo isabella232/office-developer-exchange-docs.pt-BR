@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DataType
 api_type:
 - schema
 ms.assetid: 267fe5aa-f9b1-4d4c-ac11-0f2e50ec2627
-description: O elemento DataType descreve o tipo de dados que é compartilhado por uma pasta compartilhada.
-ms.openlocfilehash: a7df8d38e10f0ab31038d790d8f35208d1be66d5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DataType descreve o tipo de dados compartilhados por uma pasta compartilhada.
+ms.openlocfilehash: 858165f32aebd523b10840246425c015353d659a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458828"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535853"
 ---
 # <a name="datatype"></a>DataType
 
-O elemento **DataType** descreve o tipo de dados que é compartilhado por uma pasta compartilhada. 
+O **elemento DataType** descreve o tipo de dados compartilhados por uma pasta compartilhada. 
   
 ```xml
 <DataType>Calendar or Contacts</DataType>
@@ -49,13 +49,13 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-A tabela a seguir lista os valores possíveis para o elemento **DataType** . 
+A tabela a seguir lista os valores possíveis para o **elemento DataType.** 
   
 **Valores do elemento DataType**
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Calendário  <br/> |Indica que a pasta compartilhada contém informações do calendário.  <br/> |
+|Calendário  <br/> |Indica que a pasta compartilhada contém informações de calendário.  <br/> |
 |Contatos  <br/> |Indica que a pasta compartilhada contém informações de contato.  <br/> |
    
 ## <a name="remarks"></a>Comentários

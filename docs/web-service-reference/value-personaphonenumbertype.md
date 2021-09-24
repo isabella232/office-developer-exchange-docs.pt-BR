@@ -1,23 +1,23 @@
 ---
-title: Valor (PersonaPhoneNumberType)
+title: Value (PersonaPhoneNumberType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 963eff79-5aa0-4b9f-8eff-80f9fb7ad654
-description: O elemento Value especifica um número de telefone e informações de tipo e é associado a um conjunto de atribuições.
-ms.openlocfilehash: 8d9024e8155d54dd68bca98ed165480475ebc229
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Value especifica um número de telefone e informações de tipo e está associado a um conjunto de atribuições.
+ms.openlocfilehash: 651a60c7cf9cd172d84ba2b9accd14f677f21541
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465244"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510628"
 ---
-# <a name="value-personaphonenumbertype"></a>Valor (PersonaPhoneNumberType)
+# <a name="value-personaphonenumbertype"></a>Value (PersonaPhoneNumberType)
 
-O elemento **Value** especifica um número de telefone e informações de tipo e é associado a um conjunto de atribuições. 
+O **elemento Value** especifica um número de telefone e informações de tipo e está associado a um conjunto de atribuições. 
   
 ```XML
 <Value>
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

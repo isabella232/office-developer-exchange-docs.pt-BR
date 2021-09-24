@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d91aa89-9f9f-4877-846d-aaf48bbeec7c
 description: O elemento ReadFlag indica o estado de leitura a ser definido em itens em uma pasta.
-ms.openlocfilehash: 1d3b9f3fe199ed2e63bdb632135120a5f89f4d1f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ac079f6adbdb2686221dd52d748b05ac4141d6c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529893"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523647"
 ---
 # <a name="readflag"></a>ReadFlag
 
-O elemento **ReadFlag** indica o estado de leitura a ser definido em itens em uma pasta. 
+O **elemento ReadFlag** indica o estado de leitura a ser definido em itens em uma pasta. 
   
 ```XML
 <ReadFlag>true | false</ReadFlag>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **ReadFlag** indica que os itens na pasta serão marcados como lidos. Um valor **false** indica que os itens na pasta serão marcados como não lidos. 
+Um valor de texto **true** para o **elemento ReadFlag** indica que os itens na pasta serão marcados como leitura. Um valor **false** indica que os itens na pasta serão marcados como não lidos. 
   
 ## <a name="remarks"></a>Comentários
 

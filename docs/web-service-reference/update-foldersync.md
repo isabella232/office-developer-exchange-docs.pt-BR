@@ -1,33 +1,33 @@
 ---
-title: Atualização (FolderSync)
+title: Update (FolderSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Update
 api_type:
 - schema
 ms.assetid: 47ed8edb-2a94-471b-b965-93f91456252e
-description: O elemento Update identifica uma única pasta a ser atualizada no repositório do cliente local.
-ms.openlocfilehash: 5c1b5b1fd87e4651125293eac431c56f732c6c02
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Update identifica uma única pasta a ser atualizada no armazenamento de cliente local.
+ms.openlocfilehash: 460d1d9efb3f5dde34bfbb85c332ed150fe4d17a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467134"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517487"
 ---
-# <a name="update-foldersync"></a>Atualização (FolderSync)
+# <a name="update-foldersync"></a>Update (FolderSync)
 
-O elemento **Update** identifica uma única pasta a ser atualizada no repositório do cliente local. 
+O **elemento Update** identifica uma única pasta a ser atualizada no armazenamento de cliente local. 
   
 - [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md) 
 - [ResponseMessages](responsemessages.md) 
 - [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)  
-- [Alterações (hierarquia)](changes-hierarchy.md) 
-- [Atualização (FolderSync)](update-foldersync.md)
+- [Changes (Hierarchy)](changes-hierarchy.md) 
+- [Update (FolderSync)](update-foldersync.md)
   
 ```xml
 <Update>
@@ -73,17 +73,17 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Folder](folder.md) <br/> |Define a pasta a ser criada, obtida, localizar, sincronizar ou atualizar.  <br/> |
+|[Folder](folder.md) <br/> |Define a pasta para criar, obter, encontrar, sincronizar ou atualizar.  <br/> |
 |[CalendarFolder](calendarfolder.md) <br/> |Representa uma pasta que contém principalmente itens de calendário.  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |Representa uma pasta de contatos em uma caixa de correio.  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |Representa uma pasta de pesquisa que está contida em uma caixa de correio.  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |Representa uma pasta de contato em uma caixa de correio.  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |Representa uma pasta de pesquisa contida em uma caixa de correio.  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |Representa uma pasta de tarefas t é thcontained em uma caixa de correio.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Alterações (hierarquia)](changes-hierarchy.md) <br/> |Contém uma matriz em sequência de tipos de alteração que representam o tipo de diferença entre as pastas no cliente e as pastas no servidor Exchange.  <br/> |
+|[Changes (Hierarchy)](changes-hierarchy.md) <br/> |Contém uma matriz sequenciada de tipos de alteração que representam o tipo de diferenças entre as pastas no cliente e as pastas no servidor Exchange.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -95,7 +95,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

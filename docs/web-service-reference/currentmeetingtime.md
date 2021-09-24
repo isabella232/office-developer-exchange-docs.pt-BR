@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CurrentMeetingTime
 api_type:
 - schema
 ms.assetid: 1ff68154-24b5-465a-a31c-3d3bab0d491e
 description: O elemento CurrentMeetingTime representa a hora de início de uma reunião que você deseja atualizar com um horário de reunião proposto por um participante da reunião.
-ms.openlocfilehash: e79616fd735cbf6410e85450bd75c1276923f171
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ef208d232a376d3a7fcffc08db1b8864635c0d0a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458772"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536152"
 ---
 # <a name="currentmeetingtime"></a>CurrentMeetingTime
 
-O elemento **CurrentMeetingTime** representa a hora de início de uma reunião que você deseja atualizar com um horário de reunião proposto por um participante da reunião. 
+O **elemento CurrentMeetingTime** representa a hora de início de uma reunião que você deseja atualizar com um horário de reunião proposto por um participante da reunião. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -50,14 +50,14 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para obter informações de sugestão de reunião.  <br/> Este é o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para obter informações de sugestão de reunião.  <br/> Veja a seguir o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse elemento não é obrigatório.
+Esse elemento não é necessário.
   
 > [!NOTE]
-> O esquema que descreve este elemento está localizado no diretório/EWS/do computador que está executando o MicrosoftExchange Server 2007 que tem a função de servidor de acesso para Cliente instalada. 
+> O esquema que descreve esse elemento está localizado no diretório /EWS/do computador que está executando o MicrosoftExchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada. 
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -65,7 +65,7 @@ Esse elemento não é obrigatório.
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -75,5 +75,5 @@ Esse elemento não é obrigatório.
 [Operação GetUserAvailability](getuseravailability-operation.md)
 
 
-[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

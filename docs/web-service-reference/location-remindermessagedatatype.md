@@ -1,23 +1,23 @@
 ---
-title: Local (ReminderMessageDataType)
+title: Location (ReminderMessageDataType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 173148af-5dda-4322-8d0c-da3ba3780a43
-description: O elemento Location (ReminderMessageDataType) especifica o local do item de calendário para o qual o lembrete se refere.
-ms.openlocfilehash: 16474c1b635a3e2337a89b98b6660293276774bf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Location (ReminderMessageDataType) especifica o local do item de calendário para o que o lembrete é.
+ms.openlocfilehash: db6b8ab0ff5970d6d18af6c7baf4e6ba6609ccd7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44433718"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509634"
 ---
-# <a name="location-remindermessagedatatype"></a>Local (ReminderMessageDataType)
+# <a name="location-remindermessagedatatype"></a>Location (ReminderMessageDataType)
 
-O elemento **Location (ReminderMessageDataType)** especifica o local do item de calendário para o qual o lembrete se refere. 
+O **elemento Location (ReminderMessageDataType)** especifica o local do item de calendário para o que o lembrete é. 
   
 ```xml
 <Location/>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **Location** é o local do item do calendário. 
+O valor de texto do **elemento Location** é o local do item de calendário. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d5425ab-1e75-43d1-b801-802ff5139df6
-description: O elemento MovedItemId especifica o identificador do item que foi movido pela operação MarkAsJunk.
-ms.openlocfilehash: 5cf8800ec672278691348bbcd8c6c8cc7a12905b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MovedItemId especifica o identificador do item movido pela operação MarkAsJunk.
+ms.openlocfilehash: 0775aaed119242fc2a2057fb20807d5be30692e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468611"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509592"
 ---
 # <a name="moveditemid"></a>MovedItemId
 
-O elemento **MovedItemId** especifica o identificador do item que foi movido pela operação **MarkAsJunk** . 
+O **elemento MovedItemId** especifica o identificador do item movido pela **operação MarkAsJunk.** 
   
 ```XML
 <MovedItemId Id="" ChangeKey=""/>
 ```
 
- **ItemIdtype**
+ **ItemIdType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -32,8 +32,8 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|Id  <br/> |O valor do atributo **ID** é o identificador do item que é movido pela operação **MarkAsJunk** . O identificador de item permanecerá o mesmo após a movimentação.  <br/> |
-|ChangeKey  <br/> |O valor do atributo **ChangeKey** é a chave de alteração do item movido. A chave Change muda após o item ser movido pela operação **MarkAsJunk** .  <br/> |
+|Id  <br/> |O valor do **atributo Id** é o identificador de item do item movido pela **operação MarkAsJunk.** O identificador de item permanecerá o mesmo após a movimentação.  <br/> |
+|ChangeKey  <br/> |O valor do atributo **ChangeKey** é a chave de alteração do item movido. A chave de alteração muda depois que o item é movido pela **operação MarkAsJunk.**  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

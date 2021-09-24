@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 1555fd2e-05b6-4b94-907b-dae9174049d9
-description: O elemento NetworkRequirements contém os critérios usados para determinar se o computador cliente está em uma rede que atenda aos requisitos do provedor de serviços de Internet (ISP) para se conectar ao servidor.
-ms.openlocfilehash: d588f7eb12a445fba9c997c4b9db0a6842105b4e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento NetworkRequirements contém os critérios usados para determinar se o computador cliente está em uma rede que atende aos requisitos do provedor de serviços da Internet (ISP) para se conectar ao servidor.
+ms.openlocfilehash: 07a258ad48b74c614ce367db0f893ed884cf3f75
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462721"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509509"
 ---
 # <a name="networkrequirements-pox"></a>NetworkRequirements (POX)
 
-O elemento **NetworkRequirements** contém os critérios usados para determinar se o computador cliente está em uma rede que atenda aos requisitos do provedor de serviços de Internet (ISP) para se conectar ao servidor. 
+O **elemento NetworkRequirements** contém os critérios usados para determinar se o computador cliente está em uma rede que atende aos requisitos do provedor de serviços da Internet (ISP) para se conectar ao servidor. 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Conta (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -60,17 +60,17 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se o cliente de email não corresponder aos requisitos de rede, ele deverá tentar outros tipos de protocolo. Os ISPs podem fornecer um conjunto de marcas de servidor com [pox (com o protocolo)](protocol-pox.md) que não exigem autenticação, mas precisam estar na rede do provedor de Internet. Os ISPs podem listar outro conjunto de servidores que exijam autenticação, mas que não precisam estar em uma rede específica. 
+Se o cliente de email não corresponder aos requisitos de rede, ele deverá tentar outros tipos de protocolo. Os ISPs podem fornecer um conjunto de servidores com marcas [de Protocolo (POX)](protocol-pox.md) que não exigem autenticação, mas são necessários para estar na rede ISP. OS ISPs podem listar outro conjunto de servidores que exigem autenticação, mas não são necessários para estar em uma rede específica. 
   
-O elemento **NetworkRequirements** é opcional. 
+O **elemento NetworkRequirements** é opcional. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

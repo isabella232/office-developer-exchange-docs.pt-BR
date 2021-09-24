@@ -1,33 +1,33 @@
 ---
-title: Configuration
+title: ConfigurationName
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConfigurationName
 api_type:
 - schema
 ms.assetid: 3b524a2f-9c6b-4550-9f3d-f78d176b0f7b
-description: O elemento ConfigurationName especifica as configurações de serviço solicitadas por nome.
-ms.openlocfilehash: 5e1216253a633af643dbd276827842dbe2db5d5f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ConfigurationName especifica as configurações de serviço solicitadas pelo nome.
+ms.openlocfilehash: 39f847c256614cd0c207f440691bd87d09ed237b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463920"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523122"
 ---
-# <a name="configurationname"></a>Configuration
+# <a name="configurationname"></a>ConfigurationName
 
-O elemento **ConfigurationName** especifica as configurações de serviço solicitadas por nome. 
+O **elemento ConfigurationName** especifica as configurações de serviço solicitadas pelo nome. 
   
 ```xml
 <ConfigurationName>MailTips or UnifiedMessagingConfiguration or ProtectionRules</ConfigurationName>
 ```
 
- **Naconfigurationtype**
+ **ServiceConfigurationType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -48,15 +48,15 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-A tabela a seguir lista os valores possíveis para o elemento **ConfigurationName** . 
+A tabela a seguir lista os valores possíveis para o **elemento ConfigurationName.** 
   
 **Valores do elemento ConfigurationName**
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|MailTips  <br/> |Identifica a configuração do serviço de dicas de dicas.  <br/> |
-|UnifiedMessagingConfiguration  <br/> |Identifica a configuração do serviço de Unificação de mensagens.  <br/> |
-|ProtectionRules  <br/> |Identifica a configuração do serviço de regras de proteção.  <br/> |
+|MailTips  <br/> |Identifica a configuração do serviço Dicas de Email.  <br/> |
+|UnifiedMessagingConfiguration  <br/> |Identifica a configuração do serviço de Unificação de Mensagens.  <br/> |
+|ProtectionRules  <br/> |Identifica a configuração do serviço Regras de Proteção.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

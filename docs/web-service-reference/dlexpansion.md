@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DLExpansion
 api_type:
 - schema
 ms.assetid: 9e50278d-fe6a-45e2-a72b-0fb06809e128
 description: O elemento DLExpansion contém uma matriz de caixas de correio que estão contidas em uma lista de distribuição.
-ms.openlocfilehash: 079ad1c0f114d201f5d1b91c3fd9bb45b943cc1a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7c214948b133ea2f30a47b2321c27b555b90e2fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456994"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517207"
 ---
 # <a name="dlexpansion"></a>DLExpansion
 
-O elemento **DLExpansion** contém uma matriz de caixas de correio que estão contidas em uma lista de distribuição. 
+O **elemento DLExpansion** contém uma matriz de caixas de correio que estão contidas em uma lista de distribuição. 
   
 - [ExpandDLResponse](expanddlresponse.md) 
 - [ResponseMessages](responsemessages.md) 
@@ -43,11 +43,11 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|**IndexedPagingOffset** <br/> |Representa o próximo índice que deve ser usado para a próxima solicitação quando você estiver usando um modo de exibição de página indexado.  <br/> |
-|**NumeratorOffset** <br/> |Representa o novo valor do numerador a ser usado para a próxima solicitação quando você estiver usando modos de exibição de página de fração.  <br/> |
-|**AbsoluteDenominator** <br/> |Representa o próximo denominador a ser usado para a próxima solicitação quando você estiver usando modos de exibição de página de fração.  <br/> |
-|**IncludesLastItemInRange** <br/> |Indica se os resultados atuais contêm o último item na consulta para que a paginação adicional não seja necessária.  <br/> |
-|**TotalItemsInView** <br/> |Representa o número total de itens no modo de exibição.  <br/> |
+|**IndexedPagingOffset** <br/> |Representa o próximo índice que deve ser usado para a próxima solicitação quando você estiver usando um exibição de página indexada.  <br/> |
+|**NumeratorOffset** <br/> |Representa o novo valor de numerador a ser usado para a próxima solicitação quando você estiver usando exibições de página fracionada.  <br/> |
+|**AbsoluteDenominator** <br/> |Representa o próximo denominador a ser usado para a próxima solicitação quando você estiver usando exibições de página fracionada.  <br/> |
+|**IncludesLastItemInRange** <br/> |Indica se os resultados atuais contêm o último item na consulta para que a paja adicional não seja necessária.  <br/> |
+|**TotalItemsInView** <br/> |Representa o número total de itens no exibição.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -59,11 +59,11 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Contém o status e o resultado de uma única solicitação de ExpandDL.  <br/> |
+|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Contém o status e o resultado de uma única solicitação ExpandDL.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -71,7 +71,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

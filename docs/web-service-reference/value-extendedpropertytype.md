@@ -1,23 +1,23 @@
 ---
-title: Valor (ExtendedPropertyType)
+title: Value (ExtendedPropertyType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a210393-0e8e-4f43-9360-4512b6dcba35
-description: O elemento Value especifica uma matriz de propriedades estendidas para uma pessoa.
-ms.openlocfilehash: 1a658a6fb2e7987a64b7a6e826bac77190964844
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Value especifica uma matriz de propriedades estendidas para uma persona.
+ms.openlocfilehash: 30cc8e0907eccc88c029a7eb929b34c849a2977a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467582"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510642"
 ---
-# <a name="value-extendedpropertytype"></a>Valor (ExtendedPropertyType)
+# <a name="value-extendedpropertytype"></a>Value (ExtendedPropertyType)
 
-O elemento **Value** especifica uma matriz de propriedades estendidas para uma pessoa. 
+O **elemento Value** especifica uma matriz de propriedades estendidas para uma persona. 
   
 ```XML
 <Value>
@@ -57,7 +57,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

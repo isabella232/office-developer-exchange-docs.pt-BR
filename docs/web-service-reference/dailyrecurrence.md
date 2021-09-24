@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DailyRecurrence
 api_type:
 - schema
 ms.assetid: 0aaf265d-b723-49c6-8e9c-9ba60141e9ab
-description: O elemento DailyRecurrence descreve a frequência, em dias, na qual um item de calendário ou uma tarefa se repete.
-ms.openlocfilehash: d18a04ced19c87996c3a092f6668ab00c5a3f006
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DailyRecurrence descreve a frequência, em dias, na qual um item de calendário ou uma tarefa é recursivo.
+ms.openlocfilehash: 7f79b4f69571a1d3ea1c661831825fb2899ebcdb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462168"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535938"
 ---
 # <a name="dailyrecurrence"></a>DailyRecurrence
 
-O elemento **DailyRecurrence** descreve a frequência, em dias, na qual um item de calendário ou uma tarefa se repete. 
+O **elemento DailyRecurrence** descreve a frequência, em dias, na qual um item de calendário ou uma tarefa é recursivo. 
   
 ```xml
 <DailyRecurrence>
@@ -49,7 +49,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Recorrência (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém informações de recorrência para tarefas recorrentes.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém informações de recorrência para tarefas recorrentes.  <br/> |
 |[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contém o padrão de recorrência para itens de calendário e solicitações de reunião.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -62,7 +62,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

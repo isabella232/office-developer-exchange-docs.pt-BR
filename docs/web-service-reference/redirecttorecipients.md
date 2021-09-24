@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RedirectToRecipients
 api_type:
 - schema
 ms.assetid: 00ef4a84-76d2-4669-b597-f52abbbc34f5
-description: O elemento RedirectToRecipients indica os endereços de email aos quais as mensagens devem ser redirecionadas.
-ms.openlocfilehash: ebc0e0abe88d1e364dee94cc24313879458778d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RedirectToRecipients indica os endereços de email para os quais as mensagens devem ser redirecionadas.
+ms.openlocfilehash: 48a530b01c4ce6562bd59b51396c1f0ab3b42015
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462189"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537403"
 ---
 # <a name="redirecttorecipients"></a>RedirectToRecipients
 
-O elemento **RedirectToRecipients** indica os endereços de email aos quais as mensagens devem ser redirecionadas. 
+O **elemento RedirectToRecipients** indica os endereços de email para os quais as mensagens devem ser redirecionadas. 
   
 ```XML
 <RedirectToRecipients>
@@ -42,13 +42,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Endereço (EmailAddresstype)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
+|[Address (EmailAddressType)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem tomadas em uma mensagem quando as condições são atendidas.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

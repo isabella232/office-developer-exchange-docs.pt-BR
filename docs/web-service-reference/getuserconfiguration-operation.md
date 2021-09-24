@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserConfiguration
 api_type:
 - schema
 ms.assetid: 71d50e3c-92bd-435f-8118-b28bb85f8138
-description: A operação GetUserConfiguration Obtém um objeto de configuração de usuário de uma pasta.
-ms.openlocfilehash: fb28e88d1a47b0ea8f63ed33b1efacae8538e1c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetUserConfiguration obtém um objeto de configuração do usuário de uma pasta.
+ms.openlocfilehash: be6c662cf49a7c2441f94084dd909e86fe703e20
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458205"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516843"
 ---
 # <a name="getuserconfiguration-operation"></a>Operação GetUserConfiguration
 
-A operação **GetUserConfiguration** Obtém um objeto de configuração de usuário de uma pasta. 
+A **operação GetUserConfiguration** obtém um objeto de configuração do usuário de uma pasta. 
   
 ## <a name="getuserconfiguration-request-example"></a>Exemplo de solicitação GetUserConfiguration
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **GetUserConfiguration** mostra como formar uma solicitação para obter um objeto de configuração do usuário na pasta Rascunhos. 
+O exemplo a seguir de uma **solicitação GetUserConfiguration** mostra como formar uma solicitação para obter um objeto de configuração do usuário na pasta Rascunhos. 
   
 ### <a name="code"></a>Código
 
@@ -56,7 +56,7 @@ O exemplo a seguir de uma solicitação **GetUserConfiguration** mostra como for
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetUserConfiguration** . 
+O exemplo a seguir mostra uma resposta bem-sucedida à **solicitação GetUserConfiguration.** 
   
 ### <a name="code"></a>Código
 
@@ -110,7 +110,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetUserCo
 
 
 
-[Operações do EWS no Exchange](ews-operations-in-exchange.md)
+[Operações EWS em Exchange](ews-operations-in-exchange.md)
   
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

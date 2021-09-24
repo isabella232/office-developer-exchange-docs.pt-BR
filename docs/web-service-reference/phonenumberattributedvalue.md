@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8bf16552-b672-424a-91b6-6470e20a49ad
 description: O elemento PhoneNumberAttributedValue especifica uma instância de uma matriz de números de telefone e suas atribuições associadas.
-ms.openlocfilehash: b1597ea33973d0dde5bd528061cf732101582c9d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 05d90c069cb139d83d81941d38bc0f59aa29b64b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465622"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516668"
 ---
 # <a name="phonenumberattributedvalue"></a>PhoneNumberAttributedValue
 
-O elemento **PhoneNumberAttributedValue** especifica uma instância de uma matriz de números de telefone e suas atribuições associadas. 
+O **elemento PhoneNumberAttributedValue** especifica uma instância de uma matriz de números de telefone e suas atribuições associadas. 
   
 ```XML
 <PhoneNumberAttributedValue>
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 085384f9-dca4-4534-82e2-dd782471d0da
-description: O elemento DiscoverySearchConfiguration especifica a configuração da pesquisa de descoberta eletrônica.
-ms.openlocfilehash: 8819d951f35ccc215bdf0128d2a16b60bbf20f2a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DiscoverySearchConfiguration especifica a configuração da pesquisa de Descoberta Eletrônica.
+ms.openlocfilehash: 4f5f0a5b8e78521302fd136f0a0280aa3ff4e4c3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529053"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523094"
 ---
 # <a name="discoverysearchconfiguration"></a>DiscoverySearchConfiguration
 
-O elemento **DiscoverySearchConfiguration** especifica a configuração da pesquisa de descoberta eletrônica. 
+O **elemento DiscoverySearchConfiguration** especifica a configuração da pesquisa de Descoberta Eletrônica. 
   
 ```XML
 <DiscoverySearchConfiguration>
@@ -41,14 +41,14 @@ Nenhum
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[SearchId](searchid.md) <br/> |Especifica o identificador da pesquisa.  <br/> |
-|[SearchQuery](searchquery.md) <br/> |Especifica o nome de uma consulta de pesquisa de descoberta eletrônica.  <br/> |
-|[SearchableMailboxes](searchablemailboxes.md) <br/> |Contém uma lista das caixas de correio retornadas de uma solicitação **GetSearchableMailboxes** .  <br/> |
+|[SearchQuery](searchquery.md) <br/> |Especifica o nome de uma consulta de pesquisa de Descoberta e.  <br/> |
+|[SearchableMailboxes](searchablemailboxes.md) <br/> |Contém uma lista das caixas de correio retornadas de uma **solicitação GetSearchableMailboxes.**  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DiscoverySearchConfigurations](discoverysearchconfigurations.md) <br/> |Especifica uma matriz de elementos **DiscoverySearchConfiguration** .  <br/> |
+|[DiscoverySearchConfigurations](discoverysearchconfigurations.md) <br/> |Especifica uma matriz de **elementos DiscoverySearchConfiguration.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -62,7 +62,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

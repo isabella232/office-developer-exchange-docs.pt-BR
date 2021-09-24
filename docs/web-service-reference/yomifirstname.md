@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - YomiFirstName
 api_type:
 - schema
 ms.assetid: 86ef6012-2d3c-4058-9c43-5ddbea25f6ce
-description: O elemento YomiFirstName representa o nome que é usado no Japão para a ortografia de pesquisa ou fonética para o primeiro nome em Japonês.
-ms.openlocfilehash: b059059fde9d5a455ea32113fa454de254598d29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento YomiFirstName representa o nome usado no Japão para a ortografia pesquisável ou phoneética para um nome japonês.
+ms.openlocfilehash: 3021f0a18cc38d139b7d2513ff0b6fde777aa363
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465125"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510586"
 ---
 # <a name="yomifirstname"></a>YomiFirstName
 
-O elemento **YomiFirstName** representa o nome que é usado no Japão para a ortografia de pesquisa ou fonética para o primeiro nome em Japonês. 
+O **elemento YomiFirstName** representa o nome usado no Japão para a ortografia pesquisável ou phoneética para um nome japonês. 
   
 ```xml
 <YomiFirstName/>
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -66,5 +66,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Criando contatos (serviços Web do Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Criando contatos (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

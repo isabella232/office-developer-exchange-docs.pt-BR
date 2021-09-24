@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NewBodyContent
 api_type:
 - schema
 ms.assetid: 0303600d-16d8-4685-88f2-980c5ca7e9a6
-description: O elemento NewBodyContent representa o novo conteúdo do corpo de uma mensagem.
-ms.openlocfilehash: dcfa927bb284ff00e510d8c7b4b31910a70b3cbb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento NewBodyContent representa o novo conteúdo de corpo de uma mensagem.
+ms.openlocfilehash: 48f6a12e0492249d239196ca3be19857e34e0099
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466854"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509508"
 ---
 # <a name="newbodycontent"></a>NewBodyContent
 
-O elemento **NewBodyContent** representa o novo conteúdo do corpo de uma mensagem. 
+O **elemento NewBodyContent** representa o novo conteúdo de corpo de uma mensagem. 
   
 ```xml
 <NewBodyContent BodyType=""/>
@@ -43,7 +43,7 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 |**Valor**|**Descrição**|
 |:-----|:-----|
 |**HTML** <br/> |Converte todos os corpos em HTML.  <br/> |
-|**Text** <br/> |Converte todos os corpos em texto sem formatação.  <br/> |
+|**Texto** <br/> |Converte todos os corpos em texto sem texto.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -53,19 +53,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ReplyToItem](replytoitem.md) <br/> |Contém uma resposta para o remetente de um item no repositório do Exchange.  <br/> |
-|[ReplyAllToItem](replyalltoitem.md) <br/> |Contém uma resposta para o remetente e todos os destinatários identificados de um item no repositório do Exchange.  <br/> |
-|[ForwardItem](forwarditem.md) <br/> |Contém um item de repositório do Exchange para encaminhar aos destinatários.  <br/> |
-|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Representa o objeto Response que é usado para cancelar uma reunião.  <br/> |
-|[PostReplyItem](postreplyitem.md) <br/> |Contém uma resposta a um item de postagem. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
+|[ReplyToItem](replytoitem.md) <br/> |Contém uma resposta ao remetente de um item no Exchange store.  <br/> |
+|[ReplyAllToItem](replyalltoitem.md) <br/> |Contém uma resposta ao remetente e a todos os destinatários identificados de um item no Exchange store.  <br/> |
+|[ForwardItem](forwarditem.md) <br/> |Contém um Exchange de armazenamento para encaminhar aos destinatários.  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Representa o objeto de resposta usado para cancelar uma reunião.  <br/> |
+|[PostReplyItem](postreplyitem.md) <br/> |Contém uma resposta a um item de postagem. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o novo conteúdo do corpo de uma mensagem.
+O valor do texto representa o novo conteúdo de corpo de uma mensagem.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do servidor Exchange que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do servidor Exchange que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -73,7 +73,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

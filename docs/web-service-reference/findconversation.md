@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FindConversation
 api_type:
 - schema
 ms.assetid: 94b7083c-60cf-478b-a9af-a88f7acb30fb
-description: O elemento FindConversation define uma solicitação para localizar conversas em uma caixa de correio.
-ms.openlocfilehash: 98d692132ed9375d981c95d24600b0e2c4b1d8c1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento FindConversation define uma solicitação para encontrar conversas em uma caixa de correio.
+ms.openlocfilehash: e48e0d9fd71dac12fe6848031b2c056ea9a913ce
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462644"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535167"
 ---
 # <a name="findconversation"></a>FindConversation
 
-O elemento **FindConversation** define uma solicitação para localizar conversas em uma caixa de correio. 
+O **elemento FindConversation** define uma solicitação para encontrar conversas em uma caixa de correio. 
   
 [FindConversation](findconversation.md)
   
@@ -48,17 +48,17 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|Passagem  <br/> |Identifica os tipos de travessia da subárvore. Esse atributo é opcional.  <br/> |
+|Traversal  <br/> |Identifica os tipos de sub-árvore atravessada. Esse atributo é opcional.  <br/> |
 |ViewFilter  <br/> |Identifica os filtros de exibição de tipos. Esse atributo é opcional.  <br/> |
    
-#### <a name="traversal-attribute-values"></a>Valores de atributos de passagem
+#### <a name="traversal-attribute-values"></a>Valores do atributo traversal
 
 ****
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Superficial  <br/> |Indica uma passagem superficial.  <br/> |
-|Detalhadas  <br/> |Indica uma passagem detalhada.  <br/> |
+|Superficial  <br/> |Indica uma rota superficial.  <br/> |
+|Deep  <br/> |Indica uma profunda rotação.  <br/> |
    
 #### <a name="viewfilter-attribute-values"></a>Valores de atributo ViewFilter
 
@@ -67,35 +67,35 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 |**Valor**|**Descrição**|
 |:-----|:-----|
 |Todos  <br/> |Encontre todas as conversas.  <br/> |
-|Indicado  <br/> |Encontre conversas sinalizadas.  <br/> |
+|Sinalizado  <br/> |Encontre conversas sinalizadas.  <br/> |
 |HasAttachment  <br/> |Encontre conversas com anexos.  <br/> |
-|ToOrCcMe  <br/> |Encontre conversas endereçadas ou CC para mim.  <br/> |
-|Unread  <br/> |Localizar conversas não lidas.  <br/> |
+|ToOrCcMe  <br/> |Encontre conversas endereçadas ou cc'd para mim.  <br/> |
+|Unread  <br/> |Encontre conversas não lidas.  <br/> |
 |TaskActive  <br/> |Encontre tarefas ativas.  <br/> |
 |TaskOverdue  <br/> |Encontre tarefas atrasadas.  <br/> |
-|TaskCompleted  <br/> |Localizar tarefas concluídas.  <br/> |
-|Desorganização  <br/> |Apenas para uso interno.  <br/> |
+|TaskCompleted  <br/> |Encontre tarefas concluídas.  <br/> |
+|NoClutter  <br/> |Apenas para uso interno.  <br/> |
 |Email secundário  <br/> |Apenas para uso interno.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[IndexedPageItemView](indexedpageitemview.md) <br/> |Descreve como as informações de conversa paginadas são retornadas.  <br/> |
-|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |Especifica a condição usada para identificar o final de uma pesquisa, o índice inicial de uma pesquisa, o número máximo de entradas a serem retornadas e as direções de pesquisa para uma pesquisa do **FindItem** ou do **FindConversation** .  <br/> |
-|[SortOrder](sortorder.md) <br/> |Define como os itens são classificados em uma solicitação de [operação FindConversation](findconversation-operation.md) . A propriedade **Conversation: LastDeliveryTime** é a única propriedade que tem suporte para a classificação quando a operação **FindConversation** é usada.  <br/> |
-|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |Identifica a pasta na qual as conversas serão pesquisadas.  <br/> |
-|[MailboxScope](mailboxscope.md) <br/> |Especifica se uma pesquisa ou busca de uma conversa deve abranger a caixa de correio principal, a caixa de correio de arquivo morto ou a caixa de correio principal e de arquivo morto.  <br/> |
-|[QueryString (QueryStringtype)](querystring-querystringtype.md) <br/> |Especifica uma cadeia de caracteres de consulta de caixa de correio baseada na sintaxe de consulta avançada (AQS).  <br/> |
-|[ConversationShape](conversationshape.md) <br/> |Identifica o conjunto de propriedades a ser retornado em uma resposta de [operação FindConversation](findconversation-operation.md) .  <br/> |
+|[IndexedPageItemView](indexedpageitemview.md) <br/> |Descreve como as informações de conversa com páginas são retornadas.  <br/> |
+|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |Especifica a condição usada para identificar o final de uma pesquisa, o índice inicial de uma pesquisa, as entradas máximas a retornar e as instruções de pesquisa para uma pesquisa **FindItem** ou **FindConversation.**  <br/> |
+|[SortOrder](sortorder.md) <br/> |Define como os itens são classificação em uma solicitação de operação [FindConversation.](findconversation-operation.md) A **propriedade conversation:LastDeliveryTime** é a única propriedade com suporte para classificação quando a **operação FindConversation** é usada.  <br/> |
+|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |Identifica a pasta para pesquisar conversas.  <br/> |
+|[MailboxScope](mailboxscope.md) <br/> |Especifica se uma pesquisa ou busca para uma conversa deve abranger a caixa de correio principal, a caixa de correio de arquivo morto ou a caixa de correio principal e de arquivo morto.  <br/> |
+|[QueryString (QueryStringType)](querystring-querystringtype.md) <br/> |Especifica uma cadeia de caracteres de consulta de caixa de correio com base na Sintaxe de Consulta Avançada (AQS).  <br/> |
+|[ConversationShape](conversationshape.md) <br/> |Identifica o conjunto de propriedades a ser retornada em uma resposta de [operação FindConversation.](findconversation-operation.md)  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 

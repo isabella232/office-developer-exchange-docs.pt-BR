@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9c01c64-e76c-4adc-8b04-88af97bd0cc8
-description: O DeletedOccurrenceStateDefinition especifica o estado de uma ocorrência excluída de um item de calendário.
-ms.openlocfilehash: ff8ad1d9c35d7bab3f6fe2cd1896bb16384c18e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A DeletedOccurrenceStateDefinition especifica o estado de uma ocorrência excluída de um item de calendário.
+ms.openlocfilehash: 296eb1c99d5cc32cf8d1711bdb605ae10230ab34
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458793"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510278"
 ---
 # <a name="deletedoccurrencestatedefinition"></a>DeletedOccurrenceStateDefinition
 
-O **DeletedOccurrenceStateDefinition** especifica o estado de uma ocorrência excluída de um item de calendário. 
+A **DeletedOccurrenceStateDefinition** especifica o estado de uma ocorrência excluída de um item de calendário. 
   
 ```XML
 <DeletedOccurrenceStateDefinition>
@@ -39,7 +39,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Ocorrência (transição de fuso horário)](occurrence-time-zone-transition.md) <br/> |Especifica a data da ocorrência de um item do calendário.  <br/> |
+|[Occurrence (Time Zone Transition)](occurrence-time-zone-transition.md) <br/> |Especifica a data da ocorrência de um item de calendário.  <br/> |
 |[IsOccurrencePresent](isoccurrencepresent.md) <br/> |Especifica um valor Boolean que indica se uma ocorrência do item de calendário está presente.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
@@ -59,8 +59,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

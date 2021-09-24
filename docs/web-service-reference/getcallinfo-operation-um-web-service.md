@@ -1,26 +1,26 @@
 ---
-title: Operação GetCallInfo (serviço Web da UM)
+title: Operação GetCallInfo (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetCallInfo
 api_type:
 - schema
 ms.assetid: 6bccd418-caf7-4eb9-8a6f-410e56a635c3
-description: A operação GetCallInfo retorna o status da chamada de saída especificada por callid (serviço da Web da UM).
-ms.openlocfilehash: 6b5664dfe16f9c74cc7175098145141b815a6355
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetCallInfo retorna o status da chamada de saída especificada por CallId (serviço Web de UM).
+ms.openlocfilehash: 0563190ab267b3a48d7ccacbdb1e136c6e3da0b4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461237"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509940"
 ---
-# <a name="getcallinfo-operation-um-web-service"></a>Operação GetCallInfo (serviço Web da UM)
+# <a name="getcallinfo-operation-um-web-service"></a>Operação GetCallInfo (serviço Web de Unificação de Mensagens)
 
-A operação GetCallInfo retorna o status da chamada de saída especificada por [callid (serviço da Web da um)](callid-um-web-service.md).
+A operação GetCallInfo retorna o status da chamada de saída especificada por [CallId (serviço Web da UM)](callid-um-web-service.md).
   
 ## <a name="getcallinfo-request-example"></a>Exemplo de solicitação GetCallInfo
 
@@ -41,7 +41,7 @@ O exemplo a seguir de uma solicitação GetCallInfo mostra como formar uma solic
 </soap:Envelope>
 ```
 
-## <a name="successful-getcallinfo-response-example"></a>Exemplo de resposta GetCallInfo bem-sucedida
+## <a name="successful-getcallinfo-response-example"></a>Exemplo de resposta GetCallInfo bem-sucedido
 
 ### <a name="description"></a>Descrição
 
@@ -67,13 +67,13 @@ O exemplo a seguir de uma resposta GetCallInfo mostra uma resposta a uma solicit
 
 
 
-[GetCallInfo (serviço Web da UM)](getcallinfo-um-web-service.md)
+[GetCallInfo (serviço Web de Unificação de Mensagens)](getcallinfo-um-web-service.md)
   
-[GetCallInfoResponse (serviço Web da UM)](getcallinforesponse-um-web-service.md)
+[GetCallInfoResponse (serviço Web de Unificação de Mensagens)](getcallinforesponse-um-web-service.md)
   
-[Callid (serviço Web da UM)](callid-um-web-service.md)
+[CallId (serviço Web de Unificação de Mensagens)](callid-um-web-service.md)
   
-[Callstate (serviço Web da UM)](callstate-um-web-service.md)
+[CallState (serviço Web de Unificação de Mensagens)](callstate-um-web-service.md)
   
-[EventCause (serviço Web da UM)](eventcause-um-web-service.md)
+[EventCause (serviço Web de Unificação de Mensagens)](eventcause-um-web-service.md)
 

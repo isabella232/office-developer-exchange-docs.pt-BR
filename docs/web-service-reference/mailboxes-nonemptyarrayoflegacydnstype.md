@@ -1,23 +1,23 @@
 ---
-title: Caixas de correio (NonEmptyArrayOfLegacyDNsType)
+title: Mailboxes (NonEmptyArrayOfLegacyDNsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e44bc49-8c99-472c-a507-0b5c25db9322
-description: O elemento Mailboxes especifica uma matriz de caixas de correio identificadas pelo nome distinto herdado.
-ms.openlocfilehash: 7e84a0d1c9ff53e45f8e844136f61de66f6d0ab4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Mailboxes especifica uma matriz de caixas de correio identificadas pelo nome diferenciado herdado.
+ms.openlocfilehash: 1b11798fc7de6f94bff733f73bda9f57864cc503
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465979"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509606"
 ---
-# <a name="mailboxes-nonemptyarrayoflegacydnstype"></a>Caixas de correio (NonEmptyArrayOfLegacyDNsType)
+# <a name="mailboxes-nonemptyarrayoflegacydnstype"></a>Mailboxes (NonEmptyArrayOfLegacyDNsType)
 
-O elemento **Mailboxes** especifica uma matriz de caixas de correio identificadas pelo nome distinto herdado. 
+O **elemento Mailboxes** especifica uma matriz de caixas de correio identificadas pelo nome diferenciado herdado. 
   
 ```XML
 <Mailboxes>

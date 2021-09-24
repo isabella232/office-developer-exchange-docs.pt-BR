@@ -1,23 +1,23 @@
 ---
-title: EndDate (remindertype)
+title: EndDate (ReminderType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 616e9a88-afd2-4df3-aa3b-f126bdebfaec
-description: O elemento EndDate especifica a data de término do item para o qual o lembrete se refere.
-ms.openlocfilehash: 37ebb31f4ff94e7e5eeacf218c9cbccdaf4f3ace
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EndDate especifica a data de término do item para o que o lembrete é.
+ms.openlocfilehash: 66c5a6b0b03ca2b240b469bd232d5b6b6487e15d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460152"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517095"
 ---
-# <a name="enddate-remindertype"></a>EndDate (remindertype)
+# <a name="enddate-remindertype"></a>EndDate (ReminderType)
 
-O elemento **EndDate** especifica a data de término do item para o qual o lembrete se refere. 
+O **elemento EndDate** especifica a data de término do item para o que o lembrete é. 
   
 ```XML
 <EndDate/>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **EndDate** é a data de término de um item. 
+O valor de texto do **elemento EndDate** é a data de término de um item. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

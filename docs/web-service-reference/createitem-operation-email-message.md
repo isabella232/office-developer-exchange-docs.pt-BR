@@ -1,25 +1,25 @@
 ---
-title: Operação CreateItem (mensagem de email)
+title: Operação CreateItem (mensagem de e-mail)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1
 description: A operação CreateItem é usada para criar mensagens de email.
-ms.openlocfilehash: 384ed8ff653029c2b7db0b36986d85842b0a06cf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 74784d72ed14fa139c616cd11740a62efd17b338
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457113"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536465"
 ---
-# <a name="createitem-operation-email-message"></a>Operação CreateItem (mensagem de email)
+# <a name="createitem-operation-email-message"></a>Operação CreateItem (mensagem de e-mail)
 
 A operação CreateItem é usada para criar mensagens de email.
   
@@ -27,7 +27,7 @@ A operação CreateItem é usada para criar mensagens de email.
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação CreateItem mostra como criar uma nova mensagem de email, enviar a mensagem e salvar uma cópia dela na pasta Rascunhos.
+O exemplo a seguir de uma solicitação CreateItem mostra como criar uma nova mensagem de email, enviar a mensagem e salvar uma cópia dela na pasta rascunhos.
   
 ### <a name="code"></a>Código
 
@@ -58,7 +58,7 @@ O exemplo a seguir de uma solicitação CreateItem mostra como criar uma nova me
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação: 
   
@@ -66,7 +66,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [SavedItemFolderId](saveditemfolderid.md)
     
-- [Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [Mensagem](message-ex15websvcsotherref.md)
     
@@ -84,7 +84,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [IsRead](isread.md)
     
-Para encontrar outras opções para a mensagem de solicitação da operação CreateItem, explore a hierarquia do esquema. Inicie no elemento [CreateItem](createitem.md) . 
+Para encontrar outras opções para a mensagem de solicitação da operação CreateItem, explore a hierarquia de esquema. Comece no [elemento CreateItem.](createitem.md) 
   
 ## <a name="successful-createitem-response"></a>Resposta CreateItem bem-sucedida
 
@@ -131,9 +131,9 @@ Os seguintes elementos estão incluídos na resposta:
     
 - [Itens](items.md)
     
-Para encontrar outras opções para a mensagem de resposta da operação CreateItem, explore a hierarquia do esquema. Inicie no elemento [CreateItemResponse](createitemresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta da operação CreateItem, explore a hierarquia de esquema. Comece no [elemento CreateItemResponse.](createitemresponse.md) 
   
-## <a name="error-createitem-response"></a>Resposta de erro CreateItem
+## <a name="error-createitem-response"></a>Resposta CreateItem de Erro
 
 ### <a name="description"></a>Descrição
 
@@ -184,7 +184,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [Itens](items.md)
     
-Para encontrar outras opções para a mensagem de resposta de erro da operação CreateItem, explore a hierarquia de esquema. Inicie no elemento [CreateItemResponse](createitemresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta de erro da operação CreateItem, explore a hierarquia de esquema. Comece no [elemento CreateItemResponse.](createitemresponse.md) 
   
 ## <a name="see-also"></a>Confira também
 

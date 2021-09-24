@@ -5,14 +5,14 @@ ms.date: 03/9/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18bfa012-e903-d7f3-528a-31ccceb65463
-ms.openlocfilehash: 24f5a62eadd490b5b0000dfe048850c44540f266
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d0e425d5493f9155aff7e16c306a785663f5b89f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528731"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522659"
 ---
 # <a name="referenceattachmenttype-complextype-ews"></a>ReferenceAttachmentType complexType (EWS)
 
@@ -21,7 +21,7 @@ ms.locfileid: "44528731"
 |||
 |:-----|:-----|
 |**Namespace** <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|**Arquivo de esquema** <br/> |Types. xsd  <br/> |
+|**Arquivo de esquema** <br/> |types.xsd  <br/> |
 |**Base da extensão** <br/> |t:AttachmentType  <br/> |
    
 ## <a name="definition"></a>Definição

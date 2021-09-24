@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 73cebc8c-770a-4f1b-b93e-51e7e2f3e342
-description: O elemento EwsUrl especifica a URL da melhor instância de ponto de extremidade para os serviços Web do Exchange (EWS) para um usuário habilitado para email.
-ms.openlocfilehash: 295e65ddf14524a41c5cb714df78703dbf855a05
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EwsUrl especifica a URL da melhor instância de ponto de extremidade para Exchange Web Services (EWS) para um usuário habilitado para email.
+ms.openlocfilehash: de69805729520965f0d92f98aa9caaef178b8bc9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44454348"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535462"
 ---
 # <a name="ewsurl-pox"></a>EwsUrl (POX)
 
-O elemento **EwsUrl** especifica a URL da melhor instância de ponto de extremidade para os serviços Web do Exchange (EWS) para um usuário habilitado para email. 
+O **elemento EwsUrl** especifica a URL da melhor instância de ponto de extremidade para Exchange Web Services (EWS) para um usuário habilitado para email. 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Conta (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -48,19 +48,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando Microsoft Exchange Server que tem a função de servidor de Acesso para Cliente instalada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa a URL do ponto de extremidade do EWS para o usuário.
+O valor de texto representa a URL do ponto de extremidade EWS para o usuário.
   
 ## <a name="remarks"></a>Comentários
 
-O elemento **EwsUrl** é um elemento filho opcional do elemento **Protocol** . 
+O **elemento EwsUrl** é um elemento filho opcional do **elemento Protocol.** 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

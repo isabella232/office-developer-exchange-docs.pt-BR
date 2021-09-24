@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c8a35b8-a940-4b3e-8768-9ba95766fd79
 description: O elemento ConversationNodes especifica uma coleção de nós de conversa.
-ms.openlocfilehash: 39ffb97f1004535e2fc70b58f8d56afe129e8ee2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8bacbc83676d9642ae8f842affbc11338cbdff0c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461391"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536621"
 ---
 # <a name="conversationnodes"></a>ConversationNodes
 
-O elemento **ConversationNodes** especifica uma coleção de nós de conversa. 
+O **elemento ConversationNodes** especifica uma coleção de nós de conversa. 
   
 ```XML
 <ConversationNodes>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (ConversationResponseType)](conversation-conversationresponsetype.md) <br/> |Representa uma única conversa retornada em uma resposta **GetConversationItems** .  <br/> |
+|[Conversation (ConversationResponseType)](conversation-conversationresponsetype.md) <br/> |Representa uma única conversa retornada em uma **resposta GetConversationItems.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

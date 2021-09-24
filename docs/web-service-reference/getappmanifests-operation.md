@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21a4987c-c24d-4a6e-ace4-e81edcda6303
-description: Encontre informações sobre a operação do EWS do GetAppManifests.
-ms.openlocfilehash: 4d4c1d32f14cf144335ddfdf8c9cd4c88a4421d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação GetAppManifests EWS.
+ms.openlocfilehash: 979a09d24d0c9365a92e589aa169bebf2340411b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463003"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509914"
 ---
 # <a name="getappmanifests-operation"></a>Operação GetAppManifests
 
-Encontre informações sobre a operação do EWS do **GetAppManifests** . 
+Encontre informações sobre a **operação GetAppManifests** EWS. 
   
-A operação **GetAppManifests** recupera manifestos de aplicativos. 
+A **operação GetAppManifests** recupera os manifestos do aplicativo. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-getappmanifests-operation"></a>Usando a operação GetAppManifests
 
-A operação **GetAppManifests** não usa argumentos para solicitar os manifestos de aplicativo para uma caixa de correio. A resposta conterá arquivos de manifesto XML codificados em base64 para cada aplicativo instalado em uma caixa de correio. 
+A **operação GetAppManifests** não leva argumentos para solicitar os manifestos do aplicativo para uma caixa de correio. A resposta conterá arquivos de manifesto XML codificados com base64 para cada aplicativo instalado em uma caixa de correio. 
   
-### <a name="getappmanifests-operation-soap-headers"></a>Cabeçalhos SOAP de operação GetAppManifests
+### <a name="getappmanifests-operation-soap-headers"></a>Headers SOAP da operação GetAppManifests
 
-A operação **GetAppManifests** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação GetAppManifests** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="getappmanifests-operation-request-example-get-the-app-manifests-for-a-mailbox"></a>Exemplo de solicitação de operação GetAppManifests: obter os manifestos de aplicativo para uma caixa de correio
+## <a name="getappmanifests-operation-request-example-get-the-app-manifests-for-a-mailbox"></a>Exemplo de solicitação de operação GetAppManifests: Obter os manifestos do aplicativo para uma caixa de correio
 
-O exemplo a seguir de uma solicitação de operação **GetAppManifests** mostra como obter os manifestos de aplicativo para uma caixa de correio. O elemento [ApiVersionSupported](apiversionsupported.md) e o elemento [SchemaVersionSupported](schemaversionsupported.md) são opcionais. 
+O exemplo a seguir de uma **solicitação de operação GetAppManifests** mostra como obter os manifestos do aplicativo para uma caixa de correio. O [elemento ApiVersionSupported](apiversionsupported.md) e o [elemento SchemaVersionSupported são](schemaversionsupported.md) opcionais. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -70,12 +70,12 @@ O corpo SOAP de solicitação contém o seguinte elemento:
     
 - [SchemaVersionSupported](schemaversionsupported.md)
     
-## <a name="successful-getappmanifests-operation-response"></a>Resposta de operação GetAppManifests bem-sucedida
+## <a name="successful-getappmanifests-operation-response"></a>Resposta bem-sucedida da operação GetAppManifests
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetAppManifests** para obter os manifestos de aplicativo para uma caixa de correio. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetAppManifests** para obter os manifestos do aplicativo para uma caixa de correio. 
   
 > [!NOTE]
-> Todos os manifestos de aplicativos Base64 foram truncados arbitrariamente para preservar a legibilidade. 
+> Todos os manifestos de aplicativo base64 foram arbitrariamente truncados para preservar a capacidade de leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -112,9 +112,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [ResponseCode](responsecode.md)
     
-- [Apps](apps.md)
+- [Aplicativos](apps.md)
     
-- [App](app.md)
+- [Aplicativo](app.md)
     
 - [Manifesto](manifest.md)
     
@@ -122,9 +122,9 @@ O corpo SOAP de resposta também pode conter o seguinte elemento:
   
 - [Manifestos](manifests.md)
     
-## <a name="getappmanifests-operation-error-response"></a>Resposta de erro de operação GetAppManifests
+## <a name="getappmanifests-operation-error-response"></a>Resposta de erro da operação GetAppManifests
 
-Os erros retornados para esta operação estão relacionados a um formato inválido dos parâmetros de entrada ou são erros genéricos do EWS. Para códigos de erro genéricos para EWS e específicos para esta operação, consulte [ResponseCode](responsecode.md).
+Os erros retornados para essa operação estão relacionados a um formato inválido dos parâmetros de entrada ou são erros genéricos do EWS. Para códigos de erro genéricos para EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -157,7 +157,7 @@ Os erros retornados para esta operação estão relacionados a um formato invál
 
 ## <a name="see-also"></a>Confira também
 
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
     
 - [Operação DisableApp](disableapp-operation.md)
     

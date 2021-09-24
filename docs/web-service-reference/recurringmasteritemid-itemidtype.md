@@ -1,29 +1,29 @@
 ---
-title: RecurringMasterItemId (ItemIdtype)
+title: RecurringMasterItemId (ItemIdType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48d831cf-10d8-480b-86d2-f9c0b14b8167
-description: O elemento RecurringMasterItemId (ItemIdtype) identifica um item mestre de recorrência identificando os identificadores de um dos itens de ocorrência relacionados.
-ms.openlocfilehash: c725998ad3a728ef1f47ff6491592b461753b895
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RecurringMasterItemId (ItemIdType) identifica um item mestre de recorrência identificando os identificadores de um de seus itens de ocorrência relacionados.
+ms.openlocfilehash: 491bb6686ad6cc9ee8169144b659d828e3920e45
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468436"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522737"
 ---
-# <a name="recurringmasteritemid-itemidtype"></a>RecurringMasterItemId (ItemIdtype)
+# <a name="recurringmasteritemid-itemidtype"></a>RecurringMasterItemId (ItemIdType)
 
-O elemento **RecurringMasterItemId (ItemIdType)** identifica um item mestre de recorrência identificando os identificadores de um dos itens de ocorrência relacionados. 
+O **elemento RecurringMasterItemId (ItemIdType)** identifica um item mestre de recorrência identificando os identificadores de um de seus itens de ocorrência relacionados. 
   
 ```XML
 <RecurringMasterItemId Id="" ChangeKey=""/>
 ```
 
- **ItemIdtype**
+ **ItemIdType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -35,7 +35,7 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
 |Id  <br/> |Identifica uma única ocorrência de um item mestre recorrente. Esse atributo é necessário.  <br/> |
-|ChangeKey  <br/> |Identifica uma versão específica de uma única ocorrência de um item mestre recorrente. Além disso, o item mestre recorrente também é identificado porque ele e a ocorrência única conterá a mesma chave de alteração. Esse atributo é opcional.  <br/> |
+|ChangeKey  <br/> |Identifica uma versão específica de uma única ocorrência de um item mestre recorrente. Além disso, o item mestre recorrente também é identificado porque ele e a única ocorrência conterão a mesma chave de alteração. Esse atributo é opcional.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -57,7 +57,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também

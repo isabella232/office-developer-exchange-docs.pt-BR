@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e8bd1ace-28ba-493f-8d9c-cbaaec166a6f
 description: O elemento RawMasterTableXml não é usado.
-ms.openlocfilehash: 83f763944f23195b01f473ed8363b96d13949d1e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e2da3305d325ec73fcc3dc3bd072c8d5e8fb0b9d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466973"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523654"
 ---
 # <a name="rawmastertablexml"></a>RawMasterTableXml
 
-O elemento **RawMasterTableXml** não é usado. 
+O **elemento RawMasterTableXml** não é usado. 
   
 ```XML
 <RawMastTableXml></RawMastTableXml>

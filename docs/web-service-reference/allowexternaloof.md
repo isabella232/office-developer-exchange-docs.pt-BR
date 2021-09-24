@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AllowExternalOof
 api_type:
 - schema
 ms.assetid: e5387172-5b92-4bb1-8394-180e9c7ff771
-description: O elemento AllowExternalOof contém um valor que identifica para quem as mensagens externas fora do escritório (OOF) são enviadas.
-ms.openlocfilehash: e4934bc4bc86e1f9f764279a13ecaeca073d9e5d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AllowExternalOof contém um valor que identifica a quem mensagens externas fora do Office (OOF) são enviadas.
+ms.openlocfilehash: 7d2e34797af8a9e9d11570a5ea2e618db7630f0c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464809"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523220"
 ---
 # <a name="allowexternaloof"></a>AllowExternalOof
 
-O elemento **AllowExternalOof** contém um valor que identifica para quem as mensagens externas fora do escritório (OOF) são enviadas. 
+O **elemento AllowExternalOof** contém um valor que identifica a quem mensagens externas fora do Office (OOF) são enviadas. 
   
 - [GetUserOofSettingsResponse](getuseroofsettingsresponse.md)
   
@@ -48,21 +48,21 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Contém os resultados da resposta e as configurações de ausência temporária de um usuário.  <br/> |
+|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Contém os resultados da resposta e as configurações OOF para um usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é necessário para este elemento. A tabela a seguir lista os valores possíveis para este elemento.
+Um valor de texto é necessário para esse elemento. A tabela a seguir lista os valores possíveis para esse elemento.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|**Nenhum** <br/> |Remetentes de email fora da organização do usuário da caixa de correio que enviam mensagens ao usuário não receberão uma resposta de mensagem OOF externa.  <br/> |
-|**Desconhecido** <br/> |Remetentes de email fora da organização do usuário da caixa de correio que enviam mensagens para o usuário receberão apenas uma resposta de mensagem OOF externa se o remetente estiver na lista de contatos do repositório do Exchange do usuário.  <br/> |
-|**All** <br/> |Remetentes de email fora da organização do usuário da caixa de correio que enviam mensagens ao usuário receberão uma resposta de mensagem OOF externa.  <br/> |
+|**Nenhum** <br/> |Os destinatários de email fora da organização do usuário da caixa de correio que enviam mensagens para o usuário não receberão uma resposta de mensagem OOF externa.  <br/> |
+|**Known** <br/> |Os remetentes de email fora da organização do usuário da caixa de correio que enviam mensagens para o usuário receberão apenas uma resposta de mensagem OOF externa se o remetente estiver na lista de contatos do Exchange store do usuário.  <br/> |
+|**Tudo** <br/> |Os destinatários de email fora da organização do usuário da caixa de correio que enviam mensagens para o usuário receberão uma resposta de mensagem OOF externa.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Este elemento compartilha o mesmo tipo que o elemento [ExternalAudience](externalaudience.md) . 
+Esse elemento compartilha o mesmo tipo que o [elemento ExternalAudience.](externalaudience.md) 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   

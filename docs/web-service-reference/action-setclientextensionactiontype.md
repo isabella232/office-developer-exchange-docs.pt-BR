@@ -1,23 +1,23 @@
 ---
-title: Ação (SetClientExtensionActionType)
+title: Action (SetClientExtensionActionType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c5624a87-3436-40ce-8d6b-cc01eecab64d
-description: O elemento Action contém a ação que o servidor Exchange deve executar em um aplicativo.
-ms.openlocfilehash: 29579e26377edacb5fb0bb8406144eeb116b8d15
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Action contém a ação que o Exchange servidor deve tomar em um aplicativo.
+ms.openlocfilehash: a0f5c2743ef976db2faddbb7509a8a015ef4dd8f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529683"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510376"
 ---
-# <a name="action-setclientextensionactiontype"></a>Ação (SetClientExtensionActionType)
+# <a name="action-setclientextensionactiontype"></a>Action (SetClientExtensionActionType)
 
-O elemento **Action** contém a ação que o servidor Exchange deve executar em um aplicativo. 
+O **elemento Action** contém a ação que o Exchange servidor deve tomar em um aplicativo. 
   
 ```XML
 <Action ActionId="" ExtensionId="">
@@ -43,7 +43,7 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 |:-----|:-----|
 |Configurar  <br/> |Indica uma ação de configuração.  <br/> |
 |Instalar  <br/> |Indica uma ação de instalação.  <br/> |
-|Uninstall  <br/> |Indica uma ação de desinstalação.  <br/> |
+|Desinstalar  <br/> |Indica uma ação de desinstalação.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -55,7 +55,7 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Ações (ArrayOfSetClientExtensionActionsType)](actions-arrayofsetclientextensionactionstype.md) <br/> |Especifica uma matriz de elementos de **ação** .  <br/> |
+|[Actions (ArrayOfSetClientExtensionActionsType)](actions-arrayofsetclientextensionactionstype.md) <br/> |Especifica uma matriz de **elementos Action.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -68,8 +68,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConnectionTimeout
 api_type:
 - schema
 ms.assetid: 14da68a0-bcca-4281-a774-47644baa4ee9
 description: O elemento ConnectionTimeout especifica o número de minutos para manter uma conexão aberta.
-ms.openlocfilehash: 671e3cf5466ee8b3543036811708bd7f54afdcce
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7ca7a0b0b71d40a4f7888b63663b7d1e0f81b449
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463850"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536824"
 ---
 # <a name="connectiontimeout"></a>ConnectionTimeout
 
-O elemento **connectionTimeout** especifica o número de minutos para manter uma conexão aberta. 
+O **elemento ConnectionTimeout** especifica o número de minutos para manter uma conexão aberta. 
   
 [Operação GetStreamingEvents](getstreamingevents-operation.md)
   
@@ -48,7 +48,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetStreamingEvents](getstreamingevents.md) <br/> |Define uma solicitação para obter notificações de eventos de uma conexão de streaming.  <br/> |
+|[GetStreamingEvents](getstreamingevents.md) <br/> |Define uma solicitação para receber notificações de eventos de uma conexão de streaming.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -56,7 +56,7 @@ O valor de texto representa um inteiro que descreve o número máximo de minutos
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

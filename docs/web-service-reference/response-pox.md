@@ -1,30 +1,30 @@
 ---
-title: Resposta (POX)
+title: Response (POX)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 002b72f2-f94d-467c-8e6c-b3818f7e51dc
 description: 'Aplicável a:'
-ms.openlocfilehash: 30f6a5c2c6e3034fde8849ab1fced3519029b1f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d613bbb1d8573c1eb60c053ddc064f564676a7c4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44448972"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523479"
 ---
-# <a name="response-pox"></a>Resposta (POX)
+# <a name="response-pox"></a>Response (POX)
 
 
   
-O elemento **Response** contém a resposta do serviço de descoberta automática. 
+O **elemento Response** contém a resposta do serviço descoberta automática. 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
 ```xml
 <Response>
@@ -45,18 +45,18 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Usuário (POX)](user-pox.md) <br/> |Fornece informações específicas do usuário. Este elemento é opcional.  <br/> |
-|[Conta (POX)](account-pox.md) <br/> |Especifica as configurações de conta do usuário.  <br/> |
+|[User (POX)](user-pox.md) <br/> |Fornece informações específicas do usuário. Esse elemento é opcional.  <br/> |
+|[Account (POX)](account-pox.md) <br/> |Especifica as configurações da conta para o usuário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Descoberta automática (POX)](autodiscover-pox.md) <br/> |O elemento raiz em uma resposta de descoberta automática.  <br/> |
+|[AutoDiscover (POX)](autodiscover-pox.md) <br/> |O elemento raiz em uma resposta descoberta automática.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a1741eda-c232-4d89-8abc-50b2627ad29b
 description: O elemento ContentOwner especifica o nome do proprietário do conteúdo.
-ms.openlocfilehash: 08dafcac2f9ad4be19e0cb3ccd03249a997e0fa3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 94da97aad80318d9c70d1f871bc4c8e71d545aca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461475"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523129"
 ---
 # <a name="contentowner"></a>ContentOwner
 
-O elemento **ContentOwner** especifica o nome do proprietário do conteúdo. 
+O **elemento ContentOwner** especifica o nome do proprietário do conteúdo. 
   
 ```XML
 <ContentOwner></ContentOwner>
@@ -44,7 +44,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento ContentOwner é uma cadeia de caracteres que especifica a data de vencimento do conteúdo.
+O valor de texto do elemento ContentOwner é uma cadeia de caracteres que especifica a data de expiração do conteúdo.
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IdOfFolderToShare
 api_type:
 - schema
 ms.assetid: 199d1839-f061-4070-a977-874b0c08e5be
 description: O elemento IdOfFolderToShare representa o identificador da pasta no servidor que será compartilhado.
-ms.openlocfilehash: 93a4740d9adefbb35aae071f0a6bfcb4b2021b4d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fdacd9c5f9e3c5c2ad55164bcd3abedeb1650f3d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457624"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516696"
 ---
 # <a name="idoffoldertoshare"></a>IdOfFolderToShare
 
-O elemento **IdOfFolderToShare** representa o identificador da pasta no servidor que será compartilhado. 
+O **elemento IdOfFolderToShare** representa o identificador da pasta no servidor que será compartilhado. 
   
 ```
 <IdOfFolderToShare Id="" ChangeKey="" />
@@ -36,8 +36,8 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|Id  <br/> |Contém uma cadeia de caracteres que identifica uma pasta no repositório do Exchange. Esse atributo é necessário.  <br/> |
-|ChangeKey  <br/> |Contém uma cadeia de caracteres que identifica uma versão de uma pasta identificada pelo atributo ID. Esse atributo é opcional. Use este atributo para certificar-se de que a versão correta de uma pasta é usada.  <br/> |
+|Id  <br/> |Contém uma cadeia de caracteres que identifica uma pasta no Exchange store. Esse atributo é necessário.  <br/> |
+|ChangeKey  <br/> |Contém uma cadeia de caracteres que identifica uma versão de uma pasta identificada pelo atributo Id. Esse atributo é opcional. Use esse atributo para garantir que a versão correta de uma pasta seja usada.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -51,7 +51,7 @@ Nenhum.
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services do computador que está executando Microsoft Exchange Server que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 

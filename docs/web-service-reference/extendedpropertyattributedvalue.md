@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90f3c5c5-f612-4e1b-b1f5-f92dd8524179
-description: O elemento ExtendedPropertyAttributedValue especifica as propriedades estendidas para uma pessoa.
-ms.openlocfilehash: 5c2ad5918d7ac666d5e26af6597b2c4c3dde6202
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ExtendedPropertyAttributedValue especifica propriedades estendidas para uma persona.
+ms.openlocfilehash: 338c2a12d89cd7b1305be2fc75692782b1b3a466
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460124"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535377"
 ---
 # <a name="extendedpropertyattributedvalue"></a>ExtendedPropertyAttributedValue
 
-O elemento **ExtendedPropertyAttributedValue** especifica as propriedades estendidas para uma pessoa. 
+O **elemento ExtendedPropertyAttributedValue** especifica propriedades estendidas para uma persona. 
   
 ```XML
 <ExtendedPropertyAttributedValue>
@@ -39,14 +39,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Valor (ExtendedPropertyType)](value-extendedpropertytype.md) <br/> |Especifica uma matriz de propriedades estendidas para uma pessoa.  <br/> |
-|[Atribuições (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Especifica uma matriz de atribuições para o elemento de **valor** associado.  <br/> |
+|[Value (ExtendedPropertyType)](value-extendedpropertytype.md) <br/> |Especifica uma matriz de propriedades estendidas para uma persona.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Especifica uma matriz de atribuições para seu elemento **Value** associado.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md) <br/> |Contém as propriedades estendidas usadas para operações do repositório unificado de contatos.  <br/> |
+|[ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md) <br/> |Contém as propriedades estendidas usadas para operações do Unified Contact Store.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -59,8 +59,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

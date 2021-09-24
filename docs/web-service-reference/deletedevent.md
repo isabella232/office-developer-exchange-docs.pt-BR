@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeletedEvent
 api_type:
 - schema
 ms.assetid: c4565eb4-b537-466c-b1ff-11602533812b
 description: O elemento DeletedEvent representa um evento no qual um item ou pasta é excluído.
-ms.openlocfilehash: 5eb0c947aacc592f81c595da2cc00bf4874f300b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 601b09273fb0fe52a40079e63952a50f592eaf5c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526939"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510264"
 ---
 # <a name="deletedevent"></a>DeletedEvent
 
-O elemento **DeletedEvent** representa um evento no qual um item ou pasta é excluído. 
+O **elemento DeletedEvent** representa um evento no qual um item ou pasta é excluído. 
   
 ```xml
 <DeletedEvent>
@@ -55,8 +55,8 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Marca d'água](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio.  <br/> |
-|[Registra](timestamp.md) <br/> |Representa o carimbo de data/hora de um evento de caixa de correio de pasta ou item excluído.  <br/> |
+|[Watermark](watermark.md) <br/> |Representa um indicador de evento na tabela de eventos de caixa de correio.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Representa o data/hora de um evento de caixa de correio de item ou pasta excluído.  <br/> |
 |[FolderId](folderid.md) <br/> |Representa o identificador da pasta excluída.  <br/> |
 |[ItemId](itemid.md) <br/> |Representa o identificador do item excluído.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Representa o identificador da pasta pai do item ou pasta excluído antes da exclusão.  <br/> |
@@ -77,7 +77,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54d43fe6-9f7b-4f84-920a-bd686c65b059
 description: O elemento GetUserPhotoResponseMessage contém a resposta a uma solicitação GetUserPhoto.
-ms.openlocfilehash: a6df1204d4ac3a976694afbca008852acef6a76e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 195ff3257657a7d77a9d418e459efc14b2d76af2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463297"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509752"
 ---
 # <a name="getuserphotoresponsemessage"></a>GetUserPhotoResponseMessage
 
-O elemento **GetUserPhotoResponseMessage** contém a resposta a uma solicitação GetUserPhoto. 
+O **elemento GetUserPhotoResponseMessage** contém a resposta a uma solicitação GetUserPhoto. 
   
 ```XML
 <GetUserPhotoResponseMessage>
@@ -59,7 +59,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

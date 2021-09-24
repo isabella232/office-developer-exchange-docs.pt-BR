@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 32fa8946-3d5d-4123-8127-efc2ac369553
-description: O elemento CreationTime especifica quando a pessoa foi criada.
-ms.openlocfilehash: 81ad700121a48355426da7432de413daacef66cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento CreationTime especifica quando a persona foi criada.
+ms.openlocfilehash: d35d1901dc8bcd0314fa9fd4a215b11104b5555b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44443827"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536144"
 ---
 # <a name="creationtime"></a>CreationTime
 
-O elemento **CreationTime** especifica quando a pessoa foi criada. 
+O **elemento CreationTime** especifica quando a persona foi criada. 
   
 ```XML
 <CreationTime></CreationTime>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **CreationTime** é a data e hora em que uma pessoa foi criada. 
+O valor de texto do **elemento CreationTime** é a data e a hora em que uma persona foi criada. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4ffdf0f-1210-429d-8eea-665db2aad3bb
 description: O elemento LastAttemptTime contém a hora e a data em que a última tentativa de indexar o item foi feita.
-ms.openlocfilehash: 8ef7d8d436f7e12a5c1e6a1d0762fcf777a95d05
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7bc0ffa9a0b7b6fd0079ce2430689d1b5f5f2f35
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459844"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509627"
 ---
 # <a name="lastattempttime"></a>LastAttemptTime
 
-O elemento **LastAttemptTime** contém a hora e a data em que a última tentativa de indexar o item foi feita. 
+O **elemento LastAttemptTime** contém a hora e a data em que a última tentativa de indexar o item foi feita. 
   
 ```XML
 <LastAttemptTime></LastAttemptTime>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **LastAttemptTime** representa uma data e hora em que a última tentativa de indexar o item foi feita. 
+O valor de texto do **elemento LastAttemptTime** representa uma hora e data em que a última tentativa de indexar o item foi feita. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

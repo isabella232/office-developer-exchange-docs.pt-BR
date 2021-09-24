@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StartDateTime
 api_type:
 - schema
 ms.assetid: 6fd41b7b-6c83-43b6-8b16-0bdb3d173d73
-description: O elemento StartDatetime especifica a data e hora de início de uma regra ou de uma pesquisa.
-ms.openlocfilehash: 28b78fad87abb1148cfe49fee4f9bb98f822eae5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento StartDateTime especifica a data e a hora de início de uma regra ou uma pesquisa.
+ms.openlocfilehash: 524858a0b33a25defeae339f7780a7b47c4f21cf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462840"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517697"
 ---
 # <a name="startdatetime"></a>StartDateTime
 
-O elemento **StartDateTime** especifica a data e hora de início de uma regra ou de uma pesquisa. 
+O **elemento StartDateTime** especifica a data e a hora de início de uma regra ou uma pesquisa. 
   
 ```XML
 <StartDate/>
@@ -45,12 +45,12 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Especifica critérios para os tipos de mensagens a serem encontradas.  <br/> |
-|[WithinDateRange](withindaterange.md) <br/> |Especifica o intervalo de datas no qual as mensagens de entrada precisam ser recebidas para que a condição ou exceção seja aplicada.  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Especifica critérios para os tipos de mensagens a encontrar.  <br/> |
+|[WithinDateRange](withindaterange.md) <br/> |Especifica o intervalo de datas no qual as mensagens de entrada têm que ser recebidas para que a condição ou exceção seja aplicada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
- Um valor de texto que representa uma data/hora será necessário se esse elemento for usado. 
+ Um valor de texto que representa uma data/hora é necessário se esse elemento for usado. 
   
 ## <a name="remarks"></a>Comentários
 

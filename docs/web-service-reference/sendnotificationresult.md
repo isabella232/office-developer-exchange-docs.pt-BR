@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendNotificationResult
 api_type:
 - schema
 ms.assetid: fa9d6202-fa66-4f10-9858-53f4f1ce14bc
-description: O elemento SendNotificationResult contém a resposta de um aplicativo cliente para uma notificação por push.
-ms.openlocfilehash: 4ee9a0dda3d887f8fbfa2c2b34a9a077e7af37ba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SendNotificationResult contém a resposta de um aplicativo cliente a uma notificação por push.
+ms.openlocfilehash: 682fb916f0f522455e599b7d589e0b7ae530f330
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464886"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517823"
 ---
 # <a name="sendnotificationresult"></a>SendNotificationResult
 
-O elemento **SendNotificationResult** contém a resposta de um aplicativo cliente para uma notificação por push. 
+O **elemento SendNotificationResult** contém a resposta de um aplicativo cliente a uma notificação por push. 
   
 ```xml
 <SendNotificationResult>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SubscriptionStatus](subscriptionstatus.md) <br/> |Descreve o status de uma assinatura push.  <br/> |
+|[SubscriptionStatus](subscriptionstatus.md) <br/> |Descreve o status de uma assinatura por push.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

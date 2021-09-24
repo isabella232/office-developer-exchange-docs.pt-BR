@@ -5,44 +5,44 @@ ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9157f329-80b4-4cd0-a158-378064966ae6
-description: Encontre informações sobre a operação do EWS do GetHoldOnMailboxes.
-ms.openlocfilehash: 867f38be87e60af8708eeb0b9d0e3ac8eee6ff64
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação GetHoldOnMailboxes EWS.
+ms.openlocfilehash: 3e87aed618b98cbaf556b31f59365f5ed97bec85
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457729"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516990"
 ---
 # <a name="getholdonmailboxes-operation"></a>Operação GetHoldOnMailboxes
 
 > [!IMPORTANT]
-> A partir de 1º de abril de 2020, a operação GetHoldOnMailboxes não estará mais disponível no Exchange Online. Essa operação não será afetada nas versões locais do Exchange Server. Para obter mais informações, consulte [aposentadoria of Legacy eDiscovery Tools in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).
+> A partir de 1º de abril de 2020, a operação GetHoldOnMailboxes não estará mais disponível no Exchange Online. Essa operação não será afetada em versões locais do Exchange Server. Para obter mais informações, [consulte Retirement of legacy eDiscovery tools in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).
 
-Encontre informações sobre a operação do EWS do **GetHoldOnMailboxes** . 
+Encontre informações sobre a **operação GetHoldOnMailboxes** EWS. 
   
-A operação **GetHoldOnMailboxes** Obtém as caixas de correio que estão sob uma retenção específica e a consulta de bloqueio associada. 
+A **operação GetHoldOnMailboxes** obtém as caixas de correio que estão sob uma espera específica e a consulta de espera associada. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-getholdonmailboxes-operation"></a>Usando a operação GetHoldOnMailboxes
 
-A operação **GetHoldOnMailboxes** fornece as informações de cliente sobre quais caixas de correio são colocadas em uma retenção específica, informações sobre a consulta de retenção associada a cada isenção, se aplicável, e informações sobre o status de retenção para cada caixa de correio. Para obter mais informações sobre retenções de caixa de correio, incluindo bloqueios baseados em consulta, consulte [in-Place Hold in in-loco](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29) do TechNet. 
+A **operação GetHoldOnMailboxes** fornece ao cliente informações sobre quais caixas de correio são colocadas sob uma responsabilidade específica, informações sobre a consulta de espera associada a cada reter, se aplicável, e informações sobre o status de espera para cada caixa de correio. Para obter mais informações sobre ressarções de caixa de correio, incluindo resções baseadas em consulta, consulte [In-Place Hold](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29) on TechNet. 
   
-### <a name="getholdonmailboxes-operation-soap-headers"></a>Cabeçalhos SOAP de operação GetHoldOnMailboxes
+### <a name="getholdonmailboxes-operation-soap-headers"></a>Headers soap da operação GetHoldOnMailboxes
 
-A operação **GetHoldOnMailboxes** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação GetHoldOnMailboxes** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifica as funções de servidor necessárias para que o chamador faça a solicitação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifica as funções de servidor necessárias para que o chamador faça a solicitação. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="getholdonmailboxes-operation-request-example-get-mailbox-hold-information"></a>Exemplo de solicitação de operação GetHoldOnMailboxes: obter informações de retenção de caixa de correio
+## <a name="getholdonmailboxes-operation-request-example-get-mailbox-hold-information"></a>Exemplo da solicitação de operação GetHoldOnMailboxes: Obter informações de espera de caixa de correio
 
-O exemplo a seguir de uma solicitação de operação **GetHoldOnMailboxes** mostra como obter as informações de retenção de caixa de correio para o bloqueio de caixa de correio do HoldId2. 
+O exemplo a seguir de uma solicitação de operação **GetHoldOnMailboxes** mostra como obter as informações de espera de caixa de correio para a caixa de correio HoldId2. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -65,11 +65,11 @@ O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [GetHoldOnMailboxes](getholdonmailboxes.md)
     
-- [Isenção](holdid.md)
+- [HoldId](holdid.md)
     
-## <a name="successful-getholdonmailboxes-operation-response"></a>Resposta de operação GetHoldOnMailboxes bem-sucedida
+## <a name="successful-getholdonmailboxes-operation-response"></a>Resposta bem-sucedida da operação GetHoldOnMailboxes
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetHoldOnMailboxes** para obter as informações de retenção de caixa de correio para o bloqueio de caixa de correio do HoldId2. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetHoldOnMailboxes** para obter as informações de espera de caixa de correio para a caixa de correio HoldId2. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -120,7 +120,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [MailboxHoldResult](mailboxholdresult.md)
     
-- [Isenção](holdid.md)
+- [HoldId](holdid.md)
     
 - [Query](query.md)
     
@@ -128,15 +128,15 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [MailboxHoldStatus](mailboxholdstatus.md)
     
-- [Caixa de correio (cadeia de caracteres)](mailbox-string.md)
+- [Mailbox (string)](mailbox-string.md)
     
 - [Status (HoldStatusType)](status-holdstatustype.md)
     
 - [AdditionalInfo](additionalinfo.md)
     
-## <a name="getholdonmailboxes-operation-error-response"></a>Resposta de erro de operação GetHoldOnMailboxes
+## <a name="getholdonmailboxes-operation-error-response"></a>Resposta de erro da operação GetHoldOnMailboxes
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetHoldOnMailboxes** . Esta é uma resposta a uma solicitação para obter uma retenção que foi excluída. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetHoldOnMailboxes.** Esta é uma resposta a uma solicitação para obter uma ressarção que foi excluída. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -165,7 +165,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 
 ```
 
-O corpo SOAP de resposta de erro contém os seguintes elementos:
+O corpo SOAP da resposta de erro contém os seguintes elementos:
   
 - [GetHoldOnMailboxesResponse](getholdonmailboxesresponse.md)
     
@@ -175,11 +175,11 @@ O corpo SOAP de resposta de erro contém os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Para obter códigos de erro adicionais genéricos para o EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
+Para obter códigos de erro adicionais genéricos para EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Confira também
 
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
     
 - [Operação GetSearchableMailboxes](getsearchablemailboxes-operation.md)
     

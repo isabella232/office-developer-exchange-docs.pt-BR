@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67328dab-321b-45ad-929e-cd83e65ad87e
 description: O elemento SearchQueries contém uma lista de caixas de correio e consultas associadas para pesquisa de descoberta.
-ms.openlocfilehash: 66015d71238b4a1055a71aff539ca50150f2a247
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: db28c5cf461832447a9426dc8376c4326c1aa9ed
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466910"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523409"
 ---
 # <a name="searchqueries"></a>SearchQueries
 
-O elemento **SearchQueries** contém uma lista de caixas de correio e consultas associadas para pesquisa de descoberta. 
+O **elemento SearchQueries** contém uma lista de caixas de correio e consultas associadas para pesquisa de descoberta. 
   
 ```XML
 <SearchQueries>

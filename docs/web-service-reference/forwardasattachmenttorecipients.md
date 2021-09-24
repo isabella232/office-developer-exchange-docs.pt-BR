@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ForwardAsAttachmentToRecipients
 api_type:
 - schema
 ms.assetid: 8649ea14-672f-43c9-b10a-a2b02efd5867
 description: O elemento ForwardAsAttachmentToRecipients indica os endereços de email para os quais as mensagens devem ser encaminhadas como anexos.
-ms.openlocfilehash: bf8c3563460eea811602074bf16f9253b4610832
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3063ffd9080e29020520095d71b354f32ec63a54
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44453333"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509927"
 ---
 # <a name="forwardasattachmenttorecipients"></a>ForwardAsAttachmentToRecipients
 
-O elemento **ForwardAsAttachmentToRecipients** indica os endereços de email para os quais as mensagens devem ser encaminhadas como anexos. 
+O **elemento ForwardAsAttachmentToRecipients** indica os endereços de email para os quais as mensagens devem ser encaminhadas como anexos. 
   
 ```XML
 <ForwardAsAttachmentToRecipients>
@@ -42,13 +42,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Endereço (EmailAddresstype)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
+|[Address (EmailAddressType)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem tomadas em uma mensagem quando as condições são atendidas.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

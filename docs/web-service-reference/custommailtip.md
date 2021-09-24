@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CustomMailTip
 api_type:
 - schema
 ms.assetid: eb57dc71-96e5-4718-a51a-a1b9c62abd6f
 description: O elemento CustomMailTip representa uma mensagem de dica de email personalizada.
-ms.openlocfilehash: 70810b9c2a73703586d06a4141d31c0fd39abb5d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0146d645c24747eba2310fbc9328c8b93b0b347f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458331"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536158"
 ---
 # <a name="custommailtip"></a>CustomMailTip
 
-O elemento **CustomMailTip** representa uma mensagem de dica de email personalizada. 
+O **elemento CustomMailTip** representa uma mensagem de dica de email personalizada. 
   
 ```XML
 <CustomMailTip/>
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

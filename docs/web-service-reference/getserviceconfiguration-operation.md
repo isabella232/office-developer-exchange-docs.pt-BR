@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetServiceConfiguration
 api_type:
 - schema
 ms.assetid: 070cbfe5-325a-4955-8e4a-8230ea0459a7
-description: A operação GetServiceConfiguration Obtém informações de configuração para o tipo de serviço especificado. Essa operação pode retornar definições de configuração para a Unificação de mensagens, regras de proteção e serviços de dicas de email.
-ms.openlocfilehash: b8ea2cef366a52765850dddcc8c1ef1e8fa68b22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetServiceConfiguration obtém informações de configuração para o tipo de serviço especificado. Essa operação pode retornar configurações para os serviços unificação de mensagens, regras de proteção e Dicas de email.
+ms.openlocfilehash: 29246e17313e4f3d9fb02532513eb3fbd033a86e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460908"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516927"
 ---
 # <a name="getserviceconfiguration-operation"></a>Operação GetServiceConfiguration
 
-A operação **GetServiceConfiguration** Obtém informações de configuração para o tipo de serviço especificado. Essa operação pode retornar definições de configuração para a Unificação de mensagens, regras de proteção e serviços de dicas de email. 
+A **operação GetServiceConfiguration** obtém informações de configuração para o tipo de serviço especificado. Essa operação pode retornar configurações para os serviços unificação de mensagens, regras de proteção e Dicas de email. 
   
 ## <a name="getserviceconfiguration-request-example"></a>Exemplo de solicitação GetServiceConfiguration
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **GetServiceConfiguration** mostra como formar uma solicitação para obter informações de configuração para o serviço de Unificação de mensagens. 
+O exemplo a seguir de uma **solicitação GetServiceConfiguration** mostra como formar uma solicitação para obter informações de configuração para o serviço de Unificação de Mensagens. 
   
 ### <a name="code"></a>Código
 
@@ -55,7 +55,7 @@ O exemplo a seguir de uma solicitação **GetServiceConfiguration** mostra como 
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetServiceConfiguration** . 
+O exemplo a seguir mostra uma resposta bem-sucedida à **solicitação GetServiceConfiguration.** 
   
 ### <a name="code"></a>Código
 
@@ -97,7 +97,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetServic
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro para a solicitação **GetServiceConfiguration** . Este erro foi causado por um nome de configuração incorreto. 
+O exemplo a seguir mostra uma resposta de erro à **solicitação GetServiceConfiguration.** Esse erro foi causado por um nome de configuração incorreto. 
   
 ### <a name="code"></a>Código
 
@@ -133,7 +133,7 @@ O exemplo a seguir mostra uma resposta de erro para a solicitação **GetService
 
 
 
-[Operações do EWS no Exchange](ews-operations-in-exchange.md)
+[Operações EWS em Exchange](ews-operations-in-exchange.md)
   
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

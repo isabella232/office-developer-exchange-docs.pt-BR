@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendItemResponse
 api_type:
 - schema
 ms.assetid: 26ac41c7-57d9-473e-ab7a-bae93e1d2aba
 description: O elemento SendItemResponse define uma resposta a uma solicitação SendItem.
-ms.openlocfilehash: dd90510547c3db8c3531663c23d05055bd774fab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bed5884ba60174203782a916f1ac3702ae8b0128
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462126"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523416"
 ---
 # <a name="senditemresponse"></a>SendItemResponse
 
-O elemento **SendItemResponse** define uma resposta a uma solicitação SendItem. 
+O **elemento SendItemResponse** define uma resposta a uma solicitação SendItem. 
   
 ```xml
 <SendItemResponse>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

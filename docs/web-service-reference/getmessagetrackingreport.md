@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetMessageTrackingReport
 api_type:
 - schema
 ms.assetid: b6ffa8ef-90f6-402d-afac-c3f5ee55cf49
-description: O elemento GetMessageTrackingReport contém a solicitação para a operação GetMessageTrackingReport recuperar o relatório completo de controle de mensagens para a ID especificada.
-ms.openlocfilehash: 30596acd209580147e0f03e12a7868502159b29c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetMessageTrackingReport contém a solicitação para a operação GetMessageTrackingReport recuperar o relatório de controle de mensagens completo para a ID especificada.
+ms.openlocfilehash: cdf4e2c0f17c7d723dc56f30c445bfd527f891a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466574"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516976"
 ---
 # <a name="getmessagetrackingreport"></a>GetMessageTrackingReport
 
-O elemento **GetMessageTrackingReport** contém a solicitação para a [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md) recuperar o relatório completo de controle de mensagens para a ID especificada. 
+O **elemento GetMessageTrackingReport** contém a solicitação para a operação [GetMessageTrackingReport](getmessagetrackingreport-operation.md) recuperar o relatório de controle de mensagens completo para a ID especificada. 
   
 ```XML
 <GetMessageTrackingReport>
@@ -48,17 +48,17 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Escopo (NonEmptyStringType)](scope-nonemptystringtype.md) <br/> |Especifica onde executar a pesquisa. Este elemento é obrigatório.  <br/> |
-|[ReportTemplate](reporttemplate.md) <br/> |Especifica o tipo de relatório de controle a ser recuperado. Este elemento é obrigatório.  <br/> |
-|[RecipientFilter](recipientfilter.md) <br/> |Especifica um endereço de destinatário a ser usado com o relatório de acompanhamento especificado. Este elemento é opcional.  <br/> |
-|[MessageTrackingReportId](messagetrackingreportid.md) <br/> |Especifica uma cadeia de caracteres de identidade obtida da operação **FindMessageTrackingReport** . Este elemento é obrigatório.  <br/> |
-|[ReturnQueueEvents](returnqueueevents.md) <br/> |Especifica que a pessoa que está executando a tarefa tem uma função privilegiada. Este elemento é opcional.  <br/> |
-|[DiagnosticsLevel](diagnosticslevel.md) <br/> |Especifica as informações de tempo e desempenho que serão usadas para derivar o relatório de controle. Este elemento é opcional.  <br/> |
-|[Propriedades (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Especifica uma lista de uma ou mais propriedades de controle. Este elemento é opcional.  <br/> |
+|[Scope (NonEmptyStringType)](scope-nonemptystringtype.md) <br/> |Especifica onde executar a pesquisa. Este elemento é obrigatório.  <br/> |
+|[ReportTemplate](reporttemplate.md) <br/> |Especifica o tipo de relatório de rastreamento a ser recuperado. Este elemento é obrigatório.  <br/> |
+|[RecipientFilter](recipientfilter.md) <br/> |Especifica um endereço de destinatário a ser usado com o relatório de rastreamento especificado. Esse elemento é opcional.  <br/> |
+|[MessageTrackingReportId](messagetrackingreportid.md) <br/> |Especifica uma cadeia de caracteres de identidade obtida da **operação FindMessageTrackingReport.** Este elemento é obrigatório.  <br/> |
+|[ReturnQueueEvents](returnqueueevents.md) <br/> |Especifica que a pessoa que está executando a tarefa tem uma função privilegiada. Esse elemento é opcional.  <br/> |
+|[DiagnosticsLevel](diagnosticslevel.md) <br/> |Especifica informações de tempo e desempenho que serão usadas para derivar o relatório de rastreamento. Esse elemento é opcional.  <br/> |
+|[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Especifica uma lista de uma ou mais propriedades de controle. Esse elemento é opcional.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

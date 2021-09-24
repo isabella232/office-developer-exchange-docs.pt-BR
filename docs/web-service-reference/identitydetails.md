@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6fa8d08-20f4-4440-8973-c9ca74d42512
-description: O elemento IdentityDetails é destinado apenas para uso interno.
-ms.openlocfilehash: cb657ec7548c27497f7587edbd0a231d10baf344
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento IdentityDetails destina-se apenas ao uso interno.
+ms.openlocfilehash: ebe60b158631d4bba4e3fa6ac14e9f275143eeec
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44442210"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516703"
 ---
 # <a name="identitydetails"></a>IdentityDetails
 
-O elemento **IdentityDetails** é destinado apenas para uso interno. 
+O **elemento IdentityDetails** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

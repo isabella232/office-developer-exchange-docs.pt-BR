@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8
-description: A operação GetItem Obtém itens de calendário do repositório do Exchange.
-ms.openlocfilehash: 09fe92af12f03ce4cebd1e98f4e01c087ace64f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetItem obtém itens de calendário do Exchange store.
+ms.openlocfilehash: ff118be17e3e084a11dd74a0434db3f6c0e8bd8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460614"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516962"
 ---
 # <a name="getitem-operation-calendar-item"></a>Operação GetItem (item de calendário)
 
-A operação GetItem Obtém itens de calendário do repositório do Exchange.
+A operação GetItem obtém itens de calendário do Exchange store.
   
 ## <a name="getitem-request-example"></a>Exemplo de solicitação GetItem
 
@@ -51,13 +51,13 @@ O exemplo a seguir de uma solicitação GetItem mostra como formar uma solicita�
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
 - [GetItem](getitem.md)
     
-- [Shape](itemshape.md)
+- [ItemShape](itemshape.md)
     
 - [BaseShape](baseshape.md)
     
@@ -72,16 +72,16 @@ Os seguintes elementos são usados na solicitação:
 > [!NOTE]
 > O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente. 
   
-Para encontrar outras opções para a mensagem de solicitação da operação GetItem, explore a hierarquia de esquema. Inicie no elemento [GetItem](getitem.md) . 
+Para encontrar outras opções para a mensagem de solicitação da operação GetItem, explore a hierarquia de esquema. Comece no [elemento GetItem.](getitem.md) 
   
 ## <a name="successful-getitem-response"></a>Resposta GetItem bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação GetItem. A solicitação que criou essa resposta utilizou o IdOnly BaseShape. Neste exemplo, a resposta retorna apenas a ID do item. 
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação GetItem. A solicitação que criou essa resposta usou a forma base IdOnly. Neste exemplo, a resposta retorna apenas a ID do item. 
   
 > [!NOTE]
-> A ID do item e a chave de alteração foram reduzidas para preservar a legibilidade. 
+> A ID do item e a chave de alteração foram reduzidas para preservar a capacidade de leitura. 
   
 ### <a name="code"></a>Código
 
@@ -115,10 +115,10 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação GetItem. A 
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação GetItem. A solicitação que criou essa resposta utilizou o BaseShape padrão. Neste exemplo, a resposta retorna a forma padrão para um item de calendário.
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação GetItem. A solicitação que criou essa resposta usou a forma base Padrão. Neste exemplo, a resposta retorna a forma Padrão de um item de calendário.
   
 > [!NOTE]
-> A ID do item e a chave de alteração foram reduzidas para preservar a legibilidade. 
+> A ID do item e a chave de alteração foram reduzidas para preservar a capacidade de leitura. 
   
 ### <a name="code"></a>Código
 
@@ -166,7 +166,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação GetItem. A 
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação GetItem. A solicitação que criou essa resposta utilizou a propriedade BaseShape. Neste exemplo, a resposta retorna a forma myproperties de um item do calendário.
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação GetItem. A solicitação que criou essa resposta usou a forma base AllProperties. Neste exemplo, a resposta retorna a forma AllProperties para um item de calendário.
   
 ### <a name="code"></a>Código
 
@@ -265,7 +265,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação GetItem. A 
 
 ### <a name="comments"></a>Comentários
 
-Para encontrar outras opções para a mensagem de resposta da operação GetItem, explore a hierarquia do esquema. Inicie no elemento [GetItemResponse](getitemresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta da operação GetItem, explore a hierarquia de esquema. Comece no [elemento GetItemResponse.](getitemresponse.md) 
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
@@ -301,7 +301,7 @@ Os seguintes elementos são usados na resposta:
     
 - [Importance](importance.md)
     
-- [Isenviado](issubmitted.md)
+- [IsSubmitted](issubmitted.md)
     
 - [IsDraft](isdraft.md)
     
@@ -335,15 +335,15 @@ Os seguintes elementos são usados na resposta:
     
 - [Start](start.md)
     
-- [Ponto](end-ex15websvcsotherref.md)
+- [End ](end-ex15websvcsotherref.md)
     
 - [IsAllDayEvent](isalldayevent.md)
     
 - [LegacyFreeBusyStatus](legacyfreebusystatus.md)
     
-- [Issatisfaçing](ismeeting.md)
+- [IsMeeting](ismeeting.md)
     
-- [IsCanceled](iscancelled.md)
+- [IsCancelled](iscancelled.md)
     
 - [IsRecurring](isrecurring.md)
     
@@ -357,11 +357,11 @@ Os seguintes elementos são usados na resposta:
     
 - [Caixa de Correio](mailbox.md)
     
-- [Nome (EmailAddresstype)](name-emailaddresstype.md)
+- [Name (EmailAddressType)](name-emailaddresstype.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddresstype)](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
 - [ConflictingMeetingCount](conflictingmeetingcount.md)
     
@@ -369,15 +369,15 @@ Os seguintes elementos são usados na resposta:
     
 - [ConflictingMeetings](conflictingmeetings.md)
     
-- [Localização](location.md)
+- [Location](location.md)
     
-- [Duração (itens)](duration-items.md)
+- [Duration (Items)](duration-items.md)
     
-- [TimeZone (item)](timezone-item.md)
+- [TimeZone (Item)](timezone-item.md)
     
 - [AppointmentSequenceNumber](appointmentsequencenumber.md)
     
-- [Compromissostate](appointmentstate.md)
+- [AppointmentState](appointmentstate.md)
     
 ## <a name="see-also"></a>Confira também
 

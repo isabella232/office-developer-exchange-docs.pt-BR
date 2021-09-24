@@ -1,33 +1,33 @@
 ---
-title: Create (issync)
+title: Create (ItemSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Create
 api_type:
 - schema
 ms.assetid: cb5e64a2-66a5-4447-921e-7c13efb8f6bf
-description: O elemento Create identifica um único item a ser criado no armazenamento do cliente local.
-ms.openlocfilehash: b9c0f28333594a6c17ee9581a227fc4773874fd6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Create identifica um único item a ser criado no armazenamento de cliente local.
+ms.openlocfilehash: 2b36fad021c7ccb767eb80b31f71f12ef6cbbd22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460796"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510328"
 ---
-# <a name="create-itemsync"></a>Create (issync)
+# <a name="create-itemsync"></a>Create (ItemSync)
 
-O elemento **Create** identifica um único item a ser criado no armazenamento do cliente local. 
+O **elemento Create** identifica um único item a ser criado no armazenamento de cliente local. 
   
 - [SyncFolderItemsResponse](syncfolderitemsresponse.md) 
 - [ResponseMessages](responsemessages.md) 
 - [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) 
-- [Alterações (itens)](changes-items.md) 
-- [Create (issync)](create-itemsync.md)
+- [Changes (Items)](changes-items.md) 
+- [Create (ItemSync)](create-itemsync.md)
   
 ```xml
 <Create>
@@ -103,22 +103,22 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Item](item.md) <br/> |Representa um item genérico do Exchange a ser criado.  <br/> |
-|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange a ser criada.  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange a ser criado.  <br/> |
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange a ser criado.  <br/> |
-|[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição a ser criada.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião a ser criada.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião a ser criada.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião a ser criada.  <br/> |
+|[Item](item.md) <br/> |Representa um item Exchange genérico a ser criado.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma Exchange de email a ser criado.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário a ser criado.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato a ser criado.  <br/> |
+|[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição a ser criado.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião a ser criado.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião a ser criado.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião a ser criado.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião a ser criado.  <br/> |
-|[Tarefa](task.md) <br/> |Representa uma tarefa a ser criada.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa a ser criado.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Alterações (itens)](changes-items.md) <br/> |Contém uma matriz de sequência de tipos de alteração que representam os tipos de diferenças entre os itens no cliente e os itens no servidor Exchange.  <br/> |
+|[Changes (Items)](changes-items.md) <br/> |Contém uma matriz de sequência de tipos de alteração que representam os tipos de diferenças entre os itens no cliente e os itens no Exchange servidor.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -130,7 +130,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

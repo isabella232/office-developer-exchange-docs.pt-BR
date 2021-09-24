@@ -1,27 +1,27 @@
 ---
-title: Assunto (CalendarEventDetails)
+title: Subject (CalendarEventDetails)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Subject
 api_type:
 - schema
 ms.assetid: 05e955b5-8e90-4043-b06b-6ce523eaed9b
-description: O elemento Subject representa o assunto de um item do calendário.
-ms.openlocfilehash: 268e5fa4bb8d02d83154267fc8e475c6d2b7c31c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Subject representa o assunto de um item de calendário.
+ms.openlocfilehash: a52e660d9c11a677609f8a42261d725af20a6df5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463052"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517662"
 ---
-# <a name="subject-calendareventdetails"></a>Assunto (CalendarEventDetails)
+# <a name="subject-calendareventdetails"></a>Subject (CalendarEventDetails)
 
-O elemento **Subject** representa o assunto de um item do calendário. 
+O **elemento Subject** representa o assunto de um item de calendário. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -37,7 +37,7 @@ O elemento **Subject** representa o assunto de um item do calendário.
   
 [CalendarEventDetails](calendareventdetails.md)
   
-[Assunto (CalendarEventDetails)](subject-calendareventdetails.md)
+[Subject (CalendarEventDetails)](subject-calendareventdetails.md)
   
 ```xml
 <Subject/>
@@ -60,11 +60,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarEventDetails](calendareventdetails.md) <br/> |Fornece informações adicionais para um evento de calendário.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Fornece informações adicionais para um evento de calendário.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto será necessário se esse elemento for retornado na resposta. Esse elemento não será retornado se o valor do elemento [IsPrivate](isprivate.md) for igual a **true**. Este elemento pode conter uma cadeia de caracteres vazia. Este elemento é opcional se o elemento [CalendarEventDetails](calendareventdetails.md) for usado. 
+Um valor de texto será necessário se esse elemento for retornado na resposta. Esse elemento não será retornado se o [valor do elemento IsPrivate](isprivate.md) for igual a **true**. Esse elemento pode conter uma cadeia de caracteres vazia. Esse elemento será opcional se o [elemento CalendarEventDetails](calendareventdetails.md) for usado. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -76,7 +76,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -88,5 +88,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OofState
 api_type:
 - schema
 ms.assetid: 3c486a38-06da-4382-ad20-664d067d76ac
-description: O elemento OofState é usado para obter ou definir o estado de ausência temporária (OOF) do usuário.
-ms.openlocfilehash: 6aef7d989ee6978019a483f2673895e68a88a7c5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento OofState é usado para obter ou definir o estado fora do Office (OOF) do usuário.
+ms.openlocfilehash: 4d0d893e364fc85d36e37400538a336473832efd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459732"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509529"
 ---
 # <a name="oofstate"></a>OofState
 
-O elemento **OofState** é usado para obter ou definir o estado de ausência temporária (OOF) do usuário. 
+O **elemento OofState** é usado para obter ou definir o estado fora do Office (OOF) do usuário. 
   
 ```xml
 <OofState>Disabled or Enabled or Scheduled</OofState>
@@ -44,20 +44,20 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações OOF.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contém as configurações OOF.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é necessário para o elemento **OofState** . A lista a seguir contém os valores possíveis para este elemento: 
+Um valor de texto é necessário para o **elemento OofState.** A lista a seguir contém os valores possíveis para este elemento: 
   
 - **Disabled**
     
 - **Enabled**
     
-- **Agendada**
+- **Agendado**
     
-Um valor **agendado** indica que o status de ausência temporária é definido como **habilitado** durante um período de tempo identificado pelo elemento [Duration (UserOofSettings)](duration-useroofsettings.md) . 
+Um valor de **Scheduled** indica que o status OOF está definido como **Habilitado** durante um período de tempo identificado pelo elemento [Duration (UserOofSettings).](duration-useroofsettings.md) 
   
 ## <a name="remarks"></a>Comentários
 
@@ -67,7 +67,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação SetUserOofSettings habilita o **OofState**.
+O exemplo a seguir de uma solicitação SetUserOofSettings habilita **o OofState**.
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -104,7 +104,7 @@ O exemplo a seguir de uma solicitação SetUserOofSettings habilita o **OofState
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

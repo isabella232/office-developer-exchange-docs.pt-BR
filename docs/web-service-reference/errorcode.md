@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0bb00cee-c66b-4f34-b99d-355458f5e83b
-description: O elemento ErrorCode representa um código de erro de validação de regra que descreve o que houve falha na validação de cada predicado ou ação de regra.
-ms.openlocfilehash: 6432aeee786d74a9afcb346cb66765f9001257de
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ErrorCode representa um código de erro de validação de regra que descreve o que falhou na validação de cada predicado ou ação de regra.
+ms.openlocfilehash: a582b09a579074a6728bb79b351b8c7a120c05de
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460075"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517109"
 ---
 # <a name="errorcode"></a>ErrorCode
 
-O elemento **ErrorCode** representa um código de erro de validação de regra que descreve o que houve falha na validação de cada predicado ou ação de regra. 
+O **elemento ErrorCode** representa um código de erro de validação de regra que descreve o que falhou na validação de cada predicado ou ação de regra. 
   
 ```XML
 <ErrorCode/>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Erro](error.md) <br/> |Representa um único erro de validação em um valor de propriedade de regra específico, um valor da propriedade Predicate ou um valor da propriedade Action.  <br/> |
+|[Erro](error.md) <br/> |Representa um único erro de validação em um determinado valor de propriedade de regra, valor da propriedade predicado ou valor da propriedade action.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto para este elemento é restrito a uma das seguintes cadeias de caracteres:
+O valor de texto para esse elemento é restrito a uma das seguintes cadeias de caracteres:
   
 - ADOperationFailure
     
@@ -68,17 +68,17 @@ O valor de texto para este elemento é restrito a uma das seguintes cadeias de c
     
 - InvalidSizeRange
     
-- Inválidos
+- InvalidValue
     
 - MessageClassificationNotFound
     
-- Faltandoaction
+- MissingAction
     
 - MissingParameter
     
 - MissingRangeValue
     
-- Não condefinida
+- NotSettable
     
 - RecipientDoesNotExist
     

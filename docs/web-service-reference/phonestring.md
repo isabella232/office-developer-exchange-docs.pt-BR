@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54fd2192-54ca-4e42-b630-a3fbdd8e4239
-description: O elemento Phonestring especifica o número de telefone de um contato extraído.
-ms.openlocfilehash: cc528b74034d1fd76c19247e72bb5ac00e7734d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PhoneString especifica o número de telefone de um contato extraído.
+ms.openlocfilehash: 569522337c681ce445309182c1c8010d494564e3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528883"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516647"
 ---
 # <a name="phonestring"></a>PhoneString
 
-O elemento **phonestring** especifica o número de telefone de um contato extraído. 
+O **elemento PhoneString** especifica o número de telefone de um contato extraído. 
   
 ```XML
 <PhoneString></PhoneString>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **PhoneSting** é o número de telefone de um contato extraído. 
+O valor de texto do **elemento PhoneSting** é o número de telefone de um contato extraído. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

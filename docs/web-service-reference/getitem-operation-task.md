@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: 8265dd06-1752-4470-8074-5f0e3e970f52
-description: A operação GetItem é usada para obter tarefas do repositório do Exchange.
-ms.openlocfilehash: 17a23d4c2a35761e831610f3514c980a5a67e12b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetItem é usada para obter tarefas do Exchange store.
+ms.openlocfilehash: 36e7b5ecc37c05f64c3b6617f45396805be0e532
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463332"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509837"
 ---
 # <a name="getitem-operation-task"></a>Operação GetItem (tarefa)
 
-A operação GetItem é usada para obter tarefas do repositório do Exchange.
+A operação GetItem é usada para obter tarefas do Exchange store.
   
 ## <a name="remarks"></a>Comentários
 
-O formato da solicitação GetItem para tarefas é o mesmo que GetItem para qualquer outro tipo de item. A única diferença é no qual as propriedades adicionais podem ser solicitadas dentro da forma de resposta. Essas propriedades adicionais devem ser propriedades relacionadas à tarefa ou propriedades estendidas.
+O formato da solicitação GetItem para tarefas é o mesmo que GetItem para qualquer outro tipo de item. A única diferença é em que propriedades adicionais podem ser solicitadas dentro da forma de resposta. Essas propriedades adicionais devem ser propriedades relacionadas a tarefas ou propriedades estendidas.
   
-## <a name="task-getitem-request-example"></a>Exemplo de solicitação de GetItem de tarefa
+## <a name="task-getitem-request-example"></a>Exemplo da solicitação Task GetItem
 
 ### <a name="description"></a>Descrição
 
@@ -58,15 +58,15 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 ### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade. 
+> O identificador de item e a chave de alteração foram reduzidos para preservar a capacidade de leitura. 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
 - [GetItem](getitem.md)
     
-- [Shape](itemshape.md)
+- [ItemShape](itemshape.md)
     
 - [BaseShape](baseshape.md)
     
@@ -74,7 +74,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [ItemId](itemid.md)
     
-## <a name="task-getitem-response-example"></a>Exemplo de resposta de GetItem de tarefa
+## <a name="task-getitem-response-example"></a>Exemplo de resposta Task GetItem
 
 ### <a name="description"></a>Descrição
 
@@ -136,7 +136,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação GetItem.
 ### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> Os identificadores de item e de pasta e as chaves de alteração foram reduzidos para preservar a legibilidade. 
+> Os identificadores de item e pasta e teclas de alteração foram reduzidos para preservar a capacidade de leitura. 
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
@@ -174,7 +174,7 @@ Os seguintes elementos são usados na resposta:
     
 - [Importance](importance.md)
     
-- [Isenviado](issubmitted.md)
+- [IsSubmitted](issubmitted.md)
     
 - [IsDraft](isdraft.md)
     
@@ -215,5 +215,5 @@ Os seguintes elementos são usados na resposta:
   
 [Atualizando tarefas](https://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
   
-[Excluir tarefas](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Excluir Tarefas](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

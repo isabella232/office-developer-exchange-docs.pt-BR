@@ -1,32 +1,32 @@
 ---
-title: Operação PlayOnPhone (serviço Web da UM)
+title: Operação PlayOnPhone (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhone
 api_type:
 - schema
 ms.assetid: 7d55be55-f8b6-4e96-a61e-26fa190217fd
-description: A operação PlayOnPhone faz uma chamada de saída e reproduz uma mensagem especificada pelo telefone que é especificado pelo elemento de discagem.
-ms.openlocfilehash: c5ff82bcd822aa2c659d1782ea4a1349d198bc80
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação PlayOnPhone faz uma chamada de saída e reproduz uma mensagem especificada no telefone especificada pelo elemento DialString.
+ms.openlocfilehash: 4d18727da18c36e6410c3cc6ab3bbf873993be72
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466231"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516561"
 ---
-# <a name="playonphone-operation-um-web-service"></a>Operação PlayOnPhone (serviço Web da UM)
+# <a name="playonphone-operation-um-web-service"></a>Operação PlayOnPhone (serviço Web de Unificação de Mensagens)
 
-A operação PlayOnPhone faz uma chamada de saída e reproduz uma mensagem especificada pelo telefone que é especificado pelo elemento de **discagem** . 
+A operação PlayOnPhone faz uma chamada de saída e reproduz uma mensagem especificada no telefone especificada pelo **elemento DialString.** 
   
-## <a name="playonphone-request-example"></a>Exemplo de solicitação PlayOnPhone
+## <a name="playonphone-request-example"></a>Exemplo de solicitação do PlayOnPhone
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação PlayOnPhone mostra como formar uma solicitação para fazer uma chamada de saída e reproduzir uma mensagem.
+O exemplo a seguir de uma solicitação do PlayOnPhone mostra como formar uma solicitação para fazer uma chamada de saída e reproduzir uma mensagem.
   
 ### <a name="code"></a>Código
 
@@ -42,11 +42,11 @@ O exemplo a seguir de uma solicitação PlayOnPhone mostra como formar uma solic
 </soap:Envelope>
 ```
 
-## <a name="successful-playonphone-response-example"></a>Exemplo de resposta PlayOnPhone bem-sucedida
+## <a name="successful-playonphone-response-example"></a>Exemplo de resposta bem-sucedida do PlayOnPhone
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma resposta PlayOnPhone mostra uma resposta à solicitação PlayOnPhone.
+O exemplo a seguir de uma resposta Do PlayOnPhone mostra uma resposta à solicitação do PlayOnPhone.
   
 ### <a name="code"></a>Código
 
@@ -65,9 +65,9 @@ O exemplo a seguir de uma resposta PlayOnPhone mostra uma resposta à solicitaç
 
 
 
-[PlayOnPhone (serviço Web da UM)](playonphone-um-web-service.md)
+[PlayOnPhone (serviço Web de Unificação de Mensagens)](playonphone-um-web-service.md)
   
-[PlayOnPhoneResponse (serviço Web da UM)](playonphoneresponse-um-web-service.md)
+[PlayOnPhoneResponse (serviço Web de Unificação de Mensagens)](playonphoneresponse-um-web-service.md)
   
-[Operação PlayOnPhoneGreeting (serviço Web da UM)](playonphonegreeting-operation-um-web-service.md)
+[Operação PlayOnPhoneGreeting (serviço Web de Unificação de Mensagens)](playonphonegreeting-operation-um-web-service.md)
 

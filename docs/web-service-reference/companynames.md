@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 615fa52d-86ff-4630-b188-5fdb9391eee2
-description: O elemento companyNames contém uma matriz de nomes de empresa e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: 25daa43873fe00837004217e3f814a7201638450
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento CompanyNames contém uma matriz de nomes da empresa e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: ca5be5960ab0b1c154809c5d6acc9b5503e52169
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463255"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517235"
 ---
 # <a name="companynames"></a>CompanyNames
 
-O elemento **companyNames** contém uma matriz de nomes de empresa e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento CompanyNames** contém uma matriz de nomes da empresa e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <CompanyNames>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

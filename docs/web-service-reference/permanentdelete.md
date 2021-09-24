@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PermanentDelete
 api_type:
 - schema
 ms.assetid: 1a0e0f46-1472-4eb7-bb54-f193a2603587
-description: O elemento PermanentDelete indica se as mensagens devem ser excluídas permanentemente e não foram salvas na pasta itens excluídos.
-ms.openlocfilehash: da7680eefca9ad359948af38eac49d18e9055988
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PermanentDelete indica se as mensagens devem ser excluídas permanentemente e não salvas na pasta Itens Excluídos.
+ms.openlocfilehash: f7d130b86e30709959f7ea7db5bd321cd21573cb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467764"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516661"
 ---
 # <a name="permanentdelete"></a>PermanentDelete
 
-O elemento **PermanentDelete** indica se as mensagens devem ser excluídas permanentemente e não foram salvas na pasta itens excluídos. 
+O **elemento PermanentDelete** indica se as mensagens devem ser excluídas permanentemente e não salvas na pasta Itens Excluídos. 
   
 ```XML
 <PermanentDelete>true | false</PermanentDelete>
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem tomadas em uma mensagem quando as condições são atendidas.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

@@ -1,23 +1,23 @@
 ---
-title: UID (remindertype)
+title: UID (ReminderType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 169e7825-4480-46d2-9f84-cdab27c8bcfb
-description: O elemento UID (remindertype) identifica o item de calendário associado a um lembrete.
-ms.openlocfilehash: ab7e59725a87ff21bb2df052b5893abf6217f78a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UID (ReminderType) identifica o item de calendário associado a um lembrete.
+ms.openlocfilehash: e8abb5890bd82a78b019a9d9f66e008095384c1a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530370"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517508"
 ---
-# <a name="uid-remindertype"></a>UID (remindertype)
+# <a name="uid-remindertype"></a>UID (ReminderType)
 
-O elemento **UID (Remindertype)** identifica o item de calendário associado a um lembrete. 
+O **elemento UID (ReminderType)** identifica o item de calendário associado a um lembrete. 
   
 ```XML
 <UID />
@@ -38,7 +38,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **UID (Remindertype)** identifica um item de calendário. 
+O valor de texto do **elemento UID (ReminderType)** identifica um item de calendário. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -52,7 +52,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

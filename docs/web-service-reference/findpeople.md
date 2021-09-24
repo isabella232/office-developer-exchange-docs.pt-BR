@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12c70441-77b9-4619-8e66-1b7e3a63ba48
-description: 'O elemento FindPeople especifica um conjunto de dados usados em uma solicitação FindPeople. Os dados incluem zero ou mais dos seguintes elementos: uma forma persona (opcional), um modo de exibição de item de página indexado, uma restrição (opcional), uma restrição de agregação (opcional), uma ordem de classificação (opcional), uma ID de pasta pai e uma cadeia de caracteres de consulta (opcional).'
-ms.openlocfilehash: 4777601b7146ec857b5c79fa9d4ced59a7247889
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 'O elemento FindPeople especifica um conjunto de dados usados em uma solicitação FindPeople. Os dados incluem zero ou mais dos seguintes elementos: uma forma de persona (opcional), um modo de exibição de item de página indexado, uma restrição (opcional), uma restrição de agregação (opcional), uma ordem de classificação (opcional), uma ID de pasta pai e uma cadeia de caracteres de consulta (opcional).'
+ms.openlocfilehash: 44070c79ad5d1615929a6169d1808cf365b7cab4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462898"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535160"
 ---
 # <a name="findpeople"></a>FindPeople
 
-O elemento **FindPeople** especifica um conjunto de dados usados em uma solicitação FindPeople. Os dados incluem zero ou mais dos seguintes elementos: uma forma persona (opcional), um modo de exibição de item de página indexado, uma restrição (opcional), uma restrição de agregação (opcional), uma ordem de classificação (opcional), uma ID de pasta pai e uma cadeia de caracteres de consulta (opcional). 
+O **elemento FindPeople** especifica um conjunto de dados usados em uma solicitação FindPeople. Os dados incluem zero ou mais dos seguintes elementos: uma forma de persona (opcional), um modo de exibição de item de página indexado, uma restrição (opcional), uma restrição de agregação (opcional), uma ordem de classificação (opcional), uma ID de pasta pai e uma cadeia de caracteres de consulta (opcional). 
   
 ```XML
 <FindPeople>
@@ -42,11 +42,11 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[PersonaShape](personashape.md)  |  [IndexedPageItemView](indexedpageitemview.md)  |  [Restrição](restriction.md)  |  [AggregationRestriction](aggregationrestriction.md)  |  [SortOrder](sortorder.md)  |  [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)  |  [QueryString (querystringtype)](querystring-querystringtype.md)
+[PersonaShape](personashape.md)  |  [IndexedPageItemView](indexedpageitemview.md)  |  [Restrição](restriction.md)  |  [AggregationRestriction](aggregationrestriction.md)  |  [SortOrder](sortorder.md)  |  [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)  |  [QueryString (QueryStringType)](querystring-querystringtype.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 
