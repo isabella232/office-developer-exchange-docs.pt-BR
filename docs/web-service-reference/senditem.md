@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendItem
 api_type:
 - schema
 ms.assetid: a966da19-b05a-4504-ac98-91acc1667b9a
-description: O elemento SendItem é o elemento raiz em uma solicitação para enviar um item no repositório do Exchange.
-ms.openlocfilehash: 28f0d484dd079146c998cb7317bd2d80c6739e19
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SendItem é o elemento raiz em uma solicitação para enviar um item no Exchange store.
+ms.openlocfilehash: 2d1613451e7f876f0b612a3249570412e40b4764
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530562"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521617"
 ---
 # <a name="senditem"></a>SendItem
 
-O elemento **SendItem** é o elemento raiz em uma solicitação para enviar um item no repositório do Exchange. 
+O **elemento SendItem** é o elemento raiz em uma solicitação para enviar um item no Exchange store. 
   
 ```xml
 <SendItem SaveItemToFolder="">
@@ -39,29 +39,29 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|**SaveItemToFolder** <br/> |Identifica se uma cópia do item enviado é salva. A ação salvar depende do valor de **SaveItemToFolder** e se um elemento [SavedItemFolderId](saveditemfolderid.md) está presente na solicitação. Este elemento é obrigatório.  <br/> |
+|**SaveItemToFolder** <br/> |Identifica se uma cópia do item enviado está salva. A ação salvar depende do valor **de SaveItemToFolder** e se um [elemento SavedItemFolderId](saveditemfolderid.md) está presente na solicitação. Este elemento é obrigatório.  <br/> |
    
 #### <a name="saveitemtofolder-attribute"></a>Atributo SaveItemToFolder
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|**verdadeiro** <br/> |Se o elemento [SavedItemFolderId](saveditemfolderid.md) não estiver presente, o item será salvo na pasta Itens enviados. Se o elemento [SavedItemFolderId](saveditemfolderid.md) estiver presente, o item será salvo na pasta especificada pelo elemento [SavedItemFolderId](saveditemfolderid.md) .  <br/> |
-|**false** <br/> |Se o elemento [SavedItemFolderId](saveditemfolderid.md) não estiver presente, o item não será salvo. Se o elemento [SavedItemFolderId](saveditemfolderid.md) estiver presente, uma resposta de erro será retornada com um elemento [ResponseCode](responsecode.md) que contém o valor de **ErrorInvalidSendItemSaveSettings** .  <br/> |
+|**true** <br/> |Se o [elemento SavedItemFolderId](saveditemfolderid.md) não estiver presente, o item será salvo na pasta Itens Enviados. Se o [elemento SavedItemFolderId](saveditemfolderid.md) estiver presente, o item será salvo na pasta especificada pelo [elemento SavedItemFolderId.](saveditemfolderid.md)  <br/> |
+|**false** <br/> |Se o [elemento SavedItemFolderId](saveditemfolderid.md) não estiver presente, o item não será salvo. Se o [elemento SavedItemFolderId](saveditemfolderid.md) estiver presente, uma resposta de erro será retornada com um elemento [ResponseCode](responsecode.md) que contém o **valor ErrorInvalidSendItemSaveSettings.**  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ItemIds](itemids.md) <br/> |Contém as identidades exclusivas de itens, itens de ocorrência e itens mestre recorrentes que são usados para excluir, enviar, obter, mover ou copiar itens no repositório do Exchange.  <br/> |
-|[SavedItemFolderId](saveditemfolderid.md) <br/> |Identifica a pasta de destino para operações que atualizam, enviam e criam itens no repositório do Exchange.  <br/> |
+|[ItemIds](itemids.md) <br/> |Contém as identidades exclusivas de itens, itens de ocorrência e itens mestras recorrentes que são usados para excluir, enviar, obter, mover ou copiar itens no Exchange store.  <br/> |
+|[SavedItemFolderId](saveditemfolderid.md) <br/> |Identifica a pasta de destino para operações que atualizem, enviem e criem itens no Exchange store.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Se um item na pasta Itens enviados é enviado, o item enviado é excluído e uma cópia dele é colocada na pasta Itens enviados.
+Se um item na pasta Itens Enviados for enviado, o item enviado será excluído e uma cópia dele será colocada na pasta Itens Enviados.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   

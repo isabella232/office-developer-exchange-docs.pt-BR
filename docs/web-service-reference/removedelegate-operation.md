@@ -5,27 +5,27 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RemoveDelegate
 api_type:
 - schema
 ms.assetid: 1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a
 description: A operação RemoveDelegate remove um ou mais representantes da caixa de correio de um usuário.
-ms.openlocfilehash: b2e342225e7e79c44dcd86b76b4b7d47b16b860b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1e18b1122ac24e0463fc487a2a3e51fb44aab54b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466595"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517977"
 ---
 # <a name="removedelegate-operation"></a>Operação RemoveDelegate
 
-A operação **RemoveDelegate** remove um ou mais representantes da caixa de correio de um usuário. 
+A **operação RemoveDelegate** remove um ou mais representantes da caixa de correio de um usuário. 
   
-## <a name="soap-headers"></a>Cabeçalhos SOAP
+## <a name="soap-headers"></a>SOAP Headers
 
-A operação **RemoveDelegate** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir. 
+A **operação RemoveDelegate** pode usar os headers SOAP listados e descritos na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
@@ -38,7 +38,7 @@ A operação **RemoveDelegate** pode usar os cabeçalhos SOAP listados e descrit
 
 ### <a name="description"></a>Descrição
 
-O exemplo de código a seguir mostra como remover dois representantes da caixa de correio do user1's. Neste exemplo, um representante é removido usando o endereço SMTP principal do representante e o outro é removido usando o identificador de segurança (SID) do representante.
+O exemplo de código a seguir mostra como remover dois representantes da caixa de correio do usuário1. Neste exemplo, um representante é removido usando o endereço SMTP principal do representante e o outro é removido usando o identificador de segurança do representante (SID).
   
 ### <a name="code"></a>Código
 
@@ -70,13 +70,13 @@ O exemplo de código a seguir mostra como remover dois representantes da caixa d
 
 ### <a name="comments"></a>Comentários
 
-A operação **RemoveDelegate** não exige que o usuário delegado especificado tenha uma caixa de correio ou exista no serviço de diretório do Active Directory. A operação **RemoveDelegate** será bem-sucedida se a entrada de representante estiver órfão. 
+A **operação RemoveDelegate** não exige que o usuário delegado especificado tenha uma caixa de correio ou exista no serviço de diretório do Active Directory. A **operação RemoveDelegate** será bem-sucedida se a entrada do representante ficar órfã. 
   
 ## <a name="removedelegate-response-example"></a>Exemplo de resposta RemoveDelegate
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma resposta **RemoveDelegate** mostra uma resposta bem-sucedida a uma solicitação **RemoveDelegate** . A resposta contém um elemento **DelegateUserResponseMessageType** para cada representante removido da caixa de correio. 
+O exemplo a seguir de **uma resposta RemoveDelegate** mostra uma resposta bem-sucedida a uma **solicitação RemoveDelegate.** A resposta contém um **elemento DelegateUserResponseMessageType** para cada representante removido da caixa de correio. 
   
 ### <a name="code"></a>Código
 
@@ -115,7 +115,7 @@ O exemplo a seguir de uma resposta **RemoveDelegate** mostra uma resposta bem-su
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma resposta de erro do **RemoveDelegate** mostra os resultados de uma solicitação para remover um representante que não existe. 
+O exemplo a seguir de **uma resposta de erro RemoveDelegate** mostra os resultados de uma solicitação para remover um representante que não existe. 
   
 ### <a name="code"></a>Código
 

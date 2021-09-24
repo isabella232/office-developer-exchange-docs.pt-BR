@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb087ac9-bac7-4635-a54f-3b115d9f5dc4
-description: O elemento GetOrganizationRelationshipSettingsResponseMessage define uma resposta a uma solicitação de operação do GetOrganizationRelationshipSettings (SOAP). O elemento GetOrganizationRelationshipSettingsResponseMessage é somente para uso interno. Esse elemento não é usado por clientes.
-ms.openlocfilehash: 806f062824e7e8d937f54cd3d38000aba42acf1e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetOrganizationRelationshipSettingsResponseMessage define uma resposta a uma solicitação de operação GetOrganizationRelationshipSettings (SOAP). O elemento GetOrganizationRelationshipSettingsResponseMessage é apenas para uso interno. Esse elemento não é usado pelos clientes.
+ms.openlocfilehash: 98038e19fd1e85b0d915f250db98ca13ac1b9721
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466168"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521952"
 ---
 # <a name="getorganizationrelationshipsettingsresponsemessage-soap"></a>GetOrganizationRelationshipSettingsResponseMessage (SOAP)
 
-O elemento **GetOrganizationRelationshipSettingsResponseMessage** define uma resposta a uma solicitação de [operação do GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md) . O elemento **GetOrganizationRelationshipSettingsResponseMessage** é somente para uso interno. Esse elemento não é usado por clientes. 
+O **elemento GetOrganizationRelationshipSettingsResponseMessage** define uma resposta a uma solicitação de operação [GetOrganizationRelationshipSettings (SOAP).](getorganizationrelationshipsettings-operation-soap.md) O **elemento GetOrganizationRelationshipSettingsResponseMessage** é apenas para uso interno. Esse elemento não é usado pelos clientes. 
   
 ```XML
 <GetOrganizationRelationshipSettingsResponseMessage>
@@ -36,7 +36,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Resposta (GetOrganizationRelationship) (SOAP)](response-getorganizationrelationshipsoap.md) <br/> |Contém as informações de resposta da [operação GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md) .  <br/> |
+|[Response (GetOrganizationRelationship) (SOAP)](response-getorganizationrelationshipsoap.md) <br/> |Contém as informações de resposta [getOrganizationRelationshipSettings (SOAP).](getorganizationrelationshipsettings-operation-soap.md)  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -47,7 +47,7 @@ Nenhum
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

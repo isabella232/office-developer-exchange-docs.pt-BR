@@ -1,32 +1,32 @@
 ---
-title: Operação SetMissedCallNotificationEnabled (serviço Web da UM)
+title: Operação SetMissedCallNotificationEnabled (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetMissedCallNotificationEnabled
 api_type:
 - schema
 ms.assetid: 6693b5db-ac6b-43bc-af83-a9c94fc425bf
-description: A operação SetMissedCallNotificationEnabled habilita ou desabilita notificações de chamada não atendida.
-ms.openlocfilehash: ca4942942a81bc187e8e18a5e6f003f8587f79d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação SetMissedCallNotificationEnabled habilita ou desabilita notificações de chamada perdidas.
+ms.openlocfilehash: 31f59887041aac02e5876b596931902373870203
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467393"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521414"
 ---
-# <a name="setmissedcallnotificationenabled-operation-um-web-service"></a>Operação SetMissedCallNotificationEnabled (serviço Web da UM)
+# <a name="setmissedcallnotificationenabled-operation-um-web-service"></a>Operação SetMissedCallNotificationEnabled (serviço Web de Unificação de Mensagens)
 
-A operação SetMissedCallNotificationEnabled habilita ou desabilita notificações de chamada não atendida.
+A operação SetMissedCallNotificationEnabled habilita ou desabilita notificações de chamada perdidas.
   
 ## <a name="setmissedcallnotificationenabled-request-example"></a>Exemplo de solicitação SetMissedCallNotificationEnabled
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação SetMissedCallNotificationEnabled mostra como formar uma solicitação para habilitar notificações de chamadas perdidas.
+O exemplo a seguir de uma solicitação SetMissedCallNotificationEnabled mostra como formar uma solicitação para habilitar notificações de chamada perdidas.
   
 ### <a name="code"></a>Código
 
@@ -62,9 +62,9 @@ O exemplo a seguir de uma resposta PlayOnPhoneGreeting mostra uma resposta à so
 
 
 
-[SetMissedCallNotificationEnabled (serviço Web da UM)](setmissedcallnotificationenabled-um-web-service.md)
+[SetMissedCallNotificationEnabled (serviço Web de Unificação de Mensagens)](setmissedcallnotificationenabled-um-web-service.md)
   
-[SetMissedCallNotificationEnabledResponse (serviço Web da UM)](setmissedcallnotificationenabledresponse-um-web-service.md)
+[SetMissedCallNotificationEnabledResponse (serviço Web de Unificação de Mensagens)](setmissedcallnotificationenabledresponse-um-web-service.md)
   
-[Status (serviço Web da UM-SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
+[Status (serviço Web de Unificação de Mensagens – SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
 

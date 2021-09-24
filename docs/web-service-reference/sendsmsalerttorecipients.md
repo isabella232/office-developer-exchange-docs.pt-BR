@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendSMSAlertToRecipients
 api_type:
 - schema
 ms.assetid: c4dd000b-11b6-4b7b-91e0-dbfeae11d770
-description: O elemento SendSMSAlertToRecipients indica os números de telefone celular para os quais um alerta de serviço de mensagem curta (SMS) deve ser enviado.
-ms.openlocfilehash: ed17bf9ad20a51cbead4b86f385a53d19562fa64
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SendSMSAlertToRecipients indica os números de telefone celular para os quais um alerta sms deve ser enviado.
+ms.openlocfilehash: ed53ef0cdd420eea53103c1579e8c53f334d0f3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464844"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521526"
 ---
 # <a name="sendsmsalerttorecipients"></a>SendSMSAlertToRecipients
 
-O elemento **SendSMSAlertToRecipients** indica os números de telefone celular para os quais um alerta de serviço de mensagem curta (SMS) deve ser enviado. 
+O **elemento SendSMSAlertToRecipients** indica os números de telefone celular para os quais um alerta sms deve ser enviado. 
   
 ```XML
 <SendSMSAlertToRecipients>
@@ -42,13 +42,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Endereço (EmailAddresstype)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
+|[Address (EmailAddressType)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem tomadas em uma mensagem quando as condições são atendidas.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

@@ -1,27 +1,27 @@
 ---
-title: Pesquisa
+title: SearchExpression
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SearchExpression
 api_type:
 - schema
 ms.assetid: daa179b6-8c7f-4268-a312-c2acc67fa7c3
-description: O elemento Searché é um elemento abstract que representa o elemento substituído dentro de uma restrição. Todas as expressões de pesquisa derivam desse tipo base. Esse elemento não é usado em um documento de instância XML.
-ms.openlocfilehash: db06ce8e2faa0f2589963d58aab55073c618c171
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SearchExpression é um elemento abstrato que representa o elemento substituído dentro de uma restrição. Todas as expressões de pesquisa derivam desse tipo de base. Esse elemento não é usado em um documento de instância XML.
+ms.openlocfilehash: e8047d333b36d77bc6823efd6488a15a6d2501a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530349"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517844"
 ---
-# <a name="searchexpression"></a>Pesquisa
+# <a name="searchexpression"></a>SearchExpression
 
-O elemento **searché** é um elemento abstract que representa o elemento substituído dentro de uma restrição. Todas as expressões de pesquisa derivam desse tipo base. Esse elemento não é usado em um documento de instância XML. 
+O **elemento SearchExpression** é um elemento abstrato que representa o elemento substituído dentro de uma restrição. Todas as expressões de pesquisa derivam desse tipo de base. Esse elemento não é usado em um documento de instância XML. 
   
 ```xml
 <SearchExpression/>
@@ -44,19 +44,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Restriction](restriction.md) <br/> |Representa a restrição ou a consulta usada para filtrar itens ou pastas no FindItem/FindFolder e operações de pasta de pesquisa.  <br/> |
-|[Not](not.md) <br/> |Representa uma expressão de pesquisa que nega o valor booliano da expressão de pesquisa que ela contém.  <br/> |
-|[And](and.md) <br/> |Representa uma expressão de pesquisa que permite executar um Boolean **e** uma operação entre duas ou mais expressões de pesquisa. O resultado da operação **and** será **true** se todas as expressões de pesquisa contidas no elemento **e** forem **true**.  <br/> |
-|[Or](or.md) <br/> |Representa uma expressão de pesquisa que executa uma operação lógica **ou** na expressão de pesquisa que ela contém. **Ou** retornará **true** se qualquer um dos seus filhos retornar **true**. **Ou** deve ter dois ou mais filhos.  <br/> |
+|[Restriction](restriction.md) <br/> |Representa a restrição ou consulta usada para filtrar itens ou pastas nas operações FindItem/FindFolder e pasta de pesquisa.  <br/> |
+|[Not](not.md) <br/> |Representa uma expressão de pesquisa que nega o valor Boolean da expressão de pesquisa que ela contém.  <br/> |
+|[And](and.md) <br/> |Representa uma expressão de pesquisa que permite executar uma operação Boolean **AND** entre duas ou mais expressões de pesquisa. O resultado da operação **AND** será **true** se todas as expressões de pesquisa contidas no **elemento And** são **verdadeiras**.  <br/> |
+|[Or](or.md) <br/> |Representa uma expressão de pesquisa que executa uma operação **OR lógica** na expressão de pesquisa que ela contém. **Ou** retornará **true** se qualquer um de seus filhos retornar **true**. **Ou** deve ter dois ou mais filhos.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Qualquer elemento Filter que faz parte do grupo de substituição Searché pode aparecer no lugar do elemento Searché.
+Qualquer elemento de filtro que faz parte do grupo de substituição SearchExpression pode aparecer no lugar do elemento SearchExpression.
   
 > [!NOTE]
 > Esse elemento nunca ocorrerá diretamente em um documento de instância. 
   
-Os seguintes elementos são membros do grupo de substituição de SearchParameters:
+Os elementos a seguir são membros do grupo de substituição SearchExpression:
   
 - [Existe](exists.md)
     
@@ -82,7 +82,7 @@ Os seguintes elementos são membros do grupo de substituição de SearchParamete
     
 - [Or](or.md)
     
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -90,7 +90,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

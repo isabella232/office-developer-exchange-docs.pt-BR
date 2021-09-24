@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fee3f1f9-e868-49fa-a554-7ff096964718
-description: O elemento status especifica o status de espera para uma caixa de correio.
-ms.openlocfilehash: cecfdfaf67b00b6f8cf02188e7a4df7062a732e4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Status especifica o status de espera de uma caixa de correio.
+ms.openlocfilehash: a055dde61ae52c266f2349036c881d2b00557171
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459984"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521232"
 ---
 # <a name="status-holdstatustype"></a>Status (HoldStatusType)
 
-O elemento **status** especifica o status de espera para uma caixa de correio. 
+O **elemento Status** especifica o status de espera de uma caixa de correio. 
   
 ```XML
 <Status> NotOnHold | Pending | OnHold | PartialHold | Failed </Status>
@@ -42,17 +42,17 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **status** é o status de espera de uma caixa de correio. O elemento **status** pode ter os valores na lista a seguir. 
+O valor de texto do elemento **Status** é o status de espera de uma caixa de correio. O **elemento Status** pode ter os valores na lista a seguir. 
   
-> NotOnHold-a caixa de correio não está em espera.
+> NotOnHold - A caixa de correio não está em espera.
     
-> Pendente-a caixa de correio está pendente que está sendo colocada ou liberada em espera. 
+> Pendente - A caixa de correio está pendente sendo colocada ou liberada em espera. 
     
-> OnHold-a retenção foi aplicada com êxito à caixa de correio. 
+> OnHold - A espera foi aplicada com êxito à caixa de correio. 
     
-> PartialHold-a retenção foi aplicada com êxito a algumas caixas de correio, mas não a todas as caixas de correio.
+> PartialHold - A bloqueio foi aplicada com êxito a algumas caixas de correio, mas não a todas as caixas de correio.
     
-> Failed-Falha ao aplicar à caixa de correio.
+> Falha - Falha na aplicação da espera à caixa de correio.
     
 ## <a name="remarks"></a>Comentários
 
@@ -66,7 +66,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

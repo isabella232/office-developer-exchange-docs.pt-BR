@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1354c86e-7740-42c4-9e63-b372b3906846
-description: O elemento PersonaObjectStatus especifica se as informações no persona associado estão completas ou parciais.
-ms.openlocfilehash: 66dbe30cebb0aa5845d9580ad057d1cf5ab9b037
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PersonaObjectStatus especifica se as informações na persona associada são completas ou parciais.
+ms.openlocfilehash: db50ea8e9b308e670f557e6bc162793a265a8855
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457232"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524585"
 ---
 # <a name="personaobjectstatus"></a>PersonaObjectStatus
 
-O elemento **PersonaObjectStatus** especifica se as informações no persona associado estão completas ou parciais. 
+O **elemento PersonaObjectStatus** especifica se as informações na persona associada são completas ou parciais. 
   
 ```XML
 <PersonaObjectStatus></PersonaObjectStatus>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **PersonaObjectStatus** indica se a pessoa está completa ou parcial. 
+O valor de texto do **elemento PersonaObjectStatus** indica se a persona está completa ou parcial. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

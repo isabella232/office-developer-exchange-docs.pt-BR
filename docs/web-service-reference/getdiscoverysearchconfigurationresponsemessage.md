@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b84a4c6-cb0a-4bca-85b2-fec32227930b
 description: O elemento GetDiscoverySearchConfigurationResponseMessage especifica a mensagem de resposta para uma solicitação GetDiscoverySearchConfiguration.
-ms.openlocfilehash: 23d1c5b7a61a9161d7383ec8b38cd0ebbebfc8cf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b74af89b47f31ce78c2a97855cdff248bc132c28
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460971"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521946"
 ---
 # <a name="getdiscoverysearchconfigurationresponsemessage"></a>GetDiscoverySearchConfigurationResponseMessage
 
-O elemento **GetDiscoverySearchConfigurationResponseMessage** especifica a mensagem de resposta para uma solicitação **GetDiscoverySearchConfiguration** . 
+O **elemento GetDiscoverySearchConfigurationResponseMessage** especifica a mensagem de resposta para uma **solicitação GetDiscoverySearchConfiguration.** 
   
 ```XML
 <GetDiscoverySearchConfigurationResponseMessage>

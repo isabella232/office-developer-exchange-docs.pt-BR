@@ -5,36 +5,36 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0297458-58fb-4e5d-bb47-0cd17155e106
-description: A operação GetPasswordExpirationDate fornece a data de expiração da senha da conta de email do usuário atual.
-ms.openlocfilehash: 4184092cf98161e4c2f74446cef5439722ae71a1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetPasswordExpirationDate fornece a data de expiração da senha da conta de email para o usuário atual.
+ms.openlocfilehash: 07928fd3e6fca410a292d6cd74f1240d8e81c42f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457890"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524235"
 ---
 # <a name="getpasswordexpirationdate-operation"></a>Operação GetPasswordExpirationDate
 
-A operação **GetPasswordExpirationDate** fornece a data de expiração da senha da conta de email do usuário atual. 
+A **operação GetPasswordExpirationDate** fornece a data de expiração da senha da conta de email para o usuário atual. 
   
 Essa operação foi introduzida no Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="getpasswordexpirationdate-operation-soap-headers"></a>Cabeçalhos SOAP de operação GetPasswordExpirationDate
+## <a name="getpasswordexpirationdate-operation-soap-headers"></a>Headers soap da operação GetPasswordExpirationDate
 
-A operação **GetPasswordExpirationDate** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação GetPasswordExpirationDate** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Isso se aplica a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica o esquema para a solicitação de operação. Isso se aplica a uma solicitação. Isso se aplica a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "Marcas para a Identificação de Idiomas", a ser usada para acessar a caixa de correio. Isso é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica o esquema da solicitação de operação. Isso é aplicável a uma solicitação. Isso é aplicável a uma solicitação.  <br/> |
    
 ## <a name="getpasswordexpirationdate-operation-request-example"></a>Exemplo de solicitação de operação GetPasswordExpirationDate
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de operação do **GetPasswordExpirationDate** mostra como obter a data de expiração da senha de uma conta de email. 
+O exemplo a seguir de uma solicitação de operação **GetPasswordExpirationDate** mostra como obter a data de expiração da senha para uma conta de email. 
   
 ### <a name="code"></a>Código
 
@@ -54,7 +54,7 @@ O exemplo a seguir de uma solicitação de operação do **GetPasswordExpiration
 
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -62,7 +62,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
-## <a name="successful-getpasswordexpirationdate-operation-response"></a>Resposta de operação GetPasswordExpirationDate bem-sucedida
+## <a name="successful-getpasswordexpirationdate-operation-response"></a>Resposta bem-sucedida da operação GetPasswordExpirationDate
 
 Os seguintes elementos são usados na resposta:
   

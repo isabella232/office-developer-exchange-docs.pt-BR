@@ -1,32 +1,32 @@
 ---
-title: Imagem (POX)
+title: Image (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: c3dcabdb-8a29-42f8-8ab4-461bf17fb9f6
-description: O elemento Image contém o caminho de uma imagem que é usada para marcar a experiência de configuração.
-ms.openlocfilehash: 5e981c1bb4a6029108fd442556a68356b073059d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Image contém o caminho de uma imagem usada para identidade visual da experiência de configuração.
+ms.openlocfilehash: 0dae8943569c32106dafc9084d08585c89657a05
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460726"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525795"
 ---
-# <a name="image-pox"></a>Imagem (POX)
+# <a name="image-pox"></a>Image (POX)
 
-O elemento **Image** contém o caminho de uma imagem que é usada para marcar a experiência de configuração. 
+O **elemento Image** contém o caminho de uma imagem usada para identidade visual da experiência de configuração. 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Conta (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[Imagem (POX)](image-pox.md)
+[Image (POX)](image-pox.md)
   
 ```xml
 <Image/>
@@ -48,15 +48,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conta (POX)](account-pox.md) <br/> |Especifica as configurações de conta do usuário.  <br/> |
+|[Account (POX)](account-pox.md) <br/> |Especifica as configurações da conta para o usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o caminho de uma imagem que é usada para marcar a experiência de configuração.
+O valor de texto representa o caminho de uma imagem usada para identidade visual da experiência de configuração.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

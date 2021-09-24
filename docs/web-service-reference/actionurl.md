@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9697f2e5-a5f7-471a-a052-ae79e06eb09d
-description: O elemento ActionUrl identifica a URL para a qual o usuário deve navegar, a fim de corrigir um problema indicado pelo elemento AppStatus.
-ms.openlocfilehash: 2335595b4be6452f41c25f15d359e6939609c9b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ActionUrl identifica a URL para a onde o usuário deve navegar, para corrigir um problema indicado pelo elemento AppStatus.
+ms.openlocfilehash: 21bffd1d9300488dad5eec5f0eb67b8a48ec3f00
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529669"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522191"
 ---
 # <a name="actionurl"></a>ActionUrl
 
-O elemento **ActionUrl** identifica a URL para a qual o usuário deve navegar, a fim de corrigir um problema indicado pelo elemento [AppStatus](appstatus-ex15websvcsotherref.md) . 
+O **elemento ActionUrl** identifica a URL para a onde o usuário deve navegar, para corrigir um problema indicado pelo [elemento AppStatus.](appstatus-ex15websvcsotherref.md) 
   
 ```XML
 <ActionUrl/>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ActionUrl** identifica a URL para a qual o usuário deve navegar, a fim de corrigir um problema indicado pelo elemento **AppStatus** . 
+O valor de texto do **elemento ActionUrl** identifica a URL para a onde o usuário deve navegar, para corrigir um problema indicado pelo **elemento AppStatus.** 
   
 ## <a name="remarks"></a>Comentários
 

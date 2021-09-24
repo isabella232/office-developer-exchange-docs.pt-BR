@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RootAddress
 api_type:
 - schema
 ms.assetid: 1dbb130a-e4eb-4baf-ae07-2568a8375bff
 description: O elemento RootAddress representa o primeiro endereço que inicia o evento para um evento RecipientTrackingEvent.
-ms.openlocfilehash: e020ff07f271bdde6c2a4172141097dcba66f64e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8e9ad87889fa2cd02dee7b4b7c16d36862d4becd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465090"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525572"
 ---
 # <a name="rootaddress"></a>RootAddress
 
-O elemento **RootAddress** representa o primeiro endereço que inicia o evento para um evento [RecipientTrackingEvent](recipienttrackingevent.md) . 
+O **elemento RootAddress** representa o primeiro endereço que inicia o evento para um [evento RecipientTrackingEvent.](recipienttrackingevent.md) 
   
 ```xml
 <RootAddress/>
@@ -48,11 +48,11 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto é o endereço que inicia o evento de controle.
+O valor do texto é o endereço que inicia o evento de rastreamento.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 767bc328-b527-4e9a-85c6-f11897e43960
-description: O elemento NextPredictedAction é destinado apenas para uso interno.
-ms.openlocfilehash: 4bbd20a3d61df572423e455fdca42e9e42386d77
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento NextPredictedAction destina-se apenas ao uso interno.
+ms.openlocfilehash: c4fed1cdf11c252cd06296dcefe1181eca2a2b70
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529984"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518110"
 ---
 # <a name="nextpredictedaction"></a>NextPredictedAction
 
-O elemento **NextPredictedAction** é destinado apenas para uso interno. 
+O **elemento NextPredictedAction** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

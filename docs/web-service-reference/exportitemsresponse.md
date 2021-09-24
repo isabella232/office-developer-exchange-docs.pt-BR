@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExportItemsResponse
 api_type:
 - schema
 ms.assetid: ef44354b-fbdb-4f7c-b6bd-b27f56a1d018
-description: O elemento ExportItemsResponse representa uma resposta a uma única solicitação ExportItems.
-ms.openlocfilehash: a05a767032c32680cc269459b541446fcaa3d660
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ExportItemsResponse representa a resposta a uma única solicitação ExportItems.
+ms.openlocfilehash: 685acf96fffafb1e0f86e644140f18a9c1a5d316
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526036"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521965"
 ---
 # <a name="exportitemsresponse"></a>ExportItemsResponse
 
-O elemento **ExportItemsResponse** representa uma resposta a uma única solicitação **ExportItems** . 
+O **elemento ExportItemsResponse** representa a resposta a uma única **solicitação ExportItems.** 
   
 [ExportItemsResponse](exportitemsresponse.md)
   
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -56,7 +56,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 

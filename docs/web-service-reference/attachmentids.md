@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AttachmentIds
 api_type:
 - schema
 ms.assetid: 46ce3ad7-4b20-43ae-8c63-39f1e3c2666b
 description: O elemento AttachmentIds contém uma matriz de identificadores de anexo.
-ms.openlocfilehash: cff1cb5658690fd6dd2c6a7812e1f600a4c80e29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a631edbd1b82f3bbf7b99014d623fbb0072bb0c8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464249"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525131"
 ---
 # <a name="attachmentids"></a>AttachmentIds
 
-O elemento **AttachmentIds** contém uma matriz de identificadores de anexo. 
+O **elemento AttachmentIds** contém uma matriz de identificadores de anexo. 
   
 ```xml
 <AttachmentIds>
@@ -42,14 +42,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Attachmentid (GetAttachment e DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) <br/> |O elemento que identifica um único anexo.  <br/> |
+|[AttachmentId (GetAttachment e DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) <br/> |O elemento que identifica um único anexo.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DeleteAttachment](deleteattachment.md) <br/> |O elemento que define uma solicitação para excluir um anexo do repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/DeleteAttachment` <br/> |
-|[GetAttachment](getattachment.md) <br/> |O elemento que define uma solicitação para obter um anexo do repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetAttachment` <br/> |
+|[DeleteAttachment](deleteattachment.md) <br/> |O elemento que define uma solicitação para excluir um anexo do Exchange store.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/DeleteAttachment` <br/> |
+|[GetAttachment](getattachment.md) <br/> |O elemento que define uma solicitação para obter um anexo do Exchange store.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/GetAttachment` <br/> |
    
 ## <a name="remarks"></a>Comentários
 

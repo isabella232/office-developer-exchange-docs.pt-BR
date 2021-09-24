@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OutlookRuleBlobExists
 api_type:
 - schema
 ms.assetid: ae1bc448-deb9-4b5b-ab38-4b276abcb650
-description: O elemento OutlookRuleBlobExists indica se existe um blob de regra do Microsoft Outlook na caixa de correio do usuário.
-ms.openlocfilehash: 6a5c2a2ec0246d38b22279b86772972ea81922c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento OutlookRuleBlobExists indica se existe um blob Outlook regra da Microsoft na caixa de correio do usuário.
+ms.openlocfilehash: ff8ac5d6ad30578dbbf18787409f3d19469cf6b7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529025"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521702"
 ---
 # <a name="outlookruleblobexists"></a>OutlookRuleBlobExists
 
-O elemento **OutlookRuleBlobExists** indica se existe um blob de regra do Microsoft Outlook na caixa de correio do usuário. 
+O **elemento OutlookRuleBlobExists** indica se existe um blob Outlook regra da Microsoft na caixa de correio do usuário. 
   
 [GetInboxRulesResponse](getinboxrulesresponse.md)
   
@@ -48,11 +48,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetInboxRulesResponse](getinboxrulesresponse.md) <br/> |Representa uma resposta a uma solicitação de [operação GetInboxRules](getinboxrules-operation.md) .  <br/> |
+|[GetInboxRulesResponse](getinboxrulesresponse.md) <br/> |Representa uma resposta a uma [solicitação de operação GetInboxRules.](getinboxrules-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** indica que um blob de regra do Outlook existe. Um valor de texto **false** indica que um blob de regra do Outlook não existe. 
+Um valor de texto **true** indica que existe Outlook blob de regra. Um valor de texto **false** indica que um blob Outlook regra não existe. 
   
 ## <a name="remarks"></a>Comentários
 

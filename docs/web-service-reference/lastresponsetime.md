@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LastResponseTime
 api_type:
 - schema
 ms.assetid: 8e66979e-4e3b-4183-aaf5-a45d8380ede5
-description: O elemento LastResponseTime representa a data e hora da última resposta recebida.
-ms.openlocfilehash: 45740d1a31d9b04bbc5062e7ff8b05629abd84c4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento LastResponseTime representa a data e a hora da resposta mais recente recebida.
+ms.openlocfilehash: cc0b04e545ffe956d08314b53f9ff6c51477600e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455377"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524928"
 ---
 # <a name="lastresponsetime"></a>LastResponseTime
 
-O elemento **LastResponseTime** representa a data e hora da última resposta recebida. 
+O **elemento LastResponseTime** representa a data e a hora da resposta mais recente recebida. 
   
 ```xml
 <LastResponseTime/>
@@ -44,15 +44,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Participante](attendee.md) <br/> |Representa participantes e recursos de uma reunião.  <br/> |
+|[Attendee](attendee.md) <br/> |Representa participantes e recursos para uma reunião.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto que representa a data e hora da última resposta é necessário.
+Um valor de texto que representa a data e a hora da resposta mais recente é necessário.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

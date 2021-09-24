@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc52f7f5-c2a8-4cfb-937b-dfec6cd3ea0f
 description: O elemento MaximumBodySize especifica o tamanho máximo do corpo do item a ser retornado em uma resposta.
-ms.openlocfilehash: 21958c87aafc12a7369f957c87f86f80116cdf69
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2b44ca42c38b19e092343dc7bec7d4538c4749ad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530513"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524690"
 ---
 # <a name="maximumbodysize"></a>MaximumBodySize
 
-O elemento **MaximumBodySize** especifica o tamanho máximo do corpo do item a ser retornado em uma resposta. 
+O **elemento MaximumBodySize** especifica o tamanho máximo do corpo do item a ser retornado em uma resposta. 
   
 ```XML
 <MaximumBodySize></MaximumBodySize>
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Shape](itemshape.md)
+[ItemShape](itemshape.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **MaximumBodySize** indica o tamanho máximo da propriedade [Body](body.md) retornada na resposta. Isso é medido em quilobytes. 
+O valor de texto **do elemento MaximumBodySize** indica o tamanho máximo da [propriedade Body](body.md) retornada na resposta. Isso é medido em kilobytes. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

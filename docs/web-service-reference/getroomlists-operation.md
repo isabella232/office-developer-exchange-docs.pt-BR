@@ -5,27 +5,27 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetRoomLists
 api_type:
 - schema
 ms.assetid: 55d451f9-547f-44ac-872e-9cb220ea7b7c
-description: A operação GetRoomLists Obtém as listas de salas que estão disponíveis na organização do Exchange.
-ms.openlocfilehash: d1393a6a5e99b7e0a7e354d2b7dd035d04356ec2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetRoomLists obtém as listas de salas disponíveis na organização Exchange.
+ms.openlocfilehash: 017936dd7d36ffc4c69183380f95e14f7a529913
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458275"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521939"
 ---
 # <a name="getroomlists-operation"></a>Operação GetRoomLists
 
-A operação **GetRoomLists** Obtém as listas de salas que estão disponíveis na organização do Exchange. 
+A **operação GetRoomLists** obtém as listas de salas disponíveis na Exchange organização. 
   
-## <a name="soap-headers"></a>Cabeçalhos SOAP
+## <a name="soap-headers"></a>SOAP Headers
 
-A operação **GetRoomLists** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir. 
+A **operação GetRoomLists** pode usar os headers SOAP listados e descritos na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
@@ -38,7 +38,7 @@ A operação **GetRoomLists** pode usar os cabeçalhos SOAP listados e descritos
 
 ### <a name="description"></a>Descrição
 
-Veja a seguir um exemplo de uma solicitação **GetRoomLists** que retorna as listas de salas disponíveis no servidor. 
+A seguir está um exemplo de uma **solicitação GetRoomLists** que retorna as listas de salas disponíveis no servidor. 
   
 ### <a name="code"></a>Código
 
@@ -58,17 +58,17 @@ Veja a seguir um exemplo de uma solicitação **GetRoomLists** que retorna as li
 
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 O elemento a seguir é usado na solicitação:
   
 - [GetRoomLists](getroomlists.md)
     
-## <a name="successful-getroomlists-response-example"></a>Exemplo de resposta GetRoomLists bem-sucedida
+## <a name="successful-getroomlists-response-example"></a>Exemplo de resposta GetRoomLists bem-sucedido
 
 ### <a name="description"></a>Descrição
 
-Veja a seguir um exemplo de uma resposta a uma solicitação **GetRoomLists** . Essa resposta mostra uma lista de salas no servidor. 
+A seguir, um exemplo de uma resposta a uma **solicitação GetRoomLists.** Esta resposta mostra uma lista de sala no servidor. 
   
 ### <a name="code"></a>Código
 
@@ -95,7 +95,7 @@ Veja a seguir um exemplo de uma resposta a uma solicitação **GetRoomLists** . 
 
 ```
 
-### <a name="successful-getroomlists-response-elements"></a>Elementos de resposta do GetRoomLists bem-sucedidos
+### <a name="successful-getroomlists-response-elements"></a>Elementos de resposta GetRoomLists bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -113,11 +113,11 @@ Os seguintes elementos são usados na resposta:
     
 - [MailboxType](mailboxtype.md)
     
-### <a name="getroomlists-error-response-example"></a>Exemplo de resposta de erro GetRoomLists
+### <a name="getroomlists-error-response-example"></a>Exemplo de resposta de erro getRoomLists
 
 #### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra a resposta a uma tentativa de obter listas de salas de um servidor que não tenha nenhuma lista de salas definida.
+O exemplo a seguir mostra a resposta a uma tentativa de obter listas de sala de um servidor que não tem nenhuma lista de sala definida.
   
 #### <a name="code"></a>Código
 
@@ -137,7 +137,7 @@ O exemplo a seguir mostra a resposta a uma tentativa de obter listas de salas de
 
 ```
 
-#### <a name="getroomlists-error-response-elements"></a>Elementos de resposta de erro GetRoomLists
+#### <a name="getroomlists-error-response-elements"></a>Elementos de resposta de erro getRoomLists
 
 Os seguintes elementos são usados na resposta de erro:
   
@@ -153,7 +153,7 @@ Os seguintes elementos são usados na resposta de erro:
 
 
 
-[Operações do EWS no Exchange](ews-operations-in-exchange.md)
+[Operações EWS em Exchange](ews-operations-in-exchange.md)
   
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

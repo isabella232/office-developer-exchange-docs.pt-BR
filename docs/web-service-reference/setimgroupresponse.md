@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5562b38-6a3e-49e0-b1db-ec8cd0683863
 description: O elemento SetImGroupResponse representa uma resposta a uma solicitação SetImGroup.
-ms.openlocfilehash: 9c5f6bb5c2a4ffe4626f242ec06b7e022ef21bbf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fdf88ee36f24e1657d85c2724c8f868520895a48
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44438051"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521401"
 ---
 # <a name="setimgroupresponse"></a>SetImGroupResponse
 
-O elemento **SetImGroupResponse** representa uma resposta a uma solicitação **SetImGroup** . 
+O **elemento SetImGroupResponse** representa uma resposta a uma **solicitação SetImGroup.** 
   
 ```XML
 <SetImGroupResponse>
@@ -43,7 +43,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

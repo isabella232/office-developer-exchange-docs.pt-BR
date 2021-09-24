@@ -1,23 +1,23 @@
 ---
-title: Endereço (ContactType)
+title: Address (ContactType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c39f37bf-5cf5-47a7-8a2a-337b5e68f94f
-description: O elemento address especifica o endereço de um contato.
-ms.openlocfilehash: ffb13c8fed28dc1baee5002dc11f7acd7d4c3db5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Address especifica o endereço de um contato.
+ms.openlocfilehash: 187a2f58b521cdeaba7c0703f33d71a9f8081756
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464907"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525390"
 ---
-# <a name="address-contacttype"></a>Endereço (ContactType)
+# <a name="address-contacttype"></a>Address (ContactType)
 
-O elemento **Address** especifica o endereço de um contato. 
+O **elemento Address** especifica o endereço de um contato. 
   
 ```XML
 <Address></Address>
@@ -40,7 +40,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Endereços (ArrayOfAddressesType)](addresses-arrayofaddressestype.md) <br/> |Especifica uma matriz de elementos de **endereço** .  <br/> |
+|[Addresses (ArrayOfAddressesType)](addresses-arrayofaddressestype.md) <br/> |Especifica uma matriz de elementos **Address.**  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

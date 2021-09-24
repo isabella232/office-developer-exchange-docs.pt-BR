@@ -5,47 +5,47 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a54a6dc-110c-4972-a8bc-5ddb43c4b857
-description: Encontre informações sobre a operação do EWS do GetDiscoverySearchConfiguration.
-ms.openlocfilehash: 4db435988a9954b921e7851986b6f92ffedbad94
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação GetDiscoverySearchConfiguration EWS.
+ms.openlocfilehash: 62cadc818219e13199aa246e87066571d78c4e3d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461020"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525075"
 ---
 # <a name="getdiscoverysearchconfiguration-operation"></a>Operação GetDiscoverySearchConfiguration
 
-Encontre informações sobre a operação do EWS do **GetDiscoverySearchConfiguration** . 
+Encontre informações sobre a **operação GetDiscoverySearchConfiguration** EWS. 
   
-A operação **GetDiscoverySearchConfiguration** retorna informações de configuração para bloqueios in-loco, pesquisas salvas de descoberta e caixas de correio habilitadas para pesquisa de descoberta. 
+A **operação GetDiscoverySearchConfiguration** retorna informações de configuração para retém in-loco, pesquisas de descoberta salvas e caixas de correio habilitadas para pesquisa de descoberta. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-getdiscoverysearchconfiguration-operation"></a>Usando a operação GetDiscoverySearchConfiguration
 
-A operação **GetDiscoverySearchConfiguration** fornece informações de configuração para pesquisa de descoberta. As solicitações podem conter um ou mais dos seguintes argumentos: 
+A **operação GetDiscoverySearchConfiguration** fornece informações de configuração para a pesquisa de descoberta. As solicitações podem conter um ou mais dos seguintes argumentos: 
   
 1. [SearchId](searchid.md) — identifica uma pesquisa de descoberta salva. Se esse argumento for enviado na solicitação, os valores dos outros argumentos serão ignorados. 
     
-2. [ExpandGroupMembership](expandgroupmembership.md) — indica se a associação de grupo está expandida na resposta. Um valor **true** indica que a associação de grupo foi expandida para que todas as caixas de correio que podem ser pesquisadas sejam retornadas na resposta. Um valor **false** indica que apenas o grupo é retornado na resposta. 
+2. [ExpandGroupMembership](expandgroupmembership.md) — Indica se a associação ao grupo é expandida na resposta. Um valor true indica **que** a associação ao grupo é expandida para que todas as caixas de correio pesquisáveis sejam retornadas na resposta. Um valor **false** indica que somente o grupo é retornado na resposta. 
     
-3. [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) — indica se todas as caixas de correio que podem ser pesquisadas são retornadas além da configuração de bloqueio in-loco. Um valor **true** indica que somente as configurações de bloqueio in-loco são retornadas. Um valor **false** indica que todos os identificadores de caixa de correio pesquisáveis são retornados além dos identificadores de bloqueio in-loco. Se esse elemento não estiver presente, o comportamento padrão será o equivalente do valor **false**. 
+3. [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) — Indica se todas as caixas de correio pesquisáveis são retornadas além da configuração de espera local. Um valor **true** indica que apenas as configurações de espera in-loco são retornadas. Um valor false indica **que** todos os identificadores de caixa de correio pesquisáveis são retornados além dos identificadores de espera no local. Se esse elemento não estiver presente, o comportamento padrão será equivalente ao valor **false**. 
     
-### <a name="getdiscoverysearchconfiguration-operation-soap-headers"></a>Cabeçalhos SOAP de operação GetDiscoverySearchConfiguration
+### <a name="getdiscoverysearchconfiguration-operation-soap-headers"></a>Headers SOAP da operação GetDiscoverySearchConfiguration
 
-A operação **GetDiscoverySearchConfiguration** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação GetDiscoverySearchConfiguration** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifica as funções de servidor necessárias para que o chamador faça a solicitação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifica as funções de servidor necessárias para que o chamador faça a solicitação. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>Exemplo de solicitação de operação GetDiscoverySearchConfiguration: obter a configuração de pesquisa de descoberta para uma pesquisa salva
+## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>Exemplo da solicitação de operação GetDiscoverySearchConfiguration: Obter a configuração de pesquisa de descoberta para uma pesquisa salva
 
-O exemplo a seguir de uma solicitação de operação **GetDiscoverySearchConfiguration** mostra como solicitar a configuração de uma pesquisa salva chamada "MyDiscSearchFor-sbrown". Os argumentos dos elementos [ExpandGroupMembership](expandgroupmembership.md) e [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) são ignorados. 
+O exemplo a seguir de uma solicitação de operação **GetDiscoverySearchConfiguration** mostra como solicitar a configuração de uma pesquisa salva chamada "MyDiscSearchFor-sbrown". Os argumentos dos [elementos ExpandGroupMembership](expandgroupmembership.md) e [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) são ignorados. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -76,7 +76,7 @@ O corpo SOAP de solicitação contém os seguintes elementos:
     
 - [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>Resposta de operação GetDiscoverySearchConfiguration bem-sucedida: solicitação para uma única pesquisa salva
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>Resposta bem-sucedida da operação GetDiscoverySearchConfiguration: Solicitar uma única pesquisa salva
 
 O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetDiscoverySearchConfiguration** para obter a configuração de uma pesquisa salva chamada "MyDiscSearchFor-sbrown". 
   
@@ -131,7 +131,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [Guid](guid-ex15websvcsotherref.md)
     
-- [PrimarySmtpAddress (cadeia de caracteres)](primarysmtpaddress-string.md)
+- [PrimarySmtpAddress (string)](primarysmtpaddress-string.md)
     
 - [IsExternalMailbox](isexternalmailbox.md)
     
@@ -139,13 +139,13 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [DisplayName (cadeia de caracteres)](displayname-string.md)
     
-- [Membro ismembership](ismembershipgroup.md)
+- [IsMembershipGroup](ismembershipgroup.md)
     
 - [ReferenceId](referenceid.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-in-place-holds"></a>Resposta de operação GetDiscoverySearchConfiguration bem-sucedida: solicitação de bloqueio in-loco
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-in-place-holds"></a>Resposta bem-sucedida da operação GetDiscoverySearchConfiguration: Solicitação de resquões in-loco
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetDiscoverySearchConfiguration** para obter bloqueios in-loco apenas. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetDiscoverySearchConfiguration** para obter somente retém in-loco. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -204,7 +204,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [ManagedByOrganization](managedbyorganization.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>Resposta de operação GetDiscoverySearchConfiguration bem-sucedida: solicitação para todas as configurações de pesquisa de descoberta salvas
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>Resposta bem-sucedida da operação GetDiscoverySearchConfiguration: Solicitar todas as configurações de pesquisa de descoberta salvas
 
 O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetDiscoverySearchConfiguration** para obter todas as pesquisas de descoberta salvas. 
   
@@ -293,7 +293,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [Guid](guid-ex15websvcsotherref.md)
     
-- [PrimarySmtpAddress (cadeia de caracteres)](primarysmtpaddress-string.md)
+- [PrimarySmtpAddress (string)](primarysmtpaddress-string.md)
     
 - [IsExternalMailbox](isexternalmailbox.md)
     
@@ -301,13 +301,13 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [DisplayName (cadeia de caracteres)](displayname-string.md)
     
-- [Membro ismembership](ismembershipgroup.md)
+- [IsMembershipGroup](ismembershipgroup.md)
     
 - [ReferenceId](referenceid.md)
     
-## <a name="getdiscoverysearchconfiguration-operation-error-response"></a>Resposta de erro de operação GetDiscoverySearchConfiguration
+## <a name="getdiscoverysearchconfiguration-operation-error-response"></a>Resposta de erro da operação GetDiscoverySearchConfiguration
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetDiscoverySearchConfiguration** . Esta é uma resposta a uma solicitação para obter uma pesquisa salva que não é encontrada no servidor. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetDiscoverySearchConfiguration.** Esta é uma resposta a uma solicitação para obter uma pesquisa salva que não é encontrada no servidor. 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -336,7 +336,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 
 ```
 
-O corpo SOAP de resposta de erro contém os seguintes elementos:
+O corpo SOAP da resposta de erro contém os seguintes elementos:
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -348,11 +348,11 @@ O corpo SOAP de resposta de erro contém os seguintes elementos:
     
 - [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
     
-Para obter códigos de erro adicionais genéricos para o EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
+Para obter códigos de erro adicionais genéricos para EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Confira também
 
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
     
 - [GetSearchableMailboxes](getsearchablemailboxes.md)
     

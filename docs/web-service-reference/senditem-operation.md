@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendItem
 api_type:
 - schema
 ms.assetid: 337b89ef-e1b7-45ed-92f3-8abe4200e4c7
-description: A operação SendItem é usada para enviar mensagens de email que estão localizadas no repositório do Exchange.
-ms.openlocfilehash: 9136379e50723211fe5a483c7f113da4fa125fc1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação SendItem é usada para enviar mensagens de email localizadas no Exchange store.
+ms.openlocfilehash: d1e43cdceb3a594c3fa2f028502a3bfedbbf85a1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530335"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521582"
 ---
 # <a name="senditem-operation"></a>Operação SendItem
 
-A operação SendItem é usada para enviar mensagens de email que estão localizadas no repositório do Exchange.
+A operação SendItem é usada para enviar mensagens de email localizadas no Exchange store.
   
-## <a name="senditem-e-mail-message-request-example"></a>Exemplo de solicitação SendItem (mensagem de email)
+## <a name="senditem-e-mail-message-request-example"></a>Exemplo de solicitação SendItem (Email Message)
 
 ### <a name="description"></a>Descrição
 
@@ -49,9 +49,9 @@ O exemplo a seguir mostra como enviar uma mensagem de email.
 
 ### <a name="comments"></a>Comentários
 
-O identificador de item foi reduzido para preservar a legibilidade.
+O identificador de item foi reduzido para preservar a capacidade de leitura.
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -61,7 +61,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [ItemId](itemid.md)
     
-## <a name="successful-senditem-e-mail-message-response"></a>Resposta SendItem (mensagem de email) bem-sucedida
+## <a name="successful-senditem-e-mail-message-response"></a>Resposta bem-sucedida de SendItem (Mensagem de Email)
 
 ### <a name="description"></a>Descrição
 
@@ -108,11 +108,11 @@ Os seguintes elementos são usados na resposta:
     
 ### <a name="comments"></a>Comentários
 
-Um representante que tentar enviar uma mensagem de email que está localizado na pasta Rascunhos da entidade de segurança com a opção SendAndSaveCopy definida para salvar uma cópia na pasta distinta de itens enviados, falhará silenciosamente, para mover uma cópia do item enviado para a pasta distinta itens enviados. O item permanecerá na pasta Rascunhos da entidade de segurança. A solução alternativa para esse problema é especificar a caixa de correio da entidade de segurança no elemento [DistinguishedFolderId](distinguishedfolderid.md) . 
+Um representante que tenta enviar uma mensagem de email localizada na pasta Rascunhos da entidade principal com a opção SendAndSaveCopy definida para salvar uma cópia na pasta de destaque Itens Enviados falhará silenciosamente ao mover uma cópia do item enviado para a pasta distinta Itens Enviados. O item permanecerá na pasta Rascunhos da entidade. A solução alternativa para esse problema é especificar a caixa de correio da entidade no [elemento DistinguishedFolderId.](distinguishedfolderid.md) 
   
-Um cenário adicional a ser considerado é quando um representante cria uma mensagem de email e a salva na pasta Rascunhos da caixa de correio do representante. Se o representante tentar enviar o item e salvar uma cópia na pasta distinta de itens enviados da entidade de segurança, a mensagem será enviada corretamente, a mensagem de rascunho permanecerá na pasta Rascunhos do representante, a mensagem enviada não aparecerá na pasta Itens enviados do representante ou da entidade de segurança e a resposta será um êxito.
+Um cenário adicional a ser considerado é quando um representante cria uma mensagem de email e salva-a na pasta Rascunhos da caixa de correio do representante. Se o representante tentar enviar o item e salvar uma cópia para a pasta distinta Itens Enviados da entidade principal, a mensagem será enviada corretamente, a mensagem de rascunho permanecerá na pasta Rascunhos do representante, a mensagem enviada não aparecerá na pasta Itens Enviados do representante ou da entidade principal e a resposta será um sucesso.
   
-## <a name="invalid-senditem-e-mail-message-request-example"></a>Exemplo de solicitação SendItem (mensagem de email) inválida
+## <a name="invalid-senditem-e-mail-message-request-example"></a>Exemplo de solicitação SendItem inválido (Mensagem de Email)
 
 ### <a name="description"></a>Descrição
 
@@ -136,11 +136,11 @@ O exemplo de código a seguir mostra um exemplo de uma solicitação com um iden
 </soap:Envelope>
 ```
 
-## <a name="senditem-e-mail-message-error-response"></a>Resposta de erro SendItem (mensagem de email)
+## <a name="senditem-e-mail-message-error-response"></a>Resposta de erro SendItem (Email Message)
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de SendItem que contém um identificador inválido.
+O exemplo a seguir mostra uma resposta de erro a uma solicitação SendItem que contém um identificador inválido.
   
 ### <a name="code"></a>Código
 

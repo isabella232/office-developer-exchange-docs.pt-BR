@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c94cfb7-42e2-42e4-9c6d-a1b0f4747f83
 description: O elemento GetHoldOnMailboxes indica o início da solicitação GetHoldOnMailboxes.
-ms.openlocfilehash: f3f2cb5a83a662fc83c0a861f740571f089c10d8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e85518c046aa2c20e5767f15f869b81df28c40b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458346"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522002"
 ---
 # <a name="getholdonmailboxes"></a>GetHoldOnMailboxes
 
-O elemento **GetHoldOnMailboxes** indica o início da solicitação **GetHoldOnMailboxes** . 
+O **elemento GetHoldOnMailboxes** indica o início da solicitação **GetHoldOnMailboxes.** 
   
 ```XML
 <GetHoldOnMailboxes>
@@ -36,11 +36,11 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Isenção](holdid.md)
+[HoldId](holdid.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

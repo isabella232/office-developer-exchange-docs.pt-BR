@@ -5,32 +5,32 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UploadItems
 api_type:
 - schema
 ms.assetid: a88cbe99-7968-454d-a545-4f92c330909f
-description: A operação UploadItems carrega um fluxo de itens em uma caixa de correio do Exchange.
-ms.openlocfilehash: 57e722c7775baa090736875077781cee869c3b01
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação UploadItems carrega um fluxo de itens em uma Exchange de correio.
+ms.openlocfilehash: 333b72eb93395bb1fc0b97a90951ae68285794b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468499"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522422"
 ---
 # <a name="uploaditems-operation"></a>Operação UploadItems
 
-A operação **UploadItems** carrega um fluxo de itens em uma caixa de correio do Exchange. 
+A **operação UploadItems** carrega um fluxo de itens em uma caixa Exchange caixa de correio. 
   
 > [!IMPORTANT]
-> A operação **UploadItems** é restrita no MicrosoftExchange Server 2010 Service Pack 1 (SP1) para uma carga de importação máxima de 25 MB de dados codificados em base64. A configuração pode ser alterada no arquivo Web. config. 
+> A operação **UploadItems** é restrita no MicrosoftExchange Server 2010 Service Pack 1 (SP1) para uma carga máxima de importação de 25 MB de dados codificados base64. A configuração pode ser alterada no arquivo web.config arquivo. 
   
-## <a name="uploaditems-request-example"></a>Exemplo de solicitação UploadItems
+## <a name="uploaditems-request-example"></a>Exemplo da solicitação UploadItems
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **UploadItems** mostra como carregar dois itens em uma caixa de correio. O primeiro item é um novo item. O segundo item é uma versão atualizada de um item existente na caixa de correio. 
+O exemplo a seguir de uma **solicitação UploadItems** mostra como carregar dois itens em uma caixa de correio. O primeiro item é um novo item. O segundo item é uma versão atualizada de um item existente na caixa de correio. 
   
 ### <a name="code"></a>Código
 
@@ -80,9 +80,9 @@ O exemplo a seguir de uma solicitação **UploadItems** mostra como carregar doi
 
 ### <a name="comments"></a>Comentários
 
-Os identificadores e os dados de item foram reduzidos para preservar a legibilidade.
+Os identificadores e os dados do item foram reduzidos para preservar a capacidade de leitura.
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -90,21 +90,21 @@ Os seguintes elementos são usados na solicitação:
     
 - [UploadItems](uploaditems.md)
     
-- [Itens (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
+- [Items (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
     
 - [Item (UploadItemType)](item-uploaditemtype.md)
     
 - [ParentFolderId](parentfolderid.md)
     
-- [Dados (base64Binary)](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
 - [ItemId](itemid.md)
     
-## <a name="successful-uploaditems-response-example"></a>Exemplo de resposta UploadItems bem-sucedida
+## <a name="successful-uploaditems-response-example"></a>Exemplo de resposta UploadItems bem-sucedido
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **UploadItems** . 
+O exemplo a seguir mostra uma resposta bem-sucedida à **solicitação UploadItems.** 
   
 ### <a name="code"></a>Código
 
@@ -143,7 +143,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **UploadIte
 
 ### <a name="comments"></a>Comentários
 
-Os identificadores de item foram reduzidos para preservar a legibilidade.
+Os identificadores de item foram reduzidos para preservar a capacidade de leitura.
   
 ### <a name="response-elements"></a>Elementos de resposta
 
@@ -165,7 +165,7 @@ Os seguintes elementos são usados na resposta:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta para a solicitação **UploadItems** que contém um erro causado por uma tentativa de atualizar um item que não pode ser encontrado na caixa de correio. 
+O exemplo a seguir mostra uma resposta à solicitação **UploadItems** que contém um erro causado por uma tentativa de atualizar um item que não pode ser encontrado na caixa de correio. 
   
 ### <a name="code"></a>Código
 
@@ -224,7 +224,7 @@ Os seguintes elementos são usados na resposta de erro:
 [Operação ExportItems](exportitems-operation.md)
 
 
-[Operações do EWS no Exchange](ews-operations-in-exchange.md)
+[Operações EWS em Exchange](ews-operations-in-exchange.md)
   
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

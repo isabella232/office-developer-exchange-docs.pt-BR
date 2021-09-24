@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49db6a4f-4a20-4495-8f76-d756cc895b66
-description: O elemento RetentionPeriod especifica o número de dias que a política de retenção está em vigor.
-ms.openlocfilehash: c9d049e2c1ed4e8abdec9faa7b8e365468d3d2ac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RetentionPeriod especifica o número de dias em que a política de retenção está em vigor.
+ms.openlocfilehash: e3e25926eca2551186f3b3b06e805d6da0d8b2d7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465188"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524592"
 ---
 # <a name="retentionperiod"></a>RetentionPeriod
 
-O elemento **RetentionPeriod** especifica o número de dias que a política de retenção está em vigor. 
+O **elemento RetentionPeriod** especifica o número de dias em que a política de retenção está em vigor. 
   
 ```XML
 <RetentionPeriod></RetentionPeriod>
 ```
 
- **Semantic**
+ **integer**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **RetentionPeriod** é o número de dias que a política de retenção está em vigor para um item. 
+O valor de texto **do elemento RetentionPeriod** é o número de dias em que a política de retenção está em vigor para um item. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f4adfc48-2d51-4d2d-9ddc-b91c3e96cb02
 description: O elemento StartTimeZoneId especifica o fuso horário no qual ocorre uma reunião.
-ms.openlocfilehash: 30ccbbf75963615ba16a991370a007a46e684930
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 31a2ad3ecd1e0756b2103b648b665a2e70dfcca0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44448118"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521239"
 ---
 # <a name="starttimezoneid"></a>StartTimeZoneId
 
-O elemento **StartTimeZoneId** especifica o fuso horário no qual ocorre uma reunião. 
+O **elemento StartTimeZoneId** especifica o fuso horário no qual ocorre uma reunião. 
   
 ```XML
 <StartTimeZoneId></StartTimeZoneId>
@@ -43,7 +43,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **StartTimeZoneId** é o identificador de fuso horário do fuso horário usado no elemento [inicial](start.md) . 
+O valor de texto do **elemento StartTimeZoneId** é o identificador de fuso horário do fuso horário usado no [elemento Start.](start.md) 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,7 +57,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

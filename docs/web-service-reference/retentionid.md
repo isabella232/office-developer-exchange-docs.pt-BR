@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 07be3c51-6537-49b5-b25d-ff51759aba1f
-description: O elemento RetentionId especifica o identificador da marca de retenção.
-ms.openlocfilehash: f32fa0ceb301fca88cb0275e99ee9417dea87d2e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RetentionId especifica o identificador de marca de retenção.
+ms.openlocfilehash: 5dc0a7ea5f8649f4b4f17d8dd4090e891f28181c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465216"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517921"
 ---
 # <a name="retentionid"></a>RetentionId
 
-O elemento **RetentionId** especifica o identificador da marca de retenção. 
+O **elemento RetentionId** especifica o identificador de marca de retenção. 
   
 ```XML
 <RetentionId></RetentionId>
 ```
 
- **Guidtype**
+ **GuidType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **RetentionId** é o identificador de marca de retenção no formato Guid. 
+O valor de texto do **elemento RetentionId** é o identificador de marca de retenção no formulário GUID. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

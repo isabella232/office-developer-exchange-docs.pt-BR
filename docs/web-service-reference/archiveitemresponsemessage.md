@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2ac58d6f-e019-4352-b82f-8ac67a171e63
 description: O elemento ArchiveItemResponseMessage especifica a mensagem de resposta para uma solicitação ArchiveItem.
-ms.openlocfilehash: 24d09d63cab6805194e35031d8590290573de0a9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c0d816039ea0ab9d69d04d979a9dad973e4278b8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463388"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525257"
 ---
 # <a name="archiveitemresponsemessage"></a>ArchiveItemResponseMessage
 
-O elemento **ArchiveItemResponseMessage** especifica a mensagem de resposta para uma solicitação **ArchiveItem** . 
+O **elemento ArchiveItemResponseMessage** especifica a mensagem de resposta para uma **solicitação ArchiveItem.** 
   
 ```XML
 <ArchiveItemResponseMessage ResponseClass="">
@@ -44,7 +44,7 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Êxito  <br/> |Indica êxito.  <br/> |
+|Sucesso  <br/> |Indica sucesso.  <br/> |
 |Aviso  <br/> |Indica um aviso.  <br/> |
 |Erro  <br/> |Indica um erro.  <br/> |
    
@@ -55,14 +55,14 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 |[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Atualmente não usado e reservado para uso futuro.  <br/> |
 |[Itens](items.md) <br/> |Contém uma matriz de itens.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fornece uma descrição de texto do status da resposta.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta de erro.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta a erros.  <br/> |
 |[ResponseCode](responsecode.md) <br/> |Fornece informações de status sobre a solicitação.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -76,7 +76,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

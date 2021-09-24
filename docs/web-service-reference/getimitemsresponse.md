@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b340fef-61cd-4a56-bb69-d935f7f7f552
 description: O elemento GetImItemsResponse define uma resposta a uma solicitação GetImItems.
-ms.openlocfilehash: 71547834243a7d377a8b1de527b6db78280c7530
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 61a9689e9f8669438b91b5c5576d93f69f70bb23
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456434"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521974"
 ---
 # <a name="getimitemsresponse"></a>GetImItemsResponse
 
-O elemento **GetImItemsResponse** define uma resposta a uma solicitação **GetImItems** . 
+O **elemento GetImItemsResponse** define uma resposta a uma **solicitação GetImItems.** 
   
 ```XML
 <GetImItemsResponse>
@@ -40,11 +40,11 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)  |  [Imitemlist](imitemlist.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)  |  [ImItemList](imitemlist.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

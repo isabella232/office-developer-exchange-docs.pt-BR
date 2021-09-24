@@ -1,23 +1,23 @@
 ---
-title: Atribuições (ArrayOfPersonaAttributionsType)
+title: Attributions (ArrayOfPersonaAttributionsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f61d843c-bca5-4c88-9667-fd03d2a963a1
-description: O elemento de atribuições especifica uma matriz de informações de atribuição para um ou mais dos destinatários de contatos ou do Active Directory agregados ao persona associado.
-ms.openlocfilehash: a9883e06a8adbd5c9d3bc7e1edd28c62418df653
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Attributions especifica uma matriz de informações de atribuição para um ou mais dos contatos ou destinatários do Active Directory agregados à persona associada.
+ms.openlocfilehash: 2c0ee8100398846be33827b5129557ca89789a17
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460320"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522023"
 ---
-# <a name="attributions-arrayofpersonaattributionstype"></a>Atribuições (ArrayOfPersonaAttributionsType)
+# <a name="attributions-arrayofpersonaattributionstype"></a>Attributions (ArrayOfPersonaAttributionsType)
 
-O elemento de **atribuições** especifica uma matriz de informações de atribuição para um ou mais dos destinatários de contatos ou do Active Directory agregados ao persona associado. 
+O **elemento Attributions** especifica uma matriz de informações de atribuição para um ou mais dos contatos ou destinatários do Active Directory agregados à persona associada. 
   
 ```XML
 <Attributions>
@@ -38,13 +38,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Atribuição (PersonaAttributionType)](attribution-personaattributiontype.md) <br/> |Especifica uma instância em uma matriz de atributos para um elemento **personatype** .  <br/> |
+|[Attribution (PersonaAttributionType)](attribution-personaattributiontype.md) <br/> |Especifica uma instância em uma matriz de atributos para um **elemento PersonaType.**  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

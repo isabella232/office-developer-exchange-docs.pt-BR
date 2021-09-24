@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61d87cd5-3270-40d1-bab7-d0d5bf938607
-description: O elemento PersonaShape especifica o conjunto de propriedades persona a ser retornado de uma solicitação FindPeople.
-ms.openlocfilehash: 49cbae714a3b854496dc91ea6102f4b676623690
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PersonaShape especifica o conjunto de propriedades persona a serem retornadas de uma solicitação FindPeople.
+ms.openlocfilehash: 41c37be586a033965f5102e7e14af7d7fe205e8f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457568"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524578"
 ---
 # <a name="personashape"></a>PersonaShape
 
-O elemento **PersonaShape** especifica o conjunto de propriedades persona a ser retornado de uma solicitação **FindPeople** . 
+O **elemento PersonaShape** especifica o conjunto de propriedades persona a serem retornadas de uma **solicitação FindPeople.** 
   
 ```XML
 <PersonaShape>

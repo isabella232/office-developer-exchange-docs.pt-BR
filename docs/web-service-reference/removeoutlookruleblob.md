@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RemoveOutlookRuleBlob
 api_type:
 - schema
 ms.assetid: 69614475-8bd3-4475-b988-614fe9cad8ef
-description: O elemento RemoveOutlookRuleBlob indica se o blob de regra do Microsoft Outlook deve ser removido.
-ms.openlocfilehash: b4202ab52bf16d1ad1546ec963cd8b9dacd2bd63
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RemoveOutlookRuleBlob indica se o blob de regras Outlook Microsoft deve ser removido.
+ms.openlocfilehash: 92fd4e22ce0551c7922036e68fc0c6822a006b89
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467666"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525593"
 ---
 # <a name="removeoutlookruleblob"></a>RemoveOutlookRuleBlob
 
-O elemento **RemoveOutlookRuleBlob** indica se o blob de regra do Microsoft Outlook deve ser removido. 
+O **elemento RemoveOutlookRuleBlob** indica se é preciso remover o blob de regras Outlook Microsoft. 
   
 [UpdateInboxRules](updateinboxrules.md)
   
@@ -48,15 +48,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UpdateInboxRules](updateinboxrules.md) <br/> |Define uma solicitação para atualizar as regras de caixa de entrada em uma caixa de correio no repositório do servidor.  <br/> |
+|[UpdateInboxRules](updateinboxrules.md) <br/> |Define uma solicitação para atualizar as regras de Caixa de Entrada em uma caixa de correio no armazenamento do servidor.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** indica que o blob de regra do Outlook deve ser removido. Um valor de texto **false** indica que o blob de regra do Outlook não deve ser removido. 
+Um valor de texto **true** indica que o blob Outlook regra deve ser removido. Um valor de texto **false** indica que o blob Outlook regra não deve ser removido. 
   
 ## <a name="remarks"></a>Comentários
 
-Defina este elemento como **true** para permitir uma atualização de regra de caixa de entrada. 
+De definir esse elemento **como true** para permitir uma atualização de regra de Caixa de Entrada. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
@@ -66,7 +66,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também

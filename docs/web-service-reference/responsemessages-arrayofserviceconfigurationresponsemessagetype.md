@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessages
 api_type:
 - schema
 ms.assetid: c7cfa0d1-fcb2-441f-8489-3a549da33b34
 description: O elemento ResponseMessages contém uma matriz de mensagens de resposta de configuração de serviço.
-ms.openlocfilehash: cf271224141ffeb6dc00069abf430ab33d3ca2fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6ea5ccf62e22927911252d56a52d2fc40b2da68e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457449"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521722"
 ---
 # <a name="responsemessages-arrayofserviceconfigurationresponsemessagetype"></a>ResponseMessages (ArrayOfServiceConfigurationResponseMessageType)
 
-O elemento **ResponseMessages** contém uma matriz de mensagens de resposta de configuração de serviço. 
+O **elemento ResponseMessages** contém uma matriz de mensagens de resposta de configuração de serviço. 
   
 ```XML
 <ResponseMessages>
@@ -42,7 +42,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contém definições de configuração de serviço. Este elemento é obrigatório.  <br/> |
+|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contém configurações de serviço. Este elemento é obrigatório.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 

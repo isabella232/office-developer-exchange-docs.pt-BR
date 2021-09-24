@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsAutomaticReply
 api_type:
 - schema
 ms.assetid: 280e9baf-199d-422c-8fdf-1d0751a3e77d
 description: O elemento IsAutomaticReply indica se as mensagens de entrada devem ser respostas automáticas para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: 7521dbbb458cf7683b52b2fe4fddacd276b40256
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 64708ecb129727fdd47f34307d17b85df00b460c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455559"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525781"
 ---
 # <a name="isautomaticreply"></a>IsAutomaticReply
 
-O elemento **IsAutomaticReply** indica se as mensagens de entrada devem ser respostas automáticas para que a condição ou exceção seja aplicada. 
+O **elemento IsAutomaticReply** indica se as mensagens de entrada devem ser respostas automáticas para que a condição ou exceção seja aplicada. 
   
 ```XML
 <IsAutomaticReply> true | false</IsAutomaticReply>
@@ -44,8 +44,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

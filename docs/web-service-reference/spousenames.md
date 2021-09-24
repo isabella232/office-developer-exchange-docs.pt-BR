@@ -1,23 +1,23 @@
 ---
-title: Cônjuge
+title: SpouseNames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e18f46fe-ab83-4df1-b1a5-9c8e73173ccf
-description: O elemento Maridonames especifica uma matriz de nomes de cônjuge ou parceiro e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: 9b7960e7aee8652d16561f8dd2eb3d891fb8d694
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SpouseNames especifica uma matriz de nomes de cônjuge ou parceiro e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: 6856674db8ef1e636631c2b381f5b21bbc857495
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467624"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521302"
 ---
-# <a name="spousenames"></a>Cônjuge
+# <a name="spousenames"></a>SpouseNames
 
-O elemento **maridonames** especifica uma matriz de nomes de cônjuge ou parceiro e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento SpouseNames** especifica uma matriz de nomes de cônjuge ou parceiro e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <SpouseNames>
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

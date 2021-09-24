@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 37c31ecb-a21e-47c8-befe-1bf4415f244c
 description: O elemento DisplayName representa um nome de exibição.
-ms.openlocfilehash: 894c80f86b4532453ef0b7186c8b7558e882a3b5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7df5f13249f862459598af539223ef4f2d27b63b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526897"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521988"
 ---
 # <a name="displayname-soap"></a>DisplayName (SOAP)
 
-O elemento **DisplayName** representa um nome de exibição. 
+O **elemento DisplayName** representa um nome de exibição. 
   
 ```XML
 <DisplayName/>
@@ -42,18 +42,18 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |Representa uma caixa de correio alternativa.  <br/> |
-|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Representa informações de localização e metadados de um local de compartilhamento de documentos.  <br/> |
+|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Representa informações de localização e metadados para um local de compartilhamento de documentos.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **DisplayName** é o nome de exibição de uma configuração. 
+O valor de texto do **elemento DisplayName** é o nome de exibição de uma configuração. 
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

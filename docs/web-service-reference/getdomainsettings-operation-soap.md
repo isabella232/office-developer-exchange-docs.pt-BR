@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a6f4a53d-d7f6-4ad1-8afb-78745c500eaa
-description: A operação GetDomainSettings recupera as configurações especificadas do domínio para o usuário. A descoberta automática retorna os domínios que devem ser descobertos e as configurações solicitadas desses domínios.
-ms.openlocfilehash: fd655e088b73372bc1dd68a740ebc2b516d1804a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetDomainSettings recupera as configurações especificadas do domínio para o usuário. A Descoberta Automática retorna os domínios que devem ser descobertos e as configurações solicitadas desses domínios.
+ms.openlocfilehash: 7f52ea840bd7f46198d95ba5f0c07894873cf6e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460964"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525047"
 ---
 # <a name="getdomainsettings-operation-soap"></a>Operação GetDomainSettings (SOAP)
 
-A operação **GetDomainSettings** recupera as configurações especificadas do domínio para o usuário. A descoberta automática retorna os domínios que devem ser descobertos e as configurações solicitadas desses domínios. 
+A **operação GetDomainSettings** recupera as configurações especificadas do domínio para o usuário. A Descoberta Automática retorna os domínios que devem ser descobertos e as configurações solicitadas desses domínios. 
   
 ## <a name="getdomainsettings-request-example"></a>Exemplo de solicitação GetDomainSettings
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **GetDomainSettings** mostra uma solicitação para as configurações de domínio do **ExternalEWSUrl** de um usuário. O cliente envia essa solicitação para o servidor. 
+O exemplo a seguir de uma **solicitação GetDomainSettings** mostra uma solicitação para as configurações de domínio **ExternalEWSUrl** de um usuário. O cliente envia essa solicitação para o servidor. 
   
 ### <a name="code"></a>Código
 
@@ -58,27 +58,27 @@ O exemplo a seguir de uma solicitação **GetDomainSettings** mostra uma solicit
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
 - [GetDomainSettingsRequestMessage (SOAP)](getdomainsettingsrequestmessage-soap.md)
     
-- [Solicitação (SOAP)](request-soap.md)
+- [Request (SOAP)](request-soap.md)
     
-- [Domínios (SOAP)](domains-soap.md)
+- [Domains (SOAP)](domains-soap.md)
     
-- [Domínio (SOAP)](domain-soap.md)
+- [Domain (SOAP)](domain-soap.md)
     
 - [RequestedSettings (SOAP)](requestedsettings-soap.md)
     
-- [Configuração (SOAP)](setting-soap.md)
+- [Setting (SOAP)](setting-soap.md)
     
 ## <a name="getdomainsettings-response-example"></a>Exemplo de resposta GetDomainSettings
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetDomainSettings** que o servidor envia para o cliente. 
+O exemplo a seguir mostra uma resposta bem-sucedida à **solicitação GetDomainSettings** que o servidor envia ao cliente. 
   
 ### <a name="code"></a>Código
 
@@ -128,7 +128,7 @@ Os seguintes elementos são usados na resposta:
   
 - [GetDomainSettingsResponseMessage (SOAP)](getdomainsettingsresponsemessage-soap.md)
     
-- [Resposta (SOAP)](response-soap.md)
+- [Response (SOAP)](response-soap.md)
     
 - [ErrorCode (SOAP)](errorcode-soap.md)
     
@@ -144,9 +144,9 @@ Os seguintes elementos são usados na resposta:
     
 - [DomainSetting (SOAP)](domainsetting-soap.md)
     
-- [Nome (SOAP)](name-soap.md)
+- [Name (SOAP)](name-soap.md)
     
-- [Valor (SOAP)](value-soap.md)
+- [Value (SOAP)](value-soap.md)
     
 - [RedirectTarget (SOAP)](redirecttarget-soap.md)
     

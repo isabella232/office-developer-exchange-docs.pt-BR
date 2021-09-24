@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ccb4cd62-9779-4ca7-a4fe-5a96e6af8f48
-description: O elemento Query contém a consulta de pesquisa para a isenção.
-ms.openlocfilehash: 52b7f58ee0304621d37fc592a0377f5fd82cea29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Query contém a consulta de pesquisa para a espera.
+ms.openlocfilehash: a9e66a0861a07336aa3a02eaca5b65ab97a3d6cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468856"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523787"
 ---
 # <a name="query"></a>Consulta
 
-O elemento **Query** contém a consulta de pesquisa para a isenção. 
+O **elemento Query** contém a consulta de pesquisa para a espera. 
   
 ```XML
 <Query></Query>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **Query** é a cadeia de caracteres de consulta de pesquisa para uma pesquisa de descoberta. 
+O valor de texto do **elemento Query** é a cadeia de caracteres de consulta de pesquisa para uma pesquisa de descoberta. 
   
 ## <a name="remarks"></a>Comentários
 

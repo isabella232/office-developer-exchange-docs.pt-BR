@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ba567bf-2c6c-4a6b-9ae8-3eea22d849de
-description: O elemento YomiCompanyName especifica o nome da empresa fonética japonesa do persona associado.
-ms.openlocfilehash: 52966aaec8e0ea0ec0f89c15c0ff0dc83521881d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento YomiCompanyName especifica o nome da empresa phonetic japonês da persona associada.
+ms.openlocfilehash: 0b98b4b9a9cdf65b409914562f0f2b48f5ff21fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467113"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521204"
 ---
 # <a name="yomicompanyname"></a>YomiCompanyName
 
-O elemento **YomiCompanyName** especifica o nome da empresa fonética japonesa do persona associado. 
+O **elemento YomiCompanyName** especifica o nome da empresa phonetic japonês da persona associada. 
   
 ```XML
 <YomiCompanyName></YomiCompanyName>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **YomiCompanyName** é o nome da empresa fonética japonesa do persona associado. 
+O valor de texto do **elemento YomiCompanyName** é o nome da empresa phonetic japonês da persona associada. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

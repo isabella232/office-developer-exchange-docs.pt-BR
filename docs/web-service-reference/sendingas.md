@@ -1,27 +1,27 @@
 ---
-title: Envios
+title: SendingAs
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendingAs
 api_type:
 - schema
 ms.assetid: b43ce19f-9ab0-4946-acb2-c5aafead9d35
-description: O elemento sendas representa um endereço de email que um usuário está tentando enviar como.
-ms.openlocfilehash: cd11bd60cbbe3434fcc1b0b9a1cfe0de9f0b1e21
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SendingAs representa um endereço de email que um usuário está tentando enviar como.
+ms.openlocfilehash: 6b40b49f80ff995b0b068f2a9bd518f9fda84ba9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462133"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517830"
 ---
-# <a name="sendingas"></a>Envios
+# <a name="sendingas"></a>SendingAs
 
-O elemento **sendas** representa um endereço de email que um usuário está tentando enviar como. 
+O **elemento SendingAs** representa um endereço de email que um usuário está tentando enviar como. 
   
 ```XML
 <SendingAs>
@@ -33,7 +33,7 @@ O elemento **sendas** representa um endereço de email que um usuário está ten
 </SendingAs>
 ```
 
- **EmailAddresstype**
+ **EmailAddressType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -46,17 +46,17 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Nome (EmailAddresstype)](name-emailaddresstype.md) <br/> |Representa o nome do usuário da caixa de correio. Este elemento é opcional.  <br/> |
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Define o endereço SMTP (Simple Mail Transfer Protocol) principal de um usuário de caixa de correio. Este elemento é opcional.  <br/> |
-|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Define o tipo de endereço da caixa de correio. O padrão é SMTP. Este elemento é opcional.  <br/> |
-|[MailboxType](mailboxtype.md) <br/> |Representa o tipo de caixa de correio representada por um usuário de email. Este elemento é opcional.  <br/> |
-|[ItemId](itemid.md) <br/> |Define o identificador de item de um contato ou de uma lista de distribuição privada para destinatários da pasta contatos de um usuário. Este elemento é opcional.  <br/> |
+|[Name (EmailAddressType)](name-emailaddresstype.md) <br/> |Representa o nome do usuário da caixa de correio. Esse elemento é opcional.  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Define o endereço SMTP (Simple Mail Transfer Protocol) principal de um usuário de caixa de correio. Esse elemento é opcional.  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Define o tipo de endereço da caixa de correio. O padrão é SMTP. Esse elemento é opcional.  <br/> |
+|[MailboxType](mailboxtype.md) <br/> |Representa o tipo de caixa de correio representada por um usuário de email. Esse elemento é opcional.  <br/> |
+|[ItemId](itemid.md) <br/> |Define o identificador de item de um contato ou lista de distribuição privada para destinatários da pasta Contatos de um usuário. Esse elemento é opcional.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetMailTips](getmailtips.md) <br/> |Contém os destinatários e os tipos de dicas de email a serem recuperadas.  <br/> |
+|[GetMailTips](getmailtips.md) <br/> |Contém os destinatários e os tipos de dicas de email a recuperar.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

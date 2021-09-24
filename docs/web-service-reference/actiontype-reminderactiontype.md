@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ffcdcf4-8ea3-483c-bb7f-0cd84126120c
 description: O elemento ActionType especifica a ação a ser tomada no lembrete.
-ms.openlocfilehash: 5c62b2dd945b23a5ff2bb824385c45dbc617a5a5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d78725c75ad13a71d69d7749f0a71cd99d606929
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465055"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522254"
 ---
 # <a name="actiontype-reminderactiontype"></a>ActionType (ReminderActionType)
 
-O elemento **ActionType** especifica a ação a ser tomada no lembrete. 
+O **elemento ActionType** especifica a ação a ser tomada no lembrete. 
   
 ```XML
 <ActionType> Dismiss | Snooze </ActionType>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ActionType** especifica a ação a ser tomada no lembrete. O valor de texto de **ignorar** indica que o lembrete deve ser Descartado. O valor de texto de **adiar** indica que o lembrete deve ser atrasado até o tempo especificado pelo elemento [NewReminderTime](newremindertime.md) . 
+O valor de texto do **elemento ActionType** especifica a ação a ser tomada no lembrete. O valor de texto **de Dismiss** indica que o lembrete deve ser ignorado. O valor de texto **de Snooze** indica que o lembrete deve ser atrasado até o horário especificado pelo [elemento NewReminderTime.](newremindertime.md) 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MaximumResultsByDay
 api_type:
 - schema
 ms.assetid: d581a12a-2b8e-4960-ae14-c8c4aa0b1849
-description: O elemento MaximumResultsByDay especifica o número de horas de reunião sugeridas por um dia retornado na resposta.
-ms.openlocfilehash: 46d5c35a83034b8b968901fbc4ee57d046b6c164
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MaximumResultsByDay especifica o número de horários de reunião sugeridos por dia retornados na resposta.
+ms.openlocfilehash: 6a355843e3c4a6b5ce20f812b4eb9bcc7a3283bc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468415"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523927"
 ---
 # <a name="maximumresultsbyday"></a>MaximumResultsByDay
 
-O elemento **MaximumResultsByDay** especifica o número de horas de reunião sugeridas por um dia retornado na resposta. 
+O **elemento MaximumResultsByDay** especifica o número de horários de reunião sugeridos por dia retornados na resposta. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -51,18 +51,18 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para obter informações de sugestão de reunião.  <br/> Este é o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para obter informações de sugestão de reunião.  <br/> Veja a seguir o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. O valor de texto representa um inteiro.
+Um valor de texto é necessário. O valor de texto representa um inteiro.
   
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é necessário se o elemento [SuggestionsViewOptions](suggestionsviewoptions.md) for usado. 
+Esse elemento será necessário se o [elemento SuggestionsViewOptions](suggestionsviewoptions.md) for usado. 
   
 > [!NOTE]
-> O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft® Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada. 
+> O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft® Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada. 
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -70,11 +70,11 @@ Esse elemento é necessário se o elemento [SuggestionsViewOptions](suggestionsv
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 - [Operação GetUserAvailability](getuseravailability-operation.md)
-- [Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

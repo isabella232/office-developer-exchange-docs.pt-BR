@@ -1,29 +1,29 @@
 ---
-title: Gerenciar configurações de aplicativos persistentes usando o EWS no Exchange
+title: Gerenciar configurações de aplicativo persistente usando o EWS no Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90f561f2-e40e-4f5b-b321-f86dbf4a1b71
-description: Saiba como criar, localizar, obter, atualizar e excluir configurações de aplicativos persistentes usando a API gerenciada do EWS ou o EWS no Exchange.
-ms.openlocfilehash: ab7b3ef5f87d8a26a412ca7187dc93c58d73112f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Saiba como criar, encontrar, obter, atualizar e excluir configurações de aplicativos persistentes usando a API Gerenciada do EWS ou o EWS no Exchange.
+ms.openlocfilehash: 0756f8dabe5f0b898619102b8565b65a536791b9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455727"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522275"
 ---
-# <a name="manage-persistent-application-settings-by-using-ews-in-exchange"></a>Gerenciar configurações de aplicativos persistentes usando o EWS no Exchange
+# <a name="manage-persistent-application-settings-by-using-ews-in-exchange"></a>Gerenciar configurações de aplicativo persistente usando o EWS no Exchange
 
-Saiba como criar, localizar, obter, atualizar e excluir configurações de aplicativos persistentes usando a API gerenciada do EWS ou o EWS no Exchange. 
+Saiba como criar, encontrar, obter, atualizar e excluir configurações de aplicativos persistentes usando a API Gerenciada do EWS ou o EWS no Exchange. 
   
-Os objetos de configuração do usuário são a melhor opção para armazenar definições de configuração para seu aplicativo de cliente do Exchange, principalmente por estarem ocultos dos resultados da pesquisa na maioria dos aplicativos cliente. Os aplicativos clientes normalmente ocultam essas configurações porque o usuário final não precisa vê-las e, portanto, o usuário não acessa acidentalmente essas informações. Os exemplos de código neste artigo mostram como você pode usar os objetos de configuração do usuário para gerenciar as configurações persistentes, incluindo como criar, localizar, obter, atualizar e excluir as configurações de aplicativo persistente que são armazenadas nos objetos de configuração do usuário.
+Os objetos de configuração do usuário são a melhor opção para armazenar as configurações do seu aplicativo cliente Exchange, principalmente porque eles estão ocultos dos resultados da pesquisa na maioria dos aplicativos cliente. Os aplicativos cliente geralmente ocultam essas configurações porque o usuário final não precisa vê-las e para que o usuário não acesse acidentalmente essas informações. Os exemplos de código neste artigo mostram como você pode usar objetos de configuração do usuário para gerenciar configurações persistentes, incluindo como criar, encontrar, obter, atualizar e excluir configurações de aplicativo persistente armazenadas em objetos de configuração do usuário.
 
 <a name="createconfiguration"> </a>
 
-## <a name="create-an-application-setting-by-using-the-ews-managed-api"></a>Criar uma configuração de aplicativo usando a API gerenciada do EWS
+## <a name="create-an-application-setting-by-using-the-ews-managed-api"></a>Criar uma configuração de aplicativo usando a API Gerenciada do EWS
 
-Você pode usar o método [userconfiguration. Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.save%28v=exchg.80%29.aspx) do EWS Managed API para criar uma configuração personalizada. Um objeto de configuração do usuário pode conter XML, binário, um dicionário de dados ou uma combinação desses três tipos de dados. O exemplo a seguir mostra como salvar um objeto de configuração do usuário chamado ContosoDraftSettings que contém dados binários na pasta Rascunhos usando a API gerenciada do EWS. Isso pode ser útil se você quiser armazenar informações de configuração sobre como os itens de rascunho são exibidos no aplicativo cliente. 
+Você pode usar o [método UserConfiguration.Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.save%28v=exchg.80%29.aspx) EWS Managed API para criar uma configuração personalizada. Um objeto de configuração do usuário pode conter XML, binário, um dicionário de dados ou uma combinação desses três tipos de dados. O exemplo a seguir mostra como salvar um objeto de configuração do usuário chamado ContosoDraftSettings que contém dados binários na pasta Rascunhos usando a API Gerenciada do EWS. Isso pode ser útil se você quiser armazenar informações de configuração sobre como os itens de rascunho são exibidos em seu aplicativo cliente. 
   
 ```cs
 private static void CreateUserConfiguration(ExchangeService service, byte[] binaryData)
@@ -41,7 +41,7 @@ private static void CreateUserConfiguration(ExchangeService service, byte[] bina
 ## <a name="create-an-application-setting-by-using-ews"></a>Criar uma configuração de aplicativo usando o EWS
 <a name="bk_createEWS"> </a>
 
-Você pode usar a operação [CreateUserConfiguration](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) EWS para criar uma configuração personalizada. O exemplo a seguir mostra a solicitação de XML para a criação de um objeto de configuração do usuário chamado ContosoDraftSettings. A solicitação tenta salvar um fluxo binário em um objeto de configuração do usuário na pasta Rascunhos. Este é o mesmo XML que é gerado pelo exemplo de API gerenciada do EWS. 
+Você pode usar a [operação CreateUserConfiguration](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) EWS para criar uma configuração personalizada. O exemplo a seguir mostra o XML de solicitação para criar um objeto de configuração de usuário chamado ContosoDraftSettings. A solicitação tenta salvar um fluxo binário em um objeto de configuração do usuário na pasta Rascunhos. Esse é o mesmo XML gerado pelo exemplo da API Gerenciada do EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -65,12 +65,12 @@ Você pode usar a operação [CreateUserConfiguration](https://msdn.microsoft.co
 </soap:Envelope>
 ```
 
-O [XML de resposta](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) é simples e indica se a solicitação de criação foi bem-sucedida ou se ocorreu um erro. 
+O [XML de](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) resposta é simples e indica se a solicitação de criação foi bem-sucedida ou se ocorreu um erro. 
   
-## <a name="find-an-application-setting-by-using-the-ews-managed-api"></a>Localizar uma configuração de aplicativo usando a API gerenciada do EWS
+## <a name="find-an-application-setting-by-using-the-ews-managed-api"></a>Encontre uma configuração de aplicativo usando a API Gerenciada do EWS
 <a name="findconfiguration"> </a>
 
-Você pode usar o método [Folder. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) EWS Managed API com a opção transversal associada para localizar objetos de configuração do usuário. O exemplo de código a seguir mostra como localizar objetos de configuração do usuário armazenados na pasta Rascunhos usando a API gerenciada do EWS. 
+Você pode usar o [método Folder.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) EWS Managed API com a opção de transição associada para encontrar objetos de configuração do usuário. O exemplo de código a seguir mostra como encontrar objetos de configuração do usuário armazenados na pasta Rascunhos usando a API Gerenciada do EWS. 
   
 ```cs
 private static void FindAssociated(ExchangeService service)
@@ -107,12 +107,12 @@ private static void FindAssociated(ExchangeService service)
 }
 ```
 
-## <a name="find-an-application-setting-by-using-ews"></a>Localizar uma configuração de aplicativo usando o EWS
+## <a name="find-an-application-setting-by-using-ews"></a>Encontre uma configuração de aplicativo usando o EWS
 <a name="bk_findEWS"> </a>
 
-Você pode usar a operação [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS para localizar objetos de configuração do usuário. 
+Você pode usar a [operação FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS para encontrar objetos de configuração do usuário. 
   
-O exemplo a seguir mostra a solicitação de XML para localizar objetos de configuração do usuário. Este é o mesmo XML que é gerado pelo exemplo de API gerenciada do EWS.
+O exemplo a seguir mostra o XML de solicitação para localizar objetos de configuração do usuário. Esse é o mesmo XML gerado pelo exemplo da API Gerenciada do EWS.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -140,13 +140,13 @@ O exemplo a seguir mostra a solicitação de XML para localizar objetos de confi
 </soap:Envelope>
 ```
 
-O exemplo a seguir mostra o XML de resposta bem-sucedido para localizar objetos de configuração do usuário. Este é o mesmo XML processado pelo exemplo de API gerenciada do EWS. Observe o seguinte neste XML de resposta: 
+O exemplo a seguir mostra o XML de resposta bem-sucedido para localizar objetos de configuração do usuário. Esse é o mesmo XML que é processado pelo exemplo da API Gerenciada do EWS. Observe o seguinte neste XML de resposta: 
   
-- Reduzimos o identificador e alteramos as chaves para facilitar a leitura.
+- Reduzimos o identificador e alteramos as teclas para a capacidade de leitura.
     
-- Os dois objetos de configuração do usuário são retornados como mensagens. Isso ocorre porque a operação **FindItem** retorna todos os itens que não estão definidos no esquema do EWS como itens de mensagem. 
+- Os dois objetos de configuração do usuário são retornados como mensagens. Isso ocorre porque a **operação FindItem** retorna todos os itens que não são definidos no esquema EWS como itens de mensagem. 
     
-- As propriedades de @ [Class](https://msdn.microsoft.com/library/56020078-50b4-4880-894a-a9f234033cfb%28Office.15%29.aspx) para os dois objetos de configuração do usuário são diferentes. O primeiro objeto de configuração do usuário foi criado usando o EWS. O segundo objeto foi criado por outra API. 
+- As [propriedades ItemClass](https://msdn.microsoft.com/library/56020078-50b4-4880-894a-a9f234033cfb%28Office.15%29.aspx) para os dois objetos de configuração do usuário são diferentes. O primeiro objeto de configuração do usuário foi criado usando o EWS. O segundo objeto foi criado por outra API. 
     
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -190,10 +190,10 @@ O exemplo a seguir mostra o XML de resposta bem-sucedido para localizar objetos 
 </s:Envelope>
 ```
 
-## <a name="get-and-update-application-settings-by-using-the-ews-managed-api"></a>Obter e atualizar as configurações de aplicativo usando a API gerenciada do EWS
+## <a name="get-and-update-application-settings-by-using-the-ews-managed-api"></a>Obter e atualizar configurações de aplicativo usando a API Gerenciada do EWS
 <a name="getconfiguration"> </a>
 
-Depois de encontrar um objeto de configuração do usuário, você pode usar o método [userconfiguration. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) da API gerenciada do EWS para obter o objeto de configuração da caixa de correio. Depois de obter o objeto de configuração, você pode usar o método [userconfiguration. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) para atualizá-lo. O exemplo a seguir mostra como obter e atualizar um objeto de configuração do usuário usando a API gerenciada do EWS. 
+Depois de encontrar um objeto de configuração do usuário, você pode usar o [método UserConfiguration.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) EWS Managed API para obter o objeto de configuração da caixa de correio. Depois de obter o objeto de configuração, você pode usar o [método UserConfiguration.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) para atualizá-lo. O exemplo a seguir mostra como obter e atualizar um objeto de configuração do usuário usando a API Gerenciada do EWS. 
   
 ```cs
 private static void GetAndUpdateUserConfiguration(ExchangeService service)
@@ -230,10 +230,10 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 }
 ```
 
-## <a name="get-and-update-application-settings-by-using-ews"></a>Obter e atualizar as configurações de aplicativo usando o EWS
+## <a name="get-and-update-application-settings-by-using-ews"></a>Obter e atualizar configurações de aplicativo usando o EWS
 <a name="bk_getEWS"> </a>
 
-Você pode usar a operação [GetUserConfiguration](https://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) EWS para recuperar o objeto de configuração da caixa de correio e o [UpdateUserConfiguration](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) para atualizar o objeto. O exemplo a seguir mostra o XML da solicitação para obter um objeto de configuração do usuário chamado TestConfig. A solicitação afirma que todas as configurações devem ser retornadas na resposta. Este é o mesmo XML que é gerado pelo exemplo de API gerenciada do EWS. 
+Você pode usar a [operação GetUserConfiguration](https://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) EWS para recuperar o objeto de configuração da caixa de correio e [UpdateUserConfiguration](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) para atualizar o objeto. O exemplo a seguir mostra o XML de solicitação para obter um objeto de configuração do usuário chamado TestConfig. A solicitação afirma que todas as configurações devem ser retornadas na resposta. Esse é o mesmo XML gerado pelo exemplo da API Gerenciada do EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -255,7 +255,7 @@ Você pode usar a operação [GetUserConfiguration](https://msdn.microsoft.com/l
 </soap:Envelope>
 ```
 
-O exemplo a seguir mostra o XML de resposta bem-sucedido para obter os objetos de configuração do usuário. A resposta contém um dicionário de dados. Este é o mesmo XML processado pelo exemplo de API gerenciada do EWS. 
+O exemplo a seguir mostra o XML de resposta bem-sucedido para obter objetos de configuração do usuário. A resposta contém um dicionário de dados. Esse é o mesmo XML que é processado pelo exemplo da API Gerenciada do EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -313,7 +313,7 @@ O exemplo a seguir mostra o XML de resposta bem-sucedido para obter os objetos d
 </s:Envelope>
 ```
 
-O exemplo a seguir mostra a solicitação de XML para atualização de um objeto de configuração do usuário. A solicitação afirma que todas as configurações devem ser retornadas na resposta. Este é o mesmo XML que é gerado pelo exemplo de API gerenciada do EWS que chama o método **userconfiguration. Update** . Você pode ver que o XML de atualização contém as entradas de dicionário existentes e outra que foi adicionada antes da atualização. 
+O exemplo a seguir mostra o XML de solicitação para atualizar um objeto de configuração do usuário. A solicitação afirma que todas as configurações devem ser retornadas na resposta. Esse é o mesmo XML gerado pelo exemplo da API Gerenciada do EWS que chama o **método UserConfiguration.Update.** Você pode ver que o XML de atualização contém as entradas de dicionário existentes e as entradas adicionais que foram adicionadas antes da atualização. 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -368,12 +368,12 @@ O exemplo a seguir mostra a solicitação de XML para atualização de um objeto
 </soap:Envelope>
 ```
 
-O [XML de resposta](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) é simples e indica se a atualização foi bem-sucedida ou se ocorreu um erro. 
+O [XML de](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) resposta é simples e indica se a atualização foi bem-sucedida ou se ocorreu um erro. 
   
-## <a name="delete-an-application-setting-by-using-the-ews-managed-api"></a>Excluir uma configuração de aplicativo usando a API gerenciada do EWS
+## <a name="delete-an-application-setting-by-using-the-ews-managed-api"></a>Excluir uma configuração de aplicativo usando a API Gerenciada do EWS
 <a name="deleteconfiguration"> </a>
 
-Você pode usar o método [userconfiguration. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) EWS Managed API para excluir os objetos de configuração do usuário. O exemplo de código a seguir mostra como excluir o objeto de configuração do usuário ContosoDraftSettings usando a API gerenciada do EWS. 
+Você pode usar o [método UserConfiguration.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) EWS Managed API para excluir objetos de configuração do usuário. O exemplo de código a seguir mostra como excluir o objeto de configuração do usuário ContosoDraftSettings usando a API Gerenciada do EWS. 
   
 ```cs
 private static void DeleteUserConfiguration(ExchangeService service)
@@ -392,9 +392,9 @@ private static void DeleteUserConfiguration(ExchangeService service)
 ## <a name="delete-an-application-setting-by-using-ews"></a>Excluir uma configuração de aplicativo usando o EWS
 <a name="bk_deleteEWS"> </a>
 
-Você pode usar a operação [DeleteUserConfiguration](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) EWS para excluir objetos de configuração do usuário. 
+Você pode usar a [operação DeleteUserConfiguration](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) EWS para excluir objetos de configuração do usuário. 
   
-O exemplo a seguir mostra o XML da solicitação para excluir um objeto de configuração do usuário chamado ContosoDraftSettings que foi aplicado à pasta Rascunhos. Este é o mesmo XML que é gerado pelo exemplo de API gerenciada do EWS.
+O exemplo a seguir mostra o XML de solicitação para excluir um objeto de configuração do usuário chamado ContosoDraftSettings que foi aplicado à pasta Rascunhos. Esse é o mesmo XML gerado pelo exemplo da API Gerenciada do EWS.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -415,12 +415,12 @@ O exemplo a seguir mostra o XML da solicitação para excluir um objeto de confi
 </soap:Envelope>
 ```
 
-O [XML de resposta](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) é simples e indica se a solicitação de exclusão foi bem-sucedida ou se ocorreu um erro. 
+O [XML de](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) resposta é simples e indica se a solicitação de exclusão foi um sucesso ou se ocorreu um erro. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Configurações de aplicativo persistente no EWS no Exchange](persistent-application-settings-in-ews-in-exchange.md)
-- [Visão geral do design de cliente do EWS para Exchange](ews-client-design-overview-for-exchange.md)   
-- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
+- [Configurações de aplicativo persistente no EWS em Exchange](persistent-application-settings-in-ews-in-exchange.md)
+- [Visão geral de design do cliente EWS para o Exchange](ews-client-design-overview-for-exchange.md)   
+- [Desenvolver clientes do serviço Web para o Exchange](develop-web-service-clients-for-exchange.md)
     
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResolutionSet
 api_type:
 - schema
 ms.assetid: 43d5b876-0e87-4414-9b1d-bff1c1ec825c
 description: O elemento ResolutionSet contém uma matriz de resoluções para um nome ambíguo.
-ms.openlocfilehash: 483a096a7fcedbabe25758ebcaa31c83405a0ad4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f77b8a94871aa7827c98a3bb15fdf4a3a35c7c55
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467169"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521743"
 ---
 # <a name="resolutionset"></a>ResolutionSet
 
-O elemento **ResolutionSet** contém uma matriz de resoluções para um nome ambíguo. 
+O **elemento ResolutionSet** contém uma matriz de resoluções para um nome ambíguo. 
   
 [ResolveNamesResponse](resolvenamesresponse.md)
   
@@ -46,11 +46,11 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|**IndexedPagingOffset** <br/> |Representa o próximo índice que deve ser usado para a próxima solicitação quando você estiver usando um modo de exibição de página indexado.  <br/> |
-|**NumeratorOffset** <br/> |Representa o novo valor do numerador a ser usado para a próxima solicitação quando você estiver usando modos de exibição de página de fração.  <br/> |
-|**AbsoluteDenominator** <br/> |Representa o próximo denominador a ser usado para a próxima solicitação quando você estiver usando modos de exibição de página de fração.  <br/> |
-|**IncludesLastItemInRange** <br/> |Esse atributo será true se os resultados atuais contiverem o último item na consulta, para que a paginação adicional não seja necessária.  <br/> |
-|**TotalItemsInView** <br/> |Representa o número total de itens no modo de exibição.  <br/> |
+|**IndexedPagingOffset** <br/> |Representa o próximo índice que deve ser usado para a próxima solicitação quando você estiver usando um exibição de página indexada.  <br/> |
+|**NumeratorOffset** <br/> |Representa o novo valor de numerador a ser usado para a próxima solicitação quando você estiver usando exibições de página fracionada.  <br/> |
+|**AbsoluteDenominator** <br/> |Representa o próximo denominador a ser usado para a próxima solicitação quando você estiver usando exibições de página fracionada.  <br/> |
+|**IncludesLastItemInRange** <br/> |Esse atributo será true se os resultados atuais contêm o último item na consulta, de forma que a paja adicional não seja necessária.  <br/> |
+|**TotalItemsInView** <br/> |Representa o número total de itens no exibição.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -66,9 +66,9 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
    
 ## <a name="remarks"></a>Comentários
 
-Um elemento **ResolutionSet** pode conter um máximo de 100 entidades resolvidas. 
+Um **elemento ResolutionSet** pode conter no máximo 100 entidades resolvidas. 
   
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 

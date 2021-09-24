@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LegacyFreeBusyStatus
 api_type:
 - schema
 ms.assetid: ee5f3046-b79f-4f68-9455-1a688cee2745
-description: O elemento LegacyFreeBusyStatus representa o status de disponibilidade do item de calendário.
-ms.openlocfilehash: ecbcae0862c9c02c0a4a61012816e4c2c6ea07b7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento LegacyFreeBusyStatus representa o status de ocupado do item de calendário.
+ms.openlocfilehash: 6bdfca41cd6f0d9304285e1101b6ecc14e2b761e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463227"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524893"
 ---
 # <a name="legacyfreebusystatus"></a>LegacyFreeBusyStatus
 
-O elemento **LegacyFreeBusyStatus** representa o status de disponibilidade do item de calendário. 
+O **elemento LegacyFreeBusyStatus** representa o status de ocupado do item de calendário. 
   
 ```xml
 <LegacyFreeBusyStatus/>
@@ -45,17 +45,17 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é necessário para este elemento. Estes são os valores de texto possíveis para este elemento:
+Um valor de texto é necessário para esse elemento. Veja a seguir os valores de texto possíveis para este elemento:
   
 - Disponível 
-- Provisória
+- Tentativo
 - Ocupado
-- TEMPORÁRIA
+- OOF
 - WorkingElsewhere
 - NoData
     
@@ -69,7 +69,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

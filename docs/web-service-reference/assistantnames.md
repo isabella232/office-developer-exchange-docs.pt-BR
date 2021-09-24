@@ -1,23 +1,23 @@
 ---
-title: Assistentes
+title: AssistantNames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e69022d-1cef-4744-877c-848a0b5c4f40
-description: O elemento Assistantnames especifica uma matriz de nomes de assistentes e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: cb3722e07da97ed472f9ae50180d61ed761413c1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AssistantNames especifica uma matriz de nomes de assistentes e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: fe54b789b612ca3321ce219ff829829acf7e88c8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461538"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522037"
 ---
-# <a name="assistantnames"></a>Assistentes
+# <a name="assistantnames"></a>AssistantNames
 
-O elemento **assistantnames** especifica uma matriz de nomes de assistentes e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento AssistantNames** especifica uma matriz de nomes de assistentes e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <AssistantNames>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

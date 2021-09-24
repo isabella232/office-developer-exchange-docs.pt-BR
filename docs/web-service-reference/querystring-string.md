@@ -1,23 +1,23 @@
 ---
-title: QueryString (cadeia de caracteres)
+title: QueryString (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f81b1b3d-9fe4-4ab3-b517-42e4207fa596
-description: O elemento QueryString especifica um conjunto de valores a serem retornados que correspondam à cadeia de caracteres de consulta em uma solicitação de operação FindPeople. Uma pesquisa sem QueryString especificado retorna todos os itens da pasta especificada.
-ms.openlocfilehash: ec025f86d3e6fb74810e9c539eba102d05adbb93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento QueryString especifica um conjunto de valores a serem retornados que corresponderão à cadeia de caracteres de consulta em uma solicitação de operação FindPeople. Uma pesquisa sem QueryString especificada retorna todos os itens da pasta especificada.
+ms.openlocfilehash: 6dfd4b5552511e2551baf5ce645f82d4f74e5499
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465321"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523731"
 ---
-# <a name="querystring-string"></a>QueryString (cadeia de caracteres)
+# <a name="querystring-string"></a>QueryString (String)
 
-O elemento **QueryString** especifica um conjunto de valores a serem retornados que correspondam à cadeia de caracteres de consulta em uma solicitação de [operação FindPeople](findpeople-operation.md) . Uma pesquisa sem **QueryString** especificado retorna todos os itens da pasta especificada. 
+O **elemento QueryString** especifica um conjunto de valores a serem retornados que corresponderão à cadeia de caracteres de consulta em uma solicitação de operação [FindPeople.](findpeople-operation.md) Uma pesquisa sem **QueryString** especificada retorna todos os itens da pasta especificada. 
   
 ```XML
 <QueryString/> 
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindPeople](findpeople.md) <br/> |Contém os argumentos para uma pesquisa de [operação do FindPeople](findpeople-operation.md) .  <br/> |
+|[FindPeople](findpeople.md) <br/> |Contém os argumentos de uma pesquisa [de operação FindPeople.](findpeople-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto **QueryString** representa uma consulta de caixa de correio feita usando um subconjunto de [sintaxe de consulta avançada (AQS)](https://msdn.microsoft.com/library/aa965711%28VS.85%29.aspx). Para obter informações sobre a sintaxe desse elemento, confira [QueryString (querystringtype)](querystring-querystringtype.md).
+O **valor de texto QueryString** representa uma consulta de caixa de correio feita usando um subconjunto de Sintaxe de Consulta Avançada [(AQS)](https://msdn.microsoft.com/library/aa965711%28VS.85%29.aspx). Para obter informações sobre a sintaxe desse elemento, consulte [QueryString (QueryStringType)](querystring-querystringtype.md).
   
 ## <a name="remarks"></a>Comentários
 

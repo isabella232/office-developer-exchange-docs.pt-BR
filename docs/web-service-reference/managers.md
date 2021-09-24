@@ -1,23 +1,23 @@
 ---
-title: Aos
+title: Managers
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9be5f734-af42-4bf1-9eb4-f3e4f0917640
-description: O elemento Managers especifica uma matriz de nomes de Gerenciador e os identificadores de suas atribuições de origem para uma pessoa.
-ms.openlocfilehash: 49fccb4e6e4b920887d6f8fbc41c5ccdba1cbbe2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Managers especifica uma matriz de nomes de gerente e os identificadores de suas atribuições de origem para uma persona.
+ms.openlocfilehash: a36b85ccefa7e13f9bdc482d5d613044532c7347
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530892"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524004"
 ---
-# <a name="managers"></a>Aos
+# <a name="managers"></a>Managers
 
-O elemento **Managers** especifica uma matriz de nomes de Gerenciador e os identificadores de suas atribuições de origem para uma pessoa. 
+O **elemento Managers** especifica uma matriz de nomes de gerente e os identificadores de suas atribuições de origem para uma persona. 
   
 ```XML
 <Managers>
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

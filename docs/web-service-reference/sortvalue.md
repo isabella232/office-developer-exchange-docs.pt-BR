@@ -1,23 +1,23 @@
 ---
-title: Sortvalue
+title: SortValue
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec32b455-59c8-4cf5-978e-bb9f255bc93c
-description: O elemento Sortvalue especifica um valor usado para classificação.
-ms.openlocfilehash: 099cfe248de893e1b044c3e2228bfa979e9a1243
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SortValue especifica um valor usado para classificação.
+ms.openlocfilehash: 282879124802c30725b13bd6dbe52edb7739e126
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467253"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521372"
 ---
-# <a name="sortvalue"></a>Sortvalue
+# <a name="sortvalue"></a>SortValue
 
-O elemento **sortvalue** especifica um valor usado para classificação. 
+O **elemento SortValue** especifica um valor usado para classificação. 
   
 ```XML
 <SortValue></SortValue>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento [sortvalue](sortvalue.md) é o campo usado para classificar o conjunto de resultados. 
+O valor de texto [do elemento SortValue](sortvalue.md) é o campo usado para classificar o conjunto de resultados. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

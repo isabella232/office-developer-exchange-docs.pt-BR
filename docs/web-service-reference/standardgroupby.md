@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StandardGroupBy
 api_type:
 - schema
 ms.assetid: 04a84f71-b7eb-44dc-ac2c-ed504b52c463
-description: O elemento StandardGroupBy representa os mecanismos padrão de agrupamento e agregação para uma operação FindItem agrupada.
-ms.openlocfilehash: 3e135feba322979de3d66d5a45d423654ccc9100
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento StandardGroupBy representa os mecanismos padrão de agrupação e agregação para uma operação FindItem agrupada.
+ms.openlocfilehash: b19157b9ff3a19379880b7f6b9c52835c170df21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467554"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521274"
 ---
 # <a name="standardgroupby"></a>StandardGroupBy
 
-O elemento **StandardGroupBy** representa os mecanismos padrão de agrupamento e agregação para uma operação FindItem agrupada. 
+O **elemento StandardGroupBy** representa os mecanismos padrão de agrupação e agregação para uma operação FindItem agrupada. 
   
 [FindItem](finditem.md)
   
@@ -50,15 +50,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DistinguishedGroupBy](distinguishedgroupby.md) <br/> |Fornece agrupamentos padrão para consultas do FindItem.  <br/> |
+|[DistinguishedGroupBy](distinguishedgroupby.md) <br/> |Fornece agrupações padrão para consultas FindItem.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. O único valor que pode ser usado para esse elemento é **ConversationTopic**. **ConversationTopic** grupos por mensagem: ConversationTopic e agregados no item: DateTimeReceived (máximo). Para obter mais informações sobre agregação, confira [Aggregate](aggregateon.md).
+Um valor de texto é necessário. O único valor que pode ser usado para esse elemento é **ConversationTopic**. **Grupos ConversationTopic** por mensagem:ConversationTopic e agregados no item:DateTimeReceived (máximo). Para obter mais informações sobre a agregação, consulte [AggregateOn](aggregateon.md).
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -66,7 +66,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

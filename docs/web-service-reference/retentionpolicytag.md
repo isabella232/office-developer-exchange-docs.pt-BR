@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f46679d0-9236-41e2-8624-72300079c67c
-description: O elemento RetentionPolicyTag especifica a política de retenção para um item de caixa de correio.
-ms.openlocfilehash: 3ece841e14e6cf11ab15e4a4d8b83a778ae32e46
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RetentionPolicyTag especifica a política de retenção de um item de caixa de correio.
+ms.openlocfilehash: 58ca3016bed0be625b213a57e5ead1b38a301bfa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465174"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524543"
 ---
 # <a name="retentionpolicytag"></a>RetentionPolicyTag
 
-O elemento **RetentionPolicyTag** especifica a política de retenção para um item de caixa de correio. 
+O **elemento RetentionPolicyTag** especifica a política de retenção de um item de caixa de correio. 
   
 ```XML
 <RetentionPolicyTag>
@@ -62,7 +62,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

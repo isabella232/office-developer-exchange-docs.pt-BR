@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22244afb-99ec-41b4-8f73-3fbccd56d1ab
-description: O elemento MarkAllItemsAsRead contém a solicitação para marcar todos os itens de uma pasta como lidos.
-ms.openlocfilehash: 0338b2a1eed503b7e8fb0ec8b4a8ebcf12b6dbd6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MarkAllItemsAsRead contém a solicitação para marcar todos os itens em uma pasta como leitura.
+ms.openlocfilehash: bf6ec09e4536f9dbcca43b7eb68c3fa6521d0df1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530885"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524753"
 ---
 # <a name="markallitemsasread"></a>MarkAllItemsAsRead
 
-O elemento **MarkAllItemsAsRead** contém a solicitação para marcar todos os itens de uma pasta como lidos. 
+O **elemento MarkAllItemsAsRead** contém a solicitação para marcar todos os itens em uma pasta como leitura. 
   
 ```XML
 <MarkAllItemsAsRead>
@@ -42,7 +42,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

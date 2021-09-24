@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e13c0edd-2ab1-49bb-a993-54a8db2dfbb9
-description: O elemento TargetApplicationUri define o URI do aplicativo de destino. O elemento TargetApplicationUri é somente para uso interno. Esse elemento não é usado por clientes.
-ms.openlocfilehash: 88968aac604b77cd057dbc69c396227a489ac9a8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento TargetApplicationUri define o URI do aplicativo de destino. O elemento TargetApplicationUri é apenas para uso interno. Esse elemento não é usado pelos clientes.
+ms.openlocfilehash: 3bed26b697fc3638782de5abd53a68fd04f031e6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457085"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522568"
 ---
 # <a name="targetapplicationuri-soap"></a>TargetApplicationUri (SOAP)
 
-O elemento **TargetApplicationUri** define o URI do aplicativo de destino. O elemento **TargetApplicationUri** é somente para uso interno. Esse elemento não é usado por clientes. 
+O **elemento TargetApplicationUri** define o URI do aplicativo de destino. O **elemento TargetApplicationUri** é apenas para uso interno. Esse elemento não é usado pelos clientes. 
   
 ```XML
 <TargetApplicationUri/>
@@ -43,14 +43,14 @@ Nenhum.
    
 ## <a name="remarks"></a>Comentários
 
-Este elemento define o URI de destino da organização externa.
+Esse elemento define o URI de destino da organização externa.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

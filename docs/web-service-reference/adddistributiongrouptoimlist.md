@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: adbffbfc-e436-4620-acfc-5dfd41a88cb8
 description: O elemento AddDistributionGroupToImList define uma solicitação para adicionar uma lista de distribuição a uma lista de mensagens instantâneas.
-ms.openlocfilehash: 90a84b23678fb0740158f601967905a8847286fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8b2425a05d184b203f8b65f74a6119d5b6d09946
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460376"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525405"
 ---
 # <a name="adddistributiongrouptoimlist"></a>AddDistributionGroupToImList
 
-O elemento **AddDistributionGroupToImList** define uma solicitação para adicionar uma lista de distribuição a uma lista de mensagens instantâneas. 
+O **elemento AddDistributionGroupToImList** define uma solicitação para adicionar uma lista de distribuição a uma lista de mensagens instantâneas. 
   
 ```XML
 <AddDistributionGroupToImList>
@@ -41,7 +41,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

@@ -1,46 +1,46 @@
 ---
-title: Excluir anexos usando EWS no Exchange
+title: Excluir anexos usando o EWS no Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 71871ac7-ee1a-4f93-9e81-77f312d432f4
-description: Saiba como excluir anexos de itens usando a API gerenciada do EWS ou o EWS no Exchange.
-ms.openlocfilehash: 854f723e9c7452b955d0e7d7a38da7f6224dc8b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Saiba como excluir anexos de itens usando a API Gerenciada do EWS ou o EWS Exchange.
+ms.openlocfilehash: bc9b8bbf5833cfdb44f9ca4e8387681473fad3c3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455888"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521148"
 ---
-# <a name="delete-attachments-by-using-ews-in-exchange"></a>Excluir anexos usando EWS no Exchange
+# <a name="delete-attachments-by-using-ews-in-exchange"></a>Excluir anexos usando o EWS no Exchange
 
-Saiba como excluir anexos de itens usando a API gerenciada do EWS ou o EWS no Exchange.
+Saiba como excluir anexos de itens usando a API Gerenciada do EWS ou o EWS Exchange.
   
-Você tem várias opções quando se trata de excluir anexos de arquivo e de item de itens usando a API gerenciada do EWS. Você pode excluir todos os anexos da mensagem, excluir por um nome de arquivo ou excluir por posição na coleção. Para cada uma dessas opções, há um método [AttachmentCollection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection%28v=exchg.80%29.aspx) . 
+Você tem várias opções quando se trata de excluir anexos de arquivos e itens de itens usando a API Gerenciada do EWS. Você pode excluir todos os anexos da mensagem, excluir por um nome de arquivo ou excluir por posição na coleção. Para cada uma dessas opções, há um [método AttachmentCollection.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection%28v=exchg.80%29.aspx) 
   
-Por outro lado, com o EWS, não importa se você está excluindo todos os anexos de um item ou apenas um, a sequência de operações é a mesma. Diferentemente da API gerenciada por EWS, o EWS não inclui operações separadas para excluir com base no nome ou na posição na matriz Attachments.
+Por outro lado, com o EWS, não importa se você está excluindo todos os anexos de um item ou apenas um, a sequência de operações é a mesma. Ao contrário da API Gerenciada do EWS, o EWS não inclui operações separadas para excluir com base no nome ou na posição na matriz de anexos.
   
-**Tabela 1. Métodos da API gerenciada do EWS e operações do EWS para exclusão de anexos**
+**Tabela 1. Métodos de API Gerenciada EWS e operações EWS para excluir anexos**
 
-|**Tarefa**|**Método de API gerenciada do EWS**|**Operação do EWS**|
+|**Tarefa**|**Método da API Gerenciada do EWS**|**Operação do EWS**|
 |:-----|:-----|:-----|
-|Excluir todos os anexos de um item.  <br/> |[Item. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), seguido por [AttachmentCollection. Clear](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.clear%28v=exchg.80%29.aspx), seguido por [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) seguido por [DeleteAttachment](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
-|Excluir um anexo de um item pelo nome.  <br/> |[Item. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), seguido por [AttachmentCollection. Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx), seguido por [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) seguido por [DeleteAttachment](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
-|Excluir um anexo de um item pela posição na coleção.  <br/> |[Item. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), seguido por [AttachmentCollection. RemoveAt](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.removeat%28v=exchg.80%29.aspx), seguido por [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) seguido por [DeleteAttachment](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
+|Exclua todos os anexos de um item.  <br/> |[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), seguido por [AttachmentCollection.Clear](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.clear%28v=exchg.80%29.aspx), seguido por [EmailMessage.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) seguido por [DeleteAttachment](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
+|Exclua um anexo de um item por nome.  <br/> |[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), seguido por [AttachmentCollection.Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx), seguido por [EmailMessage.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) seguido por [DeleteAttachment](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
+|Exclua um anexo de um item por posição na coleção.  <br/> |[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), seguido por [AttachmentCollection.RemoveAt](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.removeat%28v=exchg.80%29.aspx), seguido por [EmailMessage.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) seguido por [DeleteAttachment](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
    
-## <a name="delete-all-attachments-from-an-email-by-using-the-ews-managed-api"></a>Excluir todos os anexos de um email usando a API gerenciada do EWS
+## <a name="delete-all-attachments-from-an-email-by-using-the-ews-managed-api"></a>Excluir todos os anexos de um email usando a API Gerenciada do EWS
 <a name="bk_deleteattachewsma"> </a>
 
-O exemplo de código a seguir mostra como excluir todos os anexos de um email por:
+O exemplo de código a seguir mostra como excluir todos os anexos de um email:
   
-1. Usando o método [EmailMessage. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) para vincular a uma mensagem de email existente e recuperar a coleção de [anexos](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx).
+1. Usando o [método EmailMessage.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) para vincular a uma mensagem de email existente e recuperar a coleção [de Anexos](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx).
     
-2. Usando o método [AttachmentCollection. Clear](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.clear%28v=exchg.80%29.aspx) para excluir todos os anexos do email. 
+2. Usando o [método AttachmentCollection.Clear](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.clear%28v=exchg.80%29.aspx) para excluir todos os anexos do email. 
     
-3. Usando o método [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) para salvar as alterações. 
+3. Usando o [método EmailMessage.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) para salvar as alterações. 
     
-Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido, **ItemId** é o [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) da mensagem a partir da qual os anexos serão excluídos e que o usuário foi autenticado em um servidor Exchange. 
+Este exemplo pressupõe que o serviço é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido, **itemId** é a  [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) da mensagem da qual os anexos serão excluídos e que o usuário foi autenticado para um servidor Exchange. 
   
 ```cs
 public static void DeleteAllAttachments(ExchangeService service, ItemId itemId)
@@ -56,18 +56,18 @@ public static void DeleteAllAttachments(ExchangeService service, ItemId itemId)
 }
 ```
 
-## <a name="delete-an-attachment-by-name-from-an-email-by-using-the-ews-managed-api"></a>Excluir um anexo por nome de um email usando a API gerenciada do EWS
+## <a name="delete-an-attachment-by-name-from-an-email-by-using-the-ews-managed-api"></a>Excluir um anexo pelo nome de um email usando a API Gerenciada do EWS
 <a name="bk_deleteattachewsma"> </a>
 
-O exemplo de código a seguir mostra como excluir um anexo por nome:
+O exemplo de código a seguir mostra como excluir um anexo pelo nome:
   
-1. Usando o método [EmailMessage. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) para vincular a uma mensagem de email existente e recuperar a coleção de [anexos](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx).
+1. Usando o [método EmailMessage.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) para vincular a uma mensagem de email existente e recuperar a coleção [de Anexos](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx).
     
-2. Usando o método [AttachmentCollection. Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx) para excluir um anexo chamado fileattachment. txt. 
+2. Usando o [método AttachmentCollection.Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx) para excluir um anexo chamado FileAttachment.txt. 
     
-3. Usando o método [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) para salvar as alterações. 
+3. Usando o [método EmailMessage.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) para salvar as alterações. 
     
-Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido, **ItemId** é o [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) da mensagem a partir da qual o anexo será excluído e que o usuário foi autenticado em um servidor Exchange. 
+Este exemplo pressupõe que o serviço é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido, **itemId** é o  [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) da mensagem da qual o anexo será excluído e que o usuário foi autenticado para um servidor Exchange. 
   
 ```cs
 public static void DeleteNamedAttachments(ExchangeService service, ItemId itemId)
@@ -90,18 +90,18 @@ public static void DeleteNamedAttachments(ExchangeService service, ItemId itemId
 }
 ```
 
-## <a name="delete-attachments-by-position-by-using-the-ews-managed-api"></a>Excluir anexos por posição usando a API gerenciada do EWS
+## <a name="delete-attachments-by-position-by-using-the-ews-managed-api"></a>Excluir anexos por posição usando a API Gerenciada do EWS
 <a name="bk_deleteattachewsma"> </a>
 
 O exemplo de código a seguir mostra como excluir um anexo por posição por:
   
-1. Usando o método [EmailMessage. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) para associar a uma mensagem de email existente e recuperar a coleção de [anexos](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx) e a propriedade [EmailMessage. HasAttachments](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.hasattachments%28v=exchg.80%29.aspx) . 
+1. Usando o [método EmailMessage.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) para vincular a uma mensagem de email existente e recuperar a coleção [de Anexos](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx) e a [propriedade EmailMessage.HasAttachments.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.hasattachments%28v=exchg.80%29.aspx) 
     
-2. Usando o método [AttachmentCollection. Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx) para excluir o primeiro anexo na coleção. 
+2. Usando o [método AttachmentCollection.Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx) para excluir o primeiro anexo da coleção. 
     
-3. Usando o método [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) para salvar as alterações. 
+3. Usando o [método EmailMessage.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) para salvar as alterações. 
     
-Este exemplo pressupõe que o **serviço** é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido, **ItemId** é o [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) da mensagem a partir da qual o anexo será excluído e que o usuário foi autenticado em um servidor Exchange. 
+Este exemplo pressupõe que o serviço é um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) válido, **itemId** é o  [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) da mensagem da qual o anexo será excluído e que o usuário foi autenticado para um servidor Exchange. 
   
 ```cs
 public static void DeleteAttachmentByPosition(ExchangeService service, ItemId itemId)
@@ -123,9 +123,9 @@ public static void DeleteAttachmentByPosition(ExchangeService service, ItemId it
 ## <a name="delete-attachments-from-an-item-by-using-ews"></a>Excluir anexos de um item usando o EWS
 <a name="bk_deleteattachewsma"> </a>
 
-Para excluir anexos usando o EWS, primeiro você precisa recuperar a mensagem e a coleção Attachment para determinar o [attachmentid (GetAttachment e DeleteAttachment)](https://msdn.microsoft.com/library/4bea1cb5-0a0f-4e14-9b09-f91af8cf9899%28Office.15%29.aspx) do anexo a ser excluído. Após ter um ou mais valores **attachmentid** para excluir, chame a operação [DeleteAttachment](https://msdn.microsoft.com/library/4d48e595-b98c-48e7-bbeb-cacf91d12a78%28Office.15%29.aspx) para remover os anexos especificados da mensagem. 
+Para excluir anexos usando o EWS, primeiro você precisa recuperar a mensagem e o conjunto de anexos para determinar [AttachmentId (GetAttachment e DeleteAttachment)](https://msdn.microsoft.com/library/4bea1cb5-0a0f-4e14-9b09-f91af8cf9899%28Office.15%29.aspx) do anexo a ser excluído. Depois de ter um ou mais valores **AttachmentId** para excluir, chame a operação [DeleteAttachment](https://msdn.microsoft.com/library/4d48e595-b98c-48e7-bbeb-cacf91d12a78%28Office.15%29.aspx) para remover os anexos especificados da mensagem. 
   
-O exemplo de código a seguir mostra como usar a operação [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) para obter uma mensagem de email e a coleção de anexos na mensagem. Essa é também a primeira solicitação XML que a API gerenciada do EWS envia quando você usa a API gerenciada do EWS para [excluir todos os anexos de um email](#bk_deleteattachewsma). Os valores de alguns atributos são reduzidos para facilitar a leitura.
+O exemplo de código a seguir mostra como usar a operação [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) para obter uma mensagem de email e a coleção de anexos na mensagem. Essa também é a primeira solicitação XML que a API Gerenciada do EWS envia quando você usa a API Gerenciada do EWS para excluir todos os [anexos de um email.](#bk_deleteattachewsma) Os valores de alguns atributos são reduzidos para a capacidade de leitura.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -155,7 +155,7 @@ O exemplo de código a seguir mostra como usar a operação [GetItem](https://ms
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **GetItem** com uma mensagem [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) que inclui um valor de [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NOERROR**, que indica que o email foi recuperado com êxito e os valores [attachmentid](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) dos anexos existentes. 
+O servidor responde à solicitação **GetItem** com uma mensagem [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) que inclui um valor [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NoError**, que indica que o email foi recuperado com êxito e os valores [AttachmentId](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) dos anexos existentes. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -213,7 +213,7 @@ O servidor responde à solicitação **GetItem** com uma mensagem [GetItemRespon
 </s:Envelope>
 ```
 
-Depois de determinar qual anexo excluir, chame a operação [DeleteAttachment](https://msdn.microsoft.com/library/4d48e595-b98c-48e7-bbeb-cacf91d12a78%28Office.15%29.aspx) e inclua os valores **attachmentid** dos anexos a serem excluídos. 
+Depois de determinar qual anexo excluir, chame a operação [DeleteAttachment](https://msdn.microsoft.com/library/4d48e595-b98c-48e7-bbeb-cacf91d12a78%28Office.15%29.aspx) e inclua os valores **AttachmentId** dos anexos a ser excluídos. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -241,7 +241,7 @@ Depois de determinar qual anexo excluir, chame a operação [DeleteAttachment](h
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **DeleteAttachment** com uma mensagem [DeleteAttachmentResponse](https://msdn.microsoft.com/library/24099a88-4ab6-4bf3-8ed5-efec8e07b9b9%28Office.15%29.aspx) que inclui um valor de [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NOERROR** para cada [DeleteAttachmentResponseMessage](https://msdn.microsoft.com/library/1edb085f-1674-48e5-8ec3-42351adeac7d%28Office.15%29.aspx), o que indica que cada anexo foi excluído com êxito. Os valores de alguns atributos são reduzidos para facilitar a leitura.
+O servidor responde à solicitação **DeleteAttachment** com uma mensagem [DeleteAttachmentResponse](https://msdn.microsoft.com/library/24099a88-4ab6-4bf3-8ed5-efec8e07b9b9%28Office.15%29.aspx) que inclui um valor [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NoError** para [cada DeleteAttachmentResponseMessage](https://msdn.microsoft.com/library/1edb085f-1674-48e5-8ec3-42351adeac7d%28Office.15%29.aspx), que indica que cada anexo foi excluído com êxito. Os valores de alguns atributos são reduzidos para a capacidade de leitura.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

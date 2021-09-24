@@ -1,27 +1,27 @@
 ---
-title: Attachmentid (GetAttachment e DeleteAttachment)
+title: AttachmentId (GetAttachment e DeleteAttachment)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AttachmentId
 api_type:
 - schema
 ms.assetid: 4bea1cb5-0a0f-4e14-9b09-f91af8cf9899
-description: O elemento attachmentid identifica um único anexo.
-ms.openlocfilehash: 1096487490f6066f70d2da861b3015f0fbf5a68f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AttachmentId identifica um único anexo.
+ms.openlocfilehash: f36822ad4a3eeb5dcdbec5ef5b5f9f1fada9613c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460852"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525138"
 ---
-# <a name="attachmentid-getattachment-and-deleteattachment"></a>Attachmentid (GetAttachment e DeleteAttachment)
+# <a name="attachmentid-getattachment-and-deleteattachment"></a>AttachmentId (GetAttachment e DeleteAttachment)
 
-O elemento **attachmentid** identifica um único anexo. 
+O **elemento AttachmentId** identifica um único anexo. 
   
 ```xml
 <AttachmentId Id="" />
@@ -36,7 +36,7 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|**Id** <br/> |Especifica o identificador do anexo.  <br/> |
+|**Id** <br/> |Especifica o identificador de anexo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -46,7 +46,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AttachmentIds](attachmentids.md) <br/> | Contém uma matriz de identificadores de anexo.<br/><br/>  A seguir estão as expressões XPath para este elemento:<br/><br/>`/DeleteAttachment/AttachmentIds`<br/><br/>`/GetAttachment/AttachmentIds` <br/> |
+|[AttachmentIds](attachmentids.md) <br/> | Contém uma matriz de identificadores de anexo.<br/><br/>  Veja a seguir as expressões XPath para este elemento:<br/><br/>`/DeleteAttachment/AttachmentIds`<br/><br/>`/GetAttachment/AttachmentIds` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

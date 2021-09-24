@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95aca4bc-beeb-4f13-b44c-885d72a83491
-description: O elemento RMSTemplateId especifica o identificador do modelo de gerenciamento de direitos.
-ms.openlocfilehash: 2c5f0e7b21c66963275c27711258824155a5698e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RMSTemplateId especifica o identificador do modelo de Gerenciamento de Direitos.
+ms.openlocfilehash: d69ac6478f147fa26fb61500aa5839523115de2e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44448664"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521704"
 ---
 # <a name="rmstemplateid"></a>RMSTemplateId
 
-O elemento **RMSTemplateId** especifica o identificador do modelo de gerenciamento de direitos. 
+O **elemento RMSTemplateId** especifica o identificador do modelo de Gerenciamento de Direitos. 
   
 ```XML
 <RMSTemplateId></RMSTemplateId>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **RMSTemplateId** é o identificador do modelo de gerenciamento de direitos. 
+O valor de texto do **elemento RMSTemplateId** é o identificador do modelo de Gerenciamento de Direitos. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c1df5e2-b56a-4947-a047-2b73b32e5fb7
-description: O elemento RetentionDate especifica a última data em que um item deve ser retido.
-ms.openlocfilehash: a1b109414d02814f9ede74c59796d5a1ff042da5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RetentionDate especifica a última data em que um item deve ser mantido.
+ms.openlocfilehash: d8c2b0af08f00d6363f30cf49a3bd84a33f9071b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465223"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517928"
 ---
 # <a name="retentiondate"></a>RetentionDate
 
-O elemento **RetentionDate** especifica a última data em que um item deve ser retido. 
+O **elemento RetentionDate** especifica a última data em que um item deve ser mantido. 
   
 ```XML
 <RetentionDate></RetentionDate>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **RetentionDate** representa a data em que um item não deve mais ser mantido. 
+O valor de texto do **elemento RetentionDate** representa a data em que um item não deve mais ser mantido. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

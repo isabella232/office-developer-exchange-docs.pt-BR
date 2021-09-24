@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92827350-f317-46da-99c0-5d7960686194
 description: O elemento MarkAsJunkResponse especifica a resposta a uma solicitação MarkAsJunk.
-ms.openlocfilehash: ee8027a61175b8cbf25f5b7d0051a6ea6b74fcb3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6443a15357f2e599541bbc56cf9ff0c407184440
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468562"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524725"
 ---
 # <a name="markasjunkresponse"></a>MarkAsJunkResponse
 
-O elemento **MarkAsJunkResponse** especifica a resposta a uma solicitação **MarkAsJunk** . 
+O **elemento MarkAsJunkResponse** especifica a resposta a uma **solicitação MarkAsJunk.** 
   
 ```XML
 <MarkAsJunkResponse>
@@ -40,7 +40,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

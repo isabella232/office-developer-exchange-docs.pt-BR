@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 730e349e-8250-4236-af53-cd9039c74d8f
-description: O elemento MailTipsAccessLevel representa a propriedade MailTipsAccessLevel. O elemento MailTipsAccessLevel é somente para uso interno. Esse elemento não é usado por clientes.
-ms.openlocfilehash: 8e3a467f7aa8484fc8a4bfb23f8b4ac4c138ccad
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MailTipsAccessLevel representa a propriedade MailTipsAccessLevel. O elemento MailTipsAccessLevel é apenas para uso interno. Esse elemento não é usado pelos clientes.
+ms.openlocfilehash: 275bdab1be5a754aa0cfa57eea232175e3d39ff3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458065"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524039"
 ---
 # <a name="mailtipsaccesslevel-soap"></a>MailTipsAccessLevel (SOAP)
 
-O elemento **MailTipsAccessLevel** representa a propriedade **MailTipsAccessLevel** . O elemento **MailTipsAccessLevel** é somente para uso interno. Esse elemento não é usado por clientes. 
+O **elemento MailTipsAccessLevel** representa a **propriedade MailTipsAccessLevel.** O **elemento MailTipsAccessLevel** é apenas para uso interno. Esse elemento não é usado pelos clientes. 
   
 ```XML
 <MailTipsAccessLevel/>
@@ -43,14 +43,14 @@ Nenhum.
    
 ## <a name="remarks"></a>Comentários
 
-Este elemento Especifica a quantidade máxima de detalhes de dicas de email que serão retornados na resposta.
+Esse elemento especifica a quantidade máxima de detalhes de dicas de email que serão retornadas na resposta.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

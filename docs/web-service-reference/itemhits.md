@@ -1,29 +1,29 @@
 ---
-title: Hits
+title: ItemHits
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b0d54f5-1a04-4781-9f4a-d3e933a8b235
-description: O elemento dohits identifica quantas vezes uma palavra-chave foi encontrada.
-ms.openlocfilehash: a7e9165e2628fc1b66323b1d19a9c24131909e34
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ItemHits identifica quantas vezes uma palavra-chave foi encontrada.
+ms.openlocfilehash: e6bfd11274eb62a14ff792041426e784dc457b40
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460306"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524998"
 ---
-# <a name="itemhits"></a>Hits
+# <a name="itemhits"></a>ItemHits
 
-O elemento **dohits** identifica quantas vezes uma palavra-chave foi encontrada. 
+O **elemento ItemHits** identifica quantas vezes uma palavra-chave foi encontrada. 
   
 ```XML
 <ItemHits></ItemHits>
 ```
 
- **Semantic**
+ **integer**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento de **hits** é o número de vezes que uma palavra-chave foi encontrada em uma pesquisa de palavra-chave. 
+O valor de texto do **elemento ItemHits** é o número de vezes que uma palavra-chave foi encontrada em uma pesquisa de palavra-chave. 
   
 ## <a name="remarks"></a>Comentários
 

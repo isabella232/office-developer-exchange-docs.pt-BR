@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f1bcbfb-d7f6-4fa0-b6f8-681a0b067007
-description: O elemento SearchMailboxesResponseMessage especifica a mensagem de resposta para uma solicitação SearchMailboxes.
-ms.openlocfilehash: 342223b9a8cc7e91b97d637cb104f7bb160b7d5a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SearchMailboxesResponseMessage especifica a mensagem de resposta de uma solicitação SearchMailboxes.
+ms.openlocfilehash: d37fd5b194e35a2c163499096686decbab45458c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44448419"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517865"
 ---
 # <a name="searchmailboxesresponsemessage"></a>SearchMailboxesResponseMessage
 
-O elemento **SearchMailboxesResponseMessage** especifica a mensagem de resposta para uma solicitação **SearchMailboxes** . 
+O **elemento SearchMailboxesResponseMessage** especifica a mensagem de resposta de uma **solicitação SearchMailboxes.** 
   
 ```XML
 <SearchMailboxesResponseMessage>
@@ -44,7 +44,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

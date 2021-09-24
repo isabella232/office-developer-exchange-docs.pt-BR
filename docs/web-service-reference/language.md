@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e24e672-7b17-49c8-b368-a078ca1d4dd1
 description: O elemento Language contém o idioma usado para a consulta de pesquisa.
-ms.openlocfilehash: 3d1843ea5d38f5efee8453623f450a4486e4d18b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b8e3bf0d1fede8febe4a1b4e1e349de4ddc6a18a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468695"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524102"
 ---
 # <a name="language"></a>Idioma
 
-O elemento **Language** contém o idioma usado para a consulta de pesquisa. 
+O **elemento Language** contém o idioma usado para a consulta de pesquisa. 
   
 ```XML
 <Language></Language>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **Language** é o idioma usado em uma pesquisa de descoberta. 
+O valor de texto do **elemento Language** é o idioma usado em uma pesquisa de descoberta. 
   
 ## <a name="remarks"></a>Comentários
 

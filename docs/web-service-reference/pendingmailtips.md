@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PendingMailTips
 api_type:
 - schema
 ms.assetid: 0cd70eea-8d36-4b1b-bf80-5edf359e7ba7
-description: O elemento PendingMailTips indica que as dicas de email neste elemento não puderam ser avaliadas antes que o tempo limite de processamento do servidor tenha expirado.
-ms.openlocfilehash: 715d68b367c3b7251c7406c10c1ec52dcd992a59
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PendingMailTips indica que as dicas de email nesse elemento não puderam ser avaliadas antes do tempo de processamento do servidor expirar.
+ms.openlocfilehash: cadf1839acaeb7c25d1bbf42af5fc866f6c7a4cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529963"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521757"
 ---
 # <a name="pendingmailtips"></a>PendingMailTips
 
-O elemento **PendingMailTips** indica que as dicas de email neste elemento não puderam ser avaliadas antes que o tempo limite de processamento do servidor tenha expirado. 
+O **elemento PendingMailTips** indica que as dicas de email nesse elemento não puderam ser avaliadas antes do tempo de processamento do servidor expirar. 
   
 ```XML
 <PendingMailTips>All | OutOfOfficeMessage | MailboxFullStatus | CustomMailTip | ExternalMemberCount | TotalMemberCount | MaxMessageSize | DeliveryRestriction | ModerateStatus | InvalidRecipient</PendingMailTips>
@@ -44,22 +44,22 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Dicas de Email](mailtips.md) <br/> |Representa valores de vários tipos de dicas de email.  <br/> |
+|[Dicas de Email](mailtips.md) <br/> |Representa valores para vários tipos de dicas de email.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-A tabela a seguir lista os valores possíveis para o elemento **PendingMailTips** . 
+A tabela a seguir lista os valores possíveis para o **elemento PendingMailTips.** 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
 |Todos  <br/> |Representa todas as dicas de email disponíveis.  <br/> |
-|OutOfOfficeMessage  <br/> |Representa a mensagem de ausência temporária.  <br/> |
-|MailboxFullStatus  <br/> |Representa o status de uma caixa de correio cheia.  <br/> |
+|OutOfOfficeMessage  <br/> |Representa a mensagem Out of Office (OOF).  <br/> |
+|MailboxFullStatus  <br/> |Representa o status de uma caixa de correio que está cheia.  <br/> |
 |CustomMailTip  <br/> |Representa uma dica de email personalizada.  <br/> |
 |ExternalMemberCount  <br/> |Representa a contagem de membros externos.  <br/> |
 |TotalMemberCount  <br/> |Representa a contagem de todos os membros.  <br/> |
 |MaxMessageSize  <br/> |Representa o tamanho máximo de mensagem que um destinatário pode aceitar.  <br/> |
-|DeliveryRestriction  <br/> |Indica se as restrições de entrega impedirão que a mensagem do remetente atinja o destinatário.  <br/> |
+|DeliveryRestriction  <br/> |Indica se as restrições de entrega impedirão que a mensagem do remetente chegue ao destinatário.  <br/> |
 |ModerationStatus  <br/> |Indica se a mensagem do remetente será revisada por um moderador.  <br/> |
 |InvalidRecipient  <br/> |Indica se o destinatário é inválido.  <br/> |
    
@@ -73,7 +73,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

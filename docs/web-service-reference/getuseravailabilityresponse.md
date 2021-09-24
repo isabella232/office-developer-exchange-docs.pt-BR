@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserAvailabilityResponse
 api_type:
 - schema
 ms.assetid: 6999510a-d60e-43da-8964-57b5fb3e9d11
-description: O elemento GetUserAvailabilityResponse é o elemento raiz que contém as propriedades que definem informações de disponibilidade do usuário ou informações de tempo de reunião sugeridas.
-ms.openlocfilehash: ceb24bc8b31a7d7313add213c26bef5efd3c89ae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetUserAvailabilityResponse é o elemento raiz que contém as propriedades que definem informações de disponibilidade do usuário ou informações de hora de reunião sugeridas.
+ms.openlocfilehash: 16a6f79f6ccc930e3847867a560bc042657f12a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458212"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521904"
 ---
 # <a name="getuseravailabilityresponse"></a>GetUserAvailabilityResponse
 
-O elemento **GetUserAvailabilityResponse** é o elemento raiz que contém as propriedades que definem informações de disponibilidade do usuário ou informações de tempo de reunião sugeridas. 
+O **elemento GetUserAvailabilityResponse** é o elemento raiz que contém as propriedades que definem informações de disponibilidade do usuário ou informações de hora de reunião sugeridas. 
   
 ```xml
 <GetUserAvailabilityResponse>
@@ -48,7 +48,7 @@ Nenhum
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -118,7 +118,7 @@ O exemplo a seguir de uma resposta GetUserAvailability mostra uma resposta a uma
 </GetUserAvailabilityResponse>
 ```
 
-O conteúdo do elemento [ID](id.md) foi reduzido para preservar a legibilidade. 
+O conteúdo do elemento [ID](id.md) foi reduzido para preservar a capacidade de leitura. 
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -136,5 +136,5 @@ O conteúdo do elemento [ID](id.md) foi reduzido para preservar a legibilidade.
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
 
 
-[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

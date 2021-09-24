@@ -5,15 +5,15 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f15c7b9e-a670-4a11-bb62-2a298c91f142
 description: O elemento RuleOperationErrors representa uma matriz de erros de validação de regra em cada campo de regra que possui um erro.
-ms.openlocfilehash: d547155f3cbf9eedd0f9bfac7bf3768b3630b50e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2428d68719e7d9ef5d1fdf87ec94f1f9390bf631
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464949"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524494"
 ---
 # <a name="ruleoperationerrors"></a>RuleOperationErrors
 

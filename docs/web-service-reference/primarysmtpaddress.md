@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PrimarySmtpAddress
 api_type:
 - schema
 ms.assetid: eee79904-9412-4e61-b9b8-aff0ce25fade
-description: O elemento PrimarySmtpAddress representa o endereço SMTP (Simple Mail Transfer Protocol) principal de uma conta a ser usada para autorização de servidor para servidor ou acesso de representante.
-ms.openlocfilehash: eea995b3e546d7e94e65cf9b230b639a781c4928
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PrimarySmtpAddress representa o endereço SMTP (Simple Mail Transfer Protocol) principal de uma conta a ser usada para autorização de servidor para servidor ou acesso delegado.
+ms.openlocfilehash: 7963fbc92de88b38da93e577ebd2c39dbedac009
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467960"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523871"
 ---
 # <a name="primarysmtpaddress"></a>PrimarySmtpAddress
 
-O elemento **PrimarySmtpAddress** representa o endereço SMTP (Simple Mail Transfer Protocol) principal de uma conta a ser usada para autorização de servidor para servidor ou acesso de representante. 
+O **elemento PrimarySmtpAddress** representa o endereço SMTP (Simple Mail Transfer Protocol) principal de uma conta a ser usada para autorização de servidor para servidor ou acesso delegado. 
   
 ```xml
 <PrimarySmtpAddress/>
@@ -44,8 +44,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ConnectingSID](connectingsid.md) <br/> |Representa uma conta a ser representada quando você estiver usando o cabeçalho SOAP ExchangeImpersonation.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
-|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Usado no cabeçalho SOAP para serialização de token na autenticação de servidor para servidor.  <br/> |
+|[ConnectingSID](connectingsid.md) <br/> |Representa uma conta para representar quando você está usando o header SOAP do ExchangeImpersonation.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
+|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Usado no header SOAP para serialização de token na autenticação servidor para servidor.  <br/> |
 |[UserId](userid.md) <br/> |Identifica um usuário delegado ou um usuário com permissões de acesso à pasta.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
@@ -54,9 +54,9 @@ Um valor de texto que representa um endereço SMTP é necessário.
   
 ## <a name="remarks"></a>Comentários
 
-Os serviços Web do Exchange exigem que as caixas de correio sejam identificadas pelo endereço SMTP principal da caixa de correio. Endereços de proxy ou alternativos não são aceitos.
+Exchange Os Serviços Web exigem que as caixas de correio sejam identificadas pelo endereço SMTP principal da caixa de correio. Proxy ou endereços alternativos não são aceitos.
   
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2010 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -76,5 +76,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 
 [Autorização de servidor para servidor no EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
   
-[Trabalhar com acesso de representante](https://msdn.microsoft.com/library/dfd6b4a3-8fd3-47ba-83c0-52465cb5f3f3%28Office.15%29.aspx)
+[Trabalhando com o Delegate Access](https://msdn.microsoft.com/library/dfd6b4a3-8fd3-47ba-83c0-52465cb5f3f3%28Office.15%29.aspx)
 

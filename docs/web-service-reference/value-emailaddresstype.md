@@ -1,23 +1,23 @@
 ---
-title: Valor (EmailAddresstype)
+title: Value (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24eaa473-0024-47e2-b7d2-051d5dd4f53c
 description: O elemento Value especifica o valor de um EmailAddress associado a uma matriz de atribuições.
-ms.openlocfilehash: 45af2aaab7d2475ae46ae24ed13b1435f5b352c6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 21859c6cc4c05e55029758ce25bdf312b5f084fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467596"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522513"
 ---
-# <a name="value-emailaddresstype"></a>Valor (EmailAddresstype)
+# <a name="value-emailaddresstype"></a>Value (EmailAddressType)
 
-O elemento **Value** especifica o valor de um **EmailAddress** associado a uma matriz de atribuições. 
+O **elemento Value** especifica o valor de um **EmailAddress** associado a uma matriz de atribuições. 
   
 ```XML
 <Value>
@@ -30,7 +30,7 @@ O elemento **Value** especifica o valor de um **EmailAddress** associado a uma m
 </Value>
 ```
 
-**EmailAddresstype**
+**EmailAddressType**
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

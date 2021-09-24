@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ad333be3-1bd9-4e4a-a17d-9fcf7131cf76
 description: O elemento TokenValue especifica o token de acesso para cliente codificado.
-ms.openlocfilehash: 7aa544cb8b63face7cd41054eebb55b0ed84b35d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 66bfdc6f236c9a73c331abb2a3a0b03f5ddeccd5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467855"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522527"
 ---
 # <a name="tokenvalue"></a>TokenValue
 
-O elemento **TokenValue** especifica o token de acesso para cliente codificado. 
+O **elemento TokenValue** especifica o token de acesso para cliente codificado. 
   
 ```XML
 <TokenValue></TokenValue>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **TokenValue** é o token de acesso do cliente codificado. 
+O valor de texto do **elemento TokenValue** é o token de acesso para cliente codificado. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

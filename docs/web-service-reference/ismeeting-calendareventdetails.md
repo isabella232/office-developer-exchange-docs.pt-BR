@@ -1,27 +1,27 @@
 ---
-title: Iscumprimento (CalendarEventDetails)
+title: IsMeeting (CalendarEventDetails)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsMeeting
 api_type:
 - schema
 ms.assetid: dd6900e4-e4a3-471a-909d-7240ebec501b
-description: O elemento issatisfaçing indica se o evento de calendário é uma reunião ou um compromisso.
-ms.openlocfilehash: b75dfba203177d6451f3847bf8d1f68014612e1c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento IsMeeting indica se o evento calendário é uma reunião ou um compromisso.
+ms.openlocfilehash: 6d398397de9147e0c9c8b0977a8a9f46a9da3ebd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465993"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524158"
 ---
-# <a name="ismeeting-calendareventdetails"></a>Iscumprimento (CalendarEventDetails)
+# <a name="ismeeting-calendareventdetails"></a>IsMeeting (CalendarEventDetails)
 
-O elemento **Issatisfaçing** indica se o evento de calendário é uma reunião ou um compromisso. 
+O **elemento IsMeeting** indica se o evento calendário é uma reunião ou um compromisso. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -37,7 +37,7 @@ O elemento **Issatisfaçing** indica se o evento de calendário é uma reunião 
   
 [CalendarEventDetails](calendareventdetails.md)
   
-[Iscumprimento (CalendarEventDetails)](ismeeting-calendareventdetails.md)
+[IsMeeting (CalendarEventDetails)](ismeeting-calendareventdetails.md)
   
 ```xml
 <IsMeeting>true or false</IsMeeting>
@@ -60,11 +60,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarEventDetails](calendareventdetails.md) <br/> |Fornece informações adicionais para um evento de calendário.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Fornece informações adicionais para um evento de calendário.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto será necessário se esse elemento for retornado na resposta. Esse elemento é necessário se o elemento [CalendarEventDetails](calendareventdetails.md) for usado. 
+Um valor de texto será necessário se esse elemento for retornado na resposta. Esse elemento será necessário se o [elemento CalendarEventDetails](calendareventdetails.md) for usado. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -78,7 +78,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -90,5 +90,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

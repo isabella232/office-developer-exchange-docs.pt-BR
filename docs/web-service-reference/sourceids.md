@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SourceIds
 api_type:
 - schema
 ms.assetid: 0043abd5-ba9c-4d67-8832-325f32bf7651
-description: O elemento SourceIds contém os identificadores de origem a serem convertidos.
-ms.openlocfilehash: 1c4990f2185788c5cfaab5483cb6a54a0d850596
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SourceIds contém os identificadores de origem a converter.
+ms.openlocfilehash: e6a0767de0928578fb6ae16996ff39908580d45c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466105"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521337"
 ---
 # <a name="sourceids"></a>SourceIds
 
-O elemento **SourceIds** contém os identificadores de origem a serem convertidos. 
+O **elemento SourceIds** contém os identificadores de origem a converter. 
   
 [ConvertId](convertid.md)
   
@@ -56,11 +56,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ConvertId](convertid.md) <br/> |Define uma solicitação para converter os identificadores de item e de pasta entre os formatos com suporte do Exchange.  <br/> |
+|[ConvertId](convertid.md) <br/> |Define uma solicitação para converter identificadores de item e pasta entre Exchange formatos suportados.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Exchange Server que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual EWS do computador que está executando Exchange Server que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -75,7 +75,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 
 
 
-[Operação convertid](convertid-operation.md)
+[Operação ConvertId](convertid-operation.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

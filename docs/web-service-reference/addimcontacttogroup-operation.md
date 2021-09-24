@@ -5,42 +5,42 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 376acc42-2684-4596-aca1-82a4a10865c9
-description: Encontre informações sobre a operação do EWS do AddImContactToGroup.
-ms.openlocfilehash: a69ee0b355e78e1249383cab612a75bcda8d9e8a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação AddImContactToGroup EWS.
+ms.openlocfilehash: 2f3cfa35662251fdcd449876af466bd5c066ec62
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458408"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525404"
 ---
 # <a name="addimcontacttogroup-operation"></a>Operação AddImContactToGroup
 
-Encontre informações sobre a operação do EWS do **AddImContactToGroup** . 
+Encontre informações sobre **a operação AddImContactToGroup** EWS. 
   
-A operação do **AddImContactToGroup** do serviços Web do Exchange (EWS) adiciona um contato de mensagens instantâneas (IM) existente a um grupo. 
+A **operação AddImContactToGroup** Exchange Web Services (EWS) adiciona um contato de mensagens instantâneas (IM) existente a um grupo. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-addimcontacttogroup-operation"></a>Usando a operação AddImContactToGroup
 
-A operação **AddImContactToGroup** pode aceitar somente contatos de im. Se quiser adicionar um novo contato de mensagens instantâneas ao repositório unificado de contatos, use a operação [AddNewImContactToGroup](addnewimcontacttogroup-operation.md) . 
+A **operação AddImContactToGroup** só pode aceitar contatos de IM. Se você quiser adicionar um novo contato de IM ao Unified Contact Store, use a [operação AddNewImContactToGroup.](addnewimcontacttogroup-operation.md) 
   
-A operação **AddImContactToGroup** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação AddImContactToGroup** pode usar os headers SOAP listados na tabela a seguir. 
   
-**Tabela 1. Cabeçalhos SOAP de operação AddImContactToGroup**
+**Tabela 1. Headers soap da operação AddImContactToGroup**
 
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Esse header é aplicável a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "Marcas para a Identificação de Idiomas", a ser usada para acessar a caixa de correio. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="addimcontacttogroup-operation-request-example-add-an-existing-im-contact-to-an-im-group"></a>Exemplo de solicitação de operação AddImContactToGroup: adicionar um contato de IM existente a um grupo de mensagens instantâneas
+## <a name="addimcontacttogroup-operation-request-example-add-an-existing-im-contact-to-an-im-group"></a>Exemplo da solicitação de operação AddImContactToGroup: Adicionar um contato de IM existente a um grupo de IM
 
-O exemplo a seguir de uma solicitação de operação do **AddImContactToGroup** mostra como adicionar um contato de im existente um grupo de mensagens instantâneas. 
+O exemplo a seguir de uma solicitação de operação **AddImContactToGroup** mostra como adicionar um contato de IM existente a um grupo de IM. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -66,13 +66,13 @@ O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [AddImContactToGroup](addimcontacttogroup.md)
     
-- [ContactID](contactid.md)
+- [ContactId](contactid.md)
     
 - [GroupId](groupid.md)
     
-## <a name="successful-addimcontacttogroup-operation-response"></a>Resposta de operação AddImContactToGroup bem-sucedida
+## <a name="successful-addimcontacttogroup-operation-response"></a>Resposta bem-sucedida da operação AddImContactToGroup
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **AddImContactToGroup** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **AddImContactToGroup.** 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -104,9 +104,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [ResponseCode](responsecode.md)
     
-## <a name="addimcontacttogroup-operation-errorinvalidimcontactid-error-response"></a>Resposta de erro ErrorInvalidImContactId operação AddImContactToGroup
+## <a name="addimcontacttogroup-operation-errorinvalidimcontactid-error-response"></a>Resposta de erro da operação AddImContactToGroup ErrorInvalidImContactId
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **AddImContactToGroup** . A seguinte resposta de erro ocorre quando é feita uma tentativa de adicionar um contato que não é um contato de mensagens instantâneas. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **AddImContactToGroup.** A seguinte resposta de erro ocorre quando uma tentativa é feita para adicionar um contato que não é um contato de IM. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -134,7 +134,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-O corpo SOAP de resposta de erro contém os seguintes elementos:
+O corpo SOAP da resposta de erro contém os seguintes elementos:
   
 - [AddImContactToGroupResponse](addimcontacttogroupresponse.md)
     

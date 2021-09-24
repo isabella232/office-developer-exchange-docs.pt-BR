@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Status
 api_type:
 - schema
 ms.assetid: 80121e41-291b-4fc0-a55e-6f677d4b5fb5
-description: O elemento status representa o status de um item de tarefa.
-ms.openlocfilehash: 5d022827990b96fd8790ae9566ef49028ebe404c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Status representa o status de um item de tarefa.
+ms.openlocfilehash: 5ec50e3f0c06ad3ec8301ddbe8e7bd249b1e8fe9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459956"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525537"
 ---
 # <a name="status"></a>Status
 
-O elemento **status** representa o status de um item de tarefa. 
+O **elemento Status** representa o status de um item de tarefa. 
   
 ```xml
 <Status/>
@@ -44,17 +44,17 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. Estes são os valores de texto possíveis para este elemento:
+Um valor de texto é necessário. Veja a seguir os valores de texto possíveis para este elemento:
   
 - NotStarted
     
 - InProgress
     
-- Completed
+- Concluído
     
 - WaitingOnOthers
     
@@ -62,9 +62,9 @@ Um valor de texto é obrigatório. Estes são os valores de texto possíveis par
     
 ## <a name="remarks"></a>Comentários
 
-A configuração foi [concluída](completedate.md) tem o mesmo efeito que configurar a [PorcentagemConcluída](percentcomplete.md) como 100 ou **status** como **concluído**. Em uma solicitação que define pelo menos duas dessas propriedades, a última Propriedade processada determinará o valor definido para esses elementos. Por exemplo, se a **PorcentagemConcluída** é 100 **, Completed** é 1/1/2007, e o **status** é não é iniciado e as propriedades são transmitidas nesta ordem, o efeito será definir o **status** da tarefa como não iniciada, **concluída** como **nulo**e a **PorcentagemConcluída** como 0. 
+Definir [CompleteDate](completedate.md) tem o mesmo efeito que definir [PercentComplete](percentcomplete.md) como 100 ou **Status** como **Concluído.** Em uma solicitação que define pelo menos duas dessas propriedades, a última propriedade processada determinará o valor definido para esses elementos. Por exemplo, se **PercentComplete** for 100, **CompleteDate** for 1/1/2007 e Status for NotStarted, e as propriedades são transmitidas nesta ordem, o efeito será definir **o Status** da tarefa como NotStarted, **CompleteDate** como nulo **e** **PercentComplete** como 0.  
   
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -72,7 +72,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -84,5 +84,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 
 [Criando tarefas](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[Excluir tarefas](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Excluir Tarefas](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

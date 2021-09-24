@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - JournalFolderPermissionLevel
 api_type:
 - schema
 ms.assetid: 564525fa-cd95-4c1a-9d6c-3806be664579
-description: O elemento JournalFolderPermissionLevel contém as permissões para a pasta de diário padrão. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 5c0f30932eb3fbbeef1a8e34611deeb1ffef402c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento JournalFolderPermissionLevel contém as permissões da pasta Journal padrão. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 0237048e61fbae12a1341cef33e5ca30ebc0c838
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529046"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524963"
 ---
 # <a name="journalfolderpermissionlevel"></a>JournalFolderPermissionLevel
 
-O elemento **JournalFolderPermissionLevel** contém as permissões para a pasta de diário padrão. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+O **elemento JournalFolderPermissionLevel** contém as permissões da pasta Journal padrão. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <JournalFolderPermissionLevel>
@@ -46,25 +46,25 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DelegatePermissions](delegatepermissions.md) <br/> |Contém as configurações de nível de permissão de representante para um usuário. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[DelegatePermissions](delegatepermissions.md) <br/> |Contém as configurações de nível de permissão de representante para um usuário. Esse elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
 A tabela a seguir lista os valores de texto que representam os níveis de permissão.
   
-**Valores de texto do nível de permissão**
+**Valores de texto de nível de permissão**
 
 |**Nível de permissão**|**Descrição**|
 |:-----|:-----|
-|Nenhum  <br/> |O usuário delegado não tem permissões de acesso à pasta diário.  <br/> |
-|Revisor  <br/> |O usuário delegado pode ler itens na pasta diário.  <br/> |
-|Autor  <br/> |O usuário delegado pode ler e criar itens na pasta de diário.  <br/> |
-|Editor  <br/> |O usuário delegado pode ler, criar e modificar itens na pasta de diário.  <br/> |
-|Personalizado  <br/> |O usuário delegado tem permissões de acesso personalizadas para a pasta de diário.  <br/> |
+|Nenhum  <br/> |O usuário representante não tem permissões de acesso à pasta Diário.  <br/> |
+|Revisor  <br/> |O usuário representante pode ler itens na pasta Diário.  <br/> |
+|Autor  <br/> |O usuário representante pode ler e criar itens na pasta Diário.  <br/> |
+|Editor  <br/> |O usuário representante pode ler, criar e modificar itens na pasta Diário.  <br/> |
+|Personalizado  <br/> |O usuário representante tem permissões de acesso personalizadas para a pasta Diário.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -72,7 +72,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -87,5 +87,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Adicionar representantes](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[Adicionando representantes](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

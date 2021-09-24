@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 00003b9b-f8f1-4452-a0af-157f789f8892
-description: O elemento ApplicationRoles especifica as funções de aplicativo que o aplicativo de parceiro de chamada usa para a chamada atual.
-ms.openlocfilehash: 8dfe5c745896d02217cbf91375d355954a4e22eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ApplicationRoles especifica as funções de aplicativo que o aplicativo parceiro de chamada usa para a chamada atual.
+ms.openlocfilehash: a2179d37da6f4870f58a9deaf0585d1418d5792a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464697"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522072"
 ---
 # <a name="applicationroles"></a>ApplicationRoles
 
-O elemento **ApplicationRoles** especifica as funções de aplicativo que o aplicativo de parceiro de chamada usa para a chamada atual. 
+O **elemento ApplicationRoles** especifica as funções de aplicativo que o aplicativo parceiro de chamada usa para a chamada atual. 
   
 ```XML
 <ApplicationRoles>
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 2f0f77bd-4cbe-4c02-880d-a93b387141d9
-description: O elemento AcceptableResponseSchema identifica o esquema para uma resposta de descoberta automática.
-ms.openlocfilehash: ffc06f33144af7c8f06e81a12bcb5077719b15b8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AcceptableResponseSchema identifica o esquema de uma resposta de Descoberta Automática.
+ms.openlocfilehash: 96a3957683879897377c3182bc8b5a95d6c7a2b5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460404"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522268"
 ---
 # <a name="acceptableresponseschema-pox"></a>AcceptableResponseSchema (POX)
 
-O elemento **AcceptableResponseSchema** identifica o esquema para uma resposta de descoberta automática. 
+O **elemento AcceptableResponseSchema** identifica o esquema de uma resposta de Descoberta Automática. 
   
-- [Descoberta automática (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [Solicitação (POX)](request-pox.md)
+- [Request (POX)](request-pox.md)
   
 - [AcceptableResponseSchema (POX)](acceptableresponseschema-pox.md)
   
@@ -46,13 +46,13 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Solicitação (POX)](request-pox.md) <br/> |Contém a solicitação para o serviço de descoberta automática.  <br/> |
+|[Request (POX)](request-pox.md) <br/> |Contém a solicitação para o serviço descoberta automática.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto identifica o local do esquema de resposta de descoberta automática.
+O valor de texto identifica o local do esquema de resposta descoberta automática.
   
 ## <a name="see-also"></a>Confira também
 
-- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

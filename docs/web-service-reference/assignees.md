@@ -1,23 +1,23 @@
 ---
-title: Destinatários
+title: Assignees
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 20ef18c2-daa0-4f65-a515-e84e9993a77f
-description: O elemento destinatários especifica as pessoas a quem uma tarefa é atribuída.
-ms.openlocfilehash: 3e98273e859dbe2128b0ad3b4df42c8016fd3bc5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Assignees especifica as pessoas às quais uma tarefa é atribuída.
+ms.openlocfilehash: 1b5368dbe478e51a23f1f0761635e017b935911d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464711"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525187"
 ---
-# <a name="assignees"></a>Destinatários
+# <a name="assignees"></a>Assignees
 
-O elemento **destinatários** especifica as pessoas a quem uma tarefa é atribuída. 
+O **elemento Assignees** especifica as pessoas às quais uma tarefa é atribuída. 
   
 ```XML
 <Assignees>
@@ -39,8 +39,8 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Nome (EmailAddress)](name-emailaddress.md) <br/> |Representa o nome de exibição do usuário da caixa de correio.  <br/> |
-|[UserId (cadeia de caracteres)](userid-string.md) <br/> |Especifica o identificador de usuário de um usuário de email.  <br/> |
+|[Name (EmailAddress)](name-emailaddress.md) <br/> |Representa o nome de exibição do usuário da caixa de correio.  <br/> |
+|[UserId (string)](userid-string.md) <br/> |Especifica o identificador de usuário de um usuário de email.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -59,8 +59,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

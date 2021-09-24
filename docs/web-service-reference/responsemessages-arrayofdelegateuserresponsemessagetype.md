@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessages
 api_type:
 - schema
 ms.assetid: 14819975-ce54-4f0e-9f90-d4b275895ea0
-description: O elemento ResponseMessages contém as mensagens de resposta para uma solicitação de gerenciamento de representante de serviços Web do Exchange.
-ms.openlocfilehash: 6b035f4ee46af1750a275e2c61b2cddea06b37a1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ResponseMessages contém as mensagens de resposta para uma solicitação de gerenciamento de representantes Exchange Web Services.
+ms.openlocfilehash: aa90d2572679ecf3e5d99cc55731d388e083ff01
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465454"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525564"
 ---
 # <a name="responsemessages-arrayofdelegateuserresponsemessagetype"></a>ResponseMessages (ArrayOfDelegateUserResponseMessageType)
 
-O elemento **ResponseMessages** contém as mensagens de resposta para uma solicitação de gerenciamento de representante de serviços Web do Exchange. 
+O **elemento ResponseMessages** contém as mensagens de resposta para uma solicitação Exchange de gerenciamento de representantes dos Serviços Web. 
   
 ```
 <ResponseMessages>
@@ -42,22 +42,22 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DelegateUserResponseMessageType](delegateuserresponsemessagetype.md) <br/> |Contém mensagens de resposta para operações de gerenciamento de representante.  <br/> |
+|[DelegateUserResponseMessageType](delegateuserresponsemessagetype.md) <br/> |Contém mensagens de resposta para operações de gerenciamento de representantes.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AddDelegateResponse](adddelegateresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação AddDelegate](adddelegate-operation.md) .  <br/> |
-|[GetDelegateResponse](getdelegateresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação Getdelegate](getdelegate-operation.md) .  <br/> |
-|[UpdateDelegateResponse](updatedelegateresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação UpdateDelegate](updatedelegate-operation.md) .  <br/> |
-|[RemoveDelegateResponse](removedelegateresponse.md) <br/> |Contém o status e o resultado de uma solicitação de [operação RemoveDelegate](removedelegate-operation.md) .  <br/> |
+|[AddDelegateResponse](adddelegateresponse.md) <br/> |Contém o status e o resultado de uma [solicitação de operação AddDelegate.](adddelegate-operation.md)  <br/> |
+|[GetDelegateResponse](getdelegateresponse.md) <br/> |Contém o status e o resultado de uma [solicitação de operação GetDelegate.](getdelegate-operation.md)  <br/> |
+|[UpdateDelegateResponse](updatedelegateresponse.md) <br/> |Contém o status e o resultado de uma [solicitação de operação UpdateDelegate.](updatedelegate-operation.md)  <br/> |
+|[RemoveDelegateResponse](removedelegateresponse.md) <br/> |Contém o status e o resultado de uma [solicitação de operação RemoveDelegate.](removedelegate-operation.md)  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é usado na [operação AddDelegate](adddelegate-operation.md), a [operação getdelegate](getdelegate-operation.md), a [operação UpdateDelegate](updatedelegate-operation.md)e a [operação RemoveDelegate](removedelegate-operation.md). As respostas da operação de gerenciamento de representante são estruturadas de modo diferente de outras respostas. As mensagens de resposta de gerenciamento de representante são fortemente tipadas.
+Esse elemento é usado na operação [AddDelegate,](adddelegate-operation.md)na operação [GetDelegate,](getdelegate-operation.md)na [operação UpdateDelegate](updatedelegate-operation.md)e na [operação RemoveDelegate.](removedelegate-operation.md) As respostas da operação de gerenciamento de representantes são estruturadas de forma diferente de outras respostas. As mensagens de resposta de gerenciamento de representantes são fortemente digitadas.
   
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Exchange Server com a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Exchange Server com a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -74,7 +74,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 
 [Operação AddDelegate](adddelegate-operation.md)
   
-[Operação getdelegate](getdelegate-operation.md)
+[Operação GetDelegate](getdelegate-operation.md)
   
 [Operação UpdateDelegate](updatedelegate-operation.md)
   

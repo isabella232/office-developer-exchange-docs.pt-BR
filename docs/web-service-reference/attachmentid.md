@@ -1,27 +1,27 @@
 ---
-title: Attachmentid
+title: AttachmentId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AttachmentId
 api_type:
 - schema
 ms.assetid: 55a5fd77-60d1-40fa-8144-770600cedc6a
-description: O elemento attachmentid identifica um item ou anexo de arquivo. Este elemento é usado em respostas de CreateAttachment.
-ms.openlocfilehash: b5dc9299b615f0fc01b8afcbaabf0ec7996e53d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AttachmentId identifica um item ou anexo de arquivo. Esse elemento é usado em respostas CreateAttachment.
+ms.openlocfilehash: a6363fad4e7ef9f0c21377f2c1ea8c19c494cdef
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459108"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522016"
 ---
-# <a name="attachmentid"></a>Attachmentid
+# <a name="attachmentid"></a>AttachmentId
 
-O elemento **attachmentid** identifica um item ou anexo de arquivo. Este elemento é usado em respostas de CreateAttachment. 
+O **elemento AttachmentId** identifica um item ou anexo de arquivo. Esse elemento é usado em respostas CreateAttachment. 
   
 ```xml
 <AttachmentId Id="" RootItemId="" RootItemChangeKey="" />
@@ -37,8 +37,8 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
 |**Id** <br/> |Identifica o identificador exclusivo do anexo.  <br/> |
-|**RootItemId** <br/> |Identifica o identificador exclusivo do item de repositório raiz ao qual o anexo está anexado.  <br/> |
-|**RootItemChangeKey** <br/> |Identifica a chave de alteração do item de armazenamento raiz ao qual o anexo está anexado.  <br/> |
+|**RootItemId** <br/> |Identifica o identificador exclusivo do item do armazenamento raiz ao qual o anexo está anexado.  <br/> |
+|**RootItemChangeKey** <br/> |Identifica a chave de alteração do item do armazenamento raiz ao qual o anexo está anexado.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -48,14 +48,14 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ItemAttachment](itemattachment.md) <br/> |Representa um item do Exchange anexado a outro item do Exchange.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo anexado a um item no repositório do Exchange.  <br/> |
+|[ItemAttachment](itemattachment.md) <br/> |Representa um Exchange que está anexado a outro Exchange item.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo anexado a um item no Exchange store.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 É importante observar que, quando um anexo é criado, a chave de alteração do item raiz é alterada.
   
-O elemento [attachmentid (GetAttachment e DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) é usado em solicitações DeleteAttachment e GetAttachment. 
+O [elemento AttachmentId (GetAttachment e DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) é usado em solicitações DeleteAttachment e GetAttachment. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
@@ -65,7 +65,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

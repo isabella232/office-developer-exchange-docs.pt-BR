@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - YearlyRegeneration
 api_type:
 - schema
 ms.assetid: 23538bca-738e-4319-944e-f459ff8a7eba
-description: O elemento YearlyRegeneration descreve a frequência, em anos, em que uma tarefa é gerada novamente.
-ms.openlocfilehash: 7a6796c433bc54d145d5a769e01f9bba46897735
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento YearlyRegeneration descreve a frequência, em anos, na qual uma tarefa é regenerada.
+ms.openlocfilehash: f38460eab5ff53a033d99835f23a128e9dc00d19
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457876"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522380"
 ---
 # <a name="yearlyregeneration"></a>YearlyRegeneration
 
-O elemento **YearlyRegeneration** descreve a frequência, em anos, em que uma tarefa é gerada novamente. 
+O **elemento YearlyRegeneration** descreve a frequência, em anos, na qual uma tarefa é regenerada. 
   
 ```xml
 <YearlyRegeneratingPatternType>
@@ -49,7 +49,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Recorrência (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém informações de recorrência para tarefas recorrentes.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém informações de recorrência para tarefas recorrentes.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

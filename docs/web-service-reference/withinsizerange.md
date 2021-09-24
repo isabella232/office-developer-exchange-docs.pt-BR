@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WithinSizeRange
 api_type:
 - schema
 ms.assetid: 6f98650e-3399-4f87-9b7f-40bf20cdb821
-description: O elemento WithinSizeRange especifica os tamanhos mínimo e máximo que as mensagens de entrada devem ter para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: 31da5815b70e20c47594da89b0b7ccab87eaf8f3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento WithinSizeRange especifica os tamanhos mínimo e máximo que as mensagens de entrada devem estar para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: c9bc0e30171e826468e59f3ea1b6f087d8decc4a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459739"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521225"
 ---
 # <a name="withinsizerange"></a>WithinSizeRange
 
-O elemento **WithinSizeRange** especifica os tamanhos mínimo e máximo que as mensagens de entrada devem ter para que a condição ou exceção seja aplicada. 
+O **elemento WithinSizeRange** especifica os tamanhos mínimo e máximo que as mensagens de entrada devem estar para que a condição ou exceção seja aplicada. 
   
 ```XML
 <WithinSizeRange>
@@ -43,15 +43,15 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MinimumSize](minimumsize.md) <br/> |Especifica o tamanho mínimo que uma mensagem deve ter para que a condição ou exceção seja aplicada.  <br/> |
-|[MaximumSize](maximumsize.md) <br/> |Especifica o tamanho máximo que uma mensagem deve ter para que a condição ou exceção seja aplicada.  <br/> |
+|[MinimumSize](minimumsize.md) <br/> |Especifica o tamanho mínimo que uma mensagem deve estar para que a condição ou exceção seja aplicada.  <br/> |
+|[MaximumSize](maximumsize.md) <br/> |Especifica o tamanho máximo que uma mensagem deve estar para que a condição ou exceção seja aplicada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

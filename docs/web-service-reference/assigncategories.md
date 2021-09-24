@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AssignCategories
 api_type:
 - schema
 ms.assetid: f5c73fed-7b00-446d-8296-71a0c86e7fc6
-description: O elemento AssignCategories representa as categorias que estão carimbadas nas mensagens de email.
-ms.openlocfilehash: e2dad0e2ef46421ae92a0d2826d161e5e2af3b93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AssignCategories representa as categorias que são carimbadas em mensagens de email.
+ms.openlocfilehash: 9ef23f03f54f0c10ed8bdbf287f949119626cd51
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464739"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525215"
 ---
 # <a name="assigncategories"></a>AssignCategories
 
-O elemento **AssignCategories** representa as categorias que estão carimbadas nas mensagens de email. 
+O **elemento AssignCategories** representa as categorias que são carimbadas em mensagens de email. 
   
-- [Regra (RuleType)](rule-ruletype.md)
+- [Rule (RuleType)](rule-ruletype.md)
   
 - [Actions](actions.md)
   
@@ -52,7 +52,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem tomadas em uma mensagem quando as condições são atendidas.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

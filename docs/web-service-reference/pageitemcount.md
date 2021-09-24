@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4bc48bfb-a9ae-4e87-97a6-f3e0c9c89bc1
 description: O elemento PageItemCount especifica o número de páginas retornadas em uma paginação de resultado de pesquisa.
-ms.openlocfilehash: e8e98168212c104763f5cf94847e06d5ec93534d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ab6665c6ff2f81b2889a91ccea77802a2c3783b7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467029"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524641"
 ---
 # <a name="pageitemcount"></a>PageItemCount
 
-O elemento **PageItemCount** especifica o número de páginas retornadas em uma paginação de resultado de pesquisa. 
+O **elemento PageItemCount** especifica o número de páginas retornadas em uma paginação de resultado de pesquisa. 
   
 ```XML
 <PageItemCount></PageItemCount>
 ```
 
- **Semantic**
+ **integer**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **PageItemCount** é o número de páginas retornadas em uma paginação de resultado de pesquisa. 
+O valor de texto do **elemento PageItemCount** é o número de páginas retornadas em uma paginação de resultado de pesquisa. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

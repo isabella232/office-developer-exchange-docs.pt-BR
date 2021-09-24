@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af0d7435-fef6-4f0d-bd22-00e3fa576315
-description: O elemento manifest contém o arquivo de manifesto de aplicativo codificado em base64.
-ms.openlocfilehash: faac517bf8a8f03c6ae8abffddaf10421eed1699
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Manifest contém o arquivo de manifesto de aplicativo codificado com base64.
+ms.openlocfilehash: 418191c47af0422c2d555b577dd804e02f0e38ce
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530534"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524760"
 ---
 # <a name="manifest"></a>Manifesto
 
-O elemento **manifest** contém o arquivo de manifesto de aplicativo codificado em base64. 
+O **elemento Manifest** contém o arquivo de manifesto de aplicativo codificado com base64. 
   
 ```XML
 <Manifest></Manifest>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento manifest é uma representação ASCII da forma codificada binária base64 do arquivo de manifesto do aplicativo cliente.
+O valor de texto do elemento Manifest é uma representação ASCII da forma codificada binária base64 do arquivo de manifesto do aplicativo cliente.
   
 ## <a name="remarks"></a>Comentários
 

@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveFolder
 api_type:
 - schema
 ms.assetid: c7233966-6c87-4a14-8156-b1610760176d
-description: A operação MoveFolder move as pastas de uma pasta especificada e as coloca em outra pasta.
-ms.openlocfilehash: dc572130ca3b2f2b152abbb4a8b68cc6f67790e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação MoveFolder move pastas de uma pasta especificada e as coloca em outra pasta.
+ms.openlocfilehash: e0b0e93bd070354d03c511382b6096f2d3a07508
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460579"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523856"
 ---
 # <a name="movefolder-operation"></a>Operação MoveFolder
 
-A operação MoveFolder move as pastas de uma pasta especificada e as coloca em outra pasta.
+A operação MoveFolder move pastas de uma pasta especificada e as coloca em outra pasta.
   
 ## <a name="remarks"></a>Comentários
 
-A operação MoveFolder é semelhante à operação CopyFolder. Não é possível mover pastas diferenciadas. Você pode mover várias pastas de uma só vez para a pasta de destino.
+A operação MoveFolder é semelhante à operação CopyFolder. Não é possível mover pastas distintas. Você pode mover várias pastas ao mesmo tempo para a pasta de destino.
   
 ## <a name="movefolder-request-example"></a>Exemplo de solicitação MoveFolder
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação MoveFolder mostra como formar uma solicitação para mover uma pasta identificada por [FolderId](folderid.md) e colocar a pasta na pasta diferenciada de lixo eletrônico. 
+O exemplo a seguir de uma solicitação MoveFolder mostra como formar uma solicitação para mover uma pasta identificada pelo [FolderId](folderid.md) e colocar a pasta na pasta de lixo eletrônico diferenciado. 
   
 ### <a name="code"></a>Código
 
@@ -55,11 +55,11 @@ O exemplo a seguir de uma solicitação MoveFolder mostra como formar uma solici
 ### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> O valor do atributo ID do elemento [FolderId](folderid.md) foi reduzido para legibilidade. 
+> O valor do atributo ID do [elemento FolderId](folderid.md) foi reduzido para a capacidade de leitura. 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
-Essa solicitação de MoveFolder inclui os seguintes elementos:
+Esta solicitação MoveFolder inclui os seguintes elementos:
   
 - [MoveFolder](movefolder.md)
     
@@ -71,12 +71,12 @@ Essa solicitação de MoveFolder inclui os seguintes elementos:
     
 - [FolderId](folderid.md)
     
-Confira o esquema para elementos adicionais que você pode usar para formar uma solicitação de MoveFolder.
+Consulte o esquema para obter elementos adicionais que você pode usar para formar uma solicitação MoveFolder.
   
 > [!NOTE]
-> O local padrão do esquema está no diretório virtual EWS no computador em que a função de servidor de acesso para cliente está instalada. 
+> O local padrão do esquema está no diretório virtual do EWS no computador que tem a função de servidor de Acesso para Cliente instalada. 
   
-## <a name="successful-movefolder-response-example"></a>Exemplo de resposta MoveFolder bem-sucedida
+## <a name="successful-movefolder-response-example"></a>Exemplo de resposta bem-sucedida do MoveFolder
 
 ### <a name="description"></a>Descrição
 
@@ -115,9 +115,9 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação MoveFolder.
 ### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> A ID da pasta e a chave de alteração foram reduzidas para preservar a legibilidade. 
+> A ID da pasta e a chave de alteração foram reduzidas para preservar a capacidade de leitura. 
   
-O FolderId retornado na resposta representa a pasta que foi movida para o novo local da pasta.
+A FolderId retornada na resposta representa a pasta que foi movida para o novo local da pasta.
   
 ### <a name="response-elements"></a>Elementos de resposta
 
@@ -137,7 +137,7 @@ A resposta MoveFolder inclui os seguintes elementos:
     
 - [FolderId](folderid.md)
     
-## <a name="movefolder-error-response-example"></a>Exemplo de resposta de erro MoveFolder
+## <a name="movefolder-error-response-example"></a>Exemplo de resposta de erro moveFolder
 
 ### <a name="description"></a>Descrição
 

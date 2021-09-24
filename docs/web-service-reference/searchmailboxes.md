@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d8c367a-67e9-43b3-8be0-6362d2152431
 description: O elemento SearchMailboxes indica o início da solicitação SearchMailboxes.
-ms.openlocfilehash: 7ccc94157ef6bde7b6ba86e70c16ef6e90d712fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3c734e49869a17fa58252668ddae606d702f3047
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456798"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521588"
 ---
 # <a name="searchmailboxes"></a>SearchMailboxes
 
-O elemento **SearchMailboxes** indica o início da solicitação **SearchMailboxes** . 
+O **elemento SearchMailboxes** indica o início da solicitação **SearchMailboxes.** 
   
 ```XML
 <SearchMailboxes>
@@ -44,11 +44,11 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[SearchQueries](searchqueries.md)  |  [ResultType](resulttype.md)  |  [PreviewItemResponseShape](previewitemresponseshape.md)  |  [SortBy](sortby.md)  |  [Idioma](language.md)  |  [Eliminação de duplicação](deduplication.md)  |  [PageSize](pagesize.md)  |  [PageItemReference](pageitemreference.md)  |  [PageDirection](pagedirection.md)
+[SearchQueries](searchqueries.md)  |  [ResultType](resulttype.md)  |  [PreviewItemResponseShape](previewitemresponseshape.md)  |  [SortBy](sortby.md)  |  [Idioma](language.md)  |  [Deduplication](deduplication.md)  |  [PageSize](pagesize.md)  |  [PageItemReference](pageitemreference.md)  |  [PageDirection](pagedirection.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

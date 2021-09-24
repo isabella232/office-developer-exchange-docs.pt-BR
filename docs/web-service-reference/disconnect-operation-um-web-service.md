@@ -1,32 +1,32 @@
 ---
-title: Operação de desconexão (serviço Web da UM)
+title: Operação Disconnect (serviço Web de Unificação de mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Disconnect
 api_type:
 - schema
 ms.assetid: a987000b-d6e6-49d7-944c-e9c278d0236f
-description: A operação de desconexão encerra a chamada identificada pelo callid especificado (serviço da Web da UM).
-ms.openlocfilehash: a1268f9ea3d879f472e019bf1847fc13d65d1819
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação Disconnect encerra a chamada identificada pelo CallId (serviço Web de UM) especificado.
+ms.openlocfilehash: 42e069233fbfc255d43983571c0bb28475a1fe90
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529067"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522009"
 ---
-# <a name="disconnect-operation-um-web-service"></a>Operação de desconexão (serviço Web da UM)
+# <a name="disconnect-operation-um-web-service"></a>Operação Disconnect (serviço Web de Unificação de mensagens)
 
-A operação de desconexão encerra a chamada identificada pelo [callid especificado (serviço da Web da um)](callid-um-web-service.md).
+A operação Disconnect encerra a chamada identificada pelo [CallId (serviço Web de UM)](callid-um-web-service.md)especificado.
   
 ## <a name="disconnect-request-example"></a>Exemplo de solicitação de desconexão
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de desconexão mostra como formar uma solicitação para desconectar uma chamada.
+O exemplo a seguir de uma solicitação Disconnect mostra como formar uma solicitação para desconectar uma chamada.
   
 ### <a name="code"></a>Código
 
@@ -45,7 +45,7 @@ O exemplo a seguir de uma solicitação de desconexão mostra como formar uma so
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma resposta de desconexão mostra uma resposta à solicitação de desconexão.
+O exemplo a seguir de uma resposta Disconnect mostra uma resposta à solicitação Disconnect.
   
 ### <a name="code"></a>Código
 
@@ -60,7 +60,7 @@ O exemplo a seguir de uma resposta de desconexão mostra uma resposta à solicit
 
 ## <a name="see-also"></a>Confira também
 
-- [Desconectar (serviço Web da UM)](disconnect-um-web-service.md) 
-- [DisconnectResponse (serviço Web da UM)](disconnectresponse-um-web-service.md) 
-- [Callid (serviço Web da UM)](callid-um-web-service.md)
+- [Disconnect (serviço Web de Unificação de Mensagens)](disconnect-um-web-service.md) 
+- [DisconnectResponse (serviço Web de Unificação de Mensagens)](disconnectresponse-um-web-service.md) 
+- [CallId (serviço Web de Unificação de Mensagens)](callid-um-web-service.md)
 

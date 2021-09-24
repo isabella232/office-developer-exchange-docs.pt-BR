@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc85d67d-7637-433b-b4b6-c44faf247464
-description: O elemento JoinDate (FederatedDirectoryGroupType) é destinado apenas para uso interno.
-ms.openlocfilehash: 1dbce71c6e5ccfb7dcbc6795e37310b283e849f4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento JoinDate (FederatedDirectoryGroupType) destina-se apenas ao uso interno.
+ms.openlocfilehash: e570a3cd160f31b14938c87c2e54ca36a6a4808e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466427"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524977"
 ---
 # <a name="joindate-federateddirectorygrouptype"></a>JoinDate (FederatedDirectoryGroupType)
 
-O elemento **JoinDate (FederatedDirectoryGroupType)** é destinado apenas para uso interno. 
+O **elemento JoinDate (FederatedDirectoryGroupType)** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: efeb5a93-c77f-44f1-b9af-8759acd2c8b5
-description: O elemento PageItemReference especifica a referência para um item de página.
-ms.openlocfilehash: ff53f82f6346e24f7d73373330ce4f5abb5ec475
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PageItemReference especifica a referência de um item de página.
+ms.openlocfilehash: 131b38ca10c4a522ac578d52cd36a716a689b1d9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465643"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524648"
 ---
 # <a name="pageitemreference"></a>PageItemReference
 
-O elemento **PageItemReference** especifica a referência para um item de página. 
+O **elemento PageItemReference** especifica a referência de um item de página. 
   
 ```XML
 <PageItemReference></PageItemReference>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **PageItemReference** é a referência para um item de página. 
+O valor de texto do **elemento PageItemReference** é a referência para um item de página. 
   
 ## <a name="remarks"></a>Comentários
 
