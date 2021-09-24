@@ -1,28 +1,28 @@
 ---
-title: PlayOnPhone (serviço Web da UM)
+title: PlayOnPhone (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhone
 api_type:
 - schema
 ms.assetid: 206a2ad1-a01d-4e71-99a1-90c2530423da
 description: O elemento PlayOnPhone define uma solicitação para reproduzir um item em um telefone.
-ms.openlocfilehash: 9acbf9edbf4a889506558b24f5736a44d5015d3f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 240c8f474c87e0c123a6d8239eb691079385e348
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44434075"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527986"
 ---
-# <a name="playonphone-um-web-service"></a>PlayOnPhone (serviço Web da UM)
+# <a name="playonphone-um-web-service"></a>PlayOnPhone (serviço Web de Unificação de Mensagens)
 
-O elemento **PlayOnPhone** define uma solicitação para reproduzir um item em um telefone. 
+O **elemento PlayOnPhone** define uma solicitação para reproduzir um item em um telefone. 
   
-[PlayOnPhone (serviço Web da UM)](playonphone-um-web-service.md)
+[PlayOnPhone (serviço Web de Unificação de Mensagens)](playonphone-um-web-service.md)
   
 ```xml
 <PlayOnPhone>
@@ -44,8 +44,8 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[EntryID (serviço Web da UM)](entryid-um-web-service.md) <br/> |Contém o valor que representa o identificador do item a ser tocado no telefone em uma solicitação de [operação do PlayOnPhone (serviço Web da um)](playonphone-operation-um-web-service.md) .  <br/> |
-|[dialstring (serviço Web da UM)](dialstring-um-web-service.md) <br/> |Contém o valor do número de telefone a ser discado.  <br/> |
+|[entryId (serviço Web de Unificação de Mensagens)](entryid-um-web-service.md) <br/> |Contém o valor que representa o identificador do item a ser reproduzir no telefone em uma solicitação de operação [do PlayOnPhone (serviço Web](playonphone-operation-um-web-service.md) da UM).  <br/> |
+|[dialString (serviço Web de Unificação de Mensagens)](dialstring-um-web-service.md) <br/> |Contém o valor para o número de telefone discar.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -53,7 +53,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -68,5 +68,5 @@ Nenhum
 
 
 
-[Operação PlayOnPhone (serviço Web da UM)](playonphone-operation-um-web-service.md)
+[Operação PlayOnPhone (serviço Web de Unificação de Mensagens)](playonphone-operation-um-web-service.md)
 

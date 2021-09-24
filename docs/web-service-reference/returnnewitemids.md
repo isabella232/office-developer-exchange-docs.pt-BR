@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aeef79e4-31e1-4213-b627-9bac676be018
 description: O elemento ReturnNewItemIds indica se os identificadores de item de novos itens são retornados na resposta.
-ms.openlocfilehash: 003676c4c034454aa551e42bf3af976183117b8c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 93ff4e37c56c3583e81711ba7e3582706d9ef940
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465111"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512377"
 ---
 # <a name="returnnewitemids"></a>ReturnNewItemIds
 
-O elemento **ReturnNewItemIds** indica se os identificadores de item de novos itens são retornados na resposta. 
+O **elemento ReturnNewItemIds** indica se os identificadores de item de novos itens são retornados na resposta. 
   
 ```XML
 <ReturnNewItemIds/>
 ```
 
- **xs: Boolean**
+ **xs:boolean**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -40,16 +40,16 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CopyItem](copyitem.md) <br/> |Define uma solicitação para copiar um item em uma caixa de correio no repositório do Exchange.  <br/> |
-|[MoveItem](moveitem.md) <br/> |Define uma solicitação para mover um item no repositório do Exchange.  <br/> |
+|[CopyItem](copyitem.md) <br/> |Define uma solicitação para copiar um item em uma caixa de correio no Exchange store.  <br/> |
+|[MoveItem](moveitem.md) <br/> |Define uma solicitação para mover um item no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **ReturnNewItemIds** indica que os novos identificadores de item são retornados na resposta. Um valor **false** indica que os novos identificadores de item não são retornados na resposta. 
+Um valor de texto **true** para **o elemento ReturnNewItemIds** indica que os novos identificadores de item são retornados na resposta. Um valor **false** indica que os novos identificadores de item não são retornados na resposta. 
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 

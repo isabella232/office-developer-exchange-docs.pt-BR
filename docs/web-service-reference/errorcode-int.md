@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65537d96-edf9-41ee-9ad5-91ffe37e2269
-description: O elemento ErrorCode especifica o código de erro de uma pesquisa com falha realizada em relação a uma caixa de correio.
-ms.openlocfilehash: 24170a56e5fa23c3811fcbd27f0240e6ba3c87b7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ErrorCode especifica o código de erro de uma pesquisa com falha realizada em uma caixa de correio.
+ms.openlocfilehash: 25a0b14ecefce76707a8dfa73f99d8b93b445af7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460663"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530834"
 ---
 # <a name="errorcode-int"></a>ErrorCode (int)
 
-O elemento **ErrorCode** especifica o código de erro de uma pesquisa com falha realizada em relação a uma caixa de correio. 
+O **elemento ErrorCode** especifica o código de erro de uma pesquisa com falha realizada em uma caixa de correio. 
   
 ```XML
 <ErrorCode></ErrorCode>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FailedMailbox](failedmailbox.md) <br/> |Especifica o status de retenção da caixa de correio.  <br/> |
+|[FailedMailbox](failedmailbox.md) <br/> |Especifica o status de espera da caixa de correio.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ErrorCode** é o código de erro retornado para uma pesquisa com falha realizada em relação a uma caixa de correio. 
+O valor de texto do **elemento ErrorCode** é o código de erro retornado para uma pesquisa com falha executada em uma caixa de correio. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8dfda53f-658c-4bc9-8950-f7f572c850eb
 description: O elemento FieldValue representa o valor do campo que causou o erro de validação.
-ms.openlocfilehash: fe407fd0aca2850e07bf1c734a64c5bee03d142c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7faa2c56fad32f7b440d1f1b1d31a1710cf354ef
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461209"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530580"
 ---
 # <a name="fieldvalue"></a>FieldValue
 
-O elemento **FieldValue** representa o valor do campo que causou o erro de validação. 
+O **elemento FieldValue** representa o valor do campo que causou o erro de validação. 
   
 ```XML
 <FieldValue/>
@@ -40,7 +40,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Erro](error.md) <br/> |Representa um único erro de validação em um valor de propriedade de regra específico, um valor da propriedade Predicate ou um valor da propriedade Action.  <br/> |
+|[Erro](error.md) <br/> |Representa um único erro de validação em um determinado valor de propriedade de regra, valor da propriedade predicado ou valor da propriedade action.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

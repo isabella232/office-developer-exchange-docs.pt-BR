@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1124eac3-ebf2-4b81-96d3-96838c840433
-description: O elemento PictureData contém o fluxo de dados da imagem.
-ms.openlocfilehash: 1d131e88a4927b0b0d3d873ea73973389b46e615
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PictureData contém o fluxo de dados de imagem.
+ms.openlocfilehash: 623ddf6d1340ef1d37eec73d501414704bcef434
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466252"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528020"
 ---
 # <a name="picturedata"></a>PictureData
 
-O elemento **PictureData** contém o fluxo de dados da imagem. 
+O **elemento PictureData** contém o fluxo de dados de imagem. 
   
 ```XML
 <PictureData></PictureData>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **PictureData** é o fluxo codificado em base64 dos dados da imagem. 
+O valor de texto do **elemento PictureData** é o fluxo codificado base64 de dados de imagem. 
   
 ## <a name="remarks"></a>Comentários
 

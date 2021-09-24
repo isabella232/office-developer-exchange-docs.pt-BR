@@ -1,32 +1,32 @@
 ---
-title: Onhome (POX)
+title: ServiceHome (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: f1b812c3-ae8b-4d89-92e2-41d2fe51e32f
-description: O elemento de serviço de página contém a URL da home page do provedor de serviços de Internet (ISP).
-ms.openlocfilehash: 1e4a40cbc97167dc2cf79ccbfcacff988794c3a0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ServiceHome contém a URL da home page do provedor de serviços da Internet (ISP).
+ms.openlocfilehash: 2f57d715d029950520ff68ae2d75c808706d17f9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44439109"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510894"
 ---
-# <a name="servicehome-pox"></a>Onhome (POX)
+# <a name="servicehome-pox"></a>ServiceHome (POX)
 
-O **elemento de serviço de página** contém a URL da home page do provedor de serviços de Internet (ISP). 
+O **elemento ServiceHome** contém a URL da home page do provedor de serviços da Internet (ISP). 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Conta (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[Imagem (POX)](image-pox.md)
+[Image (POX)](image-pox.md)
   
 ```xml
 <ServiceHome/>
@@ -48,15 +48,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conta (POX)](account-pox.md) <br/> |Especifica as configurações de conta do usuário.  <br/> |
+|[Account (POX)](account-pox.md) <br/> |Especifica as configurações da conta para o usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa a URL da home page do provedor de Internet.
+O valor de texto representa a URL da home page do ISP.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dbd102b8-db70-4196-affe-d7ed66bf3371
-description: O elemento PersonName especifica o nome de um indivíduo localizado por meio de extração de entidade.
-ms.openlocfilehash: 7784cf1abb9098c181450baeb80468faf46c7d99
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PersonName especifica o nome de um indivíduo encontrado por meio da extração de entidade.
+ms.openlocfilehash: a3525559d409c6c06f85637fa622350156f10e06
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44434082"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528466"
 ---
 # <a name="personname"></a>PersonName
 
-O elemento **PersonName** especifica o nome de um indivíduo localizado por meio de extração de entidade. 
+O **elemento PersonName** especifica o nome de um indivíduo encontrado por meio da extração de entidade. 
   
 ```XML
 <PersonName></PersonName>
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Contato (ContactType)](contact-contacttype.md)
+[Contact (ContactType)](contact-contacttype.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **PersonName** é o nome de uma pessoa encontrada como resultado da extração de entidade. 
+O valor de texto do **elemento PersonName** é o nome de uma pessoa encontrada como resultado da extração da entidade. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

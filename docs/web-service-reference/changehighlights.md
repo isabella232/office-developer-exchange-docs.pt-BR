@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9bd7323-44db-4d2f-aaaa-94c2dfdeead6
-description: O elemento ChangeHighlights especifica o que foi alterado entre duas versões de uma mensagem de solicitação de reunião.
-ms.openlocfilehash: 6c78d2c96449ee41032859f90bf51d6e0faa92ae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ChangeHighlights especifica o que mudou entre duas versões de uma mensagem de solicitação de reunião.
+ms.openlocfilehash: 95f665f30c62d723cd97eaa2bd3eb3b2ed479967
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463276"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512209"
 ---
 # <a name="changehighlights"></a>ChangeHighlights
 
-O elemento **ChangeHighlights** especifica o que foi alterado entre duas versões de uma mensagem de solicitação de reunião. 
+O **elemento ChangeHighlights** especifica o que mudou entre duas versões de uma mensagem de solicitação de reunião. 
   
 ```XML
 <ChangeHighlights>
@@ -43,18 +43,18 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[HasLocationChanged](haslocationchanged.md) <br/> |Especifica se a propriedade Location de uma reunião foi alterada.  <br/> |
-|[Localização](location.md) <br/> |Representa o local de uma reunião ou compromisso.  <br/> |
+|[HasLocationChanged](haslocationchanged.md) <br/> |Especifica se a propriedade de local de uma reunião foi alterada.  <br/> |
+|[Location](location.md) <br/> |Representa o local de uma reunião ou compromisso.  <br/> |
 |[HasStartTimeChanged](hasstarttimechanged.md) <br/> |Especifica se a hora de início de uma reunião foi alterada.  <br/> |
 |[Start](start.md) <br/> |Representa o início de uma duração.  <br/> |
 |[HasEndTimeChanged](hasendtimechanged.md) <br/> |Especifica se a hora de término de uma reunião foi alterada.  <br/> |
-|[Ponto](end-ex15websvcsotherref.md) <br/> |Representa o final de uma duração.  <br/> |
+|[End ](end-ex15websvcsotherref.md) <br/> |Representa o fim de uma duração.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -67,8 +67,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

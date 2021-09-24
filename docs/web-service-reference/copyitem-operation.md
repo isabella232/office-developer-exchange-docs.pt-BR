@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CopyItem
 api_type:
 - schema
 ms.assetid: bcc68f9e-d511-4c29-bba6-ed535524624a
 description: A operação CopyItem copia itens e coloca os itens em uma pasta diferente.
-ms.openlocfilehash: ec07700a5ebbdc8774aa2134919634b8dfd02406
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 62785d9acb784bcffe7d3279de8a80abc803adf4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462175"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518642"
 ---
 # <a name="copyitem-operation"></a>Operação CopyItem
 
-A operação **CopyItem** copia itens e coloca os itens em uma pasta diferente. 
+A **operação CopyItem** copia itens e coloca os itens em uma pasta diferente. 
   
 ## <a name="copyitem-request-example"></a>Exemplo de solicitação CopyItem
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **CopyItem** mostra como formar uma solicitação para copiar um item para a caixa de entrada. 
+O exemplo a seguir de **uma solicitação CopyItem** mostra como formar uma solicitação para copiar um item para a Caixa de Entrada. 
   
 ### <a name="code"></a>Código
 
@@ -51,9 +51,9 @@ O exemplo a seguir de uma solicitação **CopyItem** mostra como formar uma soli
 ### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> A ID da pasta e a chave de alteração foram reduzidas para preservar a legibilidade. 
+> A ID da pasta e a chave de alteração foram reduzidas para preservar a capacidade de leitura. 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -68,17 +68,17 @@ Os seguintes elementos são usados na solicitação:
 - [ItemId](itemid.md)
     
 > [!NOTE]
-> O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada. 
+> O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2010 que tem a função de servidor de Acesso para Cliente instalada. 
   
-Para encontrar outras opções para a mensagem de solicitação da operação **CopyItem** , explore a hierarquia de esquema. Inicie no elemento [CopyItem](copyitem.md) . 
+Para encontrar outras opções para a mensagem de solicitação da **operação CopyItem,** explore a hierarquia de esquema. Comece no [elemento CopyItem.](copyitem.md) 
   
 ## <a name="successful-copyitem-response"></a>Resposta CopyItem bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **CopyItem** . 
+O exemplo a seguir mostra uma resposta bem-sucedida à **solicitação CopyItem.** 
   
-O identificador de item do novo item é retornado na mensagem de resposta. Os identificadores de item não são retornados em respostas para as operações de **CopyItem** de caixa de correio ou de caixa de correio de pasta pública. 
+O identificador de item do novo item é retornado na mensagem de resposta. Os identificadores de item não são retornados em respostas para caixas de correio cruzada ou caixa de correio para operações **copyItem de** pasta pública. 
   
 ### <a name="code"></a>Código
 
@@ -126,13 +126,13 @@ Os seguintes elementos são usados na resposta:
     
 - [Itens](items.md)
     
-Para encontrar outras opções para a mensagem de resposta da operação **CopyItem** , explore a hierarquia do esquema. Inicie no elemento [CopyItemResponse](copyitemresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta da operação **CopyItem,** explore a hierarquia de esquema. Comece no [elemento CopyItemResponse.](copyitemresponse.md) 
   
 ## <a name="copyitem-error-response"></a>Resposta de erro CopyItem
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação **CopyItem** . 
+O exemplo a seguir mostra uma resposta de erro a **uma solicitação CopyItem.** 
   
 ### <a name="code"></a>Código
 
@@ -182,7 +182,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [Itens](items.md)
     
-Para encontrar outras opções para a mensagem de resposta de erro da operação **CopyItem** , explore a hierarquia de esquema. Inicie no elemento [CopyItemResponse](copyitemresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta de erro da operação **CopyItem,** explore a hierarquia de esquema. Comece no [elemento CopyItemResponse.](copyitemresponse.md) 
   
 ## <a name="see-also"></a>Confira também
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsResend
 api_type:
 - schema
 ms.assetid: 8f758b6b-dcee-4f95-9d39-e4be2bd92961
 description: O elemento IsResend indica se o item foi enviado anteriormente.
-ms.openlocfilehash: ec0981ceb733389bf2755646c2a85b357a84d348
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 543d0555839e4eb940a7aafb7c464e2b992b533c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467848"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511569"
 ---
 # <a name="isresend"></a>IsResend
 
-O elemento **IsResend** indica se o item foi enviado anteriormente. 
+O **elemento IsResend** indica se o item foi enviado anteriormente. 
   
 ```xml
 <IsResend/>
@@ -44,21 +44,21 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição.  <br/> |
-|[Item](item.md) <br/> |Representa um item no repositório do Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no repositório do Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
-|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
-|[RemoveItem](removeitem.md) <br/> |Remove um item do repositório do Exchange.  <br/> |
-|[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
+|[Item](item.md) <br/> |Representa um item no Exchange store.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no Exchange store.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no Exchange store.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no Exchange store.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma Exchange de email.  <br/> |
+|[RemoveItem](removeitem.md) <br/> |Remove um item do Exchange store.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor **true** indica que o item foi enviado anteriormente. 
+Um valor de texto **true** indica que o item foi enviado anteriormente. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -70,7 +70,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

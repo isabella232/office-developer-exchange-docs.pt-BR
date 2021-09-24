@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c66c28a5-1b2c-4913-b0c5-e3d9849aa4af
-description: O elemento PhoneticFirstName contém o primeiro nome de um contato, escrito foneticamente.
-ms.openlocfilehash: a72ae885473e670ab197134fcd44e5d82ce6e450
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PhoneticFirstName contém o primeiro nome de um contato, escrito phoneticalmente.
+ms.openlocfilehash: ec4623c6d44128366c9ef1b1c4bdfea53df7e060
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529942"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528197"
 ---
 # <a name="phoneticfirstname"></a>PhoneticFirstName
 
-O elemento **PhoneticFirstName** contém o primeiro nome de um contato, escrito foneticamente. 
+O **elemento PhoneticFirstName** contém o primeiro nome de um contato, escrito phoneticalmente. 
   
 ```XML
 <PhoneticFirstName/>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Nome do elemento**|**Descrição**|
 |:-----|:-----|
-|[Contato](contact.md) <br/> |Representa um item de contato no repositório do Exchange.  <br/> |
+|[Contato](contact.md) <br/> |Representa um item de contato no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto é uma cadeia de caracteres que representa o primeiro nome de um contato, escrito foneticamente.
+O valor de texto é uma cadeia de caracteres que representa o primeiro nome de um contato, escrito phoneticalmente.
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ Este elemento foi introduzido no Exchange Server 2010 Service Pack 2 (SP2).
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -68,5 +68,5 @@ Este elemento foi introduzido no Exchange Server 2010 Service Pack 2 (SP2).
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Criando contatos (serviços Web do Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Criando contatos (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

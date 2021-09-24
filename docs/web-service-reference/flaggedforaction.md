@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FlaggedForAction
 api_type:
 - schema
 ms.assetid: 6a08c48a-7b32-4754-8940-adbda55e8133
-description: O elemento FlaggedForAction especifica o sinalizador para o valor da ação que deve aparecer nas mensagens de entrada para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: f996dc4bcf30db32e1d73fb302ab137f0a6ad4d4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento FlaggedForAction especifica o sinalizador do valor de ação que deve aparecer nas mensagens de entrada para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: 978d10286785f341437e3213ddbd3c296c4621fc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466238"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518376"
 ---
 # <a name="flaggedforaction"></a>FlaggedForAction
 
-O elemento **FlaggedForAction** especifica o sinalizador para o valor da ação que deve aparecer nas mensagens de entrada para que a condição ou exceção seja aplicada. 
+O **elemento FlaggedForAction** especifica o sinalizador do valor de ação que deve aparecer nas mensagens de entrada para que a condição ou exceção seja aplicada. 
   
 ```XML
 <FlaggedForAction/>
@@ -44,22 +44,22 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa as exceções que representam todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa as exceções que representam todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. Estes são os valores de texto possíveis para este elemento:
+Um valor de texto é necessário. Veja a seguir os valores de texto possíveis para este elemento:
   
-- Qualquer tamanho
+- Qualquer
     
 - Chamada
     
 - DoNotForward
     
-- Acompanhamento
+- FollowUp
     
-- CONHECIMENTO
+- FYI
     
 - Encaminhar
     
@@ -71,7 +71,7 @@ Um valor de texto é obrigatório. Estes são os valores de texto possíveis par
     
 - ReplyToAll
     
-- Revisão
+- Analisar
     
 ## <a name="remarks"></a>Comentários
 

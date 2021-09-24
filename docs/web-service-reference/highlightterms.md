@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ce4a2978-fd0c-41a4-ae65-aa6f5dc9a0f9
 description: O elemento HighlightTerms identifica os termos realçados retornados em uma operação FindItem e uma resposta de operação FindConversation.
-ms.openlocfilehash: c55ffc010dc0cfb09403433aaf8a0809a26f71a3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 058c283ab4114f14b5bbffe20c6e953bd877f1e0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457631"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511541"
 ---
 # <a name="highlightterms"></a>HighlightTerms
 
-O elemento **HighlightTerms** identifica os termos realçados retornados em uma operação **FindItem** e uma resposta de operação **FindConversation** . 
+O **elemento HighlightTerms** identifica os termos realçados retornados em uma operação **FindItem** e uma resposta de operação **FindConversation.** 
   
 ```XML
 <HighlightTerms>

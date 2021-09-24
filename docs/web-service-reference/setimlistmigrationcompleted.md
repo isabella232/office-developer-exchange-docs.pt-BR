@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b806441-0429-44c4-90b7-1ae5c6ab9128
-description: O elemento SetImListMigrationCompleted representa uma solicitação para indicar se o repositório do Exchange contém os itens de mensagens instantâneas usados por clientes de mensagens instantâneas.
-ms.openlocfilehash: e5b16044ee72a9e931a2707d3f7823931f8a642a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SetImListMigrationCompleted representa uma solicitação para indicar se o armazenamento Exchange contém os itens de mensagens instantâneas usados por clientes de mensagens instantâneas.
+ms.openlocfilehash: 80ba542fac320a81fbcd044300bfed94f52c34f5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464823"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510880"
 ---
 # <a name="setimlistmigrationcompleted"></a>SetImListMigrationCompleted
 
-O elemento **SetImListMigrationCompleted** representa uma solicitação para indicar se o repositório do Exchange contém os itens de mensagens instantâneas usados por clientes de mensagens instantâneas. 
+O **elemento SetImListMigrationCompleted** representa uma solicitação para indicar se o armazenamento Exchange contém os itens de mensagens instantâneas usados por clientes de mensagens instantâneas. 
   
 ```XML
 <SetImListMigrationCompleted>
@@ -40,7 +40,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

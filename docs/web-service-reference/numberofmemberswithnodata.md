@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NumberOfMembersWithNoData
 api_type:
 - schema
 ms.assetid: 7ca9c57c-9519-442c-a9f4-dca2b0309716
-description: O elemento NumberOfMembersWithNoData representa o número de membros da lista de distribuição que não publicaram dados de disponibilidade para comparar com um horário de reunião sugerido. Este elemento representa os membros de uma lista de distribuição muito grande ou membros que não têm status de dados.
-ms.openlocfilehash: df41adc14f4c35c0e24d0f3c54f74a63527859d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento NumberOfMembersWithNoData representa o número de membros da lista de distribuição que não publicaram dados de ocupado/livre para comparar com um horário de reunião sugerido. Esse elemento representa membros de uma lista de distribuição muito grande ou membros que não têm status de Dados.
+ms.openlocfilehash: 4b021ce75a84eca3e1b5a66cf51f6b5d7adec86b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462546"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529682"
 ---
 # <a name="numberofmemberswithnodata"></a>NumberOfMembersWithNoData
 
-O elemento **NumberOfMembersWithNoData** representa o número de membros da lista de distribuição que não publicaram dados de disponibilidade para comparar com um horário de reunião sugerido. Este elemento representa os membros de uma lista de distribuição muito grande ou membros que não têm status de **dados** . 
+O **elemento NumberOfMembersWithNoData** representa o número de membros da lista de distribuição que não publicaram dados de ocupado/livre para comparar com um horário de reunião sugerido. Esse elemento representa membros de uma lista de distribuição muito grande ou membros que não **têm status de** Dados. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ O elemento **NumberOfMembersWithNoData** representa o número de membros da list
   
 [SuggestionArray](suggestionarray.md)
   
-[La](suggestion.md)
+[Sugestão](suggestion.md)
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
@@ -62,15 +62,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contém informações de conflito agregadas sobre o número de usuários que estão disponíveis, o número de usuários que têm conflitos e o número de usuários que não têm informações de disponibilidade em uma lista de distribuição para um tempo de reunião sugerido.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contém informações de conflito agregadas sobre o número de usuários disponíveis, o número de usuários que têm conflitos e o número de usuários que não têm informações de disponibilidade em uma lista de distribuição para um horário de reunião sugerido.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um contato em um grupo que não tem uma caixa de correio é um exemplo de um membro da lista de distribuição que não tem dados de calendário. Um contato também pode não ter status de **dados** pelos seguintes motivos: 
+Um contato em um grupo que não tem uma caixa de correio é um exemplo de um membro da lista de distribuição que não tem dados de calendário. Um contato também pode ter **status Sem Dados** pelos seguintes motivos: 
   
 - As permissões são insuficientes.
     
-- A lista de distribuição é muito grande para ser expandida.
+- A lista de distribuição é muito grande para expandir.
     
 - O serviço de diretório do Active Directory não está disponível.
     
@@ -82,7 +82,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -94,5 +94,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

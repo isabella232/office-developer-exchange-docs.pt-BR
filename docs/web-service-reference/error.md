@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Error
 api_type:
 - schema
 ms.assetid: b1f54673-578a-496b-99f5-0fde2c669278
-description: O elemento error representa um único erro de validação em um valor de propriedade de regra específico, valor da propriedade Predicate ou valor da propriedade Action.
-ms.openlocfilehash: 9c28f63aa79446d89152868c81c85ffa7b3a8b39
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Error representa um único erro de validação em um determinado valor de propriedade de regra, valor da propriedade predicado ou valor da propriedade action.
+ms.openlocfilehash: aeeda25ccc3e657e99bd6f2fea12322fdd3e720d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460677"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530858"
 ---
 # <a name="error"></a>Erro
 
-O elemento **Error** representa um único erro de validação em um valor de propriedade de regra específico, valor da propriedade Predicate ou valor da propriedade Action. 
+O **elemento Error** representa um único erro de validação em um determinado valor de propriedade de regra, valor da propriedade predicado ou valor da propriedade action. 
   
 ```XML
 <Error>
@@ -45,8 +45,8 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FieldUri (regra)](fielduri-rule.md) <br/> |Especifica o URI para o campo de regra que causou o erro de validação.  <br/> |
-|[ErrorCode](errorcode.md) <br/> |Representa um código de erro de validação de regra que descreve o que a validação falhou para cada predicado de regra ou ação.  <br/> |
+|[FieldUri (Rule)](fielduri-rule.md) <br/> |Especifica o URI para o campo de regra que causou o erro de validação.  <br/> |
+|[ErrorCode](errorcode.md) <br/> |Representa um código de erro de validação de regra que descreve o que falhou na validação para cada predicado de regra ou ação.  <br/> |
 |[ErrorMessage](errormessage.md) <br/> |Representa o motivo do erro de validação.  <br/> |
 |[FieldValue](fieldvalue.md) <br/> |Representa o valor do campo que causou o erro de validação.  <br/> |
    
@@ -54,7 +54,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ValidationErrors](validationerrors.md) <br/> |Representa uma matriz de erros de validação de regra em cada campo de regra que possui um erro.  <br/> |
+|[ValidationErrors](validationerrors.md) <br/> |Representa uma matriz de erros de validação de regra em cada campo de regra que tem um erro.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

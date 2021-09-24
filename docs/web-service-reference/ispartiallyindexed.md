@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 542e7b90-eafe-4711-a9d7-71bbc30d9646
 description: O elemento IsPartiallyIndexed indica se o item está parcialmente indexado.
-ms.openlocfilehash: 4bf0c3e5dd7b75a90ac087958fbceda334306af1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3917f14bbdae13f4485edcbbcd595989c3cd907f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466483"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540983"
 ---
 # <a name="ispartiallyindexed"></a>IsPartiallyIndexed
 
-O elemento **IsPartiallyIndexed** indica se o item está parcialmente indexado. 
+O **elemento IsPartiallyIndexed** indica se o item está parcialmente indexado. 
   
 ```XML
 <IsPartiallyIndexed>true | false</IsPartiallyIndexed>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **IsPartiallyIndexed** indica que o item de caixa de correio está parcialmente indexado. Um valor **false** indica que o item da caixa de correio não está parcialmente indexado. 
+Um valor de texto **true** para o **elemento IsPartiallyIndexed** indica que o item de caixa de correio está parcialmente indexado. Um valor **false** indica que o item da caixa de correio não está parcialmente indexado. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

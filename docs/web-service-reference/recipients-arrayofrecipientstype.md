@@ -1,27 +1,27 @@
 ---
-title: Destinatários (ArrayOfRecipientsType)
+title: Recipients (ArrayOfRecipientsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Recipients
 api_type:
 - schema
 ms.assetid: f4b71403-cbae-4176-8b2e-3597048c057b
 description: O elemento Recipients representa uma coleção de destinatários que recebem uma cópia da mensagem.
-ms.openlocfilehash: 0e18152a8143b888ad27f48137c06613694f5713
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 232dbb88f54cb551f4f8017ff9d18049a4984783
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463871"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529539"
 ---
-# <a name="recipients-arrayofrecipientstype"></a>Destinatários (ArrayOfRecipientsType)
+# <a name="recipients-arrayofrecipientstype"></a>Recipients (ArrayOfRecipientsType)
 
-O elemento **Recipients** representa uma coleção de destinatários que recebem uma cópia da mensagem. 
+O **elemento Recipients** representa uma coleção de destinatários que recebem uma cópia da mensagem. 
   
 ```XML
 <Recipients>
@@ -42,13 +42,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Caixa de Correio](mailbox.md) <br/> |Identifica um objeto do Active Directory habilitado para email.  <br/> |
+|[Caixa de Correio](mailbox.md) <br/> |Identifica um objeto Active Directory habilitado para email.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetMailTips](getmailtips.md) <br/> |Contém os destinatários e os tipos de dicas de email a serem recuperadas.  <br/> |
+|[GetMailTips](getmailtips.md) <br/> |Contém os destinatários e os tipos de dicas de email a recuperar.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

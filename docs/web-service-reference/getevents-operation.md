@@ -5,36 +5,36 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetEvents
 api_type:
 - schema
 ms.assetid: f268efe5-9a1a-41a2-b6a6-51fcde7720a1
-description: A operação GetEvents é usada por clientes de assinatura pull para solicitar notificações do servidor de acesso para cliente. A resposta da operação GetEvents retorna uma matriz de itens e eventos que ocorreram em uma caixa de correio desde a última notificação.
-ms.openlocfilehash: 9258fd003c242911866aa7abbca5eba2b9582223
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetEvents é usada por clientes de assinatura pull para solicitar notificações do servidor de Acesso para Cliente. A resposta da operação GetEvents retorna uma matriz de itens e eventos que ocorreram em uma caixa de correio desde a última notificação.
+ms.openlocfilehash: 72d99a654921794115d56d28327a39a21c9ea378
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462511"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511597"
 ---
 # <a name="getevents-operation"></a>Operação GetEvents
 
-A operação **GetEvents** é usada por clientes de assinatura pull para solicitar notificações do servidor de acesso para cliente. A resposta da operação **GetEvents** retorna uma matriz de itens e eventos que ocorreram em uma caixa de correio desde a última notificação. 
+A **operação GetEvents** é usada por clientes de assinatura pull para solicitar notificações do servidor de Acesso para Cliente. A **resposta da operação GetEvents** retorna uma matriz de itens e eventos que ocorreram em uma caixa de correio desde a última notificação. 
   
 > [!IMPORTANT]
-> A operação **DeleteUserConfiguration** acionará um evento move para o sistema de notificação de eventos. O objeto de configuração do usuário será movido para o dumpster. 
+> A **operação DeleteUserConfiguration** disparará um evento de movimentação para o sistema de notificação de eventos. O objeto de configuração do usuário será movido para a lixeira. 
   
-## <a name="remarks"></a>Comentários
+## <a name="notes"></a>Observações
 
-Alterações nos itens de calendário podem resultar na geração de vários eventos. Esses eventos são o resultado de itens temporários sendo criados na caixa de correio, os itens de armazenamento de dados de disponibilidade estão sendo alterados como parte das operações normais do calendário ou ambos. Eventos de classe de item "IPM. SchedulePlus. FreeBusy. BinaryData "deve ser ignorado por clientes de serviço Web. Esses itens temporários são excluídos após serem criados; Portanto, se for feita uma tentativa de recuperar esses itens, um erro será retornado afirmando que o item não foi encontrado.
+Alterações nos itens calendário podem resultar na geração de vários eventos. Esses eventos são o resultado de itens temporários que estão sendo criados na caixa de correio, itens de armazenamento de dados de livre/ocupado sendo alterados como parte das operações normais do Calendário ou ambos. Eventos da classe de item "IPM. SchedulePlus.FreeBusy.BinaryData" deve ser ignorado pelos clientes de serviço Web. Esses itens temporários são excluídos após a criação; portanto, se uma tentativa for feita para recuperar esses itens, um erro será retornado informando que o item não foi encontrado.
   
 ## <a name="getevents-request-example"></a>Exemplo de solicitação GetEvents
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra como solicitar os eventos e os itens que estão associados a uma assinatura identificada pelo identificador de assinatura e marca d' água.
+O exemplo a seguir mostra como solicitar os eventos e itens associados a uma assinatura identificada pelo identificador de assinatura e marca d'água.
   
 ### <a name="code"></a>Código
 
@@ -59,9 +59,9 @@ Os seguintes elementos são usados na solicitação:
     
 - [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
     
-- [Marca d'água](watermark.md)
+- [Watermark](watermark.md)
     
-## <a name="successful-getevents-response-example"></a>Exemplo de resposta de GetEvents bem-sucedida
+## <a name="successful-getevents-response-example"></a>Exemplo de resposta GetEvents bem-sucedida
 
 ### <a name="description"></a>Descrição
 
@@ -112,9 +112,9 @@ O exemplo a seguir de uma resposta mostra uma notificação da existência de du
 ### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> Os identificadores de item e de pasta foram reduzidos para preservar a legibilidade. 
+> Os identificadores de item e pasta foram reduzidos para preservar a capacidade de leitura. 
   
-### <a name="getevents-response-elements"></a>Elementos de resposta de GetEvents
+### <a name="getevents-response-elements"></a>Elementos de resposta GetEvents
 
 Os seguintes elementos são usados na resposta:
   
@@ -138,21 +138,21 @@ Os seguintes elementos são usados na resposta:
     
 - [NewMailEvent](newmailevent.md)
     
-- [Marca d'água](watermark.md)
+- [Watermark](watermark.md)
     
-- [Registra](timestamp.md)
+- [TimeStamp](timestamp.md)
     
 - [ItemId](itemid.md)
     
 - [ParentFolderId](parentfolderid.md)
     
-Para encontrar outras opções para a mensagem de resposta da operação **GetEvents** , explore a hierarquia de esquema. Inicie no elemento [Notification](notification-ex15websvcsotherref.md) . 
+Para encontrar outras opções para a mensagem de resposta da **operação GetEvents,** explore a hierarquia de esquema. Comece no [elemento Notification.](notification-ex15websvcsotherref.md) 
   
 ## <a name="getevents-error-response-example"></a>Exemplo de resposta de erro GetEvents
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação **GetEvents** . 
+O exemplo a seguir mostra uma resposta de erro a uma **solicitação GetEvents.** 
   
 ### <a name="code"></a>Código
 
@@ -183,21 +183,21 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação **GetEvents**
 
 ## <a name="remarks"></a>Comentários
 
-Durante o processamento de uma solicitação **GetEvents** , o servidor de acesso para cliente realiza as seguintes etapas: 
+Ao processar uma **solicitação GetEvents,** o servidor de Acesso para Cliente executa as seguintes etapas: 
   
-1. A SubscriptionId da solicitação é confirmada como uma assinatura válida hospedada no servidor de acesso para cliente. Se não for, a chamada **GetEvents** falhará. 
+1. O SubscriptionID da solicitação é confirmado como uma assinatura válida hospedada no servidor de Acesso para Cliente. Se não estiver, a **chamada GetEvents** falhará. 
     
-2. O endereço SMTP do usuário autenticado para a solicitação é comparado com o endereço SMTP do usuário que criou a assinatura. Se eles não corresponderem, a solicitação **GetEvents** falhará. 
+2. O endereço SMTP do usuário autenticado para a solicitação é comparado ao endereço SMTP do usuário que criou a assinatura. Se eles não corresponderem, a **solicitação GetEvents** falhará. 
     
-3. A fila de assinatura é consultada para eventos que estão aguardando para serem enviados para o cliente. Se a fila não estiver vazia, os primeiros eventos 50 da fila são retirados da fila e codificados em uma notificação.
+3. A fila de assinaturas é consultada para eventos que estão aguardando serem enviados para o cliente. Se a fila não estiver vazia, os primeiros 50 eventos da fila serão retirados da fila e codificados em uma notificação.
     
-4. Se nenhum evento for encontrado na fila, um StatusEvent é gerado e codificado em uma resposta de notificação.
+4. Se nenhum evento for encontrado na fila, um StatusEvent será gerado e codificado em uma resposta de notificação.
     
 5. A resposta de notificação é retornada ao cliente.
     
-6. Os eventos incluídos na notificação são removidos da fila de assinatura e o servidor de acesso para cliente última marca d' água local da assinatura é definida como a marca d' água do último evento retornado.
+6. Os eventos incluídos na notificação são removidos da fila de assinatura e a última marca d'água local do servidor de Acesso para Cliente para a assinatura é definida como a marca d'água do último evento retornado.
     
-7. O temporizador de tempo limite da assinatura é redefinido.
+7. O temporizador de tempo de tempo para a assinatura é redefinido.
     
 ## <a name="see-also"></a>Confira também
 
@@ -205,8 +205,8 @@ Durante o processamento de uma solicitação **GetEvents** , o servidor de acess
 
 [Operação Subscribe](subscribe-operation.md)
   
-[Cancelar a operação](unsubscribe-operation.md)
+[Operação de cancelamento de assinatura](unsubscribe-operation.md)
 
 
-[Usando assinaturas pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+[Usando Assinaturas Pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

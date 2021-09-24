@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c000b36-13b6-4ce2-a686-6e0bc207553d
-description: O elemento longitude especifica a longitude do local do endereço postal associado.
-ms.openlocfilehash: a226d907ddf124c8e38d3d56da81cadde1abd70e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Longitude especifica a longitude do local do endereço postal associado.
+ms.openlocfilehash: a3d22a7c4f835070e25f89c00be92248955d8f16
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530751"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519363"
 ---
 # <a name="longitude"></a>Longitude
 
-O elemento **longitude** especifica a longitude do local do endereço postal associado. 
+O **elemento Longitude** especifica a longitude do local do endereço postal associado. 
   
 ```XML
 <Longitude></Longitude>
 ```
 
- **dois**
+ **double**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Valor (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
+[Valor (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **longitude** é as coordenadas longitudinal do endereço postal. 
+O valor de texto do **elemento Longitude** é as coordenadas longitudinais do endereço postal. 
   
 ## <a name="remarks"></a>Comentários
 

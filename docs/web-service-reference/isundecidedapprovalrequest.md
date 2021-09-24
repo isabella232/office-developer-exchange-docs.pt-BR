@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90841617-3b83-4124-8125-0293c9470f4a
-description: O elemento IsUndecidedApprovalRequest especifica se uma mensagem de solicitação de aprovação foi acionada.
-ms.openlocfilehash: 0949cf64b8583c4b3fa5a1700475f01cc480f69f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento IsUndecidedApprovalRequest especifica se uma mensagem de solicitação de aprovação foi agida.
+ms.openlocfilehash: 5204793490015bd2999322c0f029445c7df91e02
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458170"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511410"
 ---
 # <a name="isundecidedapprovalrequest"></a>IsUndecidedApprovalRequest
 
-O elemento **IsUndecidedApprovalRequest** especifica se uma mensagem de solicitação de aprovação foi acionada. 
+O **elemento IsUndecidedApprovalRequest** especifica se uma mensagem de solicitação de aprovação foi agida. 
   
 ```XML
 <IsUndecidedApprovalRequest> true | false </IsUndecidedApprovalRequest>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **IsUndecidedApprovalRequest** será **true** se uma mensagem de solicitação de aprovação não tiver sido acionada. Um valor **false** indica que a solicitação de aprovação foi decidida. 
+O valor de texto do **elemento IsUndecidedApprovalRequest** será **verdadeiro** se uma mensagem de solicitação de aprovação não tiver sido agida. Um valor **false** indica que a solicitação de aprovação foi decidido. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também

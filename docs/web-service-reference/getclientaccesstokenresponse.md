@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2ecbe1e0-00c3-4a72-9066-08c4cb76913f
 description: O elemento GetClientAccessTokenResponse contém a resposta a uma solicitação de operação GetClientAccessToken.
-ms.openlocfilehash: d4578fa985a1af3db80e6bab13cf3587839dc8b7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e1f99a87f36e82512c6d6f77e914745d6056d017
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526351"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511570"
 ---
 # <a name="getclientaccesstokenresponse"></a>GetClientAccessTokenResponse
 
-O elemento **GetClientAccessTokenResponse** contém a resposta a uma solicitação de operação **GetClientAccessToken** . 
+O **elemento GetClientAccessTokenResponse** contém a resposta a uma solicitação de operação **GetClientAccessToken.** 
   
 ```XML
 <GetClientAccessTokenResponse>
@@ -40,7 +40,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

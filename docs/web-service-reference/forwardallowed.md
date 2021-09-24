@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc32e0f4-61e9-4c9f-9a03-90a07eb51c53
 description: O elemento ForwardAllowed especifica se o encaminhamento de emails está habilitado.
-ms.openlocfilehash: 3c722809bf68239c7d776108cb60d98afbed6e93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8c9b2319ed6b3665e5d59d9f07b93fb78043042c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461930"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528658"
 ---
 # <a name="forwardallowed"></a>ForwardAllowed
 
-O elemento **ForwardAllowed** especifica se o encaminhamento de emails está habilitado. 
+O **elemento ForwardAllowed** especifica se o encaminhamento de emails está habilitado. 
   
 ```XML
 <ForwardAllowed>true | false</ForwardAllowed>
@@ -44,7 +44,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **ForwardAllowed** indica que o encaminhamento de emails é permitido. Um valor **false** indica que o encaminhamento não é permitido. 
+Um valor de texto **true para** o **elemento ForwardAllowed** indica que o encaminhamento de emails é permitido. Um valor **false** indica que o encaminhamento não é permitido. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

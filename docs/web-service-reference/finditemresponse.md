@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FindItemResponse
 api_type:
 - schema
 ms.assetid: c8b316df-d4ab-49b8-96d4-8e9a016730ef
 description: O elemento FindItemResponse define uma resposta a uma solicitação FindItem.
-ms.openlocfilehash: 989adc40a69137dd53289fa48cc65a90259a2e38
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e2d773e15302efa7e39b6102416c5071327568f5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460607"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541298"
 ---
 # <a name="finditemresponse"></a>FindItemResponse
 
-O elemento **FindItemResponse** define uma resposta a uma solicitação FindItem. 
+O **elemento FindItemResponse** define uma resposta a uma solicitação FindItem. 
   
 [FindItemResponse](finditemresponse.md)
   
@@ -44,11 +44,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

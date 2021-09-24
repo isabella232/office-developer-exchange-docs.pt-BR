@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FileAs
 api_type:
 - schema
 ms.assetid: df50524e-471c-49d2-89fe-b2d0f61a1365
-description: O elemento FileAs representa como um contato ou uma lista de distribuição é arquivado na pasta contatos.
-ms.openlocfilehash: be756d86d7608fcb758dd54f2ada9f03a04343e2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento FileAs representa como uma lista de contatos ou distribuição é arquivada na pasta Contatos.
+ms.openlocfilehash: 1ebed8365396feb42f4bfceac646ae7692dd6579
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461195"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530573"
 ---
 # <a name="fileas"></a>FileAs
 
-O elemento **FileAs** representa como um contato ou uma lista de distribuição é arquivado na pasta contatos. 
+O **elemento FileAs** representa como uma lista de contatos ou distribuição é arquivada na pasta Contatos. 
   
 ```xml
 <FileAs/>
@@ -45,7 +45,7 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição.  <br/> |
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -53,7 +53,7 @@ Um valor de texto que representa uma cadeia de caracteres será necessário se e
   
 ## <a name="remarks"></a>Comentários
 
-O elemento **FileAs** é usado para classificar contatos e listas de distribuição por um nome diferente de um nome completo ou nome da empresa. 
+O **elemento FileAs** é usado para classificar contatos e listas de distribuição por um nome diferente de um nome completo ou nome da empresa. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
@@ -63,7 +63,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

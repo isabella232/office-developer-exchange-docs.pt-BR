@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessages
 api_type:
 - schema
 ms.assetid: 00878187-fac2-45b9-ba1c-df7ffac71089
 description: O elemento ResponseMessages representa uma lista de mensagens de resposta de dicas de email.
-ms.openlocfilehash: 2db58029ead9332b832006bc81d751d77df54b07
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fda62e93c8cc0c6eee6f97e360695eb9a690ba3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465447"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518971"
 ---
 # <a name="responsemessages-arrayofmailtipsresponsemessagetype"></a>ResponseMessages (ArrayOfMailTipsResponseMessageType)
 
-O elemento **ResponseMessages** representa uma lista de mensagens de resposta de dicas de email. 
+O **elemento ResponseMessages** representa uma lista de mensagens de resposta de dicas de email. 
   
 ```XML
 <ResponseMessages>
@@ -42,13 +42,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |Representa configurações de dicas de email.  <br/> |
+|[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |Representa as configurações de dicas de email.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |Representa a mensagem de resposta para a [operação getdicas](getmailtips-operation.md)de email.  <br/> |
+|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |Representa a mensagem de resposta para a [operação GetMailTips](getmailtips-operation.md).  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -71,7 +71,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 
 
 
-[Operação](getmailtips-operation.md)
+[Operação GetMailTips](getmailtips-operation.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

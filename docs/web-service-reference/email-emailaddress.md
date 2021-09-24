@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c40a6b6-e2d1-44ba-b439-5720490cbd43
-description: O elemento email identifica um participante para uma reunião.
-ms.openlocfilehash: 9457ff735f4f87f59cd091b504fb8807e1aa8fa6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Email identifica um participante a uma reunião.
+ms.openlocfilehash: 6a5c1c2fb11e1f428c75b5c41d58c62c7b5976a5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459234"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528635"
 ---
 # <a name="email-emailaddress"></a>Email (EmailAddress)
 
-O elemento **email** identifica um participante para uma reunião. 
+O **elemento Email** identifica um participante a uma reunião. 
   
 ```XML
 <Email></Email>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento email identifica um participante retornado em uma resposta de operação **GetUserAvailability** . 
+O valor de texto do elemento Email identifica um participante retornado em uma resposta de operação **GetUserAvailability.** 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

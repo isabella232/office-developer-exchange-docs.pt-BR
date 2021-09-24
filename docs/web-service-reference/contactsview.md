@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContactsView
 api_type:
 - schema
 ms.assetid: 8534f44b-a5af-4a9f-9621-23a3eff5f9d8
-description: O elemento ContactsView define uma pesquisa para itens de contato com base em nomes de exibição em ordem alfabética.
-ms.openlocfilehash: 23c3fe13c44cdd0e5a054ecb3378bc3d633e55aa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ContactsView define uma pesquisa de itens de contato com base em nomes de exibição alfabéticos.
+ms.openlocfilehash: a96da6270d2396e5e82851dcc200f818cec5a7ed
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463815"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531096"
 ---
 # <a name="contactsview"></a>ContactsView
 
-O elemento **ContactsView** define uma pesquisa para itens de contato com base em nomes de exibição em ordem alfabética. 
+O **elemento ContactsView** define uma pesquisa de itens de contato com base em nomes de exibição alfabéticos. 
   
 [FindItem](finditem.md)
   
@@ -41,9 +41,9 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|**MaxEntriesReturned** <br/> |Descreve o número máximo de resultados a serem retornados na resposta [FindItem](finditem.md) .  <br/> |
-|**Initialname** <br/> |Define o primeiro nome na lista de contatos a ser retornado na resposta. Se o nome inicial especificado não estiver na lista de contatos, o próximo nome da ordem alfabética definido pelo contexto cultural será retornado, exceto se o próximo nome vier após o **finalname**. Se o atributo **inicialname** for omitido, a resposta conterá uma lista de contatos que inicia com o primeiro nome na lista de contatos. Esse atributo é opcional.  <br/> |
-|**Finalname** <br/> |Define o último nome na lista de contatos para retornar na resposta. Se o atributo **finalname** for omitido, a resposta conterá todos os contatos subsequentes na ordem de classificação especificada. Se o nome final especificado não estiver na lista de contatos, o nome da próxima ordem alfabética definido pelo contexto cultural será excluído.  <br/><br/>Por exemplo, se Finalname = "Name", mas Name não estiver na lista de contatos, os contatos com nomes de exibição de Nome1 ou NAME não serão incluídos.  <br/><br/>Esse atributo é opcional.  <br/> |
+|**MaxEntriesReturned** <br/> |Descreve o número máximo de resultados a retornar na [resposta FindItem.](finditem.md)  <br/> |
+|**InitialName** <br/> |Define o primeiro nome na lista de contatos a ser retornada na resposta. Se o nome inicial especificado não estiver na lista de contatos, o próximo nome alfabético definido pelo contexto cultural será retornado, exceto se o próximo nome vier depois de **FinalName**. Se o **atributo InitialName** for omitido, a resposta conterá uma lista de contatos que começa com o primeiro nome na lista de contatos. Esse atributo é opcional.  <br/> |
+|**FinalName** <br/> |Define o sobrenome na lista de contatos a ser retornada na resposta. Se o **atributo FinalName** for omitido, a resposta conterá todos os contatos subsequentes na ordem de classificação especificada. Se o nome final especificado não estiver na lista de contatos, o próximo nome alfabético definido pelo contexto cultural será excluído.  <br/><br/>Por exemplo, se FinalName="Name", mas Name não estiver na lista de contatos, os contatos com nomes de exibição de Name1 ou NAME não serão incluídos.  <br/><br/>Esse atributo é opcional.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -53,7 +53,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.<br/><br/> A seguir está a expressão XPath para este elemento:  <br/>  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Define uma solicitação para encontrar itens em uma caixa de correio.<br/><br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/FindItem` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação demonstra como localizar os primeiros três contatos começando com o contato com o nome de exibição de Kelly Rollin.
+O exemplo a seguir de uma solicitação demonstra como encontrar os três primeiros contatos a partir do contato que tem o nome de exibição de Kelly Rollin.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

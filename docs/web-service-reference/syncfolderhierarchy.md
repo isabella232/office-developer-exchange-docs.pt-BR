@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SyncFolderHierarchy
 api_type:
 - schema
 ms.assetid: 55df4d01-e48e-4263-a851-78a66ad1093a
 description: O elemento SyncFolderHierarchy define uma solicitação para sincronizar uma hierarquia de pastas em um cliente.
-ms.openlocfilehash: 68b607dbf603e955f74dfaccadd3ce6c4c9fb6ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ebe8ecd613fee02275326be6377544959f85afb5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466644"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531511"
 ---
 # <a name="syncfolderhierarchy"></a>SyncFolderHierarchy
 
-O elemento **SyncFolderHierarchy** define uma solicitação para sincronizar uma hierarquia de pastas em um cliente. 
+O **elemento SyncFolderHierarchy** define uma solicitação para sincronizar uma hierarquia de pastas em um cliente. 
   
 ```xml
 <SyncFolderHierarchy>
@@ -43,13 +43,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> |Identifica as propriedades da pasta a serem incluídas em uma resposta [SyncFolderHierarchy](syncfolderhierarchy.md) .  <br/> |
-|[SyncFolderId](syncfolderid.md) <br/> |Representa a pasta que contém os itens a serem sincronizados. Este elemento é opcional.  <br/> |
-|[SyncState](syncstate-ex15websvcsotherref.md) <br/> |Contém uma forma codificada em base64 dos dados de sincronização que são atualizados após cada solicitação bem-sucedida. Isso é usado para identificar o estado de sincronização.  <br/> |
+|[FolderShape](foldershape.md) <br/> |Identifica as propriedades da pasta a incluir em uma [resposta SyncFolderHierarchy.](syncfolderhierarchy.md)  <br/> |
+|[SyncFolderId](syncfolderid.md) <br/> |Representa a pasta que contém os itens a sincronizar. Esse elemento é opcional.  <br/> |
+|[SyncState](syncstate-ex15websvcsotherref.md) <br/> |Contém uma forma codificada com base64 dos dados de sincronização que são atualizados após cada solicitação bem-sucedida. Isso é usado para identificar o estado de sincronização.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

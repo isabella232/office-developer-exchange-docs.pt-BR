@@ -1,23 +1,23 @@
 ---
-title: Foto
+title: Photo
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38318ed6-3774-4342-b1bf-1d551ecf077c
 description: O elemento Photo contém um valor que codifica a foto de um contato.
-ms.openlocfilehash: 5e356982dc75d8cd4edb5f5d17f26a3dc2e93698
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2af544124de6ec2bfaaec4671c0e4df5903a94cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457169"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528126"
 ---
-# <a name="photo"></a>Foto
+# <a name="photo"></a>Photo
 
-O elemento **Photo** contém um valor que codifica a foto de um contato. 
+O **elemento Photo** contém um valor que codifica a foto de um contato. 
   
 ```XML
 <Photo/>
@@ -41,7 +41,7 @@ Nenhum.
 
 |**Nome do elemento**|**Descrição**|
 |:-----|:-----|
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -59,11 +59,11 @@ Este elemento foi introduzido no Exchange Server 2010 Service Pack 2 (SP2).
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
-- [Criando contatos (serviços Web do Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Criando contatos (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

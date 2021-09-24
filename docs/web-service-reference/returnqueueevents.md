@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReturnQueueEvents
 api_type:
 - schema
 ms.assetid: 69d22417-320c-4c6f-9fb4-2020f2480bb2
 description: O elemento ReturnQueueEvents indica que a pessoa que está executando a tarefa está em uma função privilegiada.
-ms.openlocfilehash: 9d07bc8c3d32f1cd532febaf4ae04e4a2d31d243
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d80513b8acdae04e447f63c5736622e577ece040
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466588"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512258"
 ---
 # <a name="returnqueueevents"></a>ReturnQueueEvents
 
-O elemento **ReturnQueueEvents** indica que a pessoa que está executando a tarefa está em uma função privilegiada. 
+O **elemento ReturnQueueEvents** indica que a pessoa que está executando a tarefa está em uma função privilegiada. 
   
 ```XML
 <ReturnQueueEvents>true | false</ReturnQueueEvents>
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contém a solicitação para a [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md) para recuperar o relatório de acompanhamento de mensagens completo da ID especificada.  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contém a solicitação para a [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md) recuperar o relatório de controle de mensagens completo para a ID especificada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto que representa um valor booliano é necessário. Um valor **true** indica que a pessoa que está executando a tarefa está em uma função privilegiada; um valor **false** indica que a pessoa que está executando a tarefa não está em uma função privilegiada. 
+Um valor de texto que representa um valor Boolean é necessário. Um valor **verdadeiro** indica que a pessoa que está executando a tarefa está em uma função privilegiada; um valor de **false** indica que a pessoa que está executando a tarefa não está em uma função privilegiada. 
   
 ## <a name="remarks"></a>Comentários
 

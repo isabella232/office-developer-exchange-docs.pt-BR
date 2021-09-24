@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SenderDepartments
 api_type:
 - schema
 ms.assetid: b016cdde-d597-40ac-87c4-63ca68bd539d
-description: O elemento SenderDepartments especifica que o departamento do remetente corresponde a qualquer um dos departamentos especificados nos elementos de valor filho (ProtectionRuleValueType).
-ms.openlocfilehash: cf15b974b9c0cfb09767661f17334defc4041e43
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SenderDepartments especifica que o departamento do remetente corresponde a qualquer um dos departamentos especificados nos elementos Child Value (ProtectionRuleValueType).
+ms.openlocfilehash: 20feef066646cff988c1a26ee90da7dcade07e90
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530342"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527526"
 ---
 # <a name="senderdepartments"></a>SenderDepartments
 
-O elemento **SenderDepartments** especifica que o departamento do remetente corresponde a qualquer um dos departamentos especificados nos elementos de [valor filho (ProtectionRuleValueType)](value-protectionrulevaluetype.md) . 
+O **elemento SenderDepartments** especifica que o departamento do remetente corresponde a qualquer um dos departamentos especificados nos elementos [Child Value (ProtectionRuleValueType).](value-protectionrulevaluetype.md) 
   
 ```XML
 <SenderDepartments>
@@ -42,14 +42,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Valor (ProtectionRuleValueType)](value-protectionrulevaluetype.md) <br/> |Identifica um único departamento de remetente.  <br/> |
+|[Value (ProtectionRuleValueType)](value-protectionrulevaluetype.md) <br/> |Identifica um único departamento de remetente.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condição](condition.md) <br/> |Identifica a condição que deve ser satisfeita para a parte de ação da regra a ser executada.  <br/> |
-|[E (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Especifica que todos os elementos filho devem corresponder para serem avaliados como **true**. Especifica que deve haver mais de uma condição filha de regra de proteção.  <br/> |
+|[Condition](condition.md) <br/> |Identifica a condição que deve ser atendida para que a parte de ação da regra seja executada.  <br/> |
+|[And (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Especifica que todos os elementos filho devem corresponder para avaliar como **true**. Especifica que deve haver mais de uma condição filha de regra de proteção.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

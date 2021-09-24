@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f41b5be6-9b79-4e83-8cdb-aa779e13cb3f
-description: O elemento DisableReason especifica a razão para desabilitar um aplicativo.
-ms.openlocfilehash: 1406d69647bde5389dc9bb61adf7537a57d5adfc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DisableReason especifica o motivo para desabilitar um aplicativo.
+ms.openlocfilehash: 8156dac17e81dd1c3f49575491924185b04d53e9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463668"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528833"
 ---
 # <a name="disablereason"></a>DisableReason
 
-O elemento **DisableReason** especifica a razão para desabilitar um aplicativo. 
+O **elemento DisableReason** especifica o motivo para desabilitar um aplicativo. 
   
 ```XML
 <DisableReason> NoReason | OutlookClientPerformance | OWAClientPerformance | MobileClientPerformance </DisableReason>
@@ -48,7 +48,7 @@ Nenhum.
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Noreason  <br/> |Nenhum motivo fornecido  <br/> |
+|NoReason  <br/> |Nenhum motivo dado  <br/> |
 |OutlookClientPerformance  <br/> |Para melhorar o desempenho do cliente de email.  <br/> |
 |OWAClientPerformance  <br/> |Para melhorar o desempenho do cliente do aplicativo Web.  <br/> |
 |MobileClientPerformance  <br/> |Para melhorar o desempenho do cliente móvel.  <br/> |
@@ -64,8 +64,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

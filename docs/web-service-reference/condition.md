@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Condition
 api_type:
 - schema
 ms.assetid: 0790a3f2-cb31-4036-a757-7821aa0722cb
-description: O elemento Condition identifica a condição que deve ser satisfeita para a parte de ação da regra a ser executada.
-ms.openlocfilehash: 2aea11197f072a4dbe21292bb47075d6f273d31b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Condition identifica a condição que deve ser atendida para que a parte de ação da regra seja executada.
+ms.openlocfilehash: 80efb2121e813a966faf419233cac4d23e971bc6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512004"
 ---
 # <a name="condition"></a>Condição
 
-O elemento **Condition** identifica a condição que deve ser satisfeita para a parte de ação da regra a ser executada. 
+O **elemento Condition** identifica a condição que deve ser atendida para que a parte de ação da regra seja executada. 
   
 ```xml
 <Condition>
@@ -67,10 +67,10 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Interno](allinternal.md) <br/> |Avalia como **true** se todos os destinatários de uma mensagem de email são internos à organização do remetente.  <br/> |
-|[E (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Especifica que todos os elementos filho devem corresponder para serem avaliados como **true**. Especifica que deve haver mais de uma condição filha de regra de proteção.  <br/> |
-|[Destinatário](recipientis.md) <br/> |Especifica que qualquer destinatário da mensagem de email corresponde a qualquer um dos destinatários especificados nos elementos de [valor filho (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
-|[SenderDepartments](senderdepartments.md) <br/> |Especifica que o departamento do remetente corresponde a qualquer um dos departamentos especificados nos elementos de [valor filho (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
+|[AllInternal](allinternal.md) <br/> |Avalia como **true se** todos os destinatários de uma mensagem de email são internos para a organização do remetente.  <br/> |
+|[And (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Especifica que todos os elementos filho devem corresponder para avaliar como **true**. Especifica que deve haver mais de uma condição filha de regra de proteção.  <br/> |
+|[RecipientIs](recipientis.md) <br/> |Especifica que qualquer destinatário da mensagem de email corresponde a qualquer um dos destinatários especificados nos elementos [Child Value (ProtectionRuleValueType).](value-protectionrulevaluetype.md)  <br/> |
+|[SenderDepartments](senderdepartments.md) <br/> |Especifica que o departamento do remetente corresponde a qualquer um dos departamentos especificados nos elementos [Child Value (ProtectionRuleValueType).](value-protectionrulevaluetype.md)  <br/> |
 |[Verdadeiro](true.md) <br/> |Especifica uma condição que sempre corresponde.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
@@ -93,7 +93,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -1,27 +1,27 @@
 ---
-title: Regra (RuleType)
+title: Rule (RuleType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Rule
 api_type:
 - schema
 ms.assetid: 259a1f62-b235-4964-88bf-2d1f1c05a563
 description: O elemento Rule contém uma única regra e representa uma regra na caixa de correio de um usuário.
-ms.openlocfilehash: cdbd21df235a62a9e201e1eaae1d82a8ac10cdd2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0e7d7284d561ea374f66106072df0c4f850c590c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465076"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527513"
 ---
-# <a name="rule-ruletype"></a>Regra (RuleType)
+# <a name="rule-ruletype"></a>Rule (RuleType)
 
-O elemento **Rule** contém uma única regra e representa uma regra na caixa de correio de um usuário. 
+O **elemento Rule** contém uma única regra e representa uma regra na caixa de correio de um usuário. 
   
 ```XML
 <Rule>
@@ -52,13 +52,13 @@ Nenhum
 |:-----|:-----|
 |[RuleId](ruleid.md) <br/> |Especifica o identificador de regra.  <br/> |
 |[DisplayName (cadeia de caracteres)](displayname-string.md) <br/> |Contém o nome de exibição de uma regra.  <br/> |
-|[Prioridade](priority.md) <br/> |Indica a ordem na qual uma regra deve ser executada.  <br/> |
+|[Prioridade](priority.md) <br/> |Indica a ordem na qual uma regra deve ser executado.  <br/> |
 |[IsEnabled](isenabled.md) <br/> |Indica se a regra está habilitada.  <br/> |
 |[IsNotSupported](isnotsupported.md) <br/> |Indica se a regra não pode ser modificada com as APIs de código gerenciado.  <br/> |
 |[IsInError](isinerror.md) <br/> |Indica se a regra está em uma condição de erro.  <br/> |
-|[Condições](conditions.md) <br/> |Identifica as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
+|[Condições](conditions.md) <br/> |Identifica as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
 |[Exceções](exceptions.md) <br/> |Identifica as exceções que representam todas as condições de exceção de regra disponíveis para a regra de caixa de entrada.  <br/> |
-|[Actions](actions.md) <br/> |Representa as ações a serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa as ações a serem tomadas em uma mensagem quando as condições são atendidas.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -82,7 +82,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também

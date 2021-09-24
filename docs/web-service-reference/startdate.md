@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StartDate
 api_type:
 - schema
 ms.assetid: 2ed85fff-0358-48ef-b7f5-90d06cd8d8c4
 description: O elemento StartDate representa a data de início de um item.
-ms.openlocfilehash: fcf7ee628872064e71b38e6c3849be1317bc2bb0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 877460c05598f4ddadd0e185232c2d1afec0235a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459003"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531674"
 ---
 # <a name="startdate"></a>StartDate
 
-O elemento **StartDate** representa a data de início de um item. 
+O **elemento StartDate** representa a data de início de um item. 
   
 ```xml
 <StartDate/>
@@ -45,12 +45,12 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no Exchange store.  <br/> |
 |[Flag](flag.md) <br/> |Especifica um sinalizador em um item de caixa de correio.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa a data de início de uma tarefa.
+O valor do texto representa a data de início de uma tarefa.
   
 ## <a name="remarks"></a>Comentários
 
@@ -62,12 +62,12 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 - [Criando tarefas](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
-- [Excluir tarefas](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+- [Excluir Tarefas](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

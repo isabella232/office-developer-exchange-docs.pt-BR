@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b5d18516-a617-4daf-8baf-c7ce29c76f6b
-description: O elemento FoldersToIgnore identifica uma lista de pastas que são ignoradas ao obter itens em uma conversa. Todos os itens de conversa nas pastas ignoradas não são retornados em uma resposta GetConversationItems.
-ms.openlocfilehash: 07813a54a9a3afa3de23ae94f1c9b191d1cb6fac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento FoldersToIgnore identifica uma lista de pastas ignoradas ao obter itens em uma conversa. Todos os itens de conversa nas pastas ignoradas não são retornados em uma resposta GetConversationItems.
+ms.openlocfilehash: c0102d12b24df2cadd5e307e80c5acda9a3c0589
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44453354"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528656"
 ---
 # <a name="folderstoignore"></a>FoldersToIgnore
 
-O elemento **FoldersToIgnore** identifica uma lista de pastas que são ignoradas ao obter itens em uma conversa. Todos os itens de conversa nas pastas ignoradas não são retornados em uma resposta **GetConversationItems** . 
+O **elemento FoldersToIgnore** identifica uma lista de pastas ignoradas ao obter itens em uma conversa. Todos os itens de conversa nas pastas ignoradas não são retornados em uma **resposta GetConversationItems.** 
   
 ```XML
 <FoldersToIgnore>
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

@@ -1,23 +1,23 @@
 ---
-title: Gerações
+title: Generations
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 637560b5-2b08-4787-a5d8-e0467f83acca
-description: O elemento Generations especifica uma matriz de valores de geração e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: a3ef0e2c73e2ebd7c121f817b8ea97c5e4d4d333
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Generation especifica uma matriz de valores de geração e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: bbb76241a7e207b44ff6911f166eaded9306a9c5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463010"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541263"
 ---
-# <a name="generations"></a>Gerações
+# <a name="generations"></a>Generations
 
-O elemento **Generations** especifica uma matriz de valores de geração e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento Generation** especifica uma matriz de valores de geração e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <Generations>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

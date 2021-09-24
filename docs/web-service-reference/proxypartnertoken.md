@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 88d35c05-21fc-4576-b785-c4ba7b6f8d5b
-description: O elemento ProxyPartnerToken é usado pelo proxy HTTP do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada. Esse elemento não é usado por operações dos serviços Web do Exchange (EWS).
-ms.openlocfilehash: 40716d31a26bd885553daec59ea48f90e3c57bfe
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ProxyPartnerToken é usado pelo proxy HTTP do computador que está executando Microsoft Exchange Server 2010 que tem a função de servidor de Acesso para Cliente instalada. Esse elemento não é usado por operações Exchange Web Services (EWS).
+ms.openlocfilehash: f08d40317cff03a1141ee61258b4549a69ebf1c1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457750"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527707"
 ---
 # <a name="proxypartnertoken"></a>ProxyPartnerToken
 
-O elemento **ProxyPartnerToken** é usado pelo proxy http do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada. Esse elemento não é usado por operações dos serviços Web do Exchange (EWS). 
+O **elemento ProxyPartnerToken** é usado pelo proxy HTTP do computador que está executando Microsoft Exchange Server 2010 que tem a função de servidor de Acesso para Cliente instalada. Esse elemento não é usado por operações Exchange Web Services (EWS). 
   
 ```XML
 <ProxyPartnerToken/>
@@ -38,7 +38,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -52,7 +52,7 @@ Este elemento foi introduzido no Exchange Server 2010 Service Pack 2 (SP2).
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ddba6b8-0f38-42cd-96a1-0d4283f6375b
-description: O elemento MaxItems especifica o número máximo de itens a serem retornados na solicitação.
-ms.openlocfilehash: f16e9d46b59c0f562aabd5383f7f445d93414f68
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MaxItems especifica o número máximo de itens a retornar na solicitação.
+ms.openlocfilehash: 23a78db874ef3678be8c6703fb7004fc5f8a1425
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461741"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511111"
 ---
 # <a name="maxitems"></a>MaxItems
 
-O elemento **MAXITEMS** especifica o número máximo de itens a serem retornados na solicitação. 
+O **elemento MaxItems** especifica o número máximo de itens a retornar na solicitação. 
   
 ```XML
 <MaxItems/>
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Getlembretes](getreminders.md)
+[GetReminders](getreminders.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **MAXITEMS** é o número máximo de itens a serem retornados na solicitação. Esse número não pode ser menor que zero ou maior que 200. 
+O valor de texto do **elemento MaxItems** é o número máximo de itens a retornar na solicitação. Esse número não pode ser menor que zero ou maior do que 200. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -63,7 +63,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 
 
 
-[Getlembretes](getreminders.md)
+[GetReminders](getreminders.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

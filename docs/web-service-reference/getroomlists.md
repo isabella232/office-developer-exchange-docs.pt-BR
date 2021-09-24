@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetRoomLists
 api_type:
 - schema
 ms.assetid: adfa95f8-0e92-4d21-b94f-94fac7117ece
 description: O elemento GetRoomLists é o elemento raiz em uma solicitação para uma lista de endereços de email que representam uma lista de salas disponíveis.
-ms.openlocfilehash: 681a59131306506d31ee753467483e67b59a3de4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9c8c1c7e946a809f914b54db319ea866273e098d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460551"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518334"
 ---
 # <a name="getroomlists"></a>GetRoomLists
 
-O elemento **GetRoomLists** é o elemento raiz em uma solicitação para uma lista de endereços de email que representam uma lista de salas disponíveis. 
+O **elemento GetRoomLists** é o elemento raiz em uma solicitação para uma lista de endereços de email que representam uma lista de salas disponíveis. 
   
 ```XML
 <GetRoomLists/>
@@ -42,7 +42,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

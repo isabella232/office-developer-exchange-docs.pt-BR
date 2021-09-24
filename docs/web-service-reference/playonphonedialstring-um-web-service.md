@@ -1,30 +1,30 @@
 ---
-title: PlayOnPhoneDialString (serviço Web da UM)
+title: PlayOnPhoneDialString (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneDialString
 api_type:
 - schema
 ms.assetid: 81ce51b9-c201-4a7d-b29b-351a697970b7
-description: O elemento PlayOnPhoneDialString contém um valor para a cadeia de caracteres de discagem padrão em uma solicitação de operação do GetUMProperties (serviço Web da UM).
-ms.openlocfilehash: 31fb9961b5c4b902414fbca15101abf3e3beb965
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PlayOnPhoneDialString contém um valor para a cadeia de caracteres de discagem padrão em uma solicitação de operação GetUMProperties (serviço Web de UM).
+ms.openlocfilehash: 2ce4d461be6bbbcb7c89868044c542f27ea84420
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459199"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527972"
 ---
-# <a name="playonphonedialstring-um-web-service"></a>PlayOnPhoneDialString (serviço Web da UM)
+# <a name="playonphonedialstring-um-web-service"></a>PlayOnPhoneDialString (serviço Web de Unificação de Mensagens)
 
-O elemento **PlayOnPhoneDialString** contém um valor para a cadeia de caracteres de discagem padrão em uma solicitação de [operação do GetUMProperties (serviço Web da um)](getumproperties-operation-um-web-service.md) . 
+O **elemento PlayOnPhoneDialString** contém um valor para a cadeia de caracteres de discagem padrão em uma solicitação de operação [GetUMProperties (serviço Web de UM).](getumproperties-operation-um-web-service.md) 
   
-[GetUMPropertiesResponse (serviço Web da UM)](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse (serviço Web de Unificação de Mensagens)](getumpropertiesresponse-um-web-service.md)
   
-[PlayOnPhoneDialString (serviço Web da UM)](playonphonedialstring-um-web-service.md)
+[PlayOnPhoneDialString (serviço Web de Unificação de Mensagens)](playonphonedialstring-um-web-service.md)
   
 ```xml
 <PlayOnPhoneDialString/>
@@ -47,11 +47,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetUMPropertiesResponse (serviço Web da UM)](getumpropertiesresponse-um-web-service.md) <br/> |Define uma resposta a uma solicitação de [operação do GetUMProperties (serviço Web da um)](getumproperties-operation-um-web-service.md) .  <br/> |
+|[GetUMPropertiesResponse (serviço Web de Unificação de Mensagens)](getumpropertiesresponse-um-web-service.md) <br/> |Define uma resposta a uma [solicitação de operação GetUMProperties (serviço Web de UM).](getumproperties-operation-um-web-service.md)  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório.
+Um valor de texto é necessário.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -66,7 +66,7 @@ Um valor de texto é obrigatório.
 
 
 
-[Operação GetUMProperties (serviço Web da UM)](getumproperties-operation-um-web-service.md)
+[Operação GetUMProperties (serviço Web de Unificação de Mensagens)](getumproperties-operation-um-web-service.md)
   
-[Operação SetPlayOnPhoneDialString (serviço Web da UM)](setplayonphonedialstring-operation-um-web-service.md)
+[Operação SetPlayOnPhoneDialString (serviço Web de Unificação de Mensagens)](setplayonphonedialstring-operation-um-web-service.md)
 

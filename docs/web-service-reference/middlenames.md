@@ -1,23 +1,23 @@
 ---
-title: Middlenames
+title: MiddleNames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e924c66f-d17f-44e5-9e8e-e02d6117f431
-description: O elemento Middlenames especifica uma matriz de valores do nome do meio e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: 08a2a4b1fafac6cdf25a745968a269b1c0ab6494
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MiddleNames especifica uma matriz de valores de nome do meio e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: 088086eb0dc586b2f873d8a3864459526639ea04
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466266"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518215"
 ---
-# <a name="middlenames"></a>Middlenames
+# <a name="middlenames"></a>MiddleNames
 
-O elemento **middlenames** especifica uma matriz de valores do nome do meio e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento MiddleNames** especifica uma matriz de valores de nome do meio e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <MiddleNames>
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

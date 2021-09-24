@@ -1,27 +1,27 @@
 ---
-title: Caminho
+title: Path
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Path
 api_type:
 - schema
 ms.assetid: 5829149e-7bfe-4820-bcc6-910e9264acc9
 description: O elemento Path é o tipo de esquema base para todos os identificadores de propriedade. Esse tipo é abstrato e nunca ocorrerá diretamente em documentos de instância.
-ms.openlocfilehash: 5ba18084243e9720a76b9ac28023778c6d546bc4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3d0f95e27c788a911ed11b0eb86444c5fc273fbc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529011"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519258"
 ---
-# <a name="path"></a>Caminho
+# <a name="path"></a>Path
 
-O elemento **path** é o tipo de esquema base para todos os identificadores de propriedade. Esse tipo é abstrato e nunca ocorrerá diretamente em documentos de instância. 
+O **elemento Path** é o tipo de esquema base para todos os identificadores de propriedade. Esse tipo é abstrato e nunca ocorrerá diretamente em documentos de instância. 
   
 ```xml
 <Path/>
@@ -42,11 +42,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Os seguintes elementos são usados para substituir o elemento **path** : 
+Os seguintes elementos são usados para substituir o **elemento Path:** 
   
 - [FieldURI](fielduri.md)
     
@@ -56,7 +56,7 @@ Os seguintes elementos são usados para substituir o elemento **path** :
     
 - [ExtendedFieldURI](extendedfielduri.md)
     
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

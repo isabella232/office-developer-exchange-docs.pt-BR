@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86cf88f4-09c4-436a-a100-ac5cba0c4388
 description: O elemento GetAppManifestsResponse define a resposta para uma solicitação de operação GetAppManifests.
-ms.openlocfilehash: a01f6265d6d534e2f7868b17acf19f0f5d52a01f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 06d814ddd7d8369cf54f156fd1bd493f8b933a25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462961"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541200"
 ---
 # <a name="getappmanifestsresponse"></a>GetAppManifestsResponse
 
-O elemento **GetAppManifestsResponse** define a resposta para uma solicitação de operação **GetAppManifests** . 
+O **elemento GetAppManifestsResponse** define a resposta para uma solicitação de operação **GetAppManifests.** 
   
 ```xml
 <GetAppManifestsResponse>
@@ -49,7 +49,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -63,7 +63,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

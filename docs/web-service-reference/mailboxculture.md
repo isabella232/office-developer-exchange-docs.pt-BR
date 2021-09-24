@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MailboxCulture
 api_type:
 - schema
 ms.assetid: 105cc061-3c35-455f-b102-8023e2055632
-description: O elemento MailboxCulture indica a cultura a ser usada ao abrir uma caixa de correio. Esse elemento ocorre no cabeçalho SOAP.
-ms.openlocfilehash: 5760bac3b4589cdba599c5200db7d77b73855ca4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MailboxCulture indica a cultura a ser usada ao abrir uma caixa de correio. Esse elemento ocorre no header SOAP.
+ms.openlocfilehash: f4626df58ea1e478765bb63f0a3e2c5af184b104
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467806"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519356"
 ---
 # <a name="mailboxculture"></a>MailboxCulture
 
-O elemento **MailboxCulture** indica a cultura a ser usada ao abrir uma caixa de correio. Esse elemento ocorre no cabeçalho SOAP. 
+O **elemento MailboxCulture** indica a cultura a ser usada ao abrir uma caixa de correio. Esse elemento ocorre no header SOAP. 
   
 ```xml
 <MailboxCulture/>
@@ -47,11 +47,11 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto indica o idioma usado nas operações do serviço Web do Exchange. Os valores possíveis para esse elemento são descritos pela RFC 3066.
+O valor de texto indica o idioma usado nas operações Exchange Web Service. Os valores possíveis para esse elemento são descritos pela RFC 3066.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Exchange Server com a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Exchange Server com a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -59,7 +59,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

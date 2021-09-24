@@ -1,28 +1,28 @@
 ---
-title: DisconnectResponse (serviço Web da UM)
+title: DisconnectResponse (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DisconnectResponse
 api_type:
 - schema
 ms.assetid: 23806773-32d5-4283-a4d7-230ef80523bd
-description: O elemento DisconnectResponse define uma resposta a uma solicitação de operação de desconexão (serviço Web da UM).
-ms.openlocfilehash: bcfb778d94b19b1ab82af3e0d6420bdbeb69878e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DisconnectResponse define uma resposta a uma solicitação de operação Desconectar (serviço Web de UM).
+ms.openlocfilehash: 62a1c043f0f97c394d85ba7807125a7c45e23f3e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458429"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528687"
 ---
-# <a name="disconnectresponse-um-web-service"></a>DisconnectResponse (serviço Web da UM)
+# <a name="disconnectresponse-um-web-service"></a>DisconnectResponse (serviço Web de Unificação de Mensagens)
 
-O elemento **DisconnectResponse** define uma resposta a uma solicitação de [operação de desconexão (serviço Web da um)](disconnect-operation-um-web-service.md) . 
+O **elemento DisconnectResponse** define uma resposta a uma solicitação de operação Desconectar [(serviço Web de UM).](disconnect-operation-um-web-service.md) 
   
-[DisconnectResponse (serviço Web da UM)](disconnectresponse-um-web-service.md)
+[DisconnectResponse (serviço Web de Unificação de Mensagens)](disconnectresponse-um-web-service.md)
   
 ```xml
 <DisconnectResponse />
@@ -47,7 +47,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -60,5 +60,5 @@ Nenhum
    
 ## <a name="see-also"></a>Confira também
 
-- [Operação de desconexão (serviço Web da UM)](disconnect-operation-um-web-service.md)
+- [Operação Disconnect (serviço Web de Unificação de mensagens)](disconnect-operation-um-web-service.md)
 

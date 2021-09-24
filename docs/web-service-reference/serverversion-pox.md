@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 2c0bc41c-2452-4fc8-a19c-0e85f9fdbc4a
-description: O elemento ServerVersion representa o número da versão do computador que está executando o Microsoft Exchange Server.
-ms.openlocfilehash: 3ef531a69d2dd00ee9784c9eb191684ce517e842
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ServerVersion representa o número de versão do computador que está executando Microsoft Exchange Server.
+ms.openlocfilehash: bc7f9daa62e628e41f7541a609550e90af211928
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461965"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527374"
 ---
 # <a name="serverversion-pox"></a>ServerVersion (POX)
 
-O elemento **ServerVersion** representa o número da versão do computador que está executando o Microsoft Exchange Server. 
+O **elemento ServerVersion** representa o número de versão do computador que está executando Microsoft Exchange Server. 
   
-- [Descoberta automática (POX)](autodiscover-pox.md) 
-- [Resposta (POX)](response-pox.md)
-- [Conta (POX)](account-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Response (POX)](response-pox.md)
+- [Account (POX)](account-pox.md)
 - [Protocol (POX)](protocol-pox.md)
 - [ServerVersion (POX)](serverversion-pox.md)
   
@@ -46,19 +46,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange que tem a função de servidor de acesso para Cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange que tem a função de servidor de Acesso para Cliente instalada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o número da versão do Exchange Server.
+O valor de texto representa o Exchange de versão do servidor.
   
 ## <a name="remarks"></a>Comentários
 
-O valor **ServerVersion** só será válido se o elemento [Type (POX)](type-pox.md) for igual a Exch ou expr. O valor **ServerVersion** é um número hexadecimal que contém o MajorVersion, o MinorVersion e o MajorBuildNumber do servidor. 
+O **valor ServerVersion** só será válido se o [elemento Type (POX)](type-pox.md) for igual a EXCH ou EXPR. O **valor ServerVersion** é um número hexadecimal que contém o MajorVersion, MinorVersion e MajorBuildNumber do servidor. 
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir retorna um valor **ServerVersion** que é retornado em uma resposta de descoberta automática para obter e exibir o MajorVersion, MinorVersion e MajorBuildNumber. Este exemplo permite que você insira um valor hexadecimal para o valor **ServerVersion** . Se nenhum valor **ServerVersion** for inserido, um valor padrão de **ServerVersion** de 738180DA será usado. 
+O exemplo a seguir oculta um valor **ServerVersion** retornado em uma resposta de Descoberta Automática para obter e exibir o MajorVersion, MinorVersion e MajorBuildNumber. Este exemplo permite inserir um valor hexadecimal para o **valor ServerVersion.** Se nenhum **valor ServerVersion** for inserido, um valor **serverVersion** padrão de 738180DA será usado. 
   
 ```csharp
 static void Main(string[] args)
@@ -105,5 +105,5 @@ static void Main(string[] args)
 
 ## <a name="see-also"></a>Confira também
 
-- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -1,27 +1,27 @@
 ---
-title: Shape
+title: ItemShape
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ItemShape
 api_type:
 - schema
 ms.assetid: c5604161-bbc0-40bc-ad75-ff7e837d745f
-description: O elemento doshape identifica um conjunto de propriedades para retornar em uma operação GetItem, FindItem ou uma resposta de operação SyncFolderItems.
-ms.openlocfilehash: ffb666ee331b55a4f04cad076c705e4bec980e03
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ItemShape identifica um conjunto de propriedades a ser retornada em uma operação GetItem, operação FindItem ou resposta de operação SyncFolderItems.
+ms.openlocfilehash: d6cc1efc85a8a22e12f2a3616fe949b72b3bba33
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458121"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519391"
 ---
-# <a name="itemshape"></a>Shape
+# <a name="itemshape"></a>ItemShape
 
-O elemento **doshape** identifica um conjunto de propriedades para retornar em uma [operação GetItem](getitem-operation.md), [FindItem](finditem-operation.md)ou uma resposta de [operação SyncFolderItems](syncfolderitems-operation.md) . 
+O **elemento ItemShape** identifica um conjunto de propriedades a ser retornada em uma operação [GetItem,](getitem-operation.md)operação [FindItem](finditem-operation.md)ou resposta de operação [SyncFolderItems.](syncfolderitems-operation.md) 
   
 ```XML
 <ItemShape>
@@ -47,20 +47,20 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[BaseShape](baseshape.md) <br/> |Identifica a configuração básica de propriedades a serem retornadas em uma resposta de item ou pasta.  <br/> |
-|[IncludeMimeContent](includemimecontent.md) <br/> |Especifica se o conteúdo MIME (Multipurpose Internet Mail Extensions) de um item é retornado na resposta.  <br/> |
-|[BodyType](bodytype.md) <br/> |Identifica como o corpo de texto é formatado na resposta.  <br/> |
-|[ConvertHtmlCodePageToUTF8](converthtmlcodepagetoutf8.md) <br/> |Indica se o corpo de HTML do item é convertido em UTF8.  <br/> |
+|[BaseShape](baseshape.md) <br/> |Identifica a configuração básica das propriedades a ser retornada em uma resposta de item ou pasta.  <br/> |
+|[IncludeMimeContent](includemimecontent.md) <br/> |Especifica se o conteúdo mime (Extensões de Email da Internet) multipropósito de um item é retornado na resposta.  <br/> |
+|[BodyType](bodytype.md) <br/> |Identifica como o texto do corpo é formatado na resposta.  <br/> |
+|[ConvertHtmlCodePageToUTF8](converthtmlcodepagetoutf8.md) <br/> |Indica se o corpo HTML do item é convertido em UTF8.  <br/> |
 |[FilterHtmlContent](filterhtmlcontent.md) <br/> |Especifica se a filtragem de conteúdo HTML está habilitada.  <br/> |
-|[AdditionalProperties](additionalproperties.md) <br/> |Identifica propriedades adicionais a serem retornadas em uma resposta.  <br/> |
+|[AdditionalProperties](additionalproperties.md) <br/> |Identifica propriedades adicionais para retornar em uma resposta.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetItem](getitem.md) <br/> |Define uma solicitação para recuperar itens de uma caixa de correio no repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetItem` <br/> |
-|[FindItem](finditem.md) <br/> |Define uma solicitação para localizar todos os itens contidos em uma pasta.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/FindItem` <br/> |
-|[SyncFolderItems](syncfolderitems.md) <br/> |Define uma solicitação para sincronizar itens em uma pasta do repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/SyncFolderItems` <br/> |
+|[GetItem](getitem.md) <br/> |Define uma solicitação para recuperar itens de uma caixa de correio no Exchange store.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/GetItem` <br/> |
+|[FindItem](finditem.md) <br/> |Define uma solicitação para encontrar todos os itens contidos em uma pasta.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/FindItem` <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |Define uma solicitação para sincronizar itens em uma pasta Exchange store.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/SyncFolderItems` <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

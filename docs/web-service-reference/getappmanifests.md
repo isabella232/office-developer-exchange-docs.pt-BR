@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 689cd498-4ee0-4a41-8907-4f0d7137477e
-description: O elemento GetAppManifests é o elemento base para uma solicitação retornar o manifesto para aplicativos.
-ms.openlocfilehash: 067075741d5f4eca3f41e327d8bd17fc54450fdd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetAppManifests é o elemento base de uma solicitação para retornar o manifesto para aplicativos.
+ms.openlocfilehash: 26ce82c5a0ac73644f75043589c576de857bd02a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462996"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541214"
 ---
 # <a name="getappmanifests"></a>GetAppManifests
 
-O elemento **GetAppManifests** é o elemento base para uma solicitação retornar o manifesto para aplicativos. 
+O **elemento GetAppManifests** é o elemento base de uma solicitação para retornar o manifesto para aplicativos. 
   
 ```xml
 <GetAppManifests />
@@ -46,7 +46,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O elemento **GetAppManifests** é aplicável para clientes que direcionam o Exchange Online e versões do Microsoft Exchange Server a partir do Exchange 2013. 
+O **elemento GetAppManifests** é aplicável para clientes destinados Exchange Online e versões do Microsoft Exchange Server a partir do Exchange 2013. 
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -54,7 +54,7 @@ O elemento **GetAppManifests** é aplicável para clientes que direcionam o Exch
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

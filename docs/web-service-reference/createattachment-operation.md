@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateAttachment
 api_type:
 - schema
 ms.assetid: e066db95-6963-4507-a8d0-8efad287f550
-description: A operação CreateAttachment cria um item ou anexo de arquivo e anexa-o ao item especificado.
-ms.openlocfilehash: 8028c56aa306774b54b39e5ee1ac0382b9113fa0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação CreateAttachment cria um item ou anexo de arquivo e o anexa ao item especificado.
+ms.openlocfilehash: 0c75e8c73bf4352e2703a6ca6ac06e261e8f37c9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456567"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511878"
 ---
 # <a name="createattachment-operation"></a>Operação CreateAttachment
 
-A operação CreateAttachment cria um item ou anexo de arquivo e anexa-o ao item especificado.
+A operação CreateAttachment cria um item ou anexo de arquivo e o anexa ao item especificado.
   
-## <a name="file-createattachment-request-example"></a>Exemplo de solicitação de CreateAttachment de arquivo
+## <a name="file-createattachment-request-example"></a>Exemplo da solicitação File CreateAttachment
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de CreateAttachment mostra como criar um anexo de arquivo.
+O exemplo a seguir de uma solicitação CreateAttachment mostra como criar um anexo de arquivo.
   
 ### <a name="code"></a>Código
 
@@ -54,12 +54,12 @@ O exemplo a seguir de uma solicitação de CreateAttachment mostra como criar um
 
 ### <a name="comment"></a>Comentário
 
-Deve ser fornecido um nome para o anexo.
+Um nome para o anexo deve ser fornecido.
   
 > [!NOTE]
-> O identificador de item pai e a chave de alteração foram reduzidos para preservar a legibilidade. 
+> O identificador de item pai e a chave de alteração foram reduzidos para preservar a capacidade de leitura. 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -71,11 +71,11 @@ Os seguintes elementos são usados na solicitação:
     
 - [FileAttachment](fileattachment.md)
     
-- [Nome (AttachmentType)](name-attachmenttype.md)
+- [Name (AttachmentType)](name-attachmenttype.md)
     
 - [Conteúdo](content.md)
     
-## <a name="successful-file-createattachment-response-example"></a>Exemplo de resposta de CreateAttachment de arquivo bem-sucedido
+## <a name="successful-file-createattachment-response-example"></a>Exemplo de resposta CreateAttachment de arquivo bem-sucedido
 
 ### <a name="description"></a>Descrição
 
@@ -113,7 +113,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CreateAttac
 
 ### <a name="comment"></a>Comentário
 
-A resposta contém o identificador do arquivo anexado. Ele também contém o identificador e a chave de alteração do item raiz. Os identificadores de item e a chave de alteração foram reduzidos para preservar a legibilidade.
+A resposta contém o identificador do arquivo anexado. Ele também contém o identificador e a chave de alteração do item raiz. Os identificadores de item e a chave de alteração foram reduzidos para preservar a capacidade de leitura.
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
@@ -133,13 +133,13 @@ Os seguintes elementos são usados na resposta:
     
 - [FileAttachment](fileattachment.md)
     
-- [Attachmentid](attachmentid.md)
+- [AttachmentId](attachmentid.md)
     
-## <a name="item-createattachment-request-example"></a>Exemplo de solicitação de CreateAttachment de item
+## <a name="item-createattachment-request-example"></a>Exemplo de solicitação de Item CreateAttachment
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação de CreateAttachment mostra como criar um anexo de item.
+O exemplo a seguir de uma solicitação CreateAttachment mostra como criar um anexo de item.
   
 ### <a name="code"></a>Código
 
@@ -168,11 +168,11 @@ O exemplo a seguir de uma solicitação de CreateAttachment mostra como criar um
 
 ### <a name="comment"></a>Comentário
 
-Deve ser fornecido um nome para o anexo.
+Um nome para o anexo deve ser fornecido.
   
- **Observação** O identificador de item pai e a chave de alteração foram reduzidos para preservar a legibilidade. 
+ **Observação** O identificador de item pai e a chave de alteração foram reduzidos para preservar a capacidade de leitura. 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -184,13 +184,13 @@ Os seguintes elementos são usados na solicitação:
     
 - [ItemAttachment](itemattachment.md)
     
-- [Nome (AttachmentType)](name-attachmenttype.md)
+- [Name (AttachmentType)](name-attachmenttype.md)
     
 - [Mensagem](message-ex15websvcsotherref.md)
     
 - [Assunto](subject.md)
     
-## <a name="successful-item-createattachment-response-example"></a>Exemplo de resposta de CreateAttachment de item bem-sucedido
+## <a name="successful-item-createattachment-response-example"></a>Exemplo de resposta CreateAttachment de item bem-sucedido
 
 ### <a name="description"></a>Descrição
 
@@ -228,7 +228,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CreateAttac
 
 ### <a name="comment"></a>Comentário
 
-A resposta contém o identificador do novo anexo. Ele também contém o identificador e a chave de alteração do item raiz. O item raiz é o item que contém o anexo. Os identificadores de item e a chave de alteração foram reduzidos para preservar a legibilidade.
+A resposta contém o identificador do novo anexo. Ele também contém o identificador e a chave de alteração do item raiz. O item raiz é o item que contém o anexo. Os identificadores de item e a chave de alteração foram reduzidos para preservar a capacidade de leitura.
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
@@ -248,13 +248,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ItemAttachment](itemattachment.md)
     
-- [Attachmentid](attachmentid.md)
+- [AttachmentId](attachmentid.md)
     
-## <a name="createattachment-error-response-example"></a>Exemplo de resposta de erro CreateAttachment
+## <a name="createattachment-error-response-example"></a>Exemplo de resposta de erro createAttachment
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro para a solicitação de CreateAttachment. O erro se deve ao fato de que o nome do anexo não foi especificado.
+O exemplo a seguir mostra uma resposta de erro à solicitação CreateAttachment. O erro se deve ao fato de que o nome do anexo não foi especificado.
   
 ### <a name="code"></a>Código
 
@@ -313,7 +313,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 ## <a name="remarks"></a>Comentários
 
-Se vários anexos estiverem anexados a um item em uma única viagem de ida e volta, o RootItemChangeKey na última mensagem de resposta será aquele que representa a nova chave de alteração do item que tem os anexos.
+Se vários anexos são anexados a um item em uma única viagem de ida e volta, o RootItemChangeKey na última mensagem de resposta é aquele que representa a nova chave de alteração do item que tem os anexos.
   
 ## <a name="see-also"></a>Confira também
 

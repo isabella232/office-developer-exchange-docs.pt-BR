@@ -1,23 +1,23 @@
 ---
-title: Isfixado (FederatedDirectoryGroupType)
+title: IsPinned (FederatedDirectoryGroupType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 147121c9-516a-41f5-a506-0f646cdc653b
-description: O elemento isafixado (FederatedDirectoryGroupType) é destinado apenas para uso interno.
-ms.openlocfilehash: ad4063964d7de197ba39c91f5605a86755fa0ce1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento IsPinned (FederatedDirectoryGroupType) destina-se apenas ao uso interno.
+ms.openlocfilehash: 4c4bd4ebf7c274438ba0c7e762144bda12f2aaf4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468450"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518243"
 ---
-# <a name="ispinned-federateddirectorygrouptype"></a>Isfixado (FederatedDirectoryGroupType)
+# <a name="ispinned-federateddirectorygrouptype"></a>IsPinned (FederatedDirectoryGroupType)
 
-O elemento **Isafixado (FederatedDirectoryGroupType)** é destinado apenas para uso interno. 
+O **elemento IsPinned (FederatedDirectoryGroupType)** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7707aa6a-381d-43f7-a454-54f6343ed127
-description: Encontre informações sobre a operação do EWS do UninstallApp.
-ms.openlocfilehash: 27931636ee13a251fb03fe804987d7b01a325230
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação UninstallApp EWS.
+ms.openlocfilehash: 8a301360b2b4c38d85e8c5be2e80c79378d0fd97
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467148"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527143"
 ---
 # <a name="uninstallapp-operation"></a>Operação UninstallApp
 
-Encontre informações sobre a operação do EWS do **UninstallApp** . 
+Encontre informações sobre a **operação UninstallApp** EWS. 
   
-A operação **UninstallApp** desinstala um aplicativo de email para o Outlook. 
+A **operação UninstallApp** desinstala um aplicativo de email para Outlook. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-uninstallapp-operation"></a>Usando a operação UninstallApp
 
-A operação **UninstallApp** aceita um argumento na solicitação que identifica o aplicativo de email a ser desinstalado. 
+A **operação UninstallApp** assume um argumento na solicitação que identifica o aplicativo de email para desinstalar. 
   
-### <a name="uninstallapp-operation-soap-headers"></a>Cabeçalhos SOAP de operação UninstallApp
+### <a name="uninstallapp-operation-soap-headers"></a>Headers SOAP da operação UninstallApp
 
-A operação **UninstallApp** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação UninstallApp** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="uninstallapp-operation-request-example-uninstall-a-mail-app-in-a-mailbox"></a>Exemplo de solicitação de operação UninstallApp: desinstalar um aplicativo de email em uma caixa de correio
+## <a name="uninstallapp-operation-request-example-uninstall-a-mail-app-in-a-mailbox"></a>Exemplo de solicitação de operação do UninstallApp: Desinstalar um aplicativo de email em uma caixa de correio
 
-O exemplo a seguir de uma solicitação de operação do **UninstallApp** mostra como um aplicativo de email é desinstalado usando o identificador de aplicativo. O identificador do aplicativo pode ser encontrado no manifesto do aplicativo que é retornado pela [operação GetAppManifests](getappmanifests-operation.md).
+O exemplo a seguir de uma solicitação de operação **UninstallApp** mostra como desinstalar um aplicativo de email usando o identificador do aplicativo. O identificador do aplicativo pode ser encontrado no manifesto do aplicativo retornado pela [operação GetAppManifests.](getappmanifests-operation.md)
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -60,11 +60,11 @@ O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [UninstallApp](uninstallapp.md)
     
-- [ID (cadeia de caracteres)](id-string.md)
+- [ID (String)](id-string.md)
     
-## <a name="successful-uninstallapp-operation-response"></a>Resposta de operação UninstallApp bem-sucedida
+## <a name="successful-uninstallapp-operation-response"></a>Resposta bem-sucedida da operação UninstallApp
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação do **UninstallApp** para desinstalar um aplicativo de email. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **do UninstallApp** para desinstalar um aplicativo de email. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -96,9 +96,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [ResponseCode](responsecode.md)
     
-## <a name="uninstallapp-operation-error-response"></a>Resposta de erro de operação UninstallApp
+## <a name="uninstallapp-operation-error-response"></a>Resposta de erro da operação UninstallApp
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **UninstallApp** . Esta é uma resposta a uma solicitação para desinstalar um aplicativo de email que já foi desinstalado. 
+O exemplo a seguir mostra uma resposta de erro a uma **solicitação de operação UninstallApp.** Esta é uma resposta a uma solicitação para desinstalar um aplicativo de email que já foi desinstalado. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -126,7 +126,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-O corpo SOAP de resposta de erro contém os seguintes elementos:
+O corpo SOAP da resposta de erro contém os seguintes elementos:
   
 - [UninstallAppResponse](uninstallappresponse.md)
     
@@ -136,11 +136,11 @@ O corpo SOAP de resposta de erro contém os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Para obter códigos de erro adicionais genéricos para o EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
+Para obter códigos de erro adicionais genéricos para EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Confira também
 
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
     
 - [Operação InstallApp](installapp-operation.md)
     

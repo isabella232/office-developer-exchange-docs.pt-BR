@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af338f99-9e62-4124-9bff-8d7cc2008161
 description: O elemento MailStore contém as especificações para conectar um cliente à caixa de correio do usuário usando o protocolo MAPI/HTTP.
-ms.openlocfilehash: 635228fcfeb3ad791c845050b82666a6e060b229
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 543bcb8df84904f2b70d6feeabf16d1cc021f3e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459788"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511119"
 ---
 # <a name="mailstore-pox"></a>MailStore (POX)
 
-O elemento **MailStore** contém as especificações para conectar um cliente à caixa de correio do usuário usando o protocolo MAPI/http. 
+O **elemento MailStore** contém as especificações para conectar um cliente à caixa de correio do usuário usando o protocolo MAPI/HTTP. 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Conta (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -54,17 +54,17 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao servidor de acesso para cliente.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao servidor de Acesso para Cliente.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O elemento **MailStore** está presente em uma resposta que tem um elemento [Protocol (POX)](protocol-pox.md) com um valor de atributo **Type** de "mapiHttp". 
+O **elemento MailStore** está presente em uma resposta que tem um elemento [Protocol (POX)](protocol-pox.md) com um **valor de** atributo Type de "mapiHttp". 
   
-O elemento **MailStore** está disponível para clientes que implementam o protocolo MAPI/http e direcionam o Exchange Online, o Exchange Online como parte do Office 365 e as versões locais do Exchange a partir do Build 15.00.0847.032 (exchange server 2013 SP1). 
+O elemento **MailStore** está disponível para clientes que implementam o protocolo MAPI/HTTP e o Exchange Online, Exchange Online como parte do Office 365 e versões locais do Exchange a partir da com build 15.00.0847.032 (Exchange Server 2013 SP1). 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

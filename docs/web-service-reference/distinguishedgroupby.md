@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DistinguishedGroupBy
 api_type:
 - schema
 ms.assetid: 6ff3ac48-02ba-40ec-a71b-c401bb2b127c
-description: O elemento DistinguishedGroupBy fornece agrupamentos padrão para consultas do FindItem.
-ms.openlocfilehash: 004613d55419a19f69e960203ae13d8d906b74c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DistinguishedGroupBy fornece agrupações padrão para consultas FindItem.
+ms.openlocfilehash: 8b6001994603e49cd1c77288a93cfb9270d51e21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463136"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511832"
 ---
 # <a name="distinguishedgroupby"></a>DistinguishedGroupBy
 
-O elemento **DistinguishedGroupBy** fornece agrupamentos padrão para consultas do FindItem. 
+O **elemento DistinguishedGroupBy** fornece agrupações padrão para consultas FindItem. 
   
 - [FindItem](finditem.md) 
 - [DistinguishedGroupBy](distinguishedgroupby.md)
@@ -45,19 +45,19 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[StandardGroupBy](standardgroupby.md) <br/> |Representa os mecanismos padrão de agrupamento e agregação para uma operação FindItem agrupada.  <br/> |
+|[StandardGroupBy](standardgroupby.md) <br/> |Representa os mecanismos de agrupação e agregação padrão para uma operação FindItem agrupada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.<br/><br/>A seguir está a expressão XPath para este elemento:`/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Define uma solicitação para encontrar itens em uma caixa de correio.<br/><br/>Veja a seguir a expressão XPath para este elemento:  `/FindItem` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O elemento **DistinguishedGroupBy** pode ser adicionado a uma operação FindItem quando os resultados precisam ser agrupados e quando um dos grupos padrão atende aos requisitos de agrupamento. Se nem o elemento **DistinguishedGroupBy** nem o elemento [GroupBy](groupby.md) for especificado, os resultados do FindItem retornarão de Ungrouped. 
+O **elemento DistinguishedGroupBy** pode ser adicionado a uma operação FindItem quando os resultados devem ser agrupados com backup e quando um dos grupos padrão atende aos requisitos de agrupação. Se nem **o elemento DistinguishedGroupBy** nem [o elemento GroupBy](groupby.md) for especificado, os resultados de FindItem voltarão desagrupados. 
   
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 

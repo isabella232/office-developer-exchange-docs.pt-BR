@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14c2c8bd-db54-4b03-9a97-190ff9e908b3
-description: O elemento altitude especifica a altitude de um endereço postal.
-ms.openlocfilehash: 7cbb3872cd0ad53b1617f9f712633e19e6fe397d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Altitude especifica a altitude de um endereço postal.
+ms.openlocfilehash: e3f4559b3baf99bf60fa7da85b363450a65d8747
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458835"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518957"
 ---
 # <a name="altitude"></a>Altitude
 
-O elemento **altitude** especifica a altitude de um endereço postal. 
+O **elemento Altitude** especifica a altitude de um endereço postal. 
   
 ```XML
 <Altitude></Altitude>
 ```
 
- **xs: Double**
+ **xs:double**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Especifica o endereço postal do local.  <br/> |
+|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Especifica o endereço postal do local.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento altitude é a altitude de um endereço postal.
+O valor de texto do elemento Altitude é a altitude de um endereço postal.
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

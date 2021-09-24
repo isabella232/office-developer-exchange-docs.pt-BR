@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fa53810-d6ec-406b-bdde-ddf33f03600f
-description: O elemento UniqueHash especifica um valor de hash exclusivo usado para eliminação de duplicação.
-ms.openlocfilehash: c0d7baefd5f1424a7d05f0264061662911b4e407
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UniqueHash especifica um valor de hash exclusivo usado para de duplicação.
+ms.openlocfilehash: 40de46c5247876628997a6caabb3b25d89ec1f36
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468184"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512316"
 ---
 # <a name="uniquehash"></a>UniqueHash
 
-O elemento **UniqueHash** especifica um valor de hash exclusivo usado para eliminação de duplicação. 
+O **elemento UniqueHash** especifica um valor de hash exclusivo usado para de duplicação. 
   
 ```XML
 <UniqueHash></UniqueHash>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **UniqueHash** é um valor de hash usado para eliminação de duplicação. 
+O valor de texto do **elemento UniqueHash** é um valor de hash usado para a des duplicação. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

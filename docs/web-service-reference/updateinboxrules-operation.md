@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateInboxRules
 api_type:
 - schema
 ms.assetid: f982a237-471e-45c5-a2b5-468cfc53150b
-description: A operação UpdateInboxRules atualiza as regras de caixa de entrada do usuário autenticado aplicando as operações especificadas. UpdateInboxRules é usado para criar uma regra de caixa de entrada, para definir uma regra de caixa de entrada, ou para excluir uma regra de caixa de entrada.
-ms.openlocfilehash: a6ced4be25c6fe4649ad649ba01194791548bf67
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação UpdateInboxRules atualiza as regras de Caixa de Entrada do usuário autenticado aplicando as operações especificadas. UpdateInboxRules é usado para criar uma regra de Caixa de Entrada, para definir uma regra de Caixa de Entrada ou para excluir uma regra de Caixa de Entrada.
+ms.openlocfilehash: 08f46219bcb01f5f1c9d69cfaa8b4934e82ff5bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530997"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510712"
 ---
 # <a name="updateinboxrules-operation"></a>Operação UpdateInboxRules
 
-A operação UpdateInboxRules atualiza as regras de caixa de entrada do usuário autenticado aplicando as operações especificadas. **UpdateInboxRules** é usado para criar uma regra de caixa de entrada, para definir uma regra de caixa de entrada, ou para excluir uma regra de caixa de entrada. 
+A operação UpdateInboxRules atualiza as regras de Caixa de Entrada do usuário autenticado aplicando as operações especificadas. **UpdateInboxRules** é usado para criar uma regra de Caixa de Entrada, para definir uma regra de Caixa de Entrada ou para excluir uma regra de Caixa de Entrada. 
   
-Quando você usa a operação **UpdateInboxRules** , os serviços Web do Exchange excluem as regras de envio do lado do cliente. As regras de envio do lado do cliente são armazenadas no cliente na mensagem de FAI (informações associadas à pasta de regras) e em outro lugar. O EWS exclui essa regra FAI mensagem por padrão, com base na expectativa de que o Outlook a recriará. No entanto, o Outlook não pode recriar regras que não existam também como uma regra estendida e as regras de envio do lado do cliente não existem como regras estendidas. Como resultado, essas regras são perdidas. Sugerimos que você considere isso ao criar sua solução. 
+Quando você usa a **operação UpdateInboxRules,** Exchange Web Services exclui regras de envio do lado do cliente. As regras de envio do lado do cliente são armazenadas no cliente na regra FaI (Informações Associadas à Pasta) Mensagem e em nenhum outro lugar. O EWS exclui essa mensagem FAI de regra por padrão, com base na expectativa de que Outlook a recriará. No entanto, Outlook não pode recriar regras que também não existem como uma regra estendida, e as regras de envio do lado do cliente não existem como regras estendidas. Como resultado, essas regras são perdidas. Sugerimos que você considere isso ao projetar sua solução. 
   
-## <a name="updateinboxrules-create-rule-request-example"></a>Exemplo de solicitação UpdateInboxRules (criar regra)
+## <a name="updateinboxrules-create-rule-request-example"></a>Exemplo de solicitação UpdateInboxRules (Criar Regra)
 
-Você pode usar os serviços Web do Exchange para criar uma regra de caixa de entrada na caixa de correio de um usuário no repositório do Exchange. Use o elemento [UpdateInboxRules](updateinboxrules.md) em conjunto com o elemento [CreateRuleOperation](createruleoperation.md) para criar uma regra. 
+Você pode usar Exchange Web Services para criar uma regra de Caixa de Entrada na caixa de correio de um usuário no Exchange store. Use o [elemento UpdateInboxRules](updateinboxrules.md) em conjunto com o [elemento CreateRuleOperation](createruleoperation.md) para criar uma regra. 
   
 ### <a name="description"></a>Descrição
 
-O cliente cria a solicitação XML e a envia para o servidor.
+O cliente constrói o XML de solicitação e o envia para o servidor.
   
 ### <a name="code"></a>Código
 
@@ -75,11 +75,11 @@ O cliente cria a solicitação XML e a envia para o servidor.
 
 ### <a name="comments"></a>Comentários
 
-Este exemplo cria uma regra que moverá uma mensagem de email para a pasta lixo eletrônico, se o assunto do email contiver uma cadeia de caracteres igual a "interessante".
+Este exemplo cria uma regra que move uma mensagem de email para a pasta Lixo Eletrônico se o assunto de email contiver uma cadeia de caracteres que seja igual a "Interessante".
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
-A solicitação **UpdateInboxRules** inclui os seguintes elementos: 
+A **solicitação UpdateInboxRules** inclui os seguintes elementos: 
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
@@ -87,13 +87,13 @@ A solicitação **UpdateInboxRules** inclui os seguintes elementos:
     
 - [Operations](operations.md)
     
-O elemento [Operations](operations.md) contém o elemento [CreateRuleOperation](createruleoperation.md) para criar uma regra. 
+O [elemento Operations](operations.md) contém o elemento [CreateRuleOperation](createruleoperation.md) para criar uma regra. 
   
-## <a name="updateinboxrules-create-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (Create Rule)
+## <a name="updateinboxrules-create-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (Criar Regra)
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir do corpo SOAP (Simple Object Access Protocol) mostra uma resposta bem-sucedida à solicitação **UpdateInboxRules** que cria uma regra. 
+O exemplo de corpo soap (Simple Object Access Protocol) a seguir mostra uma resposta bem-sucedida à solicitação **UpdateInboxRules** que cria uma regra. 
   
 ### <a name="code"></a>Código
 
@@ -133,13 +133,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-## <a name="updateinboxrules-set-rule-request-example"></a>Exemplo de solicitação UpdateInboxRules (set rule)
+## <a name="updateinboxrules-set-rule-request-example"></a>Exemplo de solicitação UpdateInboxRules (Definir Regra)
 
-Você pode usar os serviços Web do Exchange para modificar uma regra de caixa de entrada na caixa de correio de um usuário no repositório do Exchange. Use o elemento [UpdateInboxRules](updateinboxrules.md) em conjunto com o elemento [SetRuleOperation](setruleoperation.md) para modificar uma regra. 
+Você pode usar Exchange Web Services para modificar uma regra de Caixa de Entrada na caixa de correio de um usuário no Exchange store. Use o [elemento UpdateInboxRules](updateinboxrules.md) em conjunto com o [elemento SetRuleOperation](setruleoperation.md) para modificar uma regra. 
   
 ### <a name="description"></a>Descrição
 
-O cliente cria a solicitação XML e a envia para o servidor.
+O cliente constrói o XML de solicitação e o envia para o servidor.
   
 ### <a name="code"></a>Código
 
@@ -183,14 +183,14 @@ O cliente cria a solicitação XML e a envia para o servidor.
 
 ### <a name="comments"></a>Comentários
 
-Este exemplo altera o nome de exibição para "(modificado) isso é lixo eletrônico".
+Este exemplo altera o nome de exibição para "(Modificado) This is Junk".
   
 > [!NOTE]
-> Os valores dos atributos **ID** e **ChangeKey** do elemento [FolderId](folderid.md) foram reduzidos para legibilidade. 
+> Os valores dos atributos **Id** e **ChangeKey** do [elemento FolderId](folderid.md) foram reduzidos para a capacidade de leitura. 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
-A solicitação **UpdateInboxRules** inclui os seguintes elementos: 
+A **solicitação UpdateInboxRules** inclui os seguintes elementos: 
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
@@ -198,13 +198,13 @@ A solicitação **UpdateInboxRules** inclui os seguintes elementos:
     
 - [Operations](operations.md)
     
-O elemento [Operations](operations.md) contém o elemento [SetRuleOperation](setruleoperation.md) para modificar uma regra. 
+O [elemento Operations](operations.md) contém o elemento [SetRuleOperation](setruleoperation.md) para modificar uma regra. 
   
-## <a name="updateinboxrules-set-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (set rule)
+## <a name="updateinboxrules-set-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (Definir Regra)
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir do corpo SOAP (Simple Object Access Protocol) mostra uma resposta bem-sucedida à solicitação **UpdateInboxRules** que modifica uma regra. 
+O exemplo de corpo soap (Simple Object Access Protocol) a seguir mostra uma resposta bem-sucedida à solicitação **UpdateInboxRules** que modifica uma regra. 
   
 ### <a name="code"></a>Código
 
@@ -245,13 +245,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-## <a name="updateinboxrules-delete-rule-request-example"></a>Exemplo de solicitação UpdateInboxRules (excluir regra)
+## <a name="updateinboxrules-delete-rule-request-example"></a>Exemplo de solicitação UpdateInboxRules (Excluir Regra)
 
-Você pode usar os serviços Web do Exchange para excluir uma regra de caixa de entrada na caixa de correio de um usuário no repositório do Exchange. Use o [UpdateInboxRules](updateinboxrules.md) em conjunto com o elemento [DeleteRuleOperation](deleteruleoperation.md) para excluir uma regra. 
+Você pode usar Exchange Web Services para excluir uma regra de Caixa de Entrada na caixa de correio de um usuário no Exchange store. Use [o UpdateInboxRules](updateinboxrules.md) em conjunto com o [elemento DeleteRuleOperation](deleteruleoperation.md) para excluir uma regra. 
   
 ### <a name="description"></a>Descrição
 
-O cliente cria a solicitação XML e a envia para o servidor.
+O cliente constrói o XML de solicitação e o envia para o servidor.
   
 ### <a name="code"></a>Código
 
@@ -282,9 +282,9 @@ O cliente cria a solicitação XML e a envia para o servidor.
 
 Este exemplo exclui a regra identificada existente.
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
-A solicitação **UpdateInboxRules** inclui os seguintes elementos: 
+A **solicitação UpdateInboxRules** inclui os seguintes elementos: 
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
@@ -292,13 +292,13 @@ A solicitação **UpdateInboxRules** inclui os seguintes elementos:
     
 - [Operations](operations.md)
     
-O elemento [Operations](operations.md) contém o elemento [DeleteRuleOperation](deleteruleoperation.md) para excluir uma regra. 
+O [elemento Operations](operations.md) contém o elemento [DeleteRuleOperation](deleteruleoperation.md) para excluir uma regra. 
   
-## <a name="updateinboxrules-delete-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (excluir regra)
+## <a name="updateinboxrules-delete-rule-response-example"></a>Exemplo de resposta UpdateInboxRules (Excluir Regra)
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir do corpo SOAP (Simple Object Access Protocol) mostra uma resposta bem-sucedida à solicitação **UpdateInboxRules** que exclui uma regra. 
+O exemplo de corpo soap (Simple Object Access Protocol) a seguir mostra uma resposta bem-sucedida à solicitação **UpdateInboxRules** que exclui uma regra. 
   
 ### <a name="code"></a>Código
 

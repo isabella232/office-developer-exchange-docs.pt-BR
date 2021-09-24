@@ -1,31 +1,31 @@
 ---
-title: Doclasss (ArrayOfItemClassType)
+title: ItemClasses (ArrayOfItemClassType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 971784d1-6860-4833-bb26-0e930fa11c21
-description: O elemento doclasss contém uma lista de classes de item que representa todas as classes de item dos itens de conversa na pasta atual.
-ms.openlocfilehash: 39118bf845429bb198874ae4e6b424c6339b1964
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ItemClasses contém uma lista de classes de item que representa todas as classes de item dos itens de conversa na pasta atual.
+ms.openlocfilehash: 6193828cb6589c2c0225f894a196a5460a6bfb54
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467295"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511396"
 ---
-# <a name="itemclasses-arrayofitemclasstype"></a>Doclasss (ArrayOfItemClassType)
+# <a name="itemclasses-arrayofitemclasstype"></a>ItemClasses (ArrayOfItemClassType)
 
-O elemento **Doclasss** contém uma lista de classes de item que representa todas as classes de item dos itens de conversa na pasta atual. 
+O **elemento ItemClasses** contém uma lista de classes de item que representa todas as classes de item dos itens de conversa na pasta atual. 
   
 [FindConversationResponse](findconversationresponse.md)
   
 [Conversas](conversations-ex15websvcsotherref.md)
   
-[Conversa (Conversatype)](conversation-conversationtype.md)
+[Conversation (ConversationType)](conversation-conversationtype.md)
   
-[Doclasss (ArrayOfItemClassType)](itemclasses-arrayofitemclasstype.md)
+[ItemClasses (ArrayOfItemClassType)](itemclasses-arrayofitemclasstype.md)
   
 ```XML
 <ItemClasses>
@@ -52,7 +52,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -60,7 +60,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -68,7 +68,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

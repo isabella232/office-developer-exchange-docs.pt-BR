@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d392e138-a514-4bce-81b1-1f484e353d1c
-description: O elemento DisplayNameLastFirst especifica o nome de exibição do persona associado no formato, sobrenome, nome.
-ms.openlocfilehash: d569a87ce77a4f1840ed4f865e671399726ede78
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DisplayNameLastFirst especifica o nome de exibição da persona associada no formato,Sobrenome,Nome.
+ms.openlocfilehash: 36013d4cd62de3a229cee76be1594eadc9ac0ffd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463157"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511819"
 ---
 # <a name="displaynamelastfirst"></a>DisplayNameLastFirst
 
-O elemento **DisplayNameLastFirst** especifica o nome de exibição do persona associado no formato, "Last Name", "First Name". 
+O **elemento DisplayNameLastFirst** especifica o nome de exibição da persona associada no formato, "Sobrenome", "Nome". 
   
 ```XML
 <DisplayNameLastFirst></DisplayNameLastFirst>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **DisplayNameLastFirst** é um valor String que especifica o nome de exibição, com o sobrenome primeiro. 
+O valor de texto do **elemento DisplayNameLastFirst** é um valor de cadeia de caracteres que especifica o nome de exibição, com o sobrenome primeiro. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

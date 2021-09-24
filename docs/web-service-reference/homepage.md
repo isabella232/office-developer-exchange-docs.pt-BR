@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HomePage
 api_type:
 - schema
 ms.assetid: eec2c41e-a975-42f6-8150-caf8c6e26462
-description: O elemento HomePage especifica a URL que será a Home Page padrão para a pasta gerenciada.
-ms.openlocfilehash: b56a273bab3ec34d03e84ba8f7e2d6feddeb3e88
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento HomePage especifica a URL que será a home page padrão para a pasta gerenciada.
+ms.openlocfilehash: 32b943570802b440c347abcf8ffdf4ff675c92b0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460838"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541165"
 ---
 # <a name="homepage"></a>HomePage
 
-O elemento **homepage** especifica a URL que será a Home Page padrão para a pasta gerenciada. 
+O **elemento HomePage** especifica a URL que será a home page padrão para a pasta gerenciada. 
   
 ```xml
 <HomePage/>
@@ -48,7 +48,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto é um valor String que representa uma URL.
+O valor de texto é um valor de cadeia de caracteres que representa uma URL.
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UniqueUnreadSenders
 api_type:
 - schema
 ms.assetid: eb7d1274-ce2e-4ef8-b47f-e911174aab0c
-description: O elemento UniqueUnreadSenders contém uma lista de todas as pessoas que enviaram mensagens não lidas atualmente nesta conversa na pasta atual. Este elemento é somente leitura.
-ms.openlocfilehash: 0e45362e88be4930b8bc2f641c1fb00cc63c0605
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UniqueUnreadSenders contém uma lista de todas as pessoas que enviaram mensagens que estão atualmente não lidas nesta conversa na pasta atual. Esse elemento é somente leitura.
+ms.openlocfilehash: 6d4099a45d65ab01a12132417eeaa2fde1c1b174
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458849"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527005"
 ---
 # <a name="uniqueunreadsenders"></a>UniqueUnreadSenders
 
-O elemento **UniqueUnreadSenders** contém uma lista de todas as pessoas que enviaram mensagens não lidas atualmente nesta conversa na pasta atual. Este elemento é somente leitura. 
+O **elemento UniqueUnreadSenders** contém uma lista de todas as pessoas que enviaram mensagens que estão atualmente não lidas nesta conversa na pasta atual. Esse elemento é somente leitura. 
   
 [FindConversationResponse](findconversationresponse.md)
   
 [Conversas](conversations-ex15websvcsotherref.md)
   
-[Conversa (Conversatype)](conversation-conversationtype.md)
+[Conversation (ConversationType)](conversation-conversationtype.md)
   
 [UniqueUnreadSenders](uniqueunreadsenders.md)
   
@@ -56,7 +56,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -64,7 +64,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1). O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange.
+Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1). O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -72,7 +72,7 @@ Este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1). O es
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

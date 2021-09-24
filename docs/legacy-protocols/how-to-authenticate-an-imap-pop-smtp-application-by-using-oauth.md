@@ -4,12 +4,12 @@ description: Saiba como usar a autenticação OAuth com seus aplicativos IMAP, P
 author: svpsiva
 ms.date: 07/08/2021
 ms.audience: Developer
-ms.openlocfilehash: 4a307a6e329d5320b2b304d17a78a61db6d111bd
-ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
+ms.openlocfilehash: cfc9de18a53ce4cfdd8535f26fe3b04aab9cde55
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58764585"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531320"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Autenticar uma conexão IMAP, POP ou SMTP usando o OAuth
 
@@ -17,7 +17,7 @@ Saiba como usar a autenticação OAuth para se conectar com protocolos IMAP, POP
 
 > O suporte ao OAuth2 para protocolos IMAP, POP, SMTP conforme descrito abaixo é suportado para usuários Microsoft 365 (que inclui Office na Web) e Outlook.com.
 
-Se você não estiver familiarizado com o protocolo OAuth 2.0, comece lendo o protocolo [OAuth 2.0](/azure/active-directory/develop/active-directory-v2-protocols)em plataforma de identidade da Microsoft visão geral. Para saber mais sobre o Microsoft Authentication Libariers (MSAL), que implementa o protocolo OAuth 2.0 para autenticar usuários e acessar APIs seguras, leia a visão geral [do MSAL](/azure/active-directory/develop/msal-overview).
+Se você não estiver familiarizado com o protocolo OAuth 2.0, comece lendo o protocolo [OAuth 2.0](/azure/active-directory/develop/active-directory-v2-protocols)em plataforma de identidade da Microsoft visão geral. Para saber mais sobre as Bibliotecas de Autenticação da Microsoft (MSAL), que implementam o protocolo OAuth 2.0 para autenticar usuários e acessar APIs seguras, leia a visão geral [do MSAL](/azure/active-directory/develop/msal-overview).
 
 Você pode usar o serviço de autenticação OAuth fornecido pelo Azure Active Directory para permitir que seu aplicativo se conecte aos protocolos IMAP, POP ou SMTP para acessar Exchange Online no Office 365. Para usar o OAuth com seu aplicativo, você precisa:
 

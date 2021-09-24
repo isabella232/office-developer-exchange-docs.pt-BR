@@ -1,23 +1,23 @@
 ---
-title: Comentário
+title: Annotation
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0392635-9d0f-46d5-84ef-0a8a3036479a
-description: O elemento Annotation contém observações opcionais adicionadas por um usuário.
-ms.openlocfilehash: 291d875085f9bc13e92a14b844b66878f5e6eb2a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Annotation contém anotações opcionais adicionadas por um usuário.
+ms.openlocfilehash: c34f19190003de218baf9e3d8923688224b1f804
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466112"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531226"
 ---
-# <a name="annotation"></a>Comentário
+# <a name="annotation"></a>Annotation
 
-O elemento **Annotation** contém observações opcionais adicionadas por um usuário. 
+O **elemento Annotation** contém anotações opcionais adicionadas por um usuário. 
   
 ```XML
 <Annotation></Annotation>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[EnhancedLocation](enhancedlocation.md) <br/> |Especifica informações de local, como nome, endereço e observações opcionais sobre um local.  <br/> |
+|[EnhancedLocation](enhancedlocation.md) <br/> |Especifica informações de local, como nome, endereço e anotações opcionais sobre um local.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento Annotation é um usuário adicionado nota sobre um local.
+O valor de texto do elemento Anotação é uma observação adicionada pelo usuário sobre um local.
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

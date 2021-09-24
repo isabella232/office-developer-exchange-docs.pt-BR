@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BccRecipient
 api_type:
 - schema
 ms.assetid: 4ef0cff5-8a5a-4d76-9d2b-938774d8fc1b
-description: O elemento BccRecipient representa um destinatário para receber uma cópia oculta (Cco) de uma mensagem de email.
-ms.openlocfilehash: 8296af1d74338bdfb1f4cb7bc7449ad91a9cd531
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento BccRecipient representa um destinatário para receber uma cópia de carbono cego (Cc) de uma mensagem de email.
+ms.openlocfilehash: 178606d9c27becbf6fea5e7a9a694fb67feadc49
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461524"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526862"
 ---
 # <a name="bccrecipient"></a>BccRecipient
 
-O elemento **BccRecipient** representa um destinatário para receber uma cópia oculta (Cco) de uma mensagem de email. 
+O **elemento BccRecipient** representa um destinatário para receber uma cópia de carbono cego (Cc) de uma mensagem de email. 
   
 ```XML
 <BccRecipient>true | false</BccRecipient>
@@ -48,7 +48,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Esse elemento pode ser **true** ou **false**. Um valor **true** indica que o destinatário é com cópia oculta; um valor **false** indica que o destinatário não está com cópia oculta. 
+Esse elemento pode ser **verdadeiro ou** **falso.** Um valor **true** indica que o destinatário é copiado em carbono cego; um valor de **false** indica que o destinatário não é um carbono cego copiado. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

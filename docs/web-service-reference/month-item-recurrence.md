@@ -1,27 +1,27 @@
 ---
-title: Mês (recorrência do item)
+title: Month (Item Recurrence)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Month
 api_type:
 - schema
 ms.assetid: d2352001-f959-436a-afd5-a0a07b8ae02a
-description: O elemento Month descreve o mês em que ocorre um item recorrente anual.
-ms.openlocfilehash: d881c617374bc9545552ad77f2f2b355efdf2359
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Month descreve o mês em que um item recorrente anual ocorre.
+ms.openlocfilehash: 01d8874db3b539ba1f4c64b3fbd9b83b5b0828b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468632"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510957"
 ---
-# <a name="month-item-recurrence"></a>Mês (recorrência do item)
+# <a name="month-item-recurrence"></a>Month (Item Recurrence)
 
-O elemento **month** descreve o mês em que ocorre um item recorrente anual. 
+O **elemento Month** descreve o mês em que um item recorrente anual ocorre. 
   
 ```xml
 <Month/>
@@ -45,31 +45,31 @@ Nenhum.
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[AbsoluteYearlyRecurrence](absoluteyearlyrecurrence.md) <br/> |Representa um padrão de recorrência anual.  <br/> |
-|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Descreve um padrão relativo de recorrência anual.  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Descreve um padrão de recorrência anual relativo.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. Estes são os valores de texto possíveis para este elemento:
+Um valor de texto é necessário. Veja a seguir os valores de texto possíveis para este elemento:
   
-- Mês
+- Janeiro
     
 - Fevereiro
     
 - Março
     
+- Abril
+    
 - Maio
     
-- Talvez
-    
-- Até
+- Junho
     
 - Julho
     
-- Desde
+- August
     
 - Setembro
     
-- Edição
+- Outubro
     
 - Novembro
     
@@ -85,7 +85,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

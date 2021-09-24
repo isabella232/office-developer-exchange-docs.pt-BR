@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SentToOrCcMe
 api_type:
 - schema
 ms.assetid: ca43e05d-df37-485b-9276-34678025f2b7
-description: O elemento SentToOrCcMe indica se o proprietário da caixa de correio deve estar em uma propriedade ToRecipients ou CcRecipients de mensagens de entrada para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: 906e5d9fd405b9aa6f772bcedbd1869b5023a05e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SentToOrCcMe indica se o proprietário da caixa de correio precisa estar em uma propriedade ToRecipients ou CcRecipients de mensagens de entrada para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: 0e9dddf53c2b671613a5a4c20e3b845a5d38c247
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462077"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510887"
 ---
 # <a name="senttoorccme"></a>SentToOrCcMe
 
-O elemento **SentToOrCcMe** indica se o proprietário da caixa de correio deve estar em uma propriedade **ToRecipients** ou **CcRecipients** de mensagens de entrada para que a condição ou exceção seja aplicada. 
+O **elemento SentToOrCcMe** indica se o proprietário da caixa de correio precisa estar em uma **propriedade ToRecipients** ou **CcRecipients** de mensagens de entrada para que a condição ou exceção seja aplicada. 
   
 ```XML
 <SentToOrCcMe>true | false</SentToOrCcMe>
@@ -44,12 +44,12 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** indica que o proprietário da caixa de correio deve estar na propriedade **ToRecipients** ou **CcRecipients** das mensagens de entrada para que a condição ou exceção seja aplicada. Um valor **false** indica que o proprietário da caixa de correio não deve estar na propriedade **ToRecipients** ou **CcRecipients** das mensagens de entrada para que a condição ou exceção seja aplicada. 
+Um valor  de texto true indica que o proprietário da caixa de correio deve estar na **propriedade ToRecipients** ou **CcRecipients** das mensagens de entrada para que a condição ou exceção seja aplicada. Um valor **false** indica que o proprietário da caixa de correio não deve estar na **propriedade ToRecipients** ou **CcRecipients** das mensagens de entrada para que a condição ou exceção seja aplicada. 
   
 ## <a name="remarks"></a>Comentários
 

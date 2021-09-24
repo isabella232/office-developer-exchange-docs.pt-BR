@@ -5,38 +5,38 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetUserOofSettings
 api_type:
 - schema
 ms.assetid: 36277ef0-18ee-4b35-9e6e-8c321d8f5433
-description: O método Web SetUserOofSettings define as configurações e mensagens de ausência temporária (OOF) de um usuário de caixa de correio.
-ms.openlocfilehash: 88b5475dd2f0fe6d334bad51a0fe8d0beb767634
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O método Web SetUserOofSettings define as configurações e a mensagem de um usuário de caixa de correio fora do Office (OOF).
+ms.openlocfilehash: 21a860b2a1ae4a660e08554d7d67049c1ae0d858
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463150"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531871"
 ---
 # <a name="setuseroofsettings-operation"></a>Operação SetUserOofSettings
 
-O método Web **SetUserOofSettings** define as configurações e mensagens de ausência temporária (OOF) de um usuário de caixa de correio. 
+O **método Web SetUserOofSettings** define as configurações e a mensagem de um usuário de caixa de correio fora do Office (OOF). 
   
-## <a name="soap-headers"></a>Cabeçalhos SOAP
+## <a name="soap-headers"></a>SOAP Headers
 
-A operação **SetUserOofSettings** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir. 
+A **operação SetUserOofSettings** pode usar os headers SOAP listados e descritos na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
 |Representação  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação.  <br/> |
    
-## <a name="setuseroofsettings-request-example"></a>Exemplo de solicitação SetUserOofSettings
+## <a name="setuseroofsettings-request-example"></a>Exemplo da solicitação SetUserOofSettings
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **SetUserOofSettings** define uma configuração de ausência temporária por 10 dias. 
+O exemplo a seguir de **uma solicitação SetUserOofSettings** define uma configuração OOF para 10 dias. 
   
 ### <a name="code"></a>Código
 
@@ -69,17 +69,17 @@ O exemplo a seguir de uma solicitação **SetUserOofSettings** define uma config
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
 - [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
     
-- [Caixa de correio (disponibilidade)](mailbox-availability.md)
+- [Mailbox (Availability)](mailbox-availability.md)
     
-- [Nome (EmailAddress)](name-emailaddress.md)
+- [Name (EmailAddress)](name-emailaddress.md)
     
-- [Endereço (cadeia de caracteres)](address-string.md)
+- [Address (string)](address-string.md)
     
 - [RoutingType (EmailAddress)](routingtype-emailaddress.md)
     
@@ -89,7 +89,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [ExternalAudience](externalaudience.md)
     
-- [Duração (UserOofSettings)](duration-useroofsettings.md)
+- [Duration (UserOofSettings)](duration-useroofsettings.md)
     
 - [StartTime](starttime.md)
     
@@ -97,7 +97,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [InternalReply](internalreply.md)
     
-- [Mensagem (disponibilidade)](message-availability.md)
+- [Message (Availability)](message-availability.md)
     
 - [ExternalReply](externalreply.md)
     
@@ -105,7 +105,7 @@ Os seguintes elementos são usados na solicitação:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **SetUserOofSettings** . 
+O exemplo a seguir mostra uma resposta bem-sucedida à **solicitação SetUserOofSettings.** 
   
 ### <a name="code"></a>Código
 

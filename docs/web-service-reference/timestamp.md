@@ -1,27 +1,27 @@
 ---
-title: Registra
+title: TimeStamp
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeStamp
 api_type:
 - schema
 ms.assetid: 5eae859a-5a74-4bf6-b196-d1b2fd38501a
-description: O elemento timestamp representa o carimbo de data/hora de um evento de caixa de correio.
-ms.openlocfilehash: f2280d4eab67b603963c4f0a7468bf35a2b63a88
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Timestamp representa o timestamp de um evento de caixa de correio.
+ms.openlocfilehash: 87264f25cb8902d7306e1c8c42bef600520175be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459886"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531372"
 ---
-# <a name="timestamp"></a>Registra
+# <a name="timestamp"></a>TimeStamp
 
-O elemento **timestamp** representa o carimbo de data/hora de um evento de caixa de correio. 
+O **elemento Timestamp** representa o timestamp de um evento de caixa de correio. 
   
 ```xml
 <TimeStamp/>
@@ -57,7 +57,7 @@ Essa propriedade é somente leitura.
   
 ## <a name="remarks"></a>Comentários
 
-Este elemento está disponível principalmente para uso na determinação do cliente da frequência de eventos. Isso não está presente no [StatusEvent](statusevent.md).
+Esse elemento está disponível principalmente para uso na determinação do cliente da frequência do evento. Isso não está presente em [StatusEvent](statusevent.md).
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
@@ -67,7 +67,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

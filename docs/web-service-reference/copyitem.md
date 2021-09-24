@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CopyItem
 api_type:
 - schema
 ms.assetid: ffb4c13e-e7ea-4e6b-87a0-509ce5371100
-description: O elemento CopyItem define uma solicitação para copiar um item em uma caixa de correio no repositório do Exchange.
-ms.openlocfilehash: b9af1670fd580107de08ad3b950191399436388d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento CopyItem define uma solicitação para copiar um item em uma caixa de correio no Exchange store.
+ms.openlocfilehash: 7f083f09a587b4788180711039e1cfdbbe6a10cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458499"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529173"
 ---
 # <a name="copyitem"></a>CopyItem
 
-O elemento **CopyItem** define uma solicitação para copiar um item em uma caixa de correio no repositório do Exchange. 
+O **elemento CopyItem** define uma solicitação para copiar um item em uma caixa de correio no Exchange store. 
   
 ```XML
 <CopyItem>
@@ -45,12 +45,12 @@ Nenhum
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[ToFolderId](tofolderid.md) <br/> |Representa a pasta de destino de um item copiado.  <br/> |
-|[ItemIds](itemids.md) <br/> |Contém uma matriz de itens identificados para copiar para a pasta representada pelo elemento [ToFolderId](tofolderid.md) .  <br/> |
+|[ItemIds](itemids.md) <br/> |Contém uma matriz de itens identificados para copiar para a pasta representada pelo [elemento ToFolderId.](tofolderid.md)  <br/> |
 |[ReturnNewItemIds](returnnewitemids.md) <br/> |Indica se os identificadores de item de novos itens são retornados na resposta.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

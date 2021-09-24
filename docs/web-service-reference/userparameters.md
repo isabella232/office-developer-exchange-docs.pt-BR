@@ -1,23 +1,23 @@
 ---
-title: Userparameters
+title: UserParameters
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bad7311f-7ecd-4f0c-b8e7-dd8f7d378f55
-description: O elemento Userparameters contém uma lista de extensões de cliente habilitadas e desabilitadas.
-ms.openlocfilehash: 76bf858adfb6d2ef76a25c234117131752c60d7b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UserParameters contém uma lista de extensões de cliente habilitadas e desabilitadas.
+ms.openlocfilehash: 1d93ec0f4e44b238fcb9aca23672c262795290a6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526750"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510726"
 ---
-# <a name="userparameters"></a>Userparameters
+# <a name="userparameters"></a>UserParameters
 
-O elemento **userparameters** contém uma lista de extensões de cliente habilitadas e desabilitadas. 
+O **elemento UserParameters** contém uma lista de extensões de cliente habilitadas e desabilitadas. 
   
 ```XML
 <UserParameters UserId="" EnabledOnly="">
@@ -35,8 +35,8 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|UserId  <br/> |O valor de texto do atributo **userid** é o identificador do usuário.  <br/> |
-|EnabledOnly  <br/> |O valor de texto de **EnabledOnly** indica se a resposta contém apenas as extensões habilitadas.  <br/> |
+|UserId  <br/> |O valor de texto do **atributo UserId** é o identificador do usuário.  <br/> |
+|EnabledOnly  <br/> |O valor de texto **do EnabledOnly** indica se a resposta contém apenas as extensões habilitadas.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

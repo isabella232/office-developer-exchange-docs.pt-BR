@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RequestedConfiguration
 api_type:
 - schema
 ms.assetid: 24921387-f676-49e6-8d7a-ef3115024866
 description: O elemento RequestedConfiguration contém as configurações de serviço solicitadas.
-ms.openlocfilehash: bbc503e6d6f7c56c785365924106bc2468965d0b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 90279503e9db6a7bfffc111489442d58f51f6538
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457148"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518992"
 ---
 # <a name="requestedconfiguration"></a>RequestedConfiguration
 
-O elemento **RequestedConfiguration** contém as configurações de serviço solicitadas. 
+O **elemento RequestedConfiguration** contém as configurações de serviço solicitadas. 
   
 ```XML
 <RequestedConfiguration>
@@ -42,7 +42,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Configuration](configurationname.md) <br/> |Especifica as configurações de serviço solicitadas por nome.  <br/> |
+|[ConfigurationName](configurationname.md) <br/> |Especifica as configurações de serviço solicitadas pelo nome.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 

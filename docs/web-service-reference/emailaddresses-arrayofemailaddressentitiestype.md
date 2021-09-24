@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fc4a8e8-5377-4059-8fb4-3fdabfd30fe3
 description: O elemento EmailAddresses especifica uma matriz de entidades de endereço de email.
-ms.openlocfilehash: bd478b369f3b359edc6007db9231af50c36877e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: acb784e89bbc4cc6618bf5bad6e5cf0c7274bdfb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463423"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531011"
 ---
 # <a name="emailaddresses-arrayofemailaddressentitiestype"></a>EmailAddresses (ArrayOfEmailAddressEntitiesType)
 
-O elemento **EmailAddresses** especifica uma matriz de entidades de endereço de email. 
+O **elemento EmailAddresses** especifica uma matriz de entidades de endereço de email. 
   
 ```XML
 <EmailAddresses>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[EntityExtractionResult](entityextractionresult.md) <br/> |Especifica a propriedade **EntityExtractionResult** de um item.  <br/> |
+|[EntityExtractionResult](entityextractionresult.md) <br/> |Especifica a **propriedade EntityExtractionResult** de um item.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

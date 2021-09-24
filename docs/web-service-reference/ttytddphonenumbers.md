@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e10ca10-3cf6-4f84-92f1-61eaa277f83a
-description: O elemento TTYTDDPhoneNumbers especifica uma matriz de números de telefone de texto TTY ou TDD e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: 2a68953537b2f1e1e9a60da8f41c98024451ea36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento TTYTDDPhoneNumbers especifica uma matriz de números de telefone de texto TTY ou TDD e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: 087e3560515f65135cc6db84febb129e293f6386
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457064"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527224"
 ---
 # <a name="ttytddphonenumbers"></a>TTYTDDPhoneNumbers
 
-O elemento **TTYTDDPhoneNumbers** especifica uma matriz de números de telefone de texto TTY ou TDD e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento TTYTDDPhoneNumbers** especifica uma matriz de números de telefone de texto TTY ou TDD e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <TTYTDDPhoneNumbers>
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

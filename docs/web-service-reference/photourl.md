@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0d6d1709-01b2-4599-8145-47f51da4bb26
-description: O elemento PhotoUrl é destinado apenas para uso interno.
-ms.openlocfilehash: f14b62da13ba407355b5422bc61b3cefc869fa96
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PhotoUrl destina-se apenas ao uso interno.
+ms.openlocfilehash: e001c45f3fb32249dfa14659a2912c8b519928ca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44434061"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528027"
 ---
 # <a name="photourl"></a>PhotoUrl
 
-O elemento **PhotoUrl** é destinado apenas para uso interno. 
+O **elemento PhotoUrl** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

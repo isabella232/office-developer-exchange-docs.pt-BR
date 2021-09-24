@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteFolderResponse
 api_type:
 - schema
 ms.assetid: 27578bda-ef0a-4a33-bccc-2c1bc1735424
 description: O elemento DeleteFolderResponse define uma resposta a uma solicitação DeleteFolder.
-ms.openlocfilehash: 58b814662c769784c5fd682a9e039863a9787d8d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4f4151c9d86846a260156434591777c495f2fb25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458485"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528975"
 ---
 # <a name="deletefolderresponse"></a>DeleteFolderResponse
 
-O elemento **DeleteFolderResponse** define uma resposta a uma solicitação DeleteFolder. 
+O **elemento DeleteFolderResponse** define uma resposta a uma solicitação DeleteFolder. 
   
 ```xml
 <DeleteFolderResponse>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

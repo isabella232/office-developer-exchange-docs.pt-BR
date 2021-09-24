@@ -1,23 +1,23 @@
 ---
-title: Caixas de correio (ArrayOfStringsType)
+title: Mailboxes (ArrayOfStringsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 20596ebd-ed0f-4ad0-8631-e504220f1016
-description: O elemento Mailboxes contém uma lista de caixas de correio afetadas pela isenção.
-ms.openlocfilehash: 376bd1f007e4b3d27bc44076a7b09993c49bd416
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Mailboxes contém uma lista de caixas de correio afetadas pela espera.
+ms.openlocfilehash: d7eab2b3fb6566380f2ccc4d2419f5eb4a45460a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468156"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528527"
 ---
-# <a name="mailboxes-arrayofstringstype"></a>Caixas de correio (ArrayOfStringsType)
+# <a name="mailboxes-arrayofstringstype"></a>Mailboxes (ArrayOfStringsType)
 
-O elemento **Mailboxes** contém uma lista de caixas de correio afetadas pela isenção. 
+O **elemento Mailboxes** contém uma lista de caixas de correio afetadas pela espera. 
   
 ```XML
 <Mailboxes>

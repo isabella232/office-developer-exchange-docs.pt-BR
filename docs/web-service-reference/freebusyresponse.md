@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FreeBusyResponse
 api_type:
 - schema
 ms.assetid: 3038d106-9ac9-4ac7-bb43-96c783edbef5
-description: O elemento FreeBusyResponse contém as informações de disponibilidade de um único usuário de caixa de correio.
-ms.openlocfilehash: 45a3e12756f3cbf29b76b442f7103abc5fb9a833
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento FreeBusyResponse contém as informações de ocupado/livre para um único usuário de caixa de correio.
+ms.openlocfilehash: 7be7eb7a5ae72be8c9da916fb861d9cce686bc34
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461923"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511571"
 ---
 # <a name="freebusyresponse"></a>FreeBusyResponse
 
-O elemento **FreeBusyResponse** contém as informações de disponibilidade de um único usuário de caixa de correio. 
+O **elemento FreeBusyResponse** contém as informações de ocupado/livre para um único usuário de caixa de correio. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -56,11 +56,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |Contém as informações de disponibilidade dos usuários solicitados e o status da resposta.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray` <br/> |
+|[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |Contém as informações de disponibilidade dos usuários solicitados e o status da resposta.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse elemento não está incluído em uma resposta GetUserAvailability se não for solicitada informação de disponibilidade.
+Esse elemento não será incluído em uma resposta GetUserAvailability se as informações de livre/ocupado não são solicitadas.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
@@ -82,5 +82,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

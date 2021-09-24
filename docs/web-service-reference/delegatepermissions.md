@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DelegatePermissions
 api_type:
 - schema
 ms.assetid: 292badc7-bab3-4368-9d7c-9a8b7edb279b
-description: O elemento DelegatePermissions contém as configurações de delegação de nível de permissão para um usuário. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 2cf8c9a8d3c5db8e13d43c207df173c12fca5acb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DelegatePermissions contém as configurações de nível de permissão de representante para um usuário. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: a8c7e06ae0ad4e1d12d06b559ad7d9f9468c4ade
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457407"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528989"
 ---
 # <a name="delegatepermissions"></a>DelegatePermissions
 
-O elemento **DelegatePermissions** contém as configurações de delegação de nível de permissão para um usuário. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+O **elemento DelegatePermissions** contém as configurações de nível de permissão de representante para um usuário. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <DelegatePermissions>
@@ -48,22 +48,22 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarFolderPermissionLevel](calendarfolderpermissionlevel.md) <br/> |Contém as permissões para a pasta de calendário padrão. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
-|[TasksFolderPermissionLevel](tasksfolderpermissionlevel.md) <br/> |Contém as permissões para a pasta de tarefas padrão. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
-|[InboxFolderPermissionLevel](inboxfolderpermissionlevel.md) <br/> |Contém as permissões para a pasta de caixa de entrada padrão. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
-|[ContactsFolderPermissionLevel](contactsfolderpermissionlevel.md) <br/> |Contém as permissões para a pasta de contatos padrão. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
-|[NotesFolderPermissionLevel](notesfolderpermissionlevel.md) <br/> |Contém as permissões para a pasta padrão de anotações. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
-|[JournalFolderPermissionLevel](journalfolderpermissionlevel.md) <br/> |Contém as permissões para a pasta de diário padrão. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[CalendarFolderPermissionLevel](calendarfolderpermissionlevel.md) <br/> |Contém as permissões da pasta padrão Calendário. Esse elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[TasksFolderPermissionLevel](tasksfolderpermissionlevel.md) <br/> |Contém as permissões da pasta Task padrão. Esse elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[InboxFolderPermissionLevel](inboxfolderpermissionlevel.md) <br/> |Contém as permissões da pasta de Caixa de Entrada padrão. Esse elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[ContactsFolderPermissionLevel](contactsfolderpermissionlevel.md) <br/> |Contém as permissões para a pasta de Contatos padrão. Esse elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[NotesFolderPermissionLevel](notesfolderpermissionlevel.md) <br/> |Contém as permissões para a pasta Padrão do Notes. Esse elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[JournalFolderPermissionLevel](journalfolderpermissionlevel.md) <br/> |Contém as permissões da pasta Padrão do Diário. Esse elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DelegateUser](delegateuser.md) <br/> |Identifica um único representante para adicionar ou atualizar em uma caixa de correio. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |Identifica um único representante para adicionar ou atualizar em uma caixa de correio. Esse elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -71,7 +71,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -79,5 +79,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 - [Operação AddDelegate](adddelegate-operation.md) 
 - [Operação UpdateDelegate](updatedelegate-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
-- [Adicionar representantes](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Adicionando representantes](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

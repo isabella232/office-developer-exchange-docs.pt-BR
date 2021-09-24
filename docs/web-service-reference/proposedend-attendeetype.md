@@ -1,23 +1,23 @@
 ---
-title: ProposedEnd (attendetype)
+title: ProposedEnd (AttendeeType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc9c0a57-f8b0-440f-97dd-88af47840625
-description: O elemento ProposedEnd (attendetype) especifica a hora de término proposta de um participante para uma reunião.
-ms.openlocfilehash: 892a80197a269f806fe7520d6660d09e1cfb38ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ProposedEnd (AttendeeType) especifica a hora de término proposta por um participante para uma reunião.
+ms.openlocfilehash: 15a7673c49c0f2695323f437bda1011e2bff59b8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465566"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510915"
 ---
-# <a name="proposedend-attendeetype"></a>ProposedEnd (attendetype)
+# <a name="proposedend-attendeetype"></a>ProposedEnd (AttendeeType)
 
-O elemento **ProposedEnd (Attendetype)** especifica a hora de término proposta de um participante para uma reunião. 
+O **elemento ProposedEnd (AttendeeType)** especifica a hora de término proposta por um participante para uma reunião. 
   
 ```XML
 <ProposedEnd/>
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Participante](attendee.md)
+[Attendee](attendee.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ProposedEnd (Attendetype)** é a data e a hora de término propostas para uma reunião. 
+O valor de texto do **elemento ProposedEnd (AttendeeType)** é a data e a hora de término propostas para uma reunião. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,14 +56,14 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[Participante](attendee.md)
+[Attendee](attendee.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

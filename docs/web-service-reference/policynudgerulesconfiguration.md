@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6f7c824-1284-4a65-a459-9fc22b66e30a
-description: O elemento PolicyNudgeRulesConfiguration contém os dados de configuração da prevenção contra perda de dados.
-ms.openlocfilehash: dd801fe140dee66d153e388781f97254d1a2f2ef
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PolicyNudgeRulesConfiguration contém os dados de configuração de prevenção contra perda de dados.
+ms.openlocfilehash: ad0bee85bb9b03a3584baa39a2436c8ad68b7e4d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459606"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527928"
 ---
 # <a name="policynudgerulesconfiguration"></a>PolicyNudgeRulesConfiguration
 
-O elemento **PolicyNudgeRulesConfiguration** contém os dados de configuração da prevenção contra perda de dados. 
+O **elemento PolicyNudgeRulesConfiguration** contém os dados de configuração de prevenção contra perda de dados. 
   
 ```XML
 <PolicyNudgeRulesConfiguration></PolicyNudgeRulesConfiguration>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O conteúdo do elemento **PolicyNudgeRulesConfiguration** não é definido no esquema de serviços Web do Exchange. 
+O **conteúdo do elemento PolicyNudgeRulesConfiguration** não é definido Exchange esquema dos Serviços Web. 
   
 Este elemento foi introduzido no Exchange Server 2013.
   

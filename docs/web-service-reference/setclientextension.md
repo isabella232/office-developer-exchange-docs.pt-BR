@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 10d0739c-2591-4768-935c-b131b26e974d
-description: O elemento SetClientExtension contém uma solicitação para definir uma extensão de cliente.
-ms.openlocfilehash: a856cd6b7063f7399e584b9932fcaf7fdc53094e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SetClientExtension contém uma solicitação para definir uma extensão do cliente.
+ms.openlocfilehash: 9aa510e8e014f9e2b7bed941fef8cadf7f7fcea9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466161"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510858"
 ---
 # <a name="setclientextension"></a>SetClientExtension
 
-O elemento **SetClientExtension** contém uma solicitação para definir uma extensão de cliente. 
+O **elemento SetClientExtension** contém uma solicitação para definir uma extensão do cliente. 
   
 ```XML
 <SetClientExtension>
@@ -36,11 +36,11 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Ações (ArrayOfSetClientExtensionActionsType)](actions-arrayofsetclientextensionactionstype.md)
+[Actions (ArrayOfSetClientExtensionActionsType)](actions-arrayofsetclientextensionactionstype.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

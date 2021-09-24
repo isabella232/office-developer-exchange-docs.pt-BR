@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04250f8d-1b83-43ae-8d2f-e052079bf2fc
-description: O elemento DisplayNamePrefixes especifica uma matriz de prefixos de nome de exibição e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: 09e1e974cbe84ec8c7a4848c3367f2501269b797
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DisplayNamePrefixes especifica uma matriz de prefixos de nome de exibição e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: d68965a3c002ddcc75ccf6e0895b9a452ff125f8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530744"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518551"
 ---
 # <a name="displaynameprefixes"></a>DisplayNamePrefixes
 
-O elemento **DisplayNamePrefixes** especifica uma matriz de prefixos de nome de exibição e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento DisplayNamePrefixes** especifica uma matriz de prefixos de nome de exibição e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```xml
 <DisplayNamePrefixes>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

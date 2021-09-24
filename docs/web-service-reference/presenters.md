@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 01057872-4f1a-4246-86ba-73d10ef854a0
-description: O elemento apresentadores especifica os apresentadores de uma reunião online.
-ms.openlocfilehash: 0236457020dfc4684569e84d3d54e357af00d102
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Apresentadores especifica os apresentadores de uma reunião online.
+ms.openlocfilehash: 1c9bf9093450e675245b647c98d7b1d00101ce9e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529907"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519139"
 ---
 # <a name="presenters"></a>Apresentadores
 
-O elemento **apresentadores** especifica os apresentadores de uma reunião online. 
+O **elemento Apresentadores** especifica os apresentadores de uma reunião online. 
   
 ```XML
 <Presenters> Disabled | Internal | Everyone </Presenters>
@@ -42,15 +42,15 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **apresentadores** é o tipo de usuários que podem ser um apresentador para uma reunião online. Os valores de texto para o elemento **apresentadores** são descritos na tabela a seguir. 
+O valor de texto **do elemento Apresentadores** é o tipo de usuários que podem ser apresentadores de uma reunião online. Os valores de texto do elemento **Apresentadores** são descritos na tabela a seguir. 
   
-**Valores de texto do elemento apresentadores**
+**Valores de texto do elemento Apresentadores**
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Desabilitado  <br/> |Os apresentadores estão desabilitados.  <br/> |
-|Interno  <br/> |Somente os participantes internos podem ser apresentadores.  <br/> |
-|Todos  <br/> |Qualquer participante pode ser um apresentador.  <br/> |
+|Desabilitada  <br/> |Os apresentadores estão desabilitados.  <br/> |
+|Interno  <br/> |Somente participantes internos podem ser apresentadores.  <br/> |
+|Todos  <br/> |Qualquer participante pode ser apresentador.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

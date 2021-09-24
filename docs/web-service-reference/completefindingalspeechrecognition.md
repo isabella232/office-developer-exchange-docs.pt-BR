@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31211d0b-da0e-450c-8df2-159571fa3a19
-description: O elemento CompleteFindInGALSpeechRecognition é destinado apenas para uso interno.
-ms.openlocfilehash: 11d8153f262ea115798e0f00b43bd47390b69688
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento CompleteFindInGALSpeechRecognition destina-se apenas ao uso interno.
+ms.openlocfilehash: 13f05850174757c9d0a77875433fe4f54a49a052
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459038"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512042"
 ---
 # <a name="completefindingalspeechrecognition"></a>CompleteFindInGALSpeechRecognition
 
-O elemento **CompleteFindInGALSpeechRecognition** é destinado apenas para uso interno. 
+O **elemento CompleteFindInGALSpeechRecognition** destina-se apenas ao uso interno. 
   
 ```XML
 <CompleteFindInGALSpeechRecognition />
@@ -37,7 +37,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -51,7 +51,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

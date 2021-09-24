@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b88f02a-9c50-44b3-841b-560b24e37af5
-description: O elemento MicrosoftOnline contém um valor que indica se a caixa de correio do usuário está hospedada no Exchange Online ou no Exchange Online como parte do Office 365.
-ms.openlocfilehash: f3144a673a4c98aad821e21c562141b0ae00f426
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MicrosoftOnline contém um valor que indica se a caixa de correio do usuário está hospedada no Exchange Online ou Exchange Online como parte do Office 365.
+ms.openlocfilehash: fbf230df18ca488babb1523cc7f689923eaeb55b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467981"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510942"
 ---
 # <a name="microsoftonline-pox"></a>MicrosoftOnline (POX)
 
-O elemento **microsoftonline** contém um valor que indica se a caixa de correio do usuário está hospedada no Exchange Online ou no Exchange Online como parte do Office 365. 
+O **elemento MicrosoftOnline** contém um valor que indica se a caixa de correio do usuário está hospedada no Exchange Online ou Exchange Online como parte do Office 365. 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Conta (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [MicrosoftOnline (POX)](microsoftonline-pox.md)
   
@@ -46,15 +46,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conta (POX)](account-pox.md) <br/> |Especifica as configurações de conta do usuário ou contém respostas de erro.  <br/> |
+|[Account (POX)](account-pox.md) <br/> |Especifica as configurações da conta para o usuário ou contém respostas de erro.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor de texto indica se a caixa de correio do usuário está hospedada no Exchange Online. O valor será **true** se a caixa de correio do usuário estiver hospedada no Exchange Online; caso contrário, **false**.
+O valor de texto indica se a caixa de correio do usuário está hospedada em Exchange Online. O valor será **true** se a caixa de correio do usuário estiver hospedada em Exchange Online; caso contrário, **false**.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

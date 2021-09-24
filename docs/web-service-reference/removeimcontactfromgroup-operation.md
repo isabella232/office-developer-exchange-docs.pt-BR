@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a190bbec-c71b-4e6a-880b-55854c724d8c
-description: Encontre informações sobre a operação do EWS do RemoveImContactFromGroup.
-ms.openlocfilehash: 4750ef57794c3da540ac36baa8ef6ef093939ea1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação RemoveImContactFromGroup EWS.
+ms.openlocfilehash: 696e05bfa12f3ddd0c9d7bfca4a58368ee115c2b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466966"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512412"
 ---
 # <a name="removeimcontactfromgroup-operation"></a>Operação RemoveImContactFromGroup
 
-Encontre informações sobre a operação do EWS do **RemoveImContactFromGroup** . 
+Encontre informações sobre a **operação RemoveImContactFromGroup** EWS. 
   
-A operação **RemoveImContactFromGroup** remove um único contato de mensagens instantâneas de um grupo de mensagens instantâneas. 
+A **operação RemoveImContactFromGroup** remove um único contato de IM de um grupo de IM. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-removeimcontactfromgroup-operation"></a>Usando a operação RemoveImContactFromGroup
 
-A operação **RemoveImContactFromGroup** leva dois argumentos: um identificador de item de contato e o grupo de mensagens instantâneas (IM) correspondente a partir do qual o contato foi removido. 
+A **operação RemoveImContactFromGroup** tem dois argumentos: um identificador de item de contato e o grupo de mensagens instantâneas correspondente (IM) do qual o contato é removido. 
   
-### <a name="removeimcontactfromgroup-operation-soap-headers"></a>Cabeçalhos SOAP de operação RemoveImContactFromGroup
+### <a name="removeimcontactfromgroup-operation-soap-headers"></a>Headers SOAP da operação RemoveImContactFromGroup
 
-A operação **RemoveImContactFromGroup** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação RemoveImContactFromGroup** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Esse header é aplicável a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "Marcas para a Identificação de Idiomas", a ser usada para acessar a caixa de correio. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
 ## <a name="removeimcontactfromgroup-operation-request-example"></a>Exemplo de solicitação de operação RemoveImContactFromGroup
 
-O exemplo a seguir de uma solicitação de operação **RemoveImContactFromGroup** mostra como remover um contato de mensagens instantâneas de um grupo de mensagens instantâneas. 
+O exemplo a seguir de uma solicitação de operação **RemoveImContactFromGroup** mostra como remover um contato de IM de um grupo de IM. 
   
 > [!NOTE]
-> Os identificadores de grupo e de contato foram reduzidos para preservar a legibilidade. 
+> Os identificadores de grupo e de contato foram reduzidos para preservar a capacidade de leitura. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -69,13 +69,13 @@ O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [RemoveImContactFromGroup](removeimcontactfromgroup.md)
     
-- [ContactID](contactid.md)
+- [ContactId](contactid.md)
     
 - [GroupId](groupid.md)
     
-## <a name="successful-removeimcontactfromgroup-operation-response"></a>Resposta de operação RemoveImContactFromGroup bem-sucedida
+## <a name="successful-removeimcontactfromgroup-operation-response"></a>Resposta bem-sucedida da operação RemoveImContactFromGroup
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **RemoveImContactFromGroup** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **RemoveImContactFromGroup.** 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -107,9 +107,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [ResponseCode](responsecode.md)
     
-## <a name="removeimcontactfromgroup-operation-errorinvalidimcontactid-error-response"></a>Resposta de erro ErrorInvalidImContactId operação RemoveImContactFromGroup
+## <a name="removeimcontactfromgroup-operation-errorinvalidimcontactid-error-response"></a>Resposta de erro da operação RemoveImContactFromGroup ErrorInvalidImContactId
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **RemoveImContactFromGroup** . A seguinte resposta de erro ocorre quando é feita uma tentativa de remover um item de contato que não existe no grupo de mensagens instantâneas. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **RemoveImContactFromGroup.** A seguinte resposta de erro ocorre quando uma tentativa é feita para remover um item de contato que não existe no grupo de mensagens. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

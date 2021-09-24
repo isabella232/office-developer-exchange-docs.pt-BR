@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ec106a5-82f7-4b28-a951-11936877e303
-description: O elemento referenceid especifica o identificador de referência para a caixa de correio.
-ms.openlocfilehash: 98dd9fabf645ea01646ec46ca12cb73b400d8c46
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ReferenceId especifica o identificador de referência da caixa de correio.
+ms.openlocfilehash: 1550d2af105e4080bdb560f85a06ab3655cbf097
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468072"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529346"
 ---
 # <a name="referenceid"></a>ReferenceId
 
-O elemento **referenceid** especifica o identificador de referência para a caixa de correio. 
+O **elemento ReferenceId** especifica o identificador de referência da caixa de correio. 
   
 ```XML
 <ReferenceId></ReferenceId>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **referenceid** é o identificador de referência de uma caixa de correio. 
+O valor de texto do **elemento ReferenceId** é o identificador de referência de uma caixa de correio. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

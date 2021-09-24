@@ -4,29 +4,29 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: c6666a42-a18f-4e4b-beb6-b25ff62cfcc5
-description: A operação GetFederationInformation fornece informações sobre o status de Federação da organização, como o URI de destino a ser usado ao solicitar tokens direcionados a essa organização e os outros domínios que a organização também tenha federado.
-ms.openlocfilehash: 533b2f6d282e3287f4945df56b169f5bc93ff445
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetFederationInformation fornece informações sobre o status de federação da organização, como o URI de destino a ser usado ao solicitar tokens direcionados a essa organização e os outros domínios que a organização também federou.
+ms.openlocfilehash: 915498440e4bc3d7262ed3a55350f7d3723d47d8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455622"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529951"
 ---
 # <a name="getfederationinformation-operation-soap"></a>Operação GetFederationInformation (SOAP)
 
-A operação **GetFederationInformation** fornece informações sobre o status de Federação da organização, como o URI de destino a ser usado ao solicitar tokens direcionados a essa organização e os outros domínios que a organização também tenha federado. 
+A **operação GetFederationInformation** fornece informações sobre o status de federação da organização, como o URI de destino a ser usado ao solicitar tokens direcionados a essa organização e os outros domínios que a organização também federou. 
   
 Somente organizações federadas podem compartilhar calendário, contatos e mensagens para usuários externos.
   
-## <a name="getfederationinformation-request-example"></a>Exemplo de solicitação GetFederationInformation
+## <a name="getfederationinformation-request-example"></a>Exemplo da solicitação GetFederationInformation
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **GetFederationInformation** mostra uma solicitação para as informações de Federação de um usuário. O cliente envia essa solicitação para o servidor. 
+O exemplo a seguir de uma **solicitação GetFederationInformation** mostra uma solicitação para informações de federação de um usuário. O cliente envia essa solicitação para o servidor. 
   
 ### <a name="code"></a>Código
 
@@ -60,21 +60,21 @@ O exemplo a seguir de uma solicitação **GetFederationInformation** mostra uma 
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
 - [GetFederationInformationRequestMessage (SOAP)](getfederationinformationrequestmessage-soap.md)
     
-- [Solicitação (SOAP)](request-soap.md)
+- [Request (SOAP)](request-soap.md)
     
-- [Domínio (SOAP)](domain-soap.md)
+- [Domain (SOAP)](domain-soap.md)
     
-## <a name="getfederationinformation-response-example"></a>Exemplo de resposta GetFederationInformation
+## <a name="getfederationinformation-response-example"></a>Exemplo da resposta GetFederationInformation
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetFederationInformation** que o servidor envia para o cliente. 
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetFederationInformation** que o servidor envia ao cliente. 
   
 ### <a name="code"></a>Código
 
@@ -111,7 +111,7 @@ Os seguintes elementos são usados na resposta:
   
 - [GetFederationInformationResponseMessage (SOAP)](getfederationinformationresponsemessage-soap.md)
     
-- [Resposta (SOAP)](response-soap.md)
+- [Response (SOAP)](response-soap.md)
     
 - [ErrorCode (SOAP)](errorcode-soap.md)
     
@@ -119,9 +119,9 @@ Os seguintes elementos são usados na resposta:
     
 - [ApplicationUri (SOAP)](applicationuri-soap.md)
     
-- [Domínios (SOAP)](domains-soap.md)
+- [Domains (SOAP)](domains-soap.md)
     
-- [Domínio (SOAP)](domain-soap.md)
+- [Domain (SOAP)](domain-soap.md)
     
 ## <a name="see-also"></a>Confira também
 

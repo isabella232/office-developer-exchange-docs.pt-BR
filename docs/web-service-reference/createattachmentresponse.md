@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateAttachmentResponse
 api_type:
 - schema
 ms.assetid: cf6bd8bb-5317-4a03-bd75-297dd359b5da
-description: O elemento CreateAttachmentResponse define uma resposta a uma solicitação de CreateAttachment.
-ms.openlocfilehash: df2b0e37adaeaef32f845e5a28615ce874cb3447
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento CreateAttachmentResponse define uma resposta a uma solicitação CreateAttachment.
+ms.openlocfilehash: 507d7794c566331f7abf1de1f9016c6b20f1320b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466413"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528996"
 ---
 # <a name="createattachmentresponse"></a>CreateAttachmentResponse
 
-O elemento **CreateAttachmentResponse** define uma resposta a uma solicitação de CreateAttachment. 
+O **elemento CreateAttachmentResponse** define uma resposta a uma solicitação CreateAttachment. 
   
 ```xml
 <CreateAttachmentResponse>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

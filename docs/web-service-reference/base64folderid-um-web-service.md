@@ -1,30 +1,30 @@
 ---
-title: base64FolderId (serviço Web da UM)
+title: base64FolderId (serviço Web de Unificação de mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - base64FolderId
 api_type:
 - schema
 ms.assetid: 662f8f2f-49a7-4c7a-9065-98a02a49cfcd
-description: O elemento base64FolderId contém o identificador da pasta para especificar como a pasta de email padrão da qual a Unificação de mensagens lê mensagens por telefone em uma solicitação de operação do SetTelephoneAccessFolderEmail (serviço da Web da UM).
-ms.openlocfilehash: ea31c7a0f93188e563bf95c4a3e6e91f0866746c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento base64FolderId contém o identificador da pasta a ser especificada como a pasta de email padrão da qual a Unificação de Mensagens lê mensagens pelo telefone em uma solicitação de operação SetTelephoneAccessFolderEmail (serviço Web da UM).
+ms.openlocfilehash: 149ad55d0ab09f57b0dc3ace7eb0e17c96265e3f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458044"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518929"
 ---
-# <a name="base64folderid-um-web-service"></a>base64FolderId (serviço Web da UM)
+# <a name="base64folderid-um-web-service"></a>base64FolderId (serviço Web de Unificação de mensagens)
 
-O elemento **base64FolderId** contém o identificador da pasta para especificar como a pasta de email padrão da qual a Unificação de mensagens lê mensagens por telefone em uma solicitação de [operação do SetTelephoneAccessFolderEmail (serviço da Web da um)](settelephoneaccessfolderemail-operation-um-web-service.md) . 
+O **elemento base64FolderId** contém o identificador da pasta a ser especificada como a pasta de email padrão da qual a Unificação de Mensagens lê mensagens pelo telefone em uma solicitação de operação [SetTelephoneAccessFolderEmail (serviço Web](settelephoneaccessfolderemail-operation-um-web-service.md) da UM). 
   
-[SetTelephoneAccessFolderEmail (serviço Web da UM)](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail (serviço Web de Unificação de Mensagens)](settelephoneaccessfolderemail-um-web-service.md)
   
-[base64FolderId (serviço Web da UM)](base64folderid-um-web-service.md)
+[base64FolderId (serviço Web de Unificação de mensagens)](base64folderid-um-web-service.md)
   
 ```xml
 <base64FolderId/>
@@ -47,15 +47,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SetTelephoneAccessFolderEmail (serviço Web da UM)](settelephoneaccessfolderemail-um-web-service.md) <br/> |Define a solicitação para definir a pasta de email de acesso telefônico.  <br/> |
+|[SetTelephoneAccessFolderEmail (serviço Web de Unificação de Mensagens)](settelephoneaccessfolderemail-um-web-service.md) <br/> |Define a solicitação para definir a pasta de email de acesso telefônico.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. O valor de texto representa a ID de MAPI da pasta.
+Um valor de texto é necessário. O valor de texto representa a ID MAPI da pasta.
   
 ## <a name="remarks"></a>Comentários
 
-Para definir a pasta de email de acesso telefônico, use a [operação SetTelephoneAccessFolderEmail (serviço Web da um)](settelephoneaccessfolderemail-operation-um-web-service.md).
+Para definir a pasta de email de acesso telefônico, use a [operação SetTelephoneAccessFolderEmail (serviço Web da UM)](settelephoneaccessfolderemail-operation-um-web-service.md).
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -70,9 +70,9 @@ Para definir a pasta de email de acesso telefônico, use a [operação SetTeleph
 
 
 
-[SetTelephoneAccessFolderEmail (serviço Web da UM)](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail (serviço Web de Unificação de Mensagens)](settelephoneaccessfolderemail-um-web-service.md)
   
-[Operação SetTelephoneAccessFolderEmail (serviço Web da UM)](settelephoneaccessfolderemail-operation-um-web-service.md)
+[Operação SetTelephoneAccessFolderEmail (serviço Web de Unificação de Mensagens)](settelephoneaccessfolderemail-operation-um-web-service.md)
   
 [Operação FindFolder](findfolder-operation.md)
   
