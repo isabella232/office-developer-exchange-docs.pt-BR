@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConflictResults
 api_type:
 - schema
 ms.assetid: 08cdd547-4de7-4c7a-b60f-e618dc217d20
 description: O elemento ConflictResults contém o número de conflitos em uma resposta de operação UpdateItem.
-ms.openlocfilehash: 923c7950e21039adf28e232486f4df5fc04889d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 44b9c6952905274128c3651999b97cb2ee0c1fe8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460166"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519937"
 ---
 # <a name="conflictresults"></a>ConflictResults
 
-O elemento [ConflictResults](conflictresults.md) contém o número de conflitos em uma resposta de [operação UpdateItem](updateitem-operation.md) . 
+O [elemento ConflictResults](conflictresults.md) contém o número de conflitos em uma resposta de operação [UpdateItem.](updateitem-operation.md) 
   
 [UpdateItemResponse](updateitemresponse.md)
   
@@ -50,17 +50,17 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Count](count.md) <br/> |Contém o número de conflitos em uma resposta de [operação UpdateItem](updateitem-operation.md) .  <br/> |
+|[Count](count.md) <br/> |Contém o número de conflitos em uma resposta [de operação UpdateItem.](updateitem-operation.md)  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |Contém o status e o resultado de uma única solicitação de [operação UpdateItem](updateitem-operation.md) .  <br/> |
+|[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |Contém o status e o resultado de uma única [solicitação de operação UpdateItem.](updateitem-operation.md)  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Exchange Server com a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Exchange Server com a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -68,7 +68,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

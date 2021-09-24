@@ -1,28 +1,28 @@
 ---
-title: GetUMProperties (serviço Web da UM)
+title: GetUMProperties (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUMProperties
 api_type:
 - schema
 ms.assetid: 19873b72-ec12-4811-ae5f-6b61f2dbf0cc
-description: O elemento GetUMProperties define uma solicitação de operação do GetUMProperties (serviço Web da UM).
-ms.openlocfilehash: 2cab45ec6b1058f459b65992cf7345f1be171ce7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetUMProperties define uma solicitação de operação GetUMProperties (serviço Web de UM).
+ms.openlocfilehash: 3f13eeb445300dabe6ae3cafc8f89ba7d9cd5411
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459129"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538052"
 ---
-# <a name="getumproperties-um-web-service"></a>GetUMProperties (serviço Web da UM)
+# <a name="getumproperties-um-web-service"></a>GetUMProperties (serviço Web de Unificação de Mensagens)
 
-O elemento **GetUMProperties** define uma solicitação de [operação do GetUMProperties (serviço Web da um)](getumproperties-operation-um-web-service.md) . 
+O **elemento GetUMProperties** define uma solicitação de operação [GetUMProperties (serviço Web de UM).](getumproperties-operation-um-web-service.md) 
   
-[GetUMProperties (serviço Web da UM)](getumproperties-um-web-service.md)
+[GetUMProperties (serviço Web de Unificação de Mensagens)](getumproperties-um-web-service.md)
   
 ```xml
 <GetUMProperties />
@@ -47,7 +47,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -62,5 +62,5 @@ Nenhum
 
 
 
-[Operação GetUMProperties (serviço Web da UM)](getumproperties-operation-um-web-service.md)
+[Operação GetUMProperties (serviço Web de Unificação de Mensagens)](getumproperties-operation-um-web-service.md)
 

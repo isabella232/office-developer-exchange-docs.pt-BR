@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ddb276c4-6c8a-46ef-a2eb-46b6a0bfce09
 description: O elemento SearchMailboxesResult contém o resultado da solicitação SearchMailboxes.
-ms.openlocfilehash: 79d593d99762aedc6290578b5458f9ac3cad3d26
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dee1e12a6d083ca3f8d3ddb509775b454e3e8fc0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466700"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534402"
 ---
 # <a name="searchmailboxesresult"></a>SearchMailboxesResult
 
-O elemento **SearchMailboxesResult** contém o resultado da solicitação **SearchMailboxes** . 
+O **elemento SearchMailboxesResult** contém o resultado da **solicitação SearchMailboxes.** 
   
 ```XML
 <SearchMailboxesResult>
@@ -46,7 +46,7 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[SearchQueries](searchqueries.md)  |  [ResultType](resulttype.md)  |  [ItemCount](itemcount.md)  |  [Tamanho (longo)](size-long.md)  |  [PageItemCount](pageitemcount.md)  |  [PageItemSize](pageitemsize.md)  |  [KeywordStats](keywordstats.md)  |  [Itens (ArrayOfSearchPreviewItemsType)](items-arrayofsearchpreviewitemstype.md)  |  [FailedMailboxes](failedmailboxes.md)  |  [Refinadores](refiners.md)  |  [MailboxStats](mailboxstats.md)
+[SearchQueries](searchqueries.md)  |  [ResultType](resulttype.md)  |  [ItemCount](itemcount.md)  |  [Tamanho (longo)](size-long.md)  |  [PageItemCount](pageitemcount.md)  |  [PageItemSize](pageitemsize.md)  |  [KeywordStats](keywordstats.md)  |  [Items (ArrayOfSearchPreviewItemsType)](items-arrayofsearchpreviewitemstype.md)  |  [FailedMailboxes](failedmailboxes.md)  |  [Refinadores](refiners.md)  |  [MailboxStats](mailboxstats.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 

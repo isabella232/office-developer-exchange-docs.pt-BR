@@ -5,28 +5,28 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 98161486-e2f2-480f-8d5d-708ba81b208a
-description: A operação EmptyFolder esvazia pastas em uma caixa de correio. Opcionalmente, essa operação permite que você exclua as subpastas da pasta especificada. Quando uma subpasta é excluída, a subpasta e as mensagens dentro da subpasta são excluídas.
-ms.openlocfilehash: 1913db74d33f1e6750cd158df5870f257d0e7839
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação EmptyFolder esvazia pastas em uma caixa de correio. Opcionalmente, essa operação permite excluir as subpastas da pasta especificada. Quando uma subpasta é excluída, a subpasta e as mensagens dentro da subpasta são excluídas.
+ms.openlocfilehash: 8191dc7ecea7038a6d885f30d08fe561a59c4ed2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530681"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519664"
 ---
 # <a name="emptyfolder-operation"></a>Operação EmptyFolder
 
-A operação **EmptyFolder** esvazia pastas em uma caixa de correio. Opcionalmente, essa operação permite que você exclua as subpastas da pasta especificada. Quando uma subpasta é excluída, a subpasta e as mensagens dentro da subpasta são excluídas. 
+A **operação EmptyFolder** esvazia pastas em uma caixa de correio. Opcionalmente, essa operação permite excluir as subpastas da pasta especificada. Quando uma subpasta é excluída, a subpasta e as mensagens dentro da subpasta são excluídas. 
   
 ## <a name="emptyfolder-request-example"></a>Exemplo de solicitação EmptyFolder
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **EmptyFolder** mostra como formar uma solicitação para esvaziar uma pasta. Este exemplo exclui todas as subpastas da pasta identificada. 
+Este exemplo a seguir de **uma solicitação EmptyFolder** mostra como formar uma solicitação para esvaziar uma pasta. Este exemplo exclui todas as subpastas da pasta identificada. 
   
 > [!NOTE]
-> Os valores dos atributos **ID** e **ChangeKey** do elemento [FolderId](folderid.md) foram reduzidos para legibilidade. 
+> Os valores da **Id e** os atributos **ChangeKey** do [elemento FolderId](folderid.md) foram reduzidos para a capacidade de leitura. 
   
 ### <a name="code"></a>Código
 
@@ -51,11 +51,11 @@ O exemplo a seguir de uma solicitação **EmptyFolder** mostra como formar uma s
 
 ### <a name="comments"></a>Comentários
 
-Este exemplo executa uma exclusão de disco rígido na pasta.
+Este exemplo executa uma exclusão difícil na pasta.
   
-As pastas podem ser identificadas pelo elemento [DistinguishedFolderId](distinguishedfolderid.md) ou o elemento [FolderId](folderid.md) para uso no elemento [FolderIds](folderids.md) . 
+As pastas podem ser identificadas pelo [elemento DistinguishedFolderId](distinguishedfolderid.md) ou pelo [elemento FolderId](folderid.md) para uso no [elemento FolderIds.](folderids.md) 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -69,7 +69,7 @@ Os seguintes elementos são usados na solicitação:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **EmptyFolder** . 
+O exemplo a seguir mostra uma resposta bem-sucedida à **solicitação EmptyFolder.** 
   
 ### <a name="code"></a>Código
 
@@ -120,7 +120,7 @@ Os seguintes elementos são usados na resposta:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação **EmptyFolder** . O erro foi criado porque a operação tentou esvaziar uma pasta que não foi encontrada no repositório do Exchange. 
+O exemplo a seguir mostra uma resposta de erro a **uma solicitação Emptyfolder.** O erro foi criado porque a operação tentou esvaziar uma pasta que não foi encontrada no Exchange store. 
   
 ### <a name="code"></a>Código
 

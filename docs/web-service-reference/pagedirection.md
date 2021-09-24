@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 013947f3-cf3c-40b1-baf6-405f26bd375e
-description: O elemento PageDirection contém a direção da paginação no resultado da pesquisa. O valor é anterior ou seguinte.
-ms.openlocfilehash: 22816ff73af49e0f029b5618fa3d45f8880d0f82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PageDirection contém a direção da paginação no resultado da pesquisa. O valor é Previous ou Next.
+ms.openlocfilehash: d6e0cd7b1654e5a8f371f3812ee21858662fcf9f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459725"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539147"
 ---
 # <a name="pagedirection"></a>PageDirection
 
-O elemento **pageDirection** contém a direção da paginação no resultado da pesquisa. O valor é anterior ou seguinte. 
+O **elemento PageDirection** contém a direção da paginação no resultado da pesquisa. O valor é Previous ou Next. 
   
 ```XML
 <PageDirection> Previous | Next </PageDirection>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **pageDirection** é a direção da paginação dos resultados da pesquisa. 
+O valor de texto do **elemento PageDirection** é a direção para paginação dos resultados da pesquisa. 
   
 ## <a name="remarks"></a>Comentários
 

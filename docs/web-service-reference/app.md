@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92b776b5-fec6-4443-a606-51ccb06f7afd
-description: O elemento app contém informações sobre um arquivo de manifesto XML para um aplicativo de email que está instalado em uma caixa de correio.
-ms.openlocfilehash: b5870164b059d2e50930ee33c09cbd030501f171
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento App contém informações sobre um arquivo de manifesto XML para um aplicativo de email instalado em uma caixa de correio.
+ms.openlocfilehash: 548df0f5547c4d7bf3ffacd32308be6824fadaf2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460355"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520119"
 ---
 # <a name="app"></a>App
 
-O elemento **app** contém informações sobre um arquivo de manifesto XML para um aplicativo de email que está instalado em uma caixa de correio. 
+O **elemento App** contém informações sobre um arquivo de manifesto XML para um aplicativo de email instalado em uma caixa de correio. 
   
 ```XML
 <App>
@@ -40,7 +40,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Apps](apps.md)
+[Aplicativos](apps.md)
   
 ## <a name="remarks"></a>Comentários
 
@@ -59,7 +59,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
    
 ## <a name="see-also"></a>Confira também
 
-- [Apps](apps.md)
+- [Aplicativos](apps.md)
 - [Metadata](metadata-ex15websvcsotherref.md)
 - [Manifesto](manifest.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

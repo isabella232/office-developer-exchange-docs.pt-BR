@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54e3ba52-08a6-4d48-8a44-6fd5fdbffb25
-description: O elemento RelativeFolderPath contém uma matriz de pastas que indica o caminho de pasta relativo do caminho da pasta a ser criado.
-ms.openlocfilehash: 8a0fc0020943afdbe6cd4c79d51d61337f8dd329
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RelativeFolderPath contém uma matriz de pastas que indicam o caminho relativo da pasta do caminho da pasta a ser criado.
+ms.openlocfilehash: f9a1f193678e9dbd7686376c630ab2fbd0eaf1bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513455"
 ---
 # <a name="relativefolderpath"></a>RelativeFolderPath
 
-O elemento **RelativeFolderPath** contém uma matriz de pastas que indica o caminho de pasta relativo do caminho da pasta a ser criado. 
+O **elemento RelativeFolderPath** contém uma matriz de pastas que indicam o caminho relativo da pasta do caminho da pasta a ser criado. 
   
 ```XML
 <RelativeFolderPath>
@@ -44,7 +44,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Createfolderpath](createfolderpath.md)
+[CreateFolderPath](createfolderpath.md)
   
 ## <a name="remarks"></a>Comentários
 

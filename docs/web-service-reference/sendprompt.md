@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22cb5a30-75d9-49a8-9d98-255f2e8a722d
-description: O elemento SendPrompt especifica o tipo de ação permitida para uma opção de votação.
-ms.openlocfilehash: 98ffc69cdc94c3f7b9c325bee0c1ebaeb407ee96
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SendPrompt especifica o tipo de ação permitido para uma opção de votação.
+ms.openlocfilehash: 32537210aadce91911d1fb5002fbafcaa70aa9ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462098"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532129"
 ---
 # <a name="sendprompt"></a>SendPrompt
 
-O elemento **SendPrompt** especifica o tipo de ação permitida para uma opção de votação. 
+O **elemento SendPrompt** especifica o tipo de ação permitido para uma opção de votação. 
   
 ```XML
 <SendPrompt> None | Send | VotingOption </SendPrompt>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **SendPrompt** é uma ação de opção de votação. A tabela a seguir lista os valores possíveis para este elemento. 
+O valor de texto do **elemento SendPrompt** é uma ação de opção de votação. A tabela a seguir lista os valores possíveis para esse elemento. 
   
 ****
 
@@ -50,7 +50,7 @@ O valor de texto do elemento **SendPrompt** é uma ação de opção de votaçã
 |:-----|:-----|
 |Nenhum  <br/> |Nenhuma ação.  <br/> |
 |Enviar  <br/> |A resposta é enviada imediatamente.  <br/> |
-|VotingOption  <br/> |O aprovador pode inserir comentários ao aprovar ou rejeitar.  <br/> |
+|VotingOption  <br/> |O aprovador pode inserir comentários durante a aprovação ou rejeição.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também

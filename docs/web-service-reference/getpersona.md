@@ -1,23 +1,23 @@
 ---
-title: Getpersona
+title: GetPersona
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea5b3ce2-40db-41e8-a8cd-934e8f72e782
-description: O elemento getpersona contém a solicitação para obter uma pessoa.
-ms.openlocfilehash: 8e31e2688b9313d7db6c73e2d1f92e8d7cf4f246
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetPersona contém a solicitação para obter uma persona.
+ms.openlocfilehash: 401a1a302a4894e5e7e6a908c2912d5322195e53
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455608"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533543"
 ---
-# <a name="getpersona"></a>Getpersona
+# <a name="getpersona"></a>GetPersona
 
-O elemento **Getpersona** contém a solicitação para obter uma pessoa. 
+O **elemento GetPersona** contém a solicitação para obter uma persona. 
   
 ```XML
 <GetPersona>
@@ -25,7 +25,7 @@ O elemento **Getpersona** contém a solicitação para obter uma pessoa.
 </GetPersona>
 ```
 
- **Getpersonatype**
+ **GetPersonaType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -36,11 +36,11 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Personaid](personaid.md)
+[PersonaId](personaid.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

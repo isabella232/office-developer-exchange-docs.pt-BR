@@ -5,44 +5,44 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ae00a99-b37b-4194-829c-fe300db6ab99
 description: Encontre informações sobre a operação GetConversationItems.
-ms.openlocfilehash: ddeb5386e56653a32ca2e6d212518704cd0f0c58
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0de9a380aa2f9b25e9a7ef90ebe7a9f485ca60d0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457778"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513665"
 ---
 # <a name="getconversationitems-operation"></a>Operação GetConversationItems
 
-Encontre informações sobre a operação **GetConversationItems** . 
+Encontre informações sobre a **operação GetConversationItems.** 
   
-A operação **GetConversationItems** Obtém um ou mais conjuntos de itens que são organizados em para nós em uma conversa. 
+A **operação GetConversationItems** obtém um ou mais conjuntos de itens que são organizados em nós em uma conversa. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-getconversationitems-operation"></a>Usando a operação GetConversationItems
 
-Você pode usar a operação **GetConversationItems** para obter itens em conversas para caixas de correio primárias e de arquivo morto. 
+Você pode usar a **operação GetConversationItems** para obter itens em conversas para caixas de correio primárias e de arquivo morto. 
   
-### <a name="getconversationitems-operation-soap-headers"></a>Cabeçalhos SOAP de operação GetConversationItems
+### <a name="getconversationitems-operation-soap-headers"></a>Headers soap da operação GetConversationItems
 
-A operação **GetConversationItems** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação GetConversationItems** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. O valor mínimo para esse elemento é **Exchange2013**. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. O valor mínimo para esse elemento é **Exchange2013**. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="getconversationitems-operation-request-example-get-items-in-a-single-conversation"></a>Exemplo de solicitação de operação GetConversationItems: obter itens em uma única conversa
+## <a name="getconversationitems-operation-request-example-get-items-in-a-single-conversation"></a>Exemplo da solicitação de operação GetConversationItems: Obter itens em uma única conversa
 
-O exemplo a seguir de uma solicitação de operação **GetConversationItems** mostra como obter todos os itens de conversa em uma única conversa, com exceção dos itens localizados nas pastas itens excluídos e rascunhos. Cada item retornado na resposta conterá um identificador de item, um assunto e a hora em que o item foi recebido na caixa de correio. 
+O exemplo a seguir de uma solicitação de operação **GetConversationItems** mostra como obter todos os itens de conversa em uma única conversa, com exceção de itens localizados nas pastas Itens Excluídos e Rascunhos. Cada item retornado na resposta conterá um identificador de item, um assunto e a hora em que o item foi recebido na caixa de correio. 
   
 > [!NOTE]
-> Todos os identificadores de item e as chaves de alteração deste artigo foram reduzidos para preservar a legibilidade. 
+> Todos os identificadores de item e teclas de alteração neste artigo foram reduzidos para preservar a capacidade de leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -77,19 +77,19 @@ O exemplo a seguir de uma solicitação de operação **GetConversationItems** m
 </soap:Envelope>
 ```
 
-Este exemplo de uma solicitação **GetConversationItems** não inclui as seguintes opções: 
+Este exemplo de uma **solicitação GetConversationItems** não inclui as seguintes opções: 
   
-- O elemento [MaxItemsToReturn](maxitemstoreturn.md) , que define o número máximo de itens a serem retornados na resposta. 
+- O [elemento MaxItemsToReturn,](maxitemstoreturn.md) que define o número máximo de itens a retornar na resposta. 
     
-- O elemento [MailboxScope](mailboxscope.md) , que define o escopo da caixa de correio, indicando se a operação **GetConversationItems** deve ser executada na caixa de correio principal, na caixa de correio de arquivo morto ou nas duas caixas de correio. 
+- O elemento [MailboxScope,](mailboxscope.md) que define o escopo da caixa de correio indicando se a operação **GetConversationItems** deve ser executada na caixa de correio principal, na caixa de correio de arquivo morto ou em ambas as caixas de correio. 
     
-- O elemento [SyncState (base64Binary)](syncstate-base64binary.md) , que define o estado de sincronização para obter apenas itens de conversa novos ou atualizados na conversa. Este elemento é definido para cada conversa. 
+- O [elemento SyncState (base64Binary),](syncstate-base64binary.md) que define o estado de sincronização para obter apenas itens de conversa novos ou atualizados na conversa. Esse elemento é definido para cada conversa. 
     
 O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [GetConversationItems](getconversationitems.md)
     
-- [Shape](itemshape.md)
+- [ItemShape](itemshape.md)
     
 - [BaseShape](baseshape.md)
     
@@ -105,11 +105,11 @@ O corpo SOAP de solicitação contém os seguintes elementos:
     
 - [Conversas](conversations-ex15websvcsotherref.md)
     
-- [Conversa (ConversationRequestType)](conversation-conversationrequesttype.md)
+- [Conversation (ConversationRequestType)](conversation-conversationrequesttype.md)
     
 - [ConversationId](conversationid.md)
     
-## <a name="successful-getconversationitems-operation-response"></a>Resposta de operação GetConversationItems bem-sucedida
+## <a name="successful-getconversationitems-operation-response"></a>Resposta bem-sucedida da operação GetConversationItems
 
 O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetConversationItems** para obter itens em uma única conversa. 
   
@@ -213,7 +213,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [ResponseCode](responsecode.md)
     
-- [Conversa (ConversationResponseType)](conversation-conversationresponsetype.md)
+- [Conversation (ConversationResponseType)](conversation-conversationresponsetype.md)
     
 - [ConversationId](conversationid.md)
     
@@ -225,7 +225,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [InternetMessageId](internetmessageid.md)
     
-- [Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [Mensagem](message-ex15websvcsotherref.md)
     
@@ -235,9 +235,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [DateTimeReceived](datetimereceived.md)
     
-## <a name="getconversationitems-operation-error-response"></a>Resposta de erro de operação GetConversationItems
+## <a name="getconversationitems-operation-error-response"></a>Resposta de erro da operação GetConversationItems
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetConversationItems** para obter itens em uma conversa que não existe mais na caixa de correio ou para os quais todos os itens de conversa estão localizados em pastas ignoradas. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetConversationItems** para obter itens em uma conversa que não existe mais na caixa de correio ou para a qual todos os itens de conversa estão localizados em pastas ignoradas. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -261,7 +261,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 
 ## <a name="see-also"></a>Confira também
 
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
     
 - [Operação ApplyConversationAction](applyconversationaction-operation.md)
     

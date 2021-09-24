@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 3b0f5841-0c8f-4a9d-be75-cdf6cc2c35ab
-description: O elemento GetFederationInformationRequestMessage prepara uma chamada para o servidor para solicitar dados de configuração para o serviço de token de segurança (STS).
-ms.openlocfilehash: cc1e4d67f5bba6e571aeb94d3f27b67baac4c224
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetFederationInformationRequestMessage prepara uma chamada para o servidor para solicitar dados de configuração para o sts (serviço de token de segurança).
+ms.openlocfilehash: d8deb65d4aecb471f270871a837bb0d340cb2c74
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467022"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513637"
 ---
 # <a name="getfederationinformationrequestmessage-soap"></a>GetFederationInformationRequestMessage (SOAP)
 
-O elemento **GetFederationInformationRequestMessage** prepara uma chamada para o servidor para solicitar dados de configuração para o serviço de token de segurança (STS). 
+O **elemento GetFederationInformationRequestMessage** prepara uma chamada para o servidor para solicitar dados de configuração para o sts (serviço de token de segurança). 
   
 ```XML
 <GetFederationInformationRequestMessage>
@@ -39,7 +39,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Solicitação (GetFederationInformation) (SOAP)](request-getfederationinformationsoap.md) <br/> |Representa uma solicitação **GetFederationInformation** .  <br/> |
+|[Request (GetFederationInformation) (SOAP)](request-getfederationinformationsoap.md) <br/> |Representa uma **solicitação GetFederationInformation.**  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -47,14 +47,14 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Errors
 api_type:
 - schema
 ms.assetid: ea37a2b5-e2d1-4089-960f-7014b9535a50
-description: O elemento Errors contém um conjunto de propriedades para armazenar os erros retornados pelo serviço Web.
-ms.openlocfilehash: a2f888a81791fe0b57eee6123c4b0f5f609f3e75
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Errors contém um pacote de propriedades para armazenar erros retornados por meio do serviço Web.
+ms.openlocfilehash: 9a5aba212aefbddbd2a85377e61449d2da408368
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465902"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520567"
 ---
 # <a name="errors"></a>Erros
 
-O elemento **Errors** contém um conjunto de propriedades para armazenar os erros retornados pelo serviço Web. 
+O **elemento Errors** contém um pacote de propriedades para armazenar erros retornados por meio do serviço Web. 
   
 [FindMessageTrackingReport](findmessagetrackingreport.md)
   
@@ -46,14 +46,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Propriedades (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contém uma lista de uma ou mais propriedades de controle.  <br/> |
+|[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contém uma lista de uma ou mais propriedades de controle.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contém o status e o resultado de uma única solicitação de [operação FindMessageTrackingReport](findmessagetrackingreport-operation.md) .  <br/> |
-|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contém o resultado de uma única solicitação de [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md) .  <br/> |
+|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contém o status e o resultado de uma única [solicitação de operação FindMessageTrackingReport.](findmessagetrackingreport-operation.md)  <br/> |
+|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contém o resultado de uma única [solicitação de operação GetMessageTrackingReport.](getmessagetrackingreport-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -61,7 +61,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 

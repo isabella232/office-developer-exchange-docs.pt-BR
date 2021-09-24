@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: afcacecd-f081-4419-a6d5-e45070839f9a
 description: O elemento ProtocolConnections contém zero ou mais conexões de protocolo.
-ms.openlocfilehash: 6272bdf3aec8ba6572b07659416413c393954d93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8f4fdc18c0c9b3e5b39424e6360641b51890c602
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457757"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532286"
 ---
 # <a name="protocolconnections-soap"></a>ProtocolConnections (SOAP)
 
-O elemento **ProtocolConnections** contém zero ou mais conexões de protocolo. 
+O **elemento ProtocolConnections** contém zero ou mais conexões de protocolo. 
   
 ```XML
 <ProtocolConnections>
@@ -49,14 +49,14 @@ Nenhum
    
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

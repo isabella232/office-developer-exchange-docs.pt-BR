@@ -1,24 +1,24 @@
 ---
-title: Usuários (SOAP)
+title: Users (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 4e051617-4eea-47d0-871a-ea1f17a0f711
 description: O elemento Users representa uma coleção de endereços de email dos usuários para os quais as configurações devem ser recuperadas.
-ms.openlocfilehash: 851447a2918e365b7c5d8812a61c9d425d26ffa2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: eabf0d2cd38396e907ca467596c2e55d1eb78e02
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461895"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538517"
 ---
-# <a name="users-soap"></a>Usuários (SOAP)
+# <a name="users-soap"></a>Users (SOAP)
 
-O elemento **Users** representa uma coleção de endereços de email dos usuários para os quais as configurações devem ser recuperadas. 
+O **elemento Users** representa uma coleção de endereços de email dos usuários para os quais as configurações devem ser recuperadas. 
   
 ```XML
 <Users>
@@ -39,25 +39,25 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Usuário (SOAP)](user-soap.md) <br/> |Representa o endereço de email de um usuário.  <br/> |
+|[User (SOAP)](user-soap.md) <br/> |Representa o endereço de email de um usuário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetUserSettingsRequest (SOAP)](getusersettingsrequest-soap.md) <br/> |Representa uma solicitação para recuperar as configurações especificadas de um ou mais usuários.  <br/> |
-|[Solicitação (SOAP)](request-soap.md) <br/> |Contém as definições de configuração solicitadas e os usuários de destino.  <br/> |
+|[GetUserSettingsRequest (SOAP)](getusersettingsrequest-soap.md) <br/> |Representa uma solicitação para recuperar as configurações especificadas para um ou mais usuários.  <br/> |
+|[Request (SOAP)](request-soap.md) <br/> |Contém as configurações solicitadas e os usuários de destino.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

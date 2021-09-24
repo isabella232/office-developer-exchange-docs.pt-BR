@@ -1,27 +1,27 @@
 ---
-title: IsCanceled
+title: IsCancelled
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsCancelled
 api_type:
 - schema
 ms.assetid: 50c1e97f-2913-47a1-8457-60428a3c5b92
-description: O elemento IsCanceled indica se um compromisso ou uma reunião foi cancelado.
-ms.openlocfilehash: 946c9d956da9cf31e9fa08d4ab6f4950b11214b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento IsCancelled indica se um compromisso ou reunião foi cancelado.
+ms.openlocfilehash: 2fa7033025d6fe86c8ad98cd1eea5c19aa85999d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455566"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512923"
 ---
-# <a name="iscancelled"></a>IsCanceled
+# <a name="iscancelled"></a>IsCancelled
 
-O elemento **IsCanceled** indica se um compromisso ou uma reunião foi cancelado. 
+O **elemento IsCancelled** indica se um compromisso ou reunião foi cancelado. 
   
 ```xml
 <IsCancelled/>
@@ -44,12 +44,12 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto que representa um valor booliano é necessário se esse elemento for incluído. Um valor **true** indica que o item de calendário foi cancelado. Um valor **false** indica que um item de calendário não foi cancelado. 
+Um valor de texto que representa um valor Boolean é necessário se esse elemento for incluído. Um valor **true** indica que o item de calendário foi cancelado. Um valor **false** indica que um item de calendário não foi cancelado. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

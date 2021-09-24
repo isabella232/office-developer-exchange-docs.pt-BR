@@ -1,23 +1,23 @@
 ---
-title: Grupos (ArrayOfImGroupType)
+title: Groups (ArrayOfImGroupType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 544dbb60-d6cb-47e1-b157-f0166147b6cf
-description: O elemento groups representa uma matriz de grupos de mensagens instantâneas (IM).
-ms.openlocfilehash: ad866afdecbcac0e555978647e3a46a033361672
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Groups representa uma matriz de grupos de mensagens instantâneas (IM).
+ms.openlocfilehash: 692d50deef065fc993e97efe61f532d4fe1549f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530068"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537892"
 ---
-# <a name="groups-arrayofimgrouptype"></a>Grupos (ArrayOfImGroupType)
+# <a name="groups-arrayofimgrouptype"></a>Groups (ArrayOfImGroupType)
 
-O elemento **groups** representa uma matriz de grupos de mensagens instantâneas (IM). 
+O **elemento Groups** representa uma matriz de grupos de mensagens instantâneas (IM). 
   
 ```XML
 <Groups>
@@ -37,11 +37,11 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Imgroup](imgroup.md)
+[ImGroup](imgroup.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Imitemlist](imitemlist.md)
+[ImItemList](imitemlist.md)
   
 ## <a name="remarks"></a>Comentários
 

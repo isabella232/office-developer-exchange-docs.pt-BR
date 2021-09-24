@@ -1,23 +1,23 @@
 ---
-title: Lembretes
+title: Reminders
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19294300-ab84-4784-8aa7-3395a08de640
-description: O elemento Reminders especifica os lembretes retornados na resposta a uma solicitação getlembretes.
-ms.openlocfilehash: 1ddf1c10872dcce103919dbed3d1c5e04cdfca74
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Reminders especifica os lembretes retornados na resposta a uma solicitação GetReminders.
+ms.openlocfilehash: 0b760e93bf27f0fdaad9464580fad924367dea32
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458492"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513406"
 ---
-# <a name="reminders"></a>Lembretes
+# <a name="reminders"></a>Reminders
 
-O elemento **Reminders** especifica os lembretes retornados na resposta a uma solicitação **getlembretes** . 
+O **elemento Reminders** especifica os lembretes retornados na resposta a uma **solicitação GetReminders.** 
   
 ```XML
 <Reminders>

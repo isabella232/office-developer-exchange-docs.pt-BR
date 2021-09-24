@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetServerTimeZones
 api_type:
 - schema
 ms.assetid: 2a89098b-d89b-4d01-827b-50be00f7cbe9
-description: O elemento GetServerTimeZones é o elemento raiz em uma solicitação para recuperar definições de fuso horário do Exchange Server.
-ms.openlocfilehash: 797e4543c94b0628242bcf544fe9a735ebaa5a63
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetServerTimeZones é o elemento raiz de uma solicitação para recuperar definições de fuso horário do servidor Exchange.
+ms.openlocfilehash: b710334e5778f8bc27ba7ac07c6bf9c2e2d3392e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460936"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533536"
 ---
 # <a name="getservertimezones"></a>GetServerTimeZones
 
-O elemento **GetServerTimeZones** é o elemento raiz em uma solicitação para recuperar definições de fuso horário do Exchange Server. 
+O **elemento GetServerTimeZones** é o elemento raiz em uma solicitação para recuperar definições de fuso horário do servidor Exchange. 
   
 ```xml
 <GetServerTimeZones ReturnFullTimeZoneData="">   <Ids/></GetServerTimeZones>
@@ -42,22 +42,22 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|**verdadeiro** <br/> |Retorna as definições completas de cada fuso horário.  <br/> |
-|**false** <br/> |Retornar apenas o nome e o identificador de cada fuso horário.  <br/> |
+|**true** <br/> |Retorne as definições completas para cada fuso horário.  <br/> |
+|**false** <br/> |Retorne apenas o nome e o identificador para cada fuso horário.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Código](ids.md) <br/> |Contém uma matriz de identificadores de definição de fuso horário que especifica as definições de fuso horário solicitadas. Este elemento é opcional. Se esse elemento não estiver incluído na solicitação de [operação GetServerTimeZones](getservertimezones-operation.md) , todas as definições de fuso horário disponíveis no servidor serão retornadas na resposta.  <br/> |
+|[Ids](ids.md) <br/> |Contém uma matriz de identificadores de definição de fuso horário que especifica as definições de fuso horário solicitadas. Esse elemento é opcional. Se esse elemento não estiver incluído na solicitação de operação [GetServerTimeZones,](getservertimezones-operation.md) todas as definições de fuso horário disponíveis no servidor serão retornadas na resposta.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 

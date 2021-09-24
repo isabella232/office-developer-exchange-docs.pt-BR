@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 921ecc73-b7e2-40a7-8458-68f18dd5a13b
-description: O elemento InPlaceHoldConfigurationOnly especifica se é para incluir a configuração de bloqueio in-loco.
-ms.openlocfilehash: ca364ee7d8a9e2e4a608f8f6c4ca5851fa7d4b64
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento InPlaceHoldConfigurationOnly especifica se deve incluir a configuração de espera local.
+ms.openlocfilehash: 3b1f12bb2d021693b20c3a9013c889b1a8074e62
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466098"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532921"
 ---
 # <a name="inplaceholdconfigurationonly"></a>InPlaceHoldConfigurationOnly
 
-O elemento **InPlaceHoldConfigurationOnly** especifica se é para incluir a configuração de bloqueio in-loco. 
+O **elemento InPlaceHoldConfigurationOnly** especifica se deve incluir a configuração de espera local. 
   
 ```XML
 <InPlaceHoldConfigurationOnly>true | false</InPlaceHoldConfigurationOnly>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **InPlaceHoldConfigurationOnly** indica que a configuração de bloqueio in-loco está incluída. Um valor **false** indica que a configuração de bloqueio in-loco não está incluída. 
+Um valor de texto **true** para o **elemento InPlaceHoldConfigurationOnly** indica que a configuração de espera no local está incluída. Um valor **false** indica que a configuração de espera no local não está incluída. 
   
 ## <a name="remarks"></a>Comentários
 

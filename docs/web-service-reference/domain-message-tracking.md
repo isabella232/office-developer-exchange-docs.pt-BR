@@ -1,27 +1,27 @@
 ---
-title: Domínio (controle de mensagens)
+title: Domain (Message Tracking)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Domain
 api_type:
 - schema
 ms.assetid: 4e8e9efa-8885-4ca5-bf90-424e63768dc3
 description: O elemento Domain representa o domínio a ser pesquisado.
-ms.openlocfilehash: 77da9028766881b9bc633e1b3318cd4d70c6b72f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9ba07f452a096b9dc982f6a6088cd16cbf41ec8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457022"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520852"
 ---
-# <a name="domain-message-tracking"></a>Domínio (controle de mensagens)
+# <a name="domain-message-tracking"></a>Domain (Message Tracking)
 
-O elemento **Domain** representa o domínio a ser pesquisado. 
+O **elemento Domain** representa o domínio a ser pesquisado. 
   
 ```XML
 <Domain/>
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Contém critérios para os tipos de mensagens a serem localizados.  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Contém critérios para os tipos de mensagens a encontrar.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

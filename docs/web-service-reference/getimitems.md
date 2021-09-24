@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 455e5709-6c06-49fd-bfb2-403fc912287c
-description: O elemento de solicitação GetImItems define uma solicitação para obter informações sobre os grupos de mensagens instantâneas e as pessoas de contato de mensagens instantâneas especificadas.
-ms.openlocfilehash: e3973cbbf800ffe91472b9c733c4d4a927b91c9f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento de solicitação GetImItems define uma solicitação para obter informações sobre os grupos de mensagens instantâneas especificados e as personas de contato de mensagens instantâneas.
+ms.openlocfilehash: 99be8e898623b5bc8c517886132b77da40a7fb1e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456448"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513588"
 ---
 # <a name="getimitems"></a>GetImItems
 
-O elemento de solicitação **GetImItems** define uma solicitação para obter informações sobre os grupos de mensagens instantâneas e as pessoas de contato de mensagens instantâneas especificadas. 
+O **elemento de solicitação GetImItems** define uma solicitação para obter informações sobre os grupos de mensagens instantâneas especificados e as personas de contato de mensagens instantâneas. 
   
 ```XML
 <GetImItems>
@@ -42,7 +42,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

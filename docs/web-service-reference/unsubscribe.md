@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Unsubscribe
 api_type:
 - schema
 ms.assetid: 5584db5f-553a-47ce-85fb-f9902c9990ab
 description: O elemento Unsubscribe contém as propriedades usadas para cancelar uma assinatura.
-ms.openlocfilehash: d3d9c3bf9ad97cc0fdabf574c6505c797583838a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9d3c7c7067138c75297d9576f3c14b4c3c921265
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467211"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538629"
 ---
 # <a name="unsubscribe"></a>Cancelar assinatura
 
@@ -48,7 +48,7 @@ Nenhum
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ApplyConversationActionResponse
 api_type:
 - schema
 ms.assetid: 682d47a6-f9fe-4cc6-a56c-c5db835d5ec6
 description: O elemento ApplyConversationActionResponse define uma resposta a uma solicitação de operação ApplyConversationAction.
-ms.openlocfilehash: 22955378f8982c92b4cd0e9b8880b6907f47aa0c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 99c86b791050691ab3b3b39a42af8e94acdc16f6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461671"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520084"
 ---
 # <a name="applyconversationactionresponse"></a>ApplyConversationActionResponse
 
-O elemento **ApplyConversationActionResponse** define uma resposta a uma solicitação de [operação ApplyConversationAction](applyconversationaction-operation.md) . 
+O **elemento ApplyConversationActionResponse** define uma resposta a uma solicitação de operação [ApplyConversationAction.](applyconversationaction-operation.md) 
   
 [ApplyConversationActionResponse](applyconversationactionresponse.md)
   
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 

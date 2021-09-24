@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReminderIsSet
 api_type:
 - schema
 ms.assetid: fa366afe-77a0-4c14-9edb-ffc9699131ba
-description: O elemento ReminderIsSet indica se um lembrete foi definido para um item no repositório do Exchange.
-ms.openlocfilehash: 293391866ae769f697f865749335c9323839a1d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ReminderIsSet indica se um lembrete foi definido para um item no Exchange store.
+ms.openlocfilehash: 2faa32b9b58789ecefd3b0c412d764765d5afada
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528717"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513420"
 ---
 # <a name="reminderisset"></a>ReminderIsSet
 
-O elemento **ReminderIsSet** indica se um lembrete foi definido para um item no repositório do Exchange. 
+O **elemento ReminderIsSet** indica se um lembrete foi definido para um item no Exchange store. 
   
 ```xml
 <ReminderIsSet/>
@@ -44,21 +44,21 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição.  <br/> |
-|[Item](item.md) <br/> |Representa um item no repositório do Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no repositório do Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
-|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
-|[RemoveItem](removeitem.md) <br/> |Remove um item do repositório do Exchange.  <br/> |
-|[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
+|[Item](item.md) <br/> |Representa um item no Exchange store.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no Exchange store.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no Exchange store.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no Exchange store.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma Exchange de email.  <br/> |
+|[RemoveItem](removeitem.md) <br/> |Remove um item do Exchange store.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor **true** indica que um lembrete foi definido. 
+Um valor de texto **true** indica que um lembrete foi definido. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -70,7 +70,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Falso  <br/> |
    
 

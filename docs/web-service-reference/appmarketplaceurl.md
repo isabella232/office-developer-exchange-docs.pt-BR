@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c228877b-5a0e-49b7-b82e-043bc786c80f
-description: O elemento AppMarketplaceUrl especifica a URL para o Marketplace de aplicativos.
-ms.openlocfilehash: 7e924edcf49d1716f4d9dc251c1294f595d27525
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AppMarketplaceUrl especifica a URL do marketplace de aplicativos.
+ms.openlocfilehash: 7f77272b44c1a06a5d3f5f3a7d5919b20a860dab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466035"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520063"
 ---
 # <a name="appmarketplaceurl"></a>AppMarketplaceUrl
 
-O elemento **AppMarketplaceUrl** especifica a URL para o Marketplace de aplicativos. 
+O **elemento AppMarketplaceUrl** especifica a URL do marketplace de aplicativos. 
   
 ```XML
 <AppMarketplaceUrl></AppMarketplaceUrl>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetAppMarketplaceUrlResponse](getappmarketplaceurlresponse.md) <br/> |Especifica a mensagem de resposta para uma solicitação **GetAppMarketplaceUrl** .  <br/> |
+|[GetAppMarketplaceUrlResponse](getappmarketplaceurlresponse.md) <br/> |Especifica a mensagem de resposta para uma **solicitação GetAppMarketplaceUrl.**  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **AppMarketplaceUrl** é a URL para o Marketplace de aplicativos. 
+O valor de texto do **elemento AppMarketplaceUrl** é a URL do marketplace de aplicativos. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

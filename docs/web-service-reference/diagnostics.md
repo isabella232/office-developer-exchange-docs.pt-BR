@@ -1,27 +1,27 @@
 ---
-title: La
+title: Diagnostics
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Diagnostics
 api_type:
 - schema
 ms.assetid: fecea440-970a-49da-9796-534ca470cbd6
-description: O elemento Diagnostics fornece informações de tempo e desempenho que são usadas para relatórios em um datacenter.
-ms.openlocfilehash: 9eb46ef7ceb877372aff9b029190af8c8d8115cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Diagnostics fornece informações de tempo e desempenho usadas para relatórios em um DataCenter.
+ms.openlocfilehash: 203df6a3856dcf54e17ce403053deb8631fe14db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467834"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519790"
 ---
-# <a name="diagnostics"></a>La
+# <a name="diagnostics"></a>Diagnostics
 
-O elemento **Diagnostics** fornece informações de tempo e desempenho que são usadas para relatórios em um datacenter. 
+O **elemento Diagnostics** fornece informações de tempo e desempenho usadas para relatórios em um DataCenter. 
   
 ```XML
 <Diagnostics>
@@ -43,13 +43,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[String](string.md) <br/> |Contém uma cadeia de caracteres que é usada por itens, contatos, tarefas e conversas.  <br/> |
+|[String](string.md) <br/> |Contém uma cadeia de caracteres usada por itens, contatos, tarefas e conversas.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contém o status e o resultado de uma única solicitação de [operação FindMessageTrackingReport](findmessagetrackingreport-operation.md) .  <br/> |
+|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contém o status e o resultado de uma única [solicitação de operação FindMessageTrackingReport.](findmessagetrackingreport-operation.md)  <br/> |
 |[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contém a resposta para a [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
    
 ## <a name="text-value"></a>Valor de texto

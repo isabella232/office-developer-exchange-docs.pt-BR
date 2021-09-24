@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 252bddf2-98b6-4824-b548-2fba2bda5384
-description: Encontre informações sobre a operação do EWS do RemoveDistributionGroupFromImList.
-ms.openlocfilehash: 66220f0cab99f404e17136bbb7836ca13d569b53
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação RemoveDistributionGroupFromImList EWS.
+ms.openlocfilehash: 52b653008b7b14d2c2467cc9bb1f8f1475cee8f5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459599"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513392"
 ---
 # <a name="removedistributiongroupfromimlist-operation"></a>Operação RemoveDistributionGroupFromImList
 
-Encontre informações sobre a operação do EWS do **RemoveDistributionGroupFromImList** . 
+Encontre informações sobre a **operação RemoveDistributionGroupFromImList** EWS. 
   
-A operação **RemoveDistributionGroupFromImList** remove um grupo de distribuição da lista de IM (mensagens instantâneas) do Lync quando o Lync usa o Exchange para o repositório de contatos. 
+A **operação RemoveDistributionGroupFromImList** remove um grupo de distribuição da lista de mensagens instantâneas (IM) do Lync quando o Lync usa Exchange para o armazenamento de contatos. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-removedistributiongroupfromimlist-operation"></a>Usando a operação RemoveDistributionGroupFromImList
 
-A operação **RemoveDistributionGroupFromImList** aceita um único argumento que identifica um grupo de distribuição a ser removido da lista de mensagens instantâneas do Lync armazenada em um servidor Exchange. 
+A **operação RemoveDistributionGroupFromImList** aceita um único argumento que identifica um grupo de distribuição a ser removido da lista de IM do Lync armazenada em um servidor Exchange. 
   
-### <a name="removedistributiongroupfromimlist-operation-soap-headers"></a>Cabeçalhos SOAP de operação RemoveDistributionGroupFromImList
+### <a name="removedistributiongroupfromimlist-operation-soap-headers"></a>Headers SOAP da operação RemoveDistributionGroupFromImList
 
-A operação **RemoveDistributionGroupFromImList** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação RemoveDistributionGroupFromImList** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Esse header é aplicável a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "Marcas para a Identificação de Idiomas", a ser usada para acessar a caixa de correio. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="removedistributiongroupfromimlist-operation-request-example-remove-a-distribution-group-from-an-im-list"></a>Exemplo de solicitação de operação RemoveDistributionGroupFromImList: remover um grupo de distribuição de uma lista de mensagens instantâneas
+## <a name="removedistributiongroupfromimlist-operation-request-example-remove-a-distribution-group-from-an-im-list"></a>Exemplo da solicitação de operação RemoveDistributionGroupFromImList: Remover um grupo de distribuição de uma lista de IM
 
-O exemplo a seguir de uma solicitação de operação **RemoveDistributionGroupFromImList** mostra como remover um grupo de distribuição de um grupo de mensagens instantâneas. A operação **RemoveDistributionGroupFromImList** aceita o identificador de grupo exclusivo para identificar o grupo de distribuição a ser removido da lista de mensagens instantâneas. O elemento [ExchangeStoreId](exchangestoreid.md) que é retornado na resposta para a [operação GetImItemList](getimitemlist-operation.md) e a [operação AddDistributionGroupToImList](adddistributiongrouptoimlist-operation.md) identifica os grupos de distribuição que podem ser removidos da lista de mensagens instantâneas. 
+O exemplo a seguir de uma solicitação de operação **RemoveDistributionGroupFromImList** mostra como remover um grupo de distribuição de um grupo de IM. A **operação RemoveDistributionGroupFromImList** aceita o identificador de grupo exclusivo para identificar o grupo de distribuição a ser removido da lista de IM. O [elemento ExchangeStoreId](exchangestoreid.md) retornado na resposta para a operação [GetImItemList](getimitemlist-operation.md) e a operação [AddDistributionGroupToImList](adddistributiongrouptoimlist-operation.md) identifica grupos de distribuição que podem ser removidos da lista de mensagens im. 
   
 > [!NOTE]
-> Todos os identificadores de item e as chaves de alteração deste artigo foram reduzidos para preservar a legibilidade. 
+> Todos os identificadores de item e teclas de alteração neste artigo foram reduzidos para preservar a capacidade de leitura. 
   
 ```XML
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
@@ -61,15 +61,15 @@ O exemplo a seguir de uma solicitação de operação **RemoveDistributionGroupF
 </soap:Envelope>
 ```
 
-Os seguintes elementos são usados na solicitação de corpo SOAP:
+Os seguintes elementos são usados no corpo SOAP da solicitação:
   
 - [RemoveDistributionGroupFromImList](removedistributiongroupfromimlist.md)
     
 - [GroupId](groupid.md)
     
-## <a name="successful-removedistributiongroupfromimlist-operation-response"></a>Resposta de operação RemoveDistributionGroupFromImList bem-sucedida
+## <a name="successful-removedistributiongroupfromimlist-operation-response"></a>Resposta bem-sucedida da operação RemoveDistributionGroupFromImList
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **RemoveDistributionGroupFromImList** para um grupo de distribuição de um grupo de mensagens instantâneas. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **RemoveDistributionGroupFromImList** para remover um grupo de distribuição de um grupo de IM. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -95,7 +95,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de opera
 </s:Envelope>
 ```
 
-Os seguintes elementos são usados no corpo SOAP de resposta:
+Os seguintes elementos são usados no corpo SOAP da resposta:
   
 - [RemoveDistributionGroupFromImListResponse](removedistributiongroupfromimlistresponse.md)
     
@@ -103,7 +103,7 @@ Os seguintes elementos são usados no corpo SOAP de resposta:
     
 ## <a name="removedistributiongroupfromimlist-operation-error-response-example"></a>Exemplo de resposta de erro de operação RemoveDistributionGroupFromImList
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **RemoveDistributionGroupFromImList** . Esta é uma resposta a uma solicitação para remover um grupo de distribuição que já foi removido da caixa de correio. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **RemoveDistributionGroupFromImList.** Esta é uma resposta a uma solicitação para remover um grupo de distribuição que já foi removido da caixa de correio. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -131,7 +131,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-Os seguintes elementos são usados no corpo SOAP de resposta de erro:
+Os seguintes elementos são usados no corpo SOAP da resposta de erro:
   
 - [RemoveDistributionGroupFromImListResponse](removedistributiongroupfromimlistresponse.md)
     
@@ -143,7 +143,7 @@ Os seguintes elementos são usados no corpo SOAP de resposta de erro:
     
 ## <a name="see-also"></a>Confira também
 
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
     
 - [Operação GetImItemList](getimitemlist-operation.md)
     

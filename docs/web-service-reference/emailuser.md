@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc8133ff-c34e-4921-bb56-06e79aee0a8a
 description: O elemento EmailUser especifica um destinatário de email.
-ms.openlocfilehash: c090106a536f4f40908d364cc3c9c43f6fe42beb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d3c1657938f8b4b21123b2f7cb67252e31f3d7b2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456532"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538206"
 ---
 # <a name="emailuser"></a>EmailUser
 
-O elemento **EmailUser** especifica um destinatário de email. 
+O **elemento EmailUser** especifica um destinatário de email. 
   
 ```XML
 <EmailUser>
@@ -39,8 +39,8 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Nome (cadeia de caracteres)](name-string.md) <br/> |Especifica um nome ou chave de refinador de pesquisa ou o nome de um usuário de email.  <br/> |
-|[UserId (cadeia de caracteres)](userid-string.md) <br/> |Especifica o identificador de usuário de um usuário de email.  <br/> |
+|[Name (string)](name-string.md) <br/> |Especifica um nome ou chave do refinador de pesquisa ou o nome de um usuário de email.  <br/> |
+|[UserId (string)](userid-string.md) <br/> |Especifica o identificador de usuário de um usuário de email.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -59,8 +59,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

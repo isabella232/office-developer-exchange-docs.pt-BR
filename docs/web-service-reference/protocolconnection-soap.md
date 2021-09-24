@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 6eef2188-6194-48f1-ad7e-46104aecdf56
 description: O elemento ProtocolConnection representa a conexão de protocolo do cliente Web do servidor.
-ms.openlocfilehash: b9df3febe36db53d7c5bf0610ba857f13aa96abc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a4f48a12981a83206aff266700708745e9d3c1bb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528857"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512580"
 ---
 # <a name="protocolconnection-soap"></a>ProtocolConnection (SOAP)
 
-O elemento **ProtocolConnection** representa a conexão de protocolo do cliente Web do servidor. 
+O **elemento ProtocolConnection** representa a conexão de protocolo do cliente Web do servidor. 
   
 ```XML
 <ProtocolConnection>
@@ -41,9 +41,9 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Nome do host (SOAP)](hostname-soap.md) <br/> |Representa a parte do nome do host do nome completo do computador.  <br/> |
-|[Porta (SOAP)](port-soap.md) <br/> |Representa o número da porta a ser usado para o protocolo.  <br/> |
-|[EncryptionMethod (SOAP)](encryptionmethod-soap.md) <br/> |Representa o método criptográfico que é usado para os protocolos POP, IMAP e SMTP.  <br/> |
+|[Hostname (SOAP)](hostname-soap.md) <br/> |Representa a parte do nome do host do nome completo do computador.  <br/> |
+|[Port (SOAP)](port-soap.md) <br/> |Representa o número da porta a ser usado para o protocolo.  <br/> |
+|[EncryptionMethod (SOAP)](encryptionmethod-soap.md) <br/> |Representa o método criptográfico usado para os protocolos POP, IMAP e SMTP.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -53,14 +53,14 @@ Nenhum
    
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

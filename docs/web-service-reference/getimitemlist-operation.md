@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e31d14e1-0c1f-4b69-98b7-157d59c13698
-description: Encontre informações sobre a operação do EWS do GetImItemList.
-ms.openlocfilehash: aabe84054b93e7de8af6145942493a0224932e45
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação GetImItemList EWS.
+ms.openlocfilehash: c16d3d84c1ede4ef05c70ec31806a91ddca10d9d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456063"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513595"
 ---
 # <a name="getimitemlist-operation"></a>Operação GetImItemList
 
-Encontre informações sobre a operação do EWS do **GetImItemList** . 
+Encontre informações sobre a **operação GetImItemList** EWS. 
   
 ## <a name="using-the-getimitemlist-operation"></a>Usando a operação GetImItemList
 
-A operação **GetImItemList** recupera a lista de grupos de mensagens instantâneas (IM) e contato de mensagens instantâneas em uma caixa de correio. A operação **GetImItemList** não tem argumentos. 
+A **operação GetImItemList** recupera a lista de grupos de mensagens instantâneas (IM) e personas de contato de mensagens instantâneas em uma caixa de correio. A **operação GetImItemList** não leva argumentos. 
   
 This operation was introduced in Exchange Server 2013.
   
-### <a name="getimitemlist-operation-soap-headers"></a>Cabeçalhos SOAP de operação GetImItemList
+### <a name="getimitemlist-operation-soap-headers"></a>Headers SOAP da operação GetImItemList
 
-A operação **GetImItemList** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação GetImItemList** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Esse header é aplicável a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "Marcas para a Identificação de Idiomas", a ser usada para acessar a caixa de correio. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="getimitemlist-operation-request-example-request-your-im-items-list"></a>Exemplo de solicitação de operação GetImItemList: solicitar sua lista de itens de mensagens instantâneas
+## <a name="getimitemlist-operation-request-example-request-your-im-items-list"></a>Exemplo da solicitação de operação GetImItemList: Solicitar sua lista de itens de IM
 
-O exemplo a seguir de uma solicitação de operação **GetImItemList** mostra como solicitar a lista de grupos de IM e pessoas de contato de mensagens instantâneas em uma caixa de correio. O elemento **GetImItemList** é a única opção de elemento no corpo SOAP. 
+O exemplo a seguir de uma solicitação de operação **GetImItemList** mostra como solicitar a lista de grupos de mensagens IM e personas de contato de mensagens em uma caixa de correio. O **elemento GetImItemList** é a única opção de elemento no corpo SOAP. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -59,14 +59,14 @@ O corpo SOAP de solicitação contém o seguinte elemento:
   
 - [GetImItemList](getimitemlist.md)
     
-## <a name="successful-getimitemlist-operation-response"></a>Resposta de operação GetImItemList bem-sucedida
+## <a name="successful-getimitemlist-operation-response"></a>Resposta bem-sucedida da operação GetImItemList
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetImItemList** . A resposta contém quatro grupos de IM. Três dos grupos de mensagens instantâneas — outros contatos, marcados e favoritos — são grupos padrão no repositório do Exchange. O grupo MyCustomGroup2 é um grupo personalizado criado pelo usuário. Os outros contatos e grupos marcados não têm Membros. O grupo favoritos tem um único membro de contato. O MyCustomGroup2 tem dois contatos Membros. Os identificadores de item são fornecidos para que as solicitações subsequentes do **GetItem** possam ser realizadas para obter mais informações sobre os contatos de mensagens instantâneas. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetImItemList.** A resposta contém quatro grupos de mensagens IM. Três dos grupos de mensagens IM — Outros Contatos, Marcados e Favoritos — são grupos padrão no Exchange store. O grupo MyCustomGroup2 é um grupo personalizado criado pelo usuário. Os grupos Outros Contatos e Marcados não têm membros. O grupo Favoritos tem um único membro de contato. O MyCustomGroup2 tem dois contatos de membro. Os identificadores de item são fornecidos para que as solicitações **GetItem** subsequentes possam ser executadas para obter mais informações sobre os contatos de IM. 
   
-Este exemplo retorna duas personas. O primeiro persona representa dois itens de contato: Anthony Smith e Tony Smith. As informações de contato combinadas são retornadas no objeto **persona** . O segundo persona representa um único contato com o nome de exibição de Terence Adams. 
+Este exemplo retorna duas personas. A primeira persona representa dois itens de contato: Antônio Smith e Tony Smith. As informações de contato combinadas são retornadas no **objeto Persona.** A segunda persona representa um único contato com o nome de exibição terence Adams. 
   
 > [!NOTE]
-> Os identificadores de repositório do Exchange, identificadores de item, identificadores de origem, identificadores de pasta e identificadores persona foram reduzidos para preservar a legibilidade. 
+> Os Exchange de armazenamento, identificadores de item, identificadores de origem, identificadores de pasta e identificadores de persona foram reduzidos para preservar a capacidade de leitura. 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -354,7 +354,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [ResponseCode](responsecode.md)
     
-- [Imitemlist](imitemlist.md)
+- [ImItemList](imitemlist.md)
     
 - [DisplayName (cadeia de caracteres)](displayname-string.md)
     
@@ -368,9 +368,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [Personas](personas-ex15websvcsotherref.md)
     
-- [Personaid](personaid.md)
+- [PersonaId](personaid.md)
     
-- [Personatype](personatype.md)
+- [PersonaType](personatype.md)
     
 - [CreationTime](creationtime.md)
     
@@ -388,25 +388,25 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [Nome (EmailAddresstype)](name-emailaddresstype.md)
+- [Name (EmailAddressType)](name-emailaddresstype.md)
     
-- [RoutingType (EmailAddresstype)](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
 - [EmailAddresses (ArrayOfEmailAddressesType)](emailaddresses-arrayofemailaddressestype.md)
     
-- [IMAddress (cadeia de caracteres)](imaddress-string.md)
+- [ImAddress (String)](imaddress-string.md)
     
 - [RelevanceScore](relevancescore.md)
     
-- [Atribuições (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
+- [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
     
-- [Atribuição (PersonaAttributionType)](attribution-personaattributiontype.md)
+- [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
-- [ID (cadeia de caracteres)](id-string.md)
+- [ID (String)](id-string.md)
     
 - [SourceId](sourceid.md)
     
-- [Iswritable](iswritable.md)
+- [IsWritable](iswritable.md)
     
 - [IsQuickContact](isquickcontact.md)
     
@@ -420,9 +420,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [FileAsIds](fileasids.md)
     
-- [Dados fornecidos](givennames.md)
+- [GivenNames](givennames.md)
     
-- [Sobrenomes](surnames.md)
+- [Surnames](surnames.md)
     
 - [HomePhones](homephones.md)
     
@@ -434,13 +434,13 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [EmailAddressAttributedValue](emailaddressattributedvalue.md)
     
-- [Imendereços](imaddresses.md)
+- [ImAddresses](imaddresses.md)
     
-- [Valor (ExtendedPropertyType)](value-extendedpropertytype.md)
+- [Value (ExtendedPropertyType)](value-extendedpropertytype.md)
     
-## <a name="getimitemlist-operation-error-response"></a>Resposta de erro de operação GetImItemList
+## <a name="getimitemlist-operation-error-response"></a>Resposta de erro da operação GetImItemList
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetImItemList** . Esta é uma resposta a uma solicitação que contém uma versão de servidor solicitada incorreta no cabeçalho SOAP. Essa resposta de erro é uma falha SOAP e não é representada no esquema do EWS. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetImItemList.** Esta é uma resposta a uma solicitação que contém uma versão de servidor solicitada incorreta no header SOAP. Essa resposta de erro é uma falha SOAP e não é representada no esquema EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

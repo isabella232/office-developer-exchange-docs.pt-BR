@@ -5,27 +5,27 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserOofSettings
 api_type:
 - schema
 ms.assetid: 153e4440-495b-4972-9811-2fbea740142a
-description: A operação GetUserOofSettings Obtém as configurações e mensagens de ausência temporária (OOF) de um usuário de caixa de correio.
-ms.openlocfilehash: 622faa622b0ea231a6331ff62631885d4252c1f5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetUserOofSettings obtém as configurações e mensagens de um usuário de caixa de correio fora do Office (OOF).
+ms.openlocfilehash: 9298681bff1cce5be37e8bee978ddeb0431bacdc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457694"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533407"
 ---
 # <a name="getuseroofsettings-operation"></a>Operação GetUserOofSettings
 
-A operação **GetUserOofSettings** Obtém as configurações e mensagens de ausência temporária (OOF) de um usuário de caixa de correio. 
+A **operação GetUserOofSettings** obtém as configurações e as mensagens de um usuário de caixa de correio fora do Office (OOF). 
   
-## <a name="soap-headers"></a>Cabeçalhos SOAP
+## <a name="soap-headers"></a>SOAP Headers
 
-A operação **GetUserOofSettings** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir. 
+A **operação GetUserOofSettings** pode usar os headers SOAP listados e descritos na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
@@ -34,16 +34,16 @@ A operação **GetUserOofSettings** pode usar os cabeçalhos SOAP listados e des
    
 ## <a name="using-the-getuseroofsettings-operation"></a>Usando a operação GetUserOofSettings
 
-A operação **GetUserOofSettings** fornece acesso às configurações de ausência temporária de um usuário. Um usuário é identificado pelo endereço de email do usuário. Se a mensagem OOF for nula e OOF estiver habilitada, nenhuma mensagem OOF será enviada. 
+A **operação GetUserOofSettings** fornece acesso às configurações OOF de um usuário. Um usuário é identificado pelo endereço de email do usuário. Se a mensagem OOF for nula e OOF estiver habilitada, nenhuma mensagem OOF será enviada. 
   
 > [!IMPORTANT]
-> Se as mensagens OOF forem definidas por MicrosoftOfficeOutlook, esta operação retornará as mensagens OOF no formato HTML. 
+> Se as mensagens OOF são definidas pelo MicrosoftOfficeOutlook, essa operação retornará as mensagens OOF no formato HTML. 
   
-## <a name="getuseroofsettings-request-example"></a>Exemplo de solicitação GetUserOofSettings
+## <a name="getuseroofsettings-request-example"></a>Exemplo da solicitação GetUserOofSettings
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma solicitação **GetUserOofSettings** que obtém as informações de OOF de um único usuário. 
+O exemplo a seguir mostra uma **solicitação GetUserOofSettings** que obtém as informações OOF de um único usuário. 
   
 ### <a name="code"></a>Código
 
@@ -62,21 +62,21 @@ O exemplo a seguir mostra uma solicitação **GetUserOofSettings** que obtém as
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
 - [GetUserOofSettingsRequest](getuseroofsettingsrequest.md)
     
-- [Caixa de correio (disponibilidade)](mailbox-availability.md)
+- [Mailbox (Availability)](mailbox-availability.md)
     
-- [Endereço (cadeia de caracteres)](address-string.md)
+- [Address (string)](address-string.md)
     
 ## <a name="successful-getuseroofsettings-response-example"></a>Exemplo de resposta GetUserOofSettings bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra um estado de ausência temporária com mensagens de ausência temporária.
+O exemplo a seguir mostra um estado OOF desabilitado com as mensagens OOF.
   
 ### <a name="code"></a>Código
 
@@ -114,7 +114,7 @@ O exemplo a seguir mostra um estado de ausência temporária com mensagens de au
 </soap:Envelope>
 ```
 
-### <a name="successful-getuseroofsettings-response-elements"></a>Elementos de resposta do GetUserOofSettings bem-sucedidos
+### <a name="successful-getuseroofsettings-response-elements"></a>Elementos de resposta GetUserOofSettings bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -132,7 +132,7 @@ Os seguintes elementos são usados na resposta:
     
 - [ExternalAudience](externalaudience.md)
     
-- [Duração (UserOofSettings)](duration-useroofsettings.md)
+- [Duration (UserOofSettings)](duration-useroofsettings.md)
     
 - [StartTime](starttime.md)
     
@@ -150,7 +150,7 @@ Os seguintes elementos são usados na resposta:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro causada por uma tentativa de acessar informações de ausência temporária de outro usuário.
+O exemplo a seguir mostra uma resposta de erro causada por uma tentativa de acessar as informações OOF de outro usuário.
   
 ### <a name="code"></a>Código
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f4f958ed-9cf4-4ebf-9b01-e2df9a7cbd63
-description: O elemento GetPasswordExpirationDate define uma solicitação para obter a data de expiração da senha de uma conta de email. Este elemento é o elemento base para a operação de operação GetPasswordExpirationDate.
-ms.openlocfilehash: ececbf51f71c7d87705d727229fce2314d922efb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetPasswordExpirationDate define uma solicitação para obter a data de expiração da senha de uma conta de email. Esse elemento é o elemento base da operação GetPasswordExpirationDate.
+ms.openlocfilehash: e5c74cc773438780fad0448cd2ae449dae07738f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456490"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520511"
 ---
 # <a name="getpasswordexpirationdate"></a>GetPasswordExpirationDate
 
-O elemento **GetPasswordExpirationDate** define uma solicitação para obter a data de expiração da senha de uma conta de email. Este elemento é o elemento base para a operação de [operação GetPasswordExpirationDate](getpasswordexpirationdate-operation.md) . 
+O **elemento GetPasswordExpirationDate** define uma solicitação para obter a data de expiração da senha de uma conta de email. Esse elemento é o elemento base da operação [GetPasswordExpirationDate.](getpasswordexpirationdate-operation.md) 
   
 ```XML
 <GetPasswordExpirationDate>
@@ -38,11 +38,11 @@ Nenhum
 
 |**Nome do elemento**|**Descrição**|
 |:-----|:-----|
-|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Representa o endereço de email da conta de email para a qual a data de vencimento da senha deve ser retornada.  <br/> |
+|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Representa o endereço de email da conta de email para a qual a data de expiração da senha deve ser retornada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

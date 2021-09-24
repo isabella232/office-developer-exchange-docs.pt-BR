@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d28ed70-4cfe-46e4-8d15-593c6e355bcf
-description: O elemento GlobalIconIndex identifica o índice de ícone global de todos os itens em uma conversa.
-ms.openlocfilehash: 9900a80136a1a7eaae4634afd31568679f6dba1b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GlobalIconIndex identifica o índice de ícone global para todos os itens de uma conversa.
+ms.openlocfilehash: 1f88f3627d24c720dbf3dd7036a7f60a9efeddcc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459458"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519636"
 ---
 # <a name="globaliconindex"></a>GlobalIconIndex
 
-O elemento **GlobalIconIndex** identifica o índice de ícone global de todos os itens em uma conversa. 
+O **elemento GlobalIconIndex** identifica o índice de ícone global para todos os itens de uma conversa. 
   
 ```XML
 <IconIndex>Default | PostItem | MailRead | MailUnread | MailReplied | MailForwarded | MailEncrypted | MailSmimeSigned | MailEncrytedReplied | MailSmimeSignedReplied | MailEncryptedForwarded | MailSmimeSignedForwarded | MailEncryptedRead | MailSmimeSignedRead | MailIrm | MaillrmForwarded | MaillrmReplied | SmsSubmitted | SmsRoutedToDeliveryPoint | SmsRoutedToExternalMessagingSystem | SmsDelivered | OutlookDefaultForContacts | AppointmentItem | AppointmentRecur | AppointmentMeet | AppointmentMeetRecur | AppointmentMeetNY | AppointmentMeetYes | AppointmentMeetNo | AppointmentMeetMaybe | AppointmentMeetCancel | AppointmentMeetInfo | TaskItem | TaskRecur | TaskOwned | TaskDelegated</IconIndex>
@@ -38,45 +38,45 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Conversa (conversatype)](conversation-conversationtype.md)  |  [Item](item.md)  |  [Contato](contact.md)  |  [DistributionList](distributionlist.md)  |  [Mensagem](message-ex15websvcsotherref.md)  |  [CalendarItem](calendaritem.md)  |  [PostItem](postitem.md)  |  [Tarefa](task.md)
+[Conversation (ConversationType)](conversation-conversationtype.md)  |  [Item](item.md)  |  [Contato](contact.md)  |  [DistributionList](distributionlist.md)  |  [Mensagem](message-ex15websvcsotherref.md)  |  [CalendarItem](calendaritem.md)  |  [PostItem](postitem.md)  |  [Tarefa](task.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-A tabela a seguir contém os valores de texto possíveis para o elemento **GlobalIconIndex** . 
+A tabela a seguir contém os valores de texto possíveis para o **elemento GlobalIconIndex.** 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
 |||
 |Padrão  <br/> |Especifica o ícone padrão.  <br/> |
-|Item de postagem  <br/> |Especifica o ícone de um item de postagem.  <br/> |
+|PostItem  <br/> |Especifica o ícone de um item de postagem.  <br/> |
 |MailRead  <br/> |Especifica o ícone de leitura de email.  <br/> |
 |MailUnread  <br/> |Especifica o ícone de email não lido.  <br/> |
 |MailReplied  <br/> |Especifica o ícone de email respondido.  <br/> |
 |MailForwarded  <br/> |Especifica o ícone de email encaminhado.  <br/> |
 |MailEncrypted  <br/> |Especifica o ícone de email criptografado.  <br/> |
-|MailSmimeSigned  <br/> |Especifica o ícone de email assinado S/MIME (Secure/Multipurpose Internet Mail Extensions).  <br/> |
-|MailEncryptedReplied  <br/> |Especifica o ícone de resposta de email criptografado.  <br/> |
+|MailSmimeSigned  <br/> |Especifica o ícone de email assinado Secure/Multipurpose Internet Mail Extensions (S/MIME).  <br/> |
+|MailEncryptedReplied  <br/> |Especifica o ícone de email criptografado.  <br/> |
 |MailSmimeSignedReplied  <br/> |Especifica o ícone de email assinado por S/MIME.  <br/> |
-|MailEncryptedForwarded  <br/> |Especifica o ícone de email encaminhado criptografado.  <br/> |
-|MailSmimeSignedForwarded  <br/> |Especifica o ícone de email enviado por S/MIME.  <br/> |
-|MailEncryptedRead  <br/> |Especifica o ícone criptografar emails lidos.  <br/> |
-|MailSmimeSignedRead  <br/> |Especifica o ícone de leitura/gravação assinada por S/MIME.  <br/> |
-|MailIrm  <br/> |Especifica o ícone de email protegido pelo gerenciamento de direitos de informação (IRM).  <br/> |
-|MailIrmForwarded  <br/> |Especifica o ícone de email encaminhado protegido por IRM.  <br/> |
-|MailIrmReplied  <br/> |Especifica o ícone do email protegido por IRM.  <br/> |
-|SmsSubmitted  <br/> |Especifica o ícone de email enviado para roteamento de serviço de mensagens curtas (SMS).  <br/> |
-|SmsRoutedToDeliveryPoint  <br/> |Especifica o ícone do roteamento do SMS para um ponto de entrega externo.  <br/> |
-|SmsRoutedToExternalMessagingSystem  <br/> |Especifica o ícone do roteamento do SMS para um sistema de mensagens externos.  <br/> |
-|SmsDelivered  <br/> |Especifica o ícone de email entregue pelo SMS.  <br/> |
+|MailEncryptedForwarded  <br/> |Especifica o ícone de email criptografado encaminhado.  <br/> |
+|MailSmimeSignedForwarded  <br/> |Especifica o ícone de email assinado pelo S/MIME.  <br/> |
+|MailEncryptedRead  <br/> |Especifica o ícone de email de leitura criptografado.  <br/> |
+|MailSmimeSignedRead  <br/> |Especifica o ícone de email de leitura assinado por S/MIME.  <br/> |
+|MailIrm  <br/> |Especifica o ícone de email protegido pelo IRM (Gerenciamento de Direitos de Informação).  <br/> |
+|MailIrmForwarded  <br/> |Especifica o ícone de email protegido por IRM.  <br/> |
+|MailIrmReplied  <br/> |Especifica o ícone de email protegido por IRM.  <br/> |
+|SmsSubmitted  <br/> |Especifica o ícone para email enviado para roteamento do Serviço de Mensagem Curta (SMS).  <br/> |
+|SmsRoutedToDeliveryPoint  <br/> |Especifica o ícone para roteamento de SMS para um ponto de entrega externo.  <br/> |
+|SmsRoutedToExternalMessagingSystem  <br/> |Especifica o ícone para roteamento de SMS para um sistema de mensagens externo.  <br/> |
+|SmsDelivered  <br/> |Especifica o ícone de email entregue por SMS.  <br/> |
 |OutlookDefaultForContacts  <br/> |Especifica o ícone padrão para contatos.  <br/> |
-|AppointmentItem  <br/> |Especifica o ícone de item de compromisso.  <br/> |
+|AppointmentItem  <br/> |Especifica o ícone do item de compromisso.  <br/> |
 |AppointmentRecur  <br/> |Especifica o ícone de compromisso recorrente.  <br/> |
 |AppointmentMeet  <br/> |Especifica o ícone da reunião.  <br/> |
 |AppointmentMeetRecur  <br/> |Especifica o ícone de reunião recorrente.  <br/> |
-|AppointmentMeetNY  <br/> |Especifica o ícone de uma resposta provisória à reunião.  <br/> |
+|AppointmentMeetNY  <br/> |Especifica o ícone para uma resposta provisória à reunião.  <br/> |
 |AppointmentMeetYes  <br/> |Especifica o ícone de aceitação da reunião.  <br/> |
-|AppointmentMeetNo  <br/> |Especifica o ícone de reunião recusada.  <br/> |
-|AppointmentMeetMaybe  <br/> |Especifica o ícone de uma resposta da reunião.  <br/> |
+|AppointmentMeetNo  <br/> |Especifica o ícone recusado da reunião.  <br/> |
+|AppointmentMeetMaybe  <br/> |Especifica o ícone para uma resposta talvez à reunião.  <br/> |
 |AppointmentMeetCancel  <br/> |Especifica o ícone de cancelamento da reunião.  <br/> |
 |AppointmentMeetInfo  <br/> |Especifica o ícone de informações da reunião.  <br/> |
 |Item de tarefa  <br/> |Especifica o ícone do item de tarefa.  <br/> |
@@ -96,7 +96,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

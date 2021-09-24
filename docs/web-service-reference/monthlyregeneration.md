@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MonthlyRegeneration
 api_type:
 - schema
 ms.assetid: 9a52ca97-a663-41fe-b61a-61d8c53833ca
-description: O elemento MonthlyRegeneration descreve a frequência, em meses, da qual a tarefa é gerada novamente.
-ms.openlocfilehash: c941bc2606790646d2797df27c854996901c0bc6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MonthlyRegeneration descreve a frequência, em meses, da qual a tarefa é regenerada.
+ms.openlocfilehash: bd69c7fa03959e1fb6657ef8d94f61bcdf4e2b82
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462735"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520384"
 ---
 # <a name="monthlyregeneration"></a>MonthlyRegeneration
 
-O elemento **MonthlyRegeneration** descreve a frequência, em meses, da qual a tarefa é gerada novamente. 
+O **elemento MonthlyRegeneration** descreve a frequência, em meses, da qual a tarefa é regenerada. 
   
 ```xml
 <MonthlyRegeneration>
@@ -48,7 +48,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Recorrência (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém informações de recorrência para tarefas recorrentes.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contém informações de recorrência para tarefas recorrentes.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

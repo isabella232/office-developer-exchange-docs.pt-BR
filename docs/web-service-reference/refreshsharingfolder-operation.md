@@ -5,38 +5,38 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RefreshSharingFolder
 api_type:
 - schema
 ms.assetid: 1b047e34-40f0-459f-ac9e-e9f8e7349479
 description: A operação RefreshSharingFolder atualiza a pasta local especificada com os dados mais recentes da pasta que está sendo compartilhada.
-ms.openlocfilehash: dd7136ae82353841db09497d23eabe450c1c8b13
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4bf30132d84c4288123c91247afa8bd13a05348c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456722"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512531"
 ---
 # <a name="refreshsharingfolder-operation"></a>Operação RefreshSharingFolder
 
-A operação **RefreshSharingFolder** atualiza a pasta local especificada com os dados mais recentes da pasta que está sendo compartilhada. 
+A **operação RefreshSharingFolder** atualiza a pasta local especificada com os dados mais recentes da pasta que está sendo compartilhada. 
   
-## <a name="soap-headers"></a>Cabeçalhos SOAP
+## <a name="soap-headers"></a>SOAP Headers
 
-A operação **RefreshSharingFolder** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir. 
+A **operação RefreshSharingFolder** pode usar os headers SOAP listados e descritos na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação.  <br/> |
    
-## <a name="refreshsharingfolder-request-example"></a>Exemplo de solicitação RefreshSharingFolder
+## <a name="refreshsharingfolder-request-example"></a>Exemplo da solicitação RefreshSharingFolder
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra como formar uma solicitação para atualizar a pasta local especificada com os dados mais recentes da pasta que está sendo compartilhada. O elemento [SharingFolderId](sharingfolderid.md) especifica o identificador da pasta local a ser atualizada. 
+O exemplo a seguir mostra como formar uma solicitação para atualizar a pasta local especificada com os dados mais recentes da pasta que está sendo compartilhada. O [elemento SharingFolderId](sharingfolderid.md) especifica o identificador da pasta local a ser atualizada. 
   
 ### <a name="code"></a>Código
 
@@ -58,7 +58,7 @@ O exemplo a seguir mostra como formar uma solicitação para atualizar a pasta l
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -72,7 +72,7 @@ Os seguintes elementos são usados na solicitação:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **RefreshSharingFolder** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a **uma solicitação RefreshSharingFolder.** 
   
 ### <a name="code"></a>Código
 
@@ -114,7 +114,7 @@ Os seguintes elementos são usados na resposta:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação **RefreshSharingFolder** . Neste exemplo, a solicitação **RefreshSharingFolder** falhou porque uma assinatura que corresponde à pasta local especificada não foi encontrada. 
+O exemplo a seguir mostra uma resposta de erro a **uma solicitação RefreshSharingFolder.** Neste exemplo, a **solicitação RefreshSharingFolder** falhou porque uma assinatura que corresponde à pasta local especificada não foi encontrada. 
   
 ### <a name="code"></a>Código
 
@@ -176,7 +176,7 @@ Os seguintes elementos são usados na resposta de erro:
 [RefreshSharingFolderResponseMessageType](https://msdn.microsoft.com/library/ExchangeWebServices.RefreshSharingFolderResponseMessageType.aspx)
 
 
-[Operações do EWS no Exchange](ews-operations-in-exchange.md)
+[Operações EWS em Exchange](ews-operations-in-exchange.md)
   
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

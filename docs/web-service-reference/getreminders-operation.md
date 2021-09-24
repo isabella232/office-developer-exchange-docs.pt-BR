@@ -1,58 +1,58 @@
 ---
-title: Operação getlembretes
+title: Operação GetReminders
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b56f83f-3b87-4b55-8259-fde6692da681
-description: Encontre informações sobre a operação do EWS de getlembretes.
-ms.openlocfilehash: dcbe20c674d7524a7776d374fa6964899abf472f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação GetReminders EWS.
+ms.openlocfilehash: e47dbb6ffceac3535bb72f93ee27bbb3f3f259e6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458303"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513560"
 ---
-# <a name="getreminders-operation"></a>Operação getlembretes
+# <a name="getreminders-operation"></a>Operação GetReminders
 
-Encontre informações sobre a operação do EWS de **Getlembretes** . 
+Encontre informações sobre a **operação GetReminders** EWS. 
   
-A operação dos serviços Web do Exchange (EWS) do **Getlembretes** recupera lembretes para itens de calendário e tarefa. 
+A **operação GetReminders** Exchange Web Services (EWS) recupera lembretes para itens de calendário e tarefas. 
   
 This operation was introduced in Exchange Server 2013.
   
-## <a name="using-the-getreminders-operation"></a>Usando a operação getlembretes
+## <a name="using-the-getreminders-operation"></a>Usando a operação GetReminders
 
-A operação **Getlembretes** Obtém lembretes para os itens de calendário e de tarefa atuais e futuros na caixa de correio do usuário, dependendo dos valores de elemento passados na solicitação. A operação pode recuperar todos os itens de calendário atuais e futuros, bem como tarefas que tenham um lembrete definido. Os itens de calendário privado estão incluídos nas respostas. Tarefas sem lembretes não estão incluídas em respostas, nem emails com lembretes ou sinalizadores de acompanhamento. 
+A **operação GetReminders** obtém lembretes para os itens de calendário e tarefa atuais e futuros na caixa de correio do usuário, dependendo dos valores de elemento passados na solicitação. A operação pode recuperar todos os itens de calendário atuais e futuros, bem como tarefas que tenham um conjunto de lembretes. Itens de calendário particular são incluídos nas respostas. Tarefas sem lembretes não são incluídas em respostas, nem emails com lembretes ou sinalizadores de acompanhamento. 
   
-Para recuperar todos os lembretes atuais, recomendamos definir o [lembrete](remindertype.md) como **todos** e a [EndTime](endtime-remindermessagedatatype.md) como a hora atual. 
+Para recuperar todos os lembretes atuais, recomendamos definir [ReminderType](remindertype.md) como **Todos** e [EndTime](endtime-remindermessagedatatype.md) para a hora atual. 
   
-Se os elementos [BeginTime](begintime.md) e **EndTime** forem incluídos na solicitação, a resposta inclui lembretes para qualquer calendário e itens de tarefa que ocorrem entre ter um lembrete que ocorre entre o **BeginTime** e a **EndTime**.
+Se os elementos [BeginTime](begintime.md) e **EndTime** são incluídos na solicitação, a resposta inclui lembretes para qualquer calendário e itens de tarefa que ocorrem entre eles têm um lembrete que ocorre entre **BeginTime** e **EndTime**.
   
-A tabela a seguir descreve o comportamento do elemento **Remindertype** quando os elementos **BeginTime** e **EndTime** são incluídos. 
+A tabela a seguir descreve o comportamento do **elemento ReminderType** quando os **elementos BeginTime** e **EndTime** são incluídos. 
   
-|Lembrete * * valor do elemento * *|**Descrição**|
+|Valor do elemento ReminderType** **|**Descrição**|
 |:-----|:-----|
-|Todos  <br/> |Lembretes que ocorrem entre **BeginTime** e **EndTime**.  <br/> |
-|Atual  <br/> |Lembretes retornados por **todos**, além de lembretes anteriores à janela de tempo solicitada, se o evento ainda estiver em andamento, além de todos os compromissos, independentemente da idade.  <br/> |
-|Antigo  <br/> |Lembretes retornados por **todos**, menos eventos que ainda não foram concluídos, menos todos os compromissos. Os elementos **BeginTime** e **EndTime** devem ser definidos para usar o valor **antigo** .  <br/> |
+|Todos  <br/> |Lembretes que ocorrem entre **BeginTime** **e EndTime**.  <br/> |
+|Atual  <br/> |Lembretes retornados por **All**, mais lembretes anteriores à janela de tempo solicitada se o evento ainda estiver em andamento, além de todos os compromissos, independentemente da idade.  <br/> |
+|Antigo  <br/> |Lembretes retornados por **Todos**, menos eventos que ainda não foram concluídos, menos todos os compromissos. Os **elementos BeginTime** **e EndTime** devem ser definidos para usar o **valor** Antigo.  <br/> |
    
-### <a name="getreminders-operation-soap-headers"></a>Cabeçalhos SOAP de operação de islembretes
+### <a name="getreminders-operation-soap-headers"></a>Headers SOAP da operação GetReminders
 
-A operação **Getlembretes** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação GetReminders** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Esse header é aplicável a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "Marcas para a Identificação de Idiomas", a ser usada para acessar a caixa de correio. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="getreminders-operation-request-example"></a>Exemplo de solicitação de operação getlembretes
+## <a name="getreminders-operation-request-example"></a>Exemplo de solicitação de operação GetReminders
 
-O exemplo a seguir de uma solicitação de operação **Getlembretes** mostra como recuperar os cinco primeiros itens de calendário que ocorrem entre o **BeginTime** e a **EndTime**.
+O exemplo a seguir de uma solicitação de operação **GetReminders** mostra como recuperar os cinco primeiros itens de calendário que ocorrem entre **BeginTime** e **EndTime**.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -72,13 +72,13 @@ O exemplo a seguir de uma solicitação de operação **Getlembretes** mostra co
 </soap:Envelope>
 ```
 
-O corpo SOAP de solicitação de exemplo contém os seguintes elementos:
+O corpo soap de solicitação de exemplo contém os seguintes elementos:
   
-- [Getlembretes](getreminders.md)
+- [GetReminders](getreminders.md)
     
 - [EndTime](endtime-remindermessagedatatype.md)
     
-- [Remindertype](remindertype.md)
+- [ReminderType](remindertype.md)
     
 O corpo SOAP também pode conter os seguintes elementos:
   
@@ -86,12 +86,12 @@ O corpo SOAP também pode conter os seguintes elementos:
     
 - [MaxItems](maxitems.md)
     
-## <a name="successful-getreminders-operation-response"></a>Resposta de operação de getlembretes bem-sucedida
+## <a name="successful-getreminders-operation-response"></a>Resposta bem-sucedida da operação GetReminders
 
-O exemplo a seguir mostra uma resposta bem-sucedida para uma solicitação de operação **Getlembretes** . A resposta contém um lembrete para o item de calendário "reunião de equipe" e um lembrete para a tarefa "tarefa de envio de anotações da reunião". 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetReminders.** A resposta contém um lembrete para o item de calendário "Reunião de equipe" e um lembrete para a tarefa "Tarefa para enviar anotações de reunião". 
   
 > [!NOTE]
-> Os identificadores foram reduzidos para preservar a legibilidade. 
+> Os identificadores foram reduzidos para preservar a capacidade de leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -152,7 +152,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [Assunto](subject.md)
     
-- [Localização](location-remindermessagedatatype.md)
+- [Location](location-remindermessagedatatype.md)
     
 - [ReminderTime](remindertime.md)
     
@@ -164,13 +164,13 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [RecurringMasterItemId](recurringmasteritemid.md)
     
-- [Um dos lembretes](remindergroup.md)
+- [ReminderGroup](remindergroup.md)
     
 - [UID](uid-remindertype.md)
     
-## <a name="getreminders-operation-error-response-example"></a>Exemplo de resposta de erro de operação de lembretes
+## <a name="getreminders-operation-error-response-example"></a>Exemplo de resposta de erro de operação GetReminders
 
-O exemplo a seguir mostra uma resposta de erro para uma solicitação de operação **Getlembretes** . Esta é uma resposta a uma solicitação na qual a data de término era anterior à data de início. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetReminders.** Esta é uma resposta a uma solicitação na qual a data de término era anterior à data de início. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -198,7 +198,7 @@ O exemplo a seguir mostra uma resposta de erro para uma solicitação de operaç
 </s:Envelope>
 ```
 
-O corpo SOAP de resposta de erro contém os seguintes elementos:
+O corpo SOAP da resposta de erro contém os seguintes elementos:
   
 - [GetRemindersResponse](getremindersresponse.md)
     
@@ -208,7 +208,7 @@ O corpo SOAP de resposta de erro contém os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Para obter códigos de erro adicionais genéricos para o EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
+Para obter códigos de erro adicionais genéricos para EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Confira também
 

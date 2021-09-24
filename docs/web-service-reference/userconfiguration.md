@@ -1,27 +1,27 @@
 ---
-title: Userconfiguration
+title: UserConfiguration
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserConfiguration
 api_type:
 - schema
 ms.assetid: 1811df99-ca5b-48a3-b160-b3fd70320c34
-description: O elemento userconfiguration define um único objeto de configuração do usuário.
-ms.openlocfilehash: 1217f5d591570c2d8df49a116b6bf35c243d1e0e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UserConfiguration define um único objeto de configuração do usuário.
+ms.openlocfilehash: 3821cabf777143de4a68d20a90cb78acedcff552
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468905"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538552"
 ---
-# <a name="userconfiguration"></a>Userconfiguration
+# <a name="userconfiguration"></a>UserConfiguration
 
-O elemento **userconfiguration** define um único objeto de configuração do usuário. 
+O **elemento UserConfiguration** define um único objeto de configuração do usuário. 
   
 ```XML
 <UserConfiguration>
@@ -33,7 +33,7 @@ O elemento **userconfiguration** define um único objeto de configuração do us
 </UserConfiguration>
 ```
 
- **Userconfigurationtype**
+ **UserConfigurationType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -46,10 +46,10 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Userconfigurationname](userconfigurationname.md) <br/> |Representa o nome de um objeto de configuração do usuário. Este elemento deve ser usado quando você cria um objeto de configuração do usuário.  <br/> |
-|[ItemId](itemid.md) <br/> |Define o identificador do item de configuração do usuário.  <br/> |
-|[Dictionary](dictionary.md) <br/> |Define um conjunto de entradas de propriedades de dicionário para um objeto de configuração do usuário.  <br/> |
-|[Nota XMLDATA](xmldata.md) <br/> |Contém o conteúdo da propriedade de dados XML para um objeto de configuração do usuário.  <br/> |
+|[UserConfigurationName](userconfigurationname.md) <br/> |Representa o nome de um objeto de configuração do usuário. Esse elemento deve ser usado ao criar um objeto de configuração do usuário.  <br/> |
+|[ItemId](itemid.md) <br/> |Define o identificador de item de objeto de configuração do usuário.  <br/> |
+|[Dictionary](dictionary.md) <br/> |Define um conjunto de entradas de propriedade de dicionário para um objeto de configuração do usuário.  <br/> |
+|[XmlData](xmldata.md) <br/> |Contém conteúdo da propriedade de dados XML para um objeto de configuração do usuário.  <br/> |
 |[BinaryData](binarydata.md) <br/> |Contém conteúdo de propriedade de dados binários para um objeto de configuração do usuário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai

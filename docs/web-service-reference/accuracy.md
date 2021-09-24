@@ -1,29 +1,29 @@
 ---
-title: Imprecisão
+title: Accuracy
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0d14b7f-5bde-4c0b-b6f7-816d11081286
-description: O elemento exactidão especifica a precisão da latitude e da longitude do endereço postal associado.
-ms.openlocfilehash: ab251caee427a5209482eb9381fd2e243bc3a3d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Accuracy especifica a precisão da latitude e da longitude do endereço postal associado.
+ms.openlocfilehash: f0abbbbf9bca5bbb8bec010710469f0315ed5a2c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527548"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520182"
 ---
-# <a name="accuracy"></a>Imprecisão
+# <a name="accuracy"></a>Accuracy
 
-O elemento **exactidão** especifica a precisão da latitude e da longitude do endereço postal associado. 
+O **elemento Accuracy** especifica a precisão da latitude e da longitude do endereço postal associado. 
   
 ```XML
 <Accuracy></Accuracy>
 ```
 
- **xs: Double**
+ **xs:double**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -40,7 +40,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Especifica o endereço postal de um persona.  <br/> |
+|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Especifica o endereço postal de uma persona.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -55,8 +55,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

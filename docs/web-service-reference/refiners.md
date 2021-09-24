@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb70326a-2b34-43d1-a1a1-5fb0049d32f3
-description: O elemento refinadores especifica uma lista de um ou mais elementos do refinador.
-ms.openlocfilehash: a89a18550355ccc9ef916637305a189276ee2224
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Refinadores especifica uma lista de um ou mais elementos Refinadores.
+ms.openlocfilehash: 1b22b7255e15227aaa6d9a53518c7120d20f67fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457218"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513497"
 ---
 # <a name="refiners"></a>Refinadores
 
-O elemento **refinadores** especifica uma lista de um ou mais elementos do **refinador** . 
+O **elemento Refinadores** especifica uma lista de um ou mais **elementos Refinadores.** 
   
 ```XML
 <Refiners>
@@ -36,7 +36,7 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Menores](refiner.md)
+[Refiner](refiner.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

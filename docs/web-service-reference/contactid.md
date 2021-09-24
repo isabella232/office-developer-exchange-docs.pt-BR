@@ -1,29 +1,29 @@
 ---
-title: ContactID
+title: ContactId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86f66275-1e39-48ed-bd89-ac3bffc465a7
-description: O elemento ContactID identifica exclusivamente um contato.
-ms.openlocfilehash: 17e8012283078d5d6e2cd1d2e88eef37b008be42
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ContactId identifica exclusivamente um contato.
+ms.openlocfilehash: 6b00d2f83c31905b5901a9d0dec2994c23fcb21d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463178"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533897"
 ---
-# <a name="contactid"></a>ContactID
+# <a name="contactid"></a>ContactId
 
-O elemento **ContactID** identifica exclusivamente um contato. 
+O **elemento ContactId** identifica exclusivamente um contato. 
   
 ```XML
 <ContactId Id="" ChangeKey=""/>
 ```
 
- **ItemIdtype**
+ **ItemIdType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -32,8 +32,8 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|Id  <br/> |O valor de texto do atributo **ID** é o identificador do item de contato.  <br/> |
-|ChangeKey  <br/> |O valor de texto do atributo **ChangeKey** é a chave de alteração do item de contato.  <br/> |
+|Id  <br/> |O valor de texto do **atributo Id** é o identificador do item de contato.  <br/> |
+|ChangeKey  <br/> |O valor de texto **do atributo ChangeKey** é a chave de alteração do item de contato.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

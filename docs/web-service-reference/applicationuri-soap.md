@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 02a213ac-ceb3-456c-8347-f1dbddf64d4f
 description: O elemento ApplicationUri define o local de um aplicativo.
-ms.openlocfilehash: dd2c0242df416c4f69f9b8202d81fe0fab0da7e0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 262e3738dccca68e978d7f9b650644a55eb757e2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460348"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520105"
 ---
 # <a name="applicationuri-soap"></a>ApplicationUri (SOAP)
 
-O elemento **ApplicationUri** define o local de um aplicativo. 
+O **elemento ApplicationUri** define o local de um aplicativo. 
   
 ```XML
 <ApplicationUri/>
@@ -41,7 +41,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Resposta (GetFederationInformation) (SOAP)](response-getfederationinformationsoap.md) <br/> |Contém as informações de resposta de getfederation.  <br/> |
+|[Response (GetFederationInformation) (SOAP)](response-getfederationinformationsoap.md) <br/> |Contém as informações de resposta GetFederation.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -52,8 +52,8 @@ O valor de texto representa o URI do aplicativo.
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
-|Arquivo de validação  <br/> |Mssages. xsd  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
+|Arquivo de validação  <br/> |Mssages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também

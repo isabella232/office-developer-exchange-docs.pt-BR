@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: 6b96dace-1260-4b83-869a-7c31c5583daa
-description: A operação GetItem é usada para obter itens de contato do repositório do Exchange.
-ms.openlocfilehash: 93e8dbe28e130ab64d4b8d12d2befde1f77ae8fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetItem é usada para obter itens de contato do Exchange store.
+ms.openlocfilehash: 1a055791f1b6dd5085ae914c1f7b2ae7e97d6090
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460019"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520532"
 ---
 # <a name="getitem-operation-contact"></a>Operação GetItem (contato)
 
-A operação GetItem é usada para obter itens de contato do repositório do Exchange.
+A operação GetItem é usada para obter itens de contato do Exchange store.
   
-## <a name="getitem-contact-request-example"></a>Exemplo de solicitação GetItem (contato)
+## <a name="getitem-contact-request-example"></a>Exemplo de solicitação GetItem (Contato)
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra como obter um item do repositório do Exchange.
+O exemplo a seguir mostra como obter um item do Exchange store.
   
 ### <a name="code"></a>Código
 
@@ -51,18 +51,18 @@ O exemplo a seguir mostra como obter um item do repositório do Exchange.
 
 ### <a name="comments"></a>Comentários
 
-A solicitação para obter um item do armazenamento do Exchange assume o mesmo formulário para todos os tipos de itens. As respostas às solicitações de itens diferentes serão diferentes porque diferentes itens retornam informações diferentes com base nas formas de resposta.
+A solicitação para obter um item do Exchange store tem o mesmo formulário para todos os tipos de item. As respostas às solicitações de itens diferentes serão diferentes porque itens diferentes retornam informações diferentes com base nas formas de resposta.
   
 > [!NOTE]
-> O identificador de item foi reduzido para preservar a legibilidade. 
+> O identificador de item foi reduzido para preservar a capacidade de leitura. 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
 - [GetItem](getitem.md)
     
-- [Shape](itemshape.md)
+- [ItemShape](itemshape.md)
     
 - [BaseShape](baseshape.md)
     
@@ -70,11 +70,11 @@ Os seguintes elementos são usados na solicitação:
     
 - [ItemId](itemid.md)
     
-## <a name="successful-getitem-contact-response"></a>Resposta de GetItem (contato) bem-sucedida
+## <a name="successful-getitem-contact-response"></a>Resposta GetItem (Contato) bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo de código a seguir mostra uma resposta GetItem bem-sucedida **para o**[BaseShape](baseshape.md).
+O exemplo de código a seguir mostra uma resposta GetItem bem-sucedida para **AllProperties**[BaseShape](baseshape.md).
   
 ### <a name="code"></a>Código
 
@@ -153,11 +153,11 @@ O exemplo de código a seguir mostra uma resposta GetItem bem-sucedida **para o*
 
 ### <a name="comments"></a>Comentários
 
-O identificador de item foi reduzido para preservar a legibilidade.
+O identificador de item foi reduzido para preservar a capacidade de leitura.
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
-Os seguintes elementos são usados na resposta para uma solicitação GetItem com uma forma de resposta de AllItems para um **item de contato** . 
+Os elementos a seguir são usados na resposta para uma solicitação GetItem com uma forma de resposta **de AllProperties** para um item de contato. 
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -189,7 +189,7 @@ Os seguintes elementos são usados na resposta para uma solicitação GetItem co
     
 - [Importance](importance.md)
     
-- [Isenviado](issubmitted.md)
+- [IsSubmitted](issubmitted.md)
     
 - [IsDraft](isdraft.md)
     
@@ -229,13 +229,13 @@ Os seguintes elementos são usados na resposta para uma solicitação GetItem co
     
 - [EmailAddresses](emailaddresses.md)
     
-- [Entrada (EmailAddress)](entry-emailaddress.md)
+- [Entry (EmailAddress)](entry-emailaddress.md)
     
 - [PhysicalAddresses](physicaladdresses.md)
     
-- [Entrada (PhysicalAddress)](entry-physicaladdress.md)
+- [Entry (PhysicalAddress)](entry-physicaladdress.md)
     
-- [123](street.md)
+- [Street](street.md)
     
 - [Cidade](city.md)
     
@@ -245,13 +245,13 @@ Os seguintes elementos são usados na resposta para uma solicitação GetItem co
     
 - [PhoneNumbers](phonenumbers.md)
     
-- [Entrada (PhoneNumber)](entry-phonenumber.md)
+- [Entry (PhoneNumber)](entry-phonenumber.md)
     
 - [JobTitle](jobtitle.md)
     
 - [Sobrenome](surname.md)
     
-## <a name="invalid-getitem-contact-request-example"></a>Exemplo de solicitação GetItem (contato) inválido
+## <a name="invalid-getitem-contact-request-example"></a>Exemplo de solicitação GetItem (Contato) inválida
 
 ### <a name="description"></a>Descrição
 
@@ -280,13 +280,13 @@ O exemplo de código a seguir mostra uma solicitação inválida.
 
 ### <a name="comments"></a>Comentários
 
-Os identificadores de item foram reduzidos para preservar a legibilidade.
+Os identificadores de item foram reduzidos para preservar a capacidade de leitura.
   
-## <a name="getitem-contact-error-response"></a>Resposta de erro GetItem (contato)
+## <a name="getitem-contact-error-response"></a>Resposta de erro GetItem (Contato)
 
 ### <a name="description"></a>Descrição
 
-O exemplo de código a seguir mostra uma resposta de erro a uma solicitação de GetItem (contato).
+O exemplo de código a seguir mostra uma resposta de erro a uma solicitação GetItem (Contato).
   
 ### <a name="code"></a>Código
 

@@ -1,28 +1,28 @@
 ---
-title: Desconectar (serviço Web da UM)
+title: Disconnect (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Disconnect
 api_type:
 - schema
 ms.assetid: 2f8c1e8c-3bd4-4988-96b9-735c347b29f7
 description: O elemento Disconnect define uma solicitação para desconectar uma chamada.
-ms.openlocfilehash: a00d957927a7a97d12c0d8c0c662956a18529cde
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6aaff910d85a963a926e7c2a74a91963b120392c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458450"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538370"
 ---
-# <a name="disconnect-um-web-service"></a>Desconectar (serviço Web da UM)
+# <a name="disconnect-um-web-service"></a>Disconnect (serviço Web de Unificação de Mensagens)
 
-O elemento **Disconnect** define uma solicitação para desconectar uma chamada. 
+O **elemento Disconnect** define uma solicitação para desconectar uma chamada. 
   
-- [Desconectar (serviço Web da UM)](disconnect-um-web-service.md)
+- [Disconnect (serviço Web de Unificação de Mensagens)](disconnect-um-web-service.md)
   
 ```xml
 <Disconnect>
@@ -43,7 +43,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Callid (serviço Web da UM)](callid-um-web-service.md) <br/> |O identificador da chamada a ser desconectada.  <br/> |
+|[CallId (serviço Web de Unificação de Mensagens)](callid-um-web-service.md) <br/> |O identificador da chamada a ser desconectada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -51,7 +51,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -64,8 +64,8 @@ Nenhum
    
 ## <a name="see-also"></a>Confira também
 
-- [Operação de desconexão (serviço Web da UM)](disconnect-operation-um-web-service.md)  
-- [Operação PlayOnPhone (serviço Web da UM)](playonphone-operation-um-web-service.md) 
-- [Operação PlayOnPhoneGreeting (serviço Web da UM)](playonphonegreeting-operation-um-web-service.md)  
-- [Callid (serviço Web da UM)](callid-um-web-service.md)
+- [Operação Disconnect (serviço Web de Unificação de mensagens)](disconnect-operation-um-web-service.md)  
+- [Operação PlayOnPhone (serviço Web de Unificação de Mensagens)](playonphone-operation-um-web-service.md) 
+- [Operação PlayOnPhoneGreeting (serviço Web de Unificação de Mensagens)](playonphonegreeting-operation-um-web-service.md)  
+- [CallId (serviço Web de Unificação de Mensagens)](callid-um-web-service.md)
 

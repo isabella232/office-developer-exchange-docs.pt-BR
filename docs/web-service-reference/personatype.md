@@ -1,23 +1,23 @@
 ---
-title: Personatype
+title: PersonaType
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 81c157f0-16ae-4cd5-abf3-6aaf22ca8c70
-description: O elemento Personatype especifica o tipo de persona, por exemplo, uma pessoa ou uma lista de distribuição.
-ms.openlocfilehash: 9b62d2b8f1545e84a5b726fec0085dd7c9c898f5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PersonaType especifica o tipo da persona, por exemplo, uma pessoa ou uma lista de distribuição.
+ms.openlocfilehash: 8662da90bd0d0ab07bebf623fe4daa442a4d5b78
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457561"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539126"
 ---
-# <a name="personatype"></a>Personatype
+# <a name="personatype"></a>PersonaType
 
-O elemento **personatype** especifica o tipo de persona, por exemplo, uma pessoa ou uma lista de distribuição. 
+O **elemento PersonaType** especifica o tipo da persona, por exemplo, uma pessoa ou uma lista de distribuição. 
   
 ```XML
 <PersonaType></PersonaType>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **personatype** é o tipo de persona. 
+O valor de texto do **elemento PersonaType** é o tipo de persona. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

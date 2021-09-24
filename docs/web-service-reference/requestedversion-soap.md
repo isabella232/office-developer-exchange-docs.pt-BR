@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 962036c9-9b13-4669-bed2-2502c0f5aabe
-description: O elemento RequestedVersion especifica a versão mínima do serviço que o cliente deseja que a solicitação seja processada.
-ms.openlocfilehash: ded276b3eb2c70b6edd39ca12289098de2b3faea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RequestedVersion especifica a versão de serviço mínima em que o cliente deseja que a solicitação seja processada.
+ms.openlocfilehash: 390dee362bf2e6c2bdeac4e0e5564ecbd59b7319
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459164"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513329"
 ---
 # <a name="requestedversion-soap"></a>RequestedVersion (SOAP)
 
-O elemento **RequestedVersion** especifica a versão mínima do serviço que o cliente deseja que a solicitação seja processada. 
+O **elemento RequestedVersion** especifica a versão de serviço mínima em que o cliente deseja que a solicitação seja processada. 
   
 ```XML
 <RequestedVersion/>
@@ -41,23 +41,23 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Solicitação (SOAP)](request-soap.md) <br/> |Contém as definições de configuração solicitadas e os usuários de destino.  <br/> |
-|[Solicitação (GetDomainSettings) (SOAP)](request-getdomainsettingssoap.md) <br/> |Representa uma solicitação para obter as configurações de domínio.  <br/> |
+|[Request (SOAP)](request-soap.md) <br/> |Contém as configurações solicitadas e os usuários de destino.  <br/> |
+|[Request (GetDomainSettings) (SOAP)](request-getdomainsettingssoap.md) <br/> |Representa uma solicitação para obter configurações de domínio.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto para o elemento **RequestedVersion** pode ser Exchange2010, Exchange2010_SP1, Exchange2010_SP2 ou Exchange2013.
+O valor de texto do **elemento RequestedVersion** pode ser Exchange2010, Exchange2010_SP1, Exchange2010_SP2 ou Exchange2013.
   
 ## <a name="remarks"></a>Comentários
 
-Se esse elemento não estiver presente, será usada a versão mais recente do serviço.
+Se esse elemento não estiver presente, a versão de serviço mais recente será usada.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsMeetingResponse
 api_type:
 - schema
 ms.assetid: 85090943-81c6-4fbe-a2db-007dced6a4cf
 description: O elemento IsMeetngResponsequest indica se as mensagens de entrada devem ser uma resposta de reunião para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: 40714b7e926768f55207d870b79f21f07163bb37
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ff6008eef7ae5198738e68db62303b06a619e41d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465930"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532748"
 ---
 # <a name="ismeetingresponse"></a>IsMeetingResponse
 
-O elemento **IsMeetngResponsequest** indica se as mensagens de entrada devem ser uma resposta de reunião para que a condição ou exceção seja aplicada. 
+O **elemento IsMeetngResponsequest** indica se as mensagens de entrada devem ser uma resposta de reunião para que a condição ou exceção seja aplicada. 
   
 ```XML
 <IsMeetingResponse/>true | false</IsMeetingResponse>
@@ -44,12 +44,12 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** indica que a mensagem deve ser uma resposta de reunião para que a condição ou exceção seja aplicada. Um valor **false** indica que a mensagem não deve ser uma resposta de reunião para que a condição ou exceção seja aplicada. 
+Um valor de texto **true** indica que a mensagem deve ser uma resposta de reunião para que a condição ou exceção seja aplicada. Um valor de texto **false** indica que a mensagem não deve ser uma resposta de reunião para que a condição ou exceção seja aplicada. 
   
 ## <a name="remarks"></a>Comentários
 

@@ -3,35 +3,35 @@ title: Acessar uma série recorrente usando o EWS no Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 196a5671-2836-4696-b734-d5ecfdbf8962
-description: Saiba como acessar itens de calendário em uma série recorrente usando a API gerenciada do EWS ou o EWS no Exchange.
-ms.openlocfilehash: dca41472b3b2f775f420b6654d7e43ef456b0583
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Saiba como acessar itens de calendário em uma série recorrente usando a API Gerenciada do EWS ou o EWS em Exchange.
+ms.openlocfilehash: 280affe532beb282bdd5cdb0c02a3dfaa62751e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456889"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513238"
 ---
 # <a name="access-a-recurring-series-by-using-ews-in-exchange"></a>Acessar uma série recorrente usando o EWS no Exchange
 
-Saiba como acessar itens de calendário em uma série recorrente usando a API gerenciada do EWS ou o EWS no Exchange.
+Saiba como acessar itens de calendário em uma série recorrente usando a API Gerenciada do EWS ou o EWS em Exchange.
   
-Uma série recorrente de compromissos ou reuniões é composta de um mestre recorrente, várias ocorrências em uma série que se repetem de acordo com um padrão definido e, opcionalmente, conjuntos de ocorrências que foram alterados e que foram excluídos. Você pode usar a API gerenciada do EWS ou o EWS para acessar itens de calendário em uma série recorrente. Isso permite que você:
+Uma série recorrente de compromissos ou reuniões é feita de um mestre recorrente, uma série de ocorrências que se repetem de acordo com um padrão definido e, opcionalmente, conjuntos de ocorrências que foram alterados e que foram excluídos. Você pode usar a API Gerenciada do EWS ou o EWS para acessar itens de calendário em uma série recorrente. Isso permite que você:
   
 - Verifique se um item de calendário associado a uma ID de item é um mestre recorrente, uma ocorrência em uma série ou uma exceção a uma série.
     
-- Procure compromissos de recorrência na pasta calendário.
+- Pesquise sua pasta de calendário em busca de compromissos de recorrência.
     
 - Obter itens de calendário de recorrência relacionados
     
-- Iterar por meio de ocorrências em uma série, exceções de ocorrência ou exclusões de ocorrências.
+- Iterar por meio de ocorrências em uma série, exceções de ocorrência ou exclusões de ocorrência.
     
-## <a name="get-a-collection-of-recurring-calendar-items-by-using-the-ews-managed-api"></a>Obter uma coleção de itens de calendário recorrentes usando a API gerenciada do EWS
+## <a name="get-a-collection-of-recurring-calendar-items-by-using-the-ews-managed-api"></a>Obter uma coleção de itens de calendário recorrentes usando a API Gerenciada do EWS
 
-Se você quiser recuperar uma coleção de compromissos, você pode usar o método [ExchangeService. FindAppointments](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) para recuperar todos os compromissos entre uma determinada data de início e término e, em seguida, adicionar todos os itens de calendário com um tipo de compromisso de **ocorrência** ou **exceção** a uma coleção, conforme mostrado no exemplo a seguir. 
+Se você deseja recuperar uma coleção de compromissos, pode usar o método [ExchangeService.FindAppointments](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) para recuperar todos os compromissos entre  uma  determinada data inicial e final e, em seguida, adicionar todos os itens de calendário com um tipo de compromisso de Ocorrência ou Exceção a uma coleção, conforme mostrado no exemplo a seguir. 
   
-Este exemplo pressupõe que você tenha autenticado em um servidor do Exchange e tenha adquirido um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) chamado **Service**. 
+Este exemplo pressupõe que você tenha autenticado em um servidor Exchange e tenha adquirido um [objeto ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) chamado **service**. 
   
 ```cs
 public static Collection<Appointment> FindRecurringCalendarItems(ExchangeService service, 
@@ -66,9 +66,9 @@ public static Collection<Appointment> FindRecurringCalendarItems(ExchangeService
 
 ```
 
-Observe que os itens de calendário mestre recorrentes não são retornados em uma chamada para **FindAppointments**. Se você quiser recuperar os mestres recorrentes ou desejar uma abordagem mais geral para recuperar itens de calendário, você precisará usar [ExchangeService. FindItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx). Você pode usar um filtro de pesquisa para recuperar apenas itens com uma data de início maior ou igual a uma data que você escolher, e um modo de exibição de item para limitar o número de itens a serem retornados. Observe que um mestre recorrente com uma data de início anterior à data de início da pesquisa não será localizado, mesmo se houver ocorrências nesse intervalo.
+Observe que itens de calendário mestre recorrentes não são retornados em uma chamada para **FindAppointments**. Se você deseja recuperar mestres recorrentes ou deseja uma abordagem mais geral para recuperar itens de calendário, você precisa usar [ExchangeService.FindItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx). Em seguida, você pode usar um filtro de pesquisa para recuperar apenas itens com uma data de início maior ou igual a uma data escolhida e uma exibição de item para limitar o número de itens a retornar. Observe que um mestre recorrente com uma data de início anterior à data de início da pesquisa não será encontrado, mesmo que ocorram ocorrências nesse intervalo.
   
-Este exemplo pressupõe que você tenha autenticado em um servidor do Exchange e tenha adquirido um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) chamado **Service**. 
+Este exemplo pressupõe que você tenha autenticado em um servidor Exchange e tenha adquirido um [objeto ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) chamado **service**. 
   
 ```cs
 public static Collection<Appointment> FindCalendarItemsByAppointmentType(ExchangeService service, 
@@ -102,21 +102,21 @@ public static Collection<Appointment> FindCalendarItemsByAppointmentType(Exchang
 
 ```
 
-## <a name="get-related-recurrence-calendar-items-by-using-the-ews-managed-api"></a>Obter itens de calendário de recorrência relacionados usando a API gerenciada do EWS
+## <a name="get-related-recurrence-calendar-items-by-using-the-ews-managed-api"></a>Obter itens de calendário de recorrência relacionados usando a API Gerenciada do EWS
 
-Às vezes, você tem uma peça do quebra-cabeça, mas para resolver o que precisa do restante das peças. Se você tiver a ID de item para um item de calendário de recorrência, poderá obter as outras partes necessárias usando uma das várias propriedades ou métodos da API gerenciada do EWS.
+Às vezes, você tem uma parte do quebra-cabeça, mas para resolvê-lo, você precisa do restante das partes. Se você tiver a ID do item para um item de calendário de recorrência, poderá obter as outras partes de que precisa usando uma das várias propriedades ou métodos da API Gerenciada do EWS.
   
-**Tabela 1. Propriedade ou método da API gerenciada do EWS a ser usado para obter itens de calendário de recorrência relacionados**
+**Tabela 1. Propriedade ou método da API Gerenciada do EWS a ser usado para obter itens de calendário de recorrência relacionados**
 
-|**Se você tiver a ID do item para...**|**Você pode obter...**|**Usando a...**|
+|**Se você tiver a ID do item para...**|**Você pode obter...**|**Usando o...**|
 |:-----|:-----|:-----|
-|O item de calendário mestre recorrente  <br/> | A primeira ocorrência em uma série  <br/>  A última ocorrência em uma série  <br/>  As exceções de uma série  <br/>  Os compromissos excluídos em uma série  <br/>  Qualquer ocorrência (dado seu índice)  <br/> |Propriedade [compromisso. FirstOccurrence](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.firstoccurrence%28v=exchg.80%29.aspx)  <br/> Propriedade [compromisso. LastOccurrence](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.lastoccurrence%28v=exchg.80%29.aspx)  <br/> Propriedade [compromisso. ModifiedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx)  <br/> Propriedade [compromisso. DeletedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.deletedoccurrences%28v=exchg.80%29.aspx)  <br/> Método de [compromisso. BindToOccurrence](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtooccurrence%28v=exchg.80%29.aspx)  <br/> |
-|Uma única ocorrência em uma série  <br/> |O mestre recorrente  <br/> |Método de [compromisso. BindToRecurringMaster](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx)  <br/> |
-|Qualquer item de calendário (um objeto [compromisso](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) )  <br/> |O valor de enumeração de [tipo de compromisso](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointmenttype%28v=exchg.80%29.aspx)  <br/> |Propriedade [compromisso. compromissotype](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.appointmenttype%28v=exchg.80%29.aspx)  <br/> |
+|O item de calendário mestre recorrente  <br/> | A primeira ocorrência em uma série  <br/>  A última ocorrência em uma série  <br/>  As exceções a uma série  <br/>  Os compromissos excluídos em uma série  <br/>  Qualquer ocorrência (considerando seu índice)  <br/> |[Propriedade Appointment.FirstOccurrence](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.firstoccurrence%28v=exchg.80%29.aspx)  <br/> [Propriedade Appointment.LastOccurrence](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.lastoccurrence%28v=exchg.80%29.aspx)  <br/> [Propriedade Appointment.ModifiedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx)  <br/> [Propriedade Appointment.DeletedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.deletedoccurrences%28v=exchg.80%29.aspx)  <br/> [Método Appointment.BindToOccurrence](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtooccurrence%28v=exchg.80%29.aspx)  <br/> |
+|Uma única ocorrência em uma série  <br/> |O mestre recorrente  <br/> |[Método Appointment.BindToRecurringMaster](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx)  <br/> |
+|Qualquer item de calendário (um [objeto Appointment)](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)  <br/> |O [valor de enumeração do tipo](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointmenttype%28v=exchg.80%29.aspx) de compromisso  <br/> |[Propriedade Appointment.AppointmentType](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.appointmenttype%28v=exchg.80%29.aspx)  <br/> |
    
-O exemplo de código a seguir mostra como obter um mestre recorrente, a primeira ou a última ocorrência em uma série ou uma ocorrência de acordo com o índice.
+O exemplo de código a seguir mostra como obter um mestre recorrente, a primeira ou a última ocorrência em uma série ou uma ocorrência dada seu índice.
   
-Este exemplo pressupõe que você tenha autenticado em um servidor do Exchange e tenha adquirido um objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) chamado **Service**. 
+Este exemplo pressupõe que você tenha autenticado em um servidor Exchange e tenha adquirido um [objeto ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) chamado **service**. 
   
 ```cs
 public static void GetRelatedRecurrenceCalendarItems(ExchangeService service, ItemId itemId)
@@ -178,9 +178,9 @@ public static void GetRelatedRecurrenceCalendarItems(ExchangeService service, It
 
 ## <a name="access-calendar-items-in-a-recurring-series-by-using-ews"></a>Acessar itens de calendário em uma série recorrente usando o EWS
 
-O acesso a itens de calendário em uma série recorrente é muito semelhante ao acesso a instâncias únicas de itens de calendário. Use uma solicitação de operação [GetItem](https://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) , especificando as propriedades desejadas, com o [OccurrenceItemId](https://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) da instância de compromisso de que você precisa. O [OccurrenceItemId](https://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) contém o **ItemId** do mestre recorrente da ocorrência, bem como seu valor de índice na série. 
+Acessar itens de calendário em uma série recorrente é muito semelhante ao acesso a instâncias simples de itens de calendário. Use uma [solicitação de operação GetItem,](https://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) especificando as propriedades que deseja, com [o OccurrenceItemId](https://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) da instância de compromisso de que você precisa. [O OccurrenceItemId](https://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) contém **o ItemID** do mestre recorrente da ocorrência, bem como seu valor de índice na série. 
   
-O XML a seguir mostra a solicitação [GetItem](https://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) usada para retornar uma ocorrência em uma série especificada pelo índice. Observe que o **ItemId** do mestre recorrente foi reduzido para legibilidade. 
+O XML a seguir mostra a [solicitação GetItem](https://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) usada para retornar uma ocorrência em uma série especificada por seu índice. Observe que **o ItemID** do mestre recorrente foi reduzido para a capacidade de leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -208,7 +208,7 @@ O XML a seguir mostra a solicitação [GetItem](https://msdn.microsoft.com/libra
 </soap:Envelope>
 ```
 
-O servidor responde à solicitação **GetItem** com uma mensagem [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) que inclui um valor de [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NOERROR**, que indica que o email foi criado com êxito e o [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) da mensagem recém-criada. 
+O servidor responde à solicitação **GetItem** com uma mensagem [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) que inclui um valor [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) **de NoError**, que indica que o email foi criado com êxito e o [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) da mensagem recém-criada. 
   
 ## <a name="see-also"></a>Confira também
 

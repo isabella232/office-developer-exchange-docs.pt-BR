@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d963e6c-e94d-462b-8c44-95d55c848fb2
 description: O elemento GetDiscoverySearchConfigurationResponse especifica a resposta a uma solicitação GetDiscoverySearchConfiguration.
-ms.openlocfilehash: 98393943434b5e3460485b7d75c2b5285983f597
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 978d3a8a2081da3837b9e58f1efab3e9d6afccd5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460978"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512986"
 ---
 # <a name="getdiscoverysearchconfigurationresponse"></a>GetDiscoverySearchConfigurationResponse
 
-O elemento **GetDiscoverySearchConfigurationResponse** especifica a resposta a uma solicitação **GetDiscoverySearchConfiguration** . 
+O **elemento GetDiscoverySearchConfigurationResponse** especifica a resposta a uma solicitação **GetDiscoverySearchConfiguration.** 
   
 ```XML
 <GetDiscoverySearchConfigurationResponse>

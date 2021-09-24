@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 410efc09-5c38-46fb-85b5-eb365be0ba35
-description: O elemento HomeCity especifica a cidade do endereço residencial do persona associado.
-ms.openlocfilehash: 25fccaf0441fa3d9e258ae35f938ad0fc7a5a9eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento HomeCity especifica a cidade do endereço residencial da persona associada.
+ms.openlocfilehash: 6704bec857f3978c54774a6a985fa65021120ce1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460866"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537804"
 ---
 # <a name="homecity"></a>HomeCity
 
-O elemento **HomeCity** especifica a cidade do endereço residencial do persona associado. 
+O **elemento HomeCity** especifica a cidade do endereço residencial da persona associada. 
   
 ```XML
 <HomeCity></HomeCity>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **HomeCity** é um valor String que especifica a cidade. 
+O valor de texto do **elemento HomeCity** é um valor de cadeia de caracteres que especifica a cidade. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

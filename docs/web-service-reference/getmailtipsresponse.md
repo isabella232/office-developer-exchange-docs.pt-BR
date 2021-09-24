@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetMailTipsResponse
 api_type:
 - schema
 ms.assetid: fe270e34-566e-4f9e-9e73-fbf38e06436d
-description: O elemento GetMailTipsResponse representa a mensagem de resposta para uma operação condicas de email.
-ms.openlocfilehash: 2c0dcfe4e2deddcf9a6f4bb9d68d59115c171796
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetMailTipsResponse representa a mensagem de resposta para uma operação GetMailTips.
+ms.openlocfilehash: 13f494594f60ceb3f8aa700ee22b0a17519d5ad2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458604"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533710"
 ---
 # <a name="getmailtipsresponse"></a>GetMailTipsResponse
 
-O elemento **GetMailTipsResponse** representa a mensagem de resposta para uma [operação condicas](getmailtips-operation.md)de email.
+O **elemento GetMailTipsResponse** representa a mensagem de resposta para uma [operação GetMailTips](getmailtips-operation.md).
   
 ```XML
 <GetMailTipsResponse>
@@ -69,7 +69,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 
 
 
-[Operação](getmailtips-operation.md)
+[Operação GetMailTips](getmailtips-operation.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

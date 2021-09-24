@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeZoneDefinitions
 api_type:
 - schema
 ms.assetid: 9ca1584e-65b8-49ba-a408-e3e8597e6607
 description: O elemento TimeZoneDefinitions representa uma matriz de definições de fuso horário.
-ms.openlocfilehash: 16a25eb4fdcad2554ebd19626d0a0bc7f6391ac5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d7f4f660cfa1ba87795c3e7486577d3c1cbf420f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468758"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538797"
 ---
 # <a name="timezonedefinitions"></a>TimeZoneDefinitions
 
-O elemento **TimeZoneDefinitions** representa uma matriz de definições de fuso horário. 
+O **elemento TimeZoneDefinitions** representa uma matriz de definições de fuso horário. 
   
 ```XML
 <TimeZoneDefinitions>
@@ -42,13 +42,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[TimeZoneDefinition](timezonedefinition.md) <br/> |Especifica os períodos e as transições que definem um fuso horário.  <br/> |
+|[TimeZoneDefinition](timezonedefinition.md) <br/> |Especifica os períodos e transições que definem um fuso horário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |Contém o status e o resultado de uma solicitação de [operação GetServerTimeZones](getservertimezones-operation.md) .  <br/> |
+|[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |Contém o status e o resultado de uma [solicitação de operação GetServerTimeZones.](getservertimezones-operation.md)  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

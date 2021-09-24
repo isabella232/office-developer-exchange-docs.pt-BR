@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: f8162724-cf9a-4543-a1ad-5846c8b10bfa
 description: O elemento RedirectTarget (SOAP) contém o destino da URL de redirecionamento ou endereço de email.
-ms.openlocfilehash: 092d575560379d43b12dd98a3efa155b59c31450
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0e09529f62dfde66f1ef05875bb0b0a0886db452
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462196"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513539"
 ---
 # <a name="redirecttarget-soap"></a>RedirectTarget (SOAP)
 
-O elemento [RedirectTarget (SOAP)](redirecttarget-soap.md) contém o destino da URL de redirecionamento ou endereço de email. 
+O [elemento RedirectTarget (SOAP)](redirecttarget-soap.md) contém o destino da URL de redirecionamento ou endereço de email. 
   
 ```XML
 <RedirectTarget/>
@@ -41,20 +41,20 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Userresponse (SOAP)](userresponse-soap.md) <br/> |Representa uma resposta a uma solicitação GetUserSettings para um usuário individual.  <br/> |
+|[UserResponse (SOAP)](userresponse-soap.md) <br/> |Representa uma resposta a uma solicitação GetUserSettings para um usuário individual.  <br/> |
 |[DomainResponse (SOAP)](domainresponse-soap.md) <br/> |Contém as configurações solicitadas para o domínio especificado.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto contém o destino da URL de redirecionamento ou o endereço de email que deve ser usado para uma solicitação subsequente de GetUserSettings ou GetDomainSettings.
+O valor de texto contém o destino da URL de redirecionamento ou endereço de email que deve ser usado para uma solicitação GetUserSettings ou GetDomainSettings subsequente.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 

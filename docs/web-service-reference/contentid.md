@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContentId
 api_type:
 - schema
 ms.assetid: bc59100d-6079-414b-a6e0-7c15feaa3184
 description: O elemento ContentId representa um identificador para o conteúdo de um anexo. ContentId pode ser definido como qualquer valor de cadeia de caracteres. Os aplicativos podem usar ContentId para implementar seus próprios mecanismos de identificação.
-ms.openlocfilehash: ca89c8790e839326412003f26b738ad1ee956211
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 786a76d312e4b8f276a9b5c7082754b873b0061c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529263"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519909"
 ---
 # <a name="contentid"></a>ContentId
 
-O elemento **ContentId** representa um identificador para o conteúdo de um anexo. **ContentId** pode ser definido como qualquer valor de cadeia de caracteres. Os aplicativos podem usar **ContentId** para implementar seus próprios mecanismos de identificação. 
+O **elemento ContentId** representa um identificador para o conteúdo de um anexo. **ContentId** pode ser definido como qualquer valor de cadeia de caracteres. Os aplicativos podem **usar ContentId** para implementar seus próprios mecanismos de identificação. 
   
 ```xml
 <ContentId/>
@@ -44,8 +44,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ItemAttachment](itemattachment.md) <br/> |Representa um item do Exchange anexado a outro item do Exchange.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo anexado a um item no repositório do Exchange.  <br/> |
+|[ItemAttachment](itemattachment.md) <br/> |Representa um Exchange que está anexado a outro Exchange item.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo anexado a um item no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

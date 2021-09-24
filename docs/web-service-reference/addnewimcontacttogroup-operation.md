@@ -5,50 +5,50 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cb5525f-faa3-48f1-9551-df55ffc26f46
-description: Encontre informações sobre a operação do EWS do AddNewImContactToGroup.
-ms.openlocfilehash: e91cc067b4161b366e6713a9adc16873e63b1562
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação AddNewImContactToGroup EWS.
+ms.openlocfilehash: 0060b7a0f169e5d8ce0034625ea0c4b367521301
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465026"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520133"
 ---
 # <a name="addnewimcontacttogroup-operation"></a>Operação AddNewImContactToGroup
 
-Encontre informações sobre a operação do EWS do **AddNewImContactToGroup** . 
+Encontre informações sobre **a operação AddNewImContactToGroup** EWS. 
   
-A operação **AddNewImContactToGroup** adiciona um novo contato a um grupo de mensagens instantâneas (IM). 
+A **operação AddNewImContactToGroup** adiciona um novo contato a um grupo de mensagens instantâneas (IM). 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-addnewimcontacttogroup-operation"></a>Usando a operação AddNewImContactToGroup
 
-A operação **AddNewImContactToGroup** aceita os três argumentos a seguir para adicionar um novo contato a um grupo de mensagens instantâneas: 
+A **operação AddNewImContactToGroup** assume os três argumentos a seguir para adicionar um novo contato a um grupo de IM: 
   
-- Propriedade **IMAddress** – identifica o endereço de im do contato. Essa propriedade é obrigatória. 
+- **Propriedade ImAddress** - Identifica o endereço de IM do contato. Essa propriedade é necessária. 
     
-- Propriedade **DisplayName** -identifica o nome de exibição do contato. 
+- **Propriedade DisplayName** - Identifica o nome de exibição do contato. 
     
-- Propriedade **GroupId** -identifica o grupo ao qual o contato é adicionado. 
+- **Propriedade GroupId** - Identifica o grupo ao que o contato é adicionado. 
     
-Essa operação retorna a pessoa do contato que foi adicionada ao grupo.
+Essa operação retorna a persona do contato que foi adicionado ao grupo.
   
-### <a name="addnewimcontacttogroup-operation-soap-headers"></a>Cabeçalhos SOAP de operação AddNewImContactToGroup
+### <a name="addnewimcontacttogroup-operation-soap-headers"></a>Headers soap da operação AddNewImContactToGroup
 
-A operação **AddNewImContactToGroup** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação AddNewImContactToGroup** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Esse header é aplicável a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "Marcas para a Identificação de Idiomas", a ser usada para acessar a caixa de correio. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="addnewimcontacttogroup-operation-request-example-add-a-new-im-contact-to-a-group"></a>Exemplo de solicitação de operação AddNewImContactToGroup: adicionar um novo contato de mensagens instantâneas a um grupo
+## <a name="addnewimcontacttogroup-operation-request-example-add-a-new-im-contact-to-a-group"></a>Exemplo da solicitação de operação AddNewImContactToGroup: Adicionar um novo contato de IM a um grupo
 
-O exemplo a seguir de uma solicitação de operação **AddNewImContactToGroup** mostra como adicionar um novo contato a um grupo de im existente. O valor da propriedade **GroupId** para este exemplo foi retornado dos resultados da [operação AddImGroup](addimgroup-operation.md). A propriedade **ExchangeStoreId** contém o valor da propriedade **GroupId** . 
+O exemplo a seguir de uma solicitação de operação **AddNewImContactToGroup** mostra como adicionar um novo contato a um grupo de IM existente. O **valor da propriedade GroupId** para este exemplo foi retornado dos resultados da operação [AddImGroup](addimgroup-operation.md). A **propriedade ExchangeStoreId** contém o **valor da propriedade GroupId.** 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -74,24 +74,24 @@ O exemplo a seguir de uma solicitação de operação **AddNewImContactToGroup**
 ```
 
 > [!NOTE]
-> O valor de **GroupId** foi reduzido para preservar a legibilidade. 
+> O **valor GroupId** foi reduzido para preservar a capacidade de leitura. 
   
 O corpo SOAP de solicitação contém os seguintes elementos:
   
 - [AddNewImContactToGroup](addnewimcontacttogroup.md)
     
-- [IMAddress (cadeia de caracteres)](imaddress-string.md)
+- [ImAddress (String)](imaddress-string.md)
     
 - [DisplayName (cadeia de caracteres)](displayname-string.md)
     
 - [GroupId](groupid.md)
     
-## <a name="successful-addnewimcontacttogroup-operation-response"></a>Resposta de operação AddNewImContactToGroup bem-sucedida
+## <a name="successful-addnewimcontacttogroup-operation-response"></a>Resposta bem-sucedida da operação AddNewImContactToGroup
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **AddNewImContactToGroup** . A resposta contém a pessoa do contato recém-criado. O contato é adicionado à pasta Contatos rápidos no Exchange. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **AddNewImContactToGroup.** A resposta contém a persona do contato recém-criado. O contato é adicionado à pasta Contatos Rápidos Exchange. 
   
 > [!NOTE]
-> Os identificadores foram reduzidos para preservar a legibilidade. 
+> Os identificadores foram reduzidos para preservar a capacidade de leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -196,9 +196,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [Pessoal](persona.md)
     
-- [Personaid](personaid.md)
+- [PersonaId](personaid.md)
     
-- [Personatype](personatype.md)
+- [PersonaType](personatype.md)
     
 - [CreationTime](creationtime.md)
     
@@ -210,27 +210,27 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [FileAsId](fileasid.md)
     
-- [EmailAddress (EmailAddresstype)](emailaddress-emailaddresstype.md)
+- [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
     
-- [Nome (EmailAddresstype)](name-emailaddresstype.md)
+- [Name (EmailAddressType)](name-emailaddresstype.md)
     
-- [Endereço (cadeia de caracteres)](address-string.md)
+- [Address (string)](address-string.md)
     
-- [RoutingType (EmailAddresstype)](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
-- [IMAddress (cadeia de caracteres)](imaddress-string.md)
+- [ImAddress (String)](imaddress-string.md)
     
 - [RelevanceScore](relevancescore.md)
     
-- [Atribuições (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
+- [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
     
-- [Atribuição (PersonaAttributionType)](attribution-personaattributiontype.md)
+- [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
-- [ID (cadeia de caracteres)](id-string.md)
+- [ID (String)](id-string.md)
     
 - [SourceId](sourceid.md)
     
-- [Iswritable](iswritable.md)
+- [IsWritable](iswritable.md)
     
 - [IsQuickContact](isquickcontact.md)
     
@@ -238,11 +238,11 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [FolderId](folderid.md)
     
-- [Displaynames](displaynames.md)
+- [DisplayNames](displaynames.md)
     
 - [StringAttributedValue](stringattributedvalue.md)
     
-- [Valor (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
+- [Value (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
     
 - [FileAsIds](fileasids.md)
     
@@ -250,11 +250,11 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [EmailAddressAttributedValue](emailaddressattributedvalue.md)
     
-- [Imendereços](imaddresses.md)
+- [ImAddresses](imaddresses.md)
     
 ## <a name="addnewimcontacttogroup-operation-error-response"></a>Resposta de erro de operação AddNewImContactToGroup
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **AddNewImContactToGroup** . Esta é uma resposta a uma solicitação para adicionar um contato a um grupo que não está na caixa de correio do solicitante. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **AddNewImContactToGroup.** Esta é uma resposta a uma solicitação para adicionar um contato a um grupo que não está na caixa de correio do solicitante. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -285,7 +285,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-O corpo SOAP de resposta de erro contém os seguintes elementos:
+O corpo SOAP da resposta de erro contém os seguintes elementos:
   
 - [AddNewImContactToGroupResponse](addnewimcontacttogroupresponse.md)
     
@@ -297,7 +297,7 @@ O corpo SOAP de resposta de erro contém os seguintes elementos:
     
 - [MessageXml](messagexml.md)
     
-Para obter códigos de erro adicionais genéricos para o EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
+Para obter códigos de erro adicionais genéricos para EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Confira também
 

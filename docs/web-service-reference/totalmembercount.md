@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TotalMemberCount
 api_type:
 - schema
 ms.assetid: fa86bfa6-10aa-4736-938c-9a23525aef8d
-description: O elemento TotalMemberCount representa a contagem de todos os membros de um grupo.
-ms.openlocfilehash: 3a489dff1e2352a16367238be7b20b204cbc547f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento TotalMemberCount representa a contagem de todos os membros em um grupo.
+ms.openlocfilehash: 2f5bcf805d5bb20e4f04fb7530ddbdc5a76cbd4b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467512"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538762"
 ---
 # <a name="totalmembercount"></a>TotalMemberCount
 
-O elemento **TotalMemberCount** representa a contagem de todos os membros de um grupo. 
+O **elemento TotalMemberCount** representa a contagem de todos os membros em um grupo. 
   
 ```XML
 <TotalMemberCount/>
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Dicas de Email](mailtips.md) <br/> |Representa valores de vários tipos de dicas de email.  <br/> |
+|[Dicas de Email](mailtips.md) <br/> |Representa valores para vários tipos de dicas de email.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto é um inteiro que representa o número de membros de um grupo.
+O valor de texto é um inteiro que representa o número de membros em um grupo.
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

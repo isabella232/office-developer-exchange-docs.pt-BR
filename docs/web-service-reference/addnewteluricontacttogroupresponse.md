@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: abff2306-a3a7-489a-b548-2edbc1eb5cc4
-description: O elemento AddNewTelUriContactToGroupResponse especifica os dados de resultado para a operação WSDL AddNewTelUriContactToGroup.
-ms.openlocfilehash: dfbf208cd5fc59902b16661658985442d4fa57e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AddNewTelUriContactToGroupResponse especifica os dados de resultado da operação WSDL AddNewTelUriContactToGroup.
+ms.openlocfilehash: 553606fd8d4b944ed755aef374e80709958fab87
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464914"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520945"
 ---
 # <a name="addnewteluricontacttogroupresponse"></a>AddNewTelUriContactToGroupResponse
 
-O elemento **AddNewTelUriContactToGroupResponse** especifica os dados de resultado para a operação WSDL **AddNewTelUriContactToGroup** . 
+O **elemento AddNewTelUriContactToGroupResponse** especifica os dados de resultado da operação WSDL **AddNewTelUriContactToGroup.** 
   
 ```XML
 <AddNewTelUriContactToGroupResponse>
@@ -43,7 +43,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dbf1499c-90ff-4649-a80e-f36bebb0c136
-description: O elemento Group (MailboxAssociationType) é destinado apenas para uso interno.
-ms.openlocfilehash: 468cf8e6a099fb572fb14677db06f282abba3a41
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Group (MailboxAssociationType) destina-se apenas ao uso interno.
+ms.openlocfilehash: c27765ad2bab0cb6c9b011ed75505d9292155d3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458660"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537916"
 ---
 # <a name="group-mailboxassociationtype"></a>Group (MailboxAssociationType)
 
-O elemento **Group (MailboxAssociationType)** é destinado apenas para uso interno. 
+O **elemento Group (MailboxAssociationType)** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

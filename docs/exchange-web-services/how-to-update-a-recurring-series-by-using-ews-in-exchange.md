@@ -3,37 +3,37 @@ title: Atualizar uma série recorrente usando o EWS no Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c922072f-ce33-4bff-97b0-1c1d0f9b880d
-description: Saiba como atualizar uma série recorrente inteira de uma só vez usando a API gerenciada do EWS ou o EWS no Exchange.
-ms.openlocfilehash: 253bc7da176a954480db97e303393fecdda54892
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Saiba como atualizar uma série recorrente inteira de uma vez usando a API Gerenciada do EWS ou o EWS Exchange.
+ms.openlocfilehash: a0018c8fa92baf7dc8b4117fa40bb87e9db843a9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527611"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513063"
 ---
 # <a name="update-a-recurring-series-by-using-ews-in-exchange"></a>Atualizar uma série recorrente usando o EWS no Exchange
 
-Saiba como atualizar uma série recorrente inteira de uma só vez usando a API gerenciada do EWS ou o EWS no Exchange.
+Saiba como atualizar uma série recorrente inteira de uma vez usando a API Gerenciada do EWS ou o EWS Exchange.
   
-Você pode usar a API gerenciada do EWS ou o EWS para atualizar uma série recorrente atualizando a série inteira ou [atualizando uma única ocorrência](how-to-update-a-recurring-series-by-using-ews.md). Neste artigo, discutiremos como atualizar a série inteira de uma só vez.
+Você pode usar a API Gerenciada do EWS ou o EWS para atualizar uma série recorrente atualizando a série inteira ou atualizando [uma única ocorrência.](how-to-update-a-recurring-series-by-using-ews.md) Neste artigo, discutiremos como atualizar toda a série de uma vez.
   
-Em geral, a atualização de uma série recorrente é muito parecida com a [modificação de um único compromisso](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md). Você usa os mesmos métodos e operações, mas usa a ID do item da série recorrente mestre. Em alguns casos, você pode não iniciar com o mestre recorrente, e talvez precise [encontrar a ID do item para o mestre recorrente](how-to-access-a-recurring-series-by-using-ews-in-exchange.md).
+Em geral, a atualização de uma série recorrente é muito semelhante à [modificação de um único compromisso.](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md) Você usa os mesmos métodos e operações, mas usa a ID do item do mestre recorrente da série. Em alguns casos, talvez você não comece com o mestre recorrente e talvez seja necessário encontrar a ID do [item para o mestre recorrente.](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
   
-No entanto, há uma diferença importante a ser considerada ao atualizar uma série recorrente: atualização do padrão de recorrência. A atualização do padrão de recorrência só é possível com o mestre recorrente, e as alterações no padrão podem adicionar ou remover ocorrências. Por exemplo, se você modificar a propriedade [Recurrence. EndDate](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) para uma data posterior ao seu valor atual, o padrão de recorrência é reavaliado, e outras ocorrências podem ser adicionadas. 
+No entanto, há uma diferença importante a ser considerada ao atualizar uma série recorrente: atualizar o padrão de recorrência. A atualização do padrão de recorrência só é possível com o mestre recorrente e as alterações no padrão podem adicionar ou remover ocorrências. Por exemplo, se você modificar a propriedade [Recurrence.EndDate](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) para uma data posterior ao valor atual, o padrão de recorrência será reavaliado e outras ocorrências poderão ser adicionadas. 
   
-## <a name="modify-all-occurrences-in-a-series-by-using-the-ews-managed-api"></a>Modificar todas as ocorrências de uma série usando a API gerenciada do EWS
+## <a name="modify-all-occurrences-in-a-series-by-using-the-ews-managed-api"></a>Modificar todas as ocorrências em uma série usando a API Gerenciada do EWS
 
-Para modificar todas as ocorrências de uma série, você:
+Para modificar todas as ocorrências em uma série, você:
   
-1. Vincule ao mestre recorrente para a série usando o método [compromisso. BindToRecurringMaster](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx) ou [compromisso. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) em um mestre recorrente. 
+1. Ata ao mestre recorrente da série usando o [método Appointment.BindToRecurringMaster](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx) ou [Appointment.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) em um mestre recorrente. 
     
-2. Atualize as propriedades no objeto [compromisso](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) mestre recorrente. 
+2. Atualize as propriedades no objeto [Appointment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) mestre recorrente. 
     
-3. Salve as alterações no mestre recorrente usando o método de [compromisso. salvar](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) . 
+3. Salve as alterações no mestre recorrente usando o [método Appointment.Save.](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) 
     
-O exemplo a seguir atualiza uma série recorrente para alterar o local, adicionar um participante e modificar o padrão de recorrência. Este exemplo pressupõe que o objeto [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) passado no parâmetro _Service_ tenha sido inicializado com valores válidos nas propriedades [Credentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) e [URL](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . O parâmetro _recurringAppointment_ é um objeto **compromisso** associado a uma ocorrência ou ao mestre recorrente da série a ser atualizada. 
+O exemplo a seguir atualiza uma série recorrente para alterar o local, adicionar um participante e modificar o padrão de recorrência. Este exemplo pressupõe que o [objeto ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) passado no parâmetro _de_ serviço tenha sido inicializado com valores válidos nas propriedades [Credentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) e [Url.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) O  _parâmetro recurringAppointment_ é um **objeto Appointment** vinculado a uma ocorrência ou ao mestre recorrente para a série ser atualizada. 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -133,17 +133,17 @@ public static bool UpdateRecurringSeries(ExchangeService service, Appointment re
 }
 ```
 
-## <a name="modify-all-occurrences-in-a-series-by-using-ews"></a>Modificar todas as ocorrências de uma série usando o EWS
+## <a name="modify-all-occurrences-in-a-series-by-using-ews"></a>Modificar todas as ocorrências em uma série usando o EWS
 
-Para modificar todas as ocorrências em uma série, você precisa usar a [operação UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) com a ID do item mestre recorrente no elemento [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) na solicitação. A estrutura da solicitação é o mesmo que uma solicitação para atualizar um único compromisso. 
+Para modificar todas as ocorrências em uma série, você precisa usar a operação [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) com a ID do item do mestre recorrente no [elemento ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) na solicitação. A estrutura da solicitação é a mesma de uma solicitação para atualizar um único compromisso. 
   
 O exemplo a seguir atualiza a série recorrente das seguintes maneiras:
   
-- Atualiza o local da série definindo o elemento [Location](https://msdn.microsoft.com/library/3fcf7133-ae1c-47b4-a187-660045f71df0%28Office.15%29.aspx) . 
+- Atualiza o local da série definindo o [elemento Location.](https://msdn.microsoft.com/library/3fcf7133-ae1c-47b4-a187-660045f71df0%28Office.15%29.aspx) 
     
-- Atualiza os participantes Configurando o elemento [RequiredAttendees](https://msdn.microsoft.com/library/422f8d44-b0eb-49ca-af0f-0e22b54c78d2%28Office.15%29.aspx) . 
+- Atualiza os participantes definindo o [elemento RequiredAttendees.](https://msdn.microsoft.com/library/422f8d44-b0eb-49ca-af0f-0e22b54c78d2%28Office.15%29.aspx) 
     
-- Atualiza a recorrência definindo o elemento [Recurrence (RecurrenceType)](https://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) . 
+- Atualiza a recorrência definindo o [elemento Recurrence (RecurrenceType).](https://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) 
     
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -219,7 +219,7 @@ O exemplo a seguir atualiza a série recorrente das seguintes maneiras:
 </soap:Envelope>
 ```
 
-O servidor responde com um elemento [UpdateItemResponse](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) que inclui um elemento [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) com um valor de **NOERROR**, que indica que a atualização foi bem-sucedida.
+O servidor responde com um [elemento UpdateItemResponse](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) que inclui um elemento [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) com um valor **NoError**, que indica que a atualização foi bem-sucedida.
   
 ## <a name="see-also"></a>Confira também
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59b0b2db-a0ae-4162-a2cb-5f37f42fe872
 description: O elemento SearchPreviewItem especifica a visualização do item para uma pesquisa de descoberta.
-ms.openlocfilehash: ab48353b0ffaf4bc3b9409f1a620d145bffc7a13
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7ecc034de3386ed35f0071403c013e91b79d13c5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466931"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534296"
 ---
 # <a name="searchpreviewitem"></a>SearchPreviewItem
 
-O elemento **SearchPreviewItem** especifica a visualização do item para uma pesquisa de descoberta. 
+O **elemento SearchPreviewItem** especifica a visualização do item para uma pesquisa de descoberta. 
   
 ```XML
 <SearchPreviewItem>
@@ -56,11 +56,11 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[ID (ItemIdType)](id-itemidtype.md)  |  [Caixa de correio (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md)  |  [ParentID](parentid.md)  |  @ [Class](itemclass.md)  |  [UniqueHash](uniquehash.md)  |  [Sortvalue](sortvalue.md)  |  [OwaLink](owalink.md)  |  [Remetente (cadeia de caracteres)](sender-string.md)  |  [ToRecipients (ArrayOfSmtpAddressType)](torecipients-arrayofsmtpaddresstype.md)  |  [CcRecipients](ccrecipients.md)  |  [BccRecipients](bccrecipients.md)  |  [Createdtime](createdtime.md)  |  [Receivedtime](receivedtime.md)  |  [SentTime](senttime.md)  |  [Assunto](subject.md)  |  [Tamanho (longo)](size-long.md)  |  [Visualização](preview-ex15websvcsotherref.md)  |  [Importância](importance.md)  |  [Ler](read.md)  |  [HasAttachment](hasattachment.md)  |  [ExtendedProperties (NonEmptyArrayOfExtendedPropertyType)](extendedproperties-nonemptyarrayofextendedpropertytype.md)
+[ID (ItemIdType)](id-itemidtype.md)  |  [Caixa de Correio (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md)  |  [ParentId](parentid.md)  |  [ItemClass](itemclass.md)  |  [UniqueHash](uniquehash.md)  |  [SortValue](sortvalue.md)  |  [OwaLink](owalink.md)  |  [Remetente (cadeia de caracteres)](sender-string.md)  |  [ToRecipients (ArrayOfSmtpAddressType)](torecipients-arrayofsmtpaddresstype.md)  |  [CcRecipients](ccrecipients.md)  |  [BccRecipients](bccrecipients.md)  |  [CreatedTime](createdtime.md)  |  [ReceivedTime](receivedtime.md)  |  [SentTime](senttime.md)  |  [Assunto](subject.md)  |  [Tamanho (longo)](size-long.md)  |  [Visualização](preview-ex15websvcsotherref.md)  |  [Importância](importance.md)  |  [Leitura](read.md)  |  [HasAttachment](hasattachment.md)  |  [ExtendedProperties (NonEmptyArrayOfExtendedPropertyType)](extendedproperties-nonemptyarrayofextendedpropertytype.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Itens (ArrayOfSearchPreviewItemsType)](items-arrayofsearchpreviewitemstype.md)
+[Items (ArrayOfSearchPreviewItemsType)](items-arrayofsearchpreviewitemstype.md)
   
 ## <a name="remarks"></a>Comentários
 
@@ -74,7 +74,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

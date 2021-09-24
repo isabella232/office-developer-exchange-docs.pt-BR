@@ -1,23 +1,23 @@
 ---
-title: Menores
+title: Refiner
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8395b45f-3b94-4473-82ac-2a12c4309170
-description: O elemento refinador especifica um refinador de pesquisa.
-ms.openlocfilehash: 5be73cfd0a5005f79651e9de76fd5aaf18ba0119
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Refinador especifica um refinador de pesquisa.
+ms.openlocfilehash: 4338a3aa1c7551663b657cd082b159c9e81935be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456717"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512532"
 ---
-# <a name="refiner"></a>Menores
+# <a name="refiner"></a>Refiner
 
-O elemento **refinador** especifica um refinador de pesquisa. 
+O **elemento Refinador** especifica um refinador de pesquisa. 
   
 ```XML
 <Refiner>
@@ -39,7 +39,7 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Nome (cadeia de caracteres)](name-string.md)  |  [Valor](value.md)  |  [Contagem](count.md)  |  [Token (cadeia de caracteres)](token-string.md)
+[Nome (cadeia de caracteres)](name-string.md)  |  [Valor](value.md)  |  [Contagem](count.md)  |  [Token (Cadeia de Caracteres)](token-string.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -57,7 +57,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

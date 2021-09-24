@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ParentFolderIds
 api_type:
 - schema
 ms.assetid: e7998023-e5e0-465c-91fa-2aa6d1559f64
-description: O elemento ParentFolderIds identifica pastas para as operações FindItem e FindFolder a serem pesquisadas.
-ms.openlocfilehash: 6bc4b9cfe96c6c83cbeb623ec176e33177356bbc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ParentFolderIds identifica pastas para as operações FindItem e FindFolder a ser pesquisadas.
+ms.openlocfilehash: e9e0f14651b205ad64be04dbe1d0707a109f3edc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465426"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512900"
 ---
 # <a name="parentfolderids"></a>ParentFolderIds
 
-O elemento **ParentFolderIds** identifica pastas para as operações FindItem e FindFolder a serem pesquisadas. 
+O **elemento ParentFolderIds** identifica pastas para as operações FindItem e FindFolder a ser pesquisadas. 
   
 ```xml
 <ParentFolderIds>
@@ -49,20 +49,20 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contém o identificador e a chave de alteração de uma pasta. O elemento **ParentFolderIds** deve usar esse elemento ou o elemento [DistinguishedFolderId](distinguishedfolderid.md) .  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica as pastas do Microsoft Exchange Server 2007 que podem ser referenciadas por nome. O elemento **ParentFolderIds** deve usar este elemento ou o elemento [FolderId](folderid.md) .  <br/> |
+|[FolderId](folderid.md) <br/> |Contém o identificador e a chave de alteração de uma pasta. O **elemento ParentFolderIds** deve usar esse elemento ou [o elemento DistinguishedFolderId.](distinguishedfolderid.md)  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica Microsoft Exchange Server pastas 2007 que podem ser referenciadas pelo nome. O **elemento ParentFolderIds** deve usar esse elemento ou o [elemento FolderId.](folderid.md)  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[FindFolder](findfolder.md) <br/> |Define uma solicitação para identificar pastas em uma caixa de correio.  <br/> |
-|[FindItem](finditem.md) <br/> |Define uma solicitação para localizar itens em uma caixa de correio.  <br/> |
+|[FindItem](finditem.md) <br/> |Define uma solicitação para encontrar itens em uma caixa de correio.  <br/> |
 |[ResolveNames](resolvenames.md) <br/> |Define uma solicitação para resolver nomes ambíguos.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O elemento **ParentFolderIds** deve usar o elemento [FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) . Um número ilimitado de pastas pode ser definido para a pesquisa. 
+O **elemento ParentFolderIds** deve usar [o elemento FolderId](folderid.md) ou [DistinguishedFolderId.](distinguishedfolderid.md) Um número ilimitado de pastas pode ser definido para a pesquisa. 
   
 ## <a name="example"></a>Exemplo
 

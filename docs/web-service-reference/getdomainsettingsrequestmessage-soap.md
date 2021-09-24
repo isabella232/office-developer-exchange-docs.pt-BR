@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 34913595-794c-4c62-9622-877f30931c73
-description: O elemento GetDomainSettingsRequestMessage representa uma solicitação de operação de operação de GetDomainSettings (SOAP).
-ms.openlocfilehash: 71648e3df609edfce73ebccf372a82311c03d49d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetDomainSettingsRequestMessage representa uma solicitação de operação getDomainSettings (SOAP).
+ms.openlocfilehash: 78ddc0a904a0a23e0ed0499f014bcb531e7cb99b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462028"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512979"
 ---
 # <a name="getdomainsettingsrequestmessage-soap"></a>GetDomainSettingsRequestMessage (SOAP)
 
-O elemento **GetDomainSettingsRequestMessage** representa uma solicitação de operação de operação de [GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md) . 
+O **elemento GetDomainSettingsRequestMessage** representa uma solicitação de operação [getDomainSettings (SOAP).](getdomainsettings-operation-soap.md) 
   
 ```XML
 <GetDomainSettingsRequestMessage>
@@ -38,7 +38,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Solicitação (GetDomainSettings) (SOAP)](request-getdomainsettingssoap.md) <br/> |Contém uma solicitação para retornar as configurações de domínio.  <br/> |
+|[Request (GetDomainSettings) (SOAP)](request-getdomainsettingssoap.md) <br/> |Contém uma solicitação para retornar configurações de domínio.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -46,14 +46,14 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

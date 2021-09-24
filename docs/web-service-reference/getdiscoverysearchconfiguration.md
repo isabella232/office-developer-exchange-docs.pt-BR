@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e15dbfca-3b9d-463e-94ec-4f1b6115bee3
-description: O elemento GetDiscoverySearchConfiguration especifica uma solicitação para recuperar a configuração de pesquisa de descoberta eletrônica.
-ms.openlocfilehash: 821c5e1429c160e326f6d99df3ff4fcc831b83d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetDiscoverySearchConfiguration especifica uma solicitação para recuperar a configuração de pesquisa de Descoberta Eletrônica.
+ms.openlocfilehash: ff84e648e14b79f64cf2a769c83aae28791790ef
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460999"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519685"
 ---
 # <a name="getdiscoverysearchconfiguration"></a>GetDiscoverySearchConfiguration
 
-O elemento **GetDiscoverySearchConfiguration** especifica uma solicitação para recuperar a configuração de pesquisa de descoberta eletrônica. 
+O **elemento GetDiscoverySearchConfiguration** especifica uma solicitação para recuperar a configuração de pesquisa de Descoberta Eletrônica. 
   
 ```XML
 <GetDiscoverySearchConfiguration>
@@ -40,11 +40,11 @@ Nenhum
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[SearchId](searchid.md) <br/> |Especifica o identificador da pesquisa.  <br/> |
-|[ExpandGroupMembership](expandgroupmembership.md) <br/> |Contém um valor Boolean que indica se a associação do grupo retornado de uma solicitação **GetSearchableMailboxes** deve ser expandida.  <br/> |
+|[ExpandGroupMembership](expandgroupmembership.md) <br/> |Contém um valor Boolean que indica se a associação do grupo retornada de uma **solicitação GetSearchableMailboxes.**  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

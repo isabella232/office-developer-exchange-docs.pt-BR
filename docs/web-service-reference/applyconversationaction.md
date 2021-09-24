@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ApplyConversationAction
 api_type:
 - schema
 ms.assetid: e0ee8f30-529b-4d87-8bc0-b6616e75fb6b
 description: O elemento ApplyConversationAction define uma solicitação para aplicar ações a itens em uma conversa.
-ms.openlocfilehash: 659b3392778bb1a318c3942a0c8e314f12110c12
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5d63f573d84c4a9ca3fc16983c4ef508214e0780
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461685"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520091"
 ---
 # <a name="applyconversationaction"></a>ApplyConversationAction
 
-O elemento **ApplyConversationAction** define uma solicitação para aplicar ações a itens em uma conversa. 
+O **elemento ApplyConversationAction** define uma solicitação para aplicar ações a itens em uma conversa. 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ConversationActions](conversationactions.md) <br/> |Contém uma coleção de conversas e as ações a serem aplicadas a elas.  <br/> |
+|[ConversationActions](conversationactions.md) <br/> |Contém uma coleção de conversas e as ações a aplicar a elas.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -56,7 +56,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 

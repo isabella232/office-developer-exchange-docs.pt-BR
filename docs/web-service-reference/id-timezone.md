@@ -1,27 +1,27 @@
 ---
-title: ID (TimeZone)
+title: Id (TimeZone)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Id
 api_type:
 - schema
 ms.assetid: 4c7350b4-ffa1-4e7d-9433-80b4383bd0d2
-description: O elemento ID identifica uma única definição de fuso horário.
-ms.openlocfilehash: 18ded1c9c0b6f0219d6256ebe19b9b1f7173da2c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Id identifica uma definição de fuso horário único.
+ms.openlocfilehash: 58ff0cf0302c961d743458f8b6c0f197e23d0278
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466133"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519468"
 ---
-# <a name="id-timezone"></a>ID (TimeZone)
+# <a name="id-timezone"></a>Id (TimeZone)
 
-O elemento **ID** identifica uma única definição de fuso horário. 
+O **elemento Id** identifica uma definição de fuso horário único. 
   
 ```xml
 <Id>...</Id>
@@ -44,15 +44,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Código](ids.md) <br/> |Contém uma matriz de identificadores de definição de fuso horário.  <br/> |
+|[Ids](ids.md) <br/> |Contém uma matriz de identificadores de definição de fuso horário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. O valor de texto representa o identificador exclusivo para a definição de fuso horário.
+Um valor de texto é necessário. O valor de texto representa o identificador exclusivo para definição de fuso horário.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

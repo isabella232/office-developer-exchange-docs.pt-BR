@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 584cc338-9d98-44bc-a89d-f8636bbb6c91
-description: O elemento GroupType (FederatedDirectoryGroupType) é destinado apenas para uso interno.
-ms.openlocfilehash: 4d47d0f696474804f12d9e38600c1cd6daf9ffa9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GroupType (FederatedDirectoryGroupType) destina-se apenas ao uso interno.
+ms.openlocfilehash: 973829d08058fce621b9ddd5c6f2e4bca41a2d65
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530779"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533142"
 ---
 # <a name="grouptype-federateddirectorygrouptype"></a>GroupType (FederatedDirectoryGroupType)
 
-O elemento **GroupType (FederatedDirectoryGroupType)** é destinado apenas para uso interno. 
+O **elemento GroupType (FederatedDirectoryGroupType)** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

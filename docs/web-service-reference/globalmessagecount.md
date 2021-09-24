@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalMessageCount
 api_type:
 - schema
 ms.assetid: e2ac4677-9645-4a1e-911c-17a5a08e2b21
 description: O elemento GlobalMessageCount contém o número total de itens de conversa na caixa de correio.
-ms.openlocfilehash: fd828970bddb2dcc4dedf429ac5eb6cf31f9fb57
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2730d4cb56ed63c64f298ba1b0b59e7ad3aed908
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459402"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519622"
 ---
 # <a name="globalmessagecount"></a>GlobalMessageCount
 
-O elemento **GlobalMessageCount** contém o número total de itens de conversa na caixa de correio. 
+O **elemento GlobalMessageCount** contém o número total de itens de conversa na caixa de correio. 
   
 [FindConversationResponse](findconversationresponse.md)
   
 [Conversas](conversations-ex15websvcsotherref.md)
   
-[Conversa (Conversatype)](conversation-conversationtype.md)
+[Conversation (ConversationType)](conversation-conversationtype.md)
   
 [GlobalMessageCount](globalmessagecount.md)
   
@@ -35,7 +35,7 @@ O elemento **GlobalMessageCount** contém o número total de itens de conversa n
 <GlobalMessageCount/>
 ```
 
- **xs: int**
+ **xs:int**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -52,15 +52,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **GlobalMessageCount** é o número total de itens de conversa em uma caixa de correio. 
+O valor de texto do **elemento GlobalMessageCount** é o número total de itens de conversa em uma caixa de correio. 
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -68,7 +68,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

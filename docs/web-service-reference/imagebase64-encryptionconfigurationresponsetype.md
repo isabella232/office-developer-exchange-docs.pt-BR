@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16b97e95-a980-47eb-8108-28a70d3dfea4
-description: O elemento ImageBase64 é destinado apenas para uso interno.
-ms.openlocfilehash: cbe36bef7ce9b9f68ebc0dff69c3c62090fce996
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ImageBase64 destina-se apenas ao uso interno.
+ms.openlocfilehash: da7ceec89722ed7027c17e4fe734752b28bd33e8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460712"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533087"
 ---
 # <a name="imagebase64-encryptionconfigurationresponsetype"></a>ImageBase64 (EncryptionConfigurationResponseType)
 
-O elemento **ImageBase64** é destinado apenas para uso interno. 
+O **elemento ImageBase64** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3445ef2b-1bb1-43ea-bc93-85c72401e5b6
 description: O elemento ClientExtension contém informações de usuário e configuração sobre um aplicativo.
-ms.openlocfilehash: d3d9ce1d242a63f28da3464f0faff86abde502c9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fa02ad0f5f4312fefecee32d2ed24f0bb0585365
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460194"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519958"
 ---
 # <a name="clientextension"></a>ClientExtension
 
-O elemento **ClientExtension** contém informações de usuário e configuração sobre um aplicativo. 
+O **elemento ClientExtension** contém informações de usuário e configuração sobre um aplicativo. 
   
 ```XML
 <ClientExtension IsAvailable=" true | false " IsMandatory=" true | false " IsEnabledByDefault=" true | false " Type="" Scope="" MarketplaceAssetId="" MarketplaceContentMarket="" AppStatus="" Etoken="">
@@ -35,14 +35,14 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|IsAvailable  <br/> |Especifica se o aplicativo está disponível. Um valor de texto **true** para o atributo **IsAvailable** indica que o aplicativo está disponível. Um valor **false** indica que o aplicativo não está disponível. Esse atributo é opcional.  <br/> |
-|IsMandatory  <br/> |Especifica se o aplicativo é obrigatório. Um valor de texto **true** para o atributo **IsMandatory** indica que o aplicativo é obrigatório para a caixa de correio. Um valor **false** indica que o aplicativo não é obrigatório. Esse atributo é opcional.  <br/> |
-|IsEnabledByDefault  <br/> |Especifica se o aplicativo está habilitado por padrão. Um valor de texto **true** para o atributo **IsEnabledByDefault** indica que o aplicativo está habilitado por padrão. Um valor **false** indica que o aplicativo não está habilitado por padrão. Esse atributo é opcional.  <br/> |
-|ProvidedTo  <br/> |Especifica para quem o aplicativo é fornecido. Esse atributo é opcional.  <br/> |
+|IsAvailable  <br/> |Especifica se o aplicativo está disponível. Um valor de texto **true** para o **atributo IsAvailable** indica que o aplicativo está disponível. Um valor **false** indica que o aplicativo não está disponível. Esse atributo é opcional.  <br/> |
+|IsMandatory  <br/> |Especifica se o aplicativo é obrigatório. Um valor de texto **true para** o **atributo IsMandatory** indica que o aplicativo é obrigatório para a caixa de correio. Um valor **false** indica que o aplicativo não é obrigatório. Esse atributo é opcional.  <br/> |
+|IsEnabledByDefault  <br/> |Especifica se o aplicativo está habilitado por padrão. Um valor de texto **true** para o **atributo IsEnabledByDefault** indica que o aplicativo está habilitado por padrão. Um valor **false** indica que o aplicativo não está habilitado por padrão. Esse atributo é opcional.  <br/> |
+|ProvidedTo  <br/> |Especifica a quem o aplicativo é fornecido. Esse atributo é opcional.  <br/> |
 |Tipo  <br/> |Especifica o tipo do aplicativo.  <br/> |
 |Escopo  <br/> |Especifica o escopo do aplicativo.  <br/> |
-|MarketplaceAssetId  <br/> |Especifica o identificador de ativos do Marketplace do aplicativo.  <br/> |
-|MarketplaceContentMarket  <br/> |Especifica o conteúdo do Marketplace que um usuário vê para obter detalhes e revisões sobre um aplicativo.  <br/> |
+|MarketplaceAssetId  <br/> |Especifica o identificador de ativo do marketplace do aplicativo.  <br/> |
+|MarketplaceContentMarket  <br/> |Especifica o conteúdo do marketplace que um usuário vê para obter detalhes e avaliações sobre um aplicativo.  <br/> |
 |AppStatus  <br/> |Especifica o código de status de um aplicativo de email em um estado inesperado.  <br/> |
 |Etoken  <br/> |Especifica o token de licença para aplicativos de email pagos ou de avaliação.  <br/> |
    
@@ -52,7 +52,7 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 |:-----|:-----|
 |Padrão  <br/> |Indica que o aplicativo está disponível por padrão.  <br/> |
 |Private  <br/> |Indica que o aplicativo é privado.  <br/> |
-|Competitivo  <br/> |Indica que o aplicativo é um aplicativo de Marketplace.  <br/> |
+|MarketPlace  <br/> |Indica que o aplicativo é um aplicativo do marketplace.  <br/> |
    
 #### <a name="scope"></a>Escopo
 
@@ -68,13 +68,13 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[SpecificUsers](specificusers.md) <br/> |Especifica as contas de email que podem acessar o aplicativo.  <br/> |
-|[Manifesto](manifest.md) <br/> |Contém o arquivo de manifesto de aplicativo codificado em base 64.  <br/> |
+|[Manifesto](manifest.md) <br/> |Contém o arquivo de manifesto do aplicativo codificado com base 64.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ClientExtensions](clientextensions.md) <br/> |Especifica uma matriz de elementos **ClientExtension** .  <br/> |
+|[ClientExtensions](clientextensions.md) <br/> |Especifica uma matriz de elementos **ClientExtension.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -87,8 +87,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

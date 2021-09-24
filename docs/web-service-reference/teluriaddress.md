@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 468bfdd7-d5df-4bca-8f76-34bd5fb722bb
-description: O elemento TelUriAddress contém o URI (Uniform Resource Identifier) de Tel para um contato.
-ms.openlocfilehash: 967d21974ef789dec1d252e650c6391a07b6ac0e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento TelUriAddress contém o URI (Uniform Resource Identifier) tel para um contato.
+ms.openlocfilehash: 2bdbf499491322f6654e0ae24f3a079334c8b4a0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468835"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534198"
 ---
 # <a name="teluriaddress"></a>TelUriAddress
 
-O elemento **TelUriAddress** contém o URI (Uniform Resource Identifier) de Tel para um contato. 
+O **elemento TelUriAddress** contém o URI (Uniform Resource Identifier) tel para um contato. 
   
 ```XML
 <TelUriAddress></TelUriAddress>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **TelUriAddress** é o URI Tel de um contato. 
+O valor de texto do **elemento TelUriAddress** é o tel URI de um contato. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AttachmentShape
 api_type:
 - schema
 ms.assetid: 734914b5-3a16-4744-90a5-741fd30c4676
 description: O elemento AttachmentShape identifica propriedades adicionais para retornar em uma resposta a uma solicitação GetAttachment.
-ms.openlocfilehash: e70fbaad0f649c5afdc151b777efef0f8927ba1c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2c7ceb25f481ec07577117e46e26537e657e18c7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529662"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520035"
 ---
 # <a name="attachmentshape"></a>AttachmentShape
 
-O elemento **AttachmentShape** identifica propriedades adicionais para retornar em uma resposta a uma solicitação [GetAttachment](getattachment.md) . 
+O **elemento AttachmentShape** identifica propriedades adicionais para retornar em uma resposta a uma [solicitação GetAttachment.](getattachment.md) 
   
 - [GetAttachment](getattachment.md)
   
@@ -49,16 +49,16 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[IncludeMimeContent](includemimecontent.md) <br/> |Especifica se o conteúdo MIME (Multipurpose Internet Mail Extensions) de um item ou anexo é retornado na resposta. Este elemento é opcional.  <br/> |
-|[BodyType](bodytype.md) <br/> |Identifica como o corpo de texto é formatado na resposta. Este elemento é opcional.  <br/> |
-|[FilterHtmlContent](filterhtmlcontent.md) <br/> |Especifica se o conteúdo HTML potencialmente não seguro é filtrado de um anexo. Este elemento é opcional.  <br/> |
-|[AdditionalProperties](additionalproperties.md) <br/> |Identifica propriedades adicionais a serem retornadas em uma resposta. Este elemento é opcional.  <br/> |
+|[IncludeMimeContent](includemimecontent.md) <br/> |Especifica se o conteúdo MIME (Extensões de Email da Internet Multipropósitos) de um item ou anexo será retornado na resposta. Esse elemento é opcional.  <br/> |
+|[BodyType](bodytype.md) <br/> |Identifica como o texto do corpo é formatado na resposta. Esse elemento é opcional.  <br/> |
+|[FilterHtmlContent](filterhtmlcontent.md) <br/> |Especifica se o conteúdo HTML potencialmente não seguro é filtrado de um anexo. Esse elemento é opcional.  <br/> |
+|[AdditionalProperties](additionalproperties.md) <br/> |Identifica propriedades adicionais para retornar em uma resposta. Esse elemento é opcional.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetAttachment](getattachment.md) <br/> |O elemento que define uma solicitação para obter um anexo de uma caixa de correio no repositório do Exchange.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetAttachment` <br/> |
+|[GetAttachment](getattachment.md) <br/> |O elemento que define uma solicitação para obter um anexo de uma caixa de correio no Exchange store.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/GetAttachment` <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

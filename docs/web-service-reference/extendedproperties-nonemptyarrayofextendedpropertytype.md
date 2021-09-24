@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a7034730-210d-4916-b992-dda342f890f8
 description: O elemento ExtendedProperties especifica uma matriz de propriedades adicionais.
-ms.openlocfilehash: 36011e0252ed391daefab190d4da679fb3a3f856
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 69099842ad25a0d4f65250b3477563537c569907
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463094"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520560"
 ---
 # <a name="extendedproperties-nonemptyarrayofextendedpropertytype"></a>ExtendedProperties (NonEmptyArrayOfExtendedPropertyType)
 
-O elemento **ExtendedProperties** especifica uma matriz de propriedades adicionais. 
+O **elemento ExtendedProperties** especifica uma matriz de propriedades adicionais. 
   
 ```XML
 <ExtendedProperties>
@@ -38,13 +38,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ExtendedProperty](extendedproperty.md) <br/> |Identifica as propriedades de MAPI estendidas em pastas e itens.  <br/> |
+|[ExtendedProperty](extendedproperty.md) <br/> |Identifica propriedades MAPI estendidas em pastas e itens.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Imgroup](imgroup.md) <br/> |Representa um grupo de mensagens instantâneas.  <br/> |
+|[ImGroup](imgroup.md) <br/> |Representa um grupo de mensagens instantâneas.  <br/> |
 |[SearchPreviewItem](searchpreviewitem.md) <br/> |Especifica os primeiros 256 caracteres de um item de caixa de correio para visualização sem abrir o item.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -58,8 +58,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UID
 api_type:
 - schema
 ms.assetid: b1c43c1e-b773-4dd1-9a32-32b3b8efeaf9
 description: O elemento UID identifica exclusivamente um item de calendário.
-ms.openlocfilehash: c2eb8d9cbb238132bdce2eedf7a41f90fcd20460
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b7dea52b3d21f6f15acc6f7f4bc3c758f68648d6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455909"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538706"
 ---
 # <a name="uid"></a>UID
 
-O elemento **UID** identifica exclusivamente um item de calendário. 
+O **elemento UID** identifica exclusivamente um item de calendário. 
   
 ```xml
 <UID>   </UID>
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião.  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião.  <br/> |
@@ -52,7 +52,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa um identificador exclusivo.
+O valor do texto representa um identificador exclusivo.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -60,7 +60,7 @@ O valor de texto representa um identificador exclusivo.
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

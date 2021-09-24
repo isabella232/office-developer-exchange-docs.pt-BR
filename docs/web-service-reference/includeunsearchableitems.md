@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9a9bd2dc-f5b9-4b82-a6a0-f643d2951080
-description: O elemento IncludeUnsearchableItems especifica se é para incluir itens que não podem ser pesquisados.
-ms.openlocfilehash: 19fe450f5b1647be2df75138dbe67dd9e1c05c21
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento IncludeUnsearchableItems especifica se deve incluir itens que não podem ser pesquisados.
+ms.openlocfilehash: 3bffd68c20623aa4c63dd295d8b4619999c1d4a5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465699"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533101"
 ---
 # <a name="includeunsearchableitems"></a>IncludeUnsearchableItems
 
-O elemento **IncludeUnsearchableItems** especifica se é para incluir itens que não podem ser pesquisados. 
+O **elemento IncludeUnsearchableItems** especifica se deve incluir itens que não podem ser pesquisados. 
   
 ```XML
 <IncludeUnsearchableItems>true | false</IncludeUnsearchableItems>
@@ -44,7 +44,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **IncludeUnsearchableItems** indica que as estatísticas não estão incluídas para itens que não podem ser pesquisados. Um valor **false** indica que as estatísticas são incluídas para os itens que não podem ser pesquisados. 
+Um valor de texto **true** para **o elemento IncludeUnsearchableItems** indica que as estatísticas não são incluídas para itens que não são pesquisáveis. Um valor **false** indica que as estatísticas são incluídas para itens que não são pesquisáveis. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

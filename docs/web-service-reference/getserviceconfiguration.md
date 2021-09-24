@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetServiceConfiguration
 api_type:
 - schema
 ms.assetid: acbb29e4-d853-4302-8e32-7018775d54e4
 description: O elemento GetServiceConfiguration define uma solicitação GetServiceConfiguration.
-ms.openlocfilehash: e9357a9e3be22e129c4910c01231f9dbd22a2dbe
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fdc4fd84c658dd0cd2ecabe7fefc06113bca173a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457869"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533431"
 ---
 # <a name="getserviceconfiguration"></a>GetServiceConfiguration
 
-O elemento **GetServiceConfiguration** define uma solicitação GetServiceConfiguration. 
+O **elemento GetServiceConfiguration** define uma solicitação GetServiceConfiguration. 
   
 ```XML
 <GetServiceConfiguration>
@@ -43,7 +43,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Agindo](actingas.md) <br/> |Identifica quem o chamador está enviando como. Este elemento é opcional. Se esse elemento não estiver presente, o usuário autenticado será considerado como o remetente. O elemento **agindo** deve ser incluído para solicitar dicas de remetente. Um erro ErrorInvalidArgument pode ser retornado em uma resposta se o elemento **agindo** estiver ausente, não incluir um tipo de roteamento, não incluir um endereço de email, contiver um endereço de email inválido, não resolver para um usuário nos serviços de domínio do Active Directory (AD DS) ou resolver para vários usuários no AD DS.  <br/> |
+|[ActingAs](actingas.md) <br/> |Identifica quem o chamador está enviando como. Esse elemento é opcional. Se esse elemento não estiver presente, o usuário autenticado será assumido como o remetente. O **elemento ActingAs** deve ser incluído para solicitar dicas de remetente. Um erro ErrorInvalidArgument pode ser retornado em uma resposta se o elemento **ActingAs** estiver ausente, não incluir um tipo de roteamento, não incluir um endereço de email, contém um endereço de email inválido, não resolve para um usuário no Active Directory Domain Services (AD DS) ou resolve para vários usuários no AD DS.  <br/> |
 |[RequestedConfiguration](requestedconfiguration.md) <br/> |Contém as configurações de serviço solicitadas. Este elemento é obrigatório.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai

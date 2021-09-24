@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsEnabled
 api_type:
 - schema
 ms.assetid: c7e3035e-a4ef-4c11-8cb0-214790a554ff
 description: O elemento IsEnabled indica se a regra está habilitada.
-ms.openlocfilehash: 7a150dc4a27cf4ff7da9825d1daae2b747088539
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 481b55aee6d2c4b591324caf6eeab947e2902da2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455307"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520504"
 ---
 # <a name="isenabled"></a>IsEnabled
 
-O elemento **IsEnabled** indica se a regra está habilitada. 
+O **elemento IsEnabled** indica se a regra está habilitada. 
   
 ```XML
 <IsEnabled/>
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Regra (RuleType)](rule-ruletype.md) <br/> |Representa uma regra na caixa de correio do usuário.  <br/> |
+|[Rule (RuleType)](rule-ruletype.md) <br/> |Representa uma regra na caixa de correio do usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

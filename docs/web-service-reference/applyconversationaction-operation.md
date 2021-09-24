@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ApplyConversationAction
 api_type:
 - schema
 ms.assetid: 73d7943d-d361-4f8b-9948-d85f886efa1a
-description: A operação ApplyConversationAction define uma ação ocasional ou acompanhamento em todos os itens em uma conversa. A operação ApplyConversationAction permite categorizar, mover, copiar, excluir e definir o estado de leitura em todos os itens em uma conversa. As ações também podem ser definidas para novas mensagens em uma conversa.
-ms.openlocfilehash: cdab239a5b0b1406d2ce31f4604e4737d037cd7e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação ApplyConversationAction define uma ação única ou de acompanhamento em todos os itens de uma conversa. A operação ApplyConversationAction permite categorizar, mover, copiar, excluir e definir o estado de leitura em todos os itens de uma conversa. As ações também podem ser definidas para novas mensagens em uma conversa.
+ms.openlocfilehash: ed3ed02dc045a095bcc86124b8d3e1c5a65dae84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463500"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520098"
 ---
 # <a name="applyconversationaction-operation"></a>Operação ApplyConversationAction
 
-A operação **ApplyConversationAction** define uma ação ocasional ou acompanhamento em todos os itens em uma conversa. A operação **ApplyConversationAction** permite categorizar, mover, copiar, excluir e definir o estado de leitura em todos os itens em uma conversa. As ações também podem ser definidas para novas mensagens em uma conversa. 
+A **operação ApplyConversationAction** define uma ação única ou de acompanhamento em todos os itens de uma conversa. A **operação ApplyConversationAction** permite categorizar, mover, copiar, excluir e definir o estado de leitura em todos os itens de uma conversa. As ações também podem ser definidas para novas mensagens em uma conversa. 
   
 ## <a name="applyconversationaction-request-example"></a>Exemplo de solicitação ApplyConversationAction
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **ApplyConversationAction** mostra como mover os itens da conversa especificada para outra pasta. Os itens adicionados à conversa também serão movidos para a pasta especificada. 
+O exemplo a seguir de **uma solicitação ApplyConversationAction** mostra como mover os itens da conversa especificada para outra pasta. Os itens adicionados à conversa também serão movidos para a pasta especificada. 
   
 ### <a name="code"></a>Código
 
@@ -59,13 +59,13 @@ O exemplo a seguir de uma solicitação **ApplyConversationAction** mostra como 
 
 ### <a name="remarks"></a>Comentários
 
-Os identificadores de conversa e de pasta foram reduzidos para preservar a legibilidade.
+Os identificadores de conversa e pasta foram reduzidos para preservar a capacidade de leitura.
   
 ## <a name="applyconversationaction-response-example"></a>Exemplo de resposta ApplyConversationAction
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **ApplyConversationAction** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a **uma solicitação ApplyConversationAction.** 
   
 ### <a name="code"></a>Código
 
@@ -100,7 +100,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **ApplyC
 ## <a name="see-also"></a>Confira também
 
 - [Operação ApplyConversationAction](applyconversationaction-operation.md)
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 - [Conversas no EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

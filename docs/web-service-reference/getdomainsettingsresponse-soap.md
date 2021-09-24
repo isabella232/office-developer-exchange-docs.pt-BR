@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 43ebd17b-3a70-4878-9254-97a4c2c87b77
 description: O elemento GetDomainSettingsResponse representa a resposta a uma operação GetDomainSettings (SOAP), que retorna as configurações de domínio.
-ms.openlocfilehash: 94cb202948e6a0d5a34f5547132c052d1d1b6a40
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e723942ab2691d97729db24c0862af00843e3729
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461874"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538128"
 ---
 # <a name="getdomainsettingsresponse-soap"></a>GetDomainSettingsResponse (SOAP)
 
-O elemento **GetDomainSettingsResponse** representa a resposta a uma [operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md), que retorna as configurações de domínio.
+O **elemento GetDomainSettingsResponse** representa a resposta a uma operação [GetDomainSettings (SOAP),](getdomainsettings-operation-soap.md)que retorna as configurações de domínio.
   
 ```XML
 <GetDomainSettingsResponse>
@@ -41,9 +41,9 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DomainResponses (SOAP)](domainresponses-soap.md) <br/> |Contém uma matriz de respostas para cada configuração de domínio solicitada.  <br/> |
-|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Representa um código de erro retornado pelo serviço de descoberta automática.  <br/> |
-|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Representa uma mensagem que é associada a um código de erro retornado pelo serviço de descoberta automática.  <br/> |
+|[DomainResponses (SOAP)](domainresponses-soap.md) <br/> |Contém uma matriz de respostas para as configurações de cada domínio solicitado.  <br/> |
+|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Representa um código de erro retornado pelo serviço descoberta automática.  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Representa uma mensagem associada a um código de erro retornado pelo serviço de Descoberta Automática.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -51,14 +51,14 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

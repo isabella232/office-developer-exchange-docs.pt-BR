@@ -1,23 +1,23 @@
 ---
-title: Itens (ArrayOfNonIndexableItemDetailsType)
+title: Items (ArrayOfNonIndexableItemDetailsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da795880-12b4-4341-bcb8-31616f4ba46f
-description: O elemento items contém uma matriz de detalhes do item para itens não indexados.
-ms.openlocfilehash: 81ca175933b0d23a939f6fdc45cb5a10e7157350
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Items contém uma matriz de detalhes do item para itens não indexáveis.
+ms.openlocfilehash: 82553a704d60cb7398a678bc54e1622e3eb415b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459900"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519419"
 ---
-# <a name="items-arrayofnonindexableitemdetailstype"></a>Itens (ArrayOfNonIndexableItemDetailsType)
+# <a name="items-arrayofnonindexableitemdetailstype"></a>Items (ArrayOfNonIndexableItemDetailsType)
 
-O elemento **Items** contém uma matriz de detalhes do item para itens não indexados. 
+O **elemento Items** contém uma matriz de detalhes do item para itens não indexáveis. 
   
 ```XML
 <Items>
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

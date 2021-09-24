@@ -1,23 +1,23 @@
 ---
-title: EmailAddress (getpersonatype)
+title: EmailAddress (GetPersonaType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 052055b5-4630-40ed-9b24-9e7f4bf7ba1d
-description: O elemento EmailAddress (getpersonatype) especifica o endereço de email associado ao persona.
-ms.openlocfilehash: b58f61202cd94ff282b21138b47b40887b38752a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EmailAddress (GetPersonaType) especifica o endereço de email associado à persona.
+ms.openlocfilehash: 7d024234c66c2b90bdd5d04f25d67db54770bdb5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463451"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520799"
 ---
-# <a name="emailaddress-getpersonatype"></a>EmailAddress (getpersonatype)
+# <a name="emailaddress-getpersonatype"></a>EmailAddress (GetPersonaType)
 
-O elemento **EmailAddress (Getpersonatype)** especifica o endereço de email associado ao persona. 
+O **elemento EmailAddress (GetPersonaType)** especifica o endereço de email associado à persona. 
   
 ```XML
 <EmailAddress>
@@ -30,7 +30,7 @@ O elemento **EmailAddress (Getpersonatype)** especifica o endereço de email ass
 </EmailAddress>>
 ```
 
- **EmailAddresstype**
+ **EmailAddressType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -45,7 +45,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Getpersona](getpersona.md)
+[GetPersona](getpersona.md)
   
 ## <a name="remarks"></a>Comentários
 
@@ -64,6 +64,6 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
    
 ## <a name="see-also"></a>Confira também
 
-- [Getpersona](getpersona.md)
+- [GetPersona](getpersona.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

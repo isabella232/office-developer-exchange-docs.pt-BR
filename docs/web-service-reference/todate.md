@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 15cdadfb-2636-44d6-84b7-d83ccad56fd7
 description: O elemento ToDate especifica a data em que a mensagem foi recebida.
-ms.openlocfilehash: 1efff3d9484aa39562ad3d1e8ab01479999dda8a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2c51fff71592a3094a085082104b993c34ce4f57
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468779"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520370"
 ---
 # <a name="todate"></a>ToDate
 
-O elemento **ToDate** especifica a data em que a mensagem foi recebida. 
+O **elemento ToDate** especifica a data em que a mensagem foi recebida. 
   
 ```XML
 <ToDate></ToDate>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ToDate** é a data em que a mensagem foi recebida. 
+O valor de texto do **elemento ToDate** é a data em que a mensagem foi recebida. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

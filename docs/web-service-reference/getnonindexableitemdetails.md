@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ce3994c1-3bb4-4571-b026-34a6c5705410
-description: O elemento GetNonIndexableItemDetails especifica uma solicitação para recuperar os detalhes de itens não indexados.
-ms.openlocfilehash: 1c04b4cd7a86183210be869973c9779188fa0adf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetNonIndexableItemDetails especifica uma solicitação para recuperar detalhes de item não indexáveis.
+ms.openlocfilehash: 896b978b9b222454b9e3f016aa0593521e92e33d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458597"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533608"
 ---
 # <a name="getnonindexableitemdetails"></a>GetNonIndexableItemDetails
 
-O elemento **GetNonIndexableItemDetails** especifica uma solicitação para recuperar os detalhes de itens não indexados. 
+O **elemento GetNonIndexableItemDetails** especifica uma solicitação para recuperar detalhes de item não indexáveis. 
   
 ```XML
 <GetNonIndexableItemDetails>
@@ -41,14 +41,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Caixas de correio (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Especifica uma matriz de elementos de **caixa de correio** .  <br/> |
+|[Mailboxes (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Especifica uma matriz de elementos **de Caixa de** Correio.  <br/> |
 |[PageSize](pagesize.md) <br/> |Contém o número de itens a serem retornados em uma única página para um resultado de pesquisa.  <br/> |
-|[PageItemReference](pageitemreference.md) <br/> |Especifica a referência de um item de página.  <br/> |
+|[PageItemReference](pageitemreference.md) <br/> |Especifica a referência para um item de página.  <br/> |
 |[PageDirection](pagedirection.md) <br/> |Contém a direção da paginação no resultado da pesquisa.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -62,7 +62,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

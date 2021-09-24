@@ -1,45 +1,45 @@
 ---
-title: Operação getpersona
+title: Operação GetPersona
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e2146df0-53d0-4caf-9758-b600bbc14b6a
-description: Encontre informações sobre a operação do EWS GetPerson.
-ms.openlocfilehash: 2b335c694a85f87c96432ea6d7c1c674613d2f17
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação GetPersona EWS.
+ms.openlocfilehash: 47713ee42b7d726693efe91a5bc29c10f3aea91c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460943"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533550"
 ---
-# <a name="getpersona-operation"></a>Operação getpersona
+# <a name="getpersona-operation"></a>Operação GetPersona
 
-Encontre informações sobre a operação do EWS **GetPerson** . 
+Encontre informações sobre a **operação GetPersona** EWS. 
   
-A operação **Getpersona** retorna um conjunto de propriedades que estão associadas a um persona. 
+A **operação GetPersona** retorna um conjunto de propriedades associadas a uma persona. 
   
 This operation was introduced in Exchange Server 2013.
   
-## <a name="using-the-getpersona-operation"></a>Usando a operação getpersona
+## <a name="using-the-getpersona-operation"></a>Usando a operação GetPersona
 
-A operação **Getpersona** fornece acesso a informações de contato agregadas no formato de uma pessoa. O elemento [personaid](personaid.md) na solicitação identifica o persona a ser retornado na resposta. A resposta pode conter um conjunto padrão de propriedades persona ou um conjunto de propriedades personalizadas. Recomendamos que você especifique um conjunto de propriedades personalizadas para que as propriedades não usadas não sejam processadas e enviadas do servidor para o cliente. 
+A **operação GetPersona** fornece acesso a informações de contato agregadas na forma de uma persona. O [elemento PersonaId](personaid.md) na solicitação identifica a persona a ser retornada na resposta. A resposta pode conter um conjunto padrão de propriedades persona ou um conjunto de propriedades personalizadas. Recomendamos que você especifique um conjunto de propriedades personalizadas para que as propriedades não usados não sejam processadas e enviadas do servidor para o cliente. 
   
-### <a name="getpersona-operation-soap-headers"></a>Cabeçalhos SOAP de operação getpersona
+### <a name="getpersona-operation-soap-headers"></a>Headers SOAP da operação GetPersona
 
-A operação **Getpersona** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação GetPersona** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="getpersona-operation-request-example-return-a-default-set-of-properties-for-a-persona"></a>Exemplo de solicitação de operação getpersona: retornar um conjunto padrão de propriedades de um persona
+## <a name="getpersona-operation-request-example-return-a-default-set-of-properties-for-a-persona"></a>Exemplo de solicitação de operação GetPersona: Retornar um conjunto padrão de propriedades para uma persona
 
-O exemplo a seguir de uma solicitação de operação **Getpersona** mostra como retornar um conjunto padrão de propriedades que estão associadas a um persona. 
+O exemplo a seguir de uma solicitação de operação **GetPersona** mostra como retornar um conjunto padrão de propriedades associadas a uma persona. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -59,16 +59,16 @@ O exemplo a seguir de uma solicitação de operação **Getpersona** mostra como
 
 O corpo SOAP de resposta contém os seguintes elementos:
   
-- [Getpersona](getpersona.md)
+- [GetPersona](getpersona.md)
     
-- [Personaid](personaid.md)
+- [PersonaId](personaid.md)
     
-## <a name="successful-getpersona-operation-response"></a>Resposta de operação getpersona bem-sucedida
+## <a name="successful-getpersona-operation-response"></a>Resposta bem-sucedida da operação GetPersona
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **Getpersona** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma **solicitação de operação GetPersona.** 
   
 > [!NOTE]
-> Todos os identificadores de item e as chaves de alteração deste artigo foram reduzidos para preservar a legibilidade. 
+> Todos os identificadores de item e teclas de alteração neste artigo foram reduzidos para preservar a capacidade de leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -188,9 +188,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [Pessoal](persona.md)
     
-- [Personaid](personaid.md)
+- [PersonaId](personaid.md)
     
-- [Personatype](personatype.md)
+- [PersonaType](personatype.md)
     
 - [CreationTime](creationtime.md)
     
@@ -210,17 +210,17 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [RelevanceScore](relevancescore.md)
     
-- [Atribuições (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
+- [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
     
-- [Atribuição (cadeia de caracteres)](attribution-string.md)
+- [Attribution (string)](attribution-string.md)
     
-- [ID (cadeia de caracteres)](id-string.md)
+- [ID (String)](id-string.md)
     
-- [SourceID](sourceid.md) SourceId 
+- [SourceId](sourceid.md) SourceId 
     
 - [DisplayName (cadeia de caracteres)](displayname-string.md)
     
-- [Iswritable](iswritable.md)
+- [IsWritable](iswritable.md)
     
 - [IsQuickContact](isquickcontact.md)
     
@@ -228,29 +228,29 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [FolderId](folderid.md)
     
-- [Displaynames](displaynames.md)
+- [DisplayNames](displaynames.md)
     
 - [StringAttributedValue](stringattributedvalue.md)
     
-- [Valor (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
+- [Value (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
     
-- [Atribuições (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
+- [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
     
-- [Atribuição (PersonaAttributionType)](attribution-personaattributiontype.md)
+- [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
 - [FileAses](fileases.md)
     
 - [FileAsIds](fileasids.md)
     
-- [Dados fornecidos](givennames.md)
+- [GivenNames](givennames.md)
     
-- [Sobrenomes](surnames.md)
+- [Surnames](surnames.md)
     
 - [MobilePhones](mobilephones.md)
     
 - [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
     
-- [Valor (PersonaPhoneNumberType)](value-personaphonenumbertype.md)
+- [Value (PersonaPhoneNumberType)](value-personaphonenumbertype.md)
     
 - [Número](number.md)
     
@@ -258,9 +258,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [CompanyNames](companynames.md)
     
-## <a name="getpersona-operation-error-response"></a>Resposta de erro de operação getpersona
+## <a name="getpersona-operation-error-response"></a>Resposta de erro da operação GetPersona
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **Getpersona** . Esta é uma resposta a uma solicitação que contém um identificador persona especificado incorretamente. 
+O exemplo a seguir mostra uma resposta de erro a uma **solicitação de operação GetPersona.** Esta é uma resposta a uma solicitação que contém um identificador de persona especificado incorretamente. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -288,7 +288,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-O corpo SOAP de resposta de erro contém os seguintes elementos:
+O corpo SOAP da resposta de erro contém os seguintes elementos:
   
 - [GetPersonaResponseMessage](getpersonaresponsemessage.md)
     
@@ -298,11 +298,11 @@ O corpo SOAP de resposta de erro contém os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Para obter códigos de erro adicionais genéricos para o EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
+Para obter códigos de erro adicionais genéricos para EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Confira também
 
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
     
 - [Pessoas e contatos no EWS no Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef4e7fae-205b-461c-a222-b4287bb24aea
-description: O elemento CompanyNameSortKey contém a chave de classificação para um nome de empresa.
-ms.openlocfilehash: 61cc335336ae565980f337cb16f216914e5e675f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento CompanyNameSortKey contém a chave de classificação para um nome da empresa.
+ms.openlocfilehash: 3f0f78fdf049e83d665edc29925d74638d0088a9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463248"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519944"
 ---
 # <a name="companynamesortkey"></a>CompanyNameSortKey
 
-O elemento **CompanyNameSortKey** contém a chave de classificação para um nome de empresa. 
+O **elemento CompanyNameSortKey** contém a chave de classificação para um nome da empresa. 
   
 ```XML
 <CompanyNameSortKey></CompanyNameSortKey>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **CompanyNameSortKey** é a chave de classificação para um nome de empresa. 
+O valor de texto do **elemento CompanyNameSortKey** é a chave de classificação para um nome da empresa. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c31552f-22b8-4bf0-8cac-046fd92ac0d4
 description: O elemento GroupType especifica a classe de grupo de um grupo de mensagens instantâneas (IM).
-ms.openlocfilehash: b8790a23507c51dfffceaddf3641ce820223c366
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f54a78c5780d7d435531be0dc74e354594b754bb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462798"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533135"
 ---
 # <a name="grouptype"></a>GroupType
 
-O elemento **GroupType** especifica a classe de grupo de um grupo de mensagens instantâneas (IM). 
+O **elemento GroupType** especifica a classe de grupo de um grupo de mensagens instantâneas (IM). 
   
 ```XML
 <GroupType></GroupType>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Imgroup](imgroup.md) <br/> |Representa um grupo de mensagens instantâneas.  <br/> |
+|[ImGroup](imgroup.md) <br/> |Representa um grupo de mensagens instantâneas.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **GroupType** é um valor String que especifica o tipo do grupo. 
+O valor de texto do **elemento GroupType** é um valor de cadeia de caracteres que especifica o tipo do grupo. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

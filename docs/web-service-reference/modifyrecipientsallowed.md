@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f25e673-0df0-4285-bf03-a083a395cdab
 description: O elemento ModifyRecipientsAllowed especifica se a modificação dos destinatários está habilitada.
-ms.openlocfilehash: 3154ec3aceb2da7911002d505e0c452bf920d71f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4366f9ed0a6843f9a297718cb999fb8c3a02ee17
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465692"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520391"
 ---
 # <a name="modifyrecipientsallowed"></a>ModifyRecipientsAllowed
 
-O elemento **ModifyRecipientsAllowed** especifica se a modificação dos destinatários está habilitada. 
+O **elemento ModifyRecipientsAllowed** especifica se a modificação dos destinatários está habilitada. 
   
 ```XML
 <ModifyRecipientsAllowed> true | false </ModifyRecipientsAllowed>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **ModifyRecipientsAllowed** indica que a lista de destinatários do item pode ser modificada para um item com o gerenciamento de direitos habilitado nele. Um valor **false** indica que a lista de destinatários não é modificável. 
+Um valor de texto **true** para **o elemento ModifyRecipientsAllowed** indica que a lista de destinatários do item é modificável para um item com o gerenciamento de direitos habilitado nele. Um valor **false** indica que a lista de destinatários não é modificável. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

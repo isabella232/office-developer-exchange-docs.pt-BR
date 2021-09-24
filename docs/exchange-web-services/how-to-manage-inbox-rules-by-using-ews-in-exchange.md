@@ -1,44 +1,44 @@
 ---
-title: Gerenciar regras de caixa de entrada usando o EWS no Exchange
+title: Gerenciar regras de Caixa de Entrada usando o EWS Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 982ddb78-5606-44b0-8aba-dbffc60d6085
-description: Descubra como obter, criar, atualizar e excluir regras de caixa de entrada usando a API gerenciada do EWS ou o EWS no Exchange.
-ms.openlocfilehash: 7c5d202a85ece1c9bc7227020f9ee8be1f688ce6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Saiba como obter, criar, atualizar e excluir regras de Caixa de Entrada usando a API Gerenciada do EWS ou o EWS no Exchange.
+ms.openlocfilehash: 3612176041533fb5cb2a6c79fcdaff9810b681f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527975"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513175"
 ---
-# <a name="manage-inbox-rules-by-using-ews-in-exchange"></a>Gerenciar regras de caixa de entrada usando o EWS no Exchange
+# <a name="manage-inbox-rules-by-using-ews-in-exchange"></a>Gerenciar regras de Caixa de Entrada usando o EWS Exchange
 
-Descubra como obter, criar, atualizar e excluir regras de caixa de entrada usando a API gerenciada do EWS ou o EWS no Exchange.
+Saiba como obter, criar, atualizar e excluir regras de Caixa de Entrada usando a API Gerenciada do EWS ou o EWS no Exchange.
   
-Você pode obter, criar, atualizar e excluir regras de caixa de entrada usando a API gerenciada do EWS ou o EWS. Independentemente da tecnologia que você usa, você obtém e modifica as regras de caixa de entrada como uma coleção, em vez de individualmente. Você usa o mesmo método ou operação para criar novas regras, atualizar regras existentes e excluir regras. 
+Você pode obter, criar, atualizar e excluir regras de Caixa de Entrada usando a API Gerenciada do EWS ou o EWS. Independentemente da tecnologia que você usa, você pode obter e modificar regras de Caixa de Entrada como uma coleção, em vez de individualmente. Você usa o mesmo método ou operação para criar novas regras, atualizar regras existentes e excluir regras. 
   
-**Tabela 1. Métodos e operações para obter e modificar regras de caixa de entrada**
+**Tabela 1. Métodos e operações para obter e modificar regras de Caixa de Entrada**
 
-|**Para...**|**Método de API gerenciada do EWS**|**Operação do EWS**|
+|**Para...**|**Método da API Gerenciada do EWS**|**Operação do EWS**|
 |:-----|:-----|:-----|
-|Obter regras de caixa de entrada  <br/> |[ExchangeService. GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) <br/> |[GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) <br/> |
-|Criar, atualizar ou excluir regras de caixa de entrada  <br/> |[ExchangeService. UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) <br/> |[UpdateInboxRules](https://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx) <br/> |
+|Obter regras de caixa de entrada  <br/> |[ExchangeService.GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) <br/> |[GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) <br/> |
+|Criar, atualizar ou excluir regras de Caixa de Entrada  <br/> |[ExchangeService.UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) <br/> |[UpdateInboxRules](https://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx) <br/> |
    
-Para criar, atualizar ou excluir regras de caixa de entrada usando a API gerenciada do EWS ou o EWS, você deve remover a regra do Outlook, se ela existir. Se você estiver usando a API gerenciada do EWS, faça isso definindo o parâmetro **removeOutlookRulesBlob** como **true** na chamada do método **ExchangeService. UpdateInboxRules** . Se você estiver usando o EWS, defina o valor do elemento [RemoveOutlookRuleBlob](https://msdn.microsoft.com/library/69614475-8bd3-4475-b988-614fe9cad8ef%28Office.15%29.aspx) como **true** na operação **UpdateInboxRules** . Recomendamos que seu aplicativo Verifique a propriedade [RuleCollection. OutlookRuleBlobExists](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.rulecollection.outlookruleblobexists%28v=exchg.80%29.aspx) (se você estiver usando a API gerenciada do EWS) ou o elemento [OutlookRuleBlobExists](https://msdn.microsoft.com/library/ae1bc448-deb9-4b5b-ab38-4b276abcb650%28Office.15%29.aspx) (se estiver usando o EWS) antes de atualizar as regras de caixa de entrada. Se essa propriedade ou elemento tiver um valor de **true**, o aplicativo deverá alertar o usuário de que qualquer regra desabilitada será perdida como parte da atualização e continuar com a permissão.
+Para criar, atualizar ou excluir regras de Caixa de Entrada usando a API Gerenciada do EWS ou o EWS, você deve remover a regra Outlook, se ela existir. Se você estiver usando a API Gerenciada do EWS, faça isso definindo o **parâmetro removeOutlookRulesBlob** como **true** na chamada do método **ExchangeService.UpdateInboxRules.** Se estiver usando o EWS, você definirá o valor do [elemento RemoveOutlookRuleBlob](https://msdn.microsoft.com/library/69614475-8bd3-4475-b988-614fe9cad8ef%28Office.15%29.aspx) como **true** na **operação UpdateInboxRules.** Recomendamos que seu aplicativo verifique a propriedade [RuleCollection.OutlookRuleBlobExists](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.rulecollection.outlookruleblobexists%28v=exchg.80%29.aspx) (se você estiver usando a API Gerenciada do EWS) ou o [elemento OutlookRuleBlobExists](https://msdn.microsoft.com/library/ae1bc448-deb9-4b5b-ab38-4b276abcb650%28Office.15%29.aspx) (se você estiver usando o EWS) antes de atualizar as regras da Caixa de Entrada. Se essa propriedade ou elemento tiver um valor true **,** seu aplicativo deverá alertar o usuário de que todas as regras desabilitadas serão perdidas como parte da atualização e continuarão apenas com a permissão deles.
   
-Quando você chamar o método **UpdateInboxRules** , EWS excluirá as regras de envio do lado do cliente. As regras de envio do lado do cliente são armazenadas no cliente na mensagem de FAI (informações associadas à pasta de regras) e em outro lugar. O EWS exclui essa regra FAI mensagem por padrão, com base na expectativa de que o Outlook a recriará. No entanto, o Outlook não pode recriar regras que não existam também como uma regra estendida e as regras de envio do lado do cliente não existem como regras estendidas. Como resultado, essas regras são perdidas. Sugerimos que você considere isso ao criar sua solução. 
+Quando você chama o **método UpdateInboxRules,** o EWS exclui as regras de envio do lado do cliente. As regras de envio do lado do cliente são armazenadas no cliente na regra FaI (Informações Associadas à Pasta) Mensagem e em nenhum outro lugar. O EWS exclui essa mensagem FAI de regra por padrão, com base na expectativa de que Outlook a recriará. No entanto, Outlook não pode recriar regras que também não existem como uma regra estendida, e as regras de envio do lado do cliente não existem como regras estendidas. Como resultado, essas regras são perdidas. Sugerimos que você considere isso ao projetar sua solução. 
   
 > [!NOTE]
-> Os exemplos de código da API gerenciada do EWS neste artigo usam um [conjunto comum de métodos utilitário](how-to-manage-inbox-rules-by-using-ews-in-exchange.md#bk_UtilitySource). Esses métodos são omitidos dos exemplos de código por brevidade. 
+> Os exemplos de código da API Gerenciada do EWS neste artigo usam um [conjunto comum de métodos utilitários.](how-to-manage-inbox-rules-by-using-ews-in-exchange.md#bk_UtilitySource) Esses métodos são omitidos dos exemplos de código para brevidade. 
   
-## <a name="get-inbox-rules-by-using-the-ews-managed-api"></a>Obter regras de caixa de entrada usando a API gerenciada do EWS
+## <a name="get-inbox-rules-by-using-the-ews-managed-api"></a>Obter regras de Caixa de Entrada usando a API Gerenciada do EWS
 <a name="bk_GetRulesEWSMA"> </a>
 
-Para obter as regras de caixa de entrada atuais, use o método [ExchangeService. GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) . Este método retorna um objeto [RuleCollection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.rulecollection%28v=exchg.80%29.aspx) que contém todas as regras de caixa de entrada atuais. 
+Para obter as regras atuais da Caixa de Entrada, use o [método ExchangeService.GetInboxRules.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) Este método retorna um [objeto RuleCollection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.rulecollection%28v=exchg.80%29.aspx) que contém todas as regras de Caixa de Entrada atuais. 
   
-Neste exemplo, cada regra na caixa de entrada atual é passada para uma função auxiliar ( **ParseRuleDetails** ) para exibir os detalhes da regra. 
+Neste exemplo, cada regra na Caixa de Entrada atual é passada para uma função auxiliar ( **ParseRuleDetails** ) para exibir os detalhes da regra. 
   
 ```cs
 using System;
@@ -76,7 +76,7 @@ private static void GetInboxRules(ExchangeService service, string emailAddress)
 ## <a name="get-inbox-rules-by-using-ews"></a>Obter regras de caixa de entrada usando o EWS
 <a name="bk_GetRulesEWS"> </a>
 
-A seguinte solicitação de SOAP do EWS usa a [operação GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) para recuperar as regras de caixa de entrada do Sadie@contoso.com. 
+A solicitação SOAP do EWS a seguir usa a [operação GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) para recuperar as regras de Caixa de Entrada para sadie@contoso.com. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -95,7 +95,7 @@ A seguinte solicitação de SOAP do EWS usa a [operação GetInboxRules](https:/
 </soap:Envelope>
 ```
 
-A resposta SOAP do EWS a seguir contém as regras de caixa de entrada atuais do sadie@contoso.com.
+A seguinte resposta SOAP do EWS contém as regras de Caixa de Entrada atuais para sadie@contoso.com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -161,12 +161,12 @@ A resposta SOAP do EWS a seguir contém as regras de caixa de entrada atuais do 
 </s:Envelope>
 ```
 
-## <a name="create-inbox-rules-by-using-the-ews-managed-api"></a>Criar regras de caixa de entrada usando a API gerenciada do EWS
+## <a name="create-inbox-rules-by-using-the-ews-managed-api"></a>Criar regras de Caixa de Entrada usando a API Gerenciada do EWS
 <a name="bk_CreateRulesEWSMA"> </a>
 
-Para criar uma regra, inclua um objeto [CreateRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.createruleoperation%28v=exchg.80%29.aspx) na coleção de objetos [RuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.ruleoperation%28v=exchg.80%29.aspx) passados para o método [ExchangeService. UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) . 
+Para criar uma regra, inclua um [objeto CreateRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.createruleoperation%28v=exchg.80%29.aspx) na coleção de objetos [RuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.ruleoperation%28v=exchg.80%29.aspx) passados para o [método ExchangeService.UpdateInboxRules.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) 
   
-Neste exemplo, uma nova regra é criada para mover os emails enviados para uma lista de distribuição chamada "vendas" para uma subpasta da caixa de entrada, também chamada de "vendas".
+Neste exemplo, uma nova regra é criada para mover emails enviados para uma lista de distribuição chamada "Vendas" para uma subpasta da Caixa de Entrada, também chamada "Vendas".
   
 ```cs
 using System;
@@ -244,7 +244,7 @@ private static void CreateInboxRule(ExchangeService service, string emailAddress
 ## <a name="create-inbox-rules-by-using-ews"></a>Criar regras de caixa de entrada usando o EWS
 <a name="bk_CreateRulesEWS"> </a>
 
-A seguinte solicitação de SOAP do EWS cria a regra "Sales" na caixa de entrada do sadie@contoso.
+A solicitação SOAP do EWS a seguir cria a regra "Vendas" na caixa de entrada sadie@contoso.com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -296,12 +296,12 @@ A seguinte solicitação de SOAP do EWS cria a regra "Sales" na caixa de entrada
 </soap:Envelope>
 ```
 
-## <a name="update-inbox-rules-by-using-the-ews-managed-api"></a>Atualizar regras de caixa de entrada usando a API gerenciada do EWS
+## <a name="update-inbox-rules-by-using-the-ews-managed-api"></a>Atualizar regras de caixa de entrada usando a API Gerenciada do EWS
 <a name="bk_UpdateRulesEWSMA"> </a>
 
-Para atualizar uma regra, inclua um objeto [SetRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.setruleoperation%28v=exchg.80%29.aspx) na coleção de objetos **RuleOperation** passados para o método **UpdateInboxRules** . 
+Para atualizar uma regra, inclua um [objeto SetRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.setruleoperation%28v=exchg.80%29.aspx) na coleção de objetos **RuleOperation** passados para o **método UpdateInboxRules.** 
   
-Neste exemplo, a regra "vendas" é atualizada para adicionar uma exceção. Se o assunto contiver a palavra "urgente", as mensagens não serão movidas para a subpasta "vendas".
+Neste exemplo, a regra "Vendas" é atualizada para adicionar uma exceção. Se o assunto contiver a palavra "Urgente", as mensagens não serão movidas para a subpasta "Vendas".
   
 ```cs
 using System;
@@ -375,7 +375,7 @@ private static void UpdateInboxRule(ExchangeService service, string emailAddress
 ## <a name="update-inbox-rules-by-using-ews"></a>Atualizar regras de caixa de entrada usando o EWS
 <a name="bk_UpdateRulesEWS"> </a>
 
-A solicitação SOAP seguinte do EWS atualiza a regra "Sales" na caixa de entrada do sadie@contoso.
+A solicitação SOAP do EWS a seguir atualiza a regra "Vendas" na caixa de entrada sadie@contoso.com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -433,12 +433,12 @@ A solicitação SOAP seguinte do EWS atualiza a regra "Sales" na caixa de entrad
 </soap:Envelope>
 ```
 
-## <a name="delete-inbox-rules-by-using-the-ews-managed-api"></a>Excluir regras de caixa de entrada usando a API gerenciada do EWS
+## <a name="delete-inbox-rules-by-using-the-ews-managed-api"></a>Excluir regras de caixa de entrada usando a API Gerenciada do EWS
 <a name="bk_DeleteRulesEWSMA"> </a>
 
-Para excluir uma regra, inclua um objeto [DeleteRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.deleteruleoperation%28v=exchg.80%29.aspx) na coleção de objetos **RuleOperation** passados para o método **UpdateInboxRules** . 
+Para excluir uma regra, inclua um [objeto DeleteRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.deleteruleoperation%28v=exchg.80%29.aspx) na coleção de objetos **RuleOperation** passados para o **método UpdateInboxRules.** 
   
-Neste exemplo, a regra "vendas" é excluída.
+Neste exemplo, a regra "Vendas" é excluída.
   
 ```cs
 using System;
@@ -509,7 +509,7 @@ private static void DeleteInboxRule(ExchangeService service, string emailAddress
 ## <a name="delete-inbox-rules-by-using-ews"></a>Excluir regras de caixa de entrada usando o EWS
 <a name="bk_DeleteRulesEWS"> </a>
 
-A solicitação SOAP do EWS a seguir exclui as regras de "vendas" da caixa de entrada do sadie@contoso.
+A solicitação SOAP do EWS a seguir exclui as regras "Vendas" da caixa de entrada sadie@contoso.com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -533,10 +533,10 @@ A solicitação SOAP do EWS a seguir exclui as regras de "vendas" da caixa de en
 </soap:Envelope>
 ```
 
-## <a name="source-for-sample-utility-methods"></a>Fonte para métodos utilitários de amostra
+## <a name="source-for-sample-utility-methods"></a>Origem para métodos utilitários de exemplo
 <a name="bk_UtilitySource"> </a>
 
-Os exemplos de API gerenciada do EWS neste artigo usam os métodos utilitários incluídos no exemplo a seguir.
+Os exemplos de API Gerenciada do EWS neste artigo usam os métodos utilitários incluídos no exemplo a seguir.
   
 ```cs
 private static void ParseRuleDetails(ExchangeService service, Rule rule)
@@ -910,9 +910,9 @@ private static FolderId GetFolderIdByName(ExchangeService service, WellKnownFold
 
 - [Gerenciamento de caixa de entrada e EWS no Exchange](inbox-management-and-ews-in-exchange.md)
     
-- [Método ExchangeService. GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx)
+- [Método ExchangeService.GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx)
     
-- [Método ExchangeService. UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx)
+- [Método ExchangeService.UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx)
     
 - [Operação GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx)
     

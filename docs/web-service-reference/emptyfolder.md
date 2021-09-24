@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 502b2841-103d-4340-97d5-51a1db813fb2
-description: O elemento EmptyFolder define uma solicitação para esvaziar uma pasta em uma caixa de correio no repositório do Exchange. Opcionalmente, as subpastas também podem ser excluídas quando a pasta é esvaziada.
-ms.openlocfilehash: a42e4e3f25741a96ee65fe6f87fc3236b68f4dc9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EmptyFolder define uma solicitação para esvaziar uma pasta em uma caixa de correio no Exchange store. Opcionalmente, as subpastas também podem ser excluídas quando a pasta é esvaziada.
+ms.openlocfilehash: c1b0e953f677c1fe5ae0958b35f85f3f5c4fb973
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457274"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519671"
 ---
 # <a name="emptyfolder"></a>EmptyFolder
 
-O elemento **EmptyFolder** define uma solicitação para esvaziar uma pasta em uma caixa de correio no repositório do Exchange. Opcionalmente, as subpastas também podem ser excluídas quando a pasta é esvaziada. 
+O **elemento EmptyFolder** define uma solicitação para esvaziar uma pasta em uma caixa de correio no Exchange store. Opcionalmente, as subpastas também podem ser excluídas quando a pasta é esvaziada. 
   
 ```XML
 <EmptyFolder>
@@ -35,21 +35,21 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
 |**DeleteType** <br/> |Especifica como uma pasta é esvaziada. Esse atributo é necessário.  <br/> |
-|**DeleteSubFolders** <br/> |Especifica se as subpastas devem ser excluídas. Esse atributo é necessário.  <br/> |
+|**DeleteSubFolders** <br/> |Especifica se subpastas devem ser excluídas. Esse atributo é necessário.  <br/> |
    
 #### <a name="deletetype-attribute"></a>Atributo DeleteType
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|HardDelete  <br/> |As mensagens e pastas são removidas permanentemente da loja.  <br/> |
-|SoftDelete  <br/> |As mensagens e pastas serão movidas para o dumpster se o dumpster estiver habilitado.  <br/> |
-|MoveToDeletedItems  <br/> |As mensagens e pastas são movidas para a pasta itens excluídos.  <br/> |
+|HardDelete  <br/> |As mensagens e pastas são removidas permanentemente do armazenamento.  <br/> |
+|SoftDelete  <br/> |Uma mensagem e pastas são movidas para o dumpster se a lixeira estiver habilitada.  <br/> |
+|MoveToDeletedItems  <br/> |Uma mensagem e pastas são movidas para a pasta Itens Excluídos.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderIds](folderids.md) <br/> |Contém uma matriz de identificadores de pasta que são usados para identificar pastas a serem excluídas.  <br/> |
+|[FolderIds](folderids.md) <br/> |Contém uma matriz de identificadores de pasta que são usados para identificar pastas a ser excluídos.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 

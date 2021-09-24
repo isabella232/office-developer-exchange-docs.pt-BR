@@ -1,23 +1,23 @@
 ---
-title: Email (cadeia de caracteres)
+title: Email (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7e0cfa14-cdfb-4b48-b2e9-b1d866bf2c0e
-description: O elemento email identifica o endereço de email do usuário cuja foto é solicitada na operação GetUserPhoto.
-ms.openlocfilehash: 28fc16cee4438f6a6a87924875e029184197a426
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Email identifica o endereço de email do usuário cuja foto é solicitada na operação GetUserPhoto.
+ms.openlocfilehash: a7ed2356f696ebc1e6cc938a7ed5588786d228fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538223"
 ---
-# <a name="email-string"></a>Email (cadeia de caracteres)
+# <a name="email-string"></a>Email (String)
 
-O elemento **email** identifica o endereço de email do usuário cuja foto é solicitada na operação **GetUserPhoto** . 
+O **elemento Email** identifica o endereço de email do usuário cuja foto é solicitada na operação **GetUserPhoto.** 
   
 ```XML
 <Email></Email>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **email** é o endereço de email do usuário cuja foto é solicitada na operação GetUserPhoto. 
+O valor de texto do elemento **Email** é o endereço de email do usuário cuja foto é solicitada na operação GetUserPhoto. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

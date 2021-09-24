@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnresolvedEntry
 api_type:
 - schema
 ms.assetid: 5ac6116a-3b24-40f8-a877-dbe9a6935919
-description: O elemento UnresolvedEntry contém o nome de um contato ou de uma lista de distribuição a ser resolvida.
-ms.openlocfilehash: 0f157c1be6c327187456a795c4c1000b8c35b620
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UnresolvedEntry contém o nome de um contato ou lista de distribuição a ser resolvido.
+ms.openlocfilehash: 77074d5aed0a799d355fd176a8c9c06f2dffec5a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459837"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538664"
 ---
 # <a name="unresolvedentry"></a>UnresolvedEntry
 
-O elemento **UnresolvedEntry** contém o nome de um contato ou de uma lista de distribuição a ser resolvida. 
+O **elemento UnresolvedEntry** contém o nome de um contato ou lista de distribuição a ser resolvido. 
   
 [ResolveNames](resolvenames.md)
   
@@ -52,17 +52,17 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o nome de um contato público ou de uma lista de distribuição. O comprimento mínimo da cadeia de caracteres é um caractere.
+O valor do texto representa o nome de um contato público ou lista de distribuição. O comprimento mínimo da cadeia de caracteres é um caractere.
   
 ## <a name="remarks"></a>Comentários
 
-O valor de texto desse elemento é usado para resolver nomes nos seguintes campos:
+O valor de texto deste elemento é usado para resolver nomes nos seguintes campos:
   
 - Nome
     
 - Sobrenome
     
-- Nome diferenciado (DN)
+- Nome de exibição
     
 - Nome completo
     
@@ -72,7 +72,7 @@ O valor de texto desse elemento é usado para resolver nomes nos seguintes campo
     
 - Endereço SMTP
     
-Os endereços de email com tipos de roteamento prefixos, como SMTP ou SIP, são salvos em uma matriz de vários valores. A [operação ResolveNames](resolvenames-operation.md) executa uma correspondência parcial em relação a cada valor dessa matriz quando você adiciona o tipo de roteamento no início do nome não resolvido, como "SIP:User1@Contoso.com". Se você não especificar um tipo de roteamento, a operação **ResolveNames** usará como padrão o tipo de roteamento do SMTP, o corresponderá a uma propriedade de endereço SMTP primária e não pesquisará a matriz de vários valores. 
+Endereços de email com tipos de roteamento prefixados, como smtp ou sip, são salvos em uma matriz de vários valores. A [operação ResolveNames](resolvenames-operation.md) executa uma combinação parcial com cada valor dessa matriz quando você adiciona o tipo de roteamento no início do nome não resolvido, como "sip:User1@Contoso.com". Se você não especificar um tipo de roteamento, a operação **ResolveNames** será padrão para o tipo de roteamento de smtp, corresponderá a uma propriedade de endereço SMTP principal e não pesquisará a matriz de vários valores. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   

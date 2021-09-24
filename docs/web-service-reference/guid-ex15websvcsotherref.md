@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49dcf69f-bf8d-4be6-a24c-03bbd13f4fe5
-description: O elemento GUID especifica o identificador global exclusivo da caixa de correio.
-ms.openlocfilehash: 4db66b5ae2c67f64f75c69a3d77cfa2b587775be
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Guid especifica o identificador global exclusivo da caixa de correio.
+ms.openlocfilehash: 093364e26d5c65127c1f23214e1d3d0aa85c95c2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530772"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519531"
 ---
 # <a name="guid"></a>Guid
 
-O elemento **GUID** especifica o identificador global exclusivo da caixa de correio. 
+O **elemento Guid** especifica o identificador global exclusivo da caixa de correio. 
   
 ```XML
 <Guid></Guid>
 ```
 
- **Guidtype**
+ **GuidType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SearchableMailbox](searchablemailbox.md) <br/> |Especifica uma caixa de correio retornada de uma solicitação **GetSearchableMailboxes** .  <br/> |
+|[SearchableMailbox](searchablemailbox.md) <br/> |Especifica uma caixa de correio retornada de uma **solicitação GetSearchableMailboxes.**  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **GUID** é um valor de GUID que identifica exclusivamente uma caixa de correio. 
+O valor de texto do **elemento Guid** é um valor GUID que identifica exclusivamente uma caixa de correio. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

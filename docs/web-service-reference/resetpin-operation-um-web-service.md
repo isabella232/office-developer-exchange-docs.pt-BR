@@ -1,30 +1,30 @@
 ---
-title: Operação ResetPIN (serviço Web da UM)
+title: Operação ResetPIN (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResetPIN
 api_type:
 - schema
 ms.assetid: c0f14a15-3389-4311-8bac-f87930c5f5d4
-description: A operação ResetPIN altera o PIN (TUI senha) para um novo valor aleatório.
-ms.openlocfilehash: 8de64ce7a47e9c426f8eb9298e1ca00508fb616c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação ResetPIN altera o PIN (senha TUI) para um novo valor aleatório.
+ms.openlocfilehash: 12f1e5719184df84f6c29ab3d02cc362f87abc76
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465489"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539105"
 ---
-# <a name="resetpin-operation-um-web-service"></a>Operação ResetPIN (serviço Web da UM)
+# <a name="resetpin-operation-um-web-service"></a>Operação ResetPIN (serviço Web de Unificação de Mensagens)
 
-A operação ResetPIN altera o PIN (TUI senha) para um novo valor aleatório.
+A operação ResetPIN altera o PIN (senha TUI) para um novo valor aleatório.
   
 ## <a name="remarks"></a>Comentários
 
-A operação ResetPIN cria um novo PIN com base nas políticas de PIN. Se a operação for bem-sucedida, uma mensagem de email que contenha o novo PIN será enviada para a caixa de correio do usuário. Se a operação falhar, ela gerará uma exceção que contém informações sobre a falha.
+A operação ResetPIN cria um novo PIN com base nas políticas de PIN. Se a operação for bem-sucedida, uma mensagem de email que contém o novo PIN será enviada para a caixa de correio do usuário. Se a operação falhar, ela lançará uma exceção que contém informações sobre a falha.
   
 ## <a name="resetpin-request-example"></a>Exemplo de solicitação ResetPIN
 
@@ -64,7 +64,7 @@ O exemplo a seguir de uma resposta ResetPIN mostra uma resposta à solicitação
 
 
 
-[ResetPIN (serviço Web da UM)](resetpin-um-web-service.md)
+[ResetPIN (serviço Web de Unificação de Mensagens)](resetpin-um-web-service.md)
   
-[ResetPINResponse (serviço Web da UM)](resetpinresponse-um-web-service.md)
+[ResetPINResponse (serviço Web de Unificação de Mensagens)](resetpinresponse-um-web-service.md)
 

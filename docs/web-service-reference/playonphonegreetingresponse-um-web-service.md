@@ -1,28 +1,28 @@
 ---
-title: PlayOnPhoneGreetingResponse (serviço Web da UM)
+title: PlayOnPhoneGreetingResponse (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneGreetingResponse
 api_type:
 - schema
 ms.assetid: 7189d69a-9288-4fc8-8d78-4977ee1a7253
 description: O elemento PlayOnPhoneGreetingResponse define uma resposta a uma solicitação de operação PlayOnPhoneGreeting (serviço Web da UM).
-ms.openlocfilehash: ca448860ef0e59607f73421c71d9c8f75c740773
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f8370d8ed93cc18eb29df100e68bddaa22c35fca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528850"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512629"
 ---
-# <a name="playonphonegreetingresponse-um-web-service"></a>PlayOnPhoneGreetingResponse (serviço Web da UM)
+# <a name="playonphonegreetingresponse-um-web-service"></a>PlayOnPhoneGreetingResponse (serviço Web de Unificação de Mensagens)
 
-O elemento **PlayOnPhoneGreetingResponse** define uma resposta a uma solicitação de [operação PlayOnPhoneGreeting (serviço Web da um)](playonphonegreeting-operation-um-web-service.md) . 
+O **elemento PlayOnPhoneGreetingResponse** define uma resposta a uma solicitação de operação [PlayOnPhoneGreeting (serviço Web da UM).](playonphonegreeting-operation-um-web-service.md) 
   
-[PlayOnPhoneGreetingResponse (serviço Web da UM)](playonphonegreetingresponse-um-web-service.md)
+[PlayOnPhoneGreetingResponse (serviço Web de Unificação de Mensagens)](playonphonegreetingresponse-um-web-service.md)
   
 ```xml
 <PlayOnPhoneGreetingResponse />
@@ -47,7 +47,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. O valor de texto contém o valor a ser usado para o valor de [callid (serviço Web da um)](callid-um-web-service.md) em uma solicitação de [GetCallInfo (serviço Web da um)](getcallinfo-operation-um-web-service.md) ou de uma [operação de desconexão (serviço Web da um)](disconnect-operation-um-web-service.md) . 
+Um valor de texto é necessário. O valor de texto contém o valor a ser usado para o valor de [CallId (serviço Web](callid-um-web-service.md) de UM) em uma solicitação de operação [GetCallInfo (serviço Web](getcallinfo-operation-um-web-service.md) de UM) ou uma solicitação de operação de desconexão (serviço Web de [UM).](disconnect-operation-um-web-service.md) 
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -62,11 +62,11 @@ Um valor de texto é obrigatório. O valor de texto contém o valor a ser usado 
 
 
 
-[Operação PlayOnPhoneGreeting (serviço Web da UM)](playonphonegreeting-operation-um-web-service.md)
+[Operação PlayOnPhoneGreeting (serviço Web de Unificação de Mensagens)](playonphonegreeting-operation-um-web-service.md)
   
-[Callid (serviço Web da UM)](callid-um-web-service.md)
+[CallId (serviço Web de Unificação de Mensagens)](callid-um-web-service.md)
   
-[Operação GetCallInfo (serviço Web da UM)](getcallinfo-operation-um-web-service.md)
+[Operação GetCallInfo (serviço Web de Unificação de Mensagens)](getcallinfo-operation-um-web-service.md)
   
-[Operação de desconexão (serviço Web da UM)](disconnect-operation-um-web-service.md)
+[Operação Disconnect (serviço Web de Unificação de mensagens)](disconnect-operation-um-web-service.md)
 

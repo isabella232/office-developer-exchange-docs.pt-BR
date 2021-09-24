@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserOofSettingsRequest
 api_type:
 - schema
 ms.assetid: 15dea99c-7f5d-4af1-82ff-4255127fe567
-description: O elemento GetUserOofSettingsRequest é o elemento raiz que contém os argumentos usados para obter as configurações de ausência temporária (OOF) de um usuário de caixa de correio.
-ms.openlocfilehash: f515e8cf016d3aff6c652ae92a0da71a8f0a5f6b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetUserOofSettingsRequest é o elemento raiz que contém os argumentos usados para obter as configurações Out of Office (OOF) de um usuário de caixa de correio.
+ms.openlocfilehash: ea14636dbcf3042a0286ac64fa4fc701144e4920
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457827"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519678"
 ---
 # <a name="getuseroofsettingsrequest"></a>GetUserOofSettingsRequest
 
-O elemento **GetUserOofSettingsRequest** é o elemento raiz que contém os argumentos usados para obter as configurações de ausência temporária (OOF) de um usuário de caixa de correio. 
+O **elemento GetUserOofSettingsRequest** é o elemento raiz que contém os argumentos usados para obter as configurações Out of Office (OOF) de um usuário de caixa de correio. 
   
 ```xml
 <GetUserOofSettingsRequest>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Caixa de correio (disponibilidade)](mailbox-availability.md) <br/> |Identifica o usuário de caixa de correio para uma solicitação de SetUserOofSettings ou GetUserOofSettings.  <br/> |
+|[Mailbox (Availability)](mailbox-availability.md) <br/> |Identifica o usuário da caixa de correio para uma solicitação SetUserOofSettings ou GetUserOofSettings.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
   
 ## <a name="example"></a>Exemplo
 
-Veja a seguir um exemplo de uma solicitação GetUserOofSettings que obtém as informações de OOF de um único usuário.
+A seguir, um exemplo de uma solicitação GetUserOofSettings que obtém as informações OOF de um único usuário.
   
 ```
 <?xml version="1.0" encoding="utf-8"?>

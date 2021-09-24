@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6081777a-ae91-43d2-bf83-f3742030aa70
-description: O elemento ReminderTime especifica a hora em que o lembrete deve ocorrer.
-ms.openlocfilehash: e5a1194af43e038a608bf928313909519e7d44e7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ReminderTime especifica o tempo para que o lembrete ocorra.
+ms.openlocfilehash: 5fe4167d901f84c21273071ec14fbc48a7bee2ac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460026"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513399"
 ---
 # <a name="remindertime"></a>ReminderTime
 
-O elemento **ReminderTime** especifica a hora em que o lembrete deve ocorrer. 
+O **elemento ReminderTime** especifica o tempo para que o lembrete ocorra. 
   
 ```XML
 <ReminderTime/>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **ReminderTime** é a hora em que o lembrete ocorre. 
+O valor de texto do **elemento ReminderTime** é a hora para que o lembrete ocorra. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

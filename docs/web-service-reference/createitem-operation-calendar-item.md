@@ -1,37 +1,37 @@
 ---
-title: Operação CreateItem (item de calendário)
+title: Operação CreateItem (item do calendário)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: aa4a7c94-f668-4bd2-8079-c855f6ab17e1
-description: A operação CreateItem cria itens de calendário no repositório do Exchange.
-ms.openlocfilehash: 535edf9fe567bc3063a5b853f01d604ea4c7eb95
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação CreateItem cria itens de calendário no Exchange store.
+ms.openlocfilehash: 4b2506dd4d5353c7670cab0ddb029e542d5861ba
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457498"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538419"
 ---
-# <a name="createitem-operation-calendar-item"></a>Operação CreateItem (item de calendário)
+# <a name="createitem-operation-calendar-item"></a>Operação CreateItem (item do calendário)
 
-A operação CreateItem cria itens de calendário no repositório do Exchange.
+A operação CreateItem cria itens de calendário no Exchange store.
   
 ## <a name="remarks"></a>Comentários
 
-A operação CreateItem cria compromissos, reuniões e solicitações de reunião. Se um item de calendário for criado sem participantes, ele será considerado um compromisso. Se os participantes forem especificados, o item de calendário será uma reunião. Quando uma reunião é criada usando a operação CreateItem, as solicitações de reunião são enviadas automaticamente para os participantes identificados se o atributo SendMeetingInvitations for definido para enviar as solicitações de reunião.
+A operação CreateItem cria compromissos, reuniões e solicitações de reunião. Se um item de calendário for criado sem participantes, ele será considerado um compromisso. Se os participantes são especificados, o item de calendário é uma reunião. Quando uma reunião é criada usando a operação CreateItem, as solicitações de reunião são enviadas automaticamente aos participantes identificados se o atributo SendMeetingInvitations for definido para enviar as solicitações de reunião.
   
-## <a name="createitem-calendar-item-request-example"></a>Exemplo de solicitação CreateItem (item de calendário)
+## <a name="createitem-calendar-item-request-example"></a>Exemplo de solicitação CreateItem (Item de Calendário)
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação CreateItem mostra como criar uma reunião com dois participantes obrigatórios. Esta solicitação enviará as solicitações de reunião para os dois participantes.
+O exemplo a seguir de uma solicitação CreateItem mostra como criar uma reunião com dois participantes necessários. Essa solicitação enviará as solicitações de reunião para os dois participantes.
   
 ### <a name="code"></a>Código
 
@@ -79,9 +79,9 @@ O exemplo a seguir de uma solicitação CreateItem mostra como criar uma reuniã
 
 ### <a name="comments"></a>Comentários
 
-Para obter um exemplo de como responder a uma solicitação de reunião, consulte o tópico [operação CreateItem (solicitação de reunião)](createitem-operation-meeting-request.md) . 
+Para ver um exemplo de como responder a uma solicitação de reunião, consulte o tópico [CreateItem operation (meeting request).](createitem-operation-meeting-request.md) 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -91,7 +91,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [CalendarItem](calendaritem.md)
     
@@ -105,23 +105,23 @@ Os seguintes elementos são usados na solicitação:
     
 - [Start](start.md)
     
-- [Ponto](end-ex15websvcsotherref.md)
+- [End ](end-ex15websvcsotherref.md)
     
 - [IsAllDayEvent](isalldayevent.md)
     
 - [LegacyFreeBusyStatus](legacyfreebusystatus.md)
     
-- [Localização](location.md)
+- [Location](location.md)
     
 - [RequiredAttendees](requiredattendees.md)
     
-- [Participante](attendee.md)
+- [Attendee](attendee.md)
     
 - [Caixa de Correio](mailbox.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-## <a name="successful-createitem-calendar-item-response"></a>Resposta de CreateItem (item de calendário) bem-sucedida
+## <a name="successful-createitem-calendar-item-response"></a>Resposta CreateItem (Item de Calendário) bem-sucedida
 
 ### <a name="description"></a>Descrição
 
@@ -159,7 +159,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CreateItem.
 
 ### <a name="comments"></a>Comentários
 
-Os atributos **ID** do elemento [ItemId](itemid.md) e **ChangeKey** foram reduzidos para preservar a legibilidade. 
+Os atributos **ID** do elemento [ItemId](itemid.md) e **ChangeKey** foram reduzidos para preservar a capacidade de leitura. 
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 

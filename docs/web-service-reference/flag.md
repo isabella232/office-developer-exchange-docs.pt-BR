@@ -1,23 +1,23 @@
 ---
-title: Marca
+title: Flag
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b47bc74-a60d-4308-8674-5d52444a1753
 description: O elemento Flag especifica um sinalizador em um item de caixa de correio.
-ms.openlocfilehash: 7229a26181ee9baf80be5c32c0ef99483310ccb3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dffc550dc4235c2121b6641f3a6eac30594f75b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466259"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513693"
 ---
-# <a name="flag"></a>Marca
+# <a name="flag"></a>Flag
 
-O elemento **Flag** especifica um sinalizador em um item de caixa de correio. 
+O **elemento Flag** especifica um sinalizador em um item de caixa de correio. 
   
 ```XML
 <Flag>
@@ -41,17 +41,17 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FlagStatus](flagstatus.md) <br/> |Contém o status de sinalizador agregado para itens na pasta atual.  <br/> |
+|[FlagStatus](flagstatus.md) <br/> |Contém o status do sinalizador agregado para itens na pasta atual.  <br/> |
 |[StartDate](startdate.md) <br/> |Representa a data de início de um item.  <br/> |
-|[DueDate](duedate.md) <br/> |Representa a data de vencimento de um item.  <br/> |
-|[Concluído](completedate.md) <br/> |Representa a data em que um item foi concluído.  <br/> |
+|[DueDate](duedate.md) <br/> |Representa a data em que um item é devido.  <br/> |
+|[CompleteDate](completedate.md) <br/> |Representa a data em que um item foi concluído.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversation](conversationaction.md) <br/> |Contém uma única ação a ser aplicada a uma única conversa.  <br/> |
-|[Item](item.md) <br/> |Representa um item genérico no repositório do Exchange.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contém uma única ação a ser aplicada a uma única conversa.  <br/> |
+|[Item](item.md) <br/> |Representa um item genérico no Exchange store.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -64,8 +64,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

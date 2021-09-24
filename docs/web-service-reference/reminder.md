@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54dd748a-23a5-4ea2-88f2-b74c68a3c48f
 description: O elemento Reminder especifica um lembrete para uma tarefa ou um item de calendário.
-ms.openlocfilehash: 71e54d920a169b8060d22bb7d7d294208c344c2e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 97b4a1dfb2739ff9ea335bca1e61e264715ced30
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457484"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512489"
 ---
 # <a name="reminder"></a>Reminder
 
-O elemento **Reminder** especifica um lembrete para uma tarefa ou um item de calendário. 
+O **elemento Reminder** especifica um lembrete para uma tarefa ou um item de calendário. 
   
 ```XML
 <Reminder>
@@ -34,7 +34,7 @@ O elemento **Reminder** especifica um lembrete para uma tarefa ou um item de cal
 
 ```
 
- **Remindertype**
+ **ReminderType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -45,7 +45,7 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Assunto](subject.md)  |  [Local](location.md)  |  [ReminderTime](remindertime.md)  |  [StartDate](startdate.md)  |  [EndDate (Remindertype)](enddate-remindertype.md)  |  [ItemId](itemid.md)  |  [RecurringMasterItemId (ItemIdType)](recurringmasteritemid-itemidtype.md)  |  Um dos [lembretes](remindergroup.md)  |  [UID](uid.md)
+[Assunto](subject.md)  |  [Local](location.md)  |  [ReminderTime](remindertime.md)  |  [StartDate](startdate.md)  |  [EndDate (ReminderType)](enddate-remindertype.md)  |  [ItemId](itemid.md)  |  [RecurringMasterItemId (ItemIdType)](recurringmasteritemid-itemidtype.md)  |  [ReminderGroup](remindergroup.md)  |  [UID](uid.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -63,7 +63,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

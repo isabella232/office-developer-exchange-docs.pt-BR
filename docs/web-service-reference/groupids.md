@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d32cb3b-eb84-4816-89cd-26dcf5131bc8
 description: O elemento GroupIds identifica uma matriz de identificadores de grupo de mensagens instantâneas.
-ms.openlocfilehash: 7583a197413063289739f0f32d9410047fc2f23d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 102486512e9827688e4a70b9e02e0f1a4f6c2e98
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530082"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519559"
 ---
 # <a name="groupids"></a>GroupIds
 
-O elemento **GroupIds** identifica uma matriz de identificadores de grupo de mensagens instantâneas. 
+O **elemento GroupIds** identifica uma matriz de identificadores de grupo de mensagens instantâneas. 
   
 ```XML
 <GroupIds>
@@ -57,7 +57,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

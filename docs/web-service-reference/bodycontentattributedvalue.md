@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f99e9590-8388-4203-ac30-1ea394f351a6
 description: O elemento BodyContentAttributedValue especifica o conteúdo do corpo de um item.
-ms.openlocfilehash: 3550d9307e9bd652afc217f72610379a0a5b2f68
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 294bb0baf4915180a34701775a45e9dafbd99753
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527394"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520015"
 ---
 # <a name="bodycontentattributedvalue"></a>BodyContentAttributedValue
 
-O elemento **BodyContentAttributedValue** especifica o conteúdo do corpo de um item. 
+O **elemento BodyContentAttributedValue** especifica o conteúdo do corpo de um item. 
   
 ```XML
 <BodyContentAttributedValue>
@@ -39,14 +39,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Valor (BodyContentType)](value-bodycontenttype.md) <br/> |Especifica o valor de um elemento **BodyContentAttributedValue** .  <br/> |
-|[Atribuições (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) <br/> |Especifica uma matriz de informações de atribuição para um ou mais dos contatos ou destinatários do Active Directory agregados no persona associado.  <br/> |
+|[Value (BodyContentType)](value-bodycontenttype.md) <br/> |Especifica o valor de um **elemento BodyContentAttributedValue.**  <br/> |
+|[Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) <br/> |Especifica uma matriz de informações de atribuição para um ou mais dos contatos ou destinatários do active directory agregados à persona associada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Agências](bodies.md) <br/> |Especifica uma matriz de elementos **BodyContentAttributedValue** .  <br/> |
+|[Bodies](bodies.md) <br/> |Especifica uma matriz de **elementos BodyContentAttributedValue.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -59,8 +59,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

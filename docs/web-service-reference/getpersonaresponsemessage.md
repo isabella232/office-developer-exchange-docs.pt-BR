@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a5bf44c6-c46b-442d-98d4-8b49fdf14b30
-description: O GetPersonaResponseMessage contém os dados de resposta resultantes de uma solicitação getpersona.
-ms.openlocfilehash: 6391e1b6682180e292d03c5db651e8edc6f46b52
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetPersonaResponseMessage contém os dados de resposta resultantes de uma solicitação GetPersona.
+ms.openlocfilehash: 3f59aa924b6a4d42e4d661bcb3f4b1cf905b86a0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458324"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533557"
 ---
 # <a name="getpersonaresponsemessage"></a>GetPersonaResponseMessage
 
-O **GetPersonaResponseMessage** contém os dados de resposta resultantes de uma solicitação **getpersona** . 
+**GetPersonaResponseMessage** contém os dados de resposta resultantes de uma **solicitação GetPersona.** 
   
 ```XML
 <GetPersonaResponseMessage>
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -1,28 +1,28 @@
 ---
-title: IsUMEnabledResponse (serviço Web da UM)
+title: IsUMEnabledResponse (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsUMEnabledResponse
 api_type:
 - schema
 ms.assetid: ecb47dd5-c888-47ab-a253-fc49765f5c72
-description: O elemento IsUMEnabledResponse define uma resposta a uma solicitação de operação IsUMEnabled (serviço Web da UM).
-ms.openlocfilehash: 5b9495faf93ee4b4cf7937e413ae560b60b8b402
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento IsUMEnabledResponse define uma resposta a uma solicitação de operação IsUMEnabled (serviço Web de UM).
+ms.openlocfilehash: d79cf6faf1140e86dc18dd50d8e0789a0b2ffbcf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458184"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532629"
 ---
-# <a name="isumenabledresponse-um-web-service"></a>IsUMEnabledResponse (serviço Web da UM)
+# <a name="isumenabledresponse-um-web-service"></a>IsUMEnabledResponse (serviço Web de Unificação de Mensagens)
 
-O elemento **IsUMEnabledResponse** define uma resposta a uma solicitação de [operação IsUMEnabled (serviço Web da um)](isumenabled-operation-um-web-service.md) . 
+O **elemento IsUMEnabledResponse** define uma resposta a uma solicitação de operação [IsUMEnabled (serviço Web de UM).](isumenabled-operation-um-web-service.md) 
   
-[IsUMEnabledResponse (serviço Web da UM)](isumenabledresponse-um-web-service.md)
+[IsUMEnabledResponse (serviço Web de Unificação de Mensagens)](isumenabledresponse-um-web-service.md)
   
 ```xml
 <IsUMEnabledResponse/>
@@ -47,7 +47,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto booliano é necessário. Veja a seguir os valores possíveis:
+Um valor de texto booleano é necessário. Veja a seguir os valores possíveis:
   
 - Verdadeiro
     
@@ -66,5 +66,5 @@ Um valor de texto booliano é necessário. Veja a seguir os valores possíveis:
 
 
 
-[Operação IsUMEnabled (serviço Web da UM)](isumenabled-operation-um-web-service.md)
+[Operação IsUMEnabled (serviço Web de Unificação de Mensagens)](isumenabled-operation-um-web-service.md)
 

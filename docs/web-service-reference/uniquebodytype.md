@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f7276aa-e354-40e4-b9cb-950fad46ac93
-description: O elemento UniqueBodyType especifica se o corpo exclusivo é retornado no formato de texto ou HTML.
-ms.openlocfilehash: 7e6c4631ef589555ce4d5da747c200ffe956f3a1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UniqueBodyType especifica se o corpo exclusivo é retornado em formato HTML ou texto.
+ms.openlocfilehash: a0149e41da24646fdf38a465434bfad3557ece22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459437"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520266"
 ---
 # <a name="uniquebodytype"></a>UniqueBodyType
 
-O elemento **UniqueBodyType** especifica se o corpo exclusivo é retornado no formato de texto ou HTML. 
+O **elemento UniqueBodyType** especifica se o corpo exclusivo é retornado em formato HTML ou texto. 
   
 ```XML
 <UniqueBodyType> Best | HTML | Text </UniqueBodyType>
@@ -38,19 +38,19 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Shape](itemshape.md)
+[ItemShape](itemshape.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **UniqueBodyType** indica o formato em que o corpo exclusivo é retornado. A tabela a seguir lista os valores possíveis para este elemento. 
+O valor de texto do **elemento UniqueBodyType** indica o formato em que o corpo exclusivo é retornado. A tabela a seguir lista os valores possíveis para esse elemento. 
   
 ****
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Melhor  <br/> |A resposta retornará o conteúdo mais avançado disponível do corpo de texto. Isso é útil se for desconhecido se o conteúdo for texto ou HTML.  <br/> O corpo retornado será texto se o corpo armazenado for texto sem formatação. Caso contrário, a resposta retornará HTML se o corpo armazenado estiver em formato HTML ou RTF.  <br/> Esse é o valor padrão.  <br/> |
+|Melhor  <br/> |A resposta retornará o conteúdo disponível mais rico do corpo de texto. Isso é útil se não se sabe se o conteúdo é texto ou HTML.  <br/> O corpo retornado será texto se o corpo armazenado for texto sem texto. Caso contrário, a resposta retornará HTML se o corpo armazenado estiver no formato HTML ou RTF.  <br/> Esse é o valor padrão.  <br/> |
 |HTML  <br/> |A resposta retornará um corpo exclusivo como HTML.  <br/> |
-|Texto  <br/> |A resposta retornará um corpo exclusivo como texto sem formatação.  <br/> |
+|Texto  <br/> |A resposta retornará um corpo exclusivo como texto sem texto.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -64,14 +64,14 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[Shape](itemshape.md)
+[ItemShape](itemshape.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

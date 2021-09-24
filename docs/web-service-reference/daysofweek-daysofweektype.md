@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DaysOfWeek
 api_type:
 - schema
 ms.assetid: c56f997d-28f3-4590-97b0-cb71f016dbe4
-description: O elemento DaysOfWeek descreve os dias da semana usados nos padrões de recorrência do item.
-ms.openlocfilehash: 3036cbe3f93ff87b9a4d5dc7bf164e3e952b06fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DaysOfWeek descreve os dias da semana usados em padrões de recorrência de item.
+ms.openlocfilehash: 9b0786149f943c47ab77bcb69b74542cbc08edd5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463717"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519867"
 ---
 # <a name="daysofweek-daysofweektype"></a>DaysOfWeek (DaysOfWeekType)
 
-O elemento **DaysOfWeek** descreve os dias da semana usados nos padrões de recorrência do item. 
+O **elemento DaysOfWeek** descreve os dias da semana usados em padrões de recorrência de item. 
   
 ```XML
 <DaysOfWeek/>
@@ -49,7 +49,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. Veja a seguir os valores possíveis:
+Um valor de texto é necessário. Veja a seguir os valores possíveis:
   
 - Domingo    
 - Segunda-feira    
@@ -58,15 +58,15 @@ Um valor de texto é obrigatório. Veja a seguir os valores possíveis:
 - Quinta-feira    
 - Sexta-feira    
 - Sábado    
-- Day (este valor não é válido para um padrão de recorrência semanal)    
-- WEEKDAY (este valor não é válido para um padrão de recorrência semanal)    
+- Day (esse valor não é válido para um padrão de recorrência semanal)    
+- Weekday (esse valor não é válido para um padrão de recorrência semanal)    
 - WeekendDay (esse valor não é válido para um padrão de recorrência semanal)
     
-Um padrão de recorrência semanal pode conter vários valores. Os valores são separados por um caractere de espaço. Por exemplo, para uma recorrência semanal em terças e quinta-feira, o valor de texto será "terça-feira".
+Um padrão de recorrência semanal pode conter vários valores. Os valores são separados por um caractere de espaço. Por exemplo, para uma recorrência semanal nas terças e quintas-feiras, o valor do texto será "terça-feira quinta-feira".
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2010 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -74,7 +74,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

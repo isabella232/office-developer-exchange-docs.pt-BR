@@ -1,28 +1,28 @@
 ---
-title: Conta (POX)
+title: Account (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 488fdbdc-e9d9-4301-91ab-e22eb42e549e
-description: O elemento Account especifica as configurações de conta do usuário ou contém respostas de erro.
-ms.openlocfilehash: ffd8ebe4b7bd9d4b3f6a9b42fc557ac6189a068d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Account especifica configurações de conta para o usuário ou contém respostas de erro.
+ms.openlocfilehash: 89799ab62a2aa4945b0e8f3209ab1fbc7d2fa2e6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462315"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534050"
 ---
-# <a name="account-pox"></a>Conta (POX)
+# <a name="account-pox"></a>Account (POX)
 
-O elemento **Account** especifica as configurações de conta do usuário ou contém respostas de erro. 
+O **elemento Account** especifica configurações de conta para o usuário ou contém respostas de erro. 
   
-- [Descoberta automática (POX)](autodiscover-pox.md)
-- [Resposta (POX)](response-pox.md)
-- [Conta (POX)](account-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
+- [Response (POX)](response-pox.md)
+- [Account (POX)](account-pox.md)
   
 ```XML
 <Account>
@@ -59,23 +59,23 @@ Nenhum
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[AccountType (POX)](accounttype-pox.md) <br/> |Representa o tipo de conta.  <br/> |
-|[Ação (POX)](action-pox.md) <br/> |Fornece informações que são usadas para determinar se outra solicitação de descoberta automática é necessária para retornar as informações de configuração do usuário.  <br/> |
-|[MicrosoftOnline (POX)](microsoftonline-pox.md) <br/> |Contém um valor que indica se a caixa de correio do usuário está hospedada no Exchange Online ou no Exchange Online como parte do Office 365.  <br/> |
-|[RedirectUrl (POX)](redirecturl-pox.md) <br/> |Contém a URL do computador que está executando o Exchange Server que tem a função de servidor de acesso para Cliente instalada que deve ser usada para obter as configurações de descoberta automática.  <br/> |
-|[RedirectAddr (POX)](redirectaddr-pox.md) <br/> |Especifica o endereço de email que deve ser usado para uma solicitação de descoberta automática subsequente.  <br/> |
-|[Imagem (POX)](image-pox.md) <br/> |Contém o caminho de uma imagem usada para marcar a experiência de configuração.  <br/> |
-|[Onhome (POX)](servicehome-pox.md) <br/> |Contém a URL da home page do provedor de serviços de Internet (ISP).  <br/> |
-|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao servidor de acesso para cliente.  <br/> |
-|[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Contém informações que os clientes podem usar para enviar uma solicitação de descoberta automática para descobrir informações de pasta pública para o usuário.  <br/> |
-|[Erro (POX)](error-pox.md) <br/> |Contém uma resposta de erro de descoberta automática.  <br/> |
+|[Action (POX)](action-pox.md) <br/> |Fornece informações usadas para determinar se outra solicitação de Descoberta Automática é necessária para retornar as informações de configuração do usuário.  <br/> |
+|[MicrosoftOnline (POX)](microsoftonline-pox.md) <br/> |Contém um valor que indica se a caixa de correio do usuário está hospedada no Exchange Online ou Exchange Online como parte do Office 365.  <br/> |
+|[RedirectUrl (POX)](redirecturl-pox.md) <br/> |Contém a URL do computador que está executando Exchange Server que tem a função de servidor de Acesso para Cliente instalada que deve ser usada para obter configurações de Descoberta Automática.  <br/> |
+|[RedirectAddr (POX)](redirectaddr-pox.md) <br/> |Especifica o endereço de email que deve ser usado para uma solicitação de Descoberta Automática subsequente.  <br/> |
+|[Image (POX)](image-pox.md) <br/> |Contém o caminho de uma imagem usada para identidade visual da experiência de configuração.  <br/> |
+|[ServiceHome (POX)](servicehome-pox.md) <br/> |Contém a URL da home page do provedor de serviços da Internet (ISP).  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao servidor de Acesso para Cliente.  <br/> |
+|[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Contém informações que os clientes podem usar para enviar uma solicitação de Descoberta Automática para descobrir informações de pasta pública para o usuário.  <br/> |
+|[Error (POX)](error-pox.md) <br/> |Contém uma resposta de erro de Descoberta Automática.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Resposta (POX)](response-pox.md) <br/> |Contém a resposta do serviço de descoberta automática.  <br/> |
+|[Response (POX)](response-pox.md) <br/> |Contém a resposta do serviço descoberta automática.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
-- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

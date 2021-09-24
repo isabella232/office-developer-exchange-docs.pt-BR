@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f348e832-47a7-4c14-a5b9-2fc9b47d01e9
-description: O elemento Receivedtime especifica a hora em que um item foi recebido.
-ms.openlocfilehash: 32f7148f8d717a51f831aa13d740f1342c943912
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ReceivedTime especifica a hora em que um item foi recebido.
+ms.openlocfilehash: 73942b5bdaf2aafbe931a2d6adc6382883285a42
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468212"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534532"
 ---
 # <a name="receivedtime"></a>ReceivedTime
 
-O elemento **receivedtime** especifica a hora em que um item foi recebido. 
+O **elemento ReceivedTime** especifica a hora em que um item foi recebido. 
   
 ```XML
 <ReceivedTime></ReceivedTime>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **receivedtime** é a data e a hora em que um item foi recebido. 
+O valor de texto **do elemento ReceivedTime** é a data e a hora em que um item foi recebido. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

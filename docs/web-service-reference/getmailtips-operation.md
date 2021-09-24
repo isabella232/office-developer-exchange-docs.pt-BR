@@ -1,33 +1,33 @@
 ---
-title: Operação
+title: Operação GetMailTips
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetMailTips
 api_type:
 - schema
 ms.assetid: 025483ec-a9f3-4735-8a95-d26e30ea7974
-description: A operação condicas de email Obtém as informações de dicas de email da caixa de correio especificada.
-ms.openlocfilehash: 41a4bb99ee7ae4e416ec8a106968bb7869e60345
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetMailTips obtém as informações de dicas de email para a caixa de correio especificada.
+ms.openlocfilehash: ec139f7a1a464aa8c30d8dd2043f441874231dc2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458653"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533791"
 ---
-# <a name="getmailtips-operation"></a>Operação
+# <a name="getmailtips-operation"></a>Operação GetMailTips
 
-A operação **condicas** de email Obtém as informações de dicas de email da caixa de correio especificada. 
+A **operação GetMailTips** obtém as informações de dicas de email para a caixa de correio especificada. 
   
-## <a name="getmailtips-request-example"></a>Exemplo de solicitação de getquers
+## <a name="getmailtips-request-example"></a>Exemplo de solicitação GetMailTips
 
 ### <a name="description"></a>Descrição
 
-O cliente cria a solicitação XML e a envia para o servidor. A solicitação identifica quem o cliente está enviando como, a caixa de correio para recuperar as dicas de email e quais dicas de email são solicitadas. Neste exemplo, o cliente solicita que todas as dicas de email sejam retornadas para a caixa de correio selecionada.
+O cliente constrói o XML de solicitação e o envia para o servidor. A solicitação identifica para quem o cliente está enviando como, a caixa de correio para recuperar as dicas de email e para quais dicas de email são solicitadas. Neste exemplo, o cliente solicita que todas as dicas de email sejam retornadas para a caixa de correio selecionada.
   
 ### <a name="code"></a>Código
 
@@ -58,23 +58,23 @@ O cliente cria a solicitação XML e a envia para o servidor. A solicitação id
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos estão incluídos na solicitação:
   
 - [GetMailTips](getmailtips.md)
     
-- [Envios](sendingas.md)
+- [SendingAs](sendingas.md)
     
-- [Destinatários (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md)
+- [Recipients (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md)
     
 - [MailTipsRequested](mailtipsrequested.md)
     
-## <a name="successful-getmailtips-response-example"></a>Exemplo de resposta de getdicas de respostas bem-sucedida
+## <a name="successful-getmailtips-response-example"></a>Exemplo de resposta bem-sucedida de GetMailTips
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir do corpo SOAP (Simple Object Access Protocol) mostra uma resposta bem-sucedida **à solicitação** getquers. 
+O exemplo a seguir do corpo soap (Simple Object Access Protocol) mostra uma resposta bem-sucedida à **solicitação GetMailTips.** 
   
 ### <a name="code"></a>Código
 
@@ -134,7 +134,7 @@ Os seguintes elementos estão incluídos na resposta:
 
 
 
-[Operações do EWS no Exchange](ews-operations-in-exchange.md)
+[Operações EWS em Exchange](ews-operations-in-exchange.md)
   
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

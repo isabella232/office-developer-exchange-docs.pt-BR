@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GoodThreshold
 api_type:
 - schema
 ms.assetid: 68f607f5-7271-46a6-8ffc-91878185a683
-description: O elemento GoodThreshold especifica a porcentagem de participantes que devem ter o período de tempo aberto para que o período de tempo se qualifique como um bom horário de reunião.
-ms.openlocfilehash: 34ea433ad7315d61df8cf8e22bae1166d3210af3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GoodThreshold especifica a porcentagem de participantes que devem ter o período de tempo aberto para que o período de tempo seja qualificado como um bom horário de reunião sugerido.
+ms.openlocfilehash: bec5159b46a350cb01f8d573c68e1925aeb40ac9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457309"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533217"
 ---
 # <a name="goodthreshold"></a>GoodThreshold
 
-O elemento **GoodThreshold** especifica a porcentagem de participantes que devem ter o período de tempo aberto para que o período de tempo se qualifique como um bom horário de reunião. 
+O **elemento GoodThreshold** especifica a porcentagem de participantes que devem ter o período de tempo aberto para que o período de tempo seja qualificado como um bom horário de reunião sugerido. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -50,15 +50,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para obter informações de sugestão de reunião.  <br/> Este é o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para obter informações de sugestão de reunião.  <br/> Veja a seguir o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. Os valores inteiros esperados estão entre 0 e 50.
+Um valor de texto é necessário. Os valores inteiros esperados estão entre 0 e 50.
   
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é necessário se o elemento [SuggestionsViewOptions](suggestionsviewoptions.md) for usado. O elemento **GoodThreshold** também determina quais reuniões são consideradas justas. A porcentagem de participantes com conflitos é menor do que o limite bom e maior que 50%, o tempo de reunião sugerido é qualificado como justo. O bom limite mais 50 equivale à porcentagem que define o limite bom/justo. 
+Esse elemento será necessário se o [elemento SuggestionsViewOptions](suggestionsviewoptions.md) for usado. O **elemento GoodThreshold** também determina quais reuniões são consideradas Justas. A porcentagem de participantes com conflitos é menor do que o Limite Bom e superior a 50%, o horário de reunião sugerido se qualifica como Justo. O Limite Bom mais 50 é igual à porcentagem que define o limite Good/Fair. 
   
 > [!NOTE]
 > O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente. 
@@ -69,7 +69,7 @@ Esse elemento é necessário se o elemento [SuggestionsViewOptions](suggestionsv
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -79,5 +79,5 @@ Esse elemento é necessário se o elemento [SuggestionsViewOptions](suggestionsv
 [Operação GetUserAvailability](getuseravailability-operation.md)
 
 
-[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

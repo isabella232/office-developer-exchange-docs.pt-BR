@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc04e44e-e6d1-4355-a2b1-feb6663dc647
 description: O elemento EndWallClock especifica a hora de término de uma reunião no fuso horário do local em que a reunião ocorre.
-ms.openlocfilehash: 48b762d0bfe367b966b6f1790230f6a2118c3fd6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e54999046fd586a755340f5a4597b750aa9a5baa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462968"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520686"
 ---
 # <a name="endwallclock"></a>EndWallClock
 
-O elemento **EndWallClock** especifica a hora de término de uma reunião no fuso horário do local em que a reunião ocorre. 
+O **elemento EndWallClock** especifica a hora de término de uma reunião no fuso horário do local em que a reunião ocorre. 
   
 ```XML
 <EndWallClock></EndWallClock>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **EndWallClock** é um valor String que especifica o identificador de fuso horário. 
+O valor de texto do **elemento EndWallClock** é um valor de cadeia de caracteres que especifica o identificador de fuso horário. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

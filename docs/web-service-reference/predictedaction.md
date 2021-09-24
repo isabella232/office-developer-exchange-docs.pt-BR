@@ -1,23 +1,23 @@
 ---
-title: Previstos
+title: PredictedAction
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 442d353e-b074-495f-aa85-10b10d9071f6
-description: O elemento preprevistoaction é destinado apenas para uso interno.
-ms.openlocfilehash: 45d22b94fe202db6a4c694c2bfce688748faa8d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PredictedAction destina-se apenas ao uso interno.
+ms.openlocfilehash: c14b5e020e1192a766f33b80fa6af95e3f0d3814
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462238"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512594"
 ---
-# <a name="predictedaction"></a>Previstos
+# <a name="predictedaction"></a>PredictedAction
 
-O elemento **Preprevistoaction** é destinado apenas para uso interno. 
+O **elemento PredictedAction** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

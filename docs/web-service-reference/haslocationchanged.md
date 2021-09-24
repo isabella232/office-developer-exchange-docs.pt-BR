@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5fd465b4-6070-4cd0-9ac3-ed9d2bfd5951
-description: O elemento HasLocationChanged especifica se a propriedade Location de uma reunião foi alterada.
-ms.openlocfilehash: 4f774adcf4a7666f40524931504f1172e15ba24d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento HasLocationChanged especifica se a propriedade de local de uma reunião foi alterada.
+ms.openlocfilehash: f59bca138d0baee87afd12470d9c50704edc75bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462441"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519545"
 ---
 # <a name="haslocationchanged"></a>HasLocationChanged
 
-O elemento **HasLocationChanged** especifica se a propriedade Location de uma reunião foi alterada. 
+O **elemento HasLocationChanged** especifica se a propriedade de local de uma reunião foi alterada. 
   
 ```XML
 <HasLocationChanged> true | false </HasLocationChanged>
@@ -44,7 +44,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **HasLocationChanged** indica que a propriedade Location de uma reunião foi alterada. Um valor **false** indica que a propriedade Location de uma reunião não foi alterada. 
+Um valor de texto **true** para o **elemento HasLocationChanged** indica que a propriedade de local de uma reunião foi alterada. Um valor **false** indica que a propriedade de local de uma reunião não foi alterada. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

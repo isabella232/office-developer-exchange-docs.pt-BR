@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f34fb6f6-057e-4ae3-8e10-bc92112eafba
 description: O elemento FailedMailboxes especifica uma matriz de caixas de correio que falharam na pesquisa.
-ms.openlocfilehash: 10f10d3f2ac4379d7ddcb3a13019d17a17bb676a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a2225a44255b8dbb9a110dc1f9765f51abcfe628
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461951"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513742"
 ---
 # <a name="failedmailboxes"></a>FailedMailboxes
 
-O elemento **FailedMailboxes** especifica uma matriz de caixas de correio que falharam na pesquisa. 
+O **elemento FailedMailboxes** especifica uma matriz de caixas de correio que falharam na pesquisa. 
   
 ```XML
 <FailedMailboxes>
@@ -38,13 +38,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FailedMailbox](failedmailbox.md) <br/> |Especifica a mensagem de erro para uma caixa de correio que falhou na pesquisa.  <br/> |
+|[FailedMailbox](failedmailbox.md) <br/> |Especifica a mensagem de erro de uma caixa de correio que falhou na pesquisa.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SearchMailboxesResult](searchmailboxesresult.md) <br/> |Contém o resultado da solicitação **SearchMailboxes** .  <br/> |
+|[SearchMailboxesResult](searchmailboxesresult.md) <br/> |Contém o resultado da **solicitação SearchMailboxes.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

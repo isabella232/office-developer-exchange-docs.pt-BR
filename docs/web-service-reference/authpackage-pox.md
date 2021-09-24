@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 709dbe53-6141-41f8-a2b9-a399bae47991
-description: O elemento AuthPackage especifica o esquema de autenticação que é usado na autenticação no servidor do Exchange que tem a função de servidor caixa de Correio instalada.
-ms.openlocfilehash: 5317cf49d354a558417829e1d1b5b67cd6874309
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AuthPackage especifica o esquema de autenticação usado na autenticação no servidor Exchange que tem a função de servidor de Caixa de Correio instalada.
+ms.openlocfilehash: aff4e84cd44d76c2c5a913b6627e1b0c87bab4dc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459101"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513021"
 ---
 # <a name="authpackage-pox"></a>AuthPackage (POX)
 
-O elemento **AuthPackage** especifica o esquema de autenticação que é usado na autenticação no servidor do Exchange que tem a função de servidor caixa de Correio instalada. 
+O **elemento AuthPackage** especifica o esquema de autenticação usado ao autenticar no servidor Exchange que tem a função de servidor de Caixa de Correio instalada. 
   
-- [Descoberta automática (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [Resposta (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [Conta (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
 - [Protocol (POX)](protocol-pox.md)
   
@@ -50,29 +50,29 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao servidor de acesso para cliente.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao servidor de Acesso para Cliente.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto especifica o esquema de autenticação usado na autenticação no servidor de caixa de correio. Veja a seguir os valores possíveis:
+O valor de texto especifica o esquema de autenticação usado ao autenticar no servidor de Caixa de Correio. Veja a seguir os valores possíveis:
   
-- Basic
+- basic
 - kerb
 - kerbntlm
-- NTML
+- ntlm
 - certificado
-- negocia
+- negociar
 - nego2
     
 ## <a name="remarks"></a>Comentários
 
-O elemento **AuthPackage** é usado somente quando o elemento [tipo (POX)](type-pox.md) tem um valor de texto de Exch ou expr. 
+O **elemento AuthPackage** só é usado quando o [elemento Type (POX)](type-pox.md) tem um valor de texto de EXCH ou EXPR. 
   
 ### <a name="version-differences"></a>Diferenças de versão
 
-O Office 365, o Exchange Online e as versões locais do Exchange começando com o Build 15.00.0995.014 retornam um valor de "Negotiate" somente se o servidor estiver configurado para usar a autenticação de negociação e o cliente incluir um cabeçalho [X-ClientCanHandle](pox-autodiscover-request-for-exchange.md) que contenha "negociar". 
+Office 365, Exchange Online e versões locais do Exchange a partir da com build 15.00.0995.014 retornarão um valor de "negociar" somente se o servidor estiver configurado para usar a autenticação Negociar e o cliente incluir um header [X-ClientCanHandle](pox-autodiscover-request-for-exchange.md) que contenha "Negociar". 
   
 ## <a name="see-also"></a>Confira também
 
-- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

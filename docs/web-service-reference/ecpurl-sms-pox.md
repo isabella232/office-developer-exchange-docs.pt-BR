@@ -1,32 +1,32 @@
 ---
-title: EcpUrl-SMS (POX)
+title: EcpUrl-sms (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f5e5e589-ee16-42a8-9cd4-ae3909fc869b
-description: O elemento EcpUrl-SMS especifica uma URL parcial que pode ser combinada com o valor do elemento EcpUrl (POX) para gerar uma URL que possa ser usada para acessar as configurações do serviço de mensagens curtas (SMS) para um usuário habilitado para email.
-ms.openlocfilehash: 24f475e7f2d54fa565cc90796a983c0bd842e4da
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EcpUrl-sms especifica uma URL parcial que pode ser combinada com o valor do elemento EcpUrl (POX) para gerar uma URL que pode ser usada para acessar configurações de SMS (Serviço de Mensagem Curta) para um usuário habilitado para email.
+ms.openlocfilehash: b3926e1d8b4e15e72827e9cf0458bd64a02bd793
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458681"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538251"
 ---
-# <a name="ecpurl-sms-pox"></a>EcpUrl-SMS (POX)
+# <a name="ecpurl-sms-pox"></a>EcpUrl-sms (POX)
 
-O elemento **EcpUrl-SMS** especifica uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que possa ser usada para acessar as configurações do serviço de mensagens curtas (SMS) para um usuário habilitado para email. 
+O elemento **EcpUrl-sms** especifica uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que pode ser usada para acessar configurações de SMS (Serviço de Mensagem Curta) para um usuário habilitado para email. 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Conta (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
-[EcpUrl-SMS (POX)](ecpurl-sms-pox.md)
+[EcpUrl-sms (POX)](ecpurl-sms-pox.md)
   
 ```XML
 <EcpUrl-sms/>
@@ -48,19 +48,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando Microsoft Exchange Server que tem a função de servidor de Acesso para Cliente instalada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que possa ser usada para acessar as configurações do SMS para o usuário. 
+O valor de texto representa uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que pode ser usada para acessar configurações de SMS para o usuário. 
   
 ## <a name="remarks"></a>Comentários
 
-O elemento **EcpUrl-SMS** é um elemento filho opcional do elemento **Protocol** . 
+O **elemento EcpUrl-sms** é um elemento filho opcional do **elemento Protocol.** 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

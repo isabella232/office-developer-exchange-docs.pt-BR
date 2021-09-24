@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetMailTips
 api_type:
 - schema
 ms.assetid: 4a24ff79-f1ae-43a1-9ac2-49baf3eaa173
-description: O elemento GetQuery representa os destinatários e os tipos de dicas de email a serem recuperadas.
-ms.openlocfilehash: 8ff71ed5d52f713e11188b07c8c93aeee7dfa44d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetMailTips representa os destinatários e tipos de dicas de email a recuperar.
+ms.openlocfilehash: 03c416f7e60e9677d77a389ab052aa0057e278da
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458632"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533747"
 ---
 # <a name="getmailtips"></a>GetMailTips
 
-O **elemento** GetQuery representa os destinatários e os tipos de dicas de email a serem recuperadas. 
+O **elemento GetMailTips** representa os destinatários e tipos de dicas de email a recuperar. 
   
 ```XML
 <GetMailTips>
@@ -44,9 +44,9 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Envios](sendingas.md) <br/> |Contém um endereço de email que o usuário está tentando enviar como.  <br/> |
-|[Destinatários (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md) <br/> |Contém uma lista de destinatários para verificar dicas de email.  <br/> |
-|[MailTipsRequested](mailtipsrequested.md) <br/> |Contém os tipos de dicas de email solicitadas do serviço.  <br/> |
+|[SendingAs](sendingas.md) <br/> |Contém um endereço de email que um usuário está tentando enviar como.  <br/> |
+|[Recipients (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md) <br/> |Contém uma lista de destinatários para verificar dicas de email.  <br/> |
+|[MailTipsRequested](mailtipsrequested.md) <br/> |Contém os tipos de dicas de email solicitadas ao serviço.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 

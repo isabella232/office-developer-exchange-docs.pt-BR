@@ -1,23 +1,23 @@
 ---
-title: EmailAddress (cadeia de caracteres)
+title: EmailAddress (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b847017-fa89-4094-bfa1-cc436b760207
 description: O elemento EmailAddress especifica um único endereço de email.
-ms.openlocfilehash: b245611868d473e35f96e0d0b37f7cb4fbe9c94c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 84e41d4346bc280e07587b0ed192de03e56ffab0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526225"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520798"
 ---
-# <a name="emailaddress-string"></a>EmailAddress (cadeia de caracteres)
+# <a name="emailaddress-string"></a>EmailAddress (string)
 
-O elemento **EmailAddress** especifica um único endereço de email. 
+O **elemento EmailAddress** especifica um único endereço de email. 
   
 ```XML
 <EmailAddress></EmailAddress>
@@ -44,7 +44,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **EmailAddress** é um valor String que especifica o endereço de email. 
+O valor de texto do **elemento EmailAddress** é um valor de cadeia de caracteres que especifica o endereço de email. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também
