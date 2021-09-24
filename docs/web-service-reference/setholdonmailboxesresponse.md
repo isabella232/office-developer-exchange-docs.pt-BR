@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 909194d6-e2b1-4774-bf29-04ed4318df1d
 description: O elemento SetHoldOnMailboxesResponse representa uma resposta a uma solicitação SetHoldOnMailboxes.
-ms.openlocfilehash: 37ad5c6e8f880831a98ff2e649a92cee99930889
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 052c9c26beeba4e231e83d5034460ef38f71a3d9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44438079"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540507"
 ---
 # <a name="setholdonmailboxesresponse"></a>SetHoldOnMailboxesResponse
 
-O elemento **SetHoldOnMailboxesResponse** representa uma resposta a uma solicitação **SetHoldOnMailboxes** . 
+O **elemento SetHoldOnMailboxesResponse** representa uma resposta a uma **solicitação SetHoldOnMailboxes.** 
   
 ```XML
 <SetHoldOnMailboxesResponse>
@@ -44,7 +44,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

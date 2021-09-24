@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OfficeLocation
 api_type:
 - schema
 ms.assetid: 88f314a1-b5cb-47aa-bbae-324561e3a5e3
-description: O elemento OfficeLocation representa a localização do escritório de um contato.
-ms.openlocfilehash: ebb0c2d3d2e2e31614c6bdd63fe28a6b3cfa1f9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento OfficeLocation representa o local do escritório de um contato.
+ms.openlocfilehash: 4ba65ea63e3c29c8827c14bcd2af67465493086c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468359"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515394"
 ---
 # <a name="officelocation"></a>OfficeLocation
 
-O elemento **OfficeLocation** representa a localização do escritório de um contato. 
+O **elemento OfficeLocation** representa o local do escritório de um contato. 
   
 ```xml
 <OfficeLocation/>
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -70,9 +70,9 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Criando contatos (serviços Web do Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Criando contatos (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
 [Atualizando contatos](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   
-[Excluindo contatos](https://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
+[Excluir contatos](https://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
 

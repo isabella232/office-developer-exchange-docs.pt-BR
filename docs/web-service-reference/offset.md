@@ -1,27 +1,27 @@
 ---
-title: Deslocamento
+title: Offset
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Offset
 api_type:
 - schema
 ms.assetid: dcbb9d85-d90c-4363-b4c9-d081ad03f407
-description: O elemento offset descreve o deslocamento do BaseOffset. Junto com o elemento BaseOffset, o elemento offset identifica se o horário é padrão ou horário de verão.
-ms.openlocfilehash: 74ad87026c2cb89f3b0c35218c91f81380029963
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Offset descreve o deslocamento do BaseOffset. Juntamente com o elemento BaseOffset, o elemento Offset identifica se a hora é padrão ou horário de verão.
+ms.openlocfilehash: af9a2f7a94ae0cd736a4fe6f11b8a5a77673bbe3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459753"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515387"
 ---
-# <a name="offset"></a>Deslocamento
+# <a name="offset"></a>Offset
 
-O elemento **offset** descreve o deslocamento do [BaseOffset](baseoffset.md). Junto com o elemento **BaseOffset** , o elemento **offset** identifica se o horário é padrão ou horário de verão. 
+O **elemento Offset** descreve o deslocamento do [BaseOffset](baseoffset.md). Juntamente com o **elemento BaseOffset,** o elemento **Offset** identifica se a hora é padrão ou horário de verão. 
   
 ```xml
 <Offset/>
@@ -44,16 +44,16 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Norte](daylight.md) <br/> |Representa a data e a hora em que o horário muda do horário de verão para o horário padrão.  <br/> |
-|[Standard](standard.md) <br/> |Representa a data e a hora em que o horário muda do horário de verão para o horário padrão.  <br/> |
+|[Daylight](daylight.md) <br/> |Representa a data e a hora em que a hora muda do horário de verão para a hora padrão.  <br/> |
+|[Standard](standard.md) <br/> |Representa a data e a hora em que a hora muda do horário de verão para a hora padrão.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o deslocamento do tempo universal coordenado (UTC).
+O valor de texto representa o deslocamento de Tempo Universal Coordenado (UTC).
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

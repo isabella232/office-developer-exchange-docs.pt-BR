@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnreadCount
 api_type:
 - schema
 ms.assetid: 53b22647-1453-4707-9ea0-6a8369748d56
 description: O elemento UnreadCount contém a contagem de itens não lidos em uma pasta.
-ms.openlocfilehash: 72e5d47eac7618408e46ad11eb19eaebf9835502
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b4be48eae8037f5bbffaa120e71024102e7a108f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467218"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515030"
 ---
 # <a name="unreadcount"></a>UnreadCount
 
-O elemento **UnreadCount** contém a contagem de itens não lidos em uma pasta. 
+O **elemento UnreadCount** contém a contagem de itens não lidos em uma pasta. 
   
 ```XML
 <UnreadCount/>
 ```
 
- **xs: int**
+ **xs:int**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
 |[Folder](folder.md) <br/> |Representa uma pasta em uma caixa de correio.  <br/> |
 |[ModifiedEvent](modifiedevent.md) <br/> |Representa um evento em que um item ou pasta é modificado.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Representa uma pasta de pesquisa em uma caixa de correio.  <br/> |
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -1,23 +1,23 @@
 ---
-title: Token (cadeia de caracteres)
+title: Token (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f77af99d-5c77-4f46-851e-261faa03f68a
-description: O elemento token contém um token de refinador de pesquisa.
-ms.openlocfilehash: b4a819be260e9ba4eecf329011241c9c2b89f332
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Token contém um token de refinador de pesquisa.
+ms.openlocfilehash: 8a0e2db3fbb19296573224a97bd78dd524a4ef39
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462819"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515155"
 ---
-# <a name="token-string"></a>Token (cadeia de caracteres)
+# <a name="token-string"></a>Token (String)
 
-O elemento **token** contém um token de refinador de pesquisa. 
+O **elemento Token** contém um token de refinador de pesquisa. 
   
 ```XML
 <Token></Token>
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Menores](refiner.md)
+[Refiner](refiner.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **token** é um token de refinador de pesquisa para uma pesquisa de descoberta. 
+O valor de texto do **elemento Token** é um token de refinador de pesquisa para uma pesquisa de descoberta. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

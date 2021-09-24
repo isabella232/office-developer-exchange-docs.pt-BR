@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveFolder
 api_type:
 - schema
 ms.assetid: f2bb0a73-94d7-4bc7-8902-bd9c69120221
-description: O elemento MoveFolder define uma solicitação para mover uma pasta no repositório do Exchange.
-ms.openlocfilehash: d2fe33a6d7893d45fa116a1516fcc6ab2dea3bcf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MoveFolder define uma solicitação para mover uma pasta no Exchange store.
+ms.openlocfilehash: 5fab9fab243d0720166f2eecdb3d0eee04110235
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457288"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515541"
 ---
 # <a name="movefolder"></a>MoveFolder
 
-O elemento **MoveFolder** define uma solicitação para mover uma pasta no repositório do Exchange. 
+O **elemento MoveFolder** define uma solicitação para mover uma pasta no Exchange store. 
   
 ```xml
 <MoveFolder>
@@ -44,11 +44,11 @@ Nenhum
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[ToFolderId](tofolderid.md) <br/> |Representa a pasta de destino de uma pasta movida.  <br/> |
-|[FolderIds](folderids.md) <br/> |Contém uma matriz de pastas para mover para a pasta identificada pelo elemento [ToFolderId](tofolderid.md) .  <br/> |
+|[FolderIds](folderids.md) <br/> |Contém uma matriz de pastas para mover para a pasta identificada pelo [elemento ToFolderId.](tofolderid.md)  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

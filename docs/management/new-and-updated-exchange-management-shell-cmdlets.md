@@ -1,33 +1,33 @@
 ---
-title: Cmdlets novos e atualizados do Shell de gerenciamento do Exchange
+title: Cmdlets Exchange Shell de Gerenciamento novos e atualizados
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5941a439-94d2-4133-81fc-7240863a13df
-description: Encontre informações sobre as novidades no Shell de gerenciamento do Exchange no Exchange.
-ms.openlocfilehash: bda6607be20f2a21bc22d472d63615d46634d8ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre as novidades no Shell de Gerenciamento Exchange no Exchange.
+ms.openlocfilehash: b90d7edb83f3cdcaeed11c3692e6981931eaaae1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457141"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513868"
 ---
-# <a name="new-and-updated-exchange-management-shell-cmdlets"></a>Cmdlets novos e atualizados do Shell de gerenciamento do Exchange
+# <a name="new-and-updated-exchange-management-shell-cmdlets"></a>Cmdlets Exchange Shell de Gerenciamento novos e atualizados
 
-Encontre informações sobre as novidades no Shell de gerenciamento do Exchange no Exchange.
+Encontre informações sobre as novidades no Shell de Gerenciamento Exchange no Exchange.
   
 **Aplica-se a:** Exchange Online | Exchange Server 2013 | Office 365
   
-Este artigo fornece informações sobre os novos cmdlets do Shell de gerenciamento do Exchange, cmdlets que foram modificados em e cmdlets removidos do Exchange Online, do Exchange Online como parte do Office 365 ou de uma versão local do Exchange.
+Este artigo fornece informações sobre novos cmdlets de shell de gerenciamento do Exchange, cmdlets que foram modificados e cmdlets que foram removidos do Exchange Online, Exchange Online como parte do Office 365 ou uma versão local do Exchange.
   
 ## <a name="new-and-updated-cmdlets-in-exchange-2013-sp1"></a>Cmdlets novos e atualizados no Exchange 2013 SP1
 
 ### <a name="new-cmdlets"></a>Novos cmdlets
 
-Os cmdlets a seguir foram introduzidos no Build 15.00.0847.032 (Exchange Server 2013 SP1):
+Os cmdlets a seguir foram introduzidos na com build 15.00.0847.032 (Exchange Server 2013 SP1):
   
 - **Get-AuthRedirect**
     
@@ -37,13 +37,13 @@ Os cmdlets a seguir foram introduzidos no Build 15.00.0847.032 (Exchange Server 
     
 - **Set-AuthRedirect**
     
-- **New-dataclassification**
+- **New-DataClassification**
     
-- **Remove-dataclassification**
+- **Remove-DataClassification**
     
-- **Set-dataclassification**
+- **Set-DataClassification**
     
-- **Nova-impressão digital**
+- **New-FingerPrint**
     
 - **Get-MapiVirtualDirectory\***
     
@@ -83,7 +83,7 @@ Os cmdlets a seguir foram introduzidos no Build 15.00.0847.032 (Exchange Server 
     
 ### <a name="updated-cmdlets"></a>Cmdlets atualizados
 
-Os cmdlets a seguir foram atualizados no Build 15.00.0847.032 (Exchange 2013 SP1):
+Os cmdlets a seguir foram atualizados no build 15.00.0847.032 (Exchange 2013 SP1):
   
 - **Get-AuditLogSearch**
     
@@ -127,7 +127,7 @@ Os cmdlets a seguir foram atualizados no Build 15.00.0847.032 (Exchange 2013 SP1
     
 ### <a name="removed-cmdlets"></a>Cmdlets removidos
 
-Os cmdlets a seguir foram removidos da compilação 15.00.0847.032 (Exchange 2013 SP1):
+Os cmdlets a seguir foram removidos da com build 15.00.0847.032 (Exchange 2013 SP1):
   
 - **Get-AvailabilityReportOutage**
     
@@ -148,17 +148,17 @@ Os seguintes cmdlets foram introduzidos no Exchange 2013:
     
 - **Set-ActiveSyncDeviceAutoblockThreshold**
     
-- **Disable-app**
+- **Disable-App**
     
-- **Enable-app**
+- **Enable-App**
     
-- **Get-app**
+- **Get-App**
     
 - **New-App**
     
-- **Remove-app**
+- **Remove-App**
     
-- **Set-app**
+- **Set-App**
     
 - **Get-AuthConfig**
     
@@ -194,7 +194,7 @@ Os seguintes cmdlets foram introduzidos no Exchange 2013:
     
 - **Set-ConnectSubscription**
     
-- **Get-dataclassification**
+- **Get-DataClassification**
     
 - **Get-DataClassificationConfig**
     
@@ -328,7 +328,7 @@ Os seguintes cmdlets foram introduzidos no Exchange 2013:
     
 - **Get-MessageTraceDetail**
     
-- **Concluir-MigrationBatch**
+- **Complete-MigrationBatch**
     
 - **Remove-MigrationBatch**
     
@@ -555,7 +555,7 @@ Os seguintes cmdlets foram introduzidos no Exchange 2013:
 ### <a name="modified-cmdlets"></a>Cmdlets modificados
 <a name="bk_update"> </a>
 
-Os tipos de entrada ou saída dos seguintes cmdlets foram modificados no Exchange 2013:
+Os tipos de entrada ou saída para os seguintes cmdlets foram modificados Exchange 2013:
   
 - **Clear-ActiveSyncDevice**
     
@@ -684,7 +684,7 @@ Os tipos de entrada ou saída dos seguintes cmdlets foram modificados no Exchang
 ### <a name="removed-cmdlets"></a>Cmdlets removidos
 <a name="bk_removed"> </a>
 
-Os seguintes cmdlets foram removidos do Exchange 2013:
+Os cmdlets a seguir foram removidos do Exchange 2013:
   
 - **Update-FileDistributionService**
     
@@ -692,7 +692,7 @@ Os seguintes cmdlets foram removidos do Exchange 2013:
     
 - **Clean-MailboxDatabase**
     
-- **Conclusão-migração**
+- **Migração Completa**
     
 - **Get-MigrationStatus**
     
@@ -733,7 +733,7 @@ Os seguintes cmdlets foram removidos do Exchange 2013:
 ## <a name="see-also"></a>Confira também
 
 - [Tipos de entrada e de saída de cmdlet do Shell de Gerenciamento do Exchange](exchange-management-shell-cmdlet-input-and-output-types.md)    
-- [Obter uma lista de usuários de email usando o Shell de gerenciamento do Exchange](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
+- [Obter uma lista de usuários de email usando o Shell Exchange Gerenciamento](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
 - [Exchange 2013 cmdlets](https://technet.microsoft.com/library/bb124413%28v=exchg.150%29.aspx)
     
 

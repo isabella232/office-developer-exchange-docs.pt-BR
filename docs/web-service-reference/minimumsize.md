@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 841d229c-140c-48bd-b3a7-21478fcea2fb
 description: O elemento MinimumSize representa o tamanho mínimo que uma mensagem deve ter para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: b43a8b5916747c4e3e4ca9b66cf8b9d73f5f8942
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c3f1284a5a82731093863b0a621bcf2f7f55cf22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464200"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540647"
 ---
 # <a name="minimumsize"></a>MinimumSize
 
-O elemento **MinimumSize** representa o tamanho mínimo que uma mensagem deve ter para que a condição ou exceção seja aplicada. 
+O **elemento MinimumSize** representa o tamanho mínimo que uma mensagem deve ter para que a condição ou exceção seja aplicada. 
   
 ```XML
 <MinimumSize/>
@@ -40,7 +40,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[WithinSizeRange](withinsizerange.md) <br/> |Especifica os tamanhos mínimo e máximo que as mensagens de entrada devem ter para que a condição ou exceção seja aplicada.  <br/> |
+|[WithinSizeRange](withinsizerange.md) <br/> |Especifica os tamanhos mínimo e máximo que as mensagens de entrada devem estar para que a condição ou exceção seja aplicada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

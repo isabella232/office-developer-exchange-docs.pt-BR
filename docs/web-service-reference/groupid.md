@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 656d9b9a-8a65-4a75-8466-5b0d96512dab
 description: O elemento GroupId identifica exclusivamente um grupo.
-ms.openlocfilehash: 3b8de4d0fef95e2caff4db0d90bb303830022d36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c0261153a0c64a2e54c053597bd3fdc1466480da
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530089"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539665"
 ---
 # <a name="groupid"></a>GroupId
 
-O elemento **GroupId** identifica exclusivamente um grupo. 
+O **elemento GroupId** identifica exclusivamente um grupo. 
   
 ```XML
 <GroupId Id="" ChangeKey=""/>
 ```
 
- **ItemIdtype**
+ **ItemIdType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -32,8 +32,8 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|Id  <br/> |O valor de texto do atributo **ID** é o identificador do grupo.  <br/> |
-|ChangeKey  <br/> |O valor de texto do atributo **ChangeKey** é a chave de alteração do grupo.  <br/> |
+|Id  <br/> |O valor de texto do **atributo Id** é o identificador do grupo.  <br/> |
+|ChangeKey  <br/> |O valor de texto do **atributo ChangeKey** é a chave de alteração do grupo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

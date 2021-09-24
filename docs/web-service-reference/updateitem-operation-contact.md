@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateItem
 api_type:
 - schema
 ms.assetid: 298fdd71-a83d-4407-9728-4f0a8e2d857c
-description: A operação UpdateItem é usada para atualizar as propriedades do item de contato no repositório do Exchange.
-ms.openlocfilehash: 66e1b91ea3154d8a501339aed7b398970e8f5392
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação UpdateItem é usada para atualizar as propriedades do item de contato no Exchange store.
+ms.openlocfilehash: 3d9c42d941be45f9577efb53e30bc2c299370527
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459823"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515023"
 ---
 # <a name="updateitem-operation-contact"></a>Operação UpdateItem (contato)
 
-A operação UpdateItem é usada para atualizar as propriedades do item de contato no repositório do Exchange.
+A operação UpdateItem é usada para atualizar as propriedades do item de contato no Exchange store.
   
-## <a name="updateitem-contact-request-example"></a>Exemplo de solicitação UpdateItem (contato)
+## <a name="updateitem-contact-request-example"></a>Exemplo de solicitação UpdateItem (Contato)
 
 ### <a name="description"></a>Descrição
 
@@ -62,23 +62,23 @@ O exemplo de código a seguir mostra como atualizar o endereço de email de um c
 
 ### <a name="comments"></a>Comentários
 
-O identificador de item foi reduzido para preservar a legibilidade.
+O identificador de item foi reduzido para preservar a capacidade de leitura.
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
 - [UpdateItem](updateitem.md)
     
-- [Alterações](itemchanges.md)
+- [ItemChanges](itemchanges.md)
     
 - [ItemChange](itemchange.md)
     
 - [ItemId](itemid.md)
     
-- [Atualizações (item)](updates-item.md)
+- [Updates (Item)](updates-item.md)
     
-- [Setitemfield](setitemfield.md)
+- [SetItemField](setitemfield.md)
     
 - [IndexedFieldURI](indexedfielduri.md)
     
@@ -86,9 +86,9 @@ Os seguintes elementos são usados na solicitação:
     
 - [EmailAddresses](emailaddresses.md)
     
-- [Entrada (EmailAddress)](entry-emailaddress.md)
+- [Entry (EmailAddress)](entry-emailaddress.md)
     
-## <a name="successful-updateitem-contact-response"></a>Resposta de UpdateItem (contato) bem-sucedida
+## <a name="successful-updateitem-contact-response"></a>Resposta UpdateItem (Contato) bem-sucedida
 
 ### <a name="description"></a>Descrição
 
@@ -126,7 +126,7 @@ O exemplo de código a seguir mostra uma resposta UpdateItem bem-sucedida.
 
 ### <a name="comments"></a>Comentários
 
-O identificador de item foi reduzido para preservar a legibilidade.
+O identificador de item foi reduzido para preservar a capacidade de leitura.
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
@@ -142,13 +142,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-- [Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [Contato](contact.md)
     
 - [ItemId](itemid.md)
     
-## <a name="invalid-updateitem-contact-request-example"></a>Exemplo de solicitação UpdateItem (contato) inválido
+## <a name="invalid-updateitem-contact-request-example"></a>Exemplo de solicitação UpdateItem (Contato) inválida
 
 ### <a name="description"></a>Descrição
 
@@ -187,13 +187,13 @@ O exemplo de código a seguir mostra uma solicitação inválida.
 
 ### <a name="comments"></a>Comentários
 
-O identificador de item foi reduzido para preservar a legibilidade.
+O identificador de item foi reduzido para preservar a capacidade de leitura.
   
-## <a name="updateitem-contact-error-response"></a>Resposta de erro UpdateItem (contato)
+## <a name="updateitem-contact-error-response"></a>Resposta de erro UpdateItem (Contato)
 
 ### <a name="description"></a>Descrição
 
-O exemplo de código a seguir mostra uma resposta de erro a uma solicitação de UpdateItem (contato).
+O exemplo de código a seguir mostra uma resposta de erro a uma solicitação UpdateItem (Contato).
   
 ### <a name="code"></a>Código
 
@@ -220,7 +220,7 @@ O exemplo de código a seguir mostra uma resposta de erro a uma solicitação de
 
 ### <a name="comments"></a>Comentários
 
-Alguns elementos que são usados no corpo SOAP de uma resposta de erro causado por um erro de validação de esquema não estão definidos nos esquemas de mensagens ou tipos. O elemento **Detail** contém informações sobre o erro. O elemento [ResponseCode](responsecode.md) contém o código de erro. O elemento [Message](message-ex15websvcsotherref.md) contém uma explicação para o erro, se houver um disponível. O elemento **line** descreve o número da linha em que ocorreu o erro de validação do esquema. O elemento **Position** descreve a posição do caractere da extrema esquerda do documento XML. 
+Alguns elementos usados no corpo SOAP de uma resposta de erro causada por um erro de validação de esquema não são definidos nos esquemas de mensagens ou tipos. O **elemento detail** contém informações sobre o erro. O [elemento ResponseCode](responsecode.md) contém o código de erro. O [elemento Message](message-ex15websvcsotherref.md) contém uma explicação para o erro, se um estiver disponível. O **elemento Line** descreve o número de linha em que ocorreu o erro de validação do esquema. O **elemento Position** descreve a posição do caractere mais à esquerda do documento XML. 
   
 ## <a name="see-also"></a>Confira também
 

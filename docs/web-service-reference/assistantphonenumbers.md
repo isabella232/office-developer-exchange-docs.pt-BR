@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9bd9ac1-7db3-44ea-9117-18488dddde15
-description: O elemento AssistantPhoneNumbers especifica uma matriz de números de telefone do assistente e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: a72c8d646750b5d7cf9ebca13a51f4df84bf7bdb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AssistantPhoneNumbers especifica uma matriz de números de telefone assistentes e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: 5653cb5ec10aeac20d43a65116af9dabebfc15e3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464480"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540220"
 ---
 # <a name="assistantphonenumbers"></a>AssistantPhoneNumbers
 
-O elemento **AssistantPhoneNumbers** especifica uma matriz de números de telefone do assistente e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento AssistantPhoneNumbers** especifica uma matriz de números de telefone assistentes e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <AssistantPhoneNumbers>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

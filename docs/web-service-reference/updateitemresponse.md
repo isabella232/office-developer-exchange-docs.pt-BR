@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateItemResponse
 api_type:
 - schema
 ms.assetid: 023b79b4-c675-4669-9112-d85499ec4fc4
 description: O elemento UpdateItemResponse define uma resposta a uma solicitação UpdateItem.
-ms.openlocfilehash: f18bb6658bf7a68e2262ebee7ce86255ea527ac4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f4d1fbb09c4a7e1ad79c1cc9371c481a86a1d7d9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467141"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514015"
 ---
 # <a name="updateitemresponse"></a>UpdateItemResponse
 
-O elemento **UpdateItemResponse** define uma resposta a uma solicitação UpdateItem. 
+O **elemento UpdateItemResponse** define uma resposta a uma solicitação UpdateItem. 
   
 ```xml
 <UpdateItemResponse>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

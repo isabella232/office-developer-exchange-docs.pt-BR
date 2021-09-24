@@ -1,27 +1,27 @@
 ---
-title: InvalidRecipient (dicas de dicas)
+title: InvalidRecipient (MailTips)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InvalidRecipient
 api_type:
 - schema
 ms.assetid: 48959a99-bb0d-4004-963e-5a5baaa96476
 description: O elemento InvalidRecipient indica se o destinatário é inválido.
-ms.openlocfilehash: fddd75beb2228c50084bd38b4f4745064cc281dc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 747210c234ecf39bd711ace938ad16af2353eaad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529998"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539567"
 ---
-# <a name="invalidrecipient-mailtips"></a>InvalidRecipient (dicas de dicas)
+# <a name="invalidrecipient-mailtips"></a>InvalidRecipient (MailTips)
 
-O elemento **InvalidRecipient** indica se o destinatário é inválido. 
+O **elemento InvalidRecipient** indica se o destinatário é inválido. 
   
 ```XML
 <InvalidRecipient>true | false</InvalidRecipient>
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Dicas de Email](mailtips.md) <br/> |Representa valores de vários tipos de dicas de email.  <br/> |
+|[Dicas de Email](mailtips.md) <br/> |Representa valores para vários tipos de dicas de email.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto desse elemento será **true** se o destinatário for inválido. O valor será **false** se o destinatário não for inválido. 
+O valor de texto desse elemento será **true se** o destinatário for inválido. O valor será **false** se o destinatário não for inválido. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

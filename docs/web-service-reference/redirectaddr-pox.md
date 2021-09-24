@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 0e9fa6b6-7991-4dc1-a59a-48e5f8e041e4
-description: O elemento RedirectAddr especifica o endereço de email que deve ser usado para uma solicitação de descoberta automática subsequente.
-ms.openlocfilehash: 6bff28001851f421b4c7429770185401f2f0a743
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RedirectAddr especifica o endereço de email que deve ser usado para uma solicitação de Descoberta Automática subsequente.
+ms.openlocfilehash: 75db62a84ccce743e73c812082ab9dbbc4fdb1cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529872"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540591"
 ---
 # <a name="redirectaddr-pox"></a>RedirectAddr (POX)
 
-O elemento **RedirectAddr** especifica o endereço de email que deve ser usado para uma solicitação de descoberta automática subsequente. 
+O **elemento RedirectAddr** especifica o endereço de email que deve ser usado para uma solicitação de Descoberta Automática subsequente. 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Conta (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [RedirectAddr (POX)](redirectaddr-pox.md)
   
@@ -48,19 +48,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conta (POX)](account-pox.md) <br/> |Especifica as configurações de conta do usuário.  <br/> |
+|[Account (POX)](account-pox.md) <br/> |Especifica as configurações da conta para o usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o endereço de email que deve ser usado para uma solicitação de descoberta automática subsequente.
+O valor de texto representa o endereço de email que deve ser usado para uma solicitação de Descoberta Automática subsequente.
   
 ## <a name="remarks"></a>Comentários
 
-Se esse elemento estiver presente na resposta de descoberta automática, faça outra solicitação usando o valor de texto do elemento **RedirectAddr** . 
+Se esse elemento estiver presente na resposta Descoberta Automática, faça outra solicitação usando o valor de texto do **elemento RedirectAddr.** 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

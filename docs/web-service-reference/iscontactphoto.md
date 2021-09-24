@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsContactPhoto
 api_type:
 - schema
 ms.assetid: ae36b5f9-a787-4863-9dbc-258ad724801d
 description: O elemento IsContactPhoto indica se o anexo de arquivo é uma imagem de contato.
-ms.openlocfilehash: f60e558ab4f20b59c1d5ae51f9dfca430feeff00
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a20c81997e15e310b795bc8f346b06a5c3147e9f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455545"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539511"
 ---
 # <a name="iscontactphoto"></a>IsContactPhoto
 
-O elemento **IsContactPhoto** indica se o anexo de arquivo é uma imagem de contato. 
+O **elemento IsContactPhoto** indica se o anexo de arquivo é uma imagem de contato. 
   
 ```xml
 <IsContactPhoto>true or false</IsContactPhoto>
@@ -44,15 +44,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo anexado a um item no repositório do Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo anexado a um item no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Esse elemento pode ser **true** ou **false**. O valor padrão é **false**.
+Esse elemento pode ser **verdadeiro ou** **falso.** O valor padrão é **falso**.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

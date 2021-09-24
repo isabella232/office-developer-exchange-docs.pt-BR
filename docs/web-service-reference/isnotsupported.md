@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsNotSupported
 api_type:
 - schema
 ms.assetid: 4db469ae-1515-47ea-9905-6aabf199febd
 description: O elemento IsNotSupported indica se a regra não pode ser modificada usando as APIs de código gerenciado.
-ms.openlocfilehash: e2d0c506209978fd5e8702e0de6cddf2e9c4b7fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4a123acbce3019d9ac5fcdb4cbfa2b60dd4529fe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465832"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514540"
 ---
 # <a name="isnotsupported"></a>IsNotSupported
 
-O elemento **IsNotSupported** indica se a regra não pode ser modificada usando as APIs de código gerenciado. 
+O **elemento IsNotSupported** indica se a regra não pode ser modificada usando as APIs de código gerenciado. 
   
 ```XML
 <IsNotSupported/>
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Regra (RuleType)](rule-ruletype.md) <br/> |Representa uma regra na caixa de correio do usuário.  <br/> |
+|[Rule (RuleType)](rule-ruletype.md) <br/> |Representa uma regra na caixa de correio do usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor **true** indica que a regra não pode ser modificada usando as APIs de código gerenciado. Um valor **false** indica que a regra pode ser modificada usando as APIs de código gerenciado. 
+Um valor de texto **true** indica que a regra não pode ser modificada usando as APIs de código gerenciado. Um valor **false** indica que a regra pode ser modificada usando as APIs de código gerenciado. 
   
 ## <a name="remarks"></a>Comentários
 

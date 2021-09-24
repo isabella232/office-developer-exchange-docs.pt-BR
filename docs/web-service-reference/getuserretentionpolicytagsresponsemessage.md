@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9991d6e0-8c31-4e73-8af3-da4298474b66
 description: O elemento GetUserRetentionPolicyTagsResponseMessage especifica a mensagem de resposta para uma solicitação GetUserRetentionPolicyTags.
-ms.openlocfilehash: e65266e72010f42a2052bbb8cfab21ea4059f92b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2d37a28f3babfdc5abc862338f53796ed187ec6c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461804"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515793"
 ---
 # <a name="getuserretentionpolicytagsresponsemessage"></a>GetUserRetentionPolicyTagsResponseMessage
 
-O elemento **GetUserRetentionPolicyTagsResponseMessage** especifica a mensagem de resposta para uma solicitação **GetUserRetentionPolicyTags** . 
+O **elemento GetUserRetentionPolicyTagsResponseMessage** especifica a mensagem de resposta para uma **solicitação GetUserRetentionPolicyTags.** 
   
 ```XML
 <GetUserRetentionPolicyTagsResponseMessage>
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b34629f3-19a8-4add-a06c-a160c4288dae
-description: O elemento AttachLongPathName é destinado apenas para uso interno.
-ms.openlocfilehash: f8a120e56eb1d20e99f6054eef003ddade22fea2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AttachLongPathName destina-se apenas ao uso interno.
+ms.openlocfilehash: 7df9e1e7be9a47c3ebfdf64bdb974e8274d3118c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464263"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540213"
 ---
 # <a name="attachlongpathname"></a>AttachLongPathName
 
-O elemento **AttachLongPathName** é destinado apenas para uso interno. 
+O **elemento AttachLongPathName** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

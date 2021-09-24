@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a20c747-4fa2-4c8d-b439-816918e8ba02
-description: O elemento ClientIntent é destinado apenas para uso interno.
-ms.openlocfilehash: cf791a5ddba7c3455f5738bd4bede00dc7010f0e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ClientIntent destina-se apenas ao uso interno.
+ms.openlocfilehash: 5168d23ec55b3c4c6dba116116f5747edf5053f7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462182"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515989"
 ---
 # <a name="clientintent"></a>ClientIntent
 
-O elemento **ClientIntent** é destinado apenas para uso interno. 
+O **elemento ClientIntent** destina-se apenas ao uso interno. 
   
 ```XML
 <ClientIntent />
@@ -38,7 +38,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -52,7 +52,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -1,27 +1,27 @@
 ---
-title: EndDate (recorrência)
+title: EndDate (Recurrence)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EndDate
 api_type:
 - schema
 ms.assetid: 16026595-26f8-4770-8a6d-0d3e4157effd
-description: O elemento EndDate representa a data de término de uma tarefa recorrente ou um item de calendário que tem o tipo de padrão EndDateRecurrence.
-ms.openlocfilehash: 53d9b04faf1d8f740c858080b5fcbeadf577df0d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EndDate representa a data de término de uma tarefa recorrente ou um item de calendário que tenha o tipo de padrão EndDateRecurrence.
+ms.openlocfilehash: c53d83a3fb2f3a6a841d7e16c94d20dd3c7a92a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460159"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540086"
 ---
-# <a name="enddate-recurrence"></a>EndDate (recorrência)
+# <a name="enddate-recurrence"></a>EndDate (Recurrence)
 
-O elemento **EndDate** representa a data de término de uma tarefa recorrente ou um item de calendário que tem o tipo de padrão EndDateRecurrence. 
+O **elemento EndDate** representa a data de término de uma tarefa recorrente ou um item de calendário que tenha o tipo de padrão EndDateRecurrence. 
   
 ```xml
 <EndDate/>
@@ -48,7 +48,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto que representa uma data é necessário se esse elemento for usado. O valor não pode ser maior que 1 de setembro de 4500 00:00:00.
+Um valor de texto que representa uma data será necessário se esse elemento for usado. O valor não pode ser maior do que 1º de setembro de 4500 00:00:00.
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

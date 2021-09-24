@@ -1,29 +1,29 @@
 ---
-title: Configuration
+title: configuração
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - configuration
 api_type:
 - schema
 ms.assetid: 6fc04e4d-657a-4999-9431-186ccb7832b5
 description: 'Última modificação: 17 de setembro de 2015'
-ms.openlocfilehash: b886851b9a0c17d58428f49281d664930d0e4070
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 35fcb131fbe552a38d9f7eb6022eb5fb52db44b7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461559"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516142"
 ---
-# <a name="configuration"></a>Configuration
+# <a name="configuration"></a>configuração
   
 **Aplica-se a:** Exchange Server 2013
   
-O elemento **Configuration** é o elemento raiz do arquivo de configuração dos agentes. 
+O **elemento de** configuração é o elemento raiz do arquivo de configuração de agentes. 
   
 - [configuration](configuration.md) 
 - [mexRuntime](mexruntime.md)
@@ -34,7 +34,7 @@ O elemento **Configuration** é o elemento raiz do arquivo de configuração dos
 </configuration>
 ```
 
-**ConfigurationType (complexType)**
+**configurationType (complexType)**
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -48,7 +48,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[mexRuntime](mexruntime.md) <br/> |Contém elementos que definem informações de configuração para o monitoramento de agentes e informações de configuração para SMTP e agentes de roteamento instalados.  <br/> |
+|[mexRuntime](mexruntime.md) <br/> |Contém elementos que definem informações de configuração para informações de monitoramento e configuração de agentes para SMTP e agentes de roteamento instalados.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -58,12 +58,12 @@ Nenhum
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |Este arquivo não define um namespace.  <br/> |
+|Namespace  <br/> |Esse arquivo não define um namespace.  <br/> |
 |Nome do esquema  <br/> |Indisponível.  <br/> |
 |Arquivo de validação  <br/> |Indisponível.  <br/> |
 |Pode ser vazio  <br/> |Falso.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
-- [Elementos de arquivo de configuração de agentes para o Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Elementos de arquivo de configuração de agentes para Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

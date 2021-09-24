@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9850a25-1560-4ed8-969c-dc3e59dde207
-description: O elemento WorkCity especifica a cidade onde o persona associado funciona.
-ms.openlocfilehash: 712544d60fde15b3d630ecd00b9b5dfbb16a7dd5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento WorkCity especifica a cidade onde a persona associada funciona.
+ms.openlocfilehash: c498c40d66b6bd57833f37bbe88c12bef85f9a99
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459711"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514953"
 ---
 # <a name="workcity"></a>WorkCity
 
-O elemento **WorkCity** especifica a cidade onde o persona associado funciona. 
+O **elemento WorkCity** especifica a cidade onde a persona associada funciona. 
   
 ```XML
 <WorkCity></WorkCity>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **WorkCity** é a cidade na qual o persona Works associado. 
+O valor de texto do **elemento WorkCity** é a cidade na qual a persona associada funciona. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

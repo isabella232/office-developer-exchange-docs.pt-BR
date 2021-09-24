@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateAttachment
 api_type:
 - schema
 ms.assetid: e33b403a-b7d3-48ee-8d24-6b7abf0d70bc
-description: O elemento CreateAttachment define uma solicitação para criar um anexo a um item no repositório do Exchange.
-ms.openlocfilehash: 4cba1b8865dae5da58b9617b249a29314c67331a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento CreateAttachment define uma solicitação para criar um anexo a um item no Exchange store.
+ms.openlocfilehash: 6716a83b0d1ba9d7f39351da60f7009df04a3fa0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466434"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515870"
 ---
 # <a name="createattachment"></a>CreateAttachment
 
-O elemento **CreateAttachment** define uma solicitação para criar um anexo a um item no repositório do Exchange. 
+O **elemento CreateAttachment** define uma solicitação para criar um anexo a um item no Exchange store. 
   
 ```xml
 <CreateAttachment>
@@ -43,16 +43,16 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ParentItemId](parentitemid.md) <br/> |Identifica o item do repositório pai do Exchange que contém o anexo criado. O elemento [ParentItemId](parentitemid.md) deve fornecer a ID de um item real do repositório do Exchange. Os itens do repositório real podem ser recuperados usando a [operação GetItem](getitem-operation.md); os anexos são recuperados usando a [operação GetAttachment](getattachment-operation.md). Ocorrerá um erro se [ParentItemId](parentitemid.md) for passado a ID de um anexo de arquivo. Se [ParentItemId](parentitemid.md) representar a ID de um anexo de item existente, a [operação CreateAttachment](createattachment-operation.md) adicionará o novo anexo ao anexo existente.  <br/> Este elemento é necessário para a [operação CreateAttachment](createattachment-operation.md).  <br/> |
-|[Anexos](attachments-ex15websvcsotherref.md) <br/> |Contém os itens ou arquivos a serem anexados a um item no repositório do Exchange.  <br/> |
+|[ParentItemId](parentitemid.md) <br/> |Identifica o item de armazenamento Exchange pai que contém o anexo criado. O [elemento ParentItemId](parentitemid.md) deve fornecer a ID de um item Exchange store real. Os itens reais do armazenamento podem ser recuperados usando a [operação GetItem;](getitem-operation.md) os anexos são recuperados usando [a operação GetAttachment](getattachment-operation.md). Ocorrerá um erro se [o ParentItemId](parentitemid.md) for passado a ID de um anexo de arquivo. Se [ParentItemId](parentitemid.md) representar a ID de um anexo de item existente, a operação [CreateAttachment](createattachment-operation.md) adiciona o novo anexo ao anexo existente.  <br/> Esse elemento é necessário para a [operação CreateAttachment](createattachment-operation.md).  <br/> |
+|[Anexos](attachments-ex15websvcsotherref.md) <br/> |Contém os itens ou arquivos a ser anexados a um item no Exchange store.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Um anexo de item não existe como um item de repositório. Ela só existe como um anexo a um item ou outro anexo. Os anexos de item só podem ser recuperados usando a solicitação [GetAttachment](getattachment.md) . 
+Um anexo de item não existe como um item de loja. Ele só existe como um anexo para um item ou outro anexo. Os anexos de item só podem ser recuperados usando a [solicitação GetAttachment.](getattachment.md) 
   
 Os seguintes anexos de item podem ser criados:
   
@@ -62,7 +62,7 @@ Os seguintes anexos de item podem ser criados:
     
 - CalendarItem
     
-- Contato
+- Contact
     
 - Tarefa
     
@@ -74,7 +74,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como criar e anexar um item a outro item no repositório do Exchange.
+O exemplo a seguir mostra como criar e anexar um item a outro item no Exchange store.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

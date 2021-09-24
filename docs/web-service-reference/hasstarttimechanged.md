@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04a6968d-7fb5-47ee-b66e-dc99c35dbb63
 description: O elemento HasStartTimeChanged especifica se a hora de início de uma reunião foi alterada.
-ms.openlocfilehash: 1355917005d956d05064bfc095055fb72aa16c57
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7f04c4d34a081b91adbb0796019e93bc50bfb8ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462742"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539644"
 ---
 # <a name="hasstarttimechanged"></a>HasStartTimeChanged
 
-O elemento **HasStartTimeChanged** especifica se a hora de início de uma reunião foi alterada. 
+O **elemento HasStartTimeChanged** especifica se a hora de início de uma reunião foi alterada. 
   
 ```XML
 <HasStartTimeChanged> true | false </HasStartTimeChanged>
@@ -44,7 +44,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **HasStartTimeChanged** indica que a hora de início de uma reunião foi alterada. Um valor **false** indica que a hora de início não foi alterada. 
+Um valor de texto **true** para o **elemento HasStartTimeChanged** indica que a hora de início de uma reunião foi alterada. Um valor **false** indica que a hora de início não foi alterada. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

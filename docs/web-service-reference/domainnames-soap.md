@@ -1,22 +1,22 @@
 ---
-title: Usermainnames (SOAP)
+title: DomainNames (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 79ffc3f9-25c4-40b5-84ce-09a3c5f892fa
-description: O elemento DomainNames representa a coleção de nomes de domínio. O elemento DomainNames é somente para uso interno. Esse elemento não é usado por clientes.
-ms.openlocfilehash: 0b425b3cd4c0e7cb2427920d61feb04010a3b123
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DomainNames representa a coleção de nomes de domínio. O elemento DomainNames é apenas para uso interno. Esse elemento não é usado pelos clientes.
+ms.openlocfilehash: 7697b05d7432051b9048837cb41894684f52be15
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458415"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526413"
 ---
-# <a name="domainnames-soap"></a>Usermainnames (SOAP)
+# <a name="domainnames-soap"></a>DomainNames (SOAP)
 
-O elemento **DomainNames** representa a coleção de nomes de domínio. O elemento **DomainNames** é somente para uso interno. Esse elemento não é usado por clientes. 
+O **elemento DomainNames** representa a coleção de nomes de domínio. O **elemento DomainNames** é apenas para uso interno. Esse elemento não é usado pelos clientes. 
   
 ```XML
 <DomainNames>
@@ -37,7 +37,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Domínios (SOAP)](domains-soap.md) <br/> |Representa uma coleção de domínios retornados da [operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md), [GETFEDERATIONINFORMATION Operation (SOAP)](getfederationinformation-operation-soap.md)ou a [operação GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md).  <br/> |
+|[Domains (SOAP)](domains-soap.md) <br/> |Representa uma coleção de domínios que são retornados da operação [GetDomainSettings (SOAP),](getdomainsettings-operation-soap.md) [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)ou [a operação GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md).  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -51,14 +51,14 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Este elemento representa os domínios SMTP das organizações externas.
+Esse elemento representa os domínios SMTP das organizações externas.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

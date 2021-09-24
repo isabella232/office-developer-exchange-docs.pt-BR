@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IncludesLastFolderInRange
 api_type:
 - schema
 ms.assetid: 95837904-17be-49b7-831c-de4fb20fccfb
 description: O elemento IncludesLastFolderInRange indica se o último item a ser sincronizado foi incluído na resposta.
-ms.openlocfilehash: 9ba401cf639ef7988fa7a1437a64d09ff54c5960
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d581f8bfa7fc980c7c2ef0fb8ca580c40a26aa22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466448"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515653"
 ---
 # <a name="includeslastfolderinrange"></a>IncludesLastFolderInRange
 
-O elemento **IncludesLastFolderInRange** indica se o último item a ser sincronizado foi incluído na resposta. 
+O **elemento IncludesLastFolderInRange** indica se o último item a ser sincronizado foi incluído na resposta. 
   
 [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
   
@@ -56,7 +56,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto que representa um valor booliano é necessário.
+Um valor de texto que representa um valor Boolean é necessário.
   
 ## <a name="remarks"></a>Comentários
 

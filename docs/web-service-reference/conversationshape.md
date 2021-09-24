@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6ea8816-04cc-4ccf-8498-bc89d46a32e8
-description: O elemento ConversationShape identifica a propriedade definida para retornar em uma resposta de operação FindConversation.
-ms.openlocfilehash: 18f652e7580a5521a4da25ccf19ae73e6614c3d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ConversationShape identifica o conjunto de propriedades a ser retornada em uma resposta de operação FindConversation.
+ms.openlocfilehash: 7dca85b3803da6d56e6099f68e83138231a0a6fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457610"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515947"
 ---
 # <a name="conversationshape"></a>ConversationShape
 
-O elemento **ConversationShape** identifica a propriedade definida para retornar em uma resposta de operação **FindConversation** . 
+O **elemento ConversationShape** identifica o conjunto de propriedades a ser retornada em uma resposta de **operação FindConversation.** 
   
 ```XML
 <ConversationShape>
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

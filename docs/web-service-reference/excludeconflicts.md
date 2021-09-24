@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExcludeConflicts
 api_type:
 - schema
 ms.assetid: ec33ef23-8537-41eb-8d89-7eb906a1fad7
-description: O elemento ExcludeConflicts especifica se é para retornar horários sugeridos para os horários de calendário que entram em conflito entre os participantes.
-ms.openlocfilehash: d20c594ae600abf110681ea678b2d95a23bf7809
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ExcludeConflicts especifica se é preciso retornar os horários sugeridos para os horários de calendário que conflitam entre os participantes.
+ms.openlocfilehash: 6182ff8faed62cefc39015d3242bf7e669660b4a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456973"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539905"
 ---
 # <a name="excludeconflicts"></a>ExcludeConflicts
 
-O elemento **ExcludeConflicts** especifica se é para retornar horários sugeridos para os horários de calendário que entram em conflito entre os participantes. 
+O **elemento ExcludeConflicts** especifica se é preciso retornar os horários sugeridos para os horários de calendário que conflitam entre os participantes. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -52,18 +52,18 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MailboxData](mailboxdata.md) <br/> |Representa um usuário de caixa de correio individual e opções para o tipo de dados a ser retornado sobre o usuário da caixa de correio.  <br/> Este é o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData` <br/> |
+|[MailboxData](mailboxdata.md) <br/> |Representa um usuário de caixa de correio individual e opções para o tipo de dados a serem retornados sobre o usuário da caixa de correio.  <br/> Veja a seguir o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData` <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. Os valores possíveis são Boolean **true** ou **false**.
+Um valor de texto é necessário. Os valores possíveis são um Boolean **true** ou **false**.
   
 ## <a name="remarks"></a>Comentários
 
 Este elemento é obrigatório.
   
 > [!NOTE]
-> O esquema que descreve este elemento está localizado no diretório/EWS/do computador que está executando o MicrosoftExchange Server 2007 que tem a função de servidor de acesso para Cliente instalada. 
+> O esquema que descreve esse elemento está localizado no diretório /EWS/do computador que está executando o MicrosoftExchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada. 
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -71,7 +71,7 @@ Este elemento é obrigatório.
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -83,5 +83,5 @@ Este elemento é obrigatório.
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
 
 
-[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

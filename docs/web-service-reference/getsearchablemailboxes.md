@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 949871f7-0d10-498e-84aa-f0652f1193be
-description: O elemento GetSearchableMailboxes contém uma solicitação para obter uma lista de caixas de correio que o cliente tem permissão para executar uma pesquisa de descoberta eletrônica.
-ms.openlocfilehash: a327f8766e53e9f1fae6928179d5a4b8e3d044a8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetSearchableMailboxes contém uma solicitação para obter uma lista de caixas de correio que o cliente tem permissão para executar uma pesquisa de Descoberta Automática.
+ms.openlocfilehash: 7c5902af3e0aa88c77a8e13d7c4ec521aa444d6b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530187"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515842"
 ---
 # <a name="getsearchablemailboxes"></a>GetSearchableMailboxes
 
-O elemento **GetSearchableMailboxes** contém uma solicitação para obter uma lista de caixas de correio que o cliente tem permissão para executar uma pesquisa de descoberta eletrônica. 
+O **elemento GetSearchableMailboxes** contém uma solicitação para obter uma lista de caixas de correio que o cliente tem permissão para executar uma pesquisa de Descoberta Automática. 
   
 ```XML
 <GetSearchableMailboxes>
@@ -41,7 +41,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContainsSenderStrings
 api_type:
 - schema
 ms.assetid: 3e16163f-cffe-4c4e-9a2a-00245d25ba96
-description: O elemento ContainsSenderStrings indica as cadeias de caracteres que devem aparecer na propriedade from de mensagens de entrada para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: e7b78f1311d288db7969a0024bde84433e18d37f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ContainsSenderStrings indica as cadeias de caracteres que devem aparecer na propriedade From de mensagens de entrada para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: bf4fbe30bc5ed58ad4ac780b82d79965136c8d5d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458975"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514743"
 ---
 # <a name="containssenderstrings"></a>ContainsSenderStrings
 
-O elemento **ContainsSenderStrings** indica as cadeias de caracteres que devem aparecer na propriedade **from** de mensagens de entrada para que a condição ou exceção seja aplicada. 
+O **elemento ContainsSenderStrings** indica as cadeias de caracteres que devem aparecer na propriedade **From** de mensagens de entrada para que a condição ou exceção seja aplicada. 
   
 ```XML
 <ContainsSenderStrings>
@@ -42,14 +42,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[String](string.md) <br/> |Representa uma cadeia de caracteres que deve aparecer na propriedade **from** de mensagens de entrada para que a condição ou exceção seja aplicada.  <br/> |
+|[String](string.md) <br/> |Representa uma cadeia de caracteres que deve aparecer **na propriedade From** de mensagens de entrada para que a condição ou exceção seja aplicada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa as exceções que representam todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa as exceções que representam todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

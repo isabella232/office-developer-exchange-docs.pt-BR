@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateItem
 api_type:
 - schema
 ms.assetid: 5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4
-description: A operação UpdateItem é usada para modificar as propriedades de um item existente no repositório do Exchange.
-ms.openlocfilehash: c001b7656862144023e9704cb04e6b4c0030f9df
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação UpdateItem é usada para modificar as propriedades de um item existente no Exchange store.
+ms.openlocfilehash: 6ac09c24c13efff8053fc605ec2c0e6cf2957429
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459388"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514057"
 ---
 # <a name="updateitem-operation"></a>Operação UpdateItem
 
-A operação **UpdateItem** é usada para modificar as propriedades de um item existente no repositório do Exchange. 
+A **operação UpdateItem** é usada para modificar as propriedades de um item existente no Exchange store. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -29,26 +29,26 @@ Você pode executar três ações básicas de atualização em um item. A tabela
   
 |**Action**|**Descrição**|
 |:-----|:-----|
-|Append  <br/> |Adiciona dados a uma propriedade existente. Esta ação preserva os dados atuais. Append não se aplica a todas as propriedades.  <br/> |
-|Set  <br/> |Substitui dados de uma propriedade se a propriedade contiver dados ou criar a propriedade e define seu valor se a propriedade não existir. A ação Set só é aplicável a propriedades graváveis.  <br/> |
-|Excluir  <br/> |Remove uma propriedade de um item. Isso difere da definição de uma propriedade para um valor vazio. Quando essa ação é concluída, a propriedade não existe para o item. Delete só é aplicável a propriedades graváveis.  <br/> |
+|Append  <br/> |Adiciona dados a uma propriedade existente. Essa ação preserva os dados atuais. Append não se aplica a todas as propriedades.  <br/> |
+|Set  <br/> |Substitui os dados de uma propriedade se a propriedade contiver dados ou criar a propriedade e define seu valor se a propriedade não existir. A ação set só é aplicável a propriedades que podem ser escritas.  <br/> |
+|Excluir  <br/> |Remove uma propriedade de um item. Isso difere da configuração de uma propriedade para um valor vazio. Quando essa ação é concluída, a propriedade não existe para o item. Delete só é aplicável a propriedades que podem ser escritas.  <br/> |
    
-Uma chamada **UpdateItem** pode ser usada para modificar um ou mais itens e uma ou mais propriedades em cada item. O elemento [Mychanges](itemchanges.md) contém todas as modificações que devem ser realizadas como parte desta chamada. O elemento [ItemChange](itemchange.md) , um filho [do elemento items](itemchanges.md) , representa as modificações a serem realizadas em um único item. O elemento [ItemChange](itemchange.md) contém um conjunto de ações de atualização que podem ser executadas em um único item. Essas alterações estão contidas no elemento [Updates (item)](updates-item.md) . O elemento [ItemId](itemid.md) identifica o item a ser atualizado. Para atualizar mais de uma propriedade em um item, um [Setitemfield](setitemfield.md), [AppendToItemField](appendtoitemfield.md)ou [DeleteItemField](deleteitemfield.md) deve ser fornecido para cada propriedade que requer a atualização. 
+Uma **chamada UpdateItem** pode ser usada para modificar um ou mais itens e uma ou mais propriedades em cada item. O [elemento ItemChanges](itemchanges.md) contém todas as modificações que devem ser executadas como parte dessa chamada. O [elemento ItemChange,](itemchange.md) filho do [elemento ItemChanges,](itemchanges.md) representa as modificações a serem executadas em um único item. O [elemento ItemChange](itemchange.md) contém um conjunto de ações de atualização que podem ser executadas em um único item. Essas alterações estão [contidas no elemento Updates (Item).](updates-item.md) O [elemento ItemId](itemid.md) identifica o item a ser atualizado. Para atualizar mais de uma propriedade em um item, um [SetItemField](setitemfield.md), [AppendToItemField](appendtoitemfield.md)ou [DeleteItemField](deleteitemfield.md) devem ser fornecidos para cada propriedade que exija a atualização. 
   
 > [!NOTE]
 > As ações de atualização são aplicadas na ordem em que são especificadas. 
   
-Para cada alteração, você precisa especificar o caminho da propriedade a ser alterada e uma representação desse item com o novo valor. A ação de exclusão é ligeiramente diferente, pois apenas o caminho da propriedade que deve ser excluído é obrigatório. Para ações set e Append, o caminho especificado deve se referir à mesma propriedade que está sendo definida na representação do item. Se forem diferentes, um erro será retornado.
+Para cada alteração, você precisa especificar o caminho da propriedade a ser mudada e uma representação desse item com seu novo valor. A ação de exclusão é ligeiramente diferente porque apenas o caminho da propriedade que deve ser excluído é necessário. Para definir e anexar ações, o caminho especificado deve se referir à mesma propriedade que está sendo definida na representação do item. Se eles diferirem, um erro será retornado.
   
-A operação **UpdateItem** pode definir a hora de [início](start.md) e de [término](end-ex15websvcsotherref.md) de um item do repositório do Exchange. Em uma solicitação **UpdateItem** , a hora de [início](start.md) pode ser definida sem definir também a hora de [término](end-ex15websvcsotherref.md) . Isso pode causar um erro se a hora de [início](start.md) for posterior à hora de [término](end-ex15websvcsotherref.md) . Lembre-se de que os aplicativos cliente devem ajustar a hora de [término](end-ex15websvcsotherref.md) quando a hora de [início](start.md) é alterada para preservar a duração. 
+A **operação UpdateItem** pode definir a hora [de início](start.md) [e](end-ex15websvcsotherref.md) término de um Exchange de armazenamento. Em uma **solicitação UpdateItem,** a hora [de](start.md) início pode ser definida sem também definir a [hora de](end-ex15websvcsotherref.md) término. Isso pode causar um erro se a hora [de](start.md) início for posterior à [hora de ](end-ex15websvcsotherref.md) Término. Esteja ciente de que os aplicativos cliente devem ajustar a [hora ](end-ex15websvcsotherref.md) de término quando a hora [de](start.md) início é alterada para preservar a duração. 
   
-Quando um único item de calendário é atualizado para se tornar um item de calendário mestre recorrente, a propriedade [MeetingTimeZone](meetingtimezone.md) deve ser definida pela operação **UpdateItem** para preservar o fuso horário original do item do calendário. 
+Quando um único item de calendário é atualizado para se tornar um item de calendário mestre recorrente, a propriedade [MeetingTimeZone](meetingtimezone.md) deve ser definida pela operação **UpdateItem** para preservar o fuso horário original do item de calendário. 
   
-## <a name="setitemfield-request-example"></a>Exemplo de solicitação setitemfield
+## <a name="setitemfield-request-example"></a>Exemplo de solicitação SetItemField
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **UpdateItem** mostra como definir a propriedade sensibilidade em um item. 
+O exemplo a seguir de **uma solicitação UpdateItem** mostra como definir a propriedade de sensibilidade em um item. 
   
 ### <a name="code"></a>Código
 
@@ -81,23 +81,23 @@ O exemplo a seguir de uma solicitação **UpdateItem** mostra como definir a pro
 
 ### <a name="comments"></a>Comentários
 
-O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade.
+O identificador de item e a chave de alteração foram reduzidos para preservar a capacidade de leitura.
   
-### <a name="setitemfield-request-elements"></a>Elementos de solicitação setitemfield
+### <a name="setitemfield-request-elements"></a>Elementos de solicitação SetItemField
 
 Os seguintes elementos são usados na solicitação:
   
 - [UpdateItem](updateitem.md)
     
-- [Alterações](itemchanges.md)
+- [ItemChanges](itemchanges.md)
     
 - [ItemChange](itemchange.md)
     
 - [ItemId](itemid.md)
     
-- [Atualizações (item)](updates-item.md)
+- [Updates (Item)](updates-item.md)
     
-- [Setitemfield](setitemfield.md)
+- [SetItemField](setitemfield.md)
     
 - [FieldURI](fielduri.md)
     
@@ -109,7 +109,7 @@ Os seguintes elementos são usados na solicitação:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **UpdateItem** mostra como acrescentar texto à Propriedade Body em um item. 
+O exemplo a seguir de **uma solicitação UpdateItem** mostra como anexar texto à propriedade body em um item. 
   
 ### <a name="code"></a>Código
 
@@ -142,15 +142,15 @@ O exemplo a seguir de uma solicitação **UpdateItem** mostra como acrescentar t
 
 ### <a name="comments"></a>Comentários
 
-As propriedades a seguir dão suporte à ação Append:
+As seguintes propriedades suportam a ação de anexação:
   
-- **mensagem: ReplyTo**
+- **message:ReplyTo**
     
-- **item: Body**
+- **item:Body**
     
-- Todas as propriedades de coleção Recipient e participante
+- Todas as propriedades do destinatário e do conjunto de participantes
     
-O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade.
+O identificador de item e a chave de alteração foram reduzidos para preservar a capacidade de leitura.
   
 ### <a name="appendtoitemfield-request-elements"></a>Elementos de solicitação AppendToItemField
 
@@ -158,13 +158,13 @@ Os seguintes elementos são usados na solicitação:
   
 - [UpdateItem](updateitem.md)
     
-- [Alterações](itemchanges.md)
+- [ItemChanges](itemchanges.md)
     
 - [ItemChange](itemchange.md)
     
 - [ItemId](itemid.md)
     
-- [Atualizações (item)](updates-item.md)
+- [Updates (Item)](updates-item.md)
     
 - [AppendToItemField](appendtoitemfield.md)
     
@@ -178,7 +178,7 @@ Os seguintes elementos são usados na solicitação:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **UpdateItem** mostra como excluir uma propriedade em um item. 
+O exemplo a seguir de **uma solicitação UpdateItem** mostra como excluir uma propriedade em um item. 
   
 ### <a name="code"></a>Código
 
@@ -207,7 +207,7 @@ O exemplo a seguir de uma solicitação **UpdateItem** mostra como excluir uma p
 
 ### <a name="comments"></a>Comentários
 
-O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade.
+O identificador de item e a chave de alteração foram reduzidos para preservar a capacidade de leitura.
   
 ### <a name="deleteitemfield-request-elements"></a>Elementos de solicitação DeleteItemField
 
@@ -215,13 +215,13 @@ Os seguintes elementos são usados na solicitação:
   
 - [UpdateItem](updateitem.md)
     
-- [Alterações](itemchanges.md)
+- [ItemChanges](itemchanges.md)
     
 - [ItemChange](itemchange.md)
     
 - [ItemId](itemid.md)
     
-- [Atualizações (item)](updates-item.md)
+- [Updates (Item)](updates-item.md)
     
 - [DeleteItemField](deleteitemfield.md)
     
@@ -231,7 +231,7 @@ Os seguintes elementos são usados na solicitação:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **UpdateItem** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a **uma solicitação UpdateItem.** 
   
 ### <a name="code"></a>Código
 
@@ -265,7 +265,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **Update
 
 ### <a name="comments"></a>Comentários
 
-O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade.
+O identificador de item e a chave de alteração foram reduzidos para preservar a capacidade de leitura.
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 

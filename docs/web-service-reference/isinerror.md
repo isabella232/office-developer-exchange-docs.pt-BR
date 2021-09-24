@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsInError
 api_type:
 - schema
 ms.assetid: f56e6c31-a566-4761-8755-d90ffe6fe790
 description: O elemento IsInError indica se a regra está em uma condição de erro.
-ms.openlocfilehash: 9e642c9f89434bdcad97b0c16dc35f99196051d7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b677941b773c1be89863f06b01bfaf53c9690531
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464214"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514554"
 ---
 # <a name="isinerror"></a>IsInError
 
-O elemento **IsInError** indica se a regra está em uma condição de erro. 
+O **elemento IsInError** indica se a regra está em uma condição de erro. 
   
 ```XML
 <IsInError/>
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Regra (RuleType)](rule-ruletype.md) <br/> |Representa uma regra na caixa de correio do usuário.  <br/> |
+|[Rule (RuleType)](rule-ruletype.md) <br/> |Representa uma regra na caixa de correio do usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

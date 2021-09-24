@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7cbdbc21-5405-4cbc-8ca0-d7b0257927aa
 description: O elemento NonIndexableItemDetailsResult especifica os resultados da operação WSDL GetNonIndexableItemDetails.
-ms.openlocfilehash: 647f58b5e7285af70bbfb3a203ba71c9a3ccebcc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 16f3c8a74f635fdd8204fe207777b4b30bc4d2ed
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465440"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539275"
 ---
 # <a name="nonindexableitemdetailsresult"></a>NonIndexableItemDetailsResult
 
-O elemento **NonIndexableItemDetailsResult** especifica os resultados da operação WSDL **GetNonIndexableItemDetails** . 
+O **elemento NonIndexableItemDetailsResult** especifica os resultados da operação WSDL **GetNonIndexableItemDetails.** 
   
 ```XML
 <NonIndexableItemDetailsResult>
@@ -37,7 +37,7 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Itens (ArrayOfNonIndexableItemDetailsType)](items-arrayofnonindexableitemdetailstype.md) , [FailedMailboxes](failedmailboxes.md)
+[Items (ArrayOfNonIndexableItemDetailsType)](items-arrayofnonindexableitemdetailstype.md) , [FailedMailboxes](failedmailboxes.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 

@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OldItemId
 api_type:
 - schema
 ms.assetid: fb57deee-9cc3-4730-9805-ff34f39e3ab7
 description: O elemento OldItemId contém o identificador exclusivo do item que foi copiado ou movido.
-ms.openlocfilehash: 9fab14478ffbb2dd8ad013d59520af943584f2eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: de52f8082485c74de2049ce3adc1d4bd02754cf3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467463"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539252"
 ---
 # <a name="olditemid"></a>OldItemId
 
-O elemento **OldItemId** contém o identificador exclusivo do item que foi copiado ou movido. 
+O **elemento OldItemId** contém o identificador exclusivo do item que foi copiado ou movido. 
   
 ```xml
 <OldItemId Id="" ChangeKey=""/>
 ```
 
- **ItemIdtype**
+ **ItemIdType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -36,8 +36,8 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|**Id** <br/> |Contém uma cadeia de caracteres que identifica um item no repositório do Exchange. Esse atributo é necessário.  <br/> |
-|**ChangeKey** <br/> |Contém uma cadeia de caracteres que identifica uma versão de um item que é identificada pelo atributo ID. Esse atributo é opcional. Use este atributo para certificar-se de que a versão correta de um item é usada.  <br/> |
+|**Id** <br/> |Contém uma cadeia de caracteres que identifica um item no Exchange store. Esse atributo é necessário.  <br/> |
+|**ChangeKey** <br/> |Contém uma cadeia de caracteres que identifica uma versão de um item identificado pelo atributo Id. Esse atributo é opcional. Use esse atributo para garantir que a versão correta de um item seja usada.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

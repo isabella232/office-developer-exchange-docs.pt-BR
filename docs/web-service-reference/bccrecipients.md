@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BccRecipients
 api_type:
 - schema
 ms.assetid: c4e05168-d36b-4740-a526-4b7da53553c1
-description: O elemento BccRecipients representa uma coleção de destinatários para receber uma cópia oculta (Cco) de uma mensagem de email.
-ms.openlocfilehash: 96070415c6d92a893f6c560884d9d191c7d5f15b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento BccRecipients representa uma coleção de destinatários para receber uma cópia de carbono cego (Cc) de uma mensagem de email.
+ms.openlocfilehash: 3a816ea67c9bda45743741b3650fb217a753814f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529501"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514841"
 ---
 # <a name="bccrecipients"></a>BccRecipients
 
-O elemento **BccRecipients** representa uma coleção de destinatários para receber uma cópia oculta (Cco) de uma mensagem de email. 
+O **elemento BccRecipients** representa uma coleção de destinatários para receber uma cópia de carbono cego (Cc) de uma mensagem de email. 
   
 ```xml
 <BccRecipients>
@@ -48,23 +48,23 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[RemoveItem](removeitem.md) <br/> |Remove um item do repositório do Exchange.  <br/> |
-|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no repositório do Exchange.  <br/> |
-|[AcceptItem](acceptitem.md) <br/> |Representa uma resposta de aceitação para uma solicitação de reunião.  <br/> |
-|[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |Representa uma resposta provisoriamente aceita a uma solicitação de reunião.  <br/> |
+|[RemoveItem](removeitem.md) <br/> |Remove um item do Exchange store.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma Exchange de email.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no Exchange store.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no Exchange store.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no Exchange store.  <br/> |
+|[AcceptItem](acceptitem.md) <br/> |Representa uma resposta de aceitação a uma solicitação de reunião.  <br/> |
+|[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |Representa uma resposta aceita provisamente a uma solicitação de reunião.  <br/> |
 |[DeclineItem](declineitem.md) <br/> |Representa uma resposta de recusa a uma solicitação de reunião.  <br/> |
-|[ReplyToItem](replytoitem.md) <br/> |Contém uma resposta para o criador de um item no repositório do Exchange.  <br/> |
-|[ReplyAllToItem](replyalltoitem.md) <br/> |Contém uma resposta a todos os destinatários identificados de um item no repositório do Exchange.  <br/> |
-|[ForwardItem](forwarditem.md) <br/> |Contém um item de repositório do Exchange para encaminhar aos destinatários.  <br/> |
-|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Representa o objeto Response que é usado para cancelar uma reunião.  <br/> |
+|[ReplyToItem](replytoitem.md) <br/> |Contém uma resposta ao criador de um item no Exchange store.  <br/> |
+|[ReplyAllToItem](replyalltoitem.md) <br/> |Contém uma resposta a todos os destinatários identificados de um item no Exchange store.  <br/> |
+|[ForwardItem](forwarditem.md) <br/> |Contém um Exchange de armazenamento para encaminhar aos destinatários.  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Representa o objeto de resposta usado para cancelar uma reunião.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você não pode obter **BccRecipients** usando uma solicitação FindItem. Use uma solicitação GetItem para obter o **BccRecipients**.
+Não é possível **obter BccRecipients** usando uma solicitação FindItem. Use uma solicitação GetItem para obter **BccRecipients**.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
@@ -74,7 +74,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -1,27 +1,27 @@
 ---
-title: Userconfigurationproperties
+title: UserConfigurationProperties
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserConfigurationProperties
 api_type:
 - schema
 ms.assetid: c143a6ec-62ad-4d48-b844-b1ad88054bc1
-description: O elemento userconfigurationproperties especifica os tipos de propriedade a serem obtidos em uma operação GetUserConfiguration.
-ms.openlocfilehash: af6bee64516a7410d96ecc7581e8e819f550ddc1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UserConfigurationProperties especifica os tipos de propriedade para entrar em uma operação GetUserConfiguration.
+ms.openlocfilehash: 0aed3ffc680ac881410469fe762349739ba924a1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466490"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515002"
 ---
-# <a name="userconfigurationproperties"></a>Userconfigurationproperties
+# <a name="userconfigurationproperties"></a>UserConfigurationProperties
 
-O elemento **Userconfigurationproperties** especifica os tipos de propriedade a serem obtidos em uma operação GetUserConfiguration. 
+O **elemento UserConfigurationProperties** especifica os tipos de propriedade para entrar em uma operação GetUserConfiguration. 
   
 ```xml
 <UserConfigurationProperties>Id | Dictionary | XmlData | BinaryData | All</UserConfigurationProperties>
@@ -48,15 +48,15 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-A tabela a seguir lista os valores possíveis para o elemento **Userconfigurationproperties** . 
+A tabela a seguir lista os valores possíveis para o **elemento UserConfigurationProperties.** 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Id  <br/> |Especifica a propriedade Identifier.  <br/> |
-|Dictionary  <br/> |Especifica os tipos de propriedade de dicionário.  <br/> |
-|Nota XMLDATA  <br/> |Especifica os tipos de propriedade de dados XML.  <br/> |
+|Id  <br/> |Especifica a propriedade identificador.  <br/> |
+|Dictionary  <br/> |Especifica tipos de propriedade de dicionário.  <br/> |
+|XmlData  <br/> |Especifica tipos de propriedade de dados XML.  <br/> |
 |BinaryData  <br/> |Especifica tipos de propriedade de dados binários.  <br/> |
-|Todos  <br/> |Especifica os tipos de propriedade de identificador, dicionário, dados XML e dados binários.  <br/> |
+|Todos  <br/> |Especifica o identificador, dicionário, dados XML e tipos de propriedade de dados binários.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

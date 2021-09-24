@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6eed9502-5d9e-4345-ba23-3582ff487147
-description: O elemento ImListMigrationCompleted indica se o repositório do Exchange contém os itens de mensagens instantâneas usados por clientes de mensagens instantâneas.
-ms.openlocfilehash: 09f37d6e3663aab7cb98fc922f727ddd604f2acd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ImListMigrationCompleted indica se o armazenamento Exchange contém os itens de mensagens instantâneas usados pelos clientes de mensagens instantâneas.
+ms.openlocfilehash: b55f3d72259897d7bdf46b351421b0148a41b93e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456021"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514610"
 ---
 # <a name="imlistmigrationcompleted"></a>ImListMigrationCompleted
 
-O elemento **ImListMigrationCompleted** indica se o repositório do Exchange contém os itens de mensagens instantâneas usados por clientes de mensagens instantâneas. 
+O **elemento ImListMigrationCompleted** indica se o armazenamento Exchange contém os itens de mensagens instantâneas usados por clientes de mensagens instantâneas. 
   
 ```XML
 <ImListMigrationCompleted>true | false</ImListMigrationCompleted>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **ImListMigrationCompleted** indica que o repositório de contatos de mensagens instantâneas foi migrado para o repositório do Exchange. Um valor **false** indica que o repositório de contatos de mensagens instantâneas não foi migrado. 
+Um valor de texto **true** para o elemento **ImListMigrationCompleted** indica que o armazenamento de contatos de mensagens instantâneas foi migrado para o Exchange store. Um valor **false** indica que o armazenamento de contatos de mensagem instantânea não foi migrado. 
   
 ## <a name="remarks"></a>Comentários
 

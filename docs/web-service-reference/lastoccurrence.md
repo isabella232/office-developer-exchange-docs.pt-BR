@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LastOccurrence
 api_type:
 - schema
 ms.assetid: c9ef0fcb-4265-4e60-9986-fff0f211d00b
 description: O elemento LastOccurrence representa a última ocorrência de um item de calendário recorrente.
-ms.openlocfilehash: 8771bbed166cfb6fdcf4d1dfe4fa0812013e2667
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5b412add22c56c2917f6cef2bd498df956de1423
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459809"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514414"
 ---
 # <a name="lastoccurrence"></a>LastOccurrence
 
-O elemento **LastOccurrence** representa a última ocorrência de um item de calendário recorrente. 
+O **elemento LastOccurrence** representa a última ocorrência de um item de calendário recorrente. 
   
 ```xml
 <LastOccurrence>
@@ -47,19 +47,19 @@ Nenhum
 |:-----|:-----|
 |[ItemId](itemid.md) <br/> |Contém o identificador exclusivo e a chave de alteração da última ocorrência de um item de calendário recorrente.  <br/> |
 |[Start](start.md) <br/> |Representa a hora de início da última ocorrência de um item de calendário recorrente.  <br/> |
-|[Ponto](end-ex15websvcsotherref.md) <br/> |Representa a hora de término da última ocorrência de um item de calendário recorrente.  <br/> |
+|[End ](end-ex15websvcsotherref.md) <br/> |Representa a hora de término da última ocorrência de um item de calendário recorrente.  <br/> |
 |[OriginalStart](originalstart.md) <br/> |Representa a hora de início original da última ocorrência de um item de calendário recorrente.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Este elemento é válido se [CalendarItemType](calendaritemtype.md) tiver o valor RecurringMaster. 
+Esse elemento será válido se [CalendarItemType](calendaritemtype.md) tiver o valor RecurringMaster. 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
@@ -69,7 +69,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

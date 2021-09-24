@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e57ce96-895d-40c5-a670-19f3bc610dbd
-description: O elemento EndNodeUrl especifica a URL para o aplicativo de email na Office Store.
-ms.openlocfilehash: 0ace98bd41c49a31d528b08d0d0f4011d783866c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EndNodeUrl especifica a URL do aplicativo de email na Office Store.
+ms.openlocfilehash: 59cfbde63d5bd30f6f47d5e2f7f4a6e3d02b8639
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458401"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514694"
 ---
 # <a name="endnodeurl"></a>EndNodeUrl
 
-O elemento **EndNodeUrl** especifica a URL para o aplicativo de email na Office Store. 
+O **elemento EndNodeUrl** especifica a URL do aplicativo de email na Office Store. 
   
 ```XML
 <EndNodeUrl/>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **EndNodeUrl** é a URL do aplicativo de email na Office Store. 
+O valor de texto do **elemento EndNodeUrl** é a URL do aplicativo de email na Office Store. 
   
 ## <a name="remarks"></a>Comentários
 

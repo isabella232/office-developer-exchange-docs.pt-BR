@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be003e12-3496-468d-a61c-48af0b819654
-description: O elemento UserRoles especifica as funções de usuário que o usuário de chamada ou o usuário que o aplicativo de parceiro de chamada está agindo como, deseja aplicar à chamada atual.
-ms.openlocfilehash: 5155b82781321b16d1b58fdcaffe7b8cf2372717
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UserRoles especifica as funções de usuário que o usuário de chamada ou o usuário que o aplicativo parceiro de chamada está agindo como, deseja aplicar-se à chamada atual.
+ms.openlocfilehash: c861cda9a010e909c9ecc5303ddc637a14bcb824
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467127"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514974"
 ---
 # <a name="userroles"></a>UserRoles
 
-O elemento **UserRoles** especifica as funções de usuário que o usuário de chamada ou o usuário que o aplicativo de parceiro de chamada está agindo como, deseja aplicar à chamada atual. 
+O **elemento UserRoles** especifica as funções de usuário que o usuário de chamada ou o usuário que o aplicativo parceiro de chamada está agindo como, deseja aplicar-se à chamada atual. 
   
 ```XML
 <UserRoles>
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

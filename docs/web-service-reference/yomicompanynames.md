@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c414af9-34d0-41ce-bda9-0d4ca3f3be79
-description: O elemento YomiCompanyNames especifica uma matriz de nomes de empresa japoneses fonéticos e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: 41b97998425926750a3ecc7e17233f2066759689
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento YomiCompanyNames especifica uma matriz de nomes de empresa japonesas fones e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: c7ee24636f97bc0f568d34d862e9ea332e3204dc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457862"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540381"
 ---
 # <a name="yomicompanynames"></a>YomiCompanyNames
 
-O elemento **YomiCompanyNames** especifica uma matriz de nomes de empresa japoneses fonéticos e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento YomiCompanyNames** especifica uma matriz de nomes de empresa japonesas fones e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <YomiCompanyNames>
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: cf3f9d7a-2add-4457-b009-2929220f90b5
-description: O elemento RequestedServerVersion especifica a versão do servidor para a qual uma chamada de método de descoberta automática se direciona.
-ms.openlocfilehash: ff63c82943bdd3476a4284f5aa2075fc9c0194b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RequestedServerVersion especifica a versão do servidor que um método de Descoberta Automática tem como destino.
+ms.openlocfilehash: 0690481523ab48497c40338a8808dfa2ed9b0e99
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467904"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540556"
 ---
 # <a name="requestedserverversion-soap"></a>RequestedServerVersion (SOAP)
 
-O elemento **RequestedServerVersion** especifica a versão do servidor para a qual uma chamada de método de **descoberta automática** se direciona. 
+O **elemento RequestedServerVersion** especifica a versão do servidor que um **método de Descoberta Automática** tem como destino. 
   
 ```XML
 <RequestedServerVersion/>
@@ -43,7 +43,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **RequestedServerVersion** especifica a versão do servidor de destino de uma chamada de método de **descoberta automática** . A tabela a seguir lista as versões de servidor válidas. 
+O valor de texto do **elemento RequestedServerVersion** especifica a versão do servidor que um **método de Descoberta** Automática direciona. A tabela a seguir lista as versões válidas do servidor. 
   
 |**Valor de texto**|**Descrição**|
 |:-----|:-----|
@@ -51,20 +51,20 @@ O valor de texto do elemento **RequestedServerVersion** especifica a versão do 
 |Exchange2010  <br/> |Exchange Server 2010.  <br/> |
 |Exchange2010_SP1  <br/> |Exchange Server 2010 Service Pack 1 (SP1).  <br/> |
 |Exchange2010_SP2  <br/> |Exchange Server 2010 Service Pack 2 (SP2).  <br/> |
-|Exchange2013  <br/> |Exchange Server 2013. O campo Exchange2013 é aplicável para clientes que têm como destino o Exchange Online e versões do Exchange a partir do Exchange Server 2013.  <br/> |
-|Exchange2013_SP1  <br/> |Exchange Server 2013 Service Pack 1 (SP1). O campo Exchange2013_SP1 se aplica aos clientes que direcionam o Exchange Online e versões do Exchange a partir do Exchange Server 2013 SP1.  <br/> |
+|Exchange2013  <br/> |Exchange Server 2013. O campo Exchange2013 é aplicável para clientes destinados Exchange Online e versões do Exchange a partir do Exchange Server 2013.  <br/> |
+|Exchange2013_SP1  <br/> |Exchange Server 2013 Service Pack 1 (SP1). O campo Exchange2013_SP1 é aplicável para clientes destinados Exchange Online e versões do Exchange a partir do Exchange Server 2013 SP1.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O elemento **RequestedServerVersion** é definido no cabeçalho SOAP. 
+O **elemento RequestedServerVersion** é definido no header SOAP. 
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 

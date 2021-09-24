@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af7f202b-2889-447e-bdeb-aaad18ce6b46
-description: O elemento IncludeNonIndexableItems contém um valor booleano para indicar se deve incluir itens que não podem ser indexados.
-ms.openlocfilehash: eab559e938f0b949d79626ae5bf61b3d4a838924
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento IncludeNonIndexableItems contém um valor Boolean para indicar se deve incluir itens que não podem ser indexados.
+ms.openlocfilehash: 33ff8c59c3ef1d9a91f87870e0a876c5a39ce795
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460621"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514596"
 ---
 # <a name="includenonindexableitems"></a>IncludeNonIndexableItems
 
-O elemento **IncludeNonIndexableItems** contém um valor **booleano** para indicar se deve incluir itens que não podem ser indexados. 
+O **elemento IncludeNonIndexableItems** contém um valor **Boolean** para indicar se deve incluir itens que não podem ser indexados. 
   
 ```XML
 <IncludeNonIndexableItems>true | false</IncludeNonIndexableItems>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **IncludeNonIndexableItems** indica que os itens que não podem ser indexados estão incluídos no bloqueio de caixa de correio. Um valor **false** indica que os itens que não podem ser indexados não estão incluídos nas isenções de caixa de correio. 
+Um valor de texto **true para** o **elemento IncludeNonIndexableItems** indica que itens que não podem ser indexados estão incluídos com reter caixas de correio. Um valor false indica **que** os itens que não podem ser indexados não estão incluídos em resvasões de caixa de correio. 
   
 ## <a name="remarks"></a>Comentários
 

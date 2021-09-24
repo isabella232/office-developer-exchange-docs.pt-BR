@@ -1,32 +1,32 @@
 ---
-title: Operação GetUMProperties (serviço Web da UM)
+title: Operação GetUMProperties (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUMProperties
 api_type:
 - schema
 ms.assetid: 301fb9a3-67df-44c4-8ffe-0600237fc344
-description: A operação GetUMProperties obtém todas as propriedades de Unificação de mensagens para a caixa de correio do usuário que está fazendo a solicitação.
-ms.openlocfilehash: 42176d9cd0288af6515aeea616a4f216a419410c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetUMProperties obtém todas as propriedades de Unificação de Mensagens para a caixa de correio do usuário que está fazendo a solicitação.
+ms.openlocfilehash: 8d051196e83e1f927692b517e1ab3e95bb0060db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462469"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515814"
 ---
-# <a name="getumproperties-operation-um-web-service"></a>Operação GetUMProperties (serviço Web da UM)
+# <a name="getumproperties-operation-um-web-service"></a>Operação GetUMProperties (serviço Web de Unificação de Mensagens)
 
-A operação GetUMProperties obtém todas as propriedades de Unificação de mensagens para a caixa de correio do usuário que está fazendo a solicitação.
+A operação GetUMProperties obtém todas as propriedades de Unificação de Mensagens para a caixa de correio do usuário que está fazendo a solicitação.
   
 ## <a name="getumproperties-request-example"></a>Exemplo de solicitação GetUMProperties
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação GetUMProperties mostra como formar uma solicitação para obter as propriedades de Unificação de mensagens de uma caixa de correio.
+O exemplo a seguir de uma solicitação GetUMProperties mostra como formar uma solicitação para obter as propriedades de Unificação de Mensagens de uma caixa de correio.
   
 ### <a name="code"></a>Código
 
@@ -68,7 +68,7 @@ O exemplo a seguir de uma resposta GetUMProperties mostra uma resposta à solici
 
 
 
-[GetUMProperties (serviço Web da UM)](getumproperties-um-web-service.md)
+[GetUMProperties (serviço Web de Unificação de Mensagens)](getumproperties-um-web-service.md)
   
-[GetUMPropertiesResponse (serviço Web da UM)](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse (serviço Web de Unificação de Mensagens)](getumpropertiesresponse-um-web-service.md)
 

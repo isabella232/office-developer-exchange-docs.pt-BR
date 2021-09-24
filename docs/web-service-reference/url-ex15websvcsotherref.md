@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0d41b95-36b9-4e7a-a442-cdea37467abd
-description: O elemento URL representa o local do serviço Web cliente para notificações por push.
-ms.openlocfilehash: 62e139c441eef68db5cf13226d15a83f67135026
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Url representa o local do serviço Web do cliente para notificações por push.
+ms.openlocfilehash: 322cae9e8924b0264909923286ecb22d4adcf070
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530927"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514995"
 ---
 # <a name="url"></a>Url
 
-O elemento **URL** representa o local do serviço Web cliente para notificações por push. 
+O **elemento Url** representa o local do serviço Web do cliente para notificações por push. 
   
 ```XML
 <Url></Url>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Representa uma assinatura para uma assinatura de notificação de eventos baseada em push.  <br/> |
+|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Representa uma assinatura de uma assinatura de notificação de evento baseada em push.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **URL** é o local do serviço Web cliente para notificações por push. 
+O valor de texto do **elemento Url** é o local do serviço Web do cliente para notificações por push. 
   
 ## <a name="remarks"></a>Comentários
 

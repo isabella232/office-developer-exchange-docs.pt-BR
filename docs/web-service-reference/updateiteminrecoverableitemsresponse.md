@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f61b038-eba0-40fc-8af2-c3db5cc5a420
 description: O elemento UpdateItemInRecoverableItemsResponse especifica a resposta a uma solicitação UpdateItemInRecoverableItems.
-ms.openlocfilehash: 02e030774949e895bc89579cb9364d08c7844ce3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e5020ac3c8263d0b837636f998302754aafb8687
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466553"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514029"
 ---
 # <a name="updateiteminrecoverableitemsresponse"></a>UpdateItemInRecoverableItemsResponse
 
-O elemento **UpdateItemInRecoverableItemsResponse** especifica a resposta a uma solicitação **UpdateItemInRecoverableItems** . 
+O **elemento UpdateItemInRecoverableItemsResponse** especifica a resposta a uma solicitação **UpdateItemInRecoverableItems.** 
   
 ```XML
 <UpdateItemInRecoverableItemsResponse>
@@ -46,7 +46,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

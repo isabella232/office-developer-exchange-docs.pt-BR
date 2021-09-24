@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a7c1377-aac3-42c5-820f-d01cd8e9cf5c
-description: O elemento CallbackPhones especifica uma matriz de números de telefone de retorno de chamada e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: 79d74beffb8de8981e042b0c80e1aa5505a1048c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento CallbackPhones especifica uma matriz de números de telefone de retorno de chamada e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: 99a3cec041886a40d4f25fc1c0d272111aae7331
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529459"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514750"
 ---
 # <a name="callbackphones"></a>CallbackPhones
 
-O elemento **CallbackPhones** especifica uma matriz de números de telefone de retorno de chamada e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento CallbackPhones** especifica uma matriz de números de telefone de retorno de chamada e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <CallbackPhones>
@@ -39,14 +39,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Valor (PersonaPhoneNumberType)](value-personaphonenumbertype.md) <br/> |Especifica um número de telefone e informações de tipo e está associado a um conjunto de atribuições.  <br/> |
-|[Atribuições (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Especifica uma matriz de atribuições para o elemento de **valor** associado.  <br/> |
+|[Value (PersonaPhoneNumberType)](value-personaphonenumbertype.md) <br/> |Especifica um número de telefone e informações de tipo e está associado a um conjunto de atribuições.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Especifica uma matriz de atribuições para seu elemento **Value** associado.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -59,8 +59,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

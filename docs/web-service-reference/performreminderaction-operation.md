@@ -5,44 +5,44 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c597bb0e-13b0-422e-9c23-970463e2a5c3
-description: Encontre informações sobre a operação do EWS do PerformReminderAction.
-ms.openlocfilehash: 4c069d541e9a42167c447a50c405399958d3608d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação PerformReminderAction EWS.
+ms.openlocfilehash: ca547c401100afdfd9d846ca3bfddf710efd2797
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462287"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515303"
 ---
 # <a name="performreminderaction-operation"></a>Operação PerformReminderAction
 
-Encontre informações sobre a operação do EWS do **PerformReminderAction** . 
+Encontre informações sobre a **operação PerformReminderAction** EWS. 
   
-A operação do **PerformReminderAction** do serviços Web do Exchange (EWS) inicia uma ação de ignorar ou adiar em um lembrete. 
+A **operação PerformReminderAction** Exchange Web Services (EWS) inicia uma ação de demissão ou snooze em um lembrete. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-performreminderaction-operation"></a>Usando a operação PerformReminderAction
 
-Você pode usar a operação **PerformReminderAction** para descartar ou adiar (atrasar) lembretes retornados pela operação [getlembretes](getreminders-operation.md) . Para adiar um lembrete, defina [ActionType](actiontype-reminderactiontype.md) como **adiar**e defina o valor de [NewReminderTime](newremindertime.md) para uma hora posterior ao [lembrete](remindertime.md)atual, caso contrário, o **NewReminderTime** será ignorado pelo servidor. Se o lembrete for para uma ocorrência de uma reunião recorrente, e a ação **adiar** for tomada no lembrete com um **NewReminderTime** que ultrapasse o lembrete da próxima ocorrência, o lembrete será efetivamente ignorado. 
+Você pode usar a **operação PerformReminderAction** para descartar ou esnocar lembretes (atraso) retornados pela [operação GetReminders.](getreminders-operation.md) Para esnocar um lembrete, de definir [o ActionType](actiontype-reminderactiontype.md) como **Snooze** e definir o valor [NewReminderTime](newremindertime.md) como um tempo posterior ao [ReminderTime](remindertime.md)atual , caso **contrário, NewReminderTime** será ignorado pelo servidor. Se o lembrete for para uma ocorrência de uma reunião recorrente e a ação **Snooze** for tomada no lembrete com um **NewReminderTime** que está além do lembrete da próxima ocorrência, o lembrete será efetivamente ignorado. 
   
-Para descartar um lembrete, defina **ActionType** como **dismiss**. Quando o servidor processa a solicitação, o servidor altera o valor [ReminderSet](isreminderset.md) para o item de **true** para **false**.
+Para descartar um lembrete, de definir **ActionType** como **Dismiss**. Quando o servidor processa a solicitação, o servidor altera o [valor IsReminderSet](isreminderset.md) do item de **True** para **False**.
   
-### <a name="performreminderaction-operation-soap-headers"></a>Cabeçalhos SOAP de operação PerformReminderAction
+### <a name="performreminderaction-operation-soap-headers"></a>Headers SOAP da operação PerformReminderAction
 
-A operação **PerformReminderAction** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação PerformReminderAction** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Esse header é aplicável a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "Marcas para a Identificação de Idiomas", a ser usada para acessar a caixa de correio. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
 ## <a name="performreminderaction-operation-request-example"></a>Exemplo de solicitação de operação PerformReminderAction
 
-O exemplo a seguir de uma solicitação de operação do **PerformReminderAction** mostra como adiar um lembrete atual e definir um novo horário de lembrete. Observe que você precisa incluir o **ChangeKey** para o [ItemId](itemid.md) e o **NewReminderTime** deve ser definido como uma hora depois do **ReminderTime** retornado pela operação [getlembrers](getreminders-operation.md) . 
+O exemplo a seguir de uma solicitação de operação **PerformReminderAction** mostra como esnocar um lembrete atual e definir um novo horário de lembrete. Observe que você precisa incluir **o ChangeKey** para [ItemId](itemid.md) e **NewReminderTime** deve ser definido para um horário posterior ao **reminderTime** retornado pela [operação GetReminders.](getreminders-operation.md) 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -69,7 +69,7 @@ O exemplo a seguir de uma solicitação de operação do **PerformReminderAction
 ```
 
 > [!NOTE]
-> O valor de **ItemId** foi reduzido para preservar a legibilidade. 
+> O **valor ItemId** foi reduzido para preservar a capacidade de leitura. 
   
 O corpo SOAP de solicitação contém os seguintes elementos:
   
@@ -85,9 +85,9 @@ O corpo SOAP de solicitação contém os seguintes elementos:
     
 - [NewReminderTime](newremindertime.md)
     
-## <a name="successful-performreminderaction-operation-response"></a>Resposta de operação PerformReminderAction bem-sucedida
+## <a name="successful-performreminderaction-operation-response"></a>Resposta bem-sucedida da operação PerformReminderAction
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **PerformReminderAction** . O elemento **UpdatedItemIds** contém os **ItemIds** do item de calendário atualizado. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **PerformReminderAction.** O **elemento UpdatedItemIds** contém **os ItemIds** do item de calendário atualizado. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -127,9 +127,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [ItemId](itemid.md)
     
-## <a name="performreminderaction-operation-error-response-example"></a>Exemplo de resposta de erro de operação PerformReminderAction
+## <a name="performreminderaction-operation-error-response-example"></a>Exemplo de resposta de erro da operação PerformReminderAction
 
-O exemplo a seguir mostra uma resposta a uma solicitação de operação **PerformReminderAction** quando nenhuma alteração foi feita no servidor. Esta é uma resposta na qual uma solicitação foi enviada, mas nenhum **UpdatedItemIds** foi retornado, o que significa que nenhum lembrete foi alterado. 
+O exemplo a seguir mostra uma resposta a uma solicitação de operação **PerformReminderAction** quando nenhuma alteração foi feita no servidor. Esta é uma resposta na qual uma solicitação foi enviada, mas **nenhuma UpdatedItemIds** foi retornada, o que significa que nenhum lembrete foi alterado. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -156,7 +156,7 @@ O exemplo a seguir mostra uma resposta a uma solicitação de operação **Perfo
 </s:Envelope>
 ```
 
-O corpo SOAP de resposta de erro contém os seguintes elementos:
+O corpo SOAP da resposta de erro contém os seguintes elementos:
   
 - [PerformReminderActionResponse](performreminderactionresponse.md)
     
@@ -164,11 +164,11 @@ O corpo SOAP de resposta de erro contém os seguintes elementos:
     
 - [UpdatedItemIds](updateditemids.md)
     
-Para obter códigos de erro adicionais genéricos para o EWS, consulte [ResponseCode](responsecode.md).
+Para obter códigos de erro adicionais genéricos para EWS, consulte [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Confira também
 
 
-- [Operação getlembretes](getreminders-operation.md)
+- [Operação GetReminders](getreminders-operation.md)
     
 

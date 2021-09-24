@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FreeBusyViewOptions
 api_type:
 - schema
 ms.assetid: c07f3ddb-874b-4d30-a60e-7e5c7793bb6f
-description: O elemento FreeBusyViewOptions especifica o tipo de informações de disponibilidade retornadas na resposta.
-ms.openlocfilehash: b67d3f461e0edaa82f074f75b0c1c54efc8af4d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento FreeBusyViewOptions especifica o tipo de informação de ocupado/livre retornada na resposta.
+ms.openlocfilehash: fc9b3e32dff5ae984d2921a3a46319a6f3e89da8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459571"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526217"
 ---
 # <a name="freebusyviewoptions"></a>FreeBusyViewOptions
 
-O elemento **FreeBusyViewOptions** especifica o tipo de informações de disponibilidade retornadas na resposta. 
+O **elemento FreeBusyViewOptions** especifica o tipo de informação de ocupado/livre retornada na resposta. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -49,26 +49,26 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[TimeWindow](timewindow.md) <br/> |Identifica o intervalo de tempo consultado para as informações de disponibilidade do usuário.  <br/> |
-|[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) <br/> |Representa a diferença de tempo entre dois slots sucessivos no modo de exibição **FreeBusyMerged** .  <br/> |
-|[RequestedView](requestedview.md) <br/> |Define o tipo de informação do calendário que um cliente solicita.  <br/> |
+|[TimeWindow](timewindow.md) <br/> |Identifica o período de tempo consultado para as informações de disponibilidade do usuário.  <br/> |
+|[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) <br/> |Representa a diferença de tempo entre dois slots sucessivos no **exibição FreeBusyMerged.**  <br/> |
+|[RequestedView](requestedview.md) <br/> |Define o tipo de informação de calendário que um cliente solicita.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contém os argumentos usados para obter informações de disponibilidade do usuário. Este é um elemento raiz.  <br/> Este é o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest` <br/> |
+|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contém os argumentos usados para obter informações de disponibilidade do usuário. Esse é um elemento raiz.  <br/> Veja a seguir o XPath para este elemento:  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse elemento não é obrigatório e só poderá ocorrer uma vez se for usado. Esse valor pode ser NULL se o valor do elemento [SuggestionsViewOptions](suggestionsviewoptions.md) não for NULL. 
+Esse elemento não é obrigatório e só pode ocorrer uma vez se usado. Esse valor pode ser nulo se o valor do [elemento SuggestionsViewOptions](suggestionsviewoptions.md) não for nulo. 
   
 > [!NOTE]
-> O esquema que descreve este elemento está localizado no diretório/EPI/do computador que está executando o Microsoft® Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada. 
+> O esquema que descreve esse elemento está localizado no diretório /epi/do computador que está executando o Microsoft® Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada. 
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir obtém uma lista de reuniões e um fluxo de disponibilidade em intervalos de 60 minutos.
+O exemplo a seguir obtém uma lista de reuniões e um fluxo de livre/ocupado em intervalos de 60 minutos.
   
 ```
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -124,7 +124,7 @@ O exemplo a seguir obtém uma lista de reuniões e um fluxo de disponibilidade e
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -134,5 +134,5 @@ O exemplo a seguir obtém uma lista de reuniões e um fluxo de disponibilidade e
 [Operação GetUserAvailability](getuseravailability-operation.md)
 
 
-[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

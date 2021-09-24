@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 328f29b9-3a9c-4d9a-a85f-5ffff84e266a
-description: O elemento ImAddresses2 especifica uma matriz de endereços de mensagens instantâneas e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: b2a9f61ba31c1324ac5563bb6ab6b30f0271c653
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ImAddresses2 especifica uma matriz de endereços de mensagem instantânea e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: aaad3fba834d8793328d2e4de061880f073f6971
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460761"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515681"
 ---
 # <a name="imaddresses2"></a>ImAddresses2
 
-O elemento **ImAddresses2** especifica uma matriz de endereços de mensagens instantâneas e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento ImAddresses2** especifica uma matriz de endereços de mensagem instantânea e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <ImAddresses2>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

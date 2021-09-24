@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 9fb9529f-52c5-4907-a84b-935b78de16c3
-description: O elemento LegacyDN identifica a caixa de correio de um usuário com o nome diferenciado herdado.
-ms.openlocfilehash: b9af4278a5421dc932573396c3563a64a78de41e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento LegacyDN identifica a caixa de correio de um usuário por nome diferenciado herdado.
+ms.openlocfilehash: bd65e18daf1b05f66ebd767635cbe6a3135f1abf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526379"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540829"
 ---
 # <a name="legacydn-pox"></a>LegacyDN (POX)
 
-O elemento **LegacyDN** identifica a caixa de correio de um usuário com o nome diferenciado herdado. 
+O **elemento LegacyDN** identifica a caixa de correio de um usuário por nome diferenciado herdado. 
   
 ```xml
 <LegacyDN/>
@@ -40,18 +40,18 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Solicitação (POX)](request-pox.md) <br/> |Contém a solicitação para o serviço de descoberta automática.  <br/> |
-|[Usuário (POX)](user-pox.md) <br/> |Fornece informações específicas do usuário.  <br/> |
+|[Request (POX)](request-pox.md) <br/> |Contém a solicitação para o serviço descoberta automática.  <br/> |
+|[User (POX)](user-pox.md) <br/> |Fornece informações específicas do usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o endereço de email herdado de um usuário.
+O valor de texto representa o endereço de email herddo de um usuário.
   
 ## <a name="remarks"></a>Comentários
 
-O elemento [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) é um elemento alternativo para uma solicitação de descoberta automática. Ele é usado quando uma caixa de correio existe em um computador que esteja executando o Microsoft Exchange Server 2007. 
+O [elemento EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) é um elemento alternativo para uma solicitação de Descoberta Automática. Ela é usada quando uma caixa de correio existe em um computador que está executando Microsoft Exchange Server 2007. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

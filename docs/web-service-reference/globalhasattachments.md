@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalHasAttachments
 api_type:
 - schema
 ms.assetid: 3d075e93-14bc-479d-957f-9b7873d1db39
 description: O elemento GlobalHasAttachments contém um valor que indica se pelo menos um item de conversa em uma caixa de correio tem um anexo.
-ms.openlocfilehash: e314e8e5c06ca7d7820b910c05b381765e88911f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a5a12290e9eee4fb29ce7b5f24e9a24c44d8179e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459473"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525874"
 ---
 # <a name="globalhasattachments"></a>GlobalHasAttachments
 
-O elemento **GlobalHasAttachments** contém um valor que indica se pelo menos um item de conversa em uma caixa de correio tem um anexo. 
+O **elemento GlobalHasAttachments** contém um valor que indica se pelo menos um item de conversa em uma caixa de correio tem um anexo. 
   
 [FindConversationResponse](findconversationresponse.md)
   
 [Conversas](conversations-ex15websvcsotherref.md)
   
-[Conversa (Conversatype)](conversation-conversationtype.md)
+[Conversation (ConversationType)](conversation-conversationtype.md)
   
 [GlobalHasAttachments](globalhasattachments.md)
   
@@ -52,15 +52,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor do elemento **GlobalHasAttachments** indica se pelo menos um item de conversa em uma caixa de correio tem um anexo. Um valor de texto que representa um valor booliano é necessário. Um valor **true** significa que a conversa tem pelo menos um anexo visível. Um valor **false** significa que a conversa não tem anexos ou tem apenas anexos ocultos. 
+O valor do **elemento GlobalHasAttachments** indica se pelo menos um item de conversa em uma caixa de correio tem um anexo. Um valor de texto que representa um valor Boolean é necessário. Um valor verdadeiro **significa** que a conversa tem pelo menos um anexo visível. Um valor false **significa** que a conversa não tem anexos ou tem apenas anexos ocultos. 
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -68,7 +68,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

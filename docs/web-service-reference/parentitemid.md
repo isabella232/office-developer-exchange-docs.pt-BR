@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ParentItemId
 api_type:
 - schema
 ms.assetid: 72dc4391-72db-44d2-85d9-4718d59886a7
-description: O elemento ParentItemId identifica o item pai que é vinculado a um anexo associado.
-ms.openlocfilehash: 4f3e33da0af2438948313f0e335cd03e076d135a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ParentItemId identifica o item pai que se vincula a um anexo associado.
+ms.openlocfilehash: d8072e86d8bd989d4baf6b0f29385dc955b83de8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465741"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515359"
 ---
 # <a name="parentitemid"></a>ParentItemId
 
-O elemento **ParentItemId** identifica o item pai que é vinculado a um anexo associado. 
+O **elemento ParentItemId** identifica o item pai que se vincula a um anexo associado. 
   
 - [CreateAttachment](createattachment.md)
   
@@ -31,7 +31,7 @@ O elemento **ParentItemId** identifica o item pai que é vinculado a um anexo as
 <ParentItemId Id="" ChangeKey="" />
 ```
 
-**ItemIdtype**
+**ItemIdType**
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -41,8 +41,8 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|**Id** <br/> |Identifica um único item no repositório do Exchange para associar a um anexo. Este valor é uma cadeia de caracteres. Esse atributo é necessário.  <br/> |
-|**ChangeKey** <br/> |Identifica uma versão não especificada de um item que é identificada pelo atributo **ID** no repositório do Exchange. Isso é usado para garantir que um item atual é usado quando é atualizado com um anexo. Este valor é uma cadeia de caracteres. Esse atributo é opcional.  <br/> |
+|**Id** <br/> |Identifica um único item no Exchange para associar a um anexo. Esse valor é uma cadeia de caracteres. Esse atributo é necessário.  <br/> |
+|**ChangeKey** <br/> |Identifica uma versão não especificada de um item identificado pelo **atributo Id** no Exchange store. Isso é usado para garantir que um item atual seja usado quando atualizado com um anexo. Esse valor é uma cadeia de caracteres. Esse atributo é opcional.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,11 +52,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CreateAttachment](createattachment.md) <br/> |Define uma solicitação para criar um anexo a um item em uma caixa de correio.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/CreateAttachment` <br/> |
+|[CreateAttachment](createattachment.md) <br/> |Define uma solicitação para criar um anexo a um item em uma caixa de correio.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/CreateAttachment` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse elemento é necessário na [operação CreateAttachment](createattachment-operation.md). Este elemento é basicamente o mesmo que o elemento [ItemId](itemid.md) . 
+Esse elemento é necessário na operação [CreateAttachment](createattachment-operation.md). Esse elemento é basicamente o mesmo que o [elemento ItemId.](itemid.md) 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   

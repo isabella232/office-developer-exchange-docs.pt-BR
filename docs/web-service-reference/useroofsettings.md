@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserOofSettings
 api_type:
 - schema
 ms.assetid: 0a95ca63-660e-4cc0-82e4-3f74fb4ae21c
-description: O elemento UserOofSettings especifica as configurações de ausência temporária (OOF).
-ms.openlocfilehash: 417c3d5061a6229d41eb57f72e89f03213acf460
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UserOofSettings especifica as configurações Out of Office (OOF).
+ms.openlocfilehash: 0fa550a97464414570faf391d3633243ff2e2144
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461902"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513966"
 ---
 # <a name="useroofsettings"></a>UserOofSettings
 
-O elemento **UserOofSettings** especifica as configurações de ausência temporária (OOF). 
+O **elemento UserOofSettings** especifica as configurações Out of Office (OOF). 
   
 [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
   
@@ -50,17 +50,17 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[OofState](oofstate.md) <br/> |Define o estado de ausência temporária do usuário.  <br/> |
-|[ExternalAudience](externalaudience.md) <br/> |Define ou contém um valor que determina a quem mensagens externas OOF são enviadas.  <br/> |
-|[Duração (UserOofSettings)](duration-useroofsettings.md) <br/> |Especifica a duração para a qual o status de ausência temporária é habilitado se o elemento [OofState](oofstate.md) estiver definido como **agendado**. Se o elemento [OofState](oofstate.md) estiver definido como **Enabled** ou **Disabled**, o valor desse elemento será ignorado.  <br/> |
-|[InternalReply](internalreply.md) <br/> |Contém a resposta de ausência temporária enviada para outros usuários no domínio do usuário ou domínios confiáveis.  <br/> |
-|[ExternalReply](externalreply.md) <br/> |Contém a resposta de ausência temporária enviada para endereços fora do domínio do destinatário ou domínios confiáveis.  <br/> |
+|[OofState](oofstate.md) <br/> |Define o estado OOF do usuário.  <br/> |
+|[ExternalAudience](externalaudience.md) <br/> |Define ou contém um valor que determina para quem as mensagens OOF externas são enviadas.  <br/> |
+|[Duration (UserOofSettings)](duration-useroofsettings.md) <br/> |Especifica a duração para a qual o status OOF está habilitado se o [elemento OofState](oofstate.md) estiver definido como **Scheduled**. Se o [elemento OofState](oofstate.md) estiver definido como **Habilitado** ou **Desabilitado,** o valor desse elemento será ignorado.  <br/> |
+|[InternalReply](internalreply.md) <br/> |Contém a resposta OOF enviada a outros usuários no domínio do usuário ou domínios confiáveis.  <br/> |
+|[ExternalReply](externalreply.md) <br/> |Contém a resposta OOF enviada a endereços fora do domínio do destinatário ou domínios confiáveis.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |Contém os argumentos usados para definir as configurações e mensagens de ausência temporária de um usuário de caixa de correio.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/SetUserOofSettingsRequest` <br/> |
+|[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |Contém os argumentos usados para definir as configurações e mensagens OOF de um usuário de caixa de correio.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/SetUserOofSettingsRequest` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -68,7 +68,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação SetUserOofSettings define o OoFState como **habilitado**, define a duração de OOF por 10 dias e define as mensagens externas e externa OOF.
+O exemplo a seguir de uma solicitação SetUserOofSettings define o OoFState como **Habilitado**, define a duração do OOF para 10 dias e define as mensagens OOF internas e externas.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

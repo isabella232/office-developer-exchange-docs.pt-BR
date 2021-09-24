@@ -1,24 +1,24 @@
 ---
-title: Solicitação (GetDomainSettings) (SOAP)
+title: Request (GetDomainSettings) (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 3ea026fc-74f1-4118-86ae-908ed4f82a4b
-description: O elemento Request contém uma solicitação para retornar as configurações de domínio.
-ms.openlocfilehash: c5f666102be8aaeee001a23706732e9e6c44b560
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Request contém uma solicitação para retornar configurações de domínio.
+ms.openlocfilehash: fbee6479b844ac9026b0cfc0218cdc542ea0f2fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459585"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540542"
 ---
-# <a name="request-getdomainsettings-soap"></a>Solicitação (GetDomainSettings) (SOAP)
+# <a name="request-getdomainsettings-soap"></a>Request (GetDomainSettings) (SOAP)
 
-O elemento **Request** contém uma solicitação para retornar as configurações de domínio. 
+O **elemento Request** contém uma solicitação para retornar configurações de domínio. 
   
 ```xml
 <Request>
@@ -40,25 +40,25 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Domínios (SOAP)](domains-soap.md) <br/> |Representa os domínios em que as configurações para as quais são retornadas em uma [operação GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md) ou os domínios que a organização têm federado em uma [operação GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md).  <br/> |
-|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Contém os nomes das definições de configuração solicitadas.  <br/> |
+|[Domains (SOAP)](domains-soap.md) <br/> |Representa os domínios para os quais as configurações são retornadas em uma operação [GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md) ou os domínios que a organização federou em uma operação [GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md).  <br/> |
+|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Contém os nomes das configurações solicitadas.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetDomainSettingsRequestMessage (SOAP)](getdomainsettingsrequestmessage-soap.md) <br/> |Representa uma solicitação de [operação de GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md).  <br/> |
+|[GetDomainSettingsRequestMessage (SOAP)](getdomainsettingsrequestmessage-soap.md) <br/> |Representa uma [solicitação de operação GetDomainSettings (SOAP).](getdomainsettings-operation-soap.md)  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 203a5ac3-ebd0-4514-acbe-bc1c74638127
-description: O elemento AutodiscoverResponse (SOAP) representa o elemento base para todas as respostas retornadas pelo serviço de descoberta automática.
-ms.openlocfilehash: 81fd557578bde9552d07e24386c93903e44a9afa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AutodiscoverResponse (SOAP) representa o elemento base para todas as respostas retornadas pelo serviço descoberta automática.
+ms.openlocfilehash: 71bbb0f1aa6602a260c163ccfdfd3c3d38442e31
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463962"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514869"
 ---
 # <a name="autodiscoverresponse-soap"></a>AutodiscoverResponse (SOAP)
 
-O elemento **AutodiscoverResponse (SOAP)** representa o elemento base para todas as respostas retornadas pelo serviço de descoberta automática. 
+O **elemento AutodiscoverResponse (SOAP)** representa o elemento base para todas as respostas retornadas pelo serviço descoberta automática. 
   
 - [AutodiscoverResponse (SOAP)](autodiscoverresponse-soap.md)
   
@@ -44,9 +44,9 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Userresponses (SOAP)](userresponses-soap.md) <br/> |Representa uma coleção de elementos [userresponse (SOAP)](userresponse-soap.md) .  <br/> |
-|[UserSettingErrors (SOAP)](usersettingerrors-soap.md) <br/> |Representa uma coleção de elementos [UserSettingError (SOAP)](usersettingerror-soap.md) .  <br/> |
-|[UserSettings (SOAP)](usersettings-soap.md) <br/> |Representa uma coleção de elementos [usersetting (SOAP)](usersetting-soap.md) .  <br/> |
+|[UserResponses (SOAP)](userresponses-soap.md) <br/> |Representa uma coleção de [elementos UserResponse (SOAP).](userresponse-soap.md)  <br/> |
+|[UserSettingErrors (SOAP)](usersettingerrors-soap.md) <br/> |Representa uma coleção de [elementos UserSettingError (SOAP).](usersettingerror-soap.md)  <br/> |
+|[UserSettings (SOAP)](usersettings-soap.md) <br/> |Representa uma coleção de [elementos UserSetting (SOAP).](usersetting-soap.md)  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -54,14 +54,14 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

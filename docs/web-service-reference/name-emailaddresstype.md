@@ -1,27 +1,27 @@
 ---
-title: Nome (EmailAddresstype)
+title: Name (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Name
 api_type:
 - schema
 ms.assetid: 98c58c53-9acc-4e89-9fcf-03f1b05abee1
-description: O elemento name representa o nome de um usuário de caixa de correio.
-ms.openlocfilehash: db6eb547b5c848dc31bbaa377692989b16771673
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Name representa o nome de um usuário de caixa de correio.
+ms.openlocfilehash: 096b5db4f7bc2de7d1d7355e4e0dba2684bd06d8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466924"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515513"
 ---
-# <a name="name-emailaddresstype"></a>Nome (EmailAddresstype)
+# <a name="name-emailaddresstype"></a>Name (EmailAddressType)
 
-O elemento **Name** representa o nome de um usuário de caixa de correio. 
+O **elemento Name** representa o nome de um usuário de caixa de correio. 
   
 ```xml
 <Name/>
@@ -54,7 +54,7 @@ Um valor de texto que representa uma cadeia de caracteres será necessário se e
   
 ## <a name="remarks"></a>Comentários
 
-Este elemento é opcional. O elemento **Name** existe nos tipos **AttachmentType**, **EmailAddressType**e **EmailAddress** . O elemento **Name** no tipo **EmailAddress** é descrito no tópico do elemento [Name (EmailAddress)](name-emailaddress.md) . 
+Esse elemento é opcional. O **elemento Name** existe nos tipos **AttachmentType,** **EmailAddressType** e **EmailAddress.** O **elemento Name** no tipo **EmailAddress** é descrito no tópico do elemento [Name (EmailAddress).](name-emailaddress.md) 
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetPhoneCallInformation
 api_type:
 - schema
 ms.assetid: 418bd6ca-39d9-49a9-841e-7a71ede1fa51
 description: A operação GetPhoneCallInformation retorna informações sobre a chamada telefônica especificada.
-ms.openlocfilehash: 231b160713526f44433188e2b1e3bd98012370b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7cb9ecbb30e6cdd4d85b60215f40e0be5f4aaa84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458310"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539954"
 ---
 # <a name="getphonecallinformation-operation"></a>Operação GetPhoneCallInformation
 
-A operação **GetPhoneCallInformation** retorna informações sobre a chamada telefônica especificada. 
+A **operação GetPhoneCallInformation** retorna informações sobre a chamada telefônica especificada. 
   
 ## <a name="getphonecallinformation-request-example"></a>Exemplo de solicitação GetPhoneCallInformation
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **GetPhoneCallInformation** mostra como formar uma solicitação para obter informações sobre uma chamada telefônica específica. 
+O exemplo a seguir de uma **solicitação GetPhoneCallInformation** mostra como formar uma solicitação para obter informações sobre uma chamada telefônica específica. 
   
 ### <a name="code"></a>Código
 
@@ -53,7 +53,7 @@ O exemplo a seguir de uma solicitação **GetPhoneCallInformation** mostra como 
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetPhoneCallInformation** . A resposta representa uma chamada telefônica que está conectada no momento. 
+O exemplo a seguir mostra uma resposta bem-sucedida à **solicitação GetPhoneCallInformation.** A resposta representa uma chamada telefônica que está conectada no momento. 
   
 ### <a name="code"></a>Código
 
@@ -87,6 +87,6 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **GetPhoneC
 
 ## <a name="see-also"></a>Confira também
 
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

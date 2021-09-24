@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IntendedFreeBusyStatus
 api_type:
 - schema
 ms.assetid: 0e0fa898-69a4-4c57-8bb2-52f716b5b478
-description: O elemento IntendedFreeBusyStatus representa o status pretendido para o item de calendário que está associado à solicitação de reunião.
-ms.openlocfilehash: c5502bcfb308aa2f02a9575ab43f80261b5fa4ed
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento IntendedFreeBusyStatus representa o status pretendido para o item de calendário associado à solicitação de reunião.
+ms.openlocfilehash: fcadc2a155f2263410dbf81d200d202d718e2893
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465615"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539553"
 ---
 # <a name="intendedfreebusystatus"></a>IntendedFreeBusyStatus
 
-O elemento **IntendedFreeBusyStatus** representa o status pretendido para o item de calendário que está associado à solicitação de reunião. 
+O **elemento IntendedFreeBusyStatus** representa o status pretendido para o item de calendário associado à solicitação de reunião. 
   
 ```xml
 <IntendedFreeBusyStatus/>
@@ -44,25 +44,25 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. Estes são os valores possíveis para este elemento:
+Um valor de texto é necessário. Veja a seguir os valores possíveis para este elemento:
   
 - Disponível
     
-- Provisória
+- Tentativo
     
 - Ocupado
     
-- TEMPORÁRIA
+- OOF
     
 - NoData
     
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -70,7 +70,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

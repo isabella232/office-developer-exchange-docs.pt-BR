@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsMeetingRequest
 api_type:
 - schema
 ms.assetid: 72102a55-fd51-4ec9-abce-9a4ec45b86d2
 description: O elemento IsMeetngRequest indica se as mensagens de entrada devem ser uma solicitação de reunião para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: 8b4969faaeb7dfa98edbf4fe8747e8b783808313
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9ab9ce873a974b22a8944927e813b84d6d433dca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465958"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539434"
 ---
 # <a name="ismeetingrequest"></a>IsMeetingRequest
 
-O elemento **IsMeetngRequest** indica se as mensagens de entrada devem ser uma solicitação de reunião para que a condição ou exceção seja aplicada. 
+O **elemento IsMeetngRequest** indica se as mensagens de entrada devem ser uma solicitação de reunião para que a condição ou exceção seja aplicada. 
   
 ```XML
 <IsMeetingRequest>true | false</IsMeetingRequest>
@@ -44,8 +44,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

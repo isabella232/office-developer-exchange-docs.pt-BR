@@ -4,23 +4,23 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 064d73e4-45b7-4797-828e-9df590830db8
-description: O elemento ErrorCode contém o código de erro para uma resposta de descoberta automática de erro.
-ms.openlocfilehash: 9dcd681c00aefcfb88f1f8a58be3aa2ccd0bb72b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ErrorCode contém o código de erro para uma resposta de Descoberta Automática de erro.
+ms.openlocfilehash: e087860c5ca1e3d79c7bad34ae3754bdba6c9091
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460649"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539918"
 ---
 # <a name="errorcode-pox"></a>ErrorCode (POX)
 
-O elemento **ErrorCode** contém o código de erro para uma resposta de descoberta automática de erro. 
+O **elemento ErrorCode** contém o código de erro para uma resposta de Descoberta Automática de erro. 
   
-[Erro (POX)](error-pox.md)
+[Error (POX)](error-pox.md)
   
 [ErrorCode (POX)](errorcode-pox.md)
   
@@ -44,15 +44,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Erro (POX)](error-pox.md) <br/> |Contém uma resposta de erro de descoberta automática.  <br/> |
+|[Error (POX)](error-pox.md) <br/> |Contém uma resposta de erro de Descoberta Automática.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o código de erro para uma resposta de descoberta automática de erro.
+O valor de texto representa o código de erro para uma resposta de Descoberta Automática de erro.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

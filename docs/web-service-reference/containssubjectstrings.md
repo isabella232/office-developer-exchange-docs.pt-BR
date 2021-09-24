@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContainsSubjectStrings
 api_type:
 - schema
 ms.assetid: c6ec1d8d-8dd8-4c9a-a3e1-50e24958eb0d
 description: O elemento ContainsSubjectStrings indica as cadeias de caracteres que devem aparecer no assunto das mensagens de entrada para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: 8b078f61d08864970a123f81688981ffba2864ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 91ecd46c4f584cca997af37bccf3fe17f1631d4f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458954"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540199"
 ---
 # <a name="containssubjectstrings"></a>ContainsSubjectStrings
 
-O elemento **ContainsSubjectStrings** indica as cadeias de caracteres que devem aparecer no assunto das mensagens de entrada para que a condição ou exceção seja aplicada. 
+O **elemento ContainsSubjectStrings** indica as cadeias de caracteres que devem aparecer no assunto das mensagens de entrada para que a condição ou exceção seja aplicada. 
   
 ```XML
 <ContainsSubjectStrings>
@@ -48,8 +48,8 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa as exceções que representam todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa as exceções que representam todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

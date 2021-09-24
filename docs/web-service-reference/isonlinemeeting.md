@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsOnlineMeeting
 api_type:
 - schema
 ms.assetid: c29df676-0f3a-4694-a42f-522c6d16872f
 description: O elemento IsOnlineMeeting indica se a reunião está online.
-ms.openlocfilehash: d2d60c8a51ad7e03c33b57709d9173e79d162268
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3521cf82f2b6b2b2514b82478fc4e1e5c6edb563
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460397"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514512"
 ---
 # <a name="isonlinemeeting"></a>IsOnlineMeeting
 
-O elemento **IsOnlineMeeting** indica se a reunião está online. 
+O **elemento IsOnlineMeeting** indica se a reunião está online. 
   
 ```xml
 <IsOnlineMeeting/>
@@ -44,18 +44,18 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no Exchange store.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto que representa um valor booliano é necessário se esse elemento for usado. Um valor **true** indica que a reunião está online. Um valor **false** indica que a reunião não está online. 
+Um valor de texto que representa um valor Boolean é necessário se esse elemento for usado. Um valor **verdadeiro** indica que a reunião está online. Um valor **false** indica que a reunião não está online. 
   
 ## <a name="remarks"></a>Comentários
 
-A Propriedade IsOnlineMeeting é leitura/gravação para o item de calendário do organizador. É somente leitura para solicitações de reunião e itens de calendário dos participantes.
+A propriedade IsOnlineMeeting pode ser lida para o item de calendário do organizador. Ele é somente leitura para solicitações de reunião e itens de calendário dos participantes.
   
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -63,7 +63,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

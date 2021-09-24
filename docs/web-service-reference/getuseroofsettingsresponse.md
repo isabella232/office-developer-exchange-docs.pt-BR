@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserOofSettingsResponse
 api_type:
 - schema
 ms.assetid: 011cb38b-da3c-4b1b-8836-a6b212b511f6
-description: O elemento GetUserOofSettingsResponse contém a mensagem de resposta e as configurações de ausência temporária (OOF) para um usuário.
-ms.openlocfilehash: f7f28c67fd36630ffb5294ab35c0fef2f467ba22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetUserOofSettingsResponse contém a mensagem de resposta e as configurações Fora de Office (OOF) para um usuário.
+ms.openlocfilehash: 57e24dd4aa8ea10955cb309cad76f35cbb9395d4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457813"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526124"
 ---
 # <a name="getuseroofsettingsresponse"></a>GetUserOofSettingsResponse
 
-O elemento **GetUserOofSettingsResponse** contém a mensagem de resposta e as configurações de ausência temporária (OOF) para um usuário. 
+O **elemento GetUserOofSettingsResponse** contém a mensagem de resposta e as configurações Fora de Office (OOF) para um usuário. 
   
 ```xml
 <GetUserOofSettingsResponse>
@@ -45,12 +45,12 @@ Nenhum
 |**Elemento**|**Descrição**|
 |:-----|:-----|
 |[ResponseMessage](responsemessage.md) <br/> |Fornece informações descritivas sobre o status da resposta.  <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.  <br/> |
-|[AllowExternalOof](allowexternaloof.md) <br/> |Contém um valor que identifica a quem mensagens externas OOF são enviadas.  <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contém as configurações OOF.  <br/> |
+|[AllowExternalOof](allowexternaloof.md) <br/> |Contém um valor que identifica a quem as mensagens OOF externas são enviadas.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

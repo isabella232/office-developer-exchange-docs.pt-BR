@@ -5,31 +5,31 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AppendToItemField
 api_type:
 - schema
 ms.assetid: 66dbcb4a-ae6d-4648-8610-67187bdb105c
-description: O elemento AppendToItemField identifica os dados a serem acrescentados a uma única propriedade de um item durante uma operação UpdateItem.
-ms.openlocfilehash: 902239155bff45d6f81989de954c9459cf012288
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AppendToItemField identifica dados a ser anexados a uma única propriedade de um item durante uma operação UpdateItem.
+ms.openlocfilehash: 8e94ca9174d11f1f6e4a0dd2fcfabeb30a64a40d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466042"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540325"
 ---
 # <a name="appendtoitemfield"></a>AppendToItemField
 
-O elemento **AppendToItemField** identifica os dados a serem acrescentados a uma única propriedade de um item durante uma [operação UpdateItem](updateitem-operation.md).
+O **elemento AppendToItemField** identifica dados a ser anexados a uma única propriedade de um item durante uma [operação UpdateItem.](updateitem-operation.md)
   
 - [UpdateItem](updateitem.md)
   
-- [Alterações](itemchanges.md)
+- [ItemChanges](itemchanges.md)
   
 - [ItemChange](itemchange.md)
   
-- [Atualizações (item)](updates-item.md)
+- [Updates (Item)](updates-item.md)
   
 - [AppendToItemField](appendtoitemfield.md)
   
@@ -53,34 +53,34 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifica as propriedades com frequência referenciadas por URI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifica propriedades referenciadas com frequência por URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifica membros individuais de um dicionário.  <br/> |
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifica as propriedades de MAPI estendidas a serem acrescentadas.  <br/> |
-|[Item](item.md) <br/> |Representa um item no repositório do Exchange.  <br/> |
-|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifica propriedades MAPI estendidas a ser anexadas.  <br/> |
+|[Item](item.md) <br/> |Representa um item no Exchange store.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma Exchange de email.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no repositório do Exchange.  <br/> |
-|[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no Exchange store.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no Exchange store.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no Exchange store.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no Exchange store.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Atualizações (item)](updates-item.md) <br/> |Contém uma matriz que define Append, set e Delete alterações nas propriedades do item.  <br/> A seguir está a expressão XPath para este elemento:`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[Updates (Item)](updates-item.md) <br/> |Contém uma matriz que define anexar, definir e excluir alterações nas propriedades do item.  <br/> Veja a seguir a expressão XPath para este elemento:  `/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Apenas algumas propriedades dão suporte a operações de acréscimo. Uma tentativa de acrescentar a uma propriedade que não oferece suporte à anexação resultará em um erro.
+Somente determinadas propriedades suportam operações de anexação. Uma tentativa de anexar a uma propriedade que não oferece suporte à anexação resultará em um erro.
   
-Para operações de atualização, apenas uma propriedade pode ser modificada em uma única solicitação. Essa propriedade única deve ser referenciada no elemento [path](path.md) . O elemento **Item** nas classes derivadas pode então armazenar apenas uma única propriedade que está no contrato com o elemento **Path** único. 
+Para operações de atualização, apenas uma propriedade pode ser modificada em uma única solicitação. Essa propriedade única deve ser referenciada no [elemento Path.](path.md) O **elemento Item** nas classes derivadas só pode conter uma única propriedade que está em acordo com o único elemento **Path.** 
   
 > [!NOTE]
-> O elemento [path](path.md) é abstract. Ele deve ser substituído pelo elemento [FieldURI](fielduri.md), [IndexedFieldURI](indexedfielduri.md)ou [ExtendedFieldURI](extendedfielduri.md) . 
+> O [elemento Path](path.md) é abstrato. Ele deve ser substituído pelo [elemento FieldURI,](fielduri.md) [IndexedFieldURI](indexedfielduri.md)ou [ExtendedFieldURI.](extendedfielduri.md) 
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
@@ -90,7 +90,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

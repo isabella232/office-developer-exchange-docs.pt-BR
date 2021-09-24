@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2da25452-3111-489c-9d75-14337a5200e0
 description: O elemento LocationUrl representa a URL de um local de compartilhamento de documentos.
-ms.openlocfilehash: ba28ce4ded83c55f7b3f799c0bfe6f9509e375fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4e5815b7a1b6badf0ad30c6ad6e1eb95e513c334
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468688"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540843"
 ---
 # <a name="locationurl-soap"></a>LocationUrl (SOAP)
 
-O elemento **LocationUrl** representa a URL de um local de compartilhamento de documentos. 
+O **elemento LocationUrl** representa a URL de um local de compartilhamento de documentos. 
   
 ```XML
 <LocationUrl />
@@ -39,18 +39,18 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Representa informações de localização e metadados de um local de compartilhamento de documentos.  <br/> |
+|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Representa informações de localização e metadados para um local de compartilhamento de documentos.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **LocationUrl** é a URL de um local de compartilhamento de documentos. 
+O valor de texto do **elemento LocationUrl** é a URL de um local de compartilhamento de documentos. 
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
@@ -61,7 +61,7 @@ O valor de texto do elemento **LocationUrl** é a URL de um local de compartilha
 [Operação GetUserSettings (SOAP)](getusersettings-operation-soap.md)
 
 
-[Referência do serviço Web de descoberta automática do Exchange](autodiscover-web-service-reference-for-exchange.md)
+[Referência do serviço Web de Descoberta Automática para Exchange](autodiscover-web-service-reference-for-exchange.md)
   
-[Elementos XML de descoberta automática SOAP para o Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Elementos XML de Descoberta Automática SOAP para Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

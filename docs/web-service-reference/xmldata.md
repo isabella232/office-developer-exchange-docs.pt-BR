@@ -1,27 +1,27 @@
 ---
-title: Nota XMLDATA
+title: XmlData
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - XmlData
 api_type:
 - schema
 ms.assetid: e47f1d32-3ee3-4a1d-b7f9-80973ed57bd4
-description: O elemento XMLDATA contém o conteúdo da propriedade de dados XML para um objeto de configuração de usuário.
-ms.openlocfilehash: 2fb3e2ccbb6e9ccc409a5d0cfdd895b2a63214ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento XmlData contém conteúdo de propriedade de dados XML para um objeto de configuração do usuário.
+ms.openlocfilehash: daf1ad74b816187c89436187bbb8311e31784a13
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457015"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513882"
 ---
-# <a name="xmldata"></a>Nota XMLDATA
+# <a name="xmldata"></a>XmlData
 
-O elemento **XMLDATA** contém o conteúdo da propriedade de dados XML para um objeto de configuração de usuário. 
+O **elemento XmlData** contém conteúdo de propriedade de dados XML para um objeto de configuração do usuário. 
   
 ```XML
 <XmlData/>
@@ -45,7 +45,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Userconfiguration](userconfiguration.md) <br/> |Define um único objeto de configuração do usuário.  <br/> |
+|[UserConfiguration](userconfiguration.md) <br/> |Define um único objeto de configuração do usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -1,23 +1,23 @@
 ---
-title: Atribuição (cadeia de caracteres)
+title: Attribution (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 736be0bc-12c4-410e-bd17-a89f996ac432
-description: O elemento de atribuição especifica uma cadeia de caracteres usada para identificar um atributo de uma pessoa.
-ms.openlocfilehash: 9a3243904c02c3bdeea7e4a4e7dcb240d4ad3563
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Attribution especifica uma cadeia de caracteres usada para identificar um atributo de uma persona.
+ms.openlocfilehash: ce0dff53d48b4b198c21a4bcb6099608abbae7eb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464158"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513826"
 ---
-# <a name="attribution-string"></a>Atribuição (cadeia de caracteres)
+# <a name="attribution-string"></a>Attribution (string)
 
-O elemento de **atribuição** especifica uma cadeia de caracteres usada para identificar um atributo de uma pessoa. 
+O **elemento Attribution** especifica uma cadeia de caracteres usada para identificar um atributo de uma persona. 
   
 ```XML
 <Attribution></Attribution>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Atribuições (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Especifica uma matriz de atribuições para o elemento de **valor** associado.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Especifica uma matriz de atribuições para seu elemento **Value** associado.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento de **atribuição** é um valor de cadeia de caracteres que faz o atributo de um valor de propriedade para o contato de origem. 
+O valor de texto do **elemento de atribuição** é um valor de cadeia de caracteres que atribui um valor de propriedade ao contato de origem. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

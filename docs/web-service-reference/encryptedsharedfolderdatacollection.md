@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EncryptedSharedFolderDataCollection
 api_type:
 - schema
 ms.assetid: 25c6ae87-bbb9-4dd5-a85a-d669fcea137f
-description: O elemento EncryptedSharedFolderDataCollection contém uma coleção de estruturas de dados que um cliente pode usar para autorizar o compartilhamento de seus dados de calendário ou de contato com outros clientes.
-ms.openlocfilehash: e8ed9221952892abda7b4eac62b16cdc4976c6e2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EncryptedSharedFolderDataCollection contém uma coleção de estruturas de dados que um cliente pode usar para autorizar o compartilhamento de seu calendário ou dados de contato com outros clientes.
+ms.openlocfilehash: 868bff4e1afc905196bd4c48eba966cb8b7b08a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461265"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540073"
 ---
 # <a name="encryptedsharedfolderdatacollection"></a>EncryptedSharedFolderDataCollection
 
-O elemento **EncryptedSharedFolderDataCollection** contém uma coleção de estruturas de dados que um cliente pode usar para autorizar o compartilhamento de seus dados de calendário ou de contato com outros clientes. 
+O **elemento EncryptedSharedFolderDataCollection** contém uma coleção de estruturas de dados que um cliente pode usar para autorizar o compartilhamento de seu calendário ou dados de contato com outros clientes. 
   
 ```xml
 <EncryptedSharedFolderDataCollection>   <EncryptedSharedFolderData/></EncryptedSharedFolderDataCollection>
@@ -40,18 +40,18 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[EncryptedSharedFolderData](encryptedsharedfolderdata.md) <br/> |Contém os dados criptografados que um cliente pode usar para autorizar o compartilhamento de seus dados de calendário ou de contato com outros clientes.  <br/> |
+|[EncryptedSharedFolderData](encryptedsharedfolderdata.md) <br/> |Contém os dados criptografados que um cliente pode usar para autorizar o compartilhamento de seu calendário ou dados de contato com outros clientes.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetSharingMetadataResponse](getsharingmetadataresponse.md) <br/> |Define uma resposta a uma solicitação de [operação GetSharingMetadata](getsharingmetadata-operation.md) .  <br/> |
-|[GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md) <br/> |Contém o status e o resultado de uma única solicitação de [operação GetSharingMetadata](getsharingmetadata-operation.md) .  <br/> |
+|[GetSharingMetadataResponse](getsharingmetadataresponse.md) <br/> |Define uma resposta a uma [solicitação de operação GetSharingMetadata.](getsharingmetadata-operation.md)  <br/> |
+|[GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md) <br/> |Contém o status e o resultado de uma única solicitação de operação [GetSharingMetadata.](getsharingmetadata-operation.md)  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services do computador que está executando Microsoft Exchange Server que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 

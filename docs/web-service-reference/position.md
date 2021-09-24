@@ -1,23 +1,23 @@
 ---
-title: Posição
+title: Position
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46726ebb-a403-4793-8378-282aa7dc39d0
-description: O elemento position especifica a posição de uma entidade extraída de uma mensagem.
-ms.openlocfilehash: 9acd965c3e0c29f3fa91df338c0671749192b38b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Position especifica a posição de uma entidade extraída de uma mensagem.
+ms.openlocfilehash: 6b4e7c12bbcf12b8804619caa508f5c2c0bc4eda
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465419"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515289"
 ---
-# <a name="position"></a>Posição
+# <a name="position"></a>Position
 
-O elemento **Position** especifica a posição de uma entidade extraída de uma mensagem. 
+O **elemento Position** especifica a posição de uma entidade extraída de uma mensagem. 
   
 ```XML
 <Position> LatestReply | Other | Subject | Signature </Position>
@@ -42,15 +42,15 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **Position** é o local onde uma entidade extraída originou a mensagem de origem. Os valores de texto para o elemento **Position** são: 
+O valor de texto do **elemento Position** é o local onde uma entidade extraída se originou na mensagem de origem. Os valores de texto do elemento **Position** são: 
   
-- **LatestReply** -a entidade extraída se origina da resposta mais recente à mensagem. 
+- **LatestReply** - a entidade extraída se origina da resposta mais recente à mensagem. 
     
-- **Other** -a entidade extraída é originada de uma parte indefinida da mensagem. 
+- **Outro** - a entidade extraída se origina de uma parte indefinida da mensagem. 
     
-- **Subject** -a entidade extraída é originada do assunto da mensagem. 
+- **Assunto** - a entidade extraída se origina do assunto da mensagem. 
     
-- **Signature** -a entidade extraída provém da assinatura da mensagem. 
+- **Assinatura** - a entidade extraída se origina da assinatura da mensagem. 
     
 ## <a name="remarks"></a>Comentários
 
@@ -64,7 +64,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

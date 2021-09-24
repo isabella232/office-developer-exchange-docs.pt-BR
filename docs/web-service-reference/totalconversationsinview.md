@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc82c00b-979c-4d1b-a5ca-7268dbce634a
 description: O elemento TotalConversationsInView contém a contagem de conversas retornadas em uma resposta FindConversation.
-ms.openlocfilehash: 15a3f2a13359becc15418494aee359767d12b2a2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0cb5402509ae9d7d7a28dd05ebf6244f4dec44c0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467533"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515142"
 ---
 # <a name="totalconversationsinview"></a>TotalConversationsInView
 
-O elemento **TotalConversationsInView** contém a contagem de conversas retornadas em uma resposta **FindConversation** . 
+O **elemento TotalConversationsInView** contém a contagem de conversas retornadas em uma **resposta FindConversation.** 
   
 ```XML
 <TotalConversationsInView></TotalConversationsInView>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **TotalConversationsInView** é a contagem de conversas retornadas em uma resposta **FindConversation** . 
+O valor de texto do **elemento TotalConversationsInView** é a contagem de conversas retornadas em uma **resposta FindConversation.** 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

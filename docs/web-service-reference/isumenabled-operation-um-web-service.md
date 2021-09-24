@@ -1,32 +1,32 @@
 ---
-title: Operação IsUMEnabled (serviço Web da UM)
+title: Operação IsUMEnabled (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsUMEnabled
 api_type:
 - schema
 ms.assetid: fbe6cd95-f7a5-42b9-8a9d-b6159a269d55
-description: A operação IsUMEnabled determina se uma caixa de correio está habilitada para Unificação de mensagens.
-ms.openlocfilehash: b1478f5a113059251fe1b036ac7d77e5a4ab4f50
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação IsUMEnabled determina se uma caixa de correio está habilitada para a Unificação de Mensagens.
+ms.openlocfilehash: 2c637711fc34a1d1ccc484b14be3199632aaaaa3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458233"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514456"
 ---
-# <a name="isumenabled-operation-um-web-service"></a>Operação IsUMEnabled (serviço Web da UM)
+# <a name="isumenabled-operation-um-web-service"></a>Operação IsUMEnabled (serviço Web de Unificação de Mensagens)
 
-A operação IsUMEnabled determina se uma caixa de correio está habilitada para Unificação de mensagens.
+A operação IsUMEnabled determina se uma caixa de correio está habilitada para a Unificação de Mensagens.
   
 ## <a name="isumenabled-request-example"></a>Exemplo de solicitação IsUMEnabled
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação IsUMEnabled mostra como formar uma solicitação para determinar se uma caixa de correio está habilitada para Unificação de mensagens.
+O exemplo a seguir de uma solicitação IsUMEnabled mostra como formar uma solicitação para determinar se uma caixa de correio está habilitada para a Unificação de Mensagens.
   
 ### <a name="code"></a>Código
 
@@ -62,10 +62,10 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação IsUMEnab
 
 
 
-[IsUMEnabled (serviço Web da UM)](isumenabled-um-web-service.md)
+[IsUMEnabled (serviço Web de Unificação de Mensagens)](isumenabled-um-web-service.md)
   
-[IsUMEnabledResponse (serviço Web da UM)](isumenabledresponse-um-web-service.md)
+[IsUMEnabledResponse (serviço Web de Unificação de Mensagens)](isumenabledresponse-um-web-service.md)
 
 
-[Elementos XML do serviço Web de Unificação de mensagens para o Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
+[Elementos XML do serviço Web de Unificação de Mensagens para Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e63c4f7e-77c0-4826-b4e2-43b795d03914
-description: O elemento EditAllowed especifica se o gerenciamento de direitos de informação pode ser editado.
-ms.openlocfilehash: 979fbaa9fcfbd1015468a8ae00628959bad0bf56
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EditAllowed especifica se o Gerenciamento de Direitos de Informação pode ser editado.
+ms.openlocfilehash: 2bd88dd47eb3f1964eae678412a6748ee8d28ec8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463479"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540115"
 ---
 # <a name="editallowed"></a>EditAllowed
 
-O elemento **EditAllowed** especifica se o gerenciamento de direitos de informação pode ser editado. 
+O **elemento EditAllowed** especifica se o Gerenciamento de Direitos de Informação pode ser editado. 
   
 ```XML
 <EditAllowed> true | false </EditAllowed>
@@ -44,7 +44,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **EditAllowed** indica que o gerenciamento de direitos de informação (IRM) pode ser editado. Um valor **false** indica que o IRM não pode ser editado. 
+Um valor de texto **true para** o **elemento EditAllowed** indica que o IRM (Gerenciamento de Direitos de Informação) pode ser editado. Um valor **false** indica que o IRM não pode ser editado. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

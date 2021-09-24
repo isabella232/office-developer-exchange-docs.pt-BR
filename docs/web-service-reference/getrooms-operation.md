@@ -1,31 +1,31 @@
 ---
-title: Operação getrooms
+title: Operação GetRooms
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetRooms
 api_type:
 - schema
 ms.assetid: 5501ddc0-3bfa-4da6-8e15-4223ca5499a3
-description: A operação getrooms Obtém as salas dentro da lista de salas especificada.
-ms.openlocfilehash: 4cb124b96637b9fcdca15595faebb2ce4d304de0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetRooms obtém as salas dentro da lista de salas especificada.
+ms.openlocfilehash: dc5cf71ed0731d2674ecead1153447090b43bd9a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460544"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539911"
 ---
-# <a name="getrooms-operation"></a>Operação getrooms
+# <a name="getrooms-operation"></a>Operação GetRooms
 
-A operação **Getrooms** Obtém as salas dentro da lista de salas especificada. 
+A **operação GetRooms** obtém as salas dentro da lista de salas especificada. 
   
-## <a name="soap-headers"></a>Cabeçalhos SOAP
+## <a name="soap-headers"></a>SOAP Headers
 
-A operação **Getrooms** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir. 
+A **operação GetRooms** pode usar os headers SOAP listados e descritos na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
@@ -34,11 +34,11 @@ A operação **Getrooms** pode usar os cabeçalhos SOAP listados e descritos na 
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação.  <br/> |
    
-## <a name="getrooms-request-example"></a>Exemplo de solicitação getrooms
+## <a name="getrooms-request-example"></a>Exemplo de solicitação GetRooms
 
 ### <a name="description"></a>Descrição
 
-Veja a seguir um exemplo de uma solicitação **Getrooms** que obtém as salas que estão associadas a uma lista de salas. 
+Veja a seguir um exemplo de uma **solicitação GetRooms** que obtém as salas associadas a uma lista de salas. 
   
 ### <a name="code"></a>Código
 
@@ -61,23 +61,23 @@ Veja a seguir um exemplo de uma solicitação **Getrooms** que obtém as salas q
 
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
 - [RequestServerVersion](requestserverversion.md)
     
-- [Getrooms](getrooms.md)
+- [GetRooms](getrooms.md)
     
 - [RoomList](roomlist.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-## <a name="successful-getrooms-response-example"></a>Exemplo de resposta de getrooms bem-sucedida
+## <a name="successful-getrooms-response-example"></a>Exemplo de resposta bem-sucedida do GetRooms
 
 ### <a name="description"></a>Descrição
 
-A resposta a seguir mostra as informações de endereço de email para as salas que estão associadas à lista de salas.
+A resposta a seguir mostra as informações de endereço de email para as salas associadas à lista de salas.
   
 ### <a name="code"></a>Código
 
@@ -113,7 +113,7 @@ A resposta a seguir mostra as informações de endereço de email para as salas 
 </s:Envelope>
 ```
 
-### <a name="successful-getrooms-response-elements"></a>Elementos de resposta de getrooms bem-sucedidos
+### <a name="successful-getrooms-response-elements"></a>Elementos de resposta GetRooms bem-sucedidos
 
 Os seguintes elementos são usados na resposta:
   
@@ -123,11 +123,11 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-- [Quartos](rooms.md)
+- [Rooms](rooms.md)
     
-- [Sala](room.md)
+- [Room](room.md)
     
-- [Nome (EmailAddress)](name-emailaddress.md)
+- [Name (EmailAddress)](name-emailaddress.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
@@ -135,11 +135,11 @@ Os seguintes elementos são usados na resposta:
     
 - [MailboxType](mailboxtype.md)
     
-## <a name="getrooms-error-response-example"></a>Exemplo de resposta de erro getrooms
+## <a name="getrooms-error-response-example"></a>Exemplo de resposta de erro getRooms
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro causada por uma tentativa de obter informações de sala para uma lista de salas não existente.
+O exemplo a seguir mostra uma resposta de erro causada por uma tentativa de obter informações de sala para uma lista de sala inexistente.
   
 ### <a name="code"></a>Código
 
@@ -159,7 +159,7 @@ O exemplo a seguir mostra uma resposta de erro causada por uma tentativa de obte
 </s:Envelope>
 ```
 
-### <a name="getrooms-error-response-elements"></a>Elementos de resposta de erro getrooms
+### <a name="getrooms-error-response-elements"></a>Elementos de resposta de erro getRooms
 
 Os seguintes elementos são usados na resposta:
   
@@ -175,6 +175,6 @@ Os seguintes elementos são usados na resposta:
     
 ## <a name="see-also"></a>Confira também
 
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

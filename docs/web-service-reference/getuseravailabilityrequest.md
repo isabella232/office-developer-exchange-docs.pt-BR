@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserAvailabilityRequest
 api_type:
 - schema
 ms.assetid: 7906711b-80a1-42ae-8b33-26eeac036a5a
-description: O elemento GetUserAvailabilityRequest contém os argumentos usados para obter informações de disponibilidade do usuário. Este é um elemento raiz.
-ms.openlocfilehash: 6c2e2c5452b6379171e49cf6aea2d437152ecb9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetUserAvailabilityRequest contém os argumentos usados para obter informações de disponibilidade do usuário. Esse é um elemento raiz.
+ms.openlocfilehash: 8c0e14dc27ce7a742aa052bb1d424706407de484
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459115"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515807"
 ---
 # <a name="getuseravailabilityrequest"></a>GetUserAvailabilityRequest
 
-O elemento **GetUserAvailabilityRequest** contém os argumentos usados para obter informações de disponibilidade do usuário. Este é um elemento raiz. 
+O **elemento GetUserAvailabilityRequest** contém os argumentos usados para obter informações de disponibilidade do usuário. Esse é um elemento raiz. 
   
 ```xml
 <GetUserAvailabilityRequest>
@@ -45,22 +45,22 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Fuso horário (disponibilidade)](timezone-availability.md) <br/> |Contém elementos que identificam informações de fuso horário. Esse elemento também contém informações sobre a transição entre o horário padrão e o horário de verão.  <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> |Contém elementos que identificam informações de fuso horário. Esse elemento também contém informações sobre a transição entre o horário padrão e o horário de verão.  <br/> |
 |[MailboxDataArray](mailboxdataarray.md) <br/> |Contém uma lista de caixas de correio para consultar informações de disponibilidade.  <br/> |
-|[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Especifica o tipo de informações de disponibilidade retornadas na resposta.  <br/> |
+|[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Especifica o tipo de informação de ocupado/livre retornada na resposta.  <br/> |
 |[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contém as opções para obter informações de sugestão de reunião.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório/EWS/do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório /EWS/do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra uma solicitação de informações de disponibilidade.
+O exemplo a seguir mostra uma solicitação de informações de livre/ocupado.
   
 ```
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -128,5 +128,5 @@ O exemplo a seguir mostra uma solicitação de informações de disponibilidade.
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

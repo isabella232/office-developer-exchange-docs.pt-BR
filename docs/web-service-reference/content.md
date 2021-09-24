@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Content
 api_type:
 - schema
 ms.assetid: 24f8c54a-505f-4fc0-b7e7-93ad50b97070
 description: O elemento Content contém o conteúdo codificado em Base64 de um anexo de arquivo.
-ms.openlocfilehash: 81f6acf69ff702bd0645663cb2e499ee5b45ea78
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ccea4412416575f9a1d56a4cde6ebbfd0df31101
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458947"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513819"
 ---
 # <a name="content"></a>Conteúdo
 
-O elemento **Content** contém o conteúdo codificado em Base64 de um anexo de arquivo. 
+O **elemento Content** contém o conteúdo codificado em Base64 de um anexo de arquivo. 
   
 ```xml
 <Content/>
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo t é thattached a um item no repositório do Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Representa um arquivo t que está desconectado a um item no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor da cadeia de caracteres representa os dados binários codificados em base64 do anexo de arquivo.
+O valor da cadeia de caracteres representa os dados binários codificados em Base64 do anexo de arquivo.
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

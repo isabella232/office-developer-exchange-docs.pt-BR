@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InvalidRecipients
 api_type:
 - schema
 ms.assetid: e4e7b50e-2fa9-4649-94a6-6002f341ecc4
-description: O elemento InvalidRecipients representa os destinatários de uma solicitação de compartilhamento de pasta que são inválidas.
-ms.openlocfilehash: 99e0817f0ff873c4732b03cc7d68aa8e0070813c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento InvalidRecipients representa os destinatários de uma solicitação de compartilhamento de pasta inválida.
+ms.openlocfilehash: bf9e25b0b0075b99fef8a95b3d4be87727c4cc84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465559"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539539"
 ---
 # <a name="invalidrecipients"></a>InvalidRecipients
 
-O elemento **InvalidRecipients** representa os destinatários de uma solicitação de compartilhamento de pasta que são inválidas. 
+O **elemento InvalidRecipients** representa os destinatários de uma solicitação de compartilhamento de pasta inválida. 
   
 ```XML
 <InvalidRecipients>
@@ -42,14 +42,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[InvalidRecipient](invalidrecipient.md) <br/> |Contém o endereço SMTP do destinatário inválido e as informações sobre o motivo pelo qual o destinatário é inválido.  <br/> |
+|[InvalidRecipient](invalidrecipient.md) <br/> |Contém o endereço SMTP do destinatário inválido e informações sobre por que o destinatário é inválido.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetSharingMetadataResponse](getsharingmetadataresponse.md) <br/> |Define uma resposta a uma solicitação de [operação GetSharingMetadata](getsharingmetadata-operation.md) .  <br/> |
-|[GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md) <br/> |Contém o status e o resultado de uma única solicitação de [operação GetSharingMetadata](getsharingmetadata-operation.md) .  <br/> |
+|[GetSharingMetadataResponse](getsharingmetadataresponse.md) <br/> |Define uma resposta a uma [solicitação de operação GetSharingMetadata.](getsharingmetadata-operation.md)  <br/> |
+|[GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md) <br/> |Contém o status e o resultado de uma única solicitação de operação [GetSharingMetadata.](getsharingmetadata-operation.md)  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

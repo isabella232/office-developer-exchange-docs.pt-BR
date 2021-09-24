@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveFolderResponse
 api_type:
 - schema
 ms.assetid: e7dd2fb8-e362-42e5-a480-4d816813526d
 description: O elemento MoveFolderResponse define uma resposta a uma solicitação MoveFolder.
-ms.openlocfilehash: 2019321dcb03ec5e63b47a6b7579c8bd46756391
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f09a9c320dce99fc7a0066f71332dfb9a4075b17
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461734"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540626"
 ---
 # <a name="movefolderresponse"></a>MoveFolderResponse
 
-O elemento **MoveFolderResponse** define uma resposta a uma solicitação MoveFolder. 
+O **elemento MoveFolderResponse** define uma resposta a uma solicitação MoveFolder. 
   
 ```xml
 <MoveFolderResponse>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 

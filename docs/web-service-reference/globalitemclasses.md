@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalItemClasses
 api_type:
 - schema
 ms.assetid: 72634700-6d75-44c0-80b7-8c31743c04d6
 description: O elemento GlobalItemClasses contém uma lista de classes de item que representa todas as classes de item dos itens de conversa em uma caixa de correio.
-ms.openlocfilehash: e4cb8a8886f8262e8cb4a550b054e81ea18a5e11
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0081a59bccf9fb6d967334d3ec5df2b379529ae8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459430"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515723"
 ---
 # <a name="globalitemclasses"></a>GlobalItemClasses
 
-O elemento **GlobalItemClasses** contém uma lista de classes de item que representa todas as classes de item dos itens de conversa em uma caixa de correio. 
+O **elemento GlobalItemClasses** contém uma lista de classes de item que representa todas as classes de item dos itens de conversa em uma caixa de correio. 
   
 [FindConversationResponse](findconversationresponse.md)
   
 [Conversas](conversations-ex15websvcsotherref.md)
   
-[Conversa (Conversatype)](conversation-conversationtype.md)
+[Conversation (ConversationType)](conversation-conversationtype.md)
   
 [GlobalItemClasses](globalitemclasses.md)
   
@@ -56,7 +56,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -64,7 +64,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -72,7 +72,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

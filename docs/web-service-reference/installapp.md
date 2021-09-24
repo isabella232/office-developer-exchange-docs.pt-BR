@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc2ca69e-eea7-4334-b046-ec0b04d8f8c6
 description: O elemento InstallApp especifica a solicitação para instalar um aplicativo.
-ms.openlocfilehash: 003a72507813677484b2d6ee75f8ff577df169e3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 518dbfcbe452b9d31f47e9f94b8a42a0883165fe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468002"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539581"
 ---
 # <a name="installapp"></a>InstallApp
 
-O elemento **InstallApp** especifica a solicitação para instalar um aplicativo. 
+O **elemento InstallApp** especifica a solicitação para instalar um aplicativo. 
   
 ```XML
 <InstallApp>
@@ -38,11 +38,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Manifesto](manifest.md) <br/> |Contém o arquivo de manifesto de aplicativo codificado em base64.  <br/> |
+|[Manifesto](manifest.md) <br/> |Contém o arquivo de manifesto do aplicativo codificado com base64.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

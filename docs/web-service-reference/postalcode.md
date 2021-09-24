@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PostalCode
 api_type:
 - schema
 ms.assetid: 35935ca3-60d5-47f0-b16d-69ab2b8fdd49
 description: O elemento PostalCode representa o código postal de um item de contato.
-ms.openlocfilehash: edfb4590b7156229b5f6a893a96dca8d9fbea853
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5564cba2d638189fafd3aa0e4ece20d4fc050861
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457162"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515275"
 ---
 # <a name="postalcode"></a>PostalCode
 
-O elemento **PostalCode** representa o código postal de um item de contato. 
+O **elemento PostalCode** representa o código postal de um item de contato. 
   
 ```xml
 <PostalCode/>
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Entrada (PhysicalAddress)](entry-physicaladdress.md) <br/> |Descreve um único endereço físico para um item de contato.  <br/> |
+|[Entry (PhysicalAddress)](entry-physicaladdress.md) <br/> |Descreve um único endereço físico para um item de contato.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeZoneContext
 api_type:
 - schema
 ms.assetid: 573c462b-aa1d-4ba0-8852-e3f48b26873b
-description: O elemento TimeZoneContext é usado no cabeçalho SOAP (Simple Object Access Protocol) para especificar a definição de fuso horário que deve ser usada como padrão ao atribuir o fuso horário das propriedades DateTime dos objetos criados, atualizados e recuperados usando o EWS (serviços Web do Exchange).
-ms.openlocfilehash: 26727317ccf34338e8d62ec92bd7a44d43a6cfdb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento TimeZoneContext é usado no header SOAP (Simple Object Access Protocol) para especificar a definição de fuso horário que deve ser usada como padrão ao atribuir o fuso horário para as propriedades DateTime dos objetos criados, atualizados e recuperados usando o Exchange Web Services (EWS).
+ms.openlocfilehash: a628d4a094e70f1190f2cc0eda8cc4416bc37860
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460250"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515170"
 ---
 # <a name="timezonecontext"></a>TimeZoneContext
 
-O elemento **TimeZoneContext** é usado no cabeçalho SOAP (Simple Object Access Protocol) para especificar a definição de fuso horário que deve ser usada como padrão ao atribuir o fuso horário das propriedades DateTime dos objetos criados, atualizados e recuperados usando o EWS (serviços Web do Exchange). 
+O **elemento TimeZoneContext** é usado no header SOAP (Simple Object Access Protocol) para especificar a definição de fuso horário que deve ser usada como padrão ao atribuir o fuso horário para as propriedades DateTime dos objetos criados, atualizados e recuperados usando o Exchange Web Services (EWS). 
   
 ```xml
 <TimeZoneContext>
@@ -42,15 +42,15 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[TimeZoneDefinition](timezonedefinition.md) <br/> |Especifica os períodos e as transições que definem um fuso horário.  <br/> |
+|[TimeZoneDefinition](timezonedefinition.md) <br/> |Especifica os períodos e transições que definem um fuso horário.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

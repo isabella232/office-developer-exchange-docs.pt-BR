@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d730e3af-3102-4242-a2f1-c2873af188f9
 description: O elemento BodyType especifica o tipo do corpo do item.
-ms.openlocfilehash: e9e09ea01477558f3a12abbee3d028b9268ac7eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7d687dea668b9ac21f9cbf88ca0bcad6e3f66d03
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461503"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514834"
 ---
 # <a name="bodytype-bodytypetype"></a>BodyType (BodyTypeType)
 
-O elemento **BodyType** especifica o tipo do corpo do item. 
+O **elemento BodyType** especifica o tipo do corpo do item. 
   
 ```XML
 <BodyType> HTML | Text</BodyType>
@@ -62,8 +62,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

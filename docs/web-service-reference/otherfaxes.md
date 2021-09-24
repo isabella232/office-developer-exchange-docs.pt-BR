@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 74d97d4a-e452-4d2e-9cd2-89e93d766fb0
-description: O elemento OtherFaxes especifica uma matriz de valores de número de telefone de fax e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: 1298f5c8d20447b31a9800be5b960a5bd96fb44b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento OtherFaxes especifica uma matriz de valores de número de telefone de fax e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: 0e7b6f3fb6185b9b1cf1c496db2cbc3e0b7e17cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462357"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514155"
 ---
 # <a name="otherfaxes"></a>OtherFaxes
 
-O elemento **OtherFaxes** especifica uma matriz de valores de número de telefone de fax e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento OtherFaxes** especifica uma matriz de valores de número de telefone de fax e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <OtherFaxes>
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

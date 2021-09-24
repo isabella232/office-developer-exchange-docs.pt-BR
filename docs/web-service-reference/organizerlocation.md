@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c76bd1d-6099-4966-a93e-865437267e33
-description: O elemento OrganizerLocation é destinado apenas para uso interno.
-ms.openlocfilehash: cd60ea3e671037509df4f52c1e34e6bdbf9fadf8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento OrganizerLocation destina-se apenas ao uso interno.
+ms.openlocfilehash: 5bb1a993c6ce7b12d2b517151430e0301e61d744
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462385"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514218"
 ---
 # <a name="organizerlocation"></a>OrganizerLocation
 
-O elemento **OrganizerLocation** é destinado apenas para uso interno. 
+O **elemento OrganizerLocation** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

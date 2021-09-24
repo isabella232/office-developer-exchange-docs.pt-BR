@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HiddenRecipient
 api_type:
 - schema
 ms.assetid: a8209f75-0070-4424-8dcd-273cfd192728
-description: O elemento HiddenRecipient indica que o destinatário foi adicionado por uma política da organização que deve ser ocultada de usuários não privilegiados.
-ms.openlocfilehash: bfe57fabc02ff00c801672b71ccdb0bf1b916bd9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento HiddenRecipient indica que o destinatário foi adicionado por uma política de organização que deve ser ocultada de usuários nãoprivilegados.
+ms.openlocfilehash: 24d7dcad5b8b744351804160ef8d9988b9e393a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457638"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539686"
 ---
 # <a name="hiddenrecipient"></a>HiddenRecipient
 
-O elemento **HiddenRecipient** indica que o destinatário foi adicionado por uma política da organização que deve ser ocultada de usuários não privilegiados. 
+O **elemento HiddenRecipient** indica que o destinatário foi adicionado por uma política de organização que deve ser ocultada de usuários nãoprivilegados. 
   
 ```XML
 <HiddenRecipient>true | false</HiddenRecipient>
@@ -48,7 +48,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Esse elemento pode ser **true** ou **false**. Um valor **true** indica que o usuário foi adicionado por uma política de organização; um valor **false** indica que o usuário não foi adicionado por uma política da organização. 
+Esse elemento pode ser **verdadeiro ou** **falso.** Um valor **verdadeiro** indica que o usuário foi adicionado por uma política de organização; um valor **false** indica que o usuário não foi adicionado por uma política de organização. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

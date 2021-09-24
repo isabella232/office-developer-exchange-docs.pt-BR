@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ProtectionRulesConfiguration
 api_type:
 - schema
 ms.assetid: e5b4699a-476e-4053-bb52-873eb921c046
 description: O elemento ProtectionRulesConfiguration contém informações de configuração de serviço para o serviço de regras de proteção.
-ms.openlocfilehash: e664fba78f170c9f4c59b49b3a08c0dd2e4ed4cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0d88f5c8ef414c96ae5f65cf3f82362fe2137472
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456719"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516401"
 ---
 # <a name="protectionrulesconfiguration"></a>ProtectionRulesConfiguration
 
-O elemento **ProtectionRulesConfiguration** contém informações de configuração de serviço para o serviço de regras de proteção. 
+O **elemento ProtectionRulesConfiguration** contém informações de configuração de serviço para o serviço de regras de proteção. 
   
 ```XML
 <ProtectionRulesConfiguration RefreshInterval="">
@@ -39,20 +39,20 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|**RefreshInterval** <br/> |Especifica com que frequência, em horas inteiras, o cliente deve solicitar regras de proteção do servidor. Este atributo é obrigatório e seu valor deve ser um inteiro igual ou maior que 1.  <br/> |
+|**RefreshInterval** <br/> |Especifica com que frequência, em horas inteiras, o cliente deve solicitar regras de proteção do servidor. Esse atributo é necessário e seu valor deve ser um inteiro igual ou maior que 1.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Regras](rules-ex15websvcsotherref.md) <br/> |Uma matriz de regras de proteção. Este elemento é obrigatório.  <br/> |
+|[Regras ](rules-ex15websvcsotherref.md) <br/> |Uma matriz de regras de proteção. Este elemento é obrigatório.  <br/> |
 |[InternalDomains (SmtpDomainList)](internaldomains-smtpdomainlist.md) <br/> |Identifica a lista de domínios SMTP internos da organização. Este elemento é obrigatório.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contém definições de configuração de serviço.  <br/> |
+|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contém configurações de serviço.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

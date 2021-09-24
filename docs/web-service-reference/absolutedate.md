@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AbsoluteDate
 api_type:
 - schema
 ms.assetid: 8bc59a26-6fe1-42e9-968c-69a94a3fb0ae
-description: O elemento AbsoluteDate representa a data em que o horário muda de horário padrão ou de horário de verão.
-ms.openlocfilehash: 1874fea02c1eeeb41522046963e1d1b2fcea645a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AbsoluteDate representa a data em que a hora muda do horário de verão ou padrão.
+ms.openlocfilehash: 5482afcfda1de76d11fea548709836f14c6c2aca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461727"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540361"
 ---
 # <a name="absolutedate"></a>AbsoluteDate
 
-O elemento **AbsoluteDate** representa a data em que o horário muda de horário padrão ou de horário de verão. 
+O **elemento AbsoluteDate** representa a data em que a hora muda do horário de verão ou padrão. 
   
 ```xml
 <AbsoluteDate/>
@@ -45,12 +45,12 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Standard](standard.md) <br/> |Representa a data e a hora em que o horário muda do horário de verão para o horário padrão.  <br/> |
-|[Norte](daylight.md) <br/> |Representa a data e a hora em que o horário muda do horário padrão para o horário de verão.  <br/> |
+|[Standard](standard.md) <br/> |Representa a data e a hora em que a hora muda do horário de verão para a hora padrão.  <br/> |
+|[Daylight](daylight.md) <br/> |Representa a data e a hora em que a hora muda do horário padrão para o horário de verão.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa a data em que ocorre a alternância entre o horário padrão ou de verão.
+O valor do texto representa a data em que ocorre o deslocamento entre o horário padrão ou o horário de verão.
   
 ## <a name="remarks"></a>Comentários
 
@@ -62,7 +62,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

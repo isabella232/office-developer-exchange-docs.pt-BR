@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResolveNamesResponse
 api_type:
 - schema
 ms.assetid: 5e7be1e2-44ea-403f-9135-2388d030078c
-description: O elemento ResolveNamesResponse define uma resposta para uma solicitação ResolveNames.
-ms.openlocfilehash: 29ae2d20db9f2d689f315f66d62385252046c055
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ResolveNamesResponse define uma resposta a uma solicitação ResolveNames.
+ms.openlocfilehash: 654e60926915da4a43823a44ae1e86d086692774
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455601"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514134"
 ---
 # <a name="resolvenamesresponse"></a>ResolveNamesResponse
 
-O elemento **ResolveNamesResponse** define uma resposta para uma solicitação ResolveNames. 
+O **elemento ResolveNamesResponse** define uma resposta a uma solicitação ResolveNames. 
   
 ```xml
 <ResolveNamesResponse>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

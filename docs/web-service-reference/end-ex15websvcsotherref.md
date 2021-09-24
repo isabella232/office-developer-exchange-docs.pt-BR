@@ -1,27 +1,27 @@
 ---
-title: Final
+title: End
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - End
 api_type:
 - schema
 ms.assetid: 72329821-32ff-495d-b6e5-fdc011003c2e
-description: O elemento final representa o final de uma duração.
-ms.openlocfilehash: d36f555d2ac9c0c1d82053029720ec17a53f2d92
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento End representa o fim de uma duração.
+ms.openlocfilehash: 8f7fd448a873f82a82c6bd129fc16af9241d7f3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456140"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540087"
 ---
-# <a name="end"></a>Final
+# <a name="end"></a>End
 
-O elemento **final** representa o final de uma duração. 
+O **elemento End** representa o fim de uma duração. 
   
 ```xml
 <End/>
@@ -44,23 +44,23 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
 |[FirstOccurrence](firstoccurrence.md) <br/> |Representa a primeira ocorrência de um item de calendário recorrente.  <br/> |
 |[LastOccurrence](lastoccurrence.md) <br/> |Representa a última ocorrência de um item de calendário recorrente.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
-|[Ocorrência](occurrence.md) <br/> |Representa uma única ocorrência modificada de um item de calendário recorrente.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
+|[Occurrence](occurrence.md) <br/> |Representa uma única ocorrência modificada de um item de calendário recorrente.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o final de uma duração.
+O valor do texto representa o fim de uma duração.
   
 ## <a name="remarks"></a>Comentários
 
-A operação UpdateItem pode definir a hora de [início](start.md) e de **término** de um item do repositório do Exchange. Em uma solicitação UpdateItem, você pode definir a hora de [início](start.md) sem definir a hora de **término** . Isso pode causar um erro se a hora de [início](start.md) for posterior à hora de **término** . Lembre-se de que os aplicativos cliente devem realizar ajustes na hora de **término** em que a hora de [início](start.md) é alterada para preservar a duração. 
+A operação UpdateItem pode definir a hora [de início](start.md) **e** término de um Exchange de armazenamento. Em uma solicitação UpdateItem, você pode definir a hora [de](start.md) início sem também definir a **hora de** término. Isso pode causar um erro se a hora [de](start.md) início for posterior à **hora de** Término. Esteja ciente de que os aplicativos cliente devem realizar ajustes na hora **de** término quando [esse](start.md) horário de início for alterado para preservar a duração. 
   
- **Observação** As informações de deslocamento de fuso horário serão perdidas se as datas de [início](start.md) e **término** do item mestre recorrente não tiverem uma data igual à primeira ocorrência de um padrão de recorrência semanal. 
+ **Observação** As informações de deslocamento do [](start.md) fuso  horário são perdidas se as datas inicial e final do item mestre recorrente não têm uma data igual à primeira ocorrência de um padrão de recorrência semanal. 
   
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -68,7 +68,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

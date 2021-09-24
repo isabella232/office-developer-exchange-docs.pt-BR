@@ -1,27 +1,27 @@
 ---
-title: Imendereços
+title: ImAddresses
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ImAddresses
 api_type:
 - schema
 ms.assetid: 29f614a7-7fe6-47fa-b5f2-8feff106aa99
 description: O elemento ImAddresses representa uma coleção de endereços de mensagens instantâneas para um contato.
-ms.openlocfilehash: 24ff74d29c918d71116e25e097878b6e4e0a8ead
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 83f2b79644e311eb3b7b21f215c7e00df7f1c420
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460425"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515688"
 ---
-# <a name="imaddresses"></a>Imendereços
+# <a name="imaddresses"></a>ImAddresses
 
-O elemento **ImAddresses** representa uma coleção de endereços de mensagens instantâneas para um contato. 
+O **elemento ImAddresses** representa uma coleção de endereços de mensagens instantâneas para um contato. 
   
 ```xml
 <ImAddresses>
@@ -42,13 +42,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Entrada (IMAddress)](entry-imaddress.md) <br/> |Representa um endereço de mensagens instantâneas para um contato.  <br/> |
+|[Entry (IMAddress)](entry-imaddress.md) <br/> |Representa um endereço de mensagens instantâneas para um contato.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

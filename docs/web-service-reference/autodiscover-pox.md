@@ -1,26 +1,26 @@
 ---
-title: Descoberta automática (POX)
+title: AutoDiscover (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 611fcf5f-780a-42ea-bccb-9462a2f0c095
-description: O elemento autodiscover é o elemento raiz em uma solicitação ou resposta de descoberta automática.
-ms.openlocfilehash: 6fc889dc700a9fb068949d3ba5e4e6907b839f3c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AutoDiscover é o elemento raiz em uma solicitação ou resposta de Descoberta Automática.
+ms.openlocfilehash: 923f514b49ace6a9bb39cdd87099f7b391ec2604
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527429"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514883"
 ---
-# <a name="autodiscover-pox"></a>Descoberta automática (POX)
+# <a name="autodiscover-pox"></a>AutoDiscover (POX)
 
-O elemento **autodiscover** é o elemento raiz em uma solicitação ou resposta de descoberta automática. 
+O **elemento AutoDiscover** é o elemento raiz em uma solicitação ou resposta de Descoberta Automática. 
   
-- [Descoberta automática (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
 ```xml
  <Autodiscover>
@@ -46,8 +46,8 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Solicitação (POX)](request-pox.md) <br/> |Contém a solicitação para o serviço de descoberta automática.  <br/> |
-|[Resposta (POX)](response-pox.md) <br/> |Contém a resposta do serviço de descoberta automática.  <br/> |
+|[Request (POX)](request-pox.md) <br/> |Contém a solicitação para o serviço descoberta automática.  <br/> |
+|[Response (POX)](response-pox.md) <br/> |Contém a resposta do serviço descoberta automática.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -55,5 +55,5 @@ Nenhum
   
 ## <a name="see-also"></a>Ver também
 
-- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsRead
 api_type:
 - schema
 ms.assetid: 161455d5-a870-4c99-b2eb-c759c538f1bc
 description: O elemento IsRead indica se uma mensagem foi lida.
-ms.openlocfilehash: b6f2c2d72dd550f7ec8ed9a3415dc0715b3e376f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cbd2fb90a413e1ec700cf07a11e0082a985545b4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460369"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539392"
 ---
 # <a name="isread"></a>IsRead
 
-O elemento **IsRead** indica se uma mensagem foi lida. 
+O **elemento IsRead** indica se uma mensagem foi lida. 
   
 ```XML
 <IsRead/>
@@ -44,22 +44,22 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[RemoveItem](removeitem.md) <br/> |Remove um item do repositório do Exchange.  <br/> |
-|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no repositório do Exchange.  <br/> |
-|[Item de postagem](postitem.md) <br/> |Representa um item de postagem no repositório do Exchange. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
-|[Conversation](conversationaction.md) <br/> |Contém uma única ação a ser aplicada a uma única conversa.  <br/> |
+|[RemoveItem](removeitem.md) <br/> |Remove um item do Exchange store.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma Exchange de email.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no Exchange store.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no Exchange store.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no Exchange store.  <br/> |
+|[Item de postagem](postitem.md) <br/> |Representa um item post no Exchange store. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contém uma única ação a ser aplicada a uma única conversa.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor **true** indica que a mensagem foi lida. Um valor de texto **false** indica que a mensagem não foi lida. 
+Um valor de texto **true** indica que a mensagem foi lida. Um valor de texto **false** indica que a mensagem não foi lida. 
   
 ## <a name="remarks"></a>Comentários
 
-Se [IsReadReceiptRequested](isreadreceiptrequested.md) for **true**, a definição de **IsRead** como **true** enviará uma confirmação de leitura. O destinatário pode suprimir as confirmações de leitura enviando o objeto de resposta [SuppressReadReceipt](suppressreadreceipt.md) antes de definir a propriedade **IsRead** . 
+Se [IsReadReceiptRequested](isreadreceiptrequested.md) for **true**, a configuração **de IsRead** como **true** envia um recibo de leitura. O destinatário pode suprimir recibos de leitura enviando o objeto de resposta [SuppressReadReceipt](suppressreadreceipt.md) antes de definir a **propriedade IsRead.** 
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
@@ -69,7 +69,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

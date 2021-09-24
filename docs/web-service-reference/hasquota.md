@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HasQuota
 api_type:
 - schema
 ms.assetid: b6e4fef0-92a9-415f-81ae-0c5ecb7c12ad
 description: O elemento HasQuota indica se a pasta gerenciada tem uma cota.
-ms.openlocfilehash: 6e32aa4c69943774be928339936cca5016c58d85
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 86192ac5dd8d7e88531aaf9c3f165f01831436c1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462749"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539658"
 ---
 # <a name="hasquota"></a>HasQuota
 
-O elemento **HasQuota** indica se a pasta gerenciada tem uma cota. 
+O **elemento HasQuota** indica se a pasta gerenciada tem uma cota. 
   
 ```xml
 <HasQuota/>
@@ -48,7 +48,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa um valor booliano. Um valor **true** indica que a pasta tem uma cota; um valor **false** indica que a pasta não tem uma cota. 
+O valor de texto representa um valor Boolean. Um valor **true** indica que a pasta tem uma cota; um valor de **false** indica que a pasta não tem uma cota. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

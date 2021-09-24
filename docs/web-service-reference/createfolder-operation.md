@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateFolder
 api_type:
 - schema
 ms.assetid: 6f6c334c-b190-4e55-8f0a-38f2a018d1b3
 description: A operação CreateFolder cria pastas, pastas de calendário, pastas de contatos, pastas de tarefas e pastas de pesquisa.
-ms.openlocfilehash: 125a6d212e5eaf85ace71c048de809f3a05ba9b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1b6259ba15e31ee9976c08afa8971ead9a1d5b16
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457547"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515849"
 ---
 # <a name="createfolder-operation"></a>Operação CreateFolder
 
@@ -53,7 +53,7 @@ O exemplo a seguir de uma solicitação CreateFolder mostra como formar uma soli
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -70,14 +70,14 @@ Os seguintes elementos são usados na solicitação:
 - [DisplayName (cadeia de caracteres)](displayname-string.md)
     
 > [!NOTE]
-> O esquema que descreve esses elementos está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem a função de servidor de acesso para Cliente instalada. 
+> O esquema que descreve esses elementos está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada. 
   
-Para encontrar outras opções para a mensagem de solicitação da operação CreateFolder, explore a hierarquia do esquema. Inicie no elemento [CreateFolder](createfolder.md) . 
+Para encontrar outras opções para a mensagem de solicitação da operação CreateFolder, explore a hierarquia de esquema. Comece no [elemento CreateFolder.](createfolder.md) 
   
 > [!NOTE]
-> Se você criar uma pasta de pesquisa com uma restrição usando a propriedade **calendário: organizador** , uma chamada de pasta Get subsequente retornará a restrição com a propriedade **Message: from** em seu lugar. Essas duas propriedades são mapeadas para a mesma propriedade MAPI subjacente. 
+> Se você criar uma pasta de pesquisa com uma restrição usando a propriedade **calendar:Organizer,** uma chamada de pasta get subsequente retornará a restrição com a propriedade **message:from** em seu lugar. Essas duas propriedades mapeiam para a mesma propriedade MAPI subjacente. 
   
-A operação CreateFolder oferece suporte à criação de uma classe de pasta personalizada somente quando você cria a pasta usando um elemento de tipo de pasta genérico e define o elemento **FolderClass** . 
+A operação CreateFolder dá suporte à criação de uma classe de pasta personalizada somente quando você cria a pasta usando um elemento de tipo de pasta genérico e desdopaco o **elemento FolderClass.** 
   
 ## <a name="successful-createfolder-response-example"></a>Exemplo de resposta CreateFolder bem-sucedida
 
@@ -86,7 +86,7 @@ A operação CreateFolder oferece suporte à criação de uma classe de pasta pe
 O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CreateFolder. Neste exemplo, a resposta retorna os identificadores das novas pastas.
   
 > [!NOTE]
-> A ID da pasta e a chave de alteração foram reduzidas para preservar a legibilidade. 
+> A ID da pasta e a chave de alteração foram reduzidas para preservar a capacidade de leitura. 
   
 ### <a name="code"></a>Código
 
@@ -146,7 +146,7 @@ Os seguintes elementos são usados na resposta:
     
 - [FolderId](folderid.md)
     
-Para encontrar outras opções para a mensagem de resposta da operação CreateFolder, explore a hierarquia do esquema. Inicie no elemento [CreateFolderResponse](createfolderresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta da operação CreateFolder, explore a hierarquia de esquema. Comece no [elemento CreateFolderResponse.](createfolderresponse.md) 
   
 ## <a name="createfolder-error-response"></a>Resposta de erro CreateFolder
 
@@ -202,7 +202,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [Pastas](folders-ex15websvcsotherref.md)
     
-Para encontrar outras opções para a mensagem de resposta de erro da operação CreateFolder, explore a hierarquia de esquema. Inicie no elemento [CreateFolderResponse](createfolderresponse.md) . 
+Para encontrar outras opções para a mensagem de resposta de erro da operação CreateFolder, explore a hierarquia de esquema. Comece no [elemento CreateFolderResponse.](createfolderresponse.md) 
   
 ## <a name="see-also"></a>Confira também
 
@@ -218,5 +218,5 @@ Para encontrar outras opções para a mensagem de resposta de erro da operação
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Criando pastas (serviços Web do Exchange)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+[Criando Pastas (Exchange Web Services)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 
