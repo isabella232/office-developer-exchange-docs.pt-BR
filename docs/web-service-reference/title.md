@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Title
 api_type:
 - schema
 ms.assetid: 089c2e7c-38d1-4245-8d97-646b6a720d10
-description: O elemento title representa o título de um contato.
-ms.openlocfilehash: a9948d7a9d48e8cdb03d676992cad342861bb211
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Title representa o título de um contato.
+ms.openlocfilehash: 9894b32379760b3c6364c84bfee8f11b1a649c80
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468751"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545773"
 ---
 # <a name="title"></a>Título
 
-O elemento **title** representa o título de um contato. 
+O **elemento Title** representa o título de um contato. 
   
 ```xml
 <Title/>
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -70,5 +70,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Criando contatos (serviços Web do Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Criando contatos (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30180298-2501-4369-9b8f-2f7663f02336
-description: O elemento AddBlankTargetToLinks especifica que o atributo de destino nos links HTML está definido para abrir uma nova janela.
-ms.openlocfilehash: 1d4d36c1f4b98ebee96baea683c40527d2a9ec27
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AddBlankTargetToLinks especifica que o atributo de destino em links HTML está definido para abrir uma nova janela.
+ms.openlocfilehash: c8d7a5973e60e43638472b0da29842ce1caacc98
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465040"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543825"
 ---
 # <a name="addblanktargettolinks"></a>AddBlankTargetToLinks
 
-O elemento **AddBlankTargetToLinks** especifica que o atributo de destino nos links HTML está definido para abrir uma nova janela. 
+O **elemento AddBlankTargetToLinks** especifica que o atributo de destino em links HTML está definido para abrir uma nova janela. 
   
 ```XML
 <AddBlankTargetToLinks> true | false </AddBlankTargetToLinks>
 ```
 
-**xs: Boolean**
+**xs:Boolean**
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -41,15 +41,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Shape](itemshape.md) <br/> | Identifica as propriedades e o conteúdo do item que serão incluídos em uma resposta **GetItem**, **FindItem**, **GetConversationItems** ou **SyncFolderItems** .<br/><br/>  A seguir estão as expressões XPath para este elemento:<br/><br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/>  `/GetConversationItems/ItemShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Identifica as propriedades do item e o conteúdo a ser incluído em uma resposta **GetItem,** **FindItem,** **GetConversationItems** ou **SyncFolderItems.**<br/><br/>  Veja a seguir as expressões XPath para este elemento:<br/><br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/>  `/GetConversationItems/ItemShape` <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **AddBlankTargetToLinks** indica que todos os links HTML serão definidos para abrir uma nova janela. Um valor **false** indica que os links HTML serão abertos na janela atual. 
+Um valor de texto **true** para o **elemento AddBlankTargetToLinks** indica que todos os links HTML serão definidos para abrir uma nova janela. Um valor **false** indica que os links HTML serão abertos na janela atual. 
   
 ## <a name="remarks"></a>Comentários
 
-Este elemento é opcional.
+Esse elemento é opcional.
   
 Este elemento foi introduzido no Exchange Server 2013.
   
@@ -60,8 +60,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

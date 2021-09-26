@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExternalReply
 api_type:
 - schema
 ms.assetid: cbcfa469-242c-4f98-8f4f-2c9bcbe69f5a
-description: O elemento ExternalReply contém a resposta de ausência temporária (OOF) que é enviada para endereços fora do domínio do destinatário ou domínios confiáveis.
-ms.openlocfilehash: c3381979e5e6aad51f9ae2bb3e661003ef793be6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ExternalReply contém a resposta OOF (out of office) que é enviada para endereços fora do domínio do destinatário ou domínios confiáveis.
+ms.openlocfilehash: b09e7136c1be7f30bae42585b12d203cf404d2c4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458758"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545122"
 ---
 # <a name="externalreply"></a>ExternalReply
 
-O elemento **ExternalReply** contém a resposta de ausência temporária (OOF) que é enviada para endereços fora do domínio do destinatário ou domínios confiáveis. 
+O **elemento ExternalReply** contém a resposta OOF (out of office) que é enviada para endereços fora do domínio do destinatário ou domínios confiáveis. 
   
 ```XML
 <ExternalReply>
@@ -38,20 +38,20 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|XML: lang  <br/> |Especifica o idioma usado na mensagem **ExternalReply** . Os valores possíveis para este atributo são definidos pela IETF RFC 3066.  <br/> |
+|xml:lang  <br/> |Especifica o idioma usado na **mensagem ExternalReply.** Os valores possíveis para esse atributo são definidos pelo IETF RFC 3066.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Mensagem (disponibilidade)](message-availability.md) <br/> |Contém a resposta de ausência temporária.  <br/> |
+|[Message (Availability)](message-availability.md) <br/> |Contém a resposta OOF.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações OOF.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contém as configurações OOF.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -59,7 +59,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação SetUserOofSettings define o [OofState](oofstate.md) como **habilitado**, define a duração de OOF como 10 dias e define as mensagens de ausência temporária interna e externa.
+O exemplo a seguir de uma solicitação SetUserOofSettings define [o OofState](oofstate.md) como **Habilitado**, define a duração do OOF como 10 dias e define as mensagens OOF internas e externas.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -96,7 +96,7 @@ O exemplo a seguir de uma solicitação SetUserOofSettings define o [OofState](o
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Subscribe
 api_type:
 - schema
 ms.assetid: f17c3d08-c79e-41f1-ba31-6e41e7aafd87
-description: A operação de assinatura é usada para assinar aplicativos cliente para notificações por Push ou pull. É importante estar ciente de que a estrutura das mensagens e respostas de solicitação é diferente dependendo do tipo de notificação de evento.
-ms.openlocfilehash: c40e0e434f698c6535ff5d03fd4d45a453959dd6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação Subscribe é usada para inscrever aplicativos cliente para notificações por push ou pull. É importante estar ciente de que a estrutura das mensagens e respostas de solicitação é diferente, dependendo do tipo de notificação de evento.
+ms.openlocfilehash: 546f7ab252c7d3a201130cd48e2b30ca52d00088
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467043"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544532"
 ---
 # <a name="subscribe-operation"></a>Operação Subscribe
 
-A operação de assinatura é usada para assinar aplicativos cliente para notificações por Push ou pull. É importante estar ciente de que a estrutura das mensagens e respostas de solicitação é diferente dependendo do tipo de notificação de evento. 
+A operação Subscribe é usada para inscrever aplicativos cliente para notificações por push ou pull. É importante estar ciente de que a estrutura das mensagens e respostas de solicitação é diferente, dependendo do tipo de notificação de evento. 
   
-## <a name="pull-subscription-subscribe-request-example"></a>Exemplo de solicitação de assinatura pull Subscription
+## <a name="pull-subscription-subscribe-request-example"></a>Exemplo de solicitação de inscrição de assinatura pull
 
 ### <a name="description"></a>Descrição
 
-O exemplo de código a seguir mostra como se inscrever em uma assinatura de notificação de evento de recepção. A assinatura informa ao aplicativo cliente se novos emails são adicionados à caixa de entrada e se um item é excluído da caixa de entrada. A assinatura expirará se o cliente não solicitar informações sobre os eventos em dez minutos. Se a assinatura expirar, uma nova assinatura deve ser estabelecida para continuar a solicitar notificações.
+O exemplo de código a seguir mostra como assinar uma assinatura de notificação de evento pull. A assinatura informa ao aplicativo cliente se novos emails são adicionados à Caixa de Entrada e se um item é excluído da Caixa de Entrada. A assinatura passará do tempo se o cliente não solicitar informações sobre eventos dentro de dez minutos. Se a assinatura expirar, uma nova assinatura deverá ser estabelecida para continuar a solicitar notificações.
   
 ### <a name="code"></a>Código
 
@@ -52,11 +52,11 @@ O exemplo de código a seguir mostra como se inscrever em uma assinatura de noti
 </soap:Envelope>
 ```
 
-### <a name="pull-subscription-subscribe-request-elements"></a>Elementos de solicitação de inscrição de assinatura pull
+### <a name="pull-subscription-subscribe-request-elements"></a>Puxar elementos de solicitação de assinatura de assinatura
 
 Os seguintes elementos são usados na solicitação:
   
-- [Assinar](subscribe.md)
+- [Subscribe](subscribe.md)
     
 - [PullSubscriptionRequest](pullsubscriptionrequest.md)
     
@@ -64,19 +64,19 @@ Os seguintes elementos são usados na solicitação:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [EventType](eventtypes.md)
+- [EventTypes](eventtypes.md)
     
 - [EventType](eventtype.md)
     
 - [Timeout](timeout.md)
     
-Para encontrar outras opções para a mensagem de solicitação da operação de assinatura, explore a hierarquia do esquema. Inicie no elemento [PullSubscriptionRequest](pullsubscriptionrequest.md) . 
+Para encontrar outras opções para a mensagem de solicitação da operação Assinar, explore a hierarquia de esquema. Comece no [elemento PullSubscriptionRequest.](pullsubscriptionrequest.md) 
   
-## <a name="successful-pull-subscription-subscribe-response-example"></a>Exemplo de resposta de inscrição de assinatura pull bem-sucedida
+## <a name="successful-pull-subscription-subscribe-response-example"></a>Exemplo de resposta de assinatura de assinatura pull bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de assinatura pull bem-sucedida. A resposta contém o identificador de assinatura e a marca d' água que é usada para obter a matriz de eventos que estão associados a uma assinatura. O identificador de assinatura também é usado para cancelar a assinatura de um cliente de uma assinatura.
+O exemplo a seguir mostra uma resposta de assinatura pull bem-sucedida. A resposta contém o identificador de assinatura e a marca d'água usada para obter a matriz de eventos associados a uma assinatura. O identificador de assinatura também é usado para cancelar a assinatura de um cliente.
   
 ### <a name="code"></a>Código
 
@@ -105,7 +105,7 @@ O exemplo a seguir mostra uma resposta de assinatura pull bem-sucedida. A respos
 </soap:Envelope>
 ```
 
-### <a name="pull-subscription-subscribe-response-elements"></a>Elementos de resposta de assinatura pull Subscription
+### <a name="pull-subscription-subscribe-response-elements"></a>Puxar elementos de resposta Assinar Assinatura
 
 Os seguintes elementos são usados na resposta:
   
@@ -121,13 +121,13 @@ Os seguintes elementos são usados na resposta:
     
 - [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
     
-- [Marca d'água](watermark.md)
+- [Watermark](watermark.md)
     
-## <a name="pull-subscription-subscribe-error-response-example"></a>Exemplo de resposta de erro de assinatura pull Subscription
+## <a name="pull-subscription-subscribe-error-response-example"></a>Exemplo de resposta Pull Subscription Subscribe Error
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de assinatura. O erro é causado por uma tentativa de inscrever-se em notificações usando o acesso de representante.
+O exemplo a seguir mostra uma resposta de erro a uma solicitação Descrever. O erro é causado por uma tentativa de assinatura de notificações usando o acesso de representante.
   
 ### <a name="code"></a>Código
 
@@ -156,7 +156,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de assinatura
 </soap:Envelope>
 ```
 
-### <a name="pull-subscription-error-response-elements"></a>Elementos de resposta de erro de assinatura pull
+### <a name="pull-subscription-error-response-elements"></a>Elementos de resposta Pull Subscription Error
 
 Os seguintes elementos são usados na resposta de erro:
   
@@ -174,11 +174,11 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="push-subscription-request-example"></a>Exemplo de solicitação de assinatura push
+## <a name="push-subscription-request-example"></a>Exemplo de solicitação de assinatura por push
 
 ### <a name="description"></a>Descrição
 
-O exemplo de código a seguir mostra como se inscrever em uma assinatura de notificação por push de eventos. A solicitação identifica as pastas a serem monitoradas, os tipos de eventos a serem monitorados, a frequência das notificações de status e a URL do serviço Web cliente que escuta as notificações por push.
+O exemplo de código a seguir mostra como assinar uma assinatura de notificação de evento por push. A solicitação identifica as pastas a ser monitoradas, os tipos de eventos a ser monitorados, a frequência de notificações de status e a URL do serviço Web cliente que escuta as notificações por push.
   
 ### <a name="code"></a>Código
 
@@ -211,15 +211,15 @@ O exemplo de código a seguir mostra como se inscrever em uma assinatura de noti
 
 ### <a name="comments"></a>Comentários
 
-O serviço Web do cliente deve ser configurado antes que a solicitação de assinatura de notificação por push seja enviada; caso contrário, a primeira notificação não será enviada para um ponto de extremidade válido e a notificação por push falhará. Para mais informações, consulte [aplicativo de exemplo de notificação por push](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx).
+O serviço Web do cliente deve ser definido antes que a solicitação de assinatura de notificação por push seja enviada; caso contrário, a primeira notificação não será enviada para um ponto de extremidade válido e a notificação por push falhará. Para obter mais informações, consulte [Push Notification Sample Application](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx).
   
-Uma nova [SubscriptionId (GetEvents)](subscriptionid-getevents.md) é criada ao se reinscrever. Use a marca d' água de uma assinatura anterior para se reinscrever no ponto em que a assinatura anterior terminou. 
+Um novo [SubscriptionId (GetEvents)](subscriptionid-getevents.md) é criado quando você rescreve. Use a marca d'água de uma assinatura anterior para assinar de novo no ponto em que a assinatura anterior terminou. 
   
-### <a name="push-subscription-request-elements"></a>Elementos de solicitação de assinatura push
+### <a name="push-subscription-request-elements"></a>Elementos de solicitação de assinatura por push
 
 Os seguintes elementos são usados na solicitação:
   
-- [Assinar](subscribe.md)
+- [Subscribe](subscribe.md)
     
 - [PushSubscriptionRequest](pushsubscriptionrequest.md)
     
@@ -227,19 +227,19 @@ Os seguintes elementos são usados na solicitação:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [EventType](eventtypes.md)
+- [EventTypes](eventtypes.md)
     
 - [EventType](eventtype.md)
     
 - [StatusFrequency](statusfrequency.md)
     
-- [Endereço](url-ex15websvcsotherref.md)
+- [Url ](url-ex15websvcsotherref.md)
     
-## <a name="successful-push-subscription-response-example"></a>Exemplo de resposta de assinatura push bem-sucedida
+## <a name="successful-push-subscription-response-example"></a>Exemplo de resposta de assinatura por push bem-sucedida
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de assinatura push bem-sucedida. 
+O exemplo a seguir mostra uma resposta de assinatura por push bem-sucedida. 
   
 ### <a name="code"></a>Código
 
@@ -268,7 +268,7 @@ O exemplo a seguir mostra uma resposta de assinatura push bem-sucedida.
 </soap:Envelope>
 ```
 
-### <a name="push-subscription-response-elements"></a>Elementos de resposta de assinatura push
+### <a name="push-subscription-response-elements"></a>Elementos de resposta de Assinatura por Push
 
 Os seguintes elementos são usados na resposta:
   
@@ -284,18 +284,18 @@ Os seguintes elementos são usados na resposta:
     
 - [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
     
-- [Marca d'água](watermark.md)
+- [Watermark](watermark.md)
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Cancelar a operação](unsubscribe-operation.md)
+[Operação de cancelamento de assinatura](unsubscribe-operation.md)
   
 [Operação GetEvents](getevents-operation.md)
 
 
-[Usando assinaturas pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+[Usando Assinaturas Pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
   
-[Aplicativo de amostra de notificação por push](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
+[Aplicativo de exemplo de notificações por push](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

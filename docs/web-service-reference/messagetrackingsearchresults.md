@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageTrackingSearchResults
 api_type:
 - schema
 ms.assetid: 6bf36f37-c2b3-40c1-a4df-31573ed8642a
-description: O elemento MessageTrackingSearchResults contém uma lista de registros que correspondem aos critérios de pesquisa.
-ms.openlocfilehash: 1e03cb135b7b2a125da1e29f7293d233f4e20ddb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MessageTrackingSearchResults contém uma lista de registros que corresponderão aos critérios de pesquisa.
+ms.openlocfilehash: d478bec8a898e03a7f90c7aab4d89b13add14e0a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468674"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542061"
 ---
 # <a name="messagetrackingsearchresults"></a>MessageTrackingSearchResults
 
-O elemento **MessageTrackingSearchResults** contém uma lista de registros que correspondem aos critérios de pesquisa. 
+O **elemento MessageTrackingSearchResults** contém uma lista de registros que corresponderão aos critérios de pesquisa. 
   
 ```XML
 <MessageTrackingSearchResults>
@@ -42,13 +42,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contém um único resultado de mensagem para um elemento [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contém um único resultado de mensagem para [um elemento FindMessageTrackingReportResponse.](findmessagetrackingreportresponse.md)  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contém o status e o resultado de uma única solicitação de [operação FindMessageTrackingReport](findmessagetrackingreport-operation.md) .  <br/> |
+|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contém o status e o resultado de uma única [solicitação de operação FindMessageTrackingReport.](findmessagetrackingreport-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

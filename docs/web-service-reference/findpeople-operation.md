@@ -5,43 +5,43 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 446106b7-ff2d-4107-90c1-29f4d38ba128
-description: Encontre informações sobre a operação do EWS do FindPeople.
-ms.openlocfilehash: ab5edc3f140e34123ce1f009c401ddd61a0e2598
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação FindPeople EWS.
+ms.openlocfilehash: db093b5911fa0c4176b199d361d283d9dfde802b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462905"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545101"
 ---
 # <a name="findpeople-operation"></a>Operação FindPeople
 
-Encontre informações sobre a operação do EWS do **FindPeople** . 
+Encontre informações sobre a **operação FindPeople** EWS. 
   
-A operação **FindPeople** retorna todos os objetos persona de uma pasta de contatos especificada ou recupera contatos que correspondem a uma cadeia de caracteres de consulta especificada. 
+A **operação FindPeople** retorna todos os objetos persona de uma pasta Contacts especificada ou recupera contatos que corresponderem a uma cadeia de caracteres de consulta especificada. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-findpeople-operation"></a>Usando a operação FindPeople
 
-A operação **FindPeople** retorna informações de contato agregadas. 
+A **operação FindPeople** retorna informações de contato agregadas. 
   
-A operação **FindPeople** cria a funcionalidade existente dos tipos complexos [Restriction](restriction.md) e [BaseShape](baseshape.md) adicionando uma restrição de agregação e a capacidade de retornar propriedades adicionais. Usando uma restrição, um cliente pode especificar filtros, como "somente resultados de retorno que têm um endereço de mensagens instantâneas". O comportamento de pesquisa padrão é direcionado para a caixa de correio pessoal e a lista de endereços global (GAL) do usuário especificado. Ao pesquisar a GAL como a pasta de pesquisa principal, você deve especificar uma cadeia de caracteres de consulta em vez de uma restrição, porque essa operação não permite a navegação da GAL. 
+A **operação FindPeople** se baseia na funcionalidade existente dos tipos [complexos Restriction](restriction.md) e [BaseShape](baseshape.md) adicionando uma restrição de agregação e a capacidade de retornar propriedades adicionais. Usando uma restrição, um cliente pode especificar filtros como "apenas retornar resultados que tenham um endereço de IM". O comportamento de pesquisa padrão direciona a caixa de correio pessoal do usuário especificado e a GAL (lista de endereços global). Ao pesquisar a GAL como a pasta de pesquisa principal, você deve especificar uma cadeia de caracteres de consulta em vez de uma restrição, pois essa operação não permite a navegação da GAL. 
   
-### <a name="findpeople-operation-soap-headers"></a>Cabeçalhos SOAP de operação FindPeople
+### <a name="findpeople-operation-soap-headers"></a>Headers SOAP da operação FindPeople
 
-A operação **FindPeople** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação FindPeople** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Esse header é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
 ## <a name="findpeople-operation-request-example"></a>Exemplo de solicitação de operação FindPeople
 
-O exemplo a seguir de uma solicitação de operação **FindPeople** mostra como retornar os primeiros 100 contatos da pasta contatos. 
+O exemplo a seguir de uma **solicitação de** operação FindPeople mostra como retornar os primeiros 100 contatos da pasta Contatos. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -72,7 +72,7 @@ O corpo SOAP de solicitação contém os seguintes elementos:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-O exemplo a seguir de uma solicitação de operação **FindPeople** mostra como retornar os primeiros 100 contatos da GAL usando uma cadeia de caracteres de consulta. A configuração do **DistinguishedFolderId** como "Directory" pesquisará a GAL como a principal fonte de personas. 
+O exemplo a seguir de uma **solicitação de** operação FindPeople mostra como retornar os primeiros 100 contatos da GAL usando uma cadeia de caracteres de consulta. A **definição do DistinguishedFolderId** como "diretório" pesquisará a GAL como a fonte principal de personas. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -101,9 +101,9 @@ O exemplo a seguir de uma solicitação de operação **FindPeople** mostra como
 </soap:Envelope>
 ```
 
-## <a name="successful-findpeople-operation-response"></a>Resposta de operação FindPeople bem-sucedida
+## <a name="successful-findpeople-operation-response"></a>Resposta bem-sucedida da operação FindPeople
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **FindPeople** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma **solicitação de operação FindPeople.** 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?><s:Envelope 
@@ -170,7 +170,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [Pessoal](persona.md)
     
-- [Personaid](personaid.md)
+- [PersonaId](personaid.md)
     
 - [CreationTime](creationtime.md)
     
@@ -188,26 +188,26 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [EmailAddresses (ArrayOfEmailAddressesType)](emailaddresses-arrayofemailaddressestype.md)
     
-- [EmailAddress (EmailAddresstype)](emailaddress-emailaddresstype.md)
+- [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
     
-- [Nome (EmailAddresstype)](name-emailaddresstype.md)
+- [Name (EmailAddressType)](name-emailaddresstype.md)
     
-- [EmailAddress (EmailAddresstype)](emailaddress-emailaddresstype.md)
+- [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
     
-- [RoutingType (EmailAddresstype)](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
 - [RelevanceScore](relevancescore.md)
     
 - [TotalNumberOfPeopleInView](totalnumberofpeopleinview.md)
     
-## <a name="findpeople-operation-error-response"></a>Resposta de erro de operação FindPeople
+## <a name="findpeople-operation-error-response"></a>Resposta de erro da operação FindPeople
 
-Para códigos de erro genéricos para EWS, confira [ResponseCode](responsecode.md).
+Para códigos de erro genéricos para EWS, consulte [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Confira também
 
 - [Pessoas e contatos no EWS no Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     
-- [Operação getpersona](getpersona-operation.md)
+- [Operação GetPersona](getpersona-operation.md)
     
 

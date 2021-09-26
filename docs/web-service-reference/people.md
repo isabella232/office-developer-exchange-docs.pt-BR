@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65312428-548c-4fe9-971a-d0dab3be5ddf
-description: O elemento People especifica uma matriz de dados persona retornados como resultado de uma solicitação FindPeople.
-ms.openlocfilehash: b3920ca5cdf1d219c5fe119caeaaaf4965c39794
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento People especifica uma matriz de dados de persona retornados como resultado de uma solicitação FindPeople.
+ms.openlocfilehash: 35af1da4e72829004ec054b27a5304012ebb996c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467183"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543146"
 ---
 # <a name="people"></a>Pessoas
 
-O elemento **People** especifica uma matriz de dados persona retornados como resultado de uma solicitação **FindPeople** . 
+O **elemento People** especifica uma matriz de dados de persona retornados como resultado de uma **solicitação FindPeople.** 
   
 ```XML
 <People>

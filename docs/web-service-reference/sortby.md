@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3dc4ab23-26b0-42b3-8930-f1c7eefecdeb
 description: O elemento SortBy contém uma propriedade de item usada para classificar o resultado da pesquisa.
-ms.openlocfilehash: cf2b1e633bc66e526028078833afade363e4c5e0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8718bad3749a0409be2715b0e03001b97a4fb87e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468394"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544686"
 ---
 # <a name="sortby"></a>SortBy
 
-O elemento **sortBy** contém uma propriedade de item usada para classificar o resultado da pesquisa. 
+O **elemento SortBy** contém uma propriedade de item usada para classificar o resultado da pesquisa. 
   
 ```XML
 <SortBy Order="">
@@ -35,7 +35,7 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|Ordem  <br/> |O valor de texto do atributo **Order** é a ordem de classificação. Um valor de texto **crescente** indica que os resultados estão em ordem crescente. Um valor de texto **decrescente** indica que os resultados estão em ordem decrescente.  <br/> |
+|Ordem  <br/> |O valor de texto do **atributo Order** é a ordem de classificação. Um valor de texto **de Ascending** indica que os resultados estão em ordem crescente. Um valor de texto **de Descending** indica que os resultados estão em ordem decrescente.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 

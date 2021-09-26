@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50bebbab-2fef-4a27-a5a9-32d7200820b6
-description: O elemento AdditionalInfo especifica informações adicionais sobre o status de retenção de uma caixa de correio.
-ms.openlocfilehash: 1911ff3ac0baf7a8854c0609e08959a54cc27b6d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AdditionalInfo especifica informações adicionais sobre o status de espera de uma caixa de correio.
+ms.openlocfilehash: d8b707fb04ffe91d5c7aa793c6b56c8bb048f160
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455818"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544315"
 ---
 # <a name="additionalinfo"></a>AdditionalInfo
 
-O elemento **AdditionalInfo** especifica informações adicionais sobre o status de retenção de uma caixa de correio. 
+O **elemento AdditionalInfo** especifica informações adicionais sobre o status de espera de uma caixa de correio. 
   
 ```XML
 <AdditionalInfo></AdditionalInfo>
@@ -40,16 +40,16 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MailboxHoldStatus](mailboxholdstatus.md) <br/> |Especifica o status de retenção da caixa de correio.  <br/> |
+|[MailboxHoldStatus](mailboxholdstatus.md) <br/> |Especifica o status de espera da caixa de correio.  <br/> |
 |[NonIndexableItemDetail](nonindexableitemdetail.md) <br/> |Especifica detalhes de um item que não pode ser indexado.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento AdditionalInfo é mais informações sobre o status de retenção de uma caixa de correio.
+O valor de texto do elemento AdditionalInfo é informações adicionais sobre o status de espera de uma caixa de correio.
   
 ## <a name="remarks"></a>Comentários
 
-Este elemento é opcional.
+Esse elemento é opcional.
   
 Este elemento foi introduzido no Exchange Server 2013.
   
@@ -60,8 +60,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 282ddb7f-00e3-4260-ab85-73fea9317c0e
-description: O elemento ExtendedProperties contém as propriedades estendidas usadas para as operações do repositório unificado de contatos.
-ms.openlocfilehash: 78580e69c37657d1873ed95a6b3761c6a458e28f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ExtendedProperties contém as propriedades estendidas usadas para as operações do Unified Contact Store.
+ms.openlocfilehash: 5b927fc3de291af5058ea8f37de8ee7065d3102e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463115"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543293"
 ---
 # <a name="extendedproperties-nonemptyarrayofextendedfielduris"></a>ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)
 
-O elemento **ExtendedProperties** contém as propriedades estendidas usadas para as operações do repositório unificado de contatos. 
+O **elemento ExtendedProperties** contém as propriedades estendidas usadas para as operações do Unified Contact Store. 
   
 ```XML
 <ExtendedProperties>
@@ -36,7 +36,7 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Extended (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
+[ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 

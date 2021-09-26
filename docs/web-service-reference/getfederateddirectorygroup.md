@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5990c1e-c2e3-47ee-92b8-94db749ca12e
-description: O elemento GetFederatedDirectoryGroup é destinado apenas para uso interno.
-ms.openlocfilehash: 16711b4527142964792d2a0e06388ae84885a3e4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetFederatedDirectoryGroup destina-se apenas ao uso interno.
+ms.openlocfilehash: 2ab3ffafcfb8a605085e861b8d118292b7156f96
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462847"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543272"
 ---
 # <a name="getfederateddirectorygroup"></a>GetFederatedDirectoryGroup
 
-O elemento **GetFederatedDirectoryGroup** é destinado apenas para uso interno. 
+O **elemento GetFederatedDirectoryGroup** destina-se apenas ao uso interno. 
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -33,7 +33,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

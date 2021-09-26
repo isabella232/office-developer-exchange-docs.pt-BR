@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsAutomaticForward
 api_type:
 - schema
 ms.assetid: 6876b849-a648-482e-8934-93eb5a0c465f
-description: O elemento IsAutomaticForward indica se as mensagens de entrada devem ser encaminhamentos automáticos para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: 800d38bab30245d88b3c09609e6235e6de8fed25
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento IsAutomaticForward indica se as mensagens de entrada devem ser encaminhadas automáticas para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: ca78a71b38e15f7444641979f67c5dbe23f288a1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455573"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544940"
 ---
 # <a name="isautomaticforward"></a>IsAutomaticForward
 
-O elemento **IsAutomaticForward** indica se as mensagens de entrada devem ser encaminhamentos automáticos para que a condição ou exceção seja aplicada. 
+O **elemento IsAutomaticForward** indica se as mensagens de entrada devem ser encaminhadas automáticas para que a condição ou exceção seja aplicada. 
   
 ```XML
 <IsAutomaticForward/> true | false</IsAutomaticForward>
@@ -44,12 +44,12 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** indica que a mensagem deve ser um avanço automático para que a condição ou exceção seja aplicada. Um valor **false** indica que a mensagem não deve ser um avanço automático para que a condição ou exceção seja aplicada. 
+Um valor de texto **true** indica que a mensagem deve ser um encaminhamento automático para que a condição ou exceção seja aplicada. Um valor **false** indica que a mensagem não deve ser um encaminhamento automático para que a condição ou exceção seja aplicada. 
   
 ## <a name="remarks"></a>Comentários
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: 769df8eb-9c72-48b5-a49f-82c6b86bc5fc
-description: O elemento GetItem define uma solicitação para obter um item de uma caixa de correio no repositório do Exchange.
-ms.openlocfilehash: a02403ee84195a41387d5dbe1785ae6d12b47da5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetItem define uma solicitação para obter um item de uma caixa de correio no Exchange store.
+ms.openlocfilehash: 7d5a7253db54fd67bb8e8772c2a5aedb86abdeee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458695"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546228"
 ---
 # <a name="getitem"></a>GetItem
 
-O elemento **GetItem** define uma solicitação para obter um item de uma caixa de correio no repositório do Exchange. 
+O **elemento GetItem** define uma solicitação para obter um item de uma caixa de correio no Exchange store. 
   
 ```xml
 <GetItem>
@@ -43,12 +43,12 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Shape](itemshape.md) <br/> |Identifica as propriedades e o conteúdo do item que serão incluídos em uma resposta **GetItem** .  <br/> |
-|[ItemIds](itemids.md) <br/> |Contém as identidades exclusivas de itens, itens de ocorrência e itens mestre recorrentes que são usados para obter itens do repositório do Exchange. Estes itens representam contatos, tarefas, mensagens, itens de calendário, solicitações de reunião e outros itens válidos em uma caixa de correio.  <br/> |
+|[ItemShape](itemshape.md) <br/> |Identifica as propriedades do item e o conteúdo a ser incluído em uma **resposta GetItem.**  <br/> |
+|[ItemIds](itemids.md) <br/> |Contém as identidades exclusivas de itens, itens de ocorrência e itens mestras recorrentes que são usados para obter itens do Exchange store. Esses itens representam contatos, tarefas, mensagens, itens de calendário, solicitações de reunião e outros itens válidos em uma caixa de correio.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

@@ -1,27 +1,27 @@
 ---
-title: Remetitime
+title: SubmittedTime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SubmittedTime
 api_type:
 - schema
 ms.assetid: 45c8fa36-c539-42ca-99dc-1ac33cc54afc
-description: O elemento remetitime representa a hora em que a mensagem entrou no servidor.
-ms.openlocfilehash: bf9495aa700d2887d199eccb38289e0ebd2e8636
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SubmittedTime representa a hora em que a mensagem entrou no servidor.
+ms.openlocfilehash: 68df76b7ace8c8d665eff87c995a2b658be7e61c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465405"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545850"
 ---
-# <a name="submittedtime"></a>Remetitime
+# <a name="submittedtime"></a>SubmittedTime
 
-O elemento **Remetitime** representa a hora em que a mensagem entrou no servidor. 
+O **elemento SubmittedTime** representa a hora em que a mensagem entrou no servidor. 
   
 ```XML
 <SubmittedTime/>
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contém um único resultado de mensagem para um elemento [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contém um único resultado de mensagem para [um elemento FindMessageTrackingReportResponse.](findmessagetrackingreportresponse.md)  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
- Um valor de texto que representa uma data/hora será necessário se esse elemento for usado. 
+ Um valor de texto que representa uma data/hora é necessário se esse elemento for usado. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

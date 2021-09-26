@@ -1,23 +1,23 @@
 ---
-title: Duplicidades
+title: Deduplication
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a38acc3d-29a8-4466-81a4-73cb30fe5e80
-description: O elemento de eliminação de duplicatas indica se o resultado da pesquisa deve remover itens duplicados.
-ms.openlocfilehash: c39f980658aba7036cfabb3b51af5a41005f97b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Deduplication indica se o resultado da pesquisa deve remover itens duplicados.
+ms.openlocfilehash: 6178502d102b8c24b39d7276352c31740c62352c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463710"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543405"
 ---
-# <a name="deduplication"></a>Duplicidades
+# <a name="deduplication"></a>Deduplication
 
-O elemento de **eliminação de duplicatas** indica se o resultado da pesquisa deve remover itens duplicados. 
+O **elemento Deduplication** indica se o resultado da pesquisa deve remover itens duplicados. 
   
 ```XML
 <Deduplication> true | false </Deduplication>
@@ -43,7 +43,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento de eliminação de duplicatas indica que os resultados da pesquisa não podem conter itens duplicados. Um valor **false** indica que os resultados da pesquisa podem conter itens duplicados. 
+Um valor de texto **true** para o elemento Deduplication indica que os resultados da pesquisa podem não conter itens duplicados. Um valor false indica **que** os resultados da pesquisa podem conter itens duplicados. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,7 +57,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

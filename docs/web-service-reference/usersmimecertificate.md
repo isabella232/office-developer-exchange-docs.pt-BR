@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66e6b4ba-368d-4469-bd47-e59441b7d64d
 description: O elemento UserSMIMECertificate contém um valor que codifica o certificado SMIME de um contato.
-ms.openlocfilehash: 7e2dbc6a9c8b04758ba99db036e237d8837850aa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8e53b4bf19bb42e30cae10ce7deb085efc703fed
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467652"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541669"
 ---
 # <a name="usersmimecertificate"></a>UserSMIMECertificate
 
-O elemento **UserSMIMECertificate** contém um valor que codifica o certificado SMIME de um contato. 
+O **elemento UserSMIMECertificate** contém um valor que codifica o certificado SMIME de um contato. 
   
 ```XML
 <UserSMIMECertificate/>
@@ -36,13 +36,13 @@ Nenhum
 
 |**Nome do elemento**|**Descrição**|
 |:-----|:-----|
-|[Base64Binary](base64binary.md) <br/> |Contém um valor codificado em base64.  <br/> |
+|[Base64Binary](base64binary.md) <br/> |Contém um valor codificado em Base64.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Nome do elemento**|**Descrição**|
 |:-----|:-----|
-|[Contato](contact.md) <br/> |Representa um item de contato no repositório do Exchange.  <br/> |
+|[Contato](contact.md) <br/> |Representa um item de contato no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -60,7 +60,7 @@ Este elemento foi introduzido no Exchange Server 2010 Service Pack 2 (SP2).
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -70,5 +70,5 @@ Este elemento foi introduzido no Exchange Server 2010 Service Pack 2 (SP2).
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Criando contatos (serviços Web do Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Criando contatos (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

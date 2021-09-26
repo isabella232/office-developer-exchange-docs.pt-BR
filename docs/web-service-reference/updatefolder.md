@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateFolder
 api_type:
 - schema
 ms.assetid: 412d0683-2819-40c5-a0ae-f613499a7b66
-description: O elemento UpdateFolder representa a operação que é usada para atualizar as propriedades de uma pasta especificada.
-ms.openlocfilehash: 124ffd02a5ea2e7bf6f21cc7009dde08837906f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UpdateFolder representa a operação usada para atualizar propriedades de uma pasta especificada.
+ms.openlocfilehash: 695e529a2e4f7e8725b79e169b32eb70e9b72772
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457043"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541739"
 ---
 # <a name="updatefolder"></a>UpdateFolder
 
-O elemento **UpdateFolder** representa a operação que é usada para atualizar as propriedades de uma pasta especificada. 
+O **elemento UpdateFolder** representa a operação usada para atualizar propriedades de uma pasta especificada. 
   
 ```xml
 <UpdateFolder>
@@ -46,7 +46,7 @@ Nenhum
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

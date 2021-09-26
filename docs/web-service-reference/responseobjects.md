@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseObjects
 api_type:
 - schema
 ms.assetid: ad29e064-3f3d-4b7b-aa4c-9ec27326381d
 description: O elemento ResponseObjects contém uma coleção de todos os objetos de resposta associados a um item no Exchange store.
-ms.openlocfilehash: 9f80fd9703dcd7d9293a3a51eccb6cf2b6903064
-ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
+ms.openlocfilehash: 65676bba6a78ce4533eb4dabab51106f9799d625
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58764578"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544798"
 ---
 # <a name="responseobjects"></a>ResponseObjects
 
@@ -78,9 +78,9 @@ Nenhum
 |[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no Exchange store.  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no Exchange store.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Representa uma Exchange de email.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma Exchange de email.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Remove um item do Exchange store.  <br/> |
-|[Task](task.md) <br/> |Representa uma tarefa no Exchange store.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no Exchange store.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateInboxRules
 api_type:
 - schema
 ms.assetid: d220064f-ff4d-4537-8077-adf94f2cbdbd
-description: O elemento UpdateInboxRules define uma solicitação para atualizar as regras de caixa de entrada em uma caixa de correio no repositório do servidor.
-ms.openlocfilehash: d604604d582d28c07eaa75d3239082d1b6735e65
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento UpdateInboxRules define uma solicitação para atualizar as regras de Caixa de Entrada em uma caixa de correio no armazenamento do servidor.
+ms.openlocfilehash: 823763efc9f9dfe621ccf05356f7e0f3c7bace14
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456357"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541704"
 ---
 # <a name="updateinboxrules"></a>UpdateInboxRules
 
-O elemento **UpdateInboxRules** define uma solicitação para atualizar as regras de caixa de entrada em uma caixa de correio no repositório do servidor. 
+O **elemento UpdateInboxRules** define uma solicitação para atualizar as regras de Caixa de Entrada em uma caixa de correio no armazenamento do servidor. 
   
 ```XML
 <UpdateInboxRules>
@@ -44,9 +44,9 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Representa o endereço SMTP do usuário cujas regras de caixa de entrada devem ser criadas, modificadas ou excluídas.  <br/> |
-|[RemoveOutlookRuleBlob](removeoutlookruleblob.md) <br/> |Indica se o blob de regra do Microsoft Outlook deve ser removido.  <br/> |
-|[Operations](operations.md) <br/> |Contém uma matriz de operações de regra que podem ser executadas em uma caixa de entrada.  <br/> |
+|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Representa o endereço SMTP do usuário cujas regras de Caixa de Entrada devem ser criadas, modificadas ou excluídas.  <br/> |
+|[RemoveOutlookRuleBlob](removeoutlookruleblob.md) <br/> |Indica se é preciso remover o blob Outlook regra da Microsoft.  <br/> |
+|[Operations](operations.md) <br/> |Contém uma matriz de operações de regra que podem ser executadas em uma Caixa de Entrada.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 

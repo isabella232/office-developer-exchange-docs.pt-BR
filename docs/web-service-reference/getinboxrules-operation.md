@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetInboxRules
 api_type:
 - schema
 ms.assetid: b4b2701a-4a23-4acc-8c75-19f7955ad7ae
-description: A operação GetInboxRules usa os serviços Web do Exchange para recuperar regras de caixa de entrada na caixa de correio do usuário identificado.
-ms.openlocfilehash: f4c4c03f55c9f32be4a067024f4387888edd5fe9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetInboxRules usa Exchange Web Services para recuperar regras de Caixa de Entrada na caixa de correio do usuário identificado.
+ms.openlocfilehash: 3e312ed08494b92c212595d081454b5f2ca6117e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546249"
 ---
 # <a name="getinboxrules-operation"></a>Operação GetInboxRules
 
-A operação **GetInboxRules** usa os serviços Web do Exchange para recuperar regras de caixa de entrada na caixa de correio do usuário identificado. 
+A **operação GetInboxRules** usa Exchange Web Services para recuperar regras de Caixa de Entrada na caixa de correio do usuário identificado. 
   
 ## <a name="getinboxrules-request-example"></a>Exemplo de solicitação GetInboxRules
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra o XML de solicitação que o cliente envia para o servidor. A solicitação identifica o usuário no elemento [MailboxSmtpAddress](mailboxsmtpaddress.md) . Todas as regras de caixa de entrada do usuário identificado serão retornadas na resposta. 
+O exemplo a seguir mostra o XML de solicitação que o cliente envia para o servidor. A solicitação identifica o usuário no elemento [MailboxSmtpAddress.](mailboxsmtpaddress.md) Todas as regras de Caixa de Entrada para o usuário identificado devem ser retornadas na resposta. 
   
 ### <a name="code"></a>Código
 
@@ -48,7 +48,7 @@ O exemplo a seguir mostra o XML de solicitação que o cliente envia para o serv
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 A solicitação inclui o seguinte elemento opcional:
   
@@ -58,10 +58,10 @@ A solicitação inclui o seguinte elemento opcional:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir do corpo SOAP (Simple Object Access Protocol) mostra uma resposta bem-sucedida à solicitação **GetInboxRules** . Neste exemplo, a resposta inclui uma regra. 
+O exemplo de corpo soap (Simple Object Access Protocol) a seguir mostra uma resposta bem-sucedida à **solicitação GetInboxRules.** Neste exemplo, a resposta inclui uma regra. 
   
 > [!NOTE]
-> Os valores dos atributos **ID** e **ChangeKey** do elemento [FolderId](folderid.md) foram reduzidos para preservar a legibilidade. 
+> Os valores da **Id e** os atributos **ChangeKey** do [elemento FolderId](folderid.md) foram reduzidos para preservar a capacidade de leitura. 
   
 ### <a name="code"></a>Código
 

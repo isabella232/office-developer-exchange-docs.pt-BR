@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96259756-322e-4c24-ac76-0cd9c32e0d6d
 description: O elemento UpdateItemInRecoverableItemsResponseMessage especifica a resposta a uma solicitação UpdateItemInRecoverableItems.
-ms.openlocfilehash: 021631f5c30eebbf4d7ae0aad35a85b99a23925f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 10112245b27acd736d7985b5cd46944486c7e006
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466532"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542775"
 ---
 # <a name="updateiteminrecoverableitemsresponsemessage"></a>UpdateItemInRecoverableItemsResponseMessage
 
-O elemento **UpdateItemInRecoverableItemsResponseMessage** especifica a resposta a uma solicitação **UpdateItemInRecoverableItems** . 
+O **elemento UpdateItemInRecoverableItemsResponseMessage** especifica a resposta a uma solicitação **UpdateItemInRecoverableItems.** 
   
 ```XML
 <UpdateItemInRecoverableItemsResponseMessage>
@@ -46,7 +46,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/message  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |Message. xsd  <br/> |
+|Arquivo de validação  <br/> |Message.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

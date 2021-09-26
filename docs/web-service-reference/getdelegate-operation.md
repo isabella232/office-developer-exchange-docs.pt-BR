@@ -1,31 +1,31 @@
 ---
-title: Operação getdelegate
+title: Operação GetDelegate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetDelegate
 api_type:
 - schema
 ms.assetid: 849b2c9e-4685-4bd1-9adb-aba0fcc52650
-description: A operação getdelegation recupera as configurações de representante de uma caixa de correio especificada.
-ms.openlocfilehash: 400bf5d1cafcbb789aaa749c62c7a908622d4ddb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação GetDelegate recupera as configurações de representante de uma caixa de correio especificada.
+ms.openlocfilehash: ce11838944d30021f65b51eae817a6b3543e3ae8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461062"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544975"
 ---
-# <a name="getdelegate-operation"></a>Operação getdelegate
+# <a name="getdelegate-operation"></a>Operação GetDelegate
 
-A operação **Getdelegation** recupera as configurações de representante de uma caixa de correio especificada. 
+A **operação GetDelegate** recupera as configurações de representante de uma caixa de correio especificada. 
   
-## <a name="soap-headers"></a>Cabeçalhos SOAP
+## <a name="soap-headers"></a>SOAP Headers
 
-A operação **Getdelegate** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir. 
+A **operação GetDelegate** pode usar os headers SOAP listados e descritos na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
@@ -34,11 +34,11 @@ A operação **Getdelegate** pode usar os cabeçalhos SOAP listados e descritos 
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação.  <br/> |
    
-## <a name="getdelegate-request-example"></a>Exemplo de solicitação getdelegate
+## <a name="getdelegate-request-example"></a>Exemplo de solicitação GetDelegate
 
 ### <a name="description"></a>Descrição
 
-O exemplo de código a seguir mostra como recuperar as configurações de representante de todos os representantes definidos na caixa de correio do user3's. Todas as permissões para cada usuário são retornadas na resposta.
+O exemplo de código a seguir mostra como recuperar as configurações de representante de todos os representantes que estão definidos na caixa de correio do usuário3. Todas as permissões para cada usuário são retornadas na resposta.
   
 ### <a name="code"></a>Código
 
@@ -63,16 +63,16 @@ O exemplo de código a seguir mostra como recuperar as configurações de repres
 
 ### <a name="comments"></a>Comentários
 
-Você pode usar o elemento [userid](userid.md) para especificar usuários individuais, em vez de retornar todos os usuários que têm permissões de acesso de representante na caixa de correio. 
+Você pode usar o [elemento UserId](userid.md) para especificar usuários individuais em vez de retornar todos os usuários que têm permissões de acesso de representante na caixa de correio. 
   
 > [!NOTE]
-> Os serviços Web do Exchange (EWS) não dão suporte ao gerenciamento de delegados de grupo. O EWS retornará um erro se a operação **Getdelegar** for chamada para uma entidade que tenha um representante de grupo de segurança. 
+> Exchange Os Serviços Web (EWS) não suportam o gerenciamento de representantes de grupo. O EWS retornará um erro se a **operação GetDelegate** for chamada para uma entidade que tenha um representante de grupo de segurança. 
   
-## <a name="getdelegate-response-example"></a>Exemplo de resposta getdelegate
+## <a name="getdelegate-response-example"></a>Exemplo de resposta GetDelegate
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma resposta **Getdelegate** mostra uma resposta bem-sucedida a uma solicitação **getdelegate** . A resposta contém informações sobre as permissões de acesso de representante, se o representante pode exibir itens particulares, se o representante recebe cópias de mensagens de reunião e para quem as solicitações de reunião foram entregues. 
+O exemplo a seguir de uma **resposta GetDelegate** mostra uma resposta bem-sucedida a uma **solicitação GetDelegate.** A resposta contém informações sobre as permissões de acesso do representante, se o representante pode exibir itens particulares, se o representante recebe cópias das mensagens de reunião e para quem as solicitações de reunião foram entregues. 
   
 ### <a name="code"></a>Código
 

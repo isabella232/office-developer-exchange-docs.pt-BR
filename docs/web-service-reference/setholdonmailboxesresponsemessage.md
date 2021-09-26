@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d61de0f3-24e0-434a-946a-c53d393b7d04
 description: O elemento SetHoldOnMailboxesResponseMessage especifica a mensagem de resposta para uma solicitação SetHoldOnMailboxes.
-ms.openlocfilehash: a6af4181218391bc9d3c177467295d771cce4c89
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9fbfde90f2a3b9fc90e602fd3bd90289e1041f39
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456406"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545983"
 ---
 # <a name="setholdonmailboxesresponsemessage"></a>SetHoldOnMailboxesResponseMessage
 
-O elemento **SetHoldOnMailboxesResponseMessage** especifica a mensagem de resposta para uma solicitação **SetHoldOnMailboxes** . 
+O **elemento SetHoldOnMailboxesResponseMessage** especifica a mensagem de resposta para uma **solicitação SetHoldOnMailboxes.** 
   
 ```XML
 <SetHoldOnMailboxesResponseMessage>

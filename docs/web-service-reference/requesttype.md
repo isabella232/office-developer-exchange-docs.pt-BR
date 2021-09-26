@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RequestType
 api_type:
 - schema
 ms.assetid: 4e657e57-528f-4250-a99c-f9850bbbcec5
-description: O elemento RequestType identifica se uma solicitação de proxy é uma solicitação de intersite ou entre florestas.
-ms.openlocfilehash: 278a65a1f2ce4cb433ae8099703d70d0a2cafa3b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento RequestType identifica se uma solicitação de proxy é uma solicitação entre sites ou entre florestas.
+ms.openlocfilehash: 3390381b903c7a39a1d2ea6cae80b3fbc07eba43
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455965"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541851"
 ---
 # <a name="requesttype"></a>RequestType
 
-O elemento **RequestType** identifica se uma solicitação de proxy é uma solicitação de intersite ou entre florestas. 
+O **elemento RequestType** identifica se uma solicitação de proxy é uma solicitação entre sites ou entre florestas. 
   
 ```xml
 <RequestType>CrossSite or CrossForest</RequestType>
@@ -42,11 +42,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Este elemento não tem um pai no esquema. Este elemento é usado no cabeçalho SOAP. Para obter mais informações sobre como esse elemento é usado, consulte o arquivo WSDL.
+Esse elemento não tem um pai no esquema. Esse elemento é usado no header SOAP. Para obter mais informações sobre como esse elemento é usado, consulte o arquivo WSDL.
   
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é necessário para este elemento. Veja a seguir os valores possíveis:
+Um valor de texto é necessário para esse elemento. Veja a seguir os valores possíveis:
   
 - CrossSite
     
@@ -58,7 +58,7 @@ Um valor de texto é necessário para este elemento. Veja a seguir os valores po
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

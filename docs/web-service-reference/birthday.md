@@ -1,27 +1,27 @@
 ---
-title: Aniversário
+title: Birthday
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Birthday
 api_type:
 - schema
 ms.assetid: b7529004-46e2-4ac9-b4e4-c8bb6878a7d5
-description: O elemento aniversário representa a data de nascimento de um contato.
-ms.openlocfilehash: a33f86556d35afa014447b82c353179b1197ddac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Birthday representa a data de nascimento de um contato.
+ms.openlocfilehash: 8bb9bc37164b95b62f2923b7f661e6c9e33a5900
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458814"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545626"
 ---
-# <a name="birthday"></a>Aniversário
+# <a name="birthday"></a>Birthday
 
-O elemento **aniversário** representa a data de nascimento de um contato. 
+O **elemento Birthday** representa a data de nascimento de um contato. 
   
 ```xml
 <Birthday/>
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

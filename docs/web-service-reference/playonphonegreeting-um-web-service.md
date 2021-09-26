@@ -1,28 +1,28 @@
 ---
-title: PlayOnPhoneGreeting (serviço Web da UM)
+title: PlayOnPhoneGreeting (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneGreeting
 api_type:
 - schema
 ms.assetid: 43eda596-3609-4e1b-8502-1db2636535cf
-description: O elemento PlayOnPhoneGreeting define uma solicitação para reproduzir uma saudação de Unificação de mensagens em um telefone.
-ms.openlocfilehash: 197e4ba671e1711b73b1e7c239339db589357581
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento PlayOnPhoneGreeting define uma solicitação para reproduzir uma saudação de Unificação de Mensagens em um telefone.
+ms.openlocfilehash: e3b6a7720be6d046a379af460adbcc88725c0ea3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529921"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543118"
 ---
-# <a name="playonphonegreeting-um-web-service"></a>PlayOnPhoneGreeting (serviço Web da UM)
+# <a name="playonphonegreeting-um-web-service"></a>PlayOnPhoneGreeting (serviço Web de Unificação de Mensagens)
 
-O elemento **PlayOnPhoneGreeting** define uma solicitação para reproduzir uma saudação de Unificação de mensagens em um telefone. 
+O **elemento PlayOnPhoneGreeting** define uma solicitação para reproduzir uma saudação de Unificação de Mensagens em um telefone. 
   
-[PlayOnPhoneGreeting (serviço Web da UM)](playonphonegreeting-um-web-service.md)
+[PlayOnPhoneGreeting (serviço Web de Unificação de Mensagens)](playonphonegreeting-um-web-service.md)
   
 ```xml
 <PlayOnPhoneGreeting>
@@ -44,8 +44,8 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Greetingtype (serviço Web da UM)](greetingtype-um-web-service.md) <br/> |Define o tipo de saudação a ser usado em uma solicitação de [operação do PlayOnPhoneGreeting (serviço Web da um)](playonphonegreeting-operation-um-web-service.md) .  <br/> |
-|[dialstring (serviço Web da UM)](dialstring-um-web-service.md) <br/> |Contém o valor do número de telefone a ser discado.  <br/> |
+|[GreetingType (serviço Web de Unificação de Mensagens)](greetingtype-um-web-service.md) <br/> |Define o tipo de saudação a ser usado em uma solicitação de operação [PlayOnPhoneGreeting (serviço Web de UM).](playonphonegreeting-operation-um-web-service.md)  <br/> |
+|[dialString (serviço Web de Unificação de Mensagens)](dialstring-um-web-service.md) <br/> |Contém o valor para o número de telefone discar.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -53,7 +53,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -68,5 +68,5 @@ Nenhum
 
 
 
-[Operação PlayOnPhoneGreeting (serviço Web da UM)](playonphonegreeting-operation-um-web-service.md)
+[Operação PlayOnPhoneGreeting (serviço Web de Unificação de Mensagens)](playonphonegreeting-operation-um-web-service.md)
 

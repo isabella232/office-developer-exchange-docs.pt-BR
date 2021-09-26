@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0115a740-9264-4e57-a410-197bb39e6c81
-description: O elemento TargetSharingEpr representa a propriedade TargetSharingEpr. O elemento TargetSharingEpr é somente para uso interno.
-ms.openlocfilehash: 8cb8d114ae43dfc8ad76aebe87e0e920c16477f2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento TargetSharingEpr representa a propriedade TargetSharingEpr. O elemento TargetSharingEpr é apenas para uso interno.
+ms.openlocfilehash: f0cd15963ef9f2f89bcc7c022c4d4b6beaaee3d1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457078"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545759"
 ---
 # <a name="targetsharingepr-soap"></a>TargetSharingEpr (SOAP)
  
-O elemento **TargetSharingEpr** representa a propriedade **TargetSharingEpr** . O elemento **TargetSharingEpr** é somente para uso interno. Esse elemento não é usado por clientes. 
+O **elemento TargetSharingEpr** representa a **propriedade TargetSharingEpr.** O **elemento TargetSharingEpr** é apenas para uso interno. Esse elemento não é usado pelos clientes. 
   
 ```XML
 <TargetSharingEpr/>
@@ -44,14 +44,14 @@ Nenhum.
    
 ## <a name="remarks"></a>Comentários
 
-Este elemento Especifica a URL do servidor de destino para a organização externa. 
+Esse elemento especifica a URL do servidor de destino para a organização externa. 
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

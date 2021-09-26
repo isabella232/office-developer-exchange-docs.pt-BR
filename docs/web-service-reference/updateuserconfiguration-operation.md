@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateUserConfiguration
 api_type:
 - schema
 ms.assetid: eda73b62-6a3a-43ae-8fd9-f30892811f27
 description: A operação UpdateUserConfiguration atualiza um objeto de configuração do usuário em uma pasta.
-ms.openlocfilehash: 95fe6518fa30104463ec7f0aec8f786183eb513b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 18caad56d3add618c4f426af824e61ce54c15bc7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468541"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541697"
 ---
 # <a name="updateuserconfiguration-operation"></a>Operação UpdateUserConfiguration
 
-A operação **UpdateUserConfiguration** atualiza um objeto de configuração do usuário em uma pasta. 
+A **operação UpdateUserConfiguration** atualiza um objeto de configuração do usuário em uma pasta. 
   
 ## <a name="updateuserconfiguration-request-example"></a>Exemplo de solicitação UpdateUserConfiguration
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **UpdateUserConfiguration** mostra como formar uma solicitação para atualizar um objeto de configuração do usuário na pasta Rascunhos. 
+O exemplo a seguir de **uma solicitação UpdateUserConfiguration** mostra como formar uma solicitação para atualizar um objeto de configuração do usuário na pasta Rascunhos. 
   
 ### <a name="code"></a>Código
 
@@ -69,7 +69,7 @@ O exemplo a seguir de uma solicitação **UpdateUserConfiguration** mostra como 
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **UpdateUserConfiguration** . 
+O exemplo a seguir mostra uma resposta bem-sucedida à **solicitação UpdateUserConfiguration.** 
   
 ### <a name="code"></a>Código
 
@@ -105,7 +105,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação **UpdateUse
 
 
 
-[Operações do EWS no Exchange](ews-operations-in-exchange.md)
+[Operações EWS em Exchange](ews-operations-in-exchange.md)
   
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

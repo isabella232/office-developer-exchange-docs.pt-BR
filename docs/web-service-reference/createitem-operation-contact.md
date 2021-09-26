@@ -5,27 +5,27 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: 417e994b-0a17-4c24-9527-04796b80b029
-description: A operação CreateItem é usada para criar contatos no repositório do Exchange.
-ms.openlocfilehash: e1d78392b94d328cf687655cd93e6c9568f6274f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação CreateItem é usada para criar contatos no Exchange store.
+ms.openlocfilehash: ced103046214830db868f4c62583e73297146d25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457120"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545500"
 ---
 # <a name="createitem-operation-contact"></a>Operação CreateItem (contato)
 
-A operação CreateItem é usada para criar contatos no repositório do Exchange.
+A operação CreateItem é usada para criar contatos no Exchange store.
   
 ## <a name="remarks"></a>Comentários
 
-A criação de listas de distribuição particulares não é suportada. Todas as propriedades dentro do contêiner [CompleteName](completename.md) são somente leitura e não podem ser definidas em um item de contato. 
+Não há suporte para a criação de listas de distribuição privadas. Todas as propriedades dentro do contêiner [CompleteName](completename.md) são somente leitura e não podem ser definidas em um item de contato. 
   
 ## <a name="createitem-request-example"></a>Exemplo de solicitação CreateItem
 
@@ -74,7 +74,7 @@ O exemplo a seguir de uma solicitação CreateItem SOAP válida mostra como cria
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na resposta:
   
@@ -84,7 +84,7 @@ Os seguintes elementos são usados na resposta:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [Contato](contact.md)
     
@@ -96,13 +96,13 @@ Os seguintes elementos são usados na resposta:
     
 - [EmailAddresses](emailaddresses.md)
     
-- [Entrada (EmailAddress)](entry-emailaddress.md)
+- [Entry (EmailAddress)](entry-emailaddress.md)
     
 - [PhysicalAddresses](physicaladdresses.md)
     
-- [Entrada (PhysicalAddress)](entry-physicaladdress.md)
+- [Entry (PhysicalAddress)](entry-physicaladdress.md)
     
-- [123](street.md)
+- [Street](street.md)
     
 - [Cidade](city.md)
     
@@ -112,7 +112,7 @@ Os seguintes elementos são usados na resposta:
     
 - [PhoneNumbers](phonenumbers.md)
     
-- [Entrada (PhoneNumber)](entry-phonenumber.md)
+- [Entry (PhoneNumber)](entry-phonenumber.md)
     
 - [JobTitle](jobtitle.md)
     
@@ -156,7 +156,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação CreateItem 
 
 ### <a name="comments"></a>Comentários
 
-O identificador de item foi reduzido para preservar a legibilidade.
+O identificador de item foi reduzido para preservar a capacidade de leitura.
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
@@ -172,7 +172,7 @@ Os seguintes elementos são usados na resposta:
     
 - [ResponseCode](responsecode.md)
     
-- [Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [Contato](contact.md)
     
@@ -182,7 +182,7 @@ Os seguintes elementos são usados na resposta:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma solicitação que contém um XML válido, mas instruções incompatíveis. Não é possível criar um contato em uma pasta de pesquisa.
+O exemplo a seguir mostra uma solicitação que contém instruções XML válidas, mas incompatíveis. Um contato não pode ser criado em uma pasta de pesquisa.
   
 ### <a name="code"></a>Código
 
@@ -206,11 +206,11 @@ O exemplo a seguir mostra uma solicitação que contém um XML válido, mas inst
 </soap:Envelope>
 ```
 
-## <a name="createitem-contact-error-response"></a>Resposta de erro CreateItem (contato)
+## <a name="createitem-contact-error-response"></a>Resposta de erro CreateItem (Contato)
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação CreateItem (contato).
+O exemplo a seguir mostra uma resposta de erro a uma solicitação CreateItem (Contact).
   
 ### <a name="code"></a>Código
 
@@ -258,7 +258,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [Itens (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 ## <a name="see-also"></a>Confira também
 

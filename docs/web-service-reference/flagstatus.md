@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FlagStatus
 api_type:
 - schema
 ms.assetid: d5907ec5-3a60-4d83-bf85-406c54f95eb7
 description: O elemento FlagStatus contém o status de sinalizador agregado para itens de conversa na pasta atual.
-ms.openlocfilehash: e65849c4909292c07450f8578fe7a7065c98ab44
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 08a37b8ecced5fa0bd2b5a5b2fd413b244d1b466
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466210"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545073"
 ---
 # <a name="flagstatus"></a>FlagStatus
 
-O elemento **FlagStatus** contém o status de sinalizador agregado para itens de conversa na pasta atual. 
+O **elemento FlagStatus** contém o status de sinalizador agregado para itens de conversa na pasta atual. 
   
 [FindConversationResponse](findconversationresponse.md)
   
 [Conversas](conversations-ex15websvcsotherref.md)
   
-[Conversa (Conversatype)](conversation-conversationtype.md)
+[Conversation (ConversationType)](conversation-conversationtype.md)
   
 [FlagStatus](flagstatus.md)
   
@@ -52,21 +52,21 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **FlagStatus** é o status de sinalizador agregado para itens de conversa na pasta atual. Estes são os valores de texto possíveis: 
+O valor de texto do **elemento FlagStatus** é o status de sinalizador agregado para itens de conversa na pasta atual. Veja a seguir os valores de texto possíveis: 
   
-- Não **sinalizado** : indica o status não sinalizado. 
+- **NotFlagged** - Indica o status não sinalizado. 
     
-- **Marcado** : indica o status sinalizado. 
+- **Sinalizado** - Indica o status sinalizado. 
     
-- **Concluído** -indica o status completo do sinalizador. 
+- **Concluído** - Indica o status completo do sinalizador. 
     
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -74,7 +74,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

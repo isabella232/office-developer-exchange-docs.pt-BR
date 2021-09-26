@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dd16d1fb-d82d-42e5-b64a-bc6c19c48fa8
-description: O elemento GetNonIndexableItemStatistics especifica uma solicitação para recuperar estatísticas de itens não indexados.
-ms.openlocfilehash: 4b605379f20f5558566f1cfbad9ef1aa33b6fce6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetNonIndexableItemStatistics especifica uma solicitação para recuperar estatísticas de item não indexáveis.
+ms.openlocfilehash: 7e5b7b586a4fd6a293e62bdc9b7229eeb9f9476f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452787"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546200"
 ---
 # <a name="getnonindexableitemstatistics"></a>GetNonIndexableItemStatistics
 
-O elemento **GetNonIndexableItemStatistics** especifica uma solicitação para recuperar estatísticas de itens não indexados. 
+O **elemento GetNonIndexableItemStatistics** especifica uma solicitação para recuperar estatísticas de item não indexáveis. 
   
 ```XML
 <GetNonIndexableItemStatistics>
@@ -38,11 +38,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Caixas de correio (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Especifica uma matriz de elementos de **caixa de correio** .  <br/> |
+|[Mailboxes (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Especifica uma matriz de elementos **de Caixa de** Correio.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

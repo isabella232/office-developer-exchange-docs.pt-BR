@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveItem
 api_type:
 - schema
 ms.assetid: dcf40fa7-7796-4a5c-bf5b-7a509a18d208
 description: A operação MoveItem é usada para mover um ou mais itens para uma única pasta de destino.
-ms.openlocfilehash: 6a455e483ad2e5c84b91cfaa7562f4f1ec46a112
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2d86d06e522e0d42815971c92e754308224f5e8f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465678"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544847"
 ---
 # <a name="moveitem-operation"></a>Operação MoveItem
 
-A operação **MoveItem** é usada para mover um ou mais itens para uma única pasta de destino. 
+A **operação MoveItem** é usada para mover um ou mais itens para uma única pasta de destino. 
   
 ## <a name="moveitem-request-example"></a>Exemplo de solicitação MoveItem
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **MoveItem** mostra como mover um item para a pasta Rascunhos. 
+O exemplo a seguir de **uma solicitação MoveItem** mostra como mover um item para a pasta Rascunhos. 
   
 ### <a name="code"></a>Código
 
@@ -36,10 +36,10 @@ O exemplo a seguir de uma solicitação **MoveItem** mostra como mover um item p
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <MoveItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <MoveItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <ToFolderId>
         <t:DistinguishedFolderId Id="drafts"/>
       </ToFolderId>
@@ -53,12 +53,12 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 
 ### <a name="comments"></a>Comentários
 
-O elemento [ToFolderId](tofolderid.md) especifica a pasta para a qual os itens serão movidos. Observe que todos os itens listados na coleção [ItemIds](itemids.md) terminarão na pasta de destino. Você deve fazer chamadas **MoveItem** separadas para colocar itens em pastas de destino diferentes. 
+O [elemento ToFolderId](tofolderid.md) especifica a pasta para a qual os itens serão movidos. Observe que todos os itens listados na [coleção ItemIds](itemids.md) terminarão na pasta de destino. Você deve fazer chamadas **moveItem** separadas para colocar itens em pastas de destino diferentes. 
   
 > [!NOTE]
-> O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade. 
+> O identificador de item e a chave de alteração foram reduzidos para preservar a capacidade de leitura. 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -76,9 +76,9 @@ Os seguintes elementos são usados na solicitação:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **MoveItem** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma **solicitação MoveItem.** 
   
-O identificador de item do novo item é retornado na mensagem de resposta. Os identificadores de item não são retornados em respostas para as operações de **MoveItem** de caixa de correio ou de caixa de correio de pasta pública. 
+O identificador de item do novo item é retornado na mensagem de resposta. Os identificadores de item não são retornados em respostas para caixas de correio cruzada ou caixa de correio para operações **MoveItem de** pasta pública. 
   
 ### <a name="code"></a>Código
 
@@ -89,12 +89,12 @@ O identificador de item do novo item é retornado na mensagem de resposta. Os id
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <MoveItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:MoveItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -112,7 +112,7 @@ O identificador de item do novo item é retornado na mensagem de resposta. Os id
 
 ### <a name="comments"></a>Comentários
 
-A operação **MoveItem** indicará êxito se a movimentação tiver sido bem-sucedida. 
+A **operação MoveItem** indicará sucesso se a movimentação foi bem-sucedida. 
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 

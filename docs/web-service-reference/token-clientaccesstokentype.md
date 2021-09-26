@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cddd6075-06b6-4858-9ffa-9db4d9d9b030
-description: O elemento token especifica um token de acesso para cliente.
-ms.openlocfilehash: d195e81d8d20eb2288e921c640c7b2898a5341ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Token especifica um token de acesso para cliente.
+ms.openlocfilehash: b9cd0887d082c2ddd9abe0505ebec993f0261fad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467862"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545731"
 ---
 # <a name="token-clientaccesstokentype"></a>Token (ClientAccessTokenType)
 
-O elemento **token** especifica um token de acesso para cliente. 
+O **elemento Token** especifica um token de acesso para cliente. 
   
 ```XML
 <Token>
@@ -39,7 +39,7 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[ID (cadeia de caracteres)](id-string.md)  |  [TokenType](tokentype.md)  |  [TokenValue](tokenvalue.md)  |  [TTL](ttl.md)
+[ID (Cadeia de Caracteres)](id-string.md)  |  [TokenType](tokentype.md)  |  [TokenValue](tokenvalue.md)  |  [TTL](ttl.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -57,7 +57,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

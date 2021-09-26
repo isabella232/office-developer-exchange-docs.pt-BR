@@ -1,23 +1,23 @@
 ---
-title: Endereços (ArrayOfAddressEntitiesType)
+title: Addresses (ArrayOfAddressEntitiesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c1f3fd3-1b78-46ee-8dd4-b2aff51e767e
 description: O elemento Addresses especifica uma matriz de elementos AddressEntity.
-ms.openlocfilehash: 48cf8c0fda6a8ef894ef8d3a4c154f7255b218bf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 83463f5137db2007c9cffea37a7323dadb146904
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463626"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541543"
 ---
-# <a name="addresses-arrayofaddressentitiestype"></a>Endereços (ArrayOfAddressEntitiesType)
+# <a name="addresses-arrayofaddressentitiestype"></a>Addresses (ArrayOfAddressEntitiesType)
 
-O elemento **Addresses** especifica uma matriz de elementos **AddressEntity** . 
+O **elemento Addresses** especifica uma matriz de elementos **AddressEntity.** 
   
 ```XML
 <Addresses>
@@ -38,13 +38,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[AddressEntity](addressentity.md) <br/> |Especifica uma única entidade de endereço.  <br/> |
+|[AddressEntity](addressentity.md) <br/> |Especifica uma entidade de endereço único.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[EntityExtractionResult](entityextractionresult.md) <br/> |Especifica a propriedade **EntityExtractionResult** de um item.  <br/> |
+|[EntityExtractionResult](entityextractionresult.md) <br/> |Especifica a **propriedade EntityExtractionResult** de um item.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

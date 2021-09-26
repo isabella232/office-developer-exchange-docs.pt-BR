@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetPhoneCallInformation
 api_type:
 - schema
 ms.assetid: 5f4ee71c-bde0-4b0d-b426-0c24dfe67585
-description: O elemento GetPhoneCallInformation especifica uma solicitação para obter informações de chamadas telefônicas.
-ms.openlocfilehash: b835cd301b1c243e88034d1057026ef1305b9038
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetPhoneCallInformation especifica uma solicitação para obter informações de chamada telefônica.
+ms.openlocfilehash: ed62ac514e03cb766c5c763826ffbe529871d8ae
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530194"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543265"
 ---
 # <a name="getphonecallinformation"></a>GetPhoneCallInformation
 
-O elemento **GetPhoneCallInformation** especifica uma solicitação para obter informações de chamadas telefônicas. 
+O **elemento GetPhoneCallInformation** especifica uma solicitação para obter informações de chamada telefônica. 
   
 ```xml
 <GetPhoneCallInformation>
@@ -42,7 +42,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Chamada de chamada](phonecallid.md) <br/> |Especifica o identificador de uma chamada telefônica.  <br/> |
+|[PhoneCallId](phonecallid.md) <br/> |Especifica o identificador de uma chamada telefônica.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 

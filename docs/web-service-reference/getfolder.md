@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetFolder
 api_type:
 - schema
 ms.assetid: 34e4c9ea-adcd-46bd-ae8f-7abb256c585a
-description: O elemento GetFolder define uma solicitação para obter uma pasta de uma caixa de correio no repositório do Exchange.
-ms.openlocfilehash: 41d2b1ab5fcd5d2d60c399e8070ca957ee4b66e7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetFolder define uma solicitação para obter uma pasta de uma caixa de correio no Exchange store.
+ms.openlocfilehash: dc6004a05bce51592dbc6e4e7df6993821951e50
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458702"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546291"
 ---
 # <a name="getfolder"></a>GetFolder
 
-O elemento **GetFolder** define uma solicitação para obter uma pasta de uma caixa de correio no repositório do Exchange. 
+O **elemento GetFolder** define uma solicitação para obter uma pasta de uma caixa de correio no Exchange store. 
   
 ```xml
 <GetFolder>
@@ -43,12 +43,12 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> |Identifica as propriedades a serem obtidas para cada pasta identificada no elemento [FolderIds](folderids.md) .  <br/> |
-|[FolderIds](folderids.md) <br/> |Contém uma matriz de identificadores de pasta que são usados para identificar pastas a serem obtidas de uma caixa de correio no repositório do Exchange.  <br/> |
+|[FolderShape](foldershape.md) <br/> |Identifica as propriedades a obter para cada pasta identificada no [elemento FolderIds.](folderids.md)  <br/> |
+|[FolderIds](folderids.md) <br/> |Contém uma matriz de identificadores de pasta que são usados para identificar pastas para obter de uma caixa de correio no Exchange store.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

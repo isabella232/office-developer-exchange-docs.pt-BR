@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c942758e-5ff3-4acb-9080-b8672e56f696
-description: O elemento EcpUrl-tmCreating especifica uma URL parcial que pode ser combinada com o valor do elemento EcpUrl (POX) para gerar uma URL que possa ser usada para criar uma nova caixa de correio de site.
-ms.openlocfilehash: 93ea3f5752dab0028c0732e5e79c5690e35bd059
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EcpUrl-tmCreating especifica uma URL parcial que pode ser combinada com o valor do elemento EcpUrl (POX) para gerar uma URL que pode ser usada para criar uma nova caixa de correio de site.
+ms.openlocfilehash: 17fcd3174b70f751b07a4d6526c5b0c73d885561
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462056"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545262"
 ---
 # <a name="ecpurl-tmcreating-pox"></a>EcpUrl-tmCreating (POX)
 
-O elemento **EcpUrl-tmCreating** especifica uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que possa ser usada para criar uma nova caixa de correio de site. 
+O **elemento EcpUrl-tmCreating** especifica uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que pode ser usada para criar uma nova caixa de correio de site. 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Conta (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -48,19 +48,19 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server que tem a função de servidor de acesso para Cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando Microsoft Exchange Server que tem a função de servidor de Acesso para Cliente instalada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que possa ser usada para criar uma nova caixa de correio de site. 
+O valor do texto representa uma URL parcial que pode ser combinada com o valor do elemento [EcpUrl (POX)](ecpurl-pox.md) para gerar uma URL que pode ser usada para criar uma nova caixa de correio de site. 
   
 ## <a name="remarks"></a>Comentários
 
-O elemento **EcpUrl-tmCreating** é um elemento filho opcional do elemento **Protocol** . 
+O **elemento EcpUrl-tmCreating** é um elemento filho opcional do **elemento Protocol.** 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -4,23 +4,23 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: bf614551-f5b0-4f80-bdac-628f685faee9
-description: O elemento DebugData contém os dados de depuração de uma resposta de erro de descoberta automática.
-ms.openlocfilehash: 79b5f4d3fa1379b7052dcd03053bc8bac6430017
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DebugData contém os dados de depuração para uma resposta de erro de Descoberta Automática.
+ms.openlocfilehash: ff339e6e92eb8dd9d3d0c1b96c0e4f733a383dc3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526946"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543412"
 ---
 # <a name="debugdata-pox"></a>DebugData (POX)
 
-O elemento **DebugData** contém os dados de depuração de uma resposta de erro de descoberta automática. 
+O **elemento DebugData** contém os dados de depuração para uma resposta de erro de Descoberta Automática. 
   
-- [Erro (POX)](error-pox.md) 
+- [Error (POX)](error-pox.md) 
 - [DebugData (POX)](debugdata-pox.md)
   
 ```xml
@@ -43,13 +43,13 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Erro (POX)](error-pox.md) <br/> |Contém uma resposta de erro de descoberta automática.  <br/> |
+|[Error (POX)](error-pox.md) <br/> |Contém uma resposta de erro de Descoberta Automática.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa os dados de depuração de uma resposta de erro de descoberta automática.
+O valor de texto representa os dados de depuração de uma resposta de erro de Descoberta Automática.
   
 ## <a name="see-also"></a>Confira também
 
-- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

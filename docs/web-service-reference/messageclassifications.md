@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageClassifications
 api_type:
 - schema
 ms.assetid: 041b3d48-8f43-47f3-869f-72b66bef372a
-description: O elemento MessageClassifications representa as classificações de mensagem que devem ser carimbadas nas mensagens de entrada para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: 63481aa8903c4e9637870130eb9154118471c3b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MessageClassifications representa as classificações de mensagem que devem ser carimbadas em mensagens de entrada para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: 88ccd4be40d66de2fec859de67aa0e365f451bd4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542082"
 ---
 # <a name="messageclassifications"></a>MessageClassifications
 
-O elemento **MessageClassifications** representa as classificações de mensagem que devem ser carimbadas nas mensagens de entrada para que a condição ou exceção seja aplicada. 
+O **elemento MessageClassifications** representa as classificações de mensagem que devem ser carimbadas em mensagens de entrada para que a condição ou exceção seja aplicada. 
   
 ```XML
 <MessageClassifications>
@@ -48,8 +48,8 @@ Nenhuma
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa as exceções que representam todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa as exceções que representam todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

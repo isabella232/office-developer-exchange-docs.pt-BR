@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AddDelegateResponse
 api_type:
 - schema
 ms.assetid: d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429
 description: O elemento AddDelegateResponse contém o status e o resultado de uma solicitação de operação AddDelegate.
-ms.openlocfilehash: 1c38563ab38facf89fd5eab119542374949244c2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2e630d42b004f6c7ccaf7cc2240369dcf312068b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466455"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544386"
 ---
 # <a name="adddelegateresponse"></a>AddDelegateResponse
 
-O elemento **AddDelegateResponse** contém o status e o resultado de uma solicitação de [operação AddDelegate](adddelegate-operation.md) . 
+O **elemento AddDelegateResponse** contém o status e o resultado de uma solicitação de operação [AddDelegate.](adddelegate-operation.md) 
   
 ```xml
 <AddDelegateResponse>
@@ -46,19 +46,19 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Contém as mensagens de resposta para uma solicitação de gerenciamento de representante do Exchange Web Services.  <br/> |
+|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange de gerenciamento de representantes dos Serviços Web.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fornece uma descrição de texto do status da resposta.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fornece um código de erro que identifica o erro específico que a solicitação encontrou.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Não utilizado no momento e está reservado para uso futuro. Ele contém um valor de 0.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta de erro.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fornece um código de erro que identifica o erro específico encontrado pela solicitação.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Atualmente não usado e reservado para uso futuro. Ele contém um valor 0.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fornece informações adicionais de resposta a erros.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2010 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -73,5 +73,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 
 - [Operação AddDelegate](adddelegate-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
-- [Adicionar representantes](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Adicionando representantes](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

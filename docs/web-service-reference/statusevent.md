@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StatusEvent
 api_type:
 - schema
 ms.assetid: d3901818-2640-4bed-aad8-21a61aee62a1
-description: O elemento StatusEvent representa uma notificação de que nenhuma atividade nova ocorreu na caixa de correio.
-ms.openlocfilehash: 8158a47937a810be2ea22346384b4e61da56ac48
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento StatusEvent representa uma notificação de que nenhuma nova atividade ocorreu na caixa de correio.
+ms.openlocfilehash: 777d5cd22e47fea6e7bf7432e58e5d58d1ef67a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468254"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543972"
 ---
 # <a name="statusevent"></a>StatusEvent
 
-O elemento **StatusEvent** representa uma notificação de que nenhuma atividade nova ocorreu na caixa de correio. 
+O **elemento StatusEvent** representa uma notificação de que nenhuma nova atividade ocorreu na caixa de correio. 
   
 ```xml
 <StatusEvent>
@@ -42,7 +42,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Marca d'água](watermark.md) <br/> |Representa a última marca d' água válida para uma assinatura.  <br/> |
+|[Watermark](watermark.md) <br/> |Representa a última marca d'água válida para uma assinatura.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -52,15 +52,15 @@ Nenhum
    
 ## <a name="remarks"></a>Comentários
 
-O elemento **StatusEvent** é retornado em uma notificação por uma das seguintes razões: 
+O **elemento StatusEvent** é retornado em uma notificação por um dos seguintes motivos: 
   
-- Um cliente de recepção emite uma solicitação GetEvents em uma assinatura sem atividade.
+- Um cliente pull emite uma solicitação GetEvents em uma assinatura que não tem atividade.
     
-- Um cliente de envio não tem eventos na fila quando o [StatusFrequency](statusfrequency.md) foi alcançado. 
+- Um cliente push não tem eventos na fila quando [o StatusFrequency](statusfrequency.md) foi atingido. 
     
-A **StatusEvent**[marca d' água](watermark.md) StatusEvent é usada por um aplicativo cliente da mesma maneira que as marcas d' água de outro tipo de evento. No entanto, a marca d' água de **StatusEvent** não é a mesma que as marcas d' água usadas para outros eventos. Por exemplo, uma assinatura tem eventos com marcas d' água 1, 2 e 3, e esses eventos foram comunicados com êxito em uma notificação. Um período de inatividade ocorre e uma solicitação **GetEvents** é enviada. O servidor de acesso para cliente (CAS) retorna um evento de status e inclui a última marca d' água, 3, como [PreviousWatermark](previouswatermark.md) e a [marca d' água](watermark.md)atual.
+A **marca d'água StatusEvent**[é](watermark.md) usada por um aplicativo cliente da mesma maneira que as outras marcas d'água do tipo de evento. No entanto, a marca d'água **do StatusEvent** não é igual às marcas d'água usadas para outros eventos. Por exemplo, uma assinatura tem eventos com marcas d'água 1, 2 e 3 e esses eventos foram comunicados com êxito em uma notificação. Ocorre um período de inatividade e uma **solicitação GetEvents** é enviada. O servidor de Acesso para Cliente (CAS) retorna um evento de status e inclui a última marca d'água, 3, como [PreviousWatermark](previouswatermark.md) e [a marca d'água atual](watermark.md).
   
-A marca d' água não permanecerá a mesma em todos os casos. As entradas de evento são mantidas por 30 dias. Para manter uma assinatura ativa, o CAS atualiza periodicamente as marcas d' água das filas de assinatura. As marcas d' água atualizadas são enviadas aos clientes para manter uma assinatura ativa.
+A marca d'água não permanecerá a mesma em todos os casos. Entradas de eventos são mantidas por 30 dias. Para manter uma assinatura ativa, o CAS atualiza periodicamente as marcas d'água para filas de assinatura. As marcas d'água atualizadas são enviadas aos clientes para manter uma assinatura ativa.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
@@ -70,7 +70,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

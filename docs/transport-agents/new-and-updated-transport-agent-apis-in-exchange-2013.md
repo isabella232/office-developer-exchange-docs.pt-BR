@@ -1,37 +1,37 @@
 ---
-title: APIs de agente de transporte novas e atualizadas no Exchange 2013
+title: APIs de agente de transporte novas e atualizadas Exchange 2013
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0a1ad73a-3085-4793-af4d-e4216484c93e
 description: Descubra quais APIs são novas ou atualizadas no Exchange 2013 para agentes de transporte.
-ms.openlocfilehash: 9cb099757512081347e23bc619c42417929f0f70
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 34334b39219ee6c25fda214f0905ab24309ae83f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461818"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542551"
 ---
-# <a name="new-and-updated-transport-agent-apis-in-exchange-2013"></a>APIs de agente de transporte novas e atualizadas no Exchange 2013
+# <a name="new-and-updated-transport-agent-apis-in-exchange-2013"></a>APIs de agente de transporte novas e atualizadas Exchange 2013
 
 Descubra quais APIs são novas ou atualizadas no Exchange 2013 para agentes de transporte.
 
 **Aplica-se a:** Exchange Server 2013 
   
-Este artigo lista tipos novos ou atualizados no Exchange Server 2013 que afetam agentes de transporte. Para saber mais sobre as alterações arquitetônicas no Exchange 2013 que afetam agentes de transporte, consulte [conceitos de agente de transporte no exchange 2013](transport-agent-concepts-in-exchange-2013.md).
+Este artigo lista os tipos novos ou atualizados no Exchange Server 2013 que afetam os agentes de transporte. Para saber mais sobre as alterações de arquitetura Exchange 2013 que afetam agentes de transporte, consulte Conceitos do agente de [transporte no Exchange 2013](transport-agent-concepts-in-exchange-2013.md).
   
-## <a name="new-types-for-transport-agent-development-in-exchange-2013"></a>Novos tipos de desenvolvimento de agente de transporte no Exchange 2013
+## <a name="new-types-for-transport-agent-development-in-exchange-2013"></a>Novos tipos para desenvolvimento de agentes de transporte no Exchange 2013
 
-Os tipos a seguir são novos no Exchange 2013:
+Os seguintes tipos são novos no Exchange 2013:
   
 - [NextHopCategory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.NextHopCategory.aspx)
     
 - [RiskLevel](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.RiskLevel.aspx)
     
-## <a name="updated-types-for-transport-agent-development-in-exchange-2013"></a>Tipos atualizados de desenvolvimento de agente de transporte no Exchange 2013
+## <a name="updated-types-for-transport-agent-development-in-exchange-2013"></a>Tipos atualizados para desenvolvimento de agentes de transporte no Exchange 2013
 
 Os seguintes tipos foram atualizados no Exchange 2013:
   
@@ -49,13 +49,13 @@ Os seguintes tipos foram atualizados no Exchange 2013:
     
 - [EncodingFlags](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.EncodingFlags.aspx)
     
-- [Headerid](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.HeaderId.aspx)
+- [HeaderId](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.HeaderId.aspx)
     
-- [Headerlist](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.HeaderList.aspx)
+- [HeaderList](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.HeaderList.aspx)
     
 - [MimeComplianceStatus](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeComplianceStatus.aspx)
     
-- [Unificação de MIME](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeGroup.aspx)
+- [MimeGroup](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeGroup.aspx)
     
 - [MimeNode](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeNode.aspx)
     
@@ -71,7 +71,7 @@ Os seguintes tipos foram atualizados no Exchange 2013:
     
 - [HtmlReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.TextConverters.HtmlReader.aspx)
     
-- [HtmlTagContext. AttributeCollection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.TextConverters.HtmlTagContext.AttributeCollection.aspx)
+- [HtmlTagContext.AttributeCollection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.TextConverters.HtmlTagContext.AttributeCollection.aspx)
     
 - [HtmlWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.TextConverters.HtmlWriter.aspx)
     
@@ -81,7 +81,7 @@ Os seguintes tipos foram atualizados no Exchange 2013:
     
 - [EnvelopeRecipientCollection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.EnvelopeRecipientCollection.aspx)
     
-- [EnvelopeRecipientCollection. Enumerator](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.EnvelopeRecipientCollection.Enumerator.aspx)
+- [EnvelopeRecipientCollection.Enumerator](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.EnvelopeRecipientCollection.Enumerator.aspx)
     
 - [Item de Email](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.MailItem.aspx)
     
@@ -103,11 +103,11 @@ Os seguintes tipos foram atualizados no Exchange 2013:
     
 - [AttachmentCollection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.AttachmentCollection.aspx)
     
-- [AttachmentCollection. Enumerator](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.AttachmentCollection.Enumerator.aspx)
+- [AttachmentCollection.Enumerator](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.AttachmentCollection.Enumerator.aspx)
     
 - [EmailRecipientCollection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.EmailRecipientCollection.aspx)
     
-- [EmailRecipientCollection. Enumerator](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.EmailRecipientCollection.Enumerator.aspx)
+- [EmailRecipientCollection.Enumerator](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.EmailRecipientCollection.Enumerator.aspx)
     
 - [QueuedMessageEventSource](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.QueuedMessageEventSource.aspx)
     
@@ -119,7 +119,7 @@ Os seguintes tipos foram atualizados no Exchange 2013:
     
 - [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)
     
-- [Connecteventargs](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.ConnectEventArgs.aspx)
+- [ConnectEventArgs](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.ConnectEventArgs.aspx)
     
 - [DisconnectReason](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.DisconnectReason.aspx)
     
@@ -138,7 +138,7 @@ Os seguintes tipos foram atualizados no Exchange 2013:
 ## <a name="see-also"></a>Confira também
 
 - [Conceitos de agente de transporte no Exchange 2013](transport-agent-concepts-in-exchange-2013.md)  
-- [Criando agentes de transporte para o Exchange 2013](creating-transport-agents-for-exchange-2013.md)  
-- [Referência do agente de transporte para o Exchange 2013](transport-agent-reference-for-exchange-2013.md)
+- [Criando agentes de transporte para Exchange 2013](creating-transport-agents-for-exchange-2013.md)  
+- [Referência do agente de transporte Exchange 2013](transport-agent-reference-for-exchange-2013.md)
     
 

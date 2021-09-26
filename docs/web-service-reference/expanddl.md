@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExpandDL
 api_type:
 - schema
 ms.assetid: affe84a5-ad98-4aba-83f4-8732938b763d
 description: O elemento ExpandDL define uma solicitação para expandir uma lista de distribuição.
-ms.openlocfilehash: 52b1ea1b51ce185c7a266e3002a4484e4b813bc0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 53c713ac21204be3d49e909bebd0bc8927856476
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456931"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545157"
 ---
 # <a name="expanddl"></a>ExpandDL
 
-O elemento **ExpandDL** define uma solicitação para expandir uma lista de distribuição. 
+O **elemento ExpandDL** define uma solicitação para expandir uma lista de distribuição. 
   
 ```xml
 <ExpandDL>
@@ -42,11 +42,11 @@ Nenhuma
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Caixa de Correio](mailbox.md) <br/> |Identifica um endereço de email totalmente resolvido ou uma lista de distribuição. Esta caixa de correio representa a lista de distribuição a ser expandida.  <br/> |
+|[Caixa de Correio](mailbox.md) <br/> |Identifica um endereço de email totalmente resolvido ou uma lista de distribuição. Essa caixa de correio representa a lista de distribuição a ser expandida.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

@@ -1,23 +1,23 @@
 ---
-title: Aniversários
+title: Birthdays
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a84c19e-57cd-448e-af4f-c8005fd5f2a2
-description: O elemento aniversários especifica uma matriz de aniversários, armazenada como cadeias de caracteres e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: aa85febd84c32ae87e0822ce47fd99f445b6fe9e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Birthdays especifica uma matriz de aniversários, armazenada como cadeias de caracteres e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: a1ed3886d9492ba2819a93183c0042b74f1d364c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462756"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543601"
 ---
-# <a name="birthdays"></a>Aniversários
+# <a name="birthdays"></a>Birthdays
 
-O elemento **aniversários** especifica uma matriz de aniversários, armazenada como cadeias de caracteres e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento Birthdays** especifica uma matriz de aniversários, armazenada como cadeias de caracteres e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <Birthdays>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

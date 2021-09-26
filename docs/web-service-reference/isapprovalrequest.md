@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsApprovalRequest
 api_type:
 - schema
 ms.assetid: 293ed01b-f6a4-4459-819c-933bbfaa2dd7
 description: O elemento IsApprovalRequest indica se as mensagens de entrada devem ser solicitações de aprovação para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: 08ea36820b2680bb2c7e5695eb2dd481154c05eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0547b476d1ec4515906204ba4937272f6c0bedf3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530006"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544961"
 ---
 # <a name="isapprovalrequest"></a>IsApprovalRequest
 
-O elemento **IsApprovalRequest** indica se as mensagens de entrada devem ser solicitações de aprovação para que a condição ou exceção seja aplicada. 
+O **elemento IsApprovalRequest** indica se as mensagens de entrada devem ser solicitações de aprovação para que a condição ou exceção seja aplicada. 
   
 ```XML
 <IsApprovalRequest/>
@@ -44,8 +44,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

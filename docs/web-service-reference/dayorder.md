@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DayOrder
 api_type:
 - schema
 ms.assetid: 3022f839-12a2-42a9-820e-3ea585ce8657
-description: O elemento DayOrder representa a enésima ocorrência do dia especificado no elemento DayOfWeek (TimeZone) que representa a data de transição de e para o horário padrão e o horário de verão.
-ms.openlocfilehash: 53a8cb979bdb7aefead5623b4680f4c1a4ef5509
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DayOrder representa a nth ocorrência do dia especificado no elemento DayOfWeek (TimeZone) que representa a data de transição de e para a hora padrão e o horário de verão.
+ms.openlocfilehash: bc216984a92fef58ac6f46dc4646a0deca837563
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526960"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543440"
 ---
 # <a name="dayorder"></a>DayOrder
 
-O elemento **DayOrder** representa a ocorrência de _n_th do dia especificado no elemento [DayOfWeek (TimeZone)](dayofweek-timezone.md) que representa a data de transição de e para o horário padrão e o horário de verão. 
+O **elemento DayOrder** representa a _n_th do dia especificado no elemento [DayOfWeek (TimeZone)](dayofweek-timezone.md) que representa a data de transição de e para a hora padrão e o horário de verão. 
   
 ```xml
 <DayOrder>...</DayOrder>
 ```
 
-**rápido**
+**short**
 
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
@@ -45,16 +45,16 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[StandardTime](standardtime.md) <br/> | Representa um deslocamento do tempo relativo ao UTC (tempo Universal Coordenado) representado pelo elemento [Bias (UTC)](bias-utc.md) .<br/><br/>Esse elemento também contém informações sobre a transição para o horário padrão do horário de verão nas regiões nas quais o horário de verão é observado.<br/><br/>A seguir estão as expressões XPath para o elemento [StandardTime](standardtime.md) :<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
-|[DaylightTime](daylighttime.md) <br/> | Representa um deslocamento do tempo relativo ao UTC representado pelo elemento [Bias (UTC)](bias-utc.md) nas regiões em que o horário de verão é observado.<br/><br/>Esse elemento também contém informações sobre quando ocorre a transição para o horário de Verão do horário padrão.<br/><br/>A seguir estão as expressões XPath para o elemento [DaylightTime](daylighttime.md) :<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
+|[StandardTime](standardtime.md) <br/> | Representa um deslocamento do tempo em relação ao TEMPO Universal Coordenado (UTC) representado pelo elemento [Bias (UTC).](bias-utc.md)<br/><br/>Esse elemento também contém informações sobre a transição para o horário padrão do horário de verão em regiões onde o horário de verão é observado.<br/><br/>Veja a seguir as expressões XPath para o [elemento StandardTime:](standardtime.md)<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
+|[DaylightTime](daylighttime.md) <br/> | Representa um deslocamento do tempo em relação ao UTC representado pelo elemento [Bias (UTC)](bias-utc.md) em regiões onde o horário de verão é observado.<br/><br/>Esse elemento também contém informações sobre quando ocorre a transição para o horário de verão do horário padrão.<br/><br/>Veja a seguir as expressões XPath para o [elemento DaylightTime:](daylighttime.md)<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. O valor do elemento **DayOrder** pode ser de 1 a 5. O valor máximo para esse elemento pode ser 4 ou 5, dependendo do mês e do ano. 
+Um valor de texto é necessário. O valor do **elemento DayOrder** pode ser de 1 a 5. O valor máximo para esse elemento pode ser 4 ou 5, dependendo do mês e do ano. 
   
 ## <a name="remarks"></a>Comentários
 
-Um elemento [StandardTime](standardtime.md) que contém um elemento **DayOrder** que tem um valor de 5, um elemento [month](month.md) que tem um valor de 10, e um elemento [DayOfWeek (TimeZone)](dayofweek-timezone.md) que tem um valor de domingo significa que a transição do horário padrão para o horário de Verão ocorre no quinto domingo do décimo mês. 
+Um elemento [StandardTime](standardtime.md) que contém um elemento **DayOrder** que tem um valor de 5, um elemento [Month](month.md) que tem um valor 10 e um elemento [DayOfWeek (TimeZone)](dayofweek-timezone.md) que tem um valor de domingo significa que a transição do horário padrão para o horário de verão ocorre no quinto domingo do décimo mês. 
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -62,11 +62,11 @@ Um elemento [StandardTime](standardtime.md) que contém um elemento **DayOrder**
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 - [Operação GetUserAvailability](getuseravailability-operation.md)
-- [Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

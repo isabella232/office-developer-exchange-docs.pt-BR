@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Delete
 api_type:
 - schema
 ms.assetid: aa45f0c1-a80d-4b6c-8a85-375b6de515f4
-description: O elemento delete indica se um cliente pode excluir uma pasta ou item.
-ms.openlocfilehash: 5460f9e49b126ca6b039c6f11aaa3c6eb4a40544
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Delete indica se um cliente pode excluir uma pasta ou item.
+ms.openlocfilehash: e1ecbfbcb11be04e39dc8353140653e6b5ca1c3b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457351"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542488"
 ---
 # <a name="delete"></a>Excluir
 
-O elemento **delete** indica se um cliente pode excluir uma pasta ou item. 
+O **elemento Delete** indica se um cliente pode excluir uma pasta ou item. 
   
 ```XML
 <Delete>true or false</Delete>
@@ -45,12 +45,12 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[EffectiveRights](effectiverights.md) <br/> |Contém os direitos do cliente com base nas configurações de permissão para o item ou pasta.  <br/> |
-|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |Contém os direitos do cliente com base nas configurações de permissão do item ou pasta.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem tomadas em uma mensagem quando as condições são atendidas.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor **true** indica que um cliente pode excluir um item ou pasta. Um valor **false** indica que um cliente não pode excluir um item ou pasta. 
+Um valor de texto **true** indica que um cliente pode excluir um item ou pasta. Um valor false indica **que** um cliente não pode excluir um item ou pasta. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -62,11 +62,11 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
-- [Definindo permissões no nível de pasta](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+- [Definindo Folder-Level Permissões](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

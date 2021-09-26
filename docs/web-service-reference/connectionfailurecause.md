@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConnectionFailureCause
 api_type:
 - schema
 ms.assetid: d2160c8a-015c-4964-b7f7-93478764a173
-description: O elemento ConnectionFailureCause especifica a razão para uma desconexão de uma chamada telefônica.
-ms.openlocfilehash: 6385641eaee140a114906703232974d51d5ce344
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ConnectionFailureCause especifica o motivo de uma desconexão de uma chamada telefônica.
+ms.openlocfilehash: de2f06ae89577b0141b8555f98dba1671a228d45
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529445"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543531"
 ---
 # <a name="connectionfailurecause"></a>ConnectionFailureCause
 
-O elemento **ConnectionFailureCause** especifica a razão para uma desconexão de uma chamada telefônica. 
+O **elemento ConnectionFailureCause** especifica o motivo de uma desconexão de uma chamada telefônica. 
   
 ```xml
 <ConnectionFailureCause>None or UserBusy or NoAnswer or Unavailable or Other</ConnectionFailureCause>
@@ -44,21 +44,21 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[PhoneCallInformation](phonecallinformation.md) <br/> |Especifica as informações de estado de uma chamada telefônica.  <br/> |
+|[PhoneCallInformation](phonecallinformation.md) <br/> |Especifica as informações de estado para uma chamada telefônica.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-A tabela a seguir lista os valores possíveis para o elemento **ConnectionFailureCause** . 
+A tabela a seguir lista os valores possíveis para o **elemento ConnectionFailureCause.** 
   
 **Valores do elemento ConnectionFailureCause**
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Nenhum  <br/> |O estado de chamada não é desconectado ou o motivo da desconexão não é conhecido.  <br/> |
-|Userbusy  <br/> |A linha do participante chamada estava ocupada.  <br/> |
-|NOANSWER  <br/> |A parte chamada não respondeu.  <br/> |
+|Nenhum  <br/> |O estado da chamada não está desconectado ou o motivo da desconexão não é conhecido.  <br/> |
+|UserBusy  <br/> |A linha de terceiros chamada estava ocupada.  <br/> |
+|NoAnswer  <br/> |A parte chamada não atendeu.  <br/> |
 |Indisponível  <br/> |O número da parte chamada não estava disponível.  <br/> |
-|Outros  <br/> |Catch-tudo por outros motivos de desconexão.  <br/> |
+|Outros  <br/> |Catch-all por outros motivos de desconexão.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -70,7 +70,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

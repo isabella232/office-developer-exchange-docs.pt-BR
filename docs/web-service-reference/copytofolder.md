@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CopyToFolder
 api_type:
 - schema
 ms.assetid: 6fd8a6b8-d813-43ff-991b-0e9e782fe00e
-description: O elemento CopyToFolder especifica o identificador da pasta para a qual os itens de email podem ser copiados.
-ms.openlocfilehash: 7cdda0f9769f909255c9b76f78ac7094a8dfc8f8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento CopyToFolder especifica o identificador da pasta para a onde os itens de email podem ser copiados.
+ms.openlocfilehash: a26072f6f316df1734d32cab24a0108ab3c513b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463171"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543461"
 ---
 # <a name="copytofolder"></a>CopyToFolder
 
-O elemento **CopyToFolder** especifica o identificador da pasta para a qual os itens de email podem ser copiados. 
+O **elemento CopyToFolder** especifica o identificador da pasta para a onde os itens de email podem ser copiados. 
   
 ```XML
 <CopyToFolder>
@@ -43,14 +43,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contém o identificador de uma pasta de destino para uma pasta ou item copiado ou movido.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica uma pasta de destino nomeada para uma pasta ou item copiado ou movido.  <br/> |
+|[FolderId](folderid.md) <br/> |Contém o identificador de uma pasta de destino para um item ou pasta copiado ou movido.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifica uma pasta de destino nomeada para um item ou pasta copiado ou movido.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem tomadas em uma mensagem quando as condições são atendidas.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

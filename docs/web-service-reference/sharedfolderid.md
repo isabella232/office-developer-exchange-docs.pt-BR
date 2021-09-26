@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SharedFolderId
 api_type:
 - schema
 ms.assetid: 21181ba3-9626-4284-9717-0b1c16948e8f
 description: O elemento SharedFolderId representa o identificador da pasta compartilhada para a qual o identificador de pasta local deve ser retornado por uma solicitação de operação GetSharingFolder.
-ms.openlocfilehash: 546e148540708725bcf335f39bf69d193124d210
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7e47ba49abed99bdb3cfd00eb43d2ef276d4ef37
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466119"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545969"
 ---
 # <a name="sharedfolderid"></a>SharedFolderId
 
-O elemento **SharedFolderId** representa o identificador da pasta compartilhada para a qual o identificador de pasta local deve ser retornado por uma solicitação de [operação GetSharingFolder](getsharingfolder-operation.md) . 
+O **elemento SharedFolderId** representa o identificador da pasta compartilhada para a qual o identificador de pasta local deve ser retornado por uma solicitação de operação [GetSharingFolder.](getsharingfolder-operation.md) 
   
 ```xml
 <SharedFolderId/>
@@ -48,7 +48,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto é uma cadeia de caracteres que representa o identificador da pasta compartilhada para a qual o identificador de pasta local deve ser retornado por uma solicitação de [operação GetSharingFolder](getsharingfolder-operation.md) . 
+O valor de texto é uma cadeia de caracteres que representa o identificador da pasta compartilhada para a qual o identificador de pasta local deve ser retornado por uma solicitação de operação [GetSharingFolder.](getsharingfolder-operation.md) 
   
 ## <a name="remarks"></a>Comentários
 

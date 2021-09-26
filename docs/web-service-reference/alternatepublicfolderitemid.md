@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AlternatePublicFolderItemId
 api_type:
 - schema
 ms.assetid: a67df9b9-8fdb-42de-b9c5-8377b71fa3d9
-description: O elemento AlternatePublicFolderItemId descreve um identificador de item de pasta pública para converter para outro formato de identificador. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 11a9fafec78a9bd14e4d98982fd38954d45e4d1a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AlternatePublicFolderItemId descreve um identificador de item de pasta pública para converter em outro formato de identificador. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: e3d71d17c6e9321a1accfbaf90967d2b504f5efe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464767"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543706"
 ---
 # <a name="alternatepublicfolderitemid"></a>AlternatePublicFolderItemId
 
-O elemento **AlternatePublicFolderItemId** descreve um identificador de item de pasta pública para converter para outro formato de identificador. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+O **elemento AlternatePublicFolderItemId** descreve um identificador de item de pasta pública para converter em outro formato de identificador. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 - [ConvertId](convertid.md)
   
@@ -44,18 +44,18 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 |:-----|:-----|
 |FolderId  <br/> |Identifica a pasta pública que contém o item de pasta pública. Esse atributo é necessário.  <br/> |
 |Formatar  <br/> |Identifica o formato que descreve o identificador de item de pasta pública a ser convertido. Esse atributo é necessário.  <br/> |
-|ItemId  <br/> |Identificador o item de pasta pública a ser convertido. Esse atributo é necessário.  <br/> |
+|ItemId  <br/> |Identifique o item de pasta pública a ser convertido. Esse atributo é necessário.  <br/> |
    
-#### <a name="format-attribute-values"></a>Valores de atributo de formato
+#### <a name="format-attribute-values"></a>Formatar valores de atributo
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|EwsLegacyId  <br/> |Descreve os identificadores produzidos pelos serviços Web do Exchange na versão inicial de lançamento do Exchange 2007.  <br/> |
-|EwsId  <br/> |Descreve os identificadores produzidos pelos serviços Web do Exchange a partir do Exchange 2007 SP1.  <br/> |
-|EntryId  <br/> |Descreve os identificadores MAPI, como na propriedade PR_ENTRYID.  <br/> |
-|HexEntryId  <br/> |Descreve uma representação codificada hexadecimal da propriedade PR_ENTRYID. Este é o formato de identificadores de eventos de calendário de disponibilidade.  <br/> |
-|StoreId  <br/> |Descreve os identificadores de repositório do Exchange.  <br/> |
-|OwaId  <br/> |Descreve um identificador do Outlook Web Access.  <br/> |
+|EwsLegacyId  <br/> |Descreve os identificadores que são produzidos pelos Serviços Web Exchange na versão inicial do Exchange 2007.  <br/> |
+|EwsId  <br/> |Descreve identificadores que são produzidos pelos Serviços Web Exchange a partir do Exchange 2007 SP1.  <br/> |
+|Entryid  <br/> |Descreve identificadores MAPI, como na propriedade PR_ENTRYID.  <br/> |
+|HexEntryId  <br/> |Descreve uma representação codificada por hexadecimal da propriedade PR_ENTRYID. Esse é o formato dos identificadores de eventos do calendário de disponibilidade.  <br/> |
+|StoreId  <br/> |Descreve os Exchange de armazenamento.  <br/> |
+|OwaId  <br/> |Descreve um identificador Outlook Web Access.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -65,11 +65,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SourceIds](sourceids.md) <br/> |Contém os identificadores de origem a serem convertidos. Este elemento foi introduzido no Exchange 2007 SP1.  <br/> |
+|[SourceIds](sourceids.md) <br/> |Contém os identificadores de origem a converter. Esse elemento foi introduzido no Exchange 2007 SP1.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -77,12 +77,12 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
-- [Operação convertid](convertid-operation.md)
+- [Operação ConvertId](convertid-operation.md)
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 - [Convertendo identificadores](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

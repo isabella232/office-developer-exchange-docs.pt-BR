@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 57fb1b9d-2ba8-4359-ae79-35c0d56a2d0f
-description: O elemento HomeAddresses especifica uma matriz de endereços residenciais e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: d6a1808bf000ac8bca1e2ce7865aa099037c5a5d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento HomeAddresses especifica uma matriz de endereços home e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: e0a538b1aa7414adafcf0a388431a1690c4cda65
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460887"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542285"
 ---
 # <a name="homeaddresses"></a>HomeAddresses
 
-O elemento **HomeAddresses** especifica uma matriz de endereços residenciais e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento HomeAddresses** especifica uma matriz de endereços home e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <HomeAddresses>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

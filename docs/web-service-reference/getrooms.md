@@ -1,27 +1,27 @@
 ---
-title: Getrooms
+title: GetRooms
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetRooms
 api_type:
 - schema
 ms.assetid: 82a737c7-da41-4777-8ad8-89851a0b602b
-description: O elemento getrooms é o elemento raiz em uma solicitação para obter uma lista de salas em uma determinada lista de salas.
-ms.openlocfilehash: 77fde5980a03d4c0509344933b0901cb21ab7197
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetRooms é o elemento raiz em uma solicitação para obter uma lista de salas em uma lista de salas específica.
+ms.openlocfilehash: 2d2e0987fbb64e076ccffe5b9b5f021ceec95958
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458590"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543279"
 ---
-# <a name="getrooms"></a>Getrooms
+# <a name="getrooms"></a>GetRooms
 
-O elemento **Getrooms** é o elemento raiz em uma solicitação para obter uma lista de salas em uma determinada lista de salas. 
+O **elemento GetRooms** é o elemento raiz em uma solicitação para obter uma lista de salas em uma lista de salas específica. 
   
 ```XML
 <GetRooms>
@@ -29,7 +29,7 @@ O elemento **Getrooms** é o elemento raiz em uma solicitação para obter uma l
 </GetRooms>
 ```
 
- **Getroomtype**
+ **GetRoomsType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.

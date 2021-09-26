@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a5289b7-a631-4c24-ae46-b86dd72f15f9
 description: O elemento OriginalDisplayName contém o nome de exibição original associado a um endereço de email.
-ms.openlocfilehash: 8808b9b45b0e0c009ff884129631f6aabde541e7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bcb1b22115bd9e7773f3f264dbf4cc7069fed383
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462378"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544007"
 ---
 # <a name="originaldisplayname"></a>OriginalDisplayName
 
-O elemento **OriginalDisplayName** contém o nome de exibição original associado a um endereço de email. 
+O **elemento OriginalDisplayName** contém o nome de exibição original associado a um endereço de email. 
   
 ```XML
 <OriginalDisplayName></OriginalDisplayName>
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Envios](sendingas.md)  |  [Caixa de correio](mailbox.md)  |  [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)  |  [Sala de salas](roomlist.md)  |  [Agindo](actingas.md)  |  [Remetente (EmailAddressType)](sender-emailaddresstype.md)  |  [PurportedSender](purportedsender.md)  |  [Destinatário](recipient.md)  |  [FederatedDeliveryMailbox](federateddeliverymailbox.md)  |  [RecipientFilter](recipientfilter.md)  |  [Endereço (EmailAddressType)](address-emailaddresstype.md)  |  [ID (EmailAddressType)](id-emailaddresstype.md)  |  [Valor (EmailAddressType)](value-emailaddresstype.md)
+[SendingAs](sendingas.md)  |  [Caixa de Correio](mailbox.md)  |  [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)  |  [RoomList](roomlist.md)  |  [ActingAs](actingas.md)  |  [Remetente (EmailAddressType)](sender-emailaddresstype.md)  |  [PurportedSender](purportedsender.md)  |  [Destinatário](recipient.md)  |  [FederatedDeliveryMailbox](federateddeliverymailbox.md)  |  [RecipientFilter](recipientfilter.md)  |  [Endereço (EmailAddressType)](address-emailaddresstype.md)  |  [ID (EmailAddressType)](id-emailaddresstype.md)  |  [Valor (EmailAddressType)](value-emailaddresstype.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **OriginalDisplayName** é o nome de exibição original associado a um endereço de email. 
+O valor de texto do **elemento OriginalDisplayName** é o nome de exibição original associado a um endereço de email. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

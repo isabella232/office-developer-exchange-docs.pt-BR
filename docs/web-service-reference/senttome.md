@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SentToMe
 api_type:
 - schema
 ms.assetid: f18aecd1-ad33-41c3-b275-4ca648ce1da0
-description: O elemento SentToMe indica se o proprietário da caixa de correio deve estar na propriedade ToRecipients de mensagens de entrada para que a condição ou exceção seja aplicada.
-ms.openlocfilehash: 830125f03ad91a3e6f2beaf11e41be5e940ed48b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SentToMe indica se o proprietário da caixa de correio precisa estar na propriedade ToRecipients das mensagens de entrada para que a condição ou exceção seja aplicada.
+ms.openlocfilehash: 127dc69024d6344aaa22d131454a56ef074397e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44439921"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546060"
 ---
 # <a name="senttome"></a>SentToMe
 
-O elemento **SentToMe** indica se o proprietário da caixa de correio deve estar na propriedade **ToRecipients** de mensagens de entrada para que a condição ou exceção seja aplicada. 
+O **elemento SentToMe** indica se o proprietário da caixa de correio precisa estar na propriedade **ToRecipients** das mensagens de entrada para que a condição ou exceção seja aplicada. 
   
 ```XML
 <SentToMe>true | false</SentToMe>
@@ -44,8 +44,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Condições](conditions.md) <br/> |Representa as condições que, ao serem atendidas, acionarão as ações de regra para uma regra.  <br/> |
-|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de caixa de entrada.  <br/> |
+|[Condições](conditions.md) <br/> |Representa as condições que, quando cumpridas, dispararão as ações de regra para uma regra.  <br/> |
+|[Exceções](exceptions.md) <br/> |Representa todas as condições de exceção de regra disponíveis para uma regra de Caixa de Entrada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

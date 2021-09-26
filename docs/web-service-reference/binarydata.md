@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BinaryData
 api_type:
 - schema
 ms.assetid: 57e9fba3-5751-4c37-b0c8-ac6dde1c7544
 description: O elemento BinaryData contém conteúdo de propriedade de dados binários.
-ms.openlocfilehash: 8f7f62e37613ef74aa760014cf27291b80cca127
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2fb81e5abd3c0f1a052423c8e4d5989791edf144
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527408"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545640"
 ---
 # <a name="binarydata"></a>BinaryData
 
-O elemento **BinaryData** contém conteúdo de propriedade de dados binários. 
+O **elemento BinaryData** contém conteúdo de propriedade de dados binários. 
   
 ```xml
 <BinaryData/>
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Userconfiguration](userconfiguration.md) <br/> |Define um único objeto de configuração do usuário.  <br/> |
+|[UserConfiguration](userconfiguration.md) <br/> |Define um único objeto de configuração do usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O elemento **BinaryData** contém dados binários. 
+O **elemento BinaryData** contém dados binários. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

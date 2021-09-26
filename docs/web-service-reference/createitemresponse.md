@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItemResponse
 api_type:
 - schema
 ms.assetid: 742a46a0-2475-45a0-b44f-90639a3f5a43
 description: O elemento CreateItemResponse define uma resposta a uma solicitação CreateItem.
-ms.openlocfilehash: af7349888a2f194a8f4ff1043ec8c38a90b3dfff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2241341e5fa9643f06b23c827d4b118b401864bc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458842"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544248"
 ---
 # <a name="createitemresponse"></a>CreateItemResponse
 
-O elemento **CreateItemResponse** define uma resposta a uma solicitação CreateItem. 
+O **elemento CreateItemResponse** define uma resposta a uma solicitação CreateItem. 
   
 ```xml
 <CreateItemResponse>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

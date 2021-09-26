@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7763d11a-b338-4a02-8a01-938859c05dfb
-description: O elemento AutoDiscoverSMTPAddress contém o endereço SMTP do usuário que é usado para o processo de descoberta automática.
-ms.openlocfilehash: cd40fac8b7ab4eaa9ea50e82d6fc8bdbd4c3c7b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AutoDiscoverSMTPAddress contém o endereço SMTP do usuário usado para o processo de Descoberta Automática.
+ms.openlocfilehash: cb5871eee3cf61d388ad83b53df2bad733722d4e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463948"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543678"
 ---
 # <a name="autodiscoversmtpaddress-pox"></a>AutoDiscoverSMTPAddress (POX)
 
-O elemento **AutoDiscoverSMTPAddress** contém o endereço SMTP do usuário que é usado para o processo de descoberta automática. 
+O **elemento AutoDiscoverSMTPAddress** contém o endereço SMTP do usuário usado para o processo de Descoberta Automática. 
   
-- [Descoberta automática (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [Resposta (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [Usuário (POX)](user-pox.md)
+- [User (POX)](user-pox.md)
   
 - [AutoDiscoverSMTPAddress (POX)](autodiscoversmtpaddress-pox.md)
   
@@ -46,17 +46,17 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Usuário (POX)](user-pox.md) <br/> |Fornece informações específicas do usuário.  <br/> |
+|[User (POX)](user-pox.md) <br/> |Fornece informações específicas do usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o endereço SMTP do usuário que é usado para o processo de descoberta automática.
+O valor de texto representa o endereço SMTP do usuário que é usado para o processo de Descoberta Automática.
   
 ## <a name="remarks"></a>Comentários
 
-O elemento **AutoDiscoverSMTPAddress** é um elemento filho opcional do elemento **User** . 
+O **elemento AutoDiscoverSMTPAddress** é um elemento filho opcional do **elemento User.** 
   
 ## <a name="see-also"></a>Confira também
 
-- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

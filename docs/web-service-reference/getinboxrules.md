@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetInboxRules
 api_type:
 - schema
 ms.assetid: 7a54992d-03a6-4afc-a2e4-dcdc9ce54194
-description: O elemento GetInboxRules define uma solicitação para obter as regras de caixa de entrada em uma caixa de correio no repositório do servidor.
-ms.openlocfilehash: 890592fd3f87fc5592a618a2febf28e4daf0dbe4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento GetInboxRules define uma solicitação para obter as regras de Caixa de Entrada em uma caixa de correio no armazenamento do servidor.
+ms.openlocfilehash: 5e93248cf074e9b57c33a3873cc8bef18a6f2009
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457925"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546242"
 ---
 # <a name="getinboxrules"></a>GetInboxRules
 
-O elemento **GetInboxRules** define uma solicitação para obter as regras de caixa de entrada em uma caixa de correio no repositório do servidor. 
+O **elemento GetInboxRules** define uma solicitação para obter as regras de Caixa de Entrada em uma caixa de correio no armazenamento do servidor. 
   
 ```XML
 <GetInboxRules>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Representa o endereço SMTP do usuário cujas regras de caixa de entrada devem ser recuperadas.  <br/> |
+|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Representa o endereço SMTP do usuário cujas regras de Caixa de Entrada devem ser recuperadas.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

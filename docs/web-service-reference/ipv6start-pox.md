@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 74fed547-9999-4c9c-9566-f7df811f1048
 description: O elemento IPv6Start identifica o início de um intervalo de endereços IP versão 6 (IPv6) usados para identificar um computador em uma rede.
-ms.openlocfilehash: a4cafc091567fd4db6a2b4c839e0c1f770fb7ddb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b8331289cd597d479fb873c43c88fb4a9fdfe69c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529991"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544980"
 ---
 # <a name="ipv6start-pox"></a>IPv6Start (POX)
 
-O elemento **IPv6Start** identifica o início de um intervalo de endereços IP versão 6 (IPv6) usados para identificar um computador em uma rede. 
+O **elemento IPv6Start** identifica o início de um intervalo de endereços IP versão 6 (IPv6) usados para identificar um computador em uma rede. 
   
-[Descoberta automática (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Resposta (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Conta (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -52,7 +52,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[NetworkRequirements (POX)](networkrequirements-pox.md) <br/> |Contém os critérios usados para determinar se o computador cliente está em uma rede que atenda aos requisitos de provedor de serviços de Internet para se conectar ao servidor.  <br/> |
+|[NetworkRequirements (POX)](networkrequirements-pox.md) <br/> |Contém os critérios usados para determinar se o computador cliente está em uma rede que atende aos requisitos do provedor de serviços da Internet (ISP) para se conectar ao servidor.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -62,5 +62,5 @@ O valor de texto representa um endereço IPv6.
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

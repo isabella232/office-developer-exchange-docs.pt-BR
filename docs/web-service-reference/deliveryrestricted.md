@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeliveryRestricted
 api_type:
 - schema
 ms.assetid: 05989915-121c-4f26-93cc-af8d454ab442
-description: O elemento DeliveryRestricted indica se as restrições de entrega impedirão que a mensagem do remetente atinja o destinatário.
-ms.openlocfilehash: 58fc85873326179d7745db4ba7d4854a76ced6a7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DeliveryRestricted indica se as restrições de entrega impedirão que a mensagem do remetente chegue ao destinatário.
+ms.openlocfilehash: 1df5254a284989a8ffc02a8c650eaf69b2214583
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462686"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545360"
 ---
 # <a name="deliveryrestricted"></a>DeliveryRestricted
 
-O elemento **DeliveryRestricted** indica se as restrições de entrega impedirão que a mensagem do remetente atinja o destinatário. 
+O **elemento DeliveryRestricted** indica se as restrições de entrega impedirão que a mensagem do remetente chegue ao destinatário. 
   
 ```XML
 <DeliveryRestricted>true | false</DeliveryRestricted>
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Dicas de Email](mailtips.md) <br/> |Representa valores de vários tipos de dicas de email.  <br/> |
+|[Dicas de Email](mailtips.md) <br/> |Representa valores para vários tipos de dicas de email.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto desse elemento será **true** se as restrições de entrega impedirão que a mensagem do remetente atinja o destinatário. O valor é **false** se as restrições de entrega não impedem que a mensagem do remetente atinja o destinatário. 
+O valor de texto desse elemento será **true se** as restrições de entrega impedirem que a mensagem do remetente chegue ao destinatário. O valor será **false se** as restrições de entrega não impedirem que a mensagem do remetente chegue ao destinatário. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

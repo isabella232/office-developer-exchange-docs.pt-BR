@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c900be49-3c90-41aa-aba5-bcf1116ec2aa
 description: O elemento EmptyFolderResponse define uma resposta a uma solicitação de operação EmptyFolder.
-ms.openlocfilehash: 9b20df8c0b095870185aab14dbd1f7ff4fc47def
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ca39ff598db7242193175d098b19b3b474d9a616
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530674"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544140"
 ---
 # <a name="emptyfolderresponse"></a>EmptyFolderResponse
 
-O elemento **EmptyFolderResponse** define uma resposta a uma solicitação de [operação EmptyFolder](emptyfolder-operation.md) . 
+O **elemento EmptyFolderResponse** define uma resposta a uma [solicitação de operação EmptyFolder.](emptyfolder-operation.md) 
   
 ```XML
 <EmptyFolderResponse>
@@ -38,11 +38,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

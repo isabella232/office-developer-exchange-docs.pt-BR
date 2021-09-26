@@ -5,44 +5,44 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6df6e504-b7c8-4773-b10f-ffa5defac229
-description: Encontre informações sobre a operação do EWS do AddImGroup.
-ms.openlocfilehash: 38ed12a741d46fe998dc0079ed13973ce9edf5ac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação AddImGroup EWS.
+ms.openlocfilehash: 9aba6a22502c1006da06ce4a9bc925f13b5b5100
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462812"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544357"
 ---
 # <a name="addimgroup-operation"></a>Operação AddImGroup
 
-Encontre informações sobre a operação do EWS do **AddImGroup** . 
+Encontre informações sobre a **operação AddImGroup** EWS. 
   
-A operação do **AddImGroup** do serviços Web do Exchange (EWS) adiciona um novo grupo de mensagens instantâneas (IM) a uma caixa de correio. 
+A **operação AddImGroup** Exchange Web Services (EWS) adiciona um novo grupo de mensagens instantâneas (IM) a uma caixa de correio. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-addimgroup-operation"></a>Usando a operação AddImGroup
 
-A operação **AddImGroup** usa apenas um único argumento de nome de exibição. 
+A **operação AddImGroup** só aceita um único argumento de nome de exibição. 
   
-Essa operação retorna o nome de exibição, o tipo de grupo e o identificador de repositório do Exchange do novo grupo.
+Essa operação retorna o nome de exibição, o tipo de grupo e Exchange de armazenamento do novo grupo.
   
-A operação **AddImGroup** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação AddImGroup** pode usar os headers SOAP listados na tabela a seguir. 
   
-**Tabela 1. Cabeçalhos SOAP de operação AddImGroup**
+**Tabela 1. Headers SOAP da operação AddImGroup**
 
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Isso se aplica a uma solicitação.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "marcas de identificação de idiomas", a ser usado para acessar a caixa de correio. Isso se aplica a uma solicitação.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Isso se aplica a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Isso se aplica a uma resposta.  <br/> |
+|**Representação** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifica o usuário que o aplicativo cliente está representando. Isso é aplicável a uma solicitação.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifica a cultura, conforme definido na RFC 3066, "Marcas para a Identificação de Idiomas", a ser usada para acessar a caixa de correio. Isso é aplicável a uma solicitação.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Isso é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Isso é aplicável a uma resposta.  <br/> |
    
-## <a name="addimgroup-operation-request-example-create-a-new-im-group"></a>Exemplo de solicitação de operação AddImGroup: criar um novo grupo de IM
+## <a name="addimgroup-operation-request-example-create-a-new-im-group"></a>Exemplo da solicitação de operação AddImGroup: Criar um novo grupo de IM
 
-O exemplo a seguir de uma solicitação de operação **AddImGroup** mostra como criar um grupo de mensagens instantâneas chamado mycustomerobject. 
+O exemplo a seguir de **uma solicitação de operação AddImGroup** mostra como criar um grupo de IM chamado MyCustomerGroup. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -67,9 +67,9 @@ O corpo SOAP de solicitação contém os seguintes elementos:
     
 - [DisplayName (cadeia de caracteres)](displayname-string.md)
     
-## <a name="successful-addimgroup-operation-response"></a>Resposta de operação AddImGroup bem-sucedida
+## <a name="successful-addimgroup-operation-response"></a>Resposta bem-sucedida da operação AddImGroup
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **AddImGroup** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma **solicitação de operação AddImGroup.** 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -108,7 +108,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [ResponseCode](responsecode.md)
     
-- [Imgroup](imgroup.md)
+- [ImGroup](imgroup.md)
     
 - [DisplayName (cadeia de caracteres)](displayname-string.md)
     
@@ -116,9 +116,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [ExchangeStoreId](exchangestoreid.md)
     
-## <a name="addimgroup-operation-error-response"></a>Resposta de erro de operação AddImGroup
+## <a name="addimgroup-operation-error-response"></a>Resposta de erro da operação AddImGroup
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **AddImGroup** . Esta é uma resposta a uma solicitação que contém um caractere que não pode ser usado em um nome de exibição. Observe que esta é uma falha SOAP e não uma mensagem de erro baseada em esquema. O nome de exibição enviado na solicitação é ~! @ # $% ^ &amp; e o erro ocorre no &amp; caractere. O &amp; caractere ocorreu na linha 11 e no caractere 33rd na carga de solicitação. A resposta foi retornada com um código HTTP 500. 
+O exemplo a seguir mostra uma resposta de erro a uma **solicitação de operação AddImGroup.** Esta é uma resposta a uma solicitação que contém um caractere que não pode ser usado em um nome de exibição. Observe que isso é uma falha SOAP e não uma mensagem de erro baseada em esquema. O nome de exibição enviado na solicitação é ~!@#$%^ e o erro &amp; ocorre no &amp; caractere. O &amp; caractere ocorreu na linha 11 e no 33º caractere na carga de solicitação. A resposta foi retornada com um código HTTP 500. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

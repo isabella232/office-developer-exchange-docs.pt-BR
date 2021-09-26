@@ -1,28 +1,28 @@
 ---
-title: SetPlayOnPhoneDialStringResponse (serviço Web da UM)
+title: SetPlayOnPhoneDialStringResponse (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetPlayOnPhoneDialStringResponse
 api_type:
 - schema
 ms.assetid: 88c1960a-0b9e-405d-a634-0d6a66524c1e
 description: O elemento SetPlayOnPhoneDialStringResponse define uma resposta a uma solicitação de operação SetPlayOnPhoneDialString (serviço Web da UM).
-ms.openlocfilehash: f0395945927fa99c03278ee965e8d423bcb64360
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b383f2ac2247fca8729723a678d099deaa445bdf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458618"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545962"
 ---
-# <a name="setplayonphonedialstringresponse-um-web-service"></a>SetPlayOnPhoneDialStringResponse (serviço Web da UM)
+# <a name="setplayonphonedialstringresponse-um-web-service"></a>SetPlayOnPhoneDialStringResponse (serviço Web de Unificação de Mensagens)
 
-O elemento **SetPlayOnPhoneDialStringResponse** define uma resposta a uma solicitação de [operação SetPlayOnPhoneDialString (serviço Web da um)](setplayonphonedialstring-operation-um-web-service.md) . 
+O **elemento SetPlayOnPhoneDialStringResponse** define uma resposta a uma solicitação de operação [SetPlayOnPhoneDialString (serviço Web](setplayonphonedialstring-operation-um-web-service.md) da UM). 
   
-[SetPlayOnPhoneDialStringResponse (serviço Web da UM)](setplayonphonedialstringresponse-um-web-service.md)
+[SetPlayOnPhoneDialStringResponse (serviço Web de Unificação de Mensagens)](setplayonphonedialstringresponse-um-web-service.md)
   
 ```xml
 <SetPlayOnPhoneDialStringResponse />
@@ -47,7 +47,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -62,5 +62,5 @@ Nenhum
 
 
 
-[Operação SetPlayOnPhoneDialString (serviço Web da UM)](setplayonphonedialstring-operation-um-web-service.md)
+[Operação SetPlayOnPhoneDialString (serviço Web de Unificação de Mensagens)](setplayonphonedialstring-operation-um-web-service.md)
 

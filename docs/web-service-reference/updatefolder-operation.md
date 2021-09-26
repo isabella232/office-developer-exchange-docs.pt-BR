@@ -5,39 +5,39 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateFolder
 api_type:
 - schema
 ms.assetid: 3494c996-b834-4813-b1ca-d99642d8b4e7
-description: 'A operação UpdateFolder é usada para modificar as propriedades de um item existente no repositório do Exchange. Cada operação do UpdateFolder consiste no seguinte:'
-ms.openlocfilehash: fb894d9f42358b67f81e9fe8ae41ba61e6f46460
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 'A operação UpdateFolder é usada para modificar propriedades de um item existente no Exchange store. Cada operação UpdateFolder consiste no seguinte:'
+ms.openlocfilehash: be8e39e13681cea34e312158c348c60a94374bec
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467358"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541760"
 ---
 # <a name="updatefolder-operation"></a>Operação UpdateFolder
 
-A operação UpdateFolder é usada para modificar as propriedades de um item existente no repositório do Exchange. Cada operação do UpdateFolder consiste no seguinte:
+A operação UpdateFolder é usada para modificar propriedades de um item existente no Exchange store. Cada operação UpdateFolder consiste no seguinte:
   
-- Um elemento [FolderId](folderid.md) que especifica uma pasta a ser atualizada. 
+- Um [elemento FolderId](folderid.md) que especifica uma pasta a ser atualizada. 
     
-- Um caminho interno de um elemento na pasta, conforme especificado pela forma Folder, que especifica os dados a serem atualizados.
+- Um caminho interno de um elemento na pasta, conforme especificado pela forma da pasta, que especifica os dados a ser atualizados.
     
 - Uma pasta que contém o novo valor do campo atualizado, se a atualização não for uma exclusão.
     
 ## <a name="remarks"></a>Comentários
 
-Três ações de atualização básicas podem ser executadas em um item. Essas ações estão listadas na tabela a seguir.
+Três ações básicas de atualização podem ser executadas em um item. Essas ações estão listadas na tabela a seguir.
   
 |**Action**|**Descrição**|
 |:-----|:-----|
-|Append  <br/> |A ação Append adiciona dados a uma propriedade existente. Ele preserva os dados que estão atualmente lá. Append não é aplicável a todas as propriedades.  <br/> |
-|Set  <br/> |A ação Set substitui os dados de uma propriedade se ele contiver dados ou criar a propriedade e definir seu valor se ele não existir. A ação Set só é aplicável a propriedades graváveis.  <br/> |
-|Excluir  <br/> |A ação Excluir remove uma propriedade de uma pasta. Isso é diferente de defini-lo como um valor vazio. Quando concluído, a propriedade não existe para a pasta. Delete só é aplicável a propriedades graváveis.  <br/> |
+|Append  <br/> |A ação de anexação adiciona dados a uma propriedade existente. Ele preserva os dados que estão atualmente lá. Append não é aplicável a todas as propriedades.  <br/> |
+|Set  <br/> |A ação set substitui os dados de uma propriedade se ela contiver dados ou criar a propriedade e definir seu valor se ele não existir. A ação set só é aplicável a propriedades que podem ser escritas.  <br/> |
+|Excluir  <br/> |A ação excluir remove uma propriedade de uma pasta. Isso é diferente de defini-lo como um valor vazio. Quando concluída, a propriedade não existe para a pasta. Delete só é aplicável a propriedades que podem ser escritas.  <br/> |
    
 ## <a name="updatefolder-request-example"></a>Exemplo de solicitação UpdateFolder
 
@@ -77,9 +77,9 @@ O exemplo a seguir de uma solicitação UpdateFolder mostra como atualizar um no
 Este exemplo altera o nome de exibição da pasta para NewFolderName.
   
 > [!NOTE]
-> Os valores dos atributos **ID** e **ChangeKey** do elemento [FolderId](folderid.md) foram reduzidos para legibilidade. 
+> Os valores dos atributos **Id** e **ChangeKey** do [elemento FolderId](folderid.md) foram reduzidos para a capacidade de leitura. 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -91,9 +91,9 @@ Os seguintes elementos são usados na solicitação:
     
 - [FolderId](folderid.md)
     
-- [Atualizações (pasta)](updates-folder.md)
+- [Updates (Folder)](updates-folder.md)
     
-- [Setfolderfield](setfolderfield.md)
+- [SetFolderField](setfolderfield.md)
     
 - [FieldURI](fielduri.md)
     
@@ -101,10 +101,10 @@ Os seguintes elementos são usados na solicitação:
     
 - [DisplayName (cadeia de caracteres)](displayname-string.md)
     
-Confira o esquema para elementos adicionais que você pode usar para formar uma solicitação de UpdateFolder.
+Consulte o esquema de elementos adicionais que você pode usar para formar uma solicitação UpdateFolder.
   
 > [!NOTE]
-> O local padrão do esquema está no diretório virtual EWS no computador em que a função de servidor de acesso para cliente está instalada. 
+> O local padrão do esquema está no diretório virtual do EWS no computador que tem a função de servidor de Acesso para Cliente instalada. 
   
 ## <a name="updatefolder-response-example"></a>Exemplo de resposta UpdateFolder
 
@@ -145,7 +145,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação UpdateFolde
 ### <a name="comments"></a>Comentários
 
 > [!NOTE]
-> A ID da pasta e a chave de alteração foram reduzidas para preservar a legibilidade. 
+> A ID da pasta e a chave de alteração foram reduzidas para preservar a capacidade de leitura. 
   
 A ID da pasta retornada na resposta representa a pasta atualizada.
   

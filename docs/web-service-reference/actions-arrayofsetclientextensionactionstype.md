@@ -1,23 +1,23 @@
 ---
-title: Ações (ArrayOfSetClientExtensionActionsType)
+title: Actions (ArrayOfSetClientExtensionActionsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ff4e97e-c64c-4742-88ca-7cbe39e597e1
-description: O elemento Actions identifica uma matriz de ações a serem executadas em uma extensão de cliente.
-ms.openlocfilehash: 1790907f40bd839ffa56ad7ae45c0cc7f3fa412d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Actions identifica uma matriz de ações a executar em uma extensão de cliente.
+ms.openlocfilehash: c5f136c58af0b43ba26fbd8a70b97965fbe1e773
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465069"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544399"
 ---
-# <a name="actions-arrayofsetclientextensionactionstype"></a>Ações (ArrayOfSetClientExtensionActionsType)
+# <a name="actions-arrayofsetclientextensionactionstype"></a>Actions (ArrayOfSetClientExtensionActionsType)
 
-O elemento **Actions** identifica uma matriz de ações a serem executadas em uma extensão de cliente. 
+O **elemento Actions** identifica uma matriz de ações a executar em uma extensão de cliente. 
   
 ```XML
 <Actions>
@@ -36,7 +36,7 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[Ação (SetClientExtensionActionType)](action-setclientextensionactiontype.md)
+[Action (SetClientExtensionActionType)](action-setclientextensionactiontype.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 

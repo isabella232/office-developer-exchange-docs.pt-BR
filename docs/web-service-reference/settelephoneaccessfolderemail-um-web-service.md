@@ -1,28 +1,28 @@
 ---
-title: SetTelephoneAccessFolderEmail (serviço Web da UM)
+title: SetTelephoneAccessFolderEmail (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetTelephoneAccessFolderEmail
 api_type:
 - schema
 ms.assetid: 90759da7-6dba-499e-b8c8-e44a016b3198
-description: O elemento SetTelephoneAccessFolderEmail define uma solicitação para definir a pasta de email padrão a partir da qual a Unificação de mensagens lerá as mensagens por telefone.
-ms.openlocfilehash: 806bdb1f0c7930a9e89555192aa32ad997716e7e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SetTelephoneAccessFolderEmail define uma solicitação para definir a pasta de email padrão da qual a Unificação de Mensagens lerá mensagens por telefone.
+ms.openlocfilehash: 4b10833cb98c2623e343baeeb7afee4524a03945
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467316"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544700"
 ---
-# <a name="settelephoneaccessfolderemail-um-web-service"></a>SetTelephoneAccessFolderEmail (serviço Web da UM)
+# <a name="settelephoneaccessfolderemail-um-web-service"></a>SetTelephoneAccessFolderEmail (serviço Web de Unificação de Mensagens)
 
-O elemento **SetTelephoneAccessFolderEmail** define uma solicitação para definir a pasta de email padrão a partir da qual a Unificação de mensagens lerá as mensagens por telefone. 
+O **elemento SetTelephoneAccessFolderEmail** define uma solicitação para definir a pasta de email padrão da qual a Unificação de Mensagens lerá mensagens por telefone. 
   
-[SetTelephoneAccessFolderEmail (serviço Web da UM)](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail (serviço Web de Unificação de Mensagens)](settelephoneaccessfolderemail-um-web-service.md)
   
 ```xml
 <SetTelephoneAccessFolderEmail>
@@ -43,7 +43,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[base64FolderId (serviço Web da UM)](base64folderid-um-web-service.md) <br/> |O identificador da pasta de email.  <br/> |
+|[base64FolderId (serviço Web de Unificação de mensagens)](base64folderid-um-web-service.md) <br/> |O identificador da pasta de email.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -51,7 +51,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -66,5 +66,5 @@ Nenhum
 
 
 
-[Operação SetTelephoneAccessFolderEmail (serviço Web da UM)](settelephoneaccessfolderemail-operation-um-web-service.md)
+[Operação SetTelephoneAccessFolderEmail (serviço Web de Unificação de Mensagens)](settelephoneaccessfolderemail-operation-um-web-service.md)
 

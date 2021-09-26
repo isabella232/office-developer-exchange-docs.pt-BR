@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SyncFolderItems
 api_type:
 - schema
 ms.assetid: 7f0de089-8876-47ec-a871-df118ceae75d
 description: A operação SyncFolderItems sincroniza itens entre o servidor Exchange e o cliente.
-ms.openlocfilehash: 1a28d895eda11dd43f77ec2662a60a426cfc463c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 07915f5f9f7ae1fc6f5a743f2e0480a32cb808a7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468142"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545829"
 ---
 # <a name="syncfolderitems-operation"></a>Operação SyncFolderItems
 
@@ -25,15 +25,15 @@ A operação SyncFolderItems sincroniza itens entre o servidor Exchange e o clie
   
 ## <a name="remarks"></a>Comentários
 
-A operação SyncFolderItems retornará um máximo de 512 alterações. As solicitações SyncFolderItems subsequentes devem ser executadas para obter alterações adicionais. 
+A operação SyncFolderItems retornará um máximo de 512 alterações. Solicitações SyncFolderItems subsequentes devem ser executadas para obter alterações adicionais. 
   
-SyncFolderItems é semelhante à operação FindItem, pois não é possível retornar propriedades como Body ou Attachments. Se a operação SyncFolderItems não retornar as propriedades que você precisa, você pode usar a [operação GetItem](getitem-operation.md) para obter um conjunto específico de propriedades para cada item retornado por SyncFolderItems. 
+SyncFolderItems é semelhante à operação FindItem, na qual não pode retornar propriedades como Body ou Attachments. Se a operação SyncFolderItems não retornar as propriedades de que você precisa, você poderá usar a operação [GetItem](getitem-operation.md) para obter um conjunto específico de propriedades para cada item retornado por SyncFolderItems. 
   
 ## <a name="syncfolderitems-request-example"></a>Exemplo de solicitação SyncFolderItems
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação SyncFolderItems mostra como sincronizar itens em uma pasta. Este exemplo mostra uma sincronização de item de pasta que não é a primeira sincronização que ocorreu para a pasta Itens enviados. O elemento [SyncState](syncstate-ex15websvcsotherref.md) não está incluído na solicitação para a primeira tentativa de sincronizar um cliente com o Exchange Server. A primeira tentativa de sincronizar os itens em uma hierarquia de pastas retornará todos os itens da caixa de correio, excluindo os itens identificados no elemento [ignore](ignore.md) . Essa solicitação de SyncFolderItems tentará sincronizar todas as alterações feitas nos itens de pasta desde a última sincronização. Essa solicitação ignorará a tentativa de sincronização de um item identificado no elemento [ignore](ignore.md) . 
+O exemplo a seguir de uma solicitação SyncFolderItems mostra como sincronizar itens em uma pasta. Este exemplo mostra a sincronização de um item de pasta que não é a primeira sincronização que ocorreu para a pasta Itens Enviados. O [elemento SyncState](syncstate-ex15websvcsotherref.md) não está incluído na solicitação para a primeira tentativa de sincronizar um cliente com o Exchange servidor. A primeira tentativa de sincronizar os itens em uma hierarquia de pastas retornará todos os itens na caixa de correio, excluindo itens identificados no [elemento Ignore.](ignore.md) Essa solicitação SyncFolderItems tentará sincronizar todas as alterações nos itens de pasta desde a última sincronização. Essa solicitação ignorará a tentativa de sincronizar o único item identificado no [elemento Ignore.](ignore.md) 
   
 ### <a name="code"></a>Código
 
@@ -61,15 +61,15 @@ O exemplo a seguir de uma solicitação SyncFolderItems mostra como sincronizar 
 
 ### <a name="comments"></a>Comentários
 
-O elemento [SyncState](syncstate-ex15websvcsotherref.md) dados codificados em Base64 e o atributo **ID** do elemento [ItemId](itemid.md) foram reduzidos para preservar a legibilidade. 
+Os dados codificados pelo elemento [SyncState](syncstate-ex15websvcsotherref.md) com base64 e o atributo **Id** do [elemento ItemId](itemid.md) foram reduzidos para preservar a capacidade de leitura. 
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
 - [SyncFolderItems](syncfolderitems.md)
     
-- [Shape](itemshape.md)
+- [ItemShape](itemshape.md)
     
 - [BaseShape](baseshape.md)
     
@@ -89,7 +89,7 @@ Os seguintes elementos são usados na solicitação:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida à solicitação SyncFolderItems. Neste exemplo, uma solicitação de reunião é sincronizada a partir da pasta Itens enviados.
+O exemplo a seguir mostra uma resposta bem-sucedida à solicitação SyncFolderItems. Neste exemplo, uma solicitação de reunião é sincronizada da pasta Itens Enviados.
   
 ### <a name="code"></a>Código
 
@@ -144,7 +144,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida à solicitação SyncFolderI
 
 ### <a name="comments"></a>Comentários
 
-O elemento [SyncState](syncstate-ex15websvcsotherref.md) dados codificados em Base64 e o atributo **ID** do elemento [ItemId](itemid.md) foram reduzidos para preservar a legibilidade. 
+Os dados codificados pelo elemento [SyncState](syncstate-ex15websvcsotherref.md) com base64 e o atributo **Id** do [elemento ItemId](itemid.md) foram reduzidos para preservar a capacidade de leitura. 
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 
@@ -164,9 +164,9 @@ Os seguintes elementos são usados na resposta:
     
 - [IncludesLastItemInRange](includeslastiteminrange.md)
     
-- [Alterações (itens)](changes-items.md)
+- [Changes (Items)](changes-items.md)
     
-- [Create (issync)](create-itemsync.md)
+- [Create (ItemSync)](create-itemsync.md)
     
 - [MeetingRequest](meetingrequest.md)
     
@@ -186,19 +186,19 @@ Os seguintes elementos são usados na resposta:
     
 - [Start](start.md)
     
-- [Ponto](end-ex15websvcsotherref.md)
+- [End ](end-ex15websvcsotherref.md)
     
-- [Localização](location.md)
+- [Location](location.md)
     
 - [Organizador](organizer.md)
     
 - [Caixa de Correio](mailbox.md)
     
-- [Nome (EmailAddresstype)](name-emailaddresstype.md)
+- [Name (EmailAddressType)](name-emailaddresstype.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddresstype)](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
 ## <a name="syncfolderitems-error-response"></a>Resposta de erro SyncFolderItems
 

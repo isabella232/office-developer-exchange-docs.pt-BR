@@ -1,23 +1,23 @@
 ---
-title: Createfolderpath
+title: CreateFolderPath
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 282576cb-a921-49f7-8748-64158fd50c41
-description: O elemento createfolderpath é usado para criar um caminho de pasta e inclui uma ID de pasta pai e um caminho de pasta relativo.
-ms.openlocfilehash: e6ce6c9b6e12a6a0fb6792b63368a79c87d06f07
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento CreateFolderPath é usado para criar um caminho de pasta e inclui uma ID de pasta pai e um caminho de pasta relativa.
+ms.openlocfilehash: 603bdd0d7a36c169dfe48db02c3db0591fbe253b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457533"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543419"
 ---
-# <a name="createfolderpath"></a>Createfolderpath
+# <a name="createfolderpath"></a>CreateFolderPath
 
-O elemento **createfolderpath** é usado para criar um caminho de pasta e inclui uma ID de pasta pai e um caminho de pasta relativo. 
+O **elemento CreateFolderPath** é usado para criar um caminho de pasta e inclui uma ID de pasta pai e um caminho de pasta relativa. 
   
 ```XML
 <CreateFolderPath>
@@ -26,7 +26,7 @@ O elemento **createfolderpath** é usado para criar um caminho de pasta e inclui
 </CreateFolderPath>
 ```
 
- **Createfolderpathtype**
+ **CreateFolderPathType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -41,7 +41,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: 710c893a-3037-4f04-b336-aefedd36c406
-description: A operação CreateItem é usada para aceitar um convite para compartilhar os dados do calendário ou contatos de outro usuário.
-ms.openlocfilehash: eda846b72f42fe886497b355d9cddade7c5f4044
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação CreateItem é usada para aceitar um convite para compartilhar dados de calendário ou contatos de outro usuário.
+ms.openlocfilehash: 37068657e77f4ceb35f9cb9601863fcae520c018
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457512"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543425"
 ---
 # <a name="createitem-acceptsharinginvitation"></a>CreateItem (AcceptSharingInvitation)
 
-A operação **CreateItem** é usada para aceitar um convite para compartilhar os dados do calendário ou contatos de outro usuário. 
+A **operação CreateItem** é usada para aceitar um convite para compartilhar dados de calendário ou contatos de outro usuário. 
   
-## <a name="accept-sharing-invitation-request-example"></a>Exemplo de solicitação de convite de compartilhamento de aceitação
+## <a name="accept-sharing-invitation-request-example"></a>Exemplo de solicitação aceitar convite de compartilhamento
 
 ### <a name="description"></a>Descrição
 
@@ -47,7 +47,7 @@ O exemplo a seguir mostra como aceitar um convite de compartilhamento.
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -61,13 +61,13 @@ Os seguintes elementos são usados na solicitação:
     
 ### <a name="comments"></a>Comentários
 
-O identificador de item e a chave de alteração foram reduzidos para preservar a legibilidade.
+O identificador de item e a chave de alteração foram reduzidos para preservar a capacidade de leitura.
   
-## <a name="successful-accept-sharing-invitation-response-example"></a>Exemplo de resposta de convite para aceitar compartilhamento bem-sucedido
+## <a name="successful-accept-sharing-invitation-response-example"></a>Exemplo de resposta bem-sucedida aceitar convite de compartilhamento
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **CreateItem** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a **uma solicitação CreateItem.** 
   
 ### <a name="code"></a>Código
 
@@ -115,11 +115,11 @@ Os seguintes elementos são usados na resposta:
     
 - [Itens](items.md)
     
-## <a name="accept-sharing-invitation-error-response-example"></a>Exemplo de resposta de erro de convite de compartilhamento
+## <a name="accept-sharing-invitation-error-response-example"></a>Exemplo de resposta aceitar erro de convite de compartilhamento
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação **CreateItem** . O erro é causado por uma tentativa de aceitar um convite de compartilhamento que não pode ser encontrado no repositório do Exchange. 
+O exemplo a seguir mostra uma resposta de erro a **uma solicitação CreateItem.** O erro é causado por uma tentativa de aceitar um convite de compartilhamento que não pode ser encontrado no Exchange store. 
   
 ### <a name="code"></a>Código
 

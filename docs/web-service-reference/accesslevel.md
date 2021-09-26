@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09475586-00fa-4e82-a915-5ca263ab4d1c
-description: O elemento AccessLevel especifica o nível de acesso para uma reunião online.
-ms.openlocfilehash: 3c1375ef37ea666c6c4fafce7daa46ae0d0a2696
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AccessLevel especifica o nível de acesso de uma reunião online.
+ms.openlocfilehash: f1c85579affe7d1142b22a890808bceeb8f82d38
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462336"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544413"
 ---
 # <a name="accesslevel"></a>AccessLevel
 
-O elemento **AccessLevel** especifica o nível de acesso para uma reunião online. 
+O **elemento AccessLevel** especifica o nível de acesso de uma reunião online. 
   
 ```XML
 <AccessLevel/>
@@ -44,15 +44,15 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-A tabela a seguir lista os valores de texto para o elemento **AccessLevel** . 
+A tabela a seguir lista os valores de texto do **elemento AccessLevel.** 
   
 **Valores de texto do elemento AccessLevel**
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Todos  <br/> |O nível de acesso é aberto para todos.  <br/> |
+|Todos  <br/> |O nível de acesso está aberto a todos.  <br/> |
 |Interno  <br/> |O nível de acesso é somente interno.  <br/> |
-|Convidar  <br/> |O nível de acesso é somente participantes convidados.  <br/> |
+|Convidado  <br/> |O nível de acesso é somente participantes convidados.  <br/> |
 |Bloqueado  <br/> |O nível de acesso está bloqueado.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -66,8 +66,8 @@ Este elemento foi introduzido no Exchange Server 2013.
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

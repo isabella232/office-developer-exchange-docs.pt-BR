@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40238799-25f0-431c-91be-34b915110f03
-description: O elemento InlineImageUrlTemplate especifica um modelo para uma URL de imagem embutida.
-ms.openlocfilehash: 2cb9cd31d1adf0c6fecf803a8b42bc88330a14d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento InlineImageUrlTemplate especifica um modelo para uma URL de imagem em linha.
+ms.openlocfilehash: a209d030f9f6ede56dd790731f6d1b36c8f886ac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468730"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542201"
 ---
 # <a name="inlineimageurltemplate"></a>InlineImageUrlTemplate
 
-O elemento **InlineImageUrlTemplate** especifica um modelo para uma URL de imagem embutida. 
+O **elemento InlineImageUrlTemplate** especifica um modelo para uma URL de imagem em linha. 
   
 ```XML
 <InlineImageUrlTemplate></InlineImageUrlTemplate>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Shape](itemshape.md) <br/> |Identifica um conjunto de propriedades para retornar em uma [operação GetItem](getitem-operation.md), [FindItem](finditem-operation.md)ou uma resposta de [operação SyncFolderItems](syncfolderitems-operation.md) .  <br/> |
+|[ItemShape](itemshape.md) <br/> |Identifica um conjunto de propriedades a ser retornada em uma operação [GetItem,](getitem-operation.md)operação [FindItem](finditem-operation.md)ou resposta de operação [SyncFolderItems.](syncfolderitems-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **InlineImageUrlTemplate** especifica um modelo para uma URL de imagem embutida. 
+O valor de texto do **elemento InlineImageUrlTemplate** especifica um modelo para uma URL de imagem em linha. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

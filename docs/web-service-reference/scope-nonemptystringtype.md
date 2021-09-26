@@ -1,27 +1,27 @@
 ---
-title: Escopo (NonEmptyStringType)
+title: Scope (NonEmptyStringType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Scope
 api_type:
 - schema
 ms.assetid: 7efb6fd9-1615-469e-96f6-0f7846ad9b44
 description: O elemento Scope especifica o escopo do relatório de controle de mensagens.
-ms.openlocfilehash: f86f6198e84e094e61ee569f6d005549316bbb9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 036ff1007c9e7ec9cc385f8df81c045b7b9335b0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466938"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546123"
 ---
-# <a name="scope-nonemptystringtype"></a>Escopo (NonEmptyStringType)
+# <a name="scope-nonemptystringtype"></a>Scope (NonEmptyStringType)
 
-O elemento **Scope** especifica o escopo do relatório de controle de mensagens. 
+O **elemento Scope** especifica o escopo do relatório de controle de mensagens. 
   
 ```XML
 <Scope>Organization | Forest | Site</Scope>
@@ -46,13 +46,13 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-A tabela a seguir lista os valores possíveis para o elemento **escopo** . 
+A tabela a seguir lista os valores possíveis para o **elemento Scope.** 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Organização  <br/> |Os escopos de acompanhamento de mensagens se englobem em uma organização.  <br/> |
-|Floresta  <br/> |Os escopos de acompanhamento de mensagens se expandem em uma floresta.  <br/> |
-|Site  <br/> |Os escopos de acompanhamento de mensagens se englobem em um site.  <br/> |
+|Organização  <br/> |Os escopos de controle de mensagens abrangem uma organização.  <br/> |
+|Floresta  <br/> |Os escopos de controle de mensagens abrangem uma floresta.  <br/> |
+|Site  <br/> |Os escopos de controle de mensagens abrangem um site.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

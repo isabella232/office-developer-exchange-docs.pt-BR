@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2a60c89c-9c21-4041-9593-b244ac1608ef
 description: O elemento BeginTime especifica o início do intervalo de tempo para consultar lembretes.
-ms.openlocfilehash: 4f926b8e4931c187cd4d5b97d6182d609bc15a1b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2e3bc6ef91e27641d131b0e2b16b70421ee59bcd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463374"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541494"
 ---
 # <a name="begintime"></a>BeginTime
 
-O elemento **BeginTime** especifica o início do intervalo de tempo para consultar lembretes. 
+O **elemento BeginTime** especifica o início do intervalo de tempo para consultar lembretes. 
   
 ```XML
 <BeginTime/>
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Getlembretes](getreminders.md)
+[GetReminders](getreminders.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **BeginTime** é a hora de início do item para o qual o lembrete se refere. 
+O valor de texto **do elemento BeginTime** é a hora inicial do item para o que o lembrete é. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -63,7 +63,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 
 
 
-[Getlembretes](getreminders.md)
+[GetReminders](getreminders.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

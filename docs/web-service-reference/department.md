@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Department
 api_type:
 - schema
 ms.assetid: 1a5bca89-0769-4497-8ca0-4e6b908f8eaa
 description: O elemento Department representa o departamento do contato no trabalho.
-ms.openlocfilehash: b9057f3ebfcb989eec188a0eba22ebfc0ecc24bd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3978a8ca36f8e7c98dd5d05c7d485e0a9c2e3888
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464123"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542397"
 ---
 # <a name="department"></a>Departamento
 
-O elemento **Department** representa o departamento do contato no trabalho. 
+O **elemento Department** representa o departamento do contato no trabalho. 
   
 ```xml
 <Department/>
@@ -44,15 +44,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório.
+Um valor de texto é necessário.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -60,10 +60,10 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
-- [Criando contatos (serviços Web do Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Criando contatos (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

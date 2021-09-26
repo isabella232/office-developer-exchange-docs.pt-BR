@@ -1,23 +1,23 @@
 ---
-title: Condição (RestrictionType)
+title: Condition (RestrictionType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4fdb373e-bf1b-4cb0-bbfb-444c6c6cec50
 description: O elemento Condition especifica a condição usada para identificar o final de uma pesquisa para um FindItem ou uma operação FindConversation.
-ms.openlocfilehash: 00c5b5e615ed9b253c79dae9dc2b89c797853089
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f6292d2d25b9d236d0bb611c41a4cfcf490b6df4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463934"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543524"
 ---
-# <a name="condition-restrictiontype"></a>Condição (RestrictionType)
+# <a name="condition-restrictiontype"></a>Condition (RestrictionType)
 
-O elemento **Condition** especifica a condição usada para identificar o final de uma pesquisa para um **FindItem** ou uma operação **FindConversation** . 
+O **elemento Condition** especifica a condição usada para identificar o final de uma pesquisa para um **FindItem** ou uma **operação FindConversation.** 
   
 ```XML
 <Condition>
@@ -38,13 +38,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pesquisa](searchexpression.md) <br/> |Elemento abstract que representa o elemento substituído dentro de uma restrição.  <br/> |
+|[SearchExpression](searchexpression.md) <br/> |Elemento abstrato que representa o elemento substituído dentro de uma restrição.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |Identifica a condição usada para identificar o final de uma pesquisa, o índice inicial de uma pesquisa, o número máximo de entradas a serem retornadas e as direções de pesquisa para um **FindItem** ou uma operação **FindConversation** .  <br/> |
+|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |Identifica a condição usada para identificar o final de uma pesquisa, o índice inicial de uma pesquisa, as entradas máximas a retornar e as instruções de pesquisa para uma **operação FindItem** ou **FindConversation.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

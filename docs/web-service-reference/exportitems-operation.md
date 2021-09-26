@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExportItems
 api_type:
 - schema
 ms.assetid: e2846abb-0b16-4732-bbd8-038a674672f6
 description: A operação ExportItems exporta itens de uma caixa de correio.
-ms.openlocfilehash: 547a490a27d2414d2eda1d89cdac036a34eddccd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b53761f91b15053b0fb79a3c1068a50bce665a67
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526043"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542327"
 ---
 # <a name="exportitems-operation"></a>Operação ExportItems
 
-A operação **ExportItems** exporta itens de uma caixa de correio. 
+A **operação ExportItems** exporta itens de uma caixa de correio. 
   
 ## <a name="exportitems-request-example"></a>Exemplo de solicitação ExportItems
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **ExportItems** mostra como formar uma solicitação para obter três itens exportados de uma caixa de correio. 
+O exemplo a seguir de **uma solicitação ExportItems** mostra como formar uma solicitação para obter três itens exportados de uma caixa de correio. 
   
 ### <a name="code"></a>Código
 
@@ -55,9 +55,9 @@ O exemplo a seguir de uma solicitação **ExportItems** mostra como formar uma s
 
 ### <a name="comment"></a>Comentário
 
-Os identificadores de item no exemplo foram reduzidos para preservar a legibilidade.
+Os identificadores de item no exemplo foram reduzidos para preservar a capacidade de leitura.
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -73,7 +73,7 @@ Os seguintes elementos são usados na solicitação:
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **ExportItems** . 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma **solicitação ExportItems.** 
   
 ### <a name="code"></a>Código
 
@@ -149,7 +149,7 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação **Export
 
 ### <a name="comment"></a>Comentário
 
-Os identificadores de item e as chaves de alteração no exemplo foram reduzidos para preservar a legibilidade.
+Os identificadores de item e as teclas de alteração no exemplo foram reduzidos para preservar a capacidade de leitura.
   
 ### <a name="response-elements"></a>Elementos de resposta
 
@@ -167,13 +167,13 @@ Os seguintes elementos são usados na resposta:
     
 - [ItemId](itemid.md)
     
-- [Dados (base64Binary)](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
 ## <a name="exportitems-error-response-example"></a>Exemplo de resposta de erro ExportItems
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta para a solicitação **ExportItems** que contém dois erros e um item exportado com êxito. O primeiro item do exemplo é exportado com êxito. O segundo item contém uma chave de alteração incorreta. O terceiro item representa uma tentativa de exportar um item da caixa de correio errada. 
+O exemplo a seguir mostra uma resposta à **solicitação ExportItems** que contém dois erros e um item exportado com êxito. O primeiro item no exemplo é exportado com êxito. O segundo item contém uma chave de alteração incorreta. O terceiro item representa uma tentativa de exportar um item da caixa de correio errada. 
   
 ### <a name="code"></a>Código
 
@@ -229,7 +229,7 @@ O exemplo a seguir mostra uma resposta para a solicitação **ExportItems** que 
 
 ### <a name="comments"></a>Comentários
 
-Os identificadores de item, as chaves de alteração e os dados no exemplo foram reduzidos para preservar a legibilidade.
+Os identificadores de item, chaves de alteração e dados no exemplo foram reduzidos para preservar a capacidade de leitura.
   
 ### <a name="error-response-elements"></a>Elementos de resposta de erro
 
@@ -247,7 +247,7 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [ItemId](itemid.md)
     
-- [Dados (base64Binary)](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
 - [MessageText](messagetext.md)
     
@@ -255,10 +255,10 @@ Os seguintes elementos são usados na resposta de erro:
     
 - [MessageXml](messagexml.md)
     
-- **Valor**
+- **Value**
     
 > [!NOTE]
-> O elemento **Value** não existe no esquema. Este elemento é válido porque o elemento [MessageXml](messagexml.md) , no qual o elemento de instância de **valor** ocorre, pode conter qualquer XML bem-formado. 
+> O **elemento Value** não existe no esquema. Esse elemento é válido porque o elemento [MessageXml,](messagexml.md) no qual o elemento de instância **Value** ocorre, pode conter qualquer XML bem formado. 
   
 ## <a name="see-also"></a>Confira também
 
@@ -267,7 +267,7 @@ Os seguintes elementos são usados na resposta de erro:
 [Operação UploadItems](uploaditems-operation.md)
 
 
-[Operações do EWS no Exchange](ews-operations-in-exchange.md)
+[Operações EWS em Exchange](ews-operations-in-exchange.md)
   
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)
 

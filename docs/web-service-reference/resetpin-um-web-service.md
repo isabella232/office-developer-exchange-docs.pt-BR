@@ -1,28 +1,28 @@
 ---
-title: ResetPIN (serviço Web da UM)
+title: ResetPIN (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResetPIN
 api_type:
 - schema
 ms.assetid: 383f0735-1caa-4675-a6e1-6dba6c5b1a28
-description: O elemento ResetPIN define uma solicitação de operação do ResetPIN (serviço Web da UM).
-ms.openlocfilehash: de175797b202219df994708680ac8ab750b02880
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ResetPIN define uma solicitação de operação ResetPIN (serviço Web de UM).
+ms.openlocfilehash: 4a40d927bb93a7c539ce8cd4e7498c3aa0d601bb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468849"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541837"
 ---
-# <a name="resetpin-um-web-service"></a>ResetPIN (serviço Web da UM)
+# <a name="resetpin-um-web-service"></a>ResetPIN (serviço Web de Unificação de Mensagens)
 
-O elemento ResetPIN define uma solicitação de [operação do ResetPIN (serviço Web da um)](resetpin-operation-um-web-service.md) . 
+O elemento ResetPIN define uma [solicitação de operação ResetPIN (serviço Web de UM).](resetpin-operation-um-web-service.md) 
   
-[ResetPIN (serviço Web da UM)](resetpin-um-web-service.md)
+[ResetPIN (serviço Web de Unificação de Mensagens)](resetpin-um-web-service.md)
   
 ```xml
 <ResetPIN />
@@ -47,7 +47,7 @@ Nenhum
   
 ## <a name="text-value"></a>Valor de texto
 
-Nenhum
+Nenhum.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -62,5 +62,5 @@ Nenhum
 
 
 
-[Operação ResetPIN (serviço Web da UM)](resetpin-operation-um-web-service.md)
+[Operação ResetPIN (serviço Web de Unificação de Mensagens)](resetpin-operation-um-web-service.md)
 

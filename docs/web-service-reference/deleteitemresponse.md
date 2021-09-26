@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteItemResponse
 api_type:
 - schema
 ms.assetid: 86463d66-fe47-4a19-a81b-e24841e816ab
-description: O elemento DeleteItemResponse define uma resposta a uma única solicitação de DeleteItem.
-ms.openlocfilehash: 6aad30077e8867486012dd34bb1def97accffc2b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DeleteItemResponse define uma resposta a uma única solicitação DeleteItem.
+ms.openlocfilehash: e062b97ed7d15192180040b18b80ac2f48f1c650
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529193"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545402"
 ---
 # <a name="deleteitemresponse"></a>DeleteItemResponse
 
-O elemento **DeleteItemResponse** define uma resposta a uma única solicitação de DeleteItem. 
+O **elemento DeleteItemResponse** define uma resposta a uma única solicitação DeleteItem. 
   
 ```xml
 <DeleteItemResponse>
@@ -42,11 +42,11 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação de serviços Web do Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contém as mensagens de resposta para uma solicitação Exchange Web Services.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 

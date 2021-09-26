@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dcff5ccc-31dc-4941-9f71-d6519133aebb
 description: O elemento ExportAllowed especifica se a exportação está habilitada.
-ms.openlocfilehash: f5a9aa3040c45d535ef338010bb37bcedb797ffc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5f7193fa8065124281b96b329105bbc6a0933e58
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460628"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545143"
 ---
 # <a name="exportallowed"></a>ExportAllowed
 
-O elemento **ExportAllowed** especifica se a exportação está habilitada. 
+O **elemento ExportAllowed** especifica se a exportação está habilitada. 
   
 ```XML
 <ExportAllowed>true | false</ExportAllowed>
@@ -44,11 +44,11 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **ExportAllowed** indica que a exportação é permitida. Um valor **false** indica que a exportação não é permitida. 
+Um valor de texto **true** para **o elemento ExportAllowed** indica que a exportação é permitida. Um valor **false** indica que a exportação não é permitida. 
   
 ## <a name="remarks"></a>Comentários
 
-Este elemento é opcional.
+Esse elemento é opcional.
   
 Este elemento foi introduzido no Exchange Server 2013.
   
@@ -59,8 +59,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

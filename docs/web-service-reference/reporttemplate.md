@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReportTemplate
 api_type:
 - schema
 ms.assetid: f528eee6-d5af-4745-8b00-a9834bf34be6
-description: O elemento ReportTemplate representa o tipo de relatório a ser obtido.
-ms.openlocfilehash: 22f14d326032a30e5cb4c2c9e1aff390d98e95e0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ReportTemplate representa o tipo de relatório a ser obter.
+ms.openlocfilehash: 18fc98a8d9aaa777a590561aedd4e86fdf91f9af
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528696"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542796"
 ---
 # <a name="reporttemplate"></a>ReportTemplate
 
-O elemento **ReportTemplate** representa o tipo de relatório a ser obtido. 
+O **elemento ReportTemplate** representa o tipo de relatório a ser obter. 
   
 ```xml
 <ReportTemplate>Summary or RecipientPath</ReportTemplate>
@@ -44,11 +44,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contém a solicitação para a [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md) para recuperar o relatório de acompanhamento de mensagens completo da ID especificada.  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contém a solicitação para a [operação GetMessageTrackingReport](getmessagetrackingreport-operation.md) recuperar o relatório de controle de mensagens completo para a ID especificada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-A tabela a seguir lista os valores possíveis para o elemento **ReportTemplate** . 
+A tabela a seguir lista os valores possíveis para o **elemento ReportTemplate.** 
   
 **Valores do elemento ReportTemplate**
 
@@ -59,7 +59,7 @@ A tabela a seguir lista os valores possíveis para o elemento **ReportTemplate**
    
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2010 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2010 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConvertId
 api_type:
 - schema
 ms.assetid: 9684c22c-29d4-4f7f-befc-8cd41da56d38
-description: O elemento convertid define uma solicitação para converter o item e os identificadores de pasta entre os formatos compatíveis com o Exchange. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: d421baf1f29fb59a8c6eb2b09e1fa0e8a38ffaa4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ConvertId define uma solicitação para converter identificadores de item e pasta entre formatos Exchange com suporte. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: fe7d46697ba72ba6458136541488f5cd498169f4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452535"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545556"
 ---
 # <a name="convertid"></a>ConvertId
 
-O elemento **convertid** define uma solicitação para converter o item e os identificadores de pasta entre os formatos compatíveis com o Exchange. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+O **elemento ConvertId** define uma solicitação para converter identificadores de item e pasta entre formatos Exchange com suporte. Esse elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <ConvertId DestinationFormat="">
@@ -38,32 +38,32 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|**DestinationFormat** <br/> |Descreve o formato de identificador que será retornado para todos os identificadores convertidos. O DestinationFormat é descrito pelo IdFormattype.  <br/> |
+|**DestinationFormat** <br/> |Descreve o formato de identificador que será retornado para todos os identificadores convertidos. DestinationFormat é descrito pelo IdFormatType.  <br/> |
    
 #### <a name="destinationformat-attribute"></a>Atributo DestinationFormat
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|**EwsLegacyId** <br/> |Representa o formato de identificador usado para os identificadores de serviços Web do Exchange fornecidos na versão inicial de lançamento do Exchange 2007.  <br/> |
-|**EwsId** <br/> |Representa o formato de identificador usado para identificadores de serviços Web do Exchange a partir do Exchange Server 2007 SP1.  <br/> |
+|**EwsLegacyId** <br/> |Representa o formato identificador usado para Exchange identificadores de Serviços Web fornecidos na versão inicial do Exchange 2007.  <br/> |
+|**EwsId** <br/> |Representa o formato de identificador usado para Exchange identificadores do Web Services a partir Exchange Server 2007 SP1.  <br/> |
 |**EntryId** <br/> |Representa o identificador MAPI, como na propriedade PR_ENTRYID.  <br/> |
-|**HexEntryId** <br/> |Representa o identificador de eventos do calendário de disponibilidade. Esta é uma representação codificada em hexadecimal da propriedade PR_ENTRYID.  <br/> |
-|**StoreId** <br/> |Representa o identificador do repositório do Exchange.  <br/> |
-|**OwaId** <br/> |Representa o formato de identificador do Outlook Web Access.  <br/> |
+|**HexEntryId** <br/> |Representa o identificador de evento do calendário de disponibilidade. Esta é uma representação codificada por hexadecimal da propriedade PR_ENTRYID.  <br/> |
+|**StoreId** <br/> |Representa o Exchange de armazenamento.  <br/> |
+|**OwaId** <br/> |Representa o Outlook de identificador do Web Access.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SourceIds](sourceids.md) <br/> |Contém os identificadores de origem a serem convertidos.  <br/> |
+|[SourceIds](sourceids.md) <br/> |Contém os identificadores de origem a converter.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.
+O esquema que descreve esse elemento está localizado no diretório virtual do EWS do computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -78,7 +78,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 
 
 
-[Operação convertid](convertid-operation.md)
+[Operação ConvertId](convertid-operation.md)
 
 
 - [Elementos XML do EWS no Exchange](ews-xml-elements-in-exchange.md)

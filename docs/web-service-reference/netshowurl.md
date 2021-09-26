@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NetShowUrl
 api_type:
 - schema
 ms.assetid: a5d48fc1-b141-422c-bcb0-05d0f9ba90dd
-description: O elemento NetShowUrl especifica a URL para uma reunião online do Microsoft NetShow.
-ms.openlocfilehash: 66e288a5e66eecf404698135cc3257085b852034
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento NetShowUrl especifica a URL de uma reunião online do Microsoft NetShow.
+ms.openlocfilehash: a5fe0daac17971c868bec0088ec6b79294d6727a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466329"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541984"
 ---
 # <a name="netshowurl"></a>NetShowUrl
 
-O elemento **NetShowUrl** especifica a URL para uma reunião online do Microsoft NetShow. 
+O **elemento NetShowUrl** especifica a URL de uma reunião online do Microsoft NetShow. 
   
 ```xml
 <NetShowUrl/>
@@ -44,8 +44,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no Exchange store.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -53,7 +53,7 @@ Um valor de texto que representa uma URL será necessário se esse elemento for 
   
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade NetShowUrl é leitura/gravação para o item de calendário do organizador. É somente leitura para solicitações de reunião e participantes.
+Essa propriedade NetShowUrl pode ser lida para o item de calendário do organizador. É somente leitura para solicitações de reunião e para participantes.
   
 O esquema que descreve este elemento está localizado no diretório virtual do EWS do computador que está executando o MicrosoftExchange Server 2007 que tem instalada a função de servidor de Acesso para Cliente.
   
@@ -63,7 +63,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

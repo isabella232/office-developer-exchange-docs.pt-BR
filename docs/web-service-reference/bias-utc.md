@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Bias
 api_type:
 - schema
 ms.assetid: 15790d5a-5134-457b-8f2b-d9dee1f807a2
-description: O elemento Bias representa o deslocamento geral do tempo universal coordenado (UTC). Este valor está em minutos.
-ms.openlocfilehash: d95284aa28e59542d1a1ee40686163138b015702
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Bias representa o deslocamento geral do TEMPO Universal Coordenado (UTC). Este valor está em minutos.
+ms.openlocfilehash: c7dc50d13eecab72d06927ce02762e57ec2f8a3e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460243"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543650"
 ---
 # <a name="bias-utc"></a>Bias (UTC)
 
-O elemento **Bias** representa o deslocamento geral do tempo universal coordenado (UTC). Este valor está em minutos. 
+O **elemento Bias** representa o deslocamento geral do TEMPO Universal Coordenado (UTC). Este valor está em minutos. 
   
 ```xml
 <TimeZone>
@@ -47,15 +47,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Fuso horário (disponibilidade)](timezone-availability.md) <br/> | O contêiner que identifica as informações de data e hora da solicitação. Este elemento contém informações sobre a transição entre o horário padrão e o horário de verão.  <br/><br/>A seguir estão as expressões XPath para este elemento:<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> | O contêiner que identifica as informações de data e hora da solicitação. Esse elemento contém informações sobre a transição entre o horário padrão e o horário de verão.  <br/><br/>Veja a seguir as expressões XPath para este elemento:<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. O valor de texto representa um inteiro.
+Um valor de texto é necessário. O valor de texto representa um inteiro.
   
 ## <a name="remarks"></a>Comentários
 
-Um segundo elemento [Bias](bias.md) no esquema representa o deslocamento do deslocamento UTC (tempo Universal Coordenado). 
+Um segundo [elemento Bias](bias.md) no esquema representa o deslocamento do deslocamento do deslocamento tempo universal coordenado (UTC). 
   
 ## <a name="example"></a>Exemplo
 
@@ -87,12 +87,12 @@ O exemplo a seguir mostra parte de uma solicitação XML que identifica um deslo
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 - [Operação GetUserAvailability](getuseravailability-operation.md)  
 - [Bias](bias.md)
-- [Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

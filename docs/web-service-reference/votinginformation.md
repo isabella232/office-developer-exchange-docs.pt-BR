@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 351c8dfe-cf8c-45ba-a07d-d764f8189773
-description: O elemento VotingInformation especifica as informações de votação em uma mensagem de votação e uma mensagem de solicitação de aprovação whereApproveandRejectare opções de votação.
-ms.openlocfilehash: d946ba8c71d19c8cbb1befbe8c4e43e93590ccae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento VotingInformation especifica as informações de votação em uma mensagem de votação e a mensagem de solicitação de aprovação em queApproveandReject são as opções de votação.
+ms.openlocfilehash: 7e5aedddbfe97bba935aa56b3583e2fb8b081320
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467743"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543853"
 ---
 # <a name="votinginformation"></a>VotingInformation
 
-O elemento **VotingInformation** especifica informações de votação em uma mensagem de votação e uma mensagem de solicitação de aprovação onde "aprovar" e "rejeitar" são as opções de votação. 
+O **elemento VotingInformation** especifica informações de votação em uma mensagem de votação e uma mensagem de solicitação de aprovação em que "Aprovar" e "Rejeitar" são as opções de votação. 
   
 ```XML
 <VotingInformation
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também

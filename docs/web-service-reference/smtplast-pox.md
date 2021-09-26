@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: f1aa8bd9-c6ac-41ac-8d2d-56fb20006005
-description: O elemento SMTPLast especifica se o servidor SMTP exige que o email seja baixado antes de enviar emails usando o servidor SMTP.
-ms.openlocfilehash: 7019da28ffa196a9abc8798aa75aff2756198da3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SMTPLast especifica se o servidor SMTP (Simple Mail Transfer Protocol) exige que o email seja baixado antes de enviar emails usando o servidor SMTP.
+ms.openlocfilehash: ff1e47fa1e3ebd0267879cd596a3a559f2702943
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468429"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544679"
 ---
 # <a name="smtplast-pox"></a>SMTPLast (POX)
 
-O elemento **SMTPLast** especifica se o servidor SMTP exige que o email seja baixado antes de enviar emails usando o servidor SMTP. 
+O **elemento SMTPLast** especifica se o servidor SMTP (Simple Mail Transfer Protocol) exige que o email seja baixado antes de enviar emails usando o servidor SMTP. 
   
-- [Descoberta automática (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [Resposta (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [Conta (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
 - [Protocol (POX)](protocol-pox.md)
   
@@ -50,13 +50,13 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando o Microsoft Exchange Server 2007 que tem a função de servidor de acesso para Cliente instalada.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contém as especificações para conectar um cliente ao computador que está executando Microsoft Exchange Server 2007 que tem a função de servidor de Acesso para Cliente instalada.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto especifica se o servidor SMTP exige que o email seja baixado antes de enviar emails usando o servidor SMTP. Os valores possíveis estão **ativados** e **desativados**. O valor padrão é **desativado**.
+O valor do texto especifica se o servidor SMTP exige que o email seja baixado antes de enviar emails usando o servidor SMTP. Os valores possíveis **estão on** e **off**. O valor padrão está **desligado**.
   
 ## <a name="see-also"></a>Confira também
 
-- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

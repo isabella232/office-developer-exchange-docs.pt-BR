@@ -1,28 +1,28 @@
 ---
-title: Mensagem (POX)
+title: Message (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: b0124b70-28ab-4484-ac81-465a42f42776
-description: O elemento Message contém a mensagem de erro para uma resposta de descoberta automática de erro.
-ms.openlocfilehash: 5e2f9d5b2f9ad45359f180f1121a34ccf9cd89cc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Message contém a mensagem de erro para uma resposta de Descoberta Automática de erro.
+ms.openlocfilehash: 1b15bce5c052205b0953bbdd686ead32f32ea743
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467988"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542159"
 ---
-# <a name="message-pox"></a>Mensagem (POX)
+# <a name="message-pox"></a>Message (POX)
 
-O elemento **Message** contém a mensagem de erro para uma resposta de descoberta automática de erro. 
+O **elemento Message** contém a mensagem de erro para uma resposta de Descoberta Automática de erro. 
   
-[Erro (POX)](error-pox.md)
+[Error (POX)](error-pox.md)
   
-[Mensagem (POX)](message-pox.md)
+[Message (POX)](message-pox.md)
   
 ```xml
 <Message/>
@@ -44,15 +44,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Erro (POX)](error-pox.md) <br/> |Contém uma resposta de erro de descoberta automática.  <br/> |
+|[Error (POX)](error-pox.md) <br/> |Contém uma resposta de erro de Descoberta Automática.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa a mensagem de erro para a resposta de descoberta automática de erro.
+O valor de texto representa a mensagem de erro para a resposta de Descoberta Automática de erro.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

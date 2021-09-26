@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 837bb372-39eb-48ae-9c09-0d2552511f93
-description: O elemento participantes especifica os destinatários de um convite para uma reunião.
-ms.openlocfilehash: 3a63bdf7e49309697ac503be5f4c95eb805b9635
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Attendees especifica os destinatários de um convite para uma reunião.
+ms.openlocfilehash: 2ac547ee56e5a001e08957265053265d69ded42e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460327"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545703"
 ---
 # <a name="attendees"></a>Participantes
 
-O elemento **participantes** especifica os destinatários de um convite para uma reunião. 
+O **elemento Attendees** especifica os destinatários de um convite para uma reunião. 
   
 ```XML
 <Attendees>
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

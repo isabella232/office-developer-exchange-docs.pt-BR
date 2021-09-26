@@ -1,23 +1,23 @@
 ---
-title: IMAddress (NonEmptyStringType)
+title: ImAddress (NonEmptyStringType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 13c7b0cc-f506-490b-adaa-3d01fc2400eb
-description: O elemento IMAddress contém o endereço de mensagens instantâneas de um novo contato que será adicionado a um grupo de mensagens instantâneas.
-ms.openlocfilehash: eac3b6494f3f52dec007171462a95f9d7306530e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ImAddress contém o endereço de mensagens instantâneas de um novo contato que será adicionado a um grupo de mensagens instantâneas.
+ms.openlocfilehash: 241ff33369a10f493d63da48e4ab80974780de0e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457603"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542243"
 ---
-# <a name="imaddress-nonemptystringtype"></a>IMAddress (NonEmptyStringType)
+# <a name="imaddress-nonemptystringtype"></a>ImAddress (NonEmptyStringType)
 
-O elemento **IMAddress** contém o endereço de mensagens instantâneas de um novo contato que será adicionado a um grupo de mensagens instantâneas. 
+O **elemento ImAddress** contém o endereço de mensagens instantâneas de um novo contato que será adicionado a um grupo de mensagens instantâneas. 
   
 ```XML
 <ImAddress></ImAddress>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **IMAddress** é um endereço de mensagens instantâneas. 
+O valor de texto do **elemento ImAddress** é um endereço de mensagens instantâneas. 
   
 ## <a name="remarks"></a>Comentários
 

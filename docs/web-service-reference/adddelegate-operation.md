@@ -5,27 +5,27 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AddDelegate
 api_type:
 - schema
 ms.assetid: 012d8cc5-648c-4ba0-a155-15c422b1e994
-description: A operação AddDelegate adiciona um ou mais representantes à caixa de correio de uma entidade de segurança e define permissões de acesso específicas.
-ms.openlocfilehash: 80adbe71d69be1025dc9593c6a9002bc68fdcb76
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação AddDelegate adiciona um ou mais representantes à caixa de correio de uma entidade e define permissões de acesso específicas.
+ms.openlocfilehash: 687080c58a0dbde2ddb0f0049b96d543204c6018
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466511"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543811"
 ---
 # <a name="adddelegate-operation"></a>Operação AddDelegate
 
-A operação **AddDelegate** adiciona um ou mais representantes à caixa de correio de uma entidade de segurança e define permissões de acesso específicas. 
+A **operação AddDelegate** adiciona um ou mais representantes à caixa de correio de uma entidade e define permissões de acesso específicas. 
   
-## <a name="soap-headers"></a>Cabeçalhos SOAP
+## <a name="soap-headers"></a>Headers SOAP
 
-A operação **AddDelegate** pode usar os cabeçalhos SOAP listados e descritos na tabela a seguir. 
+A **operação AddDelegate** pode usar os headers SOAP listados e descritos na tabela a seguir. 
   
 |**Header**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
@@ -38,7 +38,7 @@ A operação **AddDelegate** pode usar os cabeçalhos SOAP listados e descritos 
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma solicitação **AddDelegate** mostra uma tentativa de conceder as permissões de representante Usuário1 em pastas pertencentes a Usuário2. O Usuário1 recebe permissões no nível do autor para a pasta calendário do user2's e permissões no nível do revisor para a pasta contatos do user2's. Usuário1 não receberá cópias de mensagens de reunião e não poderá exibir itens privados na caixa de correio do user2's. As solicitações de reunião serão enviadas para usuário1 e Usuário2. 
+O exemplo a seguir de uma **solicitação AddDelegate** mostra uma tentativa de dar permissões de representante do usuário1 em pastas pertencentes ao usuário2. User1 recebe permissões no nível de autor para a pasta Calendário do usuário2 e permissões no nível do Revistor para a pasta Contatos do usuário2. O Usuário1 não receberá cópias de mensagens de reunião e não poderá exibir itens privados na caixa de correio do usuário2. As solicitações de reunião serão enviadas ao usuário1 e ao usuário2. 
   
 ### <a name="code"></a>Código
 
@@ -77,7 +77,7 @@ O exemplo a seguir de uma solicitação **AddDelegate** mostra uma tentativa de 
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir de uma resposta **AddDelegate** mostra uma resposta bem-sucedida a uma solicitação **adddelegar** . 
+O exemplo a seguir de **uma resposta AddDelegate** mostra uma resposta bem-sucedida a **uma solicitação AddDelegate.** 
   
 ### <a name="code"></a>Código
 
@@ -122,7 +122,7 @@ O exemplo a seguir de uma resposta **AddDelegate** mostra uma resposta bem-suced
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra a resposta a uma solicitação para adicionar um representante que já foi adicionado à caixa de correio da entidade de segurança.
+O exemplo a seguir mostra a resposta a uma solicitação para adicionar um representante que já foi adicionado à caixa de correio da entidade.
   
 ### <a name="code"></a>Código
 
@@ -158,9 +158,9 @@ O exemplo a seguir mostra a resposta a uma solicitação para adicionar um repre
 
 ### <a name="comments"></a>Comentários
 
-Se o código de resposta ErrorDelegateAlreadyExists for retornado quando você tentar adicionar um representante, use a [operação getdelegate](getdelegate-operation.md) para obter todas as permissões atuais para o representante e, em seguida, use a [operação UpdateDelegate](updatedelegate-operation.md) para definir as novas permissões. 
+Se o código de resposta ErrorDelegateAlreadyExists for retornado quando você tentar adicionar um representante, use a operação [GetDelegate](getdelegate-operation.md) para obter todas as permissões atuais para o representante e use a [operação UpdateDelegate](updatedelegate-operation.md) para definir as novas permissões. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Adicionar representantes](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Adicionando representantes](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

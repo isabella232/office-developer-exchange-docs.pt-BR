@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 1e87e78e-d143-4abc-b753-386500d227a5
 description: O elemento AccountType representa o tipo de conta.
-ms.openlocfilehash: 20ff7cf4e73f1b50668616d3f11edeeb1409815e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dbcc9f3c925f60a8cc2c0875344b798319f2496f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462308"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544406"
 ---
 # <a name="accounttype-pox"></a>AccountType (POX)
 
-O elemento **AccountType** representa o tipo de conta. 
+O **elemento AccountType** representa o tipo de conta. 
   
-- [Descoberta automática (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [Resposta (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [Conta (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
 - [AccountType (POX)](accounttype-pox.md)
   
@@ -48,13 +48,13 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conta (POX)](account-pox.md) <br/> |Especifica as configurações de conta do usuário.  <br/> |
+|[Account (POX)](account-pox.md) <br/> |Especifica as configurações da conta para o usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o tipo de conta. O valor possível é **email**, que indica as configurações de um servidor de email. 
+O valor de texto representa o tipo de conta. O valor possível é **email**, que indica configurações para um servidor de email. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

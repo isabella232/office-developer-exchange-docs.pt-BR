@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SuggestionDayResult
 api_type:
 - schema
 ms.assetid: 916b1cbb-f2e3-471d-84b0-e33467616652
-description: O elemento SuggestionDayResult representa um único dia que contém horários de reunião sugeridos.
-ms.openlocfilehash: af907b62acefb4913814907722b98d326bd0535b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SuggestionDayResult representa um único dia que contém os horários de reunião sugeridos.
+ms.openlocfilehash: fb24a8ce27b1f21448acc70a6c9b11927c77b8cc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457988"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543958"
 ---
 # <a name="suggestiondayresult"></a>SuggestionDayResult
 
-O elemento **SuggestionDayResult** representa um único dia que contém horários de reunião sugeridos. 
+O **elemento SuggestionDayResult** representa um único dia que contém os horários de reunião sugeridos. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -60,7 +60,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[SuggestionDayResultArray](suggestiondayresultarray.md) <br/> |Contém uma matriz de sugestões de reunião organizadas por data.  <br/> A seguir está a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray` <br/> |
+|[SuggestionDayResultArray](suggestiondayresultarray.md) <br/> |Contém uma matriz de sugestões de reunião organizadas por data.  <br/> Veja a seguir a expressão XPath para este elemento:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray` <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -72,7 +72,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também
@@ -84,5 +84,5 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtendo disponibilidade do usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obter Disponibilidade do Usuário](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

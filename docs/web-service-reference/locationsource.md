@@ -1,23 +1,23 @@
 ---
-title: Localização
+title: LocationSource
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc4d77d5-6200-4cf3-848a-1088fec0e0d6
-description: O elemento LocalName especifica informações sobre a origem do endereço postal associado, por exemplo, um contato ou um catálogo telefônico.
-ms.openlocfilehash: ceba52c43d1c798bb8f5492b779c7c45d7d00b0b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento LocationSource especifica informações sobre a origem do endereço postal associado, por exemplo, um contato ou um livro telefônico.
+ms.openlocfilehash: f3569494d3e662fbc46060944c8bd399b62d656b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467099"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543258"
 ---
-# <a name="locationsource"></a>Localização
+# <a name="locationsource"></a>LocationSource
 
-O elemento **LocalName** especifica informações sobre a origem do endereço postal associado, por exemplo, um contato ou um catálogo telefônico. 
+O **elemento LocationSource** especifica informações sobre a origem do endereço postal associado, por exemplo, um contato ou um livro telefônico. 
   
 ```XML
 <LocationSource> None | LocationServices | PhonebookServices | Device | Contact | Resource </LocationSource>
@@ -38,22 +38,22 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Valor (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [Address (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
+[Valor (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-Os valores de texto para o elemento **LocationName** estão listados na tabela a seguir: 
+Os valores de texto do **elemento LocationSource** estão listados na tabela a seguir: 
   
-**Valores de texto do elemento local**
+**Valores de texto do elemento LocationSource**
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|Nenhum  <br/> |Não há nenhuma origem de local.  <br/> |
-|LocalServices  <br/> |As informações foram obtidas dos serviços de localização.  <br/> |
-|Catálogos telefônicos  <br/> |As informações foram obtidas de serviços de catálogo telefônico.  <br/> |
+|Nenhum  <br/> |Não há fonte de localização.  <br/> |
+|LocationServices  <br/> |As informações foram obtidas dos serviços de localização.  <br/> |
+|PhonebookServices  <br/> |As informações foram obtidas dos serviços de lista telefônica.  <br/> |
 |Dispositivo  <br/> |As informações foram obtidas do dispositivo.  <br/> |
-|Contato  <br/> |As informações foram obtidas de um contato.  <br/> |
-|Resource  <br/> |As informações foram obtidas de um recurso.  <br/> |
+|Contact  <br/> |As informações foram obtidas de um contato.  <br/> |
+|Recurso  <br/> |As informações foram obtidas de um recurso.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

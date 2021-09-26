@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b3b86720-d086-47c3-94af-921fdd719edf
-description: O elemento SeekToConditionPageItemView identifica a condição usada para identificar o final de uma pesquisa, o índice inicial de uma pesquisa, o número máximo de entradas a serem retornadas e as direções de pesquisa para uma pesquisa do FindItem ou do FindConversation.
-ms.openlocfilehash: dbb073263740ccdf75367f85f672b7d5ec78f7a0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SeekToConditionPageItemView identifica a condição usada para identificar o final de uma pesquisa, o índice inicial de uma pesquisa, as entradas máximas a retornar e as instruções de pesquisa para uma pesquisa FindItem ou FindConversation.
+ms.openlocfilehash: 6f4797a6b90456a50922db1c829757711816273e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466833"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546102"
 ---
 # <a name="seektoconditionpageitemview"></a>SeekToConditionPageItemView
 
-O elemento **SeekToConditionPageItemView** identifica a condição usada para identificar o final de uma pesquisa, o índice inicial de uma pesquisa, o número máximo de entradas a serem retornadas e as direções de pesquisa para uma pesquisa do **FindItem** ou do **FindConversation** . 
+O **elemento SeekToConditionPageItemView** identifica a condição usada para identificar o final de uma pesquisa, o índice inicial de uma pesquisa, as entradas máximas a retornar e as instruções de pesquisa para uma pesquisa **FindItem** ou **FindConversation.** 
   
 ```XML
 <SeekToConditionPageItemView BasePoint="" MaxEntriesReturned="">
@@ -34,12 +34,12 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|BasePoint  <br/> |O valor de texto do atributo **BasePoint** é o ponto base de onde a pesquisa começará. Um valor de texto **início** indica que a pesquisa começará no início do conjunto de resultados. Um valor de **fim** de texto indica que a pesquisa começará no final do conjunto de resultados.  <br/> |
-|MaxEntriesReturned  <br/> |O valor de texto do atributo **MaxEntriesReturned** é o número máximo de itens que podem ser retornados em um conjunto de resultados.  <br/> |
+|BasePoint  <br/> |O valor de texto do **atributo BasePoint** é o ponto base de onde a pesquisa será inicial. Um valor de texto **de Início** indica que a pesquisa será iniciada no início do conjunto de resultados. Um valor de texto **de End** indica que a pesquisa começará no final do conjunto de resultados.  <br/> |
+|MaxEntriesReturned  <br/> |O valor de texto do **atributo MaxEntriesReturned** é o número máximo de itens que podem ser retornados em um conjunto de resultados.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
-[Condição (RestrictionType)](condition-restrictiontype.md)
+[Condition (RestrictionType)](condition-restrictiontype.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 

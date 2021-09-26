@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1acbb8a3-9110-4427-a06c-7e6e627e969f
 description: O elemento UserOptions especifica a lista de opções de votação em uma mensagem.
-ms.openlocfilehash: 2e0bbb373f423bbe9e913775b1f19d06dfd53f5f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3f4a30cf66700210dc0a6bcce4d5d4521a288a7c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526757"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541690"
 ---
 # <a name="useroptions"></a>UserOptions
 
-O elemento **UserOptions** especifica a lista de opções de votação em uma mensagem. 
+O **elemento UserOptions** especifica a lista de opções de votação em uma mensagem. 
   
 ```XML
 <UserOptions>
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    
 ## <a name="see-also"></a>Confira também

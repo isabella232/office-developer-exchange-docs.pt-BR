@@ -1,27 +1,27 @@
 ---
-title: Dialstring (serviços Web do Exchange)
+title: DialString (Exchange Web Services)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DialString
 api_type:
 - schema
 ms.assetid: 077501f6-b3a8-4799-8c37-09e77af49ddb
-description: O elemento de discagem representa a cadeia de caracteres de discagem do número de telefone chamado para reproduzir um item por telefone. Este elemento é obrigatório.
-ms.openlocfilehash: c944c9f6b99f7f8d45f7e08442a7dfb55a5fe9f3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DialString representa a cadeia de caracteres de discagem do número de telefone chamado para reproduzir um item por telefone. Este elemento é obrigatório.
+ms.openlocfilehash: b0d8855049748cdf76711a71c4863def16903860
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458744"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542369"
 ---
-# <a name="dialstring-exchange-web-services"></a>Dialstring (serviços Web do Exchange)
+# <a name="dialstring-exchange-web-services"></a>DialString (Exchange Web Services)
 
-O elemento de **discagem** representa a cadeia de caracteres de discagem do número de telefone chamado para reproduzir um item por telefone. Este elemento é obrigatório. 
+O **elemento DialString** representa a cadeia de caracteres de discagem do número de telefone chamado para reproduzir um item por telefone. Este elemento é obrigatório. 
   
 ```xml
 <DialString/>
@@ -44,7 +44,7 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[PlayOnPhone (serviços Web do Exchange)](playonphone-exchange-web-services.md) <br/> |Representa uma solicitação para ler um item em um telefone.  <br/> |
+|[PlayOnPhone (Exchange Web Services)](playonphone-exchange-web-services.md) <br/> |Representa uma solicitação para ler um item em um telefone.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

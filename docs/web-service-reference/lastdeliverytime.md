@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LastDeliveryTime
 api_type:
 - schema
 ms.assetid: 23d02ceb-f28e-40f2-8f63-673723a50e2a
-description: O elemento LastDeliveryTime contém o tempo de entrega da mensagem que foi recebida pela última vez nesta conversa na pasta atual.
-ms.openlocfilehash: 77147693a9394e983575afa6fcfda242f8f76ae3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento LastDeliveryTime contém o tempo de entrega da mensagem recebida pela última vez nesta conversa na pasta atual.
+ms.openlocfilehash: bb0ad41272d26efecf36113d9c82a647c237ac47
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458107"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546172"
 ---
 # <a name="lastdeliverytime"></a>LastDeliveryTime
 
-O elemento **LastDeliveryTime** contém o tempo de entrega da mensagem que foi recebida pela última vez nesta conversa na pasta atual. 
+O **elemento LastDeliveryTime** contém o tempo de entrega da mensagem recebida pela última vez nesta conversa na pasta atual. 
   
 [FindConversationResponse](findconversationresponse.md)
   
 [Conversas](conversations-ex15websvcsotherref.md)
   
-[Conversa (Conversatype)](conversation-conversationtype.md)
+[Conversation (ConversationType)](conversation-conversationtype.md)
   
 [LastDeliveryTime](lastdeliverytime.md)
   
@@ -35,7 +35,7 @@ O elemento **LastDeliveryTime** contém o tempo de entrega da mensagem que foi r
 <LastDeliveryTime/>
 ```
 
- **xs: dateTime**
+ **xs:dateTime**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -52,15 +52,15 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Conversa (Conversatype)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
+|[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Representa uma única conversa.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **LastDeliveryTime** é a data e a hora da última mensagem recebida nesta conversa na pasta atual. 
+O valor de texto do **elemento LastDeliveryTime** é a data e a hora da mensagem recebida pela última vez nesta conversa na pasta atual. 
   
 ## <a name="remarks"></a>Comentários
 
-O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os serviços Web do Exchange. este elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
+O esquema que descreve esse elemento está localizado no diretório virtual do IIS que hospeda Exchange Web Services. Esse elemento foi introduzido no Exchange Server 2010 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Elemento de informações
 
@@ -68,7 +68,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

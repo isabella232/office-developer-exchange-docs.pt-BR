@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e86f98b6-83b5-4530-80eb-dc5df42e2c62
-description: O elemento SizeRequested contém o tamanho de foto solicitado para uma operação GetUserPhoto.
-ms.openlocfilehash: 2e79bbb158fa9a22cbd3ec08fcd6e60429e113b4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SizeRequested contém o tamanho da foto solicitado para uma operação GetUserPhoto.
+ms.openlocfilehash: 799869a85d7f72e79753a73f9c259388a2702bf5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460453"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545913"
 ---
 # <a name="sizerequested"></a>SizeRequested
 
-O elemento **SizeRequested** contém o tamanho de foto solicitado para uma operação **GetUserPhoto** . 
+O **elemento SizeRequested** contém o tamanho da foto solicitado para uma **operação GetUserPhoto.** 
   
 ```XML
 <SizeRequested>HR48x48 | HR64x64 | HR96X96 | HR120X120 | HR240X240 | HR360X360 | HR432X432 | HR504X504 | HR648X648</SizeRequested>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **SizeRequested** é o tamanho de foto solicitado de uma imagem digital retornada do servidor. A tabela a seguir identifica os valores de texto para o elemento **SizeRequested** . 
+O valor de texto do **elemento SizeRequested** é o tamanho da foto solicitada de uma imagem digital retornada do servidor. A tabela a seguir identifica os valores de texto do **elemento SizeRequested.** 
   
 |**Valor**|**Significado**|
 |:-----|:-----|

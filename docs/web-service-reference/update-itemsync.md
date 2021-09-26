@@ -1,33 +1,33 @@
 ---
-title: Atualização (issync)
+title: Update (ItemSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Update
 api_type:
 - schema
 ms.assetid: 4e204446-1c80-44f9-b93b-77ce630a01a5
-description: O elemento Update identifica um único item a ser atualizado no repositório do cliente local.
-ms.openlocfilehash: 12248cbbd5d47a19e36d49fcebe6d4753a2e162f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Update identifica um único item a ser atualizado no armazenamento de cliente local.
+ms.openlocfilehash: 936226c671916b974eed9dea9ad2ea39bde482a9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468884"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541816"
 ---
-# <a name="update-itemsync"></a>Atualização (issync)
+# <a name="update-itemsync"></a>Update (ItemSync)
 
-O elemento **Update** identifica um único item a ser atualizado no repositório do cliente local. 
+O **elemento Update** identifica um único item a ser atualizado no armazenamento de cliente local. 
   
 - [SyncFolderItemsResponse](syncfolderitemsresponse.md) 
 - [ResponseMessages](responsemessages.md)  
 - [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)  
-- [Alterações (itens)](changes-items.md)  
-- [Atualização (issync)](update-itemsync.md)
+- [Changes (Items)](changes-items.md)  
+- [Update (ItemSync)](update-itemsync.md)
   
 ```xml
 <Update>
@@ -103,14 +103,14 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Item](item.md) <br/> |Representa um item genérico do Exchange a ser atualizado.  <br/> |
-|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange a ser atualizada.  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange a ser atualizado.  <br/> |
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange a ser atualizado.  <br/> |
+|[Item](item.md) <br/> |Representa um item Exchange genérico a ser atualizado.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma Exchange de email a ser atualizada.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário a ser atualizado.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato a ser atualizado.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição a ser atualizada.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Representa uma mensagem de reunião a ser atualizada.  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião a ser atualizada.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião a ser atualizada.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião para atualização.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião a ser atualizado.  <br/> |
 |[Tarefa](task.md) <br/> |Representa uma tarefa a ser atualizada.  <br/> |
    
@@ -118,7 +118,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Alterações (itens)](changes-items.md) <br/> |Contém uma matriz de sequência de tipos de alteração que representam o tipo de diferença entre os itens no cliente e os itens no servidor Exchange.  <br/> |
+|[Changes (Items)](changes-items.md) <br/> |Contém uma matriz de sequência de tipos de alteração que representam o tipo de diferenças entre os itens no cliente e os itens no servidor Exchange.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -130,7 +130,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

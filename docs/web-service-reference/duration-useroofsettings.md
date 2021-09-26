@@ -1,27 +1,27 @@
 ---
-title: Duração (UserOofSettings)
+title: Duration (UserOofSettings)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Duration
 api_type:
 - schema
 ms.assetid: 01d67af3-658e-4acd-93e3-441ae827fdd3
-description: O elemento Duration especifica a duração que o status de ausência temporária (OOF) é habilitado se o elemento OofState estiver definido como agendado.
-ms.openlocfilehash: 0ba0f1ea7498781c0cccb072c7ea0fa05414764c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Duration especifica a duração em que o status OOF está habilitado se o elemento OofState estiver definido como Scheduled.
+ms.openlocfilehash: cb6529bfe3799ff41550d7fe3ce2c79b8a4197e2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457295"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544154"
 ---
-# <a name="duration-useroofsettings"></a>Duração (UserOofSettings)
+# <a name="duration-useroofsettings"></a>Duration (UserOofSettings)
 
-O elemento **Duration** especifica a duração que o status de ausência temporária (OOF) é habilitado se o elemento [OofState](oofstate.md) estiver definido como **agendado**.
+O **elemento Duration** especifica a duração em que o status OOF está habilitado se o elemento [OofState](oofstate.md) estiver definido como **Scheduled**.
   
 ```XML
 <Duration>
@@ -43,26 +43,26 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[StartTime](starttime.md) <br/> |Representa o início do intervalo de tempo definido com um status de ausência temporária. Este elemento é obrigatório.  <br/> |
-|[EndTime](endtime.md) <br/> |Representa o fim do intervalo de tempo definido com um status de ausência temporária. Este elemento é obrigatório.  <br/> |
+|[StartTime](starttime.md) <br/> |Representa o início do conjunto de intervalos de tempo com um status OOF. Este elemento é obrigatório.  <br/> |
+|[EndTime](endtime.md) <br/> |Representa o fim do conjunto de intervalos de tempo com um status OOF. Este elemento é obrigatório.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/><br/>A seguir está a expressão XPath para este elemento:<br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contém as configurações de ausência temporária.<br/><br/>A seguir está a expressão XPath para este elemento:<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
-|[Fora](outofoffice.md) <br/> |Define a mensagem de resposta de ausência temporária (OOF) e um tempo de duração para enviar a mensagem de resposta para uma caixa de correio.  <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações OOF.  <br/><br/>Veja a seguir a expressão XPath para este elemento:<br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contém as configurações OOF.<br/><br/>Veja a seguir a expressão XPath para este elemento:<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[OutOfOffice](outofoffice.md) <br/> |Define a mensagem de resposta Out of Office (OOF) e um tempo de duração para enviar a mensagem de resposta para uma caixa de correio.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O tipo de **duração** também é o tipo dos elementos [DetailedSuggestionsWindow](detailedsuggestionswindow.md), [TimeWindow](timewindow.md)e [fora](outofoffice.md) . 
+O **tipo Duration** também é o tipo para os elementos [DetailedSuggestionsWindow,](detailedsuggestionswindow.md) [TimeWindow](timewindow.md)e [OutOfOffice.](outofoffice.md) 
   
 O esquema que descreve este elemento está localizado no diretório virtual do IIS que hospeda os Serviços Web do Exchange.
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação de [operação SetUserOofSettings](setuseroofsettings-operation.md) define o [OofState](oofstate.md) como **habilitado**, as mensagens de ausência temporária interna e externa e define a duração de OOF por 10 dias.
+O exemplo a seguir de uma solicitação de operação [SetUserOofSettings](setuseroofsettings-operation.md) define o [OofState](oofstate.md) como **Enabled**, as mensagens OOF internas e externas e define a duração do OOF por 10 dias.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -100,7 +100,7 @@ O exemplo a seguir de uma solicitação de [operação SetUserOofSettings](setus
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

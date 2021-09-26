@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5913619-0c13-429d-b9d2-057e8af220f1
-description: O elemento AddNewImContactToGroup define uma solicitação para adicionar um novo contato de sistema de mensagens instantâneas a um grupo de mensagens instantâneas.
-ms.openlocfilehash: c493ba81b23832a462acd425eb60297801f8768f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AddNewImContactToGroup define uma solicitação para adicionar um novo contato de mensagens instantâneas a um grupo de mensagens instantâneas.
+ms.openlocfilehash: 48d4fe37964a2851a32398425ed4fbd5d5d4f77d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463647"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541564"
 ---
 # <a name="addnewimcontacttogroup"></a>AddNewImContactToGroup
 
-O elemento **AddNewImContactToGroup** define uma solicitação para adicionar um novo contato de sistema de mensagens instantâneas a um grupo de mensagens instantâneas. 
+O **elemento AddNewImContactToGroup** define uma solicitação para adicionar um novo contato de mensagens instantâneas a um grupo de mensagens instantâneas. 
   
 ```XML
 <AddNewImContactToGroup>
@@ -38,11 +38,11 @@ Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
-[IMAddress (NonEmptyStringType)](imaddress-nonemptystringtype.md)  |  [DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md)  |  [GroupId](groupid.md)
+[ImAddress (NonEmptyStringType)](imaddress-nonemptystringtype.md)  |  [DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md)  |  [GroupId](groupid.md)
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

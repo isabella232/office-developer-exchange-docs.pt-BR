@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16d63d10-3566-4eda-802a-fcef5458d2e7
 description: O elemento AddImGroup define uma solicitação para adicionar um novo grupo de mensagens instantâneas.
-ms.openlocfilehash: dc9ae442cf546df872fc0fe4300071d3c0ec73da
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 18e63255845bbbceb2b8e2c15f88bc6c7a80cc33
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462805"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541578"
 ---
 # <a name="addimgroup"></a>AddImGroup
 
-O elemento **AddImGroup** define uma solicitação para adicionar um novo grupo de mensagens instantâneas. 
+O **elemento AddImGroup** define uma solicitação para adicionar um novo grupo de mensagens instantâneas. 
   
 ```XML
 <AddImGroup>
@@ -40,7 +40,7 @@ DisplayName
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -54,7 +54,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 
