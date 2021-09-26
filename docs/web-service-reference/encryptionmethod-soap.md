@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: bc632c85-ec74-4a00-baec-df5973e032fa
-description: O elemento EncryptionMethod representa o método criptográfico que é usado para os protocolos POP, IMAP e SMTP.
-ms.openlocfilehash: 26236d9b08eae1bcabfd9aac59f5b01714ba9841
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EncryptionMethod representa o método criptográfico usado para os protocolos POP, IMAP e SMTP.
+ms.openlocfilehash: 40b9f7736502f8def5389c1a70fddb61e38973aa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530653"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546592"
 ---
 # <a name="encryptionmethod-soap"></a>EncryptionMethod (SOAP)
 
-O elemento **EncryptionMethod** representa o método criptográfico que é usado para os protocolos pop, IMAP e SMTP. 
+O **elemento EncryptionMethod** representa o método criptográfico usado para os protocolos POP, IMAP e SMTP. 
   
 ```XML
 <EncryptionMethod/>
@@ -45,14 +45,14 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto para esse elemento é o método criptográfico que é usado para os protocolos POP, IMAP e SMTP.
+O valor de texto para esse elemento é o método criptográfico usado para os protocolos POP, IMAP e SMTP.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

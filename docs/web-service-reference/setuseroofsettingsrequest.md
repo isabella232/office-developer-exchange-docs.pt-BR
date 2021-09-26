@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetUserOofSettingsRequest
 api_type:
 - schema
 ms.assetid: 628acf0b-3ebc-42f1-8ce2-7a02b4c8141f
-description: O elemento SetUserOofSettingsRequest contém os argumentos usados para definir as configurações de ausência temporária (OOF) de um usuário de caixa de correio.
-ms.openlocfilehash: 10edc9809fd72f80c316de1c6688eaedec4f93df
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SetUserOofSettingsRequest contém os argumentos usados para definir as configurações de Out of Office (OOF) de um usuário de caixa de correio.
+ms.openlocfilehash: c6df61eb89e32e7d9b50a8d6ee2918d7283ce4cb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466147"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547075"
 ---
 # <a name="setuseroofsettingsrequest"></a>SetUserOofSettingsRequest
 
-O elemento **SetUserOofSettingsRequest** contém os argumentos usados para definir as configurações de ausência temporária (OOF) de um usuário de caixa de correio. 
+O **elemento SetUserOofSettingsRequest** contém os argumentos usados para definir as configurações Fora de Office (OOF) de um usuário de caixa de correio. 
   
 ```xml
 <SetUserOofSettingsRequest>
@@ -43,12 +43,12 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Caixa de correio (disponibilidade)](mailbox-availability.md) <br/> |Identifica o usuário de caixa de correio para uma solicitação de SetUserOofSettings ou GetUserOofSettings.  <br/> |
-|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações de ausência temporária.  <br/> |
+|[Mailbox (Availability)](mailbox-availability.md) <br/> |Identifica o usuário da caixa de correio para uma solicitação SetUserOofSettings ou GetUserOofSettings.  <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Especifica as configurações OOF.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir de uma solicitação SetUserOofSettings define uma configuração de ausência temporária por dez dias.
+O exemplo a seguir de uma solicitação SetUserOofSettings define uma configuração OOF para dez dias.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

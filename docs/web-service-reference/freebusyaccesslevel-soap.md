@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a287b9c3-7fb6-4f2f-a8dc-15d4bc32394c
-description: O elemento FreeBusyAccessLevel representa a propriedade FreeBusyAccessLevel. O elemento FreeBusyAccessLevel é somente para uso interno. Esse elemento não é usado por clientes.
-ms.openlocfilehash: 7ff0c6c72f924a2f1f8eee0dd152d19f6a8745e9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento FreeBusyAccessLevel representa a propriedade FreeBusyAccessLevel. O elemento FreeBusyAccessLevel é apenas para uso interno. Esse elemento não é usado pelos clientes.
+ms.openlocfilehash: 72ccc93f21596a866346b0fb7e959dfaa2199ddd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460047"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546424"
 ---
 # <a name="freebusyaccesslevel-soap"></a>FreeBusyAccessLevel (SOAP)
 
-O elemento **FreeBusyAccessLevel** representa a propriedade **FreeBusyAccessLevel** . O elemento **FreeBusyAccessLevel** é somente para uso interno. Esse elemento não é usado por clientes. 
+O **elemento FreeBusyAccessLevel** representa a **propriedade FreeBusyAccessLevel.** O **elemento FreeBusyAccessLevel** é apenas para uso interno. Esse elemento não é usado pelos clientes. 
   
 ```XML
 <FreeBusyAccessLevel/>
@@ -43,14 +43,14 @@ Nenhum.
    
 ## <a name="remarks"></a>Comentários
 
-Este elemento Especifica a quantidade máxima de detalhes de disponibilidade que serão retornados na resposta e indica o nível de dados de disponibilidade que é compartilhado externamente. 
+Este elemento especifica a quantidade máxima de detalhes de livre/ocupado que serão retornados na resposta e indica o nível de dados de liberação/ocupado que são compartilhados externamente. 
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Nome do esquema  <br/> |Esquema de descoberta automática  <br/> |
+|Nome do esquema  <br/> |Esquema de Descoberta Automática  <br/> |
 |Arquivo de validação  <br/> |Messages.xsd  <br/> |
 |Pode ser vazio  <br/> |Verdadeiro  <br/> |
    

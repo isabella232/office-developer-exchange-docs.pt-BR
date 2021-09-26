@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18f8c676-0fc0-49ff-9a90-5fd43e7e7e39
-description: O elemento DisplayNameFirstLastSortKey contém a chave de classificação para um nome de exibição no primeiro nome, ordem de sobrenome.
-ms.openlocfilehash: 1cc0241f5e2d0b0d02bc14011e770c95bdc1d6e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DisplayNameFirstLastSortKey contém a chave de classificação para um nome de exibição em nome, ordem de sobrenome.
+ms.openlocfilehash: 94528e72af8b5f4a978ee0bcf2564b250d6195b7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456203"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546627"
 ---
 # <a name="displaynamefirstlastsortkey"></a>DisplayNameFirstLastSortKey
 
-O elemento **DisplayNameFirstLastSortKey** contém a chave de classificação para um nome de exibição no primeiro nome, ordem de sobrenome. 
+O **elemento DisplayNameFirstLastSortKey** contém a chave de classificação para um nome de exibição em nome, ordem de sobrenome. 
   
 ```XML
 <DisplayNameFirstLastSortKey></DisplayNameFirstLastSortKey>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **DisplayNameFirstLastSortKey** é a chave de classificação para o nome de exibição de uma pessoa, em nome, sobrenome ordem. 
+O valor de texto do **elemento DisplayNameFirstLastSortKey** é a chave de classificação para o nome de exibição de uma pessoa, em primeiro nome, ordem de sobrenome. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

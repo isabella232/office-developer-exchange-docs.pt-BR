@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fccdedc0-83ed-4bb7-a1d2-623e70d1a7bf
-description: O elemento SourceID especifica o identificador do contato atribuído em um persona.
-ms.openlocfilehash: a795f9fa2cc2084bee34c82b6df9567c79d430eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento SourceId especifica o identificador do contato atribuído em uma persona.
+ms.openlocfilehash: 7b57044c0a3b4f36199e9e14db8dcfe8ea7126eb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465755"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546977"
 ---
 # <a name="sourceid"></a>SourceId
 
-O elemento **SourceID** especifica o identificador do contato atribuído em um persona. 
+O **elemento SourceId** especifica o identificador do contato atribuído em uma persona. 
   
 ```XML
 <SourceId Id="" ChangeKey=""/>
 ```
 
- **ItemIdtype**
+ **ItemIdType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -32,8 +32,8 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|Id  <br/> |O valor de texto do atributo **ID** é o identificador do contato.  <br/> |
-|ChangeKey  <br/> |O valor de texto do atributo **ChangeKey** é a chave de alteração do contato.  <br/> |
+|Id  <br/> |O valor de texto do **atributo Id** é o identificador do contato.  <br/> |
+|ChangeKey  <br/> |O valor de texto do **atributo ChangeKey** é a chave de alteração do contato.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -41,7 +41,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[Atribuição (PersonaAttributionType)](attribution-personaattributiontype.md)
+[Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
   
 ## <a name="remarks"></a>Comentários
 
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

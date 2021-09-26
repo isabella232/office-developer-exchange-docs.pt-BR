@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 086876cc-e22c-4e89-89f9-19e78af51217
-description: Encontre informações sobre a operação do EWS do GetClientAccessToken.
-ms.openlocfilehash: 2d49d675fcedb0e7e8312a9715f095c47fcf3d77
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Encontre informações sobre a operação GetClientAccessToken EWS.
+ms.openlocfilehash: f5298e29bfb05bda954716680639d00acb98d4df
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462035"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546382"
 ---
 # <a name="getclientaccesstoken-operation"></a>Operação GetClientAccessToken
 
-Encontre informações sobre a operação do EWS do **GetClientAccessToken** . 
+Encontre informações sobre a **operação GetClientAccessToken** EWS. 
   
-A operação **GetClientAccessToken** Obtém um token de acesso para cliente para um aplicativo de email para o Outlook. 
+A **operação GetClientAccessToken** obtém um token de acesso para cliente para um aplicativo de email para Outlook. 
   
 This operation was introduced in Exchange Server 2013.
   
 ## <a name="using-the-getclientaccesstoken-operation"></a>Usando a operação GetClientAccessToken
 
-A solicitação de operação **GetClientAccessToken** aceita dois argumentos obrigatórios: o identificador do aplicativo e o tipo de token. Você pode usar a [operação GetAppManifests](getappmanifests-operation.md) para solicitar o identificador do aplicativo. 
+A solicitação de operação **GetClientAccessToken** requer dois argumentos necessários: o identificador do aplicativo e o tipo de token. Você pode usar a [operação GetAppManifests](getappmanifests-operation.md) para solicitar o identificador do aplicativo. 
   
-### <a name="getclientaccesstoken-operation-soap-headers"></a>Cabeçalhos SOAP de operação GetClientAccessToken
+### <a name="getclientaccesstoken-operation-soap-headers"></a>Headers SOAP da operação GetClientAccessToken
 
-A operação **GetClientAccessToken** pode usar os cabeçalhos SOAP listados na tabela a seguir. 
+A **operação GetClientAccessToken** pode usar os headers SOAP listados na tabela a seguir. 
   
 |**Nome de cabeçalho**|**Elemento**|**Descrição**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Este cabeçalho é aplicável a uma solicitação.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Este cabeçalho é aplicável a uma resposta.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifica a versão do esquema para a solicitação de operação. Esse header é aplicável a uma solicitação.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifica a versão do servidor que respondeu à solicitação. Esse header é aplicável a uma resposta.  <br/> |
    
-## <a name="getclientaccesstoken-operation-request-example-get-a-caller-identity-token"></a>Exemplo de solicitação de operação GetClientAccessToken: obter um token de identidade de chamador
+## <a name="getclientaccesstoken-operation-request-example-get-a-caller-identity-token"></a>Exemplo da solicitação de operação GetClientAccessToken: Obter um token de identidade do chamador
 
-O exemplo a seguir de uma solicitação de operação **GetClientAccessToken** mostra como obter um token de identidade de chamador para um aplicativo. 
+O exemplo a seguir de uma solicitação de operação **GetClientAccessToken** mostra como obter um token de identidade do chamador para um aplicativo. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -70,16 +70,16 @@ O corpo SOAP de solicitação contém os seguintes elementos:
     
 - [TokenRequest](tokenrequest.md)
     
-- [ID (cadeia de caracteres)](id-string.md)
+- [ID (String)](id-string.md)
     
 - [TokenType](tokentype.md)
     
-## <a name="successful-getclientaccesstoken-operation-response"></a>Resposta de operação GetClientAccessToken bem-sucedida
+## <a name="successful-getclientaccesstoken-operation-response"></a>Resposta bem-sucedida da operação GetClientAccessToken
 
-O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetClientAccessToken** para obter um token de identidade de chamador para um aplicativo. 
+O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação de operação **GetClientAccessToken** para obter um token de identidade do chamador para um aplicativo. 
   
 > [!NOTE]
-> Os valores de token neste artigo foram reduzidos para preservar a legibilidade. 
+> Os valores de token neste artigo foram reduzidos para preservar a capacidade de leitura. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -128,7 +128,7 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [Token (ClientAccessTokenType)](token-clientaccesstokentype.md)
     
-- [ID (cadeia de caracteres)](id-string.md)
+- [ID (String)](id-string.md)
     
 - [TokenType (ClientAccessTokenType)](tokentype-clientaccesstokentype.md)
     
@@ -136,9 +136,9 @@ O corpo SOAP de resposta contém os seguintes elementos:
     
 - [TTL (ClientAccessTokenTypeType)](ttl-clientaccesstokentypetype.md)
     
-## <a name="getclientaccesstoken-operation-error-response"></a>Resposta de erro de operação GetClientAccessToken
+## <a name="getclientaccesstoken-operation-error-response"></a>Resposta de erro da operação GetClientAccessToken
 
-O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetClientAccessToken** . Esta é uma resposta a uma solicitação para obter um token de retorno de chamada de extensão sem as permissões apropriadas. 
+O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação **GetClientAccessToken.** Esta é uma resposta a uma solicitação para obter um token de retorno de chamada de extensão sem as permissões apropriadas. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -170,7 +170,7 @@ O exemplo a seguir mostra uma resposta de erro a uma solicitação de operação
 </s:Envelope>
 ```
 
-O corpo SOAP de resposta de erro contém os seguintes elementos:
+O corpo SOAP da resposta de erro contém os seguintes elementos:
   
 - [GetClientAccessTokenResponse](getclientaccesstokenresponse.md)
     
@@ -184,11 +184,11 @@ O corpo SOAP de resposta de erro contém os seguintes elementos:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Para obter códigos de erro adicionais genéricos para o EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
+Para obter códigos de erro adicionais genéricos para EWS e específicos para essa operação, consulte [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Confira também
 
-- [Operações do EWS no Exchange](ews-operations-in-exchange.md)
+- [Operações EWS em Exchange](ews-operations-in-exchange.md)
     
 - [Operação GetAppManifests](getappmanifests-operation.md)
     

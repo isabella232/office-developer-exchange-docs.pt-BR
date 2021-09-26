@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 758d965c-ef63-4de4-9120-e293abf14ff8
 description: A operação GetUserSettings contém uma consulta para a configuração de acesso para cliente dos usuários.
-ms.openlocfilehash: e274fd4e1ca954ea25ea91a52e363c9a434b290a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 79e9d5827cbcc4885c99cf5a497868284dda4494
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466140"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547404"
 ---
 # <a name="getusersettings-operation-soap"></a>Operação GetUserSettings (SOAP)
 
-A operação **GetUserSettings** contém uma consulta para a configuração de acesso para cliente dos usuários. 
+A **operação GetUserSettings** contém uma consulta para a configuração de acesso para cliente dos usuários. 
   
 ## <a name="getusersettings-request-example"></a>Exemplo de solicitação GetUserSettings
 
 ### <a name="description"></a>Descrição
 
-O exemplo de XML a seguir mostra um corpo de solicitação de descoberta automática que solicita o nome de exibição de um usuário, o nome diferenciado, a ID de implantação, o servidor de caixa de correio, o nome diferenciado da caixa de correio, o servidor do Active Directory, a versão do servidor de acesso para cliente e os esquemas
+O exemplo XML a seguir mostra um corpo de solicitação de Descoberta Automática que solicita o nome de exibição de um usuário, o nome diferenciado, a ID de implantação, o servidor de caixa de correio, o nome diferenciado da caixa de correio, o servidor do Active Directory, a versão do servidor de Acesso para Cliente e os esquemas dos Serviços Web com suporte Exchange Web Services.
   
 ### <a name="code"></a>Código
 
@@ -64,31 +64,31 @@ O exemplo de XML a seguir mostra um corpo de solicitação de descoberta automá
 
 ```
 
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados no corpo da solicitação:
   
 - [GetUserSettingsRequestMessage (SOAP)](getusersettingsrequestmessage-soap.md)
     
-- [Caixa de correio (SOAP)](mailbox-soap.md)
+- [Mailbox (SOAP)](mailbox-soap.md)
     
-- [Solicitação (SOAP)](request-soap.md)
+- [Request (SOAP)](request-soap.md)
     
 - [RequestedServerVersion (SOAP)](requestedserverversion-soap.md)
     
 - [RequestedSettings (SOAP)](requestedsettings-soap.md)
     
-- [Configuração (SOAP)](setting-soap.md)
+- [Setting (SOAP)](setting-soap.md)
     
-- [Usuário (SOAP)](user-soap.md)
+- [User (SOAP)](user-soap.md)
     
-- [Usuários (SOAP)](users-soap.md)
+- [Users (SOAP)](users-soap.md)
     
 ## <a name="getusersettings-response-example"></a>Exemplo de resposta GetUserSettings
 
 ### <a name="description"></a>Descrição
 
-O exemplo a seguir mostra uma resposta **GetUserSettings** bem-sucedida. 
+O exemplo a seguir mostra uma **resposta getUserSettings** bem-sucedida. 
   
 ### <a name="code"></a>Código
 
@@ -160,23 +160,23 @@ Os seguintes elementos são usados no corpo da resposta:
     
 - [GetUserSettingsResponseMessage (SOAP)](getusersettingsresponsemessage-soap.md)
     
-- [Nome (SOAP)](name-soap.md)
+- [Name (SOAP)](name-soap.md)
     
 - [RedirectTarget (SOAP)](redirecttarget-soap.md)
     
-- [Resposta (SOAP)](response-soap.md)
+- [Response (SOAP)](response-soap.md)
     
-- [Userresponse (SOAP)](userresponse-soap.md)
+- [UserResponse (SOAP)](userresponse-soap.md)
     
-- [Userresponses (SOAP)](userresponses-soap.md)
+- [UserResponses (SOAP)](userresponses-soap.md)
     
-- [Usersetting (SOAP)](usersetting-soap.md)
+- [UserSetting (SOAP)](usersetting-soap.md)
     
 - [UserSettingErrors (SOAP)](usersettingerrors-soap.md)
     
 - [UserSettings (SOAP)](usersettings-soap.md)
     
-- [Valor (SOAP)](value-soap.md)
+- [Value (SOAP)](value-soap.md)
     
 ## <a name="see-also"></a>Confira também
 
@@ -187,5 +187,5 @@ Os seguintes elementos são usados no corpo da resposta:
 [Operação GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
 
 
-[Elementos XML de descoberta automática SOAP para o Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Elementos XML de Descoberta Automática SOAP para Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

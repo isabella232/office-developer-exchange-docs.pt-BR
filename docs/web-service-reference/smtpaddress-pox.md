@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 984ccd97-c337-47b6-ba42-3405a8b55a71
 description: O elemento SmtpAddress contém o endereço SMTP atribuído ao armazenamento de mensagens de pasta pública configurado para o usuário.
-ms.openlocfilehash: 48703a11fb056967c6c76073c2e928d5f6efa264
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d257b193a3254afceaa72d396a8c2724bb3165c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468639"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546984"
 ---
 # <a name="smtpaddress-pox"></a>SmtpAddress (POX)
 
-O elemento **smtpAddress** contém o endereço SMTP atribuído ao armazenamento de mensagens de pasta pública configurado para o usuário. 
+O **elemento SmtpAddress** contém o endereço SMTP atribuído ao armazenamento de mensagens de pasta pública configurado para o usuário. 
   
-- [Descoberta automática (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [Resposta (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [Conta (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
 - [PublicFolderInformation (POX)](publicfolderinformation-pox.md)
   
@@ -48,17 +48,17 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Contém informações que os clientes podem usar para enviar uma solicitação de descoberta automática para descobrir informações de pasta pública para o usuário.  <br/> |
+|[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Contém informações que os clientes podem usar para enviar uma solicitação de Descoberta Automática para descobrir informações de pasta pública para o usuário.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto representa o endereço SMTP atribuído ao armazenamento de pasta pública configurado para o usuário. Esse endereço SMTP pode ser usado no elemento de [EMailAddress (POX)](emailaddress-pox.md) de uma solicitação de descoberta automática para descobrir as configurações de pasta pública. 
+O valor de texto representa o endereço SMTP atribuído ao armazenamento de pastas públicas configurado para o usuário. Esse endereço SMTP pode ser usado no elemento [EMailAddress (POX)](emailaddress-pox.md) de uma solicitação de Descoberta Automática para descobrir configurações de pasta pública. 
   
 ## <a name="remarks"></a>Comentários
 
-O elemento **smtpAddress** é um elemento filho obrigatório do elemento **PublicFolderInformation** . 
+O **elemento SmtpAddress** é um elemento filho necessário do **elemento PublicFolderInformation.** 
   
 ## <a name="see-also"></a>Confira também
 
-- [Elementos XML de descoberta automática de POX para o Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Elementos XML de Descoberta Automática POX para Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

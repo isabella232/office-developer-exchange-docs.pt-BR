@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserConfiguration
 api_type:
 - schema
 ms.assetid: 4044c0a1-cd88-41ae-9cc4-a7cf2b279094
 description: O elemento GetUserConfiguration representa uma solicitação para obter um objeto de configuração do usuário.
-ms.openlocfilehash: 46a2a5ebbabfc038692a5de83e0a960e05295061
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 43c487edeffa358a222a111e5481eb85516a45db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457708"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547495"
 ---
 # <a name="getuserconfiguration"></a>GetUserConfiguration
 
-O elemento **GetUserConfiguration** representa uma solicitação para obter um objeto de configuração do usuário. 
+O **elemento GetUserConfiguration** representa uma solicitação para obter um objeto de configuração do usuário. 
   
 ```XML
 <GetUserConfiguration>
@@ -43,8 +43,8 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Userconfigurationname](userconfigurationname.md) <br/> |Representa o nome de um objeto de configuração do usuário. Esse elemento deve estar presente em uma solicitação GetUserConfiguration.  <br/> |
-|[Userconfigurationproperties](userconfigurationproperties.md) <br/> |Especifica os tipos de propriedade de configuração do usuário a serem retornados. Esse elemento deve estar presente em uma solicitação GetUserConfiguration.  <br/> |
+|[UserConfigurationName](userconfigurationname.md) <br/> |Representa o nome de um objeto de configuração do usuário. Esse elemento deve estar presente em uma solicitação GetUserConfiguration.  <br/> |
+|[UserConfigurationProperties](userconfigurationproperties.md) <br/> |Especifica os tipos de propriedade de configuração do usuário a retornar. Esse elemento deve estar presente em uma solicitação GetUserConfiguration.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 

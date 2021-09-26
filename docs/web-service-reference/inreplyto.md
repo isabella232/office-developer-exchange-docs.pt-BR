@@ -1,27 +1,27 @@
 ---
-title: Inresponderto
+title: InReplyTo
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InReplyTo
 api_type:
 - schema
 ms.assetid: 561b8941-1c26-4bbe-aa0f-b49ec8a79af5
-description: O elemento InReplyTo representa o identificador do item para o qual este item é uma resposta.
-ms.openlocfilehash: 3dac4f31f1468f942e0da040a482dd272a7655da
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento InReplyTo representa o identificador do item ao qual este item é uma resposta.
+ms.openlocfilehash: 5d77501857666dc89360366cfabd744016b7aec9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467071"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547187"
 ---
-# <a name="inreplyto"></a>Inresponderto
+# <a name="inreplyto"></a>InReplyTo
 
-O elemento **InReplyTo** representa o identificador do item para o qual este item é uma resposta. 
+O **elemento InReplyTo** representa o identificador do item ao qual este item é uma resposta. 
   
 ```xml
 <InReplyTo/>
@@ -44,17 +44,17 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[Contato](contact.md) <br/> |Representa um item de contato do Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
+|[Contato](contact.md) <br/> |Representa um Exchange de contato.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Representa uma lista de distribuição.  <br/> |
-|[Item](item.md) <br/> |Representa um item no repositório do Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no repositório do Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no repositório do Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no repositório do Exchange.  <br/> |
-|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma mensagem de email do Exchange.  <br/> |
-|[RemoveItem](removeitem.md) <br/> |Remove um item do repositório do Exchange.  <br/> |
-|[Tarefa](task.md) <br/> |Representa uma tarefa no repositório do Exchange.  <br/> |
+|[Item](item.md) <br/> |Representa um item no Exchange store.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Representa um cancelamento de reunião no Exchange store.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Representa uma reunião no Exchange store.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma solicitação de reunião no Exchange store.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Representa uma resposta de reunião no Exchange store.  <br/> |
+|[Mensagem](message-ex15websvcsotherref.md) <br/> |Representa uma Exchange de email.  <br/> |
+|[RemoveItem](removeitem.md) <br/> |Remove um item do Exchange store.  <br/> |
+|[Tarefa](task.md) <br/> |Representa uma tarefa no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -70,7 +70,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

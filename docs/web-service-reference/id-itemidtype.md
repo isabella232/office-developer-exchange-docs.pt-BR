@@ -1,29 +1,29 @@
 ---
-title: ID (ItemIdtype)
+title: ID (ItemIdType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9909ed2-fdc5-4b1f-b7db-1f517add8eb3
-description: O elemento ID especifica o identificador de um item.
-ms.openlocfilehash: bc4ffa91f9375b33e89fa4e03b2a1d6a7974dc44
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Id especifica o identificador de um item.
+ms.openlocfilehash: 5b153dbd62fc0231470b70087047700e8eab92cf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459318"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547264"
 ---
-# <a name="id-itemidtype"></a>ID (ItemIdtype)
+# <a name="id-itemidtype"></a>ID (ItemIdType)
 
-O elemento **ID** especifica o identificador de um item. 
+O **elemento Id** especifica o identificador de um item. 
   
 ```XML
 <Id Id="" ChangeKey=""/>
 ```
 
- **ItemIdtype**
+ **ItemIdType**
 ## <a name="attributes-and-elements"></a>Atributos e elementos
 
 As seções a seguir descrevem os atributos, os elementos filhos e os elementos pai.
@@ -32,8 +32,8 @@ As seções a seguir descrevem os atributos, os elementos filhos e os elementos 
 
 |**Atributo**|**Descrição**|
 |:-----|:-----|
-|Id  <br/> |O valor de texto do atributo **ID** é o identificador do item.  <br/> |
-|ChangeKey  <br/> |O valor de texto do atributo **ChangeKey** é a chave de alteração do item.  <br/> |
+|Id  <br/> |O valor de texto do **atributo Id** é o identificador do item.  <br/> |
+|ChangeKey  <br/> |O valor de texto **do atributo ChangeKey** é a chave de alteração do item.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -55,7 +55,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

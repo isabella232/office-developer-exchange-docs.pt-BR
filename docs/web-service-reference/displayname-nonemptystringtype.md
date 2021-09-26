@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 283322f9-8022-4e8b-a7e2-d5521cda00f4
 description: O elemento DisplayName contém o nome de exibição de um novo contato de grupo de mensagens instantâneas ou o nome de exibição de um novo grupo de mensagens instantâneas.
-ms.openlocfilehash: 0b1dff63583c5b449980288134fb83c0256e2e8c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1fc82a7472e43c31d774bbcc260bdf9c96b908c8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463661"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547523"
 ---
 # <a name="displayname-nonemptystringtype"></a>DisplayName (NonEmptyStringType)
 
-O elemento **DisplayName** contém o nome de exibição de um novo contato de grupo de mensagens instantâneas ou o nome de exibição de um novo grupo de mensagens instantâneas. 
+O **elemento DisplayName** contém o nome de exibição de um novo contato de grupo de mensagens instantâneas ou o nome de exibição de um novo grupo de mensagens instantâneas. 
   
 ```XML
 <DisplayName></DisplayName>
@@ -38,11 +38,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[AddDistributionGroupToImList](adddistributiongrouptoimlist.md)  |  [AddImGroup](addimgroup.md)  |  [AddNewImContactToGroup](addnewimcontacttogroup.md)  |  [Imgroup](imgroup.md)
+[AddDistributionGroupToImList](adddistributiongrouptoimlist.md)  |  [AddImGroup](addimgroup.md)  |  [AddNewImContactToGroup](addnewimcontacttogroup.md)  |  [ImGroup](imgroup.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **DisplayName** é o nome de exibição de um novo contato de grupo de mensagens instantâneas ou o nome de exibição de um novo grupo de mensagens instantâneas. 
+O valor de texto do **elemento DisplayName** é o nome de exibição de um novo contato de grupo de mensagens instantâneas ou o nome de exibição de um novo grupo de mensagens instantâneas. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

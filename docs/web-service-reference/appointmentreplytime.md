@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AppointmentReplyTime
 api_type:
 - schema
 ms.assetid: 7784468c-c863-488a-864b-ce4d6c671dbe
-description: O elemento AppointmentReplyTime representa a data e hora em que um participante respondeu a uma solicitação de reunião.
-ms.openlocfilehash: 188cd5fbaaefa52e4324143a2ee89ae8dbca7742
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AppointmentReplyTime representa a data e a hora em que um participante respondeu a uma solicitação de reunião.
+ms.openlocfilehash: 27dee0034178487eadfcb35d0d2536f5111c38c8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463493"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546711"
 ---
 # <a name="appointmentreplytime"></a>AppointmentReplyTime
 
-O elemento **AppointmentReplyTime** representa a data e hora em que um participante respondeu a uma solicitação de reunião. 
+O **elemento AppointmentReplyTime** representa a data e a hora em que um participante respondeu a uma solicitação de reunião. 
   
 ```xml
 <AppointmentReplyTime/>
@@ -44,8 +44,8 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |Representa um item de calendário do Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no repositório do Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Representa um Exchange de calendário.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Representa uma reunião no Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
@@ -61,7 +61,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do E
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

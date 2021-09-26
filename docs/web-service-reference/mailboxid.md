@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bcef790d-094f-40ba-b4cf-8abd9c79cc7a
-description: O elemento Mailboxid especifica um identificador para a caixa de correio acessada pela pesquisa de descoberta.
-ms.openlocfilehash: 7ec43492010dfb54f3e847d037425f9ed919559c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento MailboxId especifica um identificador para a caixa de correio acessada pela pesquisa de descoberta.
+ms.openlocfilehash: 5f9d39339e9d54476efa025622d117be0f8219a5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466364"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547131"
 ---
 # <a name="mailboxid"></a>MailboxId
 
-O elemento **mailboxid** especifica um identificador para a caixa de correio acessada pela pesquisa de descoberta. 
+O **elemento MailboxId** especifica um identificador para a caixa de correio acessada pela pesquisa de descoberta. 
   
 ```XML
 <MailboxId></MailboxId>
@@ -39,11 +39,11 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-[MailboxStat](mailboxstat.md)  |  [Caixa de correio (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md)
+[MailboxStat](mailboxstat.md)  |  [Caixa de Correio (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md)
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **mailboxid** é o identificador de caixa de correio de uma caixa de correio acessada para pesquisa de descoberta. 
+O valor de texto do elemento **MailboxId** é o identificador de caixa de correio de uma caixa de correio acessada para pesquisa de descoberta. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,7 +57,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteAttachment
 api_type:
 - schema
 ms.assetid: 4d48e595-b98c-48e7-bbeb-cacf91d12a78
-description: A operação DeleteAttachment é usada para excluir anexos de arquivo e de item de um item existente no repositório do Exchange.
-ms.openlocfilehash: 1d34ce4c5ba1d955989a35dafb8ab3c5d229d505
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: A operação DeleteAttachment é usada para excluir anexos de arquivo e item de um item existente no Exchange store.
+ms.openlocfilehash: bd08776e1f4e75204819ef5463e297e3770a34a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457330"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546683"
 ---
 # <a name="deleteattachment-operation"></a>Operação DeleteAttachment
 
-A operação DeleteAttachment é usada para excluir anexos de arquivo e de item de um item existente no repositório do Exchange.
+A operação DeleteAttachment é usada para excluir anexos de arquivo e item de um item existente no Exchange store.
   
 ## <a name="remarks"></a>Comentários
 
@@ -54,9 +54,9 @@ O exemplo a seguir de uma solicitação DeleteAttachment mostra como excluir um 
 
 ### <a name="comments"></a>Comentários
 
-O identificador de anexo foi reduzido para preservar a legibilidade.
+O identificador de anexo foi reduzido para preservar a capacidade de leitura.
   
-### <a name="request-elements"></a>Elementos Request
+### <a name="request-elements"></a>Elementos request
 
 Os seguintes elementos são usados na solicitação:
   
@@ -64,7 +64,7 @@ Os seguintes elementos são usados na solicitação:
     
 - [AttachmentIds](attachmentids.md)
     
-- [Attachmentid](attachmentid.md)
+- [AttachmentId](attachmentid.md)
     
 ## <a name="deleteattachment-response-example"></a>Exemplo de resposta DeleteAttachment
 
@@ -100,12 +100,12 @@ O exemplo a seguir mostra uma resposta bem-sucedida a uma solicitação DeleteAt
 
 ### <a name="comments"></a>Comentários
 
-A operação CreateAttachment retorna um elemento do tipo AttachmentIdType que inclui um **RootItemId** e **RootItemChangeKey**. Esses atributos não são permitidos para identificadores dentro de uma solicitação DeleteAttachment. DeleteAttachment usa elementos do tipo RequestAttachmentIdType, que não inclui esses atributos.
+A operação CreateAttachment retorna um elemento do tipo AttachmentIdType que inclui **um RootItemId** e **RootItemChangeKey**. Esses atributos não são permitidos para identificadores em uma solicitação DeleteAttachment. DeleteAttachment usa elementos do tipo RequestAttachmentIdType, que não inclui esses atributos.
   
 A resposta DeleteAttachment inclui a ID do item pai. Quando os anexos são removidos de um item, a chave de alteração do item é modificada. A nova chave de alteração de item pode ser obtida da resposta DeleteAttachment.
   
 > [!NOTE]
-> O identificador [RootItemId](rootitemid.md) e o ChangeKey foram reduzidos para preservar a legibilidade. 
+> O [identificador RootItemId](rootitemid.md) e ChangeKey foram reduzidos para preservar a capacidade de leitura. 
   
 ### <a name="successful-response-elements"></a>Elementos de resposta bem-sucedidos
 

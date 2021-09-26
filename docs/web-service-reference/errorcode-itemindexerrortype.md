@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6d3bdb41-96e3-48da-ab82-12ada3b8f56a
-description: O elemento ErrorCode é destinado apenas para uso interno.
-ms.openlocfilehash: 6659a56d9001a8be08df4984ff2b8ef738dc6938
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento ErrorCode destina-se apenas ao uso interno.
+ms.openlocfilehash: cfd0081c48c69113acc97585b9ea34624d0f5e7b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460656"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546564"
 ---
 # <a name="errorcode-itemindexerrortype"></a>ErrorCode (ItemIndexErrorType)
 
-O elemento **ErrorCode** é destinado apenas para uso interno. 
+O **elemento ErrorCode** destina-se apenas ao uso interno. 
 
 **ItemIndexErrorType**
 
@@ -35,7 +35,7 @@ Nenhum.
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -49,7 +49,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ForwardToRecipients
 api_type:
 - schema
 ms.assetid: dd58fd72-591d-4891-b226-465bcf12c19b
 description: O elemento ForwardToRecipients indica os endereços de email para os quais as mensagens devem ser encaminhadas.
-ms.openlocfilehash: d565fa9f59794a4e10e91b05a507354a2f6ef0c9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8fcf93f01493fb558ed3c0a1982387dae101e598
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458317"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546438"
 ---
 # <a name="forwardtorecipients"></a>ForwardToRecipients
 
-O elemento **ForwardToRecipients** indica os endereços de email para os quais as mensagens devem ser encaminhadas. 
+O **elemento ForwardToRecipients** indica os endereços de email para os quais as mensagens devem ser encaminhadas. 
   
 ```XML
 <ForwardToRecipients>
@@ -42,13 +42,13 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Endereço (EmailAddresstype)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
+|[Address (EmailAddressType)](address-emailaddresstype.md) <br/> |Representa um endereço de email totalmente resolvido.  <br/> |
    
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem realizadas em uma mensagem quando as condições forem atendidas.  <br/> |
+|[Actions](actions.md) <br/> |Representa o conjunto de ações que estão disponíveis para serem tomadas em uma mensagem quando as condições são atendidas.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 

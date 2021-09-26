@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12ba4528-60e9-4c0a-a5b2-eed3a2cb1509
 description: O elemento GetUserRetentionPolicyTagsResponse contém a resposta a uma solicitação GetRetentionPolicyTags.
-ms.openlocfilehash: a8cfdc1aaaf47f3a66e541537381edf92bb024a9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1e589c12b7ec242015b4b721933c053aa797b642
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530822"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547411"
 ---
 # <a name="getuserretentionpolicytagsresponse"></a>GetUserRetentionPolicyTagsResponse
 
-O elemento [GetUserRetentionPolicyTagsResponse](getuserretentionpolicytagsresponse.md) contém a resposta a uma solicitação **GetRetentionPolicyTags** . 
+O [elemento GetUserRetentionPolicyTagsResponse](getuserretentionpolicytagsresponse.md) contém a resposta a uma **solicitação GetRetentionPolicyTags.** 
   
 ```XML
 <GetUserRetentionPolicyTagsResponse>
@@ -44,7 +44,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

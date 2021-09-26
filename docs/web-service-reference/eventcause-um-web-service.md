@@ -1,30 +1,30 @@
 ---
-title: EventCause (serviço Web da UM)
+title: EventCause (serviço Web de Unificação de Mensagens)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EventCause
 api_type:
 - schema
 ms.assetid: 7b3c1db8-cad4-4050-a50d-b06f065db530
-description: O elemento EventCause contém um valor que indica a causa de um evento de chamada em uma resposta a uma solicitação de operação do GetCallInfo (serviço Web da UM).
-ms.openlocfilehash: 9d49fd4b16236d0dd87889fbbd039f2e271a5968
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento EventCause contém um valor que indica a causa de um evento de chamada em uma resposta a uma solicitação de operação GetCallInfo (serviço Web de UM).
+ms.openlocfilehash: 203cefa1a70294bec4d6f4b41aa157da6e639fce
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458674"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546571"
 ---
-# <a name="eventcause-um-web-service"></a>EventCause (serviço Web da UM)
+# <a name="eventcause-um-web-service"></a>EventCause (serviço Web de Unificação de Mensagens)
 
-O elemento **EventCause** contém um valor que indica a causa de um evento de chamada em uma resposta a uma solicitação de [operação do GetCallInfo (serviço Web da um)](getcallinfo-operation-um-web-service.md) . 
+O **elemento EventCause** contém um valor que indica a causa de um evento de chamada em uma resposta a uma solicitação de operação [GetCallInfo (serviço Web](getcallinfo-operation-um-web-service.md) de UM). 
   
-[GetCallInfoResponse (serviço Web da UM)](getcallinforesponse-um-web-service.md)
+[GetCallInfoResponse (serviço Web de Unificação de Mensagens)](getcallinforesponse-um-web-service.md)
   
-[EventCause (serviço Web da UM)](eventcause-um-web-service.md)
+[EventCause (serviço Web de Unificação de Mensagens)](eventcause-um-web-service.md)
   
 ```xml
 <GetCallInfoResponse>
@@ -49,17 +49,17 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[GetCallInfoResponse (serviço Web da UM)](getcallinforesponse-um-web-service.md) <br/> |Define uma resposta a uma solicitação de [operação do GetCallInfo (serviço Web da um)](getcallinfo-operation-um-web-service.md) .  <br/> |
+|[GetCallInfoResponse (serviço Web de Unificação de Mensagens)](getcallinforesponse-um-web-service.md) <br/> |Define uma resposta a uma [solicitação de operação GetCallInfo (serviço Web de UM).](getcallinfo-operation-um-web-service.md)  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto é obrigatório. Veja a seguir os valores possíveis:
+Um valor de texto é necessário. Veja a seguir os valores possíveis:
   
 - Nenhum
     
-- Userbusy
+- UserBusy
     
-- NOANSWER
+- NoAnswer
     
 - Outros
     
@@ -76,7 +76,7 @@ Um valor de texto é obrigatório. Veja a seguir os valores possíveis:
 
 
 
-[Operação GetCallInfo (serviço Web da UM)](getcallinfo-operation-um-web-service.md)
+[Operação GetCallInfo (serviço Web de Unificação de Mensagens)](getcallinfo-operation-um-web-service.md)
   
-[GetCallInfoResponse (serviço Web da UM)](getcallinforesponse-um-web-service.md)
+[GetCallInfoResponse (serviço Web de Unificação de Mensagens)](getcallinforesponse-um-web-service.md)
 

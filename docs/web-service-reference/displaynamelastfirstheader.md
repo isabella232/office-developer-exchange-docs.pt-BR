@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ca77431e-2d6c-48e0-a20e-e8616c6fa157
-description: O elemento DisplayNameLastFirstHeader especifica o cabeçalho para o nome de exibição, primeiro nome.
-ms.openlocfilehash: 4987ace53b3ad6ecabed7644071436777fb3b926
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento DisplayNameLastFirstHeader especifica o header para o nome de exibição, sobrenome primeiro.
+ms.openlocfilehash: eec9fe4de3a145b36423f123944972ea241e00d4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463143"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547516"
 ---
 # <a name="displaynamelastfirstheader"></a>DisplayNameLastFirstHeader
 
-O elemento **DisplayNameLastFirstHeader** especifica o cabeçalho para o nome de exibição, primeiro nome. 
+O **elemento DisplayNameLastFirstHeader** especifica o header para o nome de exibição, sobrenome primeiro. 
   
 ```xml
 <DisplayNameLastFirstHeader></DisplayNameLastFirstHeader>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **DisplayNameLastFirstHeader** é um valor String que especifica o nome de exibição, sobrenome primeiro. 
+O valor de texto do **elemento DisplayNameLastFirstHeader** é um valor de cadeia de caracteres que especifica o nome de exibição, sobrenome primeiro. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

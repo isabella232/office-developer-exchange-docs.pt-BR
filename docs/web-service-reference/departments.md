@@ -1,23 +1,23 @@
 ---
-title: Exiba
+title: Departments
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0a6b0a4-f0dd-4945-af69-628da93f5452
-description: O elemento departamentos especifica uma matriz de nomes de departamento e os identificadores de suas atribuições de origem para o persona associado.
-ms.openlocfilehash: 17590793e00a914cb53b479994bcc89e37bb0e31
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento Departments especifica uma matriz de nomes de departamento e os identificadores de suas atribuições de origem para a persona associada.
+ms.openlocfilehash: 9c0cc12777b03d7fa8499579907f4ba2184931e7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546662"
 ---
-# <a name="departments"></a>Exiba
+# <a name="departments"></a>Departments
 
-O elemento **departamentos** especifica uma matriz de nomes de departamento e os identificadores de suas atribuições de origem para o persona associado. 
+O **elemento Departments** especifica uma matriz de nomes de departamento e os identificadores de suas atribuições de origem para a persona associada. 
   
 ```XML
 <Departments>
@@ -44,7 +44,7 @@ Nenhum
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados persona retornados por uma solicitação **Getpersona** .  <br/> |
+|[Pessoal](persona.md) <br/> |Especifica um conjunto de dados de persona retornados por uma **solicitação GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

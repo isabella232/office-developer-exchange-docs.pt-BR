@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InternalId
 api_type:
 - schema
 ms.assetid: c179db1a-95c9-40da-bd3f-0bed548c0325
 description: O elemento InternalId representa um valor inteiro para a identificação do evento.
-ms.openlocfilehash: 66d5852e104de843911b46a225154ebd991e2220
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5a1f84fcaa599f5dc2cdf38dd3edeb3d32eb7388
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459935"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547138"
 ---
 # <a name="internalid"></a>InternalId
 
-O elemento **InternalId** representa um valor inteiro para a identificação do evento. 
+O **elemento InternalId** representa um valor inteiro para a identificação do evento. 
   
 ```XML
 <InternalId/>
@@ -60,7 +60,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nome do esquema  <br/> |Esquema de tipos  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Arquivo de validação  <br/> |Types.xsd  <br/> |
 |Pode ser vazio  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Confira também

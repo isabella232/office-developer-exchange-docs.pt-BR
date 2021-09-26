@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1a1c5fa-9e1e-4ee7-bb19-77c29b47ecbb
 description: O elemento AddNewImContactToGroupResponse define uma resposta a uma solicitação AddNewImContactToGroup.
-ms.openlocfilehash: 6c8f0f2330e4394a7657ddeef0df93f1c75c7001
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4e72a0683b2860b87c3dee6645b4ca7cf8840e58
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467708"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546802"
 ---
 # <a name="addnewimcontacttogroupresponse"></a>AddNewImContactToGroupResponse
 
-O elemento **AddNewImContactToGroupResponse** define uma resposta a uma solicitação **AddNewImContactToGroup** . 
+O **elemento AddNewImContactToGroupResponse** define uma resposta a **uma solicitação AddNewImContactToGroup.** 
   
 ```XML
 <AddNewImContactToGroupResponse>
@@ -44,7 +44,7 @@ Nenhum
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> |falso  <br/> |
    
 

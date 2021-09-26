@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54f45774-00a0-4392-af1b-8c5f2208a53f
-description: O elemento InPlaceHoldIdentity especifica a identidade de uma retenção que preserva os itens da caixa de correio.
-ms.openlocfilehash: a06f72e478e7dc5bd1a499dceefeb352b14d7362
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento InPlaceHoldIdentity especifica a identidade de uma reter que preserva os itens de caixa de correio.
+ms.openlocfilehash: 0a5f02b908adf49328461c6e3676dab3698879c3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466091"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547208"
 ---
 # <a name="inplaceholdidentity"></a>InPlaceHoldIdentity
 
-O elemento **InPlaceHoldIdentity** especifica a identidade de uma retenção que preserva os itens da caixa de correio. 
+O **elemento InPlaceHoldIdentity** especifica a identidade de uma reter que preserva os itens de caixa de correio. 
   
 ```XML
 <InPlaceHoldIdentity></InPlaceHoldIdentity>
@@ -42,7 +42,7 @@ Nenhum.
   
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento **InPlaceHoldIdentity** é o identificador de retenção de caixa de correio. 
+O valor de texto do **elemento InPlaceHoldIdentity** é o identificador de espera de caixa de correio. 
   
 ## <a name="remarks"></a>Comentários
 

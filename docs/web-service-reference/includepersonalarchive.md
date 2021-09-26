@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b373bb1a-6b1d-4959-98a1-4c4ea62973bc
-description: O elemento IncludePersonalArchive especifica se é para incluir o arquivo morto pessoal na pesquisa.
-ms.openlocfilehash: a25dd45bc0717af8f949d14b88793af3821ca69f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento IncludePersonalArchive especifica se o arquivo pessoal deve ser incluído na pesquisa.
+ms.openlocfilehash: 2567475fbb2542c7d01e651f2d348f6f91d50b78
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458247"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547215"
 ---
 # <a name="includepersonalarchive"></a>IncludePersonalArchive
 
-O elemento **IncludePersonalArchive** especifica se é para incluir o arquivo morto pessoal na pesquisa. 
+O **elemento IncludePersonalArchive** especifica se o arquivo pessoal deve ser incluído na pesquisa. 
   
 ```XML
 <IncludePersonalArchive>true | false</IncludePersonalArchive>
@@ -44,7 +44,7 @@ Nenhum.
    
 ## <a name="text-value"></a>Valor de texto
 
-Um valor de texto **true** para o elemento **IncludePersonalArchive** indica que o arquivo morto pessoal está incluído na pesquisa. Um valor **false** indica que o arquivo morto pessoal não está incluído na pesquisa. 
+Um valor de texto **true** para **o elemento IncludePersonalArchive** indica que o arquivo morto pessoal está incluído na pesquisa. Um valor **false** indica que o arquivo morto pessoal não está incluído na pesquisa. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nome do esquema  <br/> |Esquema de mensagens  <br/> |
-|Arquivo de validação  <br/> |messages. xsd  <br/> |
+|Arquivo de validação  <br/> |messages.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também

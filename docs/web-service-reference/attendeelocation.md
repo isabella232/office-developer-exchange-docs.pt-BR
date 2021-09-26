@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1344a087-88ea-472a-bebf-9b45245592fb
-description: O elemento AttendeeLocation especifica o local de um participante para um item do calendário.
-ms.openlocfilehash: 34a4ee8ea5f4c59cce6eebd8977bd4733f7c7134
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: O elemento AttendeeLocation especifica o local de um participante para um item de calendário.
+ms.openlocfilehash: a6b1da631b6f26a24f6a908f63e1292d8f95984f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460341"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547551"
 ---
 # <a name="attendeelocation"></a>AttendeeLocation
 
-O elemento **AttendeeLocation** especifica o local de um participante para um item do calendário. 
+O **elemento AttendeeLocation** especifica o local de um participante para um item de calendário. 
   
 ```XML
 <AttendeeLocation></AttendeeLocation>
@@ -40,11 +40,11 @@ Nenhum.
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|[LocationBasedStateDefinition](locationbasedstatedefinition.md) <br/> |Especifica o estado quando é baseado no local.  <br/> |
+|[LocationBasedStateDefinition](locationbasedstatedefinition.md) <br/> |Especifica o estado quando ele se baseia no local.  <br/> |
    
 ## <a name="text-value"></a>Valor de texto
 
-O valor de texto do elemento AttendeeLocation é o local da isficação de participantes.
+O valor de texto do elemento AttendeeLocation é o local do participante.
   
 ## <a name="remarks"></a>Comentários
 
@@ -57,8 +57,8 @@ O esquema que descreve este elemento está localizado no diretório virtual do I
 |||
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nome do esquema  <br/> |Esquema de tipo  <br/> |
-|Arquivo de validação  <br/> |Types. xsd  <br/> |
+|Nome do esquema  <br/> |Tipo de esquema  <br/> |
+|Arquivo de validação  <br/> |types.xsd  <br/> |
 |Pode estar vazio  <br/> ||
    
 ## <a name="see-also"></a>Confira também
