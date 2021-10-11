@@ -1,19 +1,19 @@
 ---
 title: Criar um agente de transporte RoutingAgent para Exchange 2013
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 09/21/2021
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3f0e745f-9289-4f31-8877-926692a8c133
 description: Saiba como criar um agente de transporte RoutingAgent personalizado a ser usado com Exchange 2013.
-ms.openlocfilehash: 70dbfc3c25e18195bb4b42fd3e750da11b0423d6
-ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
+ms.openlocfilehash: 89c70e7d021b9b2cc46f65ee3bbff334430fecc7
+ms.sourcegitcommit: f13a3a4a61fa23ca6414b7c96ddf087adbe3dc9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59534171"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60262208"
 ---
 # <a name="create-a-routingagent-transport-agent-for-exchange-2013"></a>Criar um agente de transporte RoutingAgent para Exchange 2013
 
@@ -23,9 +23,9 @@ Saiba como criar um agente de transporte RoutingAgent personalizado a ser usado 
   
 Trechos de código relacionados e aplicativos de exemplo:
 
-- [Exchange 2013: criar um agente de transporte de log de largura de banda](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
+- [Exchange 2013: criar um agente de transporte de log de largura de banda](/exchange/client-developer/transport-agents/transport-agent-code-samples-for-exchange-2013.md)
   
-As [classes RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) e [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) são as classes base para agentes de transporte que foram projetadas para ser executados no serviço de transporte em um servidor de Caixa de Correio Exchange Server 2013. A [classe RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) fornece os eventos listados na tabela a seguir para a qual você pode implementar manipuladores em seu agente de transporte RoutingAgent. 
+As [classes RoutingAgentFactory](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564164(v=exchg.150)) e [RoutingAgent](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564421(v=exchg.150)) são as classes base para agentes de transporte que foram projetadas para ser executados no serviço de transporte em um servidor de Caixa de Correio Exchange Server 2013. A [classe RoutingAgent](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564421(v=exchg.150)) fornece os eventos listados na tabela a seguir para a qual você pode implementar manipuladores em seu agente de transporte RoutingAgent. 
   
 **Tabela 1. Eventos de classe RoutingAgent**
 

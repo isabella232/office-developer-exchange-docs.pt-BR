@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4b84d670-74c9-4d6d-84e7-f0a9f76f0d93
 description: O elemento ResponseCode fornece informações de status sobre a solicitação.
-ms.openlocfilehash: 9d662ee93870c2aabe045d801222deb881d0a28b
-ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
+ms.openlocfilehash: fc328ffde3a21add77ce6870a87bc7092f3f46ab
+ms.sourcegitcommit: f13a3a4a61fa23ca6414b7c96ddf087adbe3dc9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59512384"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60262215"
 ---
 # <a name="responsecode"></a>ResponseCode
 
@@ -180,6 +180,7 @@ Um valor de texto será necessário se esse elemento for usado. A tabela a segui
 |ErrorClientIntentInvalidStateDefinition  <br/> |Esse erro destina-se apenas ao uso interno.  <br/> |
 |ErrorClientIntentNotFound  <br/> |Esse erro destina-se apenas ao uso interno.  <br/> |
 |ErrorConnectionFailed  <br/> |Esse erro ocorre quando Exchange Web Services não podem se conectar à caixa de correio.  <br/> |
+|ErrorConnectionFailedTransientError  <br/> |Esse erro ocorre quando Exchange Web Services não podem se conectar à caixa de correio. Este código de erro indica um erro transitório. Os clientes podem tentar novamente se conectar ao servidor quando esse erro for recebido. <br/> |
 |ErrorContainsFilterWrongType  <br/> |Este erro indica que a propriedade inspecionada por um filtro Contains não é um tipo de cadeia de caracteres.  <br/> |
 |ErrorContentConversionFailed  <br/> |A **operação GetItem** retorna esse erro quando Exchange Web Services não consegue recuperar o conteúdo MIME do item solicitado. <br/><br/>A **operação CreateItem** retorna esse erro quando Exchange Web Services não consegue criar o item do conteúdo MIME fornecido. Normalmente, isso é uma indicação de que a propriedade item está corrompida ou truncada.  <br/> |
 |ErrorContentIndexingNotEnabled  <br/> |Esse erro ocorre quando uma solicitação de pesquisa é feita usando a opção QueryString e a indexação de conteúdo não está habilitada para a caixa de correio de destino.  <br/> |
